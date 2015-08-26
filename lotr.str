@@ -16200,7 +16200,7 @@ CONTROLBAR:ToolTipSpecialAbilityEntFindRock
 END
 
 CONTROLBAR:tooltipCommand_ToggleEntRockThrow
-"Toggle Rock-Throw Mode"
+"Toggle Rock-Throw Mode [&T]"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk
