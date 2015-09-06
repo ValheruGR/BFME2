@@ -1,4 +1,5 @@
 
+		
 	Draw = W3DScriptedModelDraw ModuleTag_01
   	  
 		OkToChangeModelColor		= Yes
