@@ -22,6 +22,11 @@
 			Model				= MUCavTroll_DISA
 			RetainSubObjects	= Yes
 		End
+		  ModelConditionState        = USER_4
+            Model               = mucavtrlU_skn ; ; 
+           WeaponLaunchBone = PRIMARY Firepoint
+		   RetainSubObjects	= Yes
+        End
 
 		IdleAnimationState
 			StateName				= Idle
@@ -159,9 +164,14 @@
 			End
 		End
 
+	
 		ModelConditionState = STONED 
 			Model			= muctrlbtp_skn   ; ; MuCavTroll_SKN
 			Texture			= MuCavTroll.tga MUCavTroll_R.tga
+			Texture			= mucavtrolla1.tga MUCavTroll_R.tga
+			Texture			= mucavtrollb1.tga MUCavTroll_R.tga
+			Texture			= mucavtrollc1.tga MUCavTroll_R.tga
+			
 		End 		
 
 		AnimationState		= STONED
