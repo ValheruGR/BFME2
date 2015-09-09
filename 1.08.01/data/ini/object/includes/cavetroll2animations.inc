@@ -1,12 +1,11 @@
-
-	Draw = W3DScriptedModelDraw ModuleTag_01
+Draw = W3DScriptedModelDraw ModuleTag_01
   	  
 		OkToChangeModelColor		= Yes
 		ShowShadowWhileContained	= Yes
 		StaticModelLODMode			= yes							;// Will append M or L to the skin name depending on GameLOD
 
 		ExtraPublicBone				= TRUNK01
-
+	
 		DefaultModelConditionState
 			Model = muctrlbtp_skn ; ; MuCavTroll_SKN
 			WeaponLaunchBone = PRIMARY Firepoint
