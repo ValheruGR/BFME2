@@ -14,7 +14,7 @@
 		End
 		
 		LodOptions							= HIGH
-			AllowMultipleModels				= ALLOW_MULTIPLE_MODELS_HIGH
+			;;AllowMultipleModels				= ALLOW_MULTIPLE_MODELS_HIGH
 			MaxRandomTextures				= MAX_RANDOM_TEXTURES_HIGH
 			MaxRandomAnimations				= MAX_RANDOM_ANIMATIONS_HIGH
 			MaxAnimFrameDelta				= MAX_ANIM_FRAME_DELTA_HIGH
