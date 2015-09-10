@@ -1,4 +1,4 @@
-	Draw = W3DScriptedModelDraw ModuleTag_01
+	Draw = W3DScriptedModelDraw ModuleTag_013
   	  
 		OkToChangeModelColor		= Yes
 		ShowShadowWhileContained	= Yes
@@ -7,7 +7,7 @@
 		ExtraPublicBone				= TRUNK01
 
 		DefaultModelConditionState
-			Model = muctrlbtp2_skn ; ; MuCavTroll_SKN
+			Model = mucvtbt2_skn ;  ;muctrlbtp2_skn ; ; MuCavTroll_SKN
 			WeaponLaunchBone = PRIMARY Firepoint
 		End
 
@@ -21,10 +21,10 @@
 			Model				= MUCavTroll_DISA
 			RetainSubObjects	= Yes
 		End
-		 ModelConditionState        = USER_4
-            Model               = mucavtrlU2_skn ; ; 
+		  ModelConditionState        = USER_4
+            Model               = muctvbtu2_skn
            WeaponLaunchBone = PRIMARY Firepoint
-		   RetainSubObjects = Yes
+		   RetainSubObjects	= Yes
         End
 
 		IdleAnimationState
@@ -154,7 +154,7 @@
 		End
 
 		ModelConditionState = DYING
-			Model =  muctrlbtp2_skn ; ; MuCavTroll_SKN		
+			Model = MuCavTroll_SKN		
 		End
 		AnimationState = DYING
 			Animation
@@ -163,9 +163,8 @@
 			End
 		End
 
-		
 		ModelConditionState = STONED 
-			Model			= muctrlbtp2_skn   ; ; MuCavTroll_SKN
+			Model			= muctrlbtp_skn   ; ; MuCavTroll_SKN
 			Texture			= MuCavTroll.tga MUCavTroll_R.tga
 			Texture			= mucavtrolla1.tga MUCavTroll_R.tga
 			Texture			= mucavtrollb1.tga MUCavTroll_R.tga

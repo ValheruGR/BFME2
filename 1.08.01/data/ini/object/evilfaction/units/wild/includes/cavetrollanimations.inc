@@ -1,6 +1,4 @@
-
-		
-	Draw = W3DScriptedModelDraw ModuleTag_01
+	Draw = W3DScriptedModelDraw ModuleTag_0111
   	  
 		OkToChangeModelColor		= Yes
 		ShowShadowWhileContained	= Yes
@@ -23,6 +21,14 @@
 			Model				= MUCavTroll_DISA
 			RetainSubObjects	= Yes
 		End
+		
+		  ModelConditionState        = USER_4
+            Model               = muctvbtu_skn ; ; 
+			WeaponLaunchBone = PRIMARY Firepoint
+			RetainSubObjects = Yes
+           
+        End
+
 
 		IdleAnimationState
 			StateName				= Idle
