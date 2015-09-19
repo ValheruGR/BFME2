@@ -1,4 +1,6 @@
-	Draw = W3DScriptedModelDraw ModuleTag_0111
+
+		
+	Draw = W3DScriptedModelDraw ModuleTag_01
   	  
 		OkToChangeModelColor		= Yes
 		ShowShadowWhileContained	= Yes
