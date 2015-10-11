@@ -19485,7 +19485,7 @@ Weapon ElrondSword
     Damage        = ELROND_DAMAGE		
     DamageScalar  = 200% ANY +HERO ; ;	
 	DamageScalar  = 150% NONE +MordorAttackTroll +WildMountainGiant +MordorMountainTroll +GoblinCaveTroll
-    Radius        = 0 ;;=ECTHELIONSUTOPY=;; 12 ; ; 0.0
+    Radius        = 0.0
     DelayTime     = 200.0 ; ;0.0
     DamageType    = HERO
     DamageFXType  = SWORD_SLASH
