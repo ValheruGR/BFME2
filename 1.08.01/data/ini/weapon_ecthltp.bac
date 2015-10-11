@@ -9517,7 +9517,7 @@ Weapon IsengardExplosiveMineExplosionWeapon   ; BALANCE Mine Weapon
 
 	DamageNugget
 		Damage        = ISENGARD_EXPLOSIVEMINE_MAIN_DAMAGE
-		DamageScalar  = 0.2% NONE +COMMANDCENTER
+		DamageScalar  = 0.02% NONE +COMMANDCENTER
 		DamageTaperOff = 50
 		Radius        = 5
 		DelayTime     = 0
@@ -13749,7 +13749,7 @@ Weapon TornadoWindWeapon
 
 	MetaImpactNugget                    ; A Nugget that throws things back with force
 		KillObjectFilter  = INSTANT_DEATH_ON_METAIMPACT_OBJFILTER
-		ShockWaveAmount   = TORNADO_METASHOCKWAVE_AMOUNT
+		ShockWaveAmount   = 70 ;;=;; IF THE AMOUNT IF THIS; 1k heros can get knobakced buy 2k no.TORNADO_METASHOCKWAVE_AMOUNT
 		ShockWaveRadius   = TORNADO_METASHOCKWAVE_RADIUS
 		ShockWaveTaperOff = 1.0 
 		ShockWaveZMult    = 1.6  
@@ -19485,7 +19485,7 @@ Weapon ElrondSword
     Damage        = ELROND_DAMAGE		
     DamageScalar  = 200% ANY +HERO ; ;	
 	DamageScalar  = 150% NONE +MordorAttackTroll +WildMountainGiant +MordorMountainTroll +GoblinCaveTroll
-    Radius        = 12 ; ; 0.0
+    Radius        = 0 ;;=ECTHELIONSUTOPY=;; 12 ; ; 0.0
     DelayTime     = 200.0 ; ;0.0
     DamageType    = HERO
     DamageFXType  = SWORD_SLASH
