@@ -12554,8 +12554,8 @@ Weapon MordorWarriorAxe     ; BALANCE Orc Warrior Weapon ;Orc Fighter ;mordorfig
   DamageNugget                        ; A basic Nugget that just does damage
 	Damage        = MORDOR_FIGHTER_DAMAGE
 	DamageScalar  = 120% NONE +DwarvenGuardian ;;=mordordwarf=;;115;;=ECTHELIONSUTOPY=;; 
-	DamageScalar  = 165% NONE +STRUCTURE -DwarvenMineShaft -DwarfBarracks -ElvenMallornTree -IsengardFurnace -IsengardWargPit -MordorSlaughterHouse -MordorHaradrimPalace ; ; 145% ; ; 180%
-	DamageScalar  = 180% NONE +MordorSlaughterHouse +MordorHaradrimPalace ;;=;; 165%
+	DamageScalar  = 165% NONE +STRUCTURE  -GondorFarmMultiplayer -GondorFarm -GondorBarracks -DwarvenMineShaft -DwarfBarracks -ElvenMallornTree -IsengardFurnace -IsengardWargPit -MordorSlaughterHouse -MordorHaradrimPalace ; ; 145% ; ; 180%
+	DamageScalar  = 180% NONE +MordorSlaughterHouse +MordorHaradrimPalace +GondorFarmMultiplayer +GondorFarm +GondorBarracks;;=;; 165%
 	DamageScalar  = 200% NONE +DwarvenMineShaft +DwarfBarracks  ;;=mordordwarf=;; 
 ;;+DwarvenSiegeWorks +DwarvenArcheryRange.
 	DamageScalar  = 145% NONE +IsengardFurnace +ElvenMallornTree;;=mordorisen=;; 165%
@@ -13706,8 +13706,8 @@ Weapon WhirlwindWindWeapon
 
 	MetaImpactNugget                    ; A Nugget that throws things back with force
 ;;=;;	KillObjectFilter	= INSTANT_DEATH_ON_METAIMPACT_OBJFILTER
-		SpecialObjectFilter = ALL -HERO -GoblinCaveTroll -MordorAttackTroll -MordorMountainTroll -WildMountainGiant -CaveTroll_Slaved -RohanGenericEnt -RohanTreeBerd
-		ShockWaveAmount		= WHIRLWIND_METASHOCKWAVE_AMOUNT
+	;;=;;		SpecialObjectFilter = ALL -HERO -GoblinCaveTroll -MordorAttackTroll -MordorMountainTroll -WildMountainGiant -CaveTroll_Slaved -RohanGenericEnt -RohanTreeBerd
+		ShockWaveAmount		= 75 ;;=;;	WHIRLWIND_METASHOCKWAVE_AMOUNT
 		ShockWaveRadius		= WHIRLWIND_METASHOCKWAVE_RADIUS
 		ShockWaveTaperOff = 1.0 
 		ShockWaveZMult    = 1.6  
@@ -19159,11 +19159,9 @@ Weapon ElvenThranduilBowWarhead
   HitStoredTarget = Yes	; Always hits initial target.
   DamageNugget                        ; A basic Nugget that just does damage
     Damage        = THRANDUIL_BOW_DAMAGE
-    DamageScalar  = 62% ANY +HERO -MONSTER -CANNOT_RETALIATE ;;=;; 50% 
-;;=;;	DamageScalar  = 62% NONE +EvilMenBlackRider +MordorMouthOfSauron
-
-    DamageScalar  = 50% ANY +MONSTER +CANNOT_RETALIATE
-    DamageScalar  = 50% ANY +MACHINE -DwarvenBattleWagon -MordorGrond ;;=;; 40%
+    DamageScalar  = 50% ANY +MONSTER +HERO -EvilMenBlackRider -MordorMouthOfSauron ; ;
+	DamageScalar  = 62% NONE +EvilMenBlackRider +MordorMouthOfSauron
+    DamageScalar  = 50% ANY +MACHINE  ;;=;; 40%
     Radius        = 0.0	; HitStoredTarget means we hurt the person we launched at.  And nobody else.  So a miss hurts nobody.
     DelayTime     = 0
     DamageType    = HERO_RANGED
