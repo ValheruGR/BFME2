@@ -9,7 +9,7 @@
 		StaticModelLODMode		= yes ;// Will append M or L to the skin name depending on GameLOD
 
 		DefaultModelConditionState
-			Model               = dufoxwag   ; ; DUBtlWagon_SKN DUBtlWagon_SKN
+			Model               = dufoxwag_skn   ; ; DUBtlWagon_SKN DUBtlWagon_SKN
 			Skeleton			= DUBtlWagon_SKL
 			WeaponLaunchBone	= PRIMARY BONE01
 		End
