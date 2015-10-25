@@ -21014,7 +21014,8 @@ Weapon GoblinArcherPoisonArrowsBowWarhead
 	RadiusDamageAffects		= ENEMIES NOT_SIMILAR
 	HitStoredTarget			= Yes
 	DamageNugget
-		Damage				= GOBLIN_ARCHER_DAMAGE
+		Damage				= GOBLIN_ARCHER_DAMAGE_POISONED_ARROW
+		DamageScalar  = 85% NONE +ARCHER
 		DamageScalar  = 115% NONE +DwarvenPhalanx +DwarvenGuardian ;;=ECTHELIONSUTOPY=;;
 		Radius				= 0.0
 		DelayTime			= 0
