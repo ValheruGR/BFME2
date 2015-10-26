@@ -277,7 +277,7 @@ Weapon RivendellLancerCrush
   DamageNugget
     Damage        = RIVENDELLLANCER_CRUSH_DAMAGE
 	DamageScalar   = 0% NONE +ElvenMithlondSentry +DwarvenPhalanx +GondorTowerShieldGuard
-;;=ECTHELIONSUTOPY=;;
+    DamageScalar  = 125% NONE +MordorFighter ;;=mordorelf=;; 110%
 	DamageScalar  = 120% NONE +DwarvenAxeThrower ;;=elfdwarf=;;
     AcceptDamageAdd = No ; ;
     Radius        = 0.0
@@ -464,7 +464,7 @@ Weapon WargCrush
     Damage        = WARG_CRUSH_DAMAGE				; A whole lot of damage.
     AcceptDamageAdd = No ; ;
 	DamageScalar   = 0% NONE +ElvenMithlondSentry +DwarvenPhalanx +GondorTowerShieldGuard
-;;=ECTHELIONSUTOPY=;;
+	DamageScalar  = 115% NONE +MordorFighter ;;=mordorisen=;;
     Radius        = 0.0
     DelayTime     = 0
     DamageType    = CRUSH
@@ -1732,14 +1732,14 @@ Weapon DwarvenAxeThrowWarhead
 	    Damage        			= DWARVEN_AXETHROWER_DAMAGE
 		Radius        			= 0.0
 	    DelayTime     			= 0
-	    DamageType    			= SLASH ; ;PIERCE
+	    DamageType    			= SLASH ; PIERCE
 	    DamageFXType  			= SWORD_SLASH					; Not GOOD_ARROW_PIERCE as this creates arrows in the victim :)
 	    DeathType     			= EXPLODED
-     DamageScalar			= 140% NONE +CAVALRY ; ; 150%
-	 DamageScalar           = 90% NONE +ElvenLorienArcher +GondorRanger ;;=mendwarf=;; ;;=elfdwarf=;;
-	 DamageScalar           = 80% NONE +ElvenMithlondSentry +ElvenMallornTree +GondorArcher ;;=mendwarf=;; ;;=elfdwarf=;;
-	 DamageScalar			= 50% NONE +COMMANDCENTER ;;=;; 
-    ; ;  DamageScalar			= 112% NONE +HERO ; ;
+		DamageScalar			= 140% NONE +CAVALRY ; ; 150% ; ; 
+		DamageScalar			= 90% NONE +ElvenLorienArcher +GondorRanger ;;=mendwarf=;; ;;=elfdwarf=;;
+		DamageScalar			= 80% NONE +ElvenMithlondSentry +ElvenMallornTree +GondorArcher ;;=mendwarf=;; ;;=elfdwarf=;;
+		DamageScalar			= 50% NONE +COMMANDCENTER ;;=;; 
+     ;  DamageScalar			= 112% NONE +HERO ; ;
 		DamageScalar			= 120% ANY +CANNOT_RETALIATE
 	    ; ;DamageScalar  = 5000% NONE +STRUCTURE ; We want to do extra structure damage per JB's request.
 	    ForbiddenUpgradeNames	= Upgrade_DwarvenForgedBlades
@@ -1752,8 +1752,8 @@ Weapon DwarvenAxeThrowWarhead
 	    DamageType    			= SLASH ; ;PIERCE
 	    DamageFXType  			= SWORD_SLASH					; Not GOOD_ARROW_PIERCE as this creates arrows in the victim :)
 	    DeathType     			= EXPLODED
-	 DamageScalar			= 50% NONE +COMMANDCENTER   ;;=;; 
-     DamageScalar			= 130% NONE +CAVALRY ; ;
+		DamageScalar			= 50% NONE +COMMANDCENTER   ;;=;; 
+		DamageScalar			= 120% NONE +CAVALRY ;;=;; 130% ; ;
     ; ;  DamageScalar			= 125% NONE +HERO ; ;
 	    ; ;DamageScalar  = 5000% NONE +STRUCTURE ; We want to do extra structure damage per JB's request.
 	    RequiredUpgradeNames	= Upgrade_DwarvenForgedBlades
@@ -1766,7 +1766,7 @@ Weapon DwarvenBattleWagonAxeThrowWarhead
   	
   	DamageNugget
 	    Damage        			= #MULTIPLY( DWARVEN_AXETHROWER_DAMAGE 3 ) ; ;
-     DamageScalar			= 150% NONE +CAVALRY ; ;
+		DamageScalar			= 150% NONE +CAVALRY ; ;
 		Radius        			= 0.0
 	    DelayTime     			= 0
 	    DamageType    			= SLASH ; ;PIERCE
@@ -1778,7 +1778,7 @@ Weapon DwarvenBattleWagonAxeThrowWarhead
 
 	DamageNugget
 	    Damage        			= #MULTIPLY( DWARVEN_AXETHROWER_DAMAGE_FORGEDBLADES 3 ); ;
-     DamageScalar			= 130% NONE +CAVALRY ; ;
+		DamageScalar			= 130% NONE +CAVALRY ; ;
 		Radius        			= 0.0
 	    DelayTime     			= 0
 	    DamageType    			= SLASH ; ;PIERCE
@@ -1832,25 +1832,25 @@ Weapon DwarvenAxeThrowBombardWarhead
   	RadiusDamageAffects			= ENEMIES 
   	DamageNugget
 	    Damage        			= DWARVEN_AXETHROWER_DAMAGE
-		DamageScalar			= 350% NONE +CAVALRY ; ;
+		DamageScalar			= 140% NONE +CAVALRY ;;=;; 350% NONE +CAVALRY ; ;
     #include "object\includes\bombardsplash.inc" ;;=;; 109
 	    DelayTime     			= 0
 	    DamageType    			= SLASH ; ;PIERCE
 	    DamageFXType  			= SWORD_SLASH					; Not GOOD_ARROW_PIERCE as this creates arrows in the victim :)
 	    DeathType     			= EXPLODED
-		DamageScalar  = 50% NONE +STRUCTURE
+		DamageScalar  			= 50% NONE +STRUCTURE
 	    ; ;DamageScalar  = 5000% NONE +STRUCTURE ; We want to do extra structure damage per JB's request.
 	    ForbiddenUpgradeNames	= Upgrade_DwarvenForgedBlades
 	End
   	DamageNugget
 	    Damage        			= DWARVEN_AXETHROWER_DAMAGE_FORGEDBLADES
-		DamageScalar				= 220% NONE +CAVALRY ; ;
+		DamageScalar			= 120% NONE +CAVALRY ;;=;; 220% NONE +CAVALRY ; ;
     #include "object\includes\bombardsplash.inc" ;;=;; 109
 	    DelayTime     			= 0
 	    DamageType    			= SLASH ; ;PIERCE
 	    DamageFXType  			= SWORD_SLASH					; Not GOOD_ARROW_PIERCE as this creates arrows in the victim :)
 	    DeathType     			= EXPLODED
-		DamageScalar  = 50% NONE +STRUCTURE
+		DamageScalar  			= 50% NONE +STRUCTURE
 	    ; ;DamageScalar  = 5000% NONE +STRUCTURE ; We want to do extra structure damage per JB's request.
 	    RequiredUpgradeNames	= Upgrade_DwarvenForgedBlades
 	End
@@ -1862,7 +1862,7 @@ Weapon RohanArcherBowWarhead
 	HitStoredTarget = Yes	; Always hits initial target.
   	DamageNugget                        ; A basic Nugget that just does damage
 	    Damage        = ROHAN_YEOMAN_DAMAGE
-	  Radius        = 0.0	; HitStoredTarget means we hurt the person we launched at.  And nobody else.  So a miss hurts nobody.
+		Radius        = 0.0	; HitStoredTarget means we hurt the person we launched at.  And nobody else.  So a miss hurts nobody.
 	    DelayTime     = 0
 	    DamageType    = PIERCE
 	    DamageFXType  = GOOD_ARROW_PIERCE
@@ -6411,7 +6411,8 @@ Weapon LorienWarriorSword
 
 	DamageNugget                        ; A basic Nugget that just does damage
 	    Damage        = ELVEN_FIGHTER_MELEE_DAMAGE
-		DamageScalar  = 50% ANY +STRUCTURE ;;=ECTHELIONSUTOPY=;;
+		DamageScalar  = 50% ANY +STRUCTURE -MordorSlaughterHouse; ; 
+		DamageScalar  = 55% NONE +MordorSlaughterHouse ;;=mordorelf=;;
 	    Radius        = 0.0
 	    DelayTime     = 0
 	    DamageType    = SLASH
@@ -7264,7 +7265,7 @@ Weapon DwarvenBattleWagonArcherBowWarhead
 		DelayTime     = 0
 		DamageType    = CAVALRY_RANGED
 		DamageFXType  = GOOD_ARROW_PIERCE
-	    DeathType     = EXPLODED
+		DeathType     = EXPLODED
 	End
 End
 
@@ -8518,12 +8519,12 @@ Weapon DwarvenGuardianAxe
 		Radius					= 0.0
 		DelayTime				= 0
 		DamageType				= SLASH
-		DamageScalar			= 115% NONE +IsengardFighter ;;=dwarfisen=;;
-		DamageScalar			= 65% NONE +MordorOrcPit  ;;=mordordwarf=;;
-		DamageScalar			= 85% NONE +MordorFighter ;;=mordordwarf=;; ;;=ECTHELIONSUTOPY=;; -10
-		DamageScalar			= 85% NONE +MordorSlaughterHouse ;;=mordordwarf=;;
-		DamageScalar			= 60% NONE +EvilMenBlackRider ;;=mordordwarf=;;
-		DamageScalar			= 80% NONE +WildMineShaft +GoblinCave;;=dwarfgob=;;
+		DamageScalar  							= 115% NONE +IsengardFighter ;;=dwarfisen=;;
+		DamageScalar                            = 65% NONE +MordorOrcPit  ;;=mordordwarf=;;
+		DamageScalar                            = 75% NONE +MordorFighter ;;=mordordwarf=;;
+		DamageScalar                            = 85% NONE +MordorSlaughterHouse ;;=mordordwarf=;;
+		DamageScalar                            = 60% NONE +EvilMenBlackRider ;;=mordordwarf=;;
+		DamageScalar							= 80% NONE +WildMineShaft +GoblinCave;;=dwarfgob=;;
 		DamageScalar			= 95% ANY +COMMANDCENTER
 		DamageFXType			= SWORD_SLASH
 		DeathType				= NORMAL
@@ -8674,6 +8675,7 @@ Weapon DwarvenDainAxe  ;// BALANCE Dain Axe Weapon
 
   DamageNugget
     Damage        = DAIN_DAMAGE
+    DamageScalar = 90% ANY +COMMANDCENTER
     Radius        = 0.0
     DelayTime     = 0
     DamageType    = HERO
@@ -12108,11 +12110,15 @@ Weapon MordorArcherBowWarhead
   HitStoredTarget = Yes	; Always hits initial target.
   DamageNugget                        ; A basic Nugget that just does damage
     Damage        = MORDOR_ARCHER_DAMAGE
-    DamageScalar  = 115% ANY +INFANTRY -ARCHER -IsengardFighter -DwarvenPhalanx -DwarvenGuardian ; ; 
-    DamageScalar  = 110% NONE +IsengardFighter   ; ;
-    DamageScalar  = 140% NONE +DwarvenGuardian  ; ;
-    DamageScalar  = 130% NONE +DwarvenPhalanx
-;;=ECTHELIONSUTOPY=;; 
+	DamageScalar  = 115% ANY +INFANTRY -ARCHER -DwarvenAxeThrower -DwarvenPhalanx -DwarvenGuardian -IsengardFighter -ElvenLorienWarrior -ElvenMithlondSentry
+	DamageScalar  = 90% NONE +ARCHER -DwarvenAxeThrower
+	DamageScalar  = 145% NONE +DwarvenGuardian
+	DamageScalar  = 135% NONE +DwarvenPhalanx 
+ ;;=EcthelionIsDestroyingTheGame=;;   DamageScalar  = 115% ANY +INFANTRY -ARCHER -IsengardFighter -DwarvenPhalanx -DwarvenGuardian -ElvenLorienWarrior ; ; 
+  ;;=EcthelionIsDestroyingTheGame=;;  DamageScalar  = 110% NONE +IsengardFighter   ; ;
+  ;;=EcthelionIsDestroyingTheGame=;;  DamageScalar  = 147.5% NONE +DwarvenGuardian  ;;=mordordwarf=;; 115%
+  ;;=EcthelionIsDestroyingTheGame=;;  DamageScalar  = 130% NONE +DwarvenPhalanx   ;;=mordordwarf=;; 115%
+  ;;=EcthelionIsDestroyingTheGame=;;  DamageScalar  = 107.5% NONE +ElvenLorienWarrior   ;;=mordorelf=;; 115%
     Radius        = 0.0	; HitStoredTarget means we hurt the person we launched at.  And nobody else.  So a miss hurts nobody.
     DelayTime     = 0
     DamageType    = PIERCE
@@ -12126,11 +12132,15 @@ Weapon MordorArcherBowBombardWarhead
   RadiusDamageAffects = ENEMIES NOT_SIMILAR 
   DamageNugget                        ; A basic Nugget that just does damage
     Damage        = MORDOR_ARCHER_DAMAGE
-    DamageScalar  = 115% ANY +INFANTRY -ARCHER -IsengardFighter -DwarvenPhalanx -DwarvenGuardian ; ; 
-    DamageScalar  = 110% NONE +IsengardFighter   ; ;
-    DamageScalar  = 140% NONE +DwarvenGuardian  ; ;
-    DamageScalar  = 130% NONE +DwarvenPhalanx
-;;=ECTHELIONSUTOPY=;; 
+	DamageScalar  = 115% ANY +INFANTRY -ARCHER -DwarvenAxeThrower -DwarvenPhalanx -DwarvenGuardian -IsengardFighter -ElvenLorienWarrior -ElvenMithlondSentry
+	DamageScalar  = 90% NONE +ARCHER -DwarvenAxeThrower
+	DamageScalar  = 145% NONE +DwarvenGuardian
+	DamageScalar  = 135% NONE +DwarvenPhalanx 
+ ;;=EcthelionIsDestroyingTheGame=;;   DamageScalar  = 115% ANY +INFANTRY -ARCHER -IsengardFighter -DwarvenPhalanx -DwarvenGuardian -ElvenLorienWarrior ; ; 
+  ;;=EcthelionIsDestroyingTheGame=;;  DamageScalar  = 110% NONE +IsengardFighter   ; ;
+  ;;=EcthelionIsDestroyingTheGame=;;  DamageScalar  = 147.5% NONE +DwarvenGuardian  ;;=mordordwarf=;; 115%
+  ;;=EcthelionIsDestroyingTheGame=;;  DamageScalar  = 130% NONE +DwarvenPhalanx   ;;=mordordwarf=;; 115%
+  ;;=EcthelionIsDestroyingTheGame=;;  DamageScalar  = 107.5% NONE +ElvenLorienWarrior   ;;=mordorelf=;; 115%
     #include "object\includes\bombardsplash.inc" ;;=;; 109
     DelayTime     = 0
     DamageType    = PIERCE
@@ -12553,12 +12563,14 @@ Weapon MordorWarriorAxe     ; BALANCE Orc Warrior Weapon ;Orc Fighter ;mordorfig
 
   DamageNugget                        ; A basic Nugget that just does damage
 	Damage        = MORDOR_FIGHTER_DAMAGE
-	DamageScalar  = 120% NONE +DwarvenGuardian ;;=mordordwarf=;;115;;=ECTHELIONSUTOPY=;; 
-	DamageScalar  = 165% NONE +STRUCTURE  -GondorFarmMultiplayer -GondorFarm -GondorBarracks -DwarvenMineShaft -DwarfBarracks -ElvenMallornTree -IsengardFurnace -IsengardWargPit -MordorSlaughterHouse -MordorHaradrimPalace ; ; 145% ; ; 180%
-	DamageScalar  = 180% NONE +MordorSlaughterHouse +MordorHaradrimPalace +GondorFarmMultiplayer +GondorFarm +GondorBarracks;;=;; 165%
-	DamageScalar  = 200% NONE +DwarvenMineShaft +DwarfBarracks  ;;=mordordwarf=;; 
-;;+DwarvenSiegeWorks +DwarvenArcheryRange.
-	DamageScalar  = 145% NONE +IsengardFurnace +ElvenMallornTree;;=mordorisen=;; 165%
+	DamageScalar  = 165% NONE +STRUCTURE -DwarvenMineShaft -DwarfBarracks -DwarvenSiegeWorks -DwarvenArcheryRange -ElvenMallornTree -IsengardFurnace -IsengardWargPit -MordorSlaughterHouse -MordorHaradrimPalace ; ; 145% ; ; 180%
+	DamageScalar  = 180% NONE +MordorSlaughterHouse +MordorHaradrimPalace ;;=;; 165%
+	DamageScalar  = 115% NONE +DwarvenGuardian ;;=mordordwarf=;;
+	DamageScalar  = 190% NONE +DwarvenMineShaft +DwarfBarracks +DwarvenSiegeWorks +DwarvenArcheryRange ;;=mordordwarf=;; 200% ; ;
+	DamageScalar  = 140% NONE +IsengardFurnace +IsengardWargPit ;;=mordorisen=;; 165%
+	DamageScalar  = 130% NONE +ElvenMallornTree ;;=mordorelf=;; 135% ; ; 
+	DamageScalar  = 85% NONE +ElvenLorienWarrior +ElvenMithlondSentry ;;=mordorelf=;;
+	DamageScalar  = 75% NONE  +ElvenRivendellLancer +ElvenLorienArcher ;;=mordorelf=;;
     Radius        = 0.0
     DelayTime     = 0
     DamageType    = URUK ; ;SLASH
@@ -15737,7 +15749,7 @@ Weapon SharkuWeapon
   AimDirection			= 270		; In order to aim at something, we aim this far off (to the right would be aiming at -90 degrees)
   
 ; ;  DamageNugget                        ; A basic Nugget that just does damage
-;    Damage        = SHARKU_DAMAGE
+;    Damage        = SHARKU_DAMAGE ;;270
 ;    DamageScalar  = 87% ANY +STRUCTURE ; ;
 ;    Radius        = 11.0 ; ;0
 ;    DelayTime     = 0
@@ -15746,9 +15758,9 @@ Weapon SharkuWeapon
 ;    DeathType     = NORMAL
 ;  End
   DamageNugget ; ;
-    Damage        = SHARKU_OUTER_DAMAGE
+    Damage        = SHARKU_OUTER_DAMAGE ;;=;; 135 DAMAGE DIRIGED TO DAMAGE UNITS from 170. And now it doesn't even accept damage additive.
+    DamageScalar  = 0% ANY +STRUCTURE
     Radius        = 11.0
-    DamageScalar  = 80% ANY +STRUCTURE ; ;
     DelayTime     = 0
     DamageType    = HERO
     DamageFXType  = SWORD_SLASH
@@ -15756,13 +15768,14 @@ Weapon SharkuWeapon
 	AcceptDamageAdd = No
   End
   DamageNugget ; ;
-    Damage        = SHARKU_INNER_DAMAGE
+    Damage        = SHARKU_INNER_DAMAGE ;;=;; 100 DAMAGE 
+    DamageScalar  = 74% ANY +STRUCTURE ;;=;; 
     Radius        = 0.0
-    DamageScalar  = 80% ANY +STRUCTURE ; ;
     DelayTime     = 0
     DamageType    = HERO
     DamageFXType  = SWORD_SLASH
     DeathType     = NORMAL
+	AcceptDamageAdd = Yes
   End  
   
 End
@@ -20985,7 +20998,8 @@ Weapon GoblinArcherBowWarhead
   HitStoredTarget = Yes	; Always hits initial target.
   DamageNugget                        ; A basic Nugget that just does damage
     Damage        = GOBLIN_ARCHER_DAMAGE
-   DamageScalar  = 115% NONE +DwarvenPhalanx +DwarvenGuardian ;;=ECTHELIONSUTOPY=;;
+    DamageScalar  = 115% NONE +DwarvenGuardian
+	DamageScalar  = 110% NONE +DwarvenPhalanx ; ; 115% ;;=dwarfgob=;;
     Radius        = 0.0	; HitStoredTarget means we hurt the person we launched at.  And nobody else.  So a miss hurts nobody.
     DelayTime     = 0
     DamageType    = PIERCE
@@ -21000,7 +21014,8 @@ Weapon GoblinArcherBowBombardWarhead
   DamageNugget                        ; A basic Nugget that just does damage
     Damage        = GOBLIN_ARCHER_DAMAGE
     #include "object\includes\bombardsplash.inc" ;;=;; 109
-    DamageScalar  = 115% NONE +DwarvenPhalanx +DwarvenGuardian ;;=ECTHELIONSUTOPY=;;
+    DamageScalar  = 115% NONE +DwarvenGuardian
+	DamageScalar  = 110% NONE +DwarvenPhalanx ; ; 115% ;;=dwarfgob=;;
     DelayTime     = 0
     DamageType    = PIERCE
     DamageFXType  = EVIL_ARROW_PIERCE
@@ -21014,9 +21029,9 @@ Weapon GoblinArcherPoisonArrowsBowWarhead
 	RadiusDamageAffects		= ENEMIES NOT_SIMILAR
 	HitStoredTarget			= Yes
 	DamageNugget
-		Damage				= GOBLIN_ARCHER_DAMAGE_POISONED_ARROW
-		DamageScalar  = 85% NONE +ARCHER
-		DamageScalar  = 115% NONE +DwarvenPhalanx +DwarvenGuardian ;;=ECTHELIONSUTOPY=;;
+		Damage				= GOBLIN_ARCHER_DAMAGE
+    DamageScalar  = 115% NONE +DwarvenGuardian
+	DamageScalar  = 110% NONE +DwarvenPhalanx ;;=dwarfgob=;;
 		Radius				= 0.0
 		DelayTime			= 0
 		DamageType			= PIERCE
@@ -21159,8 +21174,8 @@ Weapon GoblinFighterSword
     Damage        = GOBLIN_FIGHTER_DAMAGE
     DamageScalar  = 55% NONE +STRUCTURE -DwarvenMineShaft -ElvenMallornTree; ; ;;=;; -IsengardFurnace
 	DamageScalar  = 60% NONE +DwarvenMineShaft ;;=dwarfgob=;;
-	DamageScalar  = 41.25% NONE +IsengardFurnace ;;=goblinisen=;; ;;=ECTHELIONSUTOPY=;;
-	DamageScalar  = 49.5% NONE +ElvenMallornTree ;;=goblinelf=;;  ;;=ECTHELIONSUTOPY=;;
+	DamageScalar  = 40% NONE +IsengardFurnace ;;=goblinisen=;;
+	DamageScalar  = 50% NONE +ElvenMallornTree ;;=goblinelf=;;
     Radius        = 0.0
     DelayTime     = 0
     DamageType    = SLASH
@@ -21186,8 +21201,7 @@ Weapon GoblinFighterSwordPoisonedUpgraded
 		Damage					= GOBLIN_FIGHTER_FORGEDBLADES_UPGRADE	
     	DamageScalar  			= 200% ANY +INFANTRY -HERO ; ;
     	DamageScalar  			= 150% ANY +HERO ; ;
-		DamageScalar			= 75% NONE +IsengardFurnace ;;=goblinisen=;; ;;=ECTHELIONSUTOPY=;;
-		DamageScalar 			= 90% NONE +ElvenMallornTree ;;=goblinelf=;; ;;=ECTHELIONSUTOPY=;;
+		DamageScalar			= 70% NONE +IsengardFurnace ;;=goblinisen=;;
 		Radius					= 0.0
 		DelayTime				= 0
 		DamageType				= SLASH
@@ -21226,7 +21240,7 @@ Weapon GoblinFighterSwordPoisoned
 	DamageNugget
 		Damage					= GOBLIN_FIGHTER_DAMAGE
 		DamageScalar      		= 108% NONE +DwarvenMineShaft ;;=dwarfgob=;; 112%
-		DamageScalar			= 75% NONE +IsengardFurnace ;;=goblinisen=;; ;;=ECTHELIONSUTOPY=;;
+		DamageScalar			= 70% NONE +IsengardFurnace ;;=goblinisen=;;
 		DamageScalar 			= 90% NONE +ElvenMallornTree ;;=goblinelf=;;
 		Radius					= 0.0
 		DelayTime				= 0
@@ -21266,8 +21280,7 @@ Weapon GoblinFighterSwordUpgraded
     Damage        = GOBLIN_FIGHTER_FORGEDBLADES_UPGRADE	
     DamageScalar  = 200% ANY +INFANTRY -HERO ; ;
     DamageScalar  = 150% ANY +HERO ; ;
-	DamageScalar  = 75% NONE +IsengardFurnace ;;=goblinisen=;; ;;=ECTHELIONSUTOPY=;;
-	DamageScalar  = 90% NONE +ElvenMallornTree ;;=goblinelf=;; ;;=ECTHELIONSUTOPY=;;
+	DamageScalar			= 75% NONE +IsengardFurnace ;;=goblinisen=;;
     Radius        = 0.0
     DelayTime     = 0
     DamageType    = SLASH
