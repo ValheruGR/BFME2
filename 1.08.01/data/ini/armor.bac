@@ -1668,6 +1668,7 @@ Armor SiegeEngineArmor
   ;FlankedPenalty 	 = 50%       
   Armor = CAVALRY_RANGED   5% ; ;
   Armor = URUK   50% ; ;
+  Armor = LOGICAL_FIRE   15% ; ;
 End
 
 //------------------------------------------------------------------------------
