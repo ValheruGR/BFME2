@@ -370,7 +370,7 @@
 		;Running attack
 		AnimationState = FIRING_OR_PREATTACK_B WEAPONSTATE_ONE
 			Animation
-				AnimationName = MuCavTroll_SKL.MuCavTroll_ATRA
+				AnimationName = MuCavTroll_SKL.MuCavTroll_ATKJ ; ; MuCavTroll_SKL.MuCavTroll_ATRA
 				AnimationMode = ONCE
 				UseWeaponTiming		= Yes
 			End
@@ -437,28 +437,37 @@
 				AnimationSpeedFactorRange = 0.8 1.0
 			End
 			Animation = BreathWithClub
-				AnimationName = MuCavTroll_SKL.MuCavTroll_IDLB
+				AnimationName = MuCavTroll_SKL.MuCavTroll_IDLA ; ; MuCavTroll_SKL.MuCavTroll_IDLB
 				AnimationMode = ONCE
-				AnimationPriority = 30
+				AnimationPriority = 10
 				AnimationSpeedFactorRange = 0.8 1.0
 			End
 			Animation = RoarAndThumpClub
 				AnimationName = MuCavTroll_SKL.MuCavTroll_IDLE  
 				AnimationMode = ONCE
-				AnimationPriority = 5
+				AnimationPriority = 6
 				AnimationBlendTime = 3
 			End
 			Animation = ScratchButt
 				AnimationName = MuCavTroll_SKL.MuCavTroll_IDLG  
 				AnimationMode = ONCE
-				AnimationPriority = 2
+				AnimationPriority = 7
 				AnimationBlendTime = 3
 			End
+			Animation = ScratchButt
+				AnimationName = MuCavTroll_SKL.MuCavTroll_IDLK  
+				AnimationMode = ONCE
+				AnimationPriority = 10
+				AnimationSpeedFactorRange = .74 .74 
+				;AnimationBlendTime = 3
+			End
+		
 			Flags = RESTART_ANIM_WHEN_COMPLETE
 			BeginScript ; Here since normal Packing state can be skipped with a fast click.
 				CurDrawableShowSubObjectPermanently("Trunk01")
 			EndScript
 		End
+
 
 	;// --------- With Rock ------------
 
@@ -776,9 +785,10 @@
 		End
 			
 		;Running attack
+		;Running attack
 		AnimationState = FIRING_OR_PREATTACK_C
 			Animation
-				AnimationName = MuCavTroll_SKL.MuCavTroll_ATRB
+				AnimationName = MuCavTroll_SKL.MuCavTroll_ATKJ ; ; MuCavTroll_SKL.MuCavTroll_ATRB
 				AnimationMode = ONCE
 				UseWeaponTiming		= Yes
 			End
