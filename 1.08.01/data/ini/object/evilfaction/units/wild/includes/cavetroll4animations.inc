@@ -38,7 +38,7 @@
 
 				AnimationName = MuCavTroll_SKL.MuCavTroll_IDLA 
 				AnimationMode = ONCE
-				AnimationPriority = 100
+				AnimationPriority = 30
 			End
 			Animation = BellyScratch
 				AnimationName = MuCavTroll_SKL.MuCavTroll_IDLC 
@@ -58,7 +58,7 @@
 			Animation = LittleRoar
 				AnimationName = MuCavTroll_SKL.MuCavTroll_IDLM 
 				AnimationMode = ONCE
-				AnimationPriority = 3
+				AnimationPriority = 5
 			End
 			Flags						= RESTART_ANIM_WHEN_COMPLETE
 			BeginScript

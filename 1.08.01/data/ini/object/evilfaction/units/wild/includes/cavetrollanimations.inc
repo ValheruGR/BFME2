@@ -42,7 +42,7 @@
 
 				AnimationName = MuCavTroll_SKL.MuCavTroll_IDLA 
 				AnimationMode = ONCE
-				AnimationPriority = 100
+				AnimationPriority = 30
 			End
 			Animation = BellyScratch
 				AnimationName = MuCavTroll_SKL.MuCavTroll_IDLC 
@@ -64,6 +64,7 @@
 				AnimationMode = ONCE
 				AnimationPriority = 3
 			End
+		
 			Flags						= RESTART_ANIM_WHEN_COMPLETE
 			BeginScript
 				CurDrawableHideSubObjectPermanently("ROCK")
