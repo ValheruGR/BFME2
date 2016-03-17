@@ -1,0 +1,341 @@
+
+Map:KeepDefense-bySilverBane/Desc
+"Updated to v1.2! \n Check out the lottery! Lightning is waiting you! \n Fixed availability glitch with heroes and upgrades, and reduced lottery cooldown time. \n Your goal is to survive 15 waves of attackers. \n If your keep is destroyed you will lose. You start with 1700 money, you get more after each wave and by killing enemies. \n All factions are now good, I suggest picking random for more fun! \n Enjoy! \n by SilverBane`"
+End
+
+
+
+
+CONTROLBAR:LightningRecruit
+"Recruit the deadly mage from the east, Lightning"
+END
+CONTROLBAR:LightningRevive
+"Revive Lightning"
+END
+
+
+CONTROLBAR:MordorGothmogRevive
+"Revive Lightning"
+END
+CONTROLBAR:LightningHotkey
+"&Lightning"
+END
+
+
+
+CONTROLBAR:ToggleLightning'sWeapon
+"Swi&tch weapons"
+End
+
+CONTROLBAR:ToolTipToggleLightning'sWeapon
+"Requires level 2 \n Switch between a powerful, long-range bow and a devastating sword"
+End
+
+
+
+CONTROLBAR:BladeMasterLightning
+"Stri&ke"
+End
+
+
+CONTROLBAR:ToolTipBladeMasterLightning
+"Requires level 4 \n Lightning strikes with electricity in a large radius and becomes significantly harder to kill for a period of time"
+End
+
+CONTROLBAR:SwordHit
+"&Heartseeker"
+End
+
+CONTROLBAR:ToolTipSwordHit
+"Requires level 5 \n An extremly powerful melee attack wich takes down even the strongest heroes and monsters"
+End
+
+
+CONTROLBAR:Vanish
+"&Vanish"
+End
+
+CONTROLBAR:TooltipVanish
+"Requires level 7 \n Lightning gets healed, debuffs nearby enemies and becomes invisible for a short period of time, allowing him to get away from danger"
+End
+
+
+CONTROLBAR:AmuletOfPower
+"Essence of &Elements"
+End
+
+
+
+CONTROLBAR:ToolTipAmuletOfPower
+"Requires level 10 \n Lightning releases the forces of the elements in a fatal blow"
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCRIPT:defendfort
+"Quick! Defend the fortress! They've found a way in!"
+End
+
+
+
+
+SCRIPT:1
+"Welcome to SilverBane's keep defense!"
+End
+
+
+SCRIPT:2
+"In order to win the map you will have to survive 15 hard waves"
+End
+
+
+SCRIPT:3
+"Take these powers, you will need them. \n FoL get The power of Narya and FoD get The fury of the Orcs \n Lottery can provide useful and unique units, aim for the jackpot!"
+End
+
+
+SCRIPT:4
+"Remember that you can endless repair gates and also keep auto-repairs. \n Good luck and have fun!"
+End
+
+
+SCRIPT:HINT
+"Get your archers down from the walls and use bombard to kill enemy archers, to prevent having your archers dying! \n Gates are recommended to be closed on this wave!"
+End
+
+
+
+SCRIPT:Spider
+"It is posibble that some spiderlings will stay hidden in the forest. \n To continue to the next wave, all units inside your kingdom must be killed. \n If you don't see any enemies but wave 3 doesn't starts yet, that means there are spiderlings hidden somewhere, \n search for them and kill them!"
+End
+
+
+
+
+
+SCRIPT:Wave
+"Wave:"
+End
+
+
+
+
+
+
+
+CONTROLBAR:UpgradeKeepLevel2
+"Upgrade Keep to level 2"
+End
+
+
+CONTROLBAR:ToolTipUpgradeKeepLevel2
+"Purchasing this upgrade will allow you to produce stronger units \n and also will increase your keep's health"
+End
+
+
+
+
+
+
+
+
+CONTROLBAR:UpgradeKeepLevel3
+"Upgrade Keep to level 3"
+End
+
+
+CONTROLBAR:ToolTipUpgradeKeepLevel3
+"Purchasing this upgrade will allow you to research upgrades and will unlock the heroes section \n and also will increase your keep's health"
+End
+
+
+
+CONTROLBAR:SelectUpgradesGenericKeep
+"Upgrades section"
+End
+
+
+CONTROLBAR:ToolTipSelectUpgradesGenericKeep
+"Requires level 3 keep \n Research upgrades for your faction"
+End
+
+
+
+CONTROLBAR:SelectRevivablesGenericKeep
+"Heroes section"
+End
+
+
+CONTROLBAR:ToolTipSelectRevivablesGenericKeep
+"Requires level 3 keep \n Recruit your heroes"
+End
+
+
+
+
+TOOLTIP:LackLevel2KeepUpgrade
+"Requires level 2 keep upgrade"
+End
+
+
+
+
+
+
+
+
+Upgrade:KeepLevel2
+"Keep level 2"
+End
+
+
+Upgrade:KeepLevel3
+"Keep level 3"
+End
+
+
+
+CONTROLBAR:ToolTipBuildDwarvenBattleWagonNew
+"Requires Level 2 Keep \n Strong vs. Swordsmen, Archers and Cavalary \n Can be upgraded with various improvements"
+END
+
+
+
+CONTROLBAR:ToolTipBuildDwarvenMenOfDaleHordeNew
+"Requires Level 2 Keep \n Strong vs. Infantry and Monsters"
+END
+
+
+
+
+
+
+CONTROLBAR:ToolTipBuildGondorRangerHordeNew
+"Requires Level 2 Keep \n Strong vs. Infantry and Monsters"
+END
+
+
+CONTROLBAR:ToolTipBuildGondorKnightHordeNew
+"Requires Level 2 Keep \n Strong vs. Archers and \n Unit Production Buildings"
+END
+
+
+
+
+CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHordeNew
+"Requires Level 2 Keep \n Strong vs. Infantry and Monsters \n Always stealthed"
+END
+
+
+
+
+CONTROLBAR:ToolTipBuildElvenRivendellLancersNew
+"Requires Level 2 Keep \n Strong vs. Archers and \n Unit Production Buildings"
+END
+
+
+
+CONTROLBAR:ToolTipBuildIsengardBerserkerNew
+"Requires Level 2 Keep \n Strong vs. Infantry"
+END
+
+
+
+CONTROLBAR:ToolTipBuildIsengardWargRiderNew
+"Requires Level 2 Keep \n Strong vs. Archers and \n Unit Production Buildings"
+END
+
+CONTROLBAR:ToolTipBuildMordorHaradrimArcherHordeNew
+"Strong vs. Infantry and Monsters \n Can fire Barbed Arrows"
+End
+
+
+CONTROLBAR:TooltipConstructMordorDrummerTrollsNew
+"Requires Level 2 Keep \n Provides Leadership to nearby allies \n Can use his drumsticks to cause fear into nearby enemies"
+END
+
+
+
+CONTROLBAR:ToolTipBuildMordorAttackTrollNew
+"Requires Level 2 Keep \n Strong vs. Swordsmen, Cavalry, and Structures"
+End
+
+CONTROLBAR:ToolTipBuildWildMarauderHordeNew
+"Requires Level 2 Keep \n Strong vs. Cavalry and most Heroes"
+END
+
+
+
+CONTROLBAR:ToolTipBuildWildSpiderRiderHordeNew
+"Requires Level 2 Keep \n Can switch between Bow and Spear \n Strong vs. Archers and \n Unit Production Buildings"
+END
+
+
+CONTROLBAR:SoSBonus 
+"The fury of the Orcs"
+End
+
+CONTROLBAR:TooltipSoSBonus 
+"Your units gain +100% damage for 45s. \n Stacks with other leaderships \n Recharge time: 9 min"
+End
+
+
+
+
+CONTROLBAR:FoLBonus  
+"The power of Narya"
+End
+
+
+CONTROLBAR:TooltipFoLBonus  
+"Your units gain +75% armor and  +50% attack speed for 45s. \n Stacks with other leaderships \n Recharge time: 9 min"
+End
+
+
+CONTROLBAR:Lottery
+"Lottery"
+End
+
+
+CONTROLBAR:TooltipLottery
+"Try your luck for 700 gold \n Rewards: \n Common: Gondor archer x2 \n Common: Axe thrower x2 \n Common: Wildmen x1 \n Uncommon: Mirkwood archer x1 \n Uncommon: Ranger x2 \n Uncommon: Berserker x3 \n Rare: Mirkwood archer x3 \n Rare: Attack troll x3 \n Rare: Wildmen x4 \n Jackpot: Lightning x1 \n Lottery can only be used once in a given period of time"
+End
+
+
+
+
+
+CONTROLBAR:ToolTipBarbedArrowsNew
+"Causes meta impact and increased damage \n DamageType: Hero_Ranged"
+End
+
+
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitionsNew
+"Adds fire damage to keep's primary arrow tower"
+END
+
+
+
+
+//-----------------------IN GAME MESSAGES SECTION
+
+
+SCRIPT:GameStart
+"Game starts in:"
+End
+
+SCRIPT:Rest
+"Rest for:"
+End
+
+
