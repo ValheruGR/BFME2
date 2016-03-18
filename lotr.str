@@ -46912,7 +46912,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
-"Charg&e Attack"
+"Charge Attack [&R]"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
@@ -46955,16 +46955,20 @@ CONTROLBAR:ElvenGrace
 "Athelas [&C]"
 END
 
+CONTROLBAR:Fire_pit
+"Fire pit (&T)"
+END
+
 CONTROLBAR:TooltipFire_pit
 "Campfire that heals hobbits and grants 5% leadership to them"
 END
 
 CONTROLBAR:FireWorks
-"FireWorks / Ignite"
+"FireWorks / Ignite [&T]"
 END
 
 CONTROLBAR:FireWorks2
-"Ignite Fireworks"
+"Ignite Fireworks [&Y]"
 END
 
 CONTROLBAR:FireWorksObj
@@ -46972,7 +46976,7 @@ CONTROLBAR:FireWorksObj
 END
 
 CONTROLBAR:ToolTipFireWorks
-"Merry can drop Fireworks \n on the ground and ignite it \n \n Left click to activate "
+"Merry can drop Fireworks \n on the ground and ignite it \n \n Left click to activate  "
 End
 
 CONTROLBAR:ToolTipFireWorks2
@@ -46980,7 +46984,7 @@ CONTROLBAR:ToolTipFireWorks2
 End
 
 CONTROLBAR:HobbitFireCracker
-"Firecracker"
+"Firecracker [&R]"
 END
 
 
