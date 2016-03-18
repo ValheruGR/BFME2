@@ -46932,7 +46932,7 @@ CONTROLBAR:ElvenCloak
 END
 
 CONTROLBAR:ChargeAttack
-"Charg&e Attack"
+"Cha&rge Attack"
 END
 
 CONTROLBAR:ConstructRohanPeasant
@@ -46995,3 +46995,13 @@ End
 GUI:PleaseSelectBuddy
 "Chat message could not be sent.  One or more friends need to be selected."
 END
+
+
+CONTROLBAR:TREEBEARD_STUN1
+"Madness of Fangorn [&U]"
+END
+
+CONTROLBAR:TREEBEARD_STUN2
+"Valheru to type a nerdy description here"
+END
+
