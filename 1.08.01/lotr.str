@@ -16815,7 +16815,7 @@ CONTROLBAR:TooltipSplitHorde
 End
 
 CONTROLBAR:GarrisonExit
-"Evacuate"
+"Evacua&te"
 END
 
 CONTROLBAR:ToolTipStructureExit
@@ -46990,6 +46990,12 @@ END
 
 CONTROLBAR:ToolTipHobbitFireCracker
 "Hero can throw a small Firecracker \n Left click icon then left click on target"
+End
+CONTROLBAR:ToolTipHobbitFireCrackerMerry
+"Hero can throw a small Firecracker. Special bonus against structures. \n Left click icon then left click on target"
+End
+CONTROLBAR:ToolTipHobbitFireCrackerSam
+"Hero can throw a small Firecracker. Special bonus against Shelob. \n Left click icon then left click on target"
 End
 
 GUI:PleaseSelectBuddy
