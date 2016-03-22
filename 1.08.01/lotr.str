@@ -46231,19 +46231,15 @@ CONTROLBAR:ToolTipElrondFarsight
 END
 
 CONTROLBAR:ToolTipElrondRestoration
-"Requires Level 7 \n Heals nearby allies and fully refreshes their special ability timers \n Left click to activate"
+"Requires Level 10 \n Heals nearby allies and fully refreshes their special ability timers \n Left click to activate"
 END
-
-CONTROLBAR:TooltipElrondWhirlwind
-"Requires Level 10 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
-End
 
 CONTROLBAR:ToolTipPersonalFlood
 "Requires Level 4 \n Summons a flood that will damage enemies and put out fires \n specially effective to cavalry \n\nLeft click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Requires Level 9 \n A high damage attack that also stuns light-sensitive units \n Left click icon then left click on target" 
+"Requires Level 10 \n A high damage attack that also stuns light-sensitive units \n Left click icon then left click on target" 
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
@@ -46321,7 +46317,7 @@ CONTROLBAR:HaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Requires Level 7 \n A high damage attack that also stuns light-sensitive units \n Left click icon then left click on target" 
+"Requires Level 10 \n A high damage attack that also stuns light-sensitive units \n Left click icon then left click on target" 
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
@@ -46395,7 +46391,7 @@ CONTROLBAR:ElrondRestoration
 END
 
 CONTROLBAR:ToolTipElrondRestoration
-"Requires Level 7 \n Heals nearby allies and fully refreshes their special ability timers \n Left click to activate"
+"Requires Level 10 \n Heals nearby allies and fully refreshes their special ability timers \n Left click to activate"
 END
 
 CONTROLBAR:ElrondWhirlwind
@@ -46403,13 +46399,13 @@ CONTROLBAR:ElrondWhirlwind
 End
 
 CONTROLBAR:TooltipElrondWhirlwind
-"Requires Level 10 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
+"Requires Level 6 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
 End
 
 // Treebeard
 
 CONTROLBAR:ToolTipTreeBeardLeadership
-"Allied Ents near Treebeard gain \n +50% Armor, +15% Speed \n and +20% Range \n \n Passive ability"
+"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience\n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipBuildTreebeard
