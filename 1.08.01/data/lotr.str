@@ -29869,7 +29869,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressRazorSpines
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines
-"Damages enemy units adjacent to the Fortress"
+"Damages enemy units adjacent to the Fortress \n Heals nearby units"
 END
 
 CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows
@@ -30119,7 +30119,7 @@ CONTROLBAR:PurchaseUpgradeMordorFortressLavaMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat
-"Decreases melee vulnerability of the Fortress"
+"Decreases melee vulnerability of the Fortress \n Heals Nearby Units"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressGorgorothSpire
@@ -46921,7 +46921,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"Wargs gain +60% Damage \n Left click to activate"
+"Wargs gain +65% Damage \n Wargs lose 15% armor vs pikes and structural \n Left click to activate"
 END
 
 //========== Release Candidate 4 fixes
