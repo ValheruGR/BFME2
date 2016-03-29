@@ -15083,7 +15083,7 @@ CONTROLBAR:ElvenWood
 End
 
 CONTROLBAR:ToolTipElvenWood
-"Creates lush terrain \n All ally units gain +50% Armor \n All enemy units lose their leadership bonuses \n Does not affect Heroes \n Left click icon then left click on target area"
+"Creates lush terrain \n All ally units gain +50% Armor \n Does not affect Heroes \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:SummonEntAllies
