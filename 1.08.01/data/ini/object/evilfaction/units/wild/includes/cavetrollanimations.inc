@@ -27,7 +27,7 @@
 		  ModelConditionState        = USER_4
             Model               = muctvbtu_skn ; ; 
 			WeaponLaunchBone = PRIMARY Firepoint
-			RetainSubObjects = Yes
+			;;RetainSubObjects = Yes
            
         End
 

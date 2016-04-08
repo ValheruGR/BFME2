@@ -17,14 +17,14 @@
         RandomTexture = mucavtrollc1.tga 0 mucavtroll.tga
 		
 		;// Splatted death goes first, independant of death flags
-		ModelConditionState    = DYING DECAY SPLATTED
+		ModelConditionState    = DYING DECAY SPLATTED USER_4
 			Model				= MUCavTroll_DISA
 			RetainSubObjects	= Yes
 		End
 		 ModelConditionState        = USER_4 
             Model               = mucavtrlU2_skn ; ; 
            WeaponLaunchBone = PRIMARY Firepoint
-		   RetainSubObjects = Yes
+		  ;; RetainSubObjects = Yes
         End
 
 		IdleAnimationState
@@ -85,12 +85,12 @@
 			End
 		End
 		
-		ModelConditionState    = DYING DECAY DEATH_1
+		ModelConditionState    = DYING DECAY DEATH_1 USER_4
 			Model				= MUCavTroll_DISB
 			RetainSubObjects	= Yes
 		End;
 
-		AnimationState         = DYING DECAY DEATH_1 
+		AnimationState         = DYING DECAY DEATH_1  USER_4
 
 			Animation            = dead1
 				AnimationName       = MUCavTroll_DISB.MUCavTroll_DISB
@@ -98,12 +98,12 @@
 			End
 		End
 
-		ModelConditionState    = DYING DECAY DEATH_2
+		ModelConditionState    = DYING DECAY DEATH_2 USER_4
 			Model                = MUCavTroll_DISC
 			RetainSubObjects = Yes
 		End;
 
-		AnimationState         = DYING DECAY DEATH_2 
+		AnimationState         = DYING DECAY DEATH_2  USER_4
 			Animation            = dead1
 				AnimationName       = MUCavTroll_DISC.MUCavTroll_DISC
 				AnimationMode      = ONCE
@@ -133,7 +133,7 @@
 			End
 		End
 
-		AnimationState = DYING DEATH_1
+		AnimationState = DYING DEATH_1 USER_4
 			Animation
 				AnimationName = MuCavTroll_SKL.MuCavTroll_DIEB
 				AnimationMode = ONCE
@@ -143,7 +143,7 @@
 				ParticleSysBone = BAT_HEAD TrollSplatDust
 		End
 
-		AnimationState = DYING DEATH_2
+		AnimationState = DYING DEATH_2 USER_4
 			Animation
 				AnimationName = MuCavTroll_SKL.MuCavTroll_DIEC
 				AnimationMode = ONCE

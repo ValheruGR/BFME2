@@ -25,7 +25,7 @@
 		 ModelConditionState        = USER_4 
             Model               = mucavtrlU3_skn ; ; 
            WeaponLaunchBone = PRIMARY Firepoint
-		   RetainSubObjects	= Yes
+		 ;;  RetainSubObjects	= Yes
         End
 
 		IdleAnimationState
