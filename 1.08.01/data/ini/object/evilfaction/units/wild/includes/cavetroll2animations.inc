@@ -18,7 +18,7 @@
         RandomTexture = mucavtrollc1.tga 0 mucavtroll.tga
 		
 		;// Splatted death goes first, independant of death flags
-		ModelConditionState    = DYING DECAY SPLATTED
+		ModelConditionState    = DYING DECAY SPLATTED USER_4
 			Model				= MUCavTroll_DISA
 			RetainSubObjects	= Yes
 		End
@@ -67,7 +67,7 @@
 		End
 		
 		
-		AnimationState         = DYING DECAY SPLATTED 
+		AnimationState         = DYING DECAY SPLATTED USER_4
 			Animation            = dead1
 				AnimationName       = MUCavTroll_DISA.MUCavTroll_DISA
 				AnimationMode      = ONCE
@@ -86,12 +86,12 @@
 			End
 		End
 		
-		ModelConditionState    = DYING DECAY DEATH_1
+		ModelConditionState    = DYING DECAY DEATH_1 USER_4
 			Model				= MUCavTroll_DISB
 			RetainSubObjects	= Yes
 		End;
 
-		AnimationState         = DYING DECAY DEATH_1 
+		AnimationState         = DYING DECAY DEATH_1 USER_4
 
 			Animation            = dead1
 				AnimationName       = MUCavTroll_DISB.MUCavTroll_DISB
@@ -99,12 +99,12 @@
 			End
 		End
 
-		ModelConditionState    = DYING DECAY DEATH_2
+		ModelConditionState    = DYING DECAY DEATH_2 USER_4
 			Model                = MUCavTroll_DISC
 			RetainSubObjects = Yes
 		End;
 
-		AnimationState         = DYING DECAY DEATH_2 
+		AnimationState         = DYING DECAY DEATH_2 USER_4
 			Animation            = dead1
 				AnimationName       = MUCavTroll_DISC.MUCavTroll_DISC
 				AnimationMode      = ONCE
@@ -120,21 +120,21 @@
 		End
 
 		;//;; DYING ANIMATIONS ;;;
-		AnimationState = DYING WEAPONSET_TOGGLE_1
+		AnimationState = DYING WEAPONSET_TOGGLE_1 
 			Animation
 				AnimationName = MuCavTroll_SKL.MuCavTroll_DIEE
 				AnimationMode = ONCE
 			End
 		End
 		
-		AnimationState = DYING SPLATTED
+		AnimationState = DYING SPLATTED 
 			Animation
 				AnimationName = MuCavTroll_SKL.MuCavTroll_LNDA
 				AnimationMode = ONCE
 			End
 		End
 
-		AnimationState = DYING DEATH_1
+		AnimationState = DYING DEATH_1 USER_4
 			Animation
 				AnimationName = MuCavTroll_SKL.MuCavTroll_DIEB
 				AnimationMode = ONCE
@@ -144,7 +144,7 @@
 				ParticleSysBone = BAT_HEAD TrollSplatDust
 		End
 
-		AnimationState = DYING DEATH_2
+		AnimationState = DYING DEATH_2 USER_4
 			Animation
 				AnimationName = MuCavTroll_SKL.MuCavTroll_DIEC
 				AnimationMode = ONCE
@@ -154,8 +154,8 @@
 				ParticleSysBone = BAT_HEAD TrollSplatDust1
 		End
 
-		ModelConditionState = DYING
-			Model = MuCavTroll_SKN		
+		ModelConditionState = DYING USER_4
+			Model =mucavtrlU_skn ; ;  MuCavTroll_SKN		
 		End
 		AnimationState = DYING
 			Animation

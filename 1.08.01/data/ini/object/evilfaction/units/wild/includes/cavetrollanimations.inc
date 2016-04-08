@@ -159,8 +159,8 @@
 				ParticleSysBone = BAT_HEAD TrollSplatDust1
 		End
 
-		ModelConditionState = DYING
-			Model = MuCavTroll_SKN		
+		ModelConditionState = DYING USER_4
+			Model =mucavtrlU_skn ;  ; MuCavTroll_SKN		
 		End
 		AnimationState = DYING
 			Animation

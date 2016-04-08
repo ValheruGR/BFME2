@@ -22,7 +22,7 @@
 			Model				= MUCavTroll_DISA
 			RetainSubObjects	= Yes
 		End
-		 ModelConditionState        = USER_4
+		 ModelConditionState        = USER_4 
             Model               = mucavtrlU3_skn ; ; 
            WeaponLaunchBone = PRIMARY Firepoint
 		   RetainSubObjects	= Yes
@@ -154,7 +154,7 @@
 				ParticleSysBone = BAT_HEAD TrollSplatDust1
 		End
 
-		ModelConditionState = DYING
+		ModelConditionState = DYING USER_4
 			Model = muctrlbtp3_skn ;; MuCavTroll_SKN		
 		End
 		AnimationState = DYING
