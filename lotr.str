@@ -30405,7 +30405,7 @@ CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight
 END
 
 CONTROLBAR:ToolTipHourOfTheWitchKing
-"Requires Level 10 \n Target enemy's special ability timers are reset to just used \n Left click icon then left click on target"
+"Requires Level 10 \n Target Heroes in an AOE have their special ability timers reset to 60% used \n Left click icon then left click on area"
 END
 
 CONTROLBAR:ToolTipThunderBolt
