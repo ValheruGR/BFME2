@@ -3,7 +3,7 @@
 ;;;;;;;;;;		AcceptDamageAdd = No ;;;;;;;;
 
 
-4.5r/11dto was ok till 09/04/15, but taper off causes bombard lose its damage against lairs. Also we better avoid future complains.
+;4.5r/11dto was ok till 09/04/15, but taper off causes bombard lose its damage against lairs. Also we better avoid future complains.
 
 
 
