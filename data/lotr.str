@@ -31060,7 +31060,7 @@ End
 
 
 CONTROLBAR:TooltipIvoryTowerVision
-"Reveals the entire shroud for 30 seconds"
+"Reveals the entire shroud for 30 seconds\n\n Gives a temporary speed bonus\n to player units during 20 seconds"
 End
 
 CONTROLBAR:TooltipRoar
@@ -46013,7 +46013,7 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:TooltipPalantirVision
-"Spy on the enemy forces\n\n Gives a temporary speed bonus to \n units at its target area"
+"Spy on the enemy forces\n\n Gives a temporary speed bonus to \n units at its target area during 35 seconds"
 END
 
 CONTROLBAR:TooltipFarSeeing
@@ -46021,7 +46021,7 @@ CONTROLBAR:TooltipFarSeeing
 END
 
 CONTROLBAR:TooltipFarSight
-"Spy on the enemy forces\n\n Gives a temporary range bonus to \n units at its target area\n\n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary range bonus to \n units at its target area during 45 seconds\n\n Left click icon then left click on target area"
 END
 
 // +++++++++++++++++++++++++++++++++++++++++++MEN OF THE WEST+++++++++++++++++++++++++++++++++++++++++++
