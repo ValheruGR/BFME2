@@ -46269,7 +46269,7 @@ CONTROLBAR:ToolTipElrondFarsight
 END
 
 CONTROLBAR:ToolTipElrondRestoration
-"Requires Level 10 \n Heals nearby allies and fully refreshes their special ability timers \n Left click to activate"
+"Requires Level 10 \n Heals nearby allies 20% of HP and fully refreshes their special ability timers \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipPersonalFlood

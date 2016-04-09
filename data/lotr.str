@@ -145,6 +145,27 @@ Color:Pink
 "Fairy Pink"
 END
 
+Color:Gray
+"Grey"
+END
+
+Color:White
+"White"
+END
+
+Color:LightGreen
+"Light Green"
+END
+
+Color:Bordeaux
+"Bordeaux"
+END
+
+Color:Brown
+"Brown"
+END
+
+
 // context: Team names.  They are used in a drop list where the player can select his team for a multiplayer game
 Team:0
 "-"
@@ -46735,7 +46756,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Allies near the Drummer Troll gain +50% Armor \n \n Passive ability"
+"Allies near the Drummer Troll gain +50% Armor \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor and 15% Experience \n Passive ability"
 END
 
 //Structures
