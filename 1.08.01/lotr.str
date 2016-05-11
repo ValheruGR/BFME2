@@ -46336,8 +46336,8 @@ END
 
 //Arwen
 
-CONTROLBAR:ToolTipArwenLD
-"Requires Level 4 \n Rivendell Lancers near Arwen gain \n +25% Damage, +25% Experience \n Passive ability"
+CONTROLBAR:ToolTipArwenLeadership
+"Requires Level 4 \n Rivendell Lancers near Arwen gain \n +25% Armor, +25% Experience \n Passive ability"
 END
 
 CONTROLBAR:TooltipElvenGrace
