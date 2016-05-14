@@ -994,9 +994,10 @@ Object MordorMountainTroll
 		WeaponSet
 		Conditions          =  None
 		Weapon              =  PRIMARY    MordorCaveTrollPunch
-        OnlyAgainst         =  PRIMARY  HERO  MACHINE HORDE INFANTRY CAVALRY MONSTER
 		Weapon              =  SECONDARY  MordorCaveTrollBash
         OnlyAgainst         = SECONDARY	STRUCTURE BLOCKING_GATE
+		Weapon				= TERTIARY	MordorCaveTrollPunch
+		OnlyInCondition		= TERTIARY	MOVING
 	End
 	 
 
@@ -1024,11 +1025,12 @@ Object MordorMountainTroll
 	;;End
 	
 	WeaponSet
-    Conditions          = PASSENGER_TYPE_ONE 
-    Weapon              = PRIMARY     MordorCaveTrollClubSwing
-    Weapon              = SECONDARY       MordorCaveTrollClubSwing  ;
-    PreferredAgainst = SECONDARY STRUCTURE BLOCKING_GATE  ;
-    OnlyAgainst         =  SECONDARY  STRUCTURE BLOCKING_GATE  ;
+		Conditions          = PASSENGER_TYPE_ONE 
+		Weapon              = PRIMARY	MordorCaveTrollClubSwing
+		Weapon              = SECONDARY  MordorCaveTrollBash ;;=;; 
+        OnlyAgainst         = SECONDARY	STRUCTURE BLOCKING_GATE ;;=;; 
+		Weapon				= TERTIARY	MordorCaveTrollClubSwing
+		OnlyInCondition		= TERTIARY	MOVING
   End
 	
 	ArmorSet
