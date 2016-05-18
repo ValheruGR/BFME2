@@ -5192,17 +5192,17 @@ END
 
 Version:Format4
 // context: TRANSLATE ONLY THE WORD Build. DO NOT MODIFY THE VARIABLES  
-"Version 1.08.01       "
+"Version 1.09       "
 END
 
 Version:Format3
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"Version 1.08.01       "
+"Version 1.09       "
 END
 
 Version:Format2
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"Version 1.08.01       "
+"Version 1.09       "
 END
 
 Version:BuildTime
@@ -26235,7 +26235,7 @@ CONTROLBAR:PurchaseUpgradeMenFortressHouseOfHealing
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Reduces hero revival cost by 20% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 20% \n Heals all nearby allies"
+"Reduces hero revival cost by 20% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 15% \n Heals all nearby allies"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
@@ -26404,7 +26404,7 @@ CONTROLBAR:ConstructDwarvenStatue
 END
 
 CONTROLBAR:TooltipConstructDwarvenStatue
-"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack \n Increases command point limit by 10"
+"Allies near the statue gain \n +50% Armor \n Does stack \n Increases command point limit by 10"
 END
 
 CONTROLBAR:ConstructDwarvenArcheryRange
@@ -26832,7 +26832,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressDragonNest
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest
-"Allows summoning of a Fire Drake"
+"Allows summoning of a Fire Drake \n Heroes revive 10% faster at this Fortress"
 END
 
 
@@ -27088,7 +27088,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressMysticFountains
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains
-"Provides healing to nearby troops \n Heroes revive 25% faster at this Fortress"
+"Provides healing to nearby troops \n Heroes revive 20% faster at this Fortress"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressEnchantedAnvil
@@ -30304,7 +30304,7 @@ CONTROLBAR:ToolTipCorrodeAllegiance
 END
 
 CONTROLBAR:ToolTipTameTheBeast
-"Requires Level 9 \n Target wargs or warg riders come under Sharku's control \n Left click icon then left click on target"
+"Requires Level 9 \n Targeted cavalry units come under Sharku's control \n Left click icon then left click on target"
 END
 
 CONTROLBAR:BloodHunt
@@ -32697,7 +32697,7 @@ OBJECT:ShireWorkPit
 End
 
 OBJECT:SignalFireDescription
-"Capture to decrease power recharge times"
+"Capture to decrease recharge times for unused powers n/ Heals nearby heros and flyers."
 End
 
 OBJECT:SkullTotem
@@ -46047,7 +46047,7 @@ END
 //Fortress upgrades
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Allies near Fortress gain \n +50% Damage \n and earn experience 25% faster \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
@@ -46277,7 +46277,7 @@ CONTROLBAR:ToolTipPersonalFlood
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Requires Level 10 \n A high damage attack that also stuns light-sensitive units \n Left click icon then left click on target" 
+"Requires Level 10 \n A high damage attack that also stuns enemy units \n Left click icon then left click on target" 
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
@@ -46359,7 +46359,7 @@ CONTROLBAR:HaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Requires Level 10 \n A high damage attack that also stuns light-sensitive units \n Left click icon then left click on target" 
+"Requires Level 10 \n A high damage attack that also stuns enemy units \n Left click icon then left click on target" 
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
@@ -46466,7 +46466,7 @@ OBJECT:DwarvenStatueDescription
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Allies near the statue gain \n +25% Damage and 25% experience \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Allies near Fortress gain \n +50% Damage and 25% experience \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
@@ -46564,7 +46564,7 @@ CONTROLBAR:ToolTipAxeThrow
 END
 
 CONTROLBAR:ToolTipSlayer
-"Requires Level 5 \n Gimli gains +150% Damage, Double Speed, and -15% Structural Armor \n Left click to activate"
+"Requires Level 5 \n Gimli gains +50% Damage, Double Speed, and -15% Structural Armor \n Left click to activate"
 END
 
 //====== Units
@@ -46632,7 +46632,7 @@ CONTROLBAR:ToolTipEyeofSauron
 END
 
 CONTROLBAR:ToolTipDarkness
-"Temporarily covers the entire map in darkness All ally units(except Monsters) gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain 125% damage, +33% armor and +150% experience \n Left click to activate"
+"Temporarily covers the entire map in darkness All ally units(except Monsters) gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain 25% damage, +33% armor and +50% experience \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipSummonCrebain
@@ -46656,7 +46656,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 
 CONTROLBAR:ToolTipDominate
-"Requires Level 9 \n Gain control permanently of a targeted cavalry unit \n Left click icon then left click on target enemies"
+"Requires Level 7 \n Temporarily gain control of targeted enemies \n Left click icon then left click on target enemies"
 END
 
 CONTROLBAR:ToolTipSharkuManEater
@@ -47041,13 +47041,3 @@ End
 GUI:PleaseSelectBuddy
 "Chat message could not be sent.  One or more friends need to be selected."
 END
-
-
-CONTROLBAR:TREEBEARD_STUN1
-"Madness of Fangorn [&U]"
-END
-
-CONTROLBAR:TREEBEARD_STUN2
-"Valheru to type a nerdy description here"
-END
-
