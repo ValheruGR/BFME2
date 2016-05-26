@@ -31557,6 +31557,10 @@ OBJECT:DwarvenLoneTowerDescription
 "Fires axes at nearby enemies"
 End
 
+OBJECT:SummonedLoneTowerDescription
+"Attacks nearby enemies. /n Heals allied units, respawn hordes and provides leadership. /n Requires Fortress Upgrades"
+End
+
 OBJECT:DwarvenMagicDoor
 "Mine Shaft"
 End
