@@ -29890,7 +29890,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressRazorSpines
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines
-"Damages enemy units adjacent to the Fortress \n Heals nearby units"
+"Periodically damages enemy units adjacent to the Fortress every 7 seconds \n Heals nearby units"
 END
 
 CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows
