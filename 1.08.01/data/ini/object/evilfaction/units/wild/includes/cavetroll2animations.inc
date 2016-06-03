@@ -786,7 +786,7 @@
 		;Running attack
 		AnimationState = FIRING_OR_PREATTACK_C
 			Animation
-				AnimationName = MuCavTroll_SKL.MuCavTroll_ATKJ ; ; MuCavTroll_SKL.MuCavTroll_ATRB
+				AnimationName = MuCavTroll_SKL.MuCavTroll_ATRB ; ; MuCavTroll_SKL.MuCavTroll_ATRB
 				AnimationMode = ONCE
 				UseWeaponTiming		= Yes
 			End
