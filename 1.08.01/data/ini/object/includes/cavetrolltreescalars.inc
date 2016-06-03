@@ -2,6 +2,6 @@
 		DamageScalar	= 115% NONE +HERO
 		DamageScalar	= 50% NONE +STRUCTURE -WargLair -BarrowWightLair -CaveTrollLair -SpiderLair -MoriarGoblinLair -COMMANDCENTER;=;; ;;=CAVETROLLBALANCE=;;
         DamageScalar	= 40% NONE +COMMANDCENTER ;;=CAVETROLLBALANCE=;;
-		DamageScalar	= 77% NONE +DwarvenPhalanx  ;;=CAVETROLLBALANCE=;;
+		DamageScalar	= 82% NONE +DwarvenPhalanx  ;;=CAVETROLLBALANCE=;;
 		DamageScalar	= 77% NONE +GondorTowerShieldGuard ;;=CAVETROLLBALANCE=;;
 		DamageScalar	= 90% NONE +MordorEasterling ;;=CAVETROLLBALANCE=;;
