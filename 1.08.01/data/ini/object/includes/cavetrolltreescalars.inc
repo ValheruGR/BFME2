@@ -5,3 +5,8 @@
 		DamageScalar	= 82% NONE +DwarvenPhalanx  ;;=CAVETROLLBALANCE=;;
 		DamageScalar	= 77% NONE +GondorTowerShieldGuard ;;=CAVETROLLBALANCE=;;
 		DamageScalar	= 90% NONE +MordorEasterling ;;=CAVETROLLBALANCE=;;
+
+
+
+
+;;;;;-WildMarauder -GondorTowerShieldGuard -ElvenMithlondSentry -DwarvenPhalanx -IsengardPikeman -MordorEasterling
