@@ -4,7 +4,7 @@
         DamageScalar	= 40% NONE +COMMANDCENTER ;;=CAVETROLLBALANCE=;;
 		DamageScalar	= 82% NONE +DwarvenPhalanx  ;;=CAVETROLLBALANCE=;;
 		DamageScalar	= 77% NONE +GondorTowerShieldGuard ;;=CAVETROLLBALANCE=;;
-		DamageScalar	= 90% NONE +MordorEasterling ;;=CAVETROLLBALANCE=;;
+		DamageScalar	= 85% NONE +MordorEasterling ;;=CAVETROLLBALANCE=;;
 
 
 
