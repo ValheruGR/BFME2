@@ -468,7 +468,7 @@ APT:GameSelectorTab
 END
 
 APT:ReplaySelectorTab
-// context: One of the selection buttons to choose between Skirmish (=Game) and Replay loading and Campaign/Skirmish/Replay loading in load/save menu
+// context: One of the selection buttons to choose between Skirmish (=Game) and Replay loading and Campaig/nSkirmish/Replay loading in load/save menu
 "REPLAY"
 END
 
@@ -478,12 +478,12 @@ APT:Replays
 END
 
 APT:CampaignSelectorTab
-// context: One of the selection buttons to choose between Campaign/Skirmish/Replay loading in load/save menu
+// context: One of the selection buttons to choose between Campaig/nSkirmish/Replay loading in load/save menu
 "CAMPAIGN"
 END
 
 APT:SkirmishSelectorTab
-// context: One of the selection buttons to choose between Campaign/Skirmish/Replay loading in load/save menu
+// context: One of the selection buttons to choose between Campaig/nSkirmish/Replay loading in load/save menu
 "SKIRMISH"
 END
 
@@ -1216,7 +1216,7 @@ TOOLTIP:Skirmish/dumSkirmishProfileD
 END
 
 GUI:AdvancedOptionsToggleOnOff
-"Toggle On/Off - Off to improve performance"
+"Toggle O/nOff - Off to improve performance"
 END
 
 GUI:PerformanceTestingMessage
@@ -2773,7 +2773,7 @@ APT:DifficultyTitle
 END
 
 GUI:Random
-// context: Random selection of faction/color in the multiplayer join screen
+// context: Random selection of factio/ncolor in the multiplayer join screen
 "Random"
 END
 
@@ -3549,7 +3549,7 @@ END
 
 GUI:WinLoss
 // context: win loss heading
-"Win/Loss"
+"Wi/nLoss"
 END
 
 GUI:FavSide
@@ -6124,28 +6124,28 @@ TOOLTIP:Skirmish/tooltipMordor
 END
 
 // Online Login
-TOOLTIP:OnlineShell/OnlineLogin/tooltipRememberMe
+TOOLTIP:OnlineShell/OnlineLogi/ntooltipRememberMe
 "Enable to remember your password."
 END
-TOOLTIP:OnlineShell/OnlineLogin/tooltipOnlineEAAccountName
+TOOLTIP:OnlineShell/OnlineLogi/ntooltipOnlineEAAccountName
 "Register your account with EA. Complete this field with your new account name"
 END
-TOOLTIP:OnlineShell/OnlineLogin/tooltipOnlineNickname
+TOOLTIP:OnlineShell/OnlineLogi/ntooltipOnlineNickname
 "Nicknames are case sensitive"
 END
-TOOLTIP:OnlineShell/OnlineLogin/Login/Register/ButtonClip
+TOOLTIP:OnlineShell/OnlineLogi/nLogi/nRegister/ButtonClip
 "You must register to play online"
 END
-TOOLTIP:OnlineShell/OnlineLogin/Login/DeleteNickname/Buttonclip
+TOOLTIP:OnlineShell/OnlineLogi/nLogi/nDeleteNickname/Buttonclip
 ""
 END
-TOOLTIP:OnlineShell/OnlineLogin/Login/ServiceTerms/ButtonClip
+TOOLTIP:OnlineShell/OnlineLogi/nLogi/nServiceTerms/ButtonClip
 ""
 END
-TOOLTIP:OnlineShell/OnlineLogin/Login/OfficialSite/ButtonClip
+TOOLTIP:OnlineShell/OnlineLogi/nLogi/nOfficialSite/ButtonClip
 ""
 END
-TOOLTIP:OnlineShell/OnlineLogin/Login/Login/buttonClip
+TOOLTIP:OnlineShell/OnlineLogi/nLogi/nLogi/nbuttonClip
 "Please enter login and password."
 END
 
@@ -6277,16 +6277,16 @@ TOOLTIP:OnlineLobby/tooltipPlayerMadeMaps
 END
 
 //Online Join Game 
-TOOLTIP:OnlineJoin/tooltipName
+TOOLTIP:OnlineJoi/ntooltipName
 "Nicknames of players joining game"
 END
-TOOLTIP:OnlineJoin/tooltipArmy
+TOOLTIP:OnlineJoi/ntooltipArmy
 "Names of armies joining game"
 END
-TOOLTIP:OnlineJoin/tooltipTeam
+TOOLTIP:OnlineJoi/ntooltipTeam
 "Teams that are joining game. \n Teams of the same ID numbers are allies"
 END
-TOOLTIP:OnlineJoin/tooltipColor
+TOOLTIP:OnlineJoi/ntooltipColor
 "House colors of armies joining game"
 END
 
@@ -6759,7 +6759,7 @@ TOOLTIP:QuitMenu/Restart/TheButton
 "Click here to restart this mission" 
 END
 
-TOOLTIP:QuitMenu/ExitMission/TheButton
+TOOLTIP:QuitMenu/ExitMissio/nTheButton
 "Click here to exit out of the current game"
 END
 
@@ -7260,7 +7260,7 @@ END
 
 GUI:ToggleControlBarDescription
 // context: Help text for the 'Toggle Control Bar' command. 
-"Toggles the in game control bar on/off."
+"Toggles the in game control bar o/noff."
 END
 
 GUI:ToggleLetterbox
@@ -7270,11 +7270,11 @@ END
 
 GUI:ToggleLetterboxDescription
 // context: Help text for the 'Toggle Letter Box' command. 
-"Toggles Letterbox Mode on/off."
+"Toggles Letterbox Mode o/noff."
 END
 
 GUI:Scatter
-// context: Help text for the 'Scatter units' icon/command. 
+// context: Help text for the 'Scatter units' ico/ncommand. 
 "Scatter"
 END
 
@@ -8590,7 +8590,7 @@ CONTROLBAR:CommandPoints
 END
 
 CONTROLBAR:CommandPointsDescription
-"Current population/unit population cap"
+"Current populatio/nunit population cap"
 END
 
 CONTROLBAR:CommandPointsLivingWorld
@@ -16990,7 +16990,7 @@ GUI:InternetDisconnectionMenuHeaderCaps
 END
  
 APT:DisconnectRules
-"One or more players has disconnected from the game.  The player(s) may return to continue play; however it is possible that the player(s) are attempting to circumvent proper win/loss ladder reporting.  If you wish to file a grievance, click on the 'Report Cheaters' link within the game ladder web page"
+"One or more players has disconnected from the game.  The player(s) may return to continue play; however it is possible that the player(s) are attempting to circumvent proper wi/nloss ladder reporting.  If you wish to file a grievance, click on the 'Report Cheaters' link within the game ladder web page"
 END
 
 GUI:InternetDisconnectionMenuBody2
@@ -18508,7 +18508,7 @@ END
 
 STAT:STRATEGIC_RTS_BATTLES_WIN_LOSS_RATIO
 // End of War of the Ring game
-"RTS Battles Win/Loss Ratio"
+"RTS Battles Wi/nLoss Ratio"
 END
 
 STAT:STRATEGIC_AUTORESOLVED_BATTLES_WON
@@ -22766,7 +22766,7 @@ END
 
 // MP map descriptions
 
-Map:MAPMPTournamentUdun/Desc
+Map:MAPMPTournamentUdu/nDesc
 "The lands behind the Black Gate known as Udun take the name of the underworld due to the volcanic ash and noxious fumes that cover them."
 END
 
@@ -22786,7 +22786,7 @@ Map:MAPMPEvendim/Desc
 "A lone lake not far from the Shire."
 END
 
-Map:MAPMPHarlindon/Desc
+Map:MAPMPHarlindo/nDesc
 "These Elvish lands are the southern parts of Lindon, lying between the Blue Mountains and the Great Sea."
 END
 
@@ -22802,7 +22802,7 @@ Map:MAPMPAnfalas/Desc
 "A long shoreland territory of Gondor that lies above the Bay of Belfalas. \nStarting Positions: Camps \nExpansion Points: 7 \nSettlements: 12 \nLairs: Troll \nBuild Restrictions: No Siege Ladders or Towers"
 END
 
-Map:MAPMPAnorien/Desc
+Map:MAPMPAnorie/nDesc
 "The northwestern territory of Gondor that forms the border between Gondor and Rohan.\nStarting Positions: Castles \nExpansion Points: 1 \nSettlements: 8 \nLairs: Troll and Warg"
 END
 
@@ -22818,7 +22818,7 @@ Map:MAPMPCairAndros/Desc
 "An old Gondor island fortress on the Anduin River, north of the city of Osgiliath.\nStarting Positions: Castles\nExpansion Points: 4\nSettlements: 9\nLairs: Troll and Warg"
 END
 
-Map:MAPMPCentralIthilien/Desc
+Map:MAPMPCentralIthilie/nDesc
 "A land in eastern Gondor, bordering the mountains that divide Gondor from Mordor.\nStarting Positions: Castles\nExpansion Points: 4\nSettlements: 12\nLairs: Troll and Goblin"
 END
 
@@ -22846,7 +22846,7 @@ Map:MAPMPEastEmnet/Desc
 "The eastern plains of Rohan, dotted with nomadic settlements and farmlands.\nStarting Positions: Castles\nExpansion Points: 4\nSettlements: 8\nLairs: Troll and Warg"
 END
 
-Map:MAPMPEastRohan/Desc
+Map:MAPMPEastRoha/nDesc
 "Lush green lands in Eastern Rohan, bisected by the Entwash River.\nStarting Positions: Castles\nExpansion Points: 2\nSettlements: 6\nLairs: Warg"
 END
 
@@ -22854,11 +22854,11 @@ Map:MAPMPEastfold/Desc
 "The eastern lands of Rohan, bordering Gondor. \nStarting Positions: Castles\nExpansion Points: 3\nSettlements: 10\nLairs: Troll and Goblin"
 END
 
-Map:MAPMPEavesofFangorn/Desc
+Map:MAPMPEavesofFangor/nDesc
 "The golden lands that lie at the edge of Fangorn Forest. \nStarting Positions: Castles\nExpansion Points: 3\nSettlements: 6\nLairs: Troll and Warg"
 END
 
-Map:MAPMPEmynArnen/Desc
+Map:MAPMPEmynArne/nDesc
 "Green, lush lands in central Gondor, bordering the dark mountains that separate Gondor from Mordor in the east.\nStarting Positions: Castles\nExpansion Points: 1\nSettlements: 8\nLairs: Troll and Goblin"
 END
 
@@ -22870,19 +22870,19 @@ Map:MAPMPEnedwaith/Desc
 "A wide, open land that lies to the west of Rohan.\nStarting Positions: Outposts\nExpansion Points: 8\nSettlements: 16\nLairs: Troll and Goblin\nBuild Restrictions: No Siege Ladders or Towers"
 END
 
-Map:MAPMPFangorn/Desc
+Map:MAPMPFangor/nDesc
 "A dark and mysterious forest that is the home of Treebeard and the Ents. \nStarting Positions: Castles\nExpansion Points: 4\nSettlements: 10\nLairs: Troll and Goblin"
 END
 
-Map:MAPMPFordsofIsen/Desc
+Map:MAPMPFordsofIse/nDesc
 "A crossing point of the River Isen, located near Isengard.\nStarting Positions: Castles\nExpansion Points: 2\nSettlements: 8\nLairs: Warg"
 END
 
-Map:MAPMPGapofRohan/Desc
+Map:MAPMPGapofRoha/nDesc
 "The only large and easily traversable pass between the Misty Mountains and the White Mountains.\nStarting Positions: Castles\nExpansion Points: 6\nSettlements: 12\nLairs: Troll and Goblin"
 END
 
-Map:MAPMPHalifirien/Desc
+Map:MAPMPHalifirie/nDesc
 "A tall forested hill lying at the border that separates Gondor from Rohan.\nStarting Positions: Castles\nExpansion Points: 3\nSettlements: 8\nLairs: Warg"
 END
 
@@ -22894,7 +22894,7 @@ Map:MAPMPHarondor/Desc
 "Sandy, rocky hills lying to the west of Harad and the south of Gondor.\nStarting Positions: Camps\nExpansion Points: 8\nSettlements: 12\nLairs: Warg\nBuild Restrictions: No Siege Ladders or Towers"
 END
 
-Map:MAPMPLebennin/Desc
+Map:MAPMPLebenni/nDesc
 "This lush, green land in southern Gondor lies where the Anduin River completes its journey into the Bay of Belfalas.\nStarting Positions: Camps\nExpansion Points: 2\nSettlements: 12\nLairs: Troll, Goblin and Warg\nBuild Restrictions: No Siege Ladders or Towers"
 END
 
@@ -22914,11 +22914,11 @@ Map:MAPMPMouthsofEntwash/Desc
 "The wet, marshy land where the Entwash River flows into the Anduin.\nStarting Positions: Castles\nExpansion Points: 6\nSettlements: 11\nLairs: Warg"
 END
 
-Map:MAPMPNorthernIthilien/Desc
+Map:MAPMPNorthernIthilie/nDesc
 "The northern lands of Gondor, where Faramir first encountered Frodo and Sam, on their journey to Mordor.\nStarting Positions: Castles\nExpansion Points: 3\nSettlements: 8\nLairs: Troll and Goblin"
 END
 
-Map:MAPMPNurn/Desc
+Map:MAPMPNur/nDesc
 "The southern lands of Mordor that surround a great inland sea.\nStarting Positions: Camps\nExpansion Points: 3\nSettlements: 8\nLairs: Troll\nBuild Restrictions: No Siege Ladders or Towers"
 END
 
@@ -22934,15 +22934,15 @@ Map:MAPMPPelargir/Desc
 "An ancient port city of Gondor that lies at the mouth of the Anduin River.\nStarting Positions: Castles\nExpansion Points: 6\nSettlements: 12\nLairs: Goblin and Warg"
 END
 
-Map:MAPMPRhun/Desc
+Map:MAPMPRhu/nDesc
 "The mysterious Eastern lands of Middle-earth, around the Sea of Rhun. \nStarting Positions: Camps\nExpansion Points: 6\nSettlements: 18\nLairs: Troll"
 END
 
-Map:MAPMPRohan/Desc
+Map:MAPMPRoha/nDesc
 "A great kingdom in Middle-earth ruled by King Theoden.  It is the home of the Rohirrim, the finest horsemen of Middle-earth.\nStarting Positions: Castles\nExpansion Points: 2\nSettlements: 6\nLairs: Troll, Goblin and Warg"
 END
 
-Map:MAPMPSouthernIthilien/Desc
+Map:MAPMPSouthernIthilie/nDesc
 "The fertile, wooded lands in southern Gondor.\nStarting Positions: Castles\nExpansion Points: 2\nSettlements: 6\nLairs: Goblin"
 END
 
@@ -23035,15 +23035,15 @@ Map:MAPWOREttenmoors/Desc
 "These wild and untamed lands are the domain of Goblins and Trolls."
 END
 
-Map:MAPWORFangorn/Desc
+Map:MAPWORFangor/nDesc
 "A dark and mysterious forest that is the home of Treebeard and the Ents."
 END
 
-Map:MAPWORForlindon/Desc
+Map:MAPWORForlindo/nDesc
 "The Northern part of the Elf lands of Lindon are bordered by the Blue Mountains and the Great Sea."
 END
 
-Map:MAPWORGapOfRohan/Desc
+Map:MAPWORGapOfRoha/nDesc
 "The only large and easily traversable pass between the Misty Mountains and the White Mountains."
 END
 
@@ -23059,7 +23059,7 @@ Map:MAPWORHarad/Desc
 "A barren, desert land that lies south of Mordor. It is the homeland of the Haradrim warriors."
 END
 
-Map:MAPWORHarlindon/Desc
+Map:MAPWORHarlindo/nDesc
 "These Elvish lands are the southern parts of Lindon, lying between the Blue Mountains and the Great Sea."
 END
 
@@ -23079,15 +23079,15 @@ Map:MAPWORIsengard/Desc
 "Originally a fortress of Gondor, Isengard was occupied by the corrupted wizard Saruman during the War of the Ring."
 END
 
-Map:MAPWORIthilien/Desc
+Map:MAPWORIthilie/nDesc
 "The fertile, wooded lands in southern Gondor."
 END
 
-Map:MAPWORCelduin/Desc
+Map:MAPWORCeldui/nDesc
 "This great river, also known as the River Running, rose from Erebor and flowed southward until it met the Sea of Rhun."
 END
 
-Map:MAPWORLorien/Desc
+Map:MAPWORLorie/nDesc
 "This forest, also known as the Golden Wood for its Mallorn Trees, is the home of Galadriel and Celeborn of the elves."
 END
 
@@ -23123,7 +23123,7 @@ Map:MAPWORRedhornPass/Desc
 "Redhorn is the great peak in the central Misty Mountains also known as Caradhras. The Fellowship attempted to use this difficult pass during the War of the Ring."
 END
 
-Map:MAPWORRhun/Desc
+Map:MAPWORRhu/nDesc
 "The mysterious Eastern lands of Middle-earth, around the Sea of Rhun."
 END
 
@@ -23131,7 +23131,7 @@ Map:MAPWORRivendell/Desc
 "Rivendell is the hidden sanctuary for the Elves of Eriador. The centerpiece of this city is the House of Elrond."
 END
 
-Map:MAPWORRohan/Desc
+Map:MAPWORRoha/nDesc
 "A great kingdom in Middle-earth ruled by King Theoden.  It is the home of the Rohirrim, the finest horsemen of Middle-earth."
 END
 
@@ -25425,7 +25425,7 @@ FtpError:NoSuchFile
 "Error. Your network connection has been interrupted. Please reconnect to complete downloading the patch."
 END
 
-TOOLTIP:OnlineShell/OnlineLogin/Login/popupLocale/Accept/buttonClip
+TOOLTIP:OnlineShell/OnlineLogi/nLogi/npopupLocale/Accept/buttonClip
 " "
 END
 
@@ -29398,11 +29398,11 @@ APT:History
 "Stats"
 END
 
-ToolTip:Createahero/mcclassscreen/screen/rotateright/button
+ToolTip:Createahero/mcclassscree/nscree/nrotateright/button
 "Rotate Right"
 END
 
-ToolTip:Createahero/mcclassscreen/screen/rotateleft/button
+ToolTip:Createahero/mcclassscree/nscree/nrotateleft/button
 "Rotate Left"
 END
 
@@ -29521,7 +29521,7 @@ STRATEGICHUD:StatsCommandPointsTitle
 END
 
 STRATEGICHUD:StatsCommandPointsHelp
-"Current world population/World population cap"
+"Current world populatio/nWorld population cap"
 END
 
 STRATEGICHUD:StatsPowerPointsTitle
@@ -29661,7 +29661,7 @@ STRATEGICHUD:RegionCommandPointsTitle
 END
 
 STRATEGICHUD:RegionCommandPointsHelp
-"Current territory population/Territory population cap"
+"Current territory populatio/nTerritory population cap"
 END
 
 STRATEGICHUD:RegionCommandPoints2Title
@@ -29677,7 +29677,7 @@ STRATEGICHUD:ArmyCommandPointsTitle
 END
 
 STRATEGICHUD:ArmyCommandPointsHelp
-"Current army population/Army population cap"
+"Current army populatio/nArmy population cap"
 END
 
 STRATEGICHUD:TurnTimeRemaining
@@ -31558,7 +31558,7 @@ OBJECT:DwarvenLoneTowerDescription
 End
 
 OBJECT:SummonedLoneTowerDescription
-"Attacks nearby enemies. /n Heals allied units, respawn hordes and provides leadership. /n Requires Fortress Upgrades"
+"Attacks nearby enemies. \n Heals allied units, respawn hordes and provides leadership. \n Requires Fortress Upgrades"
 End
 
 OBJECT:DwarvenMagicDoor
@@ -32701,7 +32701,7 @@ OBJECT:ShireWorkPit
 End
 
 OBJECT:SignalFireDescription
-"Capture to decrease recharge times for unused powers n/ Heals nearby heros and flyers."
+"Capture to decrease recharge times for unused powers /n Heals nearby heros and flyers."
 End
 
 OBJECT:SkullTotem
@@ -43918,7 +43918,7 @@ STAT:RTS_FAVORITE_UNIT
 "Favorite Unit"
 END
 
-ToolTip:OnlineShell/OnlineLogin/GamespyShortcut
+ToolTip:OnlineShell/OnlineLogi/nGamespyShortcut
 "Click here to visit the Gamespy Battle for Middle-earth(tm) II website including the official tournament ladders."
 END
 
@@ -44082,11 +44082,11 @@ ToolTip:CAHClasses_Haradrim
 "Haradrim"
 END
 
-ToolTip:CreateaHero/Main/mcAppearanceScreen/Screen/TypeWindow/TabButtons/Appearance/Button
+ToolTip:CreateaHero/Mai/nmcAppearanceScree/nScree/nTypeWindow/TabButtons/Appearance/Button
 "Adjust your Hero's clothing and appearance"
 END
 
-ToolTip:CreateaHero/Main/mcAppearanceScreen/Screen/TypeWindow/TabButtons/Attributes/Button
+ToolTip:CreateaHero/Mai/nmcAppearanceScree/nScree/nTypeWindow/TabButtons/Attributes/Button
 "Distribute and adjust your Hero's attribute points"
 END
 
@@ -44110,19 +44110,19 @@ Tooltip:Skirmish/ProfileMenu/ProfileStats/Bttn
 "Look at your profile's stats"
 END
 
-Tooltip:Skirmish/ProfileMenu/ProfileStats/Bttn/Change
+Tooltip:Skirmish/ProfileMenu/ProfileStats/Btt/nChange
 "Switch to a different profile"
 END
 
-Tooltip:Skirmish/ProfileMenu/ProfileStats/Bttn/New
+Tooltip:Skirmish/ProfileMenu/ProfileStats/Btt/nNew
 "Create a new profile"
 END
 
-Tooltip:Skirmish/ProfileMenu/ProfileStats/Bttn/Delete
+Tooltip:Skirmish/ProfileMenu/ProfileStats/Btt/nDelete
 "Enter the delete profile menu"
 END
 
-Tooltip:Skirmish/ProfileMenu/ProfileStats/Bttn/Stats
+Tooltip:Skirmish/ProfileMenu/ProfileStats/Btt/nStats
 "View the current profile's stats"
 END
 
@@ -44164,7 +44164,7 @@ ToolTip:Skirmish/ProfileMenu/bttn
 "Create and manage a profile for tracking progress and statistics"
 END
 
-ToolTip:CreateaHero/Main/mcManagerScreen/Screen/TabNav/Appearance/TakePicture/bttn
+ToolTip:CreateaHero/Mai/nmcManagerScree/nScree/nTabNav/Appearance/TakePicture/bttn
 "Click here to take a full screenshot of your Hero"
 END
 
