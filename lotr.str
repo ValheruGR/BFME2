@@ -46033,7 +46033,7 @@ END
 //Powers
 
 CONTROLBAR:ToolTipBoromirLeadership
-"Requires Level 5 \n Allies near Boromir gain \n +50% Damage"
+"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and gains experience 25% faster."
 END
 
 CONTROLBAR:ToolTipAragornLeadership
