@@ -29828,6 +29828,16 @@ CONTROLBAR:UntamedAllegiance
 "Untamed Allegiance"
 END
 
+
+
+CONTROLBAR:OrcDraught
+"OrcDraught"
+END
+
+CONTROLBAR:TooltipOrcDraught
+"Heal Friendly Allies \n Left click icon then left click on target Allies"
+END
+
 CONTROLBAR:TooltipUntamedAllegiance
 "Heal Friendly Allies \n Left click icon then left click on target Allies"
 END
