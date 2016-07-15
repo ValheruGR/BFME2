@@ -27627,6 +27627,8 @@ CONTROLBAR:LW_Hero_Gandalf
 "Gandalf"
 END
 
+
+
 CONTROLBAR:LW_ToolTipBuild_Gandalf
 "Unit Type: Hero\n"
 END
@@ -27657,6 +27659,14 @@ END
 
 CONTROLBAR:LW_ToolTip_Eomer
 "Unit Type: Hero"
+END
+
+CONTROLBAR:LadyOfLight
+"Lady Of Light"
+END
+
+CONTROLBAR:TooltipLadyOfLight
+"Call down the light of Valar onto your enemies"
 END
 
 CONTROLBAR:LW_Hero_Eowyn
