@@ -14934,7 +14934,7 @@ CONTROLBAR:FueltheFires
 End
 
 CONTROLBAR:ToolTipFueltheFires
-"+100% resources from harvesting trees \n Passive power"
+"+75% resources from harvesting trees \n Works on Allies \n Passive power"
 End
 
 CONTROLBAR:PlusCommandPoints
