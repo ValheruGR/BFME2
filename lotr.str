@@ -46152,7 +46152,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Allies near Theoden gain \n +50% Damage \n \n Passive ability"
+"Allies near Theoden gain \n +50% Damage \n +25% Leadership \n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipGloriousCharge
@@ -46588,7 +46588,7 @@ CONTROLBAR:ToolTipAxeThrow
 END
 
 CONTROLBAR:ToolTipSlayer
-"Requires Level 5 \n Gimli gains +50% Damage, Double Speed, and -15% Structural Armor \n Left click to activate"
+"Requires Level 5 \n Gimli gains +50% Damage, Double Speed, and loses -15% Structural Armor \n Left click to activate"
 END
 
 //====== Units
