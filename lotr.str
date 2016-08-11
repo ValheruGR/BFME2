@@ -46325,7 +46325,7 @@ CONTROLBAR:ToolTipElvenCloakThranduil
 END
 
 CONTROLBAR:ToolTipDeadEye
-"Requires Level 4 \n Temporarily grants an increase to damage \nand rate of fire \n Left click to activate"
+"Requires Level 4 \n Temporarily grants an increase to damage \n and rate of fire \n Loses 15% armor whilst active \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipThranduilWildWalk
