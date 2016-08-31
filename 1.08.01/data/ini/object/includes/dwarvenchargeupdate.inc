@@ -7,8 +7,7 @@
 		PackTime					= 3000; without this pack time, the charge would not complete
 		TriggerSound				= DwarfBullRushMS		;GondorSoldierVoiceEnterStateAttackCharge
 		TriggerAttributeModifier	= DwarvenChargeBonus
-		AttributeModifierDuration	= 10000
+		AttributeModifierDuration	= DWARVEN_GUARDIAN_CHARGE_BONUS_DURATION
 		ChargeAttackSpeedBoost		= Yes
 		IgnoreFacingCheck			= Yes
-		UnpackingVariation 			= 500 ;;=;; 
 	End
