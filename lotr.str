@@ -16693,7 +16693,7 @@ CONTROLBAR:SpecialAbility_ShieldBubble
 END
 
 CONTROLBAR:ToolTipWoundingArrow
-"Requires Level 2 \n Single ranged attack that causes target to flee \n Left click icon then left click on target"
+"Requires Level 2 \n Single ranged attack that causes high damage and certain monsters to flee \n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipCaptainofGondor
@@ -34136,7 +34136,7 @@ CONTROLBAR:Trollfindgoblintothrow
 END
 
 CONTROLBAR:ToolTipTrollfindgoblintothrow
-"Find a Goblin to pick up and throw at the enemy"
+"Find a Goblin to pick up and throw at the enemy \nCauses terror and meta impact"
 END
 
 OBJECT:NaturesWrath
@@ -46301,7 +46301,7 @@ CONTROLBAR:ToolTipPersonalFlood
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Requires Level 10 \n A high damage attack that also stuns enemy units \n Left click icon then left click on target" 
+"Requires Level 10 \n A high damage attack that also stuns enemy units. Effective against mounted heros. \n Left click icon then left click on target" 
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
@@ -46359,10 +46359,6 @@ OBJECT:ElvenHeroicStatueDescription
 END
 
 //Arwen
-
-CONTROLBAR:ToolTipArwenLeadership
-"Requires Level 4 \n Rivendell Lancers near Arwen gain \n +25% Armor, +25% Experience \n Passive ability"
-END
 
 CONTROLBAR:TooltipElvenGrace
 "Requires Level 8 \n Heals nearby friendly heroes \n Left click to activate"
@@ -46510,7 +46506,7 @@ CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel3Upgrade
 End
 
 CONTROLBAR:ToolTipBlackArrows
-"Requires Level 2\n Causes fear to targeted enemy \n Adds triple damage \n Left click icon then left click on target"
+"Requires Level 2\n Causes fear to certain monsters \n Deals a high amount of hero damage \n Left click icon then left click on target"
 End
 
 OBJECT:DwarvenHeroicStatueDescription
@@ -47020,7 +47016,7 @@ CONTROLBAR:ElvenGrace
 END
 
 CONTROLBAR:Fire_pit
-"Fire pit (&T)"
+"Fire pit (&R)"
 END
 
 CONTROLBAR:TooltipFire_pit
@@ -47028,11 +47024,11 @@ CONTROLBAR:TooltipFire_pit
 END
 
 CONTROLBAR:FireWorks
-"FireWorks / Ignite [&T]"
+"FireWorks / Ignite [&V]"
 END
 
 CONTROLBAR:FireWorks2
-"Ignite Fireworks [&Y]"
+"Ignite Fireworks [&B]"
 END
 
 CONTROLBAR:FireWorksObj
