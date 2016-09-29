@@ -46037,7 +46037,7 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:TooltipPalantirVision
-"Spy on the enemy forces\n\n Gives a temporary speed bonus to \n units at its target area"
+"Spy on the enemy forces\n\n Gives a temporary 10% speed bonus to \n units at its target area"
 END
 
 CONTROLBAR:TooltipFarSeeing
@@ -46632,7 +46632,7 @@ End
 //Powers
 
 CONTROLBAR:ToolTipWarChant
-"Target allies gain +50% Damage and 50% experience \n Left click icon then left click on target units"
+"Target allies gain +40% Damage, 50% experience & +10% speed \n Left click icon then left click on target units"
 End
 
 CONTROLBAR:ToolTipIndustry
