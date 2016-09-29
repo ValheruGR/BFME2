@@ -31574,11 +31574,7 @@ OBJECT:DwarvenLoneTower
 End
 
 OBJECT:DwarvenLoneTowerDescription
-"Fires axes at nearby enemies"
-End
-
-OBJECT:SummonedLoneTowerDescription
-"Attacks nearby enemies. \n Heals allied units, respawn hordes and provides leadership. \n Requires Fortress Upgrades"
+"Fires at nearby enemies. \n Heals allied units & replenish hordes. \n Provides leadership. \n Can be improved with Stonework\n Requires respective Fortress Upgrades."
 End
 
 OBJECT:DwarvenMagicDoor
