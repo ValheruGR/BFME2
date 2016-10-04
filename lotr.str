@@ -16789,7 +16789,7 @@ CONTROLBAR:ToolTipDisguise
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Requires Level 5 \n Eowyn gains +25% Speed and +25% Armor \n Left click to activate"
+"Requires Level 5 \n Eowyn gains +25% Speed and +25% Armor \n Reduces deceleration of friendly Rohirrims\n Left click to activate"
 END
 
 CONTROLBAR:ToggleTrebWeapon
