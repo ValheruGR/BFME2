@@ -16785,11 +16785,11 @@ CONTROLBAR:ToolTipSpeechCraft
 END
 
 CONTROLBAR:ToolTipDisguise
-"Requires Level 7 \n Provides crush deceleration to nearby Rohirrim \n Disguise as a normal Rohirrim \n Left click to activate"
+"Requires Level 7 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Requires Level 5 \n Eowyn gains +25% Speed and +25% Armor \n Left click to activate"
+"Requires Level 5 \n Eowyn gains 33% Armor \n Reduces deceleration of friendly Rohirrims\n Cancels the disguise \n Left click to activate"
 END
 
 CONTROLBAR:ToggleTrebWeapon
@@ -30841,7 +30841,7 @@ CONTROLBAR:ToolTipActivateFireShip
 End
 
 CONTROLBAR:ToolTipBarbedArrows
-"Causes meta impact and increased damage"
+"Requires Level 2\n Causes meta impact and increased damage \n Left click icon then left click on target"
 End
 
 CONTROLBAR:ToolTipBattleWagonUpgradeAxeThrowers
@@ -46174,7 +46174,7 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Powerful ranged attack against a single target \n Specially powerful vs flying monsters\n\nLeft click icon then left click on target"
+"Powerful ranged attack \n Bonus against evil heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
 END
 
 //Faramir
@@ -46211,7 +46211,7 @@ CONTROLBAR:ToolTipEomerLeadership
 END
 
 CONTROLBAR:ToolTipThrowSpear
-"Powerful ranged attack \n Left click icon then left click on target"
+"Powerful ranged attack \n Bonus against Mumakils \n Left click icon then left click on target"
 END
 
 //Aragorn
@@ -46361,7 +46361,7 @@ CONTROLBAR:TooltipElvenGrace
 END
 
 CONTROLBAR:ToolTipPersonalFlood
-"Requires Level 4 \n Summons a flood that will damage enemies and put out fires \n Left click icon then left click on target"
+"Requires Level 4 \n Summons a flood that will damage enemies and put out fires \n Bonus against Black Riders \n Left click icon then left click on target"
 END
 
 //Haldir
@@ -46375,7 +46375,7 @@ CONTROLBAR:HaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Requires Level 10 \n A high damage attack that also stuns enemy units. Effective against mounted heros. \n Left click icon then left click on target" 
+"Requires Level 10 \n A high damage attack that also stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
@@ -46502,7 +46502,7 @@ CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel3Upgrade
 End
 
 CONTROLBAR:ToolTipBlackArrows
-"Requires Level 2\n Causes fear to certain monsters \n Deals a high amount of hero damage \n Left click icon then left click on target"
+"Requires Level 2\n Causes fear to certain units \nEffective against Mumakils \n Deals a high amount of hero damage \n Left click icon then left click on target"
 End
 
 OBJECT:DwarvenHeroicStatueDescription
@@ -46660,7 +46660,7 @@ CONTROLBAR:ToolTipLurtzLeadership
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
-"Requires Level 4 \n Pins enemy hero in place \n Can only use with bow equipped \n Left click icon then left click on target"
+"Requires Level 4 \n Pins enemy hero in place \n Can damage flyers \n Can only use with bow equipped \n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
@@ -46988,7 +46988,7 @@ CONTROLBAR:ElvenCloak
 END
 
 CONTROLBAR:ChargeAttack
-"Cha&rge Attack"
+"Charge A&ttack"
 END
 
 CONTROLBAR:ConstructRohanPeasant
@@ -47016,7 +47016,7 @@ CONTROLBAR:Fire_pit
 END
 
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals hobbits and grants 5% leadership to them"
+"Campfire that heals nearby allies"
 END
 
 CONTROLBAR:FireWorks
