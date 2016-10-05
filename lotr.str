@@ -30841,7 +30841,7 @@ CONTROLBAR:ToolTipActivateFireShip
 End
 
 CONTROLBAR:ToolTipBarbedArrows
-"Causes meta impact and increased damage"
+"Requires Level 2\n Causes meta impact and increased damage \n Left click icon then left click on target"
 End
 
 CONTROLBAR:ToolTipBattleWagonUpgradeAxeThrowers
@@ -46502,7 +46502,7 @@ CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel3Upgrade
 End
 
 CONTROLBAR:ToolTipBlackArrows
-"Requires Level 2\n Causes fear to certain monsters \n Deals a high amount of hero damage \n Left click icon then left click on target"
+"Requires Level 2\n Causes fear to certain units \nEffective against Mumakils \n Deals a high amount of hero damage \n Left click icon then left click on target"
 End
 
 OBJECT:DwarvenHeroicStatueDescription
