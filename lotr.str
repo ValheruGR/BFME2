@@ -29823,7 +29823,7 @@ CONTROLBAR:Sunflare
 END
 
 CONTROLBAR:TooltipSunflare
-"Calls a fiery beam of sunlight to scorch the battlefield \n Effective on heroes \n Left click icon then left click on target area"
+"Calls a fiery beam of sunlight to scorch the battlefield \n Effective against weak heros \n Cancels Darkness & Frezzing Rain \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:CaveBats
@@ -45842,7 +45842,7 @@ CONTROLBAR:ToolTipBuildGondorFighterHorde
 "Strong vs. Pikemen\n and Resource Buildings"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
-"Strong vs. Resource Buildings"
+"Strong vs. Resource Buildings\n Horde Bonus: \n All nearby orcs gain +33% damage +20% speed -10% armor to pierce when gathered in numbers of at least 70"
 END
 CONTROLBAR:ToolTipBuildMordorCorsairHorde
 "Strong vs. Pikemen and Structures"
@@ -45855,7 +45855,7 @@ CONTROLBAR:ToolTipBuildIsengardUrukHai
 "Strong vs. Pikemen\n and Resource Buildings"
 END
 CONTROLBAR:ToolTipBuildIsengardCrossbowmen
-"Strong vs. Infantry\n Resistant to arrows"
+"Strong vs. Infantry"
 END
 CONTROLBAR:ToolTipBuildIsengardWildmanHorde
 "Strong vs. Infantry and Structures"
@@ -45876,13 +45876,13 @@ CONTROLBAR:ToolTipBuildElvenLorienArcherHordeWithNoPrerequisites
 "Strong vs. Infantry \n Can stealth near trees"
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde
-"Strong vs. Infantry"
+"Strong vs. Infantry\n Horde Bonus: \n All nearby orcs gain +33% damage +20% speed -10% armor to pierce when gathered in numbers of at least 70"
 END
 CONTROLBAR:ToolTipBuildMordorHaradrimHorde
 "Strong vs. Infantry and Monsters"
 END
 CONTROLBAR:ToolTipBuildMordorArcher
-"Strong vs. Infantry"
+"Strong vs. Infantry\n Horde Bonus: \n All nearby orcs gain +33% damage +20% speed -10% armor to pierce when gathered in numbers of at least 70"
 END
 CONTROLBAR:ToolTipBuildIsengardBerserker
 "Requires Level 2 Uruk Pit \n Strong vs. Infantry"
