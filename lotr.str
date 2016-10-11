@@ -14934,7 +14934,7 @@ CONTROLBAR:FueltheFires
 End
 
 CONTROLBAR:ToolTipFueltheFires
-"+75% resources from harvesting trees \n Works on Allies \n Passive power"
+"+65% resources from harvesting trees \n Lumber Mills become +20% stronger \n Works on Allies \n Passive power \n Fortress must be present"
 End
 
 CONTROLBAR:PlusCommandPoints
@@ -15603,7 +15603,7 @@ CONTROLBAR:ConstructGoblinArcherHorde
 "Goblin &Archers"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde
-"Strong vs. Pikemen"
+"Strong vs. Pikemen\n\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
 END
 CONTROLBAR:ConstructGoblinCave
 "Build Goblin Cave"
@@ -45842,7 +45842,7 @@ CONTROLBAR:ToolTipBuildGondorFighterHorde
 "Strong vs. Pikemen\n and Resource Buildings"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
-"Strong vs. Resource Buildings\n Horde Bonus: \n All nearby orcs gain +33% damage +20% speed -10% armor to pierce when gathered in numbers of at least 70"
+"Strong vs. Resource Buildings\n\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +25% speed -10% pierce resistance"
 END
 CONTROLBAR:ToolTipBuildMordorCorsairHorde
 "Strong vs. Pikemen and Structures"
@@ -45876,13 +45876,13 @@ CONTROLBAR:ToolTipBuildElvenLorienArcherHordeWithNoPrerequisites
 "Strong vs. Infantry \n Can stealth near trees"
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde
-"Strong vs. Infantry\n Horde Bonus: \n All nearby orcs gain +33% damage +20% speed -10% armor to pierce when gathered in numbers of at least 70"
+"Strong vs. Infantry\n\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +25% speed & -10% pierce resistance"
 END
 CONTROLBAR:ToolTipBuildMordorHaradrimHorde
 "Strong vs. Infantry and Monsters"
 END
 CONTROLBAR:ToolTipBuildMordorArcher
-"Strong vs. Infantry\n Horde Bonus: \n All nearby orcs gain +33% damage +20% speed -10% armor to pierce when gathered in numbers of at least 70"
+"Strong vs. Infantry"
 END
 CONTROLBAR:ToolTipBuildIsengardBerserker
 "Requires Level 2 Uruk Pit \n Strong vs. Infantry"
@@ -46834,11 +46834,11 @@ END
 
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde
-"Strong vs. Infantry\nResistant to trample"
+"Strong vs. Infantry\nResistant to trample\n\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
 END
 
 CONTROLBAR:ToolTipPoisonArrows
-"Poison tipped arrows that \ncause damage over time \nStrong vs. cavalry\n\n Left click icon then left click on target"
+"Poison tipped arrows that \ncause damage over time \n\n Left click icon then left click on target"
 End
 
 CONTROLBAR:ToolTipBuildGoblinCaveTroll
@@ -46958,7 +46958,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"Wargs gain +65% Damage \n Wargs lose 15% armor vs pikes and structural \n Left click to activate"
+"Wargs gain +65% Damage but lose 15% armor \n against pikes and structural \n Left click to activate"
 END
 
 //========== Release Candidate 4 fixes
