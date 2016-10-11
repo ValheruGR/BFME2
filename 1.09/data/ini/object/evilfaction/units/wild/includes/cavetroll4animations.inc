@@ -167,6 +167,7 @@
 		
 		ModelConditionState = STONED 
 			Model			= muctrlbtp3_skn   ; ; MuCavTroll_SKN
+			Model           = mucavtrlU3_skn
 			Texture			= MuCavTroll.tga MUCavTroll_R.tga
 			Texture			= mucavtrolla1.tga MUCavTroll_R.tga
 			Texture			= mucavtrollb1.tga MUCavTroll_R.tga
