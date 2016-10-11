@@ -44263,7 +44263,7 @@ OBJECT:ArgonathStatues"
 END
 
 OBJECT:HearthWellDescription
-"Nearby allies will heal if not under attack"
+"Nearby allies will heal if not under attack \n Reveals stealthed enemies"
 END
 
 CONTROLBAR:FireWeaponMightyCatapult
@@ -46594,7 +46594,7 @@ CONTROLBAR:ToolTipBuildDwarvenBattleWagon
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon"
+"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 
 CONTROLBAR:ToolTipBattleWagonUpgradeHearth
@@ -47016,7 +47016,7 @@ CONTROLBAR:Fire_pit
 END
 
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals, respawns and grants 5% leadership to nearby hordes"
+"Campfire that heals and respawns nearby units \n Grant +5% armor bonus \n Detect stealth"
 END
 
 CONTROLBAR:FireWorks
