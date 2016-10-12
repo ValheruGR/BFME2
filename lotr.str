@@ -14934,7 +14934,7 @@ CONTROLBAR:FueltheFires
 End
 
 CONTROLBAR:ToolTipFueltheFires
-"+75% resources from harvesting trees \n Works on Allies \n Passive power"
+"+65% resources from harvesting trees \n Lumber Mills become +20% stronger \n Works on Allies \n Passive power \n Fortress must be present"
 End
 
 CONTROLBAR:PlusCommandPoints
@@ -15603,7 +15603,7 @@ CONTROLBAR:ConstructGoblinArcherHorde
 "Goblin &Archers"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde
-"Strong vs. Pikemen"
+"Strong vs. Pikemen\n\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
 END
 CONTROLBAR:ConstructGoblinCave
 "Build Goblin Cave"
@@ -44263,7 +44263,7 @@ OBJECT:ArgonathStatues"
 END
 
 OBJECT:HearthWellDescription
-"Nearby allies will heal if not under attack"
+"Nearby allies will heal if not under attack \n Reveals stealthed enemies"
 END
 
 CONTROLBAR:FireWeaponMightyCatapult
@@ -45842,7 +45842,7 @@ CONTROLBAR:ToolTipBuildGondorFighterHorde
 "Strong vs. Pikemen\n and Resource Buildings"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
-"Strong vs. Resource Buildings\n Horde Bonus: \n All nearby orcs gain +33% damage +20% speed -10% armor to pierce when gathered in numbers of at least 70"
+"Strong vs. Resource Buildings\n\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +25% speed -10% pierce resistance"
 END
 CONTROLBAR:ToolTipBuildMordorCorsairHorde
 "Strong vs. Pikemen and Structures"
@@ -45876,13 +45876,13 @@ CONTROLBAR:ToolTipBuildElvenLorienArcherHordeWithNoPrerequisites
 "Strong vs. Infantry \n Can stealth near trees"
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde
-"Strong vs. Infantry\n Horde Bonus: \n All nearby orcs gain +33% damage +20% speed -10% armor to pierce when gathered in numbers of at least 70"
+"Strong vs. Infantry\n\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +25% speed & -10% pierce resistance"
 END
 CONTROLBAR:ToolTipBuildMordorHaradrimHorde
 "Strong vs. Infantry and Monsters"
 END
 CONTROLBAR:ToolTipBuildMordorArcher
-"Strong vs. Infantry\n Horde Bonus: \n All nearby orcs gain +33% damage +20% speed -10% armor to pierce when gathered in numbers of at least 70"
+"Strong vs. Infantry"
 END
 CONTROLBAR:ToolTipBuildIsengardBerserker
 "Requires Level 2 Uruk Pit \n Strong vs. Infantry"
@@ -46594,7 +46594,7 @@ CONTROLBAR:ToolTipBuildDwarvenBattleWagon
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon"
+"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 
 CONTROLBAR:ToolTipBattleWagonUpgradeHearth
@@ -46834,11 +46834,11 @@ END
 
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde
-"Strong vs. Infantry\nResistant to trample"
+"Strong vs. Infantry\nResistant to trample\n\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
 END
 
 CONTROLBAR:ToolTipPoisonArrows
-"Poison tipped arrows that \ncause damage over time \nStrong vs. cavalry\n\n Left click icon then left click on target"
+"Poison tipped arrows that \ncause damage over time \n\n Left click icon then left click on target"
 End
 
 CONTROLBAR:ToolTipBuildGoblinCaveTroll
@@ -46958,7 +46958,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"Wargs gain +65% Damage \n Wargs lose 15% armor vs pikes and structural \n Left click to activate"
+"Wargs gain +65% Damage but lose 15% armor \n against pikes and structural \n Left click to activate"
 END
 
 //========== Release Candidate 4 fixes
@@ -47016,7 +47016,7 @@ CONTROLBAR:Fire_pit
 END
 
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals, respawns and grants 5% leadership to nearby hordes"
+"Campfire that heals and respawns nearby units \n Grant +5% armor bonus \n Detect stealth"
 END
 
 CONTROLBAR:FireWorks
