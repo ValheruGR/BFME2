@@ -15,7 +15,7 @@
 		RandomTexture = mucavtroll.tga 0 mucavtroll.tga
 		RandomTexture = mucavtrolla1.tga 0 mucavtroll.tga
         RandomTexture = mucavtrollb1.tga 0 mucavtroll.tga
-        RandomTexture = mucavtrollc1.tga 0 mucavtroll.tga
+       
 		
 		;// Splatted death goes first, independant of death flags
 		ModelConditionState    = DYING DECAY SPLATTED USER_4
