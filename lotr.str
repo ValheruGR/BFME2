@@ -14893,7 +14893,7 @@ CONTROLBAR:WarChant
 End
 
 CONTROLBAR:TooltipEnshroudingMist
-"Friendly units within the mist become stealthed \n Significantly reduces enemy Armor and Damage \n Left click icon and left click on target area"
+"Friendly units within the mist become stealthed \n Significantly reduces enemy Armor and Damage \n Affects heros and monsters \n Left click icon and left click on target area"
 END
 
 CONTROLBAR:Industry
@@ -26246,7 +26246,7 @@ CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower
-"Provides Palantir Vision Power \n Increases Fortress vision range"
+"Requires the Numenor Stonework upgrade \n Provides Palantir Vision +10% speed bonus to all units in map \n Always stack \n Increases Fortress vision range"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressBoilingOil
@@ -42096,7 +42096,7 @@ CONTROLBAR:HeroToggleHorse
 End
 
 CONTROLBAR:ToolTipCAH_Starlight
-"Nearby allies become healed and gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast"
+"Nearby allies become healed and gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast."
 End
 
 CONTROLBAR:ToolTipCAH_Elendil
@@ -46028,7 +46028,7 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:TooltipPalantirVision
-"Spy on the enemy forces\n\n Gives a temporary 10% speed bonus to \n units at its target area"
+"Spy on the enemy forces\n\n Gives a temporary 10% speed bonus to \n units at its target area\n Always stacks \n \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:TooltipFarSeeing
@@ -46036,7 +46036,7 @@ CONTROLBAR:TooltipFarSeeing
 END
 
 CONTROLBAR:TooltipFarSight
-"Spy on the enemy forces\n\n Gives a temporary range bonus to \n units at its target area\n\n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary range bonus to \n units at its target area\n Always stacks \n \n Left click icon then left click on target area"
 END
 
 // +++++++++++++++++++++++++++++++++++++++++++MEN OF THE WEST+++++++++++++++++++++++++++++++++++++++++++
@@ -46048,7 +46048,7 @@ CONTROLBAR:ToolTipBoromirLeadership
 END
 
 CONTROLBAR:ToolTipAragornLeadership
-"Requires Level 4 \n Allies near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability    Always Stacks"
+"Requires Level 4 \n Allies near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipEomerLeadership
@@ -46056,7 +46056,7 @@ CONTROLBAR:ToolTipEomerLeadership
 END
 
 CONTROLBAR:ToolTipGandalfLeadership
-"Allies near Gandalf gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability       Always Stacks"
+"Allies near Gandalf gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability"
 END
 
 //Fortress upgrades
@@ -46147,7 +46147,7 @@ CONTROLBAR:ToolTipTheodenLeadership
 END
 
 CONTROLBAR:ToolTipGloriousCharge
-"Requires Level 7 \n Theoden and nearby cavalry gain 80% armor \n Theoden must be mounted to use ability \n Left click to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain 80% armor \n Theoden must be mounted to use ability \n Bonus cannot be removed \n Left click to activate"
 END
 
 //Eowyin
@@ -46228,7 +46228,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Requires Level 2 \n Aragorn gains +100% Damage and +50% Armor \n Left click to activate"
+"Requires Level 2 \n Aragorn gains +100% Damage and +50% Armor \n Armor against structural damage +35% \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipAragornLeadership
@@ -46296,15 +46296,15 @@ CONTROLBAR:ToolTipHaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, +50% Armor \n \n Left click to activate" 
+"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, +50% Armor \n \n Does not stack with other Damage leaderships \n \n Left click to activate" 
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
-"Requires Level 3 \n Glorfindel gains +100% Damage and Invulnerability for 10s unmounted \n\n Left click to activate"
+"Requires Level 3 \n Glorfindel gains +50% Damage and Invulnerability for 10s unmounted \n\n Left click to activate"
 END
 
 CONTROLBAR:TooltipElrondLeadership
-"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability       Stacking"
+"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipArrowWind
@@ -46549,7 +46549,7 @@ CONTROLBAR:ToolTipDainLeadership
 END
 
 CONTROLBAR:ToolTipMightyRage
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed and +25% Damage,\n Enemy units are debuffed \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed and +25% Damage\n Bonus cannot be removed \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
 END
 
 // Gimli
@@ -46575,7 +46575,7 @@ CONTROLBAR:ToolTipAxeThrow
 END
 
 CONTROLBAR:ToolTipSlayer
-"Requires Level 5 \n Gimli gains +50% Damage, Double Speed, and loses -15% Structural Armor \n Left click to activate"
+"Requires Level 5 \n Gimli gains +50% Damage, Double Speed, but loses -15% Structural Armor \n Left click to activate"
 END
 
 //====== Units
@@ -46639,7 +46639,7 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% armor and earn experience 50% faster \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% armor \n and earn experience 50% faster \n Always Stacks\n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipDarkness
@@ -46767,7 +46767,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Allies near the Drummer Troll gain +50% Armor \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster\n Passive ability"
+"Allies near the Drummer Troll gain +50% Armor +25% experience \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster\n Passive ability"
 END
 
 //Structures
@@ -46841,7 +46841,7 @@ CONTROLBAR:ToolTipBuildGoblinCaveTroll
 END
 
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy
-"Requires Level 4 \n Allies near the hero gain \n +25% Armor and 25% more experience \n  \n Passive ability"
+"Requires Level 4 \n Allies near the hero gain \n +25% Armor and earn experience 25% faster \n  \n always stacks \n \nPassive ability"
 End
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
