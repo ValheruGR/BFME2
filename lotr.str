@@ -15705,9 +15705,9 @@ CONTROLBAR:ConstructWildSpiderPitLevel3Upgrade
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderPitLevel3Upgrade
-"Level 3: +25% Faster Build Speed \n Allows research of Venom Sacs"
+"Level 3: +25% Faster Build Speed" 
 END
-
+// "\n Allows research of Venom Sacs"
 CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
 "&Upgrade Treasure Trove to Level 2"
 END
