@@ -46016,7 +46016,7 @@ CONTROLBAR:ToolTipHeal
 END
 
 CONTROLBAR:TooltipRallyingCall
-"Targeted allies gain +50% Damage and 50% experience \n Left click icon then left click on target units"
+"Targeted allies gain +50% Damage and +50% experience \n Left click icon then left click on target units"
 END
 
 CONTROLBAR:TooltipDwarvenRiches
@@ -46044,7 +46044,7 @@ END
 //Powers
 
 CONTROLBAR:ToolTipBoromirLeadership
-"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and gains experience 25% faster."
+"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience 25% faster."
 END
 
 CONTROLBAR:ToolTipAragornLeadership
@@ -46120,7 +46120,7 @@ CONTROLBAR:ToolTipHornofGondor
 END
 
 CONTROLBAR:ToolTipBoromirLeadership
-"Requires Level 5 \n Allies near Boromir gain \n +50% Damage \n \n Passive ability"
+"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster \n \n Passive ability"
 END
 
 CONTROLBAR:CaptainofGondorBoromir
@@ -46296,11 +46296,11 @@ CONTROLBAR:ToolTipHaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, +50% Armor \n \n Does not stack with other Armor leaderships \n Bonus cannot be removed \n \n Left click to activate" 
+"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, +50% Armor \n \n Does not stack with other Armor leaderships \n \n Left click to activate" 
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
-"Requires Level 3 \n Glorfindel gains +50% Damage and Invulnerability for 10s unmounted \n\n Left click to activate"
+"Requires Level 3 \n Glorfindel gains +50% Damage and Invulnerability for 10s \n Can only use when dismounted \n\n Left click to activate"
 END
 
 CONTROLBAR:TooltipElrondLeadership
@@ -46374,7 +46374,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
-"Requires Level 4 \n Nearby Allies gain \n +50% Damage +25% Experience \n Passive ability"
+"Requires Level 4 \n Nearby Allies gain \n +50% Damage and earn experience +25% faster \n Passive ability"
 END
 
 
@@ -46643,7 +46643,7 @@ CONTROLBAR:ToolTipEyeofSauron
 END
 
 CONTROLBAR:ToolTipDarkness
-"Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters independently gain 25% damage, +33% armor and +50% experience \n Always stacks \n Left click to activate"
+"Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Always stacks \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipSummonCrebain
