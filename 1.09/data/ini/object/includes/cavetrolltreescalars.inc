@@ -1,5 +1,5 @@
 
-		DamageScalar	= 105% NONE +HERO
+		DamageScalar	= 105% NONE +HERO ;;=;;
 		DamageScalar	= 55% NONE +STRUCTURE -WargLair -BarrowWightLair -CaveTrollLair -SpiderLair -MoriarGoblinLair -COMMANDCENTER;=;; ;;=CAVETROLLBALANCE=;;
         DamageScalar	= 40% NONE +COMMANDCENTER ;;=CAVETROLLBALANCE=;;
 		DamageScalar	= 87% NONE +DwarvenPhalanx  ;;=CAVETROLLBALANCE=;; ; 82% NONE +DwarvenPhalanx  ;;=CAVETROLLBALANCE=;;

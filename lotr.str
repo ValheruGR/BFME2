@@ -15705,9 +15705,9 @@ CONTROLBAR:ConstructWildSpiderPitLevel3Upgrade
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderPitLevel3Upgrade
-"Level 3: +25% Faster Build Speed \n Allows research of Venom Sacs"
+"Level 3: +25% Faster Build Speed" 
 END
-
+// "\n Allows research of Venom Sacs"
 CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
 "&Upgrade Treasure Trove to Level 2"
 END
@@ -30347,7 +30347,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Dain becomes able to reveal stealth.\n Passive ability"
+"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Bonus cannot be removed \n Dain becomes able to reveal stealth.\n Passive ability"
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
@@ -46104,7 +46104,7 @@ TOOLTIP:LackGondorIronOreTechnology
 END
 
 OBJECT:HeroicStatueDescription
-"Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n \n always stacks \n \nIncreases command point limit by 10"
+"Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n \n Always stacks \n \nIncreases command point limit by 10"
 END
 
 //HEROES
@@ -46296,7 +46296,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, +50% Armor \n \n Does not stack with other Damage leaderships \n \n Left click to activate" 
+"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, +50% Armor \n \n Does not stack with other Armor leaderships \n Bonus cannot be removed \n \n Left click to activate" 
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
@@ -46589,7 +46589,7 @@ CONTROLBAR:ToolTipBuildDwarvenBattleWagon
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster \n Always stacks \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 
 CONTROLBAR:ToolTipBattleWagonUpgradeHearth
@@ -46639,11 +46639,11 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% armor \n and earn experience 50% faster \n Always Stacks\n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% armor \n and earn experience 50% faster \n Always stacks \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipDarkness
-"Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters independently gain 25% damage, +33% armor and +50% experience \n Left click to activate"
+"Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters independently gain 25% damage, +33% armor and +50% experience \n Always stacks \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipSummonCrebain
@@ -46663,7 +46663,7 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
 END
 
 CONTROLBAR:ToolTipGBloodHunt
-"Requires Level 4 \n Nearby allied cavalry gain +25% Damage, +25% Armor and gain experience 50% faster\n friendly cavalry trample deceleration reduced \n Passive ability"
+"Requires Level 4 \n Nearby allied cavalry gain +25% Damage, +25% Armor and gain experience 50% faster\n Friendly cavalry trample deceleration reduced \n Always stacks \n Passive ability"
 END
 
 CONTROLBAR:ToolTipDominate
@@ -46841,7 +46841,7 @@ CONTROLBAR:ToolTipBuildGoblinCaveTroll
 END
 
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy
-"Requires Level 4 \n Allies near the hero gain \n +25% Armor and earn experience 25% faster \n  \n always stacks \n \nPassive ability"
+"Requires Level 4 \n Allies near the hero gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
@@ -46953,7 +46953,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"Wargs gain +65% Damage but lose 15% armor \n against pikes and structural \n Left click to activate"
+"Wargs gain +65% Damage but \n lose -15% armor against pikes and structural \n Always Stacks \n Bonus cannot be removed \n Left click to activate"
 END
 
 //========== Release Candidate 4 fixes
