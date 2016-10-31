@@ -1,7 +1,7 @@
 	Behavior = AutoHealBehavior ModuleTag_PorterAutoHealing
 		StartsActive = Yes
 		HealingAmount = 5 ;;=;; 11
-		HealingDelay = 1000
+		HealingDelay = HERO_HEAL_DELAY ;;=;; 1000
 		UnitHealPulseFX = FX_DefaultUnitHealBuff ;;=;;
 		StartHealingDelay = HERO_HEAL_DELAY
 		HealOnlyIfNotInCombat = Yes
