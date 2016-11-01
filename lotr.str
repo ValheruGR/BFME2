@@ -16696,7 +16696,7 @@ CONTROLBAR:SpecialAbility_ShieldBubble
 END
 
 CONTROLBAR:ToolTipWoundingArrow
-"Requires Level 2 \n Single ranged attack that causes high damage and certain monsters to flee \n Left click icon then left click on target"
+"Requires Level 2 \n Single ranged attack that causes high damage and certain monsters to flee \n Causes meta-impact \n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipCaptainofGondor
@@ -26238,7 +26238,7 @@ CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower
-"Requires the Numenor Stonework upgrade \n Provides Palantir Vision \n Grants a speed bonus to all units in map \n Always stack \n Increases Fortress vision range"
+"Provides Palantir Vision \n Grants a speed bonus to player units in the map \n Always stack \n Increases Fortress vision range"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressBoilingOil
@@ -27183,7 +27183,7 @@ CONTROLBAR:ConstructElvenStatue
 END
 
 CONTROLBAR:ToolTipElvenStatue
-"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack""
+"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack"
 END
 
 CONTROLBAR:ConstructElvenBattleTower
@@ -27316,7 +27316,7 @@ OBJECT:ElvenStatue
 END
 
 OBJECT:ElvenStatueDescription
-"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack""
+"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack"
 END
 
 OBJECT:ElvenMirrorofGaladriel
@@ -31071,7 +31071,7 @@ End
 
 
 CONTROLBAR:TooltipIvoryTowerVision
-"Reveals the entire shroud for 30 seconds"
+"Reveals the entire shroud \n Player units in the map gain +10% speed \n Duration 30 seconds"
 End
 
 CONTROLBAR:TooltipRoar
