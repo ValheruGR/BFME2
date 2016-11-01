@@ -26230,7 +26230,7 @@ CONTROLBAR:PurchaseUpgradeMenFortressHouseOfHealing
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Heals all nearby allies \n Reduces hero revival cost by 20% \n Reduces hero revival time by 15%\n Reduces hero purchase cost by 5%"
+"Heals and replenish all nearby allies \n Reduces hero revival cost by 20% \n Reduces hero revival time by 15%\n Reduces hero purchase cost by 5%"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
@@ -26484,7 +26484,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
-"Reduces hero revive time by 25% \n Heals allies nearby the Fortress and in Halls \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers"
+"Reduces hero revive time by 25% \n Heals and replenish nearby allies to the Fortress \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
@@ -27079,7 +27079,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressMysticFountains
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains
-"Provides healing to nearby troops \n Heroes revive 20% faster at this Fortress"
+"Provides healing and replenish to nearby troops \n Heroes revive 20% faster at this Fortress \n Also provides 25% damage 25% experience stacking leadership to nearby allies"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressEnchantedAnvil
@@ -46054,7 +46054,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Reduces hero revival cost by 20% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 20% \n Heals all nearby allies \n\n Upgrades summoned Lone Towers"
+"Reduces hero revival cost by 5% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 15% \n Heals and replenishes all nearby allies \n\n Upgrades summoned Lone Towers"
 END
 
 //Buildings
