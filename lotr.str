@@ -8099,7 +8099,7 @@ CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"+25% Armor, -40% Speed"
+"+20% Armor, +25% pierce armor, -30% Speed"
 END
 
 CONTROLBAR:ToolTipToggleGFighterBlockToLineFormation
@@ -16780,7 +16780,7 @@ CONTROLBAR:ToolTipSpeechCraft
 END
 
 CONTROLBAR:ToolTipDisguise
-"Requires Level 7 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them \n Left click to activate"
+"Requires Level 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipShieldMaiden
@@ -46260,7 +46260,7 @@ CONTROLBAR:ToolTipMenLongShotAbility
 End
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"Research Banner Carrier upgrade at Barracks to enable this equipment \n \n +25% Armor, -40% Speed"
+"Research Banner Carrier upgrade at Barracks to enable this equipment \n \n +20% Armor but +25% resistance to arrows, -30% Speed"
 END
 
 // +++++++++++++++++++++++++++++++++++++++++++ELVES+++++++++++++++++++++++++++++++++++++++++++
