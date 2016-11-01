@@ -16632,7 +16632,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"&Phial of Galadriel"
+"Phial of Galadriel (&T)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -31071,7 +31071,7 @@ End
 
 
 CONTROLBAR:TooltipIvoryTowerVision
-"Reveals the entire shroud \n Player units in the map gain +10% speed \n Duration 30 seconds"
+"Reveals the entire shroud \n Player units in the map gain +10% speed \n Lasts 30 seconds"
 End
 
 CONTROLBAR:TooltipRoar
