@@ -14893,7 +14893,7 @@ CONTROLBAR:WarChant
 End
 
 CONTROLBAR:TooltipEnshroudingMist
-"Friendly units within the mist become stealthed \n Significantly reduces enemy Armor and Damage \n Affects heros and monsters \n Left click icon and left click on target area"
+"Friendly units within the mist become stealthed \n Significantly reduces Armor and Damage from enemy hordes, heros and monsters \n Enemies lose their simple leadership bonuses n\ Left click icon and left click on target area"
 END
 
 CONTROLBAR:Industry
@@ -14934,7 +14934,7 @@ CONTROLBAR:FueltheFires
 End
 
 CONTROLBAR:ToolTipFueltheFires
-"+65% resources from harvesting trees \n Lumber Mills become +20% stronger \n Works on Allies \n Passive power \n Fortress must be present"
+"+65% resources from harvesting trees \n Lumber Mills gain +20% armor \n Works on Allies \n Passive power \n Fortress must be present"
 End
 
 CONTROLBAR:PlusCommandPoints
@@ -14962,7 +14962,7 @@ CONTROLBAR:FreezingRain
 End
 
 CONTROLBAR:ToolTipFreezingRain
-"Temporarily covers the map in rain \n All enemy units lose their leadership bonuses \n Left click to activate"
+"Temporarily covers the map in rain \n All enemy units lose their simple and high tier leadership bonuses \n Left click to activate"
 END
 
 CONTROLBAR:Plus1Nazgul
@@ -15096,7 +15096,7 @@ CONTROLBAR:CloudBreak
 End
 
 CONTROLBAR:ToolTipCloudBreak
-"Cancels Freezing Rain or Darkness \n Heals Allied Units Globally \n Stuns enemy units \n Left click to activate"
+"Cancels Freezing Rain or Darkness \n Heals allied units and respawn 2 units per horde \n Stuns enemy units for 10 seconds\n Left click to activate"
 END
 
 CONTROLBAR:ElvenWood
@@ -15104,7 +15104,7 @@ CONTROLBAR:ElvenWood
 End
 
 CONTROLBAR:ToolTipElvenWood
-"Creates lush terrain \n All ally units gain +50% Armor \n Does not affect Heroes \n Left click icon then left click on target area"
+"Creates lush terrain \n Allied units gain +50% Armor \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -15188,7 +15188,7 @@ CONTROLBAR:LoneTower
 END
 
 CONTROLBAR:TooltipLoneTower
-"Summons a defensive tower \n Provides healing & leadership with Fortress Upgrades \n Left click icon then left click on pathable location"
+"Summons a defensive tower \n Provides leadership, healing & respawn for allied units\n Can be improved with Stonework \n Requires respective fortress upgrades \n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:ArrowVolley
@@ -15336,7 +15336,7 @@ CONTROLBAR:ConstructGondorPeasant
 END
 
 CONTROLBAR:ToolTipBuildNumenorStoneworkUpgrade
-"Increased armor to walls and towers"
+"Increased armor to walls and towers \n Pre-requisite for Mighty Catapult \n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:ToolTipBuildReinforcedGateUpgrade
@@ -15419,10 +15419,10 @@ CONTROLBAR:GondorDamrodHotkey
 "Damrod"
 END
 CONTROLBAR:ToolTipBuildBorimir
-"Recruit one of the greatest Captain's of Gondor"
+"Recruit one of the greatest Captains of Gondor"
 END
 CONTROLBAR:GondorBoromirRecruit
-"Recruit one of the greatest Captain's of Gondor"
+"Recruit one of the greatest Captains of Gondor"
 END
 CONTROLBAR:GondorBoromirRevive
 "Revive the fallen Hero, Boromir"
@@ -15603,7 +15603,7 @@ CONTROLBAR:ConstructGoblinArcherHorde
 "Goblin &Archers"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde
-"Strong vs. Pikemen\n\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
+"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
 END
 CONTROLBAR:ConstructGoblinCave
 "Build Goblin Cave"
@@ -15847,7 +15847,7 @@ CONTROLBAR:ToolTipBuildWitchKing
 "Recruit the Leader of the Nazgul"
 END
 CONTROLBAR:MordorWitchKingOnFellBeastRecruit
-"Recruit the leader of the Nazgul"
+"Recruit the Leader of the Nazgul"
 END
 CONTROLBAR:MordorWitchKingOnFellBeastRevive
 "Revive the fallen hero, The Witch-king"
@@ -16765,14 +16765,6 @@ CONTROLBAR:ToolTipTogglePikemanLooseToPorcupineFormation
 END
 CONTROLBAR:ToolTipTogglePikemanPorcupineToLooseFormation
 "Default Formation"
-END
-
-CONTROLBAR:ToolTipSpecialAbilityGrabPassengerTB
-"Grab Merry and Pippin"
-END
-
-CONTROLBAR:ToolTipTransportExit_HOBBIT
-"Evacuate Hobbits"
 END
 
 CONTROLBAR:ConstructGondorBattleTower
@@ -26230,7 +26222,7 @@ CONTROLBAR:PurchaseUpgradeMenFortressBanners
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Provides additional experience to nearby troops \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Provides +25% damage and +25% experience to nearby troops \n Always stacks \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressHouseOfHealing
@@ -26238,7 +26230,7 @@ CONTROLBAR:PurchaseUpgradeMenFortressHouseOfHealing
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Reduces hero revival cost by 20% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 15% \n Heals all nearby allies"
+"Heals all nearby allies \n Reduces hero revival cost by 20% \n Reduces hero revival time by 15%\n Reduces hero purchase cost by 5%"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
@@ -26246,7 +26238,7 @@ CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower
-"Requires the Numenor Stonework upgrade \n Provides Palantir Vision +10% speed bonus to all units in map \n Always stack \n Increases Fortress vision range"
+"Requires the Numenor Stonework upgrade \n Provides Palantir Vision \n Grants a speed bonus to all units in map \n Always stack \n Increases Fortress vision range"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressBoilingOil
@@ -26382,10 +26374,6 @@ CONTROLBAR:ToolTipConstructDwarvenHearth
 "Allies near the hearth gain \n +50% Damage and +50% Armor \n Does not stack \n Provides nearby stealth detection \n Reduces the cost of machine units"
 END
 
-CONTROLBAR:TransportExit_HOBBIT
-"Evacuate Hobbits"
-END
-
 CONTROLBAR:ConstructDwarvenForgeWorks
 "Build For&ge Works"
 END
@@ -26476,7 +26464,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStonework
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
-"Provides additional armor to the Fortress and walls \n Pre-requisite for Mighty Catapult"
+"Provides additional armor to the Fortress and walls \n Pre-requisite for Mighty Catapult\n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions
@@ -26488,7 +26476,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressBanners
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Provides additional experience to nearby troops \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Provides additional experience to nearby troops \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
@@ -26496,7 +26484,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
-"Reduces hero revive time by 25% \n Heals allies nearby the Fortress and in Halls \n Adds additional hit points to the Fortress"
+"Reduces hero revive time by 25% \n Heals allies nearby the Fortress and in Halls \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
@@ -26835,7 +26823,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressDragonNest
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest
-"Allows summoning of a Fire Drake \n Heals Drogoth \n Reduces Drogoth revival timmer by 10%"
+"Allows summoning of a Fire Drake \n Heals Drogoth \n Reduces Drogoth revival time by 10%"
 END
 
 
@@ -26957,7 +26945,7 @@ OBJECT:WildGiantSentryExpansion
 END
 
 OBJECT:GoblinCaveTroll
-"Systematic's Cave Troll"
+"Cave Troll"
 END
 
 OBJECT:WildMountainGiant
@@ -27115,7 +27103,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressCrystalMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat
-"Decreases the melee vulnerability of the Fortress"
+"Decreases the melee vulnerability of the Fortress \n Allied units receive +25% damage +25% experiencia. \n Always stacks"
 END
 
 CONTROLBAR:ToolTipElvenEntMoot
@@ -28721,11 +28709,11 @@ CONTROLBAR:LW_ToolTip_WildMarauderHorde
 END
 
 CONTROLBAR:LW_Unit_GoblinCaveTroll
-"Systematic's Cave Troll"
+"Cave Troll"
 END
 
 CONTROLBAR:LW_Unit_GoblinCaveTrollPlural
-"Systematic's Cave Trolls"
+"Cave Trolls"
 END
 
 CONTROLBAR:LW_ToolTipBuild_GoblinCaveTroll
@@ -29834,7 +29822,7 @@ CONTROLBAR:CaveBats
 END
 
 CONTROLBAR:TooltipCaveBats
-"Reveals the shroud and detects stealthed units \n Significantly reduces enemy Armor and Damage \n Left click icon then left click on pathable location"
+"Reveals the shroud and detects stealthed units \n Enemy units lose their simple leadership bonuses \n Significantly reduces enemy Armor and Damage \n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:UntamedAllegiance
@@ -29852,7 +29840,7 @@ CONTROLBAR:TooltipOrcDraught
 END
 
 CONTROLBAR:TooltipUntamedAllegiance
-"Heal Friendly Allies \n Left click icon then left click on target Allies"
+"Cast on a Lair to gain control of the Lair and associated creatures \n Left click icon then left click on target Lair"
 END
 
 CONTROLBAR:SummonSpiderlingAllies
@@ -30006,7 +29994,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations
-"Heals nearby Allies"
+"Heals nearby Allies \n Reduces the cost of Isengard structures and walls \n 1 Fortress with Excavations = 10% cheaper \n 2 Fortresses with Excavations = 20% cheaper \n 3 Fortresses with Excavations = 25% cheaper \n 4 Fortresses with Excavations = 30% cheaper \n 5 Fortresses with Excavations = 35% cheaper"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressMurderOfCrows
@@ -31577,7 +31565,7 @@ OBJECT:DwarvenLoneTower
 End
 
 OBJECT:DwarvenLoneTowerDescription
-"Fires at nearby enemies. \n Heals allied units & replenish hordes. \n Provides leadership. \n Can be improved with Stonework\n\n Requires respective Fortress Upgrades."
+"Fires at nearby enemies. \n Heals allied units & replenish hordes. \n Provides leadership. \n Can be improved with Stonework\n Requires respective Fortress Upgrades."
 End
 
 OBJECT:DwarvenMagicDoor
@@ -39257,7 +39245,7 @@ OBJECT:WargLairDescription
 END
 
 OBJECT:CaveTrollLairDescription
-"Allows training of Systematic's Cave Trolls"
+"Allows training of Cave Trolls"
 END
 
 OBJECT:FireDrakeLairDescription
@@ -40867,8 +40855,8 @@ Stat:Killed_Glorfindel_Count_Name
 "Glorfindels Defeated"
 END
 
-Stat:Killed_Valheru_The_Goblin_King_Count_Name
-"Goblin Kings Defeated"
+Stat:Killed_Gorkil_The_Goblin_King_Count_Name
+"Valheru Kings Defeated"
 END
 
 Stat:Killed_Haldir_Count_Name
@@ -45837,7 +45825,7 @@ CONTROLBAR:ToolTipBuildGondorFighterHorde
 "Strong vs. Pikemen\n and Resource Buildings"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
-"Strong vs. Resource Buildings\n\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +25% speed -10% pierce resistance"
+"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed -10% pierce resistance"
 END
 CONTROLBAR:ToolTipBuildMordorCorsairHorde
 "Strong vs. Pikemen and Structures"
@@ -45871,7 +45859,7 @@ CONTROLBAR:ToolTipBuildElvenLorienArcherHordeWithNoPrerequisites
 "Strong vs. Infantry \n Can stealth near trees"
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde
-"Strong vs. Infantry\n\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +25% speed & -10% pierce resistance"
+"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed & -10% pierce resistance"
 END
 CONTROLBAR:ToolTipBuildMordorHaradrimHorde
 "Strong vs. Infantry and Monsters"
@@ -46036,7 +46024,7 @@ CONTROLBAR:TooltipFarSeeing
 END
 
 CONTROLBAR:TooltipFarSight
-"Spy on the enemy forces\n\n Gives a temporary range bonus to \n units at its target area\n Always stacks \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary range bonus of +35% to \n units at its target area\n Always stacks \n \n Left click icon then left click on target area"
 END
 
 // +++++++++++++++++++++++++++++++++++++++++++MEN OF THE WEST+++++++++++++++++++++++++++++++++++++++++++
@@ -46062,11 +46050,11 @@ END
 //Fortress upgrades
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Allies near Fortress gain \n +50% Damage \n and earn experience 25% faster \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster \n Always Stacks \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Reduces hero revival cost by 20% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 20% \n Heals all nearby allies"
+"Reduces hero revival cost by 20% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 20% \n Heals all nearby allies \n\n Upgrades summoned Lone Towers"
 END
 
 //Buildings
@@ -46287,6 +46275,10 @@ CONTROLBAR:ToolTipElrondRestoration
 "Requires Level 10 \n Heals 20% health points of nearby allies and fully refreshes their special ability timers \n Left click to activate"
 END
 
+CONTROLBAR:TooltipElrondWhirlwind
+"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
+End
+
 CONTROLBAR:ToolTipPersonalFlood
 "Requires Level 4 \n Summons a flood that will damage enemies and put out fires \n specially effective to cavalry \n\nLeft click icon then left click on target"
 END
@@ -46412,7 +46404,7 @@ CONTROLBAR:ArrowWind
 END
 
 CONTROLBAR:ToolTipKnifeFighter
-"Requires Level 4 \n left click to activate \n Alternate melee attack \n +20% Armor"
+"Requires Level 4 \n left click to activate \n Alternate melee attack \n +35% Armor"
 END
 
 
@@ -46497,7 +46489,7 @@ CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel3Upgrade
 End
 
 CONTROLBAR:ToolTipBlackArrows
-"Requires Level 2\n Causes fear to certain units \nEffective against Mumakils \n Deals a high amount of hero damage \n Left click icon then left click on target"
+"Requires Level 2\n Causes fear to certain units \n Bonus against Mumakils \n Deals a high amount of hero damage \n Left click icon then left click on target"
 End
 
 OBJECT:DwarvenHeroicStatueDescription
@@ -46647,7 +46639,7 @@ CONTROLBAR:ToolTipDarkness
 END
 
 CONTROLBAR:ToolTipSummonCrebain
-"Reveals the nearby shroud, detects stealth\n All enemy units lose 25% Damage and 25% Armor \n Left click icon then left click on pathable location"
+"Reveals the nearby shroud, detects stealth\n Enemy units lose 25% Damage and 25% Armor \n Enemies lose their simple leadership bonuses \n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
@@ -46724,7 +46716,7 @@ CONTROLBAR:TooltipEscape
 END
 
 CONTROLBAR:ToolTipVenomousWords
-"Significantly reduces enemy Armor and Damage \n Left click icon then left click on target units"
+"Significantly reduces enemy speed and rate of fire \n Enemy units lose their simple leadership bonuses \n Stacks with other negative spells \n Left click icon then left click on target units"
 END
 
 
@@ -46829,7 +46821,7 @@ END
 
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde
-"Strong vs. Infantry\nResistant to trample\n\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
+"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
 END
 
 CONTROLBAR:ToolTipPoisonArrows
@@ -46971,7 +46963,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Increases Fortress and Wall armor \n Pre-requisite for Flaming Munitions"
+"Increases Fortress and Wall armor \n Pre-requisite for Ivory Tower"
 END
 
 CONTROLBAR:ToolTipOutlawLeadership
