@@ -8099,7 +8099,7 @@ CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"+25% Armor, -40% Speed"
+"+20% Armor, +25% pierce armor, -30% Speed"
 END
 
 CONTROLBAR:ToolTipToggleGFighterBlockToLineFormation
@@ -14893,7 +14893,7 @@ CONTROLBAR:WarChant
 End
 
 CONTROLBAR:TooltipEnshroudingMist
-"Friendly units within the mist become stealthed \n Significantly reduces Armor and Damage from enemy hordes, heros and monsters \n Enemies lose their simple leadership bonuses n\ Left click icon and left click on target area"
+"Friendly units within the mist become stealthed \n Significantly reduces Armor and Damage from enemy hordes, heros and monsters \n Enemies lose their simple leadership bonuses \n\n Left click icon and left click on target area"
 END
 
 CONTROLBAR:Industry
@@ -15096,7 +15096,7 @@ CONTROLBAR:CloudBreak
 End
 
 CONTROLBAR:ToolTipCloudBreak
-"Cancels Freezing Rain or Darkness \n Heals allied units and respawn 2 units per horde \n Stuns enemy units for 10 seconds\n Left click to activate"
+"Cancels Freezing Rain or Darkness \n Stuns enemy units for 10 seconds \n Heals and revives allied units during 15 seconds \n Left click to activate"
 END
 
 CONTROLBAR:ElvenWood
@@ -16400,7 +16400,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Allies near Tom Bombadil gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n \n Passive ability       Does not stack"
+"Allies near Tom Bombadil gain \n +25% Damage, +25% Armor, \n and earn experience +50% faster \n Always stacks \n \n Passive ability"
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -16632,7 +16632,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"&Phial of Galadriel"
+"Phial of Galadriel (&T)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -16692,7 +16692,7 @@ CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
 END
 
 CONTROLBAR:SpecialAbility_ShieldBubble
-"Shieldbubble&u"
+"Shieldb&ubble"
 END
 
 CONTROLBAR:ToolTipWoundingArrow
@@ -16743,7 +16743,7 @@ CONTROLBAR:ToggleLooseFormation
 "Loose For&mation"
 END
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-40% Speed \n +25% Armor"
+"-30% Speed \n +20% Armor |n +25% arrow resistance"
 END
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
 "Default Formation"
@@ -16755,7 +16755,7 @@ CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLooseFormation
 "Default Formation"
 END
 CONTROLBAR:ToolTipToggleFighterLooseToBlockFormation
-"-40% Speed \n +25% Armor"
+"-30% Speed \n +20% Armor |n +25% arrow resistance"
 END
 CONTROLBAR:ToolTipToggleFighterBlockToLooseFormation
 "Default Formation"
@@ -16780,7 +16780,7 @@ CONTROLBAR:ToolTipSpeechCraft
 END
 
 CONTROLBAR:ToolTipDisguise
-"Requires Level 7 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them \n Left click to activate"
+"Requires Level 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipShieldMaiden
@@ -26230,7 +26230,7 @@ CONTROLBAR:PurchaseUpgradeMenFortressHouseOfHealing
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Heals all nearby allies \n Reduces hero revival cost by 20% \n Reduces hero revival time by 15%\n Reduces hero purchase cost by 5%"
+"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 20% \n Reduces hero revival time by 15%\n Reduces hero purchase cost by 5%"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
@@ -26484,7 +26484,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
-"Reduces hero revive time by 25% \n Heals allies nearby the Fortress and in Halls \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers"
+"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
@@ -27079,7 +27079,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressMysticFountains
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains
-"Provides healing to nearby troops \n Heroes revive 20% faster at this Fortress"
+"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress \n Also provides 25% damage 25% experience stacking leadership to nearby allies"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressEnchantedAnvil
@@ -29822,7 +29822,7 @@ CONTROLBAR:CaveBats
 END
 
 CONTROLBAR:TooltipCaveBats
-"Reveals the shroud and detects stealthed units \n Enemy units lose their simple leadership bonuses \n Significantly reduces enemy Armor and Damage \n Left click icon then left click on pathable location"
+"Reveals the shroud and detects stealthed units \n Enemy units lose their simple leadership bonuses \n Significantly reduces enemy Armor and Damage \n\n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:UntamedAllegiance
@@ -29994,7 +29994,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations
-"Heals nearby Allies \n Reduces the cost of Isengard structures and walls \n 1 Fortress with Excavations = 10% cheaper \n 2 Fortresses with Excavations = 20% cheaper \n 3 Fortresses with Excavations = 25% cheaper \n 4 Fortresses with Excavations = 30% cheaper \n 5 Fortresses with Excavations = 35% cheaper"
+"Heals nearby Allies. \n Replenish units from hordes each 10 seconds.\n Reduces the cost of Isengard structures and walls \n 1 Fortress with Excavations = 10% cheaper \n 2 Fortresses with Excavations = 20% cheaper \n 3 Fortresses with Excavations = 25% cheaper \n 4 Fortresses with Excavations = 30% cheaper \n 5 Fortresses with Excavations = 35% cheaper"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressMurderOfCrows
@@ -31026,7 +31026,7 @@ CONTROLBAR:ToolTipToggleThranduilWeapons
 End
 
 CONTROLBAR:ToolTipToggleTowerGuardLineToPorcupineFormation
-"The units form a circle with pikes extended"
+"The units form a circle with pikes extended \n +61% armor \n Enemy cavalry is decelerated when crush"
 End
 
 CONTROLBAR:ToolTipToggleTowerGuardPorcupineToLineFormation
@@ -31071,7 +31071,7 @@ End
 
 
 CONTROLBAR:TooltipIvoryTowerVision
-"Reveals the entire shroud \n Player units in the map gain +10% speed \n Duration 30 seconds"
+"Reveals the entire shroud \n Player units in the map gain +10% speed \n Lasts 30 seconds"
 End
 
 CONTROLBAR:TooltipRoar
@@ -31565,7 +31565,7 @@ OBJECT:DwarvenLoneTower
 End
 
 OBJECT:DwarvenLoneTowerDescription
-"Fires at nearby enemies. \n Heals allied units & replenish hordes. \n Provides leadership. \n Can be improved with Stonework\n Requires respective Fortress Upgrades."
+"Fires at nearby enemies. \n Heals nearby Allies. \n Replenish 1 unit per horde each 10 seconds \n Provides +25% damage +25% experience stacking leadership.\n Can be improved with Stonework\n Requires respective Fortress Upgrades."
 End
 
 OBJECT:DwarvenMagicDoor
@@ -44246,7 +44246,7 @@ OBJECT:ArgonathStatues"
 END
 
 OBJECT:HearthWellDescription
-"Nearby allies will heal if not under attack \n Reveals stealthed enemies"
+"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Detects stealth"
 END
 
 CONTROLBAR:FireWeaponMightyCatapult
@@ -46016,7 +46016,7 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:TooltipPalantirVision
-"Spy on the enemy forces\n\n Gives a temporary 10% speed bonus to \n units at its target area\n Always stacks \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area\n Always stacks \n \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:TooltipFarSeeing
@@ -46054,7 +46054,8 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Reduces hero revival cost by 20% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 20% \n Heals all nearby allies \n\n Upgrades summoned Lone Towers"
+"Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n 
+Reduces hero revival cost by 5% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
 END
 
 //Buildings
@@ -46260,7 +46261,7 @@ CONTROLBAR:ToolTipMenLongShotAbility
 End
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"Research Banner Carrier upgrade at Barracks to enable this equipment \n \n +25% Armor, -40% Speed"
+"Research Banner Carrier upgrade at Barracks to enable this equipment \n \n +20% Armor but +25% resistance to arrows, -30% Speed"
 END
 
 // +++++++++++++++++++++++++++++++++++++++++++ELVES+++++++++++++++++++++++++++++++++++++++++++
@@ -46585,7 +46586,7 @@ CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier
 End
 
 CONTROLBAR:ToolTipBattleWagonUpgradeHearth
-"Heals all nearby allies \n Detects stealth"
+"Nearby allies will heal if not under attack \n Reveals stealthed enemies"
 End
 
 CONTROLBAR:ToolTipBuildDwarvenDemolisher
@@ -46639,7 +46640,7 @@ CONTROLBAR:ToolTipDarkness
 END
 
 CONTROLBAR:ToolTipSummonCrebain
-"Reveals the nearby shroud, detects stealth\n Enemy units lose 25% Damage and 25% Armor \n Enemies lose their simple leadership bonuses \n Left click icon then left click on pathable location"
+"Reveals the nearby shroud, detects stealth\n Enemy units lose 25% Damage and 25% Armor \n Enemies lose their simple leadership bonuses \n\n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
@@ -46716,7 +46717,7 @@ CONTROLBAR:TooltipEscape
 END
 
 CONTROLBAR:ToolTipVenomousWords
-"Significantly reduces enemy speed and rate of fire \n Enemy units lose their simple leadership bonuses \n Stacks with other negative spells \n Left click icon then left click on target units"
+"Significantly reduces enemy speed and rate of fire \n Enemy units lose their simple leadership bonuses \n Stacks with other negative spells \n\n Left click icon then left click on target units"
 END
 
 
@@ -47003,7 +47004,7 @@ CONTROLBAR:Fire_pit
 END
 
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals and respawns nearby units \n Grant +5% armor bonus \n Detect stealth"
+"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants +5% armor bonus \n Detect stealth"
 END
 
 CONTROLBAR:FireWorks
