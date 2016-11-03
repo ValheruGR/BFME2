@@ -46838,9 +46838,9 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy
 End
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +50% Armor bonus to nearby allies \n Left click icon then left click on target area"
+"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +50% Armor and +25% experience bonus to nearby allies \n Left click icon then left click on target area"
 END
-
++50% Armor +25% experience 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
 "Requires Level 2 Fissure \n Strong vs. Cavalry"
 END
@@ -47004,7 +47004,7 @@ CONTROLBAR:Fire_pit
 END
 
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants +5% armor bonus \n Detect stealth"
+"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants +5% armor bonus \n Always stacks \n Detect stealth"
 END
 
 CONTROLBAR:FireWorks
