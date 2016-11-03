@@ -30291,7 +30291,7 @@ CONTROLBAR:ToolTipAncientMaster
 END
 
 CONTROLBAR:ToolTipMouthOfSauronDoubt
-"Requires Level 4 \n Significantly reduces enemy Armor and Damage \n Left click icon then left click on target units"
+"Requires Level 4 \n Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Left click icon then left click on target units"
 END
 
 CONTROLBAR:DreadVisage
@@ -30299,7 +30299,7 @@ CONTROLBAR:DreadVisage
 END
 
 CONTROLBAR:ToolTipDreadVisage
-"Significantly reduces enemy Armor and Damage \n Passive ability"
+"Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Passive ability"
 END
 
 CONTROLBAR:ToolTipBlackRiderMorgulBlade
@@ -31050,7 +31050,7 @@ CONTROLBAR:ToolTipWitchKingDismount
 End
 
 CONTROLBAR:ToolTipWitchKingDreadVisage
-"Requires Level 2 \n Significantly reduces enemy Armor and Damage \n Passive ability"
+"Requires Level 2 \n Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Passive ability"
 End
 
 CONTROLBAR:ToolTipWitchKingMount
