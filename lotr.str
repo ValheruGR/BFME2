@@ -14818,7 +14818,7 @@ CONTROLBAR:ConstructWildMineShaft
 END
 
 CONTROLBAR:ToolTipConstructWildMineShaft
-"Generates resources based on available terrain Provides access to the tunnel network \n Increases command point limit by 50"
+"Generates resources based on available terrain Provides access to the tunnel network \n Increases command point limit by 50\n Level 2: +25% extra armor \n Level 3: +25% extra armor"
 END
 
 CONTROLBAR:ConstructWildLumberMill
@@ -15713,7 +15713,7 @@ CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade
-"Level 2: Allows research of the Forged Blades upgrade"
+"Level 2: Allows research of the Forged Blades upgrade \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry"
 END
 
 CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
@@ -15721,7 +15721,7 @@ CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
-"Level 3: Allows research of the Fire Arrows upgrade"
+"Level 3: Allows research of the Fire Arrows upgrade \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry"
 END
 
 CONTROLBAR:ConstructWildSpiderlingHorde
@@ -16743,7 +16743,7 @@ CONTROLBAR:ToggleLooseFormation
 "Loose For&mation"
 END
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-30% Speed \n +20% Armor |n +25% arrow resistance"
+"-30% Speed \n +20% Armor \n +25% arrow resistance"
 END
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
 "Default Formation"
@@ -16755,7 +16755,7 @@ CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLooseFormation
 "Default Formation"
 END
 CONTROLBAR:ToolTipToggleFighterLooseToBlockFormation
-"-30% Speed \n +20% Armor |n +25% arrow resistance"
+"-30% Speed \n +20% Armor \n +25% arrow resistance"
 END
 CONTROLBAR:ToolTipToggleFighterBlockToLooseFormation
 "Default Formation"
@@ -27127,11 +27127,11 @@ CONTROLBAR:ToolTipBuildEregionForgeLevel2
 END
 
 CONTROLBAR:PurchaseUpgradeEregionForgeLevel3
-"&Upgrade Eregion Forge to Level 3"
+"&Upgrade Eregion Forge to Level 3 \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry"
 END
 
 CONTROLBAR:ToolTipBuildEregionForgeLevel3
-"Allows research of Silverthorn Arrows"
+"Allows research of Silverthorn Arrows \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry"
 END
 
 CONTROLBAR:ToolTipGreenPasture
@@ -30872,11 +30872,11 @@ CONTROLBAR:ToolTipBuildEvilTransportShip
 End
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade
-"Allows research of Heavy Armor"
+"Allows research of Heavy Armor \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry"
 End
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade
-"Allows research of Iron Ore"
+"Allows research of Iron Ore \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry"
 End
 
 CONTROLBAR:ToolTipBuildGoodBombardShip
@@ -30896,11 +30896,11 @@ CONTROLBAR:ToolTipBuildGoodTransportShip
 End
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel2
-"Allows research of Forged Blades and Heavy Armor"
+"Allows research of Forged Blades and Heavy Armor \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry"
 End
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel3
-"Allows research of Fire Arrows"
+"Allows research of Fire Arrows \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry"
 End
 
 CONTROLBAR:ToolTipBuildMordorAttackTroll
@@ -46478,7 +46478,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+25% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower"
+"+25% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade
@@ -46632,7 +46632,7 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% armor \n and earn experience 50% faster \n Always stacks \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% armor \n and earn experience 50% faster \n Simple leadership kind \n Always stacks \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipDarkness
@@ -46838,9 +46838,9 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy
 End
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +50% Armor bonus to nearby allies \n Left click icon then left click on target area"
+"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +50% Armor and +25% experience bonus to nearby allies \n Left click icon then left click on target area"
 END
-
++50% Armor +25% experience 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
 "Requires Level 2 Fissure \n Strong vs. Cavalry"
 END
@@ -47004,7 +47004,7 @@ CONTROLBAR:Fire_pit
 END
 
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants +5% armor bonus \n Detect stealth"
+"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants +5% armor bonus \n Always stacks \n Detect stealth"
 END
 
 CONTROLBAR:FireWorks
