@@ -30307,7 +30307,7 @@ CONTROLBAR:ToolTipBlackRiderMorgulBlade
 END
 
 CONTROLBAR:ToolTipBackstab
-"Requires Level 6 \n High damage melee attack that also poisons targeted enemy \n Left click icon then left click on target"
+"Requires Level 6 \n High damage melee attack that also poisons targeted enemy \n Can be used against Flyers \n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipCorrodeAllegiance
@@ -30323,7 +30323,7 @@ CONTROLBAR:BloodHunt
 END
 
 CONTROLBAR:ToolTipGlorfindelWindRider
-"Requires Level 6 \n Glorfindel gains +60% speed and Double Armor when mounted \n Left click to activate"
+"Requires Level 6 \n Glorfindel gains +40% speed and Double Armor when mounted \n Left click to activate"
 END
 
 CONTROLBAR:WildWalk
@@ -30335,7 +30335,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Bonus cannot be removed \n Dain becomes able to reveal stealth.\n Passive ability"
+"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Bonus cannot be removed & always stack\n Dain becomes able to reveal stealth.\n Passive ability"
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
@@ -30355,7 +30355,7 @@ CONTROLBAR:ToolTipGloinSmash
 END
 
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger
-"Requires Level 6 \n Can only use when mounted \n Targeted enemy becomes stunned and takes poison damage over time \n Left click icon then left click on target"
+"Requires Level 6 \n Can only use when mounted \n Targeted enemy takes poison damage during 25 seconds. \n Targeted heroes are paralyzed during 6 seconds.\n Left click icon then left click on target"
 END
 
 
@@ -31042,7 +31042,7 @@ CONTROLBAR:ToolTipWildMountainGiantStomp
 End
 
 CONTROLBAR:ToolTipWildShelobPoisonedStinger
-"Requires Level 6 \n Poisons the enemy causing damage over time"
+"Requires Level 6 \n Poisons the enemy causing damage during 30 seconds \n Paralyzes targeted heroes during 6 seconds"
 End
 
 CONTROLBAR:ToolTipWitchKingDismount
@@ -46136,7 +46136,7 @@ CONTROLBAR:ToolTipTheodenLeadership
 END
 
 CONTROLBAR:ToolTipGloriousCharge
-"Requires Level 7 \n Theoden and nearby cavalry gain 80% armor \n Theoden must be mounted to use ability \n Bonus cannot be removed \n Left click to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain +80% armor, +25 damage and become inmune to desacelerate by trampling. \n Theoden must be mounted to use ability \n Bonus cannot be removed & always stacks \n Left click to activate"
 END
 
 //Eowyin
@@ -46285,11 +46285,11 @@ CONTROLBAR:ToolTipPersonalFlood
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Requires Level 10 \n A high damage attack that also stuns enemy units. \n Effective against mounted heros. \n Left click icon then left click on target" 
+"Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros. \n Left click icon then left click on target" 
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, +50% Armor \n \n Does not stack with other Armor leaderships \n \n Left click to activate" 
+"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, +50% Armor \n \n Simple leadership kind \n Does not stack with other Armor leaderships \n \n Left click to activate" 
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
@@ -46542,7 +46542,7 @@ CONTROLBAR:ToolTipDainLeadership
 END
 
 CONTROLBAR:ToolTipMightyRage
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed and +25% Damage\n Bonus cannot be removed \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed and +25% Damage\n Bonus cannot be removed & always stacks \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
 END
 
 // Gimli
@@ -46946,7 +46946,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"Wargs gain +65% Damage but \n lose -15% armor against pikes and structural \n Always Stacks \n Bonus cannot be removed \n Left click to activate"
+"Wargs gain +65% Damage but \n lose -15% armor against pikes and structural \n Bonus cannot be removed & always stacks \n Left click to activate"
 END
 
 //========== Release Candidate 4 fixes
