@@ -195,7 +195,7 @@ GUI:RandomSide
 END
 
 GUI:BuddyAddReq
-"Un utente de La Battaglia per la Terra di Mezzo™ II vuole aggiungere un amico."
+"Un utente de La Battaglia per la Terra di Mezzo(tm) II vuole aggiungere un amico."
 END
 
 GUI:ControlBarBack
@@ -1703,7 +1703,7 @@ GUI:DesyncTitle
 END
 
 GUI:DesyncText
-"La Battaglia per la Terra di Mezzo™ II ha perso la sincronia con gli altri partecipanti e non può continuare. Forse gli altri giocatori hanno modificato la versione del gioco. Esci dal gioco prima di provare a giocare di nuovo online."
+"La Battaglia per la Terra di Mezzo(tm) II ha perso la sincronia con gli altri partecipanti e non può continuare. Forse gli altri giocatori hanno modificato la versione del gioco. Esci dal gioco prima di provare a giocare di nuovo online."
 END
 
 GUI:LadderDetails
@@ -2007,11 +2007,11 @@ GUI:LocaleSelect
 END
 
 GUI:Command&ConquerGenerals
-"La Battaglia per la Terra di Mezzo™ II"
+"La Battaglia per la Terra di Mezzo(tm) II"
 END
 
 GUI:FullGameName
-"Il Signore degli Anelli™: la Battaglia per la Terra di Mezzo™ II"
+"Il Signore degli Anelli(tm): la Battaglia per la Terra di Mezzo(tm) II"
 END
 
 GUI:SinglePlayer
@@ -2567,11 +2567,11 @@ TOOLTIP:Options
 END
 
 TOOLTIP:Exit
-"Esci da La Battaglia per la Terra di Mezzo™ II"
+"Esci da La Battaglia per la Terra di Mezzo(tm) II"
 END
 
 TOOLTIP:ExitGame
-"Esci da La Battaglia per la Terra di Mezzo™ II"
+"Esci da La Battaglia per la Terra di Mezzo(tm) II"
 END
 
 TOOLTIP:LoadGame
@@ -3223,7 +3223,7 @@ GUI:FirewallPopUpTitle
 END
 
 GUI:FirewallPopUpMessage
-"Questo computer ha attivato il firewall di Windows XP SP2. Per poter giocare a La Battaglia per la Terra di Mezzo™ II, devi aggiungere l'applicazione all'elenco delle eccezioni del firewall. Vuoi che il gioco aggiunga automaticamente questa voce?"
+"Questo computer ha attivato il firewall di Windows XP SP2. Per poter giocare a La Battaglia per la Terra di Mezzo(tm) II, devi aggiungere l'applicazione all'elenco delle eccezioni del firewall. Vuoi che il gioco aggiunga automaticamente questa voce?"
 END
 
 GUI:FirewallNoAdminTitle
@@ -3455,11 +3455,11 @@ GUI:GSDisconReason2
 END
 
 GUI:GSDisconReason3
-"Connessione a La Battaglia per la Terra di Mezzo™ II online interrotta."
+"Connessione a La Battaglia per la Terra di Mezzo(tm) II online interrotta."
 END
 
 GUI:GSDisconReason4
-"Connessione a La Battaglia per la Terra di Mezzo™ II online impossibile."
+"Connessione a La Battaglia per la Terra di Mezzo(tm) II online impossibile."
 END
 
 GUI:GSDisconReason5
@@ -3527,7 +3527,7 @@ GUI:GSDisconReason20
 END
 
 GUI:GSDisconReason21
-"La connessione a La Battaglia per la Terra di Mezzo™ II si è interrotta perché questo account è già in uso (codice CD identico)."
+"La connessione a La Battaglia per la Terra di Mezzo(tm) II si è interrotta perché questo account è già in uso (codice CD identico)."
 END
 
 GUI:GSGroupRoomJoinFail
@@ -3703,7 +3703,7 @@ GUI:GSFailedToHost
 END
 
 GUI:NATNegotiationFailed
-"La Battaglia per la Terra di Mezzo™ II non è in grado di connettersi con gli altri giocatori. Se il problema persiste e il tuo PC è sotto NAT o dietro un firewall:\nClicca sul pulsante Aggiorna NAT nel menu delle opzioni. Se hai un router D-Link, clicca sul pulsante Invia ritardo nel menu opzioni. Se il problema persiste, prova ad aprire una porta nel tuo firewall. Per ulteriori dettagli, consulta il manuale e il leggimi."
+"La Battaglia per la Terra di Mezzo(tm) II non è in grado di connettersi con gli altri giocatori. Se il problema persiste e il tuo PC è sotto NAT o dietro un firewall:\nClicca sul pulsante Aggiorna NAT nel menu delle opzioni. Se hai un router D-Link, clicca sul pulsante Invia ritardo nel menu opzioni. Se il problema persiste, prova ad aprire una porta nel tuo firewall. Per ulteriori dettagli, consulta il manuale e il leggimi."
 END
 
 GUI:GPErrorTitle
@@ -4191,7 +4191,7 @@ GUI:CannotConnectToServservTitle
 END
 
 GUI:CannotConnectToServserv
-"Impossibile creare una connessione con i server de La Battaglia per la Terra di Mezzo™ II. Verifica la connessione a Internet."
+"Impossibile creare una connessione con i server de La Battaglia per la Terra di Mezzo(tm) II. Verifica la connessione a Internet."
 END
 
 GUI:PatchAvailable
@@ -4199,7 +4199,7 @@ GUI:PatchAvailable
 END
 
 GUI:MustPatchForOnline
-"Devi scaricare l'aggiornamento per giocare a La Battaglia per la Terra di Mezzo™ II online."
+"Devi scaricare l'aggiornamento per giocare a La Battaglia per la Terra di Mezzo(tm) II online."
 END
 
 GUI:CanPatchForOnline
@@ -4223,7 +4223,7 @@ GUI:DownloadSuccess
 END
 
 GUI:DownloadSuccessMustQuit
-"Clicca su OK per uscire da La Battaglia per la Terra di Mezzo™ II e applicare l'aggiornamento."
+"Clicca su OK per uscire da La Battaglia per la Terra di Mezzo(tm) II e applicare l'aggiornamento."
 END
 
 GUI:DownloadBytesRatio
@@ -5755,11 +5755,11 @@ TOOLTIP:Options/tooltipDoubleClickGuard
 END
 
 TOOLTIP:Options/tooltipAlternateMouse
-"Attiva l'opzione per attivare un'interfaccia del mouse in stile Command & Conquer™"
+"Attiva l'opzione per attivare un'interfaccia del mouse in stile Command & Conquer(tm)"
 END
 
 TOOLTIP:Options/tooltipAlternativeMouseSetUp
-"Attiva l'opzione per attivare un'interfaccia del mouse in stile Command & Conquer™."
+"Attiva l'opzione per attivare un'interfaccia del mouse in stile Command & Conquer(tm)."
 END
 
 TOOLTIP:options/tooltipEAX
@@ -6875,7 +6875,7 @@ CONTROLBAR:OrRequirement
 END
 
 CONTROLBAR:GeneralsPromotion
-"Promozione de La Battaglia per la Terra di Mezzo™ II"
+"Promozione de La Battaglia per la Terra di Mezzo(tm) II"
 END
 
 CONTROLBAR:UpgradeRequired
@@ -6883,7 +6883,7 @@ CONTROLBAR:UpgradeRequired
 END
 
 CONTROLBAR:GeneralsExp
-"Esperienza de La Battaglia per la Terra di Mezzo™ II"
+"Esperienza de La Battaglia per la Terra di Mezzo(tm) II"
 END
 
 CONTROLBAR:GeneralsExpDescription
@@ -15531,7 +15531,7 @@ GUI:TooltipNoMoreCommandPoints
 END
 
 CREDITS:DevelopmentTitle1
-"Il Signore degli Anelli™"
+"Il Signore degli Anelli(tm)"
 END
 
 CREDITS:EAPacificDevTeam2
@@ -16151,7 +16151,7 @@ CREDITS:NewLineThanks1
 END
 
 CREDITS:NewLineThanks2
-"Il Signore degli Anelli™: il Ritorno del Re™"
+"Il Signore degli Anelli(tm): il Ritorno del Re(tm)"
 END
 
 CREDITS:NewLineThanks3
@@ -17855,7 +17855,7 @@ APT:LogoffConfirmationTitle
 END
 
 APT:LogoffConfirmationMsg
-"Sei sicuro di volerti disconnettere da La Battaglia per la Terra di Mezzo™ II online?"
+"Sei sicuro di volerti disconnettere da La Battaglia per la Terra di Mezzo(tm) II online?"
 END
 
 APT:CreateAccount
@@ -23227,7 +23227,7 @@ FESL:FESL-108
 END
 
 FESL:FESL-107
-"Questo account non è stato autenticato per giocare a La Battaglia per la Terra di Mezzo™ II."
+"Questo account non è stato autenticato per giocare a La Battaglia per la Terra di Mezzo(tm) II."
 END
 
 FESL:FESL-106
@@ -23259,7 +23259,7 @@ FESL:FESL-100
 END
 
 APPDATA:PictureFolder
-"Schermate de La Battaglia per la Terra di Mezzo™ II"
+"Schermate de La Battaglia per la Terra di Mezzo(tm) II"
 END
 
 APT:SaveFileDiskFull
@@ -26935,11 +26935,11 @@ APT:HomeWotrDesc
 END
 
 APT:HomeInstructionTitle
-"IL SIGNORE DEGLI ANELLI™: LA BATTAGLIA PER LA TERRA DI MEZZO™ II OFFRE LE SEGUENTI MODALITÀ DI GIOCO ONLINE"
+"IL SIGNORE DEGLI ANELLI(tm): LA BATTAGLIA PER LA TERRA DI MEZZO(tm) II OFFRE LE SEGUENTI MODALITÀ DI GIOCO ONLINE"
 END
 
 APT:WelcomeMessageTitle
-"BENVENUTO NE IL SIGNORE DEGLI ANELLI™: LA BATTAGLIA PER LA TERRA DI MEZZO™ II"
+"BENVENUTO NE IL SIGNORE DEGLI ANELLI(tm): LA BATTAGLIA PER LA TERRA DI MEZZO(tm) II"
 END
 
 APT:PlanningMode
@@ -40711,7 +40711,7 @@ STAT:RTS_FAVORITE_UNIT
 END
 
 ToolTip:OnlineShell/OnlineLogin/GamespyShortcut
-"Clicca qui per visitare il sito web di GameSpy con le classifiche ufficiali de La Battaglia per la Terra di Mezzo™ II."
+"Clicca qui per visitare il sito web di GameSpy con le classifiche ufficiali de La Battaglia per la Terra di Mezzo(tm) II."
 END
 
 ToolTip:OnlineShell/HomeButton
@@ -41743,7 +41743,7 @@ CREDITS:ProductionIntern
 END
 
 CREDITS:TheVoiceofTheBattleforMiddle-earthII
-"La voce de La Battaglia per la Terra di Mezzo™ II"
+"La voce de La Battaglia per la Terra di Mezzo(tm) II"
 END
 
 CREDITS:Cinematics
@@ -41911,7 +41911,7 @@ CREDITS:MPEGNotice
 END
 
 CREDITS:DevelopmentTitle2
-"La Battaglia per la Terra di Mezzo™ II"
+"La Battaglia per la Terra di Mezzo(tm) II"
 END
 
 CREDITS:DevelopmentTitle3
@@ -41987,7 +41987,7 @@ CREDITS:BFME1Thanks
 END
 
 CREDITS:BFME1Thanks2
-"originale de Il Signore degli Anelli™: la Battaglia per la Terra di Mezzo™"
+"originale de Il Signore degli Anelli(tm): la Battaglia per la Terra di Mezzo(tm)"
 END
 
 CREDITS:BFME1Thanks3

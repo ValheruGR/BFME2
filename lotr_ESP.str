@@ -655,7 +655,7 @@ apt:controls
 END
 
 apt:costmodifierupgrade
-"\n"
+" "
 END
 
 apt:createaccount
@@ -1279,7 +1279,7 @@ apt:heroestutorial
 END
 
 apt:herorank
-"\n"
+" "
 END
 
 apt:herosgainingrank
@@ -1287,7 +1287,7 @@ apt:herosgainingrank
 END
 
 apt:herotypedescription
-"\n"
+" "
 END
 
 apt:heroveterancy
@@ -1295,7 +1295,7 @@ apt:heroveterancy
 END
 
 apt:heroweapondescription
-"\n"
+" "
 END
 
 apt:highaudioquality
@@ -1831,7 +1831,7 @@ apt:nocreatedheroes
 END
 
 apt:none
-"\n"
+" "
 END
 
 apt:nonextlevel
@@ -1843,7 +1843,7 @@ apt:nplay
 END
 
 apt:null
-"\n"
+" "
 END
 
 apt:numberofplayers
@@ -1971,11 +1971,11 @@ apt:palantircommandpoints
 END
 
 apt:palantirregionbonus
-"\n"
+" "
 END
 
 apt:palantirregionname
-"\n"
+" "
 END
 
 apt:palantirresourcemultiplier
@@ -2171,7 +2171,7 @@ apt:profilecreatedcolon
 END
 
 apt:profilecreatednum
-"\n"
+" "
 END
 
 apt:profilename
@@ -2299,7 +2299,7 @@ apt:removiefriendmessagemulti
 END
 
 apt:renameinstructions
-"\n"
+" "
 END
 
 apt:renamethisunit
@@ -2631,11 +2631,11 @@ apt:specialpowerstutorial
 END
 
 apt:spelldescription
-"\n"
+" "
 END
 
 apt:spellhelptext
-"\n"
+" "
 END
 
 apt:spellstorespellpointslabel
@@ -11251,7 +11251,7 @@ controlbar:stopbombard
 END
 
 controlbar:storeanchor
-"\n"
+" "
 END
 
 controlbar:structureexit
@@ -14623,7 +14623,7 @@ controlbar:tooltippurchaseupgradecirdanscraftwork
 END
 
 controlbar:tooltippurchaseupgradecrowsnest
-"\n"
+" "
 END
 
 controlbar:tooltippurchaseupgradedwarvenbasictraining
@@ -14739,7 +14739,7 @@ controlbar:tooltippurchaseupgradeelvensilverthornarrowsbattletower
 END
 
 controlbar:tooltippurchaseupgradeflamingpitch
-"\n"
+" "
 END
 
 controlbar:LadyOfLight
@@ -14819,7 +14819,7 @@ controlbar:tooltippurchaseupgradeisengardtorches
 END
 
 controlbar:tooltippurchaseupgradeloveofthesea
-"\n"
+" "
 END
 
 controlbar:tooltippurchaseupgrademenfortressbanners
@@ -14963,7 +14963,7 @@ controlbar:tooltippurchasewildfiredrake
 END
 
 controlbar:tooltiprailedtransport
-"\n"
+" "
 END
 
 controlbar:tooltiprainoffire
@@ -15467,7 +15467,7 @@ controlbar:tooltipstartwallspanrepair
 END
 
 controlbar:tooltipstoreanchor
-"\n"
+" "
 END
 
 controlbar:tooltipstructureexit
@@ -16043,7 +16043,7 @@ controlbar:tooltipwaypoints
 END
 
 controlbar:tooltipweighanchor
-"\n"
+" "
 END
 
 controlbar:tooltipwildmenallies
@@ -24139,7 +24139,7 @@ gui:bettermatch
 END
 
 gui:blank
-"\n"
+" "
 END
 
 gui:bookmarkxset
@@ -24339,7 +24339,7 @@ gui:clear
 END
 
 gui:clicktodisplaygameinfo
-"\n"
+" "
 END
 
 gui:close
@@ -25111,7 +25111,7 @@ gui:gsdisconreason9
 END
 
 gui:gserrortitle
-"\n"
+" "
 END
 
 gui:gsfailedtohost
@@ -25403,7 +25403,7 @@ gui:interface
 END
 
 gui:internetdisconnectionmenubody2
-"\n"
+" "
 END
 
 gui:internetdisconnectionmenuheader
@@ -25955,7 +25955,7 @@ gui:notifiedstartintent
 END
 
 gui:null
-"\n"
+" "
 END
 
 gui:numplayers
@@ -28031,7 +28031,7 @@ lw:territoryarnor
 END
 
 lw:territorybonusheader
-"\n"
+" "
 END
 
 lw:territoryeriador
@@ -34727,7 +34727,7 @@ qm:working
 END
 
 radar:harvesterunderattack
-"\n"
+" "
 END
 
 radar:infiltration
@@ -34735,15 +34735,15 @@ radar:infiltration
 END
 
 radar:structureunderattack
-"\n"
+" "
 END
 
 radar:underattack
-"\n"
+" "
 END
 
 radar:unitunderattack
-"\n"
+" "
 END
 
 rule:allowcustomheroes
@@ -39983,7 +39983,7 @@ tooltip:clicktorenamethisunit
 END
 
 tooltip:closebutton
-"\n"
+" "
 END
 
 tooltip:closeexpscreen
@@ -40155,7 +40155,7 @@ tooltip:elvensilverthornarrows
 END
 
 tooltip:emote
-"\n"
+" "
 END
 
 tooltip:emotebutton
@@ -40215,7 +40215,7 @@ tooltip:gameinfoplayer
 END
 
 tooltip:gamelobbys
-"\n"
+" "
 END
 
 tooltip:gamename
@@ -40283,7 +40283,7 @@ tooltip:heavyarmor
 END
 
 tooltip:help
-"\n"
+" "
 END
 
 tooltip:highlord
@@ -40303,11 +40303,11 @@ tooltip:ignoredmodifier
 END
 
 tooltip:ingamechat/buddybuttons/onbttnaddfriend/tooltipchatenter
-"\n"
+" "
 END
 
 tooltip:ingamechat/buddybuttons/onbttnremovefriend/tooltipremovefriend
-"\n"
+" "
 END
 
 tooltip:invalidgameversion
@@ -40791,7 +40791,7 @@ tooltip:meleedamage
 END
 
 tooltip:mission1
-"\n"
+" "
 END
 
 tooltip:mission17_23
@@ -40935,7 +40935,7 @@ tooltip:onlineshell/clanwarsshortcut
 END
 
 tooltip:onlineshell/disablebutton
-"\n"
+" "
 END
 
 tooltip:onlineshell/homebutton
@@ -41087,7 +41087,7 @@ tooltip:onlineshell/onlinelogin/gamespyshortcut
 END
 
 tooltip:onlineshell/onlinelogin/login/deletenickname/buttonclip
-"\n"
+" "
 END
 
 tooltip:onlineshell/onlinelogin/login/login/buttonclip
@@ -41095,11 +41095,11 @@ tooltip:onlineshell/onlinelogin/login/login/buttonclip
 END
 
 tooltip:onlineshell/onlinelogin/login/officialsite/buttonclip
-"\n"
+" "
 END
 
 tooltip:onlineshell/onlinelogin/login/popuplocale/accept/buttonclip
-"\n"
+" "
 END
 
 tooltip:onlineshell/onlinelogin/login/register/buttonclip
@@ -41107,7 +41107,7 @@ tooltip:onlineshell/onlinelogin/login/register/buttonclip
 END
 
 tooltip:onlineshell/onlinelogin/login/serviceterms/buttonclip
-"\n"
+" "
 END
 
 tooltip:onlineshell/onlinelogin/tooltiponlineeaaccountname
