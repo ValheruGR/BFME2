@@ -26229,10 +26229,6 @@ CONTROLBAR:PurchaseUpgradeMenFortressHouseOfHealing
 "House of Healin&g"
 END
 
-CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 20% \n Reduces hero revival time by 15%\n Reduces hero purchase cost by 5%"
-END
-
 CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
 "I&vory Tower"
 END
@@ -46054,8 +46050,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n 
-Reduces hero revival cost by 5% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
+"Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
 END
 
 //Buildings
@@ -46840,7 +46835,7 @@ End
 CONTROLBAR:TooltipGoblinKingSkullTotem
 "Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +50% Armor and +25% experience bonus to nearby allies \n Left click icon then left click on target area"
 END
-+50% Armor +25% experience 
+
 CONTROLBAR:ToolTipBuildWildMarauderHorde
 "Requires Level 2 Fissure \n Strong vs. Cavalry"
 END

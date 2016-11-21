@@ -4155,15 +4155,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"%d.%02d.%d versione %d %c%c"
+"Versione 1.09"
 END
 
 Version:Format3
-"Versione %d.%02d.%d"
+"Versione 1.09"
 END
 
 Version:Format2
-"Versione %d.%02d"
+"Versione 1.09"
 END
 
 Version:BuildTime
