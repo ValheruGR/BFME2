@@ -13699,7 +13699,7 @@ controlbar:tooltipelrondleadership
 END
 
 controlbar:tooltipelrondrestoration
-"Requisito: Nivel 10. \n Cura a los aliados cercanos y rellena completamente todos los contadores de capacidades especiales. \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 10. \n Cura el 20% de la salud de los aliados cercanos. \n Rellena completamente todos los contadores de capacidades especiales. \n Para activarlo, haz clic con el botón izquierdo."
 END
 
 controlbar:tooltipelrondwhirlwind
@@ -16035,7 +16035,7 @@ controlbar:tooltipwargriderhowl
 END
 
 controlbar:tooltipwarspeech
-"Los aliados cercanos a Théoden ganan \n +50% al daño, +50% a la armadura \n y ganan experiencia el doble de rápido. \n \n Capacidad pasiva. \n \n No se acumula."
+"Los aliados cercanos a Théoden ganan \n +50% al daño y ganan experiencia 25% más rapido. \n \n Capacidad pasiva."
 END
 
 controlbar:tooltipwaypoints
