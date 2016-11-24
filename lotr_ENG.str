@@ -149,11 +149,11 @@ Color:Gray
 "Grey"
 END
 
-Color:White
-"White"
+Color:Burgundy
+"Burgundy"
 END
 
-Color:LightGreen
+Color:NewGreen
 "Light Green"
 END
 
@@ -8099,7 +8099,7 @@ CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"+20% Armor, +25% pierce armor, -30% Speed"
+"+20% Armor, +25% arrow resistance, -30% Speed"
 END
 
 CONTROLBAR:ToolTipToggleGFighterBlockToLineFormation
@@ -16688,11 +16688,11 @@ CONTROLBAR:ToolTipLightningSword
 END
 
 CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"The Wizard transfers all of his Power into a Shield that offers increased defense \n Gandalf Gains 99% Armor and Resist Knockback for 5 seconds \n Left click icon to activate"
+"The Wizard transfers all of his Power into a Shield that offers increased defense \n Gandalf gains 99% armor and resist knockback for 5 seconds \n Left click icon to activate"
 END
 
 CONTROLBAR:SpecialAbility_ShieldBubble
-"Shieldb&ubble"
+"Shield B&ubble"
 END
 
 CONTROLBAR:ToolTipWoundingArrow
