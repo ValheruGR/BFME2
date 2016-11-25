@@ -13503,7 +13503,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Fait pousser une forêt\n+50% armure unités alliées\nBonus charisme unités ennemies supprimés\nN'affecte pas les héros\nClic gauche sur l'icône puis clic gauche sur la zone cible"
+"Fait pousser une forêt\n+50% armure unités alliées\nClic gauche sur l'icône puis clic gauche sur la zone cible"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -42787,7 +42787,7 @@ CONTROLBAR:ToolTipHeal
 END
 
 CONTROLBAR:TooltipRallyingCall
-"Les dégâts des alliés visés augmentent de +50% et expérience gagné 2 fois plus rapidement \nClic gauche sur l'icône puis clic gauche sur les unités ciblées"
+"Les dégâts des alliés visés augmentent de +50% et Ils gagnent de l'expérience 50% plus rapidement \nClic gauche sur l'icône puis clic gauche sur les unités ciblées"
 END
 
 CONTROLBAR:TooltipDwarvenRiches
@@ -42959,7 +42959,7 @@ CONTROLBAR:TooltipBladeMaster
 END
 
 CONTROLBAR:ToolTipAragornLeadership
-"Requiert : niveau 4\nLes alliés proches d'Aragorn gagnent \n+25% armure, +25% dégâts, \nexpérience gagnée deux fois plus rapidement \n\nCapacité passive"
+"Requiert : niveau 4\nLes alliés proches d'Aragorn gagnent \n+25% armure, +25% dégâts, \n et ils gagnent l'expérience 50% plus rapidement \n\nCapacité passive"
 END
 
 CONTROLBAR:WizardBlast
