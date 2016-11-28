@@ -13503,7 +13503,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Creëert bosrijk terrein\nAlle bevriende eenheden krijgen +50% pantser\nAlle vijanden verliezen hun leiderschapsbonussen\nHeeft geen effect op helden\nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Creëert bosrijk terrein\nAlle bevriende eenheden krijgen +50% pantser\nHeeft geen effect op helden\nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -40163,7 +40163,7 @@ CONTROLBAR:CAHBladeMaster
 END
 
 CONTROLBAR:CAHElendil
-"&Elendil"
+"Elendil (&x)"
 END
 
 CONTROLBAR:CAHKingsFavor
@@ -43547,7 +43547,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
-"Stormaanval (&E)"
+"Sto&rmaanval"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
@@ -43563,11 +43563,11 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Elfen-mantel (&E)"
+"Elfen-mantel (&C)"
 END
 
 CONTROLBAR:ChargeAttack
-"Stormaanval (&E)"
+"S&tormaanval"
 END
 
 CONTROLBAR:ConstructRohanPeasant
@@ -43593,3 +43593,47 @@ END
 GUI:PleaseSelectBuddy
 "Chatbericht kon niet worden verstuurd. Er moet minimaal één vriend zijn geselecteerd."
 END
+END
+
+CONTROLBAR:Fire_pit
+"TRANSLATE ME PLS (&V)"
+END
+
+CONTROLBAR:TooltipFire_pit
+"TRANSLATE ME PLS"
+END
+
+CONTROLBAR:FireWorks
+"TRANSLATE ME PLS [&V]"
+END
+
+CONTROLBAR:FireWorks2
+"TRANSLATE ME PLS [&B]"
+END
+
+CONTROLBAR:FireWorksObj
+"TRANSLATE ME PLS"
+END
+
+CONTROLBAR:ToolTipFireWorks
+"TRANSLATE ME PLS"
+End
+
+CONTROLBAR:ToolTipFireWorks2
+"TRANSLATE ME PLS"
+End
+
+CONTROLBAR:HobbitFireCracker
+"TRANSLATE ME PLS [&R]"
+END
+
+
+CONTROLBAR:ToolTipHobbitFireCracker
+"TRANSLATE ME PLS"
+End
+CONTROLBAR:ToolTipHobbitFireCrackerMerry
+"TRANSLATE ME PLS"
+End
+CONTROLBAR:ToolTipHobbitFireCrackerSam
+"TRANSLATE ME PLS"
+End
