@@ -43587,7 +43587,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
-"Carica (&E)"
+"Carica (&R)"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
@@ -43603,11 +43603,11 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Manto &elfico"
+"Manto elfico (&C)"
 END
 
 CONTROLBAR:ChargeAttack
-"Carica (&E)"
+"Carica (&R)"
 END
 
 CONTROLBAR:ConstructRohanPeasant
