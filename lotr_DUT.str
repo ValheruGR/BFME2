@@ -25306,6 +25306,14 @@ CONTROLBAR:LW_ToolTip_Eomer
 "Type eenheid: held"
 END
 
+CONTROLBAR:LadyOfLight
+"Lady Of Light"
+END
+
+CONTROLBAR:TooltipLadyOfLight
+"Call down the light of Valar onto your enemies"
+END
+
 CONTROLBAR:LW_Hero_Eowyn
 "Éowyn"
 END
@@ -43596,44 +43604,44 @@ END
 END
 
 CONTROLBAR:Fire_pit
-"TRANSLATE ME PLS (&V)"
+"Fire pit (&V)"
 END
 
 CONTROLBAR:TooltipFire_pit
-"TRANSLATE ME PLS"
+"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants +5% armor bonus \n Always stacks \n Detect stealth"
 END
 
 CONTROLBAR:FireWorks
-"TRANSLATE ME PLS [&V]"
+"FireWorks / Ignite [&V]"
 END
 
 CONTROLBAR:FireWorks2
-"TRANSLATE ME PLS [&B]"
+"Ignite Fireworks [&B]"
 END
 
 CONTROLBAR:FireWorksObj
-"TRANSLATE ME PLS"
+"FireWorks"
 END
 
 CONTROLBAR:ToolTipFireWorks
-"TRANSLATE ME PLS"
+"Merry can drop Fireworks \n on the ground and ignite it \n \n Left click to activate  "
 End
 
 CONTROLBAR:ToolTipFireWorks2
-"TRANSLATE ME PLS"
+"Fireworks damages units within large radius \n \n Left click to activate "
 End
 
 CONTROLBAR:HobbitFireCracker
-"TRANSLATE ME PLS [&R]"
+"Firecracker [&R]"
 END
 
 
 CONTROLBAR:ToolTipHobbitFireCracker
-"TRANSLATE ME PLS"
+"Hero can throw a small Firecracker \n Left click icon then left click on target"
 End
 CONTROLBAR:ToolTipHobbitFireCrackerMerry
-"TRANSLATE ME PLS"
+"Hero can throw a small Firecracker. \n Effective against Mumakils \n Special bonus against structures. \n Left click icon then left click on target"
 End
 CONTROLBAR:ToolTipHobbitFireCrackerSam
-"TRANSLATE ME PLS"
+"Hero can throw a small Firecracker. Special bonus against Shelob. \n Left click icon then left click on target"
 End
