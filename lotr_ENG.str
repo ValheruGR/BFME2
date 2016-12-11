@@ -8364,10 +8364,6 @@ CONTROLBAR:GrabPassenger
 "Grab &Weapon"
 END
 
-CONTROLBAR:GrabPassengerTB
-"Pickup Merry or Pippin"
-END
-
 CONTROLBAR:EntFindRock
 "Find a &Rock"
 END
@@ -15168,7 +15164,7 @@ CONTROLBAR:SummonTomBombadil
 END
 
 CONTROLBAR:TooltipSummonTomBombadil
-"Summons Tom Bombadil \n Left click icon then left click on pathable location"
+"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. \n It's told that he's the human personification of Eru, who created Ëa \n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:SummonHobbitAllies
@@ -16685,14 +16681,6 @@ END
 
 CONTROLBAR:ToolTipLightningSword
 "Requires Level 2 \n Shoots out lightning bolts from Gandalf's sword \n Left click icon then left click on target"
-END
-
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"The Wizard transfers all of his Power into a Shield that offers increased defense \n Gandalf gains 99% armor and resist knockback for 5 seconds \n Left click icon to activate"
-END
-
-CONTROLBAR:SpecialAbility_ShieldBubble
-"Shield B&ubble"
 END
 
 CONTROLBAR:ToolTipWoundingArrow
@@ -27648,14 +27636,6 @@ CONTROLBAR:LW_ToolTip_Eomer
 "Unit Type: Hero"
 END
 
-CONTROLBAR:LadyOfLight
-"Lady Of Light"
-END
-
-CONTROLBAR:TooltipLadyOfLight
-"Call down the light of Valar onto your enemies"
-END
-
 CONTROLBAR:LW_Hero_Eowyn
 "Eowyn"
 END
@@ -29825,16 +29805,6 @@ CONTROLBAR:UntamedAllegiance
 "Untamed Allegiance"
 END
 
-
-
-CONTROLBAR:OrcDraught
-"OrcDraught"
-END
-
-CONTROLBAR:TooltipOrcDraught
-"Heal Friendly Allies \n Left click icon then left click on target Allies"
-END
-
 CONTROLBAR:TooltipUntamedAllegiance
 "Cast on a Lair to gain control of the Lair and associated creatures \n Left click icon then left click on target Lair"
 END
@@ -30377,10 +30347,6 @@ END
 
 CONTROLBAR:SpecialAbilityFiresOfDoom
 "Fi&res of Doom"
-END
-
-CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Summon Three Fi&res of Doom around Sauron in a circle"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
@@ -42710,14 +42676,6 @@ CONTROLBAR:ToolTipCAHAthelas_Palantir
 "Heal \n Left click to activate"
 END
 
-CONTROLBAR:ToolTipGaladHeal
-"Heals all units and heroes in a large circle around Galadriel \n Left click to activate"
-END
-
-CONTROLBAR:GaladHealBTP
-"Light Of Galadriel \n Left click to activate"
-END
-
 CONTROLBAR:ToolTipCreateAHeroLeadership_Palantir
 "Allies near the Hero gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n \n Passive ability       Does not stack"
 End
@@ -46994,6 +46952,24 @@ CONTROLBAR:ElvenGrace
 "Athelas [&C]"
 END
 
+GUI:PleaseSelectBuddy
+"Chat message could not be sent.  One or more friends need to be selected."
+END
+
+// String lines for Patch 1.08
+
+CONTROLBAR:GrabPassengerTB
+"Pickup Merry or Pippin"
+END
+
+CONTROLBAR:SpecialAbility_ShieldBubble
+"Shield B&ubble"
+END
+
+CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
+"The Wizard transfers all of his Power into a Shield that will absorvs every kind of damage dealt on him. \n Gandalf also gains inmunity to knock-back. \n Lasts 5 seconds. \n \n Left click icon to activate"
+END
+
 CONTROLBAR:Fire_pit
 "Fire pit (&V)"
 END
@@ -47006,37 +46982,56 @@ CONTROLBAR:FireWorks
 "FireWorks / Ignite [&V]"
 END
 
-CONTROLBAR:FireWorks2
-"Ignite Fireworks [&B]"
-END
-
-CONTROLBAR:FireWorksObj
-"FireWorks"
-END
-
 CONTROLBAR:ToolTipFireWorks
 "Merry can drop Fireworks \n on the ground and ignite it \n \n Left click to activate  "
 End
+
+CONTROLBAR:FireWorks2
+"Ignite Fireworks [&B]"
+END
 
 CONTROLBAR:ToolTipFireWorks2
 "Fireworks damages units within large radius \n \n Left click to activate "
 End
 
+CONTROLBAR:FireWorksObj
+"FireWorks"
+END
+
 CONTROLBAR:HobbitFireCracker
 "Firecracker [&R]"
 END
 
-
 CONTROLBAR:ToolTipHobbitFireCracker
 "Hero can throw a small Firecracker \n Left click icon then left click on target"
 End
+
 CONTROLBAR:ToolTipHobbitFireCrackerMerry
 "Hero can throw a small Firecracker. \n Effective against Mumakils \n Special bonus against structures. \n Left click icon then left click on target"
 End
+
 CONTROLBAR:ToolTipHobbitFireCrackerSam
 "Hero can throw a small Firecracker. Special bonus against Shelob. \n Left click icon then left click on target"
 End
 
-GUI:PleaseSelectBuddy
-"Chat message could not be sent.  One or more friends need to be selected."
+// String lines for Patch 1.09
+
+CONTROLBAR:GaladHealBTP
+"&Light Of Galadriel"
+END
+
+CONTROLBAR:ToolTipGaladHeal
+"Heals all allied units and heroes in a large circle around Galadriel \n Left click to activate"
+END
+
+CONTROLBAR:LadyOfLight
+"Light Of &Valars"
+END
+
+CONTROLBAR:TooltipLadyOfLight
+"Call down the light of Valar onto your enemies"
+END
+
+CONTROLBAR:SpecialAbilityFiresOfDoom2
+"Summon Three Fi&res of Doom around Sauron in a circle"
 END
