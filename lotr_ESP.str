@@ -26622,7 +26622,7 @@ APT:StrategicDynamicAutoResolveYouLost
 END
 
 APT:HeaderUnitsGainVeterancy
-"Unidades que consiguen experiencia"
+"Unidades que ganan experiencia"
 END
 
 APT:HeaderUnitsLost
@@ -27042,7 +27042,7 @@ STRATEGICHUD:StatsExperienceBonusTitle
 END
 
 STRATEGICHUD:StatsExperienceBonusHelp
-"Bonificación a la velocidad a la que las unidades consiguen experiencia"
+"Bonificación a la velocidad a la que las unidades ganan experiencia"
 END
 
 STRATEGICHUD:CommandPointsLabel
@@ -39016,7 +39016,7 @@ CONTROLBAR:ToolTipCAH_ShieldCrush_L3
 END
 
 CONTROLBAR:ToolTipCAH_Starlight
-"Los aliados cercanos se curan y ganan \n +50% al daño, +50% a la armadura \n y consiguen experiencia el doble de rápido."
+"Los aliados cercanos se curan y ganan \n +50% al daño, +50% a la armadura \n y ganan experiencia el doble de rápido."
 END
 
 CONTROLBAR:ToolTipCAH_Elendil
@@ -39584,7 +39584,7 @@ CONTROLBAR:HeroToggleHorse_Palantir
 END
 
 CONTROLBAR:ToolTipCAH_Starlight_Palantir
-"Los aliados cercanos se curan y ganan \n +50% al daño, +50% a la armadura \n y consiguen experiencia el doble de rápido. \n Para activarlo, haz clic con el botón izquierdo."
+"Los aliados cercanos se curan y ganan \n +50% al daño, +50% a la armadura \n y ganan experiencia el doble de rápido. \n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:ToolTipCAH_Elendil_Palantir
@@ -43278,7 +43278,7 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño y consiguen experiencia un 25% más rápido. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño y ganan experiencia un 25% más rápido. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 
 CONTROLBAR:ToolTipDarkness
