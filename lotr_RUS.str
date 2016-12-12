@@ -5778,11 +5778,11 @@ TOOLTIP:Options/tooltipDoubleClickGuard
 END
 
 TOOLTIP:Options/tooltipAlternateMouse
-"Использование интерфейса в стиле Command & Conquer™"
+"Использование интерфейса в стиле Command & Conquer(tm)"
 END
 
 TOOLTIP:Options/tooltipAlternativeMouseSetUp
-"Использование интерфейса в стиле Command & Conquer™"
+"Использование интерфейса в стиле Command & Conquer(tm)"
 END
 
 TOOLTIP:options/tooltipEAX
@@ -6971,10 +6971,6 @@ END
 
 CONTROLBAR:GrabPassenger
 "Живой снаряд (&W)"
-END
-
-CONTROLBAR:GrabPassengerTB
-"Поднять Мерри или Пиппина"
 END
 
 CONTROLBAR:EntFindRock
@@ -15225,14 +15221,6 @@ CONTROLBAR:ToolTipLightningSword
 "Требуется уровень 2. \n Меч Гэндальфа приобретает способность поражать ударом молнии. \n Щелкните на пиктограмме, затем - на цели."
 END
 
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"Вызывается мега-щит \n Гендальф получает +99% к броне и невоспреимчим к откидываниям на 5 секунд \n Активируется левой кнопкой мыши"
-END
-
-CONTROLBAR:SpecialAbility_ShieldBubble
-"[&U] Мега-щит"
-END
-
 CONTROLBAR:ToolTipWoundingArrow
 "Требуется уровень 2 \n Однозалповая атака, наносящая высокий урон и пугающая некоторых монстров \n Сбивает с ног \n Активируется левой кнопкой мыши на выбранные отряды"
 END
@@ -16194,7 +16182,7 @@ CREDITS:NewLineThanks2
 END
 
 CREDITS:NewLineThanks3
-"The Lord of the Rings™: The Return of the King™."
+"The Lord of the Rings(tm): The Return of the King(tm)."
 END
 
 CREDITS:BingThanks
@@ -23298,7 +23286,7 @@ FESL:FESL-100
 END
 
 APPDATA:PictureFolder
-"Снимки экрана игры "Битва за Средиземье II""
+"Снимки экрана игры Битва за Средиземье II(tm)"
 END
 
 APT:SaveFileDiskFull
@@ -43602,7 +43590,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Эльфийский плащ (&E)"
+"Эльфийский плащ (&C)"
 END
 
 CONTROLBAR:ChargeAttack
@@ -43631,4 +43619,84 @@ END
 
 GUI:PleaseSelectBuddy
 "Сообщение не было отправлено. Необходимо выбрать одного или более адресатов."
+END
+
+// String lines for Patch 1.08
+
+CONTROLBAR:GrabPassengerTB
+"Поднять Мерри или Пиппина"
+END 
+
+CONTROLBAR:SpecialAbility_ShieldBubble
+"[&U] Мега-щит"
+END 
+
+CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
+"Вызывается мега-щит \n Гендальф получает +99% к броне и невоспреимчим к откидываниям на 5 секунд \n Активируется левой кнопкой мыши"
+END
+
+CONTROLBAR:Fire_pit
+"Fire pit (&V)"
+END
+
+CONTROLBAR:TooltipFire_pit
+"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants +5% armor bonus \n Always stacks \n Detect stealth"
+END
+
+CONTROLBAR:FireWorks
+"FireWorks / Ignite [&V]"
+END
+
+CONTROLBAR:ToolTipFireWorks
+"Merry can drop Fireworks \n on the ground and ignite it \n \n Left click to activate  "
+End
+
+CONTROLBAR:FireWorks2
+"Ignite Fireworks [&B]"
+END
+
+CONTROLBAR:ToolTipFireWorks2
+"Fireworks damages units within large radius \n \n Left click to activate "
+End
+
+CONTROLBAR:FireWorksObj
+"FireWorks"
+END
+
+CONTROLBAR:HobbitFireCracker
+"Firecracker [&R]"
+END
+
+CONTROLBAR:ToolTipHobbitFireCracker
+"Hero can throw a small Firecracker \n Left click icon then left click on target"
+End
+
+CONTROLBAR:ToolTipHobbitFireCrackerMerry
+"Hero can throw a small Firecracker. \n Effective against Mumakils \n Special bonus against structures. \n Left click icon then left click on target"
+End
+
+CONTROLBAR:ToolTipHobbitFireCrackerSam
+"Hero can throw a small Firecracker. Special bonus against Shelob. \n Left click icon then left click on target"
+End
+
+// String lines for Patch 1.09
+
+CONTROLBAR:GaladHealBTP
+"&Light Of Galadriel"
+END
+
+CONTROLBAR:ToolTipGaladHeal
+"Heals all allied units and heroes in a large circle around Galadriel \n Left click to activate"
+END
+
+CONTROLBAR:LadyOfLight
+"Light Of &Valars"
+END
+
+CONTROLBAR:TooltipLadyOfLight
+"Call down the light of Valar onto your enemies"
+END
+
+CONTROLBAR:SpecialAbilityFiresOfDoom2
+"Summon Three Fi&res of Doom around Sauron in a circle"
 END

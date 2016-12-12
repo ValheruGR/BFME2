@@ -1,3 +1,6 @@
+// String file for Lord of the Rings
+
+// comment: DO NOT TRANSLATE
 LETTER:G
 "G"
 END
@@ -15142,14 +15145,6 @@ CONTROLBAR:PhialofGaladriel
 "Fiole de Galadriel (&T)"
 END
 
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"Le sorcier utilise tout son pouvoir pour constituer un bouclier \n Gandalf gagne 99% d'armure et résiste à la chute pendant 5 secondes \n Clic gauche pour activer"
-END
-
-CONTROLBAR:SpecialAbility_ShieldBubble
-"B&ulle protectrice"
-END
-
 CONTROLBAR:ToolTipPhialofGaladriel
 "Fait fuir les ennemis\nClic gauche pour activer"
 END
@@ -25734,14 +25729,6 @@ CONTROLBAR:LW_ToolTip_Gloin
 "Type d'unité : héros commandant une armée"
 END
 
-CONTROLBAR:LadyOfLight
-"Dame de lumière"
-END
-
-CONTROLBAR:TooltipLadyOfLight
-"Amener la lumière des Valars sur vos ennemis"
-END
-
 CONTROLBAR:LW_Structure_MordorFortress
 "Forteresse"
 END
@@ -27816,10 +27803,6 @@ END
 
 CONTROLBAR:SpecialAbilityFiresOfDoom
 "Feu&x du Destin"
-END
-
-CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom2
-"Invoque 3 pluies de roches en fusion autour de Sauron en cercle"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
@@ -39042,14 +39025,6 @@ CONTROLBAR:ToolTipCAH_BladeMaster
 "Le héros gagne temporairement +100% dégâts et +100% armure"
 END
 
-CONTROLBAR:ToolTipGaladHeal
-"Soigne toute les unités dans un large cercle autour de Galadriel \n Click gauche pour activer"
-END
-
-CONTROLBAR:GaladHealBTP
-"Lumière de Galadriel \n Click gauche pour activer"
-END
-
 CONTROLBAR:ToolTipCAHAthelas
 "Guérir"
 END
@@ -43010,10 +42985,6 @@ CONTROLBAR:ToolTipArrowWind
 "Requiert : niveau 10\nVolée de flèches continue\nClic gauche sur l'icône puis clic gauche sur la zone cible"
 END
 
-CONTROLBAR:GrabPassengerTB
-"Permet de prendre Merry et Pipin \nIls attaqueront les ennemis avec des pierres."
-END
-
 CONTROLBAR:ToolTipElvenCloakThranduil
 "L'unité immobile est invisible \nCapacité passive"
 END
@@ -43626,6 +43597,20 @@ GUI:PleaseSelectBuddy
 "Le message instantané n'a pas pu être envoyé. Sélectionnez un ou plusieurs amis."
 END
 
+// String lines for Patch 1.08
+
+CONTROLBAR:GrabPassengerTB
+"Permet de prendre Merry et Pipin \nIls attaqueront les ennemis avec des pierres."
+END
+
+CONTROLBAR:SpecialAbility_ShieldBubble
+"B&ulle protectrice"
+END
+
+CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
+"Le sorcier utilise tout son pouvoir pour constituer un bouclier \n Gandalf gagne 99% d'armure et résiste à la chute pendant 5 secondes \n Clic gauche pour activer"
+END
+
 CONTROLBAR:Fire_pit
 "Lancé de feu (&V)"
 END
@@ -43638,21 +43623,21 @@ CONTROLBAR:FireWorks
 "Feu d'artice / Déclencher [&V]"
 END
 
-CONTROLBAR:FireWorks2
-"Enflammer feu d'artifice [&B]"
-END
-
-CONTROLBAR:FireWorksObj
-"Feu d'artifice"
-END
-
 CONTROLBAR:ToolTipFireWorks
 "Merry peu lancer un feu d'artifice \n sur le sol et l'allumer \n \n Clic gauche pour activer  "
 End
 
+CONTROLBAR:FireWorks2
+"Enflammer feu d'artifice [&B]"
+END
+
 CONTROLBAR:ToolTipFireWorks2
 "Les feux d'artifices infligent des dégât dans un large rayon \n \n Clic gauche pour activer "
 End
+
+CONTROLBAR:FireWorksObj
+"Feu d'artifice"
+END
 
 CONTROLBAR:HobbitFireCracker
 "Lancé de feu [&R]"
@@ -43669,3 +43654,25 @@ End
 CONTROLBAR:ToolTipHobbitFireCrackerSam
 "Le héros peut lancer une petite boule de feu\n Bonus spécial contre Arachnée \n Clic gauche puis clic gauche sur la cible"
 End
+
+// String lines for Patch 1.09
+
+CONTROLBAR:GaladHealBTP
+"&Lumière de Galadriel"
+END
+
+CONTROLBAR:ToolTipGaladHeal
+"Soigne toute les unités dans un large cercle autour de Galadriel \n Click gauche pour activer"
+END
+
+CONTROLBAR:LadyOfLight
+"&Valar de Lumière"
+END
+
+CONTROLBAR:TooltipLadyOfLight
+"Amener la lumière des Valars sur vos ennemis"
+END
+
+CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom2
+"Invoque 3 pluies de roches en fusion autour de Sauron en cercle"
+END

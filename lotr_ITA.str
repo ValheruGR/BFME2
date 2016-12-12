@@ -8350,10 +8350,6 @@ OBJECT:CampFloor
 "Terreno dell'accampamento"
 END
 
-OBJECT:Fireworks
-"Fuochi artificiali"
-END
-
 OBJECT:Lightning
 "Illuminazione"
 END
@@ -15194,13 +15190,6 @@ CONTROLBAR:ToolTipLightningSword
 "Richiede livello 2.\nScaglia fulmini dalla spada.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"Lo stregone trasferisce tutto il suo potere in uno scudo per difendersi \n Gandalf guadagna 99% Armatura e resiste ai contraccolpi per 10 secondi. \n Click sinistro sull'icona per attivare."
-END
-
-CONTROLBAR:SpecialAbility_ShieldBubble
-"Scudo Sfera"
-END
 
 CONTROLBAR:ToolTipWoundingArrow
 "Richiede livello 2\nUn potente attacco singolo a distanza.\nCausa meta-impatto.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
@@ -25314,13 +25303,6 @@ CONTROLBAR:LW_ToolTip_Eomer
 "Tipo unità: Eroe"
 END
 
-CONTROLBAR:LadyOfLight
-"Signora Della Luce"
-END
-
-CONTROLBAR:TooltipLadyOfLight
-"Fa calare la luyce dei Valar sul nemico."
-END
 CONTROLBAR:LW_Hero_Eowyn
 "Éowyn"
 END
@@ -27309,16 +27291,6 @@ CONTROLBAR:TooltipUntamedAllegiance
 "Lancia sulla tana per controllarla, insieme alle creature associate.\nClicca con il pulsante sinistro sull'icona,\nquindi sulla tana selezionata."
 END
 
-
-
-
-CONTROLBAR:OrcDraught
-"Preparato di Orco"
-END
-CONTROLBAR:TooltipOrcDraught
-"Guarisce le unità alleate vicine. \nClick sinistro sull'icona quindi click sinistro sulle unità selezionate."
-END
-
 CONTROLBAR:SummonSpiderlingAllies
 "Evoca alleati Ragni"
 END
@@ -27825,11 +27797,6 @@ END
 
 CONTROLBAR:SpecialAbilityFiresOfDoom
 "Fuochi del fato (&R)"
-END
-
-
-CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Evoca tre Piogge Infuocate intorno a Sauron in cerchio."
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
@@ -39626,14 +39593,6 @@ CONTROLBAR:ToolTipCAHAthelas_Palantir
 "Cura.\nClicca con il pulsante sinistro per attivare."
 END
 
-CONTROLBAR:ToolTipGaladHeal
-"Guarisce tutte le unità e gli eroi in una grande area intorno a Galadriel \nClick sinistro per attivare."
-END
-
-CONTROLBAR:GaladHealBTP
-"Luce Di Galadriel \nClick sinistro per attivare"
-END
-
 CONTROLBAR:ToolTipCreateAHeroLeadership_Palantir
 "Gli alleati vicini all'Eroe ottengono\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\nAbilità passiva. Non cumulabile."
 END
@@ -43631,8 +43590,27 @@ CONTROLBAR:ElvenGrace
 END
 
 
+
+GUI:PleaseSelectBuddy
+"Impossibile inviare il messaggio. Devi selezionare uno o più amici."
+END
+
+// String lines for Patch 1.08
+
+CONTROLBAR:GrabPassengerTB
+"Pickup Merry or Pippin"
+END
+
+CONTROLBAR:SpecialAbility_ShieldBubble
+"Sc&udo Sfera"
+END
+
+CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
+"Lo stregone trasferisce tutto il suo potere in uno scudo per difendersi \n Gandalf guadagna 99% Armatura e resiste ai contraccolpi per 5 secondi. \n Click sinistro sull'icona per attivare."
+END
+
 CONTROLBAR:Fire_pit
-"Fuoco da campo"
+"Fuoco da campo (&C)"
 END
 
 CONTROLBAR:TooltipFire_pit
@@ -43640,28 +43618,26 @@ CONTROLBAR:TooltipFire_pit
 END
 
 CONTROLBAR:FireWorks
-"Fuochi D'Artificio / Accendi (V)"
-END
-
-CONTROLBAR:FireWorks2
-"Accendi Fuochi D'Artificio(B)"
-
-
-CONTROLBAR: FireWorksObj
-"FireWorks"
+"Fuochi D'Artificio / Accendi (&V)"
 END
 
 CONTROLBAR:ToolTipFireWorks
 "Merry può mettere un fuoco d'artificio sul terreno ed accenderlo \n \n Click sinistro per attivare "
 END
 
-CONTROLBAR:ToolTipFireWQorks2
+CONTROLBAR:FireWorks2
+"Accendi Fuochi D'Artificio(&B)"
+
+CONTROLBAR:ToolTipFireWorks2
 "Fuochi d'artificio danneggiano le unità in una grande area \n \n Click sinistro per attivare "
 
-CONTROLBAR:HobbitFireCracker
-"Petardi (R)"
+CONTROLBAR:FireWorksObj
+"Fuochi artificiali"
 END
 
+CONTROLBAR:HobbitFireCracker
+"Petardi (&R)"
+END
 
 CONTROLBAR:ToolTipHobbitFireCracker
 "L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio"
@@ -43673,7 +43649,26 @@ END
 
 CONTROLBAR:ToolTipHobbitFireCrackerSam
 L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio \nEfficace contro Shelob "
+End
 
-GUI:PleaseSelectBuddy
-"Impossibile inviare il messaggio. Devi selezionare uno o più amici."
+// String lines for Patch 1.09
+
+CONTROLBAR:GaladHealBTP
+"&Luce Di Galadriel"
+END
+
+CONTROLBAR:ToolTipGaladHeal
+"Guarisce tutte le unità e gli eroi in una grande area intorno a Galadriel \nClick sinistro per attivare."
+END
+
+CONTROLBAR:LadyOfLight
+"Luce di &Vallar"
+END
+
+CONTROLBAR:TooltipLadyOfLight
+"Fa calare la luyce dei Valar sul nemico."
+END
+
+CONTROLBAR:SpecialAbilityFiresOfDoom2
+"Evoca tre Piogge Infuocate intorno a Sauron in cerchio."
 END
