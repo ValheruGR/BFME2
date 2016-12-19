@@ -16772,7 +16772,7 @@ CONTROLBAR:ToolTipDisguise
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Requires Level 5 \n Eowyn gains 65% Armor \n Reduces deceleration of friendly Rohirrims\n Cancels the disguise \n Left click to activate"
+"Requires Level 5 \n Eowyn gains 65% Armor \n Halves the deceleration rate of friendly Rohirrims when trampling\n Cancels the disguise \n Left click to activate"
 END
 
 CONTROLBAR:ToggleTrebWeapon
@@ -46609,9 +46609,9 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
 END
 
 CONTROLBAR:ToolTipGBloodHunt
-"Requires Level 4 \n Nearby allied cavalry gain +25% Damage, +25% Armor and gain experience 50% faster\n Friendly cavalry trample deceleration reduced \n Always stacks \n Passive ability"
+"Requires Level 4 \n Nearby allied cavalry gain +25% Damage, +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry\n Always stacks \n Passive ability"
 END
-
+//patch105: Friendly cavalry trample deceleration reduced.
 CONTROLBAR:ToolTipDominate
 "Requires Level 7 \n Temporarily gain control of targeted enemies \n Left click icon then left click on target enemies"
 END
