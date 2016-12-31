@@ -13590,7 +13590,7 @@ CONTROLBAR:LoneTower
 END
 
 CONTROLBAR:TooltipLoneTower
-"Convoca una torre defensiva. \n Puede curar, revivir y dar liderazgo a las unidades aliadas \n Puede ser mejorada con trabajo de piedra \n requiere respectivas mejoras desde una Fortaleza \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
+"Convoca una torre defensiva. \n Puede curar, revivir y dar liderazgo a las unidades aliadas \n Puede ser mejorada con trabajo de piedra \n\n Requiere respectivas mejoras desde una Fortaleza \n\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
 END
 
 CONTROLBAR:ArrowVolley
@@ -27910,7 +27910,7 @@ CONTROLBAR:BattleWagonUpgradeMenOfDale
 END
 
 CONTROLBAR:BlackArrows
-"Flechas negras [&V]"
+"Flechas negras [&C]"
 END
 
 CONTROLBAR:BlackRiderMount
@@ -28902,7 +28902,7 @@ OBJECT:DwarvenLoneTower
 END
 
 OBJECT:DwarvenLoneTowerDescription
-"Dispara a los enemigos cercanos. \n Cura unidades aliadas \n Repone 1 unidad por batallón cada 10 segundos \n Proporciona +25% daño +25% experiencia liderazgo acumulativo \n Puede recibir Trabajo de Piedra \n requiere las respectivas mejoras desde una Fortaleza."
+"Dispara a los enemigos cercanos. \n Revela unidades sigilosas. \n Puede recibir distintas mejoras desde la fortaleza."
 END
 
 OBJECT:DwarvenMagicDoor
@@ -43682,3 +43682,14 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Convoca a los fuegos del destino en un circulo alrededor de Sauron."
 END
 
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
+"Requisito: Investigar la mejora en la fortaleza. \n\n Proporciona a los aliados cercanos +25% daño y ganan experiencia 25% más rapido \n Siempre se acumula"
+END
+
+CONTROLBAR:LoneTowerHealingUpgradeIcon
+"Requisito: Investigar la mejora en la fortaleza. \n\n Cura a los aliados cercanos \n Repone una unidad por batallón cada 10 segundos."
+END
+
+CONTROLBAR:LoneTowerArmorUpgradeIcon
+"Requisito: Investigar la mejora en la fortaleza. \n\n Reduce de manera importante el daño recibido."
+END

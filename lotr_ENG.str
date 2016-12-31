@@ -15184,7 +15184,7 @@ CONTROLBAR:LoneTower
 END
 
 CONTROLBAR:TooltipLoneTower
-"Summons a defensive tower \n Provides leadership, healing & respawn for allied units\n Can be improved with Stonework \n Requires respective fortress upgrades \n Left click icon then left click on pathable location"
+"Summons a defensive tower \n Provides leadership, healing & respawn for allied units\n Can be improved with Stonework \n\n Requires respective fortress upgrades \n\n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:ArrowVolley
@@ -31527,7 +31527,7 @@ OBJECT:DwarvenLoneTower
 End
 
 OBJECT:DwarvenLoneTowerDescription
-"Fires at nearby enemies. \n Heals nearby Allies. \n Replenish 1 unit per horde each 10 seconds \n Provides +25% damage +25% experience stacking leadership.\n Can be improved with Stonework\n Requires respective Fortress Upgrades."
+"Fires at nearby enemies. \n Reveals stealthed enemies. \n Can receive different upgrades from the fortress."
 End
 
 OBJECT:DwarvenMagicDoor
@@ -47034,4 +47034,16 @@ END
 
 CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Summon Three Fi&res of Doom around Sauron in a circle"
+END
+
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
+"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and +25% experience \n Always stacks"
+END
+
+CONTROLBAR:LoneTowerHealingUpgradeIcon
+"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
+END
+
+CONTROLBAR:LoneTowerArmorUpgradeIcon
+"Requires researching the upgrade at fortress. \n\n Significantly reduces the amount of damage taken."
 END

@@ -13609,7 +13609,7 @@ CONTROLBAR:LoneTower
 END
 
 CONTROLBAR:TooltipLoneTower
-"Призывается защитная башня \n Лечит, оживляет и дает лидерство союзным войскам \n Броня башни может быть усилена \n Требуется соответствующее улучшение в крепости \n Активируется левой кнопкой мыши"
+"Призывается защитная башня \n Лечит, оживляет и дает лидерство союзным войскам \n Броня башни может быть усилена \n\n Требуется соответствующее улучшение в крепости \n\n Активируется левой кнопкой мыши"
 END
 
 CONTROLBAR:ArrowVolley
@@ -14929,7 +14929,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Войска рядом с Бомбадилом получают \n +25% к атаке, +25% к броне, \n набирают опыт на 50% быстрее \n Всегда сочетается с другими лидерствами \n \n Пассивная способность"
+"Войска рядом с Бомбадилом получают \n +25% урона, +25% брони, \n и набирают опыт на 50% быстрее \n Всегда сочетается с другими лидерствами \n \n Пассивная способность"
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -15313,7 +15313,7 @@ CONTROLBAR:ToolTipDisguise
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Требуется уровень 5 \n Эовин получает +65% Armor \n Союзные рохиррим меньше застревают в войсках\n Отменяет маскировку \n Активируется левой кнопкой мыши"
+"Требуется уровень 5 \n Эовин получает +65% Armor \n Рохиррим замедляются вдвое медленнее атакуя противника   \n Отменяет маскировку \n Активируется левой кнопкой мыши"
 END
 
 CONTROLBAR:ToggleTrebWeapon
@@ -24057,7 +24057,7 @@ CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower
-"Расширение радиуса обзора вокруг крепости."
+"Расширение радиуса обзора вокруг крепости. Войска игрока на местности получают бонус к скорости передвижения. Эффект накапливается."
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressBoilingOil
@@ -24117,7 +24117,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToTrebuchet
 END
 
 CONTROLBAR:PorterExtinguishFire
-"Тушение огня"
+"Тушение огня (&Z)"
 END
 
 CONTROLBAR:ToolTipPorterExtinguishFire
@@ -24265,7 +24265,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStonework
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
-"Усиление брони стен и крепости \n Требуется для постройки мощной катапульты."
+"Усиление брони стен и крепости \n Требуется для постройки мощной катапульты. \n\n Улучшает призванные Одинокие Башни"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions
@@ -24281,7 +24281,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
-"Исцеление союзников в чертогах и неподалеку от крепости. \n Крепость получает дополнительный запас прочности."
+"Исцеление союзников в чертогах и неподалеку от крепости. \n Воскрешение павших воинов в отряде каждые 6.5 секунд. \n Уменьшение времени ожидания героя на 25%. \n Крепость получает дополнительный запас прочности. \n Улучшает призванные Одинокие Башни"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
@@ -24581,7 +24581,7 @@ CONTROLBAR:WildGoblinKingHotkey
 END
 
 CONTROLBAR:WildGoblinKingRecruit
-"Повелитель гоблинов."
+"Призвать Горкила -- Короля Гоблинов."
 END
 
 CONTROLBAR:WildDrogothHotkey
@@ -24601,7 +24601,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressDragonNest
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest
-"Позволяет призвать огненного ящера."
+"Позволяет призвать огненного ящера. \n Лечит Дрогота. \n Снижает время воскрешения Дрогота на 10%"
 END
 
 CONTROLBAR:PurchaseShipUpgradePirateFlag
@@ -24661,7 +24661,7 @@ OBJECT:WildMineShaft
 END
 
 OBJECT:WildMineShaftDescription
-"Переработка доступных ресурсов. \n Доступ в туннели. \n Увеличение лимита очков командования на 50."
+"Переработка доступных ресурсов. \n Доступ в туннели. \n Увеличение лимита очков командования на 50. \n Уровень 2: +25% брони. \n Уровень 3: +25% брони."
 END
 
 OBJECT:WildSpiderPit
@@ -24837,7 +24837,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressMysticFountains
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains
-"Исцеление находящихся рядом воинов. \n Воскрешение героев в этой крепости происходит на 25% быстрее."
+"Исцеление находящихся рядом воинов. \n Воскрешение павших воинов в отряде каждые 6.5 секунд. \n Воскрешение героев в этой крепости происходит на 20% быстрее."
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressEnchantedAnvil
@@ -24845,7 +24845,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressEnchantedAnvil
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEnchantedAnvil
-"Уменьшение стоимости усовершенствований эльфийских построек и стен. \n 1 крепость с наковальней - 10% скидки. \n 2 крепости с наковальнями - 20% скидки. \n 3 крепости с наковальнями - 25% скидки. \n 4 крепости с наковальнями - 30% скидки. \n 5 крепостей с наковальнями - 35% скидки."
+"Уменьшение стоимости усовершенствований для эльфийских войск. \n 1 крепость с наковальней - 10% скидки. \n 2 крепости с наковальнями - 20% скидки. \n 3 крепости с наковальнями - 25% скидки. \n 4 крепости с наковальнями - 30% скидки. \n 5 крепостей с наковальнями - 35% скидки."
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressBlessedMist
@@ -24861,7 +24861,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressCrystalMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat
-"Уменьшение урона, наносимого крепости в ближнем бою."
+"Уменьшение урона, наносимого крепости в ближнем бою. \n Союзники поблизости получают: \n +25% атаки и +25% опыта. \n Эффект всегда накапливается. "
 END
 
 CONTROLBAR:ToolTipElvenEntMoot
@@ -24885,11 +24885,11 @@ CONTROLBAR:ToolTipBuildEregionForgeLevel2
 END
 
 CONTROLBAR:PurchaseUpgradeEregionForgeLevel3
-"Плавильня Эрегиона, уровень 3 (&U)"
+"Плавильня Эрегиона, уровень 3 \n Постройка получает +10% брони против героев. \n +25% против копейщиков. \n +33% против кавалерии. (&U)"
 END
 
 CONTROLBAR:ToolTipBuildEregionForgeLevel3
-"Позволяет изобрести Звездные стрелы."
+"Позволяет изобрести Звездные стрелы. \n Постройка получает +10% брони против героев. \n +25% против копейщиков. \n +33% против кавалерии. "
 END
 
 CONTROLBAR:ToolTipGreenPasture
@@ -27241,7 +27241,7 @@ CONTROLBAR:Barricade
 END
 
 CONTROLBAR:TooltipBarricade
-"Башня с гарнизоном стрелков. \n Щелкните на пиктограмме, затем - на проходимом участке карты."
+"Башня с гарнизоном стрелков. \n Улучшается с изобретением Огненных Стрел в крепости. \n Щелкните на пиктограмме, затем - на проходимом участке карты."
 END
 
 CONTROLBAR:ArrowVolleyEvil
@@ -27297,7 +27297,7 @@ CONTROLBAR:Sunflare
 END
 
 CONTROLBAR:TooltipSunflare
-"На поле боя возникает луч ослепительного света, уничтожающий врагов. \n Щелкните на пиктограмме, затем - на участке местности."
+"На поле боя возникает луч ослепительного света, уничтожающий врагов. \n Эффективен против слабых героев. \n Отменяет Власть Тьмы и Ледяной Дождь. \n Щелкните на пиктограмме, затем - на участке местности."
 END
 
 CONTROLBAR:CaveBats
@@ -27305,7 +27305,7 @@ CONTROLBAR:CaveBats
 END
 
 CONTROLBAR:TooltipCaveBats
-"Рассеивание тумана войны и обнаружение скрывшихся врагов. \n Существенное уменьшение вражеской брони и наносимого врагами урона. \n Щелкните на пиктограмме, затем - на проходимом участке карты."
+"Рассеивание тумана войны и обнаружение скрывшихся врагов. \n Враги теряют преимущество лидерства. \n Существенное уменьшение вражеской брони и наносимого врагами урона. \n Щелкните на пиктограмме, затем - на проходимом участке карты."
 END
 
 CONTROLBAR:UntamedAllegiance
@@ -27369,7 +27369,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressRazorSpines
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines
-"Нанесение урона находящимся рядом с крепостью врагам."
+"Нанесение урона находящимся рядом с крепостью врагам. \n Исцеляет воинов рядом с крепостью."
 END
 
 CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows
@@ -27449,7 +27449,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressBurningForges
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressBurningForges
-"Уменьшение стоимости усовершенствований построек и стен Изенгарда. \n Крепость с доменными печами - 10% скидки. \n 2 крепости с доменными печами - 20% скидки. \n 3 крепости с доменными печами - 25% скидки. \n 4 крепости с доменными печами - 30% скидки. \n 5 крепостей с доменными печами - 35% скидки."
+"Уменьшение стоимости усовершенствований воинов Изенгарда. \n Крепость с доменными печами - 10% скидки. \n 2 крепости с доменными печами - 20% скидки. \n 3 крепости с доменными печами - 30% скидки. \n 4 крепости с доменными печами - 40% скидки. \n 5 крепостей с доменными печами - 50% скидки."
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations
@@ -27457,7 +27457,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations
-"Уменьшение стоимости построек и стен Изенгарда. \n Крепость со рвом - 10% скидки. \n 2 крепости со рвом - 20% скидки. \n 3 крепости со рвом - 25% скидки. \n 4 крепости со рвом - 30% скидки. \n 5 крепостей со рвом - 35% скидки."
+"Исцеляет воинов около крепости. \n Воскрешает павших воинов в отряде каждые 10 секунд. \n Уменьшение стоимости построек и стен Изенгарда. \n Крепость со рвом - 7.5% скидки. \n 2 крепости со рвом - 15% скидки. \n 3 крепости со рвом - 20% скидки. \n 4 крепости со рвом - 25% скидки. \n 5 крепостей со рвом - 33% скидки."
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressMurderOfCrows
@@ -27593,7 +27593,7 @@ CONTROLBAR:PurchaseUpgradeMordorFortressDoomPyres
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres
-"Находящиеся рядом войска получают дополнительный опыт. \n Сокращение стоимости призыва героя на 10%. \n Сокращение времени ожидания героя на 10%. \n Сокращение стоимости обучения строителей на 20%."
+"Находящиеся рядом войска получают +25% брони и опыта. \n Сокращение стоимости призыва героя на 10%. \n Сокращение времени ожидания героя на 10%. \n Сокращение стоимости обучения строителей на 20%."
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressMagmaCauldrons
@@ -27609,7 +27609,7 @@ CONTROLBAR:PurchaseUpgradeMordorFortressLavaMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat
-"Крепость становится менее уязвима к атакам ближнего боя."
+"Крепость становится менее уязвима к атакам ближнего боя. \n Исцеляет находящиеся рядом войска."
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressGorgorothSpire
@@ -27713,7 +27713,7 @@ CONTROLBAR:Citadel
 END
 
 CONTROLBAR:TooltipCitadel
-"На поле боя появляется цитадель. \n Щелкните на пиктограмме, затем - на проходимом участке карты."
+"На поле боя появляется цитадель. \n Соединена с сетью рудников. \n Щелкните на пиктограмме, затем - на проходимом участке карты."
 END
 
 CONTROLBAR:SonicSong
@@ -27733,7 +27733,7 @@ CONTROLBAR:ToolTipAncientMaster
 END
 
 CONTROLBAR:ToolTipMouthOfSauronDoubt
-"Требуется уровень 4. \n Существенное уменьшение вражеской брони и наносимого врагами урона. \n Щелкните на пиктограмме, затем - на нужных войсках."
+"Требуется уровень 4. \n Существенное уменьшение вражеской брони и наносимого врагами урона. \n Враги теряют преимущества лидерства. \n Щелкните на пиктограмме, затем - на нужных войсках."
 END
 
 CONTROLBAR:DreadVisage
@@ -27741,7 +27741,7 @@ CONTROLBAR:DreadVisage
 END
 
 CONTROLBAR:ToolTipDreadVisage
-"Существенное уменьшение вражеской брони и наносимого врагами урона. \n Пассивная способность."
+"Существенное уменьшение вражеской брони и наносимого врагами урона. \n Враги теряют преимущества лидерства. \n Пассивная способность."
 END
 
 CONTROLBAR:ToolTipBlackRiderMorgulBlade
@@ -27749,7 +27749,7 @@ CONTROLBAR:ToolTipBlackRiderMorgulBlade
 END
 
 CONTROLBAR:ToolTipBackstab
-"Требуется уровень 6. \n Атака ближнего боя, наносящая большой урон врагу и отравляющая его. \n Щелкните на пиктограмме, затем - на цели."
+"Требуется уровень 6. \n Атака ближнего боя, наносящая большой урон врагу и отравляющая его. \n Может быть использована на летающих противниках. \n Щелкните на пиктограмме, затем - на цели."
 END
 
 CONTROLBAR:ToolTipCorrodeAllegiance
@@ -27757,7 +27757,7 @@ CONTROLBAR:ToolTipCorrodeAllegiance
 END
 
 CONTROLBAR:ToolTipTameTheBeast
-"Требуется уровень 2. \n Указанные варги или волчьи всадники переходят под власть Шарку. \n Щелкните на пиктограмме, затем - на цели."
+"Требуется уровень 2. \n Указанная кавалерия переходит под власть Шарку. \n Щелкните на пиктограмме, затем - на цели."
 END
 
 CONTROLBAR:BloodHunt
@@ -27765,7 +27765,7 @@ CONTROLBAR:BloodHunt
 END
 
 CONTROLBAR:ToolTipGlorfindelWindRider
-"Требуется уровень 6. \n Конный Глорфиндел получает +60% скорости и удвоенную броню. \n ЛКМ - применение способности."
+"Требуется уровень 6. \n Конный Глорфиндел получает +40% скорости и удвоенную броню. \n ЛКМ - применение способности."
 END
 
 CONTROLBAR:WildWalk
@@ -27777,7 +27777,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Требуется уровень 7. \n Все находящиеся рядом союзники становятся нечувствительны к страху. \n Пассивная способность."
+"Требуется уровень 7. \n Все находящиеся рядом союзники становятся нечувствительны к страху и запугиванию. \n Бонус не может быть подавлен и всегда накапливается. \n Даин получает способность обнаруживать скрытых врагов. \n Пассивная способность."
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
@@ -27797,7 +27797,7 @@ CONTROLBAR:ToolTipGloinSmash
 END
 
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger
-"Требуется уровень 6. \n Доступно только для всадника. \n Враг теряет способность двигаться и некоторое время получает урон от яда. \n Щелкните на пиктограмме, затем - на цели."
+"Требуется уровень 6. \n Доступно только для всадника. \n Враг теряет способность двигаться и некоторое время получает урон от яда на протяжении 25 секунд. \n Герои парализованы на 6 секунд.\n Щелкните на пиктограмме, затем - на цели."
 END
 
 CONTROLBAR:TooltipGoblinKingSpawnFireDrakes
@@ -27809,7 +27809,7 @@ CONTROLBAR:TooltipWildShelobInstillTerror
 END
 
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel
-"Требуется уровень 10. \n Шелоб возникает из-под земли на любом не скрытом туманом участке местности. \n Щелкните на пиктограмме, затем - на участке местности."
+"Требуется уровень 7. \n Шелоб возникает из-под земли на любом не скрытом туманом участке местности. \n Щелкните на пиктограмме, затем - на участке местности."
 END
 
 CONTROLBAR:SpecialAbilityFireDrakeInferno
@@ -27853,7 +27853,7 @@ CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight
 END
 
 CONTROLBAR:ToolTipHourOfTheWitchKing
-"Требуется уровень 10. \n Время действия способностей вражеского героя полностью отнимается. \n Щелкните на пиктограмме, затем - на цели."
+"Требуется уровень 10. \n Время действия способностей вражеских героев в радиусе действия перезаряжается на 60%. \n Щелкните на пиктограмме, затем - на цели."
 END
 
 CONTROLBAR:ToolTipThunderBolt
@@ -28213,7 +28213,7 @@ CONTROLBAR:ToolTipActivateFireShip
 END
 
 CONTROLBAR:ToolTipBarbedArrows
-"Врагу наносится огромный урон."
+"Требуется уровень 3. \n Атака, сбивающая противников с ног. Наносит увеличенный урон."
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeAxeThrowers
@@ -42805,11 +42805,11 @@ CONTROLBAR:ToolTipGandalfLeadership
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Союзники рядом с крепостью получают\n +25% брони,\nа их опыт растет на 25% быстрее. \n Снижение стоимости призыва героя на 10%. \n Снижение времени ожидания героя на 10%. \n Снижение стоимости обучения строителей на 20%."
+"Союзники рядом с крепостью получают\n +25% брони,\nа их опыт растет на 25% быстрее. \n Эффект всегда накапливается. \n Снижение стоимости призыва героя на 10%. \n Снижение времени ожидания героя на 10%. \n Снижение стоимости обучения строителей на 20%."
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Исцеление находящихся рядом союзников.\nСнижение стоимости воскрешения героя на 20%. \n Снижение времени воскрешения героя на 20%."
+"Исцеление находящихся рядом союзников. \n Воскрешение павших воинов в отряде каждые 6.5 секунд. \nСнижение стоимости воскрешения героя на 5%. \n Снижение стоимости героя на 5%\n Снижение времени воскрешения героя на 15%. \n\n Улучшает призванные Одинокие Башни"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
@@ -42853,11 +42853,11 @@ CONTROLBAR:ToolTipHornofGondor
 END
 
 CONTROLBAR:ToolTipBoromirLeadership
-"Требуется уровень 5. \n Воины, находящиеся рядом с Боромиром, наносят \n +50% урона."
+"Требуется уровень 5. \n Воины, находящиеся рядом с Боромиром, наносят \n +50% урона, и получают +25% опыта. \n\n Пассивная способность."
 END
 
 CONTROLBAR:CaptainofGondorBoromir
-"Гондорский полководей (&C)"
+"Гондорский полководец (&C)"
 END
 
 CONTROLBAR:TheodenMount
@@ -42873,11 +42873,11 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Союзники рядом с Теоденом наносят \n +50% урона. \n \n Пассивная способность."
+"Союзники рядом с Теоденом наносят \n +50% урона, а также набирают опыт на 25% быстрее. \n \n Пассивная способность."
 END
 
 CONTROLBAR:ToolTipGloriousCharge
-"Требуется уровень 5. \n Снижение урона, наносимого Теодену и окружающим его всадникам, до 10%. \n Действует только при наличии Теодена-всадника. \n ЛКМ - применение способности."
+"Требуется уровень 5. \n Теоден и окружающие его всадники получают +80% брони, +25% урона. \n Кавалерия не замедляется атакуя противника. \n Действует только при наличии Теодена-всадника. \n Бонус нельзя подавить и он всегда накапливается. \n ЛКМ - применение способности."
 END
 
 CONTROLBAR:Smite
@@ -42897,7 +42897,7 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Мощная атака одной цели оружием дальнего боя.\nОсобенно эффективна против летающих противников. \n Щелкните на пиктограмме, затем - на цели."
+"Мощная атака одной цели оружием дальнего боя.\nОсобенно эффективна против крылатых тварей. \n Щелкните на пиктограмме, затем - на цели."
 END
 
 CONTROLBAR:ToggleFaramirWeapons
@@ -42929,7 +42929,7 @@ CONTROLBAR:ToolTipEomerLeadership
 END
 
 CONTROLBAR:ToolTipThrowSpear
-"Мощная атака дальнего боя. \n Щелкните на пиктограмме, затем - на цели."
+"Мощная атака дальнего боя. \n Эффективна против Мумаков. \n Щелкните на пиктограмме, затем - на цели."
 END
 
 CONTROLBAR:Athelas
@@ -42949,7 +42949,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Требуется уровень 2. \n Арагорн наносит +100% урона и получает +50% брони. \n ЛКМ - применение способности."
+"Требуется уровень 2. \n Арагорн наносит +100% урона и получает +50% брони. \n Урон от зданий снижен на 35% \n ЛКМ - применение способности."
 END
 
 CONTROLBAR:ToolTipAragornLeadership
@@ -43145,7 +43145,7 @@ OBJECT:DwarvenStatueDescription
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Союзники рядом со статуей \n получают +50% брони.\n Снижение стоимости призыва героя на 10%. \n Уменьшение времени ожидания героя на 10%. \n Снижение стоимости подготовки строителей на 20%."
+"Союзники рядом с крепостью получают дополнительный опыт. \n Снижение стоимости призыва героя на 10%. \n Уменьшение времени ожидания героя на 10%. \n Снижение стоимости подготовки строителей на 20%. \n\n Улучшает призванные Одинокие Башни"
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
@@ -43694,4 +43694,16 @@ END
 
 CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Summon Three Fi&res of Doom around Sauron in a circle"
+END
+
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
+"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and +25% experience \n Always stacks"
+END
+
+CONTROLBAR:LoneTowerHealingUpgradeIcon
+"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
+END
+
+CONTROLBAR:LoneTowerArmorUpgradeIcon
+"Requires researching the upgrade at fortress. \n\n Significantly reduces the amount of damage taken."
 END

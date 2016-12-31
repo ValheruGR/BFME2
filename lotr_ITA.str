@@ -13563,7 +13563,7 @@ CONTROLBAR:SummonTomBombadil
 END
 
 CONTROLBAR:TooltipSummonTomBombadil
-"Evoca Tom Bombadil.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Evoca Tom Bombadil... Guarda che eccellenti mustacchi! maaama miaa!!\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:SummonHobbitAllies
@@ -13583,7 +13583,7 @@ CONTROLBAR:LoneTower
 END
 
 CONTROLBAR:TooltipLoneTower
-"Evoca una torre difensiva. \nFornisce comando, cura e rigenera le unità alleate. \nPuò essere aggiornata con lo Scalpellino dei nani. \nClicca con il pulsante sinistro sull'icona, quindi sulla zona percorribile."
+"Evoca una torre difensiva. \nFornisce comando, cura e rigenera le unità alleate. \n\nPuò essere aggiornata con lo Scalpellino dei nani. \n\nClicca con il pulsante sinistro sull'icona, quindi sulla zona percorribile."
 END
 
 CONTROLBAR:ArrowVolley
@@ -28898,7 +28898,7 @@ OBJECT:DwarvenLoneTower
 END
 
 OBJECT:DwarvenLoneTowerDescription
-"Lancia delle asce contro i nemici vicini. \nGuarisce le unità alleate nelle vicinanze. \nRiforma 1 unità per orda ogni 10 secondi. \nFornisce +25% danno +25% esperienza ed è cumulativa. \nPuò essere aggiornata con lo Scalpellino Dei Nani. \nRichiede i rispettivi potenziamenti della fortezza."
+"Apre il fuoco contro i nemici vicini. \nRileva la furtività. \n Possono ricevere diversi aggiornamenti della fortezza."
 END
 
 OBJECT:DwarvenMagicDoor
@@ -43222,7 +43222,7 @@ CONTROLBAR:ToolTipBuildDwarvenBattleWagon
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier
-"Gli alleati vicini allo stendardo ottengono\n+25% danno e\n+25% accumulo esperienza.\nRipara lentamente il carro da battaglia, quando non si combatte.\nSempre cumulativo. \nAggiunge diverse falangi al carro da battaglia."
+"Gli alleati vicini allo stendardo ottengono\n+25% danno e\n+25% accumulo esperienza.\nRipara lentamente il carro da battaglia, quando non si combatte.\nSempre cumulativo. \nAggiunge diverse falangi al carro da battaglia.\nRileva la furtività."
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeHearth
@@ -43671,4 +43671,16 @@ END
 
 CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Evoca tre Piogge Infuocate intorno a Sauron in cerchio."
+END
+
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
+"Richiede Fortezza aggiornare \n\n Fornisce +25% danno +25% esperienza \n Sempre cumulativa."
+END
+
+CONTROLBAR:LoneTowerHealingUpgradeIcon
+"Richiede fortezza aggiornare. \n\n Guarisce le unità alleate nelle vicinanze. \n Riforma 1 unità per orda ogni 10 secondi."
+END
+
+CONTROLBAR:LoneTowerArmorUpgradeIcon
+"Richiede Fortezza aggiornare. \n\n Riduce notevolmente il danno subito."
 END

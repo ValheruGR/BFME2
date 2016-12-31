@@ -13590,7 +13590,7 @@ CONTROLBAR:LoneTower
 END
 
 CONTROLBAR:TooltipLoneTower
-"Invoque une tour d'archers défensive \nProcure du charisme et soigne les unités alliés prochent \nPeut être amélioré avec maçonnerie\nRequiert:l'amélioration dans la forteresse \nClic gauche sur l'icône puis clic gauche sur une zone praticable"
+"Invoque une tour d'archers défensive \nProcure du charisme et soigne les unités alliés prochent \nPeut être amélioré avec maçonnerie\n\nRequiert:l'amélioration dans la forteresse \n\nClic gauche sur l'icône puis clic gauche sur une zone praticable"
 END
 
 CONTROLBAR:ArrowVolley
@@ -28902,7 +28902,7 @@ OBJECT:DwarvenLoneTower
 END
 
 OBJECT:DwarvenLoneTowerDescription
-"Lance des haches aux ennemis proches \n Soigne les alliés prochent \n Complète les troupes toute les 10 secondes \n Donne +25% dommage et expérience gagné 25% plus rapidement, s'additionne \n Peu être amélioré avec Maçonnerie \n Requiert l'amérioration dans la forteresse"
+"Tire sur les unités ennemies proches \n Révèle les unités furtives \n Peut recevoir différentes améliorations de la forteresse."
 END
 
 OBJECT:DwarvenMagicDoor
@@ -43675,4 +43675,16 @@ END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom2
 "Invoque 3 pluies de roches en fusion autour de Sauron en cercle"
+END
+
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
+"Requiert l'amérioration dans la forteresse. \n\n Donne +25% dommage et expérience gagné 25% plus rapidement. \n S'additionne toujours"
+END
+
+CONTROLBAR:LoneTowerHealingUpgradeIcon
+"Requiert l'amérioration dans la forteresse. \n\n Soigne les alliés prochent \n Complète les troupes toute les 10 secondes"
+END
+
+CONTROLBAR:LoneTowerArmorUpgradeIcon
+"Requiert l'amérioration dans la forteresse. \n\n Réduit de manière significative le nombre de dégâts reçus."
 END
