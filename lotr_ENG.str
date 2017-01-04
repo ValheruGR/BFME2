@@ -46234,7 +46234,7 @@ CONTROLBAR:TooltipElrondWhirlwind
 End
 
 CONTROLBAR:ToolTipPersonalFlood
-"Requires Level 4 \n Summons a flood that will damage enemies and put out fires \n specially effective to cavalry \n\nLeft click icon then left click on target"
+"Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective to cavalry. \n Bonus against Black Riders \n\nLeft click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
@@ -46302,7 +46302,7 @@ CONTROLBAR:TooltipElvenGrace
 END
 
 CONTROLBAR:ToolTipPersonalFlood
-"Requires Level 4 \n Summons a flood that will damage enemies and put out fires \n Bonus against Black Riders \n Left click icon then left click on target"
+"Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective to cavalry. \n Bonus against Black Riders \n\nLeft click icon then left click on target"
 END
 
 //Haldir
