@@ -145,27 +145,6 @@ Color:Pink
 "Fairy Pink"
 END
 
-Color:Gray
-"Grey"
-END
-
-Color:Burgundy
-"Burgundy"
-END
-
-Color:NewGreen
-"Light Green"
-END
-
-Color:Bordeaux
-"Bordeaux"
-END
-
-Color:Brown
-"Brown"
-END
-
-
 // context: Team names.  They are used in a drop list where the player can select his team for a multiplayer game
 Team:0
 "-"
@@ -31529,7 +31508,7 @@ End
 OBJECT:DwarvenLoneTowerDescription
 "Fires at nearby enemies. \n Reveals stealthed enemies. \n Can receive different upgrades from the fortress."
 End
-
+// Note it simply says "fires", because this tooltip is being used by both lone towers.
 OBJECT:DwarvenMagicDoor
 "Mine Shaft"
 End
