@@ -13722,7 +13722,7 @@ CONTROLBAR:ToolTipBuildGondorFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
-"Fort contre cavaliers"
+"Fort contre cavalerie et \nBâtiments de production d'unités"
 END
 
 CONTROLBAR:ToolTipBuildGondorTrebuchet
@@ -14290,7 +14290,7 @@ CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair
 END
 
 CONTROLBAR:ToolTipBuildMordorEasterlingHorde
-"Forts contre cavalerie"
+"Forts contre cavalerie et \nBâtiments de production d'unités"
 END
 
 CONTROLBAR:ConstructMordorPorter
@@ -14486,7 +14486,7 @@ CONTROLBAR:ConstructIsengardFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildIsengardPikemen
-"Forts contre cavalerie"
+"Forts contre cavalerie et \nBâtiments de production d'unités"
 END
 
 CONTROLBAR:ToolTipBuildIsengardSiegeLadder
@@ -24430,7 +24430,7 @@ CONTROLBAR:ConstructDwarvenPhalanxHorde
 END
 
 CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde
-"Forts contre cavalerie"
+"Forts contre cavalerie et \nBâtiments de production d'unités"
 END
 
 CONTROLBAR:ConstructDwarvenAxeThrowerHorde
@@ -24986,7 +24986,7 @@ CONTROLBAR:ConstructElvenMithlondSentryHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
-"Forts contre cavalerie \n Deviennent furtifs près des arbres"
+"Forts contre cavalerie et \nBâtiments de production d'unités \n Deviennent furtifs près des arbres"
 END
 
 CONTROLBAR:BuildElvenRivendellLancers
@@ -26306,7 +26306,7 @@ CONTROLBAR:LW_ToolTipBuild_WildMarauderHorde
 END
 
 CONTROLBAR:LW_ToolTip_WildMarauderHorde
-"\nType d'unité : piquier standard \nFort contre cavalerie"
+"\nType d'unité : piquier standard \nFort contre cavalerie et \nBâtiments de production d'unités"
 END
 
 CONTROLBAR:LW_Unit_GoblinCaveTroll

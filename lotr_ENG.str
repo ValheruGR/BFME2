@@ -15283,7 +15283,7 @@ CONTROLBAR:ToolTipBuildGondorFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
-"Strong vs. Cavalry"
+"Strong vs. Cavalry and \n Unit Production Buildings"
 END
 
 CONTROLBAR:ToolTipBuildGondorTrebuchet
@@ -15771,7 +15771,7 @@ CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair
 END
 
 CONTROLBAR:ToolTipBuildMordorEasterlingHorde
-"Strong vs. Cavalry"
+"Strong vs. Cavalry and \n Unit Production Buildings"
 END
 
 CONTROLBAR:ConstructMordorPorter
@@ -15942,7 +15942,7 @@ CONTROLBAR:ConstructIsengardFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildIsengardPikemen
-"Strong vs. Cavalry"
+"Strong vs. Cavalry and \n Unit Production Buildings"
 END
 
 CONTROLBAR:ToolTipBuildIsengardSiegeLadder
@@ -26628,7 +26628,7 @@ CONTROLBAR:ConstructDwarvenPhalanxHorde
 END
 
 CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde
-"Strong vs. Cavalry"
+"Strong vs. Cavalry and \n Unit Production Buildings"
 END
 
 CONTROLBAR:ConstructDwarvenAxeThrowerHorde
@@ -27230,7 +27230,7 @@ CONTROLBAR:ConstructElvenMithlondSentryHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
-"Strong vs. Cavalry \n Can stealth near trees"
+"Strong vs. Cavalry and \n Unit Production Buildings \n Can stealth near trees"
 END
 
 CONTROLBAR:BuildElvenRivendellLancers
@@ -28660,7 +28660,7 @@ CONTROLBAR:LW_ToolTipBuild_WildMarauderHorde
 END
 
 CONTROLBAR:LW_ToolTip_WildMarauderHorde
-"\nUnit Type: Basic Pikemen\nStrong vs. Cavalry"
+"\nUnit Type: Basic Pikemen\nStrong vs. Cavalry and \n Unit Production Buildings"
 END
 
 CONTROLBAR:LW_Unit_GoblinCaveTroll
@@ -46954,7 +46954,7 @@ CONTROLBAR:Fire_pit
 END
 
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants +5% armor bonus \n Always stacks \n Detect stealth"
+"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants a stacking bonus of +5% armor \n Detect stealth"
 END
 
 CONTROLBAR:FireWorks

@@ -13719,7 +13719,7 @@ CONTROLBAR:ToolTipBuildGondorFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
-"Sterk tegen cavalerie"
+"Sterk tegen cavalerie en\ngebouwen die eenheden produceren"
 END
 
 CONTROLBAR:ToolTipBuildGondorTrebuchet
@@ -14287,7 +14287,7 @@ CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair
 END
 
 CONTROLBAR:ToolTipBuildMordorEasterlingHorde
-"Sterk tegen cavalerie"
+"Sterk tegen cavalerie en\ngebouwen die eenheden produceren"
 END
 
 CONTROLBAR:ConstructMordorPorter
@@ -14483,7 +14483,7 @@ CONTROLBAR:ConstructIsengardFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildIsengardPikemen
-"Sterk tegen cavalerie"
+"Sterk tegen cavalerie en\ngebouwen die eenheden produceren"
 END
 
 CONTROLBAR:ToolTipBuildIsengardSiegeLadder
@@ -24427,7 +24427,7 @@ CONTROLBAR:ConstructDwarvenPhalanxHorde
 END
 
 CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde
-"Sterk tegen cavalerie"
+"Sterk tegen cavalerie en\ngebouwen die eenheden produceren"
 END
 
 CONTROLBAR:ConstructDwarvenAxeThrowerHorde
@@ -43455,7 +43455,7 @@ CONTROLBAR:TooltipGoblinKingSkullTotem
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
-"Nodig: kloof niveau 2\nSterk tegen cavalerie"
+"Nodig: kloof niveau 2\nSterk tegen cavalerie en\ngebouwen die eenheden produceren"
 END
 
 CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade

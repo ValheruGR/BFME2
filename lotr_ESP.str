@@ -13722,7 +13722,7 @@ CONTROLBAR:ToolTipBuildGondorFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
-"Fuerte contra caballería."
+"Fuerte contra caballería y \n edificios de construcción de unidades."
 END
 
 CONTROLBAR:ToolTipBuildGondorTrebuchet
@@ -14290,7 +14290,7 @@ CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair
 END
 
 CONTROLBAR:ToolTipBuildMordorEasterlingHorde
-"Fuerte contra caballería."
+"Fuerte contra caballería y \n edificios de construcción de unidades."
 END
 
 CONTROLBAR:ConstructMordorPorter
@@ -14486,7 +14486,7 @@ CONTROLBAR:ConstructIsengardFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildIsengardPikemen
-"Fuerte contra caballería."
+"Fuerte contra caballería y \n edificios de construcción de unidades."
 END
 
 CONTROLBAR:ToolTipBuildIsengardSiegeLadder
@@ -24430,7 +24430,7 @@ CONTROLBAR:ConstructDwarvenPhalanxHorde
 END
 
 CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde
-"Fuerte contra caballería."
+"Fuerte contra caballería y \n edificios de construcción de unidades."
 END
 
 CONTROLBAR:ConstructDwarvenAxeThrowerHorde
@@ -24986,7 +24986,7 @@ CONTROLBAR:ConstructElvenMithlondSentryHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
-"Fuerte contra caballería. \n Se puede esconder cerca de los árboles."
+"Fuerte contra caballería y \n edificios de construcción de unidades. \n Se puede esconder cerca de los árboles."
 END
 
 CONTROLBAR:BuildElvenRivendellLancers
@@ -43458,7 +43458,7 @@ CONTROLBAR:TooltipGoblinKingSkullTotem
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
-"Requisito: Fisura de nivel 2. \n Fuerte contra caballería."
+"Requisito: Fisura de nivel 2. \n Fuerte contra caballería y \n edificios de construcción de unidades."
 END
 
 CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade
@@ -43624,7 +43624,7 @@ CONTROLBAR:Fire_pit
 END
 
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants +5% armor bonus \n Always stacks \n Detect stealth"
+"Campamento donde los aliados cercanos pueden ser curados \n Repone una unidad por batallón cada 5 segundos. \n Provee un bonus acumulativo de +5% armadura. \n Detect stealth"
 END
 
 CONTROLBAR:FireWorks
@@ -43632,7 +43632,7 @@ CONTROLBAR:FireWorks
 END
 
 CONTROLBAR:ToolTipFireWorks
-"Merry can drop Fireworks \n on the ground and ignite it \n \n Left click to activate  "
+"Merry despliega sus fuegos artificiales en el suelo para luego ser encendidos.\n \n Haz clic con el botón izquierdo sobre el icono para activar."
 End
 
 CONTROLBAR:FireWorks2
@@ -43640,7 +43640,7 @@ CONTROLBAR:FireWorks2
 END
 
 CONTROLBAR:ToolTipFireWorks2
-"Fireworks damages units within large radius \n \n Left click to activate "
+"Enciende los fuegos artificiales con el fin de dañar a las unidades enemigas cercanas \n \n Haz clic con el botón izquierdo sobre el icono para activar."
 End
 
 CONTROLBAR:FireWorksObj
