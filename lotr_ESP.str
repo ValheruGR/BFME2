@@ -42982,7 +42982,7 @@ CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requisito: Nivel 10. \n Los aliados cercanos se curan y ganan \n +50% al daño, +50% a la armadura. \n Clase de liderazgo simple \n No se acumula con otros liderazgo de armadura\n \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 10. \n Los aliados cercanos se curan y ganan \n +50% al daño, +50% a la armadura. \n Clase de liderazgo simple \n No se acumula con otros liderazgo de armadura \n Las unidades enemigas sensibles a la luz serán aturdidas. \n \n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity

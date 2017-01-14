@@ -15572,10 +15572,10 @@ END
 
 
 CONTROLBAR:ConstructGoblinFighterHorde
-"Goblin &Warriors"
+"Goblin &Warriors" ///FAGGOT
 END
 CONTROLBAR:ConstructGoblinArcherHorde
-"Goblin &Archers"
+"Goblin &Archers" ///FAGGOT
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde
 "Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
@@ -15587,7 +15587,7 @@ CONTROLBAR:ToolTipGoblinCave
 "Trains Goblin Warriors and Archers"
 END
 CONTROLBAR:ConstructGoblinCaveTroll
-"&Cave Troll"
+"&Cave Troll" ///FAGGOT
 END
 CONTROLBAR:ConstructGoblinFissure
 "Build Fissure"
@@ -15634,13 +15634,13 @@ END
 
 
 CONTROLBAR:ToggleSpiderRiderWeapons
-"Al&ternate Weapon"
+"Al&ternate Weapon"///FAGGOT
 END
 CONTROLBAR:ToolTipToggleSpiderRiderWeapons
 "Left click to switch weapons"
 END
 CONTROLBAR:ConstructWildCaveLevel2Upgrade
-"&Upgrade Goblin Cave to Level 2"
+"&Upgrade Goblin Cave to Level 2"///FAGGOT
 END
 
 CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade
@@ -15648,7 +15648,7 @@ CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade
 END
 
 CONTROLBAR:ConstructWildCaveLevel3Upgrade
-"&Upgrade Goblin Cave to Level 3"
+"&Upgrade Goblin Cave to Level 3"///FAGGOT
 END
 
 CONTROLBAR:ToolTipBuildWildCaveLevel3Upgrade
@@ -15656,11 +15656,11 @@ CONTROLBAR:ToolTipBuildWildCaveLevel3Upgrade
 END
 
 CONTROLBAR:UpgradeWildFissureLevel2
-"&Upgrade Fissure to Level 2"
+"&Upgrade Fissure to Level 2"///FAGGOT
 END
 
 CONTROLBAR:UpgradeWildFissureLevel3
-"&Upgrade Fissure to Level 3"
+"&Upgrade Fissure to Level 3"///FAGGOT
 END
 
 CONTROLBAR:ToolTipBuildWildFissureLevel3Upgrade
@@ -15668,7 +15668,7 @@ CONTROLBAR:ToolTipBuildWildFissureLevel3Upgrade
 END
 
 CONTROLBAR:ConstructWildSpiderPitLevel2Upgrade
-"&Upgrade Spider Pit to Level 2"
+"&Upgrade Spider Pit to Level 2"///FAGGOT
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderPitLevel2Upgrade
@@ -15676,7 +15676,7 @@ CONTROLBAR:ToolTipBuildWildSpiderPitLevel2Upgrade
 END
 
 CONTROLBAR:ConstructWildSpiderPitLevel3Upgrade
-"&Upgrade Spider Pit to Level 3"
+"&Upgrade Spider Pit to Level 3"///FAGGOT
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderPitLevel3Upgrade
@@ -15684,7 +15684,7 @@ CONTROLBAR:ToolTipBuildWildSpiderPitLevel3Upgrade
 END
 // "\n Allows research of Venom Sacs"
 CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
-"&Upgrade Treasure Trove to Level 2"
+"&Upgrade Treasure Trove to Level 2"///FAGGOT
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade
@@ -15692,7 +15692,7 @@ CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade
 END
 
 CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
-"&Upgrade Treasure Trove to Level 3"
+"&Upgrade Treasure Trove to Level 3"///FAGGOT
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
@@ -15700,7 +15700,7 @@ CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
 END
 
 CONTROLBAR:ConstructWildSpiderlingHorde
-"Spider&lings"
+"Spider&lings"///FAGGOT
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderlingHorde
@@ -15708,11 +15708,11 @@ CONTROLBAR:ToolTipBuildWildSpiderlingHorde
 END
 
 CONTROLBAR:ConstructWildSpiderRiderHorde
-"Goblin Spide&r Riders"
+"Goblin Spide&r Riders"///FAGGOT
 END
 
 CONTROLBAR:ConstructWildMountainGiant
-"Mountain &Giant"
+"Mountain &Giant"///FAGGOT
 END
 
 CONTROLBAR:ToolTipBuildWildMountainGiant
@@ -15720,7 +15720,7 @@ CONTROLBAR:ToolTipBuildWildMountainGiant
 END
 
 CONTROLBAR:ConstructWildMarauderHorde
-"Half-Troll &Marauders"
+"Half-Troll &Marauders"///FAGGOT
 END
 
 // MORDOR UNITS
@@ -15730,10 +15730,10 @@ OBJECT:MordorEasterling
 END
 
 CONTROLBAR:ConstructMordorOrcFighterHorde
-"Orc &Warriors"
+"Orc &Warriors"///FAGGOT
 END
 CONTROLBAR:ConstructMordorOrcArcherHorde
-"Orc &Archers"
+"Orc &Archers"///FAGGOT
 END
 CONTROLBAR:ConstructMordorHaradrimHorde
 "Haradrim Archers"
@@ -15742,22 +15742,22 @@ CONTROLBAR:ConstructMordorCorsairHorde
 "Corsairs of Umbar"
 END
 CONTROLBAR:ConstructMordorEasterlingHorde
-"Eas&terlings"
+"Eas&terlings"///FAGGOT
 END
 CONTROLBAR:ConstructMordorCaveTroll
 "Cave Troll"
 END
 CONTROLBAR:ConstructMordorMountainTroll
-"&Mountain Troll"
+"&Mountain Troll"///FAGGOT
 END
 CONTROLBAR:ConstructMordorMumakil
-"&Mumakil"
+"&Mumakil"///FAGGOT
 END
 CONTROLBAR:ConstructMordorSiegeTower
-"Siege &Tower"
+"Siege &Tower"///FAGGOT
 END
 CONTROLBAR:ConstructMordorCatapult
-"&Catapult"
+"&Catapult"///FAGGOT
 END
 CONTROLBAR:ConstructMordorGrond
 "Grond"
@@ -15775,7 +15775,7 @@ CONTROLBAR:ToolTipBuildMordorEasterlingHorde
 END
 
 CONTROLBAR:ConstructMordorPorter
-"Bui&lder"
+"Bui&lder"///FAGGOT
 END
 
 CONTROLBAR:ToolTipBuildMordorPorter
@@ -15828,7 +15828,7 @@ CONTROLBAR:MordorWitchKingOnFellBeastRevive
 "Revive the fallen hero, The Witch-king"
 END
 CONTROLBAR:MordorWitchKingOnFellBeastHotkey
-"The &Witch-king"
+"The &Witch-king"///FAGGOT
 END
 CONTROLBAR:MordorGothmogRecruit
 "Recruit Gothmog"
@@ -15849,7 +15849,7 @@ CONTROLBAR:MordorFellBeastRevive
 "Revive the fallen Fellbeast"
 END
 CONTROLBAR:MordorFellBeastHotkey
-"&Fellbeast"
+"&Fellbeast"///FAGGOT
 END
 CONTROLBAR:MordorMouthofSauronHotkey
 "&Mouth of Sauron"
@@ -16240,14 +16240,14 @@ CONTROLBAR:ToolTipSpecialAbilityGrondPower
 END
 
 CONTROLBAR:ConstructMordorDrummerTrolls
-"&Drummer Troll"
+"&Drummer Troll"///FAGGOT
 END
 CONTROLBAR:TooltipConstructMordorDrummerTrolls
 "Requires Level 2 Troll Cage \n Provides Leadership to nearby allies"
 END
 
 CONTROLBAR:ConstructMordorBatteringRam
-"Batte&ring Ram"
+"Batte&ring Ram"///FAGGOT
 END
 
 CONTROLBAR:ToolTipBuildMordorBatteringRam
@@ -16255,7 +16255,7 @@ CONTROLBAR:ToolTipBuildMordorBatteringRam
 END
 
 CONTROLBAR:ToggleCatapultWeapons
-"Swi&tch Ammunition"
+"Swi&tch Ammunition"///FAGGOT
 END
 
 CONTROLBAR:TooltipToggleCatapultWeapons
@@ -16299,7 +16299,7 @@ CONTROLBAR:ToolTipNarsilAttack
 END
 
 CONTROLBAR:WargRiderHowl
-"Ho&wl"
+"Ho&wl"///FAGGOT
 END
 
 CONTROLBAR:ToggleGateOpenClose
@@ -16527,7 +16527,7 @@ CONTROLBAR:ToolTipToggleLineFormation
 END
 
 CONTROLBAR:TogglePorcupineFormation
-"Porcupine For&mation"
+"Porcupine For&mation"///FAGGOT
 END
 
 CONTROLBAR:ToolTipTogglePorcupineFormation
@@ -16535,7 +16535,7 @@ CONTROLBAR:ToolTipTogglePorcupineFormation
 END
 
 CONTROLBAR:ToggleBlockFormation
-"Shield Wall For&mation"
+"Shield Wall For&mation"///FAGGOT
 END
 
 CONTROLBAR:ToolTipToggleBlockFormation
@@ -16543,7 +16543,7 @@ CONTROLBAR:ToolTipToggleBlockFormation
 END
 
 CONTROLBAR:ToggleRohirrimWeapons
-"Al&ternate Weapon"
+"Al&ternate Weapon"///FAGGOT
 END
 
 CONTROLBAR:ToggleGondorRangerWeapons
@@ -16591,7 +16591,7 @@ CONTROLBAR:Shadowfax
 END
 
 CONTROLBAR:Mount
-"&Mount / Dismount"
+"&Mount / Dismount"///FAGGOT
 END
 
 CONTROLBAR:ToolTipMount
@@ -16599,7 +16599,7 @@ CONTROLBAR:ToolTipMount
 END
 
 CONTROLBAR:UseSword
-"Use Swo&rd"
+"Use Swo&rd"///FAGGOT
 END
 
 CONTROLBAR:ToolTipUseSword
@@ -30189,7 +30189,7 @@ END
 
 
 CONTROLBAR:ConstructMordorCorsairsOfUmbarHorde
-"&Corsairs of Umbar"
+"&Corsairs of Umbar"///FAGGOT
 END
 
 CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan
@@ -30280,7 +30280,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Bonus cannot be removed and always stack\n Dain becomes able to reveal stealth.\n Passive ability"
+"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Bonus cannot be removed & always stack\n Dain becomes able to reveal stealth.\n Passive ability"
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
@@ -30317,7 +30317,7 @@ CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel
 END
 
 CONTROLBAR:SpecialAbilityFireDrakeInferno
-"Infe&rno"
+"Infe&rno"///FAGGOT
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno
@@ -30418,7 +30418,7 @@ CONTROLBAR:ActivateFireShip
 End
 
 CONTROLBAR:BarbedArrows
-"Barbed Arrow Sho&t"
+"Barbed Arrow Sho&t"///FAGGOT
 End
 
 CONTROLBAR:BattleWagonUpgradeAxeThrowers
@@ -30438,11 +30438,11 @@ CONTROLBAR:BattleWagonUpgradeMenOfDale
 End
 
 CONTROLBAR:BlackArrows
-"Blac&k Arrows"
+"Blac&k Arrows"///FAGGOT
 End
 
 CONTROLBAR:BlackRiderMount
-"&Mount \n Dismount"
+"&Mount \n Dismount"///FAGGOT
 End
 
 
@@ -30555,7 +30555,7 @@ CONTROLBAR:ConstructMordorBattleTower
 End
 
 CONTROLBAR:ConstructMordorHaradrimArcherHorde
-"H&aradrim Archers"
+"H&aradrim Archers"///FAGGOT
 End
 
 CONTROLBAR:ConstructRohanArcherHorde
@@ -30575,7 +30575,7 @@ CONTROLBAR:DainLeadership
 End
 
 CONTROLBAR:DominateTroll
-"Dom&inate Troll"
+"Dom&inate Troll"///FAGGOT
 End
 
 CONTROLBAR:ElrondLeadership
@@ -30677,7 +30677,7 @@ CONTROLBAR:PlanningModeDescription
 End
 
 CONTROLBAR:PoisonArrows
-"&Poison Arrows"
+"&Poison Arrows"///FAGGOT
 End
 
 CONTROLBAR:PurchaseIsengardWargSentry
@@ -30707,7 +30707,7 @@ CONTROLBAR:SharkuWargMount
 End
 
 CONTROLBAR:ShelobWebbing
-"Web Of &Ungoliant"
+"Web Of &Ungoliant"///FAGGOT
 End
 
 
@@ -30731,7 +30731,7 @@ CONTROLBAR:SpecialAbilityDwarvenDemolisherDeploy
 End
 
 CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades
-"&Poisoned Blades"
+"&Poisoned Blades"///FAGGOT
 End
 
 
@@ -31102,75 +31102,75 @@ CONTROLBAR:UnpackFurnace
 End
 
 CONTROLBAR:UpgradeIsengardSiegeWorksLevel2
-"&Upgrade the Siege Works to Level 2"
+"&Upgrade the Siege Works to Level 2"///FAGGOT
 End
 
 CONTROLBAR:UpgradeIsengardSiegeWorksLevel3
-"&Upgrade the Siege Works to Level 3"
+"&Upgrade the Siege Works to Level 3"///FAGGOT
 End
 
 CONTROLBAR:UpgradeIsengardUrukPitLevel2
-"&Upgrade Uruk Pit to Level 2"
+"&Upgrade Uruk Pit to Level 2"///FAGGOT
 End
 
 CONTROLBAR:UpgradeIsengardUrukPitLevel3
-"&Upgrade Uruk Pit to Level 3"
+"&Upgrade Uruk Pit to Level 3"///FAGGOT
 End
 
 CONTROLBAR:UpgradeIsengardWargPitLevel2
-"&Upgrade Warg Pit to Level 2"
+"&Upgrade Warg Pit to Level 2"///FAGGOT
 End
 
 CONTROLBAR:UpgradeIsengardWargPitLevel3
-"&Upgrade Warg Pit to Level 3"
+"&Upgrade Warg Pit to Level 3"///FAGGOT
 End
 
 CONTROLBAR:UpgradeMordorHaradrimPalaceLevel2
-"&Upgrade Haradrim Palace to Level 2"
+"&Upgrade Haradrim Palace to Level 2"///FAGGOT
 End
 
 CONTROLBAR:UpgradeMordorHaradrimPalaceLevel3
-"&Upgrade Haradrim Palace to Level 3"
+"&Upgrade Haradrim Palace to Level 3"///FAGGOT
 End
 
 CONTROLBAR:UpgradeMordorMumakilPenLevel2
-"&Upgrade Mumakil Pen to Level 2"
+"&Upgrade Mumakil Pen to Level 2"///FAGGOT
 End
 
 CONTROLBAR:UpgradeMordorMumakilPenLevel3
-"&Upgrade Mumakil Pen to Level 3"
+"&Upgrade Mumakil Pen to Level 3"///FAGGOT
 End
 
 CONTROLBAR:UpgradeMordorOrcPitLevel2
-"&Upgrade Orc Pit to Level 2"
+"&Upgrade Orc Pit to Level 2"///FAGGOT
 End
 
 CONTROLBAR:UpgradeMordorOrcPitLevel3
-"&Upgrade Orc Pit to Level 3"
+"&Upgrade Orc Pit to Level 3"///FAGGOT
 End
 
 CONTROLBAR:UpgradeMordorSiegeWorksLevel2
-"&Upgrade Siege Works to Level 2"
+"&Upgrade Siege Works to Level 2"///FAGGOT
 End
 
 CONTROLBAR:UpgradeMordorSiegeWorksLevel3
-"&Upgrade Siege Works to Level 3"
+"&Upgrade Siege Works to Level 3"///FAGGOT
 End
 
 CONTROLBAR:UpgradeMordorTavernLevel2
-"&Upgrade Tavern to Level 2"
+"&Upgrade Tavern to Level 2"///FAGGOT
 End
 
 CONTROLBAR:UpgradeMordorTavernLevel3
-"&Upgrade Tavern to Level 3"
+"&Upgrade Tavern to Level 3"///FAGGOT
 End
 
 CONTROLBAR:UpgradeMordorTrollCageLevel2
-"&Upgrade Troll Cage to Level 2"
+"&Upgrade Troll Cage to Level 2"///FAGGOT
 End
 
 CONTROLBAR:UpgradeMordorTrollCageLevel3
-"&Upgrade Troll Cage to Level 3"
+"&Upgrade Troll Cage to Level 3"///FAGGOT
 End
 
 CONTROLBAR:WildDrogothRevive
@@ -31186,15 +31186,15 @@ CONTROLBAR:WildMountainGiantGrab
 End
 
 CONTROLBAR:WildMountainGiantStomp
-"S&tomp"
+"S&tomp"///FAGGOT
 End
 
 CONTROLBAR:WitchKingDismount
-"Dis&mount Fellbeast"
+"Dis&mount Fellbeast"///FAGGOT
 End
 
 CONTROLBAR:WitchKingMount
-"Mount Fellbeast"
+"Mount Fellbeast"///FAGGOT
 End
 
 CONTROLBar:ToolTipDominateTroll
@@ -46052,7 +46052,7 @@ END
 // Theoden
 
 CONTROLBAR:TheodenMount
-"Mount / Dismount [&R]"
+"Mount / Dismount [&R]"///FAGGOT this is used by WK
 END
 
 CONTROLBAR:KingsFavor 
@@ -46068,7 +46068,7 @@ CONTROLBAR:ToolTipTheodenLeadership
 END
 
 CONTROLBAR:ToolTipGloriousCharge
-"Requires Level 7 \n Theoden and nearby cavalry gain +80% armor, +25 damage and become inmune to desacelerate by trampling. \n Theoden must be mounted to use ability \n Bonus cannot be removed and always stacks \n Left click to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain +80% armor, +25 damage and become inmune to desacelerate by trampling. \n Theoden must be mounted to use ability \n Bonus cannot be removed & always stacks \n Left click to activate"
 END
 
 //Eowyin
@@ -46216,8 +46216,12 @@ CONTROLBAR:ToolTipPersonalFlood
 "Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective to cavalry. \n Bonus against Black Riders \n\nLeft click icon then left click on target"
 END
 
+CONTROLBAR:ToolTipHaldirGoldenArrow
+"Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros. \n Left click icon then left click on target" 
+END
+
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, +50% Armor \n \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n \n Left click to activate" 
+"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, +50% Armor \n \n Simple leadership kind \n Does not stack with other Armor leaderships \n \n Left click to activate" 
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
@@ -46291,7 +46295,7 @@ CONTROLBAR:HaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
+"Requires Level 10 \n A high damage attack that also stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
@@ -46470,7 +46474,7 @@ CONTROLBAR:ToolTipDainLeadership
 END
 
 CONTROLBAR:ToolTipMightyRage
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed and +25% Damage\n Bonus cannot be removed and always stacks \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed and +25% Damage\n Bonus cannot be removed & always stacks \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
 END
 
 // Gimli
@@ -46704,11 +46708,11 @@ End
 // Black Rider
 
 CONTROLBAR:BlackRiderMorgulBlade
-"Morgul Blade [&C]"
+"Morgul Blade [&C]"///FAGGOT
 END
 
 CONTROLBAR:ScreechBlackRider
-"Screech [&V]"
+"Screech [&V]"///FAGGOT
 END
 
 CONTROLBAR:ToolTipBuildMordorMumakil
@@ -46718,32 +46722,32 @@ END
 // Mouth of Sauron
 
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye
-"Evil Eye [&T]"
+"Evil Eye [&T]"///FAGGOT
 END
 
 CONTROLBAR:MouthOfSauronDoubt
-"Doubt [&C]"
+"Doubt [&C]"///FAGGOT
 END
 
 CONTROLBAR:MouthOfSauronDissent
-"Dissent [&V]"
+"Dissent [&V]"///FAGGOT
 END
 
 // Fellbeast
 
 CONTROLBAR:Screech
-"Screech [&R]"
+"Screech [&R]"///FAGGOT
 END
 
 
 // Witchking
 
 CONTROLBAR:ScreechWitchKing 
-"Screech [&C]"
+"Screech [&C]"///FAGGOT
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Hour of the Witch-king [&V]"
+"Hour of the Witch-king [&V]"///FAGGOT
 END
 
 //========================= GOBLINS
@@ -46783,19 +46787,19 @@ END
 
 
 CONTROLBAR:GoblinKingSkullTotem
-"Skull Totem [&R]"
+"Skull Totem [&R]"///FAGGOT
 END
 
 CONTROLBAR:GoblinKingMount
-"Mount / Dismount [&T]"
+"Mount / Dismount [&T]"///FAGGOT
 End
 
 CONTROLBAR:GoblinKingPoisonedStinger
-"Poisoned Stinger [&V]"
+"Poisoned Stinger [&V]"///FAGGOT
 END
 
 CONTROLBAR:GoblinKingSpawnFireDrakes
-"Call From the Deep [&B]"
+"Call From the Deep [&B]"///FAGGOT
 END
 
 CONTROLBAR:ToolTipGoblinKingMount
@@ -46805,34 +46809,34 @@ END
 // Shelob
 
 CONTROLBAR:WildShelobInstillTerror
-"Instill Terror [&R]"
+"Instill Terror [&R]"///FAGGOT
 END
 
 CONTROLBAR:WildShelobPoisonedStinger
-"Poisoned Stinger [&T]"
+"Poisoned Stinger [&T]"///FAGGOT
 End
 
 CONTROLBAR:SpecialAbilityWildShelobTunnel
-"Tunnel [&C]"
+"Tunnel [&C]"///FAGGOT
 END
 
 
 // Drogoth
 
 CONTROLBAR:SpecialAbilityDrogothFireball
-"Fireball [&R]"
+"Fireball [&R]"///FAGGOT
 END
 
 CONTROLBAR:SpecialAbilityWingBlast
-"Wing Blast [&T]"
+"Wing Blast [&T]"///FAGGOT
 END
 
 CONTROLBAR:SpecialAbilityDrogothFireflight
-"Fire Flight [&C]"
+"Fire Flight [&C]"///FAGGOT
 END
 
 CONTROLBAR:SpecialAbilityIncinerate
-"Incinerate [&V]"
+"Incinerate [&V]"///FAGGOT
 END
 
 //======== Release Candidate 2 fixes
@@ -46904,7 +46908,7 @@ CONTROLBAR:ElvenCloak
 END
 
 CONTROLBAR:ChargeAttack
-"Charge A&ttack"
+"Charge A&ttack"///FAGGOT 
 END
 
 CONTROLBAR:ConstructRohanPeasant
