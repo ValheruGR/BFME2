@@ -46216,12 +46216,8 @@ CONTROLBAR:ToolTipPersonalFlood
 "Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective to cavalry. \n Bonus against Black Riders \n\nLeft click icon then left click on target"
 END
 
-CONTROLBAR:ToolTipHaldirGoldenArrow
-"Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros. \n Left click icon then left click on target" 
-END
-
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, +50% Armor \n \n Simple leadership kind \n Does not stack with other Armor leaderships \n \n Left click to activate" 
+"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, +50% Armor \n \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n \n Left click to activate" 
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
@@ -46295,7 +46291,7 @@ CONTROLBAR:HaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Requires Level 10 \n A high damage attack that also stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
+"Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
