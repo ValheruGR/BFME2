@@ -43082,7 +43082,7 @@ CONTROLBAR:ThornofVengeance
 END
 
 CONTROLBAR:ElrondFarsight
-"Visione estesa (&R)"
+"Visione estesa (&T)"
 END
 
 CONTROLBAR:TooltipElrondLeadership
@@ -43566,7 +43566,7 @@ CONTROLBAR:ElvenCloak
 END
 
 CONTROLBAR:ChargeAttack
-"Carica (&R)"
+"Ca&rica"
 END
 
 CONTROLBAR:ConstructRohanPeasant
@@ -43586,7 +43586,7 @@ CONTROLBAR:PersonalFlood
 END
 
 CONTROLBAR:ElvenGrace
-"Athelas (&C)"
+"Athelas (&R)"
 END
 
 
