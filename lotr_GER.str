@@ -13295,7 +13295,7 @@ CONTROLBAR:WarChant
 END
 
 CONTROLBAR:TooltipEnshroudingMist
-"Verbündete Einheiten im Nebel sind getarnt \n Gegner verursachen deutlich weniger Schaden und haben deutlich weniger Rüstung \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Verbündete Einheiten im Nebel sind getarnt \n Gegnerische Horden, Helden und Monster verursachen deutlich weniger Schaden und haben deutlich weniger Rüstung \n Gegner verlieren ihre einfachen Führerschaften \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 
 CONTROLBAR:Industry
@@ -13335,7 +13335,7 @@ CONTROLBAR:FueltheFires
 END
 
 CONTROLBAR:ToolTipFueltheFires
-"+100% Rohstoffe von Bäumen\n Passive Fähigkeit"
+"+65% Rohstoffe von Bäumen\n Sägewerke erhalten +20% Rüstung \n Wirkt auch bei Verbündeten \n Passive Fähigkeit \n Festung muss existieren"
 END
 
 CONTROLBAR:PlusCommandPoints
@@ -13363,7 +13363,7 @@ CONTROLBAR:FreezingRain
 END
 
 CONTROLBAR:ToolTipFreezingRain
-"Lässt es vorübergehend regnen \n Alle feindlichen Einheiten verlieren ihre Führerschaft-Boni \n Aktivieren mit Linksklick"
+"Lässt es vorübergehend regnen \n Alle feindlichen Einheiten verlieren ihre einfachen und höherwertigeren Führerschaften \n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:Plus1Nazgul
@@ -13495,7 +13495,7 @@ CONTROLBAR:CloudBreak
 END
 
 CONTROLBAR:ToolTipCloudBreak
-"Hebt Eisregen und Dunkelheit auf\nBetäubt feindliche Einheiten\nMit Linksklick aktivieren"
+"Hebt Eisregen und Dunkelheit auf \n Betäubt feindliche Einheiten für 10 Sekunden \n Heilt und belebt verbündete Einheiten während 15 Sekunden wieder \n Mit Linksklick aktivieren"
 END
 
 CONTROLBAR:ElvenWood
@@ -13503,7 +13503,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Bringt die Umgebung zum Blühen\nAlle verbündeten Einheiten erhalten +50% Rüstung. Alle feindlichen Einheiten verlieren alle Führerschaft-Boni. Helden sind immun. Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Bringt die Umgebung zum Blühen \n Verbündeten Einheiten erhalten +50% Rüstung \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -13563,7 +13563,7 @@ CONTROLBAR:ToolTipSummonSpiderlings
 END
 
 CONTROLBAR:SummonTomBombadil
-"Tom Bombadil rufen"
+"Ruft Tom Bombadil, einen mächtig fetten, alten Gesellen mit Hut und Vorliebe zu singen. \n Es wird erzählt, dass er die menschliche Personifikation von Eru sei, welcher die Ëa erschuf. \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
 END
 
 CONTROLBAR:TooltipSummonTomBombadil
@@ -13587,7 +13587,7 @@ CONTROLBAR:LoneTower
 END
 
 CONTROLBAR:TooltipLoneTower
-"Errichtet einen Defensivturm \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
+"Errichtet einen Defensivturm \n Verbündete Einheiten erhalten Führerschaft, Heilung und werden wiederbelebt \n Kann mit Mauerwerk verbessert werden \n\n Benötigt entsprechendes Festungsupgrade \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
 END
 
 CONTROLBAR:ArrowVolley
@@ -13611,7 +13611,7 @@ CONTROLBAR:Undermine
 END
 
 CONTROLBAR:TooltipUndermine
-"Platziert irgendwo auf der Karte einen Minenschacht \n Dieser wird sofort an das Gangsystem angeschlossen \n Linksklicke auf das Symbol und anschließend auf ein sichtbares Gebiet"
+"Platziert irgendwo auf der Karte einen Minenschacht \n Dieser wird sofort an das Gangsystem angeschlossen \n Verursacht hohen Schaden im Platzierungsbereich und geringen Schaden im Umkreis \n Linksklicke auf das Symbol und anschließend auf ein sichtbares Gebiet"
 END
 
 OBJECT:UndermineMineShaft
@@ -13747,7 +13747,7 @@ CONTROLBAR:ConstructGondorPeasant
 END
 
 CONTROLBAR:ToolTipBuildNumenorStoneworkUpgrade
-"Verstärkt Mauern und Türme"
+"Verstärkt Mauern und Türme \N Wird für das große Katapult benötigt \n\n Verstärkt platzierte einsame Türme"
 END
 
 CONTROLBAR:ToolTipBuildReinforcedGateUpgrade
@@ -13759,7 +13759,7 @@ CONTROLBAR:ToolTipBuildIronOreUpgrade
 END
 
 CONTROLBAR:ToolTipBuildGrandHarvestUpgrade
-"+10% Rohstoffe aus Gehöften\nFür dieses Upgrade braucht der Spieler \n einen Marktplatz"
+"+15% Rohstoffe aus Gehöften\nFür dieses Upgrade braucht der Spieler \n einen Marktplatz"
 END
 
 CONTROLBAR:ToolTipBuildSiegeMaterialsUpgrade
@@ -14067,7 +14067,7 @@ CONTROLBAR:ConstructGoblinArcherHorde
 END
 
 CONTROLBAR:ToolTipBuildGoblinFighterHorde
-"Stärken: Lanzenträger"
+"Stärken: Lanzenträger \n Hordenbonus: \n Versammelte Goblins von mindestens 100 Einheiten \n erhalten +33% Schaden und +25% Geschwindigkeit"
 END
 
 CONTROLBAR:ConstructGoblinCave
@@ -14187,15 +14187,15 @@ CONTROLBAR:ConstructWildSpiderPitLevel3Upgrade
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderPitLevel3Upgrade
-"Stufe 3: +25% Bautempo \n Ermöglicht die Erforschung von Giftbeuteln"
+"Stufe 3: +25% Bautempo"
 END
-
+//" \n Ermöglicht die Erforschung von Giftbeuteln"
 CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
 "Schatzlager auf St&ufe 2 ausbauen"
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade
-"Stufe 2: Ermöglicht die Erforschung des Geschmiedete Klingen-Upgrades"
+"Stufe 2: Ermöglicht die Erforschung des Geschmiedete Klingen-Upgrades \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +20% gegen Lanzenträger \n +25% gegen Reiter"
 END
 
 CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
@@ -14203,7 +14203,7 @@ CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
-"Stufe 3: Ermöglicht die Erforschung des Feuerpfeil-Upgrades"
+"Stufe 3: Ermöglicht die Erforschung des Feuerpfeil-Upgrades \n Das Gebäde erhält mehr Rüstung: \n +10% gegen Helden \n +20% gegen Lanzenträger \n +25% gegen Reiter"
 END
 
 CONTROLBAR:ConstructWildSpiderlingHorde
@@ -14331,7 +14331,7 @@ CONTROLBAR:ToolTipBuildMordorCatapult
 END
 
 CONTROLBAR:ToolTipBuildMordorGrond
-"Voraussetzung: Belagerungswerke Stufe 1\nFür die Zerstörung von Toren"
+"Voraussetzung: Belagerungswerke Stufe 3 \n Für die Zerstörung von Toren"
 END
 
 CONTROLBAR:ToolTipBuildMordorBannerOrc
@@ -14739,7 +14739,7 @@ CONTROLBAR:ToolTipSpecialAbilityEntFindRock
 END
 
 CONTROLBAR:tooltipCommand_ToggleEntRockThrow
-"Steinwurf-Modus ein-/ausschalten"
+"Steinwurf-Modus ein-/ausschalten [&T]"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk
@@ -14863,7 +14863,7 @@ CONTROLBAR:ToolTipHawkStrike
 END
 
 CONTROLBAR:ToolTipTrainArchers
-"Voraussetzung: Stufe 4\n Erfahrung für alle anvisierten Bogenschützen \n Linksklicke auf das Symbol und anschließend auf die gewünschten Bogenschützen"
+"Voraussetzung: Stufe 3 \n Erfahrung für alle anvisierten Bogenschützen \n Linksklicke auf das Symbol und anschließend auf die gewünschten Bogenschützen"
 END
 
 CONTROLBAR:MonsterSlayer
@@ -14907,7 +14907,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Verbündete in Tom Bombadils Nähe verursachen \n +50% Schaden, erhalten +50% Rüstung und \n sammeln doppelt so schnell Erfahrung \n \n Passive Fähigkeit Wird nicht addiert"
+"Verbündete in Tom Bombadils Nähe verursachen \n +25% Schaden, erhalten +25% Rüstung und \n sammeln Erfahrung +50% schneller \n Wird immer addiert \n \n Passive Fähigkeit"
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -15139,7 +15139,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Galadriels &Phiole"
+"Galadriels Phiole (&T)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -15195,7 +15195,7 @@ CONTROLBAR:ToolTipLightningSword
 END
 
 CONTROLBAR:ToolTipWoundingArrow
-"Voraussetzung: Stufe 2 \n Fernangriff, der das Ziel in die Flucht schlägt \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Voraussetzung: Stufe 2 \n Fernangriff, der hohen Schaden verursacht und bestimmte Monster in die Flucht schlägt \n Wirft Gegner zurück \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:ToolTipCaptainofGondor
@@ -15243,7 +15243,7 @@ CONTROLBAR:ToggleLooseFormation
 END
 
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-40% Geschwindigkeit\n+25% Rüstung"
+"-30% Geschwindigkeit \n +20% Rüstung \n +25% Schutz vor Bogenschützen"
 END
 
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
@@ -15259,7 +15259,7 @@ CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLooseFormation
 END
 
 CONTROLBAR:ToolTipToggleFighterLooseToBlockFormation
-"-40% Geschwindigkeit\n+25% Rüstung"
+"-30% Geschwindigkeit \n +20% Rüstung \n +25% Schutz vor Bogenschützen"
 END
 
 CONTROLBAR:ToolTipToggleFighterBlockToLooseFormation
@@ -15287,11 +15287,11 @@ CONTROLBAR:ToolTipSpeechCraft
 END
 
 CONTROLBAR:ToolTipDisguise
-"Voraussetzung: Stufe 4\nTarne dich als normaler Rohirrim \n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 4 \n Tarne dich als normaler Rohirrim, trage seine Ausrüstung und kämpfe wie einer von ihnen \n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Voraussetzung: Stufe 5 \n Eowyn erhält +65% Rüstung \n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 5 \n Eowyn erhält 65% Rüstung \n Halbiert die Verzögerungsrate von verbündeten Rohirrim beim Zertrampeln \n Bricht die Tarnung ab \n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:ToggleTrebWeapon
@@ -15335,7 +15335,7 @@ CONTROLBAR:TooltipSplitHorde
 END
 
 CONTROLBAR:GarrisonExit
-"Evakuieren"
+"Evaku&ieren"
 END
 
 CONTROLBAR:ToolTipStructureExit
@@ -24035,7 +24035,7 @@ CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower
-"Verleiht die Fähigkeit "Auge des Palantir" \n Vergrößert das Sichtfeld der Festung"
+"Verleiht Auge des Palantir Sehkraft \n Verleiht einen Geschwindigkeitsbonus für Einheiten des Spielers auf der Karte \n Wird immer aufaddiert \n Vergrößert das Sichtfeld der Festung"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressBoilingOil
@@ -24095,7 +24095,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToTrebuchet
 END
 
 CONTROLBAR:PorterExtinguishFire
-"Flammen ersticken"
+"Flammen ersticken [&M)"
 END
 
 CONTROLBAR:ToolTipPorterExtinguishFire
@@ -24179,7 +24179,7 @@ CONTROLBAR:ConstructDwarvenStatue
 END
 
 CONTROLBAR:TooltipConstructDwarvenStatue
-"Verbündete in der Nähe der Statue \n verursachen +50% Schaden, erhalten +50% Rüstung und \n sammeln doppelt so schnell Erfahrung \n Wird nicht addiert \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n erhalten +50% Rüstung \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 
 CONTROLBAR:ConstructDwarvenArcheryRange
@@ -24243,7 +24243,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStonework
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
-"Erhöht den Rüstungswert der Festung und der Mauern \n Voraussetzung für Mächtiges Katapult"
+"Erhöht den Rüstungswert der Festung und der Mauern \n Voraussetzung für Mächtiges Katapult \n\n Verstärkt gerufene einsame Türme"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions
@@ -24259,7 +24259,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
-"Heilt Verbündete in der Nähe der Festung und in Hallen \n Erhöht die Trefferpunkte der Festung"
+"Heilt Verbündete in der Nähe \n Alle 6.5 Sekunden werden Horden mit Einheiten aufgestockt \n Verringert die Zeit um Helden wiederzubeleben um 25% \n Erhöht die Trefferpunkte der Festung \n\n Verstärkt gerufene einsame Türme"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
@@ -24559,7 +24559,7 @@ CONTROLBAR:WildGoblinKingHotkey
 END
 
 CONTROLBAR:WildGoblinKingRecruit
-"Rekrutiere den Anführer der Orks"
+"Rekrutiere Gorkil, den Anführer der Orks"
 END
 
 CONTROLBAR:WildDrogothHotkey
@@ -24579,7 +24579,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressDragonNest
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest
-"Ermöglicht die Beschwörung eines Feuerdrachen"
+"Ermöglicht die Beschwörung eines Feuerdrachen \n Heilt Drogoth \n Verringert die Zeit um Drogoth wiederzubeleben um 10%"
 END
 
 CONTROLBAR:PurchaseShipUpgradePirateFlag
@@ -24639,7 +24639,7 @@ OBJECT:WildMineShaft
 END
 
 OBJECT:WildMineShaftDescription
-"Erzeugt Rohstoffe abhängig vom verfügbaren Gelände \n Gewährt Zugang in das Gangsystem \n Erhöht Kommandeurspunkte-Limit um 50"
+"Erzeugt Rohstoffe abhängig vom verfügbaren Gelände \n Gewährt Zugang in das Gangsystem \n Erhöht Kommandeurspunkte-Limit um 50 \n Stufe 2: +25% mehr Rüstung \n Stufe 3: +25% mehr Rüstung"
 END
 
 OBJECT:WildSpiderPit
@@ -24815,7 +24815,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressMysticFountains
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains
-"Heilt Truppen in der näheren Umgebung \n Helden werden in dieser Festung 25% schneller wiederbelebt"
+"Heilt Verbündete in der näheren Umgebung \n Stockt Horden alle 6.5 Sekunden mit Einheiten auf \n Helden werden in dieser Festung 20% schneller wiederbelebt"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressEnchantedAnvil
@@ -24823,7 +24823,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressEnchantedAnvil
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEnchantedAnvil
-"Senkt die Kosten für Einheiten-Upgrades der Elben: \n 1 Festung mit Amboss = 10% billiger \n 2 Festungen mit Amboss = 20% billiger \n 3 Festungen mit Amboss = 25% billiger \n 4 Festungen mit Amboss = 30% billiger \n 5 Festungen mit Amboss = 35% billiger"
+"Senkt die Kosten für Einheiten-Upgrades der Elben: \n 1 Festung mit Amboss = 20% billiger \n 2 Festungen mit Amboss = 30% billiger \n 3 Festungen mit Amboss = 40% billiger \n 4 Festungen mit Amboss = 50% billiger \n 5 Festungen mit Amboss = 60% billiger"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressBlessedMist
@@ -24839,7 +24839,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressCrystalMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat
-"Senkt die Nahkampf-Anfälligkeit der Festung"
+"Senkt die Nahkampf-Anfälligkeit der Festung \n Verbündete Einheiten in der näheren Umgebung erhalten: \n +25% mehr Schaden und +25% schneller Erfahrung \n Wird immer addiert"
 END
 
 CONTROLBAR:ToolTipElvenEntMoot
@@ -24863,11 +24863,11 @@ CONTROLBAR:ToolTipBuildEregionForgeLevel2
 END
 
 CONTROLBAR:PurchaseUpgradeEregionForgeLevel3
-"Schmiede Eregions auf St&ufe 3 ausbauen"
+"Schmiede Eregions auf St&ufe 3 ausbauen \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +25% gegen Lanzenträger \n +33% gegen Reiter"
 END
 
 CONTROLBAR:ToolTipBuildEregionForgeLevel3
-"Ermöglicht die Erforschung von Silberdornpfeilen"
+"Ermöglicht die Erforschung von Silberdornpfeilen \n Das Gebäde erhält mehr Rüstung: \n +10% gegen Helden \n +25% gegen Lanzenträger \n +33% gegen Reiter"
 END
 
 CONTROLBAR:ToolTipGreenPasture
@@ -27219,7 +27219,7 @@ CONTROLBAR:Barricade
 END
 
 CONTROLBAR:TooltipBarricade
-"Beschwört einen mit Bogenschützen besetzten Verteidigungsturm \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
+"Beschwört einen mit Bogenschützen besetzten Verteidigungsturm \n Kann mit Feuerpfeilen der Festung verstärkt werden \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
 END
 
 CONTROLBAR:ArrowVolleyEvil
@@ -27275,7 +27275,7 @@ CONTROLBAR:Sunflare
 END
 
 CONTROLBAR:TooltipSunflare
-"Verbrennt das Schlachtfeld mit einem gleißenden Lichtstrahl \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Verbrennt das Schlachtfeld mit einem gleißenden Lichtstrahl \n Wirksam gegen schwache Helden \n Bricht Dunkelheit und Eisregen ab \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 
 CONTROLBAR:CaveBats
@@ -27283,7 +27283,7 @@ CONTROLBAR:CaveBats
 END
 
 CONTROLBAR:TooltipCaveBats
-"Lüftet den Nebel und enthüllt getarnte Einheiten \n Gegner verursachen deutlich weniger Schaden und haben deutlich weniger Rüstung \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
+"Lüftet den Nebel und enthüllt getarnte Einheiten \n Gegnerische Einheiten verlieren ihre einfachen Führerschafts-Boni \n Gegner verursachen deutlich weniger Schaden und haben deutlich weniger Rüstung \n\n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
 END
 
 CONTROLBAR:UntamedAllegiance
@@ -27347,7 +27347,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressRazorSpines
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines
-"Beschädigt feindliche Einheiten in unmittelbarer Umgebung der Festung"
+"Beschädigt feindliche Einheiten in unmittelbarer Umgebung der Festung fortlaufend \n Heilt Einheiten in näherer Umgebung "
 END
 
 CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows
@@ -27427,7 +27427,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressBurningForges
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressBurningForges
-"Senkt die Kosten für Einheiten-Upgrades Isengarts: \n 1 Festung mit Schmelzöfen = 10% billiger \n 2 Festungen mit Schmelzöfen = 20% billiger \n 3 Festungen mit Schmelzöfen = 25% billiger \n 4 Festungen mit Schmelzöfen = 30% billiger \n 5 Festungen mit Schmelzöfen = 35% billiger"
+"Senkt die Kosten für Einheiten-Upgrades Isengarts: \n 1 Festung mit Schmelzöfen = 10% billiger \n 2 Festungen mit Schmelzöfen = 20% billiger \n 3 Festungen mit Schmelzöfen = 30% billiger \n 4 Festungen mit Schmelzöfen = 40% billiger \n 5 Festungen mit Schmelzöfen = 50% billiger"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations
@@ -27435,7 +27435,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations
-"Geringere Kosten für Gebäude- und Mauer-Upgrades Isengarts: \n 1 Festung mit Ausgrabungen = 10% billiger \n 2 Festungen mit Ausgrabungen = 20% billiger \n 3 Festungen mit Ausgrabungen = 25% billiger \n 4 Festungen mit Ausgrabungen = 30% billiger \n 5 Festungen mit Ausgrabungen = 35% billiger"
+"Heilt Verbündete in näherer Umgebung \n Stockt Horden alle 10 Sekunden mit Einheiten auf \n Geringere Kosten für Gebäude- und Mauer-Upgrades Isengarts: \n 1 Festung mit Ausgrabungen = 7.5% billiger \n 2 Festungen mit Ausgrabungen = 15% billiger \n 3 Festungen mit Ausgrabungen = 20% billiger \n 4 Festungen mit Ausgrabungen = 25% billiger \n 5 Festungen mit Ausgrabungen = 33% billiger"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressMurderOfCrows
@@ -27571,7 +27571,7 @@ CONTROLBAR:PurchaseUpgradeMordorFortressDoomPyres
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres
-"Verleiht Truppen in der näheren Umgebung zusätzliche Erfahrung \n Senkt Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden \n um 10% \n Senkt Kosten für Baumeister um 20%"
+"Verleiht Truppen in der näheren Umgebung +25% Schaden und +25% Erfahrung \n Senkt Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden \n um 10% \n Senkt Kosten für Baumeister um 20%"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressMagmaCauldrons
@@ -27587,7 +27587,7 @@ CONTROLBAR:PurchaseUpgradeMordorFortressLavaMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat
-"Senkt die Nahkampf-Anfälligkeit der Festung"
+"Senkt die Nahkampf-Anfälligkeit der Festung \n Heilt Einheiten in näherer Umgebung"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressGorgorothSpire
@@ -27691,7 +27691,7 @@ CONTROLBAR:Citadel
 END
 
 CONTROLBAR:TooltipCitadel
-"Errichte irgendwo auf dem Schlachtfeld eine Zitadelle \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
+"Errichte irgendwo auf dem Schlachtfeld eine Zitadelle \n Mit dem Tunnelnetzwerk verbunden \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
 END
 
 CONTROLBAR:SonicSong
@@ -27711,7 +27711,7 @@ CONTROLBAR:ToolTipAncientMaster
 END
 
 CONTROLBAR:ToolTipMouthOfSauronDoubt
-"Voraussetzung: Stufe 4 \n Gegner verursachen deutlich weniger Schaden und haben deutlich weniger Rüstung \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Voraussetzung: Stufe 4 \n Gegner verursachen deutlich weniger Schaden und haben deutlich weniger Rüstung \n Gegnerische Einheiten verlieren ihre einfachen Führerschaftsboni \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 
 CONTROLBAR:DreadVisage
@@ -27719,7 +27719,7 @@ CONTROLBAR:DreadVisage
 END
 
 CONTROLBAR:ToolTipDreadVisage
-"Gegner verursachen deutlich weniger Schaden und haben deutlich weniger Rüstung \n Passive Fähigkeit"
+"Gegner verursachen deutlich weniger Schaden und haben deutlich weniger Rüstung\n Gegnerische Einheiten verlieren ihre einfachen Führerschaftsboni \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipBlackRiderMorgulBlade
@@ -27727,7 +27727,7 @@ CONTROLBAR:ToolTipBlackRiderMorgulBlade
 END
 
 CONTROLBAR:ToolTipBackstab
-"Voraussetzung: Stufe 6 \n Äußerst effektiver Nahkampfangriff, der das Opfer vergiftet \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Voraussetzung: Stufe 6 \n Äußerst effektiver Nahkampfangriff, der das Opfer vergiftet \n Kann gegen Lufteinheiten verwendet werden \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:ToolTipCorrodeAllegiance
@@ -27735,7 +27735,7 @@ CONTROLBAR:ToolTipCorrodeAllegiance
 END
 
 CONTROLBAR:ToolTipTameTheBeast
-"Voraussetzung: Stufe 2 \n Sharku kontrolliert die anvisierten Warge oder Wargreiter \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Voraussetzung: Stufe 9 \n Sharku kontrolliert die anvisierten Reiter \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:BloodHunt
@@ -27743,7 +27743,7 @@ CONTROLBAR:BloodHunt
 END
 
 CONTROLBAR:ToolTipGlorfindelWindRider
-"Voraussetzung: Stufe 6 \n Glorfindel ist auf seinem Pferd +60% schneller und erhält +100% Rüstung\n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 6 \n Glorfindel ist auf seinem Pferd +40% schneller und erhält +100% Rüstung\n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:WildWalk
@@ -27755,7 +27755,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Voraussetzung: Stufe 7 \n Gewährt allen Verbündeten in der Nähe Resistenz gegen Furcht \n Passive Fähigkeit"
+"Voraussetzung: Stufe 7 \n Gewährt allen Verbündeten in der Nähe Resistenz gegen Furcht und Angst \n Zusatz: Kann nicht entfernt werden und wird immer addiert \n Dain ist in der Lage Unsichtbarkeit aufzudecken \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
@@ -27775,7 +27775,7 @@ CONTROLBAR:ToolTipGloinSmash
 END
 
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger
-"Voraussetzung: Stufe 6 \n Nur für berittene Einheiten \n Der gewählte Gegner ist betäubt und wird längere Zeit vergiftet \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Voraussetzung: Stufe 6 \n Nur für berittene Einheiten \n Der gewählte Gegner wird für 25 Sekunden vergiftet \n Gewählte Helden sind für 6 Sekunden betäubt \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:TooltipGoblinKingSpawnFireDrakes
@@ -27787,7 +27787,7 @@ CONTROLBAR:TooltipWildShelobInstillTerror
 END
 
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel
-"Voraussetzung: Stufe 10 \n Ermöglicht Kankra, einen unterirdischen Gang zu graben und irgendwo auf der Karte zu erscheinen \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Voraussetzung: Stufe 7 \n Ermöglicht Kankra, einen unterirdischen Gang zu graben und irgendwo auf der Karte zu erscheinen \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:SpecialAbilityFireDrakeInferno
@@ -27831,7 +27831,7 @@ CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight
 END
 
 CONTROLBAR:ToolTipHourOfTheWitchKing
-"Voraussetzung: Stufe 10 \n Die Spezialfähigkeit-Timer des Ziels werden auf "eben verwendet" gesetzt \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Voraussetzung: Stufe 10 \n Die Spezialfähigkeit-Timer der Helden im Umfeld des Effekts werden auf "60% verwendet" gesetzt \n Linksklicke auf das Symbol und anschließend auf ein Gebiet"
 END
 
 CONTROLBAR:ToolTipThunderBolt
@@ -28139,7 +28139,7 @@ CONTROLBAR:SharkuWargMount
 END
 
 CONTROLBAR:ShelobWebbing
-"Gewebe"
+"Gewebe von &Ungoliant"
 END
 
 CONTROLBAR:SpecialAbilityBatCloud
@@ -28191,7 +28191,7 @@ CONTROLBAR:ToolTipActivateFireShip
 END
 
 CONTROLBAR:ToolTipBarbedArrows
-"Diese Pfeile werfen Gegner zurück und verursachen mehr Schaden."
+"Voraussetzung Stufe 3: \n Diese Pfeile werfen Gegner zurück und verursachen mehr Schaden. \n Linksklick auf das Symbol und anschließend auf das Zielgebiet"
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeAxeThrowers
@@ -28231,11 +28231,11 @@ CONTROLBAR:ToolTipBuildEvilTransportShip
 END
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade
-"Ermöglicht die Erforschung schwerer Rüstungen"
+"Ermöglicht die Erforschung schwerer Rüstungen \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +25% gegen Lanzenträger \n +33% gegen Reiter"
 END
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade
-"Ermöglicht die Erforschung von Eisenerz"
+"Ermöglicht die Erforschung von Eisenerz \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +25% gegen Lanzenträger \n +33% gegen Reiter"
 END
 
 CONTROLBAR:ToolTipBuildGoodBombardShip
@@ -28255,11 +28255,11 @@ CONTROLBAR:ToolTipBuildGoodTransportShip
 END
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel2
-"Ermöglicht die Erforschung geschmiedeter Klingen und schwerer Rüstungen"
+"Ermöglicht die Erforschung geschmiedeter Klingen und schwerer Rüstungen \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +20% gegen Lanzenträger \n +25% gegen Reiter"
 END
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel3
-"Ermöglicht die Erforschung von Feuerpfeilen"
+"Ermöglicht die Erforschung von Feuerpfeilen \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +20% gegen Lanzenträger \n +25% gegen Reiter"
 END
 
 CONTROLBAR:ToolTipBuildMordorAttackTroll
@@ -28343,7 +28343,7 @@ CONTROLBAR:ToolTipSharkuWargMount
 END
 
 CONTROLBAR:ToolTipShelobWebbing
-"Fesselt feindliche Einheiten mit Spinnennetzen"
+"Voraussetzung Stufe 10 \n Fesselt feindliche Einheiten mit Spinnennetzen \n Heilt Kankra basierend auf verursachtem Gesamtschaden"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityBatCloud
@@ -28375,7 +28375,7 @@ CONTROLBAR:ToolTipToggleThranduilWeapons
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardLineToPorcupineFormation
-"Die Einheiten bilden mit erhobenen Speeren einen Kreis"
+"Die Einheiten bilden mit erhobenen Speeren einen Kreis \n +61% Rüstung \n Gegnerische Reiter werden beim Aufprall verlangsamt"
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardPorcupineToLineFormation
@@ -28391,7 +28391,7 @@ CONTROLBAR:ToolTipWildMountainGiantStomp
 END
 
 CONTROLBAR:ToolTipWildShelobPoisonedStinger
-"Voraussetzung: Stufe 6 \n Vergiftet den Gegner und fügt ihm über einen gewissen Zeitraum Schaden zu"
+"Voraussetzung: Stufe 6 \n Vergiftet den Gegner und fügt ihm für 30 Sekunden Schaden zu \n Betäubt ausgewählte Helden für 6 Sekunden"
 END
 
 CONTROLBAR:ToolTipWitchKingDismount
@@ -28399,7 +28399,7 @@ CONTROLBAR:ToolTipWitchKingDismount
 END
 
 CONTROLBAR:ToolTipWitchKingDreadVisage
-"Voraussetzung: Stufe 2 \n Gegner verursachen deutlich weniger Schaden und haben deutlich weniger Rüstung \n Passive Fähigkeit"
+"Voraussetzung: Stufe 2 \n Gegner verursachen deutlich weniger Schaden und haben deutlich weniger Rüstung \n Gegnerische Einheiten verlieren ihre einfachen Führerschaftsboni \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipWitchKingMount
@@ -28411,7 +28411,7 @@ CONTROLBAR:ToolTipWordOfPoultry
 END
 
 CONTROLBAR:TooltipIvoryTowerVision
-"Lichtet 30 Sekunden lang den gesamten Nebel"
+"Lichtet 30 Sekunden lang den gesamten Nebel \n Einheiten des Spielers sind in diesem Zeitraum +10% schneller"
 END
 
 CONTROLBAR:TooltipRoar
@@ -28419,7 +28419,7 @@ CONTROLBAR:TooltipRoar
 END
 
 CONTROLBAR:TooltipSpecialAbilityDwarvenDemolisherDeploy
-"Erhöht den Rüstungswert, verhindert aber den Transport der Ramme"
+"Verdoppelt den Rüstungswert, verhindert aber den Transport der Ramme"
 END
 
 CONTROLBAR:TooltipSpecialAbilityOilBarrels
@@ -28899,7 +28899,7 @@ OBJECT:DwarvenLoneTower
 END
 
 OBJECT:DwarvenLoneTowerDescription
-"Feuert Äxte auf Schiffe in der Umgebung"
+"Feuert auf Schiffe in der Umgebung \n Deckt unsichtbare Einheiten auf \n Kann von der Festung verschiedene Erweiterungen erhalten."
 END
 
 OBJECT:DwarvenMagicDoor
@@ -30031,7 +30031,7 @@ OBJECT:ShireWorkPit
 END
 
 OBJECT:SignalFireDescription
-"Erobern, um Fähigkeitsregeneration zu beschleunigen"
+"Erobern, um Fähigkeitsregeneration von unbenutzten Spezialfähigkeiten zu beschleunigen \n "
 END
 
 OBJECT:SkullTotem
@@ -31307,7 +31307,7 @@ CONTROLBAR:Trollfindgoblintothrow
 END
 
 CONTROLBAR:ToolTipTrollfindgoblintothrow
-"Heb einen Ork hoch und schleudere ihn auf deine Gegner"
+"Heb einen Ork hoch und schleudere ihn auf deine Gegner \n Verursacht Schrecken und Gegner werden zurückgeworfen"
 END
 
 OBJECT:NaturesWrath
@@ -31595,7 +31595,7 @@ CONTROLBAR:ShelobRecruit
 END
 
 CONTROLBAR:ShelobRevive
-"Erwecke die gefallene Heldin Kankra zu neuem Leben"
+"Erwecke die gefallene Heldin "deine fette haarige Mutter" zu neuem Leben"
 END
 
 CONTROLBAR:ShelobHotkey
@@ -39011,7 +39011,7 @@ CONTROLBAR:ToolTipCAH_ShieldCrush_L3
 END
 
 CONTROLBAR:ToolTipCAH_Starlight
-"Verbündete in der Nähe \n werden geheilt, verursachen +50% Schaden, \n erhalten +50% Rüstung und sammeln doppelt so schnell Erfahrung"
+"Verbündete in der Nähe \n werden geheilt, verursachen +50% Schaden, \n erhalten +50% Rüstung und sammeln doppelt so schnell Erfahrung."
 END
 
 CONTROLBAR:ToolTipCAH_Elendil
@@ -41027,7 +41027,7 @@ OBJECT:ArgonathStatues"
 END
 
 OBJECT:HearthWellDescription
-"Verbündete in der Nähe werden geheilt, wenn sie nicht angegriffen werden"
+"Heilt Verbündete in näherer Umgebung \n Stockt Horden alle 10 Sekunden mit Einheiten auf \n Deckt Unsichtbarkeit auf"
 END
 
 CONTROLBAR:FireWeaponMightyCatapult
@@ -42563,7 +42563,7 @@ CONTROLBAR:ToolTipBuildGondorFighterHorde
 END
 
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
-"Stärken: Rohstoffgebäude"
+"Stärken: Rohstoffgebäude \n Hordenbonus: \n Versammelte Orks von wenigstens 70 \n erhalten +33% Schaden \n +20% Geschwindigkeit \n -10% Schutz vor Stoßangriffen"
 END
 
 CONTROLBAR:ToolTipBuildMordorCorsairHorde
@@ -42607,7 +42607,7 @@ CONTROLBAR:ToolTipBuildElvenLorienArcherHordeWithNoPrerequisites
 END
 
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde
-"Stärken: Infanterie"
+"Stärken: Infanterie \n Hordenbonus: \n Versammelte Orks von wenigstens 70 \n erhalten +33% Schaden \n +20% Geschwindigkeit \n -10% Schutz vor Stoßangriffen"
 END
 
 CONTROLBAR:ToolTipBuildMordorHaradrimHorde
@@ -42759,7 +42759,7 @@ CONTROLBAR:ToolTipHeal
 END
 
 CONTROLBAR:TooltipRallyingCall
-"Die gewählten Verbündeten verursachen +50% Schaden \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Die gewählten Verbündeten verursachen +50% Schaden und erhalten +50% Erfahrung\n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 
 CONTROLBAR:TooltipDwarvenRiches
@@ -42767,7 +42767,7 @@ CONTROLBAR:TooltipDwarvenRiches
 END
 
 CONTROLBAR:TooltipPalantirVision
-"Spioniert Gegner aus \n\n Vorübergehender Geschwindigkeitsbonus für \n Einheiten im Zielgebiet"
+"Spioniert Gegner aus \n\n Vorübergehend +15% Geschwindigkeitsbonus für \n Einheiten im Zielgebiet \n Wird immer addiert \n\n Linksklick auf das Symbol und anschließend auf das Zielgebiet"
 END
 
 CONTROLBAR:TooltipFarSeeing
@@ -42775,19 +42775,19 @@ CONTROLBAR:TooltipFarSeeing
 END
 
 CONTROLBAR:TooltipFarSight
-"Spioniert Gegner aus\n\nVorübergehender Reichweitebonus für\nalle Einheiten im Zielgebiet\n\n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Spioniert Gegner aus \n\n Vorübergehend +35% Reichweitebonus für \n alle Einheiten im Zielgebiet \n Wird immer addiert \n\n Linksklick auf das Symbol und anschließend auf das Zielgebiet"
 END
 
 CONTROLBAR:ToolTipGandalfLeadership
-"Verbündete in Gandalfs Nähe verursachen \n +25% Schaden, erhalten +25% Rüstung und \n sammeln doppelt so schnell Erfahrung \n \n Passive Fähigkeit Wird immer addiert"
+"Verbündete in Gandalfs Nähe verursachen \n +25% Schaden, erhalten +25% Rüstung und \n sammeln doppelt so schnell Erfahrung \n \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Verbündete in der Nähe der Festung \n erhalten +25% Rüstung und 25% mehr Erfahrung \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden um 10% \n Senkt die Kosten für Baumeister um 20%"
+"Verbündete in der Nähe der Festung \n erhalten +25% Schaden und +25% mehr Erfahrung \n Wird immer addiert \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Heilt alle Verbündeten in der Nähe \n Senkt die Kosten für die Wiederbelebung von Helden um 20%"
+"Heilt Verbündete in der Nähe \n Stockt Horden alle 6.5 Sekunden mit Einheiten auf \n Verringert Kosten um Helden wiederzubeleben um 5% \n Verringert Kosten um Helden zu rekrutieren um 5% \n Verringert die Zeit um Helden wiederzubeleben um 15% \n\n Verbessert gerufene einsame Türme"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
@@ -42831,7 +42831,7 @@ CONTROLBAR:ToolTipHornofGondor
 END
 
 CONTROLBAR:ToolTipBoromirLeadership
-"Voraussetzung: Stufe 5 \n Verbündete in Boromirs Nähe \n verursachen +50% Schaden \n \n Passive Fähigkeit"
+"Voraussetzung: Stufe 5 \n Verbündete in Boromirs Nähe \n verursachen +50% Schaden \n und erhalten 25% schneller Erfahrung \n\n Passive Fähigkeit"
 END
 
 CONTROLBAR:CaptainofGondorBoromir
@@ -42851,11 +42851,11 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Verbündete in Theodens Nähe verursachen \n +50% Schaden \n \n Passive Fähigkeit"
+"Verbündete in Theodens Nähe verursachen \n +50% Schaden \n und erhalten +25% Führerschaft \n \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipGloriousCharge
-"Voraussetzung: Stufe 5 \n Theoden und Kavallerie-Einheiten in der Nähe erleiden nur 10% des normalen Schadens \n Theoden muss reiten, um diese Fähigkeit zu nutzen \n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 7 \n Theoden und Kavallerie-Einheiten in der Nähe erhalten +80% Rüstung, +25% Schaden und erhalten keinen Schaden mehr durch Überrennen \n Theoden muss reiten, um diese Fähigkeit zu nutzen \n Bonus kann nicht verloren gehen und wird immer addiert \n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:Smite
@@ -42875,7 +42875,7 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Mächtiger Fernangriff auf ein einzelnes Ziel \n Besonders effektiv gegen fliegende Monster \n\n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Mächtiger Fernangriff \n Bonus gegen böse helden \n Besonders effektiv gegen fliegende Monster \n\n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:ToggleFaramirWeapons
@@ -42907,7 +42907,7 @@ CONTROLBAR:ToolTipEomerLeadership
 END
 
 CONTROLBAR:ToolTipThrowSpear
-"Mächtiger Fernangriff \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Mächtiger Fernangriff \n Bonus gegen Mûmakil (Olifanten) \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:Athelas
@@ -42927,7 +42927,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Voraussetzung: Stufe 2 \n Aragorn verursacht +100% Schaden und erhält +50% Rüstung\n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 2 \n Aragorn verursacht +100% Schaden und erhält +50% Rüstung\n Rüstung gegen Gebäudeschaden +35% \n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:ToolTipAragornLeadership
@@ -42967,15 +42967,15 @@ CONTROLBAR:ToolTipMenLongShotAbility
 END
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"Bannerträger-Upgrade in Kaserne erforschen, um diese Ausrüstung zu aktivieren \n \n +25% Rüstung, -40% Geschwindigkeit"
+"Bannerträger-Upgrade in Kaserne erforschen, um diese Ausrüstung zu aktivieren \n \n +20% Rüstung, +25% Schutz vor Bogenschützen, -30% Geschwindigkeit"
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Voraussetzung: Stufe 10 \n Verbündete in der Nähe werden geheilt, \n verursachen +50% Schaden und erhalten +50% Rüstung \n \n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 10 \n Verbündete in der Nähe werden geheilt, \n verursachen +50% Schaden und erhalten +50% Rüstung \n \n Einfache Führerschaft \n Wird nicht mit anderer Rüstung-Führerschaft addiert \n\n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
-"Voraussetzung: Stufe 3 \n Glorfindel verursacht +100% Schaden und ist nach dem Absitzen 10 Sekunden lang unverwundbar\n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 3 \n Glorfindel verursacht +50% Schaden und ist 10 Sekunden lang unverwundbar\n Kann nur zu Fuß verwendet werden \n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:ToolTipArrowWind
@@ -42987,7 +42987,7 @@ CONTROLBAR:ToolTipElvenCloakThranduil
 END
 
 CONTROLBAR:ToolTipDeadEye
-"Voraussetzung: Stufe 4 \n Erhöht vorübergehend den Schaden \nund die Feuerrate \n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 4 \n Erhöht vorübergehend den Schaden \n und die Feuerrate \n Verliert 15% Rüstung wenn aktiviert \n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:ToolTipThranduilWildWalk
@@ -43023,7 +43023,7 @@ CONTROLBAR:TooltipElvenGrace
 END
 
 CONTROLBAR:ToolTipPersonalFlood
-"Voraussetzung: Stufe 4 \n Entfesselt eine Flut, die Gegner verletzt und Feuer löscht \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Voraussetzung: Stufe 4 \n Entfesselt eine Flut, die Gegner verletzt und Feuer löscht \n Besonders effektiv gegen Reiter \n Bonus gegen schwarze Reiter \n\n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:ToggleElvenWarriorWeapons
@@ -43035,11 +43035,11 @@ CONTROLBAR:HaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Voraussetzung: Stufe 7 \n Verheerender Angriff, der lichtempfindliche Einheiten betäubt \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Voraussetzung: Stufe 10 \n Verheerender Angriff, der Gegner zurückwirft \n Betäubt gegnerische Einheiten \n Effektiv gegen reitende Helden \n Kann nur im Bogenmodus benutzt werden \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
-"Voraussetzung: Stufe 4 \n Verbündete in Haldirs Nähe verursachen \n +50% Schaden \n \n Passive Fähigkeit"
+"Voraussetzung: Stufe 4 \n Verbündete in Haldirs Nähe verursachen \n +50% Schaden und erhalten +25% schneller Erfahrung \n \n Passive Fähigkeit"
 END
 
 CONTROLBAR:GlorfindelBladeOfPurity
@@ -43071,7 +43071,7 @@ CONTROLBAR:ArrowWind
 END
 
 CONTROLBAR:ToolTipKnifeFighter
-"Voraussetzung: Stufe 6 \n Aktivieren mit Linksklick \n Alternativer Nahkampfangriff \n +20% Rüstung"
+"Voraussetzung: Stufe 4 \n Aktivieren mit Linksklick \n Alternativer Nahkampfangriff \n +35% Rüstung"
 END
 
 CONTROLBAR:ThranduilElvenCloak
@@ -43083,7 +43083,7 @@ CONTROLBAR:ThornofVengeance
 END
 
 CONTROLBAR:ElrondFarsight
-"Weitsicht [&R]"
+"Weitsicht [&T]"
 END
 
 CONTROLBAR:TooltipElrondLeadership
@@ -43099,7 +43099,7 @@ CONTROLBAR:ElrondRestoration
 END
 
 CONTROLBAR:ToolTipElrondRestoration
-"Voraussetzung: Stufe 7 \n Heilt nahe gelegene Einheiten und füllt deren Spezialfähigkeiten-Timer \n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 10 \n Heilt 20% von nahe gelegene Einheiten und füllt deren Spezialfähigkeiten-Timer \n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:ElrondWhirlwind
@@ -43107,11 +43107,11 @@ CONTROLBAR:ElrondWhirlwind
 END
 
 CONTROLBAR:TooltipElrondWhirlwind
-"Voraussetzung: Stufe 10 \n Beschwört auf dem Schlachtfeld einen zerstörerischen Wirbelwind \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Voraussetzung: Stufe 5 \n Beschwört auf dem Schlachtfeld einen zerstörerischen Wirbelwind \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 
 CONTROLBAR:ToolTipTreeBeardLeadership
-"Verbündete Ents in Baumbarts Nähe haben \n +50% Rüstung, +15% Geschwindigkeit und \n +20% Reichweite \n \n Passive Fähigkeit"
+"Verbündete Ents in Baumbarts Nähe haben \n +25% Rüstung, +10% Geschwindigkeit, \n +20% Reichweite und +25% Erfahrung\n \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipBuildTreebeard
@@ -43123,7 +43123,7 @@ OBJECT:DwarvenStatueDescription
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Verbündete in der Nähe der Statue erhalten \n +50% Rüstung \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung \n von Helden um 10% \n Senkt die Kosten für Baumeister um 20%"
+"Verbündete in der Nähe der Festung erhalten \n +50% Schaden und +25% Erfahrung \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung \n von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
@@ -43131,7 +43131,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+25% Bautempo \n Ermöglicht Erforschung des Mithrilpanzer-, Geschmiedete Klingen- und Flammenschuss-Upgrades \n Schaltet defensiven Axtturm frei"
+"+25% Bautempo \n Ermöglicht Erforschung des Mithrilpanzer-, Geschmiedete Klingen- und Flammenschuss-Upgrades \n Schaltet defensiven Axtturm frei \n Schmiede erhält Rüstung: \n +10% gegen Helden \n +25% gegen Lanzenträger \n +33% gegen Reiter"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade
@@ -43143,7 +43143,7 @@ CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel3Upgrade
 END
 
 CONTROLBAR:ToolTipBlackArrows
-"Voraussetzung: Stufe 2\nLöst im gewählten Gegner Furcht aus \n Verursacht dreifachen Schaden \nLinksklicke auf das Symbol und anschließend auf das Ziel"
+"Voraussetzung: Stufe 2 \n Löst im gewählten Gegner Furcht aus \n Bonus gegen Mumakil (Olifanten) \n Verursacht hohen Schaden and Helden \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 OBJECT:DwarvenHeroicStatueDescription
@@ -43187,7 +43187,7 @@ CONTROLBAR:ToolTipDainLeadership
 END
 
 CONTROLBAR:ToolTipMightyRage
-"Voraussetzung: Stufe 4 \n Gewählte Verbündete sind 20% schneller \n und verursachen +25% Schaden \n \n Feindliche Einheiten verlieren ihre Boni \n\n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Voraussetzung: Stufe 4 \n Gewählte Verbündete sind 20% schneller \n und verursachen +25% Schaden \n Bonus kann nicht entfernt werden und wird immer addiert \n \n Feindliche Einheiten verlieren ihre Boni \n\n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 
 CONTROLBAR:AxeThrow
@@ -43207,11 +43207,11 @@ CONTROLBAR:ToolTipGimliLeadership
 END
 
 CONTROLBAR:ToolTipAxeThrow
-"Effektiver Fernangriff mit Flächenschaden \nBesonders effektiv gegen Kavallerie \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Effektiver Fernangriff mit Flächenschaden \nBesonders effektiv gegen Kavallerie und Lufteinheiten \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:ToolTipSlayer
-"Voraussetzung: Stufe 5 \n Gimli verursacht doppelten Schaden und ist doppelt so schnell \n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 5 \n Gimli verursacht +50% Schaden und ist doppelt so schnell, aber verliert -15% Schutz vor Gebäudeschaden \n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack
@@ -43223,11 +43223,11 @@ CONTROLBAR:ToolTipBuildDwarvenBattleWagon
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier
-"Verbündete in der Nähe des Banners verursachen +25% Schaden und sammeln 25% mehr Erfahrung \n Repariert den Streitwagen, wenn dieser nicht eingesetzt wird \n Erweitert den Streitwagen um mehrere Phalangen"
+"Verbündete in der Nähe des Banners verursachen +25% Schaden und sammeln 25% mehr Erfahrung \n Wird immer addiert \n Repariert den Streitwagen, wenn dieser nicht eingesetzt wird \n Erweitert den Streitwagen um mehrere Phalangen \n Deckt getarnte Einheiten auf"
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeHearth
-"Alle Verbündeten in der Nähe werden geheilt \n Ortet getarnte Einheiten"
+"Alle Verbündeten in der Nähe werden geheilt, wenn sie nicht attackiert werden \n Ortet getarnte Einheiten"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenDemolisher
@@ -43251,7 +43251,7 @@ CONTROLBAR:TooltipUpgradeIsengardSiegeWorksLevel3
 END
 
 CONTROLBAR:ToolTipWarChant
-"Die gewählten Verbündeten verursachen +50% Schaden \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Die gewählten Verbündeten verursachen +40% Schaden, erhalten 50% Erfahrung und +10% Geschwindigkeit \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 
 CONTROLBAR:ToolTipIndustry
@@ -43267,23 +43267,23 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Beschwört Saurons Auge \n Enttarnt versteckte Feinde \n Verbündete verursachen +25% Schaden und sammeln Erfahrung 25% schneller \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Beschwört Saurons Auge \n Enttarnt versteckte Feinde und deine Mutter \n Verbündete verursachen +25% Schaden, erhalten +25% Rüstung \n und sammeln Erfahrung 50% schneller \n Einfache Führerschaft \n Wird immer addiert \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 
 CONTROLBAR:ToolTipDarkness
-"Die gesamte Karte versinkt vorübergehend in Dunkelheit\nAlle verbündeten Einheiten verursachen +25% Schaden, erhalten +25% Rüstung und \n sammeln doppelt so schnell Erfahrung \n Aktivieren mit Linksklick"
+"Die gesamte Karte versinkt vorübergehend in Dunkelheit \n Alle verbündeten Horden verursachen +50% Schaden, erhalten +33% Rüstung und \n sammeln 50% schneller Erfahrung \n Monster verursachen +25% Schaden, erhalten +33% Rüstung und +50% Erfahrung \n Wird immer addiert \n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:ToolTipSummonCrebain
-"Lichtet den Nebel in der Nähe und enthüllt getarnte Einheiten \n Alle feindlichen Einheiten verursachen -25% Schaden und verlieren 25% Rüstung \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
+"Lichtet den Nebel in der Nähe und enthüllt getarnte Einheiten \n Alle feindlichen Einheiten verursachen -25% Schaden und verlieren 25% Rüstung \n Gegner verlieren ihre einfachen Führerschaftsboni \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
-"Voraussetzung: Stufe 5 \n Verbündete in Lurtzs Nähe verursachen \n +50% Schaden \n \n Passive Fähigkeit"
+"Voraussetzung: Stufe 5 \n Verbündete in Lurtzs Nähe verursachen \n +50% Schaden und erhalten +25% Erfahrung \n \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
-"Voraussetzung: Stufe 4 \n Ein Held kann nicht fliehen \nNur mit gewähltem Bogen verfügbar \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Voraussetzung: Stufe 4 \n Ein Held kann nicht fliehen \n Kann Lufteinheiten verletzen \n Nur mit gewähltem Bogen verfügbar \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
@@ -43291,11 +43291,11 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
 END
 
 CONTROLBAR:ToolTipGBloodHunt
-"Voraussetzung: Stufe 4 \n Verbündete Kavallerie-Einheiten in der Nähe verursachen +25% Schaden, erhalten +25% Rüstung und sammeln doppelt so schnell Erfahrung \n Zertrampeln-Abbremsung verbündeter Kavallerie-Einheiten verringert \n Passive Fähigkeit"
+"Voraussetzung: Stufe 4 \n Verbündete Kavallerie-Einheiten in der Nähe verursachen +25% Schaden, erhalten +25% Rüstung und sammeln doppelt so schnell Erfahrung \n Zertrampeln-Abbremsung verbündeter Kavallerie-Einheiten halbiert \n Wird immer addiert \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipDominate
-"Voraussetzung: Stufe 8\n Bringe die anvisierten Einheiten vorübergehend unter deine Kontrolle \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Voraussetzung: Stufe 7 \n Bringe die anvisierten Einheiten vorübergehend unter deine Kontrolle \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 
 CONTROLBAR:ToolTipSharkuManEater
@@ -43343,7 +43343,7 @@ CONTROLBAR:TooltipEscape
 END
 
 CONTROLBAR:ToolTipVenomousWords
-"Gegner verursachen deutlich weniger Schaden und haben deutlich weniger Rüstung \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Gegner bewegen sich wesentlich langsamer und schießen langsamer \n Gegnerische Einheiten verlieren ihre einfache Führerschaften \n Wird mit anderen Spells addiert \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 
 CONTROLBAR:SpecialAbilitySarumanFireball
@@ -43379,7 +43379,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Verbündete in der Nähe des Trommler-Trolls erhalten +50% Rüstung \n \n Passive Fähigkeit"
+"Verbündete in der Nähe des Trommler-Trolls erhalten +50% Rüstung und +25% Erfahrung \n Trolle erhalten +15% Rüstung, +15% Erfahrung und heilen sich selbst schneller \n \n Passive Fähigkeit"
 END
 
 CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3
@@ -43427,11 +43427,11 @@ CONTROLBAR:HourOfTheWitchKing
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde
-"Stärken: Infanterie\nImmun gegen Zertrampeln"
+"Stärken: Infanterie\nImmun gegen Zertrampeln \n Versammelte Goblins von mindestens 100 Einheiten \n erhalten +33% Schaden und +25% Geschwindigkeit"
 END
 
 CONTROLBAR:ToolTipPoisonArrows
-"Giftpfeile, die über einen\nlängeren Zeitraum Schaden verursachen\nStärken: Kavallerie \n\nLinksklicke auf das Symbol und anschließend auf das Ziel"
+"Giftpfeile, die über einen\nlängeren Zeitraum Schaden verursachen \n\n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:ToolTipBuildGoblinCaveTroll
@@ -43439,11 +43439,11 @@ CONTROLBAR:ToolTipBuildGoblinCaveTroll
 END
 
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy
-"Voraussetzung: Stufe 4 \n Verbündete in der Nähe des Orkkönigs \n erhalten +25% Rüstung und \n 25% mehr Erfahrung \n \n Passive Fähigkeit"
+"Voraussetzung: Stufe 4 \n Verbündete in der Nähe des Helden \n erhalten +25% Rüstung und \n 25% schneller Erfahrung \n Wird immer addiert \n Passive Fähigkeit"
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Voraussetzung: Stufe 2 \n Platziert ein Schädeltotem, das bis zu seiner Zerstörung auf der Karte bleibt \n Lichtet den Nebel und verleiht Verbündeten in der Nähe +50% Rüstung \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Voraussetzung: Stufe 2 \n Platziert ein Schädeltotem, das bis zu seiner Zerstörung auf der Karte bleibt \n Lichtet den Nebel und verleiht Verbündeten in der Nähe +50% Rüstung und +25% Erfahrung \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
@@ -43539,7 +43539,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"Warge verursachen +60% Schaden \n Aktivieren mit Linksklick"
+"Warge verursachen +65% Schaden, aber \n verlieren -15% Rüstung gegen Lanzen und Gebäude \n Bonus kann nicht entfernt werden und wird immer addiert \n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
@@ -43555,7 +43555,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Stärkt Festungen und Mauern \n Voraussetzung für Feuergeschosse"
+"Stärkt Festungen und Mauern \n Voraussetzung für die aufdeckende Turmerweitrung"
 END
 
 CONTROLBAR:ToolTipOutlawLeadership
@@ -43563,7 +43563,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Elbenmantel (&C)"
+"Elbenmantel [&C]"
 END
 
 CONTROLBAR:ChargeAttack
@@ -43587,9 +43587,101 @@ CONTROLBAR:PersonalFlood
 END
 
 CONTROLBAR:ElvenGrace
-"Athelas [&C]"
+"Athelas [&R]"
 END
 
 GUI:PleaseSelectBuddy
 "Chat-Nachricht konnte nicht gesendet werden. Es muss mindestens ein Freund ausgewählt sein."
+END
+
+// String lines for Patch 1.08
+
+CONTROLBAR:GrabPassengerTB
+"Heb Merry oder Pippin auf"
+END
+
+CONTROLBAR:SpecialAbility_ShieldBubble
+"Schild B&lase"
+END
+
+CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
+"Der Zauberer formt mit all seiner Kraft einen Schild, der jede Art von Schaden abfängt, welcher ihm zugefügt wird \n Gandalf kann nicht zurückgeworfen werden \n Hält 5 Sekunden an. \n\n Linksklick auf das Symbol zum Aktivieren" 
+END
+
+CONTROLBAR:Fire_pit
+"Feuer Grube (&V)"
+END
+
+CONTROLBAR:TooltipFire_pit
+"Lagerfeuer, welches nahe Verbündete heilt \n Stockt 1 Einheit pro Horde alle 5 Sekunden auf. \n Gibt +5% Rüstung \n Wird immer addiert \n Deckt getarnte Einheiten auf"
+END
+
+CONTROLBAR:FireWorks
+"Feuerwerk / Anzünden [&V]"
+END
+
+CONTROLBAR:ToolTipFireWorks
+"Merry kann ein Feuerwerk auf dem Boden platzieren \n und dies anzünden \n \n Linksklick zum Aktivieren "
+End
+
+CONTROLBAR:FireWorks2
+"Zünde Feuerwerk an [&B]"
+END
+
+CONTROLBAR:ToolTipFireWorks2
+"Das Feuerwerk fügt Einheiten in großem Umkreis Schaden zu \n \n Linksklick zum Aktivieren"
+End
+
+CONTROLBAR:FireWorksObj
+"Feuerwerk"
+END
+
+CONTROLBAR:HobbitFireCracker
+"Feuerwerkskörper [&R]"
+END
+
+CONTROLBAR:ToolTipHobbitFireCracker
+"Der Held kann einen kleinen Feuerwerkskörper werfen \n Linksklick auf das Symbol und anschließend auf ein Ziel"
+End
+
+CONTROLBAR:ToolTipHobbitFireCrackerMerry
+"Der Held kann einen kleinen Feuerwerkskörper werfen. \n Effektiv gegen Mumakil (Olifanten) \n Besonderer Bonus gegen gebäude. \n Linksklick auf das Symbol und anschließend auf ein Ziel"
+End
+
+CONTROLBAR:ToolTipHobbitFireCrackerSam
+"Der Held kann einen kleinen Feuerwerkskörper werfen. Besonderer Schaden gegen Kankra. \n Linksklick auf das Symbol und anschließend auf ein Ziel"
+End
+
+// String lines for Patch 1.09
+
+CONTROLBAR:GaladHealBTP
+"&Licht Galadriels"
+END
+
+CONTROLBAR:ToolTipGaladHeal
+"Heilt alle verbündeten Einheiten und helden in einem großen Kreis um Galadriel \n Linksklick zum Aktivieren"
+END
+
+CONTROLBAR:LadyOfLight
+"Licht des &Valars"
+END
+
+CONTROLBAR:TooltipLadyOfLight
+"Lass das Licht von Valar auf deine Gegner hereinbrechen"
+END
+
+CONTROLBAR:SpecialAbilityFiresOfDoom2
+"Rufe drei Feu&er des Untergangs um Sauron herum in einem Kreis"
+END
+
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
+"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Nahe Verbündete erhalten +25% Schaden und +25% Erfahrung \n Wird immer addiert"
+END
+
+CONTROLBAR:LoneTowerHealingUpgradeIcon
+"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Heilt nahe Verbündete. \n Stockt eine Einheit pro Horde alle 10 Sekunden auf"
+END
+
+CONTROLBAR:LoneTowerArmorUpgradeIcon
+"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Verringert des zugefügten Schaden gewaltig."
 END

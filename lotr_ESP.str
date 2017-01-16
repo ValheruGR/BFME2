@@ -15354,7 +15354,7 @@ CONTROLBAR:ToolTipGarrisonEvacuate
 END
 
 CONTROLBAR:TransportEvacuate
-"Evacuar (&V)"
+"E&vacuar"
 END
 
 CONTROLBAR:ToolTipEvacuate
@@ -42734,7 +42734,7 @@ CONTROLBAR:PurchaseUpgradeMordorBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeMordorBasicTrainingForMumakil
-"Comprar Po&rtaestandarte"
+"Comprar &Portaestandarte"
 END
 
 CONTROLBAR:PurchaseUpgradeWildBasicTraining
@@ -43046,7 +43046,7 @@ CONTROLBAR:HaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Requisito: Nivel 10. \n Un ataque de gran daño que causa meta impacto \n Aturde a las unidades enemigas. \n Efectiva contra heroes a caballo \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 10. \n Un ataque de gran daño que causa meta impacto \n Aturde a las unidades enemigas. \n Efectiva contra heroes a caballo \n\n Solo se puede usar con el arco. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
@@ -43094,7 +43094,7 @@ CONTROLBAR:ThornofVengeance
 END
 
 CONTROLBAR:ElrondFarsight
-"Vista lejana [&R]"
+"Vista lejana [&T]"
 END
 
 CONTROLBAR:TooltipElrondLeadership
@@ -43110,7 +43110,7 @@ CONTROLBAR:ElrondRestoration
 END
 
 CONTROLBAR:ToolTipElrondRestoration
-"Requisito: Nivel 7. \n Cura a los aliados cercanos y rellena completamente todos los contadores de capacidades especiales. \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 10. \n Cura a los aliados cercanos y rellena completamente todos los contadores de capacidades especiales. \n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:ElrondWhirlwind
@@ -43118,7 +43118,7 @@ CONTROLBAR:ElrondWhirlwind
 END
 
 CONTROLBAR:TooltipElrondWhirlwind
-"Requisito: Nivel 10 \n Convoca un remolino de destrucción. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Requisito: Nivel 6 \n Convoca un remolino de destrucción. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 
 CONTROLBAR:ToolTipTreeBeardLeadership
@@ -43426,7 +43426,7 @@ CONTROLBAR:MouthOfSauronDissent
 END
 
 CONTROLBAR:Screech
-"Chillido [&V]"
+"Chillido [&X]"
 END
 
 CONTROLBAR:ScreechWitchKing
@@ -43434,7 +43434,7 @@ CONTROLBAR:ScreechWitchKing
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Hora del Rey Brujo [&V]"
+"Hora del Rey Brujo [&T]"
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde
@@ -43558,7 +43558,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
-"Ataque de carga (&R)"
+"Ataque de ca&rga"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
@@ -43578,7 +43578,7 @@ CONTROLBAR:ElvenCloak
 END
 
 CONTROLBAR:ChargeAttack
-"A&taque de carga"
+"Ataque de ca&rga"
 END
 
 CONTROLBAR:ConstructRohanPeasant
@@ -43590,7 +43590,7 @@ CONTROLBAR:DeadEye
 END
 
 CONTROLBAR:MoveUnseen
-"Movimiento invisible [&U]"
+"Movimiento invisible [&V]"
 END
 
 CONTROLBAR:PersonalFlood
@@ -43598,7 +43598,7 @@ CONTROLBAR:PersonalFlood
 END
 
 CONTROLBAR:ElvenGrace
-"Athelas [&C]"
+"Athelas [&R]"
 END
 
 GUI:PleaseSelectBuddy
