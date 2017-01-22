@@ -14198,16 +14198,18 @@ CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade
-"Niveau 2 : permet la recherche de l'amélioration lames forgées \nLe batiment gagne de l'armure  \n +10% contre les héros \n +20% contre les piquiers \n +25% contre les cavaliers "
+"Niveau 2 : permet la recherche de l'amélioration lames forgées"
 END
+// \nLe batiment gagne de l'armure  \n +10% contre les héros \n +20% contre les piquiers \n +25% contre les cavaliers 
 
 CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
 "Améliorer trésor au Nivea&u 3"
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
-"Niveau 3 : permet la recherche de l'amélioration flèches enflammées \nLe batiment gagne de l'armure  \n +10% contre les héros \n +20% contre les piquiers \n +25% contre les cavaliers "
+"Niveau 3 : permet la recherche de l'amélioration flèches enflammées"
 END
+// \nLe batiment gagne de l'armure  \n +10% contre les héros \n +20% contre les piquiers \n +25% contre les cavaliers 
 
 CONTROLBAR:ConstructWildSpiderlingHorde
 "Araignées sau&vages"
@@ -24098,7 +24100,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToTrebuchet
 END
 
 CONTROLBAR:PorterExtinguishFire
-"Eteindre le feu [&M)"
+"Eteindre le feu"
 END
 
 CONTROLBAR:ToolTipPorterExtinguishFire
@@ -24864,14 +24866,16 @@ END
 CONTROLBAR:ToolTipBuildEregionForgeLevel2
 "Permet la recherche de l'amélioration lames forgées"
 END
+// \nGain en armure : \n+10% contre les héros \n25% contre les piquiers \n +33% contre la cavalerie
 
 CONTROLBAR:PurchaseUpgradeEregionForgeLevel3
-"Améliorer forge d'Eregion au Nivea&u 3 \nGain en armure : \n+10% contre les héros \n25% contre les piquiers \n +33% contre la cavalerie"
+"Améliorer forge d'Eregion au Nivea&u 3"
 END
 
 CONTROLBAR:ToolTipBuildEregionForgeLevel3
-"Permet la recherche des flèches d'argent \nGain en armure : \n+10% contre les héros \n25% contre les piquiers \n +33% contre la cavalerie"
+"Permet la recherche des flèches d'argent"
 END
+// \nGain en armure : \n+10% contre les héros \n25% contre les piquiers \n +33% contre la cavalerie
 
 CONTROLBAR:ToolTipGreenPasture
 "Entraîne la cavalerie elfe"
@@ -28234,13 +28238,14 @@ CONTROLBAR:ToolTipBuildEvilTransportShip
 END
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade
-"Permet la recherche de l'armure lourde \n La structure gagne en armure : \n +10% contre les héros \n +25% contre les piquiers \n +33% contre les cavaliers"
+"Permet la recherche de l'armure lourde"
 END
+// \n La structure gagne en armure : \n +10% contre les héros \n +25% contre les piquiers \n +33% contre les cavaliers
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade
-"Permet la recherche du fer\n La structure gagne en armure : \n +10% contre les héros \n +25% contre les piquiers \n +33% contre les cavaliers"
+"Permet la recherche du fer"
 END
-
+// \n La structure gagne en armure : \n +10% contre les héros \n +25% contre les piquiers \n +33% contre les cavaliers
 CONTROLBAR:ToolTipBuildGoodBombardShip
 "Vaisseau elfe avec une baliste à longue portée \nFort contre les structures"
 END
@@ -28258,12 +28263,14 @@ CONTROLBAR:ToolTipBuildGoodTransportShip
 END
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel2
-"Permet la recherche des lames forgées et de l'armure lourde \n La structure gagne en armure : \n +10% contre les héros \n +20% contre les piquiers \n +25% contre les cavaliers"
+"Permet la recherche des lames forgées et de l'armure lourde"
 END
+// \n La structure gagne en armure : \n +10% contre les héros \n +20% contre les piquiers \n +25% contre les cavaliers
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel3
-"Permet la recherche des flèches enflammées \n La structure gagne en armure : \n +10% contre les héros \n +20% contre les piquiers \n +25% contre les cavaliers"
+"Permet la recherche des flèches enflammées"
 END
+//  \n La structure gagne en armure : \n +10% contre les héros \n +20% contre les piquiers \n +25% contre les cavaliers
 
 CONTROLBAR:ToolTipBuildMordorAttackTroll
 "Requiert : cage à Trolls niveau 3 \nFort contre épéistes, cavalerie et structures"
@@ -43134,7 +43141,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"Vitesse de construction + 25% \n Permet la recherche des améliorations cote de mailles en mithril, lames forgées et trait enflammé \n Ajoute une tour de lanceurs de haches défensive\nLa forge gagne en armure :\n+10% cotnre les héros \n +25% contre les piquiers \n +33% contre les cavaliers"
+"Vitesse de construction + 25% \n Permet la recherche des améliorations cote de mailles en mithril, lames forgées et trait enflammé \n Ajoute une tour de lanceurs de haches défensive\nLa forge gagne en armure :\n+20% cotnre les héros, les piquiers et les cavaliers"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade

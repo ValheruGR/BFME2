@@ -13286,7 +13286,7 @@ CONTROLBAR:ToolTipConstructWildPorter
 END
 
 CONTROLBAR:ConstructEntMoot
-"Construir Cámara de los Ents (&U)"
+"Cons&truir Cámara de los Ents"
 END
 
 CONTROLBAR:ToolTipEntMoot
@@ -14193,21 +14193,24 @@ CONTROLBAR:ToolTipBuildWildSpiderPitLevel3Upgrade
 "Nivel 3 +25% a la velocidad de construcción."
 END
  // \n Permite investigar bolsas de veneno."
+
 CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
 "Mejorar tesoro a nivel 2 (&V)"
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade
-"Nivel 2: Permite investigar la mejora espadas forjadas.\n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra Caballeria."
+"Nivel 2: Permite investigar la mejora espadas forjadas."
 END
+// \n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra Caballeria.
 
 CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
 "Mejorar tesoro a nivel 3 (&V)"
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
-"Nivel 3: Permite investigar la mejora flecha de fuego.\n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra Caballeria."
+"Nivel 3: Permite investigar la mejora flecha de fuego."
 END
+// \n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra Caballeria.
 
 CONTROLBAR:ConstructWildSpiderlingHorde
 "Arácn&idos"
@@ -24098,7 +24101,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToTrebuchet
 END
 
 CONTROLBAR:PorterExtinguishFire
-"Apagar fuego [&ñ]"
+"Apagar fuego [&g]"
 END
 
 CONTROLBAR:ToolTipPorterExtinguishFire
@@ -24862,16 +24865,18 @@ CONTROLBAR:PurchaseUpgradeEregionForgeLevel2
 END
 
 CONTROLBAR:ToolTipBuildEregionForgeLevel2
-"Permite investigar la mejora espadas forjadas. \n La forja gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra Caballeria."
+"Permite investigar la mejora espadas forjadas."
 END
+// \n La forja gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra Caballeria.
 
 CONTROLBAR:PurchaseUpgradeEregionForgeLevel3
 "Mejorar forja de Eregion a nivel 3(&V)"
 END
 
 CONTROLBAR:ToolTipBuildEregionForgeLevel3
-"Permite investigar la mejora flechas púa de plata. \n La forja gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra Caballeria."
+"Permite investigar la mejora flechas púa de plata."
 END
+// \n La forja gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra Caballeria.
 
 CONTROLBAR:ToolTipGreenPasture
 "Entrena caballería elfa."
@@ -28234,12 +28239,14 @@ CONTROLBAR:ToolTipBuildEvilTransportShip
 END
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade
-"Permite la investigación de armadura pesada. \n La Herreria gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra Caballeria."
+"Permite la investigación de armadura pesada."
 END
+// \n La Herreria gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra Caballeria.
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade
-"Permite la investigación de mineral de hierro. \n La Herreria gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra Caballeria."
+"Permite la investigación de mineral de hierro."
 END
+// \n La Herreria gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra Caballeria.
 
 CONTROLBAR:ToolTipBuildGoodBombardShip
 "Nave elfa equipada con una balista de largo alcance \n Fuerte contra estructuras."
@@ -28258,12 +28265,14 @@ CONTROLBAR:ToolTipBuildGoodTransportShip
 END
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel2
-"Permite la investigación de espadas forjadas y armadura pesada.\n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra Caballeria."
+"Permite la investigación de espadas forjadas y armadura pesada."
 END
+// \n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra Caballeria.
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel3
-"Permite investigar la mejora flecha de fuego.\n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra Caballeria."
+"Permite investigar la mejora flecha de fuego."
 END
+// \n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra Caballeria.
 
 CONTROLBAR:ToolTipBuildMordorAttackTroll
 "Requisito: Jaula de trolls de nivel 3 \n Fuerte contra espadachines, caballería y estructuras."
@@ -40200,7 +40209,7 @@ CONTROLBAR:SpecialAbilityHotWCrippleStrikeMelee_Level2
 END
 
 CONTROLBAR:CAH_HeroicCharge
-"Carga heroica [&Ñ]"
+"Carga heroica [&O]"
 END
 
 CONTROLBAR:CAH_A_Stealth_Level1
@@ -43142,7 +43151,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+25% a la velocidad de construcción. \n Permite las mejoras cota de mithril, espadas forjadas y proyectil en llamas. \n Añade una torre de hachas defensiva.\n La forja gana armadura: \n +10% contra Heroes\n +25% contra Picas \n +33% contra Caballeria"
+"+25% a la velocidad de construcción. \n Permite las mejoras cota de mithril, espadas forjadas y proyectil en llamas. \n Añade una torre de hachas defensiva.\n La forja gana armadura: \n +20% contra Heroes, Picas y Caballeria"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade

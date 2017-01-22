@@ -15688,16 +15688,18 @@ CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade
-"Level 2: Allows research of the Forged Blades upgrade \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry"
+"Level 2: Allows research of the Forged Blades upgrade"
 END
+// \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry
 
 CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
 "&Upgrade Treasure Trove to Level 3"
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
-"Level 3: Allows research of the Fire Arrows upgrade \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry"
+"Level 3: Allows research of the Fire Arrows upgrade
 END
+// \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry"
 
 CONTROLBAR:ConstructWildSpiderlingHorde
 "Spider&lings"
@@ -26265,7 +26267,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToTrebuchet
 END
 
 CONTROLBAR:PorterExtinguishFire
-"Extinguish Fire [&M)"
+"Extinguish Fire"
 END
 
 CONTROLBAR:ToolTipPorterExtinguishFire
@@ -27088,14 +27090,16 @@ END
 CONTROLBAR:ToolTipBuildEregionForgeLevel2
 "Allows research of the Forged Blades Upgrade"
 END
+// \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
 
 CONTROLBAR:PurchaseUpgradeEregionForgeLevel3
-"&Upgrade Eregion Forge to Level 3 \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry"
+"&Upgrade Eregion Forge to Level 3"
 END
 
 CONTROLBAR:ToolTipBuildEregionForgeLevel3
-"Allows research of Silverthorn Arrows \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry"
+"Allows research of Silverthorn Arrows"
 END
+// \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
 
 CONTROLBAR:ToolTipGreenPasture
 "Trains Elven Cavalry"
@@ -30813,12 +30817,14 @@ CONTROLBAR:ToolTipBuildEvilTransportShip
 End
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade
-"Allows research of Heavy Armor \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry"
+"Allows research of Heavy Armor"
 End
+// \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade
-"Allows research of Iron Ore \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry"
+"Allows research of Iron Ore"
 End
+// \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
 
 CONTROLBAR:ToolTipBuildGoodBombardShip
 "Elven ship equipped with a long range ballista \n Strong vs. Structures"
@@ -30837,12 +30843,14 @@ CONTROLBAR:ToolTipBuildGoodTransportShip
 End
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel2
-"Allows research of Forged Blades and Heavy Armor \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry"
+"Allows research of Forged Blades and Heavy Armor"
 End
+// \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel3
-"Allows research of Fire Arrows \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry"
+"Allows research of Fire Arrows"
 End
+// \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry
 
 CONTROLBAR:ToolTipBuildMordorAttackTroll
 "Requires Level 3 Troll Cages \n Strong vs. Swordsmen, Cavalry, and Structures"
@@ -46406,7 +46414,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+25% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry"
+"+25% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain armor: \n +20% against heros, pikemen and cavalry"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade

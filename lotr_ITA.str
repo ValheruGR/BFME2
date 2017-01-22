@@ -14191,16 +14191,19 @@ CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade
-"Livello 2: consente la ricerca del potenziamento Lame temprate. \n La struttura guadagna armatura: \n +10% verso gli eroi \n +20% verso i picchieri \n +25% verso la cavalleria."
+"Livello 2: consente la ricerca del potenziamento Lame temprate."
 END
+// \n La struttura guadagna armatura: \n +10% verso gli eroi \n +20% verso i picchieri \n +25% verso la cavalleria.
 
 CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
 "Potenzia la tesoreria al livello 3 (&U)"
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
-"Livello 3: consente la ricerca del potenziamento Frecce infuocate. \n La struttura guadagna armatura: \n +10% verso gli eroi \n +20% verso i picchieri \n +25% verso la cavalleria.""
+"Livello 3: consente la ricerca del potenziamento Frecce infuocate."
 END
+// \n La struttura guadagna armatura: \n +10% verso gli eroi \n +20% verso i picchieri \n +25% verso la cavalleria.
+
 
 CONTROLBAR:ConstructWildSpiderlingHorde
 "Ragni (&L)"
@@ -24858,6 +24861,7 @@ END
 CONTROLBAR:ToolTipBuildEregionForgeLevel2
 "Consente la ricerca del potenziamento Lame temprate."
 END
+//
 
 CONTROLBAR:PurchaseUpgradeEregionForgeLevel3
 "Potenzia la fucina dell'Eregion al livello 3 (&U)"
@@ -24866,6 +24870,7 @@ END
 CONTROLBAR:ToolTipBuildEregionForgeLevel3
 "Consente la ricerca di Frecce Puntargento."
 END
+//
 
 CONTROLBAR:ToolTipGreenPasture
 "Addestra la cavalleria elfica."
@@ -28230,12 +28235,14 @@ CONTROLBAR:ToolTipBuildEvilTransportShip
 END
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade
-"Consente la ricerca di Corazza pesante. \n La struttura guadagna armatura: \n +10% verso gli Eroi \n +25% verso i Picchieri \n +33% verso la cavalleria."
+"Consente la ricerca di Corazza pesante."
 END
+// \n La struttura guadagna armatura: \n +10% verso gli Eroi \n +25% verso i Picchieri \n +33% verso la cavalleria.
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade
-"Consente la ricerca di minerale di ferro. \n La struttura guadagna armatura: \n +10% verso gli Eroi \n +25% verso i Picchieri \n +33% verso la cavalleria."
+"Consente la ricerca di minerale di ferro. "
 END
+// \n La struttura guadagna armatura: \n +10% verso gli Eroi \n +25% verso i Picchieri \n +33% verso la cavalleria.
 
 CONTROLBAR:ToolTipBuildGoodBombardShip
 "Nave elfica dotata di balista a lunga gittata.\nEfficace contro strutture."
@@ -28254,12 +28261,14 @@ CONTROLBAR:ToolTipBuildGoodTransportShip
 END
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel2
-"Consente la ricerca di Lame temprate e Corazza pesante. \n La struttura guadagna armatura: \n +10% verso gli Eroi \n +25% verso i Picchieri \n +33% verso la cavalleria."
+"Consente la ricerca di Lame temprate e Corazza pesante. "
 END
+// \n La struttura guadagna armatura: \n +10% verso gli Eroi \n +25% verso i Picchieri \n +33% verso la cavalleria.
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel3
-"Consente la ricerca di Frecce infuocate. \n La struttura guadagna armatura: \n +10% verso gli Eroi \n +25% verso i Picchieri \n +33% verso la cavalleria."
+"Consente la ricerca di Frecce infuocate."
 END
+// \n La struttura guadagna armatura: \n +10% verso gli Eroi \n +25% verso i Picchieri \n +33% verso la cavalleria.
 
 CONTROLBAR:ToolTipBuildMordorAttackTroll
 "Richiede gabbia dei Troll di livello 3.\nEfficace contro spadaccini, cavalleria e strutture."
@@ -42786,7 +42795,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Cura tutti gli alleati nelle vicinanze. \n Riforma unità nelle orde ogni 6.5 secondi.\nRiduce del 20% il costo di rianimazione dell'Eroe.\nRiduce del 15% il tempo di rianimazione dell'Eroe. \nRiduce il costo di reclutamento dell'eroe del 5%."
+"Cura tutti gli alleati nelle vicinanze. \n Riforma unità nelle orde ogni 6.5 secondi.\nRiduce del 5% il costo di rianimazione dell'Eroe.\nRiduce del 15% il tempo di rianimazione dell'Eroe. \nRiduce il costo di reclutamento dell'eroe del 5%."
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
@@ -43130,7 +43139,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+25% velocità di costruzione.\nConsente la ricerca dei potenziamenti Cotta di mithril, Lame temprate e Colpo fiammeggiante.\nAggiunge torre difensiva con lanciatori d'ascia. \nGuadagna armatura: +10% verso gli eroi, +25% verso i picchieri e +33% verso la cavalleria."
+"+25% velocità di costruzione.\nConsente la ricerca dei potenziamenti Cotta di mithril, Lame temprate e Colpo fiammeggiante.\nAggiunge torre difensiva con lanciatori d'ascia. \nGuadagna armatura: +20% verso gli eroi, picchieri e la cavalleria."
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade

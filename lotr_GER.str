@@ -14195,16 +14195,18 @@ CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade
-"Stufe 2: Ermöglicht die Erforschung des Geschmiedete Klingen-Upgrades \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +20% gegen Lanzenträger \n +25% gegen Reiter"
+"Stufe 2: Ermöglicht die Erforschung des Geschmiedete Klingen-Upgrades"
 END
+//  \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +20% gegen Lanzenträger \n +25% gegen Reiter
 
 CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
 "Schatzlager auf St&ufe 3 ausbauen"
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
-"Stufe 3: Ermöglicht die Erforschung des Feuerpfeil-Upgrades \n Das Gebäde erhält mehr Rüstung: \n +10% gegen Helden \n +20% gegen Lanzenträger \n +25% gegen Reiter"
+"Stufe 3: Ermöglicht die Erforschung des Feuerpfeil-Upgrades"
 END
+//  \n Das Gebäde erhält mehr Rüstung: \n +10% gegen Helden \n +20% gegen Lanzenträger \n +25% gegen Reiter
 
 CONTROLBAR:ConstructWildSpiderlingHorde
 "Spinnen (&L)"
@@ -24095,7 +24097,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToTrebuchet
 END
 
 CONTROLBAR:PorterExtinguishFire
-"Flammen ersticken [&M)"
+"Flammen ersticken"
 END
 
 CONTROLBAR:ToolTipPorterExtinguishFire
@@ -24861,14 +24863,16 @@ END
 CONTROLBAR:ToolTipBuildEregionForgeLevel2
 "Ermöglicht die Erforschung des Geschmiedete Klingen-Upgrades"
 END
+//  \n Das Gebäde erhält mehr Rüstung: \n +10% gegen Helden \n +25% gegen Lanzenträger \n +33% gegen Reiter
 
 CONTROLBAR:PurchaseUpgradeEregionForgeLevel3
-"Schmiede Eregions auf St&ufe 3 ausbauen \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +25% gegen Lanzenträger \n +33% gegen Reiter"
+"Schmiede Eregions auf St&ufe 3 ausbauen"
 END
 
 CONTROLBAR:ToolTipBuildEregionForgeLevel3
-"Ermöglicht die Erforschung von Silberdornpfeilen \n Das Gebäde erhält mehr Rüstung: \n +10% gegen Helden \n +25% gegen Lanzenträger \n +33% gegen Reiter"
+"Ermöglicht die Erforschung von Silberdornpfeilen"
 END
+//  \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +25% gegen Lanzenträger \n +33% gegen Reiter
 
 CONTROLBAR:ToolTipGreenPasture
 "Bildet Elben-Kavallerie aus"
@@ -28231,12 +28235,14 @@ CONTROLBAR:ToolTipBuildEvilTransportShip
 END
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade
-"Ermöglicht die Erforschung schwerer Rüstungen \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +25% gegen Lanzenträger \n +33% gegen Reiter"
+"Ermöglicht die Erforschung schwerer Rüstungen"
 END
+// \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +25% gegen Lanzenträger \n +33% gegen Reiter
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade
-"Ermöglicht die Erforschung von Eisenerz \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +25% gegen Lanzenträger \n +33% gegen Reiter"
+"Ermöglicht die Erforschung von Eisenerz"
 END
+// \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +25% gegen Lanzenträger \n +33% gegen Reiter
 
 CONTROLBAR:ToolTipBuildGoodBombardShip
 "Mit einer Balliste bestücktes Elbenschiff \n Stärken: Gebäude"
@@ -28255,12 +28261,14 @@ CONTROLBAR:ToolTipBuildGoodTransportShip
 END
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel2
-"Ermöglicht die Erforschung geschmiedeter Klingen und schwerer Rüstungen \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +20% gegen Lanzenträger \n +25% gegen Reiter"
+"Ermöglicht die Erforschung geschmiedeter Klingen und schwerer Rüstungen"
 END
+//  \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +20% gegen Lanzenträger \n +25% gegen Reiter
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel3
-"Ermöglicht die Erforschung von Feuerpfeilen \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +20% gegen Lanzenträger \n +25% gegen Reiter"
+"Ermöglicht die Erforschung von Feuerpfeilen"
 END
+// \n Das Gebäude erhält mehr Rüstung: \n +10% gegen Helden \n +20% gegen Lanzenträger \n +25% gegen Reiter
 
 CONTROLBAR:ToolTipBuildMordorAttackTroll
 "Voraussetzung: Trollkäfige Stufe 3 \n Stärken: Schwertkrieger, Kavallerie, Gebäude"
@@ -43131,7 +43139,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+25% Bautempo \n Ermöglicht Erforschung des Mithrilpanzer-, Geschmiedete Klingen- und Flammenschuss-Upgrades \n Schaltet defensiven Axtturm frei \n Schmiede erhält Rüstung: \n +10% gegen Helden \n +25% gegen Lanzenträger \n +33% gegen Reiter"
+"+25% Bautempo \n Ermöglicht Erforschung des Mithrilpanzer-, Geschmiedete Klingen- und Flammenschuss-Upgrades \n Schaltet defensiven Axtturm frei \n Schmiede erhält Rüstung: \n +20% gegen Helden, Lanzenträger und Reiter"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade
