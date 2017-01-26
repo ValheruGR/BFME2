@@ -27719,7 +27719,7 @@ CONTROLBAR:ToolTipAncientMaster
 END
 
 CONTROLBAR:ToolTipMouthOfSauronDoubt
-"Requisito: Nivel 4 \n Reduce considerablemente la armadura y el daño del enemigo.\n Las unidades enemigas pierden sus mejoras de liderazgo simple \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
+"Requisito: Nivel 4 \n Reduce considerablemente la armadura y el daño de las hordas y heroes enemigos.\n Las unidades enemigas pierden sus mejoras de liderazgo simple \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
 END
 
 CONTROLBAR:DreadVisage
@@ -36745,7 +36745,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyElvenBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeElvenSilverthornArrows
-"Comprar fle&chas púa de plata"
+"Comprar flechas púa de plata (&W)"
 END
 
 CONTROLBAR:TooltipPurchaseUpgradeElvenSilverthornArrows

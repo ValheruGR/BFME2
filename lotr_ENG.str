@@ -30240,7 +30240,7 @@ CONTROLBAR:ToolTipAncientMaster
 END
 
 CONTROLBAR:ToolTipMouthOfSauronDoubt
-"Requires Level 4 \n Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Left click icon then left click on target units"
+"Requires Level 4 \n Significantly reduces enemy Armor and Damage from enemy hordes and heroes.\n Enemy units lose their simple leadership bonuses \n Left click icon then left click on target units"
 END
 
 CONTROLBAR:DreadVisage

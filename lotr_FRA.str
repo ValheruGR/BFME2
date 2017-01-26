@@ -27718,7 +27718,7 @@ CONTROLBAR:ToolTipAncientMaster
 END
 
 CONTROLBAR:ToolTipMouthOfSauronDoubt
-"Requiert : niveau 4\nRéduit de manière significative les dégâts et l'armure des ennemis \nLes ennemis perdent leur bonus de charisme basic \nClic gauche sur l'icône puis clic gauche sur les unités ciblées"
+"Requiert : niveau 4\nRéduit de manière significative les dégâts et l'armure des unités et héros enemis. \nLes ennemis perdent leur bonus de charisme basic \nClic gauche sur l'icône puis clic gauche sur les unités ciblées"
 END
 
 CONTROLBAR:DreadVisage
