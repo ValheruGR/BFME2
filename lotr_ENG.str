@@ -16292,10 +16292,6 @@ CONTROLBAR:ToolTipLightTorch
 "Used to detonate explosive mines \n Left click to activate"
 END
 
-CONTROLBAR:TooltipBladeMaster
-"Requires Level 2 \n Aragorn gains +100% Damage and +100% Armor \n Left click to activate"
-END
-
 CONTROLBAR:ToolTipNarsilAttack
 "Use to defeat Sauron \n left click to activate"
 END
@@ -46157,12 +46153,12 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Requires Level 2 \n Aragorn gains +100% Damage and +50% Armor \n Armor against structural damage +35% \n Left click to activate"
+"Requires Level 2 \n Aragorn gains +100% Damage and +50% Armor. \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipAragornLeadership
 "Requires Level 4 \n Allies near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability"
-END
+END.
 
 //Gandalf
 
