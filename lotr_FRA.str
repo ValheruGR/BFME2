@@ -13446,7 +13446,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Répare les structures \nClic gauche sur l'icône puis clic gauche sur la cible"
+"Répare 4000 santé-points de les structures \nClic gauche sur l'icône puis clic gauche sur la cible"
 END
 
 CONTROLBAR:Draft

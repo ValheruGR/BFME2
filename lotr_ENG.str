@@ -15019,7 +15019,7 @@ CONTROLBAR:Rebuild
 End
 
 CONTROLBAR:TooltipRebuild
-"Heals structures \n Left click icon then left click on target structures"
+"Heals 4000 health-points from any structure \n Left click icon then left click on target structures"
 End
 
 CONTROLBAR:Draft
@@ -45977,10 +45977,10 @@ CONTROLBAR:ToolTipAragornLeadership
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Cavalry near Eomer gain +50% Armor, \n and earn experience 50% faster \n \n Passive ability"
+"Cavalry near Eomer gain +50% Armor \n \n Passive ability"
 END
 
-CONTROLBAR:ToolTipGandalfLeadership
+CONTROLBAR:ToolTipGandalfLeadership //bfme1
 "Allies near Gandalf gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability"
 END
 
@@ -46068,7 +46068,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Allies near Theoden gain \n +50% Damage \n +25% Leadership \n \n Passive ability"
+"Allies near Theoden gain \n +50% Damage \n +25% experience \n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipGloriousCharge

@@ -13439,7 +13439,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Ripara le strutture.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Restituisce 4000 punti vita ad ogni struttura.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:Draft
