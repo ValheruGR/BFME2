@@ -28385,7 +28385,7 @@ CONTROLBAR:ToolTipToggleThranduilWeapons
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardLineToPorcupineFormation
-"Les unités forment un cercle de piques dressées \n +61% d'armure. \n Stoppe la cavalerie ennemie quand elle tente d'écraser les troupes"
+"Les unités forment un cercle de piques dressées \n +60% d'armure. \n Stoppe la cavalerie ennemie quand elle tente d'écraser les troupes"
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardPorcupineToLineFormation

@@ -28383,7 +28383,7 @@ CONTROLBAR:ToolTipToggleThranduilWeapons
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardLineToPorcupineFormation
-"Le unità formano un cerchio, con le picche verso l'esterno. \n+61% armatura \nLa cavalleria nemica viene rallentata mentre carica."
+"Le unità formano un cerchio, con le picche verso l'esterno. \n+60% armatura \nLa cavalleria nemica viene rallentata mentre carica."
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardPorcupineToLineFormation

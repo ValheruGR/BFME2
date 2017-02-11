@@ -28387,7 +28387,7 @@ CONTROLBAR:ToolTipToggleThranduilWeapons
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardLineToPorcupineFormation
-"La unidad forma un círculo con las picas extendidas. \n +61% armadura \n La caballeria enemiga se desacelera al pisotear."
+"La unidad forma un círculo con las picas extendidas. \n +60% armadura \n La caballeria enemiga se desacelera al pisotear."
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardPorcupineToLineFormation

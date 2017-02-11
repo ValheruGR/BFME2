@@ -28383,7 +28383,7 @@ CONTROLBAR:ToolTipToggleThranduilWeapons
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardLineToPorcupineFormation
-"Die Einheiten bilden mit erhobenen Speeren einen Kreis \n +61% Rüstung \n Gegnerische Reiter werden beim Aufprall verlangsamt"
+"Die Einheiten bilden mit erhobenen Speeren einen Kreis \n +60% Rüstung \n Gegnerische Reiter werden beim Aufprall verlangsamt"
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardPorcupineToLineFormation
