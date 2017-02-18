@@ -171,7 +171,12 @@
 		ModelConditionState = STONED 
 			Model			= MuCavTroll_SKN
 			Texture			= MuCavTroll.tga MUCavTroll_R.tga
-		End 		
+			Texture			= MuCavTroll.tga MUCavTroll_R.tga
+			Texture			= mucavtrolla1.tga MUCavTroll_R.tga
+			Texture			= mucavtrollb1.tga MUCavTroll_R.tga
+			Texture			= mucavtrollc1.tga MUCavTroll_R.tga
+			
+		End 				
 
 		AnimationState		= STONED
 			Animation			= Stoned
