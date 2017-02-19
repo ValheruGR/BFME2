@@ -35731,11 +35731,11 @@ DIALOGEVENT:MTrAdv_OffT025subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT026subtitle
-"*There’s one of their camps up ahead. We’ll have to rush them before they have a chance to retreat and warn any others. Issue an "Attack MOVE" order and that should take care of them."
+"*There’s one of their camps up ahead. We’ll have to rush them before they have a chance to retreat and warn any others. Issue an \"Attack MOVE\" order and that should take care of them."
 END
 
 DIALOGEVENT:MTrAdv_OffT027subtitle
-"*To issue an "Attack Move" order, select your army and press the A key on your keyboard. This will change your cursor to an Attack Move cursor."
+"*To issue an \"Attack Move\" order, select your army and press the A key on your keyboard. This will change your cursor to an Attack Move cursor."
 END
 
 DIALOGEVENT:MTrAdv_OffT029subtitle
@@ -35791,7 +35791,7 @@ DIALOGEVENT:MTrAdv_OffT052subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT053subtitle
-"*Now lets devise a plan to crush every last one of those nasty Goblins! First, I recommend "Attack Moving" with your cavalry at those Goblin Warriors in the northern most part of the base. Do so by selecting your cavalry, pressing A on your keyboard, and left clicking on the ground in the middle of those Goblins."
+"*Now lets devise a plan to crush every last one of those nasty Goblins! First, I recommend \"Attack Moving\" with your cavalry at those Goblin Warriors in the northern most part of the base. Do so by selecting your cavalry, pressing A on your keyboard, and left clicking on the ground in the middle of those Goblins."
 END
 
 DIALOGEVENT:MTrAdv_OffT054subtitle

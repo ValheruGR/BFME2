@@ -15079,7 +15079,7 @@ CONTROLBAR:ElvenWood
 End
 
 CONTROLBAR:ToolTipElvenWood
-"Creates lush terrain \n Allied units gain +50% Armor \n Left click icon then left click on target area"
+"Creates lush terrain \n Allied units gain double armor \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -16210,7 +16210,7 @@ CONTROLBAR:ToolTipSpecialAbilityGrabAndEatPassenger
 END
 
 CONTROLBAR:ToolTipSpecialAbilityIgnite
-"The Balrog gains +200% Damage and +50% Armor \n Left click to activate"
+"The Balrog gains double Damage and double Armor \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFlamingSword
@@ -16312,10 +16312,6 @@ CONTROLBAR:ToolTipElendil
 "Requires Level 6 \n Causes nearby enemy units to flee \n Left click to activate"
 END
 
-CONTROLBAR:Oathbreakers
-"Oathbrea&kers"
-END
-
 CONTROLBAR:ToolTipOathbreakers
 "Requires Level 10 \n Summons the Army of the Dead \n Left click icon then left click on pathable location"
 END
@@ -16338,10 +16334,6 @@ END
 
 CONTROLBAR:WarSpeech
 "War Speech"
-END
-
-CONTROLBAR:Leadership
-"Leadership"
 END
 
 CONTROLBAR:InspiringPresence
@@ -21015,9 +21007,6 @@ END
 LWA:FellowshipArmy
 "The Fellowship"
 END
-LWA:ElvesArmy
-"Elven Army"
-END
 LWA:EntsArmy
 "Ents"
 END
@@ -25143,14 +25132,6 @@ UPGRADE:MordorFireArrowUpgrade
 "Fire Arrows"
 END
 
-UPGRADE:WildFireArrowUpgrade
-"Fire Arrows"
-END
-
-UPGRADE:WildForgedBlades
-"Forged Blades"
-END
-
 TOOLTIP:LackLevel2Blacksmith
 "Requires Level 2 Blacksmith"
 END
@@ -26186,10 +26167,6 @@ CONTROLBAR:PurchaseUpgradeMenFortressBanners
 "Ba&nners"
 END
 
-CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Provides +25% damage and +25% experience to nearby troops \n Always stacks \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
-END
-
 CONTROLBAR:PurchaseUpgradeMenFortressHouseOfHealing
 "House of Healin&g"
 END
@@ -26434,10 +26411,6 @@ END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressBanners
 "Ba&nners"
-END
-
-CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Provides additional experience to nearby troops \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
@@ -27143,10 +27116,6 @@ END
 
 CONTROLBAR:ConstructElvenStatue
 "Build Hero&ic Statue"
-END
-
-CONTROLBAR:ToolTipElvenStatue
-"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack"
 END
 
 CONTROLBAR:ConstructElvenBattleTower
@@ -31627,10 +31596,6 @@ End
 
 OBJECT:ElvenTransportShip
 "Elven Transport Ship"
-End
-
-OBJECT:ElvenBombardShip
-"Elven Bombardment Ship"
 End
 
 OBJECT:ElvenBattleShip
@@ -38115,10 +38080,6 @@ DIALOGEVENT:MTrBas_OffT012subtitle
 "*In order to select multiple battalions quickly, click and hold the left mouse button down on empty space and drag your mouse.  A selection box will appear and any units that are in this box will be selected for you."
 END
 
-DIALOGEVENT:MTrBas_OffT013subtitle
-"*Select the battalions in that spotlight by using the selection box method."
-END
-
 DIALOGEVENT:MTrBas_OffT014subtitle
 "*Good job! Now, move those units up to the spotlight ahead by right clicking on the ground with them selected."
 END
@@ -38367,10 +38328,6 @@ DIALOGEVENT:MTrBas_OffT072subtitle
 "*And lastly, we’ll need a Hero to lead our troops. Heroes can be purchased from the Fortress. And if your Hero should fall in battle, they can be revived from the fortress as well."
 END
 
-DIALOGEVENT:MTrBas_OffT073subtitle
-"*To summon a Hero, select your fortress and click on the Heroes button. This will bring up options of all the current Heroes you’re allowed to build. Right now our Boromir is residing in our fortress."
-END
-
 DIALOGEVENT:MTrBas_OffT074subtitle
 "*Click on his portrait to summon him."
 END
@@ -38459,10 +38416,6 @@ DIALOGEVENT:MTrAdv_OffT010subtitle
 "*Excellent! Now let's have our army form up into a battle line."
 END
 
-DIALOGEVENT:MTrAdv_OffT011subtitle
-"*In order to do this, select multiple battalions and move your cursor over to the spotlight below."
-END
-
 DIALOGEVENT:MTrAdv_OffT012subtitle
 "*Now press and hold both the right and left mouse buttons and drag your mouse. You’ll notice that a Formation Preview will display on the ground. Once you release the mouse buttons,  your units will form up into this battle line."
 END
@@ -38527,10 +38480,6 @@ DIALOGEVENT:MTrAdv_OffT027subtitle
 "*To issue an \"Attack Move\" order, select your army and press the A key on your keyboard. This will change your cursor to an Attack Move cursor."
 END
 
-DIALOGEVENT:MTrAdv_OffT028subtitle
-"*Then, right click on the ground in the spotlight behind the camp. This will send your army on a path of destruction to that point, killing every enemy they encounter."
-END
-
 DIALOGEVENT:MTrAdv_OffT029subtitle
 "*It appears as though some of the Goblins have retreated over that wall. Unfortunately Goblins are able to scale walls by climbing them whereas we are not. Nor do we have any siege weapons to take down those walls quickly."
 END
@@ -38539,60 +38488,12 @@ DIALOGEVENT:MTrAdv_OffT030subtitle
 "*We’ll have to call in for greater powers to help us progress any farther."
 END
 
-DIALOGEVENT:MTrAdv_OffT031subtitle
-"*At your disposal is a list of Powers that can be purchased from the Evenstar icon located on the Palantir. Click on the Evenstar icon now."
-END
-
-DIALOGEVENT:MTrAdv_OffT032subtitle
-"*As you can see, all the Powers are tiered, which means you have to purchase the lower costing Powers in order to access the more expensive ones."
-END
-
-DIALOGEVENT:MTrAdv_OffT033subtitle
-"*In order to purchase a Power, you must have power points equal to or greater than the number associated with that power."
-END
-
-DIALOGEVENT:MTrAdv_OffT034subtitle
-"*Go ahead and purchase the Arrow Volley and Earthquake powers. They are currently the only ones available to buy."
-END
-
 DIALOGEVENT:MTrAdv_OffT035subtitle
 "*To exit, click on the Accept button at the bottom of the screen."
 END
 
-DIALOGEVENT:MTrAdv_OffT036subtitle
-"*Every time you buy a new power, it will appear on the left hand side of your screen just above the Palantir."
-END
-
-DIALOGEVENT:MTrAdv_OffT037subtitle
-"*Now back to the battle. First let’s take down those Goblins taunting us from the other side of the wall. Left click on the Arrow Volley power and move your cursor over the goblins. "
-END
-
-DIALOGEVENT:MTrAdv_OffT038subtitle
-"*To cast the power, left click on the ground."
-END
-
-DIALOGEVENT:MTrAdv_OffT039subtitle
-"*To cast the power, left click on the ground."
-END
-
-DIALOGEVENT:MTrAdv_OffT040subtitle
-"*That got ‘em good! Keep in mind that certain powers such as Arrow Volley can only be cast in areas that are visible to you."
-END
-
 DIALOGEVENT:MTrAdv_OffT041subtitle
 "*Now to get past this wall. Unfortunately the gate is in disrepair and cannot be opened, so we’ll have to destroy these walls."
-END
-
-DIALOGEVENT:MTrAdv_OffT042subtitle
-"*The Earthquake power will deal a significant amount of damage to these walls and should be enough to clear our path. "
-END
-
-DIALOGEVENT:MTrAdv_OffT043subtitle
-"*Left click on the Earthquake power now and left click underneath those walls to cast it."
-END
-
-DIALOGEVENT:MTrAdv_OffT044subtitle
-"*Left click on the Earthquake power now and right click underneath those walls to cast it."
 END
 
 DIALOGEVENT:MTrAdv_OffT045subtitle
@@ -38649,10 +38550,6 @@ END
 
 DIALOGEVENT:MTrAdv_OffT057subtitle
 "*When you’re plan has been laid out, hit the execute button and your army will march forth with their orders."
-END
-
-DIALOGEVENT:MTrAdv_OffT058subtitle
-"*We’re winning M’Lord, but their fortress is killing our army. Use your earthquake power again on their Fortress and it should take down their defenses!"
 END
 
 DIALOGEVENT:MTrAdv_OffT059subtitle
@@ -42024,10 +41921,6 @@ CONTROLBAR:ToolTipCAH_ShieldCrush_L3
 "Hero can crush enemies and is immune to arrows for a medium duration"
 End
 
-CONTROLBAR:HeroToggleHorse
-"Allows Hero to mount a horse"
-End
-
 CONTROLBAR:ToolTipCAH_Starlight
 "Nearby allies become healed and gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast."
 End
@@ -45100,10 +44993,6 @@ CREDITS:MPEGNotice
 "MPEG Layer-3 audio coding technology licensed from \n Fraunhofer IIS and THOMSON multimedia."
 END
 
-CREDITS:Miles
-"Uses Miles Sound System. \n Copyright © 1991-2006 \n by RAD Game Tools, Inc."
-END
-
 
 CREDITS:DevelopmentTitle2
 "The Battle for Middle-earth(tm) II"
@@ -45948,10 +45837,6 @@ CONTROLBAR:TooltipDwarvenRiches
 "Selected structure's resource output is temporarily raised to 300% \n Left click icon then left click on target resource structure"
 END
 
-CONTROLBAR:ToolTipTaint
-"Taints an area of terrain \n All ally units gain +50% Armor \n Left click icon then left click on target area"
-END
-
 CONTROLBAR:TooltipPalantirVision
 "Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area\n Always stacks \n \n Left click icon then left click on target area"
 END
@@ -45968,18 +45853,6 @@ END
 
 //Powers
 
-CONTROLBAR:ToolTipBoromirLeadership
-"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience 25% faster."
-END
-
-CONTROLBAR:ToolTipAragornLeadership
-"Requires Level 4 \n Allies near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability"
-END
-
-CONTROLBAR:ToolTipEomerLeadership
-"Cavalry near Eomer gain +50% Armor \n \n Passive ability"
-END
-
 CONTROLBAR:ToolTipGandalfLeadership //bfme1
 "Allies near Gandalf gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability"
 END
@@ -45987,7 +45860,7 @@ END
 //Fortress upgrades
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster \n Always Stacks \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster \n Always Stacks \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
@@ -45995,10 +45868,6 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
 END
 
 //Buildings
-
-OBJECT:HeroicStatueDescription
-"Allies near the Statue gain \n +25% Damage \n and earn experience 25% faster \n \n Increases command point limit by 10"
-END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
 "Allows battalions to purchase Banner Carrier upgrade \n Enables Shield Wall Formation for soldiers"
@@ -46127,7 +45996,7 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Requires Level 3 \n Cavalry near Eomer gain \n +50% Armor \n \n Passive ability"
+"Requires Level 3 \n Cavalry near Eomer gain double Armor \n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -46153,12 +46022,12 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Requires Level 2 \n Aragorn gains +100% Damage and +50% Armor. \n Left click to activate"
+"Requires Level 2 \n Aragorn gains +100% Damage and double Armor. \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipAragornLeadership
-"Requires Level 4 \n Allies near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability"
-END.
+"Requires Level 4 \n Allies near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n always stacks \n \n Passive ability"
+END
 
 //Gandalf
 
@@ -46204,32 +46073,13 @@ END
 
 //Powers
 
-CONTROLBAR:ToolTipElrondFarsight
-"Reveals an area of the map \n Left click icon then left click on target area"
-END
-
-CONTROLBAR:ToolTipElrondRestoration
-"Requires Level 10 \n Heals 20% health points of nearby allies and fully refreshes their special ability timers \n Left click to activate"
-END
-
-CONTROLBAR:TooltipElrondWhirlwind
-"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
-End
-
-CONTROLBAR:ToolTipPersonalFlood
-"Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective to cavalry. \n Bonus against Black Riders \n\nLeft click icon then left click on target"
-END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, +50% Armor \n \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n \n Left click to activate" 
+"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, double armor \n \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n \n Left click to activate" 
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
 "Requires Level 3 \n Glorfindel gains +50% Damage and Invulnerability for 10s \n Can only use when dismounted \n\n Left click to activate"
-END
-
-CONTROLBAR:TooltipElrondLeadership
-"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipArrowWind
@@ -46371,7 +46221,7 @@ CONTROLBAR:ElrondRestoration
 END
 
 CONTROLBAR:ToolTipElrondRestoration
-"Requires Level 10 \n Heals nearby allies and fully refreshes their special ability timers \n Left click to activate"
+"Requires Level 10 \n Heals 20% health points of nearby allies and fully refreshes their special ability timers \n Left click to activate"
 END
 
 CONTROLBAR:ElrondWhirlwind
@@ -46398,11 +46248,11 @@ END
 
 
 OBJECT:DwarvenStatueDescription
-"Allies near the statue gain \n +50% Armor \n Increases command point limit by 10"
+"Allies near the statue gain \n double armor \n Increases command point limit by 10"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Allies near Fortress gain \n +50% Damage and 25% experience \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Allies near Fortress gain \n +50% Damage and 25% experience \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
@@ -46426,7 +46276,7 @@ CONTROLBAR:ToolTipBlackArrows
 End
 
 OBJECT:DwarvenHeroicStatueDescription
-"Allies near the Statue gain \n +50% Armor \n \n Increases command point limit by 10"
+"Allies near the Statue gain double Armor \n \n Increases command point limit by 10"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade
@@ -46492,7 +46342,7 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Allies near Gimli gain \n +50% Armor\n \n Passive ability"
+"Allies near Gimli gain double Armor\n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipAxeThrow
@@ -46560,7 +46410,7 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Taints an area of terrain \n All ally units gain 50% Armor \n Left click icon then left click on target area"
+"Taints an area of terrain \n All ally units gain double Armor \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipEyeofSauron
@@ -46596,7 +46446,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Requires Level 8 \n Kill target enemy which restores Sharku's health and temporarily grants +50% Damage and +50% Armor \n Left click icon then left click on target enemy"
+"Requires Level 8 \n Kill target enemy which restores Sharku's health and temporarily grants +50% Damage and double armor \n Left click icon then left click on target enemy"
 END
 
 //=== Heroes
@@ -46692,7 +46542,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Allies near the Drummer Troll gain +50% Armor +25% experience \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster\n Passive ability"
+"Allies near the Drummer Troll gain double armor and +25% experience \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster\n Passive ability"
 END
 
 //Structures
@@ -46770,7 +46620,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy
 End
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +50% Armor and +25% experience bonus to nearby allies \n Left click icon then left click on target area"
+"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides double armor and +25% experience bonus to nearby allies \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
