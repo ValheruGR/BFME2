@@ -1,0 +1,179 @@
+Battletest2 DC - Multiplayer Balance Changelog
+Version 5 Consolidation - 05/01/07
+_____________________________________________________________________
+
+Global:
+
+(1)- Hobbit Sheriff now more vulnerable to trample (75/45% was 30/20%) and cavalry (140/100% was 100/40%), sword attack now 'cavalry' damage type
+(2)- Wildmen damage reduced to 30 (from 40), summon power reduced to 3 hordes (from 4)
+(3)- Some mid-game heroes (Eomer, Faramir, Sharku and King Dain) now cost 1500
+(4)- All fortresses built-in towers damage reduced to 40, 60 vs cavalry (from 75)
+(5)- All unarmored pikes now take 25% less damage from siege and 240% from slash (Tower Guard and Mithlond Sentry slash resistance unchanged)
+(6)- Basic resource buildings production increase +20/35% (was +25/50%), population bonus 50/75 (was 25) for levels 2/3 respectively; Resource Penalty with 6 resource buildings reduced to -10% (was -15%)
+(7)- All advanced arrows unlocking upgrades (except for Eregion Forge) and research costs now 600, buildtimes 30s, equip costs increased by 100
+(8)- All heroes now take approximately 20% less experience to level up to 5 and above
+(9)- All artillery units bombard mode now has 1200 range, 12s reload, 75% damage falloff
+
+_____________________________________________________________________
+
+MotW:
+
+(10)- Soldier of Gondor damage vs structures reduced by 17.5%, now takes 105% damage from poison (was 100%) 
+(11)- Aragorn athelas now heals 1000 hitpoints (was 2000), blademaster +50% bonus vs structures removed
+(12)- Boromir's horn fear duration reduced to 10s (was 15s), attack hero-knockdown chance reduced to 15% (was 25%)
+(13)- Ivori Tower map reveal recharge now 4m30s (was 2m30s)
+(14)- Stables cost now 500 (from 600)
+
+Elves:
+(15)- Giant Eagle now takes 45% from pierce and 55% from cavalry-ranged, health 3400 (was 4000), buildtime 2m30s (was 1m), summon duration 40s (was 2m), attack now has a -70% damage penalty vs towers
+(16)- Farsight power reload reduced to 1m40s (was 3m)
+(17)- Elrond speed 70 (was 65), elven grace heal amount 1000 (was 600) and now affects heroes and infantry next to him
+(18)- Ent buildcost now 800 (was 1000)
+(19)- Armored Lorien Warriors now take 65% (was 45%) from cavalry, 20% (was 9%) from magic and 98% from cavalry (was 84%) damage types
+
+Dwarves:
+(20)- Dwarven Guardian take 83/35% from pierce (was 75/30%), siege hammers damage 56 (was 80)
+(21)- Gimli slayer attack damage vs forts halved
+(22)- BattleWagon MoD damage against pikes reduced by 50%, oil barrel minimum decay now 23.5 (from 1.5)
+
+Isengard:
+(23)- Palantir vision duration 1m10s (was 2m), vision range 900 (was 1000)
+(24)- Dragonstrike damage vs fortress halved
+(25)- Warg Rider upgraded weapon bonus vs structures reduced to +50% (was +100%)
+(26)- Saruman hitpoints reduced to 2000 (was 3000), fireball logical-fire radius reduced to 30 (was 40), attack knockback chance against heroes now 25% (from 100%)
+(27)- Sharku buildtime 50s (was 70s), health 2250 (from 3000)
+(28)- Furnace health increased to 980 (was 750)
+
+Mordor:
+
+(29)- Mordor Orcs horde bonus now works with just 3 hordes (was 5), check radius 250 (was 160) and also affects haradrim lancers
+(30)- Mumakil cost reduced to 1500 (was 1800), now takes 10% (was 50%) damage from logical-fire
+(31)- Nazgul Rider crush deceleration percentage now 5 (was 4), minimum crushing velocity 56 (was 58), mount toggle now takes 4s (was 1.4s)
+(32)- Corsair fire bomb damage bonus vs structures now +50% (from +100%) and fire decay now 20 (was 16), sword now has a 20% damage bonus vs phalanxes
+(33)- Gorgoroth spire range 1200 (was 2000), damage type now only fire (was siege+fire), recharge 7m (was 5m)
+(34)- Witchking hitpoints reduced to 6700 (was 8000), healing rate now 32 health/s (was 25 health/s), mounted armor 20% stronger vs all damage types
+(35)- Unarmored Haradrim Archer now takes 80% pierce (was 100%), barbed arrows reload now 4s (was 6s)
+(36)- Soldier of Rhun now take 100% from uruk damage (was 50%) and 60/30% from poison damage (was 50/25%)
+(37)- Mountain Trolls now take 70% (was 100%) damage from pierce, buildtime 40s (was 45s)
+
+Goblins:
+
+(38)- Goblin warrior now take 47/17% specialist damage (was 50/20%), and 125/10% from pierce (was 125/30%)
+(39)- Goblin Archer speed 55 (was 45), base attack range 330 (was 275), pierce damage 26 (was 20), flame damage 30 (was 20)
+(40)- Marauders with heavy armor now take 60% (was 150%) damage from slash
+
+_____________________________________________________________________
+
+Create-A-Hero Changes:
+
+1) Armor attribute points reduced to 5%(1 point) thru 52%(20 points)
+2) Base health Reduced to 800 from 2300, base damage reduced to 50
+3) Vision multiplier now ranges from 0.25(lvl1) to 8.00(lvl 20)
+4) Increased wizard blast damage to 200/300/ 500 from 80/150/250
+5) Increased word of poultry range to 100/150 from 50/100, recharge time reduced to 180 seconds (from 240 seconds)
+6) Reduced blademaster boni to 150% damage, 25% armor (from 200% damage, 50% armor)
+7) Berserker/battle rage armor boni reduced to 25/30/35/40 (from 50/45/40/35), damage multiplier decreased to 125/150/175/200% (from 150/175/200/225%), speed buff added120/140/160/180% rechargetime reduced to 120 seconds from 180
+8) Tornado lifetime reduced to 7/14/21s (from 10/20/30 s)
+9) Train allies recharge time reduced to 60 seconds (from 240 seconds)
+10) Elendil and Screech powers recharge time reduced to 120 seconds (from 180 seconds)
+11) Wizard/archer true sight power recharge time reduced to 30 seconds (from 60)
+12) Word of power recharge time reduced to 270 s (from 360)
+13) Curse enemy recharge time decreased to 60 seconds (from 300 seconds)
+14) Oil Fire recharge time reduced to 180/150/120 (from 180/180/180)
+15) Coerce power rechargetime increased to 240 seconds (from 60)
+16) Starlight recharge time increased to 240 seconds (from 180 seconds)
+17) Heroic charge recharge time increased to 180 seconds (from 60 seconds)
+18) Howl of rage armor boni changed to 20/40/60 (from 75/50/25)
+19) Troll class spendable points decreased to 15 (from 25), now gets area-of-effect and knockback with default attack
+20) Wizard class spendable points increased to 30 (from 25), vision base attribute enhanced by 5
+21) Selfheal now heals only 1/20th(lvl1) to 1/10th(lvl2) hp, rechargetime reduced to 5 seconds
+22) Earthshaker rechargetime increased to 120s (from 60s)
+23) Summon Reinforcements timer reduced to 180 seconds for heroes of the west
+24) Archer Specialization now adds a small area-of-effect damage at level 4
+25) Assassin damage reduced to 1000/2000/3000/4000 from 2000-10000.
+26) Custom heroes now get 2 additional damage per level (4 on level 10), 30 additional health on level 2 and 3, 40 on level  4 and 50 on levels 5 thru 10
+27) Custom heroes leveling changed to 100/300/500/700/900/1100/1300/1500/1700 (from 100/200/300/400/500/700/900/1100/1400)
+
+_____________________________________________________________________
+
+Extras:
+
+*- Conquest Mode support and maps added. Read conquest-readme.txt file for playing instructions.
+*- Multiple AI improvements and bugfixes, should now mix better and use many more special abilities and upgrades
+
+_____________________________________________________________________
+
+Bug Fixes:
+
+*- Fixed Shelob Speed bug (now properly 80)
+*- Mountain Giant not healing on level 2 fixed
+*- Fortress Fire Drake not healing fixed
+*- Goblin King attack exploit fixed
+*- Rohirrim splash attack no longer damage friendly units
+*- Summoned rangers no longer cost command points
+*- Fixed Dwarven and Elven statues fear resistance LD, now properly works against terror
+*- Fixed Porters vulnerability to logical-fire
+*- Heroes with attack damage delay fixed: Goblin King
+*- Fire Drake Inferno radius fixed
+*- Fixed Arwen and Glorfindel not starting mounted
+*- Inn and signal fire armors fixed, now properly "structurearmor"
+*- Fixed outer wall hubs not being buildable everywhere
+*- Fixed all Hold ground stances vision bug
+*- Fixed Warchant LD graphics (now properly solid glow instead of hollow)
+*- Fixed Motw statue and Gorkil LD graphics (now properly sparking glow instead of solid)
+*- Fixed King Dain fear resistance LD, now properly works against terror
+*- Barbed Arrows button multi-selection fixed
+*- Fixed Haradrim archer barbed arrows reliability
+*- Elven Warriors weapon upgrades fixed
+*- Fixed wildmen torches upgrade killing own units
+*- All flyers logical-fire vulnerability bug fixed
+*- Tom Bombadil leadership bug fixed
+*- Fixed artillery hold ground stance - now properly still attacks but doesn't move
+*- Fixed Wormtongue speed, now properly 62 instead of 55
+*- Fixed MotW banner being crushable
+*- Fixed Outpost armor, now properly fortressarmor
+*- Fixed summoned barrow wights giving experience
+*- Fixed the Ranger longshot ability, no longer locks the normal attack
+*- Fixed map list to include "Tolfalas" and "Dark Island"
+*- Fixed Troll lair treasure chests being unpickable in Fords of Isen II
+*- Mordor barricade fire damage bug vs structures fixed
+*- Battlewagon upgrades weapons no longer shoot from inside a tunnel
+*- Elven and Dwarven fortresses wall hub expansion armors fixed, now properly fortressexpansionarmor
+*- Fixed hero spell damage bonuses vs Drogoth
+*- All heroes bounty values fixed
+*- Mirkwood archer attack rate bug with silverthorn arrows fixed
+*- Cave Troll now properly heals on level 4
+*- Palantir pictures for Elven Warrior and Peasants fixed
+*- Mordor barricade expansion lack of armor fixed, now properly FortressExpansionArmor
+*- Elven Warrior multiple missing voice events fixed
+*- Armored Mordor Easterling siege vulnerability fixed (now properly 50% instead of 100%)
+*- Create-a-Hero Glorious Charge affecting infantry units fixed
+*- MoTW Create-a-Hero spendable points fixed, now properly 28 instead of 30
+*- Selfheal level 2 having a healing radius fixed
+*- Shelob regeneration rate fixed, now properly 30/s (instead of 50/s)
+*- Hero poison abilities working on eagles and fellbeasts fixed
+*- Saruman and Gandalf experience gain rates and buildtime bug fixed
+*- Removed Legolas voice calling Aragorn and Gimli for help when about to die
+*- Fixed Aragorn default attack radius
+*- Unmounted nazgul rider firing duration exploit fixed
+*- Wildmen disabled upgrade buttons removed
+*- Men Statues and Goblin King staffs no longer have to be destroyed to win a game
+*- Fixed bug with Mordor Tavern not being sellable before level 3
+*- Corsair firebomb double-attack exploit fixed
+*- Pike-units porcupine formation crush revenge damage fixed
+*- Gloin bounty fixed (now properly 330 from 30)
+*- Thranduil deadeye exploit fixed
+*- Goblin warrior double experience award bug fixed
+*- Glorfindel mount switch being enabled with Blade of Purity active fixed
+*- Glorfindel revival times fixed, now properly 90, 180 and 270 seconds on first, second and third level stage respectively
+
+*- Multiple hero bounty values fixed
+*- Xbowmen double-reload attack speed bug with bombard fixed
+*- Elven AI not building TreeBeard fixed
+*- Sharku now properly defined as cavalry (instead of infantry)
+*- Fixed bug with Postern Gates, Gates and some regular Wall Hubs being attackable by non-siege weaponry
+*- Level 10 Fire Drake not healing fixed
+*- Fixed bug with warg sentries not trampling infantry
+*- Battlewagon Men of dale and axe throwers fire-on-move breakups fixed
+*- Dwarven Postern Gate not having an armor fixed
+

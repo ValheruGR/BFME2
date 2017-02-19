@@ -1,0 +1,69 @@
+Battletest2 DC Changelog
+Version 2.0 - 08/14/07
+
+Changes from previous Version (1.7):
+
+*- Freezing Rain now cancels High Level leadership on top of the -25% armor -25% damage debuff to all enemy units; doesn't affect hero abilities
+*- All artillery weapons (except for Trolls' ranged weapons) now have a 17% longer range
+*- All swordsmen crush revenge now slash, Lorien Warriors and Uruk-hai crush revenge damage 40 (from 10), Gondor Soldier and Elven Warrior 60 (from 20)
+*- Inn Corsairs cost 250 (was 200), starting level 2 (was 3)
+*- Hobbit speed reduced from 62 to 54, health 160 (was 200), -30% attack penalty vs unit production buildings.
+*- Elven Warrior commandpoint cost 60 (from 40), buildtime 47s (was 40s)
+*- Balrog summon explosion now deals 100% damage on center (60% radius) and 60% damage on perimeter
+*- Wildmen torch weapon flame damage now 40 (was 60), 8 vs cavalry
+
+*- Gloin level 10 Shatterhammer area of effect radius 210 (from 250), recharge time now 2m45s (from 2m).
+*- Battlewagon Men of Dale weapon now has a -10% damage penalty vs Cave Trolls.
+*- Dwarven Guardian now takes 67/37% damage from poison (was 60/30%)
+
+*- Gondor Soldier Banner Carrier upgrade cost now 350 (was 400)
+*- Faramir bow pre-attack delay now 350 ms (from 1170 ms), wounding arrow recharge time now 35s (from 40s)
+- Gandalf Wizard Blast bonus against infantry +50% (was +150%); Istari light damage 30% weaker against fliers, 50% higher against ground heroes, and no more damage bonus against Faramir, Legolas, King Dain, Mouth of Sauron, WormTongue and Shelob
+*- Ivory Tower recharge time now 5m15s (from 6m)
+*- Ent melee and ranged weapons damage reduced by 25% against forts, now takes 33% damage from siege (was 100%), population cost now 30 (was 50)
+*- Summoned Rangers now have the longshot ability available
+*- Marketplace cost 500 (was 1500), Grand Harvest production bonus +15% (was +10%), Iron Ore reduces heavy armor and forged blades upgrade costs by 33% (was 25%).
+
+*- Sunflare recharge time 11m (from 12m)
+*- Mithlond Sentry now takes 45% from poison unarmored (was 50%), buildtime 40s (was 42s).
+*- Mirkwoods pierce damage reduced by 20% vs all non-hero cavalry units, now have a 60-unit radius minimum attack range
+*- Legolas knife fighter now gives +50% armor (was +20%).
+*- Arwen damage penalty vs buildings -20% (was -30%).
+*- Haldir Golden arrow damage halved vs air units, recharge increased to 2m30s (from 1m30s)
+*- Thranduil bow attacks can no longer be dodged
+*- Giant Eagle plow attack now 40% weaker vs heroes
+
+*- Saruman wizard blast damage reduced to 650 from 750 (originally 500), health 2400 (was 2000), lightnight bolt bonus vs heroes reduced to 2.5x damage (was 3.5x)
+*- Crossbowmen base armor now takes 77% (was 85%) from pierce, 45% (was 50%) from poison, unupgraded weapon now has a +25% damage bonus against fellbeasts
+*- Isengard summon dragon +75% damage scalar vs heros
+*- Warg sentry cost 400 (was 350), comes with two wargs (only one can be unleashed/rebuilt) and wargs now uses the trample attack much more often
+*- Uruk warrior unarmored now takes 105% (was 110%) from poison damage
+*- Wormtongue venemous words recharge now 1m50s (was 1m30s)
+
+*- Orc Archer unupgraded weapon damage bonus vs Uruks reduced to 20% (was 40%)
+*- Nazgul now has a -25% damage penalty to structures, and takes 90% damage from structural (was 100%)
+*- Mountain troll rock damage reduced by 20% vs structures, 13% (was 15%) from slash, 30% (was 50%) from cavalry, and 43% (was 50%) from structural, 50% (was 55%) from pierce
+*- Soldier of Rhun now takes 175/45% (was 100/25%) from Uruk type dmg.
+*- Fellbeast health 7000 (from 6000), plow damage against structures 500 (from 375)
+*- Witchking on Fellbeast plow damage against structures 500 (from 375)
+*- Corsairs now takes 85% (was 75%) from crush and cavalry, price decrease bonus from multiple taverns reduced (minimum cost now 300 instead of 240)
+*- Barrow Wight now drains 35% health from the damage dealt (was 50%)
+
+*- Fissure tier3 upgrade cost now 1000 (from 1500), buildtime now 40s (from 35s)
+*- Shelob now takes 10% from pierce (was 15%), Stinger poison now deals 200 damage along 30s (was 300 damage / 30s). Total damage 6000 from 9000.
+*- Goblin Warrior horde experience award reduced by 25%
+*- Goblin cave health 1900 (was 1500)
+*- Goblin King Stinger poison now deals 80 damage along 25s (was 100 damage / 30s). Total damage 2000 from 3000.
+*- Cave Troll now takes 18% (was 25%) from cavalry ranged, 49% (was 52%) from pierce and 90% (was 100%) vs flame/magic
+*- Fire Drake can no longer trample, crush revenge damage now 250 specialist (only trample-able by Mumakil still)
+
+Bugfixes:
+*- Fissure level2 upgrade buildtime now properly 20s (from 30s)
+*- Isengard Furnaces now properly have the population bonuses on levels 2 and 3
+*- Crossbows firing-lag bug vs fast moving units fixed
+*- Fixed bug with Mirkwood and Lancers horde healing, now properly 3 health per 2s pulse (instead of 10 health)
+*- Mordor Fortress repair rate fixed
+*- Spider Riders venom sword friendly damage fixed
+*- Warg Sentry and Dwarven Lone Tower no longer has to be destroyed for victory
+*- Freezing Rain FX fixed
+*- Fire Drake default attack not being usable on maximum range fixed

@@ -1,0 +1,58 @@
+Battletest2 DC Changelog
+Version 1.6 - 06/09/07
+
+Changes from previous Version (1.5):
+
+*- All crush revenge weapons are now guaranteed to hit the trampling units, and have a 11.5 splash radius
+
+*- Elven Warrior now deal 40% less damage against cavalry
+*- Gondor Fighter buildtime now 24s (from 20s)
+*- MotW archery Range buildtime now 15s (from 30s)
+
+*- Gandalf wizard blast damage 2.5 times higher against enemy infantry, non-hero units, istari light damage now against heroes now 150% (from 85%)
+*- Aragorn regular weapon splash radius now 12 (from 10)
+*- Hobbit sword attack now 35% weaker vs structures (70% weaker vs fortresses), speed now 62 (was 40), buildtime 30s (was 40s)
+
+*- Arwen damage vs structures reduced by 30%, damage against cavalry increased by 25%
+*- Elrond damage vs heroes doubled
+*- Fortress Eagle build time now 1m45s (was 2m30). Eagle now takes 40% from pierce (was 45%) and 55% from structural (was 50%)
+*- Flood power damage vs forts reduced by 29%
+*- All Silverthorn arrows (except the elven tower ones) now deal only deal 12.5% magic damage to cavalry
+*- Peasants speed now 50 (from 42)
+
+*- Wargs now take 42% (was 50%) from arrows, 18% (from 25%) with armor
+*- Berserker health now 1000 (from 800), splash radius 20 (from 15)
+*- Fuel the Fires economy buff now +60% (from +50%)
+*- Sharku default attack preattack delay now 625ms (from 1.25s) and has splash damage (11 units radius)
+*- Saruman Level 10 ability (Lightning Bolt) now 3.5 times stronger vs heroes
+*- Inn Corsairs (Isengard) now start on rank 3
+*- Summon Dragon now lasts 1m10s (from 1m), speed 75 (from 60), turning time 2s (from 5s)
+*- Dragon Strike total damage against fortresses now 3285 (was 2555)
+
+*- Gimli slayer damage bonus now +50% (from +100%)
+*- Axe Thrower's now have +50% damage bonus vs cavalry (+30% with forged blades)
+*- Summon Citadel now has a mighty catapult by default (instead of a catapult), vision range doubled, recharge time now 9m (from 6m)
+*- Mighty Catapult shot reload time now 6m (from 5m)
+
+*- Mordor's Mountain Troll now takes 55% damage from pierce (from 70%), 50% from structure (was 25%)
+*- Corsair firebomb pre-attack delay now 222ms (from 444ms)
+*- Troll Cage buildcost now 600 (from 750)
+*- Drummer Troll now takes 5% from pierce (was 15%), attack metaimpact now has a 15% chance of affecting heroes
+*- Haradrim Archer barbed arrow pre-attack delay now 400ms (from 800ms)
+*- Barbed Arrows equip cost now 150 (from 300), pre-attack delay now 400ms (from 800ms)
+*- Mordor fortress Gate Watcher expansion now has 2500 hitpoints (was 1500)
+*-
+ Haradrim Lancers now have a +70% damage bonus vs heroes
+
+*- Goblins Fissure level 2 upgrade time now 35s (from 60s)
+*- Mountain Giant now takes 10% from slash (was 65%) and 100% (was 200%) from hero and hero ranged; stomp now has 200 damage (was 1000) and has a 15% chance of affecting heroes
+*- Inn Wildmen (Goblins) now cost 150 (was 300), buildtime 25s (was 35s)
+
+
+
+Bug Fixes:
+*- Summoned ents attacking before anim complete fixed
+*- Ents and Treebeard not being able to fire over targets fixed
+*- Silverthorn arrows death animations now always play properly
+*- Fixed bug in that quickly moving and attacking with corsair firebombs would reset the reload time
+*- Fixed bug with Dragon Strike sometimes "sticking over" fortresses until destroying it

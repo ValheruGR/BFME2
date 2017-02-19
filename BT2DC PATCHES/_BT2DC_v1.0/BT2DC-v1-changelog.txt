@@ -1,0 +1,30 @@
+Battletest2 DC Changelog
+Version 1.0 - 11/30/06
+
+Changes from previous Beta "G" Iteration:
+
+*- All artillery units bombard mode now have 1200 range, 12s reload, 75% damage falloff
+*- Mithlond Sentry vulnerability to slash reset (200% from 240%)
+*- Soldier of Rhun vulnerability to uruk increased (100% from 50%)
+*- Corsair firebomb decay now 23 (from 25)
+*- Saruman fireball logical-fire radius 30 (from 25)
+*- Marketplace cost restored (nobody use it still, just a waste of a change)
+*- Gorgoroth spire damage restored to 2000, now only deals fire damage (from siege + fire), inner radius now 100 (from 50)
+*- Transport ships speed increased (120 from 70)
+*- Cave Trolls now more resistant to hero (150% from 200%), more vulnerable to pierce (42% from 33%) and structural (20% from 10%)
+*- Ivori Tower map reveal recharge now 6m (from 2.5m)
+*- All tier1 archers, except for the Lorien Archer, now have a 25% pierce bonus vs fliers
+*- Eagle now takes 45% from pierce and 55% from cavalry-ranged (from 20%), fire vulnerability restored to 30%
+
+Extras:
+
+*- Conquest Mode support and maps added. Read conquest-readme.txt file for playing instructions.
+
+Bug Fixes:
+
+*- Corsair firebomb attack and stance modifier fixed
+*- Pike-units porcupine formation crush revenge damage fixed
+*- Gloin bounty fixed (now properly 330 from 30)
+*- Create-a-hero levelup health and damage bonuses now work properly
+*- Thranduil deadeye exploit fixed
+

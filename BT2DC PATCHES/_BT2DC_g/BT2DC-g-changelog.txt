@@ -1,0 +1,33 @@
+Battletest2 DC Changelog
+Iteration "G" - 11/18/06
+
+Changes:
+
+*- Nazgul mount/unmount toggle now takes 4s (from 5s)
+*- Gorgoroth Spire attack range now 1200 (from 650)
+*- Mordor Orcs horde bonus now works with just 3 hordes (from 5), check radius 250 (from 160), damage bonus now +33% (from +55%), also affect haradrim lancers
+*- Corsair delay between shots restored to 5.5s, fire decay now 25 (from 16)
+*- Witchking health now 6700 (from 6400), healing rate now 32 health/s (from 25 health/s)
+*- Mumakil cost reduced to 1500
+*- Gondor Soldier damage 33/75 (from 40/90)
+*- Cave Troll heal now comes on level 4
+*- All pike-type units that had their health reduced got it restored
+*- All pike-type units now take 240% from slash, except for the Tower Guard (still 200%)
+*- Furnace health now 980 (from 1100)
+*- Artillery hold ground stance restored to original settings (no speed nerf, won't attack)
+*- Guardian now takes 85/35% pierce (from 95/40%)
+*- Gimli slayer attack damage vs forts halved
+
+Bug Fixes:
+
+*- Shelob regeneration rate fixed, now properly 30/s (instead of 50/s)
+*- Hero poison abilities working on eagles fixed
+*- Saruman and Gandalf experience gain rates and buildtime bug fixed
+*- AI not building resource buildings on Dark Island fixed
+*- Statues and Dain´s stubborn pride terror resistance fixed (for real)
+*- Removed Legolas voice calling Aragorn and Gimli for help when about to die
+*- Fixed Aragorn default attack radius
+*- Unmounted nazgul rider firing duration exploit fixed
+*- Wildmen disabled upgrade buttons removed
+*- Men Statues and Goblin King staffs no longer have to be destroyed to win a game
+*- Fixed bug with Mordor Tavern not being sellable before level 3

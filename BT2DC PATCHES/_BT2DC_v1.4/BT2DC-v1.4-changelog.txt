@@ -1,0 +1,24 @@
+Battletest2 DC Changelog
+Version 1.4 - 03/28/07
+
+Changes from previous Version (1.3):
+
+*- Creep lair chests random disposition and average credits (180 from 130) restored 
+*- Sharku trample damage 180 (from 70)
+*- Mithlond sentry batallion speed restored to 50 (from 60)
+*- MotW stables cost now 500 (from 600)
+*- Gondor archer range 330 (from 300), speed now 50 (from 47)
+*- Faramir line of sight increased to 580 (from 500), health now 2250 (from 2000)
+*- Lorien archer damage reduced by 10% against soldiers (except for Guardian) and pikes
+*- Elven Lancer heavy armor +30% armor bonus removed
+*- Corsair now takes 30% from specialist (was 50%), fire bomb damage bonus vs structures re-added (now +50% instead of +100%), fire decay now 20 from 25 (1.06 value was 16)
+*- Farm and structure armor now take 6% and 5% from logical fire damage, respectively (from 2%)
+*- Mallorn Trees now take 0.75% (was 2%) from logical fire damage
+*- Armored Lorien Warriors now take 65% (was 45%) from cavalry, 20% (was 9%) from magic and 98% from cavalry (was 84%) damage types
+*- Orc archer damage vs pikes and soldiers increased by 15%
+*- Silverthorn arrows magic damage vs fortresses reduced by half
+*- Soldier of Gondor base damage restored to 40/90 (from 33/75), damage vs structures reduced by 17.5%
+
+Bug Fixes:
+*- Sharku now properly defined as cavalry (instead of infantry)
+

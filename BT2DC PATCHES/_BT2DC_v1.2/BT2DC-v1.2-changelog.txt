@@ -1,0 +1,42 @@
+Battletest2 DC Changelog
+Version 1.2 - 01/27/07
+
+Changes from previous Version (1.1):
+*- Marauders with heavy armor now take 60% (from 150%) damage from slash
+*- Mumakil now takes 10% (from 50%) damage from logical-fire
+*- Tier1 archers pierce bonus vs fliers removed
+*- Battlewagon Men of Dale range now 510 (from 266)
+*- Cave and Mountain Trolls with a tree now have a -50% damage penalty towards structures
+*- Mountain Trolls now take 70% (from 100%) damage from pierce, buildtime 40s (from 45s)
+
+*- Palantir duration now 1m10s (from 40s), vision range 900 (from 1000)
+
+*- All heroes now take approximately 20% less experience to level up to 5 and above
+*- Uruk warrior now lose 30% from speed (from 40%) when in formation
+*- Uruk crossbows pre-attack delay now 550ms (from 820ms), delay between shots 2.6s (from 2.5s)
+*- Sharku now costs 1100, buildtime 50s (from 70s)
+*- Thanduril reload time now 2s (from 2.3s)
+*- Lorien Archers now have a -20% damage penalty towards guardians
+
+*- Orc warriors horde bonus restored to +50% (from +33%)
+*- Ent buildcost now 800 (from 1000)
+*- All outer wall hub costs reduced by 200 credits
+*- Rohirrim and Spider Riders bow damage increased by 30%
+*- Mouth of Sauron's evil eye ability now does half damage to all summoned units
+*- Drogoth plow inner damage now 750 (from 500)
+*- Haradrim lancer damage now 90 (from 60)
+*- All advanced arrows unlocking upgrades (except for Eregion Forge) and research costs now 600, buildtimes 30s, equip costs increased by 100
+*- Transport Ships speed now 90 (from 120)
+
+
+Bug Fixes:
+*- Fixed bug with Gorgoroth Spire weapon damage
+*- Goblin warrior experience award fixed, now properly 2 (from 5)
+*- Fixed Top right Vardarin not being capturable on map East Rohan (Conquest)
+*- Fixed AI artillery units not firing
+*- Morgul Blade, Backstab and poisoned stinger abilities working on fellbeasts fixed
+
+*- Glorfindel mount switch being active with Blade of Purity active fixed
+*- Glorfindel revival time fixed, now properly 90, 180 and 270 seconds on first, second and third level stage respectively
+
+*- Multiple hero bounty values fixed

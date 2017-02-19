@@ -1,0 +1,23 @@
+Battletest2 DC Changelog
+Version 1.7 - 06/14/07
+
+Changes from previous Version (1.6):
+
+*- Removed the crush revenge splash radius from all units but the haradim lancer
+*- Inn wildmen buildcost now 200 (was 150), torch upgrade 300 (was 150)
+*- Soldier of Gondor buildtime restored to 20s (was 24s)
+*- Gondor Archer unupgraded pierce damage now 30 (was 25)
+*- MotW barracks buildtime now 33s (was 30s)
+*- Haradrim Archer buildtime now 35s (was 40s)
+*- Men of Dale buildtime now 25s (was 30s)
+*- Half-Troll Marauders weapon now deal 50 extra damage with 7.5 splash radius to cavalry
+*- Troll Cage health now has 2500 (was 1500)
+*- Elven Warriors and Hobbits now take 115% from poison (was 100%)
+*- Dwarven Fire Arrows equip cost restored to 300 (was 400)
+*- Mordor and Goblins Fire Arrows equip cost now 300 (was 350)
+*- Peasants cost 120 (from 100)
+*- Drummer Troll now takes 50% from hero damage (was 75%)
+*- Saruman's Wizard Blast damage now 750 (was 500), now has a 15% chance of knocking back heroes
+*- Grima's Backstab now deals 500 damage (was 200) and poison duration now 25s (was 20s)
+*- Uruk Crossbow pre-attack delay 400 (was 670ms)
+
