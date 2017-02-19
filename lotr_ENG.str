@@ -28660,7 +28660,7 @@ CONTROLBAR:LW_ToolTipBuild_WildMarauderHorde
 END
 
 CONTROLBAR:LW_ToolTip_WildMarauderHorde
-"\nUnit Type: Basic Pikemen\nStrong vs. Cavalry and \n Unit Production Buildings"
+"\nUnit Type: Basic Pikemen\nStrong vs. Cavalry"
 END
 
 CONTROLBAR:LW_Unit_GoblinCaveTroll
@@ -46774,7 +46774,7 @@ CONTROLBAR:TooltipGoblinKingSkullTotem
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
-"Requires Level 2 Fissure \n Strong vs. Cavalry"
+"Requires Level 2 Fissure \n Strong vs. Cavalry and \n Unit Production Buildings"
 END
 
 CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade
