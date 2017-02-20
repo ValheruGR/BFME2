@@ -5171,17 +5171,17 @@ END
 
 Version:Format4
 // context: TRANSLATE ONLY THE WORD Build. DO NOT MODIFY THE VARIABLES  
-"Version 1.09       "
+"Version 1.09"
 END
 
 Version:Format3
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"Version 1.09       "
+"Version 1.09"
 END
 
 Version:Format2
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"Version 1.09       "
+"Version 1.09"
 END
 
 Version:BuildTime
@@ -15697,7 +15697,7 @@ CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
-"Level 3: Allows research of the Fire Arrows upgrade
+"Level 3: Allows research of the Fire Arrows upgrade"
 END
 // \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry"
 
@@ -45853,9 +45853,10 @@ END
 
 //Powers
 
-CONTROLBAR:ToolTipGandalfLeadership //bfme1
-"Allies near Gandalf gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability"
+CONTROLBAR:ToolTipGandalfLeadership
+"Allies near Gandalf gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability       Always Stacks"
 END
+
 
 //Fortress upgrades
 
@@ -46746,7 +46747,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Increases Fortress and Wall armor \n Pre-requisite for Ivory Tower"
+"Increases Fortress and Wall armor \n Pre-requisite for Ivory Tower \n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:ToolTipOutlawLeadership

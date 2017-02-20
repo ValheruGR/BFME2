@@ -43565,7 +43565,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Donne des points de vie et d'armure supplémentaires à la forteresse et aux murs \nRequis pour les la tour d'ivoire"
+"Donne des points de vie et d'armure supplémentaires à la forteresse et aux murs \nRequis pour les la tour d'ivoire\n\nRenforce également la tour isolé (pouvoir)"
 END
 
 CONTROLBAR:ToolTipOutlawLeadership
