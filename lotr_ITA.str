@@ -43636,9 +43636,11 @@ END
 
 CONTROLBAR:FireWorks2
 "Accendi Fuochi D'Artificio(&B)"
+END
 
 CONTROLBAR:ToolTipFireWorks2
 "Fuochi d'artificio danneggiano le unità in una grande area \n \n Click sinistro per attivare "
+END
 
 CONTROLBAR:FireWorksObj
 "Fuochi artificiali"
@@ -43657,7 +43659,7 @@ CONTROLBAR:ToolTipHobbitFireCrackerMerry
 END
 
 CONTROLBAR:ToolTipHobbitFireCrackerSam
-L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio \nEfficace contro Shelob "
+"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio \nEfficace contro Shelob "
 End
 
 // String lines for Patch 1.09
