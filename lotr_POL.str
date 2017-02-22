@@ -8279,7 +8279,7 @@ OBJECT:BarrowWight
 END
 
 OBJECT:GenericCaveTroll
-" Systemowy Troll jaskiniowy"
+"Troll jaskiniowy"
 END
 
 OBJECT:GenericWargRider
@@ -42191,8 +42191,7 @@ SUBTITLE:CS36_01
 END
 
 SUBTITLE:CS36_02
-"Zaplacicie za to! \n\n
-\nWy dranie!"
+"Zaplacicie za to! \n\n Wy dranie!"
 END
 
 SUBTITLE:CS36_03
@@ -42332,9 +42331,7 @@ SUBTITLE:CS56_02
 END
 
 SUBTITLE:CS56_03
-"Sa wszedzie!
-\n\n\n
-\nNie mozemy ich powstrzymac!"
+"Sa wszedzie! \nNie mozemy ich powstrzymac!"
 END
 
 SUBTITLE:CS56_04
