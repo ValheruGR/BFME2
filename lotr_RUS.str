@@ -28415,7 +28415,7 @@ CONTROLBAR:ToolTipWordOfPoultry
 END
 
 CONTROLBAR:TooltipIvoryTowerVision
-"Туман войны рассеивается на 30 секунд."
+"Туман войны рассеивается \n Player units in the map gain +10% speed \n на 30 секунд."
 END
 
 CONTROLBAR:TooltipRoar
@@ -28903,7 +28903,7 @@ OBJECT:DwarvenLoneTower
 END
 
 OBJECT:DwarvenLoneTowerDescription
-"Поражает врагов метательными топорами."
+"Отсюда ведется стрельба по врагам. \n Обнаружение скрытых врагов. \n Can receive different upgrades from the fortress."
 END
 
 OBJECT:DwarvenMagicDoor
@@ -43610,83 +43610,83 @@ CONTROLBAR:SpecialAbility_ShieldBubble
 END 
 
 CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"Вызывается мега-щит \n Гендальф получает +99% к броне и невоспреимчим к откидываниям на 5 секунд \n Активируется левой кнопкой мыши"
+"Вызывается мега-щит \n Гндальф получает +99% к броне и невосприимчив к откидываниям на 5 секунд \n Щелкните на пиктограмме для включения способности."
 END
 
 CONTROLBAR:Fire_pit
-"Fire pit (&V)"
+"Костер. (&V)"
 END
 
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants +5% armor bonus \n Always stacks \n Detect stealth"
+"Костер, исцеляющий	союзников поблизости. \n Воскрешает одного убитого в отряде каждые 5 секунд. \n Союзники получают +5% брони. \n Всегда накапливается. \n Обнаруживает скрытых врагов."
 END
 
 CONTROLBAR:FireWorks
-"FireWorks / Ignite [&V]"
+"Фейерверки / Поджечь. [&V]"
 END
 
 CONTROLBAR:ToolTipFireWorks
-"Merry can drop Fireworks \n on the ground and ignite it \n \n Left click to activate  "
+"Мерри раскладывает фейерверки \n на земле и поджигает их. \n \n Щелкните на пиктограмме для активации способности.  "
 End
 
 CONTROLBAR:FireWorks2
-"Ignite Fireworks [&B]"
+"Поджечь фейерверки. [&B]"
 END
 
 CONTROLBAR:ToolTipFireWorks2
-"Fireworks damages units within large radius \n \n Left click to activate "
+"Фейерверки наносят урон врагам в большом радиусе. \n \n Щелкните на пиктограмме для активации способности."
 End
 
 CONTROLBAR:FireWorksObj
-"FireWorks"
+"Фейерверки."
 END
 
 CONTROLBAR:HobbitFireCracker
-"Firecracker [&R]"
+"Петарда. [&R]"
 END
 
 CONTROLBAR:ToolTipHobbitFireCracker
-"Hero can throw a small Firecracker \n Left click icon then left click on target"
+"Герой бросает небольшую петарду. \n Щелкните на пиктограмме, затем на цели."
 End
 
 CONTROLBAR:ToolTipHobbitFireCrackerMerry
-"Hero can throw a small Firecracker. \n Effective against Mumakils \n Special bonus against structures. \n Left click icon then left click on target"
+"Герой бросает небольшую петарду. \n Эффективно против Мумаков. \n Бонус против построек. \n Щелкните на пиктограмме, затем на цели."
 End
 
 CONTROLBAR:ToolTipHobbitFireCrackerSam
-"Hero can throw a small Firecracker. Special bonus against Shelob. \n Left click icon then left click on target"
+"Герой бросает небольшую петарду. Бонус против Шелоб. \n Щелкните на пиктограмме, затем на цели."
 End
 
 // String lines for Patch 1.09
 
 CONTROLBAR:GaladHealBTP
-"&Light Of Galadriel"
+"&Свет Галадриэли."
 END
 
 CONTROLBAR:ToolTipGaladHeal
-"Heals all allied units and heroes in a large circle around Galadriel \n Left click to activate"
+"Исцеляет всех союзников и Героев в огромном радиусе вокруг Галадриэли. \n Щелкните на пиктограмме для активации способности."
 END
 
 CONTROLBAR:LadyOfLight
-"Light Of &Valars"
+"Свет Валар."
 END
 
 CONTROLBAR:TooltipLadyOfLight
-"Call down the light of Valar onto your enemies"
+"Призывает Свет Валара на головы врагов."
 END
 
 CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Summon Three Fi&res of Doom around Sauron in a circle"
+"Призывает дрех Духов Огня рядом с Сауроном."
 END
 
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and +25% experience \n Always stacks"
+"Требуется соответствующее улучшение крепости. \n\n Союзники поблизости получают +25% к атаке и +25% к опыту. \n Всегда накапливается."
 END
 
 CONTROLBAR:LoneTowerHealingUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
+"Требуется соответствующее улучшение крепости. \n\n Исцеляет союзников поблизости. \n Воскрешает одного убитого в отряде каждые 10 секунд."
 END
 
 CONTROLBAR:LoneTowerArmorUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Significantly reduces the amount of damage taken."
+"Требуется соответствующее улучшение крепости. \n\n Существенно уменьшает наносимый врагами урон."
 END
