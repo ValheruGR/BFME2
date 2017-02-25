@@ -28395,7 +28395,7 @@ CONTROLBAR:ToolTipWildMountainGiantStomp
 END
 
 CONTROLBAR:ToolTipWildShelobPoisonedStinger
-"Требуется уровень 6. \n Враги некоторое время получают урон от яда."
+"Требуется уровень 6. \n Враг получает урон от яда в течении 30 секунд. \n Оглушает героев на 6 секунд."
 END
 
 CONTROLBAR:ToolTipWitchKingDismount
@@ -28403,7 +28403,7 @@ CONTROLBAR:ToolTipWitchKingDismount
 END
 
 CONTROLBAR:ToolTipWitchKingDreadVisage
-"Требуется уровень 2. \n Существенное уменьшение вражеской брони и наносимого врагами урона. \n Пассивная способность."
+"Требуется уровень 2. \n Существенное уменьшение вражеской брони и наносимого врагами урона. \n Подавляет обычное лидерство. \n Пассивная способность."
 END
 
 CONTROLBAR:ToolTipWitchKingMount
@@ -28423,7 +28423,7 @@ CONTROLBAR:TooltipRoar
 END
 
 CONTROLBAR:TooltipSpecialAbilityDwarvenDemolisherDeploy
-"Разрушитель получает дополнительную броню, но утрачивает способность двигаться."
+"Разрушитель получает удвоенную броню, но утрачивает способность двигаться."
 END
 
 CONTROLBAR:TooltipSpecialAbilityOilBarrels
@@ -30035,7 +30035,7 @@ OBJECT:ShireWorkPit
 END
 
 OBJECT:SignalFireDescription
-"Захватите это, и вы уменьшите время восстановления способностей."
+"Захватите это, и вы уменьшите время восстановления неиспользованных способностей. \n Исцеляет Героев и летающих существ поблизости."
 END
 
 OBJECT:SkullTotem
@@ -31311,7 +31311,7 @@ CONTROLBAR:Trollfindgoblintothrow
 END
 
 CONTROLBAR:ToolTipTrollfindgoblintothrow
-"Тролль хватает гоблина и швыряет его во врага."
+"Тролль хватает гоблина и швыряет его во врага. \n Враги оглушены и дрожат от ужаса."
 END
 
 OBJECT:NaturesWrath
@@ -35731,11 +35731,11 @@ DIALOGEVENT:MTrAdv_OffT025subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT026subtitle
-"*There’s one of their camps up ahead. We’ll have to rush them before they have a chance to retreat and warn any others. Issue an \"Attack MOVE\" order and that should take care of them."
+"*There’s one of their camps up ahead. We’ll have to rush them before they have a chance to retreat and warn any others. Issue an "Attack MOVE" order and that should take care of them."
 END
 
 DIALOGEVENT:MTrAdv_OffT027subtitle
-"*To issue an \"Attack Move\" order, select your army and press the A key on your keyboard. This will change your cursor to an Attack Move cursor."
+"*To issue an "Attack Move" order, select your army and press the A key on your keyboard. This will change your cursor to an Attack Move cursor."
 END
 
 DIALOGEVENT:MTrAdv_OffT029subtitle
@@ -35791,7 +35791,7 @@ DIALOGEVENT:MTrAdv_OffT052subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT053subtitle
-"*Now lets devise a plan to crush every last one of those nasty Goblins! First, I recommend \"Attack Moving\" with your cavalry at those Goblin Warriors in the northern most part of the base. Do so by selecting your cavalry, pressing A on your keyboard, and left clicking on the ground in the middle of those Goblins."
+"*Now lets devise a plan to crush every last one of those nasty Goblins! First, I recommend "Attack Moving" with your cavalry at those Goblin Warriors in the northern most part of the base. Do so by selecting your cavalry, pressing A on your keyboard, and left clicking on the ground in the middle of those Goblins."
 END
 
 DIALOGEVENT:MTrAdv_OffT054subtitle
@@ -43560,7 +43560,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Укрепление защиты стен и крепости. \n Требуется для возведения Нуменорской Башни \n\n Призванные башни также улучшаются"
+"Укрепление защиты стен и крепости. \n Требуется для возведения Нуменорской Башни."
 END
 
 CONTROLBAR:ToolTipOutlawLeadership
