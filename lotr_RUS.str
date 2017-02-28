@@ -28415,7 +28415,7 @@ CONTROLBAR:ToolTipWordOfPoultry
 END
 
 CONTROLBAR:TooltipIvoryTowerVision
-"Туман войны рассеивается \n Player units in the map gain +10% speed \n на 30 секунд."
+"Туман войны рассеивается на 30 секунд. \n Войска игрока на карте получают +10% к скорости. \n Время действия -- 30 секунд."
 END
 
 CONTROLBAR:TooltipRoar
@@ -28903,7 +28903,7 @@ OBJECT:DwarvenLoneTower
 END
 
 OBJECT:DwarvenLoneTowerDescription
-"Отсюда ведется стрельба по врагам. \n Обнаружение скрытых врагов. \n Can receive different upgrades from the fortress."
+"Поражает врагов метательными топорами. \n Обнаруживает скрытых врагов. \n Получает бонусы улучшений крепости."
 END
 
 OBJECT:DwarvenMagicDoor
