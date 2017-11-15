@@ -39,7 +39,8 @@
 -Fixed Mordor flyers having no attack sound 60% of the times against units. Now they use original sounds as base when attacking and there's a 40% chance new sounds play. 
 -Fixed flyers one-hitting battlewagons when they are clumped.
 -Fixed flyers one-hitting battlewagons when they are targeting another nearer object, either units or structures.
--Fixed bug with flyers dealing additional damage to structures when they are targeting another nearer object.
+-Mordor Flyers & Eagles no longer damages structures when attacking units.
+-Mordor Flyers & Eagles no longer one-hits machines when attacking structures or monsters anymore. Only through direct attack.
 -Fixed Dwarven Lone Tower not having a stealth detector like any other tower.
 -Fixed placebo 1.07 change; Gimli axe thrown cool down 38 from 45. Not properly effective.
 -Trolls rampage mode (spinning rage before dying) no longer knock-back heroes. And no longer affects allies.
@@ -47,6 +48,8 @@
 -Fixed all Structural Artillery (from fortress or walls) not having anti-wall weapons like normal artillery.
 -Fixed all Artillery bombard weapon not having an anti-wall weapon.
 -Fixed all Artillery vision (not shroud reveal) not fitting with weapon range.
+-Fixed Mordor Fortress Catapult not having received the +17% range addition. (Leading to all artillery having more range than a structural catapult)
+-Fixed Ballista and Mountain giant approaching to the targeted objective until they have vision to shoot. (attack doesn't need line of sight anymore, all other artillery units don't needed it)
 -Fixed Outer Wall Hub system (builder-built wall system). Now Wall Hub upgrade (from wall segments) can no longer build outside the range of the main Outer Wall Hub (builder-built). If the main Wall Hub is destroyed, player has to build one again.
 -Fixed lorien archer horde auto-acquiring enemy structures when they were just spawned.
 -Fixed AI not using Balrog abilities.
@@ -68,7 +71,6 @@
 -Fixed Boiling Oil, Oil Casks, Magma Cauldrons & Eagle Nest abilities becoming available before the build-up animation completes.
 -Fixed Treasure Trove and Haradrim palace using Fortress weapons.
 -Fixed dwarf Sentry Towers and dwarf level 3 structures using Fortress weapons. (Means damage to cavalry now 100% from 150%)
--Fixed Mordor Fortress Catapult not having received the +17% range addition. (Leading to all artillery having more range than a structural catapult)
 -Fixed Dwarven Fortress Catapult upgraded not having received the +17% range addition. 
 -Fixed Black Arrows being available on level 1 hordes.
 -Fixed Lorien Archer bombard animation.
@@ -97,7 +99,6 @@
 -Fixed battlewagons having no attack animation against units. (it was working only against structures)
 -Gimli Slayer radius damage affecting allies fixed.
 -Fixed war of the ring not starting.
--Fixed Ballista and Mountain giant approaching to the targeted objective until they have vision to shoot. (attack doesn't need line of sight anymore, all other artillery units don't needed it)
 -Fixed dwarf catapult not scoring power points.
 -Fixed Isengard infantry Banner carriers NOT respawning dead units every 7s, from 10s.
 -Fixed mordor catapult not being able to use human heads. Note, the bombard icon will now bombard its default weapons. The long-range one will work against Ships, as originally intended by EA. With the difference it attacks ships automatically.
@@ -146,6 +147,9 @@
 				;;-------------------------------------------------------------------------------------;;
 
 ;------------------ok. dwarves vs mordor-----------------------;
+-Fellbeast indirect damage now 75% to BattleWagons in a small radius, from 2000% in a big radius.
+-Fellbeast direct attack now deals 180% to BattleWagons, from 100%. (WitchKing deals 400%)
+-Witch King mounted indirect damage now 180% to BattleWagons in a small radius, from 2000% in a big radius.
 -Blackrider on level 10 no longer one-hits guardians.
 -Mumakil Charge attack now deal 800% from 1000% against Gloin and Dain. //LogNote:Gimli can escape thru slayer, so he's not part of the "slowest heroes ingame"
 -Men of dale Black Arrow now deal 175% against Mumakil from 150%.
@@ -154,6 +158,7 @@
 -Guardian to deal 65% against blackrider, from 60%.
 -Mountain troll deal 150% to battlewagon, from 100%. Val's. 
 ;------------------ok. dwarves vs goblins-----------------------;
+-Drogoth now deals 100% to BattleWagons in a small radius, from 1500% in a big radius. Originally 2000%.
 -Goblin archer poisoned arrows now deal 115% from 100% to guardian and phalanx. 
 -Guardian to take 70% poison from 67%.
 -Cave and Mountain troll deal 150% to battlewagon, from 100%
@@ -169,6 +174,8 @@
 -Faramir Wound Arrow now deals less damage to Black Riders. (1080 from 1200).
 -Aragorn normal sword / blademaster mode now deals less damage to Witch King. (179/149 from 203/173 respectively).
 ;;-----------------ok. elves vs dwarves-----------;;
+-Eagles direct attack now deals deals 180% to BattleWagons, from 100%.
+-Eagles indirect damage now 50% to BattleWagons, from 2000%.
 -Thranduil dead eye MAGIC damage now deals 75% against BattleWagon from 100%.
 -Legolas Hawk strike now deals 87% against BattleWagon from 100%.
 -Lorien warrior now gain a 10% penalty against dwarven mine shaft (45% from 50% damage)
@@ -188,6 +195,7 @@
 ;;-----------------ok elves vs men-----------;;
 -Lorien archer now deals 90% damage against Gondor Archer.
 ;------------------ok. goblins vs elves-----------------------;
+-Drogoth Fireball no longer one-hits treebeard anymore.
 -Lorien archer now deal 90% to spiderling.
 -Lorien Warrior Poison armor now 80/35 from 100/3
 -Goblin Fighter deals 90% to mallorn, including poisoned sword. 
@@ -203,7 +211,7 @@
 -Rivendell Lancer lance deals 125% to Slaughter House. From 100%.
 -Blackrider now deals only 40% against Mallorn. From 50%.
 ;------------------ok. mordor vs isengard-----------------------;
--Lurtz arrow now deal 200%/200% against Fellbeast/WitchKing respectively.
+-Lurtz arrow now deal 200%/200% against Fellbeast & WitchKing.
 -Fellbeast damage against Isengard Furnace restored to 75% from 85%.
 -Corsair sword now deals 85% from 94% to Isengard Furnace.
 ;------------------ok. goblins vs isengard-----------------------;
@@ -229,8 +237,6 @@
 ;------------------ok. Elven inn units-----------------------;
 -Rohan peasant from inn damage now 50 from 60.
 ;------------------ok. Eagles-----------------------;
--Eagles direct attack now deals deals 180% to BattleWagons, from 100%.
--Eagles indirect damage now 50% to BattleWagons, from 2000%.
 -Eagles can now use stances. Set as artillery (no armor or damage changes, but defensive means stay freeze). 
 -Eagles claw atack now deal 65% against Shelob and Dismounted WitchKing. 
 -Eagles FLAME/MAGIC armor now 40% from 30%.
@@ -272,9 +278,9 @@
 -Treebeard can now move whilst he is invisible in/near trees, without revealing himself. 
 -Treebeard rock throw doesn’t affect allied structures anymore.
 ;------------------ok. elven ents ---------------------
--Ents can now level up and autoheal at level 5(purchased only-not summoned). Gain +100 health by level exept 5 and 10. Gain +200 health for levels 5 and 10.
--Ents gain +5% damage by level exept 5 and 10. Gain +10% damage by level 5 and 10.
--Ents experience award from 40, to 35-60 according the rank. (like mountain giants)
+-Ents can now level up and autoheal at level 5(purchased only-not summoned). 
+-Ents experience levels set as Mountain Giants.
+-Ents experience award from 40, to 35-60 according the rank. (Like mountain giants indeed)
 -Ents will now play the aflamed-rage animation for 7 seconds.
 -Ent siege armor now 50% from 35%.
 -Ent rock throw doesn’t affect allied structures anymore.
@@ -599,18 +605,18 @@
 -Battlewagon CRUSH damage now 195 from 180. 
 -Battlewagon CRUSH damage doesn't accept damage additive anymore.
 -Battlewagon passengers vision range 420 from 480. (note that BW vision range is 375. And players do not see shroud reveal, but passengers won't aim objects from this far)
-
+;;---;;
 -Battlewagon + MenOfDale cost now 450 from 500.
 -Battlewagon + MenOfDale damage now 185 from 200.
 -Battlewagon + MenOfDale damage to Dwarf Phalanx now 60% from 25%.
 -Battlewagon + MenOfDale mood Attack CheckRate 350 from 200.
 -Battlewagon + MenOfDale deal 33% against builder, from 25%.
 -Battlewagon + MenOfDale deal 33% against heros, from 30%.
-
+;;---;;
 -Battlewagon + AxeThrowers mood attack CheckRate 400 from 500.
 -Battlewagon + AxeThrowers range 400 from 460. (same than mod)
 -Battlewagon + AxeThrowers damage now 65 from 72. (Originally 60). //LogNote:When Axe throwers were buffed, indirectly Battlewagon AT were buffed. 72 from 60. Bad 1.07 days//
-
+;;---;;
 -Battlewagon + BannerCarriers leadership now is the Generic Damage Stack leadership like the tooltip always indicated. (25% damage 25% experience that stacks, from 25% damage 25% armor 50% experience that doesn't stack)
 -Battlewagon + BannerCarriers upgrade leadership range from 200 to 300.
 -Battlewagon + BannerCarriers upgrade leadership fixed removing Buff leaderships (Gimli).
@@ -618,10 +624,10 @@
 -Battlewagon + BannerCarriers upgrade phalanx passengers now deal SPECIALIST damage, from SLASH type. Now have radius damage.
 -Battlewagon + BannerCarriers upgrade phalanx passengers now are able to attack more units. (Larger range, two hits at once, attack in 360º). 
 -Battlewagon + BannerCarriers upgrade reveal stealth.
-
+;;---;;
 -Battlewagon + Hearth upgrade now heals Builders.
 -Battlewagon + Hearth will heal nearby units only if not in combat.
-
+;;---;;
 
 				;;-------------------------------------------------------------------------------------;;
 				;;------------------------------------#Men of the West#--------------------------------;;
@@ -790,8 +796,6 @@
 -Fellbeast now takes 180% MAGIC from 160%.
 -Fellbeast now takes 0% SPECIALIST from 100%.
 -Fellbeast plow weapon radius restored to 40 (from 45).//LogNote:It was never supposed to be changed.
--Fellbeast indirect damage now 75% to BattleWagons in a small radius, from 2000% in a big radius.
--Fellbeast direct attack now deals 180% to BattleWagons, from 100%. (WitchKing deals 400%)
 ;------------------ok. Witchking On Fellbeast-----------------------;
 -Witch King claw atack now deal 65% against Shelob and Dismounted WitchKing. 
 -Witch King revive timer actualised to it's buildtime. (100 from 115)
@@ -802,7 +806,6 @@
 -Witch King mounted Dreadvisage radius 300 from 600. (Originally 200)
 -Witch King mounted attack radius 35 from 45. Originally 30. 
 -Witch King mounted attack radius against ARCHERS now 30 from 45. Originally 30.
--Witch King mounted indirect damage now 180% to BattleWagons in a small radius, from 2000% in a big radius.
 ;------------------ok. siege units-----------------------;
 -Mordor Grond crush damage now 1000 CRUSH damage from 2000 SIEGE damage. Crush radius now 20 from 0.
 -Mordor Grond speed now 15 from 10.
@@ -833,7 +836,6 @@
 -Drummer Troll attack damage type now siege from crush. Means it hurts structures and pikes decently. Damage 100 from 120. //LogNote:To compare, a Troll with tree deals 120.
 ;;------------------------------ok. attack Trolls.------------------------------;;
 -Attack Troll experience required now 90 90 90 180 90 90 90 180 from 70 70 70 70 170 100 100 150 150.
--Attack Troll experience award now +5 than tier 1 trolls.
 -Attack Troll now earns +50% more damage slowly till level 10. (200 total damage from 80 with two damage bonuses)
 -Attack Troll now earns +50% health points slowly till level 10.  (150 150 150 200 150 150 150 150 200 from 0 0 0 100 100 100 100 100 100)
 ;;---;;
@@ -974,7 +976,6 @@
 -Goblin Archer Poisoned arrows now includes the standard PIERCE damage bonuses against dwarves. (+15% against guardian. +10% against phalanx.)
 ;------------------ok. Drogoth-----------------------;
 -Drogoth experience required for level 6 increased. Does not mean he is nerfed. He needs to kill the same amount to reach to 10.
--Drogoth now deals 100% to BattleWagons in a small radius, from 1500% in a big radius. Originally 2000%.
 -Drogoth Incinerate damage in radius 250 now 1500, damage in radius 150 2000. From 250 in total area. Originally 2000 in radius 50 and 1000 in radius 250.
 -Drogoth fire flight cooldown 120 seconds from 105
 -Drogoth incinerate cooldown 240 seconds from 180.
@@ -991,16 +992,14 @@
 -Drogoth fireball damage to Fortress Eagles and Summoned Eagle now 2500/4100 from 1900/4800 respectively //LogNote:Eagles are very resistant to this kind of fire... even if their FLAME/MAGIC armor have been nerfed
 -Drogoth fireball damage on Mounted Witchking reduced slightly. (720 from 800. Originally 1200) //LogNote:Note, WK mounted armor has already been buffed to fire
 -Drogoth wing blasts knoback amount now 90/70 from 60/40. //LogNote: This means it will knoback 2k3k heros(on the center) and some not that resistant units on the outside area, for example faramir.
--Drogoth Fireball no longer one-hits kill treebeard anymore.
 ;------------------ok. mountain giant ---------------------
 -Mountain Giant damage gains are multiplicative now. +5% per rank. From +145 damage in total.
--Mountain Giant now gain 900s health untill level 10. From 300.
 -Mountain Giant buildtime 35 from 30. Orginally 45. 
 -Mouuntain Giant rock damage on fortress 85% from 100%.
 -Mountain Giant teardown attack now deals 85% against fortress. from 100%. (Note that ent punch deals 75%).
 -Mountain Giant HERO armor now 120% from 100%.(Originally 200%)
--Mountain Giant siege armor now 120% from 100%.
--Mountain Giant MAGIC armor now 100% from 100%.
+-Mountain Giant SIEGE armor now 120% from 100%.
+-Mountain Giant MAGIC armor now 100% from 150%.
 -Mountain Giant SLASH armor now 15% from 10%. (Originally 65%)
 -Mountain Giant CRUSH armor now 5% from 1%.
 -Mountain Giant Health 2800 from 4000.
@@ -1138,6 +1137,7 @@
 				;;---------------------------------------#Isengard#------------------------------------;;
 				;;-------------------------------------------------------------------------------------;;
 ;------------------ok. isen siege-----------------------;
+-Ballista build time now 27 from 20.
 -Ballista now has a minimum cast range of 80(can't shoot in melee)
 -Battering ram health 1750 from 1500. Originally 2000.
 -Battering Ram damage restored to 1000 from 750. Damage on fortress 75%.
@@ -1216,7 +1216,7 @@
 -Lurtz cripple strike stun duration 20 secs from 30.
 -Lurtz cripple cooldown now 100 seconds from 60.
 -Lurtz cripple strike range increased to 400 from 350. (Note, when the cripple arrow is casted on a hero, lurtz STILL does need to approach within a distance of 320, and the cripple arrow will be shoot only if the hero does not walk out of the attack range area, which now is 400. This means lurtz have less chances to miss the target and "start-cooldown")
--Lurtz cripple strike can now be casted on flyers. Damage set as tripple bow damage.
+-Lurtz cripple strike can now be casted on flyers. Damage set as x3.5 bow damage.
 Does not stun.. Now AI will use lurtz cripple on flyers.
 -Lurtz leadership now grants +25% experience. 
 -Lurtz radius of leadership 275 from 200
@@ -1384,7 +1384,7 @@ GoblinArcher + fire arrow = 20 PIERCE damage + 30 FLAME damage.
 -Sauron mace knock-back amount restored to 60 against Heros, from 110. Units remain 110.
 -Galadriel punch knock-back amount restored to 60 against Heros, from 110. Units remain 110.
 ;;------------------------ok. heroes-------------;;
--Tough hero armor(Elrond Aragorn & Gimli) now takes 17% from 15% of MAGIC damage.
+-Tough hero armor(Elrond Aragorn & Gimli) now take 17% from 15% of SPECIALIST damage.
 ;;------------------------ok. pikes-------------------;;
 -Now Isen pikeman and Rhun Pike are ALSO inmune to cavalry hordes crush. (from only FoL pikes)
 -Easterling Pike / Marauder Pike: Porcupine Formations now grant 55% armor, from 65%. 
@@ -1408,13 +1408,8 @@ GoblinArcher + fire arrow = 20 PIERCE damage + 30 FLAME damage.
 -Archers on defensive stance now lose 20% speed, from 35%. (Originally 60%)
 -Bombarded arrows from all archer hordes in the game have splash damage. Radius set to 2.5, from 0.
 -Archers Fire Arrows bombard burn rate decreased, 12 from 20.
-;;------------------------ok. flyers.-------------------;;
--Mordor Flyers & Eagles no longer damages structures when attacking units.
--Mordor Flyers & Eagles no longer one-hits machines when attacking structures or monsters anymore. Only through direct attack.
-;;Explaination. All flyers EXCEPT Drogoth have 2 main weapons, one that attacks machines and structures called PLOW, and other that attacks infantry and cavalry called GRAB ATTACK(direct attack against BW). Drogoth have one simple weapon that is used against everything. Originally, this PLOW weapon is ALSO activated against BattleWagons when the flyer attacks a Structure or a real siege machine while the battlewagon is inside the damaged area, making any wagon die instantly. 
-;Now this PLOW weapon does not insta-kill BattleWagons (Indirect attack), but it deals a damage amount similar to the GRABATTACK weapon in a very small radius. In big radius, damage is lower.
 ;;-------------------ok. siege units-------------;;
--Artillery can now level up. Gaining health and damage per rank, aswell awarding more experience when killing it. Total health gains at level 10 are +100%. Each rank adds +5% damage.
+-Artillery can now level up. Gaining health and damage per rank, aswell awarding more experience when killing it. Total health gains at level 10 are +100%. Each rank adds +3% damage.
 -All kind of fire-breath (Fire drakes, Balrog, Dragon, Drogoth incinerate) now deal double damage againt machines (doesn't affect battlewagon).
 -Men & Mordor Fortress artillery expansions minimun attack range now 250/200 from 300/300 respectively. //LogNote:Consider other artillery from walls min attack range is 150.//LogNote:Reason for this changes; when dwarf/men attempt to attack a fortress thru a builder wallhub+wall+artillery, the defender builds a fortress catapult and it used to don't be able to attack the enemy walls if they are too near.
 -Mountain Giant & Ents now have the same crush deceleration as wagons, from 0% deceleration. Purchased ents only; not summoned.
@@ -1456,7 +1451,7 @@ GoblinArcher + fire arrow = 20 PIERCE damage + 30 FLAME damage.
 -Outpost money income amount now 50 from 60.
 -Shire farms (outposts) income now same as the generic Outpost. Time required to begin money production standarised to 35. (from 25 maggot farm and 45 the long farm)
 ;------------------ok. neutral. lairs.-----------------------;
--Resources gained per treasure chest from creep lairs reduced by 40%. (Played with -25% and -33.3%. Still not enough, rather promotes take all creps of the map)
+-Resources gained per treasure chest from creep lairs reduced by 40%. 
 -Now Fire drake lair hole spawns 2 gold chests and 1 experience chest. (From 1 gold 1 experience)
 -Minor Spider from lair guard max range now 250 from 350. (set as tier 1 lair range)
 -Minor Spider from lair now takes 125% SPECIALIST from 75%.
@@ -1478,16 +1473,18 @@ GoblinArcher + fire arrow = 20 PIERCE damage + 30 FLAME damage.
 				
 ;------------------ok. MONSTERS. MACHINES.-----------------------;
 -All Monsters level5-level 10 gain +3 to autoheal amount.
--Evil monsters (tier 1 trolls) experience required now 75 75 75 160 70 70 70 70 140 from 70 70 70 70 20 50 50 50 50.
--Evil monsters (tier 1 trolls) damage gains now 10 10 10 25 10 10 10 10 20 from 30 30 30 20 5 5 5 5 15.
--Evil monsters (tier 1 trolls) health gains now 100 100 100 150 100 100 100 100 150 from 50 50 50 50 20 20 20 20 20.
--Dwarven Battlewagon and Demolisher experience required for levels 5 to 10 now 150 80 80 80 80 120 from 100 0 0 100 100 100.
--Dwarven Battlewagon and Demolisher experience award now 10 10 15 15 25 25 30 30 35 35 from 10 15 20 25 30 7 7 7 7 7.
--Dwarven Battlewagon and Demolisher damage gains now 30 30 30 50 20 20 20 20 30 from 50 50 50 50 5 5 5 5 5. (in total it would be 50% of original damage)
--Dwarven Battlewagon and Demolisher health gains now 150 150 150 250 150 150 150 150 200 from 250 250 250 250 10 10 10 10 10. (in total it would be 50% of original health)
+
+-Attack Troll & Mountain Giant experience award increased slightly in comparison with weaker monsters. (by +5)
+-Evil monsters (tier 1 trolls) experience required increased. Now 75 75 75 160 70 70 70 70 140 from 70 70 70 70 20 50 50 50 50.
+-Evil monsters (tier 1 trolls) damage gains reduced. now 10 10 10 25 10 10 10 10 20 from 30 30 30 20 5 5 5 5 15.
+-Evil monsters (tier 1 trolls) health gains increased. Now 100 100 100 150 100 100 100 100 150 from 50 50 50 50 20 20 20 20 20.
+-Dwarven Battlewagon and Demolisher experience required for levels 5 to 10 fixed. Now 150 80 80 80 80 120 from 100 0 0 100 100 100.
+-Dwarven Battlewagon and Demolisher experience award suited. Now 10 10 15 15 25 25 30 30 35 40 from 10 15 20 25 30 7 7 7 7 7.
+-Dwarven Battlewagon and Demolisher damage gains increased but reorganized. Now 30 30 30 50 20 20 20 20 30 from 50 50 50 50 5 5 5 5 5. (in total it would be 50% of original damage)
+-Dwarven Battlewagon and Demolisher health gains increased but reorganized. Now 150 150 150 250 150 150 150 150 200 from 250 250 250 250 10 10 10 10 10. (in total it would be 50% of original health)
 ;------------------ok. Cavalry.-----------------------;
--Rivendell Lancer and Gondor Knight experience required for levels 3 to 10 now 85 95 115 70 70 70 70 100 from 115 115 115 70 70 70 70 100.
--Rivendell Lancer and Gondor Knight experience award reduced by 1.
+-Rivendell Lancer and Gondor Knight experience required for levels 3 to 10 decresed. Now 85 95 115 70 70 70 70 100 from 115 115 115 70 70 70 70 100.
+-Rivendell Lancer and Gondor Knight experience award reduced slightly (by +1).
 ;------------------ok. Good/Evil units.-----------------------;
 -Good Troops experience required for level 5 to 10 now 100 50 50 50 50 100 from 50 100 50 50 50 50. To be considered Lorien Archer, after level 5, they require 100.
 -Gondor Troops (including gondor archer) damage gains for levels 6 to 10 now 5 5 5 5 10 from 10 10 10 10 10.
