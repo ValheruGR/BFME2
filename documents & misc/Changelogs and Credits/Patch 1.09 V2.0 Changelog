@@ -1,18 +1,117 @@
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Patch 1.09 Version 2.0 Changelog;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
+﻿
 
 
-;;;;;;;;;;Elves;;;;;;;;;
 
 
+
+
+
+
+
+
+
+
+
+			;;--------------------------------------------------------------------------------------------------------------;;
+							;--------------------------------------------------------------------;
+
+
+
+;;-----------------ecths
+-Heal spell can now only be casted above healable objects (you can't waste heal above structures for example)
+-Dwarven catapult oil barrels can now be multi executed.
+-Battlewagon icons can now be multi executed. (upgrades and oil barrel)
+-Fixed dain stubborn pride pressable
+-Fixed hobbit hordes not attacking enemies once summoned
+-Fixed gondor ranger commandpoints not actually being 70. 
+-Fixed unintentional buff: mordor archers costing 40 commandpoints instead of 60.
+-Fixed lorien warrior weapon.
+-Fixed battlewagon men of dales and axe throwers shooting through structures.
+-Mighty Catapult vision bonus percentage per foot now 1.5% from 1.0% // Means shroud reveal is increased for dwarven fortress. Revealed radius is still less than Murder of Crows upgrade.
+-Spiderlings banner respawn rate restored to 10 from 7.
+-Corsair banner respawn rate now 7 from 10. (because i forgot to make em 7 like all swordmen and they seem un-used)
+-Fixed warg rider banner having no crush weapon.
+-Lurtz no longer shares his expereince gains with Saruman.  (saruman already does not share to Lurtz)
+-Fixed spider rider crushable level. Now can't be crushed by mountain trolls.
+-Fixed minhiriath, highpass and evil campaign erebor zoom
+-Good campaign: inns now properly can make Men of Dale archers on Celdium and Erebor.
+-Gimli leap penalty against pikes no longer affects Isengard pikemen.
+-Lorien warrior & Mithlond sentry bow damage (when garrisoned on towers) reduced by 33% and it's not increaseable.
+-Fixed rohirrims in bow mode shooting against the same unit in a horde.
+-Flood from spellbook damage now 120 from 142.
+-Rain of fire now kills the archers inside towers.
+-Rallying call and warchant can no longer be casted above bats, crebain or enshrouding mist.
+;;-----------------vals
+-Added new FX for Sunflare
+-Improved WitchKings HOTWK FX
+-Fixed Galadriels Heal showing incorrect cast FX
+-Added various new sounds for Elf Barracks and Stable
+-Added new sound for farsight
 -Legolas Arrow Storm is now more effective against Hordes
 -Arrow Storm base damage doubled
 -Arrow Storm now suffers a 65% penalty to Heroes
 -Arrow Storm now has a sound
 -Arrow Storm now has an impact FX and improved visual
+-Lurtz Pin now only lasts 12 seconds against Gandalf and Witchking
+-Lurtz Pin now lasts 17s, from 20s
+-Lurtz Pin cooldown increased to 180 seconds, from 100. (originally 60)
+-Spiderlings now deal 78% to Unit Production Buildings, from 85%
+-Devastation Stunlock duration 3.5s from 5s
+-Mountain Troll crush damage now 15 from 30
+-Mountain Troll crush radius now 6.5 from 10
+-Gandalf Wizard Blast damage arc now 135 from 165(lower aoe effectively)
+-Saruman wizard blast bonus at level 4 lowered from 150 to 75
+-Spiderling now takes 73% pierce, from 65%
+-Removed Sarumans Leadership
+;;----------------
 
--Added various new sounds for Elf Barracks and Stable
--Added new sound for farsight
--Fixed Galadriels Heal showing incorrect cast FX
--Added new FX for Sunflare
+
+				;;-------------------------------------------------------------------------------------;;
+				;;-----------------------# MATCHUP SPECIFIC CHANGES; SCALARS LOGMU#-------------------------;;
+				;;-------------------------------------------------------------------------------------;;
+;;=gobmordor=;; 
+;;=dwarfmordor=;; 
+;;=dwarfgob=;;
+;;=menmordor=;;
+;;=elfdwarf=;;
+;;=dwarfisen=;;
+;;=mendwarf=;;
+;;=elfmen=;;
+;;=goblinelf=;;
+;;=mordorelf=;;
+;;=mordorisen=;;
+;;=goblinisen=;;
+
+
+				;------------------------------------------------------------------------------------;;
+				;;--------------------------------#ELVESELFSELFFACTIONSELVENFACTION#-----------------;;
+				;;-----------------------------------------------------------------------------------;;
+				
+				;;-----------------------------------------------------------------------------------;;
+				;;-------------------------------#DWARVESDWARVENFACTION#-----------------------------;;
+				;;-----------------------------------------------------------------------------------;;
+
+
+
+				;;-----------------------------------------------------------------------------------;;
+				;;------------------------------#MenOfTheWestMOTWMENFACTION#-------------------------;;
+				;;-----------------------------------------------------------------------------------;;
+
+				;;-----------------------------------------------------------------------------------;;
+				;;---------------------------------------#MORDORFACTION#-----------------------------;;
+				;;-----------------------------------------------------------------------------------;;
+
+				;;-----------------------------------------------------------------------------------;;
+				;;------------------------------#GOBLINFACTIONGOBLINSGOBLINFACTION#------------------;;
+				;;-----------------------------------------------------------------------------------;;
+
+				
+				;;-----------------------------------------------------------------------------------;;
+				;;----------------------------------#ISENGARDFACTION#--------------------------------;;
+				;;-----------------------------------------------------------------------------------;;
+				
+				
+ 				;;-----------------------------------------------------------------------------------;;
+				;;----------------------------------# OTHERS CHANGES #-------------------------------;;
+				;;-----------------------------------------------------------------------------------;;
+
