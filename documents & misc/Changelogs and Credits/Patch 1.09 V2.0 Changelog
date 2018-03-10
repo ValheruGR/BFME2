@@ -16,3 +16,17 @@
 -Added new sound for farsight
 -Fixed Galadriels Heal showing incorrect cast FX
 -Added new FX for Sunflare
+
+1300658824
+
+
+
+;;;;;;;;;;;;;;Isengard;;;;;;;;;;;;;;;;;;;;
+
+-Dragonstrike significantly improved
+-Dragonstrike strike area now 500, from 360
+-Dragonstrike now moves flame faster from left to right and vice verca
+-Dragonstrike now applies a 15% slow to enemy units within 525 radius
+-Dragonstrike now deals damage more evenly across its strike, rather than super high damage in a tiny radius(mostly this was to forts, but the radius was so small that its contact time in 1.09 and prior made the damage insignificant). 
+ Effectively, this means higher damage over a larger area.
+-Dragonstrike fire breathe FX expanded to match
