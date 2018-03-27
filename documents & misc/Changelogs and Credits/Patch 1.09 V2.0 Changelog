@@ -30,3 +30,12 @@
 -Dragonstrike now deals damage more evenly across its strike, rather than super high damage in a tiny radius(mostly this was to forts, but the radius was so small that its contact time in 1.09 and prior made the damage insignificant). 
  Effectively, this means higher damage over a larger area.
 -Dragonstrike fire breathe FX expanded to match
+
+-Lurtz Pin now only lasts 12 seconds against Gandalf and Witchking
+-Lurtz Pin Cooldown to 180s, from 100s
+-Lurtz Pin now only lasts 12 seconds against Gandalf and Witchking
+
+
+;;;;;;;;;;;;;;Global;;;;;;;;;;;;;;;;;;;;
+
+-Improved Earthquake FX and Sounds
