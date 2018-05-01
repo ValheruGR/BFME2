@@ -31,11 +31,12 @@
  Effectively, this means higher damage over a larger area.
 -Dragonstrike fire breathe FX expanded to match
 
--Lurtz Pin now only lasts 12 seconds against Gandalf and Witchking
+
 -Lurtz Pin Cooldown to 180s, from 100s
--Lurtz Pin now only lasts 12 seconds against Gandalf and Witchking
+-Lurtz Pin now only lasts 12 seconds against Gandalf, Witchking and Shelob
 
 -Warg Howl bonus reduced to 55%, from 65%
+-Excavations now replenishes units every 15s, from 10s
 
 
 ;;;;;;;;;;;;;;Global;;;;;;;;;;;;;;;;;;;;
@@ -57,3 +58,10 @@
 ;;;;;;;;;;Mordor;;;;;;;;;
 
 -Witchking now has a new Death FX for both mounted and unmounted models
+
+
+;;;;;;;;;;Men;;;;;;;;;
+
+-Theoden Health now 3200, from 2800
+-Theoden Buildtime now 35s, from 40s
+-Theoden Glorious Charge armor bonus now 70%, from 80%
