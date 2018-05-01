@@ -36,7 +36,8 @@
 -Lurtz Pin now only lasts 12 seconds against Gandalf, Witchking and Shelob
 
 -Warg Howl bonus reduced to 55%, from 65%
--Excavations now replenishes units every 15s, from 10s
+-Excavations now only replenishes one horde at a time
+-Excavations now respawns units every 9s, from 10s
 
 
 ;;;;;;;;;;;;;;Global;;;;;;;;;;;;;;;;;;;;
