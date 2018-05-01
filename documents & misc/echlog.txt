@@ -1,0 +1,36 @@
+-Heal spell can now only be casted above healable objects (you can't waste heal above structures for example)
+-Rallying call and warchant can no longer be casted above bats, crebain or enshrouding mist.
+-Dwarven catapult oil barrels can now be multi executed.
+-Battlewagon icons can now be multi executed. (upgrades and oil barrel)
+-Fixed dain stubborn pride pressable
+-Fixed hobbit hordes not attacking enemies once summoned
+-Fixed gondor ranger commandpoints not actually being 70.
+
+-Fixed battlewagon men of dales and axe throwers shooting through structures.
+-Mighty Catapult vision bonus percentage per foot now 1.5% from 1.0% // Means shroud reveal is increased for dwarven fortress. Revealed radius is still less than Murder of Crows upgrade.
+-Spiderlings banner respawn rate restored to 10 from 7.
+-Corsair banner respawn rate now 7 from 10. (because i forgot to make em 7 like all swordmen and they seem un-used)
+-Fixed warg rider banner having no crush weapon.
+-Lurtz no longer shares his expereince gains with Saruman.  (saruman already does not share to Lurtz)
+-Fixed spider rider crushable level. Now can't be crushed by mountain trolls.
+-Fixed minhiriath, highpass and evil campaign erebor zoom
+-Good campaign: inns now properly can make Men of Dale archers on Celdium and Erebor.
+-Gimli leap penalty against pikes no longer affects Isengard pikemen.
+-Lorien warrior & Mithlond sentry bow damage (when garrisoned on towers) reduced by 33% and it's not increaseable.
+-Fixed rohirrims in bow mode shooting against the same unit in a horde.
+
+-Rain of fire now kills the archers inside towers.
+
+Signed-off-by: ecthelion5109 <xanderseling@gmail.com>
+
+
+
+
+not approved, yet
+
+
+-Fixed unintentional buff: mordor archers costing 40 commandpoints instead of 60.
+
+-Fixed lorien warrior weapon. -leave this for now
+
+-Flood from spellbook damage now 120 from 142.
