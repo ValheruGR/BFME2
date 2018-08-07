@@ -24029,7 +24029,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressFlamingMunitions
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressBanners
-"Es&tandartes"
+"Estanda&rtes"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressHouseOfHealing
@@ -24253,7 +24253,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions
-"Municiones de gran calidad (&Y)"
+"Municiones de gran calidad (&F)"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressBanners
@@ -24261,7 +24261,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressBanners
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
-"Barrilete de asedio (&V)"
+"Barrilete de asedio (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
@@ -24269,7 +24269,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
-"Catapulta poderosa (&M)"
+"Catapulta poderosa (&T)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressMightyCatapult
@@ -24277,7 +24277,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressMightyCatapult
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressOilCasks
-"Frascos de aceite (&N)"
+"Frascos de aceite (&V)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressOilCasks
@@ -28079,7 +28079,7 @@ CONTROLBAR:IsengardWargSentryUnleash
 END
 
 CONTROLBAR:IvoryTowerVision
-"Usar la torre de marfil (&L)"
+"Usar la torre de marfil  (&T)"
 END
 
 CONTROLBAR:Knife
