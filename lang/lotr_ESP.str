@@ -38417,11 +38417,11 @@ CAH:Command_CreateAHeroThrowSpear_Level3_Name
 END
 
 CAH:Command_CreateAHero_ShieldCrush_Level1_Name
-"Carga de escudo"
+"Carga de escudo [&X]"
 END
 
 CAH:Command_CreateAHero_ShieldCrush_Level3_Name
-"Carga de escudo mejorada"
+"Carga de escudo mejorada [&X]"
 END
 
 CAH:Command_CreateAHero_Invulnerability_Level1_Name
