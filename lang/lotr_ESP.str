@@ -28187,7 +28187,7 @@ CONTROLBAR:SpecialAbilityWyrmReposition
 END
 
 CONTROLBAR:ThrowFireBombs
-"Bo&mbas incendiarias"
+"Bombas incendiarias (&T)"
 END
 
 CONTROLBAR:ToggleDwarvenGuardianWeapons
@@ -36841,7 +36841,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesMagicArrows
-"Mejora con flechas púa de plata."
+"Mejora con &flechas púa de plata."
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesWarBarding
@@ -36849,7 +36849,7 @@ CONTROLBAR:PurchaseUpgradeElderRacesWarBarding
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardTorches
-"Mejorar c&on antorchas"
+"Mejorar con an&torchas"
 END
 
 CONTROLBAR:PurchaseUpgradeShipArmor
