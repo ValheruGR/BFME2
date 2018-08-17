@@ -28187,7 +28187,7 @@ CONTROLBAR:SpecialAbilityWyrmReposition
 END
 
 CONTROLBAR:ThrowFireBombs
-"Bo&mbas incendiarias"
+"Bombas incendiarias (&T)"
 END
 
 CONTROLBAR:ToggleDwarvenGuardianWeapons
@@ -36841,7 +36841,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesMagicArrows
-"Mejora con flechas púa de plata."
+"Mejora con &flechas púa de plata."
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesWarBarding
@@ -36849,7 +36849,7 @@ CONTROLBAR:PurchaseUpgradeElderRacesWarBarding
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardTorches
-"Mejorar c&on antorchas"
+"Mejorar con an&torchas"
 END
 
 CONTROLBAR:PurchaseUpgradeShipArmor
@@ -38417,11 +38417,11 @@ CAH:Command_CreateAHeroThrowSpear_Level3_Name
 END
 
 CAH:Command_CreateAHero_ShieldCrush_Level1_Name
-"Carga de escudo [&W]"
+"Carga de escudo [&X]"
 END
 
 CAH:Command_CreateAHero_ShieldCrush_Level3_Name
-"Carga de escudo mejorada [&W]"
+"Carga de escudo mejorada [&X]"
 END
 
 CAH:Command_CreateAHero_Invulnerability_Level1_Name
@@ -40209,7 +40209,7 @@ CONTROLBAR:SpecialAbilityHotWCrippleStrikeMelee_Level2
 END
 
 CONTROLBAR:CAH_HeroicCharge
-"Carga heroica [&O]"
+"Carga heroica [&B]"
 END
 
 CONTROLBAR:CAH_A_Stealth_Level1
@@ -40417,19 +40417,19 @@ CONTROLBAR:CAH_AxeThrow_Level3
 END
 
 CONTROLBAR:CAH_BattleRage_Level1
-"Furia de batalla [&U]"
+"Furia de batalla [&R]"
 END
 
 CONTROLBAR:CAH_BattleRage_Level2
-"Furia de batalla mejorada [&U]"
+"Furia de batalla mejorada [&R]"
 END
 
 CONTROLBAR:CAH_BattleRage_Level3
-"Furia de batalla grande [&U]"
+"Furia de batalla grande [&R]"
 END
 
 CONTROLBAR:CAH_BattleRage_Level4
-"Furia de batalla superior [&U]"
+"Furia de batalla superior [&R]"
 END
 
 CONTROLBAR:CAH_Bombard_Level1
@@ -40445,15 +40445,15 @@ CONTROLBAR:CAH_Bombard_Level3
 END
 
 CONTROLBAR:CAH_Charge_Level1
-"Carga [&W]"
+"Carga [&X]"
 END
 
 CONTROLBAR:CAH_Charge_Level2
-"Carga mejorada [&W]"
+"Carga mejorada [&X]"
 END
 
 CONTROLBAR:CAH_Charge_Level3
-"Carga poderosa [&W]"
+"Carga poderosa [&X]"
 END
 
 CONTROLBAR:CAH_ClearGarrisoned
@@ -40517,19 +40517,19 @@ CONTROLBAR:SoSSummonAllies_Level4
 END
 
 CONTROLBAR:CAH_BerserkerRage_L1
-"Furia de bersérker [&W]"
+"Furia de bersérker [&R]"
 END
 
 CONTROLBAR:CAH_BerserkerRage_L2
-"Furia de bersérker mejorada [&W]"
+"Furia de bersérker mejorada [&R]"
 END
 
 CONTROLBAR:CAH_BerserkerRage_L3
-"Furia de bersérker grande [&W]"
+"Furia de bersérker grande [&R]"
 END
 
 CONTROLBAR:CAH_BerserkerRage_L4
-"Furia de bersérker superior [&W]"
+"Furia de bersérker superior [&R]"
 END
 
 CONTROLBAR:CAH_FireBomb_Level1
@@ -40569,15 +40569,15 @@ CONTROLBAR:CAH_UntamedAllegiance
 END
 
 CONTROLBAR:CAH_HowlOfRage_Level1
-"Aullido de furia [&U]"
+"Aullido de furia [&T]"
 END
 
 CONTROLBAR:CAH_HowlOfRage_Level2
-"Aullido de furia mejorado [&U]"
+"Aullido de furia mejorado [&T]"
 END
 
 CONTROLBAR:CAH_HowlOfRage_Level3
-"Aullido de furia grande [&U]"
+"Aullido de furia grande [&T]"
 END
 
 CONTROLBAR:CAH_Infernal_L1
