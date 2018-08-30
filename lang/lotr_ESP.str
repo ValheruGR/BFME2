@@ -15401,7 +15401,7 @@ CONTROLBAR:ToolTipRepairStructure
 END
 
 CONTROLBAR:DeployMine
-"Explotar &Mina"
+"Explo&tar Mina"
 END
 
 CONTROLBAR:ToolTipDeployMine
@@ -27463,7 +27463,7 @@ CONTROLBAR:ToolTipSpecialAbilityMurderOfCrows
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressWizardsTower
-"Torre del &mago."
+"&Torre del mago."
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressWizardsTower
@@ -27615,7 +27615,7 @@ CONTROLBAR:ToolTipFireWeaponMordorFortressMagmaCauldrons
 END
 
 CONTROLBAR:FireWeaponMordorFortressSpireFireball
-"Bola de fuego de espira de Gorgoroth (&V)"
+"Bola de fuego de espira de Gorgoro&th"
 END
 
 CONTROLBAR:ToolTipFireWeaponMordorFortressSpireFireball
@@ -36905,7 +36905,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeShipArmor
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenSiegeHammer
-"Martillos de asedio (&K)"
+"Martillos de asedio (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenSiegeHammer
