@@ -27,122 +27,6 @@
 
 
 				;;-------------------------------------------------------------------------------------;;
-				;;------------------------#Bug fixes/avoidance & Error corrections#--------------------;;
-				;;-------------------------------------------------------------------------------------;;
-				
-				
--Now Isengard player can not mount converted Witch king. So we avoid the bug of wk converted to isengard permanently.
--Elven SilverThorn arrows no longer allow archer hordes to have two incrementing damage kinds. Thus, leveling up, leadership or agresive stances; no longer increases the MAGIC damage from upgraded archers, only the PIERCE damage. (like any other archer in the game)
--Fixed Shelob Sting auto ability casting flyers or stuff that doesn't conform part of the filter.
--Fixed wildmen & hobbits not being grabbed by flyers, thus recognized as a big object and applied a strong weapon that always one-hit the whole horde and plays no SpecialFX. Giving cancer to the eyes of the players.
--Fixed palantir affecting flyers.
--Fixed Mordor flyers having no attack sound 60% of the times against units. Now they use original sounds as base when attacking and there's a 40% chance new sounds play. 
--Fixed flyers one-hitting battlewagons when they are clumped.
--Fixed flyers one-hitting battlewagons when they are targeting another nearer object, either units or structures.
--Mordor Flyers & Eagles no longer damages structures when attacking units.
--Mordor Flyers & Eagles no longer one-hits machines when attacking structures or monsters anymore. Only through direct attack.
--Fixed Dwarven Lone Tower not having a stealth detector like any other tower.
--Fixed placebo 1.07 change; Gimli axe thrown cool down 38 from 45. Not properly effective.
--Trolls rampage mode (spinning rage before dying) no longer knock-back heroes. And no longer affects allies.
--Fixed Gondor Trebuchets, Dwarven Catapults upgraded with flaming projectiles not gaining any extra damage against walls (due wall immunity to Fire). Now their anti-walls weapon deal +50% more damage against walls when upgraded by flaming projectiles.
--Fixed all Structural Artillery (from fortress or walls) not having anti-wall weapons like normal artillery.
--Fixed all Artillery bombard weapon not having an anti-wall weapon.
--Fixed all Artillery vision (not shroud reveal) not fitting with weapon range.
--Fixed Mordor Fortress Catapult not having received the +17% range addition. (Leading to all artillery having more range than a structural catapult)
--Fixed Ballista and Mountain giant approaching to the targeted objective until they have vision to shoot. (attack doesn't need line of sight anymore, all other artillery units don't needed it)
--Fixed Outer Wall Hub system (builder-built wall system). Now Wall Hub upgrade (from wall segments) can no longer build outside the range of the main Outer Wall Hub (builder-built). If the main Wall Hub is destroyed, player has to build one again.
--Fixed lorien archer horde auto-acquiring enemy structures when they were just spawned.
--Fixed AI not using Balrog abilities.
--Fixed trolls in stoned model applying the rampage mode. Damaging the units without actually move.
--Fixed kind of definition of Rohirrim Archers.
--Fixed uruk hai heavy armor taking more flanked damage than standard armor.
--Fixed Mighty Rage, Rebuild, Dwarf Riches, Undermine, Industry, Elf wood, Tainted land not being castable near the water.  . (For example on celdium, the fords of any river) //LogNote:Elf Wood will be then able to castable on the middle of the sea, but do we care? We just want to use it the shores...
--Mordor Pyres, Dwarf and Men Fortress Banners now properly grants +25 +25 as tooltip always indicated in BTP. Includes lone towers.
--Fixed Fire Drake inferno hit and run glitch. Now properly the animation has to complete. 
--Fixed Drogoth Incinerate hit and run glitch. Now properly the animation has to complete. Damage is now dealt 4 times so it fits with the fire animation length.
--Fixed Balrog Fire Breath hit and run glitch. Now properly the animation has to complete.
--Fixed Rally Call radius of effect being smaller than the radius-button. (Was 105/100, now 105/105)//Important note and reason to log this minimal change; PATCH 1.07 never made warchant/rally bigger, just radius-button.
--Fixed Warg Howl not stacking with dain mighty rage.
--Fixed sharku man-eater bonus category (now elf mist could not cancel its bonus)
--Fixed lurtz carnage, aragorn and glorfindel dealing two times more damage against warg sentries on high ranks.
--Fixed battlewagon banner carrier fake leadership type. Tooltip indicates Generic Damage Stack but it was High Tier Hero not-stacking leadership.
--Fixed death type from Rivendell Lancer trample. Now properly crushed, from normal.
--Fixed Gorgoroth Spire, Wizard Tower and Ivory Tower special powers being available before the upgrade animation are completed.
--Fixed Boiling Oil, Oil Casks, Magma Cauldrons & Eagle Nest abilities becoming available before the build-up animation completes.
--Fixed Treasure Trove and Haradrim palace using Fortress weapons.
--Fixed dwarf Sentry Towers and dwarf level 3 structures using Fortress weapons. (Means damage to cavalry now 100% from 150%)
--Fixed Dwarven Fortress Catapult upgraded not having received the +17% range addition. 
--Fixed Black Arrows being available on level 1 hordes.
--Fixed Lorien Archer bombard animation.
--Fixed Axe Thrower attack-bombard glitch.
--Fixed CreateAHero bow animation ( and others ). (From RotWK)
--Fixed Cloud break stun being aborted by other kinds of fear. (Like fear to be trampled by nearby cavalry)
--Fixed Haldir Golden Arrow being available in sword mode.(from RotWK)
--Fixed Spider Rider losing forged blade damage against structures when upgraded with venom sacks.
--Fixed Devastation stunning dragon strike.
--Fixed Goblin Fortress upgrades preventing Fire Drake resurrection.
--Fixed Elven Ent Moot shroud clear range. (now 160 from 25, like any other building)
--Fixed troll crush dealing 0 damage to pikes. (This change was meant to neutral warg crush, but they used to share same weapon)
--Fixed wildmen spawn angle.
--Fixed isengard ballista having no animations when attacking.
--Fixed rohan banner being crushable by simple cavalry.
--Fixed Attack Troll & Mountain Troll not attacking units , instead preferring to crush.
--Fixed Trolls not attacking new targets after a hit.
--Fixed worldbuilder crash.
--Fixed Isengard and Goblin summoned dragons having different spawn and teleport timers. Fixed few glitches as well.
--Fixed Battlewagon leveling up not going through level 5 and not gaining it's auto heal.
--Hobbits are not considered as “archers” anymore. So now they don’t avoid meleeing.
--Fixed pippin campfire heal/leadership filters.
--Fixed pippin campfire leadership category. Now it is removed by Freezing Rain.
--Fixed Mouth Of Sauron Doubt debuffing balrogs dragons and wyrms.
--Suited all bounty values(money gained by scavenger powers), now correctly 25% of original cost. From different values for specific heroes, un-actualized ones, errors, etc.
--Fixed battlewagons having no attack animation against units. (it was working only against structures)
--Gimli Slayer radius damage affecting allies fixed.
--Fixed war of the ring not starting.
--Fixed dwarf catapult not scoring power points.
--Fixed Isengard infantry Banner carriers NOT respawning dead units every 7s, from 10s.
--Fixed mordor catapult not being able to use human heads. Note, the bombard icon will now bombard its default weapons. The long-range one will work against Ships, as originally intended by EA. With the difference it attacks ships automatically.
--Fixed Witch King Mounted armor being 3.75% tougher unintentionally.
--Fixed Barrow Wight glitch. (delay between shots now 0.6 seconds from 0.3 seconds.)
--Fixed fireworks being detonated by enemy Merry detonate button.
--Fixed drogoth fireball gaining unintentionally 1/4 more damage per rank.
--Fixed sharku gaining double damage per rank.
--Sam lifetime higher than hobbits lifetime fixed.
--Fixed Wyrm breath glitch. Now she won't take orders while doing the breath attack.
--Glorfindel dismounted glitch fix: sword delay between shoots 800ms from 1ms.
--Legolas melee glitch fix: knife delaybetweenshots 800ms from 1ms.
--Fixed normal dwarf tower having summoned armor and heal/leadership behaviors.
--Blackrider dismounted glitch fix: sword preattackdelay now 500ms from 100ms.
--Goblin king sword glitch fix: sword preattack delay now 400ms from 100ms.
--Fixed dwarven mine not gaining the intentional and generic production bonus at level 3. (+35% from +20%)
--Fixed dwarven bulrush VFX duration not matching with the attribute.
--Fixed elven banner carrier usable without eregion forge.
--Fixed a minor error in the formation of orcs and goblins.
--Aragorn and Lurtz getting stuck till abort the carnage mode when trying to cast it inside an enemy horde fixed.
--Fixed Men Infantry Banner carriers NOT respawning dead units every 7s, from 10s
--Fixed mordor gate watcher applying debuff when it is not fully built.
--Builder can not be teleported anymore.
--Fixed bug with Summoned Hobbits and Men of Dale Horde having infinite lifetime once they got revived.
--Bug fixed: Men of Dale Summoned being able to use Black Arrows.
--Bug fixed: treebeard not being able to use its bombard ability.
--Fixed errors in the formation of the hobbit horde. It’s remade now. 
--Haradrim lancer description and tooltip actualized to their actual function (like axe throwers)
--Some Special Powers like Legolas Hawk Strike arrow, and Gimli Axe Throw penalties against catapults and trebuchets now also includes the dwarven catapult,
--Frames per Second restored to 30, from 33. Fixes spell store not allowing buying any power.
--Bug Fixed: Sam having no animation when throwing Firecracker
--Men fortress changing of damaged model now is fixed. (corrected)
--Fixed lifetime bug with summoned rangers. (revived rangers having longer lifetime)
--Fixed error causing the mighty catapults be shockwaved, bugging the visual object.
--Fixed spider riders speed in unit (not horde). It once was reduced, but unit speed was not touched.
--Fixed men of dale, lorien archer and mirkwood winning the double of damage that they are supposed to earn per rank, becoming overpowered on high ranks when they are upgraded with fire arrow/silver thorn arrow.
--Fixed a lot of errors in the kidnof of nature units( like bats, trees, ravens, etc), being attacked, healed or aimed by certain spells, like Gandalf lightening.
--Fortress slaved spiderlings don't take leadership anymore.
--Fixed bug with Men of Dale & Axe Thrower from Battle Wagon being crushed and rotating inside the battlewagon forever.
--Fixed crossbowmen bombard trajectory and weapon. 
--Fixed mirkwood archer with Silverthorne bombard trajectory and weapon.
--Fixed Sell Building command appaering at 3rd spot in level 3 Dwarven Barrack, now properly appaer in 6th spot.
-
-				;;-------------------------------------------------------------------------------------;;
 				;;-----------------------# Specific MatchUp changes. Scalars#-------------------------;;
 				;;-------------------------------------------------------------------------------------;;
 
@@ -232,6 +116,18 @@
 
 								
 
+
+-Fixed Lorien Archer bombard animation.
+-Fixed death type from Rivendell Lancer trample. Now properly crushed, from normal.
+-Fixed Haldir Golden Arrow being available in sword mode.(from RotWK)
+-Fixed Elven Ent Moot shroud clear range. (now 160 from 25, like any other building)
+-Glorfindel dismounted glitch fix: sword delay between shoots 800ms from 1ms.
+-Legolas melee glitch fix: knife delaybetweenshots 800ms from 1ms.						
+-Fixed elven banner carrier usable without eregion forge.
+-Bug fixed: treebeard not being able to use its bombard ability.
+-Fixed mirkwood archer with Silverthorne bombard trajectory and weapon.	
+-Elven SilverThorn arrows no longer allow archer hordes to have two incrementing damage kinds. Thus, leveling up, leadership or agresive stances; no longer increases the MAGIC damage from upgraded archers, only the PIERCE damage. (like any other archer in the game)
+-Fixed lorien archer horde auto-acquiring enemy structures when they were just spawned.
 -Fear Radiators of Haldir Golden Arrow and Glorfindel Starlight now ALSO affects Trolls.
 
 ;------------------ok. Elven inn units-----------------------;
@@ -454,19 +350,26 @@
 				;;-------------------------------------------------------------------------------------;;
 
 
+-Fixed Black Arrows being available on level 1 hordes.
+-Fixed battlewagon banner carrier fake leadership type. Tooltip indicates Generic Damage Stack but it was High Tier Hero not-stacking leadership.
+-Fixed dwarven mine not gaining the intentional and generic production bonus at level 3. (+35% from +20%)
+-Fixed normal dwarf tower having summoned armor and heal/leadership behaviors.
+-Fixed Axe Thrower attack-bombard glitch.
+-Fixed Dwarven Fortress Catapult upgraded not having received the +17% range addition.
+-Fixed dwarf Sentry Towers and dwarf level 3 structures using Fortress weapons. (Means damage to cavalry now 100% from 150%) 
+-Fixed bug with Men of Dale & Axe Thrower from Battle Wagon being crushed and rotating inside the battlewagon forever.
+-Fixed Dwarven Lone Tower not having a stealth detector like any other tower.
+-Fixed placebo 1.07 change; Gimli axe thrown cool down 38 from 45. Not properly effective.
+-Bug fixed: Men of Dale Summoned being able to use Black Arrows.	
+-Fixed error causing the mighty catapults be shockwaved, bugging the visual object.		
+-Fixed battlewagons having no attack animation against units. (it was working only against structures)
+-Fixed dwarf catapult not scoring power points.
+-Gimli Slayer radius damage affecting allies fixed.
+-Fixed dwarven bulrush VFX duration not matching with the attribute.			
+-Fixed Battlewagon leveling up not going through level 5 and not gaining it's auto heal.
 ;------------------ok. dwarf builder-----------------------;
 -Dwarven Builder now gain heavy armor (take 1/3 less damage) when Stonework is purchased in any fortress.
 -Dwarven builder vision now 120 from 100.
-;------------------ok. dwarf inn units-----------------------;
--Hobbits rock can now attack flyers. Have fun trying to hit them.
--Hobbits rock throw Delay Between Shots 1700 from 3166.
--Hobbits rock damage 35 from 50. 
--Hobbits rock now deal 33% to Mumakils from 50%.
--Hobbits rock damage against infantry now 33% from 25%.
--Hobbits deal 55% damage from 60% against barracks. (theay already deal 55% against economic buildings, and 50% against fortress)
--Hobbit member speed 56 from 54.
--Hobbit horde speed 52 from 54.
--Hobbits hordes on rock mode can now shot inside a tower.
 ;------------------ok. dwarf siege works upgrades-----------------------;
 -Dwarven Forged Blade build time now 45 seconds from 60.
 -Dwarven Mithril Armor build time now 45 seconds from 60.
@@ -633,6 +536,11 @@
 				;;------------------------------------#Men of the West#--------------------------------;;
 				;;-------------------------------------------------------------------------------------;;
 
+-Fixed kind of definition of Rohirrim Archers.
+-Fixed Men Infantry Banner carriers NOT respawning dead units every 7s, from 10
+			
+-Men fortress changing of damaged model now is fixed. (corrected)	
+-Fixed lifetime bug with summoned rangers. (revived rangers having longer lifetime)		
 ;------------------ok. men lone tower ---------------------
 -Men Lone Tower health now 3000 from 2500. Armor reverted to normal structure armor. (More damage took from SLASH, hero, cavarly, MAGIC & FLAME)
 -Men lone tower now respawns one 1 unit per horde each 10 seconds. Radius set to 150. (If house of healing are purchased)
@@ -667,7 +575,6 @@
 -Gondor Archery Range level 2 upgrade cost 450 from 500. //LogNote:dwarf is 500
 -Gondor Archery Range level 2 upgrade build time 25 secs from 30. //LogNote:dwarf is 20
 -Gondor Archery Range level 3 upgrade cost 400 from 600. //LogNote:dwarf is 300
--Gondor Archery Range level 3 upgrade time 25 from 30s. //LogNote: dwarf is 20
 -Gondor Iron Ore discount now affects Gondor and Ithilien archers fire arrows.
 -Gondor Iron One discount now -33.33% from just -33%. (Upgrades cost 200 instead of ugly 201)
 -Blacksmith build time from 70s to 63s
@@ -679,7 +586,7 @@
 -Gondor Knight health gains for levels 6 to 10 now 10 10 10 10 10 from 20 20 20 20 20.
 -Gondor Archer deals 90% to Gondor Soldier.
 -Gondor Archer pierce armor now 80%/40% (from 80%/50%)
--Gondor Archer experience required for levels 2 to 10 now 35 35 35 50 50 50 50 50 100 from 20 20 40 40 180 50 50 50 50. (Previuos than this; 40 80 120 180 and originally 50 100 150 200.)
+-Gondor Archer experience required for levels 2 to 10 now 35 35 35 50 50 50 50 50 100 from 20 20 40 40 180 50 50 50 50. (Previuos than this; 40 40 40 40 and originally 50 50 50 50.)
 -Gondor Tower Guard uruk armor now 150%/65% from 125%/65%.
 -Gondor Tower Guard pike now deals 110% against cavalry from 100%. //LogNote:Consider they should hypotetically be the best pike of the game due it's slowest speed, they have also got the slowest pike damage ironically. If it wasn't cause of it's super-anti-Crush-Revenge weapons, they would be literally the worst anti-cavalry unit of the game.)
 -Gondor Tower Guard Crush-Revenge damage reduced. 380 from 400.
@@ -691,6 +598,7 @@
 -Rohirrim bow damage in horde now 290/250 from 260/250. (Unupgraded/Fire respectively) (Originally 200/200) //LogNote: Damage is explayed in horde to be compared with Spider Riders 
 -Rohirrim forged blades deal 133% against fortress. (From 100%. Originally 200%.)
 -Rohan banner health 150 from 100. (affect peasants from inn)
+-Fixed rohan banner being crushable by simple cavalry.
 -Rohirrim Crush armor now 50/30 from 50/36
 -Rohirrim FLAME armor now 140/93 from 140/120
 -Rohirrim MAGIC armor now 100/75 from 100/90
@@ -768,6 +676,19 @@
 				;;-------------------------------------------------------------------------------------;;
 				;;---------------------------------------#Mordor#--------------------------------------;;
 				;;-------------------------------------------------------------------------------------;;
+
+-Fixed Mouth Of Sauron Doubt debuffing balrogs dragons and wyrms.
+-Fixed mordor catapult not being able to use human heads. Note, the bombard icon will now bombard its default weapons. The long-range one will work against Ships, as originally intended by EA. With the difference it attacks ships automatically.
+-Fixed Witch King Mounted armor being 3.75% tougher unintentionally.
+-Fixed Barrow Wight glitch. (delay between shots now 0.6 seconds from 0.3 seconds.)
+
+-Haradrim lancer description and tooltip actualized to their actual function (like axe throwers)
+
+-Blackrider dismounted glitch fix: sword preattackdelay now 500ms from 100ms.
+
+-Fixed mordor gate watcher applying debuff when it is not fully built.
+-Fixed Mordor flyers having no attack sound 60% of the times against units. Now they use original sounds as base when attacking and there's a 40% chance new sounds play. 
+-Fixed Mordor Fortress Catapult not having received the +17% range addition. (Leading to all artillery having more range than a structural catapult)
 
 ;;----------------ok- mordor hordes---------------;;
 -Mordor orc experience required now 30 30 30 50 30 30 30 30 50 from 20 20 40 40 20 20 20 20 40.
@@ -958,6 +879,18 @@
 				;;-------------------------------------------------------------------------------------;;
 
 
+-Fixed Spider Rider losing forged blade damage against structures when upgraded with venom sacks.
+-Fixed spider riders speed in unit (not horde). It once was reduced, but unit speed was not touched.
+-Fixed Fire Drake inferno hit and run glitch. Now properly the animation has to complete. 
+-Fixed Drogoth Incinerate hit and run glitch. Now properly the animation has to complete. Damage is now dealt 4 times so it fits with the fire animation length.
+-Fixed Goblin Fortress upgrades preventing Fire Drake resurrection.
+-Goblin king sword glitch fix: sword preattack delay now 400ms from 100ms.
+-Fixed drogoth fireball gaining unintentionally 1/4 more damage per rank.
+-Fixed Shelob Sting auto ability casting flyers or stuff that doesn't conform part of the filter.
+-Trolls rampage mode (spinning rage before dying) no longer knock-back heroes. And no longer affects allies.
+
+-Fortress slaved spiderlings don't take leadership anymore.
+
 ;------------------ok. goblin units ---------------------;
 -Goblin fighter experience required now 30 30 30 50 50 50 50 50 80 from 20 20 40 40 180 50 50 50 50.
 -Goblin Builder vision now 110 from 100.
@@ -1136,6 +1069,24 @@
 				;;-------------------------------------------------------------------------------------;;
 				;;---------------------------------------#Isengard#------------------------------------;;
 				;;-------------------------------------------------------------------------------------;;
+				
+				
+				
+				
+
+	
+
+
+-Fixed Isengard infantry Banner carriers NOT respawning dead units every 7s, from 10s.
+-Fixed isengard ballista having no animations when attacking.
+-Fixed sharku gaining double damage per rank.		
+-Fixed crossbowmen bombard trajectory and weapon. 
+-Fixed Devastation stunning dragon strike.
+-Fixed sharku man-eater bonus category (now elf mist could not cancel its bonus)
+-Fixed Warg Howl not stacking with dain mighty rage.
+-Fixed uruk hai heavy armor taking more flanked damage than standard armor.	
+-Fixed palantir affecting flyers.
+-Now Isengard player can not mount converted Witch king. So we avoid the bug of wk converted to isengard permanently.
 ;------------------ok. isen siege-----------------------;
 -Ballista build time now 27 from 20.
 -Ballista now has a minimum cast range of 80(can't shoot in melee)
@@ -1253,10 +1204,24 @@ Does not stun.. Now AI will use lurtz cripple on flyers.
 -Dragon Strike now deals less overall damage to Fort’s and Structures
 
 
- 				;;-------------------------------------------------------------------------------------;;
-				;;----------------------------------#Global: Shared Spellbooks#------------------------;;
+ 				
 				;;-------------------------------------------------------------------------------------;;
+				;;-------------------# Global: Spellbooks, Units, Structures, Neutrals, Misc#----------------------;;
+				;;-------------------------------------------------------------------------------------;;
+				
+				
+				
 
+;;-------------------------------------------------------------------------;;
+;;------------------------Global: Shared Spellbooks------------------------;;
+;;-------------------------------------------------------------------------;;
+-Fixed wildmen & hobbits not being grabbed by flyers, thus recognized as a big object and applied a strong weapon that always one-hit the whole horde and plays no SpecialFX. Giving cancer to the eyes of the players.
+-Fixed wildmen spawn angle.
+-Fixed AI not using Balrog abilities.
+-Fixed Balrog Fire Breath hit and run glitch. Now properly the animation has to complete.
+-Fixed Rally Call radius of effect being smaller than the radius-button. (Was 105/100, now 105/105)//Important note and reason to log this minimal change; PATCH 1.07 never made warchant/rally bigger, just radius-button.
+-Fixed Cloud break stun being aborted by other kinds of fear. (Like fear to be trampled by nearby cavalry)
+-Fixed Isengard and Goblin summoned dragons having different spawn and teleport timers. Fixed few glitches as well.
 ;----------------------------ok. bats/crebain-----------------------------;
 -Crebains now inmune to any possible non-ranged damage kind, like logical fire or summoned watcher damage.
 -Bats/Crebain FIRE/MAGIC armor now 50% from 100%.
@@ -1293,6 +1258,14 @@ Does not stun.. Now AI will use lurtz cripple on flyers.
 -Pippin campfire heal range 200 from 300.
 -Pippin campfire can now detect stealth.
 -Pippin campfire lifetime now 90 secs from 200. 
+- Merry and Sam firecracker tooltips separated. Merry indicates it's bonus on buildings and Sam in shelob.
+- Merry firecracker mentions it's effectiveness against mumakils.
+- Corrected pippin campfire healing and leadership filter tooltip.
+- Added hotkeys for hobbit abilies. Pippin fireworks (V to set up and B to ignite). Firecrackers R. Merry campfire V.-Fixed pippin campfire heal/leadership filters.
+-Fixed pippin campfire leadership category. Now it is removed by Freezing Rain.
+-Fixed fireworks being detonated by enemy Merry detonate button.
+-Sam lifetime higher than hobbits lifetime fixed.
+-Bug Fixed: Sam having no animation when throwing Firecracker
 ;------------------ok. dragon-----------------------;
 -Summoned Dragon fire breath now deals 33% against flyers. 
 -Summoned Dragon fire breath now deals 50% against allied structures.
@@ -1351,28 +1324,66 @@ Does not stun.. Now AI will use lurtz cripple on flyers.
 -Wyrm fire breath now deals 200% against machines.
 -Wyrm structural armor now 65% from 100%.
 -Wyrm auto-reposition will now consider on this order Heroes, Structures (not fortress). If noone are found, then machines, once machines are gone she will try to teleport between 3 hordes, if neither finds this; then she will repositionate against anything. [from prefering infantry and dismounted heroes, then anything else)
-
-				;;-------------------------------------------------------------------------------------;;
-				;;---------------------------# Global: Fire Arrow System#------------------------------;;
-				;;-------------------------------------------------------------------------------------;;
-
+-Fixed Wyrm breath glitch. Now she won't take orders while doing the breath attack.
+;------------------ok. FIre Arrow system----------------------;
 -All archers (except Ithilien Ranger) + Fire Arrows: PIERCE damage setted up to unupgraded arrow PIERCE damage.
 -Archers on foot + Fire Arrows: gain a +15% PIERCE damage bonus against everything but CAVALRY. +7.5% against Cavalry + a normal FLAME damage amount.
 -Mounted archers + Fire Arrows: gain a +15% PIERCE damage bonus against everything but PIKES + a normal FLAME damage amount.
 (From Archers gaining both PIERCE/FLAME damage amounts unequally. Some archers were gaining more PIERCE than FLAME, others more FLAME than PIERCE)
-
-				;------------------ok. have a specific axample---------------------
-*Now
-GoblinArcher unupgraded	  = 26 PIERCE damage.
-GoblinArcher + fire arrow = 26 PIERCE damage (+15% bonus to units exept cavalry) + 20 FLAME damage.
-*Before
-GoblinArcher unupgraded	  = 28 PIERCE damage. (yeah we also nerfed them)
-GoblinArcher + fire arrow = 20 PIERCE damage + 30 FLAME damage.
-
-				;;-------------------------------------------------------------------------------------;;
-				;;-------------------# Global: Units, Structures, Neutrals, Misc#----------------------;;
-				;;-------------------------------------------------------------------------------------;;
-				
+						;--example---;
+							Now
+		GoblinArcher unupgraded	  = 26 PIERCE damage.
+		GoblinArcher + fire arrow = 26 PIERCE damage (+15% bonus to units exept cavalry) + 20 FLAME damage.
+							Before
+		GoblinArcher unupgraded	  = 28 PIERCE damage. (yeah we also nerfed them)
+		GoblinArcher + fire arrow = 20 PIERCE damage + 30 FLAME damage.
+						;------------;
+;----------------------------------------------------------------;;
+-Fixed Outer Wall Hub system (builder-built wall system). Now Wall Hub upgrade (from wall segments) can no longer build outside the range of the main Outer Wall Hub (builder-built). If the main Wall Hub is destroyed, player has to build one again.
+-Fixed trolls in stoned model applying the rampage mode. Damaging the units without actually move.
+-Fixed Mighty Rage, Rebuild, Dwarf Riches, Undermine, Industry, Elf wood, Tainted land not being castable near the water.  . (For example on celdium, the fords of any river) //LogNote:Elf Wood will be then able to castable on the middle of the sea, but do we care? We just want to use it the shores...
+-Mordor Pyres, Dwarf and Men Fortress Banners now properly grants +25 +25 as tooltip always indicated in BTP. Includes lone towers.
+-Fixed lurtz carnage, aragorn and glorfindel dealing two times more damage against warg sentries on high ranks.
+-Fixed Gorgoroth Spire, Wizard Tower and Ivory Tower special powers being available before the upgrade animation are completed.
+-Fixed Boiling Oil, Oil Casks, Magma Cauldrons & Eagle Nest abilities becoming available before the build-up animation completes.
+-Fixed Treasure Trove and Haradrim palace using Fortress weapons.
+-Fixed CreateAHero bow animation ( and others ). (From RotWK)
+-Fixed troll crush dealing 0 damage to pikes. (This change was meant to neutral warg crush, but they used to share same weapon)
+-Fixed Attack Troll & Mountain Troll not attacking units , instead preferring to crush.
+-Fixed Trolls not attacking new targets after a hit.
+-Fixed worldbuilder crash.
+-Suited all bounty values(money gained by scavenger powers), now correctly 25% of original cost. From different values for specific heroes, un-actualized ones, errors, etc.
+-Fixed war of the ring not starting.
+-Fixed a minor error in the formation of orcs and goblins.
+-Aragorn and Lurtz getting stuck till abort the carnage mode when trying to cast it inside an enemy horde fixed.
+-Builders can not be teleported anymore.
+-Some Special Powers like Legolas Hawk Strike arrow, and Gimli Axe Throw penalties against catapults and trebuchets now also includes the dwarven catapult,
+-Frames per Second restored to 30, from 33. Fixes spell store not allowing buying any power.
+-Fixed men of dale, lorien archer and mirkwood winning the double of damage that they are supposed to earn per rank, becoming overpowered on high ranks when they are upgraded with fire arrow/silver thorn arrow.
+-Fixed a lot of errors in the kidnof of nature units( like bats, trees, ravens, etc), being attacked, healed or aimed by certain spells, like Gandalf lightening.
+-Fixed Sell Building command appaering at 3rd spot in level 3 Dwarven Barrack, now properly appaer in 6th spot.
+-Fixed flyers one-hitting battlewagons when they are clumped.
+-Fixed flyers one-hitting battlewagons when they are targeting another nearer object, either units or structures.
+-Mordor Flyers & Eagles no longer damages structures when attacking units.
+-Mordor Flyers & Eagles no longer one-hits machines when attacking structures or monsters anymore. Only through direct attack.
+-Fixed Gondor Trebuchets, Dwarven Catapults upgraded with flaming projectiles not gaining any extra damage against walls (due wall immunity to Fire). Now their anti-walls weapon deal +50% more damage against walls when upgraded by flaming projectiles.
+-Fixed all Structural Artillery (from fortress or walls) not having anti-wall weapons like normal artillery.
+-Fixed all Artillery bombard weapon not having an anti-wall weapon.
+-Fixed all Artillery vision (not shroud reveal) not fitting with weapon range.
+-Fixed Ballista and Mountain giant approaching to the targeted objective until they have vision to shoot. (attack doesn't need line of sight anymore, all other artillery units don't needed it)
+-Fixed bug with Summoned Hobbits and Men of Dale Horde having infinite lifetime once they got revived.
+;----------------------ok. hobbits-----------------------;
+-Hobbits are not considered as “archers” anymore. So now they don’t avoid meleeing.
+-Hobbits rock can now attack flyers. Have fun trying to hit them.
+-Hobbits rock throw Delay Between Shots 1700 from 3166.
+-Hobbits rock damage 35 from 50. 
+-Hobbits rock now deal 33% to Mumakils from 50%.
+-Hobbits rock damage against infantry now 33% from 25%.
+-Hobbits deal 55% damage from 60% against barracks. (theay already deal 55% against economic buildings, and 50% against fortress)
+-Hobbit member speed 56 from 54.
+-Hobbit horde speed 52 from 54.
+-Hobbits hordes on rock mode can now shot inside a tower.
+-Fixed errors in the formation of the hobbit horde. It’s remade now. 
 ;----------------------ok. ring heros-----------------------;
 -Galadriel health restored to 5000, from 12000. She's too fast to be indestructible, unlike sauron who can't even aproach to enemy base.
 -Galadriel's summon oathbreakers have been replaced by a new special spell that heals nearby units and heros.
@@ -1468,7 +1479,7 @@ GoblinArcher + fire arrow = 20 PIERCE damage + 30 FLAME damage.
 				;;--Suited the experience awards of all units, which were rushed on 1.08. Specific experience level changes appaer in each faction.--;;
 				;;------------------------------------------------Generic changes will appaer here.--------------------------------------------------;;
 				;;---------------------------------------------For very curiuos people: Take a look at data\ini\gamedata.ini-------------------------;;
-				;;-----------------------------------------------------------------------------------------------------------------------------------;;
+				;;-------------------------------------------------------------------
 				
 				
 ;------------------ok. MONSTERS. MACHINES.-----------------------;
@@ -1762,10 +1773,7 @@ GoblinArcher + fire arrow = 20 PIERCE damage + 30 FLAME damage.
 - Actualised Eowyn Shield Maiden tooltip. 
 - Eowyn Smite Thrown tooltip improved. Now it's mentioned the bonus against evil heroes and it's caractheristical strengh against mordor Flyers.
 - Single-evacuate garrison (from tunels, towers, ships) now have a hotkey. Set up to T. (Note that evacuate-all still being V)
-- Added hotkeys for hobbit abilies. Pippin fireworks (V to set up and B to ignite). Firecrackers R. Merry campfire V.
-- Merry and Sam firecracker tooltips separated. Merry indicates it's bonus on buildings and Sam in shelob.
-- Merry firecracker mentions it's effectiveness against mumakils.
-- Corrected pippin campfire healing and leadership filter tooltip.
+
 - Actualised House of healing hero respawn discount.
 - Goblin Dragon Nest fortress upgrade now indicates it heals Drogoth and now reduce Drogoth revival timmer.
 - Razor Spines & Mordor Moat fortress upgrades now indicate that heal units.
@@ -1805,4 +1813,52 @@ GoblinArcher + fire arrow = 20 PIERCE damage + 30 FLAME damage.
 -Good Blue Mountains; fixed drogoth balance in Blue Mountains. Vanilla rebalance was affecting nazguls, not drogoth. (Due weapon renames on 08)
 -Good Campaign; fixed errors in the spell book tree. //LogNote: e.g. powers being inaccessible due wrong prerequisites, or not requiring prerequisites at all.
 -Evil Campaign; Untamed Allegiance convert creeps ability restored. Now it's possible to complete all secondary missions in Fornost.
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.09_v1_Patch 1.09 Credits
+****************Battle For Middle Earth II Patch 1.09 Credits*************
+
+Valheru - Lead, Special FX, Sounds, Models, 2D Art, Maps, Coding, Bug Fixing, Balance, Ideas, Rigging
+
+Ecthelion - Maps, Coding, Bug Fixing, Testing, Balance, Ideas, Beta and Translators Crew Direction
+
+Arch4ng3l, RanDoMLol, Maka, Apmn - Testing, Balance, Ideas
+
+Rider Of Rohan - Models, 2D Art, Rigging, HD Textures(as per his HD Pack available on Moddb)
+
+Mathijs - Models, 2D Art
+
+Ruudy, Morgul, Valenquetta - Models
+
+MattTheLegoman, SilverBane - Maps and Reskins
+
+*And thanks to everyone else involved in the beta testing process, which has took around 2.5 years;
+
+Fitton, Luigi, Thorin, Niick, Tyrion, Xelenos, StrayHearth, Buk Lau, HungryHorse, YodA, Askarian, GluteMaster, Celebrimdor, Scorpion, Daryl, Casper, Kumail, Lazar, Temptation, Menji, Guerrilla, Coptic, Roxas, 4Justice clan members, Kitty, Derork, Orchist, Orgueil . - Testing
+
+
+***********************************ASSETS**************************************************************
+
+Please do not use assets included in this patch without permission. You can pop a message to Valheru on
+Gamereplays and ask for permission there. He will direct you to whoever created what it is you wish to use.
+Profile is here https://www.gamereplays.org/community/index.php?showuser=50947 
+
+We hope you enjoy the patch, for any assistance you can visit Gamereplays BFMEII Portal 
+https://www.gamereplays.org/battleformiddleearth2/ and also the facebook groups. See you in game!
+
+*******************************************************************************************************
+
+
+
 
