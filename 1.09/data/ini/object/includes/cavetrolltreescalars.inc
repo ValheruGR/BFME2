@@ -6,8 +6,8 @@
 		DamageScalar	= 82% NONE +GondorTowerShieldGuard ;;=CAVETROLLBALANCE=;; ; 77% NONE +GondorTowerShieldGuard ;;=CAVETROLLBALANCE=;;
 		DamageScalar	= 95% NONE +MordorEasterling ;;=CAVETROLLBALANCE=;; ; 85% NONE +MordorEasterling ;;=CAVETROLLBALANCE=;;
         DamageScalar	= 110% NONE +IsengardPikeman
-		DamageScalar	= 225% NONE +CREEP -BarrowWight -FireDrake_Slaved
-		DamageScalar	= 200% NONE +WargLair +BarrowWightLair +CaveTrollLair +SpiderLair +MoriarGoblinLair
+		DamageScalar	= 225% NONE +CREEP 
+		DamageScalar	= 200% NONE +WargLair +BarrowWightLair +CaveTrollLair +SpiderLair +MoriarGoblinLair 
 
 
 
