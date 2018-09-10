@@ -7078,7 +7078,7 @@ CONTROLBAR:ToolTipRaiseShield
 END
 
 CONTROLBAR:Evacuate
-"Evacuar (&t)"
+"Evacuar (&T)"
 END
 
 CONTROLBAR:ExecuteRailedTransport
@@ -12554,7 +12554,7 @@ CONTROLBAR:TooltipLumbermillUnpack
 END
 
 CONTROLBAR:UnpackLumbermill
-"Construir serrería (&J)"
+"Construir serrería (&Y)"
 END
 
 CONTROLBAR:UnpackSlaughterhouse
@@ -12566,7 +12566,7 @@ CONTROLBAR:TooltipSlaughterhouseUnpack
 END
 
 CONTROLBAR:ConstructMenPorter
-"Constructor (&K)"
+"Constructor (&W)"
 END
 
 CONTROLBAR:ToolTipConstructMenPorter
@@ -12634,7 +12634,7 @@ CONTROLBAR:ToolTipConstructMenWell
 END
 
 CONTROLBAR:ConstructMenStatue
-"Construir estatua her&oica"
+"Construir estatua heroica (&B)"
 END
 
 CONTROLBAR:ToolTipConstructMenStatue
@@ -13094,7 +13094,7 @@ CONTROLBAR:ConstructMordorTrollCage
 END
 
 CONTROLBAR:ConstructMordorSiegeWorks
-"Construir gran fábrica de máq&uinas de asedio"
+"Cons&truir gran fábrica de máquinas de asedio"
 END
 
 CONTROLBAR:ConstructMordorHaradrimPalace
@@ -13110,7 +13110,7 @@ CONTROLBAR:ConstructSlaughterHouse
 END
 
 CONTROLBAR:ConstructLumberMill
-"Construir s&errería"
+"Construir serrería (&Y)"
 END
 
 CONTROLBAR:ConstructFurnace
@@ -13182,7 +13182,7 @@ CONTROLBAR:ConstructIsengardWargPit
 END
 
 CONTROLBAR:ConstructIsengardSiegeWorks
-"Constr&uir fábrica de máquinas de asedio"
+"Cons&truir fábrica de máquinas de asedio"
 END
 
 CONTROLBAR:ConstructIsengardArmory
@@ -14265,7 +14265,7 @@ CONTROLBAR:ConstructMordorCaveTroll
 END
 
 CONTROLBAR:ConstructMordorMountainTroll
-"Troll de las montañas (&L)"
+"Troll de las montañas (&R)"
 END
 
 CONTROLBAR:ConstructMordorMumakil
@@ -14297,7 +14297,7 @@ CONTROLBAR:ToolTipBuildMordorEasterlingHorde
 END
 
 CONTROLBAR:ConstructMordorPorter
-"Constructor (&K)"
+"Constructor (&W)"
 END
 
 CONTROLBAR:ToolTipBuildMordorPorter
@@ -14473,7 +14473,7 @@ CONTROLBAR:ConstructIsengardBannerCarrier
 END
 
 CONTROLBAR:ConstructIsengardPorter
-"Constructor (&K)"
+"Constructor (&W)"
 END
 
 CONTROLBAR:ConstructIsengardForgedBladesPorter
@@ -14789,7 +14789,7 @@ CONTROLBAR:ToolTipSpecialAbilityGrondPower
 END
 
 CONTROLBAR:ConstructMordorDrummerTrolls
-"Troll con tambor (&K)"
+"Troll con tambor (&Y)"
 END
 
 CONTROLBAR:TooltipConstructMordorDrummerTrolls
@@ -24145,7 +24145,7 @@ CONTROLBAR:ToolTipConstructDwarvenFortress
 END
 
 CONTROLBAR:ConstructDwarvenSentryTower
-"Construir torreón (&K)"
+"Construir torreón (&R)"
 END
 
 CONTROLBAR:ConstructDwarvenBarracks
@@ -24165,7 +24165,7 @@ CONTROLBAR:ToolTipConstructDwarvenHearth
 END
 
 CONTROLBAR:ConstructDwarvenForgeWorks
-"Construir for&ja"
+"Construir forja (&V)"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenForgeWorks
@@ -24181,7 +24181,7 @@ CONTROLBAR:TooltipConstructDwarvenMineShaft
 END
 
 CONTROLBAR:ConstructDwarvenStatue
-"Constr&uir estatua heroica"
+"Construir estatua heroica (&B)"
 END
 
 CONTROLBAR:TooltipConstructDwarvenStatue
@@ -24293,7 +24293,7 @@ CONTROLBAR:ToolTipFireWeaponDwarvenFortressOilCasks
 END
 
 CONTROLBAR:ConstructDwarvenPorter
-"Reclutar constructor (&K)"
+"Reclutar constructor (&W)"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenPorter
@@ -24919,7 +24919,7 @@ CONTROLBAR:ToolTipBuildElvenGreenPastureLevel3Upgrade
 END
 
 CONTROLBAR:ConstructElvenStatue
-"Construir estatua her&oica"
+"Construir estatua heroica (&B)"
 END
 
 CONTROLBAR:ConstructElvenBattleTower
@@ -24999,7 +24999,7 @@ CONTROLBAR:BuildElvenRivendellLancers
 END
 
 CONTROLBAR:ConstructElvenPorter
-"Constructor (&K)"
+"Constructor (&W)"
 END
 
 CONTROLBAR:Tooltipconstructelvenporter
@@ -27639,7 +27639,7 @@ CONTROLBAR:ToolTipStartWallSpanRepair
 END
 
 CONTROLBAR:ConstructIsengardLumberMill
-"Serrería (&T)"
+"Serrería (&Y)"
 END
 
 CONTROLBAR:ToolTipConstructIsengardLumberMill
@@ -27671,7 +27671,7 @@ CONTROLBAR:ToolTipMordorTavern
 END
 
 CONTROLBAR:ConstructMordorLumberMill
-"Cons&truir serrería de Mordor"
+"Construir serrería de Mordor (&Y)"
 END
 
 CONTROLBAR:TooltipConstructMordorLumberMill
@@ -27907,7 +27907,7 @@ CONTROLBAR:BattleWagonUpgradeBannerCarrier
 END
 
 CONTROLBAR:BattleWagonUpgradeHearth
-"Mejorar c&on horno"
+"Mejorar con horno (&W)"
 END
 
 CONTROLBAR:BattleWagonUpgradeMenOfDale
@@ -36769,7 +36769,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyElvenHeavyArmor
 END
 
 CONTROLBAR:PurchaseUpgradeElvenHeavyArmor
-"Comprar armadura elfa (&K)"
+"Comprar armadura elfa (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenHeavyArmor
@@ -36801,7 +36801,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMordorForgedBlades
 END
 
 CONTROLBAR:PurchaseTechnologyMordorHeavyArmor
-"Investigar armadura pesada (&K)"
+"Investigar armadura pesada (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyMordorHeavyArmor
@@ -36809,7 +36809,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorHeavyArmor
 END
 
 CONTROLBAR:HeavyArmorUpgrade
-"Comprar armadura pesada (&K)"
+"Comprar armadura pesada (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorHeavyArmor
@@ -36821,7 +36821,7 @@ CONTROLBAR:PurchaseTechnologyDwarvenFlamingShot
 END
 
 CONTROLBAR:PurchaseTechnologyDwarvenSiegeHammer
-"Investigación: Martillos de asedio (&K)"
+"Investigación: Martillos de asedio (&Y)"
 END
 
 CONTROLBAR:PurchaseTechnologyElderRacesMagicArrows
