@@ -30818,7 +30818,7 @@ End
 // \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry
 
 CONTROLBAR:ToolTipBuildMordorAttackTroll
-"Requires Level 3 Troll Cages \n Strong vs. Swordsmen, Cavalry, and Structures"
+"Requires Level 3 Troll Cages \n Strong vs. Swordsmen, Cavalry, and Heros"
 End
 
 CONTROLBAR:ToolTipCitadelCatapultUpgrade
