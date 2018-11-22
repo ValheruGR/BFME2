@@ -13758,7 +13758,7 @@ CONTROLBAR:ToolTipBuildReinforcedGateUpgrade
 END
 
 CONTROLBAR:ToolTipBuildIronOreUpgrade
-"Reduce en un 25% el coste de las mejoras espadas forjadas y armadura pesada."
+"Reduce en un 33% el coste de las mejoras espadas forjadas y armadura pesada."
 END
 
 CONTROLBAR:ToolTipBuildGrandHarvestUpgrade
@@ -27811,7 +27811,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
-"Hace que caiga una lluvia de roca fundida sobre la zona seleccionada. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Hace que caiga una lluvia de roca fundida sobre la zona seleccionada causando fuertes daños a aliados y enemigos por igual.\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 
 CONTROLBAR:TerribleFury
@@ -42783,7 +42783,7 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"La producción de recursos de la estructura de recursos seleccionada aumenta en un 300% de manera temporal. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"La producción de recursos de la estructura de recursos seleccionada aumenta en un 400% de manera temporal. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:TooltipPalantirVision
@@ -43559,7 +43559,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"El huargo gana +65% al daño.\n Pierde -15% armadura contra daño estructural y de picas \n La bonificacion no puede ser cancelada y siempre se acumula \n Para activarlo, haz clic con el botón izquierdo."
+"El huargo gana +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas \n La bonificacion no puede ser cancelada\n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades

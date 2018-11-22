@@ -15319,7 +15319,7 @@ CONTROLBAR:ToolTipBuildReinforcedGateUpgrade
 END
 
 CONTROLBAR:ToolTipBuildIronOreUpgrade
-"Reduces the cost of Forged Blades and Heavy Armor upgrades by 25%"
+"Reduces the cost of Forged Blades and Heavy Armor upgrades by 33%"
 END
 
 CONTROLBAR:ToolTipBuildGrandHarvestUpgrade
@@ -30298,7 +30298,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
-"Calls down a hail of molten rock on selected area \n Left click icon then left click on target area"
+"Calls down a hail of molten rock on selected area, causing heavy damage to both enemies and allies\n Left click icon then left click on target area"
 END
 
 CONTROLBAR:TerribleFury
@@ -45834,7 +45834,7 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"Selected structure's resource output is temporarily raised to 300% \n Left click icon then left click on target resource structure"
+"Selected structure's resource output is temporarily raised to 400% \n Left click icon then left click on target resource structure"
 END
 
 CONTROLBAR:TooltipPalantirVision
@@ -46253,7 +46253,7 @@ OBJECT:DwarvenStatueDescription
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Allies near Fortress gain \n +50% Damage and 25% experience \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +25% Damage and 25% experience \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
@@ -46729,7 +46729,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"Wargs gain +65% Damage but \n lose -15% armor against pikes and structural \n Bonus cannot be removed and always stacks \n Left click to activate"
+"Wargs gain +55% Damage but \n lose -15% armor against pike and structural damage\n Bonus cannot be removed \n Left click to activate"
 END
 
 //========== Release Candidate 4 fixes
