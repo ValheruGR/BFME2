@@ -25647,7 +25647,7 @@ CONTROLBAR:LW_ToolTipBuild_DwarvenAxeThrowerHorde
 END
 
 CONTROLBAR:LW_ToolTip_DwarvenAxeThrowerHorde
-"\nTipo de unidad: Arquero básico.\nFuerte contra infantería."
+"\nTipo de unidad: Arquero básico.\nFuerte contra piqueros y arqueros."
 END
 
 CONTROLBAR:LW_Unit_DwarvenMenOfDaleHorde
@@ -43523,7 +43523,7 @@ CONTROLBAR:SpecialAbilityIncinerate
 END
 
 OBJECT:HordeMordorHaradrimLancer
-"Lancero haradrim"
+"Lanceros haradrim"
 END
 
 CONTROLBAR:LW_Unit_MordorHaradrimLancerHorde
