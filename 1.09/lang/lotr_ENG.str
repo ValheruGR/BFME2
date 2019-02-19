@@ -16273,7 +16273,7 @@ CONTROLBAR:TooltipScreechBlackRider
 END
 
 CONTROLBAR:TooltipScreechWitchKing
-"Requires Level 6 \n Causes enemy units to flee in terror \n Left click to activate"
+"Requires Level 6 \n Causes enemy units to flee in terror \n When dismounted it can pierce through the level 5 fear immunity from enemy hordes \n Left click to activate"
 END
 
 CONTROLBAR:NarsilAttack
