@@ -8078,7 +8078,7 @@ CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"+20% Armor, +25% arrow resistance, -30% Speed"
+"+25% Armor, +25% arrow resistance, -30% Speed"
 END
 
 CONTROLBAR:ToolTipToggleGFighterBlockToLineFormation
@@ -15019,7 +15019,7 @@ CONTROLBAR:Rebuild
 End
 
 CONTROLBAR:TooltipRebuild
-"Heals 4000 health-points from any structure \n Left click icon then left click on target structures"
+"Heals 4000 health-points from any structure \n gives the structure 20% bonus armor for 15s \n Left click icon then left click on target structures"
 End
 
 CONTROLBAR:Draft
@@ -16308,6 +16308,10 @@ CONTROLBAR:TooltipAthelas
 "Heal \n Left click to activate"
 END
 
+CONTROLBAR:TooltipAthelasElrond
+"Heal nearby units \n Less effective on heroes and more effective on hordes and monsters \n Provides 15% HP and 25% bonus experience for 12s to infantry, cavalry, and monsters(not heroes)\n provides resistance to fear and terror \n Left click to activate"
+END
+
 CONTROLBAR:ToolTipElendil
 "Requires Level 6 \n Causes nearby enemy units to flee \n Left click to activate"
 END
@@ -16574,6 +16578,14 @@ END
 
 CONTROLBAR:ToolTipWordofPower
 "Requires Level 10 \n Sends out a shockwave that kills surrounding enemies \n Left click to activate"
+END
+
+CONTROLBAR:ToolTipRingOfPower
+"Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
+END
+
+CONTROLBAR:ToolTipRingOfPowerLabel
+"Ring Of Power"
 END
 
 CONTROLBAR:Shadowfax
@@ -29730,7 +29742,7 @@ CONTROLBAR:Flood
 END
 
 CONTROLBAR:TooltipFlood
-"Summons a powerful Flood to crush enemy units \n Left click icon then left click on target area"
+"Summons a powerful Flood, effective vs buildings \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:Sunflare
@@ -30178,7 +30190,7 @@ CONTROLBAR:Citadel
 END
 
 CONTROLBAR:TooltipCitadel
-"Places a Citadel Fortress anywhere on the battlefield \n Connected to the tunnel network \n Left click icon then left click on pathable location"
+"Places a Citadel Fortress anywhere on the battlefield \n Connected to the tunnel network \n Provides income like tunnels \n Left click icon then left click on pathable location"
 END
 
 
@@ -30249,7 +30261,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Bonus cannot be removed and always stack\n Dain becomes able to reveal stealth.\n Passive ability"
+"Requires Level 6 \n Grants all nearby allies resistance to fear and terror \n Bonus cannot be removed and always stack\n Dain becomes able to reveal stealth.\n Passive ability"
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
@@ -30265,7 +30277,7 @@ CONTROLBAR:ToolTipDwarvenGloinShakeFoundation
 END
 
 CONTROLBAR:ToolTipGloinSmash
-"Requires Level 10 \n Causes a small earthquake around Gloin's location \n Left click icon then left click on target"
+"Requires Level 10 \n Causes a large earthquake around Gloin's location \n Cannot kill AOTD(stuns them for 5s instead) \n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger
@@ -30298,7 +30310,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
-"Calls down a hail of molten rock on selected area, causing heavy damage to both enemies and allies\n Left click icon then left click on target area"
+"Calls down many molten rocks in an area around Sauron, \n Left click icon starts the channeling"
 END
 
 CONTROLBAR:TerribleFury
@@ -30964,7 +30976,7 @@ CONTROLBAR:ToolTipWitchKingDismount
 End
 
 CONTROLBAR:ToolTipWitchKingDreadVisage
-"Requires Level 2 \n Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Passive ability"
+"Requires Level 2 \n Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Visual is slightly different to Black Rider debuff \n Passive ability"
 End
 
 CONTROLBAR:ToolTipWitchKingMount
@@ -45670,7 +45682,7 @@ CONTROLBAR:ToolTipBuildIsengardWildmanHorde
 "Strong vs. Infantry and Structures"
 END
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde
-"Strong vs. Pikemen\n and Resource Buildings"
+"Strong vs. Pikemen\n and Resource Buildings \n Guardians now gain a small speed bonus every rank. A level 10 guardian will end up being 21.6% faster"
 END
 CONTROLBAR:ToolTipBuildGondorArcherHorde
 "Strong vs. Infantry"
@@ -45834,7 +45846,7 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"Selected structure's resource output is temporarily raised to 400% \n Left click icon then left click on target resource structure"
+"Selected structure's resource output is temporarily raised to 400% \n Also grants a 15% armor bonus to the structure \n Left click icon then left click on target resource structure"
 END
 
 CONTROLBAR:TooltipPalantirVision
@@ -45942,7 +45954,7 @@ CONTROLBAR:ToolTipTheodenLeadership
 END
 
 CONTROLBAR:ToolTipGloriousCharge
-"Requires Level 7 \n Theoden and nearby cavalry gain +80% armor, +25 damage and become inmune to desacelerate by trampling. \n Theoden must be mounted to use ability \n Bonus cannot be removed and always stacks \n Left click to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, +25 damage and become immune to desacelerate(and fear) by trampling. \n Theoden must be mounted to use ability \n Bonus cannot be removed and always stacks \n Left click to activate"
 END
 
 //Eowyin
@@ -46076,7 +46088,7 @@ END
 
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, double armor \n \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n \n Left click to activate" 
+"Requires Level 10 \n Allies surrounding Glorfindel is a large radius become healed and gain \n +33% Armor, 50% Damage,  \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n Heals Monsters, Infantry, Cavalry and Builders \n Left click to activate" 
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
@@ -46084,7 +46096,7 @@ CONTROLBAR:ToolTipGlorfindelBladeOfPurity
 END
 
 CONTROLBAR:ToolTipArrowWind
-"Requires Level 10 \n Launch a continuous volley of arrows \n Left click icon then left click on target area"
+"Requires Level 10 \n Launch a continuous volley of arrows \n Effective vs hordes \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipElvenCloakThranduil
@@ -46214,7 +46226,7 @@ CONTROLBAR:TooltipElrondLeadership
 END
 
 CONTROLBAR:ToolTipElrondFarsight
-"Reveals an area of the map \n Left click icon then left click on target area"
+"Reveals an area of the map \n Does not provide a range bonus to units like the spellbook version \n Provides 27.5% bonus shroud clearing to infantry, cavalry, machines and monsters(not heroes). Duration is 25s \n Now has global range(cast anywhere on map and units still get the shroud bonus). Radius is 300 from the cast point \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ElrondRestoration
@@ -46230,7 +46242,7 @@ CONTROLBAR:ElrondWhirlwind
 End
 
 CONTROLBAR:TooltipElrondWhirlwind
-"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
+"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield \n Lasts 17s \n Deals minimal damage to all units \n Left click icon then left click on target area"
 End
 
 // Treebeard
@@ -46261,7 +46273,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+25% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain armor: \n +20% against heros, pikemen and cavalry"
+"+30% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain armor: \n +20% against heros, pikemen and cavalry"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade
@@ -46351,7 +46363,7 @@ CONTROLBAR:ToolTipAxeThrow
 END
 
 CONTROLBAR:ToolTipSlayer
-"Requires Level 5 \n Gimli gains +50% Damage, Double Speed, but loses -15% Structural Armor \n Left click to activate"
+"Requires Level 5 \n Gimli gains +50% Damage, Double Speed, but loses -15% Structural Armor \n Has an 80% chance to knockback heroes \n Left click to activate"
 END
 
 //====== Units
@@ -46443,7 +46455,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 //patch105: Friendly cavalry trample deceleration reduced.
 CONTROLBAR:ToolTipDominate
-"Requires Level 7 \n Temporarily gain control of targeted enemies \n Left click icon then left click on target enemies"
+"Requires Level 8 \n Temporarily gain control of targeted enemies \n Left click icon then left click on target enemies"
 END
 
 CONTROLBAR:ToolTipSharkuManEater
@@ -46859,7 +46871,7 @@ CONTROLBAR:LadyOfLight
 END
 
 CONTROLBAR:TooltipLadyOfLight
-"Call down the light of Valar onto your enemies"
+"Call down the Light of Valar onto your enemies \n Deals massive damage in a large area"
 END
 
 CONTROLBAR:SpecialAbilityFiresOfDoom2
