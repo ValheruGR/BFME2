@@ -16428,6 +16428,10 @@ CONTROLBAR:ToolTipKingsFavor
 "Requires Level 4 \n Targeted units gain experience \n Left click icon then left click on target units"
 END
 
+CONTROLBAR:ToolTipKingsFavorDain
+"Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
+END
+
 CONTROLBAR:ToolTipTheodenMount
 "Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen"
 END
@@ -45945,6 +45949,10 @@ CONTROLBAR:KingsFavor
 "King's Favor [&C]"
 END
 
+CONTROLBAR:KingsFavorDain 
+"King's Favor [&r]"
+END
+
 CONTROLBAR:GloriousCharge
 "Glorious Charge [&V]"
 END
@@ -46321,7 +46329,7 @@ END
 // Dain
 
 CONTROLBAR:MightyRage
-"Mighty Rage [&T]"
+"Mighty Rage [&e]"
 END
 
 CONTROLBAR:DainStubbornPride
@@ -46329,7 +46337,7 @@ CONTROLBAR:DainStubbornPride
 END
 
 CONTROLBAR:SummonRoyalGuard
-"Summon Royal Guard [&V]"
+"Summon Royal Guard [&f]"
 END
 
 CONTROLBAR:ToolTipDainLeadership
