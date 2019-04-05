@@ -16445,11 +16445,11 @@ GUI:WATER_DISCOUNT
 END
 
 GUI:UPGRADE_DISCOUNT
-"Bonif. de mejora: %d%%"
+"Bonif. de mejora: \n %d%%"
 END
 
 GUI:STRUCTURE_WALL_DISCOUNT
-"Bonificación de muro/estructura: %d%%"
+"Bonif de muro/estructura: \n %d%%"
 END
 
 GUI:GondorFighterHordeGondorArcherHordeGondorTowerShieldGuardHordeGondorRangerHordeDiscount
