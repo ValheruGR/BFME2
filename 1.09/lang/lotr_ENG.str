@@ -46329,7 +46329,7 @@ END
 // Dain
 
 CONTROLBAR:MightyRage
-"Mighty Rage [&e]"
+"Mighty Rage [&t]"
 END
 
 CONTROLBAR:DainStubbornPride
@@ -46337,7 +46337,7 @@ CONTROLBAR:DainStubbornPride
 END
 
 CONTROLBAR:SummonRoyalGuard
-"Summon Royal Guard [&f]"
+"Summon Royal Guard [&v]"
 END
 
 CONTROLBAR:ToolTipDainLeadership
