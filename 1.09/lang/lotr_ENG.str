@@ -30318,7 +30318,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
-"Calls down many molten rocks in an area around Sauron, \n Left click icon starts the channeling"
+"Calls down many molten rocks in an area around Sauron, \n Left click icon starts the channeling \n Does not hurt allies"
 END
 
 CONTROLBAR:TerribleFury
@@ -46258,7 +46258,7 @@ CONTROLBAR:ElrondWhirlwind
 End
 
 CONTROLBAR:TooltipElrondWhirlwind
-"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield \n Lasts 17s \n Deals minimal damage to all units \n Left click icon then left click on target area"
+"Requires Level 6 \n Summons a destructive whirlwind onto the battlefield \n Lasts 17s \n Deals minimal damage to all units \n Left click icon then left click on target area"
 End
 
 // Treebeard
