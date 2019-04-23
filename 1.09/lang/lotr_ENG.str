@@ -16584,6 +16584,10 @@ CONTROLBAR:ToolTipWordofPower
 "Requires Level 10 \n Sends out a shockwave that kills surrounding enemies \n Left click to activate"
 END
 
+CONTROLBAR:ToolTipWordofPowerGalad
+"Requires Level 10 \n Nenya \Sends out a shockwave that destroys surrounding enemies \n Left click to activate"
+END
+
 CONTROLBAR:ToolTipRingOfPower
 "Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
 END
@@ -46070,6 +46074,10 @@ END
 
 CONTROLBAR:WordofPower
 "Word of Power [&B]"
+END
+
+CONTROLBAR:WordofPowerGalad
+"Nenya [&V]"
 END
 
 CONTROLBAR:ToolTipShadowfax
