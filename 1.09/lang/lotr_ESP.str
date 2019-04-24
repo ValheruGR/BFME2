@@ -16473,7 +16473,7 @@ GUI:Slaughter_Discount
 END
 
 GUI:Corsair_Discount
-"Descuento de corsarios-%d%%"
+"Descuento de corsarios \n -%d%%"
 END
 
 APT:YourArmy
