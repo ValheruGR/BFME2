@@ -43691,7 +43691,7 @@ CONTROLBAR:LadyOfLightDesc_New
 END
 CONTROLBAR:SpecialAbilityFiresOfDoom2_New
 "Convoca a los fuegos del destino en un circulo alrededor de Sauron."
-END¡
+END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon_New
 "Requisito: Investigar la mejora en la fortaleza. \n\n Proporciona a los aliados cercanos +25% daño y ganan experiencia 25% más rapido \n Siempre se acumula"
 END
@@ -43744,8 +43744,7 @@ Map:EmynArnenTournament
 "Tournament Emyn Arnen"
 END
 Map:EmynArnenTournament/Desc
-"Emyn Arnen means "Hills Beside the Water" in Sindarin, refering to the Great Anduin river.\n Located in Ithilien in the south of Osgiliath bordering the Mountains of Shadow.\n
-Map by Ecthelion."
+"Emyn Arnen means "Hills Beside the Water" in Sindarin, refering to the Great Anduin river.\n Located in Ithilien in the south of Osgiliath bordering the Mountains of Shadow.\n Map by Ecthelion."
 END
 //------------------------------------------------------------
 Map:Eastfold
