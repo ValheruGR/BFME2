@@ -8053,25 +8053,25 @@ End
 //--------------------------------------------------------------------------------
 // End of Science Strings
 //--------------------------------------------------------------------------------
-CONTROLBAR:ToolTipToggleWargSkirmishToLineFormation
-"+25% Armor, -50% Damage"
-END
+//	CONTROLBAR:ToolTipToggleWargSkirmishToLineFormation
+//	"+25% Armor, -50% Damage"
+//	END
 
-CONTROLBAR:ToolTipToggleWargLineToSkirmishFormation
-"No bonus"
-END
+//	CONTROLBAR:ToolTipToggleWargLineToSkirmishFormation
+//	"No bonus"
+//	END
 
-CONTROLBAR:ToolTipTogglePikemanLineToPorcupineFormation
-"+25% Armor, -40% Speed\n Bonus damage to cavalry"
-END
+//	CONTROLBAR:ToolTipTogglePikemanLineToPorcupineFormation
+//	"+25% Armor, -40% Speed\n Bonus damage to cavalry"
+//	END
 
-CONTROLBAR:ToolTipTogglePikemanPorcupineToLineFormation
-"No bonus"
-END
+//	CONTROLBAR:ToolTipTogglePikemanPorcupineToLineFormation
+//	"No bonus"
+//	END
 
-CONTROLBAR:ToolTipToggleCrossbowmanLineToWedgeFormation
-"+25% Damage, -50% Armor"
-END
+//	CONTROLBAR:ToolTipToggleCrossbowmanLineToWedgeFormation
+//	"+25% Damage, -50% Armor"
+//	END
 
 CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLineFormation
 "No bonus"
@@ -16308,10 +16308,6 @@ CONTROLBAR:TooltipAthelas
 "Heal \n Left click to activate"
 END
 
-CONTROLBAR:TooltipAthelasElrond
-"Heal nearby units \n Less effective on heroes and more effective on hordes and monsters \n Provides 15% HP and 25% bonus experience for 12s to infantry, cavalry, and monsters(not heroes)\n provides resistance to fear and terror \n Left click to activate"
-END
-
 CONTROLBAR:ToolTipElendil
 "Requires Level 6 \n Causes nearby enemy units to flee \n Left click to activate"
 END
@@ -16426,10 +16422,6 @@ END
 
 CONTROLBAR:ToolTipKingsFavor
 "Requires Level 4 \n Targeted units gain experience \n Left click icon then left click on target units"
-END
-
-CONTROLBAR:ToolTipKingsFavorDain
-"Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
 END
 
 CONTROLBAR:ToolTipTheodenMount
@@ -16703,24 +16695,24 @@ CONTROLBAR:ToolTipToggleShieldWallFormation
 "+50% Armor \n -75% Speed"
 END
 
-CONTROLBAR:ToggleLooseFormation
-"Loose For&mation"
-END
+//	CONTROLBAR:ToggleLooseFormation
+//	"Loose For&mation"
+//	END
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-30% Speed \n +20% Armor \n +25% arrow resistance"
+"-30% Speed, +20% Armor \n and +25% extra arrow resistance"
 END
-CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
-"Default Formation"
-END
-CONTROLBAR:ToolTipToggleCrossbowmanLooseToWedgeFormation
-"+25% Damage \n -25% Armor"
-END
-CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLooseFormation
-"Default Formation"
-END
-CONTROLBAR:ToolTipToggleFighterLooseToBlockFormation
-"-30% Speed \n +20% Armor \n +25% arrow resistance"
-END
+//	CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
+//	"Default Formation"
+//	END
+//	CONTROLBAR:ToolTipToggleCrossbowmanLooseToWedgeFormation
+//	"+25% Damage \n -25% Armor"
+//	END
+//	CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLooseFormation
+//	"Default Formation"
+//	END
+//	CONTROLBAR:ToolTipToggleFighterLooseToBlockFormation
+//	"-30% Speed \n +20% Armor \n +25% arrow resistance"
+//	END
 CONTROLBAR:ToolTipToggleFighterBlockToLooseFormation
 "Default Formation"
 END
@@ -22451,9 +22443,9 @@ Map:MAPMPMtDoom
 "Mount Doom"
 END
 
-//	Map:MAPMPNearHarad
-//	"Near Harad"
-//	END
+Map:MAPMPNearHarad
+"Near Harad"
+END
 
 Map:MAPMPMouthsofEntwash
 "Mouths of the Entwash"
@@ -22862,9 +22854,9 @@ Map:MAPMPMtDoom/Desc
 "In this volcano, the One Ring was forged by Sauron. Here the One Ring was eventually destroyed by the Hobbit Frodo Baggins.\nStarting Positions: Castles\nExpansion Points: 2\nSettlements: 8\nLairs: Troll and Goblin \nBuild Restrictions: No Siege Ladders, Siege Towers or Mumakil"
 END
 
-//	Map:MAPMPNearHarad/Desc
-//	"A barren, desert land that lies south of Mordor. It is the homeland of the Haradrim warriors."
-//	END
+Map:MAPMPNearHarad/Desc
+"A barren, desert land that lies south of Mordor. It is the homeland of the Haradrim warriors."
+END
 
 Map:MAPMPMouthsofEntwash/Desc
 "The wet, marshy land where the Entwash River flows into the Anduin."
@@ -29737,7 +29729,7 @@ CONTROLBAR:Flood
 END
 
 CONTROLBAR:TooltipFlood
-"Summons a powerful Flood, effective vs buildings \n Left click icon then left click on target area"
+"Summons a powerful Flood to crush your enemy \n Effective against buildings \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:Sunflare
@@ -30185,7 +30177,7 @@ CONTROLBAR:Citadel
 END
 
 CONTROLBAR:TooltipCitadel
-"Places a Citadel Fortress anywhere on the battlefield \n Connected to the tunnel network \n Provides income like tunnels \n Left click icon then left click on pathable location"
+"Places a Citadel Fortress anywhere on the battlefield \n Connected to the tunnel network \n Provides resources over time\n Left click icon then left click on pathable location"
 END
 
 
@@ -30272,7 +30264,7 @@ CONTROLBAR:ToolTipDwarvenGloinShakeFoundation
 END
 
 CONTROLBAR:ToolTipGloinSmash
-"Requires Level 10 \n Causes a large earthquake around Gloin's location \n Cannot kill AOTD(stuns them for 5s instead) \n Left click icon then left click on target"
+"Requires Level 10 \n Causes a large earthquake around Gloin's location \n Can stun the Army of the Dead for 5 seconds, but does not kill them \n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger
@@ -30305,7 +30297,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
-"Calls down many molten rocks in an area around Sauron, \n Left click icon starts the channeling \n Does not hurt allies"
+"Calls down a hail of molten rock on selected area \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:TerribleFury
@@ -39609,7 +39601,7 @@ End
 CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot
 "Upgrade wi&th Flaming Shot"
 End
-
+// 1.09 Fortress Silverthorn
 CONTROLBAR:PurchaseUpgradeElderRacesMagicArrows
 "Upgrade with &Silverthorn Arrows"
 End
@@ -45841,7 +45833,7 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"Selected structure's resource output is temporarily raised to 400% \n Also grants a 15% armor bonus to the structure \n Left click icon then left click on target resource structure"
+"Selected structure's resource output is temporarily raised to 400% \n Selected tunnel with allso gain 15% armor bonus temporalily \n Left click icon then left click on target resource structure"
 END
 
 CONTROLBAR:TooltipPalantirVision
@@ -45860,9 +45852,9 @@ END
 
 //Powers
 
-CONTROLBAR:ToolTipGandalfLeadership
-"Allies near Gandalf gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability       Always Stacks"
-END
+//	CONTROLBAR:ToolTipGandalfLeadership
+//	"Allies near Gandalf gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability \n Always Stacks"
+//	END
 
 
 //Fortress upgrades
@@ -45938,10 +45930,6 @@ END
 
 CONTROLBAR:KingsFavor 
 "King's Favor [&C]"
-END
-
-CONTROLBAR:KingsFavorDain 
-"King's Favor [&r]"
 END
 
 CONTROLBAR:GloriousCharge
@@ -46078,7 +46066,7 @@ CONTROLBAR:ToolTipMenLongShotAbility
 End
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"Research Banner Carrier upgrade at Barracks to enable this equipment \n \n +20% Armor but +25% resistance to arrows, -30% Speed"
+"Research Banner Carrier upgrade at Barracks to enable this equipment \n \n +25% Armor, -30% Speed and +33% extra arrow resistance"
 END
 
 // +++++++++++++++++++++++++++++++++++++++++++ELVES+++++++++++++++++++++++++++++++++++++++++++
@@ -46320,7 +46308,7 @@ END
 // Dain
 
 CONTROLBAR:MightyRage
-"Mighty Rage [&t]"
+"Mighty Rage [&T]"
 END
 
 CONTROLBAR:DainStubbornPride
@@ -46328,7 +46316,7 @@ CONTROLBAR:DainStubbornPride
 END
 
 CONTROLBAR:SummonRoyalGuard
-"Summon Royal Guard [&v]"
+"Summon Royal Guard [&V]"
 END
 
 CONTROLBAR:ToolTipDainLeadership
@@ -46740,7 +46728,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"Wargs gain +55% Damage but \n lose -15% armor against pike and structural damage\n Bonus cannot be removed \n Left click to activate"
+"Wargs gain +55% Damage but \n lose -15% armor against pike and structural damage\n Bonus cannot be removed and does not stack \n Left click to activate"
 END
 
 //========== Release Candidate 4 fixes
@@ -46805,10 +46793,11 @@ CONTROLBAR:GrabPassengerTB
 "Pickup Merry or Pippin"
 END
 //------------------------------------------------------------
-CONTROLBAR:GandalfShieldBubble_New
+CONTROLBAR:SpecialAbility_ShieldBubble
 "Shield B&ubble"
 END
-CONTROLBAR:GandalfShieldBubbleDesc_New
+
+CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
 "The Wizard transfers all of his Power into a Shield that will absorbs every kind of damage dealt on him. \n Gandalf also gains inmunity to knock-back. \n Lasts 5 seconds. \n \n Left click icon to activate"
 END
 //------------------------------------------------------------
@@ -46840,7 +46829,7 @@ End
 CONTROLBAR:FireWorksObj
 "FireWorks"
 END
-//------------------------------------------------------------
+
 CONTROLBAR:HobbitFireCracker
 "Firecracker [&R]"
 END
@@ -46858,23 +46847,37 @@ End
 // String lines for Patch 1.09
 
 //------------------------------------------------------------
+CONTROLBAR:ArwenLeadershipDesc_New
+"Requires Level 4 \n Allies near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+End
 CONTROLBAR:GaladHeal_New
 "&Light Of Galadriel"
 END
 CONTROLBAR:GaladHealDesc_New
 "Heals all allied units and heroes in a large circle around Galadriel \n Left click to activate"
 END
-//------------------------------------------------------------
 CONTROLBAR:LadyOfLight_New
 "Light Of &Valars"
 END
 CONTROLBAR:LadyOfLightDesc_New
 "Call down the Light of Valar onto your enemies \n Deals massive damage in a large area"
 END
-//------------------------------------------------------------
 CONTROLBAR:SpecialAbilityFiresOfDoom2_New
 "Summon Three Fi&res of Doom around Sauron in a circle"
 END
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon_New
+"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and +25% experience \n Always stacks"
+END
+CONTROLBAR:LoneTowerHealingUpgradeIcon_New
+"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
+END
+CONTROLBAR:LoneTowerArmorUpgradeIcon_New
+"Requires researching the upgrade at fortress. \n\n Significantly reduces the amount of damage taken."
+END
+//------------------------------------------------------------
+
+// String lines for new Patch 1.09b	-----	2019
+
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower_New
 "Nenya [&V]"
@@ -46890,18 +46893,23 @@ CONTROLBAR:RingOfPowerDesc_New
 "Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
 END
 //------------------------------------------------------------
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon_New
-"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and +25% experience \n Always stacks"
+CONTROLBAR:TooltipAthelasElrond_New
+"Heal nearby units \n Less effective on heroes and more effective on hordes and monsters \n Provides 15% HP and 25% bonus experience for 12s to infantry, cavalry, and monsters(not heroes)\n provides resistance to fear and terror \n Left click to activate"
 END
-CONTROLBAR:LoneTowerHealingUpgradeIcon_New
-"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
+//------------------------------------------------------------
+CONTROLBAR:KingsFavorDainDesc 
+"King's Favor [&r]"
 END
-CONTROLBAR:LoneTowerArmorUpgradeIcon_New
-"Requires researching the upgrade at fortress. \n\n Significantly reduces the amount of damage taken."
+CONTROLBAR:KingsFavorDainDesc_New
+"Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
+END
+//------------------------------------------------------------
+CONTROLBAR:SauronsFiresOfDoomDesc_New
+"Calls down many molten rocks in an area around Sauron, \n Left click icon starts the channeling \n Does not hurt allies"
 END
 //------------------------------------------------------------
 
-// Map String lines for Patch 1.09b.
+// Maps	-----	2019
 
 
 //------------------------------------------------------------
@@ -46909,8 +46917,7 @@ Map:EmynArnenTournament
 "Tournament Emyn Arnen"
 END
 Map:EmynArnenTournament/Desc
-"Emyn Arnen means "Hills Beside the Water" in Sindarin, refering to the Great Anduin river.\n Located in Ithilien in the south of Osgiliath bordering the Mountains of Shadow.\n
-Map by Ecthelion."
+"Emyn Arnen means "Hills Beside the Water" in Sindarin, refering to the Great Anduin river.\n Located in Ithilien in the south of Osgiliath bordering the Mountains of Shadow.\n Map by Ecthelion."
 END
 //------------------------------------------------------------
 Map:Eastfold
@@ -47289,6 +47296,20 @@ Map:mapmpbuckland6p
 END
 Map:mapmpbuckland6p/Desc
 "Come down to Buckland bra."
+END
+//------------------------------------------------------------
+Map:mapmpfordsoflimlight
+"Fords of Limlight"
+END
+Map:mapmpfordsoflimlight/Desc
+"As a recolour of the popular Fords of Isen, the famous fair-matching map, the theme here is of the great and gigantic forests that once covered all of Middle-earth. Made for 1.09 with love from Val"
+END
+//------------------------------------------------------------
+Map:mapmpfordsofanduin
+"Fords of Anduin II"
+END
+Map:mapmpfordsofanduin/Desc
+"Reskin of the popular 1v1 map, Fords of Isen II. Design based on Amon Hen, Argonath and surrounding areas of the Anduin. \n Made by Ecthelion and SilverBane."
 END
 //------------------------------------------------------------
 Map:mapmpnothing
