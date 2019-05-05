@@ -1,3 +1,678 @@
+// String file for Lord of the Rings
+
+// comment: DO NOT TRANSLATE
+
+//------------------------------------------------------------
+
+// String lines for new Patch 1.09b	-----	2019
+
+//------------------------------------------------------------
+
+
+
+
+
+
+
+
+//------------------------------------------------------------
+CONTROLBAR:nothing_New
+"nothing"
+END
+CONTROLBAR:nothingDesc_New
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:GaladrielWordOfPower_New
+"Nenya [&V]"
+END
+CONTROLBAR:GaladrielWordOfPowerDesc_New
+"Requires Level 10 \n Nenya \Sends out a shockwave that destroys surrounding enemies \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:RingOfPower_New
+"Ring Of Power"
+END
+CONTROLBAR:RingOfPowerDesc_New
+"Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipAthelasElrond_New
+"Heal nearby units \n Less effective on heroes and more effective on hordes and monsters \n Provides 15% HP and 25% bonus experience for 12s to infantry, cavalry, and monsters(not heroes)\n provides resistance to fear and terror \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:KingsFavorDain_New
+"King's Favor [&R]"
+END
+CONTROLBAR:KingsFavorDainDesc_New
+"Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
+END
+//------------------------------------------------------------
+CONTROLBAR:SauronsFiresOfDoomDesc_New
+"Calls down many molten rocks in an area around Sauron, \n Left click icon starts the channeling \n Does not hurt allies"
+END
+//------------------------------------------------------------
+
+
+
+// Maps	-----	2019
+
+ 
+
+
+
+//------------------------------------------------------------
+Map:mapmpnothing
+"nothing"
+END
+Map:mapmpnothing/Desc
+"nothing"
+END
+//------------------------------------------------------------
+Map:mapmpnothing
+"nothing"
+END
+Map:mapmpnothing/Desc
+"nothing"
+END
+//------------------------------------------------------------
+Map:mapmpnothing
+"nothing"
+END
+Map:mapmpnothing/Desc
+"nothing"
+END
+//------------------------------------------------------------
+Map:EmynArnenTournament
+"Tournament Emyn Arnen"
+END
+Map:EmynArnenTournament/Desc
+"Emyn Arnen means "Hills Beside the Water" in Sindarin, refering to the Great Anduin river.\n Located in Ithilien in the south of Osgiliath bordering the Mountains of Shadow.\n Map by Ecthelion."
+END
+//------------------------------------------------------------
+Map:Eastfold
+"Eastfold"
+END
+Map:Eastfold/Desc
+"The Eastfold was a region of Rohan which bordered with the Westfold via the Snowbourn River on the west and bordered with Anorien in Gondor to the east."
+END
+//------------------------------------------------------------
+Map:Adorn River
+"Adorn River"
+END
+Map:Adorn River/Desc
+"The river Adorn occurs in Middle-earth between the White Mountains (Ered Nimrais) and the western part of Rohan. Map from RotWK."
+END
+//------------------------------------------------------------
+Map:frozenrift
+"The Frozen Rift"
+End
+Map:frozenrift/Desc
+"This breathtaking-cold rift can be found in the frozen wastes of the North, close to the Ice Bay of Forochel. The Lossoth are amongst the few who dare brave these frozen lands. \n Map by SilverBane` \n Neutral Structures: Signal Fire x1 \n Lairs: Troll x2, Goblin x2"
+END
+//------------------------------------------------------------
+Map:Forochel
+"Forochel II"
+END
+Map:Forochel/Desc
+"Frozen wastelands in northern Middle-earth. The ancient stronghold of Morgoth, Utumno, was located here. Map from RotWK."
+END
+//------------------------------------------------------------
+Map:GoldenGrove
+"Golden Grove"
+END
+Map:GoldenGrove/Desc
+"Bilbo's old camping grounds"
+END
+//------------------------------------------------------------
+Map:GreenfrogPass
+"Greenfrog Pass"
+END
+Map:GreenfrogPass/Desc
+"A green lushful land divided by a central river."
+END
+//------------------------------------------------------------
+Map:JokucsForlindonHills
+"Forlindon Hills"
+END
+Map:JokucsForlindonHills/Desc
+"The region of Forlindon was inhabited by Elves and were the chief part of Gil-galad's kingdom, surrounded by the Blue Mountains and the Great Sea.\n Map by Jokuc."
+END
+//------------------------------------------------------------
+Map:JokucsTowerhills
+"Tower Hills [2p]"
+END
+Map:JokucsTowerhills/Desc
+"With a layout similar to Fords of Isen and the skin of Tower Hills, this 1v1 map is made to provide a mix of fun elements and balanced gameplay. \n Turn off ring heroes for tournament mode. \n Map by Jokuc."
+END
+//------------------------------------------------------------
+Map:Himling
+"Himling"
+END
+Map:Himling/Desc
+"An icy land with a central mountain"
+END
+//------------------------------------------------------------
+Map:Lanthir Lamath
+"Lanthir Lamath"
+END
+Map:Lanthir Lamath/Desc
+"Lanthir Lamath was a sparkling and beautiful waterfall in Ossiriand at the foot of the southern range of the Blue Mountains (Ered Luin).\n It was part of a stream of the river Adurant. \n Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpamonamarth
+"Amon Amarth"
+END
+Map:mapmpamonamarth/Desc
+"Amon Amarth, the mountain of fate, is located deep within Mordor. It is also known as Mount Doom. \nMap from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpazanulbizarvalley
+"Azanulbizar Valley"
+END
+Map:mapmpazanulbizarvalley/Desc
+"A great valley lying between the foothills of the mountains around the lake of Kheled-zaram. The final battle of the War of the Dwarves and Orcs took place here. \n Map from RotWK."
+END
+//------------------------------------------------------------
+Map:MAPMPBrandybuck
+"BrandyBuck"
+END
+Map:MAPMPBrandybuck/Desc
+"In J. R. R. Tolkien's fictional universe of Middle-earth, the Brandybuck clan was a powerful Hobbit family. The family began as the Oldbuck clan, who named themselves such apparently after Bucca of the Marish"
+END
+//------------------------------------------------------------
+Map:mapmpmountgram
+"Mount Gram"
+End
+Map:mapmpmountgram/desc
+"Map from RotWK, stolen by Bunito 2018."
+End
+//------------------------------------------------------------
+Map:sirannon
+"Mount Gram"
+End
+Map:sirannon/Desc
+"This once tumultuous river flows from the Gates of Durin to Ost-in-Edhil, the ruined elf city of Eregion.\n Now all that's left is a foul lake and but a thread of water from the once rich Stair Fall. \n Map by SilverBane` \n Lairs:2x Warg, 2x Troll \n Neutral Structures: 1x Inn "
+END
+//------------------------------------------------------------
+Map:MAPMPBrandybuck
+"BrandyBuck"
+END
+Map:MAPMPBrandybuck/Desc
+"In J. R. R. Tolkien's fictional universe of Middle-earth, the Brandybuck clan was a powerful Hobbit family. The family began as the Oldbuck clan, who named themselves such apparently after Bucca of the Marish"
+END
+//------------------------------------------------------------
+Map:WestEmnetII
+"West Emnet II"
+END
+Map:WestEmnetII/Desc
+"BFME1 map, edited by Ecthelion. \n Grassy lands of Rohan, lying between the Entwash and the Isen River"
+END
+//------------------------------------------------------------
+Map:TheIvyBush
+"The Ivy Bush"
+END
+Map:TheIvyBush/Desc
+"Map named in honor of The Ivy Bush. A small inn on the Bywater road in the Shire. Here Gaffer Gamgee recounted to the visitors his stories about Bilbo and Frodo Baggins."
+END
+//------------------------------------------------------------
+Map:TheCrossroads
+"The Crossroads"
+END
+Map:TheCrossroads/Desc
+"The Crossroads of Ithilien is a point where the road that leads to the Black Gate meets with the road that leads to Minas Tirith. Frodo and Sam passed by the Crossroads on their way to Cirith Ungol.\n Map by SilverBane`"
+END
+//------------------------------------------------------------
+Map:RohanII
+"Rohan II"
+END
+Map:RohanII/Desc
+"A great kingdom in Middle-earth ruled by King Theoden. It is the home of the Rohirrim, the finest horsemen of Middle-earth. Edited by Ecthelion."
+END
+//------------------------------------------------------------
+Map:OsgiliathII
+"Osgiliath III"
+END
+Map:OsgiliathII/Desc
+"This Gondor city is the last line of defense between Mordor and Minas Tirith. The Anduin River runs through the center of the city. Edition by Ecthelion, a balanced merge of BfME1 and BfME2 versions."
+END
+//------------------------------------------------------------
+Map:oldforest II
+"Old Forest II"
+END
+Map:oldforestII/Desc
+"Treebeard's birthplace"
+END
+//------------------------------------------------------------
+Map:MountDoomII
+"Mount Doom II "
+END
+Map:MountDoomII/Desc
+"In this volcano, the One Ring was forged by Sauron. Here the One Ring was eventually destroyed by the hobbit Frodo Baggins."
+END
+//------------------------------------------------------------
+Map:mapmpwesterngondor
+"Western Gondor"
+END
+Map:mapmpwesterngondor/Desc
+"A coastal region in the western part of Gondor. Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpudunii
+"Udun [6p]"
+END
+Map:mapmpudunii/Desc
+"The lands behind the Black Gate known as Udun take the name of the underworld due to the volcanic ash and noxious fumes that cover them.\n Map from RotWK community."
+END
+//------------------------------------------------------------
+Map:mapmptyrngorthad
+"Tyrn Gorthad"
+END
+Map:mapmptyrngorthad/Desc
+"Better known as the Barrow-downs, the ancient burial grounds of the kings of Arnor were corrupted with evil spirits by the Witch-king. Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmptournamentudunII
+"Udun II - Shadow of Mordor"
+END
+Map:mapmptournamentudunII/Desc
+"Recolour inspired by the fertile design of the Black Land in The Shadow of Mordor.\n Turn off ring heroes for tournament mode. \n Map by Val."
+END
+//------------------------------------------------------------
+Map:mapmptournamentrohan
+"Tournament Rohan"
+END
+Map:mapmptournamentrohan/Desc
+"Between the Gap of Rohan and the borders of Gondor lie the vast plains of the Riddermark, home to the great horse-lords of Middle-earth. Map by RotWK. Edited for BfME2 by Ecthelion."
+END
+//------------------------------------------------------------
+Map:mapmptournamentbt2dc
+"Tournament Anorien"
+END
+Map:mapmptournamentbt2dc/Desc
+"A small yet open forest battlefield close to Gondor's border with Rohan. Map by RotWK. Edited for BfME2 by Ecthelion."
+END
+//------------------------------------------------------------
+Map:mapmpthewold
+"The Wold"
+END
+Map:mapmpthewold/Desc
+"The Wold was the northernmost and least populated part of Rohan. It is a grassy upland plain lying between Fangorn Forest and the Anduin, bordered to the north by the Limlight. Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpstaddle
+"Staddle"
+END
+Map:mapmpstaddle/Desc
+"Staddle was a village in Bree Land, located on the southeastern side of Bree-hill. Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpsouthdowns
+"South Downs"
+END
+Map:mapmpsouthdowns/Desc
+"Walking along the East-West Road from Bree to the Weather Hills, one could see the Downs to the south. The Greenway, running through the Andrath, separated the South Downs from the Barrow-downs. Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpsleepingforest
+"Sleeping Forest"
+END
+Map:mapmpsleepingforest/Desc
+"Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpshire4p
+"Shire"
+END
+Map:mapmpshire4p/Desc
+"A green, peaceful land. Home of the Hobbits of Middle-earth."
+END
+//------------------------------------------------------------
+Map:mapmpsakuraforest
+"Sakura Forest"
+END
+Map:mapmpsakuraforest/Desc
+"This sacred forest north of the Sea of Rhun is the site of many temples, built to cultivate and foster the rare Sakura trees. \n Map from RotWK community."
+END
+//------------------------------------------------------------
+Map:mapmpriverlangwell
+"River Langwell"
+END
+Map:mapmpriverlangwell/Desc
+"The Langwell was one of the rivers of Rhovanion that flowed east from the Misty Mountains into the Anduin. The height of the river depends on the season of the year. Over time the water level rises and falls. \n Map from RotWK community."
+END
+//------------------------------------------------------------
+Map:mapmpringloriver
+"Ringlo River"
+END
+Map:mapmpringloriver/Desc
+"A winding river in the central regions of Gondor which served as the boundary between Anfalas to the west and Belfalas to the east. Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpreddesertofkhand
+"Red Desert of Khand"
+END
+Map:mapmpreddesertofkhand/Desc
+"A red desert land which lay to the south-east of Mordor and to the east of Near Harad. Map from RotWK community."
+END
+//------------------------------------------------------------
+Map:mapmppelennorfields
+"Pelennor Fields"
+END
+Map:mapmppelennorfields/Desc
+"The Battle of the Pelennor Fields was a battle for the city of Minas Tirith, and ultimately for Gondor. It was the greatest battle of the War of the Ring, and indeed the largest of the entire Third Age. Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpoldforest
+"Old Forest"
+END
+Map:mapmpoldforest/Desc
+"Standing between the borders of Buckland and Breeland, The Old Forest hides great mystery and danger beneath its dark canopy. Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpnevrast4p
+"Nevrast"
+END
+Map:mapmpnevrast4p/Desc
+"A sheltered land on the west coast of Middle-earth, located between Hithlum to the north northeast and West Beleriand to the south."
+END
+//------------------------------------------------------------
+Map:mapmpnevrast8p
+"Nevrast II"
+END
+Map:mapmpnevrast8p/Desc
+"A sheltered land on the west coast of Middle-earth, located between Hithlum to the north northeast and West Beleriand to the south."
+END
+//------------------------------------------------------------
+Map:mapmpnearharad
+"Harad II"
+END
+Map:mapmpnearharad/Desc
+"A barren, desert land that lies south of Mordor. It is the homeland of the Haradrim warriors.\n BFME1 version, reworked by Ecthelion."
+END
+//------------------------------------------------------------
+Map:mapmpmorthondvalley
+"Morthond Valley II"
+END
+Map:mapmpmorthondvalley/Desc
+"The Morthond was one of the seven rivers of Gondor. Aragorn, Gimli, Legolas, the Grey Company, and the Army of the Dead exited from the Paths of the Dead alongside it. \n Map from RotWK, reworked by Ecthelion."
+END
+//------------------------------------------------------------
+Map:mapmpmithrilhillsii
+"Mithril Hills"
+END
+Map:mapmpmithrilhillsii/Desc
+"A range of mountains located in northern Middle-earth. It is the realm of the Dwarves of Durin's Folk. \n Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmplorienplateau
+"Lorien Plateau"
+END
+Map:mapmplorienplateau/Desc
+"An area of highland in the Woods of Lothlorien, the fairest forest realm of the Elves remaining in Middle-earth. \n Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpithilienhills
+"Ithilien Hills"
+END
+Map:mapmpithilienhills/Desc
+"A small range of hills in the center of Ithilien, the easternmost province of Gondor. \n Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmphollin
+"Hollin"
+END
+Map:mapmphollin/Desc
+"Hollin was once home to the famed Elvish jewel-smiths of Eregion, the forgers of the great rings of power. But now the ruins of their great cities stand in silence among the stones. \n Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmphobbiton
+"Hobbiton"
+END
+Map:mapmphobbiton/Desc
+"An old village in the central part of the Shire. It is the home of many illustrious Hobbits. Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpharadoasis
+"Harad Oasis"
+END
+Map:mapmpharadoasis/Desc
+"A region deep within Harad where precious pools of water can be found. Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpfarharad
+"Far Harad"
+END
+Map:mapmpfarharad/Desc
+"Deep in southern Middle-earth, the region of Far Harad is the homeland of the wild Haradrim, loyal servants of Sauron. Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmperynlaer
+"Lothlorien: Eryn Laer"
+END
+Map:mapmperynlaer/Desc
+"The tall trees of Eryn Laer, the Woods of Song, stand deep in the realm of Lothlorien, the heart of Elvendom in Middle-earth.\n Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmperegion
+"Eregion"
+END
+Map:mapmperegion/Desc
+"Eregion, also known as Hollin, was a kingdom of the Noldorin Elves in Eriador during the Second Age, located near the West Gate of Moria under the shadow of the Hithaeglir (Misty Mountains). \n Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmperech
+"Erech"
+END
+Map:mapmperech/Desc
+"An ancient site at the feet of the White Mountains in Gondor.  Erech was most famous for a huge Stone, said to have fallen from heaven, though, in fact, brought to Middle-earth by Isildur. \n Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpbuckland6p
+"Buckland II"
+END
+Map:mapmpbuckland6p/Desc
+"Come down to Buckland bra."
+END
+//------------------------------------------------------------
+Map:Ankh-Morpork
+"Ankh Morpork"
+END
+Map:Ankh-Morpork/Desc
+"A rather hedonistic city which infamously burnt down centuries ago, the smoldering ruins of Ankh-Morpork are now an extension of the Mountain Trolls domains, originally from northwest of the Wye river."
+END
+//------------------------------------------------------------
+Map:BlackGateII
+"Black Gate II"
+END
+Map:BlackGateII/Desc
+"The northern entrance to the lands of Mordor and the site of the final stand-off between good and evil."
+END
+//------------------------------------------------------------
+Map:brithombar
+"Brithombar"
+END
+Map:brithombar/Desc
+"A fertile bay in the western Beleriand. As all other regions in Beleriand except Ered Luin and Lindon, it sank at the end of the First Age. \n Map by SilverBane`"
+END
+//------------------------------------------------------------
+Map:Dagorladmirkwoodskin
+"Dagorlad (Mirkwood skin)"
+END
+Map:Dagorladmirkwoodskin/Desc
+"Same map as Dagorlad but with Mirkwood skin, added river and replaced drake lairs with troll lairs. \n by SilverBane` "
+END
+//------------------------------------------------------------
+Map:DeadMarshesII
+"Dead Marshes II"
+END
+Map:DeadMarshesII/Desc
+"A haunted swampland, lying just outside Mordor. Gollum led Frodo and Sam through these lands on their way to Mount Doom."
+END
+//------------------------------------------------------------
+Map:EnedwaithII
+"Enedwaith II"
+END
+Map:EnedwaithII/Desc
+"A wide, open land that lies to the west of Rohan."
+END
+//------------------------------------------------------------
+Map:mapmptwilitshores
+"Twilit Shores"
+END
+Map:mapmptwilitshores/Desc
+"Lost in the seas of Tol Eressea, the Twilit isles have been said to be nearly unnavigable by mortal men. \n Map from RotWK."
+END
+//------------------------------------------------------------
+Map:mapmpwildsofforochel
+"Wilds of Forochel"
+END
+Map:mapmpwildsofforochel/Desc
+"A wild and treacherous region of Forochel scarcely inhabited by small northmen tribes.\n Map from RotWK community. "
+END
+//------------------------------------------------------------
+Map:RhunII
+"Rhun II"
+END
+Map:RhunII/Desc
+"The mysterious eastern lands of Middle-earth, around the Sea of Rhun. \n Map edition from BFME1."
+END
+//------------------------------------------------------------
+Map:TournamentBree
+"Tournament Bree"
+END
+Map:TournamentBree/Desc
+"The prancing pony inn, once captured, will generate money and allow creation of unique units. \n Map by SilverBane`"
+END
+//------------------------------------------------------------
+Map:TournamentWeatherHills
+"Tournament Weather Hills"
+END
+Map:TournamentWeatherHills/Desc
+"Map by Silverbane. Middle players can now fight. \n Edited by Val."
+END
+//------------------------------------------------------------
+Map:udunreskinbysilverbane`
+"Udun A. IV"
+END
+Map:udunreskinbysilverbane`/Desc
+"After the defeat of Sauron, Udun became once again a fertile valley. \n Map by SilverBane`"
+END
+//------------------------------------------------------------
+// There's a typo in name actually, should be Lebennin
+Map:MAPMPLebenin
+"Lebennin III"
+END
+Map:MAPMPLebenin/Desc
+"This lush, green land in southern Gondor lies where the Anduin River completes its journey into the Bay of Belfalas. \n Lebennin III is an edited edition to fix red build plots. Signal Fires added east/west. \n Edited by Val`"
+END
+//------------------------------------------------------------
+Map:mapmpfordsoflimlight
+"Fords of Limlight"
+END
+Map:mapmpfordsoflimlight/Desc
+"As a recolour of the popular Fords of Isen, the famous fair-matching map, the theme here is of the great and gigantic forests that once covered all of Middle-earth. Made for 1.09 with love from Val"
+END
+//------------------------------------------------------------
+Map:mapmpfordsofanduin
+"Fords of Anduin II"
+END
+Map:mapmpfordsofanduin/Desc
+"Reskin of the popular 1v1 map, Fords of Isen II. Design based on Amon Hen, Argonath and surrounding areas of the Anduin. \n Made by Ecthelion and SilverBane."
+END
+//------------------------------------------------------------
+
+
+
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.09
+
+//------------------------------------------------------------
+
+CONTROLBAR:ArwenLeadershipDesc_New
+"Requires Level 4 \n Allies near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+End
+CONTROLBAR:GaladHeal_New
+"&Luce Di Galadriel"
+END
+CONTROLBAR:GaladHealDesc_New
+"Guarisce tutte le unità e gli eroi in una grande area intorno a Galadriel \nClick sinistro per attivare."
+END
+CONTROLBAR:LadyOfLight_New
+"Luce di &Vallar"
+END
+CONTROLBAR:LadyOfLightDesc_New
+"Fa calare la luyce dei Valar sul nemico. \n Deals massive damage in a large area"
+END
+CONTROLBAR:SpecialAbilityFiresOfDoom2_New
+"Evoca tre Piogge Infuocate intorno a Sauron in cerchio."
+END
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon_New
+"Richiede Fortezza aggiornare \cn\n Fornisce +25% danno +25% esperienza \n Sempre cumulativa."
+END
+CONTROLBAR:LoneTowerHealingUpgradeIcon_New
+"Richiede fortezza aggiornare. \n\n Guarisce le unità alleate nelle vicinanze. \n Riforma 1 unità per orda ogni 10 secondi."
+END
+CONTROLBAR:LoneTowerArmorUpgradeIcon_New
+"Richiede Fortezza aggiornare. \n\n Riduce notevolmente il danno subito."
+END
+
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.08
+
+//------------------------------------------------------------
+
+CONTROLBAR:GrabPassengerTB
+"Pickup Merry or Pippin"
+END
+CONTROLBAR:SpecialAbility_ShieldBubble
+"Sc&udo Sfera"
+END
+CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
+"Lo stregone trasferisce tutto il suo potere in uno scudo per difendersi \n Gandalf guadagna 99% Armatura e resiste ai contraccolpi per 5 secondi. \n Click sinistro sull'icona per attivare."
+END
+CONTROLBAR:Fire_pit
+"Fuoco da campo (&C)"
+END
+CONTROLBAR:TooltipFire_pit
+"Fuoco da campo che guarisce le unità alleate nelle vicinanze. \nRiforma 1 unità per orda ogni 5 secondi. \n Garantisce +5% bonus armatura. \nSempre cumulativo. \nRivela unità mimetizzate."
+END
+CONTROLBAR:FireWorks
+"Fuochi D'Artificio / Accendi (&V)"
+END
+CONTROLBAR:ToolTipFireWorks
+"Merry può mettere un fuoco d'artificio sul terreno ed accenderlo \n \n Click sinistro per attivare "
+END
+CONTROLBAR:FireWorks2
+"Accendi Fuochi D'Artificio(&B)"
+END
+CONTROLBAR:ToolTipFireWorks2
+"Fuochi d'artificio danneggiano le unità in una grande area \n \n Click sinistro per attivare "
+END
+CONTROLBAR:FireWorksObj
+"Fuochi artificiali"
+END
+CONTROLBAR:HobbitFireCracker
+"Petardi (&R)"
+END
+CONTROLBAR:ToolTipHobbitFireCracker
+"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio"
+END
+CONTROLBAR:ToolTipHobbitFireCrackerMerry
+"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio \nBonus contro gli Olifanti \nEfficace contro le strutture"
+END
+CONTROLBAR:ToolTipHobbitFireCrackerSam
+"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio \nEfficace contro Shelob "
+End
+//------------------------------------------------------------
+
+// String file for Lord of the Rings
+
+// comment: DO NOT TRANSLATE
 LETTER:G
 "G"
 END
@@ -20707,7 +21382,7 @@ Map:MAPMPTournamentMP1/Desc
 END
 
 Map:MAPMPAnfalas/Desc
-"Un'estesa regione costiera di Gondor, situata al di sopra della Baia di Belfalas.\nPosizioni iniziali: accampamenti\nPunti di espansione: 7\nInsediamenti: 12\nTane: Troll\nRestrizioni strutture: nessuna scala d'assedio o torre"
+"Un'estesa regione costiera di Gondor, situata al di sopra della Baia di Belfalas."
 END
 
 Map:MAPMPAnorien/Desc
@@ -20719,11 +21394,11 @@ Map:MAPMPBelfalas/Desc
 END
 
 Map:MAPMPBlackGate/Desc
-"L'accesso settentrionale alle terre di Mordor, luogo dove si svolge lo scontro finale fra il bene e il male.\nPosizioni iniziali: accampamenti\nPunti di espansione: 2\nInsediamenti: 6\nTane: nessuna"
+"L'accesso settentrionale alle terre di Mordor, luogo dove si svolge lo scontro finale fra il bene e il male."
 END
 
 Map:MAPMPCairAndros/Desc
-"Un'antica isola fortificata di Gondor sul fiume Anduin, a nord della città di Osgiliath.\nPosizioni iniziali: castelli\nPunti di espansione: 4\nInsediamenti: 9\nTane: Troll e Warg"
+"Un'antica isola fortificata di Gondor sul fiume Anduin, a nord della città di Osgiliath."
 END
 
 Map:MAPMPCentralIthilien/Desc
@@ -20731,7 +21406,7 @@ Map:MAPMPCentralIthilien/Desc
 END
 
 Map:MAPMPCrossroads/Desc
-"Il luogo dove l'antica strada di Gondor per Minas Morgul attraversa la strada di Harad.\nPosizioni iniziali: castelli\nPunti di espansione: 6\nInsediamenti: 10\nTane: Goblin"
+"Il luogo dove l'antica strada di Gondor per Minas Morgul attraversa la strada di Harad."
 END
 
 Map:MAPMPDagorlad/Desc
@@ -20739,7 +21414,7 @@ Map:MAPMPDagorlad/Desc
 END
 
 Map:MAPMPDeadMarshes/Desc
-"La palude maledetta, all'esterno dei confini di Mordor. Gollum ha guidato Frodo e Sam attraverso queste terre, nel viaggio verso Monte Fato.\nPosizioni iniziali: accampamenti\nPunti di espansione: 4\nInsediamenti: 14\nTane: Goblin\nRestrizioni strutture: nessuna scala d'assedio o torre"
+"La palude maledetta, all'esterno dei confini di Mordor. Gollum ha guidato Frodo e Sam attraverso queste terre, nel viaggio verso Monte Fato."
 END
 
 Map:MAPMPDruadanForest/Desc
@@ -20751,11 +21426,11 @@ Map:MAPMPDunharrow/Desc
 END
 
 Map:MAPMPEastEmnet/Desc
-"Pianure orientali di Rohan, punteggiate da insediamenti nomadi e fattorie.\nPosizioni iniziali: castelli\nPunti di espansione: 4\nInsediamenti: 8\nTane: Troll e Warg"
+"Pianure orientali di Rohan, punteggiate da insediamenti nomadi e fattorie."
 END
 
 Map:MAPMPEastRohan/Desc
-"Un lussureggiante territorio nella zona orientale di Rohan, attraversato dal fiume Entalluvio.\nPosizioni iniziali: castelli\nPunti di espansione: 2\nInsediamenti: 6\nTane: Warg"
+"Un lussureggiante territorio nella zona orientale di Rohan, attraversato dal fiume Entalluvio."
 END
 
 Map:MAPMPEastfold/Desc
@@ -20775,19 +21450,19 @@ Map:MAPMPEmynMuil/Desc
 END
 
 Map:MAPMPEnedwaith/Desc
-"Una terra ampia e aperta, che si estende a ovest di Rohan.\nPosizioni iniziali: avamposti\nPunti di espansione: 8\nInsediamenti: 16\nTane: Troll e Goblin\nRestrizioni strutture: nessuna scala d'assedio o torre"
+"Una terra ampia e aperta, che si estende a ovest di Rohan."
 END
 
 Map:MAPMPFangorn/Desc
-"Un'antica e misteriosa foresta, dimora di Barbalbero e degli Ent.\nPosizioni iniziali: castelli\nPunti di espansione: 4\nInsediamenti: 10\nTane: Troll e Goblin"
+"Un'antica e misteriosa foresta, dimora di Barbalbero e degli Ent."
 END
 
 Map:MAPMPFordsofIsen/Desc
-"Il guado del fiume Isen, situato nei pressi di Isengard.\nPosizioni iniziali: castelli\nPunti di espansione: 2\nInsediamenti: 8\nTane: Warg"
+"Il guado del fiume Isen, situato nei pressi di Isengard."
 END
 
 Map:MAPMPGapofRohan/Desc
-"L'unico passo facilmente accessibile fra le Montagne Nebbiose e i Monti Bianchi.\nPosizioni iniziali: castelli\nPunti di espansione: 6\nInsediamenti: 12\nTane: Troll e Goblin"
+"L'unico passo facilmente accessibile fra le Montagne Nebbiose e i Monti Bianchi."
 END
 
 Map:MAPMPHalifirien/Desc
@@ -20795,15 +21470,15 @@ Map:MAPMPHalifirien/Desc
 END
 
 Map:MAPMPHarlond/Desc
-"I porti e i moli di Minas Tirith, dove Aragorn e l'Esercito dei Morti sono sbarcati durante la battaglia di Minas Tirith.\nPosizioni iniziali: castelli\nPunti di espansione: 1\nInsediamenti: 8\nTane: Warg e Goblin"
+"I porti e i moli di Minas Tirith, dove Aragorn e l'Esercito dei Morti sono sbarcati durante la battaglia di Minas Tirith."
 END
 
 Map:MAPMPHarondor/Desc
-"Colline ricoperte di rocce e sabbia, situate a ovest di Harad e a sud di Gondor.\nPosizioni iniziali: accampamenti\nPunti di espansione: 8\nInsediamenti: 12\nTane: Warg\nRestrizioni strutture: nessuna scala d'assedio o torre"
+"Colline ricoperte di rocce e sabbia, situate a ovest di Harad e a sud di Gondor."
 END
 
 Map:MAPMPLebennin/Desc
-"Questa lussureggiante distesa verde, nella zona meridionale di Gondor, si trova nel punto in cui il fiume Anduin sfocia nella Baia di Belfalas.\nPosizioni iniziali: accampamenti\nPunti di espansione: 2\nInsediamenti: 12\nTane: Troll, Goblin e Warg\nRestrizioni strutture: nessuna scala d'assedio o torre"
+"Questa lussureggiante distesa verde, nella zona meridionale di Gondor, si trova nel punto in cui il fiume Anduin sfocia nella Baia di Belfalas."
 END
 
 Map:MAPMPMirkwood/Desc
@@ -20811,7 +21486,7 @@ Map:MAPMPMirkwood/Desc
 END
 
 Map:MAPMPMtDoom/Desc
-"Sauron forgiò l'Unico Anello nei fuochi del vulcano e qui esso venne infine distrutto dall'Hobbit Frodo Baggins.\nPosizioni iniziali: castelli\nPunti di espansione: 2\nInsediamenti: 8\nTane: Troll e Goblin\nRestrizioni strutture: nessuna scala d'assedio o torre. Niente Olifanti."
+"Sauron forgiò l'Unico Anello nei fuochi del vulcano e qui esso venne infine distrutto dall'Hobbit Frodo Baggins."
 END
 
 Map:MAPMPNearHarad/Desc
@@ -20827,7 +21502,7 @@ Map:MAPMPNorthernIthilien/Desc
 END
 
 Map:MAPMPNurn/Desc
-"Le terre meridionali di Mordor, che cingono un grande mare interno.\nPosizioni iniziali: accampamenti\nPunti di espansione: 3\nInsediamenti: 8\nTane: Troll\nRestrizioni strutture: nessuna scala d'assedio o torre"
+"Le terre meridionali di Mordor, che cingono un grande mare interno."
 END
 
 Map:MAPMPBrownLands/Desc
@@ -20835,27 +21510,27 @@ Map:MAPMPBrownLands/Desc
 END
 
 Map:MAPMPOsgiliath/Desc
-"Questa città di Gondor è l'ultima linea di difesa fra Mordor e Minas Tirith. Il fiume Anduin scorre al centro della città.\nPosizioni iniziali: accampamenti\nPunti di espansione: 4\nInsediamenti: 12\nTane: Troll e Goblin\nRestrizioni strutture: nessuna scala d'assedio o torre. Niente Olifanti."
+"Questa città di Gondor è l'ultima linea di difesa fra Mordor e Minas Tirith. Il fiume Anduin scorre al centro della città."
 END
 
 Map:MAPMPPelargir/Desc
-"Un'antica città portuale di Gondor, situata alle foci dell'Anduin.\nPosizioni iniziali: castelli\nPunti di espansione: 6\nInsediamenti: 12\nTane: Goblin e Warg"
+"Un'antica città portuale di Gondor, situata alle foci dell'Anduin."
 END
 
 Map:MAPMPRhun/Desc
-"Le misteriose regioni orientali della Terra di Mezzo, intorno al Mare di Rhûn.\nPosizioni iniziali: accampamenti\nPunti di espansione: 6\nInsediamenti: 18\nTane: Troll"
+"Le misteriose regioni orientali della Terra di Mezzo, intorno al Mare di Rhûn."
 END
 
 Map:MAPMPRohan/Desc
-"Un grande reame della Terra di Mezzo, guidato da Re Thèoden. Qui vivono i Rohirrim, i migliori cavalieri di tutta la Terra di Mezzo.\nPosizioni iniziali: castelli\nPunti di espansione: 2\nInsediamenti: 6\nTane: Troll, Goblin e Warg"
+"Un grande reame della Terra di Mezzo, guidato da Re Thèoden. Qui vivono i Rohirrim, i migliori cavalieri di tutta la Terra di Mezzo."
 END
 
 Map:MAPMPSouthernIthilien/Desc
-"La fertile e boscosa regione meridionale di Gondor.\nPosizioni iniziali: castelli\nPunti di espansione: 2\nInsediamenti: 6\nTane: Goblin"
+"La fertile e boscosa regione meridionale di Gondor."
 END
 
 Map:MAPMPWestEmnet/Desc
-"Verdi praterie di Rohan, situate fra i fiumi Entalluvio e Isen.\nPosizioni iniziali: castelli\nPunti di espansione: 4\nInsediamenti: 8\nTane: Troll, Goblin e Warg"
+"Verdi praterie di Rohan, situate fra i fiumi Entalluvio e Isen. \n\nEdited by Ecthelion"
 END
 
 Map:MAPMPWold/Desc
@@ -27757,7 +28432,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Richiesto livello 7.\nFornisce a tutte le unità nelle vicinanze resistenza alla paura.\nNon può essere cancellato ed è sempre cumulativo. \nAbilità passiva."
+"Richiesto livello 6.\nFornisce a tutte le unità nelle vicinanze resistenza alla paura.\nNon può essere cancellato ed è sempre cumulativo. \nAbilità passiva."
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
@@ -36835,7 +37510,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesMagicArrows
-"Potenzia con Frecce Puntargento"
+"Potenzia con Frecce Puntargento [&S]"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesWarBarding
@@ -42863,7 +43538,7 @@ CONTROLBAR:ToolTipTheodenLeadership
 END
 
 CONTROLBAR:ToolTipGloriousCharge
-"Richiede livello 7.\nThèoden e la cavalleria nelle vicinanze guadagnano +80% corazza, +25% danno e diventano immuni al rallentamento mentre caricano.\nThèoden deve essere a cavallo per usare l'abilità.\nClicca con il pulsante sinistro per attivare."
+"Richiede livello 7.\nThèoden e la cavalleria nelle vicinanze guadagnano +99% corazza, +25% danno e diventano immuni al rallentamento mentre caricano.\nThèoden deve essere a cavallo per usare l'abilità.\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:Smite
@@ -43115,7 +43790,7 @@ CONTROLBAR:ElrondWhirlwind
 END
 
 CONTROLBAR:TooltipElrondWhirlwind
-"Richiede livello 5.\nEvoca un turbine distruttore sul campo di battaglia.\nClicca con il pulsante sinistro sull'icona e poi sulla zona bersaglio."
+"Richiede livello 6.\nEvoca un turbine distruttore sul campo di battaglia.\nClicca con il pulsante sinistro sull'icona e poi sulla zona bersaglio."
 END
 
 CONTROLBAR:ToolTipTreeBeardLeadership
@@ -43139,7 +43814,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+25% velocità di costruzione.\nConsente la ricerca dei potenziamenti Cotta di mithril, Lame temprate e Colpo fiammeggiante.\nAggiunge torre difensiva con lanciatori d'ascia. \nGuadagna armatura: +20% verso gli eroi, picchieri e la cavalleria."
+"+30% velocità di costruzione.\nConsente la ricerca dei potenziamenti Cotta di mithril, Lame temprate e Colpo fiammeggiante.\nAggiunge torre difensiva con lanciatori d'ascia. \nGuadagna armatura: +20% verso gli eroi, picchieri e la cavalleria."
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade
@@ -43303,7 +43978,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 
 CONTROLBAR:ToolTipDominate
-"Richiede livello 7.\nOttiene il controllo temporaneo dei nemici scelti come bersaglio.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Richiede livello 8.\nOttiene il controllo temporaneo dei nemici scelti come bersaglio.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipSharkuManEater
@@ -43547,7 +44222,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"+65% danno agli Warg. \nPerdono 15% armatura verso le picche e le strutture.\nIl bonus non può essere rimosso. \nSempre cumulativa. \nClicca con il pulsante sinistro per attivare."
+"+55% danno agli Warg. \nPerdono 15% armatura verso le picche e le strutture.\nIl bonus non può essere rimosso. \nSempre cumulativa. \nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
@@ -43598,561 +44273,6 @@ CONTROLBAR:ElvenGrace
 "Athelas (&R)"
 END
 
-
-
 GUI:PleaseSelectBuddy
 "Impossibile inviare il messaggio. Devi selezionare uno o più amici."
 END
-
-// String lines for Patch 1.08
-
-CONTROLBAR:GrabPassengerTB
-"Pickup Merry or Pippin"
-END
-
-CONTROLBAR:SpecialAbility_ShieldBubble
-"Sc&udo Sfera"
-END
-
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"Lo stregone trasferisce tutto il suo potere in uno scudo per difendersi \n Gandalf guadagna 99% Armatura e resiste ai contraccolpi per 5 secondi. \n Click sinistro sull'icona per attivare."
-END
-
-CONTROLBAR:Fire_pit
-"Fuoco da campo (&C)"
-END
-
-CONTROLBAR:TooltipFire_pit
-"Fuoco da campo che guarisce le unità alleate nelle vicinanze. \nRiforma 1 unità per orda ogni 5 secondi. \n Garantisce +5% bonus armatura. \nSempre cumulativo. \nRivela unità mimetizzate."
-END
-
-CONTROLBAR:FireWorks
-"Fuochi D'Artificio / Accendi (&V)"
-END
-
-CONTROLBAR:ToolTipFireWorks
-"Merry può mettere un fuoco d'artificio sul terreno ed accenderlo \n \n Click sinistro per attivare "
-END
-
-CONTROLBAR:FireWorks2
-"Accendi Fuochi D'Artificio(&B)"
-END
-
-CONTROLBAR:ToolTipFireWorks2
-"Fuochi d'artificio danneggiano le unità in una grande area \n \n Click sinistro per attivare "
-END
-
-CONTROLBAR:FireWorksObj
-"Fuochi artificiali"
-END
-
-CONTROLBAR:HobbitFireCracker
-"Petardi (&R)"
-END
-
-CONTROLBAR:ToolTipHobbitFireCracker
-"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio"
-END
-
-CONTROLBAR:ToolTipHobbitFireCrackerMerry
-"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio \nBonus contro gli Olifanti \nEfficace contro le strutture"
-END
-
-CONTROLBAR:ToolTipHobbitFireCrackerSam
-"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio \nEfficace contro Shelob "
-End
-//------------------------------------------------------------
-
-// String lines for Patch 1.09
-
-//------------------------------------------------------------
-CONTROLBAR:ArwenLeadershipDesc_New
-"Requires Level 4 \n Allies near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
-End
-CONTROLBAR:GaladHeal_New
-"&Luce Di Galadriel"
-END
-CONTROLBAR:GaladHealDesc_New
-"Guarisce tutte le unità e gli eroi in una grande area intorno a Galadriel \nClick sinistro per attivare."
-END
-CONTROLBAR:LadyOfLight_New
-"Luce di &Vallar"
-END
-CONTROLBAR:LadyOfLightDesc_New
-"Fa calare la luyce dei Valar sul nemico."
-END
-CONTROLBAR:SpecialAbilityFiresOfDoom2_New
-"Evoca tre Piogge Infuocate intorno a Sauron in cerchio."
-END
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon_New
-"Richiede Fortezza aggiornare \cn\n Fornisce +25% danno +25% esperienza \n Sempre cumulativa."
-END
-CONTROLBAR:LoneTowerHealingUpgradeIcon_New
-"Richiede fortezza aggiornare. \n\n Guarisce le unità alleate nelle vicinanze. \n Riforma 1 unità per orda ogni 10 secondi."
-END
-CONTROLBAR:LoneTowerArmorUpgradeIcon_New
-"Richiede Fortezza aggiornare. \n\n Riduce notevolmente il danno subito."
-END
-//------------------------------------------------------------
-
-// String lines for new Patch 1.09b	-----	2019
-
-//------------------------------------------------------------
-CONTROLBAR:GaladrielWordOfPower_New
-"Nenya [&V]"
-END
-CONTROLBAR:GaladrielWordOfPowerDesc_New
-"Requires Level 10 \n Nenya \Sends out a shockwave that destroys surrounding enemies \n Left click to activate"
-END
-//------------------------------------------------------------
-CONTROLBAR:RingOfPower_New
-"Ring Of Power"
-END
-CONTROLBAR:RingOfPowerDesc_New
-"Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
-END
-//------------------------------------------------------------
-CONTROLBAR:TooltipAthelasElrond_New
-"Heal nearby units \n Less effective on heroes and more effective on hordes and monsters \n Provides 15% HP and 25% bonus experience for 12s to infantry, cavalry, and monsters(not heroes)\n provides resistance to fear and terror \n Left click to activate"
-END
-//------------------------------------------------------------
-CONTROLBAR:KingsFavorDainDesc 
-"King's Favor [&r]"
-END
-CONTROLBAR:KingsFavorDainDesc_New
-"Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
-END
-//------------------------------------------------------------
-CONTROLBAR:SauronsFiresOfDoomDesc_New
-"Calls down many molten rocks in an area around Sauron, \n Left click icon starts the channeling \n Does not hurt allies"
-END
-//------------------------------------------------------------
-
-// Maps	-----	2019
-
-
-//------------------------------------------------------------
-Map:EmynArnenTournament
-"Tournament Emyn Arnen"
-END
-Map:EmynArnenTournament/Desc
-"Emyn Arnen means "Hills Beside the Water" in Sindarin, refering to the Great Anduin river.\n Located in Ithilien in the south of Osgiliath bordering the Mountains of Shadow.\n Map by Ecthelion."
-END
-//------------------------------------------------------------
-Map:Eastfold
-"Eastfold"
-END
-Map:Eastfold/Desc
-"The Eastfold was a region of Rohan which bordered with the Westfold via the Snowbourn River on the west and bordered with Anorien in Gondor to the east."
-END
-//------------------------------------------------------------
-Map:Adorn River
-"Adorn River"
-END
-Map:Adorn River/Desc
-"The river Adorn occurs in Middle-earth between the White Mountains (Ered Nimrais) and the western part of Rohan. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:frozenrift
-"The Frozen Rift"
-End
-Map:frozenrift/Desc
-"This breathtaking-cold rift can be found in the frozen wastes of the North, close to the Ice Bay of Forochel. The Lossoth are amongst the few who dare brave these frozen lands. \n Map by SilverBane` \n Neutral Structures: Signal Fire x1 \n Lairs: Troll x2, Goblin x2"
-END
-//------------------------------------------------------------
-Map:Forochel
-"Forochel II"
-END
-Map:Forochel/Desc
-"Frozen wastelands in northern Middle-earth. The ancient stronghold of Morgoth, Utumno, was located here. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:GoldenGrove
-"Golden Grove"
-END
-Map:GoldenGrove/Desc
-"Bilbo's old camping grounds"
-END
-//------------------------------------------------------------
-Map:GreenfrogPass
-"Greenfrog Pass"
-END
-Map:GreenfrogPass/Desc
-"A green lushful land divided by a central river."
-END
-//------------------------------------------------------------
-Map:JokucsForlindonHills
-"Forlindon Hills"
-END
-Map:JokucsForlindonHills/Desc
-"The region of Forlindon was inhabited by Elves and were the chief part of Gil-galad's kingdom, surrounded by the Blue Mountains and the Great Sea.\n Map by Jokuc."
-END
-//------------------------------------------------------------
-Map:JokucsTowerhills
-"Tower Hills [2p]"
-END
-Map:JokucsTowerhills/Desc
-"With a layout similar to Fords of Isen and the skin of Tower Hills, this 1v1 map is made to provide a mix of fun elements and balanced gameplay. \n Turn off ring heroes for tournament mode. \n Map by Jokuc."
-END
-//------------------------------------------------------------
-Map:Himling
-"Himling"
-END
-Map:Himling/Desc
-"An icy land with a central mountain"
-END
-//------------------------------------------------------------
-Map:Lanthir Lamath
-"Lanthir Lamath"
-END
-Map:Lanthir Lamath/Desc
-"Lanthir Lamath was a sparkling and beautiful waterfall in Ossiriand at the foot of the southern range of the Blue Mountains (Ered Luin).\n It was part of a stream of the river Adurant. \n Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpamonamarth
-"Amon Amarth"
-END
-Map:mapmpamonamarth/Desc
-"Amon Amarth, the mountain of fate, is located deep within Mordor. It is also known as Mount Doom. \nMap from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpazanulbizarvalley
-"Azanulbizar Valley"
-END
-Map:mapmpazanulbizarvalley/Desc
-"A great valley lying between the foothills of the mountains around the lake of Kheled-zaram. The final battle of the War of the Dwarves and Orcs took place here. \n Map from RotWK."
-END
-//------------------------------------------------------------
-Map:MAPMPBrandybuck
-"BrandyBuck"
-END
-Map:MAPMPBrandybuck/Desc
-"In J. R. R. Tolkien's fictional universe of Middle-earth, the Brandybuck clan was a powerful Hobbit family. The family began as the Oldbuck clan, who named themselves such apparently after Bucca of the Marish"
-END
-//------------------------------------------------------------
-Map:mapmpmountgram
-"Mount Gram"
-End
-Map:mapmpmountgram/desc
-"Map from RotWK, stolen by Bunito 2018."
-End
-//------------------------------------------------------------
-Map:sirannon
-"Mount Gram"
-End
-Map:sirannon/Desc
-"This once tumultuous river flows from the Gates of Durin to Ost-in-Edhil, the ruined elf city of Eregion.\n Now all that's left is a foul lake and but a thread of water from the once rich Stair Fall. \n Map by SilverBane` \n Lairs:2x Warg, 2x Troll \n Neutral Structures: 1x Inn "
-END
-//------------------------------------------------------------
-Map:MAPMPBrandybuck
-"BrandyBuck"
-END
-Map:MAPMPBrandybuck/Desc
-"In J. R. R. Tolkien's fictional universe of Middle-earth, the Brandybuck clan was a powerful Hobbit family. The family began as the Oldbuck clan, who named themselves such apparently after Bucca of the Marish"
-END
-//------------------------------------------------------------
-Map:WestEmnetII
-"West Emnet II"
-END
-Map:WestEmnetII/Desc
-"BFME1 map, edited by Ecthelion. \n Grassy lands of Rohan, lying between the Entwash and the Isen River"
-END
-//------------------------------------------------------------
-Map:TheIvyBush
-"The Ivy Bush"
-END
-Map:TheIvyBush/Desc
-"Map named in honor of The Ivy Bush. A small inn on the Bywater road in the Shire. Here Gaffer Gamgee recounted to the visitors his stories about Bilbo and Frodo Baggins."
-END
-//------------------------------------------------------------
-Map:TheCrossroads
-"The Crossroads"
-END
-Map:TheCrossroads/Desc
-"The Crossroads of Ithilien is a point where the road that leads to the Black Gate meets with the road that leads to Minas Tirith. Frodo and Sam passed by the Crossroads on their way to Cirith Ungol.\n Map by SilverBane`"
-END
-//------------------------------------------------------------
-Map:RohanII
-"Rohan II"
-END
-Map:RohanII/Desc
-"A great kingdom in Middle-earth ruled by King Theoden. It is the home of the Rohirrim, the finest horsemen of Middle-earth. Edited by Ecthelion."
-END
-//------------------------------------------------------------
-Map:OsgiliathII
-"Osgiliath III"
-END
-Map:OsgiliathII/Desc
-"This Gondor city is the last line of defense between Mordor and Minas Tirith. The Anduin River runs through the center of the city. Edition by Ecthelion, a balanced merge of BfME1 and BfME2 versions."
-END
-//------------------------------------------------------------
-Map:oldforest II
-"Old Forest II"
-END
-Map:oldforestII/Desc
-"Treebeard's birthplace"
-END
-//------------------------------------------------------------
-Map:MountDoomII
-"Mount Doom II "
-END
-Map:MountDoomII/Desc
-"In this volcano, the One Ring was forged by Sauron. Here the One Ring was eventually destroyed by the hobbit Frodo Baggins."
-END
-//------------------------------------------------------------
-Map:mapmpwesterngondor
-"Western Gondor"
-END
-Map:mapmpwesterngondor/Desc
-"A coastal region in the western part of Gondor. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpudunii
-"Udun [6p]"
-END
-Map:mapmpudunii/Desc
-"The lands behind the Black Gate known as Udun take the name of the underworld due to the volcanic ash and noxious fumes that cover them.\n Map from RotWK community."
-END
-//------------------------------------------------------------
-Map:mapmptyrngorthad
-"Tyrn Gorthad"
-END
-Map:mapmptyrngorthad/Desc
-"Better known as the Barrow-downs, the ancient burial grounds of the kings of Arnor were corrupted with evil spirits by the Witch-king. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmptournamentudunII
-"Udun II - Shadow of Mordor"
-END
-Map:mapmptournamentudunII/Desc
-"Recolour inspired by the fertile design of the Black Land in The Shadow of Mordor.\n Turn off ring heroes for tournament mode. \n Map by Val."
-END
-//------------------------------------------------------------
-Map:mapmptournamentrohan
-"Tournament Rohan"
-END
-Map:mapmptournamentrohan/Desc
-"Between the Gap of Rohan and the borders of Gondor lie the vast plains of the Riddermark, home to the great horse-lords of Middle-earth. Map by RotWK. Edited for BfME2 by Ecthelion."
-END
-//------------------------------------------------------------
-Map:mapmptournamentbt2dc
-"Tournament Anorien"
-END
-Map:mapmptournamentbt2dc/Desc
-"A small yet open forest battlefield close to Gondor's border with Rohan. Map by RotWK. Edited for BfME2 by Ecthelion."
-END
-//------------------------------------------------------------
-Map:mapmpthewold
-"The Wold"
-END
-Map:mapmpthewold/Desc
-"The Wold was the northernmost and least populated part of Rohan. It is a grassy upland plain lying between Fangorn Forest and the Anduin, bordered to the north by the Limlight. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpstaddle
-"Staddle"
-END
-Map:mapmpstaddle/Desc
-"Staddle was a village in Bree Land, located on the southeastern side of Bree-hill. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpsouthdowns
-"South Downs"
-END
-Map:mapmpsouthdowns/Desc
-"Walking along the East-West Road from Bree to the Weather Hills, one could see the Downs to the south. The Greenway, running through the Andrath, separated the South Downs from the Barrow-downs. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpsleepingforest
-"Sleeping Forest"
-END
-Map:mapmpsleepingforest/Desc
-"Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpshire4p
-"Shire"
-END
-Map:mapmpshire4p/Desc
-"A green, peaceful land. Home of the Hobbits of Middle-earth."
-END
-//------------------------------------------------------------
-Map:mapmpsakuraforest
-"Sakura Forest"
-END
-Map:mapmpsakuraforest/Desc
-"This sacred forest north of the Sea of Rhun is the site of many temples, built to cultivate and foster the rare Sakura trees. \n Map from RotWK community."
-END
-//------------------------------------------------------------
-Map:mapmpriverlangwell
-"River Langwell"
-END
-Map:mapmpriverlangwell/Desc
-"The Langwell was one of the rivers of Rhovanion that flowed east from the Misty Mountains into the Anduin. The height of the river depends on the season of the year. Over time the water level rises and falls. \n Map from RotWK community."
-END
-//------------------------------------------------------------
-Map:mapmpringloriver
-"Ringlo River"
-END
-Map:mapmpringloriver/Desc
-"A winding river in the central regions of Gondor which served as the boundary between Anfalas to the west and Belfalas to the east. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpreddesertofkhand
-"Red Desert of Khand"
-END
-Map:mapmpreddesertofkhand/Desc
-"A red desert land which lay to the south-east of Mordor and to the east of Near Harad. Map from RotWK community."
-END
-//------------------------------------------------------------
-Map:mapmppelennorfields
-"Pelennor Fields"
-END
-Map:mapmppelennorfields/Desc
-"The Battle of the Pelennor Fields was a battle for the city of Minas Tirith, and ultimately for Gondor. It was the greatest battle of the War of the Ring, and indeed the largest of the entire Third Age. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpoldforest
-"Old Forest"
-END
-Map:mapmpoldforest/Desc
-"Standing between the borders of Buckland and Breeland, The Old Forest hides great mystery and danger beneath its dark canopy. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpnevrast4p
-"Nevrast"
-END
-Map:mapmpnevrast4p/Desc
-"A sheltered land on the west coast of Middle-earth, located between Hithlum to the north northeast and West Beleriand to the south."
-END
-//------------------------------------------------------------
-Map:mapmpnearharad
-"Harad II"
-END
-Map:mapmpnearharad/Desc
-"A barren, desert land that lies south of Mordor. It is the homeland of the Haradrim warriors.\n BFME1 version, reworked by Ecthelion."
-END
-//------------------------------------------------------------
-Map:mapmpmorthondvalley
-"Morthond Valley II"
-END
-Map:mapmpmorthondvalley/Desc
-"The Morthond was one of the seven rivers of Gondor. Aragorn, Gimli, Legolas, the Grey Company, and the Army of the Dead exited from the Paths of the Dead alongside it. \n Map from RotWK, reworked by Ecthelion."
-END
-//------------------------------------------------------------
-Map:mapmpmithrilhillsii
-"Mithril Hills"
-END
-Map:mapmpmithrilhillsii/Desc
-"A range of mountains located in northern Middle-earth. It is the realm of the Dwarves of Durin's Folk. \n Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmplorienplateau
-"Lorien Plateau"
-END
-Map:mapmplorienplateau/Desc
-"An area of highland in the Woods of Lothlorien, the fairest forest realm of the Elves remaining in Middle-earth. \n Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpithilienhills
-"Ithilien Hills"
-END
-Map:mapmpithilienhills/Desc
-"A small range of hills in the center of Ithilien, the easternmost province of Gondor. \n Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmphollin
-"Hollin"
-END
-Map:mapmphollin/Desc
-"Hollin was once home to the famed Elvish jewel-smiths of Eregion, the forgers of the great rings of power. But now the ruins of their great cities stand in silence among the stones. \n Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmphobbiton
-"Hobbiton"
-END
-Map:mapmphobbiton/Desc
-"An old village in the central part of the Shire. It is the home of many illustrious Hobbits. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpharadoasis
-"Harad Oasis"
-END
-Map:mapmpharadoasis/Desc
-"A region deep within Harad where precious pools of water can be found. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpfarharad
-"Far Harad"
-END
-Map:mapmpfarharad/Desc
-"Deep in southern Middle-earth, the region of Far Harad is the homeland of the wild Haradrim, loyal servants of Sauron. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmperynlaer
-"Lothlorien: Eryn Laer"
-END
-Map:mapmperynlaer/Desc
-"The tall trees of Eryn Laer, the Woods of Song, stand deep in the realm of Lothlorien, the heart of Elvendom in Middle-earth.\n Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmperegion
-"Eregion"
-END
-Map:mapmperegion/Desc
-"Eregion, also known as Hollin, was a kingdom of the Noldorin Elves in Eriador during the Second Age, located near the West Gate of Moria under the shadow of the Hithaeglir (Misty Mountains). \n Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmperech
-"Erech"
-END
-Map:mapmperech/Desc
-"An ancient site at the feet of the White Mountains in Gondor.  Erech was most famous for a huge Stone, said to have fallen from heaven, though, in fact, brought to Middle-earth by Isildur. \n Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpbuckland6p
-"Buckland II"
-END
-Map:mapmpbuckland6p/Desc
-"Come down to Buckland bra."
-END
-//------------------------------------------------------------
-Map:mapmpfordsoflimlight
-"Fords of Limlight"
-END
-Map:mapmpfordsoflimlight/Desc
-"As a recolour of the popular Fords of Isen, the famous fair-matching map, the theme here is of the great and gigantic forests that once covered all of Middle-earth. Made for 1.09 with love from Val"
-END
-//------------------------------------------------------------
-Map:mapmpfordsofanduin
-"Fords of Anduin II"
-END
-Map:mapmpfordsofanduin/Desc
-"Reskin of the popular 1v1 map, Fords of Isen II. Design based on Amon Hen, Argonath and surrounding areas of the Anduin. \n Made by Ecthelion and SilverBane."
-END
-//------------------------------------------------------------
-Map:mapmpnothing
-"Hobbiton"
-END
-Map:mapmpnothing/Desc
-"nothing"
-END
-//------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
