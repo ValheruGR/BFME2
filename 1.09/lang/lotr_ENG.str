@@ -9153,7 +9153,7 @@ END
 // context: Units and Structures Names. Please consult the UNITS & Structures Document for more information.
 
 CONTROLBAR:Evacuate
-"Evacuate"
+"Evacua&te"
 End
 
 CONTROLBAR:ExecuteRailedTransport

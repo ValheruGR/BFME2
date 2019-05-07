@@ -7753,7 +7753,7 @@ CONTROLBAR:ToolTipRaiseShield
 END
 
 CONTROLBAR:Evacuate
-"Выход"
+"Выход [&T)"
 END
 
 CONTROLBAR:ExecuteRailedTransport
