@@ -7750,7 +7750,7 @@ CONTROLBAR:ToolTipRaiseShield
 END
 
 CONTROLBAR:Evacuate
-"Evacueren"
+"Evacueren [&T]"
 END
 
 CONTROLBAR:ExecuteRailedTransport
