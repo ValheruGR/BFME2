@@ -13,8 +13,13 @@
 
 
 
-
-
+//------------------------------------------------------------
+CONTROLBAR:WordofPowerSauron_New
+"Word of Power [&B]"
+END
+CONTROLBAR:ToolTipWordofPowerSauron_New
+"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
+END
 //------------------------------------------------------------
 CONTROLBAR:nothing_New
 "nothing"
@@ -31,7 +36,7 @@ CONTROLBAR:GaladrielWordOfPowerDesc_New
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower_New
-"Ring Of Power"
+"&Ring Of Power
 END
 CONTROLBAR:RingOfPowerDesc_New
 "Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
