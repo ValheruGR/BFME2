@@ -47,7 +47,7 @@ CONTROLBAR:TooltipAthelasElrond_New
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain_New
-"King's Favor [&R]"
+"King's Favor [&C]"
 END
 CONTROLBAR:KingsFavorDainDesc_New
 "Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
@@ -17420,7 +17420,7 @@ CONTROLBAR:ToolTipDisguise
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Requires Level 5 \n Eowyn gains 65% Armor \n Halves the deceleration rate of friendly Rohirrims when trampling\n Cancels the disguise \n Left click to activate"
+"Requires Level 5 \n Eowyn gains 35% Armor \n Halves the deceleration rate of friendly Rohirrims when trampling\n Cancels the disguise \n Left click to activate"
 END
 
 CONTROLBAR:ToggleTrebWeapon
