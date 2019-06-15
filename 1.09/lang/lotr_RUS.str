@@ -14,18 +14,25 @@
 
 
 //------------------------------------------------------------
-CONTROLBAR:WordofPowerSauron_New
-"Word of Power [&B]"
-END
-CONTROLBAR:ToolTipWordofPowerSauron_New
-"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
-END
-//------------------------------------------------------------
 CONTROLBAR:nothing_New
 "nothing"
 END
 CONTROLBAR:nothingDesc_New
 "nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
+"&Silverthorn Projectiles"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn_New
+"Grants Silverthorn projectiles to fortress and all attached towers \n Increases the damage caused by arrows"
+END
+//------------------------------------------------------------
+CONTROLBAR:WordofPowerSauron_New
+"Word of Power [&B]"
+END
+CONTROLBAR:ToolTipWordofPowerSauron_New
+"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower_New
@@ -599,28 +606,28 @@ END
 CONTROLBAR:ArwenLeadershipDesc_New
 "Requires Level 4 \n Allies near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
-CONTROLBAR:GaladHeal_New
+CONTROLBAR:GaladHealBTP
 "&Свет Галадриэли."
 END
-CONTROLBAR:GaladHealDesc_New
+CONTROLBAR:ToolTipGaladHeal
 "Исцеляет всех союзников и Героев в огромном радиусе вокруг Галадриэли. \n Щелкните на пиктограмме для активации способности."
 END
-CONTROLBAR:LadyOfLight_New
+CONTROLBAR:LadyOfLight
 "Свет Валар."
 END
-CONTROLBAR:LadyOfLightDesc_New
+CONTROLBAR:TooltipLadyOfLight
 "Призывает Свет Валара на головы врагов. \n Deals massive damage in a large area"
 END
-CONTROLBAR:SpecialAbilityFiresOfDoom2_New
+CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Призывает дрех Духов Огня рядом с Сауроном."
 END
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon_New
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
 "Требуется соответствующее улучшение крепости. \n\n Союзники поблизости получают +25% к атаке и +25% к опыту. \n Всегда накапливается."
 END
-CONTROLBAR:LoneTowerHealingUpgradeIcon_New
+CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Требуется соответствующее улучшение крепости. \n\n Исцеляет союзников поблизости. \n Воскрешает одного убитого в отряде каждые 10 секунд."
 END
-CONTROLBAR:LoneTowerArmorUpgradeIcon_New
+CONTROLBAR:LoneTowerArmorUpgradeIcon
 "Требуется соответствующее улучшение крепости. \n\n Существенно уменьшает наносимый врагами урон."
 END
 
@@ -4836,17 +4843,17 @@ END
 
 Version:Format4
 // context: TRANSLATE ONLY THE WORD Build. DO NOT MODIFY THE VARIABLES  
-"1.09"
+"1.09b"
 END
 
 Version:Format3
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"1.09"
+"1.09b"
 END
 
 Version:Format2
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"1.09"
+"1.09b"
 END
 
 Version:BuildTime
@@ -37512,7 +37519,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesMagicArrows
-"Звездные стрелы [&S]"
+"Звездные стрелы"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesWarBarding

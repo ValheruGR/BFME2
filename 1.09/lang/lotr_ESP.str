@@ -14,18 +14,25 @@
 
 
 //------------------------------------------------------------
-CONTROLBAR:WordofPowerSauron_New
-"Word of Power [&B]"
-END
-CONTROLBAR:ToolTipWordofPowerSauron_New
-"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
-END
-//------------------------------------------------------------
 CONTROLBAR:nothing_New
 "nothing"
 END
 CONTROLBAR:nothingDesc_New
 "nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
+"&Silverthorn Projectiles"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn_New
+"Grants Silverthorn projectiles to fortress and all attached towers \n Increases the damage caused by arrows"
+END
+//------------------------------------------------------------
+CONTROLBAR:WordofPowerSauron_New
+"Word of Power [&B]"
+END
+CONTROLBAR:ToolTipWordofPowerSauron_New
+"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower_New
@@ -583,7 +590,7 @@ Map:mapmpfordsofanduin
 "Vados del Anduin II"
 END
 Map:mapmpfordsofanduin/Desc
-"Reskin del popular mapa de 1v1, Vados del Isen II. Diseño basado en Amon Hen, Argonath y el area alrededor del Rio Anduin. \n Hecho Ecthelion y SilverBane."
+"Reskin del popular mapa de 1v1, Vados del Isen II. Diseño basado en Amon Hen, Argonath y el area alrededor del Rio Anduin. \n Hecho por Ecthelion y SilverBane."
 END
 //------------------------------------------------------------
 
@@ -599,28 +606,28 @@ END
 CONTROLBAR:ArwenLeadershipDesc_New
 "Requires Level 4 \n Allies near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
-CONTROLBAR:GaladHeal_New
+CONTROLBAR:GaladHealBTP
 "&Luz de Galadriel"
 END
-CONTROLBAR:GaladHealDesc_New
+CONTROLBAR:ToolTipGaladHeal
 "Cura toda unidad y heroe aliado dentro de un circulo cerca de Galadriel \n Haz clic con el botón izquierdo sobre el icono para activar."
 END
-CONTROLBAR:LadyOfLight_New
+CONTROLBAR:LadyOfLight
 "Luz de los &Valar"
 END
-CONTROLBAR:LadyOfLightDesc_New
+CONTROLBAR:TooltipLadyOfLight
 "Convoca la luz de los Valar contra de tus enemigos. \n Deals massive damage in a large area"
 END
-CONTROLBAR:SpecialAbilityFiresOfDoom2_New
+CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Convoca a los fuegos del destino en un circulo alrededor de Sauron."
 END
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon_New
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
 "Requisito: Investigar la mejora en la fortaleza. \n\n Proporciona a los aliados cercanos +25% daño y ganan experiencia 25% más rapido \n Siempre se acumula"
 END
-CONTROLBAR:LoneTowerHealingUpgradeIcon_New
+CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Requisito: Investigar la mejora en la fortaleza. \n\n Cura a los aliados cercanos \n Repone una unidad por batallón cada 10 segundos."
 END
-CONTROLBAR:LoneTowerArmorUpgradeIcon_New
+CONTROLBAR:LoneTowerArmorUpgradeIcon
 "Requisito: Investigar la mejora en la fortaleza. \n\n Reduce de manera importante el daño recibido."
 END
 
@@ -4835,15 +4842,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09"
+"1.09b"
 END
 
 Version:Format3
-"1.09"
+"1.09b"
 END
 
 Version:Format2
-"1.09"
+"1.09b"
 END
 
 Version:BuildTime
@@ -37518,7 +37525,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesMagicArrows
-"Mejora con flecha&s púa de plata."
+"Mejora con flechas púa de plata."
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesWarBarding
