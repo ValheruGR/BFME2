@@ -14,18 +14,25 @@
 
 
 //------------------------------------------------------------
-CONTROLBAR:WordofPowerSauron_New
-"Word of Power [&B]"
-END
-CONTROLBAR:ToolTipWordofPowerSauron_New
-"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
-END
-//------------------------------------------------------------
 CONTROLBAR:nothing_New
 "nothing"
 END
 CONTROLBAR:nothingDesc_New
 "nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
+"&Silverthorn Projectiles"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn_New
+"Grants Silverthorn projectiles to fortress and all attached towers \n Increases the damage caused by arrows"
+END
+//------------------------------------------------------------
+CONTROLBAR:WordofPowerSauron_New
+"Word of Power [&B]"
+END
+CONTROLBAR:ToolTipWordofPowerSauron_New
+"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower_New
@@ -599,28 +606,28 @@ END
 CONTROLBAR:ArwenLeadershipDesc_New
 "Requires Level 4 \n Allies near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
-CONTROLBAR:GaladHeal_New
+CONTROLBAR:GaladHealBTP
 "Swiatlo Galadrieli (&L)"
 END
-CONTROLBAR:GaladHealDesc_New
+CONTROLBAR:ToolTipGaladHeal
 "Leczy wszystkich pobliskich sojusznikow w poblizu Galadrieli\n Lewy przycisk myszki by aktywowac."
 END
-CONTROLBAR:LadyOfLight_New
+CONTROLBAR:LadyOfLight
 "Swiatlo Valarow (&V)"
 END
-CONTROLBAR:LadyOfLightDesc_New
+CONTROLBAR:TooltipLadyOfLight
 "Wzywa swiatlo Valarow by rozprawic sie z wrogami. \n Deals massive damage in a large area"
 END
-CONTROLBAR:SpecialAbilityFiresOfDoom2_New
+CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Przyzywa trzy kregi Ognia Piekielnego dookola Saurona. (&R)"
 END
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon_New
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
 "Wymaga ulepszenia w fortecy. \n\n Daje +25% do ataku  i +25% do doswiadczenia dla pobliskich jednostek.\nZawsze sie kumuluje"
 END
-CONTROLBAR:LoneTowerHealingUpgradeIcon_New
+CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Wymaga ulepszenia w fortecy.\n\nLeczy pobliskie jednostki sojusznicze.\n Odradza jedna jednostke z hordy co 10 sekund."
 END
-CONTROLBAR:LoneTowerArmorUpgradeIcon_New
+CONTROLBAR:LoneTowerArmorUpgradeIcon
 "Wymaga ulepszenia w fortecy.\n\n Znacznie zmniejsza przyjmowane obrazenia przez fortece."
 END
 
@@ -4835,15 +4842,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09"
+"1.09b"
 END
 
 Version:Format3
-"1.09"
+"1.09b"
 END
 
 Version:Format2
-"1.09"
+"1.09b"
 END
 
 Version:BuildTime
@@ -37507,7 +37514,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesMagicArrows
-"Dodaj srebrnokolce &strzaly"
+"Dodaj srebrnokolce strzaly"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesWarBarding

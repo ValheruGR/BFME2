@@ -14,18 +14,25 @@
 
 
 //------------------------------------------------------------
-CONTROLBAR:WordofPowerSauron_New
-"Word of Power [&B]"
-END
-CONTROLBAR:ToolTipWordofPowerSauron_New
-"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
-END
-//------------------------------------------------------------
 CONTROLBAR:nothing_New
 "nothing"
 END
 CONTROLBAR:nothingDesc_New
 "nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
+"&Silverthorn Projectiles"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn_New
+"Grants Silverthorn projectiles to fortress and all attached towers \n Increases the damage caused by arrows"
+END
+//------------------------------------------------------------
+CONTROLBAR:WordofPowerSauron_New
+"Word of Power [&B]"
+END
+CONTROLBAR:ToolTipWordofPowerSauron_New
+"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower_New
@@ -580,8 +587,8 @@ Map:mapmpfordsoflimlight/Desc
 "As a recolour of the popular Fords of Isen, the famous fair-matching map, the theme here is of the great and gigantic forests that once covered all of Middle-earth. Made for 1.09 with love from Val"
 END
 //------------------------------------------------------------
-Map:mapmpfordsofanduin
 // This one does get translated in at least one more lenguage
+Map:mapmpfordsofanduin
 "Fords of Anduin II"
 END
 Map:mapmpfordsofanduin/Desc
@@ -601,28 +608,28 @@ END
 CONTROLBAR:ArwenLeadershipDesc_New
 "Requires Level 4 \n Allies near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
-CONTROLBAR:GaladHeal_New
+CONTROLBAR:GaladHealBTP
 "&Light Of Galadriel"
 END
-CONTROLBAR:GaladHealDesc_New
+CONTROLBAR:ToolTipGaladHeal
 "Heals all allied units and heroes in a large circle around Galadriel \n Left click to activate"
 END
-CONTROLBAR:LadyOfLight_New
+CONTROLBAR:LadyOfLight
 "Light Of &Valars"
 END
-CONTROLBAR:LadyOfLightDesc_New
+CONTROLBAR:TooltipLadyOfLight
 "Call down the Light of Valar onto your enemies. \n Deals massive damage in a large area"
 END
-CONTROLBAR:SpecialAbilityFiresOfDoom2_New
+CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Summon Three Fi&res of Doom around Sauron in a circle"
 END
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon_New
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
 "Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and +25% experience \n Always stacks"
 END
-CONTROLBAR:LoneTowerHealingUpgradeIcon_New
+CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
 END
-CONTROLBAR:LoneTowerArmorUpgradeIcon_New
+CONTROLBAR:LoneTowerArmorUpgradeIcon
 "Requires researching the upgrade at fortress. \n\n Significantly reduces the amount of damage taken."
 END
 
@@ -673,7 +680,7 @@ CONTROLBAR:ToolTipHobbitFireCrackerMerry
 "Hero can throw a small Firecracker. \n Effective against Mumakils \n Special bonus against structures. \n Left click icon then left click on target"
 End
 CONTROLBAR:ToolTipHobbitFireCrackerSam
-"Hero can throw a small Firecracker. Special bonus against Shelob. \n Left click icon then left click on target"
+"Hero can throw a small Firecracker. \n Special bonus against Shelob. \n Left click icon then left click on target"
 End
 
 //------------------------------------------------------------
@@ -40281,9 +40288,9 @@ End
 CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot
 "Upgrade wi&th Flaming Shot"
 End
-// 1.09 Fortress Silverthorn
+
 CONTROLBAR:PurchaseUpgradeElderRacesMagicArrows
-"Upgrade with &Silverthorn Arrows"
+"Upgrade with Silverthorn Arrows"
 End
 
 CONTROLBAR:PurchaseUpgradeElderRacesWarBarding
@@ -47296,7 +47303,7 @@ CONTROLBAR:ToolTipBuildGoblinCaveTroll
 END
 
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy
-"Requires Level 4 \n Allies near the hero gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+"Requires Level 4 \n Allies near the Goblin King gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
 
 CONTROLBAR:TooltipGoblinKingSkullTotem

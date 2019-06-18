@@ -14,18 +14,25 @@
 
 
 //------------------------------------------------------------
-CONTROLBAR:WordofPowerSauron_New
-"Word of Power [&B]"
-END
-CONTROLBAR:ToolTipWordofPowerSauron_New
-"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
-END
-//------------------------------------------------------------
 CONTROLBAR:nothing_New
 "nothing"
 END
 CONTROLBAR:nothingDesc_New
 "nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
+"&Silverthorn Projectiles"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn_New
+"Grants Silverthorn projectiles to fortress and all attached towers \n Increases the damage caused by arrows"
+END
+//------------------------------------------------------------
+CONTROLBAR:WordofPowerSauron_New
+"Word of Power [&B]"
+END
+CONTROLBAR:ToolTipWordofPowerSauron_New
+"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower_New
@@ -599,28 +606,28 @@ END
 CONTROLBAR:ArwenLeadershipDesc_New
 "Requires Level 4 \n Allies near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
-CONTROLBAR:GaladHeal_New
+CONTROLBAR:GaladHealBTP
 "&Lumière de Galadriel"
 END
-CONTROLBAR:GaladHealDesc_New
+CONTROLBAR:ToolTipGaladHeal
 "Soigne toutes les unités et héros dans un large cercle autour de Galadriel \n Click gauche pour activer"
 END
-CONTROLBAR:LadyOfLight_New
+CONTROLBAR:LadyOfLight
 "&Lumière des Valars"
 END
-CONTROLBAR:LadyOfLightDesc_New
+CONTROLBAR:TooltipLadyOfLight
 "Amener la lumière des Valars sur vos ennemis. \n Deals massive damage in a large area"
 END
-CONTROLBAR:SpecialAbilityFiresOfDoom2_New
+CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Invoque trois pluies de roches en fusion dans un cercle autour de Sauron"
 END
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon_New
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
 "Requiert de rechercher l'amélioration dans la forteresse. \n\n Les unités alliées proches gagnent +25% dommage et +25% d'expérience \n Bonus cumulatif"
 END
-CONTROLBAR:LoneTowerHealingUpgradeIcon_New
+CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Requiert de rechercher l'amélioration dans la forteresse. \n\n Soigne les unités alliées proches \n Renouvelle une unité manquante par bataillon toute les 10 secondes"
 END
-CONTROLBAR:LoneTowerArmorUpgradeIcon_New
+CONTROLBAR:LoneTowerArmorUpgradeIcon
 "Requiert de rechercher l'amélioration dans la forteresse. \n\n Réduit de manière significative le nombre de dégâts reçus."
 END
 
@@ -4836,15 +4843,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09"
+"1.09b"
 END
 
 Version:Format3
-"1.09"
+"1.09b"
 END
 
 Version:Format2
-"1.09"
+"1.09b"
 END
 
 Version:BuildTime
@@ -37516,7 +37523,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesMagicArrows
-"Améliorer avec des flèche&s d'argent"
+"Améliorer avec des flèches d'argent"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesWarBarding
