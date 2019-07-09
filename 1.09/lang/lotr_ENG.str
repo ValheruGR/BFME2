@@ -46524,7 +46524,7 @@ CONTROLBAR:TooltipDwarvenRiches
 END
 
 CONTROLBAR:TooltipPalantirVision
-"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area\n Always stacks \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary +10% speed bonus to \n units at its target area\n Always stacks \n \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:TooltipFarSeeing

@@ -43463,7 +43463,7 @@ CONTROLBAR:TooltipDwarvenRiches
 END
 
 CONTROLBAR:TooltipPalantirVision
-"Espionne l'ennemi \n\nConfère un bonus temporaire de vitesse de +15% \n aux unités dans la zone cible\n Bonus cumulatif \n clic gauche puis clic gauche sur la zone ciblée"
+"Espionne l'ennemi \n\nConfère un bonus temporaire de vitesse de +10% \n aux unités dans la zone cible\n Bonus cumulatif \n clic gauche puis clic gauche sur la zone ciblée"
 END
 
 CONTROLBAR:TooltipFarSeeing
