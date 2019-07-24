@@ -88,12 +88,19 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
+Map:seaofnurnen
+"Sea of Nurnen"
+End
+Map:seaofnurnen/Desc
+"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord.\n Map by SilverBane` \n Lairs: Warg x2, Wight x2 \n Neutral Structures: Signal fire x2, Inn x2 "
+End
+//------------------------------------------------------------
+Map:seaofnurnenii
+"Sea of Nurnen II"
 END
-Map:mapmpnothing/Desc
-"nothing"
-END
+Map:seaofnurnenii/Desc
+"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord.\n Map by SilverBane` \n Lairs: Warg x2 \n Neutral Structures: Inn x2 "
+End
 //------------------------------------------------------------
 Map:EmynArnenTournament
 "Tournament Emyn Arnen"
