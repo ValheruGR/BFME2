@@ -21,6 +21,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipSarumanLeadership_New
+"Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
+END
+//------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
 "&Silverthorn Projectiles"
 END
@@ -4843,15 +4847,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09b"
+"1.09 2.0"
 END
 
 Version:Format3
-"1.09b"
+"1.09 2.0"
 END
 
 Version:Format2
-"1.09b"
+"1.09 2.0"
 END
 
 Version:BuildTime
@@ -14191,7 +14195,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Bringt die Umgebung zum Blühen \n Verbündeten Einheiten erhalten +50% Rüstung \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Bringt die Umgebung zum Blühen \n Verbündeten Einheiten erhalten +35% Rüstung \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -15597,7 +15601,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Verbündete in Tom Bombadils Nähe verursachen \n +25% Schaden, erhalten +25% Rüstung und \n sammeln Erfahrung +50% schneller \n Wird immer addiert \n \n Passive Fähigkeit"
+"Verbündete in Tom Bombadils Nähe verursachen \n erhalten +25% Rüstung und \n sammeln Erfahrung +25% schneller \n Wird immer addiert \n \n Passive Fähigkeit"
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -24868,7 +24872,7 @@ CONTROLBAR:ConstructDwarvenStatue
 "Heldenstatue err&ichten"
 END
 
-CONTROLBAR:TooltipConstructDwarvenStatue
+CONTROLBAR:TooltipConstructDwarvenStatue // obsolete
 "Verbündete in der Nähe der Statue \n erhalten +50% Rüstung \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 
@@ -43515,7 +43519,7 @@ TOOLTIP:LackGondorIronOreTechnology
 END
 
 OBJECT:HeroicStatueDescription
-"Verbündete in der Nähe der Statue \n erhalten +25% Rüstung und sammeln \n 50% schneller Erfahrung \n Wird immer addiert \n \nErhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n erhalten +25% Rüstung und sammeln \n 25% schneller Erfahrung \n Wird immer addiert \n \nErhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 
 CONTROLBAR:HornofGondor
@@ -43547,7 +43551,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Verbündete in Theodens Nähe verursachen \n +50% Schaden \n und erhalten +25% Führerschaft \n \n Passive Fähigkeit"
+"Verbündete in Theodens Nähe verursachen \n +25% Schaden \n und erhalten +25% Führerschaft \n \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipGloriousCharge
@@ -43591,7 +43595,7 @@ CONTROLBAR:CaptainofGondor
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
-"Voraussetzung: Stufe 6 \n Verbündete in Faramirs Nähe erhalten \n +50% Rüstung \n \n Passive Fähigkeit"
+"Voraussetzung: Stufe 6 \n Verbündete in Faramirs Nähe erhalten \n +35% Rüstung \n \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ThrowSpear
@@ -43599,7 +43603,7 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Voraussetzung: Stufe 3 \n Kavallerie in Eomers Nähe erhält \n +50% Rüstung \n \n Passive Fähigkeit"
+"Voraussetzung: Stufe 3 \n Kavallerie in Eomers Nähe erhält \n +35% Rüstung \n \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -43843,7 +43847,7 @@ CONTROLBAR:ToolTipBlackArrows
 END
 
 OBJECT:DwarvenHeroicStatueDescription
-"Verbündete in der Nähe der Statue \n erhalten +50% Rüstung \n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n erhalten +35% Rüstung \n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade
@@ -43899,7 +43903,7 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Verbündete in Gimlis Nähe erhalten \n +50% Rüstung \n \n Passive Fähigkeit"
+"Verbündete in Gimlis Nähe erhalten \n +35% Rüstung \n \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipAxeThrow
@@ -43959,7 +43963,7 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Verdirbt einen Landstrich \n Alle Verbündeten erhalten +50% Rüstung \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Verdirbt einen Landstrich \n Alle Verbündeten erhalten +35% Rüstung \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 
 CONTROLBAR:ToolTipEyeofSauron
@@ -44075,7 +44079,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Verbündete in der Nähe des Trommler-Trolls erhalten +50% Rüstung und +25% Erfahrung \n Trolle erhalten +15% Rüstung, +15% Erfahrung und heilen sich selbst schneller \n \n Passive Fähigkeit"
+"Verbündete in der Nähe des Trommler-Trolls erhalten +35% Rüstung und +25% Erfahrung \n Trolle erhalten +15% Rüstung, +15% Erfahrung und heilen sich selbst schneller \n \n Passive Fähigkeit"
 END
 
 CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3
@@ -44139,7 +44143,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Voraussetzung: Stufe 2 \n Platziert ein Schädeltotem, das bis zu seiner Zerstörung auf der Karte bleibt \n Lichtet den Nebel und verleiht Verbündeten in der Nähe +50% Rüstung und +25% Erfahrung \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Voraussetzung: Stufe 2 \n Platziert ein Schädeltotem, das bis zu seiner Zerstörung auf der Karte bleibt \n Lichtet den Nebel und verleiht Verbündeten in der Nähe +35% Rüstung und +25% Erfahrung \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde

@@ -21,6 +21,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipSarumanLeadership_New
+"Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
+END
+//------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
 "&Silverthorn Projectiles"
 END
@@ -4842,15 +4846,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09"
+"1.09 2.0"
 END
 
 Version:Format3
-"1.09"
+"1.09 2.0"
 END
 
 Version:Format2
-"1.09"
+"1.09 2.0"
 END
 
 Version:BuildTime
@@ -15597,7 +15601,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Los aliados cercanos a Tom Bombadil ganan \n +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Siempre se acumula.\n \n Capacidad pasiva."
+"Los aliados cercanos a Tom Bombadil ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Siempre se acumula.\n \n Capacidad pasiva."
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -15981,7 +15985,7 @@ CONTROLBAR:ToolTipDisguise
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Requisito: Nivel 5 \n Eowyn recibe +65% a la armadura. \n Reduce la disminución de velocidad por pisoteo de Rohirrims amigos \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 5 \n Eowyn recibe +65% a la armadura. \n Reduce la disminución de velocidad por pisoteo de Rohirrim amigos \n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:ToggleTrebWeapon
@@ -43555,7 +43559,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Los aliados cercanos a Théoden ganan \n +50% al daño y ganan experiencia 25% más rápido.\n \n Capacidad pasiva."
+"Los aliados cercanos a Théoden ganan \n +25% al daño y ganan experiencia 25% más rápido. \n Siempre se acumula. \n \n Capacidad pasiva."
 END
 
 CONTROLBAR:ToolTipGloriousCharge
@@ -43599,7 +43603,7 @@ CONTROLBAR:CaptainofGondor
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
-"Requisito: Nivel 6. \n Los aliados cercanos a Faramir ganan \n +50% a la armadura. \n \n Capacidad pasiva."
+"Requisito: Nivel 6. \n Los aliados cercanos a Faramir ganan \n +35% a la armadura. \n \n Capacidad pasiva."
 END
 
 CONTROLBAR:ThrowSpear
@@ -43607,7 +43611,7 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Requisito: Nivel 3. \n La caballería cercana a Eomer gana \n +50% a armadura. \n \n Capacidad pasiva."
+"Requisito: Nivel 3. \n La caballería cercana a Eomer gana \n +35% a armadura. \n \n Capacidad pasiva."
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -43851,7 +43855,7 @@ CONTROLBAR:ToolTipBlackArrows
 END
 
 OBJECT:DwarvenHeroicStatueDescription
-"Los aliados cercanos a la estatua ganan \n +50% a la armadura. \n \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +35% a la armadura. \n \n Aumenta en 10 el límite de puntos de mando."
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade
@@ -43907,7 +43911,7 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Los aliados cercanos a Gimli ganan \n +50% a la armadura.\n \n Capacidad pasiva."
+"Los aliados cercanos a Gimli ganan \n +35% a la armadura.\n \n Capacidad pasiva."
 END
 
 CONTROLBAR:ToolTipAxeThrow
@@ -43967,7 +43971,7 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Mancilla una zona.\nLas unidades aliadas reciben +50% a la armadura.\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Mancilla una zona.\nLas unidades aliadas reciben +35% a la armadura.\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToolTipEyeofSauron
@@ -44083,7 +44087,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Los aliados cercanos al troll con tambor ganan +50% a armadura y +25% experiencia. \n Trolls cercanos ganan +15% armadura +15% experiencia y se auto-curan más rápido.  \n Capacidad pasiva."
+"Los aliados cercanos al troll con tambor ganan +35% a armadura y +25% experiencia. \n Trolls cercanos ganan +15% armadura +15% experiencia y se auto-curan más rápido.  \n Capacidad pasiva."
 END
 
 CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3
@@ -44147,7 +44151,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Requisito: Nivel 2. \n Coloca un tótem de cráneo que quedará en el mapa hasta que sea destruido\n Levanta la niebla de guerra y detecta unidades sigilosas \n Los aliados cercanos ganan +50% armadura y +25% experiencia. \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el terreno al que se pueda llegar."
+"Requisito: Nivel 2. \n Coloca un tótem de cráneo que quedará en el mapa hasta que sea destruido\n Levanta la niebla de guerra y detecta unidades sigilosas \n Los aliados cercanos ganan +35% armadura y +25% experiencia. \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el terreno al que se pueda llegar."
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde

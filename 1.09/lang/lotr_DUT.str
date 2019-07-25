@@ -21,6 +21,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipSarumanLeadership_New
+"Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
+END
+//------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
 "&Silverthorn Projectiles"
 END
@@ -4842,15 +4846,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09b"
+"1.09 2.0"
 END
 
 Version:Format3
-"1.09b"
+"1.09 2.0"
 END
 
 Version:Format2
-"1.09b"
+"1.09 2.0"
 END
 
 Version:BuildTime
@@ -14190,7 +14194,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Creëert bosrijk terrein\nAlle bevriende eenheden krijgen +50% pantser\nHeeft geen effect op helden\nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Creëert bosrijk terrein\nAlle bevriende eenheden krijgen +35% pantser\nHeeft geen effect op helden\nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -15594,7 +15598,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Bondgenoten in de buurt van Tom Bombadil krijgen\n+50% schade en +50% pantser,\nen verdienen twee keer zo snel ervaring\n\nPassieve kracht Maximaal 1 per keer"
+"Bondgenoten in de buurt van Tom Bombadil krijgen\n +25% pantser,\nen verdienen ervaring 25% sneller\n\nPassieve kracht Maximaal 1 per keer"
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -43506,7 +43510,7 @@ TOOLTIP:LackGondorIronOreTechnology
 END
 
 OBJECT:HeroicStatueDescription
-"Eenheden in de buurt van het standbeeld\nkrijgen +25% pantser\nen verdienen ervaring 50% sneller\n\nEffecten stapelen op\n\nVerhoogt de limiet commandopunten met 10"
+"Eenheden in de buurt van het standbeeld\nkrijgen +25% pantser\nen verdienen ervaring 25% sneller\n\nEffecten stapelen op\n\nVerhoogt de limiet commandopunten met 10"
 END
 
 CONTROLBAR:HornofGondor
@@ -43538,7 +43542,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Bondgenoten in de buurt van Théoden krijgen\n+50% schade\n\nPassieve kracht"
+"Bondgenoten in de buurt van Théoden krijgen\n+25% schade\n\nPassieve kracht"
 END
 
 CONTROLBAR:ToolTipGloriousCharge
@@ -43582,7 +43586,7 @@ CONTROLBAR:CaptainofGondor
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
-"Nodig: niveau 6\nBondgenoten in de buurt van Faramir krijgen\n+50% pantser\n\nPassieve kracht"
+"Nodig: niveau 6\nBondgenoten in de buurt van Faramir krijgen\n+35% pantser\n\nPassieve kracht"
 END
 
 CONTROLBAR:ThrowSpear
@@ -43590,7 +43594,7 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Nodig: niveau 3\nCavalerie-eenheden in de buurt van Éomer krijgen\n+50% pantser\n\nPassieve kracht"
+"Nodig: niveau 3\nCavalerie-eenheden in de buurt van Éomer krijgen\n+35% pantser\n\nPassieve kracht"
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -43834,7 +43838,7 @@ CONTROLBAR:ToolTipBlackArrows
 END
 
 OBJECT:DwarvenHeroicStatueDescription
-"Eenheden in de buurt van het standbeeld krijgen \n +50% pantser \n\n Verhoogt de limiet commandopunten met 10"
+"Eenheden in de buurt van het standbeeld krijgen \n +35% pantser \n\n Verhoogt de limiet commandopunten met 10"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade
@@ -43890,7 +43894,7 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Bondgenoten in de buurt van Gimli krijgen \n +50% pantser \n\n Passieve kracht"
+"Bondgenoten in de buurt van Gimli krijgen \n +35% pantser \n\n Passieve kracht"
 END
 
 CONTROLBAR:ToolTipAxeThrow
@@ -43950,7 +43954,7 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Besmet een deel van het terrein\nAlle bondgenoten krijgen +50% pantser\nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Besmet een deel van het terrein\nAlle bondgenoten krijgen +35% pantser\nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 
 CONTROLBAR:ToolTipEyeofSauron
@@ -44066,7 +44070,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Bondgenoten in de buurt van de Trol-tromslager krijgen +50% pantser \n \n Passieve kracht"
+"Bondgenoten in de buurt van de Trol-tromslager krijgen +35% pantser \n \n Passieve kracht"
 END
 
 CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3
@@ -44130,7 +44134,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Nodig: niveau 2\nPlaatst een schedeltotem die op de kaart blijft staan totdat hij is vernietigd\nLaat mist in de buurt verdwijnen, onthult verborgen eenheden en geeft +50% pantserbonus aan eenheden in de buurt\nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Nodig: niveau 2\nPlaatst een schedeltotem die op de kaart blijft staan totdat hij is vernietigd\nLaat mist in de buurt verdwijnen, onthult verborgen eenheden en geeft +35% pantserbonus aan eenheden in de buurt\nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde

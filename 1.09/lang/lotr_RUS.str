@@ -21,6 +21,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipSarumanLeadership_New
+"Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
+END
+//------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
 "&Silverthorn Projectiles"
 END
@@ -4843,17 +4847,17 @@ END
 
 Version:Format4
 // context: TRANSLATE ONLY THE WORD Build. DO NOT MODIFY THE VARIABLES  
-"1.09b"
+"1.09 2.0"
 END
 
 Version:Format3
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"1.09b"
+"1.09 2.0"
 END
 
 Version:Format2
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"1.09b"
+"1.09 2.0"
 END
 
 Version:BuildTime
@@ -14193,7 +14197,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Выбранный участок покрывается эльфийским лесом \n +50% к броне союзникам \n Активируется левой кнопкой мыши"
+"Выбранный участок покрывается эльфийским лесом \n +35% к броне союзникам \n Активируется левой кнопкой мыши"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -15597,7 +15601,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Войска рядом с Бомбадилом получают \n +25% урона, +25% брони, \n и набирают опыт на 50% быстрее \n Всегда сочетается с другими лидерствами \n \n Пассивная способность"
+"Войска рядом с Бомбадилом получают \n +25% брони, \n и набирают опыт на 25% быстрее \n Всегда сочетается с другими лидерствами \n \n Пассивная способность"
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -24868,7 +24872,7 @@ CONTROLBAR:ConstructDwarvenStatue
 "Статуя героя (&I)"
 END
 
-CONTROLBAR:TooltipConstructDwarvenStatue
+CONTROLBAR:TooltipConstructDwarvenStatue // obsolete
 "Союзники рядом со статуей \n наносят +50% урона, получают +50% брони \n и вдвое быстрее набирают опыт. \n Эффект не накапливается. \n Увеличение лимита очков командования на 10."
 END
 
@@ -43511,7 +43515,7 @@ TOOLTIP:LackGondorIronOreTechnology
 END
 
 OBJECT:HeroicStatueDescription
-"Союзники рядом со статуей \nполучают +25% брони \n и вдвое быстрее набирают опыт. \n \nЭффект накапливается. \nУвеличение лимита очков командования на 10."
+"Союзники рядом со статуей \nполучают +25% брони,\nа их опыт растет на 25% быстрее. \n \nЭффект накапливается. \nУвеличение лимита очков командования на 10."
 END
 
 CONTROLBAR:HornofGondor
@@ -43543,7 +43547,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Союзники рядом с Теоденом наносят \n +50% урона, а также набирают опыт на 25% быстрее. \n \n Пассивная способность."
+"Союзники рядом с Теоденом наносят \n +25% урона, а также набирают опыт на 25% быстрее. \n \n Пассивная способность."
 END
 
 CONTROLBAR:ToolTipGloriousCharge
@@ -43587,7 +43591,7 @@ CONTROLBAR:CaptainofGondor
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
-"Требуется уровень 6. \n Воины, находящиеся рядом с Фарамиром, получают \n +50% брони. \n \n Пассивная способность."
+"Требуется уровень 6. \n Воины, находящиеся рядом с Фарамиром, получают \n +35% брони. \n \n Пассивная способность."
 END
 
 CONTROLBAR:ThrowSpear
@@ -43595,7 +43599,7 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Требуется уровень 3.\nВсадники рядом с Эомером получают +50% брони. \n Пассивная способность."
+"Требуется уровень 3.\nВсадники рядом с Эомером получают +35% брони. \n Пассивная способность."
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -43895,7 +43899,7 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Союзники рядом с Гимли получают \n 50% брони. \n \n Пассивная способность."
+"Союзники рядом с Гимли получают \n 35% брони. \n \n Пассивная способность."
 END
 
 CONTROLBAR:ToolTipAxeThrow
@@ -43955,7 +43959,7 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Создание участка оскверненной земли. \n Все союзники получают +50% брони. \n Щелкните на пиктограмме, затем - на участке местности."
+"Создание участка оскверненной земли. \n Все союзники получают +35% брони. \n Щелкните на пиктограмме, затем - на участке местности."
 END
 
 CONTROLBAR:ToolTipEyeofSauron
@@ -44071,7 +44075,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Союзники рядом с троллем-барабанщиком получают +50% брони и +25% опыта. \n Пещерные, Горные и Боевые Тролли получают +15% брони, +15% опыта и способность лечиться. \n Пассивная способность."
+"Союзники рядом с троллем-барабанщиком получают +35% брони и +25% опыта. \n Пещерные, Горные и Боевые Тролли получают +15% брони, +15% опыта и способность лечиться. \n Пассивная способность."
 END
 
 CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3
@@ -44135,7 +44139,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Требуется уровень 2. \n На карте появляется череп на шесте (его можно уничтожить). \n Вокруг тотема рассеивается туман войны, становятся видимыми скрывшиеся враги, а союзники получают 50% брони и +25% опыта. \n Щелкните на пиктограмме, затем - на участке местности."
+"Требуется уровень 2. \n На карте появляется череп на шесте (его можно уничтожить). \n Вокруг тотема рассеивается туман войны, становятся видимыми скрывшиеся враги, а союзники получают 35% брони и +25% опыта. \n Щелкните на пиктограмме, затем - на участке местности."
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde

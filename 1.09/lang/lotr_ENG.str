@@ -17,8 +17,13 @@
 CONTROLBAR:nothing_New
 "nothing"
 END
+//------------------------------------------------------------
 CONTROLBAR:nothingDesc_New
 "nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipSarumanLeadership_New
+"Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
@@ -5865,17 +5870,17 @@ END
 
 Version:Format4
 // context: TRANSLATE ONLY THE WORD Build. DO NOT MODIFY THE VARIABLES  
-"1.09"
+"1.09 2.0"
 END
 
 Version:Format3
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"1.09"
+"1.09 2.0"
 END
 
 Version:Format2
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"1.09"
+"1.09 2.0"
 END
 
 Version:BuildTime
@@ -15773,7 +15778,7 @@ CONTROLBAR:ElvenWood
 End
 
 CONTROLBAR:ToolTipElvenWood
-"Creates lush terrain \n Allied units gain double armor \n Left click icon then left click on target area"
+"Creates lush terrain \n Allied units gain +35% armor \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -16904,7 +16909,7 @@ CONTROLBAR:ToolTipSpecialAbilityGrabAndEatPassenger
 END
 
 CONTROLBAR:ToolTipSpecialAbilityIgnite
-"The Balrog gains double Damage and double Armor \n Left click to activate"
+"The Balrog gains double Damage and +50% armor \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFlamingSword
@@ -17059,7 +17064,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Allies near Tom Bombadil gain \n +25% Damage, +25% Armor, \n and earn experience +50% faster \n Always stacks \n \n Passive ability"
+"Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster \n Always stacks \n \n Passive ability"
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -17434,7 +17439,7 @@ CONTROLBAR:ToolTipDisguise
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Requires Level 5 \n Eowyn gains 35% Armor \n Halves the deceleration rate of friendly Rohirrims when trampling\n Cancels the disguise \n Left click to activate"
+"Requires Level 5 \n Eowyn gains 35% Armor \n Halves the deceleration rate of friendly Rohirrim when trampling\n Cancels the disguise \n Left click to activate"
 END
 
 CONTROLBAR:ToggleTrebWeapon
@@ -27025,7 +27030,7 @@ CONTROLBAR:ConstructDwarvenStatue
 "Build Hero&ic Statue"
 END
 
-CONTROLBAR:TooltipConstructDwarvenStatue
+CONTROLBAR:TooltipConstructDwarvenStatue // obsolete
 "Allies near the statue gain \n +50% Armor \n Increases command point limit by 10"
 END
 
@@ -30930,7 +30935,7 @@ CONTROLBAR:BloodHunt
 END
 
 CONTROLBAR:ToolTipGlorfindelWindRider
-"Requires Level 6 \n Glorfindel gains +40% speed and Double Armor when mounted \n Left click to activate"
+"Requires Level 6 \n Glorfindel gains +40% speed and +50% armor when mounted \n Left click to activate"
 END
 
 CONTROLBAR:WildWalk
@@ -46631,7 +46636,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Allies near Theoden gain \n +50% Damage \n +25% experience \n \n Passive ability"
+"Allies near Theoden gain \n +25% Damage \n +25% experience \n \n Always stacks\n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipGloriousCharge
@@ -46679,7 +46684,7 @@ CONTROLBAR:CaptainofGondor
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
-"Requires Level 6 \n Allies near Faramir gain \n +50% Armor \n \n Passive ability"
+"Requires Level 6 \n Allies near Faramir gain \n +35% armor \n \n Passive ability"
 END
 
 
@@ -46690,7 +46695,7 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Requires Level 3 \n Cavalry near Eomer gain double Armor \n \n Passive ability"
+"Requires Level 3 \n Cavalry near Eomer gain 35% Armor \n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -46716,7 +46721,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Requires Level 2 \n Aragorn gains +100% Damage and double Armor. \n Left click to activate"
+"Requires Level 2 \n Aragorn gains +100% Damage and +50% armor. \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipAragornLeadership
@@ -46941,7 +46946,7 @@ END
 //===== Buildings
 
 
-OBJECT:DwarvenStatueDescription
+OBJECT:DwarvenStatueDescription // obsolete
 "Allies near the statue gain \n double armor \n Increases command point limit by 10"
 END
 
@@ -46970,7 +46975,7 @@ CONTROLBAR:ToolTipBlackArrows
 End
 
 OBJECT:DwarvenHeroicStatueDescription
-"Allies near the Statue gain double Armor \n \n Increases command point limit by 10"
+"Allies near the Statue gain 35% Armor \n \n Increases command point limit by 10"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade
@@ -47036,7 +47041,7 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Allies near Gimli gain double Armor\n \n Passive ability"
+"Allies near Gimli gain +35% armor\n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipAxeThrow
@@ -47104,7 +47109,7 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Taints an area of terrain \n All ally units gain double Armor \n Left click icon then left click on target area"
+"Taints an area of terrain \n All ally units gain +35% armor \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipEyeofSauron
@@ -47140,7 +47145,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Requires Level 8 \n Kill target enemy which restores Sharku's health and temporarily grants +50% Damage and double armor \n Left click icon then left click on target enemy"
+"Requires Level 8 \n Kill target enemy which restores Sharku's health and temporarily grants +50% Damage and +50% armor \n Left click icon then left click on target enemy"
 END
 
 //=== Heroes
@@ -47236,7 +47241,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Allies near the Drummer Troll gain double armor and +25% experience \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster\n Passive ability"
+"Allies near the Drummer Troll gain +35% armor and +25% experience \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster\n Passive ability"
 END
 
 //Structures
@@ -47314,7 +47319,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy
 End
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides double armor and +25% experience bonus to nearby allies \n Left click icon then left click on target area"
+"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde

@@ -21,6 +21,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipSarumanLeadership_New
+"Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
+END
+//------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
 "&Silverthorn Projectiles"
 END
@@ -4842,15 +4846,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09b
+"1.09 2.0"
 END
 
 Version:Format3
-"1.09b"
+"1.09 2.0"
 END
 
 Version:Format2
-"1.09b"
+"1.09 2.0"
 END
 
 Version:BuildTime
@@ -14186,7 +14190,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Crea bosco\nTutte le unità alleate guadagnano +50% corazza.\nNon ha effetto sugli Eroi.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Crea bosco\nTutte le unità alleate guadagnano +35% corazza.\nNon ha effetto sugli Eroi.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:SummonEntAllies
@@ -15593,7 +15597,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Gli alleati vicini a Tom Bombadil ottengono +25% danno, +25% corazza e\naccumulano esperienza con +50% velocità. \nSempre cumulativa. \n\nAbilità passiva."
+"Gli alleati vicini a Tom Bombadil ottengono +25% corazza e\naccumulano esperienza con +25% velocità. \nSempre cumulativa. \n\nAbilità passiva."
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -24864,7 +24868,7 @@ END
 CONTROLBAR:ConstructDwarvenStatue
 "Costruisc&i statua eroica"
 END
-
+ // obsolete
 CONTROLBAR:TooltipConstructDwarvenStatue
 "Gli alleati vicino alla statua ottengono +50% corazza.\nAumenta di 10 il limite di punti comando."
 END
@@ -43546,7 +43550,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Gli alleati vicini a Thèoden ottengono\n+50% danno.\nAbilità passiva."
+"Gli alleati vicini a Thèoden ottengono\n+25% danno.\nAbilità passiva."
 END
 
 CONTROLBAR:ToolTipGloriousCharge
@@ -43590,7 +43594,7 @@ CONTROLBAR:CaptainofGondor
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
-"Richiede livello 6.\nGli alleati vicini a Faramir ottengono\n+50% corazza.\nAbilità passiva."
+"Richiede livello 6.\nGli alleati vicini a Faramir ottengono\n+35% corazza.\nAbilità passiva."
 END
 
 CONTROLBAR:ThrowSpear
@@ -43598,7 +43602,7 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Richiede livello 3.\nLa cavalleria vicina a Éomer ottiene\n+50% corazza.\n\nAbilità passiva."
+"Richiede livello 3.\nLa cavalleria vicina a Éomer ottiene\n+35% corazza.\n\nAbilità passiva."
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -43842,7 +43846,7 @@ CONTROLBAR:ToolTipBlackArrows
 END
 
 OBJECT:DwarvenHeroicStatueDescription
-"Gli alleati vicino alla statua ottengono\n+50% corazza.\n\nAumenta di 10 il limite di punti comando."
+"Gli alleati vicino alla statua ottengono\n+35% corazza.\n\nAumenta di 10 il limite di punti comando."
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade
@@ -43898,7 +43902,7 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Gli alleati vicino a Gimli ottengono\n+50% corazza.\n\nAbilità passiva."
+"Gli alleati vicino a Gimli ottengono\n+35% corazza.\n\nAbilità passiva."
 END
 
 CONTROLBAR:ToolTipAxeThrow
@@ -43958,7 +43962,7 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Contamina una porzione di terreno.\nTutte le unità alleate guadagnano +50% corazza.\nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
+"Contamina una porzione di terreno.\nTutte le unità alleate guadagnano +35% corazza.\nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
 END
 
 CONTROLBAR:ToolTipEyeofSauron
@@ -44074,7 +44078,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Gli alleati vicino al Troll con tamburi ottengono +50% corazza e +25% esperienza. \nI Troll Di Caverna, I Troll Di Montagna ed I Troll D'Attacco guadagnano +15% corazza, +15% esperienza e guariscono più velocemente.\n\nAbilità passiva."
+"Gli alleati vicino al Troll con tamburi ottengono +35% corazza e +25% esperienza. \nI Troll Di Caverna, I Troll Di Montagna ed I Troll D'Attacco guadagnano +15% corazza, +15% esperienza e guariscono più velocemente.\n\nAbilità passiva."
 END
 
 CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3
@@ -44138,7 +44142,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Richiede livello 2.\nCrea un totem del teschio, che permane fino alla sua distruzione.\nDirada la nebbia nelle vicinanze, rivela le unità mimetizzate, fornisce +50% corazza alle unità alleate vicine e +25% esperienza.\nClicca con il pulsante sinistro sull'icona e quindi sulla zona bersaglio."
+"Richiede livello 2.\nCrea un totem del teschio, che permane fino alla sua distruzione.\nDirada la nebbia nelle vicinanze, rivela le unità mimetizzate, fornisce +35% corazza alle unità alleate vicine e +25% esperienza.\nClicca con il pulsante sinistro sull'icona e quindi sulla zona bersaglio."
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
