@@ -21,6 +21,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipSarumanLeadership_New
+"Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
+END
+//------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
 "&Silverthorn Projectiles"
 END
@@ -4842,15 +4846,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09b"
+"1.09 2.0"
 END
 
 Version:Format3
-"1.09b"
+"1.09 2.0"
 END
 
 Version:Format2
-"1.09b"
+"1.09 2.0"
 END
 
 Version:BuildTime
@@ -14190,7 +14194,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Skaper frodig terreng.\nAlle allierte enheter får +50 % rustning\nAlle fiendens enheter mister all lederskapsbonus\nPåvirker ikke helter\nVenstreklikk på ikonet, og venstreklikk på valgt område"
+"Skaper frodig terreng.\nAlle allierte enheter får +35 % rustning\nAlle fiendens enheter mister all lederskapsbonus\nPåvirker ikke helter\nVenstreklikk på ikonet, og venstreklikk på valgt område"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -15594,7 +15598,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Allierte i nærheten av Tom Bombadil får\n+50 % skadebonus, +50 % rustning,\nog får erfaring dobbelt så raskt\n\nPassiv egenskap\nKan ikke kombineres"
+"Allierte i nærheten av Tom Bombadil får\n +25 % rustning,\nog får erfaring 25 % raskere\n\nPassiv egenskap\nKan ikke kombineres"
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -24865,7 +24869,7 @@ CONTROLBAR:ConstructDwarvenStatue
 "B&ygg heltestatue"
 END
 
-CONTROLBAR:TooltipConstructDwarvenStatue
+CONTROLBAR:TooltipConstructDwarvenStatue // obsolete
 "Allierte i nærheten av statuen får\n+50 % skadebonus, +50 % rustning,\nog får erfaring dobbelt så raskt\nKan ikke kombineres\nHever grensen for kommandopoeng med 10"
 END
 
@@ -43538,7 +43542,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Allierte i nærheten av Théoden får\n+50 % skadebonus\n\nPassiv egenskap"
+"Allierte i nærheten av Théoden får\n+25 % skadebonus \n og får erfaring 25 % raskere\n\nPassiv egenskap"
 END
 
 CONTROLBAR:ToolTipGloriousCharge
@@ -43582,7 +43586,7 @@ CONTROLBAR:CaptainofGondor
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
-"Krever: Nivå 6\nAllierte i nærheten av Faramir får\n+50 % skadebonus \n\n Passiv egenskap"
+"Krever: Nivå 6\nAllierte i nærheten av Faramir får\n+35 % skadebonus \n\n Passiv egenskap"
 END
 
 CONTROLBAR:ThrowSpear
@@ -43590,7 +43594,7 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Krever: Nivå 3 \n Kavaleri i nærheten av Éomer får\n +50 % rustning \n\n Passiv egenskap"
+"Krever: Nivå 3 \n Kavaleri i nærheten av Éomer får\n +35 % rustning \n\n Passiv egenskap"
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -43834,7 +43838,7 @@ CONTROLBAR:ToolTipBlackArrows
 END
 
 OBJECT:DwarvenHeroicStatueDescription
-"Allierte i nærheten av statuen får \n +50 % rustning \n \n Hever grensen for kommandopoeng med 10"
+"Allierte i nærheten av statuen får \n +35 % rustning \n \n Hever grensen for kommandopoeng med 10"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade
@@ -43890,7 +43894,7 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Allierte i nærheten av Gimli får \n +50 % rustning \n \n Passiv egenskap"
+"Allierte i nærheten av Gimli får \n +35 % rustning \n \n Passiv egenskap"
 END
 
 CONTROLBAR:ToolTipAxeThrow
@@ -43950,7 +43954,7 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Forderver et område av terrenget\nAlle allierte enheter får +50 % rustning\nVenstreklikk på ikonet, og venstreklikk på valgt område"
+"Forderver et område av terrenget\nAlle allierte enheter får +35 % rustning\nVenstreklikk på ikonet, og venstreklikk på valgt område"
 END
 
 CONTROLBAR:ToolTipEyeofSauron
@@ -44066,7 +44070,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Allierte i nærheten av trommetrollet får \n +50 % skadebonus \n\n Passiv egenskap"
+"Allierte i nærheten av trommetrollet får \n +35 % skadebonus \n\n Passiv egenskap"
 END
 
 CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3
@@ -44130,7 +44134,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Krever: Nivå 2\nSetter ut en hodeskalletotem som forblir på kartet til den blir ødelagt\nFjerner sløret i nærheten, avdekker skjulte enheter og gir +50 % rustning til allierte i nærheten \nVenstreklikk på ikonet, og venstreklikk på valgt område"
+"Krever: Nivå 2\nSetter ut en hodeskalletotem som forblir på kartet til den blir ødelagt\nFjerner sløret i nærheten, avdekker skjulte enheter og gir +35 % rustning til allierte i nærheten \nVenstreklikk på ikonet, og venstreklikk på valgt område"
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde

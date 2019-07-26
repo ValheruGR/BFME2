@@ -21,6 +21,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipSarumanLeadership_New
+"Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
+END
+//------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
 "&Silverthorn Projectiles"
 END
@@ -4843,15 +4847,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09b"
+"1.09 2.0"
 END
 
 Version:Format3
-"1.09b"
+"1.09 2.0"
 END
 
 Version:Format2
-"1.09b"
+"1.09 2.0"
 END
 
 Version:BuildTime
@@ -15597,7 +15601,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Les alliés proches de Tom Bombadil gagnent \n+25% armure, +25% dégâts, \nexpérience gagnée deux fois plus rapidement \nBonus cumulatif \n\n Capacité passive"
+"Les alliés proches de Tom Bombadil gagnent \n+25% armure, \nexpérience gagnée 25% plus rapidement \nBonus cumulatif \n\n Capacité passive"
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -15981,7 +15985,7 @@ CONTROLBAR:ToolTipDisguise
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Requiert : niveau 5\nEowyn gagne +65% armure \nReduit de moitié le ralentissement des rohirrims proches lors d'une charge \nAnnule le déguisement \nClic gauche pour activer"
+"Requiert : niveau 5\nEowyn gagne +65% armure \nReduit de moitié le ralentissement des rohirrim proches lors d'une charge \nAnnule le déguisement \nClic gauche pour activer"
 END
 
 CONTROLBAR:ToggleTrebWeapon
@@ -43547,7 +43551,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Les alliés proches de Théoden gagnent \n+50% dégâts \n+25% d'expérience \nCapacité passive"
+"Les alliés proches de Théoden gagnent \n+25% dégâts \n+25% d'expérience \nCapacité passive"
 END
 
 CONTROLBAR:ToolTipGloriousCharge
@@ -43591,7 +43595,7 @@ CONTROLBAR:CaptainofGondor
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
-"Requiert : niveau 6\nLes alliés proches de Faramir gagnent \n+50% armure \n \n Capacité passive"
+"Requiert : niveau 6\nLes alliés proches de Faramir gagnent \n+35% armure \n \n Capacité passive"
 END
 
 CONTROLBAR:ThrowSpear
@@ -43599,7 +43603,7 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Requiert : niveau 3\nLes cavaliers proches d'Eomer gagnent \n+50% armure \n\nCapacité passive"
+"Requiert : niveau 3\nLes cavaliers proches d'Eomer gagnent \n+35% armure \n\nCapacité passive"
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -43843,7 +43847,7 @@ CONTROLBAR:ToolTipBlackArrows
 END
 
 OBJECT:DwarvenHeroicStatueDescription
-"Les alliés proches de la statue gagnent \n+50% armure \n \nAugmente la limite de points commandement de 10"
+"Les alliés proches de la statue gagnent \n+35% armure \n \nAugmente la limite de points commandement de 10"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade
@@ -43899,7 +43903,7 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Les alliés proches de Gimli gagnent \n +50% armure \n \n Capacité passive"
+"Les alliés proches de Gimli gagnent \n +35% armure \n \n Capacité passive"
 END
 
 CONTROLBAR:ToolTipAxeThrow
@@ -43959,7 +43963,7 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Souille une zone\n+50% armure aux unités alliées \nClic gauche sur l'icône puis clic gauche sur la zone cible \nNe peut pas s'utiliser avec d'autres bonus"
+"Souille une zone\n+35% armure aux unités alliées \nClic gauche sur l'icône puis clic gauche sur la zone cible \nNe peut pas s'utiliser avec d'autres bonus"
 END
 
 CONTROLBAR:ToolTipEyeofSauron
@@ -44075,7 +44079,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Les alliés proches du tambour gagnent \n+50% armure +25% d'expérience \nLes Trolls des cavernes, Trolls des montagnes et Trolls d'assaut gagnent +15% armures +15% d'expérience et se soignent eux même plus rapidement \n\nCapacité passive"
+"Les alliés proches du tambour gagnent \n+35% armure +25% d'expérience \nLes Trolls des cavernes, Trolls des montagnes et Trolls d'assaut gagnent +15% armures +15% d'expérience et se soignent eux même plus rapidement \n\nCapacité passive"
 END
 
 CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3
@@ -44139,7 +44143,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Requiert : niveau 2\nPlace un totem de crânes qui reste sur la carte jusqu'à destruction \nRévèle le brouillard, détecte les unités furtives proches et confère un bonus d'armure de +50%, +25% d'expérience aux alliés proches\nClic gauche sur l'icône puis clic gauche sur la zone cible"
+"Requiert : niveau 2\nPlace un totem de crânes qui reste sur la carte jusqu'à destruction \nRévèle le brouillard, détecte les unités furtives proches et confère un bonus d'armure de +35%, +25% d'expérience aux alliés proches\nClic gauche sur l'icône puis clic gauche sur la zone cible"
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde

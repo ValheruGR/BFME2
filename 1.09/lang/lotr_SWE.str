@@ -21,6 +21,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipSarumanLeadership_New
+"Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
+END
+//------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
 "&Silverthorn Projectiles"
 END
@@ -4842,15 +4846,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09b"
+"1.09 2.0"
 END
 
 Version:Format3
-"1.09b"
+"1.09 2.0"
 END
 
 Version:Format2
-"1.09b"
+"1.09 2.0"
 END
 
 Version:BuildTime
@@ -14190,7 +14194,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Skapar grönskande terräng. \nAllierade enheter får +50% rustning \nFientliga enheter förlorar alla ledarskapsbonusar \nPåverkar inte hjältar \nVänsterklicka på ikonen, vänsterklicka sedan på målområdet"
+"Skapar grönskande terräng. \nAllierade enheter får +35% rustning \nPåverkar inte hjältar \nVänsterklicka på ikonen, vänsterklicka sedan på målområdet"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -15594,7 +15598,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Allierade nära Tom Bombadil får \n+50% rustning, +50% skadeverkan \noch får erfarenhet dubbelt så snabbt \n \nPassiv förmåga Kan ej kombineras"
+"Allierade nära Tom Bombadil får \n+25% rustning \noch får erfarenhet dubbelt så snabbt \n \nPassiv förmåga Kan ej kombineras"
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -43538,7 +43542,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Allierade nära Théoden får \n +50% skadeverkan \n \n Passiv förmåga"
+"Allierade nära Théoden får \n +25% skadeverkan \n \n Passiv förmåga"
 END
 
 CONTROLBAR:ToolTipGloriousCharge
@@ -43582,7 +43586,7 @@ CONTROLBAR:CaptainofGondor
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
-"Kräver grad 6 \n Allierade nära Faramir får \n +50% rustning \n \n Passiv förmåga"
+"Kräver grad 6 \n Allierade nära Faramir får \n +35% rustning \n \n Passiv förmåga"
 END
 
 CONTROLBAR:ThrowSpear
@@ -43590,7 +43594,7 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Kräver grad 3 \n Kavalleri nära Éomer får \n +50% rustning \n \n Passiv förmåga"
+"Kräver grad 3 \n Kavalleri nära Éomer får \n +35% rustning \n \n Passiv förmåga"
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -43834,7 +43838,7 @@ CONTROLBAR:ToolTipBlackArrows
 END
 
 OBJECT:DwarvenHeroicStatueDescription
-"Allierade nära statyn får \n +50% rustning \n \n Höjer kommandopoängstaket med 10"
+"Allierade nära statyn får \n +35% rustning \n \n Höjer kommandopoängstaket med 10"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade
@@ -43890,7 +43894,7 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Allierade nära Gimli får \n +50% rustning\n \n Passiv förmåga"
+"Allierade nära Gimli får \n +35% rustning\n \n Passiv förmåga"
 END
 
 CONTROLBAR:ToolTipAxeThrow
@@ -43950,7 +43954,7 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Besmittar ett område \n Alla bundsförvanter får 50% rustning \n Vänsterklicka på ikonen, vänsterklicka sedan på målområdet"
+"Besmittar ett område \n Alla bundsförvanter får 35% rustning \n Vänsterklicka på ikonen, vänsterklicka sedan på målområdet"
 END
 
 CONTROLBAR:ToolTipEyeofSauron
@@ -44066,7 +44070,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Allierade nära Trumslagartrollet ökar \n rustning 50% \n \n Passiv förmåga."
+"Allierade nära Trumslagartrollet ökar \n rustning 35% \n \n Passiv förmåga."
 END
 
 CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3
@@ -44130,7 +44134,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Kräver grad 2 \n Vättekungen placerar ut nt dödskalletotem som står kvar tills det förstörs \n Lyfter kartslöjan i närheten, ser smygande enheter och ger allierade +50% rustning \n Vänsterklicka på ikonen, vänsterklicka sedan på målområdet"
+"Kräver grad 2 \n Vättekungen placerar ut nt dödskalletotem som står kvar tills det förstörs \n Lyfter kartslöjan i närheten, ser smygande enheter och ger allierade +35% rustning \n Vänsterklicka på ikonen, vänsterklicka sedan på målområdet"
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
