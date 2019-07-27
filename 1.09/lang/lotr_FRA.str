@@ -15985,7 +15985,7 @@ CONTROLBAR:ToolTipDisguise
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Requiert : niveau 5\nEowyn gagne +65% armure \nReduit de moitié le ralentissement des rohirrim proches lors d'une charge \nAnnule le déguisement \nClic gauche pour activer"
+"Requiert : niveau 5\nEowyn gagne +35% armure \nReduit de moitié le ralentissement des rohirrim proches lors d'une charge \nAnnule le déguisement \nClic gauche pour activer"
 END
 
 CONTROLBAR:ToggleTrebWeapon
