@@ -7838,7 +7838,8 @@ CONTROLBAR:Resources
 END
 
 CONTROLBAR:ResourcesDescription
-"Innsamlede ressurser som kan benyttes på\nenheter, bygninger og oppgraderinger"
+"Innsamlede ressurser som kan benyttes på
+\nenheter, bygninger og oppgraderinger"
 END
 
 CONTROLBAR:ResourceMultiplier
@@ -15982,7 +15983,7 @@ CONTROLBAR:ToolTipDisguise
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Krever: Nivå 5\nÉowyn får +65 % rustning\nVenstreklikk for å aktivere"
+"Krever: Nivå 5\nÉowyn får +35 % rustning\nVenstreklikk for å aktivere"
 END
 
 CONTROLBAR:ToggleTrebWeapon
