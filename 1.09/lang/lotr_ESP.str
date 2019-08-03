@@ -17,6 +17,7 @@
 CONTROLBAR:nothing_New
 "nothing"
 END
+//------------------------------------------------------------
 CONTROLBAR:nothingDesc_New
 "nothing"
 END
@@ -58,7 +59,7 @@ CONTROLBAR:TooltipAthelasElrond_New
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain_New
-"King's Favor [&R]"
+"King's Favor [&C]"
 END
 CONTROLBAR:KingsFavorDainDesc_New
 "Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
@@ -99,6 +100,34 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapmpnothing
+"nothing"
+END
+Map:mapmpnothing/Desc
+"nothing"
+END
+//------------------------------------------------------------
+Map:mapmptournamentamonhen
+"Tournament Amon Hen"
+END
+Map:mapmptournamentamonhen/Desc
+"Amon Hen was the westernmost of the three peaks at the southern end of Nen Hithoel. \n Edited by Ecthelion to play clanwars.cc. Disabled scripts and removed two wargs."
+END
+//------------------------------------------------------------
+Map:seaofnurnen
+"Sea of Nurnen"
+End
+Map:seaofnurnen/Desc
+"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord.\n Map by SilverBane` \n Lairs: Warg x2, Wight x2 \n Neutral Structures: Signal fire x2, Inn x2 "
+End
+//------------------------------------------------------------
+Map:seaofnurnenii
+"Sea of Nurnen II"
+END
+Map:seaofnurnenii/Desc
+"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord.\n Map by SilverBane` \n Lairs: Warg x2 \n Neutral Structures: Inn x2 "
+End
+//------------------------------------------------------------
 Map:EmynArnenTournament
 "Tournament Emyn Arnen"
 END
@@ -113,10 +142,10 @@ Map:Eastfold/Desc
 "The Eastfold was a region of Rohan which bordered with the Westfold via the Snowbourn River on the west and bordered with Anorien in Gondor to the east."
 END
 //------------------------------------------------------------
-Map:Adorn River
+Map:AdornRiver
 "Adorn River"
 END
-Map:Adorn River/Desc
+Map:AdornRiver/Desc
 "The river Adorn occurs in Middle-earth between the White Mountains (Ered Nimrais) and the western part of Rohan. Map from RotWK."
 END
 //------------------------------------------------------------
@@ -201,7 +230,7 @@ Map:mapmpmountgram
 "Mount Gram"
 End
 Map:mapmpmountgram/desc
-"Map from RotWK, stolen by Bunito 2018."
+"The mountain was long inhabited by a group of Orcs led by Golfimbul. They terrorized some of the inhabitants of eastern Eriador including those of the Shire. \n Map from RotWK."
 End
 //------------------------------------------------------------
 Map:sirannon
@@ -253,7 +282,7 @@ Map:OsgiliathII/Desc
 "This Gondor city is the last line of defense between Mordor and Minas Tirith. The Anduin River runs through the center of the city. Edition by Ecthelion, a balanced merge of BfME1 and BfME2 versions."
 END
 //------------------------------------------------------------
-Map:oldforest II
+Map:oldforestII
 "Old Forest II"
 END
 Map:oldforestII/Desc
@@ -289,7 +318,7 @@ Map:mapmptyrngorthad/Desc
 END
 //------------------------------------------------------------
 Map:mapmptournamentudunII
-"Udun II - Shadow of Mordor"
+"Udun II - Shadow of Mordor" // - Val's
 END
 Map:mapmptournamentudunII/Desc
 "Recolour inspired by the fertile design of the Black Land in The Shadow of Mordor.\n Turn off ring heroes for tournament mode. \n Map by Val."
@@ -544,7 +573,7 @@ Map:mapmpwildsofforochel
 "Wilds of Forochel"
 END
 Map:mapmpwildsofforochel/Desc
-"A wild and treacherous region of Forochel scarcely inhabited by small northmen tribes. \n Map from RotWK community. "
+"A wild and treacherous region of Forochel scarcely inhabited by small northmen tribes.\n Map from RotWK community. "
 END
 //------------------------------------------------------------
 Map:RhunII
@@ -565,11 +594,11 @@ Map:TournamentWeatherHills
 "Tournament Weather Hills"
 END
 Map:TournamentWeatherHills/Desc
-"Map by Silverbane. Middle players can now fight. Edited by Val."
+"Map by Silverbane. Middle players can now fight. \n Edited by Val."
 END
 //------------------------------------------------------------
 Map:udunreskinbysilverbane`
-"Udun A. IV"
+"Udun: 4th Age" //A. IV
 END
 Map:udunreskinbysilverbane`/Desc
 "After the defeat of Sauron, Udun became once again a fertile valley. \n Map by SilverBane`"
@@ -583,6 +612,7 @@ Map:MAPMPLebenin/Desc
 "This lush, green land in southern Gondor lies where the Anduin River completes its journey into the Bay of Belfalas. \n Lebennin III is an edited edition to fix red build plots. Signal Fires added east/west. \n Edited by Val`"
 END
 //------------------------------------------------------------
+// This one does get translated in at least one more lenguage
 Map:mapmpfordsoflimlight
 "Vados del Limlight"
 END
@@ -590,6 +620,7 @@ Map:mapmpfordsoflimlight/Desc
 "Como un recolor del popular Vados del Isen, el famoso mapa de juego justo, el tema aqui es un gran y gigantesco bosque que una vez cubrió toda la Tierra Media. \n Hecho para 1.09 con amor. \n Por Val."
 END
 //------------------------------------------------------------
+// This one does get translated in at least one more lenguage
 Map:mapmpfordsofanduin
 "Vados del Anduin II"
 END
@@ -748,6 +779,9 @@ END
 NUMBER:0
 "0"
 END
+
+
+// comment:
 
 TIME:Days
 "%d días"
