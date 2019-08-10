@@ -21897,7 +21897,7 @@ OBJECT:GondorMarketPlaceDescription
 END
 
 OBJECT:GondorStatueDescription
-"Eenheden in de buurt van het standbeeld krijgen\n+50% schade en +50% pantser,\nen verdienen twee keer zo snel ervaring\nMaximaal 1 per keer"
+"Eenheden in de buurt van het standbeeld krijgen\n+50% schade en +50% pantser,\nen verdienen twee keer zo snel ervaring\nMaximaal 1 per keer" // obsolete
 END
 
 OBJECT:GondorWellDescription
@@ -43721,7 +43721,7 @@ CONTROLBAR:ToolTipMoveUnseen
 END
 
 CONTROLBAR:ToolTipElvenStatue
-"Eenheden in de buurt van het\nstandbeeld krijgen +25% schade\nen verdienen ervaring 25% sneller"
+"Eenheden in de buurt van het\nstandbeeld krijgen +25% schade\nen verdienen ervaring 25% sneller" // obsolete
 END
 
 CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHorde
@@ -43841,7 +43841,7 @@ CONTROLBAR:ToolTipBuildTreebeard
 END
 
 OBJECT:DwarvenStatueDescription
-"Eenheden in de buurt van het standbeeld\nkrijgen +50% pantser\nVerhoogt de limiet commandopunten met 10"
+"Eenheden in de buurt van het standbeeld\nkrijgen +50% pantser\nVerhoogt de limiet commandopunten met 10" // obsolete
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners

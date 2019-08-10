@@ -14194,7 +14194,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Tworzy obszar porosniety roslinnoscia \n Wszystkie sojusznicze jednostki otrzymuja  +35% do pancerza  \n Nie wplywa na bohaterów \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
+"Tworzy obszar porosniety roslinnoscia \n Wszystkie sojusznicze jednostki otrzymuja +35% do pancerza  \n Nie wplywa na bohaterów \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -21866,7 +21866,7 @@ OBJECT:GondorMarketPlaceDescription
 END
 
 OBJECT:GondorStatueDescription
-"Sojusznicy w poblizu posagu otrzymuja \n +50% do zadawanych obrazen, +50% do pancerza \n i dwukrotnie szybciej zdobywaja doswiadczenie \n Nie kumuluje sie"
+"Sojusznicy w poblizu posagu otrzymuja \n +50% do zadawanych obrazen, +50% do pancerza \n i dwukrotnie szybciej zdobywaja doswiadczenie \n Nie kumuluje sie" // obsolete
 END
 
 OBJECT:GondorWellDescription
@@ -43690,7 +43690,7 @@ CONTROLBAR:ToolTipMoveUnseen
 END
 
 CONTROLBAR:ToolTipElvenStatue
-"Sojusznicy w poblizu posagu otrzymuja \n +25% do zadawanych obrazen \n oraz 25% szybciej zdobywaja doswiadczenie"
+"Sojusznicy w poblizu posagu otrzymuja \n +25% do zadawanych obrazen \n oraz 25% szybciej zdobywaja doswiadczenie" // obsolete
 END
 
 CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHorde
@@ -43810,7 +43810,7 @@ CONTROLBAR:ToolTipBuildTreebeard
 END
 
 OBJECT:DwarvenStatueDescription
-"Sojusznicy w poblizu posagu otrzymuja \n +35% do  pancerza \n Zwieksza limit punktów dowodzenia o 10"
+"Sojusznicy w poblizu posagu otrzymuja \n +35% do  pancerza \n Zwieksza limit punktów dowodzenia o 10" // obsolete
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners

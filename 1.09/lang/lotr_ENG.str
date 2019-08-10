@@ -15799,7 +15799,7 @@ CONTROLBAR:ElvenWood
 End
 
 CONTROLBAR:ToolTipElvenWood
-"Creates lush terrain \n Allied units gain +35% armor \n Left click icon then left click on target area"
+"Creates lush terrain \n Allied units gain +35% armor. \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -23943,7 +23943,7 @@ OBJECT:GondorMarketPlaceDescription
 END
 
 OBJECT:GondorStatueDescription
-"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack"
+"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack" // obsolete
 END
 
 OBJECT:GondorWellDescription
@@ -46825,7 +46825,7 @@ END
 //Buildings
 
 CONTROLBAR:ToolTipElvenStatue
-"Allies near the statue gain \n +25% Damage \n and earn experience 25% fast"
+"Allies near the statue gain \n +25% Damage \n and earn experience 25% fast" // obsolete
 END
 
 CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHorde
@@ -46967,8 +46967,8 @@ END
 //===== Buildings
 
 
-OBJECT:DwarvenStatueDescription // obsolete
-"Allies near the statue gain \n double armor \n Increases command point limit by 10"
+OBJECT:DwarvenStatueDescription
+"Allies near the statue gain \n double armor \n Increases command point limit by 10" // obsolete
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners

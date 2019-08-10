@@ -14195,7 +14195,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Fait pousser une forêt\nLes unités alliées gagnent le double d'armure\nClic gauche sur l'icône puis clic gauche sur la zone cible"
+"Fait pousser une forêt\nLes unités alliées gagnent +35% armure. \nClic gauche sur l'icône puis clic gauche sur la zone cible"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -21869,7 +21869,7 @@ OBJECT:GondorMarketPlaceDescription
 END
 
 OBJECT:GondorStatueDescription
-"Les alliés proches de la statue gagnent \n+50% armure, +50% dégâts, \nexpérience gagnée deux fois plus rapidement \n \n Ne peut pas s'utiliser avec d'autres bonus"
+"Les alliés proches de la statue gagnent \n+50% armure, +50% dégâts, \nexpérience gagnée deux fois plus rapidement \n \n Ne peut pas s'utiliser avec d'autres bonus" // obsolete
 END
 
 OBJECT:GondorWellDescription
@@ -43699,7 +43699,7 @@ CONTROLBAR:ToolTipMoveUnseen
 END
 
 CONTROLBAR:ToolTipElvenStatue
-"Les alliés proches de la statue gagnent \n+25% dégâts et \nexpérience gagnée 25% plus rapidement"
+"Les alliés proches de la statue gagnent \n+25% dégâts et \nexpérience gagnée 25% plus rapidement" // obsolete
 END
 
 CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHorde
@@ -43819,7 +43819,7 @@ CONTROLBAR:ToolTipBuildTreebeard
 END
 
 OBJECT:DwarvenStatueDescription
-"Les alliés proches de la statue gagnent \n+50% armure \n Augmente la limite de points commandement de 10"
+"Les alliés proches de la statue gagnent \n+50% armure \n Augmente la limite de points commandement de 10" // obsolete
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners

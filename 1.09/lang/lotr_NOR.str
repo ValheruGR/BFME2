@@ -14194,7 +14194,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Skaper frodig terreng.\nAlle allierte enheter får +35 % rustning\nAlle fiendens enheter mister all lederskapsbonus\nPåvirker ikke helter\nVenstreklikk på ikonet, og venstreklikk på valgt område"
+"Skaper frodig terreng.\nAlle allierte enheter får +35 % rustning. \nPåvirker ikke helter\nVenstreklikk på ikonet, og venstreklikk på valgt område"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -21866,7 +21866,7 @@ OBJECT:GondorMarketPlaceDescription
 END
 
 OBJECT:GondorStatueDescription
-"Allierte i nærheten av statuen får\n+50 % skadebonus, +50 % rustning,\nog får erfaring dobbelt så raskt\nKan ikke kombineres"
+"Allierte i nærheten av statuen får\n+50 % skadebonus, +50 % rustning,\nog får erfaring dobbelt så raskt\nKan ikke kombineres" // obsolete
 END
 
 OBJECT:GondorWellDescription
@@ -43690,7 +43690,7 @@ CONTROLBAR:ToolTipMoveUnseen
 END
 
 CONTROLBAR:ToolTipElvenStatue
-"Allierte i nærheten av statuen får\n+25 % skadebonus \n og får erfaring 25 % raskere"
+"Allierte i nærheten av statuen får\n+25 % skadebonus \n og får erfaring 25 % raskere" // obsolete
 END
 
 CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHorde
@@ -43810,7 +43810,7 @@ CONTROLBAR:ToolTipBuildTreebeard
 END
 
 OBJECT:DwarvenStatueDescription
-"Allierte i nærheten av statuen får\n+50 % rustning \nHever grensen for kommandopoeng med 10"
+"Allierte i nærheten av statuen får\n+50 % rustning \nHever grensen for kommandopoeng med 10" // obsolete
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners

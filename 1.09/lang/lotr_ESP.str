@@ -14016,7 +14016,7 @@ CONTROLBAR:ToolTipEntMoot
 END
 
 CONTROLBAR:WarChant
-"CÁNTICO DE GUERRA"
+"Cántico de guerra"
 END
 
 CONTROLBAR:TooltipEnshroudingMist
@@ -14024,7 +14024,7 @@ CONTROLBAR:TooltipEnshroudingMist
 END
 
 CONTROLBAR:Industry
-"INDUSTRIA"
+"Industria"
 END
 
 CONTROLBAR:ConstructGondorSentryTower
@@ -14228,7 +14228,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Crea una zona frondosa.\nTodas las unidades aliadas reciben +50% a la armadura.\nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
+"Crea una zona frondosa.\n Las unidades aliadas reciben +35% a la armadura.\nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
 END
 
 CONTROLBAR:SummonEntAllies
@@ -21903,7 +21903,7 @@ OBJECT:GondorMarketPlaceDescription
 END
 
 OBJECT:GondorStatueDescription
-"Los aliados cercanos la estatua ganan \n +50% al daño, +50% a la armadura \n y consiguen experiencia el doble de rápido. \n No se acumula."
+"Los aliados cercanos la estatua ganan \n +50% al daño, +50% a la armadura \n y consiguen experiencia el doble de rápido. \n No se acumula." // obsolete
 END
 
 OBJECT:GondorWellDescription
@@ -43741,7 +43741,7 @@ CONTROLBAR:ToolTipMoveUnseen
 END
 
 CONTROLBAR:ToolTipElvenStatue
-"Los aliados cercanos a la estatua ganan. \n +25% al daño \n y consiguen experiencia un 25% más rápido."
+"Los aliados cercanos a la estatua ganan. \n +25% al daño \n y consiguen experiencia un 25% más rápido." // obsolete
 END
 
 CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHorde
@@ -43861,7 +43861,7 @@ CONTROLBAR:ToolTipBuildTreebeard
 END
 
 OBJECT:DwarvenStatueDescription
-"Los aliados cercanos a la estatua ganan \n +50% a la armadura. \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +50% a la armadura. \n Aumenta en 10 el límite de puntos de mando." // obsolete
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners

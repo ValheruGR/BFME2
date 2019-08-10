@@ -21866,7 +21866,7 @@ OBJECT:GondorMarketPlaceDescription
 END
 
 OBJECT:GondorStatueDescription
-"Allierade nära statyn får \n+50% rustning, +50% skadeverkan \noch får erfarenhet dubbelt så snabbt \nKan ej kombineras"
+"Allierade nära statyn får \n+50% rustning, +50% skadeverkan \noch får erfarenhet dubbelt så snabbt \nKan ej kombineras" // obsolete
 END
 
 OBJECT:GondorWellDescription
@@ -43690,7 +43690,7 @@ CONTROLBAR:ToolTipMoveUnseen
 END
 
 CONTROLBAR:ToolTipElvenStatue
-"Allierade nära statyn får \n +25% skadeverkan \n och får erfarenhet 25% snabbare"
+"Allierade nära statyn får \n +25% skadeverkan \n och får erfarenhet 25% snabbare" // obsolete
 END
 
 CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHorde
@@ -43810,7 +43810,7 @@ CONTROLBAR:ToolTipBuildTreebeard
 END
 
 OBJECT:DwarvenStatueDescription
-"Allierade i närheten av statyn får \n +50% rustning \n Höjer kommandopoängstaket med 10"
+"Allierade i närheten av statyn får \n +50% rustning \n Höjer kommandopoängstaket med 10" // obsolete
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners

@@ -21869,7 +21869,7 @@ OBJECT:GondorMarketPlaceDescription
 END
 
 OBJECT:GondorStatueDescription
-"Воины, находящиеся рядом со статуей, получают \n +50% наносимого урона, +50% брони \n и вдвое быстрее набирают опыт. \n Эффект не накапливается."
+"Воины, находящиеся рядом со статуей, получают \n +50% наносимого урона, +50% брони \n и вдвое быстрее набирают опыт. \n Эффект не накапливается." // obsolete
 END
 
 OBJECT:GondorWellDescription
@@ -43695,7 +43695,7 @@ CONTROLBAR:ToolTipMoveUnseen
 END
 
 CONTROLBAR:ToolTipElvenStatue
-"Союзники рядом со статуей \n наносят +25% урона \n и набирают опыт на 25% быстрее."
+"Союзники рядом со статуей \n наносят +25% урона \n и набирают опыт на 25% быстрее." // obsolete
 END
 
 CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHorde
@@ -43815,7 +43815,7 @@ CONTROLBAR:ToolTipBuildTreebeard
 END
 
 OBJECT:DwarvenStatueDescription
-"Союзники рядом со статуей \n получают +50% брони. \nУвеличение лимита очков командования на 10."
+"Союзники рядом со статуей \n получают +50% брони. \nУвеличение лимита очков командования на 10." // obsolete
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
@@ -43843,7 +43843,7 @@ CONTROLBAR:ToolTipBlackArrows
 END
 
 OBJECT:DwarvenHeroicStatueDescription
-"Союзники рядом со статуей \n получают +50% брони. \nУвеличение лимита очков командования на 10."
+"Союзники рядом со статуей \n получают +35% брони. \nУвеличение лимита очков командования на 10."
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade

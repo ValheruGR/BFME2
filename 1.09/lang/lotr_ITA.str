@@ -21866,7 +21866,7 @@ OBJECT:GondorMarketPlaceDescription
 END
 
 OBJECT:GondorStatueDescription
-"Gli alleati vicino alla statua ottengono\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\nNon cumulabile."
+"Gli alleati vicino alla statua ottengono\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\nNon cumulabile." // obsolete
 END
 
 OBJECT:GondorWellDescription
@@ -43698,7 +43698,7 @@ CONTROLBAR:ToolTipMoveUnseen
 END
 
 CONTROLBAR:ToolTipElvenStatue
-"Gli alleati vicini alla statua ottengono\n+25% danno e\n+25% accumulo esperienza.\nSempre cumulativa.\nFornisce 10 punti comando bonus."
+"Gli alleati vicini alla statua ottengono\n+25% danno e\n+25% accumulo esperienza.\nSempre cumulativa.\nFornisce 10 punti comando bonus." // obsolete
 END
 
 CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHorde
@@ -43818,7 +43818,7 @@ CONTROLBAR:ToolTipBuildTreebeard
 END
 
 OBJECT:DwarvenStatueDescription
-"Gli alleati vicino alla statua ottengono\n+50% corazza.\nAumenta di 10 il limite di punti comando."
+"Gli alleati vicino alla statua ottengono\n+50% corazza.\nAumenta di 10 il limite di punti comando." // obsolete
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners

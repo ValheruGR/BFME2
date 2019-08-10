@@ -14195,7 +14195,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Bringt die Umgebung zum Blühen \n Verbündeten Einheiten erhalten +35% Rüstung \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Bringt die Umgebung zum Blühen \n Verbündeten Einheiten erhalten +35% Rüstung. \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -21869,7 +21869,7 @@ OBJECT:GondorMarketPlaceDescription
 END
 
 OBJECT:GondorStatueDescription
-"Verbündete in der Nähe der Statue \n verursachen +50% Schaden, erhalten +50% Rüstung und \n sammeln doppelt so schnell Erfahrung \n Wird nicht addiert"
+"Verbündete in der Nähe der Statue \n verursachen +50% Schaden, erhalten +50% Rüstung und \n sammeln doppelt so schnell Erfahrung \n Wird nicht addiert" // obsolete
 END
 
 OBJECT:GondorWellDescription
@@ -43699,7 +43699,7 @@ CONTROLBAR:ToolTipMoveUnseen
 END
 
 CONTROLBAR:ToolTipElvenStatue
-"Verbündete in der Nähe der Statue \n verursachen +25% Schaden und \n sammeln 25% mehr Erfahrung"
+"Verbündete in der Nähe der Statue \n verursachen +25% Schaden und \n sammeln 25% mehr Erfahrung" // Obsolete
 END
 
 CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHorde
@@ -43819,7 +43819,7 @@ CONTROLBAR:ToolTipBuildTreebeard
 END
 
 OBJECT:DwarvenStatueDescription
-"Verbündete in der Nähe der Statue \n erhalten +50% Rüstung \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n erhalten +50% Rüstung \n Erhöht Kommandeurspunkte-Limit um 10 Punkte" // obsolete
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
