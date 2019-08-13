@@ -100,19 +100,110 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
+Map:MapSBBrithombar
+"Brithombar"
 END
-Map:mapmpnothing/Desc
-"nothing"
+Map:MapSBBrithombar/Desc
+"A fertile bay in the western Beleriand. As all other regions in Beleriand except Ered Luin and Lindon, it sank at the end of the First Age. \n Map by SilverBane`"
 END
 //------------------------------------------------------------
-Map:mapmpfordsofcalenduin
+Map:MapSBColdfells
+"Coldfells"
+END
+Map:MapSBColdfells/Desc
+"Once part of the kingdom of Rhudaur, these hills are now wild and dangerous. Many trolls lurk in these places, which have once killed Arador, Chieftain of the Dunedain. \n Map by SilverBane` \n Lairs: Troll x5"
+END
+//------------------------------------------------------------
+Map:MapSBCrossroads
+"The Crossroads"
+END
+Map:MapSBCrossroads/Desc
+"The Crossroads of Ithilien is a point where the road that leads to the Black Gate meets with the road that leads to Minas Tirith. Frodo and Sam passed by the Crossroads on their way to Cirith Ungol.\n Map by SilverBane`"
+END
+//------------------------------------------------------------
+Map:MapSBDagorladMirkwoodSkin
+"Dagorlad - Mirkwood skin"
+END
+Map:MapSBDagorladMirkwoodSkin/Desc
+"Same map as Dagorlad but with Mirkwood skin, added river and replaced drake lairs with troll lairs. \n Map by SilverBane` "
+END
+//------------------------------------------------------------
+Map:MapSBFordsofCalenduin
 "Fords of Calenduin"
 END
-Map:mapmptournamentamonhen/Desc
+Map:MapSBFordsofCalenduin/Desc
 "Far to the south, in the jungles of Far Harad, the Green River makes its way towards the Great Sea. Reskin by SilverBane`"
 END
+//------------------------------------------------------------
+Map:MapSBFrozenRift
+"Frozen Rift" // The
+End
+Map:MapSBFrozenRift/Desc
+"This breathtaking-cold rift can be found in the frozen wastes of the North, close to the Ice Bay of Forochel. The Lossoth are amongst the few who dare brave these frozen lands. \n Map by SilverBane` \n Neutral Structures: Signal Fire x1 \n Lairs: Troll x2, Goblin x2"
+END
+//------------------------------------------------------------
+Map:MapSBLune
+"Lune"
+END
+Map:MapSBLune/Desc
+"The river Lune is a river of north-western Eriador. The Grey Havens lie at the mouth of this river. Map by SilverBane` \n Creeps: Wargs x2, Trolls x2 \n Neutral structures: Inn x2"
+End
+//------------------------------------------------------------
+Map:MapSBSeaofnurnen
+"Sea of Nurnen"
+End
+Map:MapSBSeaofnurnen/Desc
+"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord.\n Map by SilverBane` \n Lairs: Warg x2, Wight x2 \n Neutral Structures: Signal fire x2, Inn x2 "
+End
+//------------------------------------------------------------
+Map:MapSBSeaofNurnenII
+"Sea of Nurnen II"
+END
+Map:MapSBSeaofNurnenII/Desc
+"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord.\n Map by SilverBane` \n Lairs: Warg x2 \n Neutral Structures: Inn x2 "
+End
+//------------------------------------------------------------
+Map:MapSBSirannon
+"Sirannon"
+End
+Map:MapSBSirannon/Desc
+"This once tumultuous river flows from the Gates of Durin to Ost-in-Edhil, the ruined elf city of Eregion.\n Now all that's left is a foul lake and but a thread of water from the once rich Stair Fall. \n Map by SilverBane` \n Lairs:2x Warg, 2x Troll \n Neutral Structures: 1x Inn "
+END
+//------------------------------------------------------------
+Map:MapSBTournamentBree
+"Tournament Bree"
+END
+Map:MapSBTournamentBree/Desc
+"The prancing pony inn, once captured, will generate money and allow creation of unique units. \n Map by SilverBane`"
+END
+//------------------------------------------------------------
+Map:MapSBTournamentUdunIV
+"Udun: 4th Age" //A. IV
+END
+Map:MapSBTournamentUdunIV/Desc
+"After the defeat of Sauron, Udun became once again a fertile valley. \n Map by SilverBane`"
+END
+//------------------------------------------------------------
+Map:MapSBTournamentWeatherHills
+"Tournament Weather Hills"
+END
+Map:MapSBTournamentWeatherHills/Desc
+"Middle players can now fight.\n Map by Silverbane. \n Edited by Val."
+END
+//------------------------------------------------------------
+Map:MapSBTrollshaws
+"Trollshaws"
+END
+Map:MapSBTrollshaws/Desc
+"Untamed lands that are difficult to pass through. The Last Homely House can be found east of these lands. \n Map by SilverBane` \n Lairs: Troll x2 \n Neutral Structures: Signal fire x2, Inn x1"
+END
+//------------------------------------------------------------
+Map:MapSBUpperAnduin
+"Upper Anduin"
+END
+Map:MapSBUpperAnduin/Desc
+"The Anduin flows from northern reaches of Middle-Earth to the bay of Belfalas, far to the south. The ancestors of the Rohirrims lived near the springs of the Great River. \n Map by SilverBane` \n Creeps: 4x Warg, 1x Troll \n Neutral structures: 1x Inn"
+End
 //------------------------------------------------------------
 Map:mapmptournamentamonhen
 "Tournament Amon Hen"
@@ -120,20 +211,6 @@ END
 Map:mapmptournamentamonhen/Desc
 "Amon Hen was the westernmost of the three peaks at the southern end of Nen Hithoel. \n Edited by Ecthelion to play clanwars.cc. Disabled scripts and removed two wargs."
 END
-//------------------------------------------------------------
-Map:seaofnurnen
-"Sea of Nurnen"
-End
-Map:seaofnurnen/Desc
-"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord.\n Map by SilverBane` \n Lairs: Warg x2, Wight x2 \n Neutral Structures: Signal fire x2, Inn x2 "
-End
-//------------------------------------------------------------
-Map:seaofnurnenii
-"Sea of Nurnen II"
-END
-Map:seaofnurnenii/Desc
-"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord.\n Map by SilverBane` \n Lairs: Warg x2 \n Neutral Structures: Inn x2 "
-End
 //------------------------------------------------------------
 Map:EmynArnenTournament
 "Tournament Emyn Arnen"
@@ -154,13 +231,6 @@ Map:AdornRiver
 END
 Map:AdornRiver/Desc
 "The river Adorn occurs in Middle-earth between the White Mountains (Ered Nimrais) and the western part of Rohan. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:frozenrift
-"The Frozen Rift"
-End
-Map:frozenrift/Desc
-"This breathtaking-cold rift can be found in the frozen wastes of the North, close to the Ice Bay of Forochel. The Lossoth are amongst the few who dare brave these frozen lands. \n Map by SilverBane` \n Neutral Structures: Signal Fire x1 \n Lairs: Troll x2, Goblin x2"
 END
 //------------------------------------------------------------
 Map:Forochel
@@ -205,10 +275,10 @@ Map:Himling/Desc
 "An icy land with a central mountain"
 END
 //------------------------------------------------------------
-Map:Lanthir Lamath
+Map:LanthirLamath
 "Lanthir Lamath"
 END
-Map:Lanthir Lamath/Desc
+Map:LanthirLamath/Desc
 "Lanthir Lamath was a sparkling and beautiful waterfall in Ossiriand at the foot of the southern range of the Blue Mountains (Ered Luin).\n It was part of a stream of the river Adurant. \n Map from RotWK."
 END
 //------------------------------------------------------------
@@ -240,13 +310,6 @@ Map:mapmpmountgram/desc
 "The mountain was long inhabited by a group of Orcs led by Golfimbul. They terrorized some of the inhabitants of eastern Eriador including those of the Shire. \n Map from RotWK."
 End
 //------------------------------------------------------------
-Map:sirannon
-"Mount Gram"
-End
-Map:sirannon/Desc
-"This once tumultuous river flows from the Gates of Durin to Ost-in-Edhil, the ruined elf city of Eregion.\n Now all that's left is a foul lake and but a thread of water from the once rich Stair Fall. \n Map by SilverBane` \n Lairs:2x Warg, 2x Troll \n Neutral Structures: 1x Inn "
-END
-//------------------------------------------------------------
 Map:MAPMPBrandybuck
 "BrandyBuck"
 END
@@ -266,13 +329,6 @@ Map:TheIvyBush
 END
 Map:TheIvyBush/Desc
 "Map named in honor of The Ivy Bush. A small inn on the Bywater road in the Shire. Here Gaffer Gamgee recounted to the visitors his stories about Bilbo and Frodo Baggins."
-END
-//------------------------------------------------------------
-Map:TheCrossroads
-"The Crossroads"
-END
-Map:TheCrossroads/Desc
-"The Crossroads of Ithilien is a point where the road that leads to the Black Gate meets with the road that leads to Minas Tirith. Frodo and Sam passed by the Crossroads on their way to Cirith Ungol.\n Map by SilverBane`"
 END
 //------------------------------------------------------------
 Map:RohanII
@@ -541,20 +597,6 @@ Map:BlackGateII/Desc
 "The northern entrance to the lands of Mordor and the site of the final stand-off between good and evil."
 END
 //------------------------------------------------------------
-Map:brithombar
-"Brithombar"
-END
-Map:brithombar/Desc
-"A fertile bay in the western Beleriand. As all other regions in Beleriand except Ered Luin and Lindon, it sank at the end of the First Age. \n Map by SilverBane`"
-END
-//------------------------------------------------------------
-Map:Dagorladmirkwoodskin
-"Dagorlad (Mirkwood skin)"
-END
-Map:Dagorladmirkwoodskin/Desc
-"Same map as Dagorlad but with Mirkwood skin, added river and replaced drake lairs with troll lairs. \n Map by SilverBane` "
-END
-//------------------------------------------------------------
 Map:DeadMarshesII
 "Dead Marshes II"
 END
@@ -588,27 +630,6 @@ Map:RhunII
 END
 Map:RhunII/Desc
 "The mysterious eastern lands of Middle-earth, around the Sea of Rhun. \n Map edition from BFME1."
-END
-//------------------------------------------------------------
-Map:TournamentBree
-"Tournament Bree"
-END
-Map:TournamentBree/Desc
-"The prancing pony inn, once captured, will generate money and allow creation of unique units. \n Map by SilverBane`"
-END
-//------------------------------------------------------------
-Map:TournamentWeatherHills
-"Tournament Weather Hills"
-END
-Map:TournamentWeatherHills/Desc
-"Map by Silverbane. Middle players can now fight. \n Edited by Val."
-END
-//------------------------------------------------------------
-Map:udunreskinbysilverbane`
-"Udun: 4th Age" //A. IV
-END
-Map:udunreskinbysilverbane`/Desc
-"After the defeat of Sauron, Udun became once again a fertile valley. \n Map by SilverBane`"
 END
 //------------------------------------------------------------
 // There's a typo in name actually, should be Lebennin
@@ -786,6 +807,9 @@ END
 NUMBER:0
 "0"
 END
+
+
+// comment:
 
 TIME:Days
 "%d dagar"
