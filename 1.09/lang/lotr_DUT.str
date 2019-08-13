@@ -107,6 +107,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapmpfordsofcalenduin
+"Fords of Calenduin"
+END
+Map:mapmptournamentamonhen/Desc
+"Far to the south, in the jungles of Far Harad, the Green River makes its way towards the Great Sea. Reskin by SilverBane`"
+END
+//------------------------------------------------------------
 Map:mapmptournamentamonhen
 "Tournament Amon Hen"
 END
@@ -24965,7 +24972,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStonework
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
-"Extra pantser voor fort en muren\nNodig voor machtige katapult"
+"Extra pantser voor fort en muren\nNodig voor machtige katapult. \n\n Upgrades summoned Lone Towers."
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions
@@ -24981,7 +24988,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
-"Geneest bondgenoten bij het fort en in de hallen\nExtra weerstand voor fort"
+"Geneest bondgenoten bij het fort en in de hallen\nExtra weerstand voor fort. \n\n Upgrades summoned Lone Towers."
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
@@ -25737,7 +25744,7 @@ OBJECT:ElvenStatue
 END
 
 OBJECT:ElvenStatueDescription
-"Eenheden in de buurt van het standbeeld krijgen\n+50% schade en +50% pantser,\nen verdienen twee keer zo snel ervaring\nMaximaal 1 per keer"
+"Eenheden in de buurt van het standbeeld krijgen\n+50% schade en +50% pantser,\nen verdienen twee keer zo snel ervaring\nMaximaal 1 per keer" // obsolete
 END
 
 OBJECT:ElvenMirrorofGaladriel
@@ -43481,7 +43488,7 @@ CONTROLBAR:ToolTipHeal
 END
 
 CONTROLBAR:TooltipRallyingCall
-"Geselecteerde bondgenoten krijgen +50% schade\nKlik met links op het icoontje en daarna met links op de doelwitten"
+"Geselecteerde bondgenoten krijgen +50% schade \n en verdienen ervaring 50% sneller. \n Klik met links op het icoontje en daarna met links op de doelwitten"
 END
 
 CONTROLBAR:TooltipDwarvenRiches
@@ -43505,11 +43512,11 @@ CONTROLBAR:ToolTipGandalfLeadership
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Eenheden in de buurt van het fort\nkrijgen +25% pantser,\nen verdienen ervaring 25% sneller\nPrijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager"
+"Eenheden in de buurt van het fort\nkrijgen +25% pantser,\nen verdienen ervaring 25% sneller\nPrijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager\n\n Upgrades summoned Lone Towers. \n\n Upgrades summoned Lone Towers."
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Geneest alle bondgenoten in de buurt\nHelden tot leven wekken wordt 20% goedkoper\nHelden tot leven wekken gaat 20% sneller"
+"Geneest alle bondgenoten in de buurt\nHelden tot leven wekken wordt 20% goedkoper\nHelden tot leven wekken gaat 20% sneller. \n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
@@ -43553,7 +43560,7 @@ CONTROLBAR:ToolTipHornofGondor
 END
 
 CONTROLBAR:ToolTipBoromirLeadership
-"Nodig: niveau 5\nBondgenoten in de buurt van Boromir krijgen\n+50% schade\n\nPassieve kracht"
+"Nodig: niveau 5\nBondgenoten in de buurt van Boromir krijgen\n+50% schade\n en verdienen ervaring 25% sneller. \n\nPassieve kracht"
 END
 
 CONTROLBAR:CaptainofGondorBoromir
@@ -43573,7 +43580,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Bondgenoten in de buurt van Théoden krijgen\n+25% schade\n\nPassieve kracht"
+"Bondgenoten in de buurt van Théoden krijgen\n+25% schade\n en verdienen ervaring 25% sneller. \n\n Effecten stapelen op. \n\n Passieve kracht"
 END
 
 CONTROLBAR:ToolTipGloriousCharge
@@ -43761,7 +43768,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
-"Nodig: niveau 4\nBondgenoten in de buurt van Haldir krijgen\n+50% schade\n\nPassieve kracht"
+"Nodig: niveau 4\nBondgenoten in de buurt van Haldir krijgen\n+50% schade\n en verdienen ervaring 25% sneller.\n\nPassieve kracht"
 END
 
 CONTROLBAR:GlorfindelBladeOfPurity
@@ -43845,7 +43852,7 @@ OBJECT:DwarvenStatueDescription
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Eenheden in de buurt van het\nstandbeeld krijgen +25% schade en verdienen ervaring 25% sneller\nPrijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager"
+"Eenheden in de buurt van het\nstandbeeld krijgen +25% schade en verdienen ervaring 25% sneller\nPrijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager. \n\n Upgrades summoned Lone Towers."
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
@@ -43973,7 +43980,7 @@ CONTROLBAR:TooltipUpgradeIsengardSiegeWorksLevel3
 END
 
 CONTROLBAR:ToolTipWarChant
-"Geselecteerde bondgenoten krijgen +50% schade\nKlik met links op het icoontje en daarna met links op de doelwitten"
+"Geselecteerde bondgenoten krijgen +50% schade\n en verdienen ervaring 50% sneller.\nKlik met links op het icoontje en daarna met links op de doelwitten"
 END
 
 CONTROLBAR:ToolTipIndustry
@@ -43989,11 +43996,11 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Roept het Oog van Sauron op\nMaakt verscholen vijanden zichtbaar\nBondgenoten krijgen +25% schade en verdienen ervaring 25% sneller\nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Roept het Oog van Sauron op\nMaakt verscholen vijanden zichtbaar\nBondgenoten krijgen +25% schade en +25% pantser,\nen verdienen ervaring 50% sneller \n Klik met links op het icoontje en daarna met links op het doelgebied"
 END
 
 CONTROLBAR:ToolTipDarkness
-"Hult de gehele kaart tijdelijk in duisternis\nAlle bondgenoten krijgen +25% schade en +25% pantser,\nen verdienen ervaring 50% sneller\nKlik met links om te activeren"
+"Hult de gehele kaart tijdelijk in duisternis\nAlle bondgenoten krijgen +50% schade en +33% pantser,\nen verdienen ervaring 50% sneller\nKlik met links om te activeren"
 END
 
 CONTROLBAR:ToolTipSummonCrebain
@@ -44001,7 +44008,7 @@ CONTROLBAR:ToolTipSummonCrebain
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
-"Nodig: niveau 5\nBondgenoten in de buurt van Lurtz krijgen\n+50% schade\n\nPassieve kracht"
+"Nodig: niveau 5\nBondgenoten in de buurt van Lurtz krijgen\n+50% schade\n en verdienen ervaring 25% sneller.\n\nPassieve kracht"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
@@ -44277,7 +44284,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Extra pantser voor fort en muren\nNodig voor brandende munitie"
+"Extra pantser voor fort en muren\nNodig voor brandende munitie. \n\n Upgrades summoned Lone Towers."
 END
 
 CONTROLBAR:ToolTipOutlawLeadership

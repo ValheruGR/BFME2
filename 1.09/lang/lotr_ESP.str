@@ -107,6 +107,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapmpfordsofcalenduin
+"Fords of Calenduin"
+END
+Map:mapmptournamentamonhen/Desc
+"Far to the south, in the jungles of Far Harad, the Green River makes its way towards the Great Sea. Reskin by SilverBane`"
+END
+//------------------------------------------------------------
 Map:mapmptournamentamonhen
 "Tournament Amon Hen"
 END
@@ -25745,7 +25752,7 @@ OBJECT:ElvenStatue
 END
 
 OBJECT:ElvenStatueDescription
-"Los aliados cercanos la estatua ganan \n +50% al daño, +50% a la armadura. \n y consiguen experiencia el doble de rápido. \n No se acumula."
+"Los aliados cercanos la estatua ganan \n +50% al daño, +50% a la armadura. \n y consiguen experiencia el doble de rápido. \n No se acumula." // obsolete
 END
 
 OBJECT:ElvenMirrorofGaladriel
@@ -44009,7 +44016,7 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño y ganan experiencia un 25% más rápido. \n Siempre se acumula \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Siempre se acumula \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 
 CONTROLBAR:ToolTipDarkness

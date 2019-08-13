@@ -107,6 +107,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapmpfordsofcalenduin
+"Fords of Calenduin"
+END
+Map:mapmptournamentamonhen/Desc
+"Far to the south, in the jungles of Far Harad, the Green River makes its way towards the Great Sea. Reskin by SilverBane`"
+END
+//------------------------------------------------------------
 Map:mapmptournamentamonhen
 "Tournament Amon Hen"
 END
@@ -27967,7 +27974,7 @@ OBJECT:ElvenStatue
 END
 
 OBJECT:ElvenStatueDescription
-"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack"
+"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack" // obsolete
 END
 
 OBJECT:ElvenMirrorofGaladriel

@@ -17,6 +17,7 @@
 CONTROLBAR:nothing_New
 "nothing"
 END
+//------------------------------------------------------------
 CONTROLBAR:nothingDesc_New
 "nothing"
 END
@@ -47,7 +48,7 @@ CONTROLBAR:GaladrielWordOfPowerDesc_New
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower_New
-"&Ring Of Power
+"&Ring Of Power"
 END
 CONTROLBAR:RingOfPowerDesc_New
 "Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
@@ -58,7 +59,7 @@ CONTROLBAR:TooltipAthelasElrond_New
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain_New
-"King's Favor [&R]"
+"King's Favor [&C]"
 END
 CONTROLBAR:KingsFavorDainDesc_New
 "Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
@@ -99,6 +100,41 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapmpnothing
+"nothing"
+END
+Map:mapmpnothing/Desc
+"nothing"
+END
+//------------------------------------------------------------
+Map:mapmpfordsofcalenduin
+"Fords of Calenduin"
+END
+Map:mapmptournamentamonhen/Desc
+"Far to the south, in the jungles of Far Harad, the Green River makes its way towards the Great Sea. Reskin by SilverBane`"
+END
+//------------------------------------------------------------
+Map:mapmptournamentamonhen
+"Tournament Amon Hen"
+END
+Map:mapmptournamentamonhen/Desc
+"Amon Hen was the westernmost of the three peaks at the southern end of Nen Hithoel. \n Edited by Ecthelion to play clanwars.cc. Disabled scripts and removed two wargs."
+END
+//------------------------------------------------------------
+Map:seaofnurnen
+"Sea of Nurnen"
+End
+Map:seaofnurnen/Desc
+"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord.\n Map by SilverBane` \n Lairs: Warg x2, Wight x2 \n Neutral Structures: Signal fire x2, Inn x2 "
+End
+//------------------------------------------------------------
+Map:seaofnurnenii
+"Sea of Nurnen II"
+END
+Map:seaofnurnenii/Desc
+"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord.\n Map by SilverBane` \n Lairs: Warg x2 \n Neutral Structures: Inn x2 "
+End
+//------------------------------------------------------------
 Map:EmynArnenTournament
 "Tournament Emyn Arnen"
 END
@@ -113,10 +149,10 @@ Map:Eastfold/Desc
 "The Eastfold was a region of Rohan which bordered with the Westfold via the Snowbourn River on the west and bordered with Anorien in Gondor to the east."
 END
 //------------------------------------------------------------
-Map:Adorn River
+Map:AdornRiver
 "Adorn River"
 END
-Map:Adorn River/Desc
+Map:AdornRiver/Desc
 "The river Adorn occurs in Middle-earth between the White Mountains (Ered Nimrais) and the western part of Rohan. Map from RotWK."
 END
 //------------------------------------------------------------
@@ -201,7 +237,7 @@ Map:mapmpmountgram
 "Mount Gram"
 End
 Map:mapmpmountgram/desc
-"Map from RotWK, stolen by Bunito 2018."
+"The mountain was long inhabited by a group of Orcs led by Golfimbul. They terrorized some of the inhabitants of eastern Eriador including those of the Shire. \n Map from RotWK."
 End
 //------------------------------------------------------------
 Map:sirannon
@@ -253,7 +289,7 @@ Map:OsgiliathII/Desc
 "This Gondor city is the last line of defense between Mordor and Minas Tirith. The Anduin River runs through the center of the city. Edition by Ecthelion, a balanced merge of BfME1 and BfME2 versions."
 END
 //------------------------------------------------------------
-Map:oldforest II
+Map:oldforestII
 "Old Forest II"
 END
 Map:oldforestII/Desc
@@ -289,7 +325,7 @@ Map:mapmptyrngorthad/Desc
 END
 //------------------------------------------------------------
 Map:mapmptournamentudunII
-"Udun II - Shadow of Mordor"
+"Udun II - Shadow of Mordor" // - Val's
 END
 Map:mapmptournamentudunII/Desc
 "Recolour inspired by the fertile design of the Black Land in The Shadow of Mordor.\n Turn off ring heroes for tournament mode. \n Map by Val."
@@ -516,7 +552,7 @@ Map:Dagorladmirkwoodskin
 "Dagorlad (Mirkwood skin)"
 END
 Map:Dagorladmirkwoodskin/Desc
-"Same map as Dagorlad but with Mirkwood skin, added river and replaced drake lairs with troll lairs. \n by SilverBane` "
+"Same map as Dagorlad but with Mirkwood skin, added river and replaced drake lairs with troll lairs. \n Map by SilverBane` "
 END
 //------------------------------------------------------------
 Map:DeadMarshesII
@@ -569,7 +605,7 @@ Map:TournamentWeatherHills/Desc
 END
 //------------------------------------------------------------
 Map:udunreskinbysilverbane`
-"Udun A. IV"
+"Udun: 4th Age" //A. IV
 END
 Map:udunreskinbysilverbane`/Desc
 "After the defeat of Sauron, Udun became once again a fertile valley. \n Map by SilverBane`"
@@ -583,13 +619,15 @@ Map:MAPMPLebenin/Desc
 "This lush, green land in southern Gondor lies where the Anduin River completes its journey into the Bay of Belfalas. \n Lebennin III is an edited edition to fix red build plots. Signal Fires added east/west. \n Edited by Val`"
 END
 //------------------------------------------------------------
+// This one does get translated in at least one more lenguage
 Map:mapmpfordsoflimlight
 "Fords of Limlight"
 END
 Map:mapmpfordsoflimlight/Desc
-"As a recolour of the popular Fords of Isen, the famous fair-matching map, the theme here is of the great and gigantic forests that once covered all of Middle-earth. Made for 1.09 with love from Val"
+"As a recolour of the popular Fords of Isen, the famous fair-matching map, the theme here is of the great and gigantic forests that once covered all of Middle-earth. \n Made for 1.09 with love from Val"
 END
 //------------------------------------------------------------
+// This one does get translated in at least one more lenguage
 Map:mapmpfordsofanduin
 "Fords of Anduin II"
 END
@@ -25711,7 +25749,7 @@ OBJECT:ElvenStatue
 END
 
 OBJECT:ElvenStatueDescription
-"Союзники рядом со статуей \n наносят +50% урона, получают +50% брони \n и вдвое быстрее набирают опыт. \n Эффект не накапливается."
+"Союзники рядом со статуей \n наносят +50% урона, получают +50% брони \n и вдвое быстрее набирают опыт. \n Эффект не накапливается." // obsolete
 END
 
 OBJECT:ElvenMirrorofGaladriel
@@ -43819,7 +43857,7 @@ OBJECT:DwarvenStatueDescription
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Союзники рядом с крепостью получают +25% к атаке и +25% опыта. \n Снижение стоимости призыва героя на 10%. \n Уменьшение времени ожидания героя на 10%. \n Снижение стоимости подготовки строителей на 20%. \n\n Улучшает призванные Одинокие Башни"
+"Союзники рядом с крепостью получают +25% к атаке и +25% опыта. \n Снижение стоимости призыва героя на 10%. \n Уменьшение времени ожидания героя на 10%. \n Снижение стоимости подготовки строителей на 20%. \n\n Улучшает призванные Одинокие Башни."
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
@@ -43963,7 +44001,7 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Появление Ока Саурона. \n Обнаружение скрытых врагов. \n Союзники получают +25% к атаке и +25% брони, \n а также +50% больще опыта. \n Обычный тип лидерства. \n Всегда накапливается. \n Щелкните на пиктограмме, затем - на участке местности."
+"Появление Ока Саурона. \n Обнаружение скрытых врагов. \n Союзники получают +25% к атаке и +25% брони, \n а также +50% больще опыта. \n Всегда накапливается. \n Щелкните на пиктограмме, затем - на участке местности."
 END
 
 CONTROLBAR:ToolTipDarkness
@@ -44251,7 +44289,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Укрепление защиты стен и крепости. \n Требуется для возведения Нуменорской Башни."
+"Укрепление защиты стен и крепости. \n Требуется для возведения Нуменорской Башни.\n\n Улучшает призванные Одинокие Башни."
 END
 
 CONTROLBAR:ToolTipOutlawLeadership

@@ -17,6 +17,7 @@
 CONTROLBAR:nothing_New
 "nothing"
 END
+//------------------------------------------------------------
 CONTROLBAR:nothingDesc_New
 "nothing"
 END
@@ -47,7 +48,7 @@ CONTROLBAR:GaladrielWordOfPowerDesc_New
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower_New
-"&Ring Of Power
+"&Ring Of Power"
 END
 CONTROLBAR:RingOfPowerDesc_New
 "Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
@@ -58,7 +59,7 @@ CONTROLBAR:TooltipAthelasElrond_New
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain_New
-"King's Favor [&R]"
+"King's Favor [&C]"
 END
 CONTROLBAR:KingsFavorDainDesc_New
 "Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
@@ -99,6 +100,41 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapmpnothing
+"nothing"
+END
+Map:mapmpnothing/Desc
+"nothing"
+END
+//------------------------------------------------------------
+Map:mapmpfordsofcalenduin
+"Fords of Calenduin"
+END
+Map:mapmptournamentamonhen/Desc
+"Far to the south, in the jungles of Far Harad, the Green River makes its way towards the Great Sea. Reskin by SilverBane`"
+END
+//------------------------------------------------------------
+Map:mapmptournamentamonhen
+"Tournament Amon Hen"
+END
+Map:mapmptournamentamonhen/Desc
+"Amon Hen was the westernmost of the three peaks at the southern end of Nen Hithoel. \n Edited by Ecthelion to play clanwars.cc. Disabled scripts and removed two wargs."
+END
+//------------------------------------------------------------
+Map:seaofnurnen
+"Sea of Nurnen"
+End
+Map:seaofnurnen/Desc
+"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord.\n Map by SilverBane` \n Lairs: Warg x2, Wight x2 \n Neutral Structures: Signal fire x2, Inn x2 "
+End
+//------------------------------------------------------------
+Map:seaofnurnenii
+"Sea of Nurnen II"
+END
+Map:seaofnurnenii/Desc
+"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord.\n Map by SilverBane` \n Lairs: Warg x2 \n Neutral Structures: Inn x2 "
+End
+//------------------------------------------------------------
 Map:EmynArnenTournament
 "Tournament Emyn Arnen"
 END
@@ -113,10 +149,10 @@ Map:Eastfold/Desc
 "The Eastfold was a region of Rohan which bordered with the Westfold via the Snowbourn River on the west and bordered with Anorien in Gondor to the east."
 END
 //------------------------------------------------------------
-Map:Adorn River
+Map:AdornRiver
 "Adorn River"
 END
-Map:Adorn River/Desc
+Map:AdornRiver/Desc
 "The river Adorn occurs in Middle-earth between the White Mountains (Ered Nimrais) and the western part of Rohan. Map from RotWK."
 END
 //------------------------------------------------------------
@@ -201,7 +237,7 @@ Map:mapmpmountgram
 "Mount Gram"
 End
 Map:mapmpmountgram/desc
-"Map from RotWK, stolen by Bunito 2018."
+"The mountain was long inhabited by a group of Orcs led by Golfimbul. They terrorized some of the inhabitants of eastern Eriador including those of the Shire. \n Map from RotWK."
 End
 //------------------------------------------------------------
 Map:sirannon
@@ -253,7 +289,7 @@ Map:OsgiliathII/Desc
 "This Gondor city is the last line of defense between Mordor and Minas Tirith. The Anduin River runs through the center of the city. Edition by Ecthelion, a balanced merge of BfME1 and BfME2 versions."
 END
 //------------------------------------------------------------
-Map:oldforest II
+Map:oldforestII
 "Old Forest II"
 END
 Map:oldforestII/Desc
@@ -289,7 +325,7 @@ Map:mapmptyrngorthad/Desc
 END
 //------------------------------------------------------------
 Map:mapmptournamentudunII
-"Udun II - Shadow of Mordor"
+"Udun II - Shadow of Mordor" // - Val's
 END
 Map:mapmptournamentudunII/Desc
 "Recolour inspired by the fertile design of the Black Land in The Shadow of Mordor.\n Turn off ring heroes for tournament mode. \n Map by Val."
@@ -516,7 +552,7 @@ Map:Dagorladmirkwoodskin
 "Dagorlad (Mirkwood skin)"
 END
 Map:Dagorladmirkwoodskin/Desc
-"Same map as Dagorlad but with Mirkwood skin, added river and replaced drake lairs with troll lairs. \n by SilverBane` "
+"Same map as Dagorlad but with Mirkwood skin, added river and replaced drake lairs with troll lairs. \n Map by SilverBane` "
 END
 //------------------------------------------------------------
 Map:DeadMarshesII
@@ -569,7 +605,7 @@ Map:TournamentWeatherHills/Desc
 END
 //------------------------------------------------------------
 Map:udunreskinbysilverbane`
-"Udun A. IV"
+"Udun: 4th Age" //A. IV
 END
 Map:udunreskinbysilverbane`/Desc
 "After the defeat of Sauron, Udun became once again a fertile valley. \n Map by SilverBane`"
@@ -583,13 +619,15 @@ Map:MAPMPLebenin/Desc
 "This lush, green land in southern Gondor lies where the Anduin River completes its journey into the Bay of Belfalas. \n Lebennin III is an edited edition to fix red build plots. Signal Fires added east/west. \n Edited by Val`"
 END
 //------------------------------------------------------------
+// This one does get translated in at least one more lenguage
 Map:mapmpfordsoflimlight
 "Fords of Limlight"
 END
 Map:mapmpfordsoflimlight/Desc
-"As a recolour of the popular Fords of Isen, the famous fair-matching map, the theme here is of the great and gigantic forests that once covered all of Middle-earth. Made for 1.09 with love from Val"
+"As a recolour of the popular Fords of Isen, the famous fair-matching map, the theme here is of the great and gigantic forests that once covered all of Middle-earth. \n Made for 1.09 with love from Val"
 END
 //------------------------------------------------------------
+// This one does get translated in at least one more lenguage
 Map:mapmpfordsofanduin
 "Fords of Anduin II"
 END
@@ -620,7 +658,7 @@ CONTROLBAR:LadyOfLight
 "Light Of &Valars"
 END
 CONTROLBAR:TooltipLadyOfLight
-"Call down the light of Valar onto your enemies. \n Deals massive damage in a large area"
+"Call down the Light of Valar onto your enemies. \n Deals massive damage in a large area"
 END
 CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Summon Three Fi&res of Doom around Sauron in a circle"
@@ -649,7 +687,7 @@ CONTROLBAR:SpecialAbility_ShieldBubble
 "Shield B&ubble"
 END
 CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"The Wizard transfers all of his Power into a Shield that will absorvs every kind of damage dealt on him. \n Gandalf also gains inmunity to knock-back. \n Lasts 5 seconds. \n \n Left click icon to activate"
+"The Wizard transfers all of his Power into a Shield that will absorbs every kind of damage dealt on him. \n Gandalf also gains inmunity to knock-back. \n Lasts 5 seconds. \n \n Left click icon to activate"
 END
 CONTROLBAR:Fire_pit
 "Fire pit (&V)"
@@ -682,7 +720,7 @@ CONTROLBAR:ToolTipHobbitFireCrackerMerry
 "Hero can throw a small Firecracker. \n Effective against Mumakils \n Special bonus against structures. \n Left click icon then left click on target"
 End
 CONTROLBAR:ToolTipHobbitFireCrackerSam
-"Hero can throw a small Firecracker. Special bonus against Shelob. \n Left click icon then left click on target"
+"Hero can throw a small Firecracker. \n Special bonus against Shelob. \n Left click icon then left click on target"
 End
 //------------------------------------------------------------
 
@@ -748,6 +786,9 @@ END
 NUMBER:0
 "0"
 END
+
+
+// comment:
 
 TIME:Days
 "%d dager"
@@ -7838,7 +7879,8 @@ CONTROLBAR:Resources
 END
 
 CONTROLBAR:ResourcesDescription
-"Innsamlede ressurser som kan benyttes på\nenheter, bygninger og oppgraderinger"
+"Innsamlede ressurser som kan benyttes på
+\nenheter, bygninger og oppgraderinger"
 END
 
 CONTROLBAR:ResourceMultiplier
@@ -24934,7 +24976,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStonework
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
-"Gir ekstra rustning til borgen og murene\nKreves for å ta i bruk enorm katapult"
+"Gir ekstra rustning til borgen og murene\nKreves for å ta i bruk enorm katapult. \n\n Upgrades summoned Lone Towers."
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions
@@ -24950,7 +24992,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
-"Helbreder stasjonerte enheter i borg og saler\nGir borgen ekstra treffpoeng"
+"Helbreder stasjonerte enheter i borg og saler\nGir borgen ekstra treffpoeng. \n\n Upgrades summoned Lone Towers."
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
@@ -25706,7 +25748,7 @@ OBJECT:ElvenStatue
 END
 
 OBJECT:ElvenStatueDescription
-"Allierte i nærheten av statuen får\n+50 % skadebonus, +50 % rustning,\nog får erfaring dobbelt så raskt\nKan ikke kombineres"
+"Allierte i nærheten av statuen får\n+50 % skadebonus, +50 % rustning,\nog får erfaring dobbelt så raskt\nKan ikke kombineres" // obsolete
 END
 
 OBJECT:ElvenMirrorofGaladriel
@@ -43474,11 +43516,11 @@ CONTROLBAR:ToolTipGandalfLeadership
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Allierte i nærheten av borgen får \n +25 % rustning \n og får erfaring 25 % raskere \n Reduserer kostnader for helter med 10 %\nReduserer rekrutteringstid for helter med 10 %\nReduserer kostnader for byggere med 20 %"
+"Allierte i nærheten av borgen får \n +25 % rustning \n og får erfaring 25 % raskere \n Reduserer kostnader for helter med 10 %\nReduserer rekrutteringstid for helter med 10 %\nReduserer kostnader for byggere med 20 % \n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Helbreder alle allierte i nærheten \n Reduserer kostnader for gjenoppliving av helter med 20 %\nReduserer gjenopplivingstid for helter\nmed 20 %"
+"Helbreder alle allierte i nærheten \n Reduserer kostnader for gjenoppliving av helter med 20 %\nReduserer gjenopplivingstid for helter\nmed 20 % \n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
@@ -43814,7 +43856,7 @@ OBJECT:DwarvenStatueDescription
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Allierte i nærheten av statuen får \n +25 % skadebonus og får erfaring 25 % raskere\n Reduserer kostnader for helter med 10 %\nReduserer rekrutteringstid for helter med 10 %\nReduserer kostnader for byggere\n med 20 %"
+"Allierte i nærheten av statuen får \n +25 % skadebonus og får erfaring 25 % raskere\n Reduserer kostnader for helter med 10 %\nReduserer rekrutteringstid for helter med 10 %\nReduserer kostnader for byggere\n med 20 % \n\n Upgrades summoned Lone Towers."
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
@@ -43958,11 +44000,11 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Påkaller Saurons Øye\nAvslører skjulte fiender.\nAllierte får +25 % skadebonus og 25 % raskere kamperfaring\nVenstreklikk på ikonet, og venstreklikk på valgt område"
+"Påkaller Saurons Øye\nAvslører skjulte fiender.\nAllierte får +25 % skadebonus, +25 % rustning,\nog får erfaring 50 % raskere \nVenstreklikk på ikonet, og venstreklikk på valgt område"
 END
 
 CONTROLBAR:ToolTipDarkness
-"Legger midlertidig hele kartet i mørke\nAlle allierte enheter får +25 % skadebonus, +25 % rustning og får erfaring 50 % raskere\nVenstreklikk for å aktivere\nKan ikke kombineres"
+"Legger midlertidig hele kartet i mørke\nAlle allierte enheter får +50 % skadebonus, +33 % rustning og får erfaring 50 % raskere\nVenstreklikk for å aktivere\nKan ikke kombineres"
 END
 
 CONTROLBAR:ToolTipSummonCrebain
@@ -44246,7 +44288,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Styrker rustning for borgen og murene\nKreves for å ta i bruk flammeammunisjon"
+"Styrker rustning for borgen og murene\nKreves for å ta i bruk flammeammunisjon. \n\n Upgrades summoned Lone Towers."
 END
 
 CONTROLBAR:ToolTipOutlawLeadership
