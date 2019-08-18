@@ -14193,7 +14193,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Naprawia budynki do 4000 punktow zycia \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym budynku"
+"Naprawia budynki do 4000 punktow zycia. \n The target structures gain 20% bonus armor for 15s. \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym budynku"
 END
 
 CONTROLBAR:Draft

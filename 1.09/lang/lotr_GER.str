@@ -14194,7 +14194,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Repariert 4000 Gesundheitspunkte aus jeder Struktur. \n Linksklicke auf das Symbol und anschließend auf die gewünschte Gebäude"
+"Repariert 4000 Gesundheitspunkte aus jeder Struktur. \n The target structures gain 20% bonus armor for 15s. \n Linksklicke auf das Symbol und anschließend auf die gewünschte Gebäude"
 END
 
 CONTROLBAR:Draft

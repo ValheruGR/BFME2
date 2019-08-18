@@ -14194,7 +14194,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Répare pour 4000 points de santé n'importe quelles structures \nClic gauche sur l'icône puis clic gauche sur la cible"
+"Répare pour 4000 points de santé n'importe quelles structures. \n The target structures gain 20% bonus armor for 15s. \nClic gauche sur l'icône puis clic gauche sur la cible"
 END
 
 CONTROLBAR:Draft

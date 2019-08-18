@@ -14197,7 +14197,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Helbreder byggverk\nVenstreklikk på ikonet, og venstreklikk på valgte bygninger"
+"Helbreder byggverk. \n The target structures gain 20% bonus armor for 15s.\nVenstreklikk på ikonet, og venstreklikk på valgte bygninger"
 END
 
 CONTROLBAR:Draft

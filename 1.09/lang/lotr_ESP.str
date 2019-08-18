@@ -14196,7 +14196,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Cura 4000 puntos de salud en cualquier tipo de estructura. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Cura 4000 puntos de salud en cualquier tipo de estructura. \n Las estructuras afectadas ganan 15% armadura por 15s. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:Draft

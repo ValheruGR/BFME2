@@ -15767,7 +15767,7 @@ CONTROLBAR:Rebuild
 End
 
 CONTROLBAR:TooltipRebuild
-"Heals 4000 health-points from any structure \n gives the structure 20% bonus armor for 15s \n Left click icon then left click on target structures"
+"Heals 4000 health-points from any structure. \n The target structures gain 20% bonus armor for 15s. \n Left click icon then left click on target structures"
 End
 
 CONTROLBAR:Draft

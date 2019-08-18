@@ -14193,7 +14193,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Repareert gebouwen\nKlik met links op het icoontje en daarna met links op de gebouwen"
+"Repareert gebouwen. \n The target structures gain 20% bonus armor for 15s. \nKlik met links op het icoontje en daarna met links op de gebouwen"
 END
 
 CONTROLBAR:Draft

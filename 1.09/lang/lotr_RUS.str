@@ -14196,7 +14196,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Ремонт 4000 единиц прочности постройки. \n Щелкните на пиктограмме, затем - на цели."
+"Ремонт 4000 единиц прочности постройки. \n The target structures gain 20% bonus armor for 15s. \n Щелкните на пиктограмме, затем - на цели."
 END
 
 CONTROLBAR:Draft

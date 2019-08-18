@@ -14196,7 +14196,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Reparerar byggnader \nVänsterklicka på ikonen, vänsterklicka sedan på målbyggnaderna"
+"Reparerar byggnader. \n The target structures gain 20% bonus armor for 15s. \nVänsterklicka på ikonen, vänsterklicka sedan på målbyggnaderna"
 END
 
 CONTROLBAR:Draft
