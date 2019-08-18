@@ -72,10 +72,10 @@
 			StateName		= STATE_JustBuilt
 			Animation = Sprout
 
-				AnimationName = RUTreeberd_MOTC  ;sprout animation
+				AnimationName = RUTreeberd_MOTA ;;MOTA IS NO ROCK;; C  ;sprout animation
 				AnimationMode = ONCE    ;MANUAL ;; hold first frame
 				AnimationBlendTime = 0
-				AnimationSpeedFactorRange = 0.5 0.5
+				AnimationSpeedFactorRange = 1.155 1.155 // 9967/6500;;-;; 1.0 1.0
 			End
 			BeginScript
 				CurDrawableShowSubObjectPermanently("ROCK")
