@@ -22,12 +22,16 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+UPGRADE:ElvenSilverthornArrows
+"Silverthorn Munitions"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipSarumanLeadership_New
 "Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
-"&Silverthorn Projectiles"
+"&Silverthorn Munitions"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn_New
 "Grants Silverthorn projectiles to fortress and all attached towers \n Increases the damage caused by arrows"
@@ -100,6 +104,243 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapmpnothing
+"nothing"
+END
+Map:mapmpnothing/Desc
+"nothing"
+END
+//------------------------------------------------------------
+Map:mapNewwestmarch
+"Westmarch"
+END
+Map:mapNewwestmarch/Desc
+"A land of meadows and rises, between the Tower Hills and the Shire.\n\n Size: 500 x 350\n Lairs: 4x Troll Lair\n Neutral Structures: 4x Inn, 1x Signal Fire. \n Map from RotWK"
+END
+//------------------------------------------------------------
+Map:mapNewnanmarillion
+"Nan Marillion"
+END
+Map:mapNewnanmarillion/Desc
+"This tropical land of flowers and rivers is protected by mystical power of the three crystals that are spread across the great valley in sacred locations. \n Map from RotWK"
+END
+//------------------------------------------------------------
+Map:mapNewmoongladevale
+"Moonglade Vale"
+END
+Map:mapNewmoongladevale/Desc
+"The Elves of Middle-earth revere moonforests in adoration to Varda, creator of starlight, whom they call Elbereth. \n Size: 480 x 480 \n Lairs: 2x Troll Lair, 2x Goblin Cave. \n Map from RotWK"
+END
+//------------------------------------------------------------
+Map:mapNewanfalasii
+"Anfalas II"
+END
+Map:mapNewanfalasii/Desc
+"The western coastal section of Gondor populated by small villages of herdsmen and fishermen.\n\n Size: 360 x 390\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Inn, 1x Signal Fire. \n Map from RotWK"
+END
+//------------------------------------------------------------
+Map:mapNewgreenleafforest
+"Greenleaf Forest"
+END
+Map:mapNewgreenleafforest/Desc
+"After the fall of Sauron in the Third Age, Mirkwood was cleansed and became Eryn Lasgalen, a fair forest once again. \n Size: 425 x 410 \n Lairs: 5x Spider Lair \n Neutral Structures: 2x Inn, 1x Signal Fire. \n Map from RotWK"
+END
+//------------------------------------------------------------
+Map:mapNewhitherlandsofkhand2v2
+"Hither Lands of Khand"
+END
+Map:mapNewhitherlandsofkhand2v2/Desc
+"The desert waste provides relief and sanctuary in its pools of fresh water. \n Size: 465 x 430 \n Lairs: 2x Goblin Lair, 4x Troll lair \n Neutral Structures: 2x Inn. \n Map from RotWK"
+END
+//------------------------------------------------------------
+Map:mapNewjunglesoffarharad
+"Jungles of Far Harad"
+END
+Map:mapNewjunglesoffarharad/Desc
+"This region in the very south of Far Harad is densely forested with tropical trees and bushes and supplied with water by rivers flowing out into the Great Sea. \n Map from RotWK"
+END
+//------------------------------------------------------------
+Map:mapNewwoodyend
+"Woody End"
+End
+Map:mapNewwoodyend/desc
+"Woody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east.\n\n Size: 580 x 480\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Outpost, 2x Signal Fire, 1x Tower. \n Map from RotWK"
+End
+//------------------------------------------------------------
+Map:mapNewtowerhillsiii
+"Tournament Tower Hills II"
+End
+Map:mapNewtowerhillsiii/desc
+"Map from RotWK, stolen by Bunito 2018."
+End//------------------------------------------------------------
+Map:mapNewriveroforodruin
+"River of Orodruin"
+End
+Map:mapNewriveroforodruin/desc
+"Orodruin, also known as Mount Doom, is a towering volcano in the land of Mordor. Around it, there is an arid plateau that is separated by rivers of lava.\n\n Size: 380 x 340\n Lairs: 2x Goblin Lair, 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Signal Fire. \n Map from RotWK"
+End
+//------------------------------------------------------------
+Map:mapNewrhunshore
+"Rhun Shore"
+End
+Map:mapNewrhunshore/Desc
+"Sea of Rhun is a large inland sea located in the arid domain of Esterling. After the downfall of Sauron, Aragorn and Éomer rode there to flush out the last remnants of the enemy forces.\n\n Size: 380 x 350\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 1x Outpost, 1x Inn. \n Map from RotWK"
+End
+//------------------------------------------------------------
+Map:mapNewpathsofthedead
+"Path of the dead"
+End
+Map:mapNewpathsofthedead/desc
+"A cavernous passageway through the White Mountains running from Dwimorberg in the north to the Morthond Vale in the south.\n\n Size: 230 x 390. \n Map from RotWK"
+End
+//------------------------------------------------------------
+Map:mapNewmithlondvalley
+"Mithlond Valley"
+End
+Map:mapNewmithlondvalley/desc
+"A periphery settlement of the Grey Havens, constructed in a great valley that originates in Ered Lindon. \n Map from RotWK"
+End
+//------------------------------------------------------------
+MAP:MapNewMirkwoodForest
+"Mirkwood Forest"
+END
+MAP:MapNewMirkwoodForest/Desc
+"The term Mirkwood is taken from William Morris, influenced by the forest Myrkvior of Norse mythology. Projected into Old English, it appears as Myrcwudu in Tolkien's The Lost Road, as a poem sung by AElfwine.\n\n Size: 380 x 380\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Signal Fire. \n Map from RotWK"
+END
+//------------------------------------------------------------
+Map:mapNewmidgewater
+"Midgewater"
+End
+Map:mapNewmidgewater/desc
+"The Midgewater Marshes is an area within Bree-land in the south-eastern region. It is known for its treacherous bogs that extend as far as the Weather Hills.\n\n Size: 370 x 310\n Lairs: 2x Spider Lair, 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn, 1x Signal Fire. \n Map from RotWK"
+End
+//------------------------------------------------------------
+Map:mapNewironhillsiv
+"Iron Hills IV"
+End
+Map:mapNewironhillsiv/desc
+"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n\n Size: 550 x 550\n Lairs: 4x Spider Lair, 2x Fire Drake Lair, 10x Destructible Environment\n Neutral Structures: 4x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK"
+End
+//------------------------------------------------------------
+Map:mapNewironhillsiii
+"Iron Hills III"
+End
+Map:mapNewironhillsiii/desc
+"A range of mountains located in northern Middle-earth. It is the realm of the Dwarves of Durin's Folk.\n\n Size: 498 x 398\n Lairs: 8x Spider Lair, 2x Fire Drake Lair, 4x Destructible Environment\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK"
+End
+//------------------------------------------------------------
+Map:mapNewIronHillsII
+"Iron Hills II"
+END
+Map:mapNewIronHillsII/Desc
+"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n\n Size: 600 x 535\n Lairs: 7x Spider Lair\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Fortress. \n Map from RotWK"
+END
+//------------------------------------------------------------
+Map:mapNewfordsofharnen
+"Fords of Harnen"
+End
+Map:MAPMPFordsOfHarnen/Desc
+"The river Harnen was a river south of Gondor. South of the Harnen lay the land of Near Harad.\n\n Size: 560 x 450\n Lairs: 4x Troll Lair\n Neutral Structures: 4x Signal Fire. \n Map from RotWK"
+END
+//------------------------------------------------------------
+Map:mapNeweredmithrin
+"Ered Mithrin"
+End
+Map:mapNeweredmithrin/Desc
+"Of old the Ered Mithrin had been mined and inhabited by Dwarves of Durin's Folk, but by the Third Age only one Dwarven stronghold remained, standing strong against raiding Dragons from the nearby Withered Heath.\n\n Size: 600 x 500\n Lairs: 4x Warg Lair, 1x Troll Lair, 3x Fire Drake Lair, 1x Destructible Environment\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Tower. \n Map from RotWK"
+End
+//------------------------------------------------------------
+Map:mapNewerechii
+"Erech II"
+End
+Map:mapNewerechii/desc
+"A hill west of Minas Tirith, where in ages past the faithless King of the Mountains swore an oath of fealty to Isildur.\n\n Size: 320 x 320\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn. \n Map from RotWK"
+End
+//------------------------------------------------------------
+Map:mapNewdwarrowdelf
+"Dwarrowdelf "
+End
+Map:mapNewdwarrowdelf/Desc
+"Khazad-dûm, also known as Hadhodrond, Casarrondo and Phurunargian, which translates to Dwarrowdelf, latterly known as Moria.\n\n Size: 600 x 500\n Lairs: 8x Goblin Lair, 4x Troll Lair\n Neutral Structures: 4x Outpost, 4x Inn, 2x Signal Fire. \n Map from RotWK"
+End
+//------------------------------------------------------------
+Map:mapNewdungeonsoferebor
+"Dungeons of Erebor"
+End
+Map:mapNewdungeonsoferebor/Desc
+"A vast cavern within the Lonely Mountain where the Dwarves mine their riches and trade with the Men of Dale.\n\n Size: 500 x 500\n Lairs: 2x Goblin Lair, 4x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK"
+End
+//------------------------------------------------------------
+Map:mapNewdruwaithreef
+"Druwait Reef"
+End
+Map:mapNewdruwaithreef/desc
+"This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK"
+End
+//------------------------------------------------------------
+Map:mapNewdesertofrhun
+"Desert Of Rhun"
+End
+Map:mapNewdesertofrhun/desc
+"A vast desert lying to the south-east of Rhun. Many unprepared travellers lose their way attempting to traverse this rugged region. \n\n Size: 550 x 550\n Lairs: 6x Goblin Lair\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK"
+End
+//------------------------------------------------------------
+Map:mapNewbrownlands8p
+"Brown Lands [8p]"
+END
+Map:mapNewbrownlands8p/Desc
+"Lands to the east of the River Anduin scorched by Sauron at the end of the Second Age. Once the lush home of the Entwives, this area has been desolate since the battles of the Last Alliance.\n\n Size: 500 x 500\n Lairs: 10x Goblin Lair\n Map from RotWK"
+END
+//------------------------------------------------------------
+Map:mapNewtournamentamonhen
+"Tournament Amon Hen"
+END
+Map:mapNewtournamentamonhen/Desc
+"Amon Hen was the westernmost of the three peaks at the southern end of Nen Hithoel. \n Edited by Ecthelion to play clanwars.cc. Disabled scripts and removed two wargs."
+END
+//------------------------------------------------------------
+Map:mapNewtournamentemynarnen
+"Tournament Emyn Arnen"
+END
+Map:mapNewtournamentemynarnen/Desc
+"Emyn Arnen means "Hills Beside the Water" in Sindarin, refering to the Great Anduin river.\n Located in Ithilien in the south of Osgiliath bordering the Mountains of Shadow.\n Map by Ecthelion."
+END
+//------------------------------------------------------------
+Map:mapNewforlindonhills
+"Forlindon Hills"
+END
+Map:mapNewforlindonhills/Desc
+"The region of Forlindon was inhabited by Elves and were the chief part of Gil-galad's kingdom, surrounded by the Blue Mountains and the Great Sea.\n Map by Jokuc."
+END
+//------------------------------------------------------------
+Map:mapNewtowerhills
+"Tower Hills [2p]"
+END
+Map:mapNewtowerhills/Desc
+"With a layout similar to Fords of Isen and the skin of Tower Hills, this 1v1 map is made to provide a mix of fun elements and balanced gameplay. \n Turn off ring heroes for tournament mode. \n Map by Jokuc."
+END
+//------------------------------------------------------------
+Map:mapNewudun ii
+"Udun [6p]"
+END
+Map:mapNewudun/Desc
+"The lands behind the Black Gate known as Udun take the name of the underworld due to the volcanic ash and noxious fumes that cover them.\n Map from RotWK community."
+END
+//------------------------------------------------------------
+Map:mapNewmountgram
+"Mount Gram"
+End
+Map:mapNewmountgram/desc
+"The mountain was long inhabited by a group of Orcs led by Golfimbul. They terrorized some of the inhabitants of eastern Eriador including those of the Shire. \n Map from RotWK."
+End
+//------------------------------------------------------------
+Map:mapNeweastfold
+"Eastfold"
+END
+Map:mapNeweastfold/Desc
+"The Eastfold was a region of Rohan which bordered with the Westfold via the Snowbourn River on the west and bordered with Anorien in Gondor to the east."
+END
+//------------------------------------------------------------
 Map:MapSBBrithombar
 "Brithombar"
 END
@@ -111,7 +352,7 @@ Map:MapSBColdfells
 "Coldfells"
 END
 Map:MapSBColdfells/Desc
-"Once part of the kingdom of Rhudaur, these hills are now wild and dangerous. Many trolls lurk in these places, which have once killed Arador, Chieftain of the Dunedain. \n Map by SilverBane` \n Lairs: Troll x5"
+"Once part of the kingdom of Rhudaur, these hills are now wild and dangerous. Many trolls lurk in these places, which have once killed Arador, Chieftain of the Dunedain. \n Lairs: Troll x5 \n Map by SilverBane`"
 END
 //------------------------------------------------------------
 Map:MapSBCrossroads
@@ -146,28 +387,28 @@ Map:MapSBLune
 "Lune"
 END
 Map:MapSBLune/Desc
-"The river Lune is a river of north-western Eriador. The Grey Havens lie at the mouth of this river. Map by SilverBane` \n Creeps: Wargs x2, Trolls x2 \n Neutral structures: Inn x2"
+"The river Lune is a river of north-western Eriador. The Grey Havens lie at the mouth of this river. \n Creeps: Wargs x2, Trolls x2 \n Neutral structures: Inn x2 \n Map by SilverBane`"
 End
 //------------------------------------------------------------
 Map:MapSBSeaofnurnen
 "Sea of Nurnen"
 End
 Map:MapSBSeaofnurnen/Desc
-"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord.\n Map by SilverBane` \n Lairs: Warg x2, Wight x2 \n Neutral Structures: Signal fire x2, Inn x2 "
+"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord. \n Lairs: Warg x2, Wight x2 \n Neutral Structures: Signal fire x2, Inn x2 \n Map by SilverBane`"
 End
 //------------------------------------------------------------
 Map:MapSBSeaofNurnenII
 "Sea of Nurnen II"
 END
 Map:MapSBSeaofNurnenII/Desc
-"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord.\n Map by SilverBane` \n Lairs: Warg x2 \n Neutral Structures: Inn x2 "
+"The lands around the Sea of Nurnen are lush and thriving. It is here, far from the smokes of Orodruin, where countless men work the fields for the armies of the Dark Lord. \n Lairs: Warg x2 \n Neutral Structures: Inn x2 \n Map by SilverBane`"
 End
 //------------------------------------------------------------
 Map:MapSBSirannon
 "Sirannon"
 End
 Map:MapSBSirannon/Desc
-"This once tumultuous river flows from the Gates of Durin to Ost-in-Edhil, the ruined elf city of Eregion.\n Now all that's left is a foul lake and but a thread of water from the once rich Stair Fall. \n Map by SilverBane` \n Lairs:2x Warg, 2x Troll \n Neutral Structures: 1x Inn "
+"This once tumultuous river flows from the Gates of Durin to Ost-in-Edhil, the ruined elf city of Eregion.\n Now all that's left is a foul lake and but a thread of water from the once rich Stair Fall. \n Lairs:2x Warg, 2x Troll \n Neutral Structures: 1x Inn \n Map by SilverBane` "
 END
 //------------------------------------------------------------
 Map:MapSBTournamentBree
@@ -195,36 +436,15 @@ Map:MapSBTrollshaws
 "Trollshaws"
 END
 Map:MapSBTrollshaws/Desc
-"Untamed lands that are difficult to pass through. The Last Homely House can be found east of these lands. \n Map by SilverBane` \n Lairs: Troll x2 \n Neutral Structures: Signal fire x2, Inn x1"
+"Untamed lands that are difficult to pass through. The Last Homely House can be found east of these lands.  \n Lairs: Troll x2 \n Neutral Structures: Signal fire x2, Inn x1 \n Map by SilverBane`"
 END
 //------------------------------------------------------------
 Map:MapSBUpperAnduin
 "Upper Anduin"
 END
 Map:MapSBUpperAnduin/Desc
-"The Anduin flows from northern reaches of Middle-Earth to the bay of Belfalas, far to the south. The ancestors of the Rohirrims lived near the springs of the Great River. \n Map by SilverBane` \n Creeps: 4x Warg, 1x Troll \n Neutral structures: 1x Inn"
+"The Anduin flows from northern reaches of Middle-Earth to the bay of Belfalas, far to the south. The ancestors of the Rohirrims lived near the springs of the Great River. \n Creeps: 4x Warg, 1x Troll \n Neutral structures: 1x Inn \n Map by SilverBane`"
 End
-//------------------------------------------------------------
-Map:mapmptournamentamonhen
-"Tournament Amon Hen"
-END
-Map:mapmptournamentamonhen/Desc
-"Amon Hen was the westernmost of the three peaks at the southern end of Nen Hithoel. \n Edited by Ecthelion to play clanwars.cc. Disabled scripts and removed two wargs."
-END
-//------------------------------------------------------------
-Map:EmynArnenTournament
-"Tournament Emyn Arnen"
-END
-Map:EmynArnenTournament/Desc
-"Emyn Arnen means "Hills Beside the Water" in Sindarin, refering to the Great Anduin river.\n Located in Ithilien in the south of Osgiliath bordering the Mountains of Shadow.\n Map by Ecthelion."
-END
-//------------------------------------------------------------
-Map:Eastfold
-"Eastfold"
-END
-Map:Eastfold/Desc
-"The Eastfold was a region of Rohan which bordered with the Westfold via the Snowbourn River on the west and bordered with Anorien in Gondor to the east."
-END
 //------------------------------------------------------------
 Map:AdornRiver
 "Adorn River"
@@ -254,20 +474,6 @@ Map:GreenfrogPass/Desc
 "A green lushful land divided by a central river."
 END
 //------------------------------------------------------------
-Map:JokucsForlindonHills
-"Forlindon Hills"
-END
-Map:JokucsForlindonHills/Desc
-"The region of Forlindon was inhabited by Elves and were the chief part of Gil-galad's kingdom, surrounded by the Blue Mountains and the Great Sea.\n Map by Jokuc."
-END
-//------------------------------------------------------------
-Map:JokucsTowerhills
-"Tower Hills [2p]"
-END
-Map:JokucsTowerhills/Desc
-"With a layout similar to Fords of Isen and the skin of Tower Hills, this 1v1 map is made to provide a mix of fun elements and balanced gameplay. \n Turn off ring heroes for tournament mode. \n Map by Jokuc."
-END
-//------------------------------------------------------------
 Map:Himling
 "Himling"
 END
@@ -275,12 +481,12 @@ Map:Himling/Desc
 "An icy land with a central mountain"
 END
 //------------------------------------------------------------
-Map:LanthirLamath
-"Lanthir Lamath"
-END
-Map:LanthirLamath/Desc
-"Lanthir Lamath was a sparkling and beautiful waterfall in Ossiriand at the foot of the southern range of the Blue Mountains (Ered Luin).\n It was part of a stream of the river Adurant. \n Map from RotWK."
-END
+//	Map:LanthirLamath
+//	"Lanthir Lamath"
+//	END
+//	Map:LanthirLamath/Desc
+//	"Lanthir Lamath was a sparkling and beautiful waterfall in Ossiriand at the foot of the southern range of the Blue Mountains (Ered Luin).\n It was part of a stream of the river Adurant. \n Map from RotWK."
+//	END
 //------------------------------------------------------------
 Map:mapmpamonamarth
 "Amon Amarth"
@@ -303,13 +509,6 @@ Map:MAPMPBrandybuck/Desc
 "In J. R. R. Tolkien's fictional universe of Middle-earth, the Brandybuck clan was a powerful Hobbit family. The family began as the Oldbuck clan, who named themselves such apparently after Bucca of the Marish"
 END
 //------------------------------------------------------------
-Map:mapmpmountgram
-"Mount Gram"
-End
-Map:mapmpmountgram/desc
-"The mountain was long inhabited by a group of Orcs led by Golfimbul. They terrorized some of the inhabitants of eastern Eriador including those of the Shire. \n Map from RotWK."
-End
-//------------------------------------------------------------
 Map:MAPMPBrandybuck
 "BrandyBuck"
 END
@@ -317,11 +516,11 @@ Map:MAPMPBrandybuck/Desc
 "In J. R. R. Tolkien's fictional universe of Middle-earth, the Brandybuck clan was a powerful Hobbit family. The family began as the Oldbuck clan, who named themselves such apparently after Bucca of the Marish"
 END
 //------------------------------------------------------------
-Map:WestEmnetII
-"West Emnet II"
+Map:mapmpwestemnet
+"West Emnet"
 END
-Map:WestEmnetII/Desc
-"BFME1 map, edited by Ecthelion. \n Grassy lands of Rohan, lying between the Entwash and the Isen River"
+Map:mapmpwestemnet/Desc
+"Grassy lands of Rohan, lying between the Entwash and the Isen River\n BFME1 map, edited by Ecthelion."
 END
 //------------------------------------------------------------
 Map:TheIvyBush
@@ -364,13 +563,6 @@ Map:mapmpwesterngondor
 END
 Map:mapmpwesterngondor/Desc
 "A coastal region in the western part of Gondor. Map from RotWK."
-END
-//------------------------------------------------------------
-Map:mapmpudunii
-"Udun [6p]"
-END
-Map:mapmpudunii/Desc
-"The lands behind the Black Gate known as Udun take the name of the underworld due to the volcanic ash and noxious fumes that cover them.\n Map from RotWK community."
 END
 //------------------------------------------------------------
 Map:mapmptyrngorthad
@@ -611,12 +803,12 @@ Map:EnedwaithII/Desc
 "A wide, open land that lies to the west of Rohan."
 END
 //------------------------------------------------------------
-Map:mapmptwilitshores
-"Twilit Shores"
-END
-Map:mapmptwilitshores/Desc
-"Lost in the seas of Tol Eressea, the Twilit isles have been said to be nearly unnavigable by mortal men. \n Map from RotWK."
-END
+//	Map:mapmptwilitshores
+//	"Twilit Shores"
+//	END
+//	Map:mapmptwilitshores/Desc
+//	"Lost in the seas of Tol Eressea, the Twilit isles have been said to be nearly unnavigable by mortal men. \n Map from RotWK."
+//	END
 //------------------------------------------------------------
 Map:mapmpwildsofforochel
 "Wilds of Forochel"
