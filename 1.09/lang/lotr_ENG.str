@@ -223,12 +223,12 @@ Map:MAPTESTFordsOfHarnen/Desc
 "The river Harnen was a river south of Gondor. South of the Harnen lay the land of Near Harad.\n\n Size: 560 x 450\n Lairs: 4x Troll Lair\n Neutral Structures: 4x Signal Fire. \n Map from RotWK"
 END
 //------------------------------------------------------------
-//	Map:mapTESTeredmithrin
-//	"Ered Mithrin"
-//	End
-//	Map:mapTESTeredmithrin/Desc
-//	"Of old the Ered Mithrin had been mined and inhabited by Dwarves of Durin's Folk, but by the Third Age only one Dwarven stronghold remained, standing strong against raiding Dragons from the nearby Withered Heath.\n\n Size: 600 x 500\n Lairs: 4x Warg Lair, 1x Troll Lair, 3x Fire Drake Lair, 1x Destructible Environment\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Tower. \n Map from RotWK"
-//	End
+Map:mapTESTeredmithrin
+"Ered Mithrin"
+End
+Map:mapTESTeredmithrin/Desc
+"Of old the Ered Mithrin had been mined and inhabited by Dwarves of Durin's Folk, but by the Third Age only one Dwarven stronghold remained, standing strong against raiding Dragons from the nearby Withered Heath.\n\n Size: 600 x 500\n Lairs: 4x Warg Lair, 1x Troll Lair, 3x Fire Drake Lair, 1x Destructible Environment\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Tower. \n Map from RotWK"
+End
 //------------------------------------------------------------
 Map:mapTESTerechii
 "Erech II"
@@ -46828,9 +46828,9 @@ END
 
 //Powers
 
-//	CONTROLBAR:ToolTipGandalfLeadership
-//	"Allies near Gandalf gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability \n Always Stacks"
-//	END
+CONTROLBAR:ToolTipGandalfLeadership
+"Allies near Gandalf gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability \n Always Stacks" // obsolete
+END
 
 
 //Fortress upgrades
