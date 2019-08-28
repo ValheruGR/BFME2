@@ -15796,7 +15796,7 @@ CONTROLBAR:TooltipScreechBlackRider
 END
 
 CONTROLBAR:TooltipScreechWitchKing
-"Voraussetzung: Stufe 6 \n Schlägt feindliche Einheiten in die Flucht \n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 4 \n Schlägt feindliche Einheiten in die Flucht \n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:NarsilAttack
@@ -43750,7 +43750,7 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"Rohstoffproduktion des gewählten Gebäudes wird vorübergehend auf 300% erhöht \n Linksklicke auf das Symbol und anschließend auf das gewünschte Gebäude"
+"Rohstoffproduktion des gewählten Gebäudes wird vorübergehend auf 400% erhöht \n Linksklicke auf das Symbol und anschließend auf das gewünschte Gebäude"
 END
 
 CONTROLBAR:TooltipPalantirVision

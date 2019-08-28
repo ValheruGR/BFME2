@@ -15758,7 +15758,7 @@ CONTROLBAR:TooltipScreechBlackRider
 END
 
 CONTROLBAR:TooltipScreechWitchKing
-"Wymaga 6 poziomu \n Sprawia, ze jednostki wroga uciekaja w przerazeniu \n Kliknij lewym przyciskiem, aby uaktywnic"
+"Wymaga 4 poziomu \n Sprawia, ze jednostki wroga uciekaja w przerazeniu \n Kliknij lewym przyciskiem, aby uaktywnic"
 END
 
 CONTROLBAR:NarsilAttack
@@ -43706,7 +43706,7 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"Tymczasowo zwieksza o +300% produkcje zasobów w wybranym budynku \n Kliknij lewym przyciskiem na ikonie, a nastepnie na budynku produkujacym zasoby"
+"Tymczasowo zwieksza o +400% produkcje zasobów w wybranym budynku \n Kliknij lewym przyciskiem na ikonie, a nastepnie na budynku produkujacym zasoby"
 END
 
 CONTROLBAR:TooltipPalantirVision

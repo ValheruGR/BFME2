@@ -15792,7 +15792,7 @@ CONTROLBAR:TooltipScreechBlackRider
 END
 
 CONTROLBAR:TooltipScreechWitchKing
-"Richiede livello 6.\nFa fuggire le unità nemiche in preda al terrore.\nClicca con il pulsante sinistro per attivare."
+"Richiede livello 4.\nFa fuggire le unità nemiche in preda al terrore.\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:NarsilAttack
@@ -43749,7 +43749,7 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"La produzione di risorse nella struttura selezionata aumenta temporaneamente del 300%.\nClicca con il pulsante sinistro sull'icona, quindi sulla struttura di produzione delle risorse."
+"La produzione di risorse nella struttura selezionata aumenta temporaneamente del 400%.\nClicca con il pulsante sinistro sull'icona, quindi sulla struttura di produzione delle risorse."
 END
 
 CONTROLBAR:TooltipPalantirVision

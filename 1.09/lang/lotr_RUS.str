@@ -15761,7 +15761,7 @@ CONTROLBAR:TooltipScreechBlackRider
 END
 
 CONTROLBAR:TooltipScreechWitchKing
-"Треубется уровень 6. \n Враги в ужасе разбегаются. \n ЛКМ - применение способности."
+"Треубется уровень 4. \n Враги в ужасе разбегаются. \n ЛКМ - применение способности."
 END
 
 CONTROLBAR:NarsilAttack
@@ -43711,7 +43711,7 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"Указанная постройка временно производит 300% ресурса. \n Щелкните на пиктограмме, затем - на постройке."
+"Указанная постройка временно производит 400% ресурса. \n Щелкните на пиктограмме, затем - на постройке."
 END
 
 CONTROLBAR:TooltipPalantirVision

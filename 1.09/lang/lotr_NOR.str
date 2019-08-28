@@ -15762,7 +15762,7 @@ CONTROLBAR:TooltipScreechBlackRider
 END
 
 CONTROLBAR:TooltipScreechWitchKing
-"Krever: nivå 6\nFår fienden til å flykte av skrekk\nVenstreklikk for å aktivere"
+"Krever: nivå 4\nFår fienden til å flykte av skrekk\nVenstreklikk for å aktivere"
 END
 
 CONTROLBAR:NarsilAttack
@@ -43710,7 +43710,7 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"Det valgte byggverkets ressursproduksjon heves midlertidig til 300 %\nVenstreklikk på ikonet, og venstreklikk på ressursbygningen"
+"Det valgte byggverkets ressursproduksjon heves midlertidig til 400 %\nVenstreklikk på ikonet, og venstreklikk på ressursbygningen"
 END
 
 CONTROLBAR:TooltipPalantirVision

@@ -15761,7 +15761,7 @@ CONTROLBAR:TooltipScreechBlackRider
 END
 
 CONTROLBAR:TooltipScreechWitchKing
-"Kräver grad 6 \nFår fiendeenheter att fly i skräck \nVänsterklicka för att aktivera"
+"Kräver grad 4 \nFår fiendeenheter att fly i skräck \nVänsterklicka för att aktivera"
 END
 
 CONTROLBAR:NarsilAttack
@@ -43710,7 +43710,7 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"Markerad byggnads resursproduktion höjs temporärt till 300% \n av den nuvarande \n Vänsterklicka på ikonen, vänsterklicka sedan på byggnaden"
+"Markerad byggnads resursproduktion höjs temporärt till 400% \n av den nuvarande \n Vänsterklicka på ikonen, vänsterklicka sedan på byggnaden"
 END
 
 CONTROLBAR:TooltipPalantirVision

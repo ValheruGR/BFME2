@@ -175,7 +175,7 @@ Map:mapTESTpathsofthedead/desc
 End
 //------------------------------------------------------------
 Map:mapTESTmithlondvalley
-"Mithlond Valley"
+"Mithlond Valley" // MAP REMOVED
 End
 Map:mapTESTmithlondvalley/desc
 "A periphery settlement of the Grey Havens, constructed in a great valley that originates in Ered Lindon. \n Map from RotWK"
@@ -203,7 +203,7 @@ Map:mapTESTironhillsiv/desc
 End
 //------------------------------------------------------------
 Map:mapTESTironhillsiii
-"Iron Hills III"
+"Iron Hills III" // MAP REMOVED
 End
 Map:mapTESTironhillsiii/desc
 "A range of mountains located in northern Middle-earth. It is the realm of the Dwarves of Durin's Folk.\n\n Size: 498 x 398\n Lairs: 8x Spider Lair, 2x Fire Drake Lair, 4x Destructible Environment\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK"
@@ -238,14 +238,14 @@ Map:mapTESTerechii/desc
 End
 //------------------------------------------------------------
 Map:mapTESTdwarrowdelf
-"Dwarrowdelf "
+"Dwarrowdelf " // MAP REMOVED
 End
 Map:mapTESTdwarrowdelf/Desc
 "Khazad-dûm, also known as Hadhodrond, Casarrondo and Phurunargian, which translates to Dwarrowdelf, latterly known as Moria.\n\n Size: 600 x 500\n Lairs: 8x Goblin Lair, 4x Troll Lair\n Neutral Structures: 4x Outpost, 4x Inn, 2x Signal Fire. \n Map from RotWK"
 End
 //------------------------------------------------------------
 Map:maptestdungeonsoferebor
-"Dungeons of Erebor"
+"Dungeons of Erebor" // MAP REMOVED
 End
 Map:maptestdungeonsoferebor/Desc
 "A vast cavern within the Lonely Mountain where the Dwarves mine their riches and trade with the Men of Dale.\n\n Size: 500 x 500\n Lairs: 2x Goblin Lair, 4x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK"
@@ -259,7 +259,7 @@ Map:maptestdruwaithreef/desc
 End
 //------------------------------------------------------------
 Map:maptestbrownlands8p
-"Brown Lands [8p]"
+"Brown Lands [8p]" // MAP REMOVED
 END
 Map:maptestbrownlands8p/Desc
 "Lands to the east of the River Anduin scorched by Sauron at the end of the Second Age. Once the lush home of the Entwives, this area has been desolate since the battles of the Last Alliance.\n\n Size: 500 x 500\n Lairs: 10x Goblin Lair\n Map from RotWK"
@@ -17249,7 +17249,7 @@ CONTROLBAR:TooltipScreechBlackRider
 END
 
 CONTROLBAR:TooltipScreechWitchKing
-"Requires Level 6 \n Causes enemy units to flee in terror \n When dismounted it can pierce through the level 5 fear immunity from enemy hordes \n Left click to activate"
+"Requires Level 4 \n Causes enemy units to flee in terror \n When dismounted it can pierce through the level 5 fear immunity from enemy hordes \n Left click to activate"
 END
 
 CONTROLBAR:NarsilAttack
@@ -23436,7 +23436,7 @@ Map:MAPMPNurn
 END
 
 Map:MAPMPBrownLands
-"Old Brown Lands"
+"Old Brown Lands" // MAP REMOVED
 END
 
 Map:MAPMPOsgiliath
@@ -23847,7 +23847,7 @@ Map:MAPMPNurn/Desc
 END
 
 Map:MAPMPBrownLands/Desc
-"A rocky, desolate area that lies to the south of Mirkwood."
+"A rocky, desolate area that lies to the south of Mirkwood." // MAP REMOVED
 END
 
 Map:MAPMPOsgiliath/Desc
@@ -27307,8 +27307,8 @@ CONTROLBAR:ConstructDwarvenStatue
 "Build Hero&ic Statue"
 END
 
-CONTROLBAR:TooltipConstructDwarvenStatue // obsolete
-"Allies near the statue gain \n +50% Armor \n Increases command point limit by 10"
+CONTROLBAR:TooltipConstructDwarvenStatue
+"Allies near the statue gain \n +50% Armor \n Increases command point limit by 10" // obsolete
 END
 
 CONTROLBAR:ConstructDwarvenArcheryRange
@@ -46829,7 +46829,7 @@ END
 //Powers
 
 CONTROLBAR:ToolTipGandalfLeadership
-"Allies near Gandalf gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability \n Always Stacks" // obsolete
+"Allies near Gandalf gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability \n Always Stacks" // Obsolete
 END
 
 
