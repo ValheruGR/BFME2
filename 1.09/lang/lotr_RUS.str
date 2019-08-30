@@ -111,6 +111,41 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapmpnothing
+"nothing"
+END
+Map:mapmpnothing/Desc
+"nothing"
+END
+//------------------------------------------------------------
+Map:mapmpdimrilldale
+"Dimrill Dale"
+END
+Map:mapmpdimrilldale/Desc
+"This valley east of Moria has been the final battleground of the War of the Dwarves and Orcs. \n Map by SilverBane` \n Lairs: 2x Goblins"
+END
+//------------------------------------------------------------
+Map:mapsbsirayn
+"Sirayn"
+END
+Map:mapsbsirayn/Desc
+"This ruined city lies deep in the forests of Far Harad. It is a Numenorean relic of the Second Age. \n Map by SilverBane`"
+END
+//------------------------------------------------------------
+Map:mapSBtrollshaws
+"Trollshaws"
+END
+Map:mapSBtrollshaws/Desc
+"Untamed lands that are difficult to pass through. The Last Homely House can be found east of these lands. \n Lairs: Troll x2 \n Neutral Structures: Signal fire x2, Inn x1 \n Map by SilverBane`"
+END
+//------------------------------------------------------------
+Map:mapSBplateauofgorgoroth
+"Plateau of Gorgoroth"
+END
+Map:mapSBplateauofgorgoroth/Desc
+"The Plateau of Gorgoroth is a deadly, barren region plagued by ash, fumes and countless orcs. \n Capturing the existing two water cisterns may prove useful. \n Neutral structures: 2x Water cistern. \n Map by SilverBane`"
+END
+//------------------------------------------------------------
 Map:mapTESTwoodyend
 "Woody End"
 End
@@ -129,7 +164,7 @@ Map:mapTESTrhunshore
 "Rhun Shore"
 End
 Map:mapTESTrhunshore/Desc
-"Sea of Rhun is a large inland sea located in the arid domain of Esterling. After the downfall of Sauron, Aragorn and Eomer rode there to flush out the last remnants of the enemy forces.\n\n Size: 380 x 350\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 1x Outpost, 1x Inn. \n Map from RotWK"
+"Sea of Rhun is a large inland sea located in the arid domain of Esterling. After the downfall of Sauron, Aragorn and Éomer rode there to flush out the last remnants of the enemy forces.\n\n Size: 380 x 350\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 1x Outpost, 1x Inn. \n Map from RotWK"
 End
 //------------------------------------------------------------
 Map:mapTESTpathsofthedead
@@ -140,7 +175,7 @@ Map:mapTESTpathsofthedead/desc
 End
 //------------------------------------------------------------
 Map:mapTESTmithlondvalley
-"Mithlond Valley"
+"Mithlond Valley" // MAP REMOVED
 End
 Map:mapTESTmithlondvalley/desc
 "A periphery settlement of the Grey Havens, constructed in a great valley that originates in Ered Lindon. \n Map from RotWK"
@@ -168,18 +203,11 @@ Map:mapTESTironhillsiv/desc
 End
 //------------------------------------------------------------
 Map:mapTESTironhillsiii
-"Iron Hills III"
+"Iron Hills III" // MAP REMOVED
 End
 Map:mapTESTironhillsiii/desc
 "A range of mountains located in northern Middle-earth. It is the realm of the Dwarves of Durin's Folk.\n\n Size: 498 x 398\n Lairs: 8x Spider Lair, 2x Fire Drake Lair, 4x Destructible Environment\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK"
 End
-//------------------------------------------------------------
-Map:mapTESTIronHillsII
-"Iron Hills II"
-END
-Map:mapTESTIronHillsII/Desc
-"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n\n Size: 600 x 535\n Lairs: 7x Spider Lair\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Fortress. \n Map from RotWK"
-END
 //------------------------------------------------------------
 Map:mapTESTfordsofharnen
 "Fords of Harnen"
@@ -203,14 +231,14 @@ Map:mapTESTerechii/desc
 End
 //------------------------------------------------------------
 Map:mapTESTdwarrowdelf
-"Dwarrowdelf "
+"Dwarrowdelf " // MAP REMOVED
 End
 Map:mapTESTdwarrowdelf/Desc
-"Khazad-dum, also known as Hadhodrond, Casarrondo and Phurunargian, which translates to Dwarrowdelf, latterly known as Moria.\n\n Size: 600 x 500\n Lairs: 8x Goblin Lair, 4x Troll Lair\n Neutral Structures: 4x Outpost, 4x Inn, 2x Signal Fire. \n Map from RotWK"
+"Khazad-dûm, also known as Hadhodrond, Casarrondo and Phurunargian, which translates to Dwarrowdelf, latterly known as Moria.\n\n Size: 600 x 500\n Lairs: 8x Goblin Lair, 4x Troll Lair\n Neutral Structures: 4x Outpost, 4x Inn, 2x Signal Fire. \n Map from RotWK"
 End
 //------------------------------------------------------------
 Map:maptestdungeonsoferebor
-"Dungeons of Erebor"
+"Dungeons of Erebor" // MAP REMOVED
 End
 Map:maptestdungeonsoferebor/Desc
 "A vast cavern within the Lonely Mountain where the Dwarves mine their riches and trade with the Men of Dale.\n\n Size: 500 x 500\n Lairs: 2x Goblin Lair, 4x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK"
@@ -224,7 +252,7 @@ Map:maptestdruwaithreef/desc
 End
 //------------------------------------------------------------
 Map:maptestbrownlands8p
-"Brown Lands [8p]"
+"Brown Lands [8p]" // MAP REMOVED
 END
 Map:maptestbrownlands8p/Desc
 "Lands to the east of the River Anduin scorched by Sauron at the end of the Second Age. Once the lush home of the Entwives, this area has been desolate since the battles of the Last Alliance.\n\n Size: 500 x 500\n Lairs: 10x Goblin Lair\n Map from RotWK"
@@ -262,7 +290,7 @@ Map:mapNEWmoongladevale
 "Moonglade Vale"
 END
 Map:mapNEWmoongladevale/Desc
-"The Elves of Middle-earth revere moonforests in adoration to Varda, creator of starlight, whom they call Elbereth. \n Size: 480 x 480 \n Lairs: 2x Troll Lair, 2x Goblin Cave. \n Map from RotWK"
+"The Elves of Middle-earth revere moonforests in adoration to Varda, creator of starlight, whom they call Elbereth. \n Size: 480 x 480 \n Lairs: 2x Troll Lair, 2x Goblin Cave. \n Map from RotWK \n Time of the day changed to Morning, originally Night"
 END
 //------------------------------------------------------------
 Map:mapNEWanfalasii
@@ -710,7 +738,7 @@ Map:mapmpmithrilhillsii
 "Mithril Hills"
 END
 Map:mapmpmithrilhillsii/Desc
-"A range of mountains located in northern Middle-earth. It is the realm of the Dwarves of Durin's Folk. \n Map from RotWK."
+"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n\n Size: 600 x 535\n Lairs: 7x Spider Lair\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Fortress. \n Map from RotWK"
 END
 //------------------------------------------------------------
 Map:mapmplorienplateau
