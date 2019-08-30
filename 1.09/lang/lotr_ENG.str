@@ -118,11 +118,11 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
+Map:mapmpdimrilldale
+"Dimrill Dale"
 END
-Map:mapmpnothing/Desc
-"nothing"
+Map:mapmpdimrilldale/Desc
+"This valley east of Moria has been the final battleground of the War of the Dwarves and Orcs. \n Map by SilverBane` \n Lairs: 2x Goblins"
 END
 //------------------------------------------------------------
 Map:mapsbsirayn
@@ -209,13 +209,6 @@ Map:mapTESTironhillsiii/desc
 "A range of mountains located in northern Middle-earth. It is the realm of the Dwarves of Durin's Folk.\n\n Size: 498 x 398\n Lairs: 8x Spider Lair, 2x Fire Drake Lair, 4x Destructible Environment\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK"
 End
 //------------------------------------------------------------
-Map:mapTESTIronHillsII
-"Iron Hills II"
-END
-Map:mapTESTIronHillsII/Desc
-"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n\n Size: 600 x 535\n Lairs: 7x Spider Lair\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Fortress. \n Map from RotWK"
-END
-//------------------------------------------------------------
 Map:mapTESTfordsofharnen
 "Fords of Harnen"
 End
@@ -297,7 +290,7 @@ Map:mapNEWmoongladevale
 "Moonglade Vale"
 END
 Map:mapNEWmoongladevale/Desc
-"The Elves of Middle-earth revere moonforests in adoration to Varda, creator of starlight, whom they call Elbereth. \n Size: 480 x 480 \n Lairs: 2x Troll Lair, 2x Goblin Cave. \n Map from RotWK"
+"The Elves of Middle-earth revere moonforests in adoration to Varda, creator of starlight, whom they call Elbereth. \n Size: 480 x 480 \n Lairs: 2x Troll Lair, 2x Goblin Cave. \n Map from RotWK \n Time of the day changed to Morning, originally Night"
 END
 //------------------------------------------------------------
 Map:mapNEWanfalasii
@@ -745,7 +738,7 @@ Map:mapmpmithrilhillsii
 "Mithril Hills"
 END
 Map:mapmpmithrilhillsii/Desc
-"A range of mountains located in northern Middle-earth. It is the realm of the Dwarves of Durin's Folk. \n Map from RotWK."
+"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n\n Size: 600 x 535\n Lairs: 7x Spider Lair\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Fortress. \n Map from RotWK"
 END
 //------------------------------------------------------------
 Map:mapmplorienplateau
