@@ -118,10 +118,10 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpdimrilldale
+Map:mapSBdimrilldale
 "Dimrill Dale"
 END
-Map:mapmpdimrilldale/Desc
+Map:mapSBdimrilldale/Desc
 "This valley east of Moria has been the final battleground of the War of the Dwarves and Orcs. \n Map by SilverBane` \n Lairs: 2x Goblins"
 END
 //------------------------------------------------------------
@@ -16264,11 +16264,11 @@ CONTROLBAR:ToolTipSpeechCraft
 END
 
 CONTROLBAR:ToolTipDisguise
-"Requisito: Nivel 4 \n Se disfraza como un rohirrim normal, usando sus armas y peleando como una de ellos. \n Haz clic con el botón izquierdo para activarlo."
+"Requisito: Nivel 4 \n Se disfraza como un rohirrim normal, usando sus armas y peleando como una de ellos. \n Cancela el bonus Doncella Guerrera. \n Haz clic con el botón izquierdo para activarlo."
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Requisito: Nivel 5 \n Eowyn recibe +35% a la armadura. \n Reduce la disminución de velocidad por pisoteo de Rohirrim amigos \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 5 \n Eowyn recibe +35% a la armadura. \n Reduce la disminución de velocidad por pisoteo de Rohirrim amigos \n Cancela el Disfraz. \n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:ToggleTrebWeapon
@@ -43866,7 +43866,7 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Poderoso ataque a distancia contra un objetivo. \n Especialmente poderoso contra monstruos voladores de Mordor. \n Bonificación contra heroes de la oscuridad \n\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Poderoso ataque a distancia contra un objetivo. \n Especialmente poderoso contra monstruos voladores de Mordor. \n Bonificación contra heroes \n Cancela el Disfraz. \n\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToggleFaramirWeapons
