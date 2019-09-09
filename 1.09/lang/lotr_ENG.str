@@ -115,11 +115,11 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
+Map:mapSBbarrowdowns
+"The Barrow Downs"
 END
-Map:mapmpnothing/Desc
-"nothing"
+Map:mapSBbarrowdowns/Desc
+"The Barrow Downs or Tyrn Gorthad are a series of hills east of the Shire. Many wights roam these once sacred hills. \n Lairs: 3x Barrow Wight \n Map by SilverBane`"
 END
 //------------------------------------------------------------
 Map:mapSBdimrilldale
@@ -31570,7 +31570,7 @@ CONTROLBAR:IvoryTowerVision
 End
 
 CONTROLBAR:Knife
-"Knife"
+"Knife [&R]"
 End
 
 CONTROLBAR:LightBlast_Level1
@@ -46936,7 +46936,7 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Cancels the Disguise. \n Left click icon then left click on target"
+"Requires Level 2 \n Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Cancels the Disguise. \n Left click icon then left click on target"
 END
 
 //Faramir

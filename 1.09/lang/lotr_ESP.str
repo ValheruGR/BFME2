@@ -29054,7 +29054,7 @@ CONTROLBAR:IvoryTowerVision
 END
 
 CONTROLBAR:Knife
-"Cuchillo"
+"Cuchillo (&R)"
 END
 
 CONTROLBAR:MenLongShotAbility
@@ -43866,7 +43866,7 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Poderoso ataque a distancia contra un objetivo. \n Especialmente poderoso contra monstruos voladores de Mordor. \n Bonificación contra heroes \n Cancela el Disfraz. \n\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 2 \n Poderoso ataque a distancia contra un objetivo. \n Especialmente poderoso contra monstruos voladores de Mordor. \n Bonificación contra heroes \n Cancela el Disfraz. \n\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToggleFaramirWeapons

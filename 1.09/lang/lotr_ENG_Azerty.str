@@ -22,6 +22,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+OBJECT:TheForsakenInn
+"The Forsaken Inn" 
+End
+//------------------------------------------------------------
 UPGRADE:ElvenSilverthornArrows
 "Silverthorn Munitions"
 END
