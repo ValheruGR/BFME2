@@ -22,59 +22,55 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
-OBJECT:TheForsakenInn
-"The Forsaken Inn" 
-End
-//------------------------------------------------------------
 UPGRADE:ElvenSilverthornArrows
 "Silverthorn Munitions"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSarumanLeadership_New
-"Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
+"Saruman'a yakýn müttefikler \n +25% Zýrh, \n ve deneyim kazan 25% daha hýzlý \n Herzaman yýðýnlar \n \n Pasif kabliyet"
 END
 //------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
-"&Silverthorn Munitions"
+"&Gümüsthorn Mermileri"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn_New
-"Grants Silverthorn Munitions to fortress and all attached towers \n Increases the damage caused by arrows"
+"Gümüþ Hibeler Mermileri kale ve tüm baðlý kuleler \n Oklarýn neden olduðu hasarý arttýrýr"
 END
 //------------------------------------------------------------
 CONTROLBAR:WordofPowerSauron_New
-"Word of Power [&B]"
+"Güç Sözü [&B]"
 END
 CONTROLBAR:ToolTipWordofPowerSauron_New
-"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
+"Çevredeki düþmanlarý öldüren bir þok dalgasý gönderir \n Etkinleþtirmek için sol týklayýn"
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower_New
 "Nenya [&V]"
 END
 CONTROLBAR:GaladrielWordOfPowerDesc_New
-"Requires Level 10 \n Nenya \Sends out a shockwave that destroys surrounding enemies \n Left click to activate"
+"Seviye 10 gerektirir \n Nenya \Çevredeki düþmanlarý yok eden bir þok dalgasý gönderir \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower_New
-"&Ring Of Power"
+"&Güç Halkasý"
 END
 CONTROLBAR:RingOfPowerDesc_New
-"Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
+"Sauron, gölge ve alev akýþý yaratýr, etrafýndaki düþmanlara sürekli zarar verir \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond_New
-"Heal nearby units \n Less effective on heroes and more effective on hordes and monsters \n Provides 15% HP and 25% bonus experience for 12s to infantry, cavalry, and monsters(not heroes)\n provides resistance to fear and terror \n Left click to activate"
+"Yakýndaki birimleri iyileþtir \n Kahramanlar üzerinde daha az etkili, ordularda ve canavarlarda daha etkili \n Saðlar 15% HP ve 25% bonus deneyim için 12s piyadelere , süvari,ve canavarlar(kahramanlar deðil)\n korku ve teröre karþý direnç saðlar \n Etkinleþtirmek için sol týklayýn"
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain_New
-"King's Favor [&C]"
+"Kral'ýn Favorisi [&C]"
 END
 CONTROLBAR:KingsFavorDainDesc_New
-"Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
+"Seviye 7 gerektirir\n Hedeflenen birimler deneyim kazanýyor \n Sol týklama ikonuna ve daha sonra hedef birimlere sol týklama"
 END
 //------------------------------------------------------------
 CONTROLBAR:SauronsFiresOfDoomDesc_New
-"Calls down many molten rocks in an area around Sauron, \n Left click icon starts the channeling \n Does not hurt allies"
+"Sauron çevresindeki bir alanda birçok erimiþ kayayý çaðýrýr, \n Sol týklama ikonu kanallamaya baþlar \n Müttefiklere zarar vermez"
 END
 //------------------------------------------------------------
 
@@ -115,11 +111,11 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapSBbarrowdowns
-"The Barrow Downs"
+Map:mapmpnothing
+"nothing"
 END
-Map:mapSBbarrowdowns/Desc
-"The Barrow Downs or Tyrn Gorthad are a series of hills east of the Shire. Many wights roam these once sacred hills. \n Lairs: 3x Barrow Wight \n Map by SilverBane`"
+Map:mapmpnothing/Desc
+"nothing"
 END
 //------------------------------------------------------------
 Map:mapSBdimrilldale
@@ -406,25 +402,25 @@ Map:MapSBBrithombar
 "Brithombar"
 END
 Map:MapSBBrithombar/Desc
-"A fertile bay in the western Beleriand. As all other regions in Beleriand except Ered Luin and Lindon, it sank at the end of the First Age. \n Map by SilverBane`"
+"Beleriand'ýn batýsýndaki verimli bir koy. Ered Luin ve Londra hariç, Beleriand'daki diðer tüm bölgeler gibi, Ýlk Çaðýn sonunda battý. \n Map by SilverBane`"
 END
 //------------------------------------------------------------
 Map:MapSBColdfells
-"Coldfells"
+"Soðuk düþüyor"
 END
 Map:MapSBColdfells/Desc
-"Once part of the kingdom of Rhudaur, these hills are now wild and dangerous. Many trolls lurk in these places, which have once killed Arador, Chieftain of the Dunedain. \n Lairs: Troll x5 \n Map by SilverBane`"
+"Bir zamanlar Rhudaur krallýðýnýn bir parçasý olan bu tepeler vahþi ve tehlikelidir.. Bu yerlerde birçok trol gizleniyor, bir zamanlar Arador'u öldürdü, Dunedain Þefi. \n Map by SilverBane` \n Lairs: Troll x5"
 END
 //------------------------------------------------------------
 Map:MapSBCrossroads
-"The Crossroads"
+"Kavþak"
 END
 Map:MapSBCrossroads/Desc
 "The Crossroads of Ithilien is a point where the road that leads to the Black Gate meets with the road that leads to Minas Tirith. Frodo and Sam passed by the Crossroads on their way to Cirith Ungol.\n Map by SilverBane`"
 END
 //------------------------------------------------------------
 Map:MapSBDagorladMirkwoodSkin
-"Dagorlad - Mirkwood skin"
+"Dagorlad - Mirkwood cildi"
 END
 Map:MapSBDagorladMirkwoodSkin/Desc
 "Same map as Dagorlad but with Mirkwood skin, added river and replaced drake lairs with troll lairs. \n Map by SilverBane` "
@@ -438,7 +434,7 @@ Map:MapSBFordsofCalenduin/Desc
 END
 //------------------------------------------------------------
 Map:MapSBFrozenRift
-"Frozen Rift" // The
+"Dondurulmuþ yarýk" // The
 End
 Map:MapSBFrozenRift/Desc
 "This breathtaking-cold rift can be found in the frozen wastes of the North, close to the Ice Bay of Forochel. The Lossoth are amongst the few who dare brave these frozen lands. \n Map by SilverBane` \n Neutral Structures: Signal Fire x1 \n Lairs: Troll x2, Goblin x2"
@@ -892,31 +888,31 @@ END
 //------------------------------------------------------------
 
 CONTROLBAR:ArwenLeadershipDesc_New
-"Requires Level 4 \n Allies near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+"Gereken Seviye 4 \ n Arwen yakýnýndaki müttefikleri \ n +% 25 Zýrh kazanýn ve deneyimini% 25 daha hýzlý kazanýn \ n Her zaman istifler \ n \ nYaþýrtýcý yetenek"
 End
 CONTROLBAR:GaladHealBTP
-"&Light Of Galadriel"
+"Galadrie&l'in Isigi"
 END
 CONTROLBAR:ToolTipGaladHeal
 "Heals all allied units and heroes in a large circle around Galadriel \n Left click to activate"
 END
 CONTROLBAR:LadyOfLight
-"Light Of &Valars"
+"&Valar'in Isigi"
 END
 CONTROLBAR:TooltipLadyOfLight
-"Call down the Light of Valar onto your enemies. \n Deals massive damage in a large area"
+"Valar Iþýðýný düþmanlarýna indir. \n Geniþ bir alanda büyük hasar verir"
 END
 CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Summon Three Fi&res of Doom around Sauron in a circle"
+"Üç Ateþ Topla Doom of Sauron çevresinde bir daire içinde"
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and +25% experience \n Always stacks"
+"Kalede yükseltme araþtýrmasý gerektirir. \n\n Yakýndaki müttefiklere saðlar +25% hasar ve +25% deneyim \n Always stacks"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
+"Kalede yükseltme araþtýrmasý gerektirir. \n\n Yakýndaki müttefikleri iyileþtirir. \n Her 10 saniyede bir birim baþýna bir birim doldur"
 END
 CONTROLBAR:LoneTowerArmorUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Significantly reduces the amount of damage taken."
+"Kalede yükseltme araþtýrmasý gerektirir. \n\n Alýnan hasar miktarýný önemli ölçüde azaltýr."
 END
 
 
@@ -927,46 +923,46 @@ END
 //------------------------------------------------------------
 
 CONTROLBAR:GrabPassengerTB
-"Pickup Merry or Pippin"
+"Merry veya Pippin'i alýn"
 END
 CONTROLBAR:SpecialAbility_ShieldBubble
-"Shield B&ubble"
+"Kalkan Kabarcýk"
 END
 CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"The Wizard transfers all of his Power into a Shield that will absorbs every kind of damage dealt on him. \n Gandalf also gains inmunity to knock-back. \n Lasts 5 seconds. \n \n Left click icon to activate"
+"TSihirbazý tüm Gücünü kendisine verilen her türlü zararý emecek bir Kalkan'a aktarýr.. \n Gandalf ayrýca devrilme dokunulmazlýðý kazandý \n L5 saniye sürer. \n \n Etkinleþtirmek için sol týklama simgesine"
 END
 CONTROLBAR:Fire_pit
-"Fire pit (&V)"
+"Ateþ çukuru (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants a stacking bonus of +5% armor \n Detect stealth"
+"Müttefiklerin yakýnýnda iyileþen kamp ateþi \n Her 5 saniyede bir birim baþýna 1 birim doldur. \n Ýstifleme bonusu verir +5% Zýrh\n Gizli tespit"
 END
 CONTROLBAR:FireWorks
-"FireWorks / Ignite [&V]"
+"Havai fiþek / Ignite [&V]"
 END
 CONTROLBAR:ToolTipFireWorks
-"Merry can drop Fireworks \n on the ground and ignite it \n \n Left click to activate  "
+"Merry Fireworks yazýlýmýný býrakabilir \n yere ve tutuþturmak \n \n Etkinleþtirmek için sol týklayýn  "
 End
 CONTROLBAR:FireWorks2
-"Ignite Fireworks [&B]"
+"Fireworks'ü Ateþle[&B]"
 END
 CONTROLBAR:ToolTipFireWorks2
-"Fireworks damages units within large radius \n \n Left click to activate "
+"Fireworks  geniþ çaptaki birimlere zarar verir \n \n Etkinleþtirmek için sol týklayýn "
 End
 CONTROLBAR:FireWorksObj
-"FireWorks"
+"Havai fiþek"
 END
 CONTROLBAR:HobbitFireCracker
-"Firecracker [&R]"
+"fiþek [&R]"
 END
 CONTROLBAR:ToolTipHobbitFireCracker
-"Hero can throw a small Firecracker \n Left click icon then left click on target"
+"Kahraman küçük bir Kestane fiþeði atabilir \n Sol týklama ikonuna ve daha sonra hedefe sol týklama"
 End
 CONTROLBAR:ToolTipHobbitFireCrackerMerry
-"Hero can throw a small Firecracker. \n Effective against Mumakils \n Special bonus against structures. \n Left click icon then left click on target"
+"Kahraman küçük bir Kestane fiþeði atabilir. \n Mumakils'e karþý etkili \nYapýlara karþý özel bonus. \nSol týklama ikonuna ve daha sonra hedefe sol týklama"
 End
 CONTROLBAR:ToolTipHobbitFireCrackerSam
-"Hero can throw a small Firecracker. \n Special bonus against Shelob. \n Left click icon then left click on target"
+"Kahraman küçük bir Kestane fiþeði atabilir. \n Shelob'a karþý özel bonus. \n Sol týklama ikonuna ve daha sonra hedefe sol týklama"
 End
 
 //------------------------------------------------------------
@@ -1038,7 +1034,7 @@ END
 // comment:
 
 TIME:Days
-"%d Days"
+"%d günler"
 END
 
 TIME:Day
@@ -1046,76 +1042,76 @@ TIME:Day
 END
 
 TIME:Hours
-"%d Hours"
+"%d Saatler"
 END
 
 TIME:Hour
-"1 Hour"
+"1 Saat"
 END
 
 TIME:Minutes
-"%d Minutes"
+"%d Dakikalar"
 END
 
 TIME:Minute
-"1 Minute"
+"1 Dakika"
 END
 
 TIME:Seconds
-"%d Seconds"
+"%d Saniyeler"
 END
 
 TIME:Second
-"1 Second"
+"1 Saniye"
 END 
 
 // context: Color names. They are used in a drop list where the player can select the house color for his side in a multiplayer game, so the player can identify his units.
 Color:Gold
-"Gold"
+"Altýn"
 END
 
 Color:Red
-"Red"
+"Kýrmýzý"
 END
 
 Color:MordorRed
-"Mordor Red"
+"Mordor Kýrmýzý"
 END
 
 Color:Blue
-"Blue"
+"Mavi"
 END
 
 Color:GondorBlue
-"Gondor Blue"
+"Gondor Mavi"
 END
 
 Color:Green
-"Green"
+"Yeþi"
 END
 
 Color:RohanGreen
-"Elven Green"
+"Elven Yeþil"
 END
 
 Color:Black
-"Sauron Black"
+"Sauron Siyah"
 END
 
 Color:Orange
-"Orange"
+"Turuncu"
 END
 
 Color:SkyBlue
-"Cyan"
+"Mavi"
 END
 
 Color:Purple
-"Purple"
+"Mor"
 END
 
 Color:Pink
-"Fairy Pink"
+"Peri Pembesi"
 END
 
 // context: Team names.  They are used in a drop list where the player can select his team for a multiplayer game
@@ -1140,138 +1136,138 @@ Team:4
 END
 
 Team:AI
-"CPU"
+"Ýþlemci"
 END
 
 // context:
 
 // context: Example text. DO NOT REQUIRE TRANSLATION
 MSG:Testing
-"Mary had a little lamb, it's fleece as white as snow."
+"Mary küçük bir kuzuya sahipti, kar kadar beyaz"
 END
 
 MSG:Test2
-"And everywhere that Mary when, the lamb was sure to go."
+"Ve her yerde Mary ne zaman, kuzu gidecek emin"
 END
 //context:
 
 GUI:MustHaveAdminRights
-"You must have administrative rights to install a patch."
+"Bir yama yüklemek için yönetici haklarýna sahip olmanýz gerekir"
 END
 
 GUI:Age
-// context: Title for the age verification box on the login screen
+// context: Giriþ ekranýnda yaþ doðrulama kutusunun baþlýðý
 "Age"
 END
  
 GUI:Month
 // context: The month title on the Age Verification Box
-"Month (MM)"
+"Ay (MM)"
 END
 
 GUI:Day
 // context: The Day of the month
-"Day (DD)"
+"Gün(DD)"
 END
  
 GUI:Year
 // context: The Year
-"Year (YYYY)"
+"Yýl (YYYY)"
 END
 
 GUI:RandomSide
-// context: used on the player tooltip located on the Internet Lobby screen if that player plays as the random side
+// context: Ýnternet Lobisi ekranýnda bulunan oyuncu araç ipucunda kullanýlýrsa, oyuncu rasgele taraf olarak oynarsa
 "Random"
 END
 
 GUI:BuddyAddReq
 // context: message to user that someone wants to add them to their buddy.
-"Battle for Middle-earth(tm) II user wants to add a buddy"
+"Battle for Middle-earth(tm) II kullanýcý bir arkadaþ eklemek istiyor"
 END
  
  
 GUI:ControlBarBack
-// context: button located on the control bar when the user is in oberver mode and has selected a side to "Watch"
+// context: kullanýcý gözlemci modundayken ve kullanýcý tarafýndan bir taraf seçtiðinde kontrol çubuðunda bulunan düðme Ýzle"
 "BACK"
 END
 
 APT:Otherplayerisready
-"Other player is ready"
+"Diðer oyuncu hazýr"
 END
 
 APT:ExitWithoutSaving
-"Are you sure you want to exit without saving?"
+"Kaydetmeden çýkmak istediðinize emin misiniz?"
 END
 
 APT:AreYouSureYouWantToRestart
-"Are you sure you want to restart?"
+"Yeniden baþlatmak istediðinize emin misiniz?"
 END
 
 APT:AreYouSureYouWantToRestartMessage
-"Are you sure you want to restart?"
+"Yeniden baþlatmak istediðinize emin misiniz?"
 END
 
 APT:AreYouSureYouWantToSurrenderMessage
-"Are you sure you want to surrender?"
+"Teslim olmak istediðinden emin misin?"
 END
 
 APT:AreYouSureYouWantToForfeitMessage
-"Are you sure you want to forfeit?"
+"Kaybetmek istediðinden emin misin?"
 END
 
 APT:WorldMapTutorial
-// In Battle Movie tutorial, button to show WorldMap movie
+// Movie training in war, WorldMap movie showing button
 "WORLD MAP"
 END
 
 APT:ArmiesTutorial
-// In Battle Movie tutorial, button to show Armies movie
-"ARMIES"
+// Savaþta Film eðitimi, button to show Armies movie
+"ORDULAR"
 END
 
 APT:HeroesTutorial
 // In Battle Movie tutorial, button to show Heroes movie
-"HEROES"
+"KAHRAMANLAR"
 END
 
 APT:CastlesTutorial
 // In Battle Movie tutorial, button to show Castles movie
-"CASTLES"
+"KALELER"
 END
 
 APT:SpecialPowersTutorial
 // In Battle Movie tutorial, button to show SpecialPowers movie
-"SPECIAL POWERS"
+"ÖZEL GÜÇLER"
 END
 
 
 APT:Moves&AttacksTutorial
-"MOVES & ATTACKS"
+"HAMLE & SALDIRILAR"
 END
 
 APT:Bases&UnitsTutorial
-"BASES & UNITS"
+"BAZLAR & BÝRÝMLERÝ"
 END
 
 APT:VeterancyTitle
-"Experience"
+"Deneyim"
 END
 
 APT:VeterencyTitle
-"Experience"
+"Deneyim"
 END
 
 APT:VeterancyTutorial
-"EXPERIENCE"
+"Deneyim"
 END
 
 APT:VeterencyTutorial
-"EXPERIENCE"
+"Deneyim"
 END
 
 APT:BattleFought
 // Context Verterancy screen header.
-"Battles Fought"
+"Savaþan Savaþlar"
 END
 
 APT:RenameInstructions
@@ -1281,12 +1277,12 @@ END
 
 APT:EnemiesThisBattle
 // Context Verterancy screen header.
-"Enemies Defeated in this Battle"
+"Bu Savaþta Yenilen Düþmanlar"
 END
 
 APT:TotalEnemiesDefeated
 // Context Verterancy screen header.
-"Total Enemies Defeated"
+"Yenilen Toplam Düþman"
 END
 
 APT:Bases&UnitsTitle
@@ -1294,101 +1290,101 @@ APT:Bases&UnitsTitle
 END
 
 APT:Moves&AttacksTitle
-"Moves & Attacks"
+"Hamle & Saldýrýlar"
 END
 
 APT:WorldMapTitle
 // In Battle Movie tutorial, title for WorldMap movie
-"World Map"
+"Dünya Haritasý"
 END
 
 APT:ArmiesTitle
 // In Battle Movie tutorial, title for Armies movie
-"Armies"
+"Ordular"
 END
 
 APT:HeroesTitle
 // In Battle Movie tutorial, title for Heroes movie
-"Heroes"
+"Kahramanlar"
 END
 
 APT:CastlesTitle
 // In Battle Movie tutorial, title for Castles movie
-"Castles"
+"Kaleler"
 END
 
 APT:SpecialPowersTitle
 // In Battle Movie tutorial, title for SpecialPowers movie
-"Special Powers"
+"Özel Güçler"
 END
 
 APT:BattleSchoolTitle
 // In Battle Movie section, original title
-"Battle School"
+"Savaþ Okulu"
 END
 
 APT:Send
-"SEND"
+"GÖNDER"
 END
 
 APT:LoadSaveGame
 // context: Headline in the load/save menu
-"LOAD/SAVE GAME"
+"YÜK/OYUNU KAYDET"
 END
  
 APT:LoadGame
 // context: Load button located on the load/save menu
-"LOAD"
+"YÜK"
 END
  
 APT:HeaderLoadSavedGame
 // context: Headline located on the load/save menu
-"LOAD SAVED GAME"
+"YÜKLENEN OYUN"
 END
 
 APT:HeaderLoadSavedReplay
 // context: Headline located on the load/save menu
-"LOAD SAVED REPLAY"
+"yük kaydetme tekrarý"
 END
 
 APT:HeaderSaveGame
 // context: Headline located on the load/save menu
-"SAVE GAME"
+"oyunu kaydet"
 END
 
 APT:HeaderSaveReplay
 // context: Headline located on the load/save menu
-"SAVE REPLAY"
+"tekrar kaydet "
 END
 
 APT:BattleSchool
 // button name for main menu
-"BATTLE SCHOOL"
+"savaþ okulu"
 END
 
 APT:LoadScreenPlayers
 // Context column on game loading screen
-"Player"
+"Oyuncu"
 END
 
 APT:SaveGame
 // context: Save button located on the load/save menu
-"SAVE"
+"Kayýt Etmek"
 END
 
 APT:Save
 // context: Headline of save menu
-"SAVE"
+"Kayýt Etmek"
 END
 
 APT:SaveGameProgress
 // Title when saving a game
-"Save Progress"
+"Ýlerleme Kaydetmek"
 END
 
 APT:SaveGameMultiplayerConfirmationTitle
 // Title in message box when opponent requests saving a multiplayer game
-"Save Request"
+"Ýsteði Kaydetmek"
 END
 
 APT:ConfirmMultiplayerSave
@@ -1416,37 +1412,37 @@ END
 
 APT:GameSelectorTab
 // context: One of the selection buttons to choose between Skirmish (=Game) and Replay loading in load/save menu
-"GAME"
+"Oyun"
 END
 
 APT:ReplaySelectorTab
 // context: One of the selection buttons to choose between Skirmish (=Game) and Replay loading and Campaign/Skirmish/Replay loading in load/save menu
-"REPLAY"
+"Tekrar"
 END
 
 APT:Replays
 // context:  Replay selection button on the Main Menu
-"REPLAYS"
+"Tekrarlar"
 END
 
 APT:CampaignSelectorTab
 // context: One of the selection buttons to choose between Campaign/Skirmish/Replay loading in load/save menu
-"CAMPAIGN"
+"Kamp"
 END
 
 APT:SkirmishSelectorTab
 // context: One of the selection buttons to choose between Campaign/Skirmish/Replay loading in load/save menu
-"SKIRMISH"
+"Çatýþma"
 END
 
 APT:HeaderSavedFiles
 // context: Lable above saved files list box in the load/save menu
-"Saved Files"
+"Kaydedilmiþ Dosyalar"
 END
 
 APT:HeaderAutoSave
 // context: Lable above auto save selection box in the load/save menu
-"Auto Save"
+"Oto Save"
 END
 
 APT:NameFile
@@ -3037,7 +3033,7 @@ END
 
 GUI:DesyncText
 // context: Error message in multiplayer games to inform the players that the game can not continue because of discrepancies in the data between the diferent player machines 
-"The Battle for Middle-earth(tm) II has gone out of synch with the other game participants and cannot continue. It is possible that the other players have modified their game versions. Please exit out of the game before attempting to play online again."
+"The Battle for Middle-earth(tm) II diðer oyun katýlýmcýlarý ile senkronizasyon dýþýna çýktý ve devam edemiyor. Diðer oyuncularýn oyun versiyonlarýný deðiþtirmiþ olmalarý mümkündür. Lütfen tekrar çevrimiçi oynamaya baþlamadan önce oyundan çýkýn. "
 END
 
 GUI:LadderDetails
@@ -3481,18 +3477,18 @@ END
 
 APT:Skirmish
 // context: Button to play Skirmish mode. Skirmish is a single player mode in which the player can fight against 1 to 7 computer controlled opponents as if it were a networked game
-"SKIRMISH"
+"Çatýþma"
 END
 
 GUI:Skirmish
 // SKB:DELETE context: Button to play Skirmish mode. Skirmish is a single player mode in which the player can fight against 1 to 7 computer controlled opponents as if it were a networked game
-"SKIRMISH"
+"Çatýþma"
 END
 
 
 GUI:Campaign
 // context: Button to play the Single player missions arranged in 3 Campaigns, CHINA, GLA and USA
-"CAMPAIGN"
+"Kamp"
 END
 
 GUI:ClickToDisplayGameInfo
@@ -3501,27 +3497,27 @@ END
 
 GUI:GameInfo
 // context: Display information about the game
-"Game Info"
+"Oyun bilgisi"
 END
 
 GUI:StartGame
 // context: Button to start a game
-"PLAY GAME"
+"Oyun Oyna"
 END
 
 APT:Options
 // context: Button on the main menu to go to the Options Screen
-"OPTIONS"
+"Seçenekler"
 END
 
 APT:Settings
 // Sub title in options screen plus buttons to get there.
-"SETTINGS"
+"Ayarlar"
 END
 
 APT:AdvancedSettings
 // Sub title in cutom graphics screen plus buttons to get there.
-"CUSTOM SETTINGS"
+"Özel Ayarlar"
 END
 
 APT:AdvancedSettings_Shadow_Shader_Notice
@@ -9325,7 +9321,7 @@ CONTROLBAR:TrollFindRock
 END
 
 CONTROLBAR:TrollFindTastyOrc
-"Find an Orc to Eat [&T]"
+"F&ind an Orc to Eat"
 END
 
 CONTROLBAR:TrollFindOrcToHold
@@ -9341,7 +9337,7 @@ CONTROLBAR:GrabAndEatPassenger
 END
 
 CONTROLBAR:SpecialAbilityIgnite
-"Ignite [&E]"
+"&Ignite"
 END
 
 CONTROLBAR:SpecialAbilityFlamingSword
@@ -9349,19 +9345,19 @@ CONTROLBAR:SpecialAbilityFlamingSword
 END
 
 CONTROLBAR:SpecialAbilityFireWhip
-"Fire Whip [&R]"
+"Fire &Whip"
 END
 
 CONTROLBAR:SpecialAbilityBalrogScream
-"Scream [&T]"
+"Screa&m"
 END
 
 CONTROLBAR:SpecialAbilityBalrogBreath
-"Breathe Fire [&C]"
+"B&reathe Fire"
 END
 
 CONTROLBAR:SpecialAbilityBalrogWings
-"Wings [&V]"
+"Wing&s"
 END
 
 CONTROLBAR:DwarfToss
@@ -9393,11 +9389,11 @@ CONTROLBAR:GuardFlyingUnitsOnly
 END
 
 CONTROLBAR:AttackMove
-"Attack Move [&A]"
+"&Attack Move"
 END
 
 CONTROLBAR:Stop
-"Stop [&S]"
+"&Stop"
 END
 
 CONTROLBAR:Waypoints
@@ -9405,7 +9401,7 @@ CONTROLBAR:Waypoints
 END
 
 CONTROLBAR:CancelBuild
-"Cancel Build [&S]"
+"&Cancel Build"
 END
 
 CONTROLBAR:Contaminate
@@ -9413,7 +9409,7 @@ CONTROLBAR:Contaminate
 END
 
 CONTROLBAR:Bloodthirsty
-"Bloodthirsty [&R]"
+"Blood&thirsty"
 END
 
 CONTROLBAR:ToolTipBloodthirsty
@@ -9451,7 +9447,7 @@ END
 // context: Units and Structures Names. Please consult the UNITS & Structures Document for more information.
 
 CONTROLBAR:Evacuate
-"Evacuate"
+"Evacua&te"
 End
 
 CONTROLBAR:ExecuteRailedTransport
@@ -10727,7 +10723,7 @@ OBJECT:GenericMountainTroll
 END
 
 CONTROLBAR:TrollFindTree
-"Find a Tree [&R]"
+"Find a &Tree"
 END
 
 CONTROLBAR:ConstructWarg
@@ -15135,11 +15131,11 @@ CONTROLBAR:TooltipOutpostUnpack
 END
 
 CONTROLBAR:ConstructMenWallHub
-"Wall Hub [&A]"
+"&Wall Hub"
 END
 
 CONTROLBAR:ConstructMenFortress
-"Fortress [&J]"
+"&Fortress"
 END
 
 CONTROLBAR:ConstructEconomyPlot
@@ -15175,7 +15171,7 @@ CONTROLBAR:TooltipSlaughterhouseUnpack
 END
 
 CONTROLBAR:ConstructMenPorter
-"Builder [&D]"
+"Bui&lder"
 END
 
 CONTROLBAR:ToolTipConstructMenPorter
@@ -15183,7 +15179,7 @@ CONTROLBAR:ToolTipConstructMenPorter
 END
 
 CONTROLBAR:ConstructMenFarm
-"Build Farm [&E]"
+"Build Fa&rm"
 END
 
 CONTROLBAR:ToolTipConstructMenFarm
@@ -15191,7 +15187,7 @@ CONTROLBAR:ToolTipConstructMenFarm
 END
 
 CONTROLBAR:ConstructMenBarracks
-"Build Barracks [&D]"
+"Build Barra&cks"
 END
 
 CONTROLBAR:ToolTipConstructMenBarracks
@@ -15199,7 +15195,7 @@ CONTROLBAR:ToolTipConstructMenBarracks
 END
 
 CONTROLBAR:ConstructMenArcheryRange
-"Build Archery Range [&F]"
+"Build Archer&y Range"
 END
 
 CONTROLBAR:ToolTipMenArcheryRange
@@ -15207,7 +15203,7 @@ CONTROLBAR:ToolTipMenArcheryRange
 END
 
 CONTROLBAR:ConstructMenStable
-"Build Stables [&G]"
+"Build St&ables"
 END
 
 CONTROLBAR:ToolTipConstructMenStable
@@ -15215,7 +15211,7 @@ CONTROLBAR:ToolTipConstructMenStable
 END
 
 CONTROLBAR:ConstructMenWorkshop
-"Build Siege Works [&B]"
+"Build Sie&ge Works"
 END
 
 CONTROLBAR:ToolTipConstructMenWorkshop
@@ -15223,7 +15219,7 @@ CONTROLBAR:ToolTipConstructMenWorkshop
 END
 
 CONTROLBAR:ConstructMenSentryTower
-"Build Battle Tower [&T]"
+"Build Ba&ttle Tower"
 END
 
 CONTROLBAR:ToolTipConstructMenWallHub
@@ -15235,7 +15231,7 @@ CONTROLBAR:ToolTipConstructMenFortress
 END
 
 CONTROLBAR:ConstructMenWell
-"Build Well [&R]"
+"Bui&ld Well"
 END
 
 CONTROLBAR:ToolTipConstructMenWell
@@ -15243,7 +15239,7 @@ CONTROLBAR:ToolTipConstructMenWell
 END
 
 CONTROLBAR:ConstructMenStatue
-"Build Heroic Statue [&C]"
+"Build Hero&ic Statue"
 END
 
 CONTROLBAR:ToolTipConstructMenStatue
@@ -15251,7 +15247,7 @@ CONTROLBAR:ToolTipConstructMenStatue
 END
 
 CONTROLBAR:ConstructMenBlacksmith
-"Build Blacksmith [&V]"
+"Build Blac&ksmith"
 END
 
 CONTROLBAR:ToolTipConstructMenBlacksmith
@@ -15259,7 +15255,7 @@ CONTROLBAR:ToolTipConstructMenBlacksmith
 END
 
 CONTROLBAR:ConstructMenMarketPlace
-"Build Marketplace [&N]"
+"Build &Marketplace"
 END
 
 CONTROLBAR:ToolTipConstructMenMarketPlace
@@ -15372,14 +15368,14 @@ OBJECT:GondorCastleUpgradeBattleTower
 END
 
 CONTROLBAR:SelectAllHeroes
-"Select All Heroes [&H]"
+"Select All Her&oes"
 END
 CONTROLBAR:SelectAllHeroesDescription
 "Click here to select all hero units on the map"
 END
 
 CONTROLBAR:SelectNearestBuilder
-"Select Nearest Builder [&Z]"
+"Select Nearest &Builder"
 END
 CONTROLBAR:SelectNearestBuilderDescription
 "Click here to select the nearest builder who is ready to work"
@@ -15479,43 +15475,43 @@ CONTROLBAR:TooltipBuildForbiddenPoolKnights
 "Requires Level 3 Forbidden Pool \n Gondor's cavalry unit \n Strong vs Swordsmen"
 END
 CONTROLBAR:ConstructGondorArcheryRangeLevel2Upgrade
-"Upgrade Archery Range to Level 2 [&A]"
+"&Upgrade Archery Range to Level 2"
 END
 CONTROLBAR:ConstructGondorArcheryRangeLevel3Upgrade
-"Upgrade Archery Range to Level 3 [&A]"
+"&Upgrade Archery Range to Level 3"
 END
 CONTROLBAR:ConstructGondorBarracks2Upgrade
-"Upgrade Barracks to Level 2 [&A]"
+"&Upgrade Barracks to Level 2"
 END
 CONTROLBAR:ToolTipBuildGondorBarracksLevel2Upgrade
 "Level 2: +10% Faster Build Speed"
 END
 CONTROLBAR:ConstructGondorBarracksLevel3Upgrade
-"Upgrade Barracks to Level 3 [&A]"
+"&Upgrade Barracks to Level 3"
 END
 CONTROLBAR:ToolTipBuildGondorBarracksLevel3Upgrade
 "Level 3: +25% Faster Build Speed"
 END
 CONTROLBAR:ConstructGondorStable2Upgrade
-"Upgrade Stables to Level 2 [&A]"
+"&Upgrade Stables to Level 2"
 END
 CONTROLBAR:ToolTipBuildGondorStableLevel2Upgrade
 "Level 2: +10% Faster Build Speed \n Allows training of Rohirrim"
 END
 CONTROLBAR:ConstructGondorStableLevel3Upgrade
-"Upgrade Stables to Level 3 [&A]"
+"&Upgrade Stables to Level 3"
 END
 CONTROLBAR:ToolTipBuildGondorStableLevel3Upgrade
 "Level 3: +25% Faster Build Speed"
 END
 CONTROLBAR:ConstructGondorWorkshop2Upgrade
-"Upgrade Siege Works to Level 2 [&A]"
+"&Upgrade Siege Works to Level 2"
 END
 CONTROLBAR:ToolTipBuildGondorWorkshopLevel2Upgrade
 "Level 2: +10% Faster Build Speed \n Allows research of the Fire Stones upgrade"
 END
 CONTROLBAR:ConstructGondorWorkshopLevel3Upgrade
-"Upgrade Siege Works to Level 3 [&A]"
+"&Upgrade Siege Works to Level 3"
 END
 CONTROLBAR:ToolTipBuildGondorWorkshopLevel3Upgrade
 "Level 3: +25% Faster Build Speed"
@@ -15645,37 +15641,37 @@ CONTROLBAR:ConstructMordorBase
 "Build Base"
 END
 CONTROLBAR:ConstructMordorOrcPit
-"Build Orc Pit [&D]"
+"Build Or&c Pit"
 END
 CONTROLBAR:BuildMordorWorker
-"Orc Laborer [&D]"
+"Orc &Laborer"
 END
 CONTROLBAR:ConstructMordorOrcFletcher
 "Build Fletcher"
 END
 CONTROLBAR:ConstructMordorTrollCage
-"Build Troll Cage [&C]"
+"Build &Troll Cage"
 END
 CONTROLBAR:ConstructMordorSiegeWorks
-"Build Great Siege Works [&B]"
+"Build &Great Siege Works"
 END
 CONTROLBAR:ConstructMordorHaradrimPalace
-"Build Haradrim Palace [&F]"
+"Buil&d Haradrim Palace"
 END
 CONTROLBAR:ConstructMordorMumakilPen
-"Build Mumakil Pen [&N]"
+"Build &Mumakil Pen"
 END
 CONTROLBAR:ConstructSlaughterHouse
-"Build Slaughter House [&E]"
+"Build Slaughte&r House"
 END
 CONTROLBAR:ConstructLumberMill
-"Build Lumber Mill"
+"Build L&umber Mill"
 END
 CONTROLBAR:ConstructFurnace
-"Build Furnace [&E]"
+"Build Furna&ce"
 END
 CONTROLBAR:ConstructMordorUmbarTavern
-"Build Tavern"
+"Build Ta&vern"
 END
 
 CONTROLBAR:ToolTipMordorOrcPit
@@ -15722,19 +15718,19 @@ END
 
 // Isengard Buildings
 CONTROLBAR:ConstructIsengardUrukPit
-"Build Uruk Pit [&D]"
+"Build Uruk Pi&t"
 END
 CONTROLBAR:ConstructIsengardWargPit
-"Build Warg Pit [&G]"
+"Build Wa&rg Pit"
 END
 CONTROLBAR:ConstructIsengardSiegeWorks
-"Build Siege Works [&B]"
+"Build Sie&ge Works"
 END
 CONTROLBAR:ConstructIsengardArmory
-"Build Armory [&V]"
+"Build &Armory"
 END
 CONTROLBAR:ConstructIsengardBattleTower
-"Lookout Tower [&T]"
+"&Lookout Tower"
 END
 CONTROLBAR:ToolTipIsengardUrukPit
 "Trains Isengard infantry units"
@@ -15762,7 +15758,7 @@ END
 
 // Wild Buildings
 CONTROLBAR:ConstructWildMineShaft
-"Build Tunnel [&E]"
+"Build &Tunnel"
 END
 
 CONTROLBAR:ToolTipConstructWildMineShaft
@@ -15770,7 +15766,7 @@ CONTROLBAR:ToolTipConstructWildMineShaft
 END
 
 CONTROLBAR:ConstructWildLumberMill
-"Build Lumber Mill [&R]"
+"Build L&umber Mill"
 END
 
 CONTROLBAR:ToolTipConstructWildLumberMill
@@ -15778,7 +15774,7 @@ CONTROLBAR:ToolTipConstructWildLumberMill
 END
 
 CONTROLBAR:ConstructWildGoblinCave
-"Build Goblin Cave [&D]"
+"Build Goblin &Cave"
 END
 
 CONTROLBAR:ToolTipConstructWildGoblinCave
@@ -15786,7 +15782,7 @@ CONTROLBAR:ToolTipConstructWildGoblinCave
 END
 
 CONTROLBAR:ConstructWildGoblinFissure
-"Build Fissure [&C]"
+"Build Fissu&re"
 END
 
 CONTROLBAR:ToolTipConstructWildGoblinFissure
@@ -15794,7 +15790,7 @@ CONTROLBAR:ToolTipConstructWildGoblinFissure
 END
 
 CONTROLBAR:ConstructWildWildSpiderPit
-"Build Spider Pit [&G]"
+"Build Spi&der Pit"
 END
 
 CONTROLBAR:ToolTipConstructWildWildSpiderPit
@@ -15802,7 +15798,7 @@ CONTROLBAR:ToolTipConstructWildWildSpiderPit
 END
 
 CONTROLBAR:ConstructWildFortress
-"Build Fortress [&J]"
+"Build &Fortress"
 END
 
 CONTROLBAR:ToolTipConstructWildFortress
@@ -15810,7 +15806,7 @@ CONTROLBAR:ToolTipConstructWildFortress
 END
 
 CONTROLBAR:ConstructWildTreasureTrove
-"Build Treasure Trove [&V]"
+"Build Treasure Tro&ve"
 END
 
 CONTROLBAR:ToolTipConstructWildTreasureTrove
@@ -15819,7 +15815,7 @@ END
 
 //Wild Units
 CONTROLBAR:ConstructWildPorter
-"Builder [&D]"
+"Bui&lder"
 END
 
 CONTROLBAR:ToolTipConstructWildPorter
@@ -15828,7 +15824,7 @@ END
 
 // Ent Buildings
 CONTROLBAR:ConstructEntMoot
-"Build Ent Moot [&B]"
+"Build Ent &Moot"
 END
 
 CONTROLBAR:ToolTipEntMoot
@@ -15958,7 +15954,7 @@ CONTROLBAR:ToolTipCalltheHorde
 END
 
 CONTROLBAR:SummonBalrog
-"Summon Balrog [&E]"
+"Summon Balrog"
 End
 
 CONTROLBAR:ToolTipSummonBalrog
@@ -16080,7 +16076,7 @@ CONTROLBAR:ToolTipSummonArmyoftheDead
 END
 
 CONTROLBAR:SummonEagleAllies
-"Summon Eagle Allies [&T]"
+"Summon Eagle Allies"
 End
 
 CONTROLBAR:ToolTipSummonEagleAllies
@@ -16184,22 +16180,22 @@ END
 
 // MEN OF THE WEST UNITS
 CONTROLBAR:ConstructGondorArcherHorde
-"Gondor Archers [&F]"
+"Gondor Ar&chers"
 END
 CONTROLBAR:ConstructGondorRangerHorde
-"Ithilien Rangers [&R]"
+"Ithilien &Rangers"
 END
 CONTROLBAR:ConstructGondorFighterHorde
-"Gondor Soldiers [&D]"
+"Gon&dor Soldiers"
 END
 CONTROLBAR:ConstructGondorShieldGuardHorde
-"Gondor Tower Guards [&E]"
+"Gondor &Tower Guards"
 END
 CONTROLBAR:ConstructGondorKnightHorde
-"Gondor Knights [&G]"
+"Gondor &Knights"
 END
 CONTROLBAR:ConstructGondorTrebuchet
-"Trebuchet [&V]"
+"T&rebuchet"
 END
 CONTROLBAR:ConstructGondorPorter
 "Builder"
@@ -16242,7 +16238,7 @@ CONTROLBAR:ConstructGondorSilverTreeBanner
 END
 
 CONTROLBAR:ConstructRohanRohirrimHorde
-"Rohirrim [&T]"
+"&Rohirrim"
 END
 
 
@@ -16256,7 +16252,7 @@ CONTROLBAR:ToolTipBuildGondorFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
-"Strong vs. Cavalry"
+"Strong vs. Cavalry and \n Unit Production Buildings"
 END
 
 CONTROLBAR:ToolTipBuildGondorTrebuchet
@@ -16528,7 +16524,7 @@ CONTROLBAR:RohanEomerRevive
 "Revive the fallen Hero, Eomer"
 END
 CONTROLBAR:RohanEomerHotkey
-"Eomer [&E]"
+"&Eomer"
 END
 CONTROLBAR:ToolTipBuildLegolas
 "Recruit the Prince of the Mirkwood Elves"
@@ -16545,10 +16541,10 @@ END
 
 
 CONTROLBAR:ConstructGoblinFighterHorde
-"Goblin Warriors [&D]"
+"Goblin &Warriors"
 END
 CONTROLBAR:ConstructGoblinArcherHorde
-"Goblin Archers [&F]"
+"Goblin &Archers"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde
 "Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
@@ -16560,7 +16556,7 @@ CONTROLBAR:ToolTipGoblinCave
 "Trains Goblin Warriors and Archers"
 END
 CONTROLBAR:ConstructGoblinCaveTroll
-"Cave Troll [&C]"
+"&Cave Troll"
 END
 CONTROLBAR:ConstructGoblinFissure
 "Build Fissure"
@@ -16607,13 +16603,13 @@ END
 
 
 CONTROLBAR:ToggleSpiderRiderWeapons
-"Alternate Weapon [&E]"
+"Al&ternate Weapon"
 END
 CONTROLBAR:ToolTipToggleSpiderRiderWeapons
 "Left click to switch weapons"
 END
 CONTROLBAR:ConstructWildCaveLevel2Upgrade
-"Upgrade Goblin Cave to Level 2 [&A]"
+"&Upgrade Goblin Cave to Level 2"
 END
 
 CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade
@@ -16621,7 +16617,7 @@ CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade
 END
 
 CONTROLBAR:ConstructWildCaveLevel3Upgrade
-"Upgrade Goblin Cave to Level 3 [&A]"
+"&Upgrade Goblin Cave to Level 3"
 END
 
 CONTROLBAR:ToolTipBuildWildCaveLevel3Upgrade
@@ -16629,11 +16625,11 @@ CONTROLBAR:ToolTipBuildWildCaveLevel3Upgrade
 END
 
 CONTROLBAR:UpgradeWildFissureLevel2
-"Upgrade Fissure to Level 2 [&A]"
+"&Upgrade Fissure to Level 2"
 END
 
 CONTROLBAR:UpgradeWildFissureLevel3
-"Upgrade Fissure to Level 3 [&A]"
+"&Upgrade Fissure to Level 3"
 END
 
 CONTROLBAR:ToolTipBuildWildFissureLevel3Upgrade
@@ -16641,7 +16637,7 @@ CONTROLBAR:ToolTipBuildWildFissureLevel3Upgrade
 END
 
 CONTROLBAR:ConstructWildSpiderPitLevel2Upgrade
-"Upgrade Spider Pit to Level 2 [&A]"
+"&Upgrade Spider Pit to Level 2"
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderPitLevel2Upgrade
@@ -16649,15 +16645,15 @@ CONTROLBAR:ToolTipBuildWildSpiderPitLevel2Upgrade
 END
 
 CONTROLBAR:ConstructWildSpiderPitLevel3Upgrade
-"Upgrade Spider Pit to Level 3 [&A]"
+"&Upgrade Spider Pit to Level 3"
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderPitLevel3Upgrade
 "Level 3: +25% Faster Build Speed" 
 END
-
+// "\n Allows research of Venom Sacs"
 CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
-"Upgrade Treasure Trove to Level 2 [&A]"
+"&Upgrade Treasure Trove to Level 2"
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade
@@ -16666,7 +16662,7 @@ END
 // \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry
 
 CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
-"Upgrade Treasure Trove to Level 3 [&A]"
+"&Upgrade Treasure Trove to Level 3"
 END
 
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
@@ -16675,7 +16671,7 @@ END
 // \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry"
 
 CONTROLBAR:ConstructWildSpiderlingHorde
-"Spiderlings [&G]"
+"Spider&lings"
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderlingHorde
@@ -16683,11 +16679,11 @@ CONTROLBAR:ToolTipBuildWildSpiderlingHorde
 END
 
 CONTROLBAR:ConstructWildSpiderRiderHorde
-"Goblin Spider Riders [&T]"
+"Goblin Spide&r Riders"
 END
 
 CONTROLBAR:ConstructWildMountainGiant
-"Mountain Giant [&V]"
+"Mountain &Giant"
 END
 
 CONTROLBAR:ToolTipBuildWildMountainGiant
@@ -16695,7 +16691,7 @@ CONTROLBAR:ToolTipBuildWildMountainGiant
 END
 
 CONTROLBAR:ConstructWildMarauderHorde
-"Half-Troll Marauders [&E]"
+"Half-Troll &Marauders"
 END
 
 // MORDOR UNITS
@@ -16705,10 +16701,10 @@ OBJECT:MordorEasterling
 END
 
 CONTROLBAR:ConstructMordorOrcFighterHorde
-"Orc Warriors [&D]"
+"Orc &Warriors"
 END
 CONTROLBAR:ConstructMordorOrcArcherHorde
-"Orc Archers [&F]"
+"Orc &Archers"
 END
 CONTROLBAR:ConstructMordorHaradrimHorde
 "Haradrim Archers"
@@ -16717,22 +16713,22 @@ CONTROLBAR:ConstructMordorCorsairHorde
 "Corsairs of Umbar"
 END
 CONTROLBAR:ConstructMordorEasterlingHorde
-"Easterlings [&E]"
+"Eas&terlings"
 END
 CONTROLBAR:ConstructMordorCaveTroll
 "Cave Troll"
 END
 CONTROLBAR:ConstructMordorMountainTroll
-"Mountain Troll [&C]"
+"&Mountain Troll"
 END
 CONTROLBAR:ConstructMordorMumakil
-"Mumakil [&N]"
+"&Mumakil"
 END
 CONTROLBAR:ConstructMordorSiegeTower
 "Siege &Tower"
 END
 CONTROLBAR:ConstructMordorCatapult
-"Catapult [&V]"
+"&Catapult"
 END
 CONTROLBAR:ConstructMordorGrond
 "Grond"
@@ -16746,11 +16742,11 @@ CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair
 END
 
 CONTROLBAR:ToolTipBuildMordorEasterlingHorde
-"Strong vs. Cavalry"
+"Strong vs. Cavalry and \n Unit Production Buildings"
 END
 
 CONTROLBAR:ConstructMordorPorter
-"Builder [&D]"
+"Bui&lder"
 END
 
 CONTROLBAR:ToolTipBuildMordorPorter
@@ -16797,7 +16793,7 @@ CONTROLBAR:ToolTipBuildWitchKing
 "Recruit the Leader of the Nazgul"
 END
 CONTROLBAR:MordorWitchKingOnFellBeastRecruit
-"Recruit the leader of the Nazgul"
+"Recruit the Leader of the Nazgul"
 END
 CONTROLBAR:MordorWitchKingOnFellBeastRevive
 "Revive the fallen hero, The Witch-king"
@@ -16871,40 +16867,40 @@ END
 
 // ISENGARD UNITS
 CONTROLBAR:ConstructIsengardUrukHai
-"Uruk-hai [&D]"
+"U&ruk-hai"
 END
 CONTROLBAR:ConstructIsengardCrossbowmen
-"Uruk Crossbowmen [&F]"
+"Uruk &Crossbowmen"
 END
 CONTROLBAR:ConstructIsengardPikemen
-"Uruk Pikemen [&E]"
+"Uruk &Pikemen"
 END
 CONTROLBAR:ConstructIsengardWildmanHorde
-"Wildmen of Dunland [&D]"
+"&Wildmen of Dunland"
 END
 CONTROLBAR:ConstructIsengardWargRider
-"Warg Riders [&G]"
+"&Warg Riders"
 END
 CONTROLBAR:ConstructIsengardSiegeBallista
-"Siege Ballista [&V]"
+"Siege Ba&llista"
 END
 CONTROLBAR:ConstructIsengardSiegeLadder
 "Siege Ladder"
 END
 CONTROLBAR:ConstructIsengardBerserker
-"Uruk Berserker [&C]"
+"Uru&k Berserker"
 END
 CONTROLBAR:ConstructIsengardBatteringRam
-"Battering Ram [&B]"
+"Batte&ring Ram"
 END
 CONTROLBAR:ConstructIsengardExplosiveMine
-"Explosive Mine [&C]"
+"Explosive &Mine"
 END
 CONTROLBAR:ConstructIsengardBannerCarrier
 "Banner Carrier"
 END
 CONTROLBAR:ConstructIsengardPorter
-"Builder [&D]"
+"Bui&lder"
 END
 CONTROLBAR:ConstructIsengardForgedBladesPorter
 "Forged Blades Porter"
@@ -16917,7 +16913,7 @@ CONTROLBAR:ConstructIsengardFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildIsengardPikemen
-"Strong vs. Cavalry"
+"Strong vs. Cavalry and \n Unit Production Buildings"
 END
 
 CONTROLBAR:ToolTipBuildIsengardSiegeLadder
@@ -16973,7 +16969,7 @@ END
 
 // ENT UNITS
 CONTROLBAR:ConstructEnt
-"Ent [&B]"
+"E&nt"
 END
 CONTROLBAR:ConstructEntFir
 "Fir Ent"
@@ -16997,14 +16993,14 @@ CONTROLBAR:ToolTipBuildEntBirch
 "Build Fir Birch"
 END
 CONTROLBAR:KickAndPunch
-"Close Range Attack [&E]"
+"&Close Range Attack"
 END
 CONTROLBAR:ToolTipKickAndPunch
 "Switch to melee combat"
 END
 
 CONTROLBAR:ThrowRocks
-"Throw Rocks [&E]"
+"Throw Ro&cks"
 END
 
 CONTROLBAR:ToolTipThrowRocks
@@ -17050,7 +17046,7 @@ CONTROLBAR:ToolTipGenericRecruitHero
 END
 
 CONTROLBAR:FireArrowUpgrade
-"Fire Arrows [&B]"
+"Fire Arro&ws"
 END
 
 CONTROLBAR:TooltipFireArrowUpgrade
@@ -17171,7 +17167,7 @@ CONTROLBAR:ToolTipSpecialAbilityEntFindRock
 END
 
 CONTROLBAR:tooltipCommand_ToggleEntRockThrow
-"Toggle Rock-Throw Mode"
+"Toggle Rock-Throw Mode [&T]"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk
@@ -17183,7 +17179,7 @@ CONTROLBAR:ToolTipSpecialAbilityGrabAndEatPassenger
 END
 
 CONTROLBAR:ToolTipSpecialAbilityIgnite
-"The Balrog gains +200% Damage and +50% Armor \n Left click to activate"
+"The Balrog gains double Damage and +50% armor \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFlamingSword
@@ -17215,14 +17211,14 @@ CONTROLBAR:ToolTipSpecialAbilityGrondPower
 END
 
 CONTROLBAR:ConstructMordorDrummerTrolls
-"Drummer Troll [&B]"
+"&Drummer Troll"
 END
 CONTROLBAR:TooltipConstructMordorDrummerTrolls
 "Requires Level 2 Troll Cage \n Provides Leadership to nearby allies"
 END
 
 CONTROLBAR:ConstructMordorBatteringRam
-"Battering Ram [&B]"
+"Batte&ring Ram"
 END
 
 CONTROLBAR:ToolTipBuildMordorBatteringRam
@@ -17230,7 +17226,7 @@ CONTROLBAR:ToolTipBuildMordorBatteringRam
 END
 
 CONTROLBAR:ToggleCatapultWeapons
-"Switch Ammunition [&E]"
+"Swi&tch Ammunition"
 END
 
 CONTROLBAR:TooltipToggleCatapultWeapons
@@ -17254,11 +17250,11 @@ CONTROLBAR:NarsilAttack
 END
 
 CONTROLBAR:LightTorch
-"Light Torch [&E]"
+"Light &Torch"
 END
 
 CONTROLBAR:ExtinguishTorch
-"Extinguish Torch [&E]"
+"Extinguish &Torch"
 END
 
 CONTROLBAR:ToolTipLightTorch
@@ -17270,7 +17266,7 @@ CONTROLBAR:ToolTipNarsilAttack
 END
 
 CONTROLBAR:WargRiderHowl
-"Howl [&E]"
+"Ho&wl"
 END
 
 CONTROLBAR:ToggleGateOpenClose
@@ -17294,7 +17290,7 @@ CONTROLBAR:ToolTipHawkStrike
 END
 
 CONTROLBAR:ToolTipTrainArchers
-"Requires Level 4 \n Targeted archers gain experience \n Left click icon then left click on target archers"
+"Requires Level 3 \n Targeted archers gain experience \n Left click icon then left click on target archers"
 END
 
 CONTROLBAR:MonsterSlayer
@@ -17354,7 +17350,7 @@ CONTROLBAR:Pillage
 END
 
 CONTROLBAR:ToolTipLurtzPillage
-"Requires Level 6 \n Loot enemy kills for resources \n Passive ability"
+"Requires Level 7 \n Loot enemy kills for resources \n Passive ability"
 END
 
 CONTROLBAR:OutlawLeadership
@@ -17478,7 +17474,7 @@ CONTROLBAR:ToggleWedgeFormation
 END
 
 CONTROLBAR:ToggleLineFormation
-"Line Formation [&E]"
+"Line For&mation"
 END
 
 CONTROLBAR:ToolTipToggleWedgeFormation
@@ -17490,7 +17486,7 @@ CONTROLBAR:ToolTipToggleLineFormation
 END
 
 CONTROLBAR:TogglePorcupineFormation
-"Porcupine Formation [&E]"
+"Porcupine For&mation"
 END
 
 CONTROLBAR:ToolTipTogglePorcupineFormation
@@ -17498,7 +17494,7 @@ CONTROLBAR:ToolTipTogglePorcupineFormation
 END
 
 CONTROLBAR:ToggleBlockFormation
-"Shield Wall Formation [&E]"
+"Shield Wall For&mation"
 END
 
 CONTROLBAR:ToolTipToggleBlockFormation
@@ -17506,7 +17502,7 @@ CONTROLBAR:ToolTipToggleBlockFormation
 END
 
 CONTROLBAR:ToggleRohirrimWeapons
-"Alternate Weapon [&E]"
+"Al&ternate Weapon"
 END
 
 CONTROLBAR:ToggleGondorRangerWeapons
@@ -17548,7 +17544,6 @@ END
 CONTROLBAR:ToolTipWordofPower
 "Requires Level 10 \n Sends out a shockwave that kills surrounding enemies \n Left click to activate"
 END
-
 CONTROLBAR:Shadowfax
 "&Mount / Dismount"
 END
@@ -17570,7 +17565,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Phial of Galadriel [&T]"
+"Phial of Galadriel (&T)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -17662,7 +17657,7 @@ CONTROLBAR:ToolTipDamrodKnightRanger
 END
 
 CONTROLBAR:ToggleShieldWallFormation
-"Shield Wall Formation [&E]"
+"Shield Wall For&mation"
 END
 
 CONTROLBAR:ToolTipToggleShieldWallFormation
@@ -17710,7 +17705,7 @@ CONTROLBAR:ToolTipSpeechCraft
 END
 
 CONTROLBAR:ToolTipDisguise
-"Requires Level 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them \n Left click to activate"
+"Requires Level 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them \n Cancels Shield Maiden bonus. \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipShieldMaiden
@@ -17718,7 +17713,7 @@ CONTROLBAR:ToolTipShieldMaiden
 END
 
 CONTROLBAR:ToggleTrebWeapon
-"Bombard [&R]"
+"Bomba&rd"
 END
 
 CONTROLBAR:ToolTipToggleTrebWeapon
@@ -17726,7 +17721,7 @@ CONTROLBAR:ToolTipToggleTrebWeapon
 END
 
 CONTROLBAR:NoAutoAcquire
-"Halt Auto Acquire [&T]"
+"Halt Auto Acqu&ire"
 END
 
 CONTROLBAR:ToolTipNoAutoAcquire
@@ -17734,7 +17729,7 @@ CONTROLBAR:ToolTipNoAutoAcquire
 END
 
 CONTROLBAR:AutoAcquire
-"Auto Acquire [&T]"
+"Auto Acqu&ire"
 END
 
 CONTROLBAR:ToolTipAutoAcquire
@@ -17758,7 +17753,7 @@ CONTROLBAR:TooltipSplitHorde
 End
 
 CONTROLBAR:GarrisonExit
-"Evacuate [&E]"
+"Evacua&te"
 END
 
 CONTROLBAR:ToolTipStructureExit
@@ -17776,7 +17771,7 @@ CONTROLBAR:ToolTipGarrisonEvacuate
 END
 
 CONTROLBAR:TransportEvacuate
-"Evacuate [&R]"
+"E&vacuate"
 END
 
 CONTROLBAR:ToolTipEvacuate
@@ -17820,7 +17815,7 @@ CONTROLBAR:ToolTipRepairStructure
 END
 
 CONTROLBAR:DeployMine
-"Deploy Mine [&E]"
+"&Deploy Mine"
 END
 
 CONTROLBAR:ToolTipDeployMine
@@ -23382,7 +23377,7 @@ Map:MAPMPEnedwaith
 END
 
 Map:MAPMPFangorn
-"Fangorn Forest"
+"Fangorn Orman"
 END
 
 Map:MAPMPFordsofIsen
@@ -26006,7 +26001,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRohanForgedBlades
 END
 
 CONTROLBAR:PurchaseUpgradeRohanForgedBlades
-"Forged Blades [&V]"
+"Forged &Blades"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanForgedBlades
@@ -26022,7 +26017,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRohanHeavyArmor
 END
 
 CONTROLBAR:PurchaseUpgradeRohanHeavyArmor
-"Heavy Armor [&C]"
+"Hea&vy Armor"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanHeavyArmor
@@ -26042,7 +26037,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRohanBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeRohanBasicTraining
-"Banner Carrier Upgrade [&T]"
+"Ba&nner Carrier Upgrade"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanBasicTraining
@@ -26123,7 +26118,7 @@ END
 
 
 CONTROLBAR:GoHarvest
-"Harvest Resources [&E]"
+"Harvest &Resources"
 END
 
 CONTROLBAR:TooltipGoHarvest
@@ -27077,7 +27072,7 @@ CONTROLBAR:ToolTipCaptureBuilding
 END
 
 CONTROLBAR:SelectUpgradesMenFortress
-"Fortress Upgrades [&R]"
+"Fortress &Upgrades"
 END
 
 CONTROLBAR:ToolTipCommandSelectUpgradesMenFortress
@@ -27085,7 +27080,7 @@ CONTROLBAR:ToolTipCommandSelectUpgradesMenFortress
 END
 
 CONTROLBAR:SelectRevivablesMenFortress
-"Heroes [&E]"
+"He&roes"
 END
 
 CONTROLBAR:ToolTipCommandSelectRevivablesMenFortress
@@ -27093,7 +27088,7 @@ CONTROLBAR:ToolTipCommandSelectRevivablesMenFortress
 END
 
 CONTROLBAR:ConstructMenTrebuchetExpansion
-"Trebuchet Expansion [&E]"
+"&Trebuchet Expansion"
 END
 
 CONTROLBAR:ToolTipConstructMenTrebuchetExpansion
@@ -27101,11 +27096,11 @@ CONTROLBAR:ToolTipConstructMenTrebuchetExpansion
 END
 
 CONTROLBAR:ConstructMenArrowTowerExpansion
-"Arrow Tower Expansion [&T]"
+"A&rrow Tower Expansion"
 END
 
 CONTROLBAR:ConstructMenDormitory
-"Dormitory Expansion [&R]"
+"&Dormitory Expansion"
 END
 
 CONTROLBAR:ToolTipConstructMenDormitory
@@ -27117,7 +27112,7 @@ CONTROLBAR:ToolTipConstructMenArrowTowerExpansion
 END
 
 CONTROLBAR:Command_ConstructMenWallHubExpansion
-"Wall Hub Expansion [&A]"
+"&Wall Hub Expansion"
 END
 
 CONTROLBAR:ToolTipCommand_ConstructMenWallHubExpansion
@@ -27213,7 +27208,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToTrebuchet
 END
 
 CONTROLBAR:PorterExtinguishFire
-"Extinguish Fire [&Y]"
+"Extinguish Fire"
 END
 
 CONTROLBAR:ToolTipPorterExtinguishFire
@@ -27258,7 +27253,7 @@ END
 ////////////////////////////////
 
 CONTROLBAR:ConstructDwarvenFortress
-"Build Fortress [&J]"
+"Build &Fortress"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenFortress
@@ -27266,11 +27261,11 @@ CONTROLBAR:ToolTipConstructDwarvenFortress
 END
 
 CONTROLBAR:ConstructDwarvenSentryTower
-"Build Battle Tower [&T]"
+"Build Batt&le Tower"
 END
 
 CONTROLBAR:ConstructDwarvenBarracks
-"Build Hall of Warriors [&D]"
+"Build Hall of Wa&rriors"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenBarracks
@@ -27278,7 +27273,7 @@ CONTROLBAR:ToolTipConstructDwarvenBarracks
 END
 
 CONTROLBAR:ConstructDwarvenHearth
-"Build Hearth [&R]"
+"Build He&arth"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenHearth
@@ -27286,7 +27281,7 @@ CONTROLBAR:ToolTipConstructDwarvenHearth
 END
 
 CONTROLBAR:ConstructDwarvenForgeWorks
-"Build Forge Works [&V]"
+"Build For&ge Works"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenForgeWorks
@@ -27294,7 +27289,7 @@ CONTROLBAR:ToolTipConstructDwarvenForgeWorks
 END
 
 CONTROLBAR:ConstructDwarvenMineShaft
-"Build Mine Shaft [&E]"
+"Build Mine Shaf&t"
 END
 
 CONTROLBAR:TooltipConstructDwarvenMineShaft
@@ -27302,7 +27297,7 @@ CONTROLBAR:TooltipConstructDwarvenMineShaft
 END
 
 CONTROLBAR:ConstructDwarvenStatue
-"Build Heroic Statue [&C]"
+"Build Hero&ic Statue"
 END
 
 CONTROLBAR:TooltipConstructDwarvenStatue
@@ -27310,7 +27305,7 @@ CONTROLBAR:TooltipConstructDwarvenStatue
 END
 
 CONTROLBAR:ConstructDwarvenArcheryRange
-"Build Archery Range [&F]"
+"Build Archer&y Range"
 END
 
 CONTROLBAR:TooltipConstructDwarvenArcheryRange
@@ -27318,7 +27313,7 @@ CONTROLBAR:TooltipConstructDwarvenArcheryRange
 END
 
 CONTROLBAR:ConstructDwarvenWallHub
-"Build Wall Hub [&A]"
+"Build &Wall Hub"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenWallHub
@@ -27331,7 +27326,7 @@ END
 ///////////////////////////////
 
 CONTROLBAR:SelectUpgradesDwarvenFortress
-"Fortress Upgrades [&R]"
+"Fortress &Upgrades"
 END
 
 CONTROLBAR:ToolTipCommandSelectUpgradesDwarvenFortress
@@ -27339,7 +27334,7 @@ CONTROLBAR:ToolTipCommandSelectUpgradesDwarvenFortress
 END
 
 CONTROLBAR:SelectRevivablesDwarvenFortress
-"Heroes [&E]"
+"He&roes"
 END
 
 CONTROLBAR:ToolTipCommandSelectRevivablesDwarvenFortress
@@ -27347,7 +27342,7 @@ CONTROLBAR:ToolTipCommandSelectRevivablesDwarvenFortress
 END
 
 CONTROLBAR:ConstructDwarvenCatapultExpansion
-"Catapult Expansion [&E]"
+"&Catapult Expansion"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenCatapultExpansion
@@ -27355,7 +27350,7 @@ CONTROLBAR:ToolTipConstructDwarvenCatapultExpansion
 END
 
 CONTROLBAR:ConstructDwarvenEreborTowerTowerExpansion
-"Axe Tower Expansion [&T]"
+"A&xe Tower Expansion"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenEreborTowerTowerExpansion
@@ -27363,7 +27358,7 @@ CONTROLBAR:ToolTipConstructDwarvenEreborTowerTowerExpansion
 END
 
 CONTROLBAR:Command_ConstructDwarvenWallHubExpansion
-"Wall Hub Expansion [&A]"
+"&Wall Hub Expansion"
 END
 
 CONTROLBAR:TooltipCommand_ConstructDwarvenWallHubExpansion
@@ -27419,7 +27414,7 @@ CONTROLBAR:ToolTipFireWeaponDwarvenFortressOilCasks
 END
 
 CONTROLBAR:ConstructDwarvenPorter
-"Recruit Builder [&D]"
+"Recruit Bui&lder"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenPorter
@@ -27564,23 +27559,23 @@ END
 /////////////////////////////////////////
 
 CONTROLBAR:ConstructDwarvenGuardianHorde
-"Guardians [&D]"
+"&Guardians"
 END
 
 CONTROLBAR:ConstructDwarvenPhalanxHorde
-"Phalanxes [&E]"
+"&Phalanxes"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde
-"Strong vs. Cavalry"
+"Strong vs. Cavalry and \n Unit Production Buildings"
 END
 
 CONTROLBAR:ConstructDwarvenAxeThrowerHorde
-"Axe Throwers [&F]"
+"A&xe Throwers"
 END
 
 CONTROLBAR:ConstructDwarvenDemolisher
-"Demolisher [&B]"
+"Demolishe&r"
 END
 
 TOOLTIP:LackLevel2ForgeWorksDemolisher
@@ -27588,11 +27583,11 @@ TOOLTIP:LackLevel2ForgeWorksDemolisher
 END
 
 CONTROLBAR:ConstructDwarvenBattleWagon
-"Battlewagon [&G]"
+"Battle&wagon"
 END
 
 CONTROLBAR:ConstructDwarvenCatapult
-"Catapult [&V]"
+"&Catapult"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenCatapult
@@ -27600,7 +27595,7 @@ CONTROLBAR:ToolTipBuildDwarvenCatapult
 END
 
 CONTROLBAR:UpgradeDwarvenBarracksLevel2
-"Upgrade Hall of Warriors to Level 2 [&A]"
+"&Upgrade Hall of Warriors to Level 2"
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel2
@@ -27608,7 +27603,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel2
 END
 
 CONTROLBAR:UpgradeDwarvenBarracksLevel3
-"Upgrade Hall of Warriors to Level 3 [&A]"
+"&Upgrade Hall of Warriors to Level 3"
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel3
@@ -27616,23 +27611,23 @@ CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel3
 END
 
 CONTROLBAR:ConstructDwarvenMenOfDale
-"Men of Dale [&R]"
+"Men of Da&le"
 END
 
 CONTROLBAR:ConstructDwarvenArcheryRangeLevel2Upgrade
-"Upgrade Archery Range to Level 2 [&A]"
+"&Upgrade Archery Range to Level 2"
 END
 
 CONTROLBAR:ConstructDwarvenArcheryRangeLevel3Upgrade
-"Upgrade Archery Range to Level 3 [&A]"
+"&Upgrade Archery Range to Level 3"
 END
 
 CONTROLBAR:UpgradeDwarvenForgeWorksLevel2
-"Upgrade Forge Works to Level 2 [&A]"
+"&Upgrade Forge Works to Level 2"
 END
 
 CONTROLBAR:UpgradeDwarvenForgeWorksLevel3
-"Upgrade Forge Works to Level 3 [&A]"
+"&Upgrade Forge Works to Level 3"
 END
 
 TOOLTIP:LackLevel2ForgeWorks
@@ -27666,7 +27661,7 @@ END
 //////////////////////////////
 
 CONTROLBAR:ConstructWildSpiderHolesExpansion
-"Spider Holes Expansion [&R]"
+"S&pider Holes Expansion"
 END
 
 CONTROLBAR:ToolTipConstructWildSpiderHolesExpansion
@@ -27674,7 +27669,7 @@ CONTROLBAR:ToolTipConstructWildSpiderHolesExpansion
 END
 
 CONTROLBAR:ConstructWildArrowDenExpansion
-"Arrow Den Expansion [&T]"
+"Arrow &Den Expansion"
 END
 
 CONTROLBAR:ToolTipConstructWildArrowDenExpansion
@@ -27682,7 +27677,7 @@ CONTROLBAR:ToolTipConstructWildArrowDenExpansion
 END
 
 CONTROLBAR:ConstructWildGiantSentryExpansion
-"Giant Sentry Expansion [&E]"
+"&Giant Sentry Expansion"
 END
 
 CONTROLBAR:ToolTipConstructWildGiantSentryExpansion
@@ -27690,7 +27685,7 @@ CONTROLBAR:ToolTipConstructWildGiantSentryExpansion
 END
 
 CONTROLBAR:SelectUpgradesWildFortress
-"Fortress Upgrades [&R]"
+"Fortress &Upgrades"
 END
 
 CONTROLBAR:ToolTipCommandSelectUpgradesWildFortress
@@ -27698,7 +27693,7 @@ CONTROLBAR:ToolTipCommandSelectUpgradesWildFortress
 END
 
 CONTROLBAR:SelectRevivablesGoblinFortress
-"Heroes [&E]"
+"He&roes"
 END
 
 CONTROLBAR:ToolTipCommandSelectRevivablesWildFortress
@@ -27787,7 +27782,7 @@ CONTROLBAR:ToolTipPurchaseWildFireDrake
 END
 
 CONTROLBAR:ConstructWildSentryTower
-"Build Sentry Tower [&T]"
+"Build Sentr&y Tower"
 END
 
 
@@ -27852,7 +27847,7 @@ OBJECT:WildGiantSentryExpansion
 END
 
 OBJECT:GoblinCaveTroll
-"Systematic's Cave Troll"
+"Cave Troll"
 END
 
 OBJECT:WildMountainGiant
@@ -27910,7 +27905,7 @@ END
 
 
 CONTROLBAR:ConstructElvenFortress
-"Build Fortress [&J]"
+"Build &Fortress"
 END
 
 CONTROLBAR:ToolTipConstructElvenFortress
@@ -27918,7 +27913,7 @@ CONTROLBAR:ToolTipConstructElvenFortress
 END
 
 CONTROLBAR:ConstructElvenWatchtowerExpansion
-"Watchtower Expansion [&T]"
+"Watchtowe&r Expansion"
 END
 
 CONTROLBAR:ToolTipConstructElvenWatchtowerExpansion
@@ -27926,7 +27921,7 @@ CONTROLBAR:ToolTipConstructElvenWatchtowerExpansion
 END
 
 CONTROLBAR:ConstructElvenVigilantEntExpansion
-"Vigilant Ent Expansion [&E]"
+"&Vigilant Ent Expansion"
 END
 
 CONTROLBAR:ToolTipConstructElvenVigilantEntExpansion
@@ -27934,7 +27929,7 @@ CONTROLBAR:ToolTipConstructElvenVigilantEntExpansion
 END
 
 CONTROLBAR:ConstructElvenFloodgateExpansion
-"Flood Gate Expansion [&R]"
+"&Flood Gate Expansion"
 END
 
 CONTROLBAR:ToolTipConstructElvenFloodgateExpansion
@@ -27942,7 +27937,7 @@ CONTROLBAR:ToolTipConstructElvenFloodgateExpansion
 END
 
 CONTROLBAR:SelectRevivablesElvenFortress
-"Heroes [&E]"
+"He&roes"
 END
 
 CONTROLBAR:ToolTipCommandSelectRevivablesElvenFortress
@@ -27950,7 +27945,7 @@ CONTROLBAR:ToolTipCommandSelectRevivablesElvenFortress
 END
 
 CONTROLBAR:SelectUpgradesElvenFortress
-"Fortress Upgrades [&R]"
+"Fortress &Upgrades"
 END
 
 CONTROLBAR:ToolTipCommandSelectUpgradesElvenFortress
@@ -28010,7 +28005,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressCrystalMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat
-"Decreases the melee vulnerability of the Fortress"
+"Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Always stacks"
 END
 
 CONTROLBAR:ToolTipElvenEntMoot
@@ -28018,7 +28013,7 @@ CONTROLBAR:ToolTipElvenEntMoot
 END
 
 CONTROLBAR:ConstructEregionForge
-"Build Eregion Forge [&V]"
+"Build Ere&gion Forge"
 END
 
 CONTROLBAR:ToolTipEregionForge
@@ -28026,7 +28021,7 @@ CONTROLBAR:ToolTipEregionForge
 END
 
 CONTROLBAR:PurchaseUpgradeEregionForgeLevel2
-"Upgrade Eregion Forge to Level 2 [&A]"
+"&Upgrade Eregion Forge to Level 2"
 END
 
 CONTROLBAR:ToolTipBuildEregionForgeLevel2
@@ -28035,7 +28030,7 @@ END
 // \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
 
 CONTROLBAR:PurchaseUpgradeEregionForgeLevel3
-"Upgrade Eregion Forge to Level 3 [&A]"
+"&Upgrade Eregion Forge to Level 3"
 END
 
 CONTROLBAR:ToolTipBuildEregionForgeLevel3
@@ -28048,7 +28043,7 @@ CONTROLBAR:ToolTipGreenPasture
 END
 
 CONTROLBAR:ConstructElvenBarracks
-"Build Elven Barracks [&D]"
+"Build Elven Barra&cks"
 END
 
 CONTROLBAR:ToolTipElvenBarracks
@@ -28056,15 +28051,15 @@ CONTROLBAR:ToolTipElvenBarracks
 END
 
 CONTROLBAR:PurchaseUpgradeElvenBarracksLevel2
-"Upgrade Elven Barracks to Level 2 [&A]"
+"&Upgrade Elven Barracks to Level 2"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenBarracksLevel3
-"Upgrade to Level 3 [&A]"
+"&Upgrade to Level 3"
 END
 
 CONTROLBAR:ConstructElvenStable
-"Build Green Pasture [&G]"
+"Build Green P&asture"
 END
 
 //CONTROLBAR:ToolTipElvenBarracks
@@ -28072,7 +28067,7 @@ END
 //END
 
 CONTROLBAR:ConstructElvenGreenPastureLevel2Upgrade
-"Upgrade Green Pasture to Level 2 [&A]"
+"&Upgrade Green Pasture to Level 2"
 END
 
 CONTROLBAR:ToolTipBuildElvenGreenPastureLevel2Upgrade
@@ -28080,7 +28075,7 @@ CONTROLBAR:ToolTipBuildElvenGreenPastureLevel2Upgrade
 END
 
 CONTROLBAR:ConstructElvenGreenPastureLevel3Upgrade
-"Upgrade Green Pasture to Level 3 [&A]"
+"&Upgrade Green Pasture to Level 3"
 END
 
 CONTROLBAR:ToolTipBuildElvenGreenPastureLevel3Upgrade
@@ -28088,15 +28083,15 @@ CONTROLBAR:ToolTipBuildElvenGreenPastureLevel3Upgrade
 END
 
 CONTROLBAR:ConstructElvenStatue
-"Build Heroic Statue [&C]"
+"Build Hero&ic Statue"
 END
 
 CONTROLBAR:ConstructElvenBattleTower
-"Build Battle Tower [&T]"
+"Build Batt&le Tower"
 END
 
 CONTROLBAR:ConstructElvenMallornTree
-"Build Mallorn Tree [&E]"
+"Build Mallo&rn Tree"
 END
 
 CONTROLBAR:ToolTipMallornTree
@@ -28104,7 +28099,7 @@ CONTROLBAR:ToolTipMallornTree
 END
 
 CONTROLBAR:ConstructGaladrielsWell
-"Build Mirror of Galadriel [&R]"
+"Build Mirror of Gala&driel"
 END
 
 CONTROLBAR:ToolTipEGaladrielsWell
@@ -28120,7 +28115,7 @@ CONTROLBAR:ToolTipCommand_ConstructElvenWallHubExpansion
 END
 
 CONTROLBAR:Command_ConstructElvenWallHubExpansionCastle
-"Wall Hub Expansion [&A]"
+"&Wall Hub Expansion"
 END
 
 CONTROLBAR:Command_ElvenWallUpgradeToHub
@@ -28156,7 +28151,7 @@ END
 // Elven Units
 
 CONTROLBAR:ConstructElvenLorienWarriorHorde
-"Train Lorien Warriors [&D]"
+"Train Lorien &Warriors"
 END
 
 CONTROLBAR:ToolTipBuildElvenLorienWarriorHordeWithNoPrerequisites
@@ -28164,11 +28159,11 @@ CONTROLBAR:ToolTipBuildElvenLorienWarriorHordeWithNoPrerequisites
 END
 
 CONTROLBAR:ConstructElvenMirkwoodArcherHorde
-"Train Mirrwood Archers [&R]"
+"Train Mir&kwood Archers"
 END
 
 CONTROLBAR:ConstructElvenMithlondSentryHorde
-"Train Mithlond Sentries [&E]"
+"Train &Mithlond Sentries"
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
@@ -28176,11 +28171,11 @@ CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
 END
 
 CONTROLBAR:BuildElvenRivendellLancers
-"Train Rivendell Lancers [&G]"
+"Train Rivende&ll Lancers"
 END
 
 CONTROLBAR:ConstructElvenPorter
-"Builder [&D]"
+"Bui&lder"
 END
 
 CONTROLBAR:Tooltipconstructelvenporter
@@ -28188,7 +28183,7 @@ CONTROLBAR:Tooltipconstructelvenporter
 END
 
 CONTROLBAR:ConstructElvenLorienArcherHorde
-"Train Lorien Archers [&F]"
+"Tr&ain Lorien Archers"
 END
 
 
@@ -28522,6 +28517,8 @@ END
 CONTROLBAR:LW_Hero_Gandalf
 "Gandalf"
 END
+
+
 
 CONTROLBAR:LW_ToolTipBuild_Gandalf
 "Unit Type: Hero\n"
@@ -29604,11 +29601,11 @@ CONTROLBAR:LW_ToolTip_WildMarauderHorde
 END
 
 CONTROLBAR:LW_Unit_GoblinCaveTroll
-"Systematic's Cave Troll"
+"Cave Troll"
 END
 
 CONTROLBAR:LW_Unit_GoblinCaveTrollPlural
-"Systematic's Cave Trolls"
+"Cave Trolls"
 END
 
 CONTROLBAR:LW_ToolTipBuild_GoblinCaveTroll
@@ -30819,7 +30816,7 @@ CONTROLBAR:ToolTipWizardsTowerLightningStrike
 END
 
 CONTROLBAR:ConstructIsengardTowerExpansion
-"Arrow Tower Expansion [&T]"
+"A&rrow Tower Expansion"
 END
 
 CONTROLBAR:ToolTipConstructIsengardTowerExpansion
@@ -30827,7 +30824,7 @@ CONTROLBAR:ToolTipConstructIsengardTowerExpansion
 END
 
 CONTROLBAR:ConstructIsengardBallistaExpansion
-"Ballista Expansion [&E]"
+"Ba&llista Expansion"
 END
 
 CONTROLBAR:ToolTipConstructIsengardBallistaExpansion
@@ -30835,7 +30832,7 @@ CONTROLBAR:ToolTipConstructIsengardBallistaExpansion
 END
 
 CONTROLBAR:ConstructIsengardMineLauncherExpansion
-"Mine Launcher Expansion [&R]"
+"&Mine Launcher Expansion"
 END
 
 CONTROLBAR:ToolTipConstructIsengardMineLauncherExpansion
@@ -30843,7 +30840,7 @@ CONTROLBAR:ToolTipConstructIsengardMineLauncherExpansion
 END
 
 CONTROLBAR:ConstructIsengardWallHubExpansion
-"Wall Hub Expansion [&A]"
+"&Wall Hub Expansion"
 END
 
 CONTROLBAR:ToolTipConstructIsengardWallHubExpansion
@@ -30931,7 +30928,7 @@ CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
 END
 
 CONTROLBAR:Command_ConstructIsengardCastleWallHub
-"Wall Hub [&A]"
+"&Wall Hub"
 END
 
 CONTROLBAR:ToolTipCommand_ConstructIsengardCastleWallHub
@@ -30939,7 +30936,7 @@ CONTROLBAR:ToolTipCommand_ConstructIsengardCastleWallHub
 END
 
 CONTROLBAR:SelectUpgradesIsengardFortress
-"Upgrade Fortress [&R]"
+"&Upgrade Fortress"
 END
 
 CONTROLBAR:ToolTipCommandSelectUpgradesIsengardFortress
@@ -30947,7 +30944,7 @@ CONTROLBAR:ToolTipCommandSelectUpgradesIsengardFortress
 END
 
 CONTROLBAR:SelectRevivablesIsengardFortress
-"Heroes [&E]"
+"He&roes"
 END
 
 CONTROLBAR:ToolTipCommandSelectRevivablesIsengardFortress
@@ -30960,7 +30957,7 @@ END
 ////////////////////////////////
 
 CONTROLBAR:SelectUpgradesMordorFortress
-"Upgrade Fortress [&R]"
+"&Upgrade Fortress"
 END
 
 CONTROLBAR:ToolTipCommandSelectUpgradesMordorFortress
@@ -30968,7 +30965,7 @@ CONTROLBAR:ToolTipCommandSelectUpgradesMordorFortress
 END
 
 CONTROLBAR:SelectRevivablesMordorFortress
-"Heroes [&E]"
+"He&roes"
 END
 
 CONTROLBAR:ToolTipCommandSelectRevivablesMordorFortress
@@ -30976,7 +30973,7 @@ CONTROLBAR:ToolTipCommandSelectRevivablesMordorFortress
 END
 
 CONTROLBAR:ConstructMordorWallCatapultExpansion
-"Catapult Expansion [&E]"
+"&Catapult Expansion"
 END
 
 CONTROLBAR:ToolTipConstructMordorWallCatapultExpansion
@@ -30984,7 +30981,7 @@ CONTROLBAR:ToolTipConstructMordorWallCatapultExpansion
 END
 
 CONTROLBAR:ConstructMordorBarricadeExpansion
-"Barricade Expansion [&T]"
+"Ba&rricade Expansion"
 END
 
 CONTROLBAR:ToolTipConstructMordorBarricadeExpansion
@@ -30992,7 +30989,7 @@ CONTROLBAR:ToolTipConstructMordorBarricadeExpansion
 END
 
 CONTROLBAR:ConstructMordorGateWatchersExpansion
-"Gate Watchers Expansion [&R]"
+"Gate &Watchers Expansion"
 END
 
 CONTROLBAR:ToolTipConstructMordorGateWatchersExpansion
@@ -31036,7 +31033,7 @@ CONTROLBAR:PurchaseUpgradeMordorFortressLavaMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat
-"Decreases melee vulnerability of the Fortress"
+"Decreases melee vulnerability of the Fortress \n Heals Nearby Units"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressGorgorothSpire
@@ -31064,7 +31061,7 @@ CONTROLBAR:ToolTipFireWeaponMordorFortressSpireFireball
 END
 
 CONTROLBAR:ConstructMordorFortress
-"Build Fortress [&J]"
+"Build &Fortress"
 END
 
 CONTROLBAR:ToolTipConstructMordorFortress
@@ -31088,7 +31085,7 @@ CONTROLBAR:ToolTipStartWallSpanRepair
 END
 
 CONTROLBAR:ConstructIsengardLumberMill
-"Lumber Mill [&R]"
+"L&umber Mill"
 END
 
 CONTROLBAR:ToolTipConstructIsengardLumberMill
@@ -31096,7 +31093,7 @@ CONTROLBAR:ToolTipConstructIsengardLumberMill
 END
 
 CONTROLBAR:ConstructIsengardWargSentry
-"Build Warg Sentry [&C]"
+"Build Warg Sentr&y"
 END
 
 CONTROLBAR:ToolTipConstructIsengardWargSentry
@@ -31104,7 +31101,7 @@ CONTROLBAR:ToolTipConstructIsengardWargSentry
 END
 
 CONTROLBAR:ConstructIsengardFortress
-"Build Fortress [&J]"
+"Build &Fortress"
 END
 
 CONTROLBAR:ToolTipConstructIsengardFortress
@@ -31112,7 +31109,7 @@ CONTROLBAR:ToolTipConstructIsengardFortress
 END
 
 CONTROLBAR:ConstructMordorTavern
-"Build Tavern [&G]"
+"Build Ta&vern"
 END
 
 CONTROLBAR:ToolTipMordorTavern
@@ -31120,7 +31117,7 @@ CONTROLBAR:ToolTipMordorTavern
 END
 
 CONTROLBAR:ConstructMordorLumberMill
-"Build Lumber Mill [&R]"
+"B&uild Lumber Mill"
 END
 
 CONTROLBAR:TooltipConstructMordorLumberMill
@@ -31129,7 +31126,7 @@ END
 
 
 CONTROLBAR:ConstructMordorCorsairsOfUmbarHorde
-"Corsairs of Umbar [&D]"
+"&Corsairs of Umbar"
 END
 
 CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan
@@ -31137,7 +31134,7 @@ CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan
 END
 
 CONTROLBAR:ConstructDwarvenHallExpansion
-"Hall Expansion [&R]"
+"Ha&ll Expansion"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenHallExpansion
@@ -31160,7 +31157,7 @@ END
 //////////////////////////
 
 CONTROLBAR:SonicSong
-"Sonic Song [&E]"
+"Soni&c Song"
 END
 
 CONTROLBAR:ToolTipSonicSong
@@ -31212,7 +31209,7 @@ CONTROLBAR:ToolTipGlorfindelWindRider
 END
 
 CONTROLBAR:WildWalk
-"Wild Walk [&T]"
+"Wild Walk"
 END
 
 CONTROLBAR:ToolTipThornofVengeance
@@ -31257,7 +31254,7 @@ CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel
 END
 
 CONTROLBAR:SpecialAbilityFireDrakeInferno
-"Inferno [&E]"
+"Infe&rno"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno
@@ -31265,7 +31262,7 @@ CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno
 END
 
 CONTROLBAR:SpecialAbilityFiresOfDoom
-"Fires of Doom [&R]"
+"Fi&res of Doom"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
@@ -31273,7 +31270,7 @@ CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
 END
 
 CONTROLBAR:TerribleFury
-"Terrible Fury [&T]"
+"&Terrible Fury"
 END
 
 CONTROLBAR:TooltipTerribleFury
@@ -31297,7 +31294,7 @@ CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight
 END
 
 CONTROLBAR:ToolTipHourOfTheWitchKing
-"Requires Level 10 \n Target enemy's special ability timers are reset to just used \n Left click icon then left click on target"
+"Requires Level 10 \n Target Heroes in an AOE have their special ability timers reset to 60% used \n Left click icon then left click on area"
 END
 
 CONTROLBAR:ToolTipThunderBolt
@@ -31305,7 +31302,7 @@ CONTROLBAR:ToolTipThunderBolt
 END
 
 CONTROLBAR:GaladrielTornado
-"Nature's Wrath [&E]"
+"Nature's &Wrath"
 END
 
 CONTROLBAR:TooltipGaladrielTornado
@@ -31358,27 +31355,27 @@ CONTROLBAR:ActivateFireShip
 End
 
 CONTROLBAR:BarbedArrows
-"Barbed Arrow Shot [&E]"
+"Barbed Arrow Sho&t"
 End
 
 CONTROLBAR:BattleWagonUpgradeAxeThrowers
-"Upgrade with Axe Throwers [&R]"
+"Upgrade &with Axe Throwers"
 End
 
 CONTROLBAR:BattleWagonUpgradeBannerCarrier
-"Upgrade with Banner Carrier [&V]"
+"Upgrade with Ba&nner Carrier"
 End
 
 CONTROLBAR:BattleWagonUpgradeHearth
-"Upgrade with Hearth [&C]"
+"Upgrade wi&th Hearth"
 End
 
 CONTROLBAR:BattleWagonUpgradeMenOfDale
-"Upgrade with Men of Dale [&T]"
+"Upgrade with Men of Da&le"
 End
 
 CONTROLBAR:BlackArrows
-"Black Arrows [&E]"
+"Blac&k Arrows"
 End
 
 CONTROLBAR:BlackRiderMount
@@ -31427,11 +31424,11 @@ CONTROLBAR:ConstructElvenGrove
 End
 
 CONTROLBAR:ConstructElvenHobbitShirrif
-"Hobbits [&D]"
+"Hobbits"
 End
 
 CONTROLBAR:ConstructElvenWallHub
-"Build Wall Hub [&A]"
+"Build &Wall Hub"
 End
 
 CONTROLBAR:ConstructElvenWarriorHorde
@@ -31455,11 +31452,11 @@ CONTROLBAR:ConstructEvilTransportShip
 End
 
 CONTROLBAR:ConstructGondorForgeLevel2Upgrade
-"Upgrade Blacksmith to Level 2 [&A]"
+"&Upgrade Blacksmith to Level 2"
 End
 
 CONTROLBAR:ConstructGondorForgeLevel3Upgrade
-"Upgrade Blacksmith to Level 3 [&A]"
+"&Upgrade Blacksmith to Level 3"
 End
 
 CONTROLBAR:ConstructGoodBombardShip
@@ -31479,23 +31476,23 @@ CONTROLBAR:ConstructGoodTransportShip
 End
 
 CONTROLBAR:ConstructIsengardArmoryLevel2
-"Upgrade Armory to Level 2 [&A]"
+"&Upgrade Armory to Level 2"
 End
 
 CONTROLBAR:ConstructIsengardArmoryLevel3
-"Upgrade Armory to Level 3 [&A]"
+"&Upgrade Armory to Level 3"
 End
 
 CONTROLBAR:ConstructMordorAttackTroll
-"Attack Troll [&V]"
+"A&ttack Troll"
 End
 
 CONTROLBAR:ConstructMordorBattleTower
-"Build Battle Tower [&T]"
+"Build Batt&le Tower"
 End
 
 CONTROLBAR:ConstructMordorHaradrimArcherHorde
-"Haradrim Archers [&R]"
+"H&aradrim Archers"
 End
 
 CONTROLBAR:ConstructRohanArcherHorde
@@ -31515,7 +31512,7 @@ CONTROLBAR:DainLeadership
 End
 
 CONTROLBAR:DominateTroll
-"Dominate Troll [&E]"
+"Dom&inate Troll"
 End
 
 CONTROLBAR:ElrondLeadership
@@ -31557,7 +31554,7 @@ CONTROLBAR:Invulnerability_Level2
 End
 
 CONTROLBAR:IsengardWargSentryUnleash
-"Unleash Warg [&E]"
+"Un&leash Warg"
 End
 
 CONTROLBAR:IsengardWormtongueRecruit
@@ -31569,7 +31566,7 @@ CONTROLBAR:IvoryTowerVision
 End
 
 CONTROLBAR:Knife
-"Knife [&E]"
+"Knife"
 End
 
 CONTROLBAR:LightBlast_Level1
@@ -31585,7 +31582,7 @@ CONTROLBAR:LightBlast_Level3
 End
 
 CONTROLBAR:MenLongShotAbility
-"Longshot [&E]"
+"Longsho&t"
 End
 
 CONTROLBAR:Messenger
@@ -31617,17 +31614,17 @@ CONTROLBAR:PlanningModeDescription
 End
 
 CONTROLBAR:PoisonArrows
-"Poison Arrows [&E]"
+"&Poison Arrows"
 End
 
 CONTROLBAR:PurchaseIsengardWargSentry
-"Build Warg Sentry"
+"Build &Warg Sentry"
 End
 
 
 
 CONTROLBAR:Roar
-"Roar [&E]"
+"&Roar"
 End
 
 CONTROLBAR:RohanGamlingRecruit
@@ -31647,7 +31644,7 @@ CONTROLBAR:SharkuWargMount
 End
 
 CONTROLBAR:ShelobWebbing
-"Webbing"
+"Web Of &Ungoliant"
 End
 
 
@@ -31667,23 +31664,23 @@ End
 
 
 CONTROLBAR:SpecialAbilityDwarvenDemolisherDeploy
-"Deploy [&E]"
+"Deplo&y"
 End
 
 CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades
-"Poisoned Blades [&E]"
+"&Poisoned Blades"
 End
 
 
 
 CONTROLBAR:SpecialAbilityOilBarrels
-"Oil Barrels [&E]"
+"O&il Barrels"
 End
 
 
 
 CONTROLBAR:SpecialAbilitySummonedDragonReposition
-"Reposition [&E]"
+"&Reposition"
 End
 
 CONTROLBAR:SpecialAbilityWildmanPillage
@@ -31701,7 +31698,7 @@ End
 
 
 CONTROLBAR:ThrowFireBombs
-"Firebombs [&E]"
+"Firebo&mbs"
 End
 
 CONTROLBAR:ToggleDwarvenGuardianWeapons
@@ -32046,75 +32043,75 @@ CONTROLBAR:UnpackFurnace
 End
 
 CONTROLBAR:UpgradeIsengardSiegeWorksLevel2
-"Upgrade the Siege Works to Level 2 [&A]"
+"&Upgrade the Siege Works to Level 2"
 End
 
 CONTROLBAR:UpgradeIsengardSiegeWorksLevel3
-"Upgrade the Siege Works to Level 3 [&A]"
+"&Upgrade the Siege Works to Level 3"
 End
 
 CONTROLBAR:UpgradeIsengardUrukPitLevel2
-"Upgrade Uruk Pit to Level 2 [&A]"
+"&Upgrade Uruk Pit to Level 2"
 End
 
 CONTROLBAR:UpgradeIsengardUrukPitLevel3
-"Upgrade Uruk Pit to Level 3 [&A]"
+"&Upgrade Uruk Pit to Level 3"
 End
 
 CONTROLBAR:UpgradeIsengardWargPitLevel2
-"Upgrade Warg Pit to Level 2 [&A]"
+"&Upgrade Warg Pit to Level 2"
 End
 
 CONTROLBAR:UpgradeIsengardWargPitLevel3
-"Upgrade Warg Pit to Level 3 [&A]"
+"&Upgrade Warg Pit to Level 3"
 End
 
 CONTROLBAR:UpgradeMordorHaradrimPalaceLevel2
-"Upgrade Haradrim Palace to Level 2 [&A]"
+"&Upgrade Haradrim Palace to Level 2"
 End
 
 CONTROLBAR:UpgradeMordorHaradrimPalaceLevel3
-"Upgrade Haradrim Palace to Level 3 [&A]"
+"&Upgrade Haradrim Palace to Level 3"
 End
 
 CONTROLBAR:UpgradeMordorMumakilPenLevel2
-"Upgrade Mumakil Pen to Level 2 [&A]"
+"&Upgrade Mumakil Pen to Level 2"
 End
 
 CONTROLBAR:UpgradeMordorMumakilPenLevel3
-"Upgrade Mumakil Pen to Level 3 [&A]"
+"&Upgrade Mumakil Pen to Level 3"
 End
 
 CONTROLBAR:UpgradeMordorOrcPitLevel2
-"Upgrade Orc Pit to Level 2 [&A]"
+"&Upgrade Orc Pit to Level 2"
 End
 
 CONTROLBAR:UpgradeMordorOrcPitLevel3
-"Upgrade Orc Pit to Level 3 [&A]"
+"&Upgrade Orc Pit to Level 3"
 End
 
 CONTROLBAR:UpgradeMordorSiegeWorksLevel2
-"Upgrade Siege Works to Level 2 [&A]"
+"&Upgrade Siege Works to Level 2"
 End
 
 CONTROLBAR:UpgradeMordorSiegeWorksLevel3
-"Upgrade Siege Works to Level 3 [&A]"
+"&Upgrade Siege Works to Level 3"
 End
 
 CONTROLBAR:UpgradeMordorTavernLevel2
-"Upgrade Tavern to Level 2 [&A]"
+"&Upgrade Tavern to Level 2"
 End
 
 CONTROLBAR:UpgradeMordorTavernLevel3
-"Upgrade Tavern to Level 3 [&A]"
+"&Upgrade Tavern to Level 3"
 End
 
 CONTROLBAR:UpgradeMordorTrollCageLevel2
-"Upgrade Troll Cage to Level 2 [&A]"
+"&Upgrade Troll Cage to Level 2"
 End
 
 CONTROLBAR:UpgradeMordorTrollCageLevel3
-"Upgrade Troll Cage to Level 3 [&A]"
+"&Upgrade Troll Cage to Level 3"
 End
 
 CONTROLBAR:WildDrogothRevive
@@ -32130,7 +32127,7 @@ CONTROLBAR:WildMountainGiantGrab
 End
 
 CONTROLBAR:WildMountainGiantStomp
-"Stomp [&R]"
+"S&tomp"
 End
 
 CONTROLBAR:WitchKingDismount
@@ -35000,7 +34997,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerForgedBlades
 END
 
 CONTROLBAR:Trollfindgoblintothrow
-"Pick up Goblin [&T]"
+"&Pick up Goblin"
 END
 
 CONTROLBAR:ToolTipTrollfindgoblintothrow
@@ -35020,7 +35017,7 @@ OBJECT:HordeDunedainRanger
 END
 
 CONTROLBAR:StopBombard
-"Stop Bombarding [&S]"
+"&Stop Bombarding"
 END
 
 CONTROLBAR:ToolTipCommandStopBombard
@@ -35221,7 +35218,7 @@ TOOLTIP:LackEagleNest
 END
 
 CONTROLBAR:ArcherBarrage
-"Bombard [&R]"
+"Bomba&rd"
 END
 
 CONTROLBAR:ConstructFireDrake
@@ -40058,7 +40055,7 @@ OBJECT:WargLairDescription
 END
 
 OBJECT:CaveTrollLairDescription
-"Allows training of Systematic's Cave Trolls"
+"Allows training of Cave Trolls"
 END
 
 OBJECT:FireDrakeLairDescription
@@ -40216,7 +40213,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyGondorHeavyArmor
 END
 
 CONTROLBAR:PurchaseUpgradeGondorHeavyArmor
-"Purchase Heavy Armor [&C]"
+"Purchase Hea&vy Armor"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeGondorHeavyArmor
@@ -40248,7 +40245,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyGondorFireStones
 END
 
 CONTROLBAR:PurchaseUpgradeGondorFireStones
-"Purchase Fire Stones [&B]"
+"Purchase Fire S&tones"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeGondorFireStones
@@ -40309,7 +40306,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyIsengardHeavyArmor
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardHeavyArmor
-"Purchase Heavy Armor [&C]"
+"Purchase Hea&vy Armor"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardHeavyArmor
@@ -40365,7 +40362,7 @@ CONTROLBAR:BatallionAreadyHasUpgrade
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenMithrilMail
-"Purchase Dwarven Mithril Mail [&C]"
+"Purchase Dwar&ven Mithril Mail"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenMithrilMail
@@ -40393,7 +40390,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeWildFireArrows
-"Purchase Fire Arrows [&B]"
+"Purchase Fire Arro&ws"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFireArrows
@@ -40421,7 +40418,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyWildForgedBlades
 END
 
 CONTROLBAR:PurchaseUpgradeWildHeavyArmor
-"Purchase Scavenged Armor [&C]"
+"Purchase Sca&venged Armor"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildHeavyArmor
@@ -40445,7 +40442,7 @@ CONTROLBAR:ToolTipPurchaseTechnologySpiderVenomSacks
 END
 
 CONTROLBAR:PurchaseSpiderVenomSacks
-"Purchase Venom Sacs [&N]"
+"Purchase &Venom Sacs"
 END
 
 CONTROLBAR:ToolTipPurchaseSpiderVenomSacks
@@ -40479,7 +40476,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyElvenBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeElvenSilverthornArrows
-"Purchase Silverthorn Arrows [&B]"
+"Purchase Silverthorn Arro&ws"
 END
 
 CONTROLBAR:TooltipPurchaseUpgradeElvenSilverthornArrows
@@ -40503,7 +40500,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyElvenHeavyArmor
 END
 
 CONTROLBAR:PurchaseUpgradeElvenHeavyArmor
-"Purchase Elven Armor [&C]"
+"Purchase El&ven Armor"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenHeavyArmor
@@ -40543,7 +40540,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorHeavyArmor
 END
 
 CONTROLBAR:HeavyArmorUpgrade
-"Purchase Heavy Armor [&C]"
+"Purchase Hea&vy Armor"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorHeavyArmor
@@ -40571,7 +40568,7 @@ CONTROLBAR:PurchaseTechnologyIsengardTorches
 End
 
 CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot
-"Upgrade with Flaming Shot [&B]"
+"Upgrade wi&th Flaming Shot"
 End
 
 CONTROLBAR:PurchaseUpgradeElderRacesMagicArrows
@@ -40583,7 +40580,7 @@ CONTROLBAR:PurchaseUpgradeElderRacesWarBarding
 End
 
 CONTROLBAR:PurchaseUpgradeIsengardTorches
-"Upgrade with Torches [&V]"
+"Upgrade wi&th Torches"
 End
 
 CONTROLBAR:PurchaseUpgradeShipArmor
@@ -40639,7 +40636,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeShipArmor
 End
 
 CONTROLBAR:PurchaseUpgradeDwarvenSiegeHammer
-"Siege Hammers [&N]"
+"S&iege Hammers"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenSiegeHammer
@@ -41399,7 +41396,7 @@ UPGRADE:BattlewagonMenofDale
 END
 
 UPGRADE:BattlewagonHearth
-"Hearth"
+"Kalp"
 END
 
 
@@ -41668,8 +41665,8 @@ Stat:Killed_Glorfindel_Count_Name
 "Glorfindels Defeated"
 END
 
-Stat:Killed_Valheru_The_Goblin_King_Count_Name
-"Goblin Kings Defeated"
+Stat:Killed_Gorkil_The_Goblin_King_Count_Name
+"Valheru Kings Defeated"
 END
 
 Stat:Killed_Haldir_Count_Name
@@ -42893,7 +42890,7 @@ CONTROLBAR:ToolTipCAH_ShieldCrush_L3
 End
 
 CONTROLBAR:ToolTipCAH_Starlight
-"Nearby allies become healed and gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast"
+"Nearby allies become healed and gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast."
 End
 
 CONTROLBAR:ToolTipCAH_Elendil
@@ -44129,7 +44126,7 @@ CONTROLBAR:CAHBladeMaster
 END
 
 CONTROLBAR:CAHElendil
-"&Elendil"
+"Elendil(&V)"
 END
 
 CONTROLBAR:CAHKingsFavor
@@ -45627,7 +45624,7 @@ DIALOGEVENT:MTrAdv_OffT038subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT039subtitle
-"*To cast the power, right click on the ground."
+"*c."
 END
 
 DIALOGEVENT:MTrAdv_OffT040subtitle
@@ -46701,7 +46698,7 @@ END
 //New
 
 CONTROLBAR:ConstructSindarWarriorHorde
-"Elven Warriors [&D]"
+"Elven &Warriors"
 End
 
 CONTROLBAR:ToolTipBuildSindarWarriorHorde
@@ -46717,7 +46714,7 @@ CONTROLBAR:ToolTipBuildRohanPeasant
 END
 
 CONTROLBAR:ConstructMordorHaradrimLancerHorde
-"Haradrim Lancers [&R]"
+"H&aradrim Lancers"
 END
 
 CONTROLBAR:ToolTipBuildMordorHaradrimLancerHorde
@@ -46725,61 +46722,61 @@ CONTROLBAR:ToolTipBuildMordorHaradrimLancerHorde
 END
 
 CONTROLBAR:EvacuateAll
-"Evacuate All [&E]"
+"E&vacuate All"
 End
 
 //Upgrades - Generic ;bt
 
 CONTROLBAR:PurchaseUpgradeGondorForgedBlades
-"Purchase Forged Blades [&V]"
+"Purchase Forged &Blades"
 END
 
 CONTROLBAR:PurchaseUpgradeRohanElvenWarriorForgedBlades
-"Purchase Forged Blades [&V]"
+"Purchase Forged &Blades"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardForgedBlades
-"Purchase Forged Blades [&V]"
+"Purchase Forged &Blades"
 END
 
 CONTROLBAR:PurchaseUpgradeWildForgedBlade
-"Purchase Forged Blades [&V]"
+"Purchase Forged &Blades"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenForgedBlades
-"Purchase Forged Blades [&V]"
+"Purchase Forged &Blades"
 END
 
 CONTROLBAR:PurchaseUpgradeGondorBasicTraining
-"Purchase Banner Carrier [&T]"
+"Purchase Banner &Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardBasicTraining
-"Purchase Banner Carrier [&T]"
+"Purchase Banner &Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorBasicTraining
-"Purchase Banner Carrier [&T]"
+"Purchase Banner &Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorBasicTrainingForMumakil
-"Purchase Banner Carrier [&T]"
+"Purchase Ba&nner Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeWildBasicTraining
-"Purchase Banner Carrier [&T]"
+"Purchase Banner &Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenBasicTraining
-"Purchase Banner Carrier [&T]"
+"Purchase Banner &Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining
-"Purchase Banner Carrier [&T]"
+"Purchase Banner &Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTrainingForMirkwoodArcherHorde
-"Purchase Banner Carrier [&T]"
+"Purchase Ba&nner Carrier"
 END
 
 TOOLTIP:LackLevel3EregionForge
@@ -46791,7 +46788,7 @@ TOOLTIP:LackMordorBarbedArrow
 END
 
 CONTROLBAR:BarbedArrowUpgrade
-"Barbed Arrows [&B]"
+"Barbed Arro&ws"
 END
 
 // Power Spells
@@ -46878,7 +46875,7 @@ END
 // Boromir
 
 CONTROLBAR:HornofGondor
-"Horn of Gondor [&E]"
+"Horn of Gondor [&R]"
 END
 
 CONTROLBAR:ToolTipHornofGondor
@@ -46890,22 +46887,22 @@ CONTROLBAR:ToolTipBoromirLeadership
 END
 
 CONTROLBAR:CaptainofGondorBoromir
-"Captain of Gondor [&T]"
+"Captain of Gondor [&C]"
 END
 
 
 // Theoden
 
 CONTROLBAR:TheodenMount
-"Mount / Dismount [&E]"
+"Mount / Dismount [&R]"
 END
 
 CONTROLBAR:KingsFavor 
-"King's Favor [&T]"
+"King's Favor [&C]"
 END
 
 CONTROLBAR:GloriousCharge
-"Glorious Charge [&C]"
+"Glorious Charge [&V]"
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
@@ -46919,7 +46916,7 @@ END
 //Eowyin
 
 CONTROLBAR:Smite
-"Smite [&R]"
+"Smite [&T]"
 END
 
 CONTROLBAR:Disguise
@@ -46927,7 +46924,7 @@ CONTROLBAR:Disguise
 END
 
 CONTROLBAR:ShieldMaiden
-"Shield Maiden [&C]"
+"Shield Maiden [&V]"
 END
 
 CONTROLBAR:ToolTipEowynMount
@@ -46935,25 +46932,25 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Powerful ranged attack against a single target \n Specially powerful vs flying monsters\n\nLeft click icon then left click on target"
+"Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Cancels the Disguise. \n Left click icon then left click on target"
 END
 
 //Faramir
 
 CONTROLBAR:ToggleFaramirWeapons
-"Toggle Weapon [&E]"
+"Toggle Weapon [&R]"
 END
 
 CONTROLBAR:WoundingArrow
-"Wounding Arrow [&R]"
+"Wounding Arrow [&T]"
 END
 
 CONTROLBAR:FaramirKnightRanger
-"Knight/Ranger Toggle [&T]"
+"Knight/Ranger Toggle [&C]"
 END
 
 CONTROLBAR:CaptainofGondor
-"Captain of Gondor [&V]"
+"Captain of Gondor [&B]"
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
@@ -46964,7 +46961,7 @@ END
 //Eomer
 
 CONTROLBAR:ThrowSpear
-"Spear Throw [&R]"
+"Spear Throw [&T]"
 END
 
 CONTROLBAR:ToolTipEomerLeadership
@@ -46978,19 +46975,19 @@ END
 //Aragorn
 
 CONTROLBAR:Athelas
-"Athelas [&E]"
+"Athelas [&R]"
 END
 
 CONTROLBAR:BladeMaster
-"Blade Master [&R]"
+"Blade Master [&T]"
 END
 
 CONTROLBAR:Elendil
-"Elendil [&C]"
+"Elendil [&V]"
 END
 
 CONTROLBAR:Oathbreakers
-"Oathbreakers [&V]"
+"Oathbreakers [&B]"
 END
 
 CONTROLBAR:TooltipBladeMaster
@@ -47004,23 +47001,23 @@ END
 //Gandalf
 
 CONTROLBAR:WizardBlast
-"Wizard Blast [&E]"
+"Wizard Blast [&R]"
 END
 
 CONTROLBAR:LightningSword
-"Lightning Sword [&R]"
+"Lightning Sword [&T]"
 END
 
 CONTROLBAR:GandalfMount
-"Mount / Dismount [&T]"
+"Mount / Dismount [&C]"
 END
 
 CONTROLBAR:IstariLight
-"Istari Light [&C]"
+"Istari Light [&V]"
 END
 
 CONTROLBAR:WordofPower
-"Word of Power [&V]"
+"Word of Power [&B]"
 END
 
 CONTROLBAR:ToolTipShadowfax
@@ -47109,11 +47106,11 @@ END
 //Haldir
 
 CONTROLBAR:ToggleElvenWarriorWeapons
-"Alternate Weapon [&E]"
+"Alternate Weapon [&R]"
 END
 
 CONTROLBAR:HaldirGoldenArrow
-"Golden Arrow [&T]"
+"Golden Arrow [&C]"
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
@@ -47121,43 +47118,45 @@ CONTROLBAR:ToolTipHaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
-"Requires Level 4 \n Allies near Haldir gain \n +50% Damage \n \n Passive ability"
+"Requires Level 4 \n Nearby Allies gain \n +50% Damage and earn experience +25% faster \n Passive ability"
 END
+
+
 
 // Glorfindel
 
 CONTROLBAR:GlorfindelBladeOfPurity
-"Blade of Purity [&R]"
+"Blade of Purity [&T]"
 END
 
 CONTROLBAR:GlorfindelWindRider
-"Wind Rider [&T]"
+"Wind Rider [&C]"
 END
 
 CONTROLBAR:GlorfindelStarlight
-"Starlight [&C]"
+"Starlight [&V]"
 END
 
 // Legolas
 
 CONTROLBAR:HawkStrike
-"Hawk Strike [&E]"
+"Hawk Strike [&R]"
 END
 
 CONTROLBAR:TrainArchers
-"Train Archers [&R]"
+"Train Archers [&T]"
 END
 
 CONTROLBAR:KnifeFighter
-"Knife Fighter [&T]"
+"Knife Fighter [&C]"
 END
 
 CONTROLBAR:ArrowWind
-"Arrow Wind [&C]"
+"Arrow Wind [&V]"
 END
 
 CONTROLBAR:ToolTipKnifeFighter
-"Requires Level 6 \n left click to activate \n Alternate melee attack \n +20% Armor"
+"Requires Level 4 \n left click to activate \n Alternate melee attack \n +35% Armor"
 END
 
 
@@ -47168,14 +47167,14 @@ CONTROLBAR:ThranduilElvenCloak
 END
 
 CONTROLBAR:ThornofVengeance
-"Thorn of Vengeance [&V]"
+"Thorn of Vengeance [&B]"
 END
 
 
 // Elrond
 
 CONTROLBAR:ElrondFarsight
-"Farsight [&E]"
+"Farsight [&T]"
 END
 
 CONTROLBAR:TooltipElrondLeadership
@@ -47187,7 +47186,7 @@ CONTROLBAR:ToolTipElrondFarsight
 END
 
 CONTROLBAR:ElrondRestoration
-"Restoration [&C]"
+"Restoration [&V]"
 END
 
 CONTROLBAR:ToolTipElrondRestoration
@@ -47195,7 +47194,7 @@ CONTROLBAR:ToolTipElrondRestoration
 END
 
 CONTROLBAR:ElrondWhirlwind
-"Whirlwind [&V]"
+"Whirlwind [&B]"
 End
 
 CONTROLBAR:TooltipElrondWhirlwind
@@ -47263,22 +47262,22 @@ END
 // Gloin
 
 CONTROLBAR:GloinSlam
-"Slam [&E]"
+"Slam [&R]"
 END
 
 CONTROLBAR:GloinShakeFoundation
-"Shake Foundation [&R]"
+"Shake Foundation [&T]"
 END
 
 CONTROLBAR:GloinSmash
-"Shatter Hammer [&T]"
+"Shatter Hammer [&C]"
 END
 
 
 // Dain
 
 CONTROLBAR:MightyRage
-"Mighty Rage [&R]"
+"Mighty Rage [&T]"
 END
 
 CONTROLBAR:DainStubbornPride
@@ -47286,7 +47285,7 @@ CONTROLBAR:DainStubbornPride
 END
 
 CONTROLBAR:SummonRoyalGuard
-"Summon Royal Guard [&C]"
+"Summon Royal Guard [&V]"
 END
 
 CONTROLBAR:ToolTipDainLeadership
@@ -47300,15 +47299,15 @@ END
 // Gimli
 
 CONTROLBAR:AxeThrow
-"Axe Throw [&R]"
+"Axe Throw [&T]"
 END
 
 CONTROLBAR:Leap
-"Leap Attack [&T]"
+"Leap Attack [&C]"
 END
 
 CONTROLBAR:Slayer
-"Slayer [&C]"
+"Slayer [&V]"
 END
 
 CONTROLBAR:ToolTipGimliLeadership
@@ -47424,44 +47423,44 @@ END
 // Lurtz
 
 CONTROLBAR:ToggleLurtzWeapon
-"Toggle Weapon [&E]"
+"Toggle Weapon [&R]"
 END
 
 CONTROLBAR:SpecialAbilityLurtzCarnage
-"Carnage [&R]"
+"Carnage [&T]"
 END
 
 CONTROLBAR:SpecialAbilityLurtzCripple
-"Cripple [&T]"
+"Cripple [&C]"
 END
 
 // Sharku
 
 CONTROLBAR:TameTheBeast
-"Tame the Beast [&T]"
+"Tame the Beast [&R]"
 END
 
 CONTROLBAR:SharkuManEater
-"Man Eater [&R]"
+"Man Eater [&C]"
 END
 
 
 // Wormtongue
 
 CONTROLBAR:VenomousWords
-"Venomous Words [&E]"
+"Venomous Words [&R]"
 END
 
 CONTROLBAR:Escape
-"Escape [&R]"
+"Escape [&T]"
 END
 
 CONTROLBAR:Backstab
-"Back Stab [&T]"
+"Back Stab [&C]"
 END
 
 CONTROLBAR:CorrodeAllegiance
-"Corrode Allegiance [&C]"
+"Corrode Allegiance [&V]"
 END
 
 CONTROLBAR:TooltipEscape
@@ -47476,19 +47475,19 @@ END
 // Saruman
 
 CONTROLBAR:SpecialAbilitySarumanFireball
-"Fireball [&R]"
+"Fireball [&T]"
 END
 
 CONTROLBAR:SpeechCraft
-"Speech Craft [&T]"
+"Speech Craft [&C]"
 END
 
 CONTROLBAR:Dominate
-"Dominate [&C]"
+"Dominate [&V]"
 END
 
 CONTROLBAR:ThunderBolt
-"Thunderbolt [&V]"
+"Thunderbolt [&B]"
 END
 
 //========================= MORDOR
@@ -47528,11 +47527,11 @@ End
 // Black Rider
 
 CONTROLBAR:BlackRiderMorgulBlade
-"Morgul Blade [&T]"
+"Morgul Blade [&C]"
 END
 
 CONTROLBAR:ScreechBlackRider
-"Screech [&C]"
+"Screech [&V]"
 END
 
 CONTROLBAR:ToolTipBuildMordorMumakil
@@ -47542,32 +47541,32 @@ END
 // Mouth of Sauron
 
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye
-"Evil Eye [&R]"
+"Evil Eye [&T]"
 END
 
 CONTROLBAR:MouthOfSauronDoubt
-"Doubt [&T]"
+"Doubt [&C]"
 END
 
 CONTROLBAR:MouthOfSauronDissent
-"Dissent [&C]"
+"Dissent [&V]"
 END
 
 // Fellbeast
 
 CONTROLBAR:Screech
-"Screech [&E]"
+"Screech [&R]"
 END
 
 
 // Witchking
 
 CONTROLBAR:ScreechWitchKing 
-"Screech [&T]"
+"Screech [&C]"
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Hour of the Witch-king [&C]"
+"Hour of the Witch-king [&V]"
 END
 
 //========================= GOBLINS
@@ -47607,19 +47606,19 @@ END
 
 
 CONTROLBAR:GoblinKingSkullTotem
-"Skull Totem [&E]"
+"Skull Totem [&R]"
 END
 
 CONTROLBAR:GoblinKingMount
-"Mount / Dismount [&R]"
+"Mount / Dismount [&T]"
 End
 
 CONTROLBAR:GoblinKingPoisonedStinger
-"Poisoned Stinger [&C]"
+"Poisoned Stinger [&V]"
 END
 
 CONTROLBAR:GoblinKingSpawnFireDrakes
-"Call From the Deep [&V]"
+"Call From the Deep [&B]"
 END
 
 CONTROLBAR:ToolTipGoblinKingMount
@@ -47629,34 +47628,34 @@ END
 // Shelob
 
 CONTROLBAR:WildShelobInstillTerror
-"Instill Terror [&E]"
+"Instill Terror [&R]"
 END
 
 CONTROLBAR:WildShelobPoisonedStinger
-"Poisoned Stinger [&R]"
+"Poisoned Stinger [&T]"
 End
 
 CONTROLBAR:SpecialAbilityWildShelobTunnel
-"Tunnel [&T]"
+"Tunnel [&C]"
 END
 
 
 // Drogoth
 
 CONTROLBAR:SpecialAbilityDrogothFireball
-"Fireball [&E]"
+"Fireball [&R]"
 END
 
 CONTROLBAR:SpecialAbilityWingBlast
-"Wing Blast [&R]"
+"Wing Blast [&T]"
 END
 
 CONTROLBAR:SpecialAbilityDrogothFireflight
-"Fire Flight [&T]"
+"Fire Flight [&C]"
 END
 
 CONTROLBAR:SpecialAbilityIncinerate
-"Incinerate [&C]"
+"Incinerate [&V]"
 END
 
 //======== Release Candidate 2 fixes
@@ -47704,19 +47703,19 @@ END
 //========== Release Candidate 4 fixes
 
 CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
-"Purchase Forged Blades [&V]"
+"Purchase Forged &Blades"
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
-"Charge Attack [&E]"
+"Cha&rge Attack"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
-"Purchase Banner Carrier [&T]"
+"Purchase Banner &Carrier"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Increases Fortress and Wall armor \n Pre-requisite for Flaming Munitions"
+"Increases Fortress and Wall armor \n Pre-requisite for Ivory Tower \n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:ToolTipOutlawLeadership
@@ -47724,31 +47723,31 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Elven Cloak [&E]"
+"Elven Cloak [&C]"
 END
 
 CONTROLBAR:ChargeAttack
-"Charge Attack [&E]"
+"Cha&rge Attack"
 END
 
 CONTROLBAR:ConstructRohanPeasant
-"Peasants [&D]"
+"&Peasants"
 END
 
 CONTROLBAR:DeadEye
-"Dead Eye [&R]"
+"Dead Eye [&T]"
 END
 
 CONTROLBAR:MoveUnseen
-"Move Unseen [&C]"
+"Move Unseen [&V]"
 END
 
 CONTROLBAR:PersonalFlood
-"Flood [&R]"
+"Flood [&T]"
 END
 
 CONTROLBAR:ElvenGrace
-"Athelas [&T]"
+"Athelas [&R]"
 END
 
 GUI:PleaseSelectBuddy

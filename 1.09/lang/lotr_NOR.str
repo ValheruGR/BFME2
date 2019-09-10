@@ -22,6 +22,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+OBJECT:TheForsakenInn
+"The Forsaken Inn" 
+End
+//------------------------------------------------------------
 UPGRADE:ElvenSilverthornArrows
 "Silverthorn Munitions"
 END
@@ -111,11 +115,11 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
+Map:mapSBbarrowdowns
+"The Barrow Downs"
 END
-Map:mapmpnothing/Desc
-"nothing"
+Map:mapSBbarrowdowns/Desc
+"The Barrow Downs or Tyrn Gorthad are a series of hills east of the Shire. Many wights roam these once sacred hills. \n Lairs: 3x Barrow Wight \n Map by SilverBane`"
 END
 //------------------------------------------------------------
 Map:mapSBdimrilldale
@@ -208,13 +212,6 @@ End
 Map:mapTESTironhillsiii/desc
 "A range of mountains located in northern Middle-earth. It is the realm of the Dwarves of Durin's Folk.\n\n Size: 498 x 398\n Lairs: 8x Spider Lair, 2x Fire Drake Lair, 4x Destructible Environment\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK"
 End
-//------------------------------------------------------------
-Map:mapTESTIronHillsII
-"Iron Hills II"
-END
-Map:mapTESTIronHillsII/Desc
-"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n\n Size: 600 x 535\n Lairs: 7x Spider Lair\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Fortress. \n Map from RotWK"
-END
 //------------------------------------------------------------
 Map:mapTESTfordsofharnen
 "Fords of Harnen"

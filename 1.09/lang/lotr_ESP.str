@@ -22,6 +22,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+OBJECT:TheForsakenInn
+"The Forsaken Inn" 
+End
+//------------------------------------------------------------
 UPGRADE:ElvenSilverthornArrows
 "Silverthorn Munitions"
 END
@@ -111,11 +115,11 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
+Map:mapSBbarrowdowns
+"The Barrow Downs"
 END
-Map:mapmpnothing/Desc
-"nothing"
+Map:mapSBbarrowdowns/Desc
+"The Barrow Downs or Tyrn Gorthad are a series of hills east of the Shire. Many wights roam these once sacred hills. \n Lairs: 3x Barrow Wight \n Map by SilverBane`"
 END
 //------------------------------------------------------------
 Map:mapSBdimrilldale
@@ -427,7 +431,7 @@ Map:MapSBDagorladMirkwoodSkin/Desc
 END
 //------------------------------------------------------------
 Map:MapSBFordsofCalenduin
-"Fords of Calenduin"
+"Vados del Calenduin"
 END
 Map:MapSBFordsofCalenduin/Desc
 "Far to the south, in the jungles of Far Harad, the Green River makes its way towards the Great Sea. Reskin by SilverBane`"
