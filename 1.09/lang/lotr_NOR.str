@@ -108,11 +108,11 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
+Map:mapSBeredlithui
+"Ered Lithui"
 END
-Map:mapmpnothing/Desc
-"nothing"
+Map:mapSBeredlithui/Desc
+"Ered Lithui or the Mountains of Ash form the northern border of Mordor. The road that runs east along them is used exclusively by Easterlings loyal to the Great Eye. \nMap by SilverBane` \n Lairs: 2x Goblin Lair, 1x Firedrake Lair"
 END
 //------------------------------------------------------------
 Map:mapSBbarrowdowns
@@ -16026,7 +16026,7 @@ CONTROLBAR:ToggleWedgeFormation
 END
 
 CONTROLBAR:ToggleLineFormation
-"Linje&formasjon"
+"Linjeformasjon (&V)"
 END
 
 CONTROLBAR:ToolTipToggleWedgeFormation
@@ -16046,7 +16046,7 @@ CONTROLBAR:ToolTipTogglePorcupineFormation
 END
 
 CONTROLBAR:ToggleBlockFormation
-"Blokkformasjon (&R)"
+"Blokkformasjon (&V)"
 END
 
 CONTROLBAR:ToolTipToggleBlockFormation
@@ -43946,7 +43946,7 @@ CONTROLBAR:ToolTipMenLongShotAbility
 END
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"Aktiver oppgradering til bannerbærer i kasernen for å kunne bruke dette utstyret \n\n +25 % rustning, -40 % hurtighet"
+"Aktiver oppgradering til bannerbærer i kasernen for å kunne bruke dette utstyret \n\n +25 % rustning, -30 % hurtighet"
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight

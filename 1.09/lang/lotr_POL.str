@@ -22,6 +22,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+OBJECT:TheForsakenInn
+"The Forsaken Inn" 
+End
+//------------------------------------------------------------
 UPGRADE:ElvenSilverthornArrows
 "Silverthorn Munitions"
 END
@@ -104,18 +108,18 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
+Map:mapSBeredlithui
+"Ered Lithui"
 END
-Map:mapmpnothing/Desc
-"nothing"
+Map:mapSBeredlithui/Desc
+"Ered Lithui or the Mountains of Ash form the northern border of Mordor. The road that runs east along them is used exclusively by Easterlings loyal to the Great Eye. \nMap by SilverBane` \n Lairs: 2x Goblin Lair, 1x Firedrake Lair"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
+Map:mapSBbarrowdowns
+"The Barrow Downs"
 END
-Map:mapmpnothing/Desc
-"nothing"
+Map:mapSBbarrowdowns/Desc
+"The Barrow Downs or Tyrn Gorthad are a series of hills east of the Shire. Many wights roam these once sacred hills. \n Lairs: 3x Barrow Wight \n Map by SilverBane`"
 END
 //------------------------------------------------------------
 Map:mapSBdimrilldale
@@ -16018,7 +16022,7 @@ CONTROLBAR:ToggleWedgeFormation
 END
 
 CONTROLBAR:ToggleLineFormation
-"For&macja szeregu"
+"Formacja szeregu (&V)"
 END
 
 CONTROLBAR:ToolTipToggleWedgeFormation
@@ -16038,7 +16042,7 @@ CONTROLBAR:ToolTipTogglePorcupineFormation
 END
 
 CONTROLBAR:ToggleBlockFormation
-"For&macja sciany tarcz"
+"Formacja sciany tarcz (&V)"
 END
 
 CONTROLBAR:ToolTipToggleBlockFormation
@@ -43938,7 +43942,7 @@ CONTROLBAR:ToolTipMenLongShotAbility
 END
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"Opracuj chorazego w koszarach, aby udostepnic to wyposazenie \n \n +20% do pancerza,+25% odpornosci na strzaly, -30% do szybkosci"
+"Opracuj chorazego w koszarach, aby udostepnic to wyposazenie \n \n +25% do pancerza,+25% odpornosci na strzaly, -30% do szybkosci"
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight

@@ -9050,6 +9050,10 @@ CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLineFormation
 "No bonus"
 END
 
+//CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
+//"+25% Armor, +25% arrow resistance, -30% Speed"
+//END
+
 CONTROLBAR:ToolTipToggleGFighterBlockToLineFormation
 "No bonus"
 END
@@ -17474,7 +17478,7 @@ CONTROLBAR:ToggleWedgeFormation
 END
 
 CONTROLBAR:ToggleLineFormation
-"Line For&mation"
+"Line Formation (&V)"
 END
 
 CONTROLBAR:ToolTipToggleWedgeFormation
@@ -17494,7 +17498,7 @@ CONTROLBAR:ToolTipTogglePorcupineFormation
 END
 
 CONTROLBAR:ToggleBlockFormation
-"Shield Wall For&mation"
+"Shield Wall Formation (&V)"
 END
 
 CONTROLBAR:ToolTipToggleBlockFormation
