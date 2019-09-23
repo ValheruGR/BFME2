@@ -221,7 +221,7 @@ Map:MAPTESTFordsOfHarnen/Desc
 END
 //------------------------------------------------------------
 Map:mapTESTeredmithrin
-"Ered Mithrin"
+"Ered Mithrin" // MAP REMOVED
 End
 Map:mapTESTeredmithrin/Desc
 "Of old the Ered Mithrin had been mined and inhabited by Dwarves of Durin's Folk, but by the Third Age only one Dwarven stronghold remained, standing strong against raiding Dragons from the nearby Withered Heath.\n\n Size: 600 x 500\n Lairs: 4x Warg Lair, 1x Troll Lair, 3x Fire Drake Lair, 1x Destructible Environment\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Tower. \n Map from RotWK"
@@ -333,7 +333,7 @@ Map:mapNEWtowerhillsiii/desc
 End
 //------------------------------------------------------------
 Map:mapNEWdesertofrhun
-"Desert Of Rhun"
+"Desert Of Rhun" //removed
 End
 Map:mapNEWdesertofrhun/desc
 "A vast desert lying to the south-east of Rhun. Many unprepared travellers lose their way attempting to traverse this rugged region. \n\n Size: 550 x 550\n Lairs: 6x Goblin Lair\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK"
