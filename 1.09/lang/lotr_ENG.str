@@ -15848,7 +15848,7 @@ CONTROLBAR:WarChant
 End
 
 CONTROLBAR:TooltipEnshroudingMist
-"Friendly units within the mist become stealthed \n Significantly reduces Armor and Damage from enemy hordes, heros and monsters \n Enemies lose their simple leadership bonuses \n\n Left click icon and left click on target area"
+"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters are reduced to 75% armor and 75% damage. \n Enemies lose their simple leadership bonuses. \n\n Left click icon and left click on target area"
 END
 
 CONTROLBAR:Industry
@@ -30677,7 +30677,7 @@ CONTROLBAR:Crebain
 END
 
 CONTROLBAR:TooltipCrebain
-"Reveals the shroud and detects stealthed units \n Significantly reduces enemy Armor and Damage \n Left click icon then left click on target area"
+"Reveals the shroud and detects stealthed units \n Enemy units are reduced to 75% armor and 75% damage \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:SummonWild
@@ -30725,7 +30725,7 @@ CONTROLBAR:CaveBats
 END
 
 CONTROLBAR:TooltipCaveBats
-"Reveals the shroud and detects stealthed units \n Enemy units lose their simple leadership bonuses \n Significantly reduces enemy Armor and Damage \n\n Left click icon then left click on pathable location"
+"Reveals the shroud and detects stealthed units \n Enemy units lose their simple leadership bonuses \n Enemy units are reduced to 75% armor and 75% damage \n\n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:UntamedAllegiance
@@ -31184,7 +31184,7 @@ CONTROLBAR:ToolTipAncientMaster
 END
 
 CONTROLBAR:ToolTipMouthOfSauronDoubt
-"Requires Level 4 \n Significantly reduces enemy Armor and Damage from enemy hordes and heroes.\n Enemy units lose their simple leadership bonuses \n Left click icon then left click on target units"
+"Requires Level 4 \n Enemy hordes and heroes are reduced to 75% armor and 75% damage.\n Enemy hordes lose their simple leadership bonuses \n Left click icon then left click on target units"
 END
 
 CONTROLBAR:DreadVisage
@@ -31192,7 +31192,7 @@ CONTROLBAR:DreadVisage
 END
 
 CONTROLBAR:ToolTipDreadVisage
-"Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Passive ability"
+"Enemy units are reduced to 75% armor and 75% damage \n Enemy units lose their simple leadership bonuses \n Passive ability"
 END
 
 CONTROLBAR:ToolTipBlackRiderMorgulBlade
@@ -31943,7 +31943,7 @@ CONTROLBAR:ToolTipWitchKingDismount
 End
 
 CONTROLBAR:ToolTipWitchKingDreadVisage
-"Requires Level 2 \n Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Visual is slightly different to Black Rider debuff \n Passive ability"
+"Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Enemy units lose their simple leadership bonuses \n Visual is slightly different to Black Rider debuff \n Passive ability"
 End
 
 CONTROLBAR:ToolTipWitchKingMount
@@ -47304,7 +47304,7 @@ CONTROLBAR:ToolTipDainLeadership
 END
 
 CONTROLBAR:ToolTipMightyRage
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed and +25% Damage\n Bonus cannot be removed and always stacks \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed and +25% Damage\n Bonus cannot be removed and always stacks \n\n Enemy units are reduced to 75% armor and 75% damage \n Enemy units lose their simple leadership bonuses \n\n Left click icon then left click on target units"
 END
 
 // Gimli
@@ -47479,7 +47479,7 @@ CONTROLBAR:TooltipEscape
 END
 
 CONTROLBAR:ToolTipVenomousWords
-"Significantly reduces enemy speed and rate of fire \n Enemy units lose their simple leadership bonuses \n Stacks with other negative spells \n\n Left click icon then left click on target units"
+"Enemy units are reduced to 60% speed and 50% rate of fire \n Enemy units lose their simple leadership bonuses \n Stacks with other negative spells \n\n Left click icon then left click on target units"
 END
 
 
