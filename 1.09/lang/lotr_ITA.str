@@ -108,11 +108,18 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapSBchetwood
+"Chetwood"
+END
+Map:mapSBchetwood/Desc
+"This forest situated east of Bree was bordered by the Midgewater marshes to the east, and the Great Eastern Road to the south. Aragorn led the hobbits through this forest on their way to Rivendell. \n Lairs: 2x Troll, 2x Warg \n Neutral structures: 2x Forsaken Inn \n Map by SilverBane`"
+END
+//------------------------------------------------------------
 Map:mapSBeredlithui
 "Ered Lithui"
 END
 Map:mapSBeredlithui/Desc
-"Ered Lithui or the Mountains of Ash form the northern border of Mordor. The road that runs east along them is used exclusively by Easterlings loyal to the Great Eye. \nMap by SilverBane` \n Lairs: 2x Goblin Lair, 1x Firedrake Lair"
+"Ered Lithui or the Mountains of Ash form the northern border of Mordor. The road that runs east along them is used exclusively by Easterlings loyal to the Great Eye. \n Lairs: 2x Goblin Lair, 1x Firedrake Lair \nMap by SilverBane` "
 END
 //------------------------------------------------------------
 Map:mapSBbarrowdowns
@@ -126,7 +133,7 @@ Map:mapSBdimrilldale
 "Dimrill Dale"
 END
 Map:mapSBdimrilldale/Desc
-"This valley east of Moria has been the final battleground of the War of the Dwarves and Orcs. \n Map by SilverBane` \n Lairs: 2x Goblins"
+"This valley east of Moria has been the final battleground of the War of the Dwarves and Orcs. \n Lairs: 2x Goblins \n Map by SilverBane`"
 END
 //------------------------------------------------------------
 Map:mapsbsirayn
