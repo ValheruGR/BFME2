@@ -108,6 +108,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapSBtumladen
+"Tumladen"
+END
+Map:mapSBtumladen/Desc
+"Tumladen is a deep valley between the rivers Celos and Sirith. It was the refuge of many civilians from Minas Tirith during the War of the Ring. \n Neutral Structures: 2x Inn \n Creeps: 2x Warg\n Map by SilverBane`"
+END
+//------------------------------------------------------------
 Map:mapSBchetwood
 "Chetwood"
 END
