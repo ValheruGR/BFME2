@@ -126,7 +126,7 @@ Map:mapSBeredlithui
 "Ered Lithui"
 END
 Map:mapSBeredlithui/Desc
-"Ered Lithui or the Mountains of Ash form the northern border of Mordor. The road that runs east along them is used exclusively by Easterlings loyal to the Great Eye. \nMap by SilverBane` \n Lairs: 2x Goblin Lair, 1x Firedrake Lair"
+"Ered Lithui or the Mountains of Ash form the northern border of Mordor. The road that runs east along them is used exclusively by Easterlings loyal to the Great Eye. \n Lairs: 2x Goblin Lair, 1x Firedrake Lair. \nMap by SilverBane`"
 END
 //------------------------------------------------------------
 Map:mapSBbarrowdowns
@@ -140,13 +140,13 @@ Map:mapSBdimrilldale
 "Dimrill Dale"
 END
 Map:mapSBdimrilldale/Desc
-"This valley east of Moria has been the final battleground of the War of the Dwarves and Orcs. \n Map by SilverBane` \n Lairs: 2x Goblins"
+"This valley east of Moria has been the final battleground of the War of the Dwarves and Orcs. \n Lairs: 2x Goblins \n Map by SilverBane`"
 END
 //------------------------------------------------------------
-Map:mapsbsirayn
+Map:mapSBsirayn
 "Sirayn"
 END
-Map:mapsbsirayn/Desc
+Map:mapSBsirayn/Desc
 "This ruined city lies deep in the forests of Far Harad. It is a Numenorean relic of the Second Age. \n Map by SilverBane`"
 END
 //------------------------------------------------------------
@@ -171,12 +171,12 @@ Map:mapTESTwoodyend/desc
 "Woody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east.\n\n Size: 580 x 480\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Outpost, 2x Signal Fire, 1x Tower. \n Map from RotWK"
 End
 //------------------------------------------------------------
-Map:mapTESTriveroforodruin
-"River of Orodruin"
-End
-Map:mapTESTriveroforodruin/desc
-"Orodruin, also known as Mount Doom, is a towering volcano in the land of Mordor. Around it, there is an arid plateau that is separated by rivers of lava.\n\n Size: 380 x 340\n Lairs: 2x Goblin Lair, 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Signal Fire. \n Map from RotWK"
-End
+//	Map:mapTESTriveroforodruin
+//	"River of Orodruin"
+//	End
+//	Map:mapTESTriveroforodruin/desc
+//	"Orodruin, also known as Mount Doom, is a towering volcano in the land of Mordor. Around it, there is an arid plateau that is separated by rivers of lava.\n\n Size: 380 x 340\n Lairs: 2x Goblin Lair, 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Signal Fire. \n Map from RotWK"
+//	End
 //------------------------------------------------------------
 Map:mapTESTrhunshore
 "Rhun Shore"
@@ -192,12 +192,12 @@ Map:mapTESTpathsofthedead/desc
 "A cavernous passageway through the White Mountains running from Dwimorberg in the north to the Morthond Vale in the south.\n\n Size: 230 x 390. \n Map from RotWK"
 End
 //------------------------------------------------------------
-Map:mapTESTmithlondvalley
-"Mithlond Valley" // MAP REMOVED
-End
-Map:mapTESTmithlondvalley/desc
-"A periphery settlement of the Grey Havens, constructed in a great valley that originates in Ered Lindon. \n Map from RotWK"
-End
+//	Map:mapTESTmithlondvalley
+//	"Mithlond Valley" // MAP REMOVED
+//	End
+//	Map:mapTESTmithlondvalley/desc
+//	"A periphery settlement of the Grey Havens, constructed in a great valley that originates in Ered Lindon. \n Map from RotWK"
+//	End
 //------------------------------------------------------------
 MAP:MapTESTMirkwoodForest
 "Mirkwood Forest"
@@ -220,12 +220,12 @@ Map:mapTESTironhillsiv/desc
 "A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n\n Size: 550 x 550\n Lairs: 4x Spider Lair, 2x Fire Drake Lair, 10x Destructible Environment\n Neutral Structures: 4x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK"
 End
 //------------------------------------------------------------
-Map:mapTESTironhillsiii
-"Iron Hills III" // MAP REMOVED
-End
-Map:mapTESTironhillsiii/desc
-"A range of mountains located in northern Middle-earth. It is the realm of the Dwarves of Durin's Folk.\n\n Size: 498 x 398\n Lairs: 8x Spider Lair, 2x Fire Drake Lair, 4x Destructible Environment\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK"
-End
+//	Map:mapTESTironhillsiii
+//	"Iron Hills III" // MAP REMOVED
+//	End
+//	Map:mapTESTironhillsiii/desc
+//	"A range of mountains located in northern Middle-earth. It is the realm of the Dwarves of Durin's Folk.\n\n Size: 498 x 398\n Lairs: 8x Spider Lair, 2x Fire Drake Lair, 4x Destructible Environment\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK"
+//	End
 //------------------------------------------------------------
 Map:mapTESTfordsofharnen
 "Fords of Harnen"
@@ -234,12 +234,12 @@ Map:MAPTESTFordsOfHarnen/Desc
 "The river Harnen was a river south of Gondor. South of the Harnen lay the land of Near Harad.\n\n Size: 560 x 450\n Lairs: 4x Troll Lair\n Neutral Structures: 4x Signal Fire. \n Map from RotWK"
 END
 //------------------------------------------------------------
-Map:mapTESTeredmithrin
-"Ered Mithrin" // MAP REMOVED
-End
-Map:mapTESTeredmithrin/Desc
-"Of old the Ered Mithrin had been mined and inhabited by Dwarves of Durin's Folk, but by the Third Age only one Dwarven stronghold remained, standing strong against raiding Dragons from the nearby Withered Heath.\n\n Size: 600 x 500\n Lairs: 4x Warg Lair, 1x Troll Lair, 3x Fire Drake Lair, 1x Destructible Environment\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Tower. \n Map from RotWK"
-End
+//	Map:mapTESTeredmithrin
+//	"Ered Mithrin" // MAP REMOVED
+//	End
+//	Map:mapTESTeredmithrin/Desc
+//	"Of old the Ered Mithrin had been mined and inhabited by Dwarves of Durin's Folk, but by the Third Age only one Dwarven stronghold remained, standing strong against raiding Dragons from the nearby Withered Heath.\n\n Size: 600 x 500\n Lairs: 4x Warg Lair, 1x Troll Lair, 3x Fire Drake Lair, 1x Destructible Environment\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Tower. \n Map from RotWK"
+//	End
 //------------------------------------------------------------
 Map:mapTESTerechii
 "Erech II"
@@ -248,19 +248,19 @@ Map:mapTESTerechii/desc
 "A hill west of Minas Tirith, where in ages past the faithless King of the Mountains swore an oath of fealty to Isildur.\n\n Size: 320 x 320\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn. \n Map from RotWK"
 End
 //------------------------------------------------------------
-Map:mapTESTdwarrowdelf
-"Dwarrowdelf " // MAP REMOVED
-End
-Map:mapTESTdwarrowdelf/Desc
-"Khazad-dûm, also known as Hadhodrond, Casarrondo and Phurunargian, which translates to Dwarrowdelf, latterly known as Moria.\n\n Size: 600 x 500\n Lairs: 8x Goblin Lair, 4x Troll Lair\n Neutral Structures: 4x Outpost, 4x Inn, 2x Signal Fire. \n Map from RotWK"
-End
+//	Map:mapTESTdwarrowdelf
+//	"Dwarrowdelf " // MAP REMOVED
+//	End
+//	Map:mapTESTdwarrowdelf/Desc
+//	"Khazad-dûm, also known as Hadhodrond, Casarrondo and Phurunargian, which translates to Dwarrowdelf, latterly known as Moria.\n\n Size: 600 x 500\n Lairs: 8x Goblin Lair, 4x Troll Lair\n Neutral Structures: 4x Outpost, 4x Inn, 2x Signal Fire. \n Map from RotWK"
+//	End
 //------------------------------------------------------------
-Map:maptestdungeonsoferebor
-"Dungeons of Erebor" // MAP REMOVED
-End
-Map:maptestdungeonsoferebor/Desc
-"A vast cavern within the Lonely Mountain where the Dwarves mine their riches and trade with the Men of Dale.\n\n Size: 500 x 500\n Lairs: 2x Goblin Lair, 4x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK"
-End
+//	Map:maptestdungeonsoferebor
+//	"Dungeons of Erebor" // MAP REMOVED
+//	End
+//	Map:maptestdungeonsoferebor/Desc
+//	"A vast cavern within the Lonely Mountain where the Dwarves mine their riches and trade with the Men of Dale.\n\n Size: 500 x 500\n Lairs: 2x Goblin Lair, 4x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK"
+//	End
 //------------------------------------------------------------
 Map:maptestdruwaithreef
 "Druwait Reef"
@@ -269,12 +269,12 @@ Map:maptestdruwaithreef/desc
 "This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK"
 End
 //------------------------------------------------------------
-Map:maptestbrownlands8p
-"Brown Lands [8p]" // MAP REMOVED
-END
-Map:maptestbrownlands8p/Desc
-"Lands to the east of the River Anduin scorched by Sauron at the end of the Second Age. Once the lush home of the Entwives, this area has been desolate since the battles of the Last Alliance.\n\n Size: 500 x 500\n Lairs: 10x Goblin Lair\n Map from RotWK"
-END
+//	Map:maptestbrownlands8p
+//	"Brown Lands [8p]" // MAP REMOVED
+//	END
+//	Map:maptestbrownlands8p/Desc
+//	"Lands to the east of the River Anduin scorched by Sauron at the end of the Second Age. Once the lush home of the Entwives, this area has been desolate since the battles of the Last Alliance.\n\n Size: 500 x 500\n Lairs: 10x Goblin Lair\n Map from RotWK"
+//	END
 //------------------------------------------------------------
 Map:mapNEWwestmarch
 "Westmarch"
