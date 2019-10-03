@@ -206,10 +206,10 @@ MAP:MapTESTMirkwoodForest/Desc
 "The term Mirkwood is taken from William Morris, influenced by the forest Myrkvior of Norse mythology. Projected into Old English, it appears as Myrcwudu in Tolkien's The Lost Road, as a poem sung by AElfwine.\n\n Size: 380 x 380\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Signal Fire. \n Map from RotWK"
 END
 //------------------------------------------------------------
-Map:mapTESTmidgewater
+Map:mapNEWmidgewater
 "Midgewater"
 End
-Map:mapTESTmidgewater/desc
+Map:mapNEWmidgewater/desc
 "The Midgewater Marshes is an area within Bree-land in the south-eastern region. It is known for its treacherous bogs that extend as far as the Weather Hills.\n\n Size: 370 x 310\n Lairs: 2x Spider Lair, 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn, 1x Signal Fire. \n Map from RotWK"
 End
 //------------------------------------------------------------
