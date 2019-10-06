@@ -16300,7 +16300,7 @@ CONTROLBAR:ToolTipBuildGondorFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
-"Strong vs. Cavalry"
+"Strong vs. Cavalry and \n Unit Production Buildings"
 END
 
 CONTROLBAR:ToolTipBuildGondorTrebuchet
@@ -16699,7 +16699,7 @@ END
 CONTROLBAR:ToolTipBuildWildSpiderPitLevel3Upgrade
 "Level 3: +25% Faster Build Speed" 
 END
-
+// "\n Allows research of Venom Sacs"
 CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
 "Upgrade Treasure Trove to Level 2 [&A]"
 END
@@ -16790,7 +16790,7 @@ CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair
 END
 
 CONTROLBAR:ToolTipBuildMordorEasterlingHorde
-"Strong vs. Cavalry"
+"Strong vs. Cavalry and \n Unit Production Buildings"
 END
 
 CONTROLBAR:ConstructMordorPorter
@@ -16961,7 +16961,7 @@ CONTROLBAR:ConstructIsengardFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildIsengardPikemen
-"Strong vs. Cavalry"
+"Strong vs. Cavalry and \n Unit Production Buildings"
 END
 
 CONTROLBAR:ToolTipBuildIsengardSiegeLadder
@@ -17338,7 +17338,7 @@ CONTROLBAR:ToolTipHawkStrike
 END
 
 CONTROLBAR:ToolTipTrainArchers
-"Requires Level 4 \n Targeted archers gain experience \n Left click icon then left click on target archers"
+"Requires Level 3 \n Targeted archers gain experience \n Left click icon then left click on target archers"
 END
 
 CONTROLBAR:MonsterSlayer
@@ -17754,7 +17754,7 @@ CONTROLBAR:ToolTipSpeechCraft
 END
 
 CONTROLBAR:ToolTipDisguise
-"Requires Level 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them \n Left click to activate"
+"Requires Level 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them \n Cancels Shield Maiden bonus. \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipShieldMaiden
@@ -27608,7 +27608,7 @@ CONTROLBAR:ConstructDwarvenPhalanxHorde
 END
 
 CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde
-"Strong vs. Cavalry"
+"Strong vs. Cavalry and \n Unit Production Buildings"
 END
 
 CONTROLBAR:ConstructDwarvenAxeThrowerHorde
@@ -27888,7 +27888,7 @@ OBJECT:WildGiantSentryExpansion
 END
 
 OBJECT:GoblinCaveTroll
-"Systematic's Cave Troll"
+"Cave Troll"
 END
 
 OBJECT:WildMountainGiant
@@ -28046,7 +28046,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressCrystalMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat
-"Decreases the melee vulnerability of the Fortress"
+"Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Always stacks"
 END
 
 CONTROLBAR:ToolTipElvenEntMoot
@@ -29640,11 +29640,11 @@ CONTROLBAR:LW_ToolTip_WildMarauderHorde
 END
 
 CONTROLBAR:LW_Unit_GoblinCaveTroll
-"Systematic's Cave Troll"
+"Cave Troll"
 END
 
 CONTROLBAR:LW_Unit_GoblinCaveTrollPlural
-"Systematic's Cave Trolls"
+"Cave Trolls"
 END
 
 CONTROLBAR:LW_ToolTipBuild_GoblinCaveTroll
@@ -31072,7 +31072,7 @@ CONTROLBAR:PurchaseUpgradeMordorFortressLavaMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat
-"Decreases melee vulnerability of the Fortress"
+"Decreases melee vulnerability of the Fortress \n Heals Nearby Units"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressGorgorothSpire
@@ -31333,7 +31333,7 @@ CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight
 END
 
 CONTROLBAR:ToolTipHourOfTheWitchKing
-"Requires Level 10 \n Target enemy's special ability timers are reset to just used \n Left click icon then left click on target"
+"Requires Level 10 \n Target Heroes in an AOE have their special ability timers reset to 80% used \n Left click icon then left click on area"
 END
 
 CONTROLBAR:ToolTipThunderBolt
@@ -31683,7 +31683,7 @@ CONTROLBAR:SharkuWargMount
 End
 
 CONTROLBAR:ShelobWebbing
-"Webbing"
+"Web Of Ungoliant [&C]"
 End
 
 
@@ -31825,7 +31825,7 @@ End
 // \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry
 
 CONTROLBAR:ToolTipBuildMordorAttackTroll
-"Requires Level 3 Troll Cages \n Strong vs. Swordsmen, Cavalry, and Heros"
+"Requires Level 3 Troll Cages \n Strong vs. Swordsmen, Cavalry, and Heroes"
 End
 
 CONTROLBAR:ToolTipCitadelCatapultUpgrade
@@ -41704,8 +41704,8 @@ Stat:Killed_Glorfindel_Count_Name
 "Glorfindels Defeated"
 END
 
-Stat:Killed_Valheru_The_Goblin_King_Count_Name
-"Goblin Kings Defeated"
+Stat:Killed_Gorkil_The_Goblin_King_Count_Name
+"Valheru Kings Defeated"
 END
 
 Stat:Killed_Haldir_Count_Name
@@ -42929,7 +42929,7 @@ CONTROLBAR:ToolTipCAH_ShieldCrush_L3
 End
 
 CONTROLBAR:ToolTipCAH_Starlight
-"Nearby allies become healed and gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast"
+"Nearby allies become healed and gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast."
 End
 
 CONTROLBAR:ToolTipCAH_Elendil
@@ -46971,7 +46971,7 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Powerful ranged attack against a single target \n Specially powerful vs flying monsters\n\nLeft click icon then left click on target"
+"Requires Level 2 \n Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Cancels the Disguise. \n Left click icon then left click on target"
 END
 
 //Faramir
@@ -47083,7 +47083,7 @@ END
 
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requires Level 10 \n Allies surrounding Glorfindel is a large radius become healed and gain \n +33% Armor, 50% Damage,  \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n Heals Monsters, Infantry, Cavalry and Builders \n Left click to activate" 
+"Requires Level 8 \n Allies surrounding Glorfindel is a large radius become healed and gain \n +33% Armor, 50% Damage,  \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n Heals Monsters, Infantry, Cavalry and Builders \n Left click to activate" 
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
@@ -47157,7 +47157,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
-"Requires Level 4 \n Allies near Haldir gain \n +50% Damage \n \n Passive ability"
+"Requires Level 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster \n \n Passive ability"
 END
 
 // Glorfindel
@@ -47193,7 +47193,7 @@ CONTROLBAR:ArrowWind
 END
 
 CONTROLBAR:ToolTipKnifeFighter
-"Requires Level 5 \n left click to activate \n Alternate melee attack \n +20% Armor"
+"Requires Level 4 \n left click to activate \n Alternate melee attack \n +35% Armor"
 END
 
 
@@ -47330,7 +47330,7 @@ CONTROLBAR:ToolTipDainLeadership
 END
 
 CONTROLBAR:ToolTipMightyRage
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed and +25% Damage\n Bonus cannot be removed and always stacks \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed and +25% Damage\n Bonus cannot be removed and always stacks \n\n Enemy units are reduced to 75% armor and 75% damage \n Enemy units lose their simple leadership bonuses \n\n Left click icon then left click on target units"
 END
 
 // Gimli
@@ -47448,7 +47448,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 //patch105: Friendly cavalry trample deceleration reduced.
 CONTROLBAR:ToolTipDominate
-"Requires Level 8 \n Temporarily gain control of targeted enemies \n Left click icon then left click on target enemies"
+"Requires Level 9 \n Temporarily gain control of targeted enemies \n Left click icon then left click on target enemies"
 END
 
 CONTROLBAR:ToolTipSharkuManEater
@@ -47505,7 +47505,7 @@ CONTROLBAR:TooltipEscape
 END
 
 CONTROLBAR:ToolTipVenomousWords
-"Significantly reduces enemy speed and rate of fire \n Enemy units lose their simple leadership bonuses \n Stacks with other negative spells \n\n Left click icon then left click on target units"
+"Enemy units are reduced to 60% speed and 50% rate of fire \n Enemy units lose their simple leadership bonuses \n Stacks with other negative spells \n\n Left click icon then left click on target units"
 END
 
 
@@ -47752,7 +47752,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Increases Fortress and Wall armor \n Pre-requisite for Flaming Munitions"
+"Increases Fortress and Wall armor \n Pre-requisite for Ivory Tower \n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:ToolTipOutlawLeadership

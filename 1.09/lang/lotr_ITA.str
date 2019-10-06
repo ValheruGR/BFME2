@@ -43990,7 +43990,7 @@ CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Richiede livello 10.\nCura le unità alleate in zona e fornisce\n+50% danno e +50% corazza.\nComando semplice, non cumulativo con altri comandi sull'armatura.\n\nClicca con il pulsante sinistro per attivare."
+"Richiede livello 8.\nCura le unità alleate in zona e fornisce\n+50% danno e +50% corazza.\nComando semplice, non cumulativo con altri comandi sull'armatura.\n\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
@@ -44314,7 +44314,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 
 CONTROLBAR:ToolTipDominate
-"Richiede livello 8.\nOttiene il controllo temporaneo dei nemici scelti come bersaglio.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Richiede livello 9.\nOttiene il controllo temporaneo dei nemici scelti come bersaglio.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipSharkuManEater
