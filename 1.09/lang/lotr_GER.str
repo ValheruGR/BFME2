@@ -43991,7 +43991,7 @@ CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Voraussetzung: Stufe 8 \n Verbündete in der Nähe werden geheilt, \n verursachen +50% Schaden und erhalten +50% Rüstung \n \n Einfache Führerschaft \n Wird nicht mit anderer Rüstung-Führerschaft addiert \n\n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 8 \n Verbündete in der Nähe werden geheilt, \n verursachen +50% Schaden und erhalten +35% Rüstung \n \n Einfache Führerschaft \n Wird nicht mit anderer Rüstung-Führerschaft addiert \n\n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity

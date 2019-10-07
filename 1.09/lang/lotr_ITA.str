@@ -43990,7 +43990,7 @@ CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Richiede livello 8.\nCura le unità alleate in zona e fornisce\n+50% danno e +50% corazza.\nComando semplice, non cumulativo con altri comandi sull'armatura.\n\nClicca con il pulsante sinistro per attivare."
+"Richiede livello 8.\nCura le unità alleate in zona e fornisce\n+50% danno e +35% corazza.\nComando semplice, non cumulativo con altri comandi sull'armatura.\n\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity

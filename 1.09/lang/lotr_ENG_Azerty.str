@@ -47083,7 +47083,7 @@ END
 
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requires Level 8 \n Allies surrounding Glorfindel is a large radius become healed and gain \n +33% Armor, 50% Damage,  \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n Heals Monsters, Infantry, Cavalry and Builders \n Left click to activate" 
+"Requires Level 8 \n Allies surrounding Glorfindel in a large radius become healed and gain \n +33% Armor, 50% Damage,  \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n Heals Monsters, Infantry, Cavalry and Builders \n Respawns allied hordes. \n Left click to activate" 
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity

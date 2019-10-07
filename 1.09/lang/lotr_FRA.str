@@ -43991,7 +43991,7 @@ CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requiert : niveau 8 \n Les unités alliées proches sont soignées et gagnent +50% armure, +50% dégâts \nBonus de charisme modeste \n Bonus non cumulatif \nClic gauche pour activer"
+"Requiert : niveau 8 \n Les unités alliées proches sont soignées et gagnent +35% armure, +50% dégâts \nBonus de charisme modeste \n Bonus non cumulatif \nClic gauche pour activer"
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
