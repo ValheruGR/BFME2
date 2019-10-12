@@ -17716,7 +17716,7 @@ END
 //	"Loose For&mation"
 //	END
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-30% Speed, -7% Damage \n +20% Armor \n +25% extra arrow resistance"
+"-30% Speed, +20% Armor \n and +25% extra arrow resistance. \n Loses -7% damage."
 END
 //	CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
 //	"Default Formation"

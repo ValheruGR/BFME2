@@ -16265,7 +16265,7 @@ CONTROLBAR:ToggleLooseFormation
 END
 
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-30% vitesse\n+20% armure\n+25% de résistance aux flèches"
+"-30% Speed, +20% Armor \n and +25% extra arrow resistance. \n Loses -7% damage."
 END
 
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation

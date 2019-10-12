@@ -16093,9 +16093,9 @@ CONTROLBAR:ToggleBlockFormation
 "Formación muralla de escudos [&V]"
 END
 
-CONTROLBAR:ToolTipToggleBlockFormation
-"-40% en velocidad\n-40% en daño\n+60% en armadura"
-END
+//CONTROLBAR:ToolTipToggleBlockFormation
+//"-40% en velocidad\n-40% en daño\n+60% en armadura"
+//END
 
 CONTROLBAR:ToggleRohirrimWeapons
 "Arma al&ternativa"
@@ -16266,7 +16266,7 @@ CONTROLBAR:ToggleLooseFormation
 END
 
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-30% velocidad\n+20% armadura\n+25% resistencia contra flechas"
+"-30% velocidad\n+20% armadura\n+25% resistencia contra flechas. \n Pierde -7% daño."
 END
 
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
