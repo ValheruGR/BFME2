@@ -192,11 +192,11 @@ Map:mapTESTGondorOutpost/Desc
 "Test me! An outpost on the border of Harondor which served to keep watch of the southern roads.\n\n Size: 500 x 500\n Lairs: 8x Warg Lair\n Neutral Structures: 1x Outpost. \n Map from RotWK, by Solas, Mako & TheRanger."
 END
 //------------------------------------------------------------
-Map:mapTESTPlainsOfLindon
+Map:mapNEWPlainsOfLindon
 "Plains of Lindon"
 END
-Map:mapTESTPlainsOfLindon/Desc
-"Test me! A green and quiet Elvish country beyond the Lune.\n\n Size: 313 x 375\n Lairs: 2x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
+Map:mapNEWPlainsOfLindon/Desc
+"A green and quiet Elvish country beyond the Lune.\n\n Size: 313 x 375\n Lairs: 2x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapTESTwoodyend
