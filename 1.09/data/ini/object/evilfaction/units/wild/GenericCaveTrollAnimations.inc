@@ -552,14 +552,14 @@
 
 		AnimationState = HIT_REACTION HIT_LEVEL_2 WEAPONSET_TOGGLE_1
 			Animation = Hit_Level_2
-				AnimationName = MuCavTroll_SKL.MuCavTroll_HITC
+				AnimationName = MuCavTroll_SKL.MuCavTroll_HITA ;;-;; C
 				AnimationMode = ONCE
 			End
 		End
 
 		AnimationState = HIT_REACTION HIT_LEVEL_3 WEAPONSET_TOGGLE_1
 			Animation = Hit_Level_3
-				AnimationName = MuCavTroll_SKL.MuCavTroll_HITA
+				AnimationName = MuCavTroll_SKL.MuCavTroll_HITC ;;-;; A
 				AnimationMode = ONCE
 			End
 		End
