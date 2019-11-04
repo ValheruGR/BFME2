@@ -28747,7 +28747,7 @@ CONTROLBAR:ToolTipCorrodeAllegiance
 END
 
 CONTROLBAR:ToolTipTameTheBeast
-"Nodig: niveau 2\nSharku krijgt controle over geselecteerde Wargen of Warg-ruiters\nKlik met links op het icoontje en daarna met links op het nest"
+"Nodig: niveau 9\nSharku krijgt controle over geselecteerde Wargen of Warg-ruiters\nKlik met links op het icoontje en daarna met links op het nest"
 END
 
 CONTROLBAR:BloodHunt
@@ -28799,7 +28799,7 @@ CONTROLBAR:TooltipWildShelobInstillTerror
 END
 
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel
-"Nodig: niveau 10\nHiermee kan Shelob een tunnel graven en tevoorschijn komen op een plek zonder mist\nKlik met links op het icoontje en daarna met links op een plek"
+"Nodig: niveau 7\nHiermee kan Shelob een tunnel graven en tevoorschijn komen op een plek zonder mist\nKlik met links op het icoontje en daarna met links op een plek"
 END
 
 CONTROLBAR:SpecialAbilityFireDrakeInferno
@@ -44307,7 +44307,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 
 CONTROLBAR:ToolTipDominate
-"Nodig: niveau 9\nGeeft tijdelijk controle over geselecteerde vijanden\nKlik met links op het icoontje en daarna met links op de doelwitten"
+"Nodig: niveau 8\nGeeft tijdelijk controle over geselecteerde vijanden\nKlik met links op het icoontje en daarna met links op de doelwitten"
 END
 
 CONTROLBAR:ToolTipSharkuManEater

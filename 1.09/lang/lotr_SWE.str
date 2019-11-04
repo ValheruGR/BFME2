@@ -28747,7 +28747,7 @@ CONTROLBAR:ToolTipCorrodeAllegiance
 END
 
 CONTROLBAR:ToolTipTameTheBeast
-"Sharku tar kontroll över markerade ulvar eller ulv-ryttare \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
+"Kräver grad 9 \Sharku tar kontroll över markerade ulvar eller ulv-ryttare \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
 END
 
 CONTROLBAR:BloodHunt
@@ -28799,7 +28799,7 @@ CONTROLBAR:TooltipWildShelobInstillTerror
 END
 
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel
-"Kräver grad 10 \nLåter Lockan gräva sig genom marken och dyka upp där kartslöjan är lyft \nVänsterklicka på ikonen, vänsterklicka sedan på målpositionen"
+"Kräver grad 7 \nLåter Lockan gräva sig genom marken och dyka upp där kartslöjan är lyft \nVänsterklicka på ikonen, vänsterklicka sedan på målpositionen"
 END
 
 CONTROLBAR:SpecialAbilityFireDrakeInferno
@@ -44308,7 +44308,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 
 CONTROLBAR:ToolTipDominate
-"Kräver grad 9 \n Ta temporärt kontrollen över fiender \n Vänsterklicka på ikonen, vänsterklicka sedan på fienderna"
+"Kräver grad 8 \n Ta temporärt kontrollen över fiender \n Vänsterklicka på ikonen, vänsterklicka sedan på fienderna"
 END
 
 CONTROLBAR:ToolTipSharkuManEater

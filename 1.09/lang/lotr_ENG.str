@@ -31972,7 +31972,7 @@ CONTROLBAR:ToolTipWitchKingDismount
 End
 
 CONTROLBAR:ToolTipWitchKingDreadVisage
-"Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Enemy units lose their simple leadership bonuses \n Visual is slightly different to Black Rider debuff \n Passive ability"
+"Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Enemy units lose their simple leadership bonuses \n Passive ability"
 End
 
 CONTROLBAR:ToolTipWitchKingMount
@@ -46946,7 +46946,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Allies near Theoden gain \n +25% Damage \n +25% experience \n \n Always stacks\n \n Passive ability"
+"Allies near Theoden gain \n +25% Damage and +25% experience. \n Always stacks\n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipGloriousCharge
@@ -47423,7 +47423,7 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% armor \n and earn experience 50% faster \n Simple leadership kind \n Always stacks \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster \n always stacks \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipDarkness
@@ -47451,7 +47451,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 //patch105: Friendly cavalry trample deceleration reduced.
 CONTROLBAR:ToolTipDominate
-"Requires Level 9 \n Temporarily gain control of targeted enemies \n Left click icon then left click on target enemies"
+"Requires Level 8 \n Temporarily gain control of targeted enemies \n Left click icon then left click on target enemies"
 END
 
 CONTROLBAR:ToolTipSharkuManEater

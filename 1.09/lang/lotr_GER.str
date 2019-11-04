@@ -44287,7 +44287,7 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Beschwört Saurons Auge \n Enttarnt versteckte Feinde und deine Mutter \n Verbündete verursachen +25% Schaden, erhalten +25% Rüstung \n und sammeln Erfahrung 50% schneller \n Einfache Führerschaft \n Wird immer addiert \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Beschwört Saurons Auge \n Enttarnt versteckte Feinde und deine Mutter \n Verbündete verursachen +25% Schaden, erhalten +25% Rüstung \n und sammeln Erfahrung 50% schneller \n Wird immer addiert \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 
 CONTROLBAR:ToolTipDarkness
@@ -44315,7 +44315,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 
 CONTROLBAR:ToolTipDominate
-"Voraussetzung: Stufe 9 \n Bringe die anvisierten Einheiten vorübergehend unter deine Kontrolle \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Voraussetzung: Stufe 8 \n Bringe die anvisierten Einheiten vorübergehend unter deine Kontrolle \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 
 CONTROLBAR:ToolTipSharkuManEater

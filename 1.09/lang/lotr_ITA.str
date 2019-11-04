@@ -44286,7 +44286,7 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Evoca l'Occhio di Sauron.\nRivela i nemici mimetizzati.\nGli alleati ottengono +25% danno, +25% corazza e accumulano esperienza il 50% più velocemente.\n Comando di tipo semplice, sempre cumulativo. \nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
+"Evoca l'Occhio di Sauron.\nRivela i nemici mimetizzati.\nGli alleati ottengono +25% danno, +25% corazza e accumulano esperienza il 50% più velocemente.\n Sempre cumulativo. \nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
 END
 
 CONTROLBAR:ToolTipDarkness
@@ -44314,7 +44314,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 
 CONTROLBAR:ToolTipDominate
-"Richiede livello 9.\nOttiene il controllo temporaneo dei nemici scelti come bersaglio.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Richiede livello 8.\nOttiene il controllo temporaneo dei nemici scelti come bersaglio.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipSharkuManEater
