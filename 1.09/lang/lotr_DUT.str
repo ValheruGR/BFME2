@@ -43575,7 +43575,7 @@ CONTROLBAR:ToolTipBuildGondorFighterHorde
 END
 
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
-"Sterk tegen gebouwen die grondstoffen genereren"
+"Sterk tegen gebouwen die grondstoffen genereren \n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
 END
 
 CONTROLBAR:ToolTipBuildMordorCorsairHorde

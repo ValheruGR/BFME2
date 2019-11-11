@@ -43578,7 +43578,7 @@ CONTROLBAR:ToolTipBuildGondorFighterHorde
 END
 
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
-"Sterke mot ressursbyggverk"
+"Sterke mot ressursbyggverk \n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
 END
 
 CONTROLBAR:ToolTipBuildMordorCorsairHorde
