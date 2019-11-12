@@ -26,7 +26,7 @@ OBJECT:TheForsakenInn
 "The Forsaken Inn" 
 End
 //------------------------------------------------------------
-UPGRADE:ElvenSilverthornArrows
+UPGRADE:ElvenStructuralSilverthornArrows
 "Silverthorn Munitions"
 END
 //------------------------------------------------------------
@@ -375,7 +375,7 @@ Map:mapNEWjunglesoffarharad/Desc
 END
 //------------------------------------------------------------
 Map:mapNEWtowerhillsiii
-"Tournament Tower Hills II"
+"Tower Hills II"
 End
 Map:mapNEWtowerhillsiii/desc
 "These hills are the home of the ancient Elven towers that held the Elendil Stone, the last of the Palantiri of the North. \n Map from RotWK, by Mako."
@@ -396,7 +396,7 @@ Map:mapNEWtournamentamonhen/Desc
 END
 //------------------------------------------------------------
 Map:mapNEWtournamentemynarnen
-"Tournament Emyn Arnen"
+"Emyn Arnen II"
 END
 Map:mapNEWtournamentemynarnen/Desc
 "Emyn Arnen means "Hills Beside the Water" in Sindarin, refering to the Great Anduin river.\n Located in Ithilien in the south of Osgiliath bordering the Mountains of Shadow.\n Map by Ecthelion."
@@ -683,7 +683,7 @@ Map:mapmptournamentudunII/Desc
 END
 //------------------------------------------------------------
 Map:mapmptournamentrohan
-"Tournament Rohan"
+"Plains of Rohan"
 END
 Map:mapmptournamentrohan/Desc
 "Between the Gap of Rohan and the borders of Gondor lie the vast plains of the Riddermark, home to the great horse-lords of Middle-earth. \n Map from RotWK, by Thoon. \n Edited for BfME2 by Ecthelion."
