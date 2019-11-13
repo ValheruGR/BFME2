@@ -25654,7 +25654,7 @@ OBJECT:WildMineShaft
 END
 
 OBJECT:WildMineShaftDescription
-"Genera recursos en función del terreno disponible. Proporciona acceso a la red de túneles \n Aumenta en 50 el límite de puntos de mando. \n Nivel 2: +25% extra armadura \n Nivel 3: +25% extra armadura."
+"Genera recursos en función del terreno disponible. Proporciona acceso a la red de túneles \n Aumenta en 50 el límite de puntos de mando."
 END
 
 OBJECT:WildSpiderPit
