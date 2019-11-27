@@ -25653,7 +25653,7 @@ OBJECT:WildMineShaft
 END
 
 OBJECT:WildMineShaftDescription
-"Erzeugt Rohstoffe abhängig vom verfügbaren Gelände \n Gewährt Zugang in das Gangsystem \n Erhöht Kommandeurspunkte-Limit um 50 \n Stufe 2: +25% mehr Rüstung \n Stufe 3: +25% mehr Rüstung"
+"Erzeugt Rohstoffe abhängig vom verfügbaren Gelände \n Gewährt Zugang in das Gangsystem \n Erhöht Kommandeurspunkte-Limit um 50."
 END
 
 OBJECT:WildSpiderPit

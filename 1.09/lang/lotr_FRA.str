@@ -25653,7 +25653,7 @@ OBJECT:WildMineShaft
 END
 
 OBJECT:WildMineShaftDescription
-"Génère des ressources selon le terrain disponible. Donne accès au réseau de tunnels \nAugmente la limite de points commandement de 50 \nNiveau 2: +25% d'armure \nNiveau 3: +25% d'armure"
+"Génère des ressources selon le terrain disponible. Donne accès au réseau de tunnels \nAugmente la limite de points commandement de 50."
 END
 
 OBJECT:WildSpiderPit

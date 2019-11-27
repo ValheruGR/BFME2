@@ -25650,7 +25650,7 @@ OBJECT:WildMineShaft
 END
 
 OBJECT:WildMineShaftDescription
-"Genera risorse in base al terreno disponibile.\nFornisce accesso alla rete delle gallerie.\nAumenta di 50 il limite di punti comando. \nLivello 2: +25% armatura extra. \nLivello 3: +25% armatura extra."
+"Genera risorse in base al terreno disponibile.\nFornisce accesso alla rete delle gallerie.\nAumenta di 50 il limite di punti comando."
 END
 
 OBJECT:WildSpiderPit

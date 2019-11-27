@@ -27835,7 +27835,7 @@ OBJECT:WildMineShaft
 END
 
 OBJECT:WildMineShaftDescription
-"Generates resources based on available terrain Provides access to the tunnel network \n Increases command point limit by 50\n Level 2: +25% extra armor \n Level 3: +25% extra armor"
+"Generates resources based on available terrain Provides access to the tunnel network \n Increases command point limit by 50"
 END
 
 OBJECT:WildSpiderPit
