@@ -934,7 +934,7 @@ END
 //------------------------------------------------------------
 
 CONTROLBAR:ArwenLeadershipDesc_New
-"Requires Level 4 \n Allies near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+"Requires Level 4 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
 CONTROLBAR:GaladHealBTP
 "&—вет √аладриэли."
@@ -44145,7 +44145,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+30% скорости работы. \n ѕозвол€ет изобретать митрильную броню, стальное оружие и огненные камни. \n ¬озводитс€ башн€ метателей. \n ѕостройка получает дополнительну броню: \n +10% против героев \n +25% против пикинеров \n +33% против кавалерии."
+"+30% скорости работы. \n ѕозвол€ет изобретать митрильную броню, стальное оружие и огненные камни. \n ¬озводитс€ башн€ метателей. \n ѕостройка получает дополнительну броню: \n +20% против героев, пикинеров, кавалерии."
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade

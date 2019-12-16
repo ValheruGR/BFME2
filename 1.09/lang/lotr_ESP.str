@@ -934,7 +934,7 @@ END
 //------------------------------------------------------------
 
 CONTROLBAR:ArwenLeadershipDesc_New
-"Requisito: Nivel 4 \n Los aliados cercanos a Arwen ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Siempre se acumula.\n \n Capacidad pasiva."
+"Requisito: Nivel 4 \n La caballeria cercana a Arwen gana \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Siempre se acumula.\n \n Capacidad pasiva."
 End
 CONTROLBAR:GaladHealBTP
 "&Luz de Galadriel"

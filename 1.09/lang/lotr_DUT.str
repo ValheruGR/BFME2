@@ -934,7 +934,7 @@ END
 //------------------------------------------------------------
 
 CONTROLBAR:ArwenLeadershipDesc_New
-"Nodig: niveau 4\nBondgenoten in de buurt van Arwen krijgen\n+25% schade en verdienen 25% meer ervaring\n\nPassieve kracht"
+"Nodig: niveau 4\n Cavalerie-eenheden in de buurt van Arwen krijgen \n+25% schade en verdienen 25% meer ervaring\n\nPassieve kracht"
 End
 CONTROLBAR:GaladHealBTP
 "&Light Of Galadriel"
@@ -44143,7 +44143,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+30% bouwsnelheid\nMaakt research naar upgrades mithril pantser, gesmede wapens en vuurschot mogelijk\nVoegt een verdedigende bijlentoren toe"
+"+30% bouwsnelheid\nMaakt research naar upgrades mithril pantser, gesmede wapens en vuurschot mogelijk\nVoegt een verdedigende bijlentoren toe \n Forge Works gain armor: \n +20% against heros, pikemen and cavalry"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade
