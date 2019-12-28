@@ -24,6 +24,14 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:nothingDesc_New
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipRallyingCall_Dwarven
+"Targeted allies gain +50% Damage and +25% experience \n Left click icon then left click on target units"
+END
+//------------------------------------------------------------
 OBJECT:TheForsakenInn
 "The Forsaken Inn" 
 End
