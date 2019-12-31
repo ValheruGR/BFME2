@@ -206,7 +206,7 @@ Map:mapNEWPlainsOfLindon
 "Plains of Lindon"
 END
 Map:mapNEWPlainsOfLindon/Desc
-"A green and quiet Elvish country beyond the Lune.\n\n Size: 313 x 375\n Lairs: 2x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
+"A green and quiet Elvish country beyond the Lune.\n Size: 313 x 375\n Lairs: 2x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapTESTwoodyend
@@ -325,7 +325,7 @@ Map:mapNEWwestmarch
 "Westmarch"
 END
 Map:mapNEWwestmarch/Desc
-"A land of meadows and rises, between the Tower Hills and the Shire.\n\n Size: 500 x 350\n Lairs: 4x Troll Lair\n Neutral Structures: 4x Inn, 1x Signal Fire. \n Map by RotWK"
+"A land of meadows and rises, between the Tower Hills and the Shire.\n Size: 500 x 350\n Lairs: 4x Troll Lair\n Neutral Structures: 4x Inn, 1x Signal Fire. \n Map from RotWK, edited neutral buildings."
 END
 //------------------------------------------------------------
 Map:mapNEWwildsofforochel

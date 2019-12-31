@@ -29,7 +29,7 @@ CONTROLBAR:nothingDesc_New
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall_Dwarven
-"Targeted allies gain +50% Damage and +25% experience \n Left click icon then left click on target units"
+"Wskazani sojusznicy otrzymuja +50% do zadawanych obrazen i +25% do doswiadczenia \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
 END
 //------------------------------------------------------------
 OBJECT:TheForsakenInn
