@@ -118,6 +118,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapSBagarnaith
+"Agarnaith"
+END
+Map:mapSBagarnaith/Desc
+"Beyond the slopes of Orodruin and deep into Mordor lies Agarnaith, the Bloody Gore. Few ever return from this accursed place. \n Creeps: 2x Troll \n Map by SilverBane`"
+END
+//------------------------------------------------------------
 Map:mapSBtumladen
 "Tumladen"
 END
@@ -213,7 +220,7 @@ Map:mapTESTwoodyend
 "Woody End"
 End
 Map:mapTESTwoodyend/desc
-"Test me! \nWoody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east.\n\n Size: 580 x 480\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Outpost, 2x Signal Fire, 1x Tower. \n Map from RotWK, by MauHuR."
+"Test me! \nWoody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east.\n\n Size: 580 x 480\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Outpost, 2x Signal Fire, 1x Tower. \n Map from RotWK, by Solas."
 End
 //------------------------------------------------------------
 //	Map:mapTESTriveroforodruin
@@ -311,7 +318,7 @@ Map:maptestdruwaithreef
 "Druwait Reef"
 End
 Map:maptestdruwaithreef/desc
-"Test me! \n This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by MauHuR."
+"Test me! \n This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
 End
 //------------------------------------------------------------
 //	Map:maptestbrownlands8p
@@ -339,7 +346,7 @@ Map:mapNEWreddesertofkhand
 "Red Desert of Khand"
 END
 Map:mapNEWreddesertofkhand/Desc
-"A red desert land which lay to the south-east of Mordor and to the east of Near Harad.\n Map from RotWK, by MauHuR."
+"A red desert land which lay to the south-east of Mordor and to the east of Near Harad.\n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapNEWnanmarillion
@@ -356,12 +363,12 @@ Map:mapNEWmoongladevale/Desc
 "The Elves of Middle-earth revere moonforests in adoration to Varda, creator of starlight, whom they call Elbereth. \n Size: 480 x 480 \n Lairs: 2x Troll Lair, 2x Goblin Cave. \n Map from RotWK, by TheRanger. \n Time of the day changed to Morning, originally Night"
 END
 //------------------------------------------------------------
-Map:mapNEWanfalasii
-"Anfalas II"
-END
-Map:mapNEWanfalasii/Desc
-"The western coastal section of Gondor populated by small villages of herdsmen and fishermen.\n\n Size: 360 x 390\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Inn, 1x Signal Fire. \n Map from RotWK, by Mako."
-END
+//Map:mapNEWanfalasii
+//"Anfalas II"
+//END
+//Map:mapNEWanfalasii/Desc
+//"The western coastal section of Gondor populated by small villages of herdsmen and fishermen.\n\n Size: 360 x 390\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Inn, 1x Signal Fire. \n Map from RotWK, by Mako."
+//END
 //------------------------------------------------------------
 Map:mapNEWgreenleafforest
 "Greenleaf Forest"
@@ -395,7 +402,7 @@ End
 //	"Desert Of Rhun" //removed
 //	End
 //	Map:mapNEWdesertofrhun/desc
-//	"A vast desert lying to the south-east of Rhun. Many unprepared travellers lose their way attempting to traverse this rugged region. \n\n Size: 550 x 550\n Lairs: 6x Goblin Lair\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by MauHuR."
+//	"A vast desert lying to the south-east of Rhun. Many unprepared travellers lose their way attempting to traverse this rugged region. \n\n Size: 550 x 550\n Lairs: 6x Goblin Lair\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
 //	End
 //------------------------------------------------------------
 Map:mapNEWtournamentamonhen
@@ -710,14 +717,14 @@ Map:mapmpthewold
 "The Wold"
 END
 Map:mapmpthewold/Desc
-"The Wold was the northernmost and least populated part of Rohan. It is a grassy upland plain lying between Fangorn Forest and the Anduin, bordered to the north by the Limlight. \n Map from RotWK, by MauHuR."
+"The Wold was the northernmost and least populated part of Rohan. It is a grassy upland plain lying between Fangorn Forest and the Anduin, bordered to the north by the Limlight. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapmpstaddle
 "Staddle"
 END
 Map:mapmpstaddle/Desc
-"Staddle was a village in Bree Land, located on the southeastern side of Bree-hill. \n Map from RotWK, by MauHuR."
+"Staddle was a village in Bree Land, located on the southeastern side of Bree-hill. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapmpsouthdowns
@@ -745,7 +752,7 @@ Map:mapmpringloriver
 "Ringlo River"
 END
 Map:mapmpringloriver/Desc
-"A winding river in the central regions of Gondor which served as the boundary between Anfalas to the west and Belfalas to the east. \n Map from RotWK, by MauHuR."
+"A winding river in the central regions of Gondor which served as the boundary between Anfalas to the west and Belfalas to the east. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapmppelennorfields
@@ -787,28 +794,28 @@ Map:mapmpmorthondvalley
 "Morthond Valley II"
 END
 Map:mapmpmorthondvalley/Desc
-"The Morthond was one of the seven rivers of Gondor. Aragorn, Gimli, Legolas, the Grey Company, and the Army of the Dead exited from the Paths of the Dead alongside it. \n Map from RotWK by MauHuR, reworked by Ecthelion."
+"The Morthond was one of the seven rivers of Gondor. Aragorn, Gimli, Legolas, the Grey Company, and the Army of the Dead exited from the Paths of the Dead alongside it. \n Map from RotWK by Solas, reworked by Ecthelion."
 END
 //------------------------------------------------------------
 Map:mapmpmithrilhillsii
 "Mithril Hills" // aka Iron Hills II
 END
 Map:mapmpmithrilhillsii/Desc
-"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n\n Size: 600 x 535\n Lairs: 7x Spider Lair\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Fortress. \n Map from RotWK, by MauHuR."
+"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n\n Size: 600 x 535\n Lairs: 7x Spider Lair\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Fortress. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapmplorienplateau
 "Lorien Plateau"
 END
 Map:mapmplorienplateau/Desc
-"An area of highland in the Woods of Lothlorien, the fairest forest realm of the Elves remaining in Middle-earth. \n Map from RotWK, by MauHuR."
+"An area of highland in the Woods of Lothlorien, the fairest forest realm of the Elves remaining in Middle-earth. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapmpithilienhills
 "Ithilien Hills"
 END
 Map:mapmpithilienhills/Desc
-"A small range of hills in the center of Ithilien, the easternmost province of Gondor. \n Map from RotWK, by MauHuR."
+"A small range of hills in the center of Ithilien, the easternmost province of Gondor. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapmphollin
