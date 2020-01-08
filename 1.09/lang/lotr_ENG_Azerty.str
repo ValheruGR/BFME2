@@ -118,12 +118,12 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapSBagarnaith
-"Agarnaith"
-END
-Map:mapSBagarnaith/Desc
-"Beyond the slopes of Orodruin and deep into Mordor lies Agarnaith, the Bloody Gore. Few ever return from this accursed place. \n Creeps: 2x Troll \n Map by SilverBane`"
-END
+Map:mapETfirienforest
+"Firien Forest" 
+End
+Map:mapETfirienforest/Desc
+"The Firien wood is an oak forest located at the foot of the White Mountains, bordering the Mering Stream and Eastfold. \n Lairs: 4x Warg \n Map by Ecthelion."
+End
 //------------------------------------------------------------
 Map:mapSBtumladen
 "Tumladen"
