@@ -29236,7 +29236,7 @@ CONTROLBAR:ToolTipActivateFireShip
 END
 
 CONTROLBAR:ToolTipBarbedArrows
-"Requiert Niveau 3\nProvoque un renversement et augmente les dégâts classiques\nClic gauche puis clic gauche sur la cible"
+"Requiert Niveau 2\nProvoque un renversement et augmente les dégâts classiques\nClic gauche puis clic gauche sur la cible"
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeAxeThrowers

@@ -31772,7 +31772,7 @@ CONTROLBAR:ToolTipActivateFireShip
 End
 
 CONTROLBAR:ToolTipBarbedArrows
-"Requires Level 3\n Causes meta impact and increased damage \n Left click icon then left click on target"
+"Requires Level 2\n Causes meta impact and increased damage \n Left click icon then left click on target"
 End
 
 CONTROLBAR:ToolTipBattleWagonUpgradeAxeThrowers
