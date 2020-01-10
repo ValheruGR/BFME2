@@ -29224,7 +29224,7 @@ CONTROLBAR:ToolTipActivateFireShip
 END
 
 CONTROLBAR:ToolTipBarbedArrows
-" Potrzbuje poziomu 3\n Powoduje potezne uderzenie i zwiekszone obrazenia\n Kliknij lewym przyciskiem na ikonke potem lewym przyciskiem na cel"
+" Potrzbuje poziomu 2\n Powoduje potezne uderzenie i zwiekszone obrazenia\n Kliknij lewym przyciskiem na ikonke potem lewym przyciskiem na cel"
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeAxeThrowers
@@ -29376,7 +29376,7 @@ CONTROLBAR:ToolTipSharkuWargMount
 END
 
 CONTROLBAR:ToolTipShelobWebbing
-" Potrzeba poziomu 10 \n Okalecza wrogie jednostki w pajeczynach \n Leczenie Sheloby zale¿y od  zadawanych calkowicie obrazen"
+"Potrzeba poziomu 10 \n Okalecza wrogie jednostki w pajeczynach \n Leczenie Sheloby zale¿y od  zadawanych calkowicie obrazen"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityBatCloud

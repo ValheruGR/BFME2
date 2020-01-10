@@ -29232,7 +29232,7 @@ CONTROLBAR:ToolTipActivateFireShip
 END
 
 CONTROLBAR:ToolTipBarbedArrows
-"Requisito: Nivel 3. \n Causa un metaimpacto y daño aumentado"
+"Requisito: Nivel 2. \n Causa un metaimpacto y daño aumentado"
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeAxeThrowers
