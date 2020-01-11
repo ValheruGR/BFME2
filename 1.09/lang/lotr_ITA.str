@@ -28,6 +28,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+GUI:SpellBookRefreshReduction
+"Bonus: \n Spellbook refresh reduction: %d%%"
+End
+//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall_Dwarven
 "Gli alleati bersaglio ottengono +50% danno e +25% esperienza.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
@@ -17484,7 +17488,7 @@ GUI:UPGRADE_DISCOUNT
 END
 
 GUI:STRUCTURE_WALL_DISCOUNT
-"Bonus struttura/mura -%d%%"
+"Bonus: \n Strutturas/muri -%d%%"
 END
 
 GUI:GondorFighterHordeGondorArcherHordeGondorTowerShieldGuardHordeGondorRangerHordeDiscount
@@ -17508,7 +17512,7 @@ GUI:Slaughter_Discount
 END
 
 GUI:Corsair_Discount
-"Sconto corsaro - %d%%"
+"Sconto: \n Corsari - %d%%"
 END
 
 APT:YourArmy

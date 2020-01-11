@@ -28,6 +28,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+GUI:SpellBookRefreshReduction
+"Bonus: \n Spellbook refresh reduction: %d%%"
+End
+//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall_Dwarven
 "Les dégâts des alliés visés augmentent de +50%, +25% d'expérience \nClic gauche sur l'icône puis clic gauche sur les unités ciblées"
 END
@@ -17490,11 +17494,11 @@ GUI:WATER_DISCOUNT
 END
 
 GUI:UPGRADE_DISCOUNT
-"Bonus amélioration - %d%%"
+"Bonus:\n Amélioration -%d%%"
 END
 
 GUI:STRUCTURE_WALL_DISCOUNT
-"Bonus de structure / mur - %d%%"
+"Bonus:\n Structures/murs -%d%%"
 END
 
 GUI:GondorFighterHordeGondorArcherHordeGondorTowerShieldGuardHordeGondorRangerHordeDiscount
@@ -17518,7 +17522,7 @@ GUI:Slaughter_Discount
 END
 
 GUI:Corsair_Discount
-"Réduction corsaire -%d%%"
+"Réduction: \n Corsaires -%d%%"
 END
 
 APT:YourArmy

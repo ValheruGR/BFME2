@@ -28,6 +28,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+GUI:SpellBookRefreshReduction
+"Bonus: \n Spellbook refresh reduction: %d%%"
+End
+//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall_Dwarven
 "Wskazani sojusznicy otrzymuja +50% do zadawanych obrazen i +25% do doswiadczenia \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
 END
@@ -17508,7 +17512,7 @@ GUI:Slaughter_Discount
 END
 
 GUI:Corsair_Discount
-"Odliczenie korsarzy -%d%%"
+"Odliczenie: \n Korsarzy -%d%%"
 END
 
 APT:YourArmy

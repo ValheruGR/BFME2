@@ -28,6 +28,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+GUI:SpellBookRefreshReduction
+"Bonus: \n Spellbook refresh reduction: %d%%"
+End
+//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall_Dwarven
 "Geselecteerde bondgenoten krijgen +50% schade \n en verdienen ervaring 25% sneller. \n Klik met links op het icoontje en daarna met links op de doelwitten"
 END
@@ -17483,11 +17487,11 @@ GUI:WATER_DISCOUNT
 END
 
 GUI:UPGRADE_DISCOUNT
-"Upgradebonus -%d%%"
+"Bonus: \n Upgrades -%d%%"
 END
 
 GUI:STRUCTURE_WALL_DISCOUNT
-"Gebouwen-/muurbonus -%d%%"
+"Bonus: \N Gebouwen/muren -%d%%"
 END
 
 GUI:GondorFighterHordeGondorArcherHordeGondorTowerShieldGuardHordeGondorRangerHordeDiscount
@@ -17511,7 +17515,7 @@ GUI:Slaughter_Discount
 END
 
 GUI:Corsair_Discount
-"Korting Kapers -%d%%"
+"Korting: \n Kapers -%d%%"
 END
 
 APT:YourArmy

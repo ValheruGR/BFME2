@@ -28,6 +28,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+GUI:SpellBookRefreshReduction
+"Bonus: \n Spellbook refresh reduction: %d%%"
+End
+//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall_Dwarven
 "Die gewählten Verbündeten verursachen +50% Schaden und erhalten +25% Erfahrung\n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END

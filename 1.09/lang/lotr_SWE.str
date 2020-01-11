@@ -28,6 +28,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+GUI:SpellBookRefreshReduction
+"Bonus: \n Spellbook refresh reduction: %d%%"
+End
+//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall_Dwarven
 "Targeted allies gain +50% Damage and +25% experience \n Left click icon then left click on target units"
 END
@@ -17507,11 +17511,11 @@ GUI:UnitBuildTime
 END
 
 GUI:Slaughter_Discount
-"Upplösnings- \nbonus +%d%%"
+"Bonus: \n Upplösnings +%d%%"
 END
 
 GUI:Corsair_Discount
-"Kapar-rabatt -%d%%"
+"Rabatt: \n Kapare -%d%%"
 END
 
 APT:YourArmy

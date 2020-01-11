@@ -28,6 +28,10 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+GUI:SpellBookRefreshReduction
+"Bonus: \n Spellbook refresh reduction: %d%%"
+End
+//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall_Dwarven
 "Targeted allies gain +50% Damage and +25% experience \n Left click icon then left click on target units"
 END
@@ -18968,12 +18972,12 @@ END
 
 GUI:UPGRADE_DISCOUNT
 // Context: used to display the upgrade discount modifier in the palantir
-"Upgrade Bonus -%d%%"
+"Discount: \n Upgrades -%d%%"
 END
 
 GUI:STRUCTURE_WALL_DISCOUNT
 // Context: used to display the structure/wall discount modifier in the palantir
-"Structure/Wall Bonus -%d%%"
+"Discount: \n Structures/Walls -%d%%"
 END
 
 GUI:GondorFighterHordeGondorArcherHordeGondorTowerShieldGuardHordeGondorRangerHordeDiscount
@@ -18995,11 +18999,11 @@ END
 
 
 GUI:Slaughter_Discount
-"Decomission \n Bonus +%d%%"
+"Bonus: \n Decomission +%d%%"
 END
 
 GUI:Corsair_Discount
-"Corsair Discount -%d%%"
+"Discount: \n Corsairs -%d%%"
 END
 
 ///SCORE SCREENS
