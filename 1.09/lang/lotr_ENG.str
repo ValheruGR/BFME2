@@ -28,6 +28,13 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+UPGRADE:Anduril
+"Anduril"
+End
+TOOLTIP:AndurilDesc
+"Aragorn gains +10% Damage and +7% speed at level 5 \n Passive power"
+END
+//------------------------------------------------------------
 GUI:SpellBookRefreshReduction
 "Bonus: \n Spellbook refresh reduction: %d%%"
 End
