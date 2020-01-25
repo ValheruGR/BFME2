@@ -28,8 +28,15 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+UPGRADE:Anduril
+"Anduril"
+End
+TOOLTIP:AndurilDesc
+"Aragorn gains +10% Damage and +7% speed at level 5 \n Passive power"
+END
+//------------------------------------------------------------
 GUI:SpellBookRefreshReduction
-"Bonus: \n Spellbook refresh reduction: %d%%"
+"Bonus: \n Spellbook cooldowns: %d%%"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall_Dwarven
@@ -121,6 +128,13 @@ END
 Map:mapmpnothing/Desc
 "nothing"
 END
+//------------------------------------------------------------
+Map:mapETlebennin
+"Lebennin" 
+End
+Map:mapETlebennin/Desc
+"Lebennin is a region between the south of White Mountains and the Anduin delta. Known as the land of the five rivers, it is one of the most faithful fiefs of Gondor, whose wide green meadows are filled with tall grasses and flowers. \n Map by Ecthelion"
+End
 //------------------------------------------------------------
 Map:mapETfirienforest
 "Firien Forest" 
