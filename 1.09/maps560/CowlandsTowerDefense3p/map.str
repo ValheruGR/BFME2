@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 2.10: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"Version 2.17: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 End
@@ -61,8 +61,64 @@ End
 //--------------------------------------------------------------------------------//
 
 
+ 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+//---------------------------------------------------
+CONTROLBAR:SpecialAbilityBalrogBreath_New
+"Cold B&reathe"
+END
+CONTROLBAR:ToolTipSpecialAbilityBalrogBreath_New
+"Requires Level 5 \n Breathes ice fire like that dead dragon from Warcraft 3, freezeing and shit. \n Does it twice cuz he's got energy. \n Left click icon then left click on target area" 
+END
+//---------------------------------------------------
+CONTROLBAR:FueltheFires_New
+"Wage Salary"
+End
+CONTROLBAR:ToolTipFueltheFires_New
+"The capitalism once realised it was actually more efficient to apply a wage salary than a fixed salary that drops to the ground the proletarian life quality. It was so efficient and practical it actually allowed reducing the minimal obligatory hours. Why dealing with communist effervescence when you can keep a majority of workers happy, build certain consensus and simply deal with a series of syndicates trying to exploit the laws of the political economy, which means create a shortage of their type of work and thus increase the salaries of their members?. \n Raises the Lumber Mill production by +65%."
+End
+//---------------------------------------------------
+GUI:STRUCTURE_WALL_DISCOUNT_New
+"Discount: \n Estructuras: %d%%"
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipFurnace_New
+"Researches economic upgrades"
+END
+//---------------------------------------------------
+UPGRADE:MordorSlaughterHouseLevel2_New
+"Slaughter House Level 2"
+END
+UPGRADE:MordorSlaughterHouseLevel3_New
+"Slaughter House Level 3"
+END
+//---------------------------------------------------
+CONTROLBAR:UpgradeMordorSlaughterHouseLevel2_New
+"&Upgrade Slaughter House to Level 2"
+End
+CONTROLBAR:UpgradeMordorSlaughterHouseLevel3_New
+"&Upgrade Slaughter House to Level 3"
+End
+CONTROLBAR:TooltipUpgradeMordorSlaughterHouseLevel2_New
+"+10% Production"
+End
+CONTROLBAR:TooltipUpgradeMordorSlaughterHouseLevel3_New
+"+25% Production"
+End
 //---------------------------------------------------
 CONTROLBAR:GrimaToxicShit_New
 "Toxic shit-talking [&V]"
@@ -134,13 +190,6 @@ OBJECT:WildmenBuildingHouse_New
 End
 TOOLTIP:WildmenBuildingHouseDesc_New
 "Trains Dunland Axe Throwers" //allows research of Fire torches upgrade.
-End
-//---------------------------------------------------
-CONTROLBAR:MenLongShotAbility_New
-"Ice Arrows Longsho&t"
-End
-CONTROLBAR:ToolTipMenLongShotAbility_New
-"Requires the respective upgrade  \n The rangers bombard anywhere within great radius with a volley of ice arrows \n Left click icon then left click on target area"
 End
 //---------------------------------------------------
 CONTROLBAR:IceArrows_New
@@ -269,12 +318,14 @@ End
 //--------------------------Done-----------------------
 //DwarvenGuardianThrowingAxe
 TOOLTIP:DisplayDamage_AxeThrowerBasic
-"Damage per unit: \n SLASH damage: 34"
+"Damage per unit: \n SLASH damage: 32"
+//"Damage per unit: \n SLASH damage: 34"
 //"Damage per unit: \n SLASH damage: 30 \n SIEGE damage 4"
 //"Damage per unit: \n SLASH damage: 24 \n SIEGE damage 8"
 End
 TOOLTIP:DisplayDamage_AxeThrowerUpgrade
-"Damage per unit: \n SLASH damage: 52"
+"Damage per unit: \n SLASH damage: 64"
+//"Damage per unit: \n SLASH damage: 52"
 //"Damage per unit: \n SLASH damage: 48 \n SIEGE damage 4"
 //"Damage per unit: \n SLASH damage: 42 \n SIEGE damage 8"
 End
@@ -365,7 +416,7 @@ CONTROLBAR:TooltipLumbermillUnpackMordor_New
 "Harvests resources from nearby trees \n Quantity available to build: 1"
 END
 CONTROLBAR:TooltipLumbermillUnpackIsengard_New
-"Harvests resources from nearby trees \n Quantity available to build: 3"
+"Harvests resources from nearby trees \n Quantity available to build: 1"
 END
 //---------------------------------------------------
 TOOLTIP:LackGondorBasicTraining_New
@@ -389,13 +440,13 @@ CONTROLBAR:PurchaseTechnologyGondorBasicTraining_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseTechnologyIsengardBasicTraining_New
-"Requires Level 3 Armory and Science from SpellBook. \n Allows Crossbowmen to purchase the Explosive Bolts upgrade. \n The upgraded hordes become able to shoot Barbed Arrows permanently and get increased to Level 2."
+"Requires Level 3 Armory and Science from SpellBook. \n Allows Crossbowmen to purchase the Explosive Bolts upgrade. \n The upgraded hordes become able to shoot Explosive Bolts permanently and get increased to Level 2."
 END
 CONTROLBAR:ToolTipPurchaseTechnologyElvenBasicTraining_New
-"Requires Level 3 Eregion Forge and Science from Spellbook. \n Allows battalions to purchase the Golden Arrows upgrade. \n The upgraded hordes become able to shoot Barbed Arrows permanently and get increased to Level 2."
+"Requires Level 3 Eregion Forge and Science from Spellbook. \n Allows battalions to purchase the Golden Arrows upgrade. \n The upgraded hordes become able to shoot Golden Arrows permanently and get increased to Level 2."
 END
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining_New
-"Requires Level 3 Blacksmith and Science from SpellBook. \n Allows Gondor Rangers to purchase the Dunedain Ice Arrows upgrade. \n The upgraded hordes become able to shoot Barbed Arrows permanently and get increased to Level 2."
+"Requires Level 3 Blacksmith and Science from SpellBook. \n Allows Gondor Rangers to purchase the Dunedain Ice Arrows upgrade. \n The upgraded hordes become able to shoot Ice Arrows permanently and get increased to Level 2."
 END
 CONTROLBAR:ToolTipPurchaseTechnologyMordorBasicTraining_New
 "Requires Level 3 Tavern and Science from SpellBook. \n Allows battalions of Haradrim Archer to purchase a Elite Training pack service. \n The upgraded hordes become able to shoot Barbed Arrows permanently and get increased to Level 3."
@@ -425,8 +476,7 @@ CONTROLBAR:ToolTipBuildIsengardArmoryLevel2_New
  // Allows research of Forged Blades and Heavy Armor
 End
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel3_New
-"Allows research of Nothing interesting yet" 
-//Allows research of Fire Arrows
+"Allows research of Explosive Bolts upgrade"
 End
 //---------------------------------------------------
 //TOOLTIP:LackIsengardFireArrowsTech_New
@@ -470,7 +520,7 @@ CONTROLBAR:ToolTipBuildIsengardCrossbowmen_New
 "Requires Level 2 Uruk Pit \n Strong vs. Infantry"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde_New
-"Requires Level 2 Goblin Cave \n Strong vs. Infantry\n Resistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
+"Strong vs. Infantry\n Resistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed" // Requires Level 2 Goblin Cave \n 
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipConstructWildMineShaft_New
@@ -1401,11 +1451,15 @@ CONTROLBar:ToolTipDominateTrollNew
 "Take control of target enemy troll \n Left click icon then left click on target troll"
 End
 //-------------------------------------------------
+CONTROLBAR:ToolTipSlaughterHouse_New
+"Generates resources based on available terrain. \n Quantity available to build: 1"
+END
+//-------------------------------------------------
 CONTROLBAR:ConstructElvenFarm_New
 "Build a Elven &Farm"
 END
 CONTROLBAR:ConstructElvenFarmDesc_New
-"Generates resources based on available terrain \n Can train Lothlorien Warriors \n Quantity available to build: 1"
+"Generates resources based on available terrain \n Can train Lothlorien Warriors. \n Quantity available to build: 1"
 END
 //-------------------------------------------------
 CONTROLBAR:GloinSlam_New
