@@ -28,11 +28,27 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:DwarvenCaptainofDale
+"Prince Brand, the Captain of Dale"
+END
+CONTROLBAR:DwarvenCaptainofDaleRecruit
+"Recruit Prince Brand, the Captain of Dale"
+END
+CONTROLBAR:DwarvenCaptainofDaleRevive
+"Revive Prince Brand, the Captain of Dale"
+END
+CONTROLBAR:DwarvenCaptainofDaleHotkey
+"Prince Brand, Ca&ptain of Dale"
+END
+OBJECT:DwarvenCaptainofDale
+"Prince Brand, Captain of Dale"
+END
+//------------------------------------------------------------
 UPGRADE:Anduril
 "Anduril"
 End
 TOOLTIP:AndurilDesc
-"Aragorn gains +10% Damage and +7% speed at level 5 \n Passive power"
+"Anduril: Aragorn gains +10% Damage and +7% speed \n Requires Level 5 \n Passive ability"
 END
 //------------------------------------------------------------
 GUI:SpellBookRefreshReduction
