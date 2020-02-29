@@ -529,7 +529,7 @@ Map:MapSBFordsofCalenduin/Desc
 END
 //------------------------------------------------------------
 Map:MapSBFrozenRift
-"Frozen Rift" // The
+"Frozen Rift"
 End
 Map:MapSBFrozenRift/Desc
 "This breathtaking-cold rift can be found in the frozen wastes of the North, close to the Ice Bay of Forochel. The Lossoth are amongst the few who dare brave these frozen lands. \n Map by SilverBane` \n Neutral Structures: Signal Fire x1 \n Lairs: Troll x2, Goblin x2"
@@ -571,7 +571,7 @@ Map:MapSBTournamentBree/Desc
 END
 //------------------------------------------------------------
 Map:MapSBTournamentUdunIV
-"Udun: 4th Age" //A. IV
+"Udun: 4th Age"
 END
 Map:MapSBTournamentUdunIV/Desc
 "After the defeat of Sauron, Udun became once again a fertile valley. \n Map by SilverBane`"
@@ -718,7 +718,7 @@ Map:mapmptyrngorthad/Desc
 END
 //------------------------------------------------------------
 Map:mapmptournamentudunII
-"Udun II - Shadow of Mordor" // - Val's
+"Udun II - Shadow of Mordor"
 END
 Map:mapmptournamentudunII/Desc
 "Recolour inspired by the fertile design of the Black Land in The Shadow of Mordor.\n Turn off ring heroes for tournament mode. \n Map by Val."
@@ -823,7 +823,7 @@ Map:mapmpmorthondvalley/Desc
 END
 //------------------------------------------------------------
 Map:mapmpmithrilhillsii
-"Mithril Hills" // aka Iron Hills II
+"Mithril Hills"
 END
 Map:mapmpmithrilhillsii/Desc
 "A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n\n Size: 600 x 535\n Lairs: 7x Spider Lair\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Fortress. \n Map from RotWK, by MauHuR."
@@ -946,8 +946,9 @@ Map:MAPMPLebenin
 "Lebennin III"
 END
 Map:MAPMPLebenin/Desc
-"This lush, green land in southern Gondor lies where the Anduin River completes its journey into the Bay of Belfalas. \n Map from BfME1, reworked by Val`" //Lebennin III is an edited edition to fix red build plots. Signal Fires added east/west. \n Edited by Val`
+"This lush, green land in southern Gondor lies where the Anduin River completes its journey into the Bay of Belfalas. \n Map from BfME1, reworked by Val`"
 END
+ //Lebennin III is an edited edition to fix red build plots. Signal Fires added east/west. \n Edited by Val`
 //------------------------------------------------------------
 // This one does get translated in at least one more lenguage
 Map:mapmpfordsoflimlight
@@ -22229,8 +22230,9 @@ OBJECT:GondorMarketPlaceDescription
 END
 
 OBJECT:GondorStatueDescription
-"Воины, находящиеся рядом со статуей, получают \n +50% наносимого урона, +50% брони \n и вдвое быстрее набирают опыт. \n Эффект не накапливается." // obsolete
+"Воины, находящиеся рядом со статуей, получают \n +50% наносимого урона, +50% брони \n и вдвое быстрее набирают опыт. \n Эффект не накапливается."
 END
+ // obsolete
 
 OBJECT:GondorWellDescription
 "Восстановление здоровья воинов и восполнение потерь находящихся поблизости отрядов."
@@ -26071,9 +26073,9 @@ OBJECT:ElvenStatue
 END
 
 OBJECT:ElvenStatueDescription
-"Союзники рядом со статуей \n наносят +50% урона, получают +50% брони \n и вдвое быстрее набирают опыт. \n Эффект не накапливается." // obsolete
+"Союзники рядом со статуей \n наносят +50% урона, получают +50% брони \n и вдвое быстрее набирают опыт. \n Эффект не накапливается."
 END
-
+ // obsolete
 OBJECT:ElvenMirrorofGaladriel
 "Зеркало Галадриэли"
 END
@@ -44055,8 +44057,9 @@ CONTROLBAR:ToolTipMoveUnseen
 END
 
 CONTROLBAR:ToolTipElvenStatue
-"Союзники рядом со статуей \n наносят +25% урона \n и набирают опыт на 25% быстрее." // obsolete
+"Союзники рядом со статуей \n наносят +25% урона \n и набирают опыт на 25% быстрее."
 END
+ // obsolete
 
 CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHorde
 "Требуются эльфийские казармы, уровень 2. \n Преимущество: пехота, чудовища. \n Всегда незаметен для врагов."
@@ -44175,9 +44178,9 @@ CONTROLBAR:ToolTipBuildTreebeard
 END
 
 OBJECT:DwarvenStatueDescription
-"Союзники рядом со статуей \n получают +50% брони. \nУвеличение лимита очков командования на 10." // obsolete
+"Союзники рядом со статуей \n получают +50% брони. \nУвеличение лимита очков командования на 10."
 END
-
+ // obsolete
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
 "Союзники рядом с крепостью получают +25% к атаке и +25% опыта. \n Снижение стоимости призыва героя на 10%. \n Уменьшение времени ожидания героя на 10%. \n Снижение стоимости подготовки строителей на 20%. \n\n Улучшает призванные Одинокие Башни."
 END
