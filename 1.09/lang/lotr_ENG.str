@@ -31360,9 +31360,9 @@ END
 CONTROLBAR:SpecialAbilityFiresOfDoom
 "Fi&res of Doom"
 END
-
+// UPDATED!
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
-"Calls down a hail of molten rock on selected area \n Left click icon then left click on target area"
+"Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:TerribleFury
