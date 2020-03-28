@@ -16121,7 +16121,7 @@ CONTROLBAR:ToolTipToggleLineFormation
 END
 
 CONTROLBAR:TogglePorcupineFormation
-"Stachelschwein-For&mation"
+"Stachelschwein-Formation (&V)"
 END
 
 CONTROLBAR:ToolTipTogglePorcupineFormation
@@ -43987,7 +43987,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Voraussetzung: Stufe 2 \n Aragorn verursacht +100% Schaden und erhält +50% Rüstung\n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 2 \n Aragorn verursacht +50% Schaden und erhält +50% Rüstung\n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:ToolTipAragornLeadership

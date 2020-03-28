@@ -16118,7 +16118,7 @@ CONTROLBAR:ToolTipToggleLineFormation
 END
 
 CONTROLBAR:TogglePorcupineFormation
-"For&macja jeza"
+"Formacja jeza (&V)"
 END
 
 CONTROLBAR:ToolTipTogglePorcupineFormation
@@ -43978,7 +43978,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Wymaga 2 poziomu \n Aragorn otrzymuje +100% do zadawanych obrazen oraz podwaja pancerz \n Kliknij lewym przyciskiem myszy, aby uaktywnic"
+"Wymaga 2 poziomu \n Aragorn otrzymuje +50% do zadawanych obrazen oraz podwaja pancerz \n Kliknij lewym przyciskiem myszy, aby uaktywnic"
 END
 
 CONTROLBAR:ToolTipAragornLeadership
