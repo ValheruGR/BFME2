@@ -22182,9 +22182,8 @@ END
 OBJECT:DwarvenArcheryRangeDescription
 "Nivel 2: +10% a velocidad de construcción\n Nivel 3: +25% a velocidad de construcción"
 END
-
 OBJECT:DwarvenForgeWorksDescription
-"Nivel 2: +10% a velocidad de construcción\n Nivel 3: +25% a velocidad de construcción"
+"Nivel 2: +10% a velocidad de construcción\n Nivel 3: +30% a velocidad de construcción"
 END
 
 OBJECT:DwarvenHearthDescription
