@@ -976,7 +976,7 @@ END
 //------------------------------------------------------------
 
 CONTROLBAR:ArwenLeadershipDesc_New
-"Requires Level 4 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+"Requires Level 3 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
 CONTROLBAR:GaladHealBTP
 "&Luce Di Galadriel"
@@ -8062,7 +8062,7 @@ CONTROLBAR:SwoopAttack
 END
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Ordina all'Olifante di schiacciare il nemico.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Requires Level 3 \n Ordina all'Olifante di schiacciare il nemico.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:Guard
@@ -44082,7 +44082,7 @@ CONTROLBAR:TooltipElvenGrace
 END
 
 CONTROLBAR:ToolTipPersonalFlood
-"Richiede livello 4.\nEvoca un'alluvione che danneggia i nemici e spegne gli incendi.\n Bonus contro i cavalieri neri. \nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
+"Richiede livello 5.\nEvoca un'alluvione che danneggia i nemici e spegne gli incendi.\n Bonus contro i cavalieri neri. \nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
 END
 
 CONTROLBAR:ToggleElvenWarriorWeapons

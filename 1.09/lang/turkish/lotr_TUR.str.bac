@@ -9369,7 +9369,7 @@ CONTROLBAR:SwoopAttack
 End
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Order Mumakil to trample the enemy \n Left click icon then left click on target"
+"Requires Level 3 \n Order Mumakil to trample the enemy \n Left click icon then left click on target"
 END
 
 CONTROLBAR:Guard

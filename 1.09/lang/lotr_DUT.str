@@ -976,7 +976,7 @@ END
 //------------------------------------------------------------
 
 CONTROLBAR:ArwenLeadershipDesc_New
-"Nodig: niveau 4\n Cavalerie-eenheden in de buurt van Arwen krijgen \n+25% schade en verdienen 25% meer ervaring\n\nPassieve kracht"
+"Nodig: niveau 3\n Cavalerie-eenheden in de buurt van Arwen krijgen \n+25% schade en verdienen 25% meer ervaring\n\nPassieve kracht"
 End
 CONTROLBAR:GaladHealBTP
 "&Light Of Galadriel"
@@ -8065,7 +8065,7 @@ CONTROLBAR:SwoopAttack
 END
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Geef Mûmakil opdracht de vijand te vertrappen\nKlik met links op het icoontje en daarna met links op het doelwit"
+"Requires Level 3 \n Geef Mûmakil opdracht de vijand te vertrappen\nKlik met links op het icoontje en daarna met links op het doelwit"
 END
 
 CONTROLBAR:Guard
@@ -44077,7 +44077,7 @@ CONTROLBAR:TooltipElvenGrace
 END
 
 CONTROLBAR:ToolTipPersonalFlood
-"Nodig: niveau 4\nRoept een overstroming op die schade aanricht bij vijanden en vuren blust\nKlik met links op het icoontje en daarna met links op het doelwit"
+"Nodig: niveau 5\nRoept een overstroming op die schade aanricht bij vijanden en vuren blust\nKlik met links op het icoontje en daarna met links op het doelwit"
 END
 
 CONTROLBAR:ToggleElvenWarriorWeapons

@@ -976,7 +976,7 @@ END
 //------------------------------------------------------------
 
 CONTROLBAR:ArwenLeadershipDesc_New
-"Requires Level 4 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+"Requires Level 3 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
 CONTROLBAR:GaladHealBTP
 "&Light Of Galadriel"
@@ -8065,7 +8065,7 @@ CONTROLBAR:SwoopAttack
 END
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Beordra mûmakil att trampa ner fienden \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
+"Requires Level 3 \n Beordra mûmakil att trampa ner fienden \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
 END
 
 CONTROLBAR:Guard
@@ -44078,7 +44078,7 @@ CONTROLBAR:TooltipElvenGrace
 END
 
 CONTROLBAR:ToolTipPersonalFlood
-"Kräver grad 4 \n Manar fram en flodvåg som skadar fiender och släcker bränder \n Vänsterklicka på ikonen, vänsterklicka sedan på målet"
+"Kräver grad 5 \n Manar fram en flodvåg som skadar fiender och släcker bränder \n Vänsterklicka på ikonen, vänsterklicka sedan på målet"
 END
 
 CONTROLBAR:ToggleElvenWarriorWeapons

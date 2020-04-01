@@ -983,7 +983,7 @@ END
 //------------------------------------------------------------
 
 CONTROLBAR:ArwenLeadershipDesc_New
-"Requires Level 4 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+"Requires Level 3 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
 CONTROLBAR:GaladHealBTP
 "&Lumière de Galadriel"
@@ -8070,7 +8070,7 @@ CONTROLBAR:SwoopAttack
 END
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Ordonne au Mûmakil d'écraser l'ennemi \nClic gauche sur l'icône puis clic gauche sur la cible"
+"Requires Level 3 \n Ordonne au Mûmakil d'écraser l'ennemi \nClic gauche sur l'icône puis clic gauche sur la cible"
 END
 
 CONTROLBAR:Guard
@@ -44090,7 +44090,7 @@ CONTROLBAR:TooltipElvenGrace
 END
 
 CONTROLBAR:ToolTipPersonalFlood
-"Requiert : niveau 4\nInvoque une inondation qui inflige des dégâts à l'ennemi et éteint les feux \n Particulièrement éfficace contre la cavalerie \n Bonus contre les Cavaliers noirs\nClic gauche sur l'icône puis clic gauche sur la cible"
+"Requiert : niveau 5\nInvoque une inondation qui inflige des dégâts à l'ennemi et éteint les feux \n Particulièrement éfficace contre la cavalerie \n Bonus contre les Cavaliers noirs\nClic gauche sur l'icône puis clic gauche sur la cible"
 END
 
 CONTROLBAR:ToggleElvenWarriorWeapons

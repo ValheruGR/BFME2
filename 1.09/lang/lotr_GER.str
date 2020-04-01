@@ -976,7 +976,7 @@ END
 //------------------------------------------------------------
 
 CONTROLBAR:ArwenLeadershipDesc_New
-"Requires Level 4 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+"Requires Level 3 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
 CONTROLBAR:GaladHealBTP
 "&Licht Galadriels"
@@ -8063,7 +8063,7 @@ CONTROLBAR:SwoopAttack
 END
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Befiehl dem Olifanten, deine Gegner niederzutrampeln \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Requires Level 3 \n Befiehl dem Olifanten, deine Gegner niederzutrampeln \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:Guard
@@ -44083,7 +44083,7 @@ CONTROLBAR:TooltipElvenGrace
 END
 
 CONTROLBAR:ToolTipPersonalFlood
-"Voraussetzung: Stufe 4 \n Entfesselt eine Flut, die Gegner verletzt und Feuer löscht \n Besonders effektiv gegen Reiter \n Bonus gegen schwarze Reiter \n\n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Voraussetzung: Stufe 5 \n Entfesselt eine Flut, die Gegner verletzt und Feuer löscht \n Besonders effektiv gegen Reiter \n Bonus gegen schwarze Reiter \n\n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:ToggleElvenWarriorWeapons

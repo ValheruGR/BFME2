@@ -976,7 +976,7 @@ END
 //------------------------------------------------------------
 
 CONTROLBAR:ArwenLeadershipDesc_New
-"Requisito: Nivel 4 \n La caballeria cercana a Arwen gana \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Siempre se acumula.\n \n Capacidad pasiva."
+"Requisito: Nivel 3 \n La caballeria cercana a Arwen gana \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Siempre se acumula.\n \n Capacidad pasiva."
 End
 CONTROLBAR:GaladHealBTP
 "&Luz de Galadriel"
@@ -8065,7 +8065,7 @@ CONTROLBAR:SwoopAttack
 END
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Hace que los mumakil pisoteen al enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requires Level 3 \n Hace que los mumakil pisoteen al enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:Guard
@@ -44093,7 +44093,7 @@ CONTROLBAR:TooltipElvenGrace
 END
 
 CONTROLBAR:ToolTipPersonalFlood
-"Requisito: Nivel 4. \n Convoca una inundación que daña a los enemigos y apaga los fuegos. \n Bonificación contra Nazguls \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 5. \n Convoca una inundación que daña a los enemigos y apaga los fuegos. \n Bonificación contra Nazguls \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToggleElvenWarriorWeapons
