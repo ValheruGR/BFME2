@@ -91,7 +91,7 @@ CONTROLBAR:KingsFavorDain_New
 "King's Favor [&C]"
 END
 CONTROLBAR:KingsFavorDainDesc_New
-"Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
+"Requires Level 6 \n Targeted units gain experience \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:SauronsFiresOfDoomDesc_New
@@ -28810,7 +28810,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Krever: Nivå 6\nGjør alle allierte i nærheten immune mot frykt\nPassiv egenskap"
+"Krever: Nivå 7\nGjør alle allierte i nærheten immune mot frykt\nPassiv egenskap"
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard

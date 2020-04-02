@@ -91,7 +91,7 @@ CONTROLBAR:KingsFavorDain_New
 "King's Favor [&C]"
 END
 CONTROLBAR:KingsFavorDainDesc_New
-"Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
+"Requires Level 6 \n Targeted units gain experience \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:SauronsFiresOfDoomDesc_New
@@ -28811,7 +28811,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Voraussetzung: Stufe 6 \n Gewährt allen Verbündeten in der Nähe Resistenz gegen Furcht und Angst \n Zusatz: Kann nicht entfernt werden und wird immer addiert \n Dain ist in der Lage Unsichtbarkeit aufzudecken \n Passive Fähigkeit"
+"Voraussetzung: Stufe 7 \n Gewährt allen Verbündeten in der Nähe Resistenz gegen Furcht und Angst \n Zusatz: Kann nicht entfernt werden und wird immer addiert \n Dain ist in der Lage Unsichtbarkeit aufzudecken \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard

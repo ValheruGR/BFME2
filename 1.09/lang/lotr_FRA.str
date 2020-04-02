@@ -91,7 +91,7 @@ CONTROLBAR:KingsFavorDain_New
 "King's Favor [&C]"
 END
 CONTROLBAR:KingsFavorDainDesc_New
-"Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
+"Requires Level 6 \n Targeted units gain experience \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:SauronsFiresOfDoomDesc_New
@@ -28818,7 +28818,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Requiert : niveau 6 \nInsuffle une résistance à la peur et à la terreur à tous les alliés proches \n Ce bonus ne peux pas être annulé et est cumulatif \nDain détecte les unités furtives \nCapacité passive"
+"Requiert : niveau 7 \nInsuffle une résistance à la peur et à la terreur à tous les alliés proches \n Ce bonus ne peux pas être annulé et est cumulatif \nDain détecte les unités furtives \nCapacité passive"
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
