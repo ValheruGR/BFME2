@@ -107,7 +107,7 @@ CONTROLBAR:KingsFavorDain_New
 "King's Favor [&C]"
 END
 CONTROLBAR:KingsFavorDainDesc_New
-"Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
+"Requires Level 6 \n Targeted units gain experience \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:SauronsFiresOfDoomDesc_New
@@ -31313,7 +31313,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Requires Level 6 \n Grants all nearby allies resistance to fear and terror \n Bonus cannot be removed and always stack\n Dain becomes able to reveal stealth.\n Passive ability"
+"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Bonus cannot be removed and always stack\n Dain becomes able to reveal stealth.\n Passive ability"
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
