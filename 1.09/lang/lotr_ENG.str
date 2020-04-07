@@ -145,6 +145,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapETerynrhun
+"Eryn Rhün" 
+End
+Map:mapETerynrhun/Desc
+"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion"
+End
+//------------------------------------------------------------
 Map:mapETlebennin
 "Lebennin" 
 End
@@ -677,11 +684,11 @@ Map:MAPMPBrandybuck/Desc
 "In J. R. R. Tolkien's fictional universe of Middle-earth, the Brandybuck clan was a powerful Hobbit family. The family began as the Oldbuck clan, who named themselves such apparently after Bucca of the Marish. \n Map by Val`."
 END
 //------------------------------------------------------------
-Map:mapmpwestemnet
-"West Emnet"
+Map:mapETwestemnetii
+"West Emnet II"
 END
-Map:mapmpwestemnet/Desc
-"Grassy lands of Rohan, lying between the Entwash and the Isen River\n Map from BfME1, edited by Ecthelion."
+Map:mapETwestemnetii/Desc
+"Grassy lands of Rohan, lying between the Entwash and the Isen River\n Map by Ecthelion."
 END
 //------------------------------------------------------------
 Map:TheIvyBush
