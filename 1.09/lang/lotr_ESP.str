@@ -28,11 +28,27 @@ CONTROLBAR:nothingDesc_New
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:DwarvenCaptainofDale
+"Prince Brand, the Captain of Dale"
+END
+CONTROLBAR:DwarvenCaptainofDaleRecruit
+"Recruit Prince Brand, the Captain of Dale"
+END
+CONTROLBAR:DwarvenCaptainofDaleRevive
+"Revive Prince Brand, the Captain of Dale"
+END
+CONTROLBAR:DwarvenCaptainofDaleHotkey
+"Prince Brand, Ca&ptain of Dale"
+END
+OBJECT:DwarvenCaptainofDale
+"Prince Brand, Captain of Dale"
+END
+//------------------------------------------------------------
 UPGRADE:Anduril
 "Anduril"
 End
 TOOLTIP:AndurilDesc
-"Aragorn gains +10% Damage and +7% speed at level 5 \n Passive power"
+"Anduril: Aragorn gains +10% Damage and +7% speed \n Requires Level 5 \n Passive ability"
 END
 //------------------------------------------------------------
 GUI:SpellBookRefreshReduction
@@ -217,28 +233,28 @@ MAP:mapTESTBucklandIII
 "Buckland III"
 END
 MAP:mapTESTBucklandIII/Desc
-"Test me! The Eastern border of the Shire was the home of Merry Brandybuck.\n Size: 550 x 550\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Outpost, 2x Signal Fire. \n Map from RotWK, by Mako."
+"The Eastern border of the Shire was the home of Merry Brandybuck.\n Size: 550 x 550\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Outpost, 2x Signal Fire. \n Map from RotWK, by Mako."
 END
 //------------------------------------------------------------
 Map:mapTESTEastMarch
 "East March"
 END
 Map:mapTESTEastMarch/Desc
-"Test me! A small but densely populated sliver of land between the Old Forest and the east bank of the Brandywine river, inhabited by Hobbits.\n Size: 600 x 500\n Lairs: 8x Goblin Lair, 8x Troll Lair\n Neutral Structures: 1x Tower. \n Map from RotWK, by Mako."
+"A small but densely populated sliver of land between the Old Forest and the east bank of the Brandywine river, inhabited by Hobbits.\n Size: 600 x 500\n Lairs: 8x Goblin Lair, 8x Troll Lair\n Neutral Structures: 1x Tower. \n Map from RotWK, by Mako."
 END
 //------------------------------------------------------------
 Map:mapTESTFordsOfGlanduin
 "Fords of Glanduin"
 END
 Map:mapTESTFordsOfGlanduin/Desc
-"Test me! Beginning in the Hithaeglir south of Khazad-dum, the Glanduin formed Eregion's southern boundary to Dunland.\n Size: 500 x 500\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
+"Beginning in the Hithaeglir south of Khazad-dum, the Glanduin formed Eregion's southern boundary to Dunland.\n Size: 500 x 500\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapTESTGondorOutpost
 "Gondor Outpost"
 END
 Map:mapTESTGondorOutpost/Desc
-"Test me! An outpost on the border of Harondor which served to keep watch of the southern roads.\n Size: 500 x 500\n Lairs: 8x Warg Lair\n Neutral Structures: 1x Outpost. \n Map from RotWK, by Solas, Mako & TheRanger."
+"An outpost on the border of Harondor which served to keep watch of the southern roads.\n Size: 500 x 500\n Lairs: 8x Warg Lair\n Neutral Structures: 1x Outpost. \n Map from RotWK, by Solas, Mako & TheRanger."
 END
 //------------------------------------------------------------
 Map:mapNEWPlainsOfLindon
@@ -252,7 +268,7 @@ Map:mapTESTwoodyend
 "Woody End"
 End
 Map:mapTESTwoodyend/desc
-"Test me! \nWoody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east.\n Size: 580 x 480\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Outpost, 2x Signal Fire, 1x Tower. \n Map from RotWK, by MauHuR."
+"Woody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east.\n Size: 580 x 480\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Outpost, 2x Signal Fire, 1x Tower. \n Map from RotWK, by MauHuR."
 End
 //------------------------------------------------------------
 //	Map:mapTESTriveroforodruin
@@ -266,14 +282,14 @@ Map:mapTESTrhunshore
 "Rhun Shore"
 End
 Map:mapTESTrhunshore/Desc
-"Test me! \nSea of Rhun is a large inland sea located in the arid domain of Esterling. After the downfall of Sauron, Aragorn and Eomer rode there to flush out the last remnants of the enemy forces.\n Size: 380 x 350\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 1x Outpost, 1x Inn. \n Map from RotWK, by Mako."
+"Sea of Rhun is a large inland sea located in the arid domain of Esterling. After the downfall of Sauron, Aragorn and Eomer rode there to flush out the last remnants of the enemy forces.\n Size: 380 x 350\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 1x Outpost, 1x Inn. \n Map from RotWK, by Mako."
 End
 //------------------------------------------------------------
 Map:mapTESTpathsofthedead
 "Path of the dead"
 End
 Map:mapTESTpathsofthedead/desc
-"Test me! \nA cavernous passageway through the White Mountains running from Dwimorberg in the north to the Morthond Vale in the south.\n Size: 230 x 390. \n Map by RotWK"
+"A cavernous passageway through the White Mountains running from Dwimorberg in the north to the Morthond Vale in the south.\n Size: 230 x 390. \n Map by RotWK"
 End
 //------------------------------------------------------------
 //	Map:mapTESTmithlondvalley
@@ -287,21 +303,21 @@ MAP:MapTESTMirkwoodForest
 "Mirkwood Forest"
 END
 MAP:MapTESTMirkwoodForest/Desc
-"Test me! \nThe term Mirkwood is taken from William Morris, influenced by the forest Myrkvior of Norse mythology. Projected into Old English, it appears as Myrcwudu in Tolkien's The Lost Road, as a poem sung by AElfwine.\n Size: 380 x 380\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Signal Fire. \n Map from RotWK, by Mako."
+"The term Mirkwood is taken from William Morris, influenced by the forest Myrkvior of Norse mythology. Projected into Old English, it appears as Myrcwudu in Tolkien's The Lost Road, as a poem sung by AElfwine.\n Size: 380 x 380\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Signal Fire. \n Map from RotWK, by Mako."
 END
 //------------------------------------------------------------
 Map:mapNEWmidgewater
 "Midgewater"
 End
 Map:mapNEWmidgewater/desc
-"The Midgewater Marshes is an area within Bree-land in the south-eastern region. It is known for its treacherous bogs that extend as far as the Weather Hills.\n Size: 370 x 310\n Lairs: 2x Spider Lair, 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn, 1x Signal Fire. \n Map from RotWK, by Mako."
+"The Midgewater Marshes is an area within Bree-land in the south-eastern region. It is known for its treacherous bogs that extend as far as the Weather Hills. \n Map by Mako, edited by Ecthelion."
 End
 //------------------------------------------------------------
 Map:mapTESTironhillsiv
 "Iron Hills IV"
 End
 Map:mapTESTironhillsiv/desc
-"Test me! \n A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n Size: 550 x 550\n Lairs: 4x Spider Lair, 2x Fire Drake Lair, 10x Destructible Environment\n Neutral Structures: 4x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Mako."
+" A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n Size: 550 x 550\n Lairs: 4x Spider Lair, 2x Fire Drake Lair, 10x Destructible Environment\n Neutral Structures: 4x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Mako."
 End
 //------------------------------------------------------------
 //	Map:mapTESTironhillsiii
@@ -315,7 +331,7 @@ Map:mapTESTfordsofharnen
 "Fords of Harnen"
 End
 Map:MAPTESTFordsOfHarnen/Desc
-"Test me! \n The river Harnen was a river south of Gondor. South of the Harnen lay the land of Near Harad.\n Size: 560 x 450\n Lairs: 4x Troll Lair\n Neutral Structures: 4x Signal Fire. \n Map from RotWK, by lrdkcki, edited by Mako."
+" The river Harnen was a river south of Gondor. South of the Harnen lay the land of Near Harad.\n Size: 560 x 450\n Lairs: 4x Troll Lair\n Neutral Structures: 4x Signal Fire. \n Map from RotWK, by lrdkcki, edited by Mako."
 END
 //------------------------------------------------------------
 //	Map:mapTESTeredmithrin
@@ -329,7 +345,7 @@ Map:mapTESTerechii
 "Erech II"
 End
 Map:mapTESTerechii/desc
-"Test me! \n A hill west of Minas Tirith, where in ages past the faithless King of the Mountains swore an oath of fealty to Isildur.\n Size: 320 x 320\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Thoon."
+" A hill west of Minas Tirith, where in ages past the faithless King of the Mountains swore an oath of fealty to Isildur.\n Size: 320 x 320\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Thoon."
 End
 //------------------------------------------------------------
 //	Map:mapTESTdwarrowdelf
@@ -350,7 +366,7 @@ Map:maptestdruwaithreef
 "Druwait Reef"
 End
 Map:maptestdruwaithreef/desc
-"Test me! \n This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
+" This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
 End
 //------------------------------------------------------------
 //	Map:maptestbrownlands8p
@@ -669,10 +685,17 @@ Map:MAPMPBrandybuck/Desc
 END
 //------------------------------------------------------------
 Map:mapETwestemnetII
-"West Emnet II" // bfme1 spanish nostalgia // 
+"West Emnet II"
 END
 Map:mapETwestemnetII/Desc
 "Las verdes tierras de Rohan que quedan entre el Entaguas y el Isen. \n Map by Ecthelion."
+END
+//------------------------------------------------------------
+Map:mapETwestfoldII
+"Westfold II"
+END
+Map:mapETwestfoldII/Desc
+"A rocky, lightly wooded land in the western region of Rohan. \nBFME1 map, edited by Ecthelion"
 END
 //------------------------------------------------------------
 Map:TheIvyBush
@@ -686,7 +709,7 @@ Map:RohanII
 "Rohan II"
 END
 Map:RohanII/Desc
-"A great kingdom in Middle-earth ruled by King Theoden. It is the home of the Rohirrim, the finest horsemen of Middle-earth. \n Map from BfME1, reworked by Ecthelion."
+"A great kingdom in Middle-earth ruled by King Theoden. It is the home of the Rohirrim, the finest horsemen of Middle-earth. \n Map from BfME1, edited by Ecthelion."
 END
 //------------------------------------------------------------
 Map:OsgiliathII
@@ -819,14 +842,14 @@ Map:mapmpnearharad
 "Harad II"
 END
 Map:mapmpnearharad/Desc
-"A barren, desert land that lies south of Mordor. It is the homeland of the Haradrim warriors.\n Map from BfME1 version, reworked by Ecthelion."
+"A barren, desert land that lies south of Mordor. It is the homeland of the Haradrim warriors.\n Map version from BfME1, edited by Ecthelion."
 END
 //------------------------------------------------------------
 Map:mapmpmorthondvalley
 "Morthond Valley II"
 END
 Map:mapmpmorthondvalley/Desc
-"The Morthond was one of the seven rivers of Gondor. Aragorn, Gimli, Legolas, the Grey Company, and the Army of the Dead exited from the Paths of the Dead alongside it. \n Map from RotWK by Solas, reworked by Ecthelion."
+"The Morthond was one of the seven rivers of Gondor. Aragorn, Gimli, Legolas, the Grey Company, and the Army of the Dead exited from the Paths of the Dead alongside it. \n Map from RotWK by Solas, edited by Ecthelion."
 END
 //------------------------------------------------------------
 Map:mapmpmithrilhillsii
@@ -953,7 +976,7 @@ Map:MAPMPLebenin
 "Lebennin III"
 END
 Map:MAPMPLebenin/Desc
-"This lush, green land in southern Gondor lies where the Anduin River completes its journey into the Bay of Belfalas. \n Map from BfME1, reworked by Val`" //Lebennin III is an edited edition to fix red build plots. Signal Fires added east/west. \n Edited by Val`
+"This lush, green land in southern Gondor lies where the Anduin River completes its journey into the Bay of Belfalas. \n Map from BfME1, edited by Val`" //Lebennin III is an edited edition to fix red build plots. Signal Fires added east/west. \n Edited by Val`
 END
 //------------------------------------------------------------
 // This one does get translated in at least one more lenguage
@@ -1027,7 +1050,7 @@ CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
 "El mago transfiere toda su energia en un escudo que absorberá toda clase de daño dirigido hacia él. \n Gandalf gana inmunidad al meta impacto \n Dura 5 segundos \n \n Haz clic con el botón izquierdo sobre el icono para activar."
 END
 CONTROLBAR:Fire_pit
-"Fogata del campamen&to"
+"Fogata de campamen&to"
 END
 CONTROLBAR:TooltipFire_pit
 "Campamento donde los aliados cercanos pueden ser curados \n Repone una unidad por batallón cada 5 segundos. \n Provee un bonus acumulativo de +5% armadura. \n Detect stealth"
@@ -15691,7 +15714,7 @@ CONTROLBAR:ToolTipGenericRecruitHero
 END
 
 CONTROLBAR:FireArrowUpgrade
-"F&lechas de fuego"
+"Flechas de fuego (&W)"
 END
 
 CONTROLBAR:TooltipFireArrowUpgrade
@@ -16375,7 +16398,7 @@ CONTROLBAR:ToolTipToggleTrebWeapon
 END
 
 CONTROLBAR:NoAutoAcquire
-"Detener adqui&sición automática"
+"Detener adq&uisición automática"
 END
 
 CONTROLBAR:ToolTipNoAutoAcquire
@@ -21518,6 +21541,10 @@ Map:MAPMPSouthernIthilien
 "Ithilien Sur"
 END
 
+Map:MAPMPWestEmnet
+"Oestemnet"
+END
+
 Map:MAPMPWold
 "Llanura de Rohan"
 END
@@ -21922,12 +21949,16 @@ Map:MAPMPSouthernIthilien/Desc
 "Las fértiles y boscosas tierras del sur de Gondor."
 END
 
+Map:MAPMPWestEmnet/Desc
+"Las verdes tierras de Rohan que quedan entre el Entaguas y el Isen."
+END
+
 Map:MAPMPWold/Desc
 "Una zona antigua y desolada que queda al norte de la Cima de Amon Hen."
 END
 
 Map:MAPMPWestfold/Desc
-"Una tierra ligeramente arbolada y rocosa al oeste de Rohan. \n\n Mapa de BFME1, editado por Ecthelion"
+"Una tierra ligeramente arbolada y rocosa al oeste de Rohan."
 END
 
 Map:MAPMPSHelmsDeep/Desc
@@ -24006,7 +24037,7 @@ SCRIPT:MEEdBonus02
 END
 
 CONTROLBAR:PurchaseTechnologyRohanFireArrows
-"Investigación: Mejora flechas de fuego [&F]"
+"Investigación: Mejora flechas de fuego (&F)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyRohanFireArrows
@@ -24018,7 +24049,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeRohanFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyRohanForgedBlades
-"Mejora espadas forjadas (&V)"
+"Mejora espadas forjadas (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyRohanForgedBlades
@@ -24026,7 +24057,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRohanForgedBlades
 END
 
 CONTROLBAR:PurchaseUpgradeRohanForgedBlades
-"Espadas f&orjadas"
+"Espadas forjadas (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanForgedBlades
@@ -24034,7 +24065,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeRohanForgedBlades
 END
 
 CONTROLBAR:PurchaseTechnologyRohanHeavyArmor
-"Armadu&ra pesada"
+"Armadura pesada (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyRohanHeavyArmor
@@ -24042,7 +24073,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRohanHeavyArmor
 END
 
 CONTROLBAR:PurchaseUpgradeRohanHeavyArmor
-"Armadura pesada (&I)"
+"Armadura pesada (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanHeavyArmor
@@ -24058,7 +24089,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRohanBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeRohanBasicTraining
-"Mejora de po&rtaestandarte"
+"Mejora de portaesta&ndarte"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanBasicTraining
@@ -28392,7 +28423,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressBatCloud
 END
 
 CONTROLBAR:PurchaseUpgradeWildFortressFireArrows
-"Flechas de f&uego."
+"Flechas de fuego. (&F)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressFireArrows
@@ -28416,7 +28447,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines
 END
 
 CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows
-"F&lechas de fuego"
+"Flechas de fuego (&F)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerFireArrows
@@ -28616,7 +28647,7 @@ CONTROLBAR:ToolTipConstructMordorGateWatchersExpansion
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressFireArrows
-"Municiones ardientes (&L)"
+"Municiones ardientes (&F)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressFireArrows
@@ -28960,7 +28991,7 @@ CONTROLBAR:BattleWagonUpgradeAxeThrowers
 END
 
 CONTROLBAR:BattleWagonUpgradeBannerCarrier
-"Mejorar con portaestandarte (&L)"
+"Mejorar con portaesta&ndarte"
 END
 
 CONTROLBAR:BattleWagonUpgradeHearth
@@ -37474,7 +37505,7 @@ CONTROLBAR:ToolTipGoblinGiantSentryUpgrade
 END
 
 CONTROLBAR:PurchaseTechnologyDwarvenBasicTraining
-"Investigar Po&rtaestandarte"
+"Investigar Portaesta&ndarte"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyDwarvenBasicTraining
@@ -37506,7 +37537,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyDwarvenHeavyArmor
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenHeavyArmor
-"Comprar armadura pe&sada"
+"Comprar armadura pesada (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenHeavyArmor
@@ -37514,7 +37545,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenHeavyArmor
 END
 
 CONTROLBAR:PurchaseTechnologyGondorFireArrows
-"Investigar flechas de fuego [&F]"
+"Investigar flechas de fuego (&F)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorFireArrows
@@ -37538,7 +37569,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeGondorForgedBlades
 END
 
 CONTROLBAR:PurchaseTechnologyGondorHeavyArmor
-"Investigar armadura pesada (&K)"
+"Investigar armadura pesada (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorHeavyArmor
@@ -37546,7 +37577,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyGondorHeavyArmor
 END
 
 CONTROLBAR:PurchaseUpgradeGondorHeavyArmor
-"Comprar armadura pesada (&K)"
+"Comprar armadura pesada (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeGondorHeavyArmor
@@ -37602,7 +37633,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeRohanHorseShield
 END
 
 CONTROLBAR:PurchaseTechnologyIsengardFireArrows
-"Investigar fle&chas de fuego"
+"Investigar flechas de fuego (&F)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyIsengardFireArrows
@@ -37626,7 +37657,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardForgedBlades
 END
 
 CONTROLBAR:PurchaseTechnologyIsengardHeavyArmor
-"Investigar armadura pesada (&K)"
+"Investigar armadura pesada (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyIsengardHeavyArmor
@@ -37634,7 +37665,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyIsengardHeavyArmor
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardHeavyArmor
-"Comprar armadura pesada (&K)"
+"Comprar armadura pesada (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardHeavyArmor
@@ -37654,7 +37685,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMordorFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyGondorBasicTraining
-"Investigar Po&rtaestandarte"
+"Investigar Portaesta&ndarte"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeGondorBasicTraining
@@ -37662,7 +37693,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeGondorBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyIsengardBasicTraining
-"Investigar Po&rtaestandarte"
+"Investigar Portaesta&ndarte"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyIsengardBasicTraining
@@ -37674,7 +37705,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyMordorBasicTraining
-"Investigar Po&rtaestandarte"
+"Investigar Portaesta&ndarte"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyMordorBasicTraining
@@ -37710,7 +37741,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyWildBasicTraining
-"Investigar Po&rtaestandarte"
+"Investigar Portaesta&ndarte"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining
@@ -37718,7 +37749,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeWildFireArrows
-"Comprar fle&chas de fuego"
+"Comprar flechas de fuego (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFireArrows
@@ -37726,7 +37757,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyWildFireArrows
-"Investigar fle&chas de fuego"
+"Investigar flechas de fuego (&f)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyWildFireArrows
@@ -37746,7 +37777,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyWildForgedBlades
 END
 
 CONTROLBAR:PurchaseUpgradeWildHeavyArmor
-"Comprar armadura de carroñero (&T)"
+"Comprar armadura de carroñero (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildHeavyArmor
@@ -37754,7 +37785,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildHeavyArmor
 END
 
 CONTROLBAR:PurchaseTechnologyWildHeavyArmor
-"Investigar armadura de carroñero (&J)"
+"Investigar armadura de carroñero (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseechnologyWildHeavyArmor
@@ -37782,7 +37813,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyElvenBasicTraining
-"Investigar Po&rtaestandarte"
+"Investigar Portaesta&ndarte"
 END
 
 CONTROLBAR:ToolTipBuildElvenBasicTraining
@@ -37818,7 +37849,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenForgedBlades
 END
 
 CONTROLBAR:PurchaseTechnologyElvenHeavyArmor
-"Investigar armadura elfa (&V)"
+"Investigar armadura elfa (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyElvenHeavyArmor
@@ -43768,55 +43799,55 @@ CONTROLBAR:EvacuateAll
 END
 
 CONTROLBAR:PurchaseUpgradeGondorForgedBlades
-"Comprar e&spadas forjadas"
+"Comprar espadas forjadas (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeRohanElvenWarriorForgedBlades
-"Comprar e&spadas forjadas"
+"Comprar espadas forjadas (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardForgedBlades
-"Comprar e&spadas forjadas"
+"Comprar espadas forjadas (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeWildForgedBlade
-"Comprar e&spadas forjadas"
+"Comprar espadas forjadas (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenForgedBlades
-"Comprar e&spadas forjadas"
+"Comprar espadas forjadas (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeGondorBasicTraining
-"Comprar &Portaestandarte"
+"Comprar Portaesta&ndarte"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardBasicTraining
-"Comprar &Portaestandarte"
+"Comprar Portaesta&ndarte"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorBasicTraining
-"Comprar &Portaestandarte"
+"Comprar Portaesta&ndarte"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorBasicTrainingForMumakil
-"Comprar &Portaestandarte"
+"Comprar Portaesta&ndarte"
 END
 
 CONTROLBAR:PurchaseUpgradeWildBasicTraining
-"Comprar &Portaestandarte"
+"Comprar Portaesta&ndarte"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenBasicTraining
-"Comprar &Portaestandarte"
+"Comprar Portaesta&ndarte"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining
-"Comprar &Portaestandarte"
+"Comprar Portaesta&ndarte"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTrainingForMirkwoodArcherHorde
-"Comprar Po&rtaestandarte"
+"Comprar Portaesta&ndarte"
 END
 
 TOOLTIP:LackLevel3EregionForge
@@ -44124,7 +44155,7 @@ CONTROLBAR:GlorfindelBladeOfPurity
 END
 
 CONTROLBAR:GlorfindelWindRider
-"Jinete del viento [&C]"
+"Jinete del viento [&W]"
 END
 
 CONTROLBAR:GlorfindelStarlight
@@ -44136,11 +44167,11 @@ CONTROLBAR:HawkStrike
 END
 
 CONTROLBAR:TrainArchers
-"Entrenar arqueros [&T]."
+"En&trenar arqueros"
 END
 
 CONTROLBAR:KnifeFighter
-"Luchador con cuchillo [&C]"
+"Luchador con &cuchillo"
 END
 
 CONTROLBAR:ArrowWind
@@ -44556,7 +44587,7 @@ CONTROLBAR:WildShelobInstillTerror
 END
 
 CONTROLBAR:WildShelobPoisonedStinger
-"Dardo envenenado [&T]"
+"Dardo envenenado [&V]"
 END
 
 CONTROLBAR:SpecialAbilityWildShelobTunnel
@@ -44620,7 +44651,7 @@ CONTROLBAR:TooltipWargRiderHowl
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
-"Comprar e&spadas forjadas"
+"Comprar espadas forjadas (&W)"
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
@@ -44628,7 +44659,7 @@ CONTROLBAR:DwarvenGuardianChargeAttack
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
-"Comprar &Portaestandarte"
+"Comprar Portaesta&ndarte"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
