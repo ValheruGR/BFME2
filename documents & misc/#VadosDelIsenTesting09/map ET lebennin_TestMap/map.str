@@ -1,0 +1,39 @@
+
+//------------------------------------------------------------
+Map:mapETlebennin_TestMap
+"Lebennin The Beta Testin' Map" 
+End
+Map:mapETlebennin_TestMap/Desc
+"Made to test some powers and shit \n\n Lebennin is a region between the south of White Mountains and the Anduin delta. Known as the land of the five rivers, it is one of the most faithful fiefs of Gondor, whose wide green meadows are filled with tall grasses and flowers. \n Map by Ecthelion"
+End
+//------------------------------------------------------------
+
+
+//------------------------------------------------------------
+GUI:SpellBookRefreshReduction
+"		Bonus: \n	Spellbook\n refresh \n reduction: %d%%"
+End
+
+SCRIPT:TestingModeLevel1
+"Testing mode:\n Level 1 Enabled"
+End
+
+ 
+SCRIPT:AbracadabraTimer1
+"Beta/Gloin Time"
+End
+SCRIPT:AbracadabraTimer2
+"Original/Dain Time"
+End
+SCRIPT:AbracadabraTimer3
+"Gimli Time"
+End
+SCRIPT:Abracadabra
+"Testing mode:\n Abracadabra!"
+End
+SCRIPT:GameTimeMinutes
+"Minutes in game"
+End
+SCRIPT:GameTimeSeconds
+"Seconds in game"
+End
