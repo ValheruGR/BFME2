@@ -107,7 +107,7 @@ CONTROLBAR:KingsFavorDain_New
 "King's Favor [&C]"
 END
 CONTROLBAR:KingsFavorDainDesc_New
-"Requires Level 7 \n Targeted units gain experience \n Left click icon then left click on target units"
+"Requires Level 6 \n Targeted units gain experience \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:SauronsFiresOfDoomDesc_New
@@ -144,6 +144,20 @@ END
 Map:mapmpnothing/Desc
 "nothing"
 END
+//------------------------------------------------------------
+Map:mapmpnothing
+"nothing"
+END
+Map:mapmpnothing/Desc
+"nothing"
+END
+//------------------------------------------------------------
+Map:mapETerynrhun
+"Eryn Rhün" 
+End
+Map:mapETerynrhun/Desc
+"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion"
+End
 //------------------------------------------------------------
 Map:mapETlebennin
 "Lebennin" 
@@ -226,28 +240,28 @@ MAP:mapTESTBucklandIII
 "Buckland III"
 END
 MAP:mapTESTBucklandIII/Desc
-"Test me! The Eastern border of the Shire was the home of Merry Brandybuck.\n Size: 550 x 550\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Outpost, 2x Signal Fire. \n Map from RotWK, by Mako."
+"The Eastern border of the Shire was the home of Merry Brandybuck.\n Size: 550 x 550\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Outpost, 2x Signal Fire. \n Map from RotWK, by Mako."
 END
 //------------------------------------------------------------
 Map:mapTESTEastMarch
 "East March"
 END
 Map:mapTESTEastMarch/Desc
-"Test me! A small but densely populated sliver of land between the Old Forest and the east bank of the Brandywine river, inhabited by Hobbits.\n Size: 600 x 500\n Lairs: 8x Goblin Lair, 8x Troll Lair\n Neutral Structures: 1x Tower. \n Map from RotWK, by Mako."
+"A small but densely populated sliver of land between the Old Forest and the east bank of the Brandywine river, inhabited by Hobbits.\n Size: 600 x 500\n Lairs: 8x Goblin Lair, 8x Troll Lair\n Neutral Structures: 1x Tower. \n Map from RotWK, by Mako."
 END
 //------------------------------------------------------------
 Map:mapTESTFordsOfGlanduin
 "Fords of Glanduin"
 END
 Map:mapTESTFordsOfGlanduin/Desc
-"Test me! Beginning in the Hithaeglir south of Khazad-dum, the Glanduin formed Eregion's southern boundary to Dunland.\n Size: 500 x 500\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
+"Beginning in the Hithaeglir south of Khazad-dum, the Glanduin formed Eregion's southern boundary to Dunland.\n Size: 500 x 500\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapTESTGondorOutpost
 "Gondor Outpost"
 END
 Map:mapTESTGondorOutpost/Desc
-"Test me! An outpost on the border of Harondor which served to keep watch of the southern roads.\n Size: 500 x 500\n Lairs: 8x Warg Lair\n Neutral Structures: 1x Outpost. \n Map from RotWK, by Solas, Mako & TheRanger."
+"An outpost on the border of Harondor which served to keep watch of the southern roads.\n Size: 500 x 500\n Lairs: 8x Warg Lair\n Neutral Structures: 1x Outpost. \n Map from RotWK, by Solas, Mako & TheRanger."
 END
 //------------------------------------------------------------
 Map:mapNEWPlainsOfLindon
@@ -261,7 +275,7 @@ Map:mapTESTwoodyend
 "Woody End"
 End
 Map:mapTESTwoodyend/desc
-"Test me! \nWoody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east.\n Size: 580 x 480\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Outpost, 2x Signal Fire, 1x Tower. \n Map from RotWK, by MauHuR."
+"Woody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east.\n Size: 580 x 480\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Outpost, 2x Signal Fire, 1x Tower. \n Map from RotWK, by MauHuR."
 End
 //------------------------------------------------------------
 //	Map:mapTESTriveroforodruin
@@ -275,14 +289,14 @@ Map:mapTESTrhunshore
 "Rhun Shore"
 End
 Map:mapTESTrhunshore/Desc
-"Test me! \nSea of Rhun is a large inland sea located in the arid domain of Esterling. After the downfall of Sauron, Aragorn and Eomer rode there to flush out the last remnants of the enemy forces.\n Size: 380 x 350\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 1x Outpost, 1x Inn. \n Map from RotWK, by Mako."
+"Sea of Rhun is a large inland sea located in the arid domain of Esterling. After the downfall of Sauron, Aragorn and Eomer rode there to flush out the last remnants of the enemy forces.\n Size: 380 x 350\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 1x Outpost, 1x Inn. \n Map from RotWK, by Mako."
 End
 //------------------------------------------------------------
 Map:mapTESTpathsofthedead
 "Path of the dead"
 End
 Map:mapTESTpathsofthedead/desc
-"Test me! \nA cavernous passageway through the White Mountains running from Dwimorberg in the north to the Morthond Vale in the south.\n Size: 230 x 390. \n Map by RotWK"
+"A cavernous passageway through the White Mountains running from Dwimorberg in the north to the Morthond Vale in the south.\n Size: 230 x 390. \n Map by RotWK"
 End
 //------------------------------------------------------------
 //	Map:mapTESTmithlondvalley
@@ -296,7 +310,7 @@ MAP:MapTESTMirkwoodForest
 "Mirkwood Forest"
 END
 MAP:MapTESTMirkwoodForest/Desc
-"Test me! \nThe term Mirkwood is taken from William Morris, influenced by the forest Myrkvior of Norse mythology. Projected into Old English, it appears as Myrcwudu in Tolkien's The Lost Road, as a poem sung by AElfwine.\n Size: 380 x 380\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Signal Fire. \n Map from RotWK, by Mako."
+"The term Mirkwood is taken from William Morris, influenced by the forest Myrkvior of Norse mythology. Projected into Old English, it appears as Myrcwudu in Tolkien's The Lost Road, as a poem sung by AElfwine.\n Size: 380 x 380\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Signal Fire. \n Map from RotWK, by Mako."
 END
 //------------------------------------------------------------
 Map:mapNEWmidgewater
@@ -310,7 +324,7 @@ Map:mapTESTironhillsiv
 "Iron Hills IV"
 End
 Map:mapTESTironhillsiv/desc
-"Test me! \n A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n Size: 550 x 550\n Lairs: 4x Spider Lair, 2x Fire Drake Lair, 10x Destructible Environment\n Neutral Structures: 4x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Mako."
+" A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n Size: 550 x 550\n Lairs: 4x Spider Lair, 2x Fire Drake Lair, 10x Destructible Environment\n Neutral Structures: 4x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Mako."
 End
 //------------------------------------------------------------
 //	Map:mapTESTironhillsiii
@@ -324,7 +338,7 @@ Map:mapTESTfordsofharnen
 "Fords of Harnen"
 End
 Map:MAPTESTFordsOfHarnen/Desc
-"Test me! \n The river Harnen was a river south of Gondor. South of the Harnen lay the land of Near Harad.\n Size: 560 x 450\n Lairs: 4x Troll Lair\n Neutral Structures: 4x Signal Fire. \n Map from RotWK, by lrdkcki, edited by Mako."
+" The river Harnen was a river south of Gondor. South of the Harnen lay the land of Near Harad.\n Size: 560 x 450\n Lairs: 4x Troll Lair\n Neutral Structures: 4x Signal Fire. \n Map from RotWK, by lrdkcki, edited by Mako."
 END
 //------------------------------------------------------------
 //	Map:mapTESTeredmithrin
@@ -338,7 +352,7 @@ Map:mapTESTerechii
 "Erech II"
 End
 Map:mapTESTerechii/desc
-"Test me! \n A hill west of Minas Tirith, where in ages past the faithless King of the Mountains swore an oath of fealty to Isildur.\n Size: 320 x 320\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Thoon."
+" A hill west of Minas Tirith, where in ages past the faithless King of the Mountains swore an oath of fealty to Isildur.\n Size: 320 x 320\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Thoon."
 End
 //------------------------------------------------------------
 //	Map:mapTESTdwarrowdelf
@@ -359,7 +373,7 @@ Map:maptestdruwaithreef
 "Druwait Reef"
 End
 Map:maptestdruwaithreef/desc
-"Test me! \n This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
+" This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
 End
 //------------------------------------------------------------
 //	Map:maptestbrownlands8p
@@ -404,12 +418,12 @@ Map:mapNEWmoongladevale/Desc
 "The Elves of Middle-earth revere moonforests in adoration to Varda, creator of starlight, whom they call Elbereth. \n Size: 480 x 480 \n Lairs: 2x Troll Lair, 2x Goblin Cave. \n Map from RotWK, by TheRanger. \n Time of the day changed to Morning, originally Night"
 END
 //------------------------------------------------------------
-//Map:mapNEWanfalasii
-//"Anfalas II"
-//END
-//Map:mapNEWanfalasii/Desc
-//"The western coastal section of Gondor populated by small villages of herdsmen and fishermen.\n\n Size: 360 x 390\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Inn, 1x Signal Fire. \n Map from RotWK, by Mako."
-//END
+Map:mapNEWanfalasii
+"Anfalas II"
+END
+Map:mapNEWanfalasii/Desc
+"The western coastal section of Gondor populated by small villages of herdsmen and fishermen.\n\n Size: 360 x 390\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Inn, 1x Signal Fire. \n Map from RotWK, by Mako."
+END
 //------------------------------------------------------------
 Map:mapNEWgreenleafforest
 "Greenleaf Forest"
@@ -677,11 +691,18 @@ Map:MAPMPBrandybuck/Desc
 "In J. R. R. Tolkien's fictional universe of Middle-earth, the Brandybuck clan was a powerful Hobbit family. The family began as the Oldbuck clan, who named themselves such apparently after Bucca of the Marish. \n Map by Val`."
 END
 //------------------------------------------------------------
-Map:mapmpwestemnet
-"West Emnet"
+Map:mapETwestemnetII
+"West Emnet II"
 END
-Map:mapmpwestemnet/Desc
-"Grassy lands of Rohan, lying between the Entwash and the Isen River\n Map from BfME1, edited by Ecthelion."
+Map:mapETwestemnetII/Desc
+"Grassy lands of Rohan, lying between the Entwash and the Isen River\n Map by Ecthelion."
+END
+//------------------------------------------------------------
+Map:mapmpWestfoldII
+"Westfold II"
+END
+Map:mapmpWestfoldII/Desc
+"A rocky, lightly wooded land in the western region of Rohan. \n Map from BFME1, edited by Ecthelion"
 END
 //------------------------------------------------------------
 Map:TheIvyBush
@@ -992,7 +1013,7 @@ END
 //------------------------------------------------------------
 
 CONTROLBAR:ArwenLeadershipDesc_New
-"Requires Level 4 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+"Requires Level 3 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
 CONTROLBAR:GaladHealBTP
 "&Light Of Galadriel"
@@ -9473,7 +9494,7 @@ CONTROLBAR:SwoopAttack
 End
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Order Mumakil to trample the enemy \n Left click icon then left click on target"
+"Requires Level 2 \n Order Mumakil to trample the enemy \n Left click icon then left click on target"
 END
 
 CONTROLBAR:Guard
@@ -17590,7 +17611,7 @@ CONTROLBAR:ToolTipToggleLineFormation
 END
 
 CONTROLBAR:TogglePorcupineFormation
-"Porcupine For&mation"
+"Porcupine Formation (&V)"
 END
 
 CONTROLBAR:ToolTipTogglePorcupineFormation
@@ -23556,6 +23577,10 @@ Map:MAPMPSouthernIthilien
 "Southern Ithilien"
 END
 
+Map:MAPMPWestEmnet
+"West Emnet"
+END
+
 Map:MAPMPWold
 "Wold"
 END
@@ -23963,12 +23988,16 @@ Map:MAPMPSouthernIthilien/Desc
 "The fertile, wooded lands in southern Gondor."
 END
 
+Map:MAPMPWestEmnet/Desc
+"Grassy lands of Rohan, lying between the Entwash and the Isen River."
+END
+
 Map:MAPMPWold/Desc
 "An old, desolate area to the north of the Summit of Amon Hen."
 END
 
 Map:MAPMPWestfold/Desc
-"A rocky, lightly wooded land in the western region of Rohan. \nBFME1 map, edited by Ecthelion"
+"A rocky, lightly wooded land in the western region of Rohan."
 END
 
 Map:MAPMPSHelmsDeep/Desc
@@ -24240,7 +24269,7 @@ OBJECT:DwarvenArcheryRangeDescription
 END
 
 OBJECT:DwarvenForgeWorksDescription
-"Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed"
+"Level 2: +10% Faster Build Speed\n Level 3: +30% Faster Build Speed"
 END
 
 OBJECT:DwarvenHearthDescription
@@ -31313,7 +31342,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Requires Level 6 \n Grants all nearby allies resistance to fear and terror \n Bonus cannot be removed and always stack\n Dain becomes able to reveal stealth.\n Passive ability"
+"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Bonus cannot be removed and always stack\n Dain becomes able to reveal stealth.\n Passive ability"
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
@@ -47087,7 +47116,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Requires Level 2 \n Aragorn gains +100% Damage and +50% armor. \n Left click to activate"
+"Requires Level 2 \n Aragorn gains +50% Damage and +50% armor. \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipAragornLeadership
@@ -47196,7 +47225,7 @@ CONTROLBAR:TooltipElvenGrace
 END
 
 CONTROLBAR:ToolTipPersonalFlood
-"Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective to cavalry. \n Bonus against Black Riders \n\nLeft click icon then left click on target"
+"Requires Level 5 \n Summons a flood that will damage enemies and put out fires. \n Specially effective to cavalry. \n Bonus against Black Riders \n\nLeft click icon then left click on target"
 END
 
 //Haldir
