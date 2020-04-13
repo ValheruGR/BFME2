@@ -156,7 +156,7 @@ Map:mapETerynrhun
 "Eryn Rhün" 
 End
 Map:mapETerynrhun/Desc
-"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion"
+"Eryn Rhün means Eastern Forest, used to reference the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion, version 0.33"
 End
 //------------------------------------------------------------
 Map:mapETlebennin
@@ -30831,7 +30831,7 @@ CONTROLBAR:Sunflare
 END
 
 CONTROLBAR:TooltipSunflare
-"Calls a fiery beam of sunlight to scorch the battlefield \n Effective against weak heros \n Cancels Darkness & Frezzing Rain \n Left click icon then left click on target area"
+"Calls a fiery beam of sunlight to scorch the battlefield and indiscriminately burn enemies and allies. \n Effective against weak heros \n Cancels Darkness & Frezzing Rain \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:CaveBats
