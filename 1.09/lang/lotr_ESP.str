@@ -44407,7 +44407,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Requisito: Nivel 8. \n Mata al enemigo apuntado, haciendo que Sharku recupere salud y proporcionando, temporalmente, +50% al daño y +50% a la armadura. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 6. \n Mata al enemigo apuntado, haciendo que Sharku recupere salud y proporcionando, temporalmente, +35% al daño, +35% a la armadura y -50% desaceleración por pisoteo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToggleLurtzWeapon
@@ -44427,7 +44427,7 @@ CONTROLBAR:TameTheBeast
 END
 
 CONTROLBAR:SharkuManEater
-"Devorahombres [&x]"
+"Devorahombres [&C]"
 END
 
 CONTROLBAR:VenomousWords

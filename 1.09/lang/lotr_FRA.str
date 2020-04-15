@@ -44396,7 +44396,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Requiert : niveau 8 \nTue l'ennemi ciblé, restaure la vie de Sharcoux et confère temporairement +50% armure et +50% dégâts \n Clic gauche sur l'icône puis clic gauche sur la cible \n Ne peut pas s'utiliser avec d'autres bonus"
+"Requiert : niveau 6 \nTue l'ennemi ciblé, restaure la vie de Sharcoux et confère temporairement +35% armure, +35% dégâts and -50% crushing deceleration. \n Clic gauche sur l'icône puis clic gauche sur la cible \n Ne peut pas s'utiliser avec d'autres bonus"
 END
 
 CONTROLBAR:ToggleLurtzWeapon

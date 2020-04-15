@@ -44391,7 +44391,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Nodig: niveau 8\nDood geselecteerde vijand om Sharku's gezondheid te herstellen en tijdelijk +50% schade en +50% pantser te krijgen\nKlik met links op het icoontje en daarna met links op het doelwit"
+"Nodig: niveau 6\nDood geselecteerde vijand om Sharku's gezondheid te herstellen en tijdelijk +35% schade, +35% pantser te krijgen and -50% crushing deceleration.\nKlik met links op het icoontje en daarna met links op het doelwit"
 END
 
 CONTROLBAR:ToggleLurtzWeapon

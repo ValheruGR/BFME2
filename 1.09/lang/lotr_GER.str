@@ -44404,7 +44404,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Voraussetzung: Stufe 8 \n Besiege den gewählten Gegner, um Sharkus Gesundheit zu regenerieren. Dadurch verursacht er vorübergehend +50% Schaden und hat +50% Rüstung \n Linksklicke auf das Symbol und anschließend auf den gewünschten Gegner"
+"Voraussetzung: Stufe 6 \n Besiege den gewählten Gegner, um Sharkus Gesundheit zu regenerieren. Dadurch verursacht er vorübergehend +35% Schaden, hat +35% Rüstung and -50% crushing deceleration. \n Linksklicke auf das Symbol und anschließend auf den gewünschten Gegner"
 END
 
 CONTROLBAR:ToggleLurtzWeapon

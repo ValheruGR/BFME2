@@ -44395,7 +44395,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Wymaga 8 poziomu \n Zabija wskazanego wroga, przywracajac zdrowie Sharku i tymczasowo zapewniajac mu +50% do zadawanych obrazen oraz +50% do pancerza \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym wrogu"
+"Wymaga 6 poziomu \n Zabija wskazanego wroga, przywracajac zdrowie Sharku i tymczasowo zapewniajac mu +35% do zadawanych obrazenm +35% do pancerza and -50% crushing deceleration. \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym wrogu"
 END
 
 CONTROLBAR:ToggleLurtzWeapon

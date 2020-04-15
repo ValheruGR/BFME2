@@ -47540,7 +47540,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Requires Level 8 \n Kill target enemy which restores Sharku's health and temporarily grants +50% Damage and +50% armor \n Left click icon then left click on target enemy"
+"Requires Level 6 \n Kill target enemy which restores Sharku's health and temporarily grants +35% Damage, +35% armor and -50% crushing deceleration.\n Left click icon then left click on target enemy"
 END
 
 //=== Heroes
