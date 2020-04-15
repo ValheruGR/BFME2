@@ -1,0 +1,14 @@
+SCRIPT:TestingModeLevel1
+"Testing mode:\n Level 1 Enabled"
+End
+
+
+SCRIPT:Abracadabra
+"Testing mode:\n Abracadabra!"
+End
+SCRIPT:GameTimeMinutes
+"Minutes in game"
+End
+SCRIPT:GameTimeSeconds
+"Seconds in game"
+End
