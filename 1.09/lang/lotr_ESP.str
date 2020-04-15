@@ -988,10 +988,10 @@ Map:mapmpfordsoflimlight/Desc
 END
 //------------------------------------------------------------
 // This one does get translated in at least one more lenguage
-Map:mapmpfordsofanduin
-"Vados del Anduin II"
+Map:mapETfordsofanduin
+"Vados del Anduin"
 END
-Map:mapmpfordsofanduin/Desc
+Map:mapETfordsofanduin/Desc
 "Reskin del popular mapa de 1v1, Vados del Isen II. Diseño basado en Amon Hen, Argonath y el area alrededor del Rio Anduin. \n Hecho por Ecthelion y SilverBane."
 END
 //------------------------------------------------------------
