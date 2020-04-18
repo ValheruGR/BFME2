@@ -149,7 +149,7 @@ Map:mapETerynrhun
 "Eryn Rhün" 
 End
 Map:mapETerynrhun/Desc
-"Eryn Rhün means Eastern Forest, used to reference the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion, version 0.33"
+"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion"
 End
 //------------------------------------------------------------
 Map:mapETlebennin
@@ -988,10 +988,10 @@ Map:mapmpfordsoflimlight/Desc
 END
 //------------------------------------------------------------
 // This one does get translated in at least one more lenguage
-Map:mapmpfordsofanduin
-"Vados del Anduin II"
+Map:mapETfordsofanduin
+"Vados del Anduin"
 END
-Map:mapmpfordsofanduin/Desc
+Map:mapETfordsofanduin/Desc
 "Reskin del popular mapa de 1v1, Vados del Isen II. Diseño basado en Amon Hen, Argonath y el area alrededor del Rio Anduin. \n Hecho por Ecthelion y SilverBane."
 END
 //------------------------------------------------------------
@@ -21698,7 +21698,7 @@ Map:MAPWORShire
 END
 
 Map:MAPWORTowerHills
-"Colinas de la Torre."
+"Colinas de la Torre"
 END
 
 Map:MAPMPWeathertop
@@ -44407,7 +44407,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Requisito: Nivel 8. \n Mata al enemigo apuntado, haciendo que Sharku recupere salud y proporcionando, temporalmente, +50% al daño y +50% a la armadura. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 6. \n Mata al enemigo apuntado, haciendo que Sharku recupere salud y proporcionando, temporalmente, +35% al daño, +35% a la armadura y -50% desaceleración por pisoteo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToggleLurtzWeapon
@@ -44427,7 +44427,7 @@ CONTROLBAR:TameTheBeast
 END
 
 CONTROLBAR:SharkuManEater
-"Devorahombres [&x]"
+"Devorahombres [&C]"
 END
 
 CONTROLBAR:VenomousWords

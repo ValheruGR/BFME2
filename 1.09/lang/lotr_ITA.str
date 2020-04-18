@@ -44403,7 +44403,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Richiede livello 8.\nUccidi il nemico bersaglio, ripristinando l'energia di Sharku e fornendo temporaneamente +50% danno e corazza.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Richiede livello 6.\nUccidi il nemico bersaglio, ripristinando l'energia di Sharku e fornendo temporaneamente +35% danno, corazza and -35% crushing deceleration.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:ToggleLurtzWeapon

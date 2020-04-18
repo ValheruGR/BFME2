@@ -156,7 +156,7 @@ Map:mapETerynrhun
 "Eryn Rhün" 
 End
 Map:mapETerynrhun/Desc
-"Eryn Rhün means Eastern Forest, used to reference the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion, version 0.33"
+"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion"
 End
 //------------------------------------------------------------
 Map:mapETlebennin
@@ -995,10 +995,10 @@ Map:mapmpfordsoflimlight/Desc
 END
 //------------------------------------------------------------
 // This one does get translated in at least one more lenguage
-Map:mapmpfordsofanduin
-"Fords of Anduin II"
+Map:mapETfordsofanduin
+"Fords of Anduin"
 END
-Map:mapmpfordsofanduin/Desc
+Map:mapETfordsofanduin/Desc
 "Reskin of the popular 1v1 map, Fords of Isen II. Design based on Amon Hen, Argonath and surrounding areas of the Anduin. \n Map by Ecthelion and SilverBane."
 END
 //------------------------------------------------------------
@@ -47540,7 +47540,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Requires Level 8 \n Kill target enemy which restores Sharku's health and temporarily grants +50% Damage and +50% armor \n Left click icon then left click on target enemy"
+"Requires Level 6 \n Kill target enemy which restores Sharku's health and temporarily grants +35% Damage, +35% armor and -50% crushing deceleration.\n Left click icon then left click on target enemy"
 END
 
 //=== Heroes

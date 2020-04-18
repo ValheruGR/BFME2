@@ -44399,7 +44399,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Krever: Nivå 8\nDreper den valgte fienden og gjenoppretter Snagas helse, og gir midlertidig +50 % skadebonus og +50 % rustning\nVenstreklikk på ikonet, og venstreklikk på målet"
+"Krever: Nivå 6\nDreper den valgte fienden og gjenoppretter Snagas helse, og gir midlertidig +35 % skadebonus, +35 % rustning and -50% crushing deceleration.\nVenstreklikk på ikonet, og venstreklikk på målet"
 END
 
 CONTROLBAR:ToggleLurtzWeapon

@@ -44399,7 +44399,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Kräver grad 8 \n Döda en fiende, vilket återställer Sharkus hälsa och temporärt ger +50% skadeverkan och +50% rustning \n Vänsterklicka på ikonen, vänsterklicka sedan på fienden"
+"Kräver grad 6 \n Döda en fiende, vilket återställer Sharkus hälsa och temporärt ger +35% skadeverkan, +35% rustning och -50% crushing deceleration \n Vänsterklicka på ikonen, vänsterklicka sedan på fienden"
 END
 
 CONTROLBAR:ToggleLurtzWeapon
