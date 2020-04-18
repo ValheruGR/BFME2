@@ -44451,7 +44451,7 @@ CONTROLBAR:TooltipEscape
 END
 
 CONTROLBAR:ToolTipVenomousWords
-"Reduce considerablemente la velocidad y la cadencia de fuego del enemigo.\n Los enemigos pierden sus bonificaciones de liderazgo simple \n Se acumula con otros hechizos negativos \n\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
+"Reduce en un -40% la velocidad de los enemigos y en un -50% la cadencia de fuego de arqueros.\n Los enemigos pierden sus bonificaciones de liderazgo simple \n Se acumula con otros hechizos negativos \n\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
 END
 
 CONTROLBAR:SpecialAbilitySarumanFireball
