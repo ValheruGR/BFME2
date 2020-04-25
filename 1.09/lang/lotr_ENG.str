@@ -117,7 +117,7 @@ END
 
 
 
-// Maps	-----	2019
+// Map.Strings	-----	2019
 
  
 
@@ -145,11 +145,11 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
+Map:mapnewfordsofrohan
+"Fords of Rohan"
 END
-Map:mapmpnothing/Desc
-"nothing"
+Map:mapnewfordsofrohan/Desc
+"A peaceful battleground situated between the lands of Rohan and Isengard, separated by the river Isen. Map by Gladyr, edited by Ecthelion"
 END
 //------------------------------------------------------------
 Map:mapETerynrhun

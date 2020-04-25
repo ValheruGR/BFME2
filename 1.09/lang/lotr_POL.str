@@ -152,6 +152,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapnewfordsofrohan
+"Fords of Rohan"
+END
+Map:mapnewfordsofrohan/Desc
+"A peaceful battleground situated between the lands of Rohan and Isengard, separated by the river Isen. Map by Gladyr, edited by Ecthelion"
+END
+//------------------------------------------------------------
 Map:mapETerynrhun
 "Eryn Rhün" 
 End
