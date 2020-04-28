@@ -264,10 +264,10 @@ Map:mapTESTGondorOutpost/Desc
 "An outpost on the border of Harondor which served to keep watch of the southern roads.\n Size: 500 x 500\n Lairs: 8x Warg Lair\n Neutral Structures: 1x Outpost. \n Map from RotWK, by Solas, Mako & TheRanger."
 END
 //------------------------------------------------------------
-Map:mapNEWPlainsOfLindon
+Map:mapMHplainsOfLindon
 "Plains of Lindon"
 END
-Map:mapNEWPlainsOfLindon/Desc
+Map:mapMHplainsOfLindon/Desc
 "A green and quiet Elvish country beyond the Lune.\n Size: 313 x 375\n Lairs: 2x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
@@ -397,10 +397,10 @@ Map:mapNEWwildsofforochel/Desc
 "A wild and treacherous region of Forochel scarcely inhabited by small northmen tribes.\n Map from RotWK, by TheDestroyer001."
 END
 //------------------------------------------------------------
-Map:mapNEWreddesertofkhand
+Map:mapMHreddesertofkhand
 "Red Desert of Khand"
 END
-Map:mapNEWreddesertofkhand/Desc
+Map:mapMHreddesertofkhand/Desc
 "A red desert land which lay to the south-east of Mordor and to the east of Near Harad.\n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
@@ -439,10 +439,10 @@ Map:mapNEWhitherlandsofkhand2v2/Desc
 "The desert waste provides relief and sanctuary in its pools of fresh water. \n Size: 465 x 430 \n Lairs: 2x Goblin Lair, 4x Troll lair \n Neutral Structures: 2x Inn. \n Map from RotWK, by TheRanger."
 END
 //------------------------------------------------------------
-Map:mapNEWjunglesoffarharad
+Map:mapMHjunglesoffarharad
 "Jungles of Far Harad"
 END
-Map:mapNEWjunglesoffarharad/Desc
+Map:mapMHjunglesoffarharad/Desc
 "This region in the very south of Far Harad is densely forested with tropical trees and bushes and supplied with water by rivers flowing out into the Great Sea. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
@@ -460,10 +460,10 @@ End
 //	"A vast desert lying to the south-east of Rhun. Many unprepared travellers lose their way attempting to traverse this rugged region. \n\n Size: 550 x 550\n Lairs: 6x Goblin Lair\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
 //	End
 //------------------------------------------------------------
-Map:mapNEWtournamentamonhen
+Map:mapMOtournamentamonhen
 "Tournament Amon Hen"
 END
-Map:mapNEWtournamentamonhen/Desc
+Map:mapMOtournamentamonhen/Desc
 "Amon Hen was the westernmost of the three peaks at the southern end of Nen Hithoel. \n Map by Motoma, edited by Ecthelion."
 END
 //------------------------------------------------------------
@@ -502,10 +502,10 @@ Map:mapNEWmountgram/desc
 "The mountain was long inhabited by a group of Orcs led by Golfimbul. They terrorized some of the inhabitants of eastern Eriador including those of the Shire. \n Map from RotWK, by Mako."
 End
 //------------------------------------------------------------
-Map:mapNEWeastfold
+Map:mapMOeastfold
 "Eastfold"
 END
-Map:mapNEWeastfold/Desc
+Map:mapMOeastfold/Desc
 "The Eastfold was a region of Rohan which bordered with the Westfold via the Snowbourn River on the west and bordered with Anorien in Gondor to the east. \n Map by Motoma."
 END
 //------------------------------------------------------------
@@ -995,10 +995,10 @@ Map:mapmpfordsoflimlight/Desc
 END
 //------------------------------------------------------------
 // This one does get translated in at least one more lenguage
-Map:mapmpfordsofanduin
+Map:mapETfordsofanduin
 "Voorden van de Anduin II"
 END
-Map:mapmpfordsofanduin/Desc
+Map:mapETfordsofanduin/Desc
 "Reskin van de populaire 1v1 map, Voorden van de Isen II. Design gebaseerd op Amen Hen, Argonath en omgeving van de Anduin. \n Gemaakt door Ecthelion en SilverBane." 
 END
 //------------------------------------------------------------
