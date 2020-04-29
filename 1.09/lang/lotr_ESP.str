@@ -145,6 +145,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapnewfordsofrohan
+"Fords of Rohan"
+END
+Map:mapnewfordsofrohan/Desc
+"A peaceful battleground situated between the lands of Rohan and Isengard, separated by the river Isen. Map by Gladyr, edited by Ecthelion"
+END
+//------------------------------------------------------------
 Map:mapETerynrhun
 "Eryn Rhün" 
 End
@@ -257,17 +264,17 @@ Map:mapTESTGondorOutpost/Desc
 "An outpost on the border of Harondor which served to keep watch of the southern roads.\n Size: 500 x 500\n Lairs: 8x Warg Lair\n Neutral Structures: 1x Outpost. \n Map from RotWK, by Solas, Mako & TheRanger."
 END
 //------------------------------------------------------------
-Map:mapNEWPlainsOfLindon
+Map:mapMHplainsOfLindon
 "Plains of Lindon"
 END
-Map:mapNEWPlainsOfLindon/Desc
+Map:mapMHplainsOfLindon/Desc
 "A green and quiet Elvish country beyond the Lune.\n Size: 313 x 375\n Lairs: 2x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
-Map:mapTESTwoodyend
+Map:mapNEWwoodyend
 "Woody End"
 End
-Map:mapTESTwoodyend/desc
+Map:mapNEWwoodyend/desc
 "Woody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east.\n Size: 580 x 480\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Outpost, 2x Signal Fire, 1x Tower. \n Map from RotWK, by MauHuR."
 End
 //------------------------------------------------------------
@@ -345,7 +352,7 @@ Map:mapTESTerechii
 "Erech II"
 End
 Map:mapTESTerechii/desc
-" A hill west of Minas Tirith, where in ages past the faithless King of the Mountains swore an oath of fealty to Isildur.\n Size: 320 x 320\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Thoon."
+" A hill west of Minas Tirith, where in ages past the faithless King of the Mountains swore an oath of fealty to Isildur.\n Size: 320 x 320\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Thoon, remade by unknown."
 End
 //------------------------------------------------------------
 //	Map:mapTESTdwarrowdelf
@@ -390,10 +397,10 @@ Map:mapNEWwildsofforochel/Desc
 "A wild and treacherous region of Forochel scarcely inhabited by small northmen tribes.\n Map from RotWK, by TheDestroyer001."
 END
 //------------------------------------------------------------
-Map:mapNEWreddesertofkhand
+Map:mapMHreddesertofkhand
 "Red Desert of Khand"
 END
-Map:mapNEWreddesertofkhand/Desc
+Map:mapMHreddesertofkhand/Desc
 "A red desert land which lay to the south-east of Mordor and to the east of Near Harad.\n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
@@ -432,10 +439,10 @@ Map:mapNEWhitherlandsofkhand2v2/Desc
 "The desert waste provides relief and sanctuary in its pools of fresh water. \n Size: 465 x 430 \n Lairs: 2x Goblin Lair, 4x Troll lair \n Neutral Structures: 2x Inn. \n Map from RotWK, by TheRanger."
 END
 //------------------------------------------------------------
-Map:mapNEWjunglesoffarharad
+Map:mapMHjunglesoffarharad
 "Jungles of Far Harad"
 END
-Map:mapNEWjunglesoffarharad/Desc
+Map:mapMHjunglesoffarharad/Desc
 "This region in the very south of Far Harad is densely forested with tropical trees and bushes and supplied with water by rivers flowing out into the Great Sea. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
@@ -453,10 +460,10 @@ End
 //	"A vast desert lying to the south-east of Rhun. Many unprepared travellers lose their way attempting to traverse this rugged region. \n\n Size: 550 x 550\n Lairs: 6x Goblin Lair\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
 //	End
 //------------------------------------------------------------
-Map:mapNEWtournamentamonhen
+Map:mapMOtournamentamonhen
 "Tournament Amon Hen"
 END
-Map:mapNEWtournamentamonhen/Desc
+Map:mapMOtournamentamonhen/Desc
 "Amon Hen was the westernmost of the three peaks at the southern end of Nen Hithoel. \n Map by Motoma, edited by Ecthelion."
 END
 //------------------------------------------------------------
@@ -495,18 +502,18 @@ Map:mapNEWmountgram/desc
 "The mountain was long inhabited by a group of Orcs led by Golfimbul. They terrorized some of the inhabitants of eastern Eriador including those of the Shire. \n Map from RotWK, by Mako."
 End
 //------------------------------------------------------------
-Map:mapNEWeastfold
+Map:mapMOeastfold
 "Eastfold"
 END
-Map:mapNEWeastfold/Desc
+Map:mapMOeastfold/Desc
 "The Eastfold was a region of Rohan which bordered with the Westfold via the Snowbourn River on the west and bordered with Anorien in Gondor to the east. \n Map by Motoma."
 END
 //------------------------------------------------------------
-Map:mapNEWsakuraforest
-"Sakura Forest"
+Map:mapMHsakuraforestII
+"Sakura Forest II"
 END
-Map:mapNEWsakuraforest/Desc
-"This sacred forest north of the Sea of Rhun is the site of many temples, built to cultivate and foster the rare Sakura trees. \n Map from RotWK, by lrdkcki, edited by Mako."
+Map:mapMHsakuraforestII/Desc
+"These sacred forests north of the Sea of Rhun are home to the rare Sakura trees. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapNEWriverlangwell
@@ -873,11 +880,11 @@ Map:mapmpithilienhills/Desc
 "A small range of hills in the center of Ithilien, the easternmost province of Gondor. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
-Map:mapmphollin
+Map:mapNEWhollinII
 "Hollin"
 END
-Map:mapmphollin/Desc
-"Hollin was once home to the famed Elvish jewel-smiths of Eregion, the forgers of the great rings of power. But now the ruins of their great cities stand in silence among the stones. \n Map from RotWK, by Thoon."
+Map:mapNEWhollinII/Desc
+"Hollin was once home to the famed Elvish jewel-smiths of Eregion, the forgers of the great rings of power. But now the ruins of their great cities stand in silence among the stones. \n Map from RotWK, by Thoon, remade by unknown."
 END
 //------------------------------------------------------------
 Map:mapmphobbiton

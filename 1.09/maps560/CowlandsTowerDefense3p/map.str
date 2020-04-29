@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 2.17: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"Version 2.18: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
 End
@@ -78,6 +78,13 @@ End
 
 
 //---------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressFireArrows_New
+"Equips your Arrow Dens with Fire Arrows"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressPoisonArrows_New
+"Equips your Arrow Dens with Poison Arrows"
+END
+//---------------------------------------------------
 CONTROLBAR:SpecialAbilityBalrogBreath_New
 "Cold B&reathe"
 END
@@ -89,7 +96,7 @@ CONTROLBAR:FueltheFires_New
 "Wage Salary"
 End
 CONTROLBAR:ToolTipFueltheFires_New
-"The capitalism once realised it was actually more efficient to apply a wage salary than a fixed salary that drops to the ground the proletarian life quality. It was so efficient and practical it actually allowed reducing the minimal obligatory hours. Why dealing with communist effervescence when you can keep a majority of workers happy, build certain consensus and simply deal with a series of syndicates trying to exploit the laws of the political economy, which means create a shortage of their type of work and thus increase the salaries of their members?. \n Raises the Lumber Mill production by +65%."
+"Once upon a time.... a system called capitalism, who eventually figured out it was not only efficient but also practical to apply a wage salary instead of a fixed salary. While the fixed salary dropped to ground the proletarian life quality, the wage salary actually allowed to reduce the minimal obligatory hours. "Why do we have to deal with communist effervescence?" -once a man thought- "When we can simply keep a majority of workers happy, build certain consensus and only deal with a bunch of manegable syndicates?" Syndicates who by the way, the only thing they can do is to exploit one of the laws of the political economy, such as creating a shortage of hand of work in order to raise the salaries of their members, vanishing any seek for revolution in general. \n Raises the Lumber Mill production by +65%."
 End
 //---------------------------------------------------
 GUI:STRUCTURE_WALL_DISCOUNT_New
@@ -105,6 +112,9 @@ UPGRADE:MordorSlaughterHouseLevel2_New
 END
 UPGRADE:MordorSlaughterHouseLevel3_New
 "Slaughter House Level 3"
+END
+Upgrade:FortressPoisonArrows_New
+"Poison Arrows"
 END
 //---------------------------------------------------
 CONTROLBAR:UpgradeMordorSlaughterHouseLevel2_New
