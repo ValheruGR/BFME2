@@ -8054,7 +8054,7 @@ CONTROLBAR:TrollFindRock
 END
 
 CONTROLBAR:TrollFindTastyOrc
-"B&uscar orco que comer"
+"Buscar orco que comer (&B)"
 END
 
 CONTROLBAR:TrollFindOrcToHold
@@ -25092,7 +25092,7 @@ CONTROLBAR:ConstructMenArrowTowerExpansion
 END
 
 CONTROLBAR:ConstructMenDormitory
-"Expansión de dormitorio (&X)"
+"Expansión de dormitorio (&W)"
 END
 
 CONTROLBAR:ToolTipConstructMenDormitory
@@ -25544,7 +25544,7 @@ TOOLTIP:LackLevel2ForgeWorksDemolisher
 END
 
 CONTROLBAR:ConstructDwarvenBattleWagon
-"Carro de batalla (&V)"
+"Carro de batalla (&R)"
 END
 
 CONTROLBAR:ConstructDwarvenCatapult
@@ -25584,11 +25584,11 @@ CONTROLBAR:ConstructDwarvenArcheryRangeLevel3Upgrade
 END
 
 CONTROLBAR:UpgradeDwarvenForgeWorksLevel2
-"Mejorar forja a nivel 2 (&U)"
+"Mejorar forja a nivel 2 (&V)"
 END
 
 CONTROLBAR:UpgradeDwarvenForgeWorksLevel3
-"Mejorar forja a nivel 3 (&U)"
+"Mejorar forja a nivel 3 (&V)"
 END
 
 TOOLTIP:LackLevel2ForgeWorks
@@ -25616,7 +25616,7 @@ CONTROLBAR:TooltipSummonWatcher
 END
 
 CONTROLBAR:ConstructWildSpiderHolesExpansion
-"Expansión de agujeros de araña (&X)"
+"Expansión de agujeros de araña (&W)"
 END
 
 CONTROLBAR:ToolTipConstructWildSpiderHolesExpansion
@@ -25864,7 +25864,7 @@ CONTROLBAR:ToolTipConstructElvenVigilantEntExpansion
 END
 
 CONTROLBAR:ConstructElvenFloodgateExpansion
-"Expansión de puerta con foso (&X)"
+"Expansión de puerta con foso (&W)"
 END
 
 CONTROLBAR:ToolTipConstructElvenFloodgateExpansion
@@ -28462,7 +28462,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerFireArrows
 END
 
 CONTROLBAR:ConstructWildBurrowsExpansion
-"Expansión de madriguera (&X)"
+"Expansión de madriguera (&W)"
 END
 
 CONTROLBAR:ToolTipConstructWildBurrowsExpansion
@@ -28494,7 +28494,7 @@ CONTROLBAR:ToolTipConstructIsengardBallistaExpansion
 END
 
 CONTROLBAR:ConstructIsengardMineLauncherExpansion
-"Expansión de lanzador de minas (&X)"
+"Expansión de lanzador de minas (&W)"
 END
 
 CONTROLBAR:ToolTipConstructIsengardMineLauncherExpansion
@@ -28590,7 +28590,7 @@ CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
 END
 //MordorCastleWallHub //MordorWallHub
 CONTROLBAR:Command_ConstructIsengardCastleWallHub
-"Centro amurallado (&X)"
+"Centro amurallado (&C)"
 END
 
 CONTROLBAR:ToolTipCommand_ConstructIsengardCastleWallHub
@@ -28646,7 +28646,7 @@ CONTROLBAR:ToolTipConstructMordorBarricadeExpansion
 END
 
 CONTROLBAR:ConstructMordorGateWatchersExpansion
-"Expansión de vigilantes de la puerta (&X)"
+"Expansión de vigilantes de la puerta (&W)"
 END
 
 CONTROLBAR:ToolTipConstructMordorGateWatchersExpansion
@@ -28782,7 +28782,7 @@ CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan
 END
 
 CONTROLBAR:ConstructDwarvenHallExpansion
-"Expansión de salón (&X)"
+"Expansión de salón (&W)"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenHallExpansion
@@ -32410,7 +32410,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerForgedBlades
 END
 
 CONTROLBAR:Trollfindgoblintothrow
-"Manotear un trasgo (&U)"
+"Manotear un trasgo (&B)"
 END
 
 CONTROLBAR:ToolTipTrollfindgoblintothrow
