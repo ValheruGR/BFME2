@@ -145,6 +145,23 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapETrhun6p
+"Valleys of Rhün"
+END
+Map:mapETrhun6p/Desc
+//"A series of partially fertile valleys, feeded by water sinks from the nearby mountain chains at the far east of the Middle-Earth, around the Sea of Rhun. \n Map by Ecthelion."
+"The east of the Middle-Earth form a multiplicity of enviroments where aridity and humble piedmont oasis reign, alternating with streams and valleys of singular beauty, creating a landscape with certain paradisiacal opulence. \n Map by Ecthelion"
+//Sierras Pampeanas, Argentina.
+END
+//------------------------------------------------------------
+Map:mapHDforlindon
+"The Cow Maze"
+End
+Map:mapHDforlindon/Desc
+"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heros trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\n Map originally from BFME1 by Haldir, edited by Ecthelion."
+End
+//The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\nMap from BFME1 by Haldir, edited by Ecthelion.\n\n "
+//------------------------------------------------------------
 Map:mapnewfordsofrohan
 "Fords of Rohan"
 END
