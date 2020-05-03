@@ -16,101 +16,104 @@
 
 
 //------------------------------------------------------------
-CONTROLBAR:nothing_New
+CONTROLBAR:nothing09v2
 "nothing"
 END
 //------------------------------------------------------------
-CONTROLBAR:nothingDesc_New
+CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
-CONTROLBAR:nothingDesc_New
+CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
-CONTROLBAR:DwarvenCaptainofDale
+CONTROLBAR:DwarvenCaptainofDale09v2
 "Prince Brand, the Captain of Dale"
 END
-CONTROLBAR:DwarvenCaptainofDaleRecruit
+CONTROLBAR:DwarvenCaptainofDaleRecruit09v2
 "Recruit Prince Brand, the Captain of Dale"
 END
-CONTROLBAR:DwarvenCaptainofDaleRevive
+CONTROLBAR:DwarvenCaptainofDaleRevive09v2
 "Revive Prince Brand, the Captain of Dale"
 END
-CONTROLBAR:DwarvenCaptainofDaleHotkey
+CONTROLBAR:DwarvenCaptainofDaleHotkey09v2
 "Prince Brand, Ca&ptain of Dale"
 END
-OBJECT:DwarvenCaptainofDale
+OBJECT:DwarvenCaptainofDale09v2
 "Prince Brand, Captain of Dale"
 END
 //------------------------------------------------------------
-UPGRADE:Anduril
+UPGRADE:Anduril09v2
 "Anduril"
 End
-TOOLTIP:AndurilDesc
+TOOLTIP:AndurilDesc09v2
 "Anduril: Aragorn gains +10% Damage and +7% speed \n Requires Level 5 \n Passive ability"
 END
 //------------------------------------------------------------
-GUI:SpellBookRefreshReduction
+GUI:SpellBookRefreshReduction09v2
 "Bonus: \n Spellbook cooldowns: %d%%"
 End
 //------------------------------------------------------------
-CONTROLBAR:TooltipRallyingCall_Dwarven
+CONTROLBAR:TooltipRallyingCallDwarven09v2
 "Targeted allies gain +50% Damage and +25% experience \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
-OBJECT:TheForsakenInn
+OBJECT:TheForsakenInn09v2
 "The Forsaken Inn" 
 End
 //------------------------------------------------------------
-UPGRADE:ElvenStructuralSilverthornArrows
+UPGRADE:ElvenStructuralSilverthornArrows09v2
 "Silverthorn Munitions"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipSarumanLeadership_New
+CONTROLBAR:ToolTipSarumanLeadership09v2
 "Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
+CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn09v2
 "&Silverthorn Munitions"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn_New
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn09v2
 "Grants Silverthorn Munitions to fortress and all attached towers \n Increases the damage caused by arrows"
 END
 //------------------------------------------------------------
-CONTROLBAR:WordofPowerSauron_New
+CONTROLBAR:WordofPowerSauron09v2
 "Word of Power [&B]"
 END
-CONTROLBAR:ToolTipWordofPowerSauron_New
+CONTROLBAR:ToolTipWordofPowerSauron09v2
 "Sends out a shockwave that kills surrounding enemies \n Left click to activate"
 END
 //------------------------------------------------------------
-CONTROLBAR:GaladrielWordOfPower_New
+CONTROLBAR:GaladrielWordOfPower09v2
 "Nenya [&V]"
 END
-CONTROLBAR:GaladrielWordOfPowerDesc_New
+CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 "Requires Level 10 \n Nenya \Sends out a shockwave that destroys surrounding enemies \n Left click to activate"
 END
 //------------------------------------------------------------
-CONTROLBAR:RingOfPower_New
+CONTROLBAR:RingOfPower09v2
 "&Ring Of Power"
 END
-CONTROLBAR:RingOfPowerDesc_New
+CONTROLBAR:ToolTipRingOfPower09v2
 "Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
 END
 //------------------------------------------------------------
-CONTROLBAR:TooltipAthelasElrond_New
+CONTROLBAR:TooltipAthelasElrond09v2
 "Heal nearby units \n Less effective on heroes and more effective on hordes and monsters \n Provides 15% HP and 25% bonus experience for 12s to infantry, cavalry, and monsters(not heroes)\n provides resistance to fear and terror \n Left click to activate"
 END
+CONTROLBAR:ToolTipElrondFarsight09v2
+"Reveals an area of the map \n Does not provide a range bonus to units like the spellbook version \n Provides 27.5% bonus shroud clearing to infantry, cavalry, machines and monsters(not heroes). Duration is 25s \n Now has global range(cast anywhere on map and units still get the shroud bonus). Radius is 300 from the cast point \n Left click icon then left click on target area"
+END
 //------------------------------------------------------------
-CONTROLBAR:KingsFavorDain_New
+CONTROLBAR:KingsFavorDain09v2
 "King's Favor [&C]"
 END
-CONTROLBAR:KingsFavorDainDesc_New
+CONTROLBAR:ToolTipKingsFavorDain09v2
 "Requires Level 6 \n Targeted units gain experience \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
-CONTROLBAR:SauronsFiresOfDoomDesc_New
+CONTROLBAR:ToolTipSauronsFiresOfDoom09v2
 "Calls down many molten rocks in an area around Sauron, \n Left click icon starts the channeling \n Does not hurt allies"
 END
 //------------------------------------------------------------
@@ -1029,7 +1032,7 @@ END
 
 //------------------------------------------------------------
 
-CONTROLBAR:ArwenLeadershipDesc_New
+CONTROLBAR:ToolTipArwenLeadership09v1
 "Requires Level 3 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
 CONTROLBAR:GaladHealBTP
@@ -47324,7 +47327,7 @@ CONTROLBAR:TooltipElrondLeadership
 END
 
 CONTROLBAR:ToolTipElrondFarsight
-"Reveals an area of the map \n Does not provide a range bonus to units like the spellbook version \n Provides 27.5% bonus shroud clearing to infantry, cavalry, machines and monsters(not heroes). Duration is 25s \n Now has global range(cast anywhere on map and units still get the shroud bonus). Radius is 300 from the cast point \n Left click icon then left click on target area"
+"Reveals an area of the map \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ElrondRestoration
