@@ -16,108 +16,111 @@
 
 
 //------------------------------------------------------------
-CONTROLBAR:nothing_New
+CONTROLBAR:nothing09v2
 "nothing"
 END
 //------------------------------------------------------------
-CONTROLBAR:nothingDesc_New
+CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
-CONTROLBAR:nothingDesc_New
+CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
-CONTROLBAR:DwarvenCaptainofDale
+CONTROLBAR:DwarvenCaptainofDale09v2
 "Prince Brand, the Captain of Dale"
 END
-CONTROLBAR:DwarvenCaptainofDaleRecruit
+CONTROLBAR:DwarvenCaptainofDaleRecruit09v2
 "Recruit Prince Brand, the Captain of Dale"
 END
-CONTROLBAR:DwarvenCaptainofDaleRevive
+CONTROLBAR:DwarvenCaptainofDaleRevive09v2
 "Revive Prince Brand, the Captain of Dale"
 END
-CONTROLBAR:DwarvenCaptainofDaleHotkey
+CONTROLBAR:DwarvenCaptainofDaleHotkey09v2
 "Prince Brand, Ca&ptain of Dale"
 END
-OBJECT:DwarvenCaptainofDale
+OBJECT:DwarvenCaptainofDale09v2
 "Prince Brand, Captain of Dale"
 END
 //------------------------------------------------------------
-UPGRADE:Anduril
+UPGRADE:Anduril09v2
 "Anduril"
 End
-TOOLTIP:AndurilDesc
+TOOLTIP:AndurilDesc09v2
 "Anduril: Aragorn gains +10% Damage and +7% speed \n Requires Level 5 \n Passive ability"
 END
 //------------------------------------------------------------
-GUI:SpellBookRefreshReduction
+GUI:SpellBookRefreshReduction09v2
 "Bonus: \n Spellbook cooldowns: %d%%"
 End
 //------------------------------------------------------------
-CONTROLBAR:TooltipRallyingCall_Dwarven
-"Targeted allies gain +50% Damage and +25% experience \n Left click icon then left click on target units"
+CONTROLBAR:TooltipRallyingCallDwarven09v2
+"—оюзники нанос€т +50% урона и получают в бою +25% опыта. \n ўелкните на пиктограмме, затем - на цели."
 END
 //------------------------------------------------------------
-OBJECT:TheForsakenInn
+OBJECT:TheForsakenInn09v2
 "The Forsaken Inn" 
 End
 //------------------------------------------------------------
-UPGRADE:ElvenStructuralSilverthornArrows
+UPGRADE:ElvenStructuralSilverthornArrows09v2
 "Silverthorn Munitions"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipSarumanLeadership_New
+CONTROLBAR:ToolTipSarumanLeadership09v2
 "Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn_New
+CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn09v2
 "&Silverthorn Munitions"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn_New
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn09v2
 "Grants Silverthorn Munitions to fortress and all attached towers \n Increases the damage caused by arrows"
 END
 //------------------------------------------------------------
-CONTROLBAR:WordofPowerSauron_New
+CONTROLBAR:WordofPowerSauron09v2
 "Word of Power [&B]"
 END
-CONTROLBAR:ToolTipWordofPowerSauron_New
+CONTROLBAR:ToolTipWordofPowerSauron09v2
 "Sends out a shockwave that kills surrounding enemies \n Left click to activate"
 END
 //------------------------------------------------------------
-CONTROLBAR:GaladrielWordOfPower_New
+CONTROLBAR:GaladrielWordOfPower09v2
 "Nenya [&V]"
 END
-CONTROLBAR:GaladrielWordOfPowerDesc_New
+CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 "Requires Level 10 \n Nenya \Sends out a shockwave that destroys surrounding enemies \n Left click to activate"
 END
 //------------------------------------------------------------
-CONTROLBAR:RingOfPower_New
+CONTROLBAR:RingOfPower09v2
 "&Ring Of Power"
 END
-CONTROLBAR:RingOfPowerDesc_New
+CONTROLBAR:ToolTipRingOfPower09v2
 "Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
 END
 //------------------------------------------------------------
-CONTROLBAR:TooltipAthelasElrond_New
+CONTROLBAR:TooltipAthelasElrond09v2
 "Heal nearby units \n Less effective on heroes and more effective on hordes and monsters \n Provides 15% HP and 25% bonus experience for 12s to infantry, cavalry, and monsters(not heroes)\n provides resistance to fear and terror \n Left click to activate"
 END
+CONTROLBAR:ToolTipElrondFarsight09v2
+"Reveals an area of the map \n Does not provide a range bonus to units like the spellbook version \n Provides 27.5% bonus shroud clearing to infantry, cavalry, machines and monsters(not heroes). Duration is 25s \n Now has global range(cast anywhere on map and units still get the shroud bonus). Radius is 300 from the cast point \n Left click icon then left click on target area"
+END
 //------------------------------------------------------------
-CONTROLBAR:KingsFavorDain_New
+CONTROLBAR:KingsFavorDain09v2
 "King's Favor [&C]"
 END
-CONTROLBAR:KingsFavorDainDesc_New
+CONTROLBAR:ToolTipKingsFavorDain09v2
 "Requires Level 6 \n Targeted units gain experience \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
-CONTROLBAR:SauronsFiresOfDoomDesc_New
+CONTROLBAR:ToolTipSauronsFiresOfDoom09v2
 "Calls down many molten rocks in an area around Sauron, \n Left click icon starts the channeling \n Does not hurt allies"
 END
 //------------------------------------------------------------
 
 
 
-// Maps	-----	2019
+// Map.Strings	-----	2019
 
  
 
@@ -160,13 +163,13 @@ End
 Map:mapHDforlindon/Desc
 "The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heros trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\n Map originally from BFME1 by Haldir, edited by Ecthelion."
 End
-//The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\nMap from BFME1 by Haldir, edited by Ecthelion.\n\n "
+//The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\nMap from BFME1 by Haldir, edited by Ecthelion."
 //------------------------------------------------------------
 Map:mapnewfordsofrohan
 "Fords of Rohan"
 END
 Map:mapnewfordsofrohan/Desc
-"A peaceful battleground situated between the lands of Rohan and Isengard, separated by the river Isen. Map by Gladyr, edited by Ecthelion"
+"A peaceful battleground situated between the lands of Rohan and Isengard, separated by the river Isen. \n Map from RotWK by Gladyr, edited by Ecthelion"
 END
 //------------------------------------------------------------
 Map:mapETerynrhun
@@ -253,12 +256,12 @@ Map:mapSBplateauofgorgoroth/Desc
 "The Plateau of Gorgoroth is a deadly, barren region plagued by ash, fumes and countless orcs. \n Capturing the existing two water cisterns may prove useful. \n Neutral structures: 2x Water cistern. \n Map by SilverBane`"
 END
 //------------------------------------------------------------
-MAP:mapTESTBucklandIII
-"Buckland III"
-END
-MAP:mapTESTBucklandIII/Desc
-"The Eastern border of the Shire was the home of Merry Brandybuck.\n Size: 550 x 550\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Outpost, 2x Signal Fire. \n Map from RotWK, by Mako."
-END
+//MAP:mapTESTBucklandIII
+//"Buckland III"
+//END
+//MAP:mapTESTBucklandIII/Desc
+//"The Eastern border of the Shire was the home of Merry Brandybuck.\n Size: 550 x 550\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Outpost, 2x Signal Fire. \n Map from RotWK, by Mako."
+//END
 //------------------------------------------------------------
 Map:mapTESTEastMarch
 "East March"
@@ -267,12 +270,12 @@ Map:mapTESTEastMarch/Desc
 "A small but densely populated sliver of land between the Old Forest and the east bank of the Brandywine river, inhabited by Hobbits.\n Size: 600 x 500\n Lairs: 8x Goblin Lair, 8x Troll Lair\n Neutral Structures: 1x Tower. \n Map from RotWK, by Mako."
 END
 //------------------------------------------------------------
-Map:mapTESTFordsOfGlanduin
-"Fords of Glanduin"
-END
-Map:mapTESTFordsOfGlanduin/Desc
-"Beginning in the Hithaeglir south of Khazad-dum, the Glanduin formed Eregion's southern boundary to Dunland.\n Size: 500 x 500\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
-END
+//Map:mapTESTFordsOfGlanduin
+//"Fords of Glanduin"
+//END
+//Map:mapTESTFordsOfGlanduin/Desc
+//"Beginning in the Hithaeglir south of Khazad-dum, the Glanduin formed Eregion's southern boundary to Dunland.\n Size: 500 x 500\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
+//END
 //------------------------------------------------------------
 Map:mapTESTGondorOutpost
 "Gondor Outpost"
@@ -302,19 +305,19 @@ End
 //	"Orodruin, also known as Mount Doom, is a towering volcano in the land of Mordor. Around it, there is an arid plateau that is separated by rivers of lava.\n Size: 380 x 340\n Lairs: 2x Goblin Lair, 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Signal Fire. \n Map from RotWK"
 //	End
 //------------------------------------------------------------
-Map:mapTESTrhunshore
-"Rhun Shore"
-End
-Map:mapTESTrhunshore/Desc
-"Sea of Rhun is a large inland sea located in the arid domain of Esterling. After the downfall of Sauron, Aragorn and Eomer rode there to flush out the last remnants of the enemy forces.\n Size: 380 x 350\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 1x Outpost, 1x Inn. \n Map from RotWK, by Mako."
-End
+//Map:mapTESTrhunshore
+//"Rhun Shore"
+//End
+//Map:mapTESTrhunshore/Desc
+//"Sea of Rhun is a large inland sea located in the arid domain of Esterling. After the downfall of Sauron, Aragorn and Eomer rode there to flush out the last remnants of the enemy forces.\n Size: 380 x 350\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 1x Outpost, 1x Inn. \n Map from RotWK, by Mako."
+//End
 //------------------------------------------------------------
-Map:mapTESTpathsofthedead
-"Path of the dead"
-End
-Map:mapTESTpathsofthedead/desc
-"A cavernous passageway through the White Mountains running from Dwimorberg in the north to the Morthond Vale in the south.\n Size: 230 x 390. \n Map by RotWK"
-End
+//Map:mapTESTpathsofthedead
+//"Path of the dead"
+//End
+//Map:mapTESTpathsofthedead/desc
+//"A cavernous passageway through the White Mountains running from Dwimorberg in the north to the Morthond Vale in the south.\n Size: 230 x 390. \n Map by RotWK"
+//End
 //------------------------------------------------------------
 //	Map:mapTESTmithlondvalley
 //	"Mithlond Valley" // MAP REMOVED
@@ -323,12 +326,12 @@ End
 //	"A periphery settlement of the Grey Havens, constructed in a great valley that originates in Ered Lindon. \n Map from RotWK"
 //	End
 //------------------------------------------------------------
-MAP:MapTESTMirkwoodForest
-"Mirkwood Forest"
-END
-MAP:MapTESTMirkwoodForest/Desc
-"The term Mirkwood is taken from William Morris, influenced by the forest Myrkvior of Norse mythology. Projected into Old English, it appears as Myrcwudu in Tolkien's The Lost Road, as a poem sung by AElfwine.\n Size: 380 x 380\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Signal Fire. \n Map from RotWK, by Mako."
-END
+//MAP:MapTESTMirkwoodForest
+//"Mirkwood Forest"
+//END
+//MAP:MapTESTMirkwoodForest/Desc
+//"The term Mirkwood is taken from William Morris, influenced by the forest Myrkvior of Norse mythology. Projected into Old English, it appears as Myrcwudu in Tolkien's The Lost Road, as a poem sung by AElfwine.\n Size: 380 x 380\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Signal Fire. \n Map from RotWK, by Mako."
+//END
 //------------------------------------------------------------
 Map:mapNEWmidgewater
 "Midgewater"
@@ -337,12 +340,12 @@ Map:mapNEWmidgewater/desc
 "The Midgewater Marshes is an area within Bree-land in the south-eastern region. It is known for its treacherous bogs that extend as far as the Weather Hills. \n Map by Mako, edited by Ecthelion."
 End
 //------------------------------------------------------------
-Map:mapTESTironhillsiv
-"Iron Hills IV"
-End
-Map:mapTESTironhillsiv/desc
-" A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n Size: 550 x 550\n Lairs: 4x Spider Lair, 2x Fire Drake Lair, 10x Destructible Environment\n Neutral Structures: 4x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Mako."
-End
+//Map:mapTESTironhillsiv
+//"Iron Hills IV"
+//End
+//Map:mapTESTironhillsiv/desc
+//" A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n Size: 550 x 550\n Lairs: 4x Spider Lair, 2x Fire Drake Lair, 10x Destructible Environment\n Neutral Structures: 4x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Mako."
+//End
 //------------------------------------------------------------
 //	Map:mapTESTironhillsiii
 //	"Iron Hills III" // MAP REMOVED
@@ -365,12 +368,12 @@ END
 //	"Of old the Ered Mithrin had been mined and inhabited by Dwarves of Durin's Folk, but by the Third Age only one Dwarven stronghold remained, standing strong against raiding Dragons from the nearby Withered Heath.\n Size: 600 x 500\n Lairs: 4x Warg Lair, 1x Troll Lair, 3x Fire Drake Lair, 1x Destructible Environment\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Tower. \n Map from RotWK"
 //	End
 //------------------------------------------------------------
-Map:mapTESTerechii
-"Erech II"
-End
-Map:mapTESTerechii/desc
-" A hill west of Minas Tirith, where in ages past the faithless King of the Mountains swore an oath of fealty to Isildur.\n Size: 320 x 320\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Thoon, remade by unknown."
-End
+//Map:mapTESTerechii
+//"Erech II"
+//End
+//Map:mapTESTerechii/desc
+//" A hill west of Minas Tirith, where in ages past the faithless King of the Mountains swore an oath of fealty to Isildur.\n Size: 320 x 320\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Thoon, remade by unknown."
+//End
 //------------------------------------------------------------
 //	Map:mapTESTdwarrowdelf
 //	"Dwarrowdelf " // MAP REMOVED
@@ -386,12 +389,12 @@ End
 //	"A vast cavern within the Lonely Mountain where the Dwarves mine their riches and trade with the Men of Dale.\n Size: 500 x 500\n Lairs: 2x Goblin Lair, 4x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK"
 //	End
 //------------------------------------------------------------
-Map:maptestdruwaithreef
-"Druwait Reef"
-End
-Map:maptestdruwaithreef/desc
-" This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
-End
+//Map:maptestdruwaithreef
+//"Druwait Reef"
+//End
+//Map:maptestdruwaithreef/desc
+//" This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
+//End
 //------------------------------------------------------------
 //	Map:maptestbrownlands8p
 //	"Brown Lands [8p]" // MAP REMOVED
@@ -1013,7 +1016,7 @@ END
 //------------------------------------------------------------
 // This one does get translated in at least one more lenguage
 Map:mapETfordsofanduin
-"Fords of Anduin II"
+"Fords of Anduin"
 END
 Map:mapETfordsofanduin/Desc
 "Reskin of the popular 1v1 map, Fords of Isen II. Design based on Amon Hen, Argonath and surrounding areas of the Anduin. \n Map by Ecthelion and SilverBane."
@@ -1029,7 +1032,7 @@ END
 
 //------------------------------------------------------------
 
-CONTROLBAR:ArwenLeadershipDesc_New
+CONTROLBAR:ToolTipArwenLeadership09v1
 "Requires Level 3 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
 CONTROLBAR:GaladHealBTP
