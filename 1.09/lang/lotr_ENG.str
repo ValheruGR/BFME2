@@ -28,6 +28,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:TooltipRebuild09v2
+"Heals 3000 health-points from any structure or machine (but not cavalry). \n Target structures gain 20% bonus armor for 15s. \n Left click icon then left click on target structures"
+End
+//------------------------------------------------------------
 CONTROLBAR:DwarvenCaptainofDale09v2
 "Prince Brand, the Captain of Dale"
 END
@@ -16133,7 +16137,7 @@ CONTROLBAR:Rebuild
 End
 
 CONTROLBAR:TooltipRebuild
-"Heals 4000 health-points from any structure. \n The target structures gain 20% bonus armor for 15s. \n Left click icon then left click on target structures"
+"Heals 4000 health-points from any structure \n Left click icon then left click on target structures"
 End
 
 CONTROLBAR:Draft
