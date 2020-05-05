@@ -28,6 +28,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:TooltipFlood09v2
+"Summons a powerful Flood to crush your enemy \n Effective against cavalry and buildings \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
 CONTROLBAR:TooltipRebuild09v2
 "Heals 3000 health-points from any structure or machine (but not cavalry). \n Target structures gain 20% bonus armor for 15s. \n Left click icon then left click on target structures"
 End
@@ -25568,7 +25572,7 @@ TOOLTIP:LackLevel2ForgeWorksDemolisher
 END
 
 CONTROLBAR:ConstructDwarvenBattleWagon
-"Carro de batalla (&B)"
+"Carro de batalla (&V)"
 END
 
 CONTROLBAR:ConstructDwarvenCatapult
@@ -37752,7 +37756,7 @@ CONTROLBAR:BatallionAreadyHasUpgrade
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenMithrilMail
-"Comprar cota de mithril ena&no"
+"Comprar cota de mithril enano (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenMithrilMail
@@ -37760,7 +37764,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenMithrilMail
 END
 
 CONTROLBAR:PurchaseTechnologyDwarvenMithrilMail
-"Investigar cota de mithril ena&no"
+"Investigar cota de mithril enano (&Y)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyDwarvenMithrilMail
@@ -37940,7 +37944,7 @@ CONTROLBAR:PurchaseTechnologyDwarvenFlamingShot
 END
 
 CONTROLBAR:PurchaseTechnologyDwarvenSiegeHammer
-"Investigación: Martillos de asedio (&Y)"
+"Investigación: Martillos de asedio (&B)"
 END
 
 CONTROLBAR:PurchaseTechnologyElderRacesMagicArrows
