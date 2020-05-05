@@ -156,6 +156,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapMHsouthfarthing
+"Southfarthing"
+END
+Map:mapMHsouthfarthing/Desc
+"As a rural, fertile, and slightly warmer area of the Shire, the Southfarthing was the site of much of the Pipe-weed production. \n Map from RotWK, by Solas."
+END
+//------------------------------------------------------------
 Map:mapETrhun6p
 "Valleys of Rhün"
 END
@@ -43915,7 +43922,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Helbreder alle allierte i nærheten \n Reduserer kostnader for gjenoppliving av helter med 20 %\nReduserer gjenopplivingstid for helter\nmed 20 % \n\n Upgrades summoned Lone Towers"
+"Helbreder alle allierte i nærheten \n Reduserer kostnader for gjenoppliving av helter med 5 %\nReduserer gjenopplivingstid for heltermed 15 % \n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining

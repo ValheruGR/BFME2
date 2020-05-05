@@ -156,6 +156,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapMHsouthfarthing
+"Southfarthing"
+END
+Map:mapMHsouthfarthing/Desc
+"As a rural, fertile, and slightly warmer area of the Shire, the Southfarthing was the site of much of the Pipe-weed production. \n Map from RotWK, by Solas."
+END
+//------------------------------------------------------------
 Map:mapETrhun6p
 "Valleys of Rhün"
 END
@@ -43930,8 +43937,9 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Reduce el coste de revivir héroes en un 5%. \n Reduce el tiempo de revivir héroes en un 15%. \n Reduce el coste de reclutamiento de héroes en un 5%. \n\n Mejora a cualquier Torre Solitaria convocada."
+"Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Reduce el coste de revivir héroes en un 5%. \n Reduce el tiempo de revivir héroes en un 15%. \n\n Mejora a cualquier Torre Solitaria convocada."
 END
+//\n Reduce el coste de reclutamiento de héroes en un 5%.
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
 "Permite que los batallones compren la mejora portaestandartes. \n Permite que los soldados adopten la formación muralla de escudos."

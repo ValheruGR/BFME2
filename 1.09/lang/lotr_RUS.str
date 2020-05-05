@@ -156,6 +156,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapMHsouthfarthing
+"Southfarthing"
+END
+Map:mapMHsouthfarthing/Desc
+"As a rural, fertile, and slightly warmer area of the Shire, the Southfarthing was the site of much of the Pipe-weed production. \n Map from RotWK, by Solas."
+END
+//------------------------------------------------------------
 Map:mapETrhun6p
 "Valleys of Rhьn"
 END
@@ -43917,8 +43924,9 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Исцеление находящихся рядом союзников. \n Воскрешение павших воинов в отряде каждые 6.5 секунд. \nСнижение стоимости воскрешения героя на 5%. \n Снижение стоимости героя на 5%\n Снижение времени воскрешения героя на 15%. \n\n Улучшает призванные Одинокие Башни"
+"Исцеление находящихся рядом союзников. \n Воскрешение павших воинов в отряде каждые 6.5 секунд. \nСнижение стоимости воскрешения героя на 5%. %\n Снижение времени воскрешения героя на 15%. \n\n Улучшает призванные Одинокие Башни"
 END
+ \n Снижение стоимости героя на 5
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
 "Отряды получают знаменосцев. \n Дает возможность использовать строй "стена щитов"."

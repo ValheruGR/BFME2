@@ -156,6 +156,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapMHsouthfarthing
+"Southfarthing"
+END
+Map:mapMHsouthfarthing/Desc
+"As a rural, fertile, and slightly warmer area of the Shire, the Southfarthing was the site of much of the Pipe-weed production. \n Map from RotWK, by Solas."
+END
+//------------------------------------------------------------
 Map:mapETrhun6p
 "Valleys of Rhün"
 END
@@ -43912,8 +43919,9 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Soigne tous les alliés proches \nRenouvelle une unité manquante par bataillon toute les 6.5 secondes \nRéduit le coût des héros de 5%\nRéduit le coût de résurrection des héros de 5% \nRéduit le temps de résurrection des héros de 15% \n\nAméliore la tour d'archers défensive invoquée"
+"Soigne tous les alliés proches \nRenouvelle une unité manquante par bataillon toute les 6.5 secondes. \nRéduit le coût de résurrection des héros de 5% \nRéduit le temps de résurrection des héros de 15% \n\nAméliore la tour d'archers défensive invoquée"
 END
+// \nRéduit le coût des héros de 5%
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
 "Permet aux bataillons d'acheter un porte-étendard \nPermet la formation mur de boucliers pour les soldats"

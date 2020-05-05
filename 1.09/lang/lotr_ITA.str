@@ -156,6 +156,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapMHsouthfarthing
+"Southfarthing"
+END
+Map:mapMHsouthfarthing/Desc
+"As a rural, fertile, and slightly warmer area of the Shire, the Southfarthing was the site of much of the Pipe-weed production. \n Map from RotWK, by Solas."
+END
+//------------------------------------------------------------
 Map:mapETrhun6p
 "Valleys of Rhün"
 END
@@ -43919,8 +43926,9 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Cura tutti gli alleati nelle vicinanze. \n Riforma unità nelle orde ogni 6.5 secondi.\nRiduce del 5% il costo di rianimazione dell'Eroe.\nRiduce del 15% il tempo di rianimazione dell'Eroe. \nRiduce il costo di reclutamento dell'eroe del 5%. \n\nAggiorna le Torri Solitarie evocate."
+"Cura tutti gli alleati nelle vicinanze. \n Riforma unità nelle orde ogni 6.5 secondi.\nRiduce del 5% il costo di rianimazione dell'Eroe.\nRiduce del 15% il tempo di rianimazione dell'Eroe. \n\nAggiorna le Torri Solitarie evocate."
 END
+//\nRiduce il costo di reclutamento dell'eroe del 5%.
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
 "Consente ai battaglioni di acquistare il potenziamento Portastendardo.\nRende disponibile la formazione con muro di scudi per i soldati."

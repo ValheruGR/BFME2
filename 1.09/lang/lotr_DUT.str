@@ -156,6 +156,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapMHsouthfarthing
+"Southfarthing"
+END
+Map:mapMHsouthfarthing/Desc
+"As a rural, fertile, and slightly warmer area of the Shire, the Southfarthing was the site of much of the Pipe-weed production. \n Map from RotWK, by Solas."
+END
+//------------------------------------------------------------
 Map:mapETrhun6p
 "Valleys of Rhün"
 END
@@ -43914,7 +43921,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Geneest alle bondgenoten in de buurt\nHelden tot leven wekken wordt 20% goedkoper\nHelden tot leven wekken gaat 20% sneller. \n\n Upgrades summoned Lone Towers"
+"Geneest alle bondgenoten in de buurt\nHelden tot leven wekken wordt 5% goedkoper\nHelden tot leven wekken gaat 15% sneller. \n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining

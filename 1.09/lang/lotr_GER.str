@@ -156,6 +156,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapMHsouthfarthing
+"Southfarthing"
+END
+Map:mapMHsouthfarthing/Desc
+"As a rural, fertile, and slightly warmer area of the Shire, the Southfarthing was the site of much of the Pipe-weed production. \n Map from RotWK, by Solas."
+END
+//------------------------------------------------------------
 Map:mapETrhun6p
 "Valleys of Rhün"
 END
@@ -43920,8 +43927,9 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Heilt Verbündete in der Nähe \n Stockt Horden alle 6.5 Sekunden mit Einheiten auf \n Verringert Kosten um Helden wiederzubeleben um 5% \n Verringert Kosten um Helden zu rekrutieren um 5% \n Verringert die Zeit um Helden wiederzubeleben um 15% \n\n Verbessert gerufene einsame Türme"
+"Heilt Verbündete in der Nähe \n Stockt Horden alle 6.5 Sekunden mit Einheiten auf \n Verringert Kosten um Helden zu rekrutieren um 5% \n Verringert die Zeit um Helden wiederzubeleben um 15% \n\n Verbessert gerufene einsame Türme"
 END
+// \n Verringert Kosten um Helden wiederzubeleben um 5%
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
 "Ermöglicht Bataillonen den Kauf des Bannerträger-Upgrades \n Aktiviert Schildwall-Formation für Soldaten"
