@@ -28,6 +28,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:Command_ConstructMordorCastleWallHub
+"&Wall Hub"
+END
+//------------------------------------------------------------
 CONTROLBAR:TooltipFlood09v2
 "Summons a powerful Flood to crush your enemy \n Effective against cavalry and buildings \n Left click icon then left click on target area"
 END
@@ -46995,7 +46999,7 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
 "Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
 END
- \n Reduces hero purchase cost by 5%
+// \n Reduces hero purchase cost by 5%
 
 //Buildings
 

@@ -28,6 +28,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:Command_ConstructMordorCastleWallHub
+"&Wall Hub"
+END
+//------------------------------------------------------------
 CONTROLBAR:TooltipFlood09v2
 "Summons a powerful Flood to crush your enemy \n Effective against cavalry and buildings \n Left click icon then left click on target area"
 END
