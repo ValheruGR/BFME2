@@ -160,6 +160,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapSBmigration
+"Migration"
+END
+Map:mapSBmigration/Desc
+"This map is a tribute to the legendary AoE II map "Migration". Ships are completly revamped and hopefully balanced (restart the game after playing). Fortress are limited to two per player and tunnel network is disabled (except Undermine) \n Map by SilverBane, edited by Ecthelion"
+END
+//------------------------------------------------------------
 Map:mapMHsouthfarthing
 "Southfarthing"
 END
