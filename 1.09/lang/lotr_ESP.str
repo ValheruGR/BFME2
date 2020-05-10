@@ -13980,11 +13980,11 @@ CONTROLBAR:ConstructGondorWall
 END
 
 CONTROLBAR:BattleTowerUpgrade
-"Construir mejora de Torre&ón."
+"Construir mejora de Tor&reón."
 END
 
 CONTROLBAR:PosternGateUpgrade
-"Construir mejora de &postigo"
+"Construir mejora de &postigo (&W)"
 END
 
 CONTROLBAR:FlagsUpgrade
@@ -14780,11 +14780,11 @@ CONTROLBAR:ConstructGondorArcherHorde
 END
 
 CONTROLBAR:ConstructGondorRangerHorde
-"Exploradores de Ithilien (&T)"
+"Exploradores de Ithilien (&J)"
 END
 
 CONTROLBAR:ConstructGondorFighterHorde
-"Soldados de Gondor (&R)"
+"Soldados de Gondor (&I)"
 END
 
 CONTROLBAR:ConstructGondorShieldGuardHorde
@@ -15587,7 +15587,7 @@ CONTROLBAR:ConstructIsengardWildmanHorde
 END
 
 CONTROLBAR:ConstructIsengardWargRider
-"Jinetes de huargos (&R)"
+"Jinetes de huargos (&L)"
 END
 
 CONTROLBAR:ConstructIsengardSiegeBallista
@@ -15991,7 +15991,7 @@ CONTROLBAR:WargRiderHowl
 END
 
 CONTROLBAR:ToggleGateOpenClose
-"Abrir/Cerrar puerta (&L)"
+"Abrir/Cerrar puerta (&W)"
 END
 
 CONTROLBAR:TooltipAthelas
@@ -25210,7 +25210,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToHub
 END
 
 CONTROLBAR:Command_MenWallUpgradeToRegularGate
-"&Puerta"
+"Puerta (&V)"
 END
 
 CONTROLBAR:ToolTipCommand_MenWallUpgradeToRegularGate
@@ -25218,7 +25218,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_MenWallUpgradeToPosternGate
-"Postigo (&L)"
+"Postigo (&W)"
 END
 
 CONTROLBAR:ToolTipCommand_MenWallUpgradeToPosternGate
@@ -25226,7 +25226,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToPosternGate
 END
 
 CONTROLBAR:Command_MenWallUpgradeToTower
-"Torre de arq&ueros."
+"Torre de arque&ros."
 END
 
 CONTROLBAR:ToolTipCommand_MenWallUpgradeToTower
@@ -25462,7 +25462,7 @@ CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToHub
 END
 
 CONTROLBAR:Command_DwarvenWallUpgradeToRegularGate
-"&Puerta"
+"Puerta (&W)"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToRegularGate
@@ -25470,7 +25470,7 @@ CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_DwarvenWallUpgradeToPosternGate
-"Postigo (&V)"
+"Postigo (&W)"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToPosternGate
@@ -29876,7 +29876,7 @@ OBJECT:DoGoldurWallCatapultSmall
 END
 
 OBJECT:DoGoldurWallHubSmall
-"Centro amurallado"
+"&Centro amurallado"
 END
 
 OBJECT:DoGoldurWallTowerSmall
@@ -30032,7 +30032,7 @@ OBJECT:DwarvenCastleWallGate
 END
 
 OBJECT:DwarvenCastleWallHub
-"Centro amurallado"
+"&Centro amurallado"
 END
 
 OBJECT:DwarvenGuard
@@ -30124,7 +30124,7 @@ OBJECT:ElvenCastleWallGate
 END
 
 OBJECT:ElvenCastleWallHub
-"Centro amurallado"
+"&Centro amurallado"
 END
 
 OBJECT:ElvenCastleWallSegment
@@ -30588,7 +30588,7 @@ OBJECT:IsengardCastleWallGate
 END
 
 OBJECT:IsengardCastleWallHub
-"Centro amurallado"
+"&Centro amurallado"
 END
 
 OBJECT:IsengardCastleWallSegment
@@ -30852,7 +30852,7 @@ OBJECT:MordorCastleWallGate
 END
 
 OBJECT:MordorCastleWallHub
-"Centro amurallado"
+"&Centro amurallado"
 END
 
 OBJECT:MordorCastleWallSegment
@@ -31348,7 +31348,7 @@ OBJECT:WildCastleWallGate
 END
 
 OBJECT:WildCastleWallHub
-"Centro amurallado"
+"&Centro amurallado"
 END
 
 OBJECT:WildCastleWallSegment
@@ -32632,7 +32632,7 @@ OBJECT:GondorWallGate
 END
 
 OBJECT:GondorWallHub
-"Centro amurallado"
+"&Centro amurallado"
 END
 
 OBJECT:IsengardWallHubExpansion
@@ -37458,7 +37458,7 @@ OBJECT:MordorBarricadeDescription
 END
 
 OBJECT:DwarvenWallHub
-"Centro amurallado"
+"&Centro amurallado"
 END
 
 OBJECT:GarrisonableTower
@@ -38494,7 +38494,7 @@ Upgrade:FortressMurderofCrows
 END
 
 UPGRADE:Upgrade_IsengardWallHub
-"Centro amurallado"
+"&Centro amurallado"
 END
 
 UPGRADE:Upgrade_IsengardWallRegularGate
@@ -38586,7 +38586,7 @@ UPGRADE:WildBasicTraining
 END
 
 Upgrade:MenWallHub
-"Centro amurallado"
+"&Centro amurallado"
 END
 
 Upgrade:MenGate
@@ -38702,7 +38702,7 @@ UPGRADE:DwarvenBarracksLevel3
 END
 
 UPGRADE:Upgrade_DwarvenWallHub
-"Centro amurallado"
+"&Centro amurallado"
 END
 
 UPGRADE:Upgrade_DwarvenWallRegularGate
@@ -38858,7 +38858,7 @@ UPGRADE:ElderRacesWarBarding
 END
 
 UPGRADE:Upgrade_ElvenWallHub
-"Centro amurallado"
+"&Centro amurallado"
 END
 
 UPGRADE:Upgrade_ElvenWallRegularGate

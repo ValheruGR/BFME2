@@ -253,19 +253,25 @@
 		End
 	End	
 	
-	
 	AnimationState = MOVING FIRING_OR_PREATTACK_A
 		Animation = TrotAndFire
-			AnimationName = EUMthlnd_SKL.EUMthlnd_RUNC
-		    AnimationMode = LOOP
+			AnimationName = EUMthlnd_SKL.EUMthlnd_ATRA
+			AnimationMode = LOOP
 		End
-		Animation = TrotAndFire2
-			AnimationName = EUMthlnd_SKL.EUMthlnd_RUND
-		    AnimationMode = LOOP
-		End
-		Flags = RANDOMSTART
-		;ParticleSysBone = None InfantryDustTrails
-    End
+ 	End
+	
+	;;-;;	AnimationState = MOVING FIRING_OR_PREATTACK_A
+	;;-;;		Animation = TrotAndFire
+	;;-;;			AnimationName = EUMthlnd_SKL.EUMthlnd_RUNC
+	;;-;;		    AnimationMode = LOOP
+	;;-;;		End
+	;;-;;		Animation = TrotAndFire2
+	;;-;;			AnimationName = EUMthlnd_SKL.EUMthlnd_RUND
+	;;-;;		    AnimationMode = LOOP
+	;;-;;		End
+	;;-;;		Flags = RANDOMSTART
+	;;-;;		;ParticleSysBone = None InfantryDustTrails
+    ;;-;;	End
     	
 		
     AnimationState = MOVING BACKING_UP
