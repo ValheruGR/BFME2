@@ -15416,7 +15416,7 @@ CONTROLBAR:ConstructMordorCatapult
 END
 
 CONTROLBAR:ConstructMordorGrond
-"Grond"
+"&Grond"
 END
 
 CONTROLBAR:ConstructMordorBannerOrc
@@ -28891,7 +28891,7 @@ CONTROLBAR:ToolTipGlorfindelWindRider
 END
 
 CONTROLBAR:WildWalk
-"Marcia selvaggia"
+"Marcia selvaggia (&W)"
 END
 
 CONTROLBAR:ToolTipThornofVengeance

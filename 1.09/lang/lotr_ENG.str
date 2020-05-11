@@ -16902,7 +16902,7 @@ CONTROLBAR:ConstructMordorCatapult
 "&Catapult"
 END
 CONTROLBAR:ConstructMordorGrond
-"Grond"
+"&Grond"
 END
 CONTROLBAR:ConstructMordorBannerOrc
 "Banner Carrier"
@@ -31380,7 +31380,7 @@ CONTROLBAR:ToolTipGlorfindelWindRider
 END
 
 CONTROLBAR:WildWalk
-"Wild Walk"
+"&Wild Walk"
 END
 
 CONTROLBAR:ToolTipThornofVengeance

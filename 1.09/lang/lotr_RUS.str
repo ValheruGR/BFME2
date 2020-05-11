@@ -15420,7 +15420,7 @@ CONTROLBAR:ConstructMordorCatapult
 END
 
 CONTROLBAR:ConstructMordorGrond
-"Гронд"
+"Гронд (&G)"
 END
 
 CONTROLBAR:ConstructMordorBannerOrc
@@ -28895,7 +28895,7 @@ CONTROLBAR:ToolTipGlorfindelWindRider
 END
 
 CONTROLBAR:WildWalk
-"Тень мстителя"
+"Тень мстителя (&W)"
 END
 
 CONTROLBAR:ToolTipThornofVengeance

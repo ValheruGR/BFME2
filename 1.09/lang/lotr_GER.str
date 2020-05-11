@@ -15420,7 +15420,7 @@ CONTROLBAR:ConstructMordorCatapult
 END
 
 CONTROLBAR:ConstructMordorGrond
-"Grond"
+"&Grond"
 END
 
 CONTROLBAR:ConstructMordorBannerOrc
@@ -28894,7 +28894,7 @@ CONTROLBAR:ToolTipGlorfindelWindRider
 END
 
 CONTROLBAR:WildWalk
-"Wilder Gang"
+"&Wilder Gang"
 END
 
 CONTROLBAR:ToolTipThornofVengeance

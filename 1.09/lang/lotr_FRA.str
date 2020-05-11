@@ -15420,7 +15420,7 @@ CONTROLBAR:ConstructMordorCatapult
 END
 
 CONTROLBAR:ConstructMordorGrond
-"Broyeur"
+"&Broyeur"
 END
 
 CONTROLBAR:ConstructMordorBannerOrc
@@ -28886,7 +28886,7 @@ CONTROLBAR:ToolTipGlorfindelWindRider
 END
 
 CONTROLBAR:WildWalk
-"Marche sauvage"
+"Marche sauvage (&W)"
 END
 
 CONTROLBAR:ToolTipThornofVengeance

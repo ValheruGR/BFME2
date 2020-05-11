@@ -75,7 +75,7 @@
 				AnimationName = RUTreeberd_MOTA ;;MOTA IS NO ROCK;; C  ;sprout animation
 				AnimationMode = ONCE    ;MANUAL ;; hold first frame
 				AnimationBlendTime = 0
-				AnimationSpeedFactorRange = 1.155 1.155 // 9967/6500;;-;; 1.0 1.0
+				AnimationSpeedFactorRange = #DIVIDE( 9666.66 SUMMONED_ENT_SPAWN_DURATION ) #DIVIDE( 9666.66 SUMMONED_ENT_SPAWN_DURATION )
 			End
 			BeginScript
 				CurDrawableShowSubObjectPermanently("ROCK")
