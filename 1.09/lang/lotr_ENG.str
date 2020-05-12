@@ -37,7 +37,7 @@ CONTROLBAR:TooltipFlood09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRebuild09v2
-"Heals 3000 health-points from any structure or machine (but not cavalry). \n Target structures gain 20% bonus armor for 15s. \n Left click icon then left click on target structures"
+"Heals 3000 health-points from any structure. \n Target structures gain 20% bonus armor for 15s. \n Left click icon then left click on target structures"
 End
 //------------------------------------------------------------
 CONTROLBAR:DwarvenCaptainofDale09v2
