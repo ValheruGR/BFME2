@@ -4,7 +4,7 @@
 
 //------------------------------------------------------------
 
-// String lines for new Patch 1.09b	-----	2019
+// String lines for new Patch 1.09v2	-----	2019
 
 //------------------------------------------------------------
 
@@ -29,15 +29,15 @@ CONTROLBAR:nothingDesc09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:Command_ConstructMordorCastleWallHub
-"&Wall Hub"
+"Башенка (&W)"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFlood09v2
-"Summons a powerful Flood to crush your enemy \n Effective against cavalry and buildings \n Left click icon then left click on target area"
+"Мощный поток воды сокрушает врагов. \n Effective against cavalry and buildings \n Щелкните на пиктограмме, затем - на участке местности."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRebuild09v2
-"Heals 3000 health-points from any structure or machine (but not cavalry). \n Target structures gain 20% bonus armor for 15s. \n Left click icon then left click on target structures"
+"Ремонт 4000 единиц прочности постройки. \n The target structures gain 20% bonus armor for 15s. \n Щелкните на пиктограмме, затем - на цели."
 End
 //------------------------------------------------------------
 CONTROLBAR:DwarvenCaptainofDale09v2
@@ -80,7 +80,7 @@ UPGRADE:ElvenStructuralSilverthornArrows09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSarumanLeadership09v2
-"Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
+"Союзники рядом с Саруман получают +25% брони и набирают опыт на 25% быстрее. \n Всегда накапливается. \n Пассивная способность."
 END
 //------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn09v2
@@ -91,17 +91,17 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:WordofPowerSauron09v2
-"Word of Power [&B]"
+"Слово Власти (&B)"
 END
 CONTROLBAR:ToolTipWordofPowerSauron09v2
-"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
+"Ударная волна уничтожает всех врагов, находящихся рядом. \n ЛКМ - применение способности."
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower09v2
-"Nenya [&V]"
+"Nenya [&B]"
 END
 CONTROLBAR:ToolTipGaladrielWordOfPower09v2
-"Requires Level 10 \n Nenya \Sends out a shockwave that destroys surrounding enemies \n Left click to activate"
+"Ударная волна уничтожает всех врагов, находящихся рядом. \n ЛКМ - применение способности."
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
@@ -115,14 +115,14 @@ CONTROLBAR:TooltipAthelasElrond09v2
 "Heal nearby units \n Less effective on heroes and more effective on hordes and monsters \n Provides 15% HP and 25% bonus experience for 12s to infantry, cavalry, and monsters(not heroes)\n provides resistance to fear and terror \n Left click to activate"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Reveals an area of the map \n Does not provide a range bonus to units like the spellbook version \n Provides 27.5% bonus shroud clearing to infantry, cavalry, machines and monsters(not heroes). Duration is 25s \n Now has global range(cast anywhere on map and units still get the shroud bonus). Radius is 300 from the cast point \n Left click icon then left click on target area"
+"Указанный участок карты становится доступен для обзора. \n Does not provide a range bonus to units like the spellbook version \n Provides 27.5% bonus shroud clearing to infantry, cavalry, machines and monsters(not heroes). Duration is 25s \n Now has global range(cast anywhere on map and units still get the shroud bonus). Radius is 300 from the cast point \n Щелкните на пиктограмме, затем - на участке местности."
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
-"King's Favor [&C]"
+"Королевская милость (&C)"
 END
 CONTROLBAR:ToolTipKingsFavorDain09v2
-"Requires Level 6 \n Targeted units gain experience \n Left click icon then left click on target units"
+"Требуется уровень 6. \n Указанные войска получают опыт. \n Щелкните на пиктограмме, затем - на нужных войсках."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSauronsFiresOfDoom09v2
@@ -1054,12 +1054,12 @@ END
 
 //------------------------------------------------------------
 
-// String lines for Patch 1.09
+// String lines for Patch 1.09v1
 
 //------------------------------------------------------------
 
 CONTROLBAR:ToolTipArwenLeadership09v1
-"Requires Level 3 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+"Требуется уровень 3. \n Кавалерия рядом с Арвен Гейн +25% брони и набирают опыт на 25% быстрее. \n Всегда накапливается. \n Пассивная способность."
 End
 CONTROLBAR:GaladHealBTP
 "&Свет Галадриэли."
@@ -14588,7 +14588,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Ремонт 4000 единиц прочности постройки. \n The target structures gain 20% bonus armor for 15s. \n Щелкните на пиктограмме, затем - на цели."
+"Ремонт 4000 единиц прочности постройки. \n Щелкните на пиктограмме, затем - на цели."
 END
 
 CONTROLBAR:Draft
@@ -44589,7 +44589,7 @@ CONTROLBAR:ToolTipBuildGoblinCaveTroll
 END
 
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy
-"Требуется уровень 4. \n Союзники рядом с героем \nполучают +25% брони \n и набирают опыт на 25% быстрее. \n Всегда накапливается. \n Пассивная способность."
+"Требуется уровень 4. \n Союзники рядом с героем получают +25% брони и набирают опыт на 25% быстрее. \n Всегда накапливается. \n Пассивная способность."
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem

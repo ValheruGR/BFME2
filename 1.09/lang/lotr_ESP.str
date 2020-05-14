@@ -15355,7 +15355,7 @@ END
 // \n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra Caballeria.
 
 CONTROLBAR:ConstructWildSpiderlingHorde
-"Arácnidos (&W)"
+"Arácn&idos"
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderlingHorde
@@ -15367,7 +15367,7 @@ CONTROLBAR:ConstructWildSpiderRiderHorde
 END
 
 CONTROLBAR:ConstructWildMountainGiant
-"Gigante de la montaña (&T)"
+"Gigan&te de la montaña"
 END
 
 CONTROLBAR:ToolTipBuildWildMountainGiant
@@ -15575,15 +15575,15 @@ CONTROLBAR:ConstructIsengardUrukHai
 END
 
 CONTROLBAR:ConstructIsengardCrossbowmen
-"Ballesteros uruk (&T)"
+"Ballesteros uruk (&V)"
 END
 
 CONTROLBAR:ConstructIsengardPikemen
-"Piqueros uruk (&V)"
+"&Piqueros uruk"
 END
 
 CONTROLBAR:ConstructIsengardWildmanHorde
-"Batidores dunlendinos (&V)"
+"Batido&res dunlendinos"
 END
 
 CONTROLBAR:ConstructIsengardWargRider
@@ -29052,7 +29052,7 @@ CONTROLBAR:BattleWagonUpgradeHearth
 END
 
 CONTROLBAR:BattleWagonUpgradeMenOfDale
-"Mejorar con hombres de Valle (&D)"
+"Mejorar con hombres de Valle (&T)"
 END
 
 CONTROLBAR:BlackArrows
