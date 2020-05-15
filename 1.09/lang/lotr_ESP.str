@@ -29,11 +29,11 @@ CONTROLBAR:nothingDesc09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requires Level 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Allied hordes gain +33% armor and +50% damage. \n Simple leadership kind. \n Does not stack with any other Armor buff leaderships. \n \n Left click to activate"
+"Requisito: Nivel 8. \n Hordas, monstruos y heroes aliados en una largo rango alrededo de Glorfindel son curados. \n Revive 2 unidades por batallón durante su duración. \n Las hordas aliadas ganan +33% armadura y +50 al daño. \n Clase de liderazgo simple \n No se acumula con otros liderazgo de armadura. \n \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
-"Requires Level 10 \n A high damage attack that causes metaimpact. \n Effective against cavalry and weak heroes. \n Stuns light sensitive enemy units. \n Can only use with bow equipped \n Left click icon then left click on target" 
+"Requisito: Nivel 10. \n Un ataque de gran daño que causa meta impacto. \n Efectiva contra caballería y heroes débiles. \n Aturde a las unidades enemigas. \n Solo se puede usar con el arco. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
@@ -84,8 +84,12 @@ OBJECT:SignalFireDescription09v2
 "Captúrala para reducir el tiempo de recarga de los poderes que no se acaban de usar \n Cura cualquier clase de héroe, incluso aereos.\n\n 1 almenara = -25% reducción de recargas de poderes del palantir \n 2 almenaras = -35% de reducción de recargas \n 3 almenaras = -50% de reducción de recargas"
 End
 //------------------------------------------------------------
+CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
+"Fuerte contra caballería y \n edificios de construcción de unidades. \n Los Guardias de la Torre ganan +5% velocidad en los niveles 3, 5 y 7."
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
-"Fuerte contra piqueros y edificios generadores de recursos. \n Cada 2 niveles gana un bonus de velocidad. \n Una horda de guardianes en nivel 10 termina siendo 21.6% mas rapida."
+"Fuerte contra piqueros y edificios generadores de recursos. \n Los Guardianes ganan +5% velocidad en los niveles 3, 5, 7 y 10."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2

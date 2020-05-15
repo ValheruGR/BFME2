@@ -88,8 +88,12 @@ OBJECT:SignalFireDescription09v2
 "Capture it to decrease recharge times for unused powers \n Heals nearby Heros and Flyers. \n\n 1 signal fire = -25% reduction of spellbook reload time \n 2 signal fires = -35% reduction \n 3 signal fires = -50% reduction"
 End
 //------------------------------------------------------------
+CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
+"Strong vs. Cavalry and \n Unit Production Buildings \n Tower Guards gain +5% speed at level 3, 5 and 7."
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
-"Strong vs. Pikemen\n and Resource Buildings \n Guardians now gain a small speed bonus every rank. A level 10 guardian will end up being 21.6% faster"
+"Strong vs. Pikemen\n and Resource Buildings \n Guardians gain +5% speed at level 3, 5, 7 and 10."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
