@@ -28,7 +28,66 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
-CONTROLBAR:Command_ConstructMordorCastleWallHub
+CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
+"Requires Level 2 \n Приказ мумакам растоптать врагов. \n Щелкните на пиктограмме, затем - на цели."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipVenomousWords09v2
+"The infantry and cavaly from the enemy is reduced to \n 60% speed and 50% rate of fire for 19 seconds. \n Doesn't affect machines, Battle Wagons or monsters. \n Enemy hordes lose simple leadership bonuses \n Stacks with other negative spells \n Left click icon then left click on target units"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
+"Requires Level 4 \n Enemy hordes and any kind of heroes are reduced to \n 75% armor and 75% damage for 30 seconds.\n Enemy hordes lose simple leadership bonuses \n Left click icon then left click on target units"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipEnshroudingMist09v2
+"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters are reduced to 75% armor and 75% damage. \n Enemies lose their simple leadership bonuses. \n\n Left click icon and left click on target area"
+END
+//------------------------------------------------------------
+TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
+"Research Banner Carrier upgrade at Barracks to enable this equipment. \n +25% Armor, -30% Speed and +33% extra arrow resistance"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
+"+25% Armor, -30% Speed and +33% extra arrow resistance"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
+"+20% Armor, -30% Speed and +25% extra arrow resistance. \n Loses -7% damage."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipDisguise09v2
+"Requires Level 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn attacks slower but deals damage in area \n Cancels Shield Maiden bonus. \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipShieldMaiden09v2
+"Requires Level 5 \n Eowyn gains 35% Armor \n Halves the deceleration rate of friendly Rohirrim when trampling\n Cancels the disguise \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipSunflare09v2
+"Calls a fiery beam of sunlight to scorch the battlefield and indiscriminately burn enemies and allies. \n Effective against weak heros \n Cancels Darkness & Frezzing Rain \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipCitadel09v2
+"Places a Citadel Fortress anywhere on the battlefield \n Connected to the tunnel network \n Provides resources over time\n Left click icon then left click on pathable location"
+END
+//------------------------------------------------------------
+OBJECT:SignalFireDescription09v2
+"Capture it to decrease recharge times for unused powers \n Heals nearby Heros and Flyers. \n\n 1 signal fire = -25% reduction of spellbook reload time \n 2 signal fires = -35% reduction \n 3 signal fires = -50% reduction"
+End
+//------------------------------------------------------------
+CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
+"Strong vs. Pikemen\n and Resource Buildings \n Guardians now gain a small speed bonus every rank. A level 10 guardian will end up being 21.6% faster"
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGloinSmash09v2
+"Requires Level 10 \n Causes a large earthquake around Gloin's location \n Can stun the Army of the Dead for 5 seconds, but does not kill them \n Left click icon then left click on target"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom09v2
+"Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
+CONTROLBAR:Command_ConstructMordorCastleWallHub09v2
 "Башенка (&W)"
 END
 //------------------------------------------------------------
@@ -41,30 +100,30 @@ CONTROLBAR:TooltipRebuild09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:DwarvenCaptainofDale09v2
-"Prince Brand, the Captain of Dale"
+"Принц Бранд, Капитан Дэйла"
 END
 CONTROLBAR:DwarvenCaptainofDaleRecruit09v2
-"Recruit Prince Brand, the Captain of Dale"
+"Нанять принца Бранда, Капитана Дэйла"
 END
 CONTROLBAR:DwarvenCaptainofDaleRevive09v2
-"Revive Prince Brand, the Captain of Dale"
+"Воскрешить принца Бранда, Капитана Дэйла"
 END
 CONTROLBAR:DwarvenCaptainofDaleHotkey09v2
-"Prince Brand, Ca&ptain of Dale"
+"Принц Бранд, Капитан Дэйла (&P)"
 END
 OBJECT:DwarvenCaptainofDale09v2
-"Prince Brand, Captain of Dale"
+"Принц Бранд, Капитан Дэйла"
 END
 //------------------------------------------------------------
 UPGRADE:Anduril09v2
-"Anduril"
+"Андурил"
 End
 TOOLTIP:AndurilDesc09v2
-"Anduril: Aragorn gains +10% Damage and +7% speed \n Requires Level 5 \n Passive ability"
+"Андурил: Арагорн получает +10% урона и +7% скорости \n Требуется уровень 5 \n Пассивная способность"
 END
 //------------------------------------------------------------
 GUI:SpellBookRefreshReduction09v2
-"Bonus: \n Spellbook cooldowns: %d%%"
+"Бонус: \n Скорость перезарядки книги заклинаний: %d%%"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
@@ -72,22 +131,22 @@ CONTROLBAR:TooltipRallyingCallDwarven09v2
 END
 //------------------------------------------------------------
 OBJECT:TheForsakenInn09v2
-"The Forsaken Inn" 
+"Заброшенная таверна" 
 End
 //------------------------------------------------------------
 UPGRADE:ElvenStructuralSilverthornArrows09v2
-"Silverthorn Munitions"
+"Серебряные боеприпасы"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSarumanLeadership09v2
-"Союзники рядом с Саруман получают +25% брони и набирают опыт на 25% быстрее. \n Всегда накапливается. \n Пассивная способность."
+"Союзные войска рядом с Саруманом получают +25% брони и набирают опыт на 25% быстрее. \n Всегда накапливается. \n Пассивная способность."
 END
 //------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn09v2
-"&Silverthorn Munitions"
+"Серебряные боеприпасы  (&S)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn09v2
-"Grants Silverthorn Munitions to fortress and all attached towers \n Increases the damage caused by arrows"
+"Крепость и все пристройки к ней получают Серебряные боеприпасы \n Увеличивает урон от стрел"
 END
 //------------------------------------------------------------
 CONTROLBAR:WordofPowerSauron09v2
@@ -98,24 +157,28 @@ CONTROLBAR:ToolTipWordofPowerSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower09v2
-"Nenya [&B]"
+"Нэнья (&B)"
 END
 CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 "Ударная волна уничтожает всех врагов, находящихся рядом. \n ЛКМ - применение способности."
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
-"&Ring Of Power"
+"Кольцо Силы (&R) "
 END
 CONTROLBAR:ToolTipRingOfPower09v2
-"Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
+"Саурон создает всплеск тени и пламени, постоянно наносит урон окружающим врагам \n ЛКМ - применение способности."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipAthelasAragorn09v2
+"Heal 1000 health points from nearby Heroes. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heal nearby units \n Less effective on heroes and more effective on hordes and monsters \n Provides 15% HP and 25% bonus experience for 12s to infantry, cavalry, and monsters(not heroes)\n provides resistance to fear and terror \n Left click to activate"
+"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to experience gaining \n Provides resistance to fear and terror \n Lasts 12 seconds \n Left click to activate"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Указанный участок карты становится доступен для обзора. \n Does not provide a range bonus to units like the spellbook version \n Provides 27.5% bonus shroud clearing to infantry, cavalry, machines and monsters(not heroes). Duration is 25s \n Now has global range(cast anywhere on map and units still get the shroud bonus). Radius is 300 from the cast point \n Щелкните на пиктограмме, затем - на участке местности."
+"Reveals an area of the map \n Provides +27.5% vision reveal range to any allied unit for 25 second. \n Doesn't affect heroes. \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
@@ -164,7 +227,7 @@ Map:mapSBmigration
 "Migration"
 END
 Map:mapSBmigration/Desc
-"This map is a tribute to the legendary AoE II map "Migration". Ships are completly revamped and hopefully balanced (restart the game after playing). Fortress are limited to two per player and tunnel network is disabled (except Undermine) \n Map by SilverBane`"
+"This map is a tribute to the legendary AoE II map "Migration". Ships are completly revamped and hopefully balanced (restart the game after playing). Fortress are limited to two per player and tunnel network is disabled (except Undermine) \n Map by SilverBane, edited by Ecthelion"
 END
 //------------------------------------------------------------
 Map:mapMHsouthfarthing
@@ -1135,6 +1198,7 @@ END
 CONTROLBAR:ToolTipHobbitFireCrackerSam
 "Герой бросает небольшую петарду. Бонус против Шелоб. \n Щелкните на пиктограмме, затем на цели."
 END
+
 //------------------------------------------------------------
 
 // String file for Lord of the Rings

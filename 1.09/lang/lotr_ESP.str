@@ -4,7 +4,7 @@
 
 //------------------------------------------------------------
 
-// String lines for new Patch 1.09b	-----	2019
+// String lines for new Patch 1.09v2	-----	2019
 
 //------------------------------------------------------------
 
@@ -28,43 +28,102 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
-CONTROLBAR:Command_ConstructMordorCastleWallHub
+CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
+"Requisito: Nivel 2 \n Hace que los mumakil pisoteen al enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipVenomousWords09v2
+"La infanteria y la caballeria del enemigo es reducida hasta \n 60% velocidad y 50% cadencia de fuego por 19 segundos. \n No afecta Maquinas, Carros de Batallas ni monstruos. \n Los enemigos pierden sus bonificaciones de liderazgo simple. \n Se acumula con otros hechizos negativos. \n\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
+"Requisito: Nivel 4 \n Las hordas enemigas y cualquier tipo de heroe son reducidos a 75% armadura y 75% daño por 30 segundos. \n Las unidades enemigas pierden sus mejoras de liderazgo simple \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipEnshroudingMist09v2
+"Las unidades aliadas que están dentro de la niebla tienen sigilo. \n Las hordas, heroes y monstruos enemigos son reducidos a 75% armadura y 75% daño. \n Los enemigos pierden sus bonificaciones de liderazgo simple \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+END
+//------------------------------------------------------------
+TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
+"Para activar este equipo, investiga la mejora portaestandartes en el cuartel. \n \n +25% a armadura, -30% a velocidad y +33% extra resistencia contra flechas ."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
+"+25% a armadura, -30% a velocidad y +33% extra resistencia contra flechas."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
+"+20% a armadura, -30% a velocidad y +25% extra resistencia contra flechas."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipDisguise09v2
+"Requisito: Nivel 4 \n Se disfraza como un rohirrim normal, usando sus armas y luchando como una de ellos. \n Eowyn ataca mas lento pero hace daño en area. \n Cancela el bonus Doncella Guerrera. \n Haz clic con el botón izquierdo para activarlo."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipShieldMaiden09v2
+"Requisito: Nivel 5 \n Eowyn recibe +35% a la armadura. \n Reduce la disminución de velocidad por pisoteo de Rohirrim amigos \n Cancela el Disfraz. \n Para activarlo, haz clic con el botón izquierdo."
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipSunflare09v2
+"Convoca un ardiente rayo de luz solar que asola el campo de batalla y daña a enemigos y aliados por igual. \n Efectivo contra héroes débiles \n Anula la Lluvia Paralizadora y la Oscuridad. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipCitadel09v2
+"Coloca una fortaleza conectada al sistema de tuneles en cualquier lugar del campo de batalla. \n Genera recursos con el tiempo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
+END
+//------------------------------------------------------------
+OBJECT:SignalFireDescription09v2
+"Captúrala para reducir el tiempo de recarga de los poderes que no se acaban de usar \n Cura cualquier clase de héroe, incluso aereos.\n\n 1 almenara = -25% reducción de recargas de poderes del palantir \n 2 almenaras = -35% de reducción de recargas \n 3 almenaras = -50% de reducción de recargas"
+End
+//------------------------------------------------------------
+CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
+"Fuerte contra piqueros y edificios generadores de recursos. \n Cada 2 niveles gana un bonus de velocidad. \n Una horda de guardianes en nivel 10 termina siendo 21.6% mas rapida."
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGloinSmash09v2
+"Requisito: Nivel 10 \n Causa un pequeño terremoto alrededor de Gloin. \n Paraliza al Ejercito de los Muertos por 5 segundos, pero no los mata. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom09v2
+"Hace que caiga una lluvia de roca fundida sobre la zona seleccionada causando fuertes daños a aliados y enemigos indiscriminadamente.\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+END
+//------------------------------------------------------------
+CONTROLBAR:Command_ConstructMordorCastleWallHub09v2
 "Centro amurallado (&D)"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFlood09v2
-"Summons a powerful Flood to crush your enemy \n Effective against cavalry and buildings \n Left click icon then left click on target area"
+"Se produce una poderosa inundación que aplasta a las unidades enemigas. \n Efectiva contra estructuras y caballeria. \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre la zona objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRebuild09v2
-"Heals 3000 health-points from any structure or machine (but not cavalry). \n Target structures gain 20% bonus armor for 15s. \n Left click icon then left click on target structures"
+"Cura 3000 puntos de salud en cualquier tipo de estructura. \n Las estructuras afectadas ganan +20% armadura por 15 segundos. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 End
 //------------------------------------------------------------
 CONTROLBAR:DwarvenCaptainofDale09v2
-"Prince Brand, the Captain of Dale"
+"Principe Brand, Capitán de Valle"
 END
 CONTROLBAR:DwarvenCaptainofDaleRecruit09v2
-"Recruit Prince Brand, the Captain of Dale"
+"Reclutar al Principe Brand, Capitán de Valle"
 END
 CONTROLBAR:DwarvenCaptainofDaleRevive09v2
-"Revive Prince Brand, the Captain of Dale"
+"Revivir al Principe Brand, Capitán de Valle"
 END
 CONTROLBAR:DwarvenCaptainofDaleHotkey09v2
-"Prince Brand, Ca&ptain of Dale"
+"Reclutar al Principe Brand, Capitán de &Valle"
 END
 OBJECT:DwarvenCaptainofDale09v2
-"Prince Brand, Captain of Dale"
+"Principe Brand, Capitán de Valle"
 END
 //------------------------------------------------------------
 UPGRADE:Anduril09v2
 "Anduril"
 End
 TOOLTIP:AndurilDesc09v2
-"Anduril: Aragorn gains +10% Damage and +7% speed \n Requires Level 5 \n Passive ability"
+"Anduril: Aragorn gana +10% daño y +7% velocidad \n Requisito: Nivel 5 \n Capacidad pasiva"
 END
 //------------------------------------------------------------
 GUI:SpellBookRefreshReduction09v2
-"Bonus: \n Spellbook cooldowns: %d%%"
+"Bonif. \n Recarga de hechizos: %d%%"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
@@ -72,7 +131,7 @@ CONTROLBAR:TooltipRallyingCallDwarven09v2
 END
 //------------------------------------------------------------
 OBJECT:TheForsakenInn09v2
-"The Forsaken Inn" 
+"La posada abandonada" 
 End
 //------------------------------------------------------------
 UPGRADE:ElvenStructuralSilverthornArrows09v2
@@ -80,53 +139,57 @@ UPGRADE:ElvenStructuralSilverthornArrows09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSarumanLeadership09v2
-"Allies near Saruman gain \n +25% Armor, \n and earn experience 25% faster \n Always stacks \n \n Passive ability"
+"Los aliados cercanos a Saruman reciben \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Siempre se acumula. \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn09v2
-"Municiones Punta de Plata (&W)"
+"Municiones Pua de Plata (&W)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn09v2
-"Grants Silverthorn Munitions to fortress and all attached towers \n Increases the damage caused by arrows"
+"Mejora con Puas de Plata las flechas de la fortaleza y todas las torres adicionales. \n Incrementa el daño causado por las flechas"
 END
 //------------------------------------------------------------
 CONTROLBAR:WordofPowerSauron09v2
-"Word of Power [&B]"
+"Pala&bra de Poder"
 END
 CONTROLBAR:ToolTipWordofPowerSauron09v2
-"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
+"Envía una descarga que mata a los enemigos de alrededor. \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower09v2
 "Nenya [&V]"
 END
 CONTROLBAR:ToolTipGaladrielWordOfPower09v2
-"Requires Level 10 \n Nenya \Sends out a shockwave that destroys surrounding enemies \n Left click to activate"
+"Envía una descarga que mata a los enemigos de alrededor. \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
-"&Ring Of Power"
+"Anillo de Poder (&W)"
 END
 CONTROLBAR:ToolTipRingOfPower09v2
-"Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
+"Sauron crea una influencia de sombras y fuego que constantemente daña enemigos a su alrededor. \n Para activar, haz clic con el botón izquierdo."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipAthelasAragorn09v2
+"Cura 1000 puntos de salud de los heroes cercanos. \n Haz clic con el botón izquierdo para activar."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heal nearby units \n Less effective on heroes and more effective on hordes and monsters \n Provides 15% HP and 25% bonus experience for 12s to infantry, cavalry, and monsters(not heroes)\n provides resistance to fear and terror \n Left click to activate"
+"Cura 750 puntos de salud de los heroes y hordas cercanas. \n Las hordas y monstruos cercanos reciben un incremento de \n +15% puntos de salud y ganan experience 25% más rapido. \n Proporciona inmunida al miedo y al terror. \n Dura 12 segundos \n Haz clic con el botón izquierdo para activar."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Reveals an area of the map \n Does not provide a range bonus to units like the spellbook version \n Provides 27.5% bonus shroud clearing to infantry, cavalry, machines and monsters(not heroes). Duration is 25s \n Now has global range(cast anywhere on map and units still get the shroud bonus). Radius is 300 from the cast point \n Left click icon then left click on target area"
+"Revela un area del mapa \n Proporciona +27.5% rango de visión a cualquier unidad aliada por 25 segundos. \n No afecta heroes. \n Haz clic con el botón izquierdo para activar."
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
-"King's Favor [&C]"
+"Favor del rey [&C]"
 END
 CONTROLBAR:ToolTipKingsFavorDain09v2
-"Requires Level 6 \n Targeted units gain experience \n Left click icon then left click on target units"
+"Requisito: Nivel 6 \n Da experiencia a las unidades apuntadas. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSauronsFiresOfDoom09v2
-"Calls down many molten rocks in an area around Sauron, \n Left click icon starts the channeling \n Does not hurt allies"
+"Invoca una tormenta de rocas fundidas en un área alrededor de Sauron. \n No daña a unidades aliadas \n Haz clic con el botón izquierdo para activar."
 END
 //------------------------------------------------------------
 
@@ -164,7 +227,7 @@ Map:mapSBmigration
 "Migration"
 END
 Map:mapSBmigration/Desc
-"This map is a tribute to the legendary AoE II map "Migration". Ships are completly revamped and hopefully balanced (restart the game after playing). Fortress are limited to two per player and tunnel network is disabled (except Undermine) \n Map by SilverBane`"
+"This map is a tribute to the legendary AoE II map "Migration". Ships are completly revamped and hopefully balanced (restart the game after playing). Fortress are limited to two per player and tunnel network is disabled (except Undermine) \n Map by SilverBane, edited by Ecthelion"
 END
 //------------------------------------------------------------
 Map:mapMHsouthfarthing
@@ -1054,7 +1117,7 @@ END
 
 //------------------------------------------------------------
 
-// String lines for Patch 1.09
+// String lines for Patch 1.09v1
 
 //------------------------------------------------------------
 
@@ -8148,7 +8211,7 @@ CONTROLBAR:SwoopAttack
 END
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Requires Level 2 \n Hace que los mumakil pisoteen al enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Hace que los mumakil pisoteen al enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:Guard
@@ -14588,7 +14651,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Cura 4000 puntos de salud en cualquier tipo de estructura. \n Las estructuras afectadas ganan 15% armadura por 15s. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Cura 4000 puntos de salud en cualquier tipo de estructura. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:Draft
@@ -16391,7 +16454,7 @@ CONTROLBAR:ToggleLooseFormation
 END
 
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-30% velocidad\n+20% armadura\n+25% resistencia contra flechas. \n Pierde -7% daño."
+"-30% velocidad\n+20% armadura\n+25% resistencia contra flechas."
 END
 
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
