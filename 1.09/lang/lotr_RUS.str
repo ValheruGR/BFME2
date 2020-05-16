@@ -29,71 +29,79 @@ CONTROLBAR:nothingDesc09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requires Level 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Allied hordes gain +33% armor and +50% damage. \n Simple leadership kind. \n Does not stack with any other Armor buff leaderships. \n \n Left click to activate"
+"Требуется уровень 8 \n Союзные войска, монстры и герои излечиваются на большой территории вокруг Глорфинделя. \n Воскрешает 2-х погибших на отряд в течение всего времени действия. \n Союзные войска получают + 33% брони и + 50% урона. \n Обычный тип лидерства. \n Не складывается с другими усилениями на броню. \n \n ЛКМ - применение способности."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
-"Requires Level 10 \n A high damage attack that causes metaimpact. \n Effective against cavalry and weak heroes. \n Stuns light sensitive enemy units. \n Can only use with bow equipped \n Left click icon then left click on target" 
+"Требуется уровень 10 \n Выстрел, наносящий высокий урон и отбрасывающий противников. \n Эффективен против кавалерии и слабых героев. \n Оглушает светочувствительные войска. \n Можно использовать только с луком. \n Щелкните на пиктограмме, затем - на цели." 
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipThornofVengeance09v2
+"Требуется уровень 10 \n Чрезвычайно мощная атака дальнего боя, наносящая урон в течении некоторого времени. \n Скорость цели снижается на -10%. \n Эффективна против сильных героев. \n Щелкните на пиктограмме, затем - на цели."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Requires Level 2 \n Приказ мумакам растоптать врагов. \n Щелкните на пиктограмме, затем - на цели."
+"Требуется уровень 2 \n Мумакил топчет противников \n Щелкните на пиктограмме, затем - на цели."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"The infantry and cavaly from the enemy is reduced to \n 60% speed and 50% rate of fire for 19 seconds. \n Doesn't affect machines, Battle Wagons or monsters. \n Enemy hordes lose simple leadership bonuses \n Stacks with other negative spells \n Left click icon then left click on target units"
+"Пехота и кавалерия противника теряет \n -40% скорости и -50% скорострельности в течение 19 секунд. \n Не влияет на машины, боевые вагоны или монстров. \n Подавляет обычное лидерство. \n Складывается с другими отрицательными эффектами. \n Щелкните на пиктограмме, затем - на цели."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Requires Level 4 \n Enemy hordes and any kind of heroes are reduced to \n 75% armor and 75% damage for 30 seconds.\n Enemy hordes lose simple leadership bonuses \n Left click icon then left click on target units"
+"Требуется уровень 4 \n Вражеские войска и герои теряют \n -25% брони и -25% урона в течение 30 секунд.\n Подавляет обычное лидерство. \n Щелкните на пиктограмме, затем - на цели."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters are reduced to 75% armor and 75% damage. \n Enemies lose their simple leadership bonuses. \n\n Left click icon and left click on target area"
+"Дружественные войска в тумане становятся невидимыми противнику. \n Вражеские войска, монстры и герои теряют до 25% брони и 25% урона. \n Подавляет обычное лидерство. \n\n Щелкните на пиктограмме, затем - на выбранной местности."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
-"Research Banner Carrier upgrade at Barracks to enable this equipment. \n +25% Armor, -30% Speed and +33% extra arrow resistance"
+"Исследуйте улучшение "Знамёна" в Казармах, чтобы войска могли приобрести эту способность. \n +25% Брони, -30% Скорости и +33% сопротивления к стрелам"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
-"+25% Armor, -30% Speed and +33% extra arrow resistance"
+"+25% Брони, -30% Скорости и +33% Сопротивления к стрелам"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
-"+20% Armor, -30% Speed and +25% extra arrow resistance. \n Loses -7% damage."
+"+20% Брони, -30% Скорости and +25% Сопротивления к стрелам. \n Теряют -7% Урона."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Requires Level 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn attacks slower but deals damage in area \n Cancels Shield Maiden bonus. \n Left click to activate"
+"Требуется уровень 4 \n Эовин маскируется под рядового всадника Рохиррим. \n Эовин атакует медленнее, но наносит урон по области. \n Отменяет бонус способности "Воительница". \n Щелкните на пиктограмме, чтобы активировать."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Requires Level 5 \n Eowyn gains 35% Armor \n Halves the deceleration rate of friendly Rohirrim when trampling\n Cancels the disguise \n Left click to activate"
+"Требуется уровень 5 \n Эовин получает +35% Брони. \n Уменьшает вдвое скорость замедления союзных Рохиррим при давке. \n Отменяет маскировку. \n Щелкните на пиктограмме, чтобы активировать."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipSunflare09v2
-"Calls a fiery beam of sunlight to scorch the battlefield and indiscriminately burn enemies and allies. \n Effective against weak heros \n Cancels Darkness & Frezzing Rain \n Left click icon then left click on target area"
+"На поле боя возникает луч ослепительного света, уничтожающий и врагов, и союзников. \n Эффективен против слабых героев. \n Отменяет "Тьму" и "Ледяной дождь". \n Щелкните на пиктограмме, затем - на выбранной местности."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipCitadel09v2
-"Places a Citadel Fortress anywhere on the battlefield \n Connected to the tunnel network \n Provides resources over time\n Left click icon then left click on pathable location"
+"Размещает Цитадель в любом месте на поле боя. \n Соединён с сетью туннелей. \n Производит ресурсы с течением времени. \n Щелкните на пиктограмме, затем - на выбранной открытой местности."
 END
 //------------------------------------------------------------
 OBJECT:SignalFireDescription09v2
-"Capture it to decrease recharge times for unused powers \n Heals nearby Heros and Flyers. \n\n 1 signal fire = -25% reduction of spellbook reload time \n 2 signal fires = -35% reduction \n 3 signal fires = -50% reduction"
+"Захватите это, чтобы уменьшить время перезарядки книги заклинаний. \n Лечит близлежащих героев и летающих существ. \n\n 1 маяк = -25% сокращение времени перезарядки книги заклинаний \n 2 маяка = -35% сокращение времени перезарядки \n 3 маяка = -50% сокращение времени перезарядки"
 End
+//------------------------------------------------------------
+CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
+"Strong vs. Cavalry and \n Unit Production Buildings \n Tower Guards gain +5% speed at level 3, 5 and 7."
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
-"Strong vs. Pikemen\n and Resource Buildings \n Guardians now gain a small speed bonus every rank. A level 10 guardian will end up being 21.6% faster"
-End
+"Сильны против копейщиков \n и зданий, производящих ресурсы. \n Стражи получают + 5% скорости на уровнях 3, 5, 7 и 10."
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
-"Requires Level 10 \n Causes a large earthquake around Gloin's location \n Can stun the Army of the Dead for 5 seconds, but does not kill them \n Left click icon then left click on target"
+"Требуется уровень 10 \n Вызывает сильное землетрясение рядом с Глоином. \n Может оглушить армию мертвых на 5 секунд, но не убивает их. \n Щелкните на пиктограмме, затем - на выбранной местности"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom09v2
-"Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
+"Обрушивает град расплавленных камней и лавы, который наносит урон всем врагам и союзникам в выбранной области. \n Щелкните на пиктограмме, затем - на выбранной местности"
 END
 //------------------------------------------------------------
 CONTROLBAR:Command_ConstructMordorCastleWallHub09v2
@@ -128,7 +136,7 @@ UPGRADE:Anduril09v2
 "Андурил"
 End
 TOOLTIP:AndurilDesc09v2
-"Андурил: Арагорн получает +10% урона и +7% скорости \n Требуется уровень 5 \n Пассивная способность"
+"Андурил: Требуется уровень 5. \n Арагорн получает +10% урона и +7% скорости. \n Пассивная способность."
 END
 //------------------------------------------------------------
 GUI:SpellBookRefreshReduction09v2
@@ -136,7 +144,7 @@ GUI:SpellBookRefreshReduction09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Союзники наносят +50% урона и получают в бою +25% опыта. \n Щелкните на пиктограмме, затем - на цели."
+"Союзники наносят на +50% урона и получают в бою дополнительные +25% опыта. \n Щелкните на пиктограмме, затем - на цели."
 END
 //------------------------------------------------------------
 OBJECT:TheForsakenInn09v2
@@ -180,14 +188,14 @@ CONTROLBAR:ToolTipRingOfPower09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAthelasAragorn09v2
-"Heal 1000 health points from nearby Heroes. \n Left click to activate"
+"Исцеляет 1000 очков здоровья всем ближайшим героям. \n ЛКМ - применение способности."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to experience gaining \n Provides resistance to fear and terror \n Lasts 12 seconds \n Left click to activate"
+"Исцеляет 750 очков здоровья всем ближайшим войскам и героям. \n Ближайшие войска и монстры получают \n 15%-ую прибавку к запасу здоровья и +25% бонусного опыта. \n Союзные войска становятся неуязвимы к страху и ужасу. \n Длительность: 12 секунд. \n ЛКМ - применение способности."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Reveals an area of the map \n Provides +27.5% vision reveal range to any allied unit for 25 second. \n Doesn't affect heroes. \n Left click icon then left click on target area"
+"Указанный участок карты становится доступен для обзора. \n Даёт 27,5%-ый бонус к обзору всем союзным войскам на 25 секунд. \n Не влияет на героев. \n  Щелкните на пиктограмме, затем - на указанном участке местности."
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
@@ -198,7 +206,7 @@ CONTROLBAR:ToolTipKingsFavorDain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSauronsFiresOfDoom09v2
-"Calls down many molten rocks in an area around Sauron, \n Left click icon starts the channeling \n Does not hurt allies"
+"Десятки расплавленных камней вырываются из под земли и \n поражают противников вокруг Саурона. \n  Не наносит урона союзникам  \n Щелкните на пиктограмме, чтобы начать разлом."
 END
 //------------------------------------------------------------
 
@@ -1143,10 +1151,10 @@ CONTROLBAR:LadyOfLight
 "Свет Валар."
 END
 CONTROLBAR:TooltipLadyOfLight
-"Призывает Свет Валара на головы врагов. \n Deals massive damage in a large area"
+"Призывает Свет Валара на головы врагов. \n Наносит огромный урон на большой территории"
 END
 CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Призывает дрех Духов Огня рядом с Сауроном."
+"Призывает трёх Духов Огня рядом с Сауроном."
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
 "Требуется соответствующее улучшение крепости. \n\n Союзники поблизости получают +25% к атаке и +25% к опыту. \n Всегда накапливается."

@@ -28,6 +28,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipBloodthirsty09v2
+"Requires Level 2 \n Order this unit to kill a friendly unit \n to gain combat experience \n Left click icon then left click on target units"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
 "Requires Level 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Allied hordes gain +33% armor and +50% damage. \n Simple leadership kind. \n Does not stack with any other Armor buff leaderships. \n \n Left click to activate"
 END

@@ -36,12 +36,16 @@ CONTROLBAR:ToolTipHaldirGoldenArrow09v2
 "Requisito: Nivel 10. \n Un ataque de gran daño que causa meta impacto. \n Efectiva contra caballería y heroes débiles. \n Aturde a las unidades enemigas. \n Solo se puede usar con el arco. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipThornofVengeance09v2
+"Requisito: Nivel 10 \n Disparo extremadamente poderoso que causa daño por veneno en el tiempo. \n Reduce la velocidad del objetivo en un -10%. \n Efectivo contra heroes duros. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
 "Requisito: Nivel 2 \n Hace que los mumakil pisoteen al enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"La infanteria y la caballeria del enemigo es reducida hasta \n 60% velocidad y 50% cadencia de fuego por 19 segundos. \n No afecta Maquinas, Carros de Batallas ni monstruos. \n Los enemigos pierden sus bonificaciones de liderazgo simple. \n Se acumula con otros hechizos negativos. \n\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
+"La infanteria y la caballeria del enemigo es reducida hasta \n 60% velocidad y 50% cadencia de fuego por 19 segundos. \n No afecta Maquinas, Carros de Batallas ni monstruos. \n Los enemigos pierden sus bonificaciones de liderazgo simple. \n Se acumula con otros hechizos negativos. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
@@ -81,7 +85,7 @@ CONTROLBAR:TooltipCitadel09v2
 END
 //------------------------------------------------------------
 OBJECT:SignalFireDescription09v2
-"Captúrala para reducir el tiempo de recarga de los poderes que no se acaban de usar \n Cura cualquier clase de héroe, incluso aereos.\n\n 1 almenara = -25% reducción de recargas de poderes del palantir \n 2 almenaras = -35% de reducción de recargas \n 3 almenaras = -50% de reducción de recargas"
+"Captúrala para reducir el tiempo de recarga de los poderes que no se acaban de usar \n Cura cualquier clase de héroe, incluso aereos.\n 1 almenara = -25% reducción de recargas de poderes del palantir \n 2 almenaras = -35% de reducción de recargas \n 3 almenaras = -50% de reducción de recargas"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
@@ -148,7 +152,7 @@ OBJECT:TheForsakenInn09v2
 End
 //------------------------------------------------------------
 UPGRADE:ElvenStructuralSilverthornArrows09v2
-"Silverthorn Munitions"
+"Municiones Púa de Plata"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSarumanLeadership09v2
@@ -156,7 +160,7 @@ CONTROLBAR:ToolTipSarumanLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn09v2
-"Municiones Pua de Plata (&W)"
+"Municiones Púa de Plata (&W)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn09v2
 "Mejora con Puas de Plata las flechas de la fortaleza y todas las torres adicionales. \n Incrementa el daño causado por las flechas"
@@ -263,7 +267,7 @@ Map:mapHDforlindon
 "The Cow Maze"
 End
 Map:mapHDforlindon/Desc
-"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heros trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\n Map originally from BFME1 by Haldir, edited by Ecthelion."
+"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heros trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n Map originally from BFME1 by Haldir, edited by Ecthelion."
 End
 //The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\nMap from BFME1 by Haldir, edited by Ecthelion."
 //------------------------------------------------------------
@@ -495,7 +499,7 @@ END
 //"Druwait Reef"
 //End
 //Map:maptestdruwaithreef/desc
-//" This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
+//" This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
 //End
 //------------------------------------------------------------
 //	Map:maptestbrownlands8p
@@ -544,7 +548,7 @@ END
 //"Anfalas II"
 //END
 //Map:mapNEWanfalasii/Desc
-//"The western coastal section of Gondor populated by small villages of herdsmen and fishermen.\n\n Size: 360 x 390\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Inn, 1x Signal Fire. \n Map from RotWK, by Mako."
+//"The western coastal section of Gondor populated by small villages of herdsmen and fishermen.\n Size: 360 x 390\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Inn, 1x Signal Fire. \n Map from RotWK, by Mako."
 //END
 //------------------------------------------------------------
 Map:mapNEWgreenleafforest
@@ -579,7 +583,7 @@ End
 //	"Desert Of Rhun" //removed
 //	End
 //	Map:mapNEWdesertofrhun/desc
-//	"A vast desert lying to the south-east of Rhun. Many unprepared travellers lose their way attempting to traverse this rugged region. \n\n Size: 550 x 550\n Lairs: 6x Goblin Lair\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
+//	"A vast desert lying to the south-east of Rhun. Many unprepared travellers lose their way attempting to traverse this rugged region. \n Size: 550 x 550\n Lairs: 6x Goblin Lair\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
 //	End
 //------------------------------------------------------------
 Map:mapMOtournamentamonhen
@@ -985,7 +989,7 @@ Map:mapmpmithrilhillsii
 "Mithril Hills" // aka Iron Hills II
 END
 Map:mapmpmithrilhillsii/Desc
-"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n\n Size: 600 x 535\n Lairs: 7x Spider Lair\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Fortress. \n Map from RotWK, by Solas."
+"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n Size: 600 x 535\n Lairs: 7x Spider Lair\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Fortress. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapmplorienplateau
@@ -14516,7 +14520,7 @@ CONTROLBAR:WarChant
 END
 
 CONTROLBAR:TooltipEnshroudingMist
-"Las unidades aliadas que están dentro de la niebla tienen sigilo. \n Reduce considerablemente la armadura y el daño de las hordas, heroes y monstruos enemigos. \n Los enemigos pierden sus bonificaciones de liderazgo simple \n\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Las unidades aliadas que están dentro de la niebla tienen sigilo. \n Reduce considerablemente la armadura y el daño de las hordas, heroes y monstruos enemigos. \n Los enemigos pierden sus bonificaciones de liderazgo simple \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:Industry
@@ -14808,7 +14812,7 @@ CONTROLBAR:LoneTower
 END
 
 CONTROLBAR:TooltipLoneTower
-"Convoca una torre defensiva. \n Puede curar, revivir y dar liderazgo a las unidades aliadas \n Puede ser mejorada con trabajo de piedra \n\n Requiere respectivas mejoras desde una Fortaleza \n\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
+"Convoca una torre defensiva. \n Puede curar, revivir y dar liderazgo a las unidades aliadas \n Puede ser mejorada con trabajo de piedra \n Requiere respectivas mejoras desde una Fortaleza \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
 END
 
 CONTROLBAR:ArrowVolley
@@ -14968,7 +14972,7 @@ CONTROLBAR:ConstructGondorPeasant
 END
 
 CONTROLBAR:ToolTipBuildNumenorStoneworkUpgrade
-"Aumenta la armadura de los muros y las torres. \n Requisito para Torre de Marfil \n\n Mejora a cualquier Torre Solitaria convocada."
+"Aumenta la armadura de los muros y las torres. \n Requisito para Torre de Marfil \n Mejora a cualquier Torre Solitaria convocada."
 END
 
 CONTROLBAR:ToolTipBuildReinforcedGateUpgrade
@@ -25466,7 +25470,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStonework
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
-"Proporciona armadura adicional a la fortaleza y a los muros \n Requisito para catapulta poderosa \n\n Mejora a cualquier Torre Solitaria convocada."
+"Proporciona armadura adicional a la fortaleza y a los muros \n Requisito para catapulta poderosa \n Mejora a cualquier Torre Solitaria convocada."
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions
@@ -25482,7 +25486,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
-"Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Añade puntos de golpe adicionales a la fortaleza. \n Reduce el tiempo de revivir heroes en un 20%. \n\n Mejora a cualquier Torre Solitaria convocada."
+"Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Añade puntos de golpe adicionales a la fortaleza. \n Reduce el tiempo de revivir heroes en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
@@ -26204,7 +26208,7 @@ CONTROLBAR:ConstructElvenMirkwoodArcherHorde
 END
 
 CONTROLBAR:ConstructElvenMithlondSentryHorde
-"Entrenar guardias de Mithlond (&V)"
+"Entrenar guardias de &Mithlond"
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
@@ -28460,7 +28464,7 @@ CONTROLBAR:Crebain
 END
 
 CONTROLBAR:TooltipCrebain
-"Revela la ocultación y detecta unidades con sigilo. \n Reduce la armadura y el daño del enemigo en un -25%. \n Los enemigos pierden sus bonificaciones de liderazgo simple\n\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
+"Revela la ocultación y detecta unidades con sigilo. \n Reduce la armadura y el daño del enemigo en un -25%. \n Los enemigos pierden sus bonificaciones de liderazgo simple\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
 END
 
 CONTROLBAR:SummonWild
@@ -28508,7 +28512,7 @@ CONTROLBAR:CaveBats
 END
 
 CONTROLBAR:TooltipCaveBats
-"Revela la ocultación y detecta unidades con sigilo. \n Reduce la armadura y el daño del enemigo en un -25%. \n Los enemigos pierden sus bonificaciones de liderazgo simple \n\n  Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
+"Revela la ocultación y detecta unidades con sigilo. \n Reduce la armadura y el daño del enemigo en un -25%. \n Los enemigos pierden sus bonificaciones de liderazgo simple \n  Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
 END
 
 CONTROLBAR:UntamedAllegiance
@@ -31260,7 +31264,7 @@ OBJECT:ShireWorkPit
 END
 
 OBJECT:SignalFireDescription
-"Captúrala para reducir el tiempo de recarga de los poderes que no se acaban de usar \n Cura cualquier clase de héroe, incluso aereos.\n\n 1 almenara = -25% reducción de recargas de poderes del palantir \n 2 almenaras = -35% de reducción de recargas \n 3 almenaras = -50% de reducción de recargas"
+"Captúrala para reducir el tiempo de recarga de los poderes que no se acaban de usar \n Cura cualquier clase de héroe, incluso aereos.\n 1 almenara = -25% reducción de recargas de poderes del palantir \n 2 almenaras = -35% de reducción de recargas \n 3 almenaras = -50% de reducción de recargas"
 END
 
 OBJECT:SkullTotem
@@ -37926,7 +37930,7 @@ CONTROLBAR:PurchaseTechnologySpiderVenomSacks
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologySpiderVenomSacks
-"Permite que las hordas compren la \nmejora bolsas de veneno. \n Cuando se usa, envenena al enemigo, causando daño a lo largo del tiempo. \n\nFuerte contra caballería."
+"Permite que las hordas compren la \nmejora bolsas de veneno. \n Cuando se usa, envenena al enemigo, causando daño a lo largo del tiempo. \nFuerte contra caballería."
 END
 
 CONTROLBAR:PurchaseSpiderVenomSacks
@@ -43876,7 +43880,7 @@ CONTROLBAR:ToolTipBuildGondorRangerSummonedHorde
 END
 
 CONTROLBAR:ToolTipConstructMenSentryTower
-"Torre defensiva que disparará a las unidades enemigas. \n Se puede asignar una guarnición de arqueros para aumentar los daños.\n\nFuerte contra caballería."
+"Torre defensiva que disparará a las unidades enemigas. \n Se puede asignar una guarnición de arqueros para aumentar los daños.\nFuerte contra caballería."
 END
 
 CONTROLBAR:ToolTipConstructDwarvenSentryTower
@@ -43888,7 +43892,7 @@ CONTROLBAR:ToolTipBattleTower
 END
 
 CONTROLBAR:ToolTipConstructMordorBattleTower
-"Torre defensiva de corto alcance.\n\n Fuerte contra caballería."
+"Torre defensiva de corto alcance.\n Fuerte contra caballería."
 END
 
 CONTROLBAR:ToolTipBuildIsengardBattleTower
@@ -44012,7 +44016,7 @@ CONTROLBAR:TooltipFarSeeing
 END
 
 CONTROLBAR:TooltipFarSight
-"Espía a las fuerzas enemigas. \n\n Proporciona una bonificación de alcance a \n las unidades en su área de efecto. \n Siempre se acumula \n\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Espía a las fuerzas enemigas. \n Proporciona una bonificación de alcance a \n las unidades en su área de efecto. \n Siempre se acumula \nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 //	CONTROLBAR:ToolTipGandalfLeadership
@@ -44020,11 +44024,11 @@ END
 //	END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Proporciona +25% daño y +25% experiencia a las unidades cercanas \n Siempre se acumula \n Reduce el coste de los héroes en un 10% \n Reduce el tiempo de reclutamiento de los héroes en un 10% \n Reduce el coste de los constructores en un 20%. \n\n Mejora a cualquier Torre Solitaria convocada."
+"Proporciona +25% daño y +25% experiencia a las unidades cercanas \n Siempre se acumula \n Reduce el coste de los héroes en un 10% \n Reduce el tiempo de reclutamiento de los héroes en un 10% \n Reduce el coste de los constructores en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Reduce el coste de revivir héroes en un 5%. \n Reduce el tiempo de revivir héroes en un 15%. \n\n Mejora a cualquier Torre Solitaria convocada."
+"Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Reduce el coste de revivir héroes en un 5%. \n Reduce el tiempo de revivir héroes en un 15%. \n Mejora a cualquier Torre Solitaria convocada."
 END
 //\n Reduce el coste de reclutamiento de héroes en un 5%.
 
@@ -44113,7 +44117,7 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Requisito: Nivel 2 \n Poderoso ataque a distancia contra un objetivo. \n Especialmente poderoso contra monstruos voladores de Mordor. \n Bonificación contra heroes \n Cancela el Disfraz. \n\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 2 \n Poderoso ataque a distancia contra un objetivo. \n Especialmente poderoso contra monstruos voladores de Mordor. \n Bonificación contra heroes \n Cancela el Disfraz. \nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToggleFaramirWeapons
@@ -44273,7 +44277,7 @@ CONTROLBAR:HaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Requisito: Nivel 10. \n Un ataque de gran daño que causa meta impacto \n Aturde a las unidades enemigas. \n Efectiva contra heroes a caballo \n\n Solo se puede usar con el arco. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 10. \n Un ataque de gran daño que causa meta impacto \n Aturde a las unidades enemigas. \n Efectiva contra heroes a caballo \n Solo se puede usar con el arco. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
@@ -44361,7 +44365,7 @@ OBJECT:DwarvenStatueDescription
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Los aliados cercanos a la fortaleza ganan \n +25% al daño y +25% experiencia. \n Reduce el coste de los héroes en un 10%. \n Reduce el tiempo de reclutamiento de los héroes en un 10%. \n Reduce el coste de los constructores en un 20%. \n\n Mejora a cualquier Torre Solitaria convocada."
+"Los aliados cercanos a la fortaleza ganan \n +25% al daño y +25% experiencia. \n Reduce el coste de los héroes en un 10%. \n Reduce el tiempo de reclutamiento de los héroes en un 10%. \n Reduce el coste de los constructores en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
@@ -44425,7 +44429,7 @@ CONTROLBAR:ToolTipDainLeadership
 END
 
 CONTROLBAR:ToolTipMightyRage
-"Requisito: Nivel 4 \n Las unidades aliadas apuntadas ganan +20% a la velocidad y +25% al daño. \n La bonificacion no puede ser cancelada y siempre se acumula \n Las unidades enemigas pierden -25% daño y armadura \n Los enemigos pierden las bonificaciones de liderazgo simple. \n\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 4 \n Las unidades aliadas apuntadas ganan +20% a la velocidad y +25% al daño. \n La bonificacion no puede ser cancelada y siempre se acumula \n Las unidades enemigas pierden -25% daño y armadura \n Los enemigos pierden las bonificaciones de liderazgo simple. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:AxeThrow
@@ -44513,7 +44517,7 @@ CONTROLBAR:ToolTipDarkness
 END
 
 CONTROLBAR:ToolTipSummonCrebain
-"Revela la niebla de guerra y detecta unidades en sigilo. \n Los enemigos cercanos pierden un 25% de daño y un 25% de armadura. \n Los enemigos pierden sus bonificaciones de liderazgo simple \n\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
+"Revela la niebla de guerra y detecta unidades en sigilo. \n Los enemigos cercanos pierden un 25% de daño y un 25% de armadura. \n Los enemigos pierden sus bonificaciones de liderazgo simple \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
@@ -44581,7 +44585,7 @@ CONTROLBAR:TooltipEscape
 END
 
 CONTROLBAR:ToolTipVenomousWords
-"Reduce en un -40% la velocidad de los enemigos y en un -50% la cadencia de fuego de arqueros.\n Los enemigos pierden sus bonificaciones de liderazgo simple \n Se acumula con otros hechizos negativos \n\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
+"Reduce en un -40% la velocidad de los enemigos y en un -50% la cadencia de fuego de arqueros.\n Los enemigos pierden sus bonificaciones de liderazgo simple \n Se acumula con otros hechizos negativos \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
 END
 
 CONTROLBAR:SpecialAbilitySarumanFireball
@@ -44637,7 +44641,7 @@ CONTROLBAR:ScreechBlackRider
 END
 
 CONTROLBAR:ToolTipBuildMordorMumakil
-"Fuerte contra estructuras y caballería. \n\nVienen montados por lanceros haradrim.\n30 puntos de mando adicionales."
+"Fuerte contra estructuras y caballería. \nVienen montados por lanceros haradrim.\n30 puntos de mando adicionales."
 END
 
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye
@@ -44669,7 +44673,7 @@ CONTROLBAR:ToolTipBuildGoblinArcherHorde
 END
 
 CONTROLBAR:ToolTipPoisonArrows
-"Flechas envenenadas que \ncausan daño a lo largo del tiempo. \n Fuerte contra caballería. \n\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Flechas envenenadas que \ncausan daño a lo largo del tiempo. \n Fuerte contra caballería. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToolTipBuildGoblinCaveTroll
@@ -44793,7 +44797,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Aumenta la armadura de la fortaleza y los muros \n Requisito para Torre de Marfil. \n\n Mejora a cualquier Torre Solitaria convocada."
+"Aumenta la armadura de la fortaleza y los muros \n Requisito para Torre de Marfil. \n Mejora a cualquier Torre Solitaria convocada."
 END
 
 CONTROLBAR:ToolTipOutlawLeadership
