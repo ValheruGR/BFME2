@@ -4,7 +4,7 @@
 
 //------------------------------------------------------------
 
-// String lines for new Patch 1.09b	-----	2019
+// String lines for new Patch 1.09v2	-----	2019
 
 //------------------------------------------------------------
 
@@ -28,7 +28,87 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
-CONTROLBAR:Command_ConstructMordorCastleWallHub
+CONTROLBAR:ToolTipBloodthirsty09v2
+"Requires Level 2 \n Order this unit to kill a friendly unit \n to gain combat experience \n Left click icon then left click on target units"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGlorfindelStarlight09v2
+"Requires Level 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Allied hordes gain +33% armor and +50% damage. \n Simple leadership kind. \n Does not stack with any other Armor buff leaderships. \n \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipHaldirGoldenArrow09v2
+"Requires Level 10 \n A high damage attack that causes metaimpact. \n Effective against cavalry and weak heroes. \n Stuns light sensitive enemy units. \n Can only use with bow equipped \n Left click icon then left click on target" 
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipThornofVengeance09v2
+"Requires Level 10 \n An extremely powerful single shot attack that causes damage over time. \n The target is reduced to only 90% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
+"Requires Level 2 \n Order Mumakil to trample the enemy \n Left click icon then left click on target"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipVenomousWords09v2
+"The infantry and cavaly from the enemy is reduced to \n 60% speed and 50% rate of fire for 19 seconds. \n Doesn't affect machines, Battle Wagons or monsters. \n Enemy hordes lose simple leadership bonuses \n Stacks with other negative spells \n Left click icon then left click on target units"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
+"Requires Level 4 \n Enemy hordes and any kind of heroes are reduced to \n 75% armor and 75% damage for 30 seconds.\n Enemy hordes lose simple leadership bonuses \n Left click icon then left click on target units"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipEnshroudingMist09v2
+"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters are reduced to 75% armor and 75% damage. \n Enemies lose their simple leadership bonuses. \n\n Left click icon and left click on target area"
+END
+//------------------------------------------------------------
+TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
+"Research Banner Carrier upgrade at Barracks to enable this equipment. \n +25% Armor, -30% Speed and +33% extra arrow resistance"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
+"+25% Armor, -30% Speed and +33% extra arrow resistance"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
+"+20% Armor, -30% Speed and +25% extra arrow resistance. \n Loses -7% damage."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipDisguise09v2
+"Requires Level 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn attacks slower but deals damage in area \n Cancels Shield Maiden bonus. \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipShieldMaiden09v2
+"Requires Level 5 \n Eowyn gains 35% Armor \n Halves the deceleration rate of friendly Rohirrim when trampling\n Cancels the disguise \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipSunflare09v2
+"Calls a fiery beam of sunlight to scorch the battlefield and indiscriminately burn enemies and allies. \n Effective against weak heros \n Cancels Darkness & Frezzing Rain \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipCitadel09v2
+"Places a Citadel Fortress anywhere on the battlefield \n Connected to the tunnel network \n Provides resources over time\n Left click icon then left click on pathable location"
+END
+//------------------------------------------------------------
+OBJECT:SignalFireDescription09v2
+"Capture it to decrease recharge times for unused powers \n Heals nearby Heros and Flyers. \n\n 1 signal fire = -25% reduction of spellbook reload time \n 2 signal fires = -35% reduction \n 3 signal fires = -50% reduction"
+End
+//------------------------------------------------------------
+CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
+"Strong vs. Cavalry and \n Unit Production Buildings \n Tower Guards gain +5% speed at level 3, 5 and 7."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
+"Strong vs. Pikemen\n and Resource Buildings \n Guardians gain +5% speed at level 3, 5, 7 and 10."
+End
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGloinSmash09v2
+"Requires Level 10 \n Causes a large earthquake around Gloin's location \n Can stun the Army of the Dead for 5 seconds, but does not kill them \n Left click icon then left click on target"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom09v2
+"Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
+CONTROLBAR:Command_ConstructMordorCastleWallHub09v2
 "&Wall Hub"
 END
 //------------------------------------------------------------
@@ -80,7 +160,7 @@ UPGRADE:ElvenStructuralSilverthornArrows09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSarumanLeadership09v2
-"Allies near Saruman gain +25% Armor and earn experience 25% faster \n Always stacks \n \n Passive ability"
+"Allies near Saruman gain +25% Armor and earn experience 25% faster \n Always stacks \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn09v2
@@ -111,11 +191,15 @@ CONTROLBAR:ToolTipRingOfPower09v2
 "Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipAthelasAragorn09v2
+"Heal 1000 health points from nearby Heroes. \n Left click to activate"
+END
+//------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heal nearby units \n Less effective on heroes and more effective on hordes and monsters \n Provides 15% HP and 25% bonus experience for 12s to infantry, cavalry, and monsters(not heroes)\n provides resistance to fear and terror \n Left click to activate"
+"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to experience gaining \n Provides resistance to fear and terror \n Lasts 12 seconds \n Left click to activate"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Reveals an area of the map \n Does not provide a range bonus to units like the spellbook version \n Provides 27.5% bonus shroud clearing to infantry, cavalry, machines and monsters(not heroes). Duration is 25s \n Now has global range(cast anywhere on map and units still get the shroud bonus). Radius is 300 from the cast point \n Left click icon then left click on target area"
+"Reveals an area of the map \n Provides +27.5% vision reveal range to any allied unit for 25 second. \n Doesn't affect heroes. \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
@@ -1054,12 +1138,12 @@ END
 
 //------------------------------------------------------------
 
-// String lines for Patch 1.09
+// String lines for Patch 1.09v1
 
 //------------------------------------------------------------
 
 CONTROLBAR:ToolTipArwenLeadership09v1
-"Requires Level 3 \n Cavalry near Arwen gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+"Requires Level 3 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster \n Always stacks \nPassive ability"
 End
 CONTROLBAR:GaladHealBTP
 "&Light Of Galadriel"
@@ -9193,33 +9277,33 @@ End
 //--------------------------------------------------------------------------------
 // End of Science Strings
 //--------------------------------------------------------------------------------
-//	CONTROLBAR:ToolTipToggleWargSkirmishToLineFormation
-//	"+25% Armor, -50% Damage"
-//	END
+CONTROLBAR:ToolTipToggleWargSkirmishToLineFormation
+"+25% Armor, -50% Damage"
+END
 
-//	CONTROLBAR:ToolTipToggleWargLineToSkirmishFormation
-//	"No bonus"
-//	END
+CONTROLBAR:ToolTipToggleWargLineToSkirmishFormation
+"No bonus"
+END
 
-//	CONTROLBAR:ToolTipTogglePikemanLineToPorcupineFormation
-//	"+25% Armor, -40% Speed\n Bonus damage to cavalry"
-//	END
+CONTROLBAR:ToolTipTogglePikemanLineToPorcupineFormation
+"+25% Armor, -40% Speed\n Bonus damage to cavalry"
+END
 
-//	CONTROLBAR:ToolTipTogglePikemanPorcupineToLineFormation
-//	"No bonus"
-//	END
+CONTROLBAR:ToolTipTogglePikemanPorcupineToLineFormation
+"No bonus"
+END
 
-//	CONTROLBAR:ToolTipToggleCrossbowmanLineToWedgeFormation
-//	"+25% Damage, -50% Armor"
-//	END
+CONTROLBAR:ToolTipToggleCrossbowmanLineToWedgeFormation
+"+25% Damage, -50% Armor"
+END
 
 CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLineFormation
 "No bonus"
 END
 
-//CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-//"+25% Armor, +25% arrow resistance, -30% Speed"
-//END
+CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
+"+20% Armor, +25% arrow resistance, -30% Speed"
+END
 
 CONTROLBAR:ToolTipToggleGFighterBlockToLineFormation
 "No bonus"
@@ -9540,7 +9624,7 @@ CONTROLBAR:SwoopAttack
 End
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Requires Level 2 \n Order Mumakil to trample the enemy \n Left click icon then left click on target"
+"Order Mumakil to trample the enemy \n Left click icon then left click on target"
 END
 
 CONTROLBAR:Guard
@@ -17835,24 +17919,24 @@ CONTROLBAR:ToolTipToggleShieldWallFormation
 "+50% Armor \n -75% Speed"
 END
 
-//	CONTROLBAR:ToggleLooseFormation
-//	"Loose For&mation"
-//	END
-CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-30% Speed, +20% Armor \n and +25% extra arrow resistance. \n Loses -7% damage."
+CONTROLBAR:ToggleLooseFormation
+"Loose For&mation"
 END
-//	CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
-//	"Default Formation"
-//	END
-//	CONTROLBAR:ToolTipToggleCrossbowmanLooseToWedgeFormation
-//	"+25% Damage \n -25% Armor"
-//	END
-//	CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLooseFormation
-//	"Default Formation"
-//	END
-//	CONTROLBAR:ToolTipToggleFighterLooseToBlockFormation
-//	"-30% Speed \n +20% Armor \n +25% arrow resistance"
-//	END
+CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
+"-30% Speed \n +20% Armor \n +25% arrow resistance"
+END
+CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
+"Default Formation"
+END
+CONTROLBAR:ToolTipToggleCrossbowmanLooseToWedgeFormation
+"+25% Damage \n -25% Armor"
+END
+CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLooseFormation
+"Default Formation"
+END
+CONTROLBAR:ToolTipToggleFighterLooseToBlockFormation
+"-30% Speed \n +20% Armor \n +25% arrow resistance"
+END
 CONTROLBAR:ToolTipToggleFighterBlockToLooseFormation
 "Default Formation"
 END
@@ -17876,11 +17960,11 @@ CONTROLBAR:ToolTipSpeechCraft
 END
 
 CONTROLBAR:ToolTipDisguise
-"Requires Level 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn attacks slower but deals damage in area \n Cancels Shield Maiden bonus. \n Left click to activate"
+"Requires Level 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Requires Level 5 \n Eowyn gains 35% Armor \n Halves the deceleration rate of friendly Rohirrim when trampling\n Cancels the disguise \n Left click to activate"
+"Requires Level 5 \n Eowyn gains 65% Armor \n Halves the deceleration rate of friendly Rohirrims when trampling\n Cancels the disguise \n Left click to activate"
 END
 
 CONTROLBAR:ToggleTrebWeapon
@@ -30869,7 +30953,7 @@ CONTROLBAR:Flood
 END
 
 CONTROLBAR:TooltipFlood
-"Summons a powerful Flood to crush your enemy \n Effective against buildings \n Left click icon then left click on target area"
+"Summons a powerful Flood to crush enemy units \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:Sunflare
@@ -30877,7 +30961,7 @@ CONTROLBAR:Sunflare
 END
 
 CONTROLBAR:TooltipSunflare
-"Calls a fiery beam of sunlight to scorch the battlefield and indiscriminately burn enemies and allies. \n Effective against weak heros \n Cancels Darkness & Frezzing Rain \n Left click icon then left click on target area"
+"Calls a fiery beam of sunlight to scorch the battlefield \n Effective against weak heros \n Cancels Darkness & Frezzing Rain \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:CaveBats
@@ -31317,7 +31401,7 @@ CONTROLBAR:Citadel
 END
 
 CONTROLBAR:TooltipCitadel
-"Places a Citadel Fortress anywhere on the battlefield \n Connected to the tunnel network \n Provides resources over time\n Left click icon then left click on pathable location"
+"Places a Citadel Fortress anywhere on the battlefield \n Connected to the tunnel network \n Left click icon then left click on pathable location"
 END
 
 
@@ -31344,7 +31428,7 @@ CONTROLBAR:ToolTipAncientMaster
 END
 
 CONTROLBAR:ToolTipMouthOfSauronDoubt
-"Requires Level 4 \n Enemy hordes and heroes are reduced to 75% armor and 75% damage.\n Enemy hordes lose their simple leadership bonuses \n Left click icon then left click on target units"
+"Requires Level 4 \n Significantly reduces enemy Armor and Damage from enemy hordes and heroes.\n Enemy units lose their simple leadership bonuses \n Left click icon then left click on target units"
 END
 
 CONTROLBAR:DreadVisage
@@ -31404,7 +31488,7 @@ CONTROLBAR:ToolTipDwarvenGloinShakeFoundation
 END
 
 CONTROLBAR:ToolTipGloinSmash
-"Requires Level 10 \n Causes a large earthquake around Gloin's location \n Can stun the Army of the Dead for 5 seconds, but does not kill them \n Left click icon then left click on target"
+"Requires Level 10 \n Causes a small earthquake around Gloin's location \n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger
@@ -31435,9 +31519,9 @@ END
 CONTROLBAR:SpecialAbilityFiresOfDoom
 "Fi&res of Doom"
 END
-// UPDATED!
+
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
-"Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
+"Calls down a hail of molten rock on selected area \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:TerribleFury
@@ -33757,7 +33841,7 @@ OBJECT:ShireWorkPit
 End
 
 OBJECT:SignalFireDescription
-"Capture it to decrease recharge times for unused powers \n Heals nearby Heros and Flyers. \n\n 1 signal fire = -25% reduction of spellbook reload time \n 2 signal fires = -35% reduction \n 3 signal fires = -50% reduction"
+"Capture to decrease recharge times for unused powers \n Heals nearby Heros and Flyers."
 End
 
 OBJECT:SkullTotem
@@ -46809,7 +46893,7 @@ CONTROLBAR:ToolTipBuildIsengardWildmanHorde
 "Strong vs. Infantry and Structures"
 END
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde
-"Strong vs. Pikemen\n and Resource Buildings \n Guardians now gain a small speed bonus every rank. A level 10 guardian will end up being 21.6% faster"
+"Strong vs. Pikemen\n and Resource Buildings"
 END
 CONTROLBAR:ToolTipBuildGondorArcherHorde
 "Strong vs. Infantry"
@@ -47206,7 +47290,7 @@ CONTROLBAR:ToolTipMenLongShotAbility
 "Requires Level 2 \n \n The rangers bombard anywhere within great radius with a volley of arrows \n Left click icon then left click on target area"
 End
 
-CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
+TOOLTIP:ToolTipToggleGFighterLineToBlockFormation
 "Research Banner Carrier upgrade at Barracks to enable this equipment \n \n +25% Armor, -30% Speed and +33% extra arrow resistance"
 END
 
@@ -47216,7 +47300,7 @@ END
 
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requires Level 8 \n Allies surrounding Glorfindel in a large radius become healed and gain \n +33% Armor, 50% Damage,  \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n Heals Monsters, Infantry, Cavalry and Builders \n Respawns allied hordes. \n Left click to activate" 
+"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, double armor \n \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
