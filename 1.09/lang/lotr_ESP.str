@@ -15288,7 +15288,7 @@ CONTROLBAR:ConstructGoblinFighterHorde
 END
 
 CONTROLBAR:ConstructGoblinArcherHorde
-"Arqueros trasgos (&V)"
+"Arqueros trasgos (&L)"
 END
 
 CONTROLBAR:ToolTipBuildGoblinFighterHorde
@@ -15443,7 +15443,7 @@ CONTROLBAR:ToolTipBuildWildSpiderlingHorde
 END
 
 CONTROLBAR:ConstructWildSpiderRiderHorde
-"Jinetes de arañas &trasgo"
+"Jinetes de arañas trasgo (&L)"
 END
 
 CONTROLBAR:ConstructWildMountainGiant
@@ -15455,7 +15455,7 @@ CONTROLBAR:ToolTipBuildWildMountainGiant
 END
 
 CONTROLBAR:ConstructWildMarauderHorde
-"Merodeadores semitroll (&V)"
+"&Merodeadores semitroll"
 END
 
 OBJECT:MordorEasterling
@@ -16651,7 +16651,7 @@ CONTROLBAR:ArwenMount
 END
 
 CONTROLBAR:GlorfindelMount
-"Montar/Desmontar (&R)"
+"Montar/Desmontar (&C)"
 END
 
 CONTROLBAR:ToolTipArwenMount
@@ -26228,7 +26228,7 @@ CONTROLBAR:Tooltipconstructelvenporter
 END
 
 CONTROLBAR:ConstructElvenLorienArcherHorde
-"Entrena&r arqueros de Lórien"
+"Ent&renar arqueros de Lórien"
 END
 
 OBJECT:ElvenEntsMoot
@@ -28772,7 +28772,7 @@ CONTROLBAR:ToolTipConstructMordorBarricadeExpansion
 END
 
 CONTROLBAR:ConstructMordorGateWatchersExpansion
-"Expansión de &vigilantes de la puerta (&W)"
+"Expansión de vigilantes de la puerta (&W)"
 END
 
 CONTROLBAR:ToolTipConstructMordorGateWatchersExpansion
@@ -38574,7 +38574,7 @@ Upgrade:FortressMurderofCrows
 END
 
 UPGRADE:Upgrade_IsengardWallHub
-"&Centro amurallado"
+"Centro amurallado"
 END
 
 UPGRADE:Upgrade_IsengardWallRegularGate
@@ -38666,7 +38666,7 @@ UPGRADE:WildBasicTraining
 END
 
 Upgrade:MenWallHub
-"&Centro amurallado"
+"Centro amurallado"
 END
 
 Upgrade:MenGate
@@ -38782,7 +38782,7 @@ UPGRADE:DwarvenBarracksLevel3
 END
 
 UPGRADE:Upgrade_DwarvenWallHub
-"&Centro amurallado"
+"Centro amurallado"
 END
 
 UPGRADE:Upgrade_DwarvenWallRegularGate
@@ -38938,7 +38938,7 @@ UPGRADE:ElderRacesWarBarding
 END
 
 UPGRADE:Upgrade_ElvenWallHub
-"&Centro amurallado"
+"Centro amurallado"
 END
 
 UPGRADE:Upgrade_ElvenWallRegularGate
@@ -44697,11 +44697,11 @@ CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade
 END
 
 CONTROLBAR:GoblinKingSkullTotem
-"&Tótem de cráneo"
+"Tótem de c&ráneo"
 END
 
 CONTROLBAR:GoblinKingMount
-"Monta&r/Desmontar]"
+"Mon&tar/Desmontar"
 END
 
 CONTROLBAR:GoblinKingPoisonedStinger
