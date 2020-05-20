@@ -5171,17 +5171,17 @@ END
 
 Version:Format4
 // context: TRANSLATE ONLY THE WORD Build. DO NOT MODIFY THE VARIABLES  
-"1.09"
+"%d.%02d.%d Build %d %c%c"
 END
 
 Version:Format3
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"1.09"
+"Version %d.%02d.%d"
 END
 
 Version:Format2
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"1.09"
+"Version %d.%02d"
 END
 
 Version:BuildTime
@@ -8078,7 +8078,7 @@ CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"+20% Armor, +25% arrow resistance, -30% Speed"
+"+25% Armor, -40% Speed"
 END
 
 CONTROLBAR:ToolTipToggleGFighterBlockToLineFormation
@@ -9734,7 +9734,7 @@ OBJECT:BarrowWight
 END
 
 OBJECT:GenericCaveTroll
-"Systematic's Cave Troll"
+"Cave Troll"
 END
   
 OBJECT:GenericWargRider
@@ -14868,7 +14868,7 @@ CONTROLBAR:WarChant
 End
 
 CONTROLBAR:TooltipEnshroudingMist
-"Friendly units within the mist become stealthed \n Significantly reduces Armor and Damage from enemy hordes, heros and monsters \n Enemies lose their simple leadership bonuses \n\n Left click icon and left click on target area"
+"Friendly units within the mist become stealthed \n Significantly reduces enemy Armor and Damage \n Left click icon and left click on target area"
 END
 
 CONTROLBAR:Industry
@@ -14909,7 +14909,7 @@ CONTROLBAR:FueltheFires
 End
 
 CONTROLBAR:ToolTipFueltheFires
-"+65% resources from harvesting trees \n Lumber Mills gain +20% armor \n Works on Allies \n Passive power \n Fortress must be present"
+"+100% resources from harvesting trees \n Passive power"
 End
 
 CONTROLBAR:PlusCommandPoints
@@ -14937,7 +14937,7 @@ CONTROLBAR:FreezingRain
 End
 
 CONTROLBAR:ToolTipFreezingRain
-"Temporarily covers the map in rain \n All enemy units lose their simple and high tier leadership bonuses \n Left click to activate"
+"Temporarily covers the map in rain \n All enemy units lose their leadership bonuses \n Left click to activate"
 END
 
 CONTROLBAR:Plus1Nazgul
@@ -15019,7 +15019,7 @@ CONTROLBAR:Rebuild
 End
 
 CONTROLBAR:TooltipRebuild
-"Heals 4000 health-points from any structure \n Left click icon then left click on target structures"
+"Heals structures \n Left click icon then left click on target structures"
 End
 
 CONTROLBAR:Draft
@@ -15071,7 +15071,7 @@ CONTROLBAR:CloudBreak
 End
 
 CONTROLBAR:ToolTipCloudBreak
-"Cancels Freezing Rain or Darkness \n Stuns enemy units for 10 seconds \n Heals and revives allied units during 15 seconds \n Left click to activate"
+"Cancels Freezing Rain or Darkness \n Stuns enemy units \n Left click to activate"
 END
 
 CONTROLBAR:ElvenWood
@@ -15079,7 +15079,7 @@ CONTROLBAR:ElvenWood
 End
 
 CONTROLBAR:ToolTipElvenWood
-"Creates lush terrain \n Allied units gain double armor \n Left click icon then left click on target area"
+"Creates lush terrain \n All ally units gain +50% Armor \n All enemy units lose their leadership bonuses \n Does not affect Heroes \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -15143,7 +15143,7 @@ CONTROLBAR:SummonTomBombadil
 END
 
 CONTROLBAR:TooltipSummonTomBombadil
-"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. \n It's told that he's the human personification of Eru, who created Ëa \n Left click icon then left click on pathable location"
+"Summons Tom Bombadil \n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:SummonHobbitAllies
@@ -15163,7 +15163,7 @@ CONTROLBAR:LoneTower
 END
 
 CONTROLBAR:TooltipLoneTower
-"Summons a defensive tower \n Provides leadership, healing & respawn for allied units\n Can be improved with Stonework \n\n Requires respective fortress upgrades \n\n Left click icon then left click on pathable location"
+"Summons a defensive tower \n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:ArrowVolley
@@ -15187,7 +15187,7 @@ CONTROLBAR:Undermine
 END
 
 CONTROLBAR:TooltipUndermine
-"Places a Mine Shaft anywhere on the map \n Mine Shaft becomes immediately connected to tunnel network \n Deals high damage at spawn point and light damage in the perimeter\n Left click icon then left click on visible location"
+"Places a Mine Shaft anywhere on the map \n Mine Shaft becomes immediately connected to tunnel network \n Left click icon then left click on visible location"
 END
 
 OBJECT:UndermineMineShaft
@@ -15283,7 +15283,7 @@ CONTROLBAR:ToolTipBuildGondorFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
-"Strong vs. Cavalry and \n Unit Production Buildings"
+"Strong vs. Cavalry"
 END
 
 CONTROLBAR:ToolTipBuildGondorTrebuchet
@@ -15311,7 +15311,7 @@ CONTROLBAR:ConstructGondorPeasant
 END
 
 CONTROLBAR:ToolTipBuildNumenorStoneworkUpgrade
-"Increased armor to walls and towers \n Pre-requisite for Mighty Catapult \n\n Upgrades summoned Lone Towers"
+"Increased armor to walls and towers"
 END
 
 CONTROLBAR:ToolTipBuildReinforcedGateUpgrade
@@ -15323,7 +15323,7 @@ CONTROLBAR:ToolTipBuildIronOreUpgrade
 END
 
 CONTROLBAR:ToolTipBuildGrandHarvestUpgrade
-"+15% resources from farms \n Player must maintain a Marketplace to benefit from this upgrade"
+"+10% resources from farms \n Player must maintain a Marketplace to benefit from this upgrade"
 END
 
 CONTROLBAR:ToolTipBuildSiegeMaterialsUpgrade
@@ -15578,7 +15578,7 @@ CONTROLBAR:ConstructGoblinArcherHorde
 "Goblin &Archers"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde
-"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
+"Strong vs. Pikemen"
 END
 CONTROLBAR:ConstructGoblinCave
 "Build Goblin Cave"
@@ -15680,9 +15680,9 @@ CONTROLBAR:ConstructWildSpiderPitLevel3Upgrade
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderPitLevel3Upgrade
-"Level 3: +25% Faster Build Speed" 
+"Level 3: +25% Faster Build Speed \n Allows research of Venom Sacs"
 END
-// "\n Allows research of Venom Sacs"
+
 CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
 "&Upgrade Treasure Trove to Level 2"
 END
@@ -15690,7 +15690,6 @@ END
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade
 "Level 2: Allows research of the Forged Blades upgrade"
 END
-// \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry
 
 CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
 "&Upgrade Treasure Trove to Level 3"
@@ -15699,7 +15698,6 @@ END
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
 "Level 3: Allows research of the Fire Arrows upgrade"
 END
-// \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry"
 
 CONTROLBAR:ConstructWildSpiderlingHorde
 "Spider&lings"
@@ -15773,7 +15771,7 @@ CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair
 END
 
 CONTROLBAR:ToolTipBuildMordorEasterlingHorde
-"Strong vs. Cavalry and \n Unit Production Buildings"
+"Strong vs. Cavalry"
 END
 
 CONTROLBAR:ConstructMordorPorter
@@ -15813,7 +15811,7 @@ CONTROLBAR:ToolTipBuildMordorCatapult
 "Requires Level 2 Great Siege Works \n Strong vs. Structures"
 END
 CONTROLBAR:ToolTipBuildMordorGrond
-"Requires Level 3 Siege Works \n Used to break down gates"
+"Requires Level 1 Siege Works \n Used to break down gates"
 END
 CONTROLBAR:ToolTipBuildMordorBannerOrc
 "Requires Level 2 Orc Pit \n Upgrades a horde to Level 2"
@@ -15944,7 +15942,7 @@ CONTROLBAR:ConstructIsengardFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildIsengardPikemen
-"Strong vs. Cavalry and \n Unit Production Buildings"
+"Strong vs. Cavalry"
 END
 
 CONTROLBAR:ToolTipBuildIsengardSiegeLadder
@@ -16198,7 +16196,7 @@ CONTROLBAR:ToolTipSpecialAbilityEntFindRock
 END
 
 CONTROLBAR:tooltipCommand_ToggleEntRockThrow
-"Toggle Rock-Throw Mode [&T]"
+"Toggle Rock-Throw Mode"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk
@@ -16210,7 +16208,7 @@ CONTROLBAR:ToolTipSpecialAbilityGrabAndEatPassenger
 END
 
 CONTROLBAR:ToolTipSpecialAbilityIgnite
-"The Balrog gains double Damage and double Armor \n Left click to activate"
+"The Balrog gains +200% Damage and +50% Armor \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFlamingSword
@@ -16292,6 +16290,10 @@ CONTROLBAR:ToolTipLightTorch
 "Used to detonate explosive mines \n Left click to activate"
 END
 
+CONTROLBAR:TooltipBladeMaster
+"Requires Level 2 \n Aragorn gains +100% Damage and +100% Armor \n Left click to activate"
+END
+
 CONTROLBAR:ToolTipNarsilAttack
 "Use to defeat Sauron \n left click to activate"
 END
@@ -16312,6 +16314,10 @@ CONTROLBAR:ToolTipElendil
 "Requires Level 6 \n Causes nearby enemy units to flee \n Left click to activate"
 END
 
+CONTROLBAR:Oathbreakers
+"Oathbrea&kers"
+END
+
 CONTROLBAR:ToolTipOathbreakers
 "Requires Level 10 \n Summons the Army of the Dead \n Left click icon then left click on pathable location"
 END
@@ -16321,7 +16327,7 @@ CONTROLBAR:ToolTipHawkStrike
 END
 
 CONTROLBAR:ToolTipTrainArchers
-"Requires Level 3 \n Targeted archers gain experience \n Left click icon then left click on target archers"
+"Requires Level 4 \n Targeted archers gain experience \n Left click icon then left click on target archers"
 END
 
 CONTROLBAR:MonsterSlayer
@@ -16334,6 +16340,10 @@ END
 
 CONTROLBAR:WarSpeech
 "War Speech"
+END
+
+CONTROLBAR:Leadership
+"Leadership"
 END
 
 CONTROLBAR:InspiringPresence
@@ -16365,7 +16375,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Allies near Tom Bombadil gain \n +25% Damage, +25% Armor, \n and earn experience +50% faster \n Always stacks \n \n Passive ability"
+"Allies near Tom Bombadil gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n \n Passive ability       Does not stack"
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -16597,7 +16607,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Phial of Galadriel (&T)"
+"&Phial of Galadriel"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -16653,7 +16663,7 @@ CONTROLBAR:ToolTipLightningSword
 END
 
 CONTROLBAR:ToolTipWoundingArrow
-"Requires Level 2 \n Single ranged attack that causes high damage and certain monsters to flee \n Causes meta-impact \n Left click icon then left click on target"
+"Requires Level 2 \n Single ranged attack that causes target to flee \n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipCaptainofGondor
@@ -16700,7 +16710,7 @@ CONTROLBAR:ToggleLooseFormation
 "Loose For&mation"
 END
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-30% Speed \n +20% Armor \n +25% arrow resistance"
+"-40% Speed \n +25% Armor"
 END
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
 "Default Formation"
@@ -16712,7 +16722,7 @@ CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLooseFormation
 "Default Formation"
 END
 CONTROLBAR:ToolTipToggleFighterLooseToBlockFormation
-"-30% Speed \n +20% Armor \n +25% arrow resistance"
+"-40% Speed \n +25% Armor"
 END
 CONTROLBAR:ToolTipToggleFighterBlockToLooseFormation
 "Default Formation"
@@ -16737,11 +16747,11 @@ CONTROLBAR:ToolTipSpeechCraft
 END
 
 CONTROLBAR:ToolTipDisguise
-"Requires Level 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them \n Left click to activate"
+"Requires Level 4 \n Disguise as a normal Rohirrim \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Requires Level 5 \n Eowyn gains 65% Armor \n Halves the deceleration rate of friendly Rohirrims when trampling\n Cancels the disguise \n Left click to activate"
+"Requires Level 5 \n Eowyn gains +65% Armor \n Left click to activate"
 END
 
 CONTROLBAR:ToggleTrebWeapon
@@ -16785,7 +16795,7 @@ CONTROLBAR:TooltipSplitHorde
 End
 
 CONTROLBAR:GarrisonExit
-"Evacua&te"
+"Evacuate"
 END
 
 CONTROLBAR:ToolTipStructureExit
@@ -21007,6 +21017,9 @@ END
 LWA:FellowshipArmy
 "The Fellowship"
 END
+LWA:ElvesArmy
+"Elven Army"
+END
 LWA:EntsArmy
 "Ents"
 END
@@ -22752,11 +22765,11 @@ Map:MAPMPAnfalas/Desc
 END
 
 Map:MAPMPAnorien/Desc
-"The northwestern territory of Gondor that forms the border between Gondor and Rohan."
+"The northwestern territory of Gondor that forms the border between Gondor and Rohan.\nStarting Positions: Castles \nExpansion Points: 1 \nSettlements: 8 \nLairs: Troll and Warg"
 END
 
 Map:MAPMPBelfalas/Desc
-"This territory of Gondor is formed from a large peninsula that juts out into the Bay of Belfalas."
+"This territory of Gondor is formed from a large peninsula that juts out into the Bay of Belfalas.\nStarting Positions: Castles \nExpansion Points: 3 \nSettlements: 13 \nLairs: Troll and Goblin"
 END
 
 Map:MAPMPBlackGate/Desc
@@ -22768,7 +22781,7 @@ Map:MAPMPCairAndros/Desc
 END
 
 Map:MAPMPCentralIthilien/Desc
-"A land in eastern Gondor, bordering the mountains that divide Gondor from Mordor."
+"A land in eastern Gondor, bordering the mountains that divide Gondor from Mordor.\nStarting Positions: Castles\nExpansion Points: 4\nSettlements: 12\nLairs: Troll and Goblin"
 END
 
 Map:MAPMPCrossroads/Desc
@@ -22776,7 +22789,7 @@ Map:MAPMPCrossroads/Desc
 END
 
 Map:MAPMPDagorlad/Desc
-"Dark, barren plains lying outside the Black Gate of Mordor."
+"Dark, barren plains lying outside the Black Gate of Mordor.\nStarting Positions: Camps\nExpansion Points: 8\nSettlements: 16\nLairs: Goblin"
 END
 
 Map:MAPMPDeadMarshes/Desc
@@ -22784,11 +22797,11 @@ Map:MAPMPDeadMarshes/Desc
 END
 
 Map:MAPMPDruadanForest/Desc
-"An old forest at the foot of the White Mountains, to the northwest of Minas Tirith."
+"An old forest at the foot of the White Mountains, to the northwest of Minas Tirith.\nStarting Positions: Castles\nExpansion Points: 4\nSettlements: 16\nLairs: Goblin"
 END
 
 Map:MAPMPDunharrow/Desc
-"A gathering point for the people of Rohan, located at the foot of the White Mountains."
+"A gathering point for the people of Rohan, located at the foot of the White Mountains. \nStarting Positions: Castles\nExpansion Points: 4\nSettlements: 8\nLairs: Troll, Goblin and Warg"
 END
 
 Map:MAPMPEastEmnet/Desc
@@ -22800,19 +22813,19 @@ Map:MAPMPEastRohan/Desc
 END
 
 Map:MAPMPEastfold/Desc
-"The eastern lands of Rohan, bordering Gondor."
+"The eastern lands of Rohan, bordering Gondor. \nStarting Positions: Castles\nExpansion Points: 3\nSettlements: 10\nLairs: Troll and Goblin"
 END
 
 Map:MAPMPEavesofFangorn/Desc
-"The golden lands that lie at the edge of Fangorn Forest."
+"The golden lands that lie at the edge of Fangorn Forest. \nStarting Positions: Castles\nExpansion Points: 3\nSettlements: 6\nLairs: Troll and Warg"
 END
 
 Map:MAPMPEmynArnen/Desc
-"Green, lush lands in central Gondor, bordering the dark mountains that separate Gondor from Mordor in the east."
+"Green, lush lands in central Gondor, bordering the dark mountains that separate Gondor from Mordor in the east.\nStarting Positions: Castles\nExpansion Points: 1\nSettlements: 8\nLairs: Troll and Goblin"
 END
 
 Map:MAPMPEmynMuil/Desc
-"Dark, rocky labyrinthine hills that Gollum led Frodo and Sam through on their way to Mordor."
+"Dark, rocky labyrinthine hills that Gollum led Frodo and Sam through on their way to Mordor.\nStarting Positions: Castles\nExpansion Points: 2\nSettlements: 8\nLairs: Troll"
 END
 
 Map:MAPMPEnedwaith/Desc
@@ -22832,7 +22845,7 @@ Map:MAPMPGapofRohan/Desc
 END
 
 Map:MAPMPHalifirien/Desc
-"A tall forested hill lying at the border that separates Gondor from Rohan."
+"A tall forested hill lying at the border that separates Gondor from Rohan.\nStarting Positions: Castles\nExpansion Points: 3\nSettlements: 8\nLairs: Warg"
 END
 
 Map:MAPMPHarlond/Desc
@@ -22848,7 +22861,7 @@ Map:MAPMPLebennin/Desc
 END
 
 Map:MAPMPMirkwood/Desc
-"A great forest to the east of the Misty Mountains."
+"A great forest to the east of the Misty Mountains.\nStarting Positions: Castles\nExpansion Points: 0\nSettlements: 12\nLairs: Troll, Goblin and Warg"
 END
 
 Map:MAPMPMtDoom/Desc
@@ -22856,15 +22869,15 @@ Map:MAPMPMtDoom/Desc
 END
 
 Map:MAPMPNearHarad/Desc
-"A barren, desert land that lies south of Mordor. It is the homeland of the Haradrim warriors."
+"A barren, desert land that lies south of Mordor. It is the homeland of the Haradrim warriors.\nStarting Positions: Camps\nExpansion Points: 3\nSettlements: 12\nLairs: Goblin\nBuild Restrictions: No Siege Ladders or Towers"
 END
 
 Map:MAPMPMouthsofEntwash/Desc
-"The wet, marshy land where the Entwash River flows into the Anduin."
+"The wet, marshy land where the Entwash River flows into the Anduin.\nStarting Positions: Castles\nExpansion Points: 6\nSettlements: 11\nLairs: Warg"
 END
 
 Map:MAPMPNorthernIthilien/Desc
-"The northern lands of Gondor, where Faramir first encountered Frodo and Sam, on their journey to Mordor."
+"The northern lands of Gondor, where Faramir first encountered Frodo and Sam, on their journey to Mordor.\nStarting Positions: Castles\nExpansion Points: 3\nSettlements: 8\nLairs: Troll and Goblin"
 END
 
 Map:MAPMPNurn/Desc
@@ -22872,7 +22885,7 @@ Map:MAPMPNurn/Desc
 END
 
 Map:MAPMPBrownLands/Desc
-"A rocky, desolate area that lies to the south of Mirkwood."
+"A rocky, desolate area that lies to the south of Mirkwood.\nStarting Positions: Castles\nExpansion Points: 6\nSettlements: 16\nLairs: Goblin"
 END
 
 Map:MAPMPOsgiliath/Desc
@@ -22900,11 +22913,11 @@ Map:MAPMPWestEmnet/Desc
 END
 
 Map:MAPMPWold/Desc
-"An old, desolate area to the north of the Summit of Amon Hen."
+"An old, desolate area to the north of the Summit of Amon Hen.\nStarting Positions: Castles\nExpansion Points: 6\nSettlements: 14\nLairs: Goblin and Warg"
 END
 
 Map:MAPMPWestfold/Desc
-"A rocky, lightly wooded land in the western region of Rohan. \n\nEdited by Ecthelion"
+"A rocky, lightly wooded land in the western region of Rohan.\nStarting Positions: Castles\nExpansion Points: 4\nSettlements: 10\nLairs: Troll, Goblin and Warg"
 END
 
 Map:MAPMPSHelmsDeep/Desc
@@ -25132,6 +25145,14 @@ UPGRADE:MordorFireArrowUpgrade
 "Fire Arrows"
 END
 
+UPGRADE:WildFireArrowUpgrade
+"Fire Arrows"
+END
+
+UPGRADE:WildForgedBlades
+"Forged Blades"
+END
+
 TOOLTIP:LackLevel2Blacksmith
 "Requires Level 2 Blacksmith"
 END
@@ -26167,8 +26188,16 @@ CONTROLBAR:PurchaseUpgradeMenFortressBanners
 "Ba&nners"
 END
 
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
+"Provides additional experience to nearby troops \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+END
+
 CONTROLBAR:PurchaseUpgradeMenFortressHouseOfHealing
 "House of Healin&g"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
+"Reduces hero revival cost by 20% \n Reduces hero revival time by 20%"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
@@ -26176,7 +26205,7 @@ CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower
-"Provides Palantir Vision \n Grants a speed bonus to player units in the map \n Always stack \n Increases Fortress vision range"
+"Provides Palantir Vision Power \n Increases Fortress vision range"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressBoilingOil
@@ -26333,7 +26362,7 @@ CONTROLBAR:ConstructDwarvenStatue
 END
 
 CONTROLBAR:TooltipConstructDwarvenStatue
-"Allies near the statue gain \n +50% Armor \n Increases command point limit by 10"
+"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack \n Increases command point limit by 10"
 END
 
 CONTROLBAR:ConstructDwarvenArcheryRange
@@ -26402,7 +26431,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStonework
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
-"Provides additional armor to the Fortress and walls \n Pre-requisite for Mighty Catapult\n\n Upgrades summoned Lone Towers"
+"Provides additional armor to the Fortress and walls \n Pre-requisite for Mighty Catapult"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions
@@ -26413,12 +26442,16 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressBanners
 "Ba&nners"
 END
 
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
+"Provides additional experience to nearby troops \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+END
+
 CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
 "Siege &Kegs"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
-"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers"
+"Heals allies nearby the Fortress and in Halls \n Adds additional hit points to the Fortress"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
@@ -26599,7 +26632,7 @@ CONTROLBAR:ConstructDwarvenPhalanxHorde
 END
 
 CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde
-"Strong vs. Cavalry and \n Unit Production Buildings"
+"Strong vs. Cavalry"
 END
 
 CONTROLBAR:ConstructDwarvenAxeThrowerHorde
@@ -26737,7 +26770,7 @@ CONTROLBAR:WildGoblinKingHotkey
 END
 
 CONTROLBAR:WildGoblinKingRecruit
-"Recruit Gorkil - leader of the Goblins"
+"Recruit the leader of the Goblins"
 END
 
 CONTROLBAR:WildDrogothHotkey
@@ -26757,7 +26790,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressDragonNest
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest
-"Allows summoning of a Fire Drake \n Heals Drogoth \n Reduces Drogoth revival time by 10%"
+"Allows summoning of a Fire Drake"
 END
 
 
@@ -26827,7 +26860,7 @@ OBJECT:WildMineShaft
 END
 
 OBJECT:WildMineShaftDescription
-"Generates resources based on available terrain Provides access to the tunnel network \n Increases command point limit by 50\n Level 2: +25% extra armor \n Level 3: +25% extra armor"
+"Generates resources based on available terrain Provides access to the tunnel network \n Increases command point limit by 50"
 END
 
 OBJECT:WildSpiderPit
@@ -27013,7 +27046,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressMysticFountains
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains
-"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress."
+"Provides healing to nearby troops \n Heroes revive 25% faster at this Fortress"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressEnchantedAnvil
@@ -27021,7 +27054,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressEnchantedAnvil
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEnchantedAnvil
-"Reduces the cost of Elven unit upgrades: \n 1 fortress with anvil = 20% cheaper \n 2 fortresses with anvil = 30% cheaper \n 3 fortresses with anvil = 40% cheaper \n 4 fortresses with anvil = 50% cheaper \n 5 fortresses with anvil = 60% cheaper"
+"Reduces the cost of Elven unit upgrades: \n 1 fortress with anvil = 10% cheaper \n 2 fortresses with anvil = 20% cheaper \n 3 fortresses with anvil = 25% cheaper \n 4 fortresses with anvil = 30% cheaper \n 5 fortresses with anvil = 35% cheaper"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressBlessedMist
@@ -27037,7 +27070,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressCrystalMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat
-"Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Always stacks"
+"Decreases the melee vulnerability of the Fortress"
 END
 
 CONTROLBAR:ToolTipElvenEntMoot
@@ -27059,7 +27092,6 @@ END
 CONTROLBAR:ToolTipBuildEregionForgeLevel2
 "Allows research of the Forged Blades Upgrade"
 END
-// \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
 
 CONTROLBAR:PurchaseUpgradeEregionForgeLevel3
 "&Upgrade Eregion Forge to Level 3"
@@ -27068,7 +27100,6 @@ END
 CONTROLBAR:ToolTipBuildEregionForgeLevel3
 "Allows research of Silverthorn Arrows"
 END
-// \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
 
 CONTROLBAR:ToolTipGreenPasture
 "Trains Elven Cavalry"
@@ -27116,6 +27147,10 @@ END
 
 CONTROLBAR:ConstructElvenStatue
 "Build Hero&ic Statue"
+END
+
+CONTROLBAR:ToolTipElvenStatue
+"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack""
 END
 
 CONTROLBAR:ConstructElvenBattleTower
@@ -27199,7 +27234,7 @@ CONTROLBAR:ConstructElvenMithlondSentryHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
-"Strong vs. Cavalry and \n Unit Production Buildings \n Can stealth near trees"
+"Strong vs. Cavalry \n Can stealth near trees"
 END
 
 CONTROLBAR:BuildElvenRivendellLancers
@@ -27248,7 +27283,7 @@ OBJECT:ElvenStatue
 END
 
 OBJECT:ElvenStatueDescription
-"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack"
+"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack""
 END
 
 OBJECT:ElvenMirrorofGaladriel
@@ -27549,8 +27584,6 @@ END
 CONTROLBAR:LW_Hero_Gandalf
 "Gandalf"
 END
-
-
 
 CONTROLBAR:LW_ToolTipBuild_Gandalf
 "Unit Type: Hero\n"
@@ -28692,7 +28725,7 @@ CONTROLBAR:LW_ToolTip_Shelob
 END
 
 CONTROLBAR:LW_Hero_GoblinKing
-"Valheru The Goblin King"
+"Gorkil The Goblin King"
 END
 
 CONTROLBAR:LW_ToolTipBuild_GoblinKing
@@ -29682,7 +29715,7 @@ CONTROLBAR:Barricade
 END
 
 CONTROLBAR:TooltipBarricade
-"Summons a defensive tower garrisoned with archers \n Upgradeable with Fortress Fire Arrows \n Left click icon then left click on pathable location"
+"Summons a defensive tower garrisoned with archers \n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:ArrowVolleyEvil
@@ -29738,7 +29771,7 @@ CONTROLBAR:Sunflare
 END
 
 CONTROLBAR:TooltipSunflare
-"Calls a fiery beam of sunlight to scorch the battlefield \n Effective against weak heros \n Cancels Darkness & Frezzing Rain \n Left click icon then left click on target area"
+"Calls a fiery beam of sunlight to scorch the battlefield \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:CaveBats
@@ -29746,7 +29779,7 @@ CONTROLBAR:CaveBats
 END
 
 CONTROLBAR:TooltipCaveBats
-"Reveals the shroud and detects stealthed units \n Enemy units lose their simple leadership bonuses \n Significantly reduces enemy Armor and Damage \n\n Left click icon then left click on pathable location"
+"Reveals the shroud and detects stealthed units \n Significantly reduces enemy Armor and Damage \n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:UntamedAllegiance
@@ -29815,7 +29848,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressRazorSpines
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines
-"Continuosly damages enemy units adjacent to the Fortress \n Heals nearby units"
+"Damages enemy units adjacent to the Fortress"
 END
 
 CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows
@@ -29900,7 +29933,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressBurningForges
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressBurningForges
-"Reduces the cost of Isengard unit Upgrades \n 1 Fortress with Burning Forges = 10% cheaper \n 2 Fortresses with Burning Forges = 20% cheaper \n 3 Fortresses with Burning Forges = 30% cheaper \n 4 Fortresses with Burning Forges = 40% cheaper \n 5 Fortresses with Burning Forges = 50% cheaper"
+"Reduces the cost of Isengard unit Upgrades \n 1 Fortress with Burning Forges = 10% cheaper \n 2 Fortresses with Burning Forges = 20% cheaper \n 3 Fortresses with Burning Forges = 25% cheaper \n 4 Fortresses with Burning Forges = 30% cheaper \n 5 Fortresses with Burning Forges = 35% cheaper"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations
@@ -29908,7 +29941,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations
-"Heals nearby Allies. \n Replenish units from hordes each 10 seconds.\n Reduces the cost of Isengard structures and walls \n 1 Fortress with Excavations = 7.5% cheaper \n 2 Fortresses with Excavations = 15% cheaper \n 3 Fortresses with Excavations = 20% cheaper \n 4 Fortresses with Excavations = 25% cheaper \n 5 Fortresses with Excavations = 33% cheaper"
+"Reduces the cost of Isengard structures and walls \n 1 Fortress with Excavations = 10% cheaper \n 2 Fortresses with Excavations = 20% cheaper \n 3 Fortresses with Excavations = 25% cheaper \n 4 Fortresses with Excavations = 30% cheaper \n 5 Fortresses with Excavations = 35% cheaper"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressMurderOfCrows
@@ -30049,7 +30082,7 @@ CONTROLBAR:PurchaseUpgradeMordorFortressDoomPyres
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres
-"Provides 25% damage and 25% experience to nearby troops \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Provides additional experience to nearby troops \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressMagmaCauldrons
@@ -30065,7 +30098,7 @@ CONTROLBAR:PurchaseUpgradeMordorFortressLavaMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat
-"Decreases melee vulnerability of the Fortress \n Heals Nearby Units"
+"Decreases melee vulnerability of the Fortress"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressGorgorothSpire
@@ -30178,7 +30211,7 @@ CONTROLBAR:Citadel
 END
 
 CONTROLBAR:TooltipCitadel
-"Places a Citadel Fortress anywhere on the battlefield \n Connected to the tunnel network \n Left click icon then left click on pathable location"
+"Places a Citadel Fortress anywhere on the battlefield \n Left click icon then left click on pathable location"
 END
 
 
@@ -30205,7 +30238,7 @@ CONTROLBAR:ToolTipAncientMaster
 END
 
 CONTROLBAR:ToolTipMouthOfSauronDoubt
-"Requires Level 4 \n Significantly reduces enemy Armor and Damage from enemy hordes and heroes.\n Enemy units lose their simple leadership bonuses \n Left click icon then left click on target units"
+"Requires Level 4 \n Significantly reduces enemy Armor and Damage \n Left click icon then left click on target units"
 END
 
 CONTROLBAR:DreadVisage
@@ -30213,7 +30246,7 @@ CONTROLBAR:DreadVisage
 END
 
 CONTROLBAR:ToolTipDreadVisage
-"Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Passive ability"
+"Significantly reduces enemy Armor and Damage \n Passive ability"
 END
 
 CONTROLBAR:ToolTipBlackRiderMorgulBlade
@@ -30221,7 +30254,7 @@ CONTROLBAR:ToolTipBlackRiderMorgulBlade
 END
 
 CONTROLBAR:ToolTipBackstab
-"Requires Level 6 \n High damage melee attack that also poisons targeted enemy \n Can be used against Flyers \n Left click icon then left click on target"
+"Requires Level 6 \n High damage melee attack that also poisons targeted enemy \n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipCorrodeAllegiance
@@ -30229,7 +30262,7 @@ CONTROLBAR:ToolTipCorrodeAllegiance
 END
 
 CONTROLBAR:ToolTipTameTheBeast
-"Requires Level 9 \n Targeted cavalry units come under Sharku's control \n Left click icon then left click on target"
+"Requires Level 2 \n Target wargs or warg riders come under Sharku's control \n Left click icon then left click on target"
 END
 
 CONTROLBAR:BloodHunt
@@ -30237,7 +30270,7 @@ CONTROLBAR:BloodHunt
 END
 
 CONTROLBAR:ToolTipGlorfindelWindRider
-"Requires Level 6 \n Glorfindel gains +40% speed and Double Armor when mounted \n Left click to activate"
+"Requires Level 6 \n Glorfindel gains +60% speed and Double Armor when mounted \n Left click to activate"
 END
 
 CONTROLBAR:WildWalk
@@ -30249,7 +30282,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Bonus cannot be removed and always stack\n Dain becomes able to reveal stealth.\n Passive ability"
+"Requires Level 7 \n Grants all nearby allies resistance to fear \n Passive ability"
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
@@ -30269,7 +30302,7 @@ CONTROLBAR:ToolTipGloinSmash
 END
 
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger
-"Requires Level 6 \n Can only use when mounted \n Targeted enemy takes poison damage during 25 seconds. \n Targeted heroes are paralyzed during 6 seconds.\n Left click icon then left click on target"
+"Requires Level 6 \n Can only use when mounted \n Targeted enemy becomes stunned and takes poison damage over time \n Left click icon then left click on target"
 END
 
 
@@ -30282,7 +30315,7 @@ CONTROLBAR:TooltipWildShelobInstillTerror
 END
 
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel
-"Requires Level 7 \n Allows Shelob to tunnel under the ground and emerge at any unshrouded location \n Left click icon then left click on target location"
+"Requires Level 10 \n Allows Shelob to tunnel under the ground and emerge at any unshrouded location \n Left click icon then left click on target location"
 END
 
 CONTROLBAR:SpecialAbilityFireDrakeInferno
@@ -30326,7 +30359,7 @@ CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight
 END
 
 CONTROLBAR:ToolTipHourOfTheWitchKing
-"Requires Level 10 \n Target Heroes in an AOE have their special ability timers reset to 60% used \n Left click icon then left click on area"
+"Requires Level 10 \n Target enemy's special ability timers are reset to just used \n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipThunderBolt
@@ -30676,7 +30709,7 @@ CONTROLBAR:SharkuWargMount
 End
 
 CONTROLBAR:ShelobWebbing
-"Web Of &Ungoliant"
+"Webbing"
 End
 
 
@@ -30742,7 +30775,7 @@ CONTROLBAR:ToolTipActivateFireShip
 End
 
 CONTROLBAR:ToolTipBarbedArrows
-"Requires Level 3\n Causes meta impact and increased damage \n Left click icon then left click on target"
+"Causes meta impact and increased damage"
 End
 
 CONTROLBAR:ToolTipBattleWagonUpgradeAxeThrowers
@@ -30784,12 +30817,10 @@ End
 CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade
 "Allows research of Heavy Armor"
 End
-// \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade
 "Allows research of Iron Ore"
 End
-// \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
 
 CONTROLBAR:ToolTipBuildGoodBombardShip
 "Elven ship equipped with a long range ballista \n Strong vs. Structures"
@@ -30810,12 +30841,10 @@ End
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel2
 "Allows research of Forged Blades and Heavy Armor"
 End
-// \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel3
 "Allows research of Fire Arrows"
 End
-// \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry
 
 CONTROLBAR:ToolTipBuildMordorAttackTroll
 "Requires Level 3 Troll Cages \n Strong vs. Swordsmen, Cavalry, and Structures"
@@ -30908,7 +30937,7 @@ CONTROLBAR:ToolTipSharkuWargMount
 End
 
 CONTROLBAR:ToolTipShelobWebbing
-"Requires Level 10 \n Cripples enemy units in spider webs  \n Heals Shelob based on total damage done "
+"Cripples enemy units in spider webs"
 End
 
 CONTROLBAR:ToolTipSpecialAbilityBatCloud
@@ -30940,7 +30969,7 @@ CONTROLBAR:ToolTipToggleThranduilWeapons
 End
 
 CONTROLBAR:ToolTipToggleTowerGuardLineToPorcupineFormation
-"The units form a circle with pikes extended \n +60% armor \n Enemy cavalry is decelerated when crush"
+"The units form a circle with pikes extended"
 End
 
 CONTROLBAR:ToolTipToggleTowerGuardPorcupineToLineFormation
@@ -30956,7 +30985,7 @@ CONTROLBAR:ToolTipWildMountainGiantStomp
 End
 
 CONTROLBAR:ToolTipWildShelobPoisonedStinger
-"Requires Level 6 \n Poisons the enemy causing damage during 30 seconds \n Paralyzes targeted heroes during 6 seconds"
+"Requires Level 6 \n Poisons the enemy causing damage over time"
 End
 
 CONTROLBAR:ToolTipWitchKingDismount
@@ -30964,7 +30993,7 @@ CONTROLBAR:ToolTipWitchKingDismount
 End
 
 CONTROLBAR:ToolTipWitchKingDreadVisage
-"Requires Level 2 \n Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Passive ability"
+"Requires Level 2 \n Significantly reduces enemy Armor and Damage \n Passive ability"
 End
 
 CONTROLBAR:ToolTipWitchKingMount
@@ -30985,7 +31014,7 @@ End
 
 
 CONTROLBAR:TooltipIvoryTowerVision
-"Reveals the entire shroud \n Player units in the map gain +10% speed \n Lasts 30 seconds"
+"Reveals the entire shroud for 30 seconds"
 End
 
 CONTROLBAR:TooltipRoar
@@ -30995,7 +31024,7 @@ End
 
 
 CONTROLBAR:TooltipSpecialAbilityDwarvenDemolisherDeploy
-"Doubles the armor but makes the demolisher immobile"
+"Increases armor but makes the demolisher immobile"
 End
 
 CONTROLBAR:TooltipSpecialAbilityOilBarrels
@@ -31479,9 +31508,9 @@ OBJECT:DwarvenLoneTower
 End
 
 OBJECT:DwarvenLoneTowerDescription
-"Fires at nearby enemies. \n Reveals stealthed enemies. \n Can receive different upgrades from the fortress."
+"Fires axes at nearby enemies"
 End
-// Note it simply says "fires", because this tooltip is being used by both lone towers.
+
 OBJECT:DwarvenMagicDoor
 "Mine Shaft"
 End
@@ -31596,6 +31625,10 @@ End
 
 OBJECT:ElvenTransportShip
 "Elven Transport Ship"
+End
+
+OBJECT:ElvenBombardShip
+"Elven Bombardment Ship"
 End
 
 OBJECT:ElvenBattleShip
@@ -32618,7 +32651,7 @@ OBJECT:ShireWorkPit
 End
 
 OBJECT:SignalFireDescription
-"Capture to decrease recharge times for unused powers \n Heals nearby Heros and Flyers."
+"Capture to decrease power recharge times"
 End
 
 OBJECT:SkullTotem
@@ -34033,7 +34066,7 @@ CONTROLBAR:Trollfindgoblintothrow
 END
 
 CONTROLBAR:ToolTipTrollfindgoblintothrow
-"Find a Goblin to pick up and throw at the enemy \nCauses terror and meta impact"
+"Find a Goblin to pick up and throw at the enemy"
 END
 
 OBJECT:NaturesWrath
@@ -38080,6 +38113,10 @@ DIALOGEVENT:MTrBas_OffT012subtitle
 "*In order to select multiple battalions quickly, click and hold the left mouse button down on empty space and drag your mouse.  A selection box will appear and any units that are in this box will be selected for you."
 END
 
+DIALOGEVENT:MTrBas_OffT013subtitle
+"*Select the battalions in that spotlight by using the selection box method."
+END
+
 DIALOGEVENT:MTrBas_OffT014subtitle
 "*Good job! Now, move those units up to the spotlight ahead by right clicking on the ground with them selected."
 END
@@ -38328,6 +38365,10 @@ DIALOGEVENT:MTrBas_OffT072subtitle
 "*And lastly, we’ll need a Hero to lead our troops. Heroes can be purchased from the Fortress. And if your Hero should fall in battle, they can be revived from the fortress as well."
 END
 
+DIALOGEVENT:MTrBas_OffT073subtitle
+"*To summon a Hero, select your fortress and click on the Heroes button. This will bring up options of all the current Heroes you’re allowed to build. Right now our Boromir is residing in our fortress."
+END
+
 DIALOGEVENT:MTrBas_OffT074subtitle
 "*Click on his portrait to summon him."
 END
@@ -38416,6 +38457,10 @@ DIALOGEVENT:MTrAdv_OffT010subtitle
 "*Excellent! Now let's have our army form up into a battle line."
 END
 
+DIALOGEVENT:MTrAdv_OffT011subtitle
+"*In order to do this, select multiple battalions and move your cursor over to the spotlight below."
+END
+
 DIALOGEVENT:MTrAdv_OffT012subtitle
 "*Now press and hold both the right and left mouse buttons and drag your mouse. You’ll notice that a Formation Preview will display on the ground. Once you release the mouse buttons,  your units will form up into this battle line."
 END
@@ -38480,6 +38525,10 @@ DIALOGEVENT:MTrAdv_OffT027subtitle
 "*To issue an \"Attack Move\" order, select your army and press the A key on your keyboard. This will change your cursor to an Attack Move cursor."
 END
 
+DIALOGEVENT:MTrAdv_OffT028subtitle
+"*Then, right click on the ground in the spotlight behind the camp. This will send your army on a path of destruction to that point, killing every enemy they encounter."
+END
+
 DIALOGEVENT:MTrAdv_OffT029subtitle
 "*It appears as though some of the Goblins have retreated over that wall. Unfortunately Goblins are able to scale walls by climbing them whereas we are not. Nor do we have any siege weapons to take down those walls quickly."
 END
@@ -38488,12 +38537,60 @@ DIALOGEVENT:MTrAdv_OffT030subtitle
 "*We’ll have to call in for greater powers to help us progress any farther."
 END
 
+DIALOGEVENT:MTrAdv_OffT031subtitle
+"*At your disposal is a list of Powers that can be purchased from the Evenstar icon located on the Palantir. Click on the Evenstar icon now."
+END
+
+DIALOGEVENT:MTrAdv_OffT032subtitle
+"*As you can see, all the Powers are tiered, which means you have to purchase the lower costing Powers in order to access the more expensive ones."
+END
+
+DIALOGEVENT:MTrAdv_OffT033subtitle
+"*In order to purchase a Power, you must have power points equal to or greater than the number associated with that power."
+END
+
+DIALOGEVENT:MTrAdv_OffT034subtitle
+"*Go ahead and purchase the Arrow Volley and Earthquake powers. They are currently the only ones available to buy."
+END
+
 DIALOGEVENT:MTrAdv_OffT035subtitle
 "*To exit, click on the Accept button at the bottom of the screen."
 END
 
+DIALOGEVENT:MTrAdv_OffT036subtitle
+"*Every time you buy a new power, it will appear on the left hand side of your screen just above the Palantir."
+END
+
+DIALOGEVENT:MTrAdv_OffT037subtitle
+"*Now back to the battle. First let’s take down those Goblins taunting us from the other side of the wall. Left click on the Arrow Volley power and move your cursor over the goblins. "
+END
+
+DIALOGEVENT:MTrAdv_OffT038subtitle
+"*To cast the power, left click on the ground."
+END
+
+DIALOGEVENT:MTrAdv_OffT039subtitle
+"*To cast the power, left click on the ground."
+END
+
+DIALOGEVENT:MTrAdv_OffT040subtitle
+"*That got ‘em good! Keep in mind that certain powers such as Arrow Volley can only be cast in areas that are visible to you."
+END
+
 DIALOGEVENT:MTrAdv_OffT041subtitle
 "*Now to get past this wall. Unfortunately the gate is in disrepair and cannot be opened, so we’ll have to destroy these walls."
+END
+
+DIALOGEVENT:MTrAdv_OffT042subtitle
+"*The Earthquake power will deal a significant amount of damage to these walls and should be enough to clear our path. "
+END
+
+DIALOGEVENT:MTrAdv_OffT043subtitle
+"*Left click on the Earthquake power now and left click underneath those walls to cast it."
+END
+
+DIALOGEVENT:MTrAdv_OffT044subtitle
+"*Left click on the Earthquake power now and right click underneath those walls to cast it."
 END
 
 DIALOGEVENT:MTrAdv_OffT045subtitle
@@ -38550,6 +38647,10 @@ END
 
 DIALOGEVENT:MTrAdv_OffT057subtitle
 "*When you’re plan has been laid out, hit the execute button and your army will march forth with their orders."
+END
+
+DIALOGEVENT:MTrAdv_OffT058subtitle
+"*We’re winning M’Lord, but their fortress is killing our army. Use your earthquake power again on their Fortress and it should take down their defenses!"
 END
 
 DIALOGEVENT:MTrAdv_OffT059subtitle
@@ -40698,7 +40799,7 @@ Stat:Killed_Glorfindel_Count_Name
 END
 
 Stat:Killed_Gorkil_The_Goblin_King_Count_Name
-"Valheru Kings Defeated"
+"Goblin Kings Defeated"
 END
 
 Stat:Killed_Haldir_Count_Name
@@ -41921,8 +42022,12 @@ CONTROLBAR:ToolTipCAH_ShieldCrush_L3
 "Hero can crush enemies and is immune to arrows for a medium duration"
 End
 
+CONTROLBAR:HeroToggleHorse
+"Allows Hero to mount a horse"
+End
+
 CONTROLBAR:ToolTipCAH_Starlight
-"Nearby allies become healed and gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast."
+"Nearby allies become healed and gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast"
 End
 
 CONTROLBAR:ToolTipCAH_Elendil
@@ -43158,7 +43263,7 @@ CONTROLBAR:CAHBladeMaster
 END
 
 CONTROLBAR:CAHElendil
-"Elendil(&V)"
+"&Elendil"
 END
 
 CONTROLBAR:CAHKingsFavor
@@ -44076,7 +44181,7 @@ OBJECT:ArgonathStatues"
 END
 
 OBJECT:HearthWellDescription
-"Heals nearby allies \n Replenish units from hordes each 10 seconds. \n Detects stealth"
+"Nearby allies will heal if not under attack"
 END
 
 CONTROLBAR:FireWeaponMightyCatapult
@@ -44993,6 +45098,10 @@ CREDITS:MPEGNotice
 "MPEG Layer-3 audio coding technology licensed from \n Fraunhofer IIS and THOMSON multimedia."
 END
 
+CREDITS:Miles
+"Uses Miles Sound System. \n Copyright © 1991-2006 \n by RAD Game Tools, Inc."
+END
+
 
 CREDITS:DevelopmentTitle2
 "The Battle for Middle-earth(tm) II"
@@ -45651,7 +45760,7 @@ CONTROLBAR:ToolTipBuildGondorFighterHorde
 "Strong vs. Pikemen\n and Resource Buildings"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
-"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed -10% pierce resistance"
+"Strong vs. Resource Buildings"
 END
 CONTROLBAR:ToolTipBuildMordorCorsairHorde
 "Strong vs. Pikemen and Structures"
@@ -45664,7 +45773,7 @@ CONTROLBAR:ToolTipBuildIsengardUrukHai
 "Strong vs. Pikemen\n and Resource Buildings"
 END
 CONTROLBAR:ToolTipBuildIsengardCrossbowmen
-"Strong vs. Infantry"
+"Strong vs. Infantry\n Resistant to arrows"
 END
 CONTROLBAR:ToolTipBuildIsengardWildmanHorde
 "Strong vs. Infantry and Structures"
@@ -45685,7 +45794,7 @@ CONTROLBAR:ToolTipBuildElvenLorienArcherHordeWithNoPrerequisites
 "Strong vs. Infantry \n Can stealth near trees"
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde
-"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed & -10% pierce resistance"
+"Strong vs. Infantry"
 END
 CONTROLBAR:ToolTipBuildMordorHaradrimHorde
 "Strong vs. Infantry and Monsters"
@@ -45830,15 +45939,19 @@ CONTROLBAR:ToolTipHeal
 END
 
 CONTROLBAR:TooltipRallyingCall
-"Targeted allies gain +50% Damage and +50% experience \n Left click icon then left click on target units"
+"Targeted allies gain +50% Damage \n Left click icon then left click on target units"
 END
 
 CONTROLBAR:TooltipDwarvenRiches
 "Selected structure's resource output is temporarily raised to 300% \n Left click icon then left click on target resource structure"
 END
 
+CONTROLBAR:ToolTipTaint
+"Taints an area of terrain \n All ally units gain +50% Armor \n Left click icon then left click on target area"
+END
+
 CONTROLBAR:TooltipPalantirVision
-"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area\n Always stacks \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary speed bonus to \n units at its target area"
 END
 
 CONTROLBAR:TooltipFarSeeing
@@ -45846,29 +45959,44 @@ CONTROLBAR:TooltipFarSeeing
 END
 
 CONTROLBAR:TooltipFarSight
-"Spy on the enemy forces\n\n Gives a temporary range bonus of +35% to \n units at its target area\n Always stacks \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary range bonus to \n units at its target area\n\n Left click icon then left click on target area"
 END
 
 // +++++++++++++++++++++++++++++++++++++++++++MEN OF THE WEST+++++++++++++++++++++++++++++++++++++++++++
 
 //Powers
 
+CONTROLBAR:ToolTipBoromirLeadership
+"Requires Level 5 \n Allies near Boromir gain \n +50% Damage"
+END
+
+CONTROLBAR:ToolTipAragornLeadership
+"Requires Level 4 \n Allies near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability    Always Stacks"
+END
+
+CONTROLBAR:ToolTipEomerLeadership
+"Cavalry near Eomer gain +50% Armor, \n and earn experience 50% faster \n \n Passive ability"
+END
+
 CONTROLBAR:ToolTipGandalfLeadership
 "Allies near Gandalf gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability       Always Stacks"
 END
 
-
 //Fortress upgrades
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster \n Always Stacks \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +25% Armor \n and earn experience 25% faster \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero purchase cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
+"Heals all nearby allies \n Reduces hero revival cost by 20% \n Reduces hero revival time by 20%"
 END
 
 //Buildings
+
+OBJECT:HeroicStatueDescription
+"Allies near the Statue gain \n +25% Damage \n and earn experience 25% faster \n \n Increases command point limit by 10"
+END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
 "Allows battalions to purchase Banner Carrier upgrade \n Enables Shield Wall Formation for soldiers"
@@ -45899,7 +46027,7 @@ TOOLTIP:LackGondorIronOreTechnology
 END
 
 OBJECT:HeroicStatueDescription
-"Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n \n Always stacks \n \nIncreases command point limit by 10"
+"Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n \n always stacks \n \nIncreases command point limit by 10"
 END
 
 //HEROES
@@ -45911,11 +46039,11 @@ CONTROLBAR:HornofGondor
 END
 
 CONTROLBAR:ToolTipHornofGondor
-"Requires Level 3 \n Stun enemies with this raging strap-on \n Left click to activate"
+"Requires Level 3 \n Stun enemies with terror \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipBoromirLeadership
-"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster \n \n Passive ability"
+"Requires Level 5 \n Allies near Boromir gain \n +50% Damage \n \n Passive ability"
 END
 
 CONTROLBAR:CaptainofGondorBoromir
@@ -45938,11 +46066,11 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Allies near Theoden gain \n +50% Damage \n +25% experience \n \n Passive ability"
+"Allies near Theoden gain \n +50% Damage \n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipGloriousCharge
-"Requires Level 7 \n Theoden and nearby cavalry gain +80% armor, +25 damage and become inmune to desacelerate by trampling. \n Theoden must be mounted to use ability \n Bonus cannot be removed and always stacks \n Left click to activate"
+"Requires Level 5 \n Theoden and nearby cavalry take only 10% of normal damage \n Theoden must be mounted to use ability \n Left click to activate"
 END
 
 //Eowyin
@@ -45964,7 +46092,7 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Powerful ranged attack \n Bonus against evil heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
+"Powerful ranged attack against a single target \n Specially powerful vs flying monsters\n\nLeft click icon then left click on target"
 END
 
 //Faramir
@@ -45997,11 +46125,11 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Requires Level 3 \n Cavalry near Eomer gain double Armor \n \n Passive ability"
+"Requires Level 3 \n Cavalry near Eomer gain \n +50% Armor \n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipThrowSpear
-"Powerful ranged attack \n Bonus against Mumakils \n Left click icon then left click on target"
+"Powerful ranged attack \n Left click icon then left click on target"
 END
 
 //Aragorn
@@ -46023,11 +46151,11 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Requires Level 2 \n Aragorn gains +100% Damage and double Armor. \n Left click to activate"
+"Requires Level 2 \n Aragorn gains +100% Damage and +50% Armor \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipAragornLeadership
-"Requires Level 4 \n Allies near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n always stacks \n \n Passive ability"
+"Requires Level 4 \n Allies near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability"
 END
 
 //Gandalf
@@ -46067,20 +46195,43 @@ CONTROLBAR:ToolTipMenLongShotAbility
 End
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"Research Banner Carrier upgrade at Barracks to enable this equipment \n \n +20% Armor but +25% resistance to arrows, -30% Speed"
+"Research Banner Carrier upgrade at Barracks to enable this equipment \n \n +25% Armor, -40% Speed"
 END
 
 // +++++++++++++++++++++++++++++++++++++++++++ELVES+++++++++++++++++++++++++++++++++++++++++++
 
 //Powers
 
+CONTROLBAR:ToolTipElrondFarsight
+"Reveals an area of the map \n Left click icon then left click on target area"
+END
+
+CONTROLBAR:ToolTipElrondRestoration
+"Requires Level 7 \n Heals nearby allies and fully refreshes their special ability timers \n Left click to activate"
+END
+
+CONTROLBAR:TooltipElrondWhirlwind
+"Requires Level 10 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
+End
+
+CONTROLBAR:ToolTipPersonalFlood
+"Requires Level 4 \n Summons a flood that will damage enemies and put out fires \n specially effective to cavalry \n\nLeft click icon then left click on target"
+END
+
+CONTROLBAR:ToolTipHaldirGoldenArrow
+"Requires Level 9 \n A high damage attack that also stuns light-sensitive units \n Left click icon then left click on target" 
+END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, double armor \n \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n \n Left click to activate" 
+"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, +50% Armor \n \n Left click to activate" 
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
-"Requires Level 3 \n Glorfindel gains +50% Damage and Invulnerability for 10s \n Can only use when dismounted \n\n Left click to activate"
+"Requires Level 3 \n Glorfindel gains +100% Damage and Invulnerability for 10s unmounted \n\n Left click to activate"
+END
+
+CONTROLBAR:TooltipElrondLeadership
+"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n \n Passive ability       Stacking"
 END
 
 CONTROLBAR:ToolTipArrowWind
@@ -46092,7 +46243,7 @@ CONTROLBAR:ToolTipElvenCloakThranduil
 END
 
 CONTROLBAR:ToolTipDeadEye
-"Requires Level 4 \n Temporarily grants an increase to damage \n and rate of fire \n Loses 15% armor whilst active \n Left click to activate"
+"Requires Level 4 \n Temporarily grants an increase to damage \nand rate of fire \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipThranduilWildWalk
@@ -46122,7 +46273,7 @@ CONTROLBAR:ToolTipBuildElvenBarracksLevel3
 END
 
 OBJECT:ElvenHeroicStatueDescription
-"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Always stacks \n \n Increases command point limit by 10"
+"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% fast \n \n Increases command point limit by 10"
 END
 
 //Arwen
@@ -46132,7 +46283,7 @@ CONTROLBAR:TooltipElvenGrace
 END
 
 CONTROLBAR:ToolTipPersonalFlood
-"Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective to cavalry. \n Bonus against Black Riders \n\nLeft click icon then left click on target"
+"Requires Level 4 \n Summons a flood that will damage enemies and put out fires \n Left click icon then left click on target"
 END
 
 //Haldir
@@ -46146,14 +46297,12 @@ CONTROLBAR:HaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
+"Requires Level 7 \n A high damage attack that also stuns light-sensitive units \n Left click icon then left click on target" 
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
-"Requires Level 4 \n Nearby Allies gain \n +50% Damage and earn experience +25% faster \n Passive ability"
+"Requires Level 4 \n Allies near Haldir gain \n +50% Damage \n \n Passive ability"
 END
-
-
 
 // Glorfindel
 
@@ -46188,7 +46337,7 @@ CONTROLBAR:ArrowWind
 END
 
 CONTROLBAR:ToolTipKnifeFighter
-"Requires Level 4 \n left click to activate \n Alternate melee attack \n +35% Armor"
+"Requires Level 6 \n left click to activate \n Alternate melee attack \n +20% Armor"
 END
 
 
@@ -46206,7 +46355,7 @@ END
 // Elrond
 
 CONTROLBAR:ElrondFarsight
-"Farsight [&T]"
+"Farsight [&R]"
 END
 
 CONTROLBAR:TooltipElrondLeadership
@@ -46222,7 +46371,7 @@ CONTROLBAR:ElrondRestoration
 END
 
 CONTROLBAR:ToolTipElrondRestoration
-"Requires Level 10 \n Heals 20% health points of nearby allies and fully refreshes their special ability timers \n Left click to activate"
+"Requires Level 7 \n Heals nearby allies and fully refreshes their special ability timers \n Left click to activate"
 END
 
 CONTROLBAR:ElrondWhirlwind
@@ -46230,13 +46379,13 @@ CONTROLBAR:ElrondWhirlwind
 End
 
 CONTROLBAR:TooltipElrondWhirlwind
-"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
+"Requires Level 10 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
 End
 
 // Treebeard
 
 CONTROLBAR:ToolTipTreeBeardLeadership
-"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience\n \n Passive ability"
+"Allied Ents near Treebeard gain \n +50% Armor, +15% Speed \n and +20% Range \n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipBuildTreebeard
@@ -46249,11 +46398,11 @@ END
 
 
 OBJECT:DwarvenStatueDescription
-"Allies near the statue gain \n double armor \n Increases command point limit by 10"
+"Allies near the statue gain \n +50% Armor \n Increases command point limit by 10"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Allies near Fortress gain \n +50% Damage and 25% experience \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near the statue gain \n +50% Armor \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
@@ -46261,7 +46410,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+25% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain armor: \n +20% against heros, pikemen and cavalry"
+"+25% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade
@@ -46273,11 +46422,11 @@ CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel3Upgrade
 End
 
 CONTROLBAR:ToolTipBlackArrows
-"Requires Level 2\n Causes fear to certain units \n Bonus against Mumakils \n Deals a high amount of hero damage \n Left click icon then left click on target"
+"Requires Level 2\n Causes fear to targeted enemy \n Adds triple damage \n Left click icon then left click on target"
 End
 
 OBJECT:DwarvenHeroicStatueDescription
-"Allies near the Statue gain double Armor \n \n Increases command point limit by 10"
+"Allies near the Statue gain \n +50% Armor \n \n Increases command point limit by 10"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade
@@ -46325,7 +46474,7 @@ CONTROLBAR:ToolTipDainLeadership
 END
 
 CONTROLBAR:ToolTipMightyRage
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed and +25% Damage\n Bonus cannot be removed and always stacks \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed and +25% Damage,\n Enemy units are debuffed \n\n Left click icon then left click on target units"
 END
 
 // Gimli
@@ -46343,15 +46492,15 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Allies near Gimli gain double Armor\n \n Passive ability"
+"Allies near Gimli gain \n +50% Armor\n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipAxeThrow
-"Powerful ranged attack with splash damage \n Specially effective to cavalry and flyers \n Left click icon then left click on target"
+"Powerful ranged attack with splash damage \nSpecially effective to cavalry\n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipSlayer
-"Requires Level 5 \n Gimli gains +50% Damage, Double Speed, but loses -15% Structural Armor \n Left click to activate"
+"Requires Level 5 \n Gimli gains Double Damage and Double Speed \n Left click to activate"
 END
 
 //====== Units
@@ -46365,11 +46514,11 @@ CONTROLBAR:ToolTipBuildDwarvenBattleWagon
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster \n Always stacks \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon"
 End
 
 CONTROLBAR:ToolTipBattleWagonUpgradeHearth
-"Nearby allies will heal if not under attack \n Reveals stealthed enemies"
+"Heals all nearby allies \n Detects stealth"
 End
 
 CONTROLBAR:ToolTipBuildDwarvenDemolisher
@@ -46399,7 +46548,7 @@ End
 //Powers
 
 CONTROLBAR:ToolTipWarChant
-"Target allies gain +40% Damage, 50% experience & +10% speed \n Left click icon then left click on target units"
+"Target allies gain +50% Damage \n Left click icon then left click on target units"
 End
 
 CONTROLBAR:ToolTipIndustry
@@ -46411,27 +46560,27 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Taints an area of terrain \n All ally units gain double Armor \n Left click icon then left click on target area"
+"Taints an area of terrain \n All ally units gain 50% Armor \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% armor \n and earn experience 50% faster \n Simple leadership kind \n Always stacks \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage and earn experience 25% faster \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipDarkness
-"Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Always stacks \n Left click to activate"
+"Temporarily covers the entire map in darkness All ally units gain +25% Damage, +25% Armor and earn experience 50% times faster \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipSummonCrebain
-"Reveals the nearby shroud, detects stealth\n Enemy units lose 25% Damage and 25% Armor \n Enemies lose their simple leadership bonuses \n\n Left click icon then left click on pathable location"
+"Reveals the nearby shroud, detects stealth\n All enemy units lose 25% Damage and 25% Armor \n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
-"Requires Level 5 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n \n Passive ability"
+"Requires Level 5 \n Allies near Lurtz gain \n +50% Damage \n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
-"Requires Level 4 \n Pins enemy hero in place \n Can damage flyers \n Can only use with bow equipped \n Left click icon then left click on target"
+"Requires Level 4 \n Pins enemy hero in place \n Can only use with bow equipped \n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
@@ -46439,15 +46588,15 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
 END
 
 CONTROLBAR:ToolTipGBloodHunt
-"Requires Level 4 \n Nearby allied cavalry gain +25% Damage, +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry\n Always stacks \n Passive ability"
+"Requires Level 4 \n Nearby allied cavalry gain +25% Damage, +25% Armor and gain experience 50% faster\n friendly cavalry trample deceleration reduced \n Passive ability"
 END
-//patch105: Friendly cavalry trample deceleration reduced.
+
 CONTROLBAR:ToolTipDominate
-"Requires Level 7 \n Temporarily gain control of targeted enemies \n Left click icon then left click on target enemies"
+"Requires Level 8 \n Temporarily gain control of targeted enemies \n Left click icon then left click on target enemies"
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Requires Level 8 \n Kill target enemy which restores Sharku's health and temporarily grants +50% Damage and double armor \n Left click icon then left click on target enemy"
+"Requires Level 8 \n Kill target enemy which restores Sharku's health and temporarily grants +50% Damage and +50% Armor \n Left click icon then left click on target enemy"
 END
 
 //=== Heroes
@@ -46500,7 +46649,7 @@ CONTROLBAR:TooltipEscape
 END
 
 CONTROLBAR:ToolTipVenomousWords
-"Significantly reduces enemy speed and rate of fire \n Enemy units lose their simple leadership bonuses \n Stacks with other negative spells \n\n Left click icon then left click on target units"
+"Significantly reduces enemy Armor and Damage \n Left click icon then left click on target units"
 END
 
 
@@ -46543,7 +46692,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Allies near the Drummer Troll gain double armor and +25% experience \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster\n Passive ability"
+"Allies near the Drummer Troll gain +50% Armor \n \n Passive ability"
 END
 
 //Structures
@@ -46605,11 +46754,11 @@ END
 
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde
-"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
+"Strong vs. Infantry\nResistant to trample"
 END
 
 CONTROLBAR:ToolTipPoisonArrows
-"Poison tipped arrows that \ncause damage over time \n\n Left click icon then left click on target"
+"Poison tipped arrows that \ncause damage over time \nStrong vs. cavalry\n\n Left click icon then left click on target"
 End
 
 CONTROLBAR:ToolTipBuildGoblinCaveTroll
@@ -46617,15 +46766,15 @@ CONTROLBAR:ToolTipBuildGoblinCaveTroll
 END
 
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy
-"Requires Level 4 \n Allies near the hero gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+"Requires Level 4 \n Allies near the Goblin King gain \n +25% Armor and 25% more experience \n  \n Passive ability"
 End
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides double armor and +25% experience bonus to nearby allies \n Left click icon then left click on target area"
+"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +50% Armor bonus to nearby allies \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
-"Requires Level 2 Fissure \n Strong vs. Cavalry and \n Unit Production Buildings"
+"Requires Level 2 Fissure \n Strong vs. Cavalry"
 END
 
 CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade
@@ -46729,7 +46878,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"Wargs gain +65% Damage but \n lose -15% armor against pikes and structural \n Bonus cannot be removed and always stacks \n Left click to activate"
+"Wargs gain +60% Damage \n Left click to activate"
 END
 
 //========== Release Candidate 4 fixes
@@ -46739,7 +46888,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
-"Cha&rge Attack"
+"Charg&e Attack"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
@@ -46747,7 +46896,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Increases Fortress and Wall armor \n Pre-requisite for Ivory Tower \n Upgrades summoned Lone Towers"
+"Increases Fortress and Wall armor \n Pre-requisite for Flaming Munitions"
 END
 
 CONTROLBAR:ToolTipOutlawLeadership
@@ -46755,11 +46904,11 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Elven Cloak [&C]"
+"&Elven Cloak"
 END
 
 CONTROLBAR:ChargeAttack
-"Cha&rge Attack"
+"Charg&e Attack"
 END
 
 CONTROLBAR:ConstructRohanPeasant
@@ -46779,101 +46928,9 @@ CONTROLBAR:PersonalFlood
 END
 
 CONTROLBAR:ElvenGrace
-"Athelas [&R]"
+"Athelas [&C]"
 END
 
 GUI:PleaseSelectBuddy
 "Chat message could not be sent.  One or more friends need to be selected."
-END
-
-// String lines for Patch 1.08
-
-CONTROLBAR:GrabPassengerTB
-"Pickup Merry or Pippin"
-END
-
-CONTROLBAR:SpecialAbility_ShieldBubble
-"Shield B&ubble"
-END
-
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"The Wizard transfers all of his Power into a Shield that will absorbs every kind of damage dealt on him. \n Gandalf also gains inmunity to knock-back. \n Lasts 5 seconds. \n \n Left click icon to activate"
-END
-
-CONTROLBAR:Fire_pit
-"Fire pit (&V)"
-END
-
-CONTROLBAR:TooltipFire_pit
-"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants a stacking bonus of +5% armor \n Detect stealth"
-END
-
-CONTROLBAR:FireWorks
-"FireWorks / Ignite [&V]"
-END
-
-CONTROLBAR:ToolTipFireWorks
-"Merry can drop Fireworks \n on the ground and ignite it \n \n Left click to activate  "
-End
-
-CONTROLBAR:FireWorks2
-"Ignite Fireworks [&B]"
-END
-
-CONTROLBAR:ToolTipFireWorks2
-"Fireworks damages units within large radius \n \n Left click to activate "
-End
-
-CONTROLBAR:FireWorksObj
-"FireWorks"
-END
-
-CONTROLBAR:HobbitFireCracker
-"Firecracker [&R]"
-END
-
-CONTROLBAR:ToolTipHobbitFireCracker
-"Hero can throw a small Firecracker \n Left click icon then left click on target"
-End
-
-CONTROLBAR:ToolTipHobbitFireCrackerMerry
-"Hero can throw a small Firecracker. \n Effective against Mumakils \n Special bonus against structures. \n Left click icon then left click on target"
-End
-
-CONTROLBAR:ToolTipHobbitFireCrackerSam
-"Hero can throw a small Firecracker. Special bonus against Shelob. \n Left click icon then left click on target"
-End
-
-// String lines for Patch 1.09
-
-CONTROLBAR:GaladHealBTP
-"&Light Of Galadriel"
-END
-
-CONTROLBAR:ToolTipGaladHeal
-"Heals all allied units and heroes in a large circle around Galadriel \n Left click to activate"
-END
-
-CONTROLBAR:LadyOfLight
-"Light Of &Valars"
-END
-
-CONTROLBAR:TooltipLadyOfLight
-"Call down the light of Valar onto your enemies"
-END
-
-CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Summon Three Fi&res of Doom around Sauron in a circle"
-END
-
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and +25% experience \n Always stacks"
-END
-
-CONTROLBAR:LoneTowerHealingUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
-END
-
-CONTROLBAR:LoneTowerArmorUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Significantly reduces the amount of damage taken."
 END
