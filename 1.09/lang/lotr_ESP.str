@@ -28,8 +28,105 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+OBJECT:ElvenHeroicStatueDescription09v2
+"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+END
+//------------------------------------------------------------
+OBJECT:HeroicStatueDescription09v2
+"Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n Category: 'Stacky Armor' \nIncreases command point limit by 10"
+END
+//------------------------------------------------------------
+OBJECT:DwarvenHeroicStatueDescription09v2
+"Allies near the Statue gain 35% Armor \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
+"Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Category: 'Stacky Damage'"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
+"Provides 25% damage and 25% experience to nearby troops \n Reduces hero cost by 10% \n Category: 'Stacky Damage' \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
+"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
+"Allies near Fortress gain \n +25% Damage and 25% experience \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipWargRiderHowl09v2
+"Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipEyeofSauron09v2
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
 "Requisito: Nivel 8. \n Hordas, monstruos y heroes aliados en una largo rango alrededo de Glorfindel son curados. \n Revive 2 unidades por batallón durante su duración. \n Las hordas aliadas ganan +33% armadura y +50 al daño. \n Clase de liderazgo simple \n No se acumula con otros liderazgo de armadura. \n \n Para activarlo, haz clic con el botón izquierdo."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGimliLeadership09v2
+"Allies near Gimli gain +35% armor \n Category: 'Simple Armor' \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipDainLeadership09v2
+"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipBattleWagonLeadership09v2
+"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+End
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
+"Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive ability"
+End
+//------------------------------------------------------------
+CONTROLBAR:TooltipElrondLeadership09v2
+"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High-Tier' \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipArwenLeadership09v2
+"Requires Level 3 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Passive ability"
+End
+//------------------------------------------------------------
+CONTROLBAR:ToolTipHaldirLeadership09v2
+"Requires Level 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster \n Category: 'Simple Damage' \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipInspiringPresence09v2
+"Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster. \n Category: 'Stacky Armor' \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipAragornLeadership09v2
+"Requires Level 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Category: 'High-Tier' \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipEomerLeadership09v2
+"Requires Level 3 \n Cavalry near Eomer gain 35% Armor \n Category: 'Simple Armor' \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipFaramirLeadership09v2
+"Requires Level 6 \n Allies near Faramir gain \n +35% armor \n Category: 'Simple Armor' \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipBoromirLeadership09v2
+"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster \n Category: 'Simple Damage' \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipTheodenLeadership09v2
+"Allies near Theoden gain \n +25% Damage and +25% experience. \n Category: 'Stacky Damage' \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipSarumanLeadership09v2
+"Allies near Saruman gain +25% Armor and earn experience 25% faster \n Category: 'Stacky Armor' \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipBloodthirsty09v2
+//Not used yet
+"Requires Level 2 \n Order this unit to kill a friendly unit \n to gain combat experience \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -155,10 +252,6 @@ UPGRADE:ElvenStructuralSilverthornArrows09v2
 "Municiones Púa de Plata"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipSarumanLeadership09v2
-"Los aliados cercanos a Saruman reciben \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Siempre se acumula. \n \n Capacidad pasiva."
-END
-//------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn09v2
 "Municiones Púa de Plata (&W)"
 END
@@ -267,7 +360,7 @@ Map:mapHDforlindon
 "The Cow Maze"
 End
 Map:mapHDforlindon/Desc
-"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heros trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n Map originally from BFME1 by Haldir, edited by Ecthelion."
+"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heros trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\n Map originally from BFME1 by Haldir, edited by Ecthelion."
 End
 //The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\nMap from BFME1 by Haldir, edited by Ecthelion."
 //------------------------------------------------------------
@@ -478,7 +571,7 @@ END
 //"Erech II"
 //End
 //Map:mapTESTerechii/desc
-//" A hill west of Minas Tirith, where in ages past the faithless King of the Mountains swore an oath of fealty to Isildur.\n Size: 320 x 320\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Thoon, remade by unknown."
+//" A hill west of Minas Tirith, where in ages past the faithless King of the Mountains swore an oath of fealty to Isildur.\n Size: 320 x 320\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Dogi9696, edited by Ecthelion. Originally created by Thoon."
 //End
 //------------------------------------------------------------
 //	Map:mapTESTdwarrowdelf
@@ -499,7 +592,7 @@ END
 //"Druwait Reef"
 //End
 //Map:maptestdruwaithreef/desc
-//" This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
+//" This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
 //End
 //------------------------------------------------------------
 //	Map:maptestbrownlands8p
@@ -548,7 +641,7 @@ END
 //"Anfalas II"
 //END
 //Map:mapNEWanfalasii/Desc
-//"The western coastal section of Gondor populated by small villages of herdsmen and fishermen.\n Size: 360 x 390\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Inn, 1x Signal Fire. \n Map from RotWK, by Mako."
+//"The western coastal section of Gondor populated by small villages of herdsmen and fishermen.\n\n Size: 360 x 390\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Inn, 1x Signal Fire. \n Map from RotWK, by Mako."
 //END
 //------------------------------------------------------------
 Map:mapNEWgreenleafforest
@@ -583,7 +676,7 @@ End
 //	"Desert Of Rhun" //removed
 //	End
 //	Map:mapNEWdesertofrhun/desc
-//	"A vast desert lying to the south-east of Rhun. Many unprepared travellers lose their way attempting to traverse this rugged region. \n Size: 550 x 550\n Lairs: 6x Goblin Lair\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
+//	"A vast desert lying to the south-east of Rhun. Many unprepared travellers lose their way attempting to traverse this rugged region. \n\n Size: 550 x 550\n Lairs: 6x Goblin Lair\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
 //	End
 //------------------------------------------------------------
 Map:mapMOtournamentamonhen
@@ -608,7 +701,7 @@ Map:mapNEWforlindonhills/Desc
 END
 //------------------------------------------------------------
 Map:mapNEWtowerhills
-"Tower Hills [2p]"
+"Tower Hills"
 END
 Map:mapNEWtowerhills/Desc
 "With a layout similar to Fords of Isen and the skin of Tower Hills, this 1v1 map is made to provide a mix of fun elements and balanced gameplay. \n Turn off ring heroes for tournament mode. \n Map by Jokuc."
@@ -1010,7 +1103,7 @@ Map:mapNEWhollinII
 "Hollin II"
 END
 Map:mapNEWhollinII/Desc
-"Hollin was once home to the famed Elvish jewel-smiths of Eregion, the forgers of the great rings of power. But now the ruins of their great cities stand in silence among the stones. \n Map from RotWK, by Thoon, remade by unknown."
+"Hollin was once home to the famed Elvish jewel-smiths of Eregion, the forgers of the great rings of power. But now the ruins of their great cities stand in silence among the stones. \n Map from RotWK, by Dogi9696, edited by Ecthelion. Originally created by Thoon."
 END
 //------------------------------------------------------------
 Map:mapmphobbiton
@@ -1138,9 +1231,7 @@ END
 
 //------------------------------------------------------------
 
-CONTROLBAR:ToolTipArwenLeadership09v1
-"Requisito: Nivel 3 \n La caballeria cercana a Arwen gana \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Siempre se acumula.\n \n Capacidad pasiva."
-End
+
 CONTROLBAR:GaladHealBTP
 "&Luz de Galadriel"
 END
