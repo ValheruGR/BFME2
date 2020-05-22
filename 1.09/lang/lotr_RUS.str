@@ -28,6 +28,34 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:TooltipGoblinKingSkullTotem09v2
+"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
+CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
+"Allies near the Drummer Troll gain +35% armor and +25% experience. \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Category: 'Simple Armor' \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipWarChant09v2
+"Target allies gain +40% Damage, 50% experience & +10% speed. \n Category: 'Simple Damage' \n Left click icon then left click on target units"
+End
+//------------------------------------------------------------
+CONTROLBAR:TooltipRallyingCall09v2
+"Targeted allies gain +50% Damage and +50% experience \n Category: 'Simple Damage' \n Left click icon then left click on target units"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipRallyingCallDwarven09v2
+"Союзники наносят на +50% урона и получают в бою дополнительные +25% опыта. \n Щелкните на пиктограмме, затем - на цели."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipTaint09v2
+"Taints an area of terrain \n Allied hordes gain +35% armor. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipElvenWood09v2
+"Creates lush terrain \n Allied units gain +35% armor. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
 "Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
 END
@@ -239,10 +267,6 @@ END
 GUI:SpellBookRefreshReduction09v2
 "Бонус: \n Скорость перезарядки книги заклинаний: %d%%"
 End
-//------------------------------------------------------------
-CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Союзники наносят на +50% урона и получают в бою дополнительные +25% опыта. \n Щелкните на пиктограмме, затем - на цели."
-END
 //------------------------------------------------------------
 OBJECT:TheForsakenInn09v2
 "Заброшенная таверна" 
@@ -970,7 +994,7 @@ Map:mapmptyrngorthad
 "Tyrn Gorthad"
 END
 Map:mapmptyrngorthad/Desc
-"Better known as the Barrow-downs, the ancient burial grounds of the kings of Arnor were corrupted with evil spirits by the Witch-king. Map from RotWK."
+"Better known as the Barrow-downs, the ancient burial grounds of the kings of Arnor were corrupted with evil spirits by the Witch-king. Map from RotWK, edited by Ecthelion"
 END
 //------------------------------------------------------------
 Map:mapmptournamentudunII
