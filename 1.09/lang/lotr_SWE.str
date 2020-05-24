@@ -47,13 +47,38 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipBarbedArrows
+"Kräver grad 2 \n Ger indirekt skada och större skadeverkan"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
+"Ger fästningar och murar ytterligare pansar \nKrävs för eldprojektiler. \n\n Upgrades summoned Lone Towers."
+END
+CONTROLBAR:ToolTipSharkuManEater
+"Kräver grad 6 \n Döda en fiende, vilket återställer Sharkus hälsa och temporärt ger +35% skadeverkan, +35% rustning och -50% crushing deceleration \n Vänsterklicka på ikonen, vänsterklicka sedan på fienden"
+END
+CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
+"+30% snabbare byggtakt \n Tillåter utveckling av uppgraderingarna mitrilbrynja, smidda klingor och eldprojektil \n Lägger till defensivt yxtorn \n Forge Works gain armor: \n +20% against heros, pikemen and cavalry"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
+"Helar allierade i närheten \n Sänker priset för återupplivning av hjältar med 5%. \n Förkortar återupplivningstiden med 15%. \n\n Upgrades summoned Lone Towers"
+END
+CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
+"Stark mot resursbyggnader \n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
+"Helar garnisonsenheter och allierade i närheten av fästningen \nGer fästningen fler träffpoäng. \n\n Upgrades summoned Lone Towers."
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
+"Ger fästningen och murarna ytterligare pansar \nKrävs för mäktig katapult. \n\n Upgrades summoned Lone Towers."
+END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipElvenCloakThranduil
+CONTROLBAR:ToolTipElvenCloakThranduil09v2
 "Elven Cloack: \n Blir osynlig vid stillastående \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 "Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Kräver grad 2 \n Vättekungen placerar ut nt dödskalletotem som står kvar tills det förstörs \n Lyfter kartslöjan i närheten, ser smygande enheter och ger allierade +35% rustning \n Vänsterklicka på ikonen, vänsterklicka sedan på målområdet"
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
@@ -61,51 +86,55 @@ CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Target allies gain +40% Damage, 50% experience & +10% speed. \n Category: 'Simple Damage' \n Left click icon then left click on target units"
+"Allierade målenheter får +40% skadeverkan \n , 50% experience & +10% speed. \n Category: 'Simple Damage' \n Vänsterklicka på ikonen, vänsterklicka sedan på målenheterna"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Targeted allies gain +50% Damage and +50% experience \n Category: 'Simple Damage' \n Left click icon then left click on target units"
+"Allierade målenheter får +50% skadeverkan \n & 50% experience.. \n Category: 'Simple Damage' \n Vänsterklicka på ikonen, vänsterklicka sedan på målenheterna"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Targeted allies gain +50% Damage and +25% experience \n Left click icon then left click on target units"
+"Allierade målenheter får +50% skadeverkan \n & 25% experience.. \n Category: 'Simple Damage' \n Vänsterklicka på ikonen, vänsterklicka sedan på målenheterna"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Taints an area of terrain \n Allied hordes gain +35% armor. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Besmittar ett område \n Alla bundsförvanter får 35% rustning \n Category: 'Simple Armor' \n Vänsterklicka på ikonen, vänsterklicka sedan på målområdet"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain \n Allied units gain +35% armor. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Skapar grönskande terräng. \nAllierade enheter får +35% rustning \nPåverkar inte hjältar  \n Category: 'Simple Armor' \nVänsterklicka på ikonen, vänsterklicka sedan på målområdet"
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Allierade nära statyn får \n +25% skadeverkan \n och får erfernhet 25% fortare \n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \n \n Höjer kommandopoängstaket med 10"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
 "Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n Category: 'Stacky Armor' \nIncreases command point limit by 10"
+"Allierade nära statyn får \n +25% rustning \n och får erfarenhet 25% snabbare \n \n Kombineras alltid \n Höjer kommandopoängstaket med 10"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
 "Allies near the Statue gain 35% Armor \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Allierade nära statyn får \n +35% rustning \n \n Höjer kommandopoängstaket med 10"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
 "Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Category: 'Stacky Damage'"
+"Gör fästningen tåligare mot närstridsattacker"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
 "Provides 25% damage and 25% experience to nearby troops \n Reduces hero cost by 10% \n Category: 'Stacky Damage' \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Ger extra erfarenhet till enheter i närheten\nMinskar kostnaden för hjältar med 10% \nMinskar tiden för att rekrytera hjältar med 10%\nMinskar kostnaden för att rekrytera bönder 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allierade nära fästningen får \n +25% rustning \n och får erfarenhet 25% snabbare \n Category: 'Stacky Damage' \n Sänker kostnaden för hjältar med 10% \n Förkortar rekryteringstiden för hjältar med 10%. \n Sänker priset på byggare med 20% \n\n Upgrades summoned Lone Towers"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage and 25% experience \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +25% Damage and 25% experience \n Category: 'Stacky Damage' \n Sänker kostnaden för hjältar med 10% \n Förkortar rekryteringstiden för hjältar med 10% \n Sänker priset på byggare med 20% \n\n Upgrades summoned Lone Towers"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
@@ -172,7 +201,7 @@ CONTROLBAR:ToolTipTheodenLeadership09v2
 "Allies near Theoden gain \n +25% Damage and +25% experience. \n Category: 'Stacky Damage' \n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipSarumanLeadership09v2
+TOOLTIP:ToolTipSarumanLeadership09v2
 "Allies near Saruman gain +25% Armor and earn experience 25% faster \n Category: 'Stacky Armor' \n Passive ability"
 END
 //------------------------------------------------------------
@@ -190,7 +219,7 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Requires Level 2 \n Order Mumakil to trample the enemy \n Left click icon then left click on target"
+"Requires Level 2 \n Beordra mûmakil att trampa ner fienden \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
@@ -8367,7 +8396,7 @@ CONTROLBAR:SwoopAttack
 END
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Requires Level 3 \n Beordra mûmakil att trampa ner fienden \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
+"Beordra mûmakil att trampa ner fienden \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
 END
 
 CONTROLBAR:Guard

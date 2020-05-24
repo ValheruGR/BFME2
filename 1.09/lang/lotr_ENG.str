@@ -47,6 +47,33 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipBarbedArrows09v2
+"Requires Level 2\n Causes meta impact and increased damage \n Left click icon then left click on target"
+End
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework09v2
+"Increases Fortress and Wall armor \n Pre-requisite for Ivory Tower \n Upgrades summoned Lone Towers"
+END
+CONTROLBAR:ToolTipSharkuManEater09v2
+"Requires Level 6 \n Kill target enemy which restores Sharku's health and temporarily grants +35% Damage, +35% armor and -50% crushing deceleration.\n Left click icon then left click on target enemy"
+END
+CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel309v2
+"+30% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain armor: \n +20% against heros, pikemen and cavalry"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
+"Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
+END
+CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
+"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+END
+TOOLTIP:MordorOrcFighterHordeDescription09v2
+"Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
+"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework09v2
+"Provides additional armor to the Fortress and walls \n Pre-requisite for Mighty Catapult\n\n Upgrades summoned Lone Towers"
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenCloakThranduil09v2
 "Elven Cloack: \n Becomes invisible when standing still \n Passive ability"
@@ -63,11 +90,9 @@ END
 CONTROLBAR:ToolTipWarChant09v2
 "Target allies gain +40% Damage, 50% experience & +10% speed. \n Category: 'Simple Damage' \n Left click icon then left click on target units"
 End
-//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
 "Targeted allies gain +50% Damage and +50% experience. \n Category: 'Simple Damage' \n Left click icon then left click on target units"
 END
-//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
 "Targeted allies gain +50% Damage and +25% experience. \n Category: 'Simple Damage' \n Left click icon then left click on target units"
 END
@@ -172,7 +197,7 @@ CONTROLBAR:ToolTipTheodenLeadership09v2
 "Allies near Theoden gain +25% Damage \n and earn experience +25% faster. \n Category: 'Stacky Damage' \n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipSarumanLeadership09v2
+TOOLTIP:ToolTipSarumanLeadership09v2
 "Allies near Saruman gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Passive ability"
 END
 //------------------------------------------------------------
@@ -240,10 +265,19 @@ End
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
 "Strong vs. Cavalry and \n Unit Production Buildings \n Tower Guards gain +5% speed at level 3, 5 and 7."
 END
+TOOLTIP:GondorTowerGuardHordeDescription09v2
+"Tower Guards gain +5% speed at level 3, 5, 7 and 10."
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 "Strong vs. Pikemen\n and Resource Buildings \n Guardians gain +5% speed at level 3, 5, 7 and 10."
 End
+TOOLTIP:DwarvenGuardianHordeDescription09v2
+"Guardians gain +5% speed at level 3, 5, 7 and 10."
+END
+TOOLTIP:ElvenRivendellLancerHordeDescription09v2
+"Rivendell Lancers gain +7% speed at level 5."
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
 "Requires Level 10 \n Causes a large earthquake around Gloin's location \n Can stun the Army of the Dead for 5 seconds, but does not kill them \n Left click icon then left click on target"

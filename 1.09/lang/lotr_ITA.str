@@ -47,65 +47,93 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipBarbedArrows
+"Richiede Livello 2 \nCausa ferite da impatto e danni più gravi. \n Click sinistro sull'icona e click sinistro sul bersaglio."
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
+"Fornisce corazza aggiuntiva alle mura e alla fortezza.\nPrerequisito per Torre D'Avorio. \n\nAggiorna le Torri Solitarie evocate."
+END
+CONTROLBAR:ToolTipSharkuManEater
+"Richiede livello 6.\nUccidi il nemico bersaglio, ripristinando l'energia di Sharku e fornendo temporaneamente +35% danno, corazza and -35% crushing deceleration.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+END
+CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
+"+30% velocità di costruzione.\nConsente la ricerca dei potenziamenti Cotta di mithril, Lame temprate e Colpo fiammeggiante.\nAggiunge torre difensiva con lanciatori d'ascia. \nGuadagna armatura: +20% verso gli eroi, picchieri e la cavalleria."
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
+"Cura tutti gli alleati nelle vicinanze. \n Riforma unità nelle orde ogni 6.5 secondi.\nRiduce del 5% il costo di rianimazione dell'Eroe.\nRiduce del 15% il tempo di rianimazione dell'Eroe. \n\nAggiorna le Torri Solitarie evocate."
+END
+CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
+"Efficace contro le strutture di raccolta risorse. \nBonus Orda: \nOrchi raccolti in numero superiore a 70. \nottengono +33% danno +20% velocità."
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
+"Cura gli alleati vicino alla fortezza. \nRiforma unità nelle orde ogni 6.5 secondi. \nRiduce il tempo di rianimazione degli eroi del 25% \nAggiunge punti ferita alla fortezza. \n\nAggiorna le Torri Solitarie evocate."
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
+"Fornisce corazza e punti ferita aggiuntivi a fortezza e mura.\nPrerequisito per catapulta possente. \n\nAggiorna le Torri Solitarie evocate."
+END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipElvenCloakThranduil
+CONTROLBAR:ToolTipElvenCloakThranduil09v2
 "Elven Cloack: \n Diventa invisibile quando è immobile.\nAbilità passiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 "Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Richiede livello 2.\nCrea un totem del teschio, che permane fino alla sua distruzione.\nDirada la nebbia nelle vicinanze, rivela le unità mimetizzate, fornisce +35% corazza alle unità alleate vicine e +25% esperienza.\nClicca con il pulsante sinistro sull'icona e quindi sulla zona bersaglio."
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
 "Allies near the Drummer Troll gain +35% armor and +25% experience. \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Category: 'Simple Armor' \n Passive ability"
+"Gli alleati vicino al Troll con tamburi ottengono +35% corazza e +25% esperienza. \nI Troll Di Caverna, I Troll Di Montagna ed I Troll D'Attacco guadagnano +15% corazza, +15% esperienza e guariscono più velocemente.\n\nAbilità passiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Target allies gain +40% Damage, 50% experience & +10% speed. \n Category: 'Simple Damage' \n Left click icon then left click on target units"
+"Le unità alleate bersaglio ottengono +40% danno, +50% esperienza e +10% velocità. \n Category: 'Simple Damage' \nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 End
-//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Targeted allies gain +50% Damage and +50% experience \n Category: 'Simple Damage' \n Left click icon then left click on target units"
+"Gli alleati bersaglio ottengono +50% danno e +50% esperienza. \n Category: 'Simple Damage' \nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
-//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Gli alleati bersaglio ottengono +50% danno e +25% esperienza.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Gli alleati bersaglio ottengono +50% danno e +25% esperienza. \n Category: 'Simple Damage' \nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Taints an area of terrain \n Allied hordes gain +35% armor. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Contamina una porzione di terreno.\nTutte le unità alleate guadagnano +35% corazza. \n Category: 'Simple Armor' \nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain \n Allied units gain +35% armor. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Crea bosco\nTutte le unità alleate guadagnano +35% corazza.\n Non ha effetto sugli Eroi. \n Category: 'Simple Armor' \nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Gli alleati vicino alla statua ottengono\n+25% danno\ne +25% accumulo esperienza\n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \n\nAumenta di 10 il limite di punti comando."
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
 "Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n Category: 'Stacky Armor' \nIncreases command point limit by 10"
+"Gli alleati vicino alla statua ottengono\n+25% corazza\ne +25% accumulo esperienza.\n\nSempre cumulabile.\n\nAumenta di 10 il limite di punti comando."
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
 "Allies near the Statue gain 35% Armor \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Gli alleati vicino alla statua ottengono\n+35% corazza.\n\nAumenta di 10 il limite di punti comando."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
 "Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Category: 'Stacky Damage'"
+"Riduce la vulnerabilità in mischia della fortezza. \n Gli alleati vicini ottengono +25% danno e +25% accumulo esperienza. \nSempre cumulativa."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
 "Provides 25% damage and 25% experience to nearby troops \n Reduces hero cost by 10% \n Category: 'Stacky Damage' \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Fornisce 25% danno e 25% esperienza aggiuntiva alle truppe vicine.\nRiduce del 10% il costo dell'Eroe.\nRiduce del 10% il tempo di reclutamento dell'Eroe.\nRiduce del 20% il costo dei costruttori."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Gli alleati vicino alla fortezza ottengono\n+25% danno e\n+25% accumulo esperienza. \n Category: 'Stacky Damage'\nRiduce del 10% il costo dell'Eroe.\nRiduce il tempo di reclutamento dell'Eroe del 10%.\nRiduce il costo dei costruttori del 20%. \n\nAggiorna le Torri Solitarie evocate."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage and 25% experience \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +25% Damage and 25% experience \n Category: 'Stacky Damage' \nRiduce del 10% il costo dell'Eroe.\nRiduce il tempo di reclutamento dell'Eroe del 10%.\nRiduce il costo dei costruttori del 20%. \n\nAggiorna le Torri Solitarie evocate."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
@@ -172,7 +200,7 @@ CONTROLBAR:ToolTipTheodenLeadership09v2
 "Allies near Theoden gain \n +25% Damage and +25% experience. \n Category: 'Stacky Damage' \n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipSarumanLeadership09v2
+TOOLTIP:ToolTipSarumanLeadership09v2
 "Allies near Saruman gain +25% Armor and earn experience 25% faster \n Category: 'Stacky Armor' \n Passive ability"
 END
 //------------------------------------------------------------
@@ -190,7 +218,7 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Requires Level 2 \n Order Mumakil to trample the enemy \n Left click icon then left click on target"
+"Requires Level 2 \n Ordina all'Olifante di schiacciare il nemico.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
@@ -8364,7 +8392,7 @@ CONTROLBAR:SwoopAttack
 END
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Requires Level 3 \n Ordina all'Olifante di schiacciare il nemico.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Ordina all'Olifante di schiacciare il nemico.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:Guard

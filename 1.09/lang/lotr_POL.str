@@ -47,14 +47,39 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+
+CONTROLBAR:ToolTipBarbedArrows
+" Potrzbuje poziomu 2\n Powoduje potezne uderzenie i zwiekszone obrazenia\n Kliknij lewym przyciskiem na ikonke potem lewym przyciskiem na cel"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
+"Zwieksza pancerz fortecy oraz murów \n Wymagane do zbudowania Wiezy z kosci sloniowej \n Ulepszenie przywoluje Samotne Wieze"
+END
+CONTROLBAR:ToolTipSharkuManEater
+"Wymaga 6 poziomu \n Zabija wskazanego wroga, przywracajac zdrowie Sharku i tymczasowo zapewniajac mu +35% do zadawanych obrazenm +35% do pancerza and -50% crushing deceleration. \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym wrogu"
+END
+CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
+"+30% zwiekszona szybkosc budowy \n Pozwala na opracowanie mithrilowych zbroi, hartowanych ostrzy oraz plonacych strzal \n Dodaje obronna wieze topornicza \n Warsztat Kuzniczy zyskuje pancerz: \n +20% przeciwko bohaterom, pikinierom i kawaleri"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
+"Leczy  pobliskich sojuszników \n Odradza jednostki z batalionu co 6.5 sekundy\nZmniejsza koszt przywrócenia bohatera do zycia o 5%\n Zmniejsza czas przywrócenia bohatera do zycia o 15%\n\n Ulepszenie przywoluje Wolnostojace Wieze"
+END
+CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
+"Jednostka dobra przeciwko budynkom zbierajacym zasoby\n Bonus Hordy: \n Zebrane jednostki orków w minimalnej liczbe 70\n zyskuja +33% do zadawanych brazen oraz 20% do szybkosci"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
+"Leczy sojuszników w poblizu fortecy oraz w salach \n Odradza jednostke z oddzialu co 6.5 sekundy\n Redukuje czas odrodzienia sie bohatera o 25% \n Zapewnia fortecy dodatkowe punkty wytrzymalosci\n\n Ulepszone przyzywa Wieze Wolnostojaca"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
+"Zapewnia dodatkowy pancerz fortecy oraz murom \n Wymagane do stworzenia poteznej katapulty\n\n Ulepszenie wzywa Samotne Wieze"
+END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipElvenCloakThranduil
+CONTROLBAR:ToolTipElvenCloakThranduil09v2
 "Elven Cloack: \n Pozwala stac sie niewidzialnym, gdy postac stoi w bezruchu \n Zdolnosc bierna"
 END
-
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 "Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Wymaga 2 poziomu \n Pozwala ustawic totem czaszki, który pozostaje na mapie, az zostanie zniszczony \n Rozwiewa mgle w poblizu, wykrywa zamaskowane jednostki i zapewnia pobliskim sojusznikom +35% do pancerza i u³atwia zdobycie doswiadczenia o +25% \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
@@ -62,51 +87,53 @@ CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Target allies gain +40% Damage, 50% experience & +10% speed. \n Category: 'Simple Damage' \n Left click icon then left click on target units"
+"Wskazani sojusznicy otrzymuja +40% do zadawanych obrazen, 50% do zdobywanego doswiadczenia i +10% do szybkosci \n Category: 'Simple Damage' \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
 End
-//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Targeted allies gain +50% Damage and +50% experience \n Category: 'Simple Damage' \n Left click icon then left click on target units"
+"Wskazani sojusznicy otrzymuja +50% do zadawanych obrazen \n i 50% do zdobywanego doswiadczenia\n Category: 'Simple Damage' \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
 END
-//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Targeted allies gain +50% Damage and +25% experience \n Left click icon then left click on target units"
+"Wskazani sojusznicy otrzymuja +50% do zadawanych obrazen \n i 25% do zdobywanego doswiadczenia\n Category: 'Simple Damage' \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Taints an area of terrain \n Allied hordes gain +35% armor. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Plugawi wskazany obszar \n Wszystkie jednostki sojuszników otrzymuja +35% do pancerza \n Category: 'Simple Armor' \n Kliknij lewym przyciskiem myszy na ikonie, a nastepnie na wybranym obszarze"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain \n Allied units gain +35% armor. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Tworzy obszar porosniety roslinnoscia \n Wszystkie sojusznicze jednostki otrzymuja +35% do pancerza  \n Category: 'Simple Armor' Nie wplywa na bohaterów \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Sojusznicy w poblizu posagu otrzymuja \n +25% do zadawanych obrazen \n oraz 25% szybciej zdobywaja doswiadczenie \n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \n \n Zwieksza limit punktów dowodzenia o 10"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
 "Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n Category: 'Stacky Armor' \nIncreases command point limit by 10"
+"Sojusznicy w poblizu posagu otrzymuja \n +25% do pancerza \n oraz 25% szybciej zdobywaja doswiadczenie \n \n Zawsze sie kumuluje \n \n Zwieksza limit punktów dowodzenia o 10"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
 "Allies near the Statue gain 35% Armor \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Sojusznicy w poblizu posagu otrzymuja \n  +35% do pancerza \n \n Zwieksza limit punktów dowodzenia o 10"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
 "Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Category: 'Stacky Damage'"
+"Zmniejsza podatnosc fortecy na ataki wrecz"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
 "Provides 25% damage and 25% experience to nearby troops \n Reduces hero cost by 10% \n Category: 'Stacky Damage' \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Zapewnia o 25% zadawane obrazenia i  zmniejsza o 25% zdobywane doswiadczenie pobliskim oddzialom \n Zmniejsza koszt bohaterów o 10% \n Zmniejsza czas werbowania bohaterów o 10% \n Zmniejsza koszt budowniczych o 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Sojusznicy w poblizu fortecy otrzymuja \n +25% do zadawanych obrazen oraz zdobywaja doswiadczenie 25% szybciej \n Category: 'Stacky Damage' \n Zmniejsza koszt bohaterów o 10% \n Zmniejsza czas werbowania bohaterów o 10% \n Zmniejsza koszt budowniczych o 20%\n\n Ulepszone przyzywa Wieze Wolnostojaca"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage and 25% experience \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Sojusznicy w poblizu fortecy otrzymuja \n +25% do zadawanych obrazen oraz zdobywaja doswiadczenie 25% szybciej \n Category: 'Stacky Damage' \n Zmniejsza koszt bohaterów o 10% \n Zmniejsza czas werbowania bohaterów o 10% \n Zmniejsza koszt budowniczych o 20%\n\n Ulepszone przyzywa Wieze Wolnostojaca"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
@@ -173,7 +200,7 @@ CONTROLBAR:ToolTipTheodenLeadership09v2
 "Allies near Theoden gain \n +25% Damage and +25% experience. \n Category: 'Stacky Damage' \n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipSarumanLeadership09v2
+TOOLTIP:ToolTipSarumanLeadership09v2
 "Allies near Saruman gain +25% Armor and earn experience 25% faster \n Category: 'Stacky Armor' \n Passive ability"
 END
 //------------------------------------------------------------
@@ -191,7 +218,7 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Requires Level 2 \n Order Mumakil to trample the enemy \n Left click icon then left click on target"
+"Requires Level 2 \n Rozkazuje mumakilowi stratowac wroga\n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
@@ -8365,7 +8392,7 @@ CONTROLBAR:SwoopAttack
 END
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Requires Level 3 \n Rozkazuje mumakilowi stratowac wroga\n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
+"Rozkazuje mumakilowi stratowac wroga\n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
 END
 
 CONTROLBAR:Guard

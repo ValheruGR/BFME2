@@ -27,6 +27,28 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipBarbedArrows09v2
+"Nodig: niveau 2\nRicht enorme verwoesting aan en extra schade"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework09v2
+"Extra pantser voor fort en muren\nNodig voor brandende munitie. \n\n Upgrades summoned Lone Towers."
+END
+CONTROLBAR:ToolTipSharkuManEater09v2
+"Nodig: niveau 6\nDood geselecteerde vijand om Sharku's gezondheid te herstellen en tijdelijk +35% schade, +35% pantser te krijgen and -50% crushing deceleration.\nKlik met links op het icoontje en daarna met links op het doelwit"
+END
+CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel309v2
+"+30% bouwsnelheid\nMaakt research naar upgrades mithril pantser, gesmede wapens en vuurschot mogelijk\nVoegt een verdedigende bijlentoren toe \n Forge Works gain armor: \n +20% against heros, pikemen and cavalry"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
+"Geneest alle bondgenoten in de buurt\nHelden tot leven wekken wordt 5% goedkoper\nHelden tot leven wekken gaat 15% sneller. \n\n Upgrades summoned Lone Towers"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
+"Geneest bondgenoten bij het fort en in de hallen\nExtra weerstand voor fort. \n\n Upgrades summoned Lone Towers."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework09v2
+"Extra pantser voor fort en muren\nNodig voor machtige katapult. \n\n Upgrades summoned Lone Towers."
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenCloakThranduil09v2
 "Elven Cloack: \n Maak jezelf onzichtbaar in stilstand\nPassieve kracht"
@@ -34,6 +56,7 @@ END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 "Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Nodig: niveau 2\nPlaatst een schedeltotem die op de kaart blijft staan totdat hij is vernietigd\nLaat mist in de buurt verdwijnen, onthult verborgen eenheden en geeft +50% pantserbonus aan eenheden in de buurt\nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
@@ -41,51 +64,55 @@ CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Target allies gain +40% Damage, 50% experience & +10% speed. \n Category: 'Simple Damage' \n Left click icon then left click on target units"
+"Geselecteerde bondgenoten krijgen +40% schade \n , +50% experience & +10% speed. \n Category: 'Simple Damage' \nKlik met links op het icoontje en daarna met links op de doelwitten"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Targeted allies gain +50% Damage and +50% experience \n Category: 'Simple Damage' \n Left click icon then left click on target units"
+"Geselecteerde bondgenoten krijgen +50% schade \n en verdienen ervaring 50% sneller. \n Category: 'Simple Damage' \n Klik met links op het icoontje en daarna met links op de doelwitten"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Geselecteerde bondgenoten krijgen +50% schade \n en verdienen ervaring 25% sneller. \n Klik met links op het icoontje en daarna met links op de doelwitten"
+"Geselecteerde bondgenoten krijgen +50% schade \n en verdienen ervaring 25% sneller. \n Category: 'Simple Damage' \n Klik met links op het icoontje en daarna met links op de doelwitten"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Taints an area of terrain \n Allied hordes gain +35% armor. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Besmet een deel van het terrein\nAlle bondgenoten krijgen +35% pantser  \n Category: 'Simple Armor' \nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain \n Allied units gain +35% armor. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Creëert bosrijk terrein\nAlle bevriende eenheden krijgen +35% pantser\nHeeft geen effect op helden \n Category: 'Simple Armor' \n Klik met links op het icoontje en daarna met links op het doelgebied"
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Eenheden in de buurt van het\nstandbeeld krijgen +25% schade\nen verdienen ervaring 25% sneller \n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \n\nVerhoogt de limiet commandopunten met 10"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
 "Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n Category: 'Stacky Armor' \nIncreases command point limit by 10"
+"Eenheden in de buurt van het standbeeld\nkrijgen +25% pantser\nen verdienen ervaring 50% sneller\n\nEffecten stapelen op\n\nVerhoogt de limiet commandopunten met 10"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
 "Allies near the Statue gain 35% Armor \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Eenheden in de buurt van het standbeeld krijgen \n +50% pantser \n\n Verhoogt de limiet commandopunten met 10"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
 "Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Category: 'Stacky Damage'"
+"Vermindert de kwetsbaarheid van het fort voor mêlee-aanvallen"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
 "Provides 25% damage and 25% experience to nearby troops \n Reduces hero cost by 10% \n Category: 'Stacky Damage' \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Geeft extra ervaring aan troepen in de buurt\nPrijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Eenheden in de buurt van het fort\nkrijgen +25% pantser,\nen verdienen ervaring 25% sneller \n Category: 'Stacky Damage' \n Prijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager\n\n Upgrades summoned Lone Towers."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage and 25% experience \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +25% Damage and 25% experience \n Category: 'Stacky Damage' \n Prijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
@@ -165,8 +192,8 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 "Requires Level 10 \n An extremely powerful single shot attack that causes damage over time. \n The target is reduced to only 90% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Requires Level 2 \n Order Mumakil to trample the enemy \n Left click icon then left click on target"
+CONTROLBAR:ToolTipSpecialAbilityChargeAttack
+"Requires Level 2 \n Geef Mûmakil opdracht de vijand te vertrappen\nKlik met links op het icoontje en daarna met links op het doelwit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2

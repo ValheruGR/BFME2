@@ -47,6 +47,9 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
+"Erhöht den Rüstungswert der Festung und der Mauern \n Voraussetzung für Mächtiges Katapult \n\n Verstärkt gerufene einsame Türme"
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenCloakThranduil09v2
 "Elven Cloack: \n Solange sich die Einheit nicht bewegt, bleibt sie unsichtbar \n Passive Fähigkeit"
@@ -54,50 +57,54 @@ END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 "Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Voraussetzung: Stufe 2 \n Platziert ein Schädeltotem, das bis zu seiner Zerstörung auf der Karte bleibt \n Lichtet den Nebel und verleiht Verbündeten in der Nähe +35% Rüstung und +25% Erfahrung \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
 "Allies near the Drummer Troll gain +35% armor and +25% experience. \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Category: 'Simple Armor' \n Passive ability"
+"Verbündete in der Nähe des Trommler-Trolls erhalten +35% Rüstung und +25% Erfahrung \n Trolle erhalten +15% Rüstung, +15% Erfahrung und heilen sich selbst schneller \n \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Target allies gain +40% Damage, 50% experience & +10% speed. \n Category: 'Simple Damage' \n Left click icon then left click on target units"
+"Die gewählten Verbündeten verursachen +40% Schaden, erhalten 50% Erfahrung und +10% Geschwindigkeit \n Category: 'Simple Damage' \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 End
-//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Targeted allies gain +50% Damage and +50% experience \n Category: 'Simple Damage' \n Left click icon then left click on target units"
+"Die gewählten Verbündeten verursachen +50% Schaden und erhalten +50% Erfahrung\n Category: 'Simple Damage' \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
-//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Die gewählten Verbündeten verursachen +50% Schaden und erhalten +25% Erfahrung\n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Die gewählten Verbündeten verursachen +50% Schaden und erhalten +25% Erfahrung\n Category: 'Simple Damage' \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Taints an area of terrain \n Allied hordes gain +35% armor. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Verdirbt einen Landstrich \n Alle Verbündeten erhalten +35% Rüstung \n Category: 'Simple Armor' \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain \n Allied units gain +35% armor. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Bringt die Umgebung zum Blühen \n Verbündeten Einheiten erhalten +35% Rüstung. \n Category: 'Simple Armor' \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Verbündete in der Nähe der Statue \n verursachen +25% Schaden und \n sammeln 25% mehr Erfahrung  \n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
 "Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n Category: 'Stacky Armor' \nIncreases command point limit by 10"
+"Verbündete in der Nähe der Statue \n erhalten +25% Rüstung und sammeln \n 25% schneller Erfahrung \n Wird immer addiert \n \nErhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
 "Allies near the Statue gain 35% Armor \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Verbündete in der Nähe der Statue \n erhalten +35% Rüstung \n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
 "Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Category: 'Stacky Damage'"
+"Senkt die Nahkampf-Anfälligkeit der Festung \n Verbündete Einheiten in der näheren Umgebung erhalten: \n +25% mehr Schaden und +25% schneller Erfahrung \n Wird immer addiert"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
 "Provides 25% damage and 25% experience to nearby troops \n Reduces hero cost by 10% \n Category: 'Stacky Damage' \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Verleiht Truppen in der näheren Umgebung +25% Schaden und +25% Erfahrung \n Senkt Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden \n um 10% \n Senkt Kosten für Baumeister um 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
@@ -172,7 +179,7 @@ CONTROLBAR:ToolTipTheodenLeadership09v2
 "Allies near Theoden gain \n +25% Damage and +25% experience. \n Category: 'Stacky Damage' \n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipSarumanLeadership09v2
+TOOLTIP:ToolTipSarumanLeadership09v2
 "Allies near Saruman gain +25% Armor and earn experience 25% faster \n Category: 'Stacky Armor' \n Passive ability"
 END
 //------------------------------------------------------------
@@ -190,7 +197,7 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Requires Level 2 \n Order Mumakil to trample the enemy \n Left click icon then left click on target"
+"Requires Level 2 \n Befiehl dem Olifanten, deine Gegner niederzutrampeln \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
@@ -8365,7 +8372,7 @@ CONTROLBAR:SwoopAttack
 END
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Requires Level 3 \n Befiehl dem Olifanten, deine Gegner niederzutrampeln \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Befiehl dem Olifanten, deine Gegner niederzutrampeln \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 
 CONTROLBAR:Guard

@@ -47,138 +47,133 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipBarbedArrows
+"Требуется уровень 2. \n Атака, сбивающая противников с ног. Наносит увеличенный урон."
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
+"Укрепление защиты стен и крепости. \n Требуется для возведения Нуменорской Башни.\n\n Улучшает призванные Одинокие Башни."
+END
+CONTROLBAR:ToolTipSharkuManEater
+"Требуется уровень 6. \n При убийстве врага запас здоровья Шарку восстанавливается, он временно наносит +35% урона, получает +35% брони и -50% crushing deceleration. \n Щелкните на пиктограмме, затем - на цели."
+END
+CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
+"+30% скорости работы. \n Позволяет изобретать митрильную броню, стальное оружие и огненные камни. \n Возводится башня метателей. \n Постройка получает дополнительну броню: \n +20% против героев, пикинеров, кавалерии."
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
+"Исцеление находящихся рядом союзников. \n Воскрешение павших воинов в отряде каждые 6.5 секунд. \nСнижение стоимости воскрешения героя на 5%. %\n Снижение времени воскрешения героя на 15%. \n\n Улучшает призванные Одинокие Башни"
+END
+CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
+"Преимущество: здания, производящие ресурсы. \n Орки, в количестве минимум 70 \n получают +33% атаки, +20% скорости"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
+"Исцеление союзников в чертогах и неподалеку от крепости. \n Воскрешение павших воинов в отряде каждые 6.5 секунд. \n Уменьшение времени ожидания героя на 25%. \n Крепость получает дополнительный запас прочности. \n Улучшает призванные Одинокие Башни"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
+"Усиление брони стен и крепости \n Требуется для постройки мощной катапульты. \n\n Улучшает призванные Одинокие Башни"
+END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipElvenCloakThranduil
+CONTROLBAR:ToolTipElvenCloakThranduil09v2
 "Эльфийский плащ: \n Неподвижный герой невидим врагам. \n Пассивная способность."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 "Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Требуется уровень 2. \n На карте появляется череп на шесте (его можно уничтожить). \n Вокруг тотема рассеивается туман войны, становятся видимыми скрывшиеся враги, а союзники получают 35% брони и +25% опыта. \n Щелкните на пиктограмме, затем - на участке местности."
 END
-//------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
 "Allies near the Drummer Troll gain +35% armor and +25% experience. \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Category: 'Simple Armor' \n Passive ability"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Target allies gain +40% Damage, 50% experience & +10% speed. \n Category: 'Simple Damage' \n Left click icon then left click on target units"
+"Указанные союзники наносят +40% урона, получают +50% опыта в бою и +10% скорости.\n Category: 'Simple Damage' \n Щелкните на пиктограмме, затем - на нужных войсках."
 End
-//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Targeted allies gain +50% Damage and +50% experience \n Category: 'Simple Damage' \n Left click icon then left click on target units"
+"Союзники наносят на +50% урона и получают в бою дополнительные +50% опыта. \n Category: 'Simple Damage' \n Щелкните на пиктограмме, затем - на цели."
 END
-//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Союзники наносят на +50% урона и получают в бою дополнительные +25% опыта. \n Щелкните на пиктограмме, затем - на цели."
+"Союзники наносят на +50% урона и получают в бою дополнительные +25% опыта. \n Category: 'Simple Damage' \n Щелкните на пиктограмме, затем - на цели."
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Taints an area of terrain \n Allied hordes gain +35% armor. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Создание участка оскверненной земли. \n Все союзники получают +35% брони. \n Category: 'Simple Armor' \n Щелкните на пиктограмме, затем - на участке местности."
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain \n Allied units gain +35% armor. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
+"Выбранный участок покрывается эльфийским лесом \n +35% к броне союзникам \n Category: 'Simple Armor' \n Активируется левой кнопкой мыши"
 END
-//------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Союзники рядом со статуей \n наносят +25% урона \n и набирают опыт на 25% быстрее. \n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \nУвеличение лимита очков командования на 10."
 END
-//------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
 "Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n Category: 'Stacky Armor' \n Increases command point limit by 10"
+"Союзники рядом со статуей \nполучают +25% брони,\nа их опыт растет на 25% быстрее. \n \nЭффект накапливается. \nУвеличение лимита очков командования на 10."
 END
-//------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
 "Allies near the Statue gain 35% Armor \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Союзники рядом со статуей \n получают +35% брони. \nУвеличение лимита очков командования на 10."
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
 "Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Category: 'Stacky Damage'"
+"Уменьшение урона, наносимого крепости в ближнем бою. \n Союзники поблизости получают: \n +25% атаки и +25% опыта. \n Эффект всегда накапливается. "
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
 "Provides 25% damage and 25% experience to nearby troops \n Reduces hero cost by 10% \n Category: 'Stacky Damage' \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Находящиеся рядом войска получают +25% брони и опыта. \n Сокращение стоимости призыва героя на 10%. \n Сокращение времени ожидания героя на 10%. \n Сокращение стоимости обучения строителей на 20%."
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Союзники рядом с крепостью получают\n +25% брони,\nа их опыт растет на 25% быстрее. \n Category: 'Stacky Damage' \n \n Снижение стоимости призыва героя на 10%. \n Снижение времени ожидания героя на 10%. \n Снижение стоимости обучения строителей на 20%.\n\n Улучшает призванные Одинокие Башни"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage and 25% experience \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Союзники рядом с крепостью получают +25% к атаке и +25% опыта. \n Category: 'Stacky Damage' \n Снижение стоимости призыва героя на 10%. \n Уменьшение времени ожидания героя на 10%. \n Снижение стоимости подготовки строителей на 20%. \n\n Улучшает призванные Одинокие Башни."
 END
-//------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
 "Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \n Left click to activate"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
 "Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Left click icon then left click on target area"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
 "Требуется уровень 8 \n Союзные войска, монстры и герои излечиваются на большой территории вокруг Глорфинделя. \n Воскрешает 2-х погибших на отряд в течение всего времени действия. \n Союзные войска получают + 33% брони и + 50% урона. \n Category: 'Simple Armor' \n \n ЛКМ - применение способности."
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
 "Allies near Gimli gain +35% armor \n Category: 'Simple Armor' \n Passive ability"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
 "Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Passive ability"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonLeadership09v2
 "Allies near the banner gain \n +25% Damage \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
-//------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
 "Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive ability"
 End
-//------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
 "Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High-Tier' \n Passive ability"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
 "Требуется уровень 3. \n Кавалерия рядом с Арвен Гейн +25% брони и набирают опыт на 25% быстрее. \n Category: 'Stacky Armor' \n Пассивная способность."
 End
-//------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
 "Requires Level 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster \n Category: 'Simple Damage' \n Passive ability"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
 "Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster. \n Category: 'Stacky Armor' \n Passive ability"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
 "Requires Level 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Category: 'High-Tier' \n Passive ability"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
 "Requires Level 3 \n Cavalry near Eomer gain 35% Armor \n Category: 'Simple Armor' \n Passive ability"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
 "Requires Level 6 \n Allies near Faramir gain \n +35% armor \n Category: 'Simple Armor' \n Passive ability"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
 "Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster \n Category: 'Simple Damage' \n Passive ability"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
 "Allies near Theoden gain \n +25% Damage and +25% experience. \n Category: 'Stacky Damage' \n Passive ability"
 END
-//------------------------------------------------------------
-CONTROLBAR:ToolTipSarumanLeadership09v2
+TOOLTIP:ToolTipSarumanLeadership09v2
 "Союзные войска рядом с Саруманом получают +25% брони и набирают опыт на 25% быстрее. \n Category: 'Stacky Armor' \n Пассивная способность."
-END
-//------------------------------------------------------------
-CONTROLBAR:ToolTipBloodthirsty09v2
-//Not used yet
-"Requires Level 2 \n Order this unit to kill a friendly unit \n to gain combat experience \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
