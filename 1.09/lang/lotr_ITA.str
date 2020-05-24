@@ -24,8 +24,32 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:nothing09v2
+"nothing"
+END
+//------------------------------------------------------------
 CONTROLBAR:nothingDesc09v2
 "nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothing09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothingDesc09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothing09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothingDesc09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipElvenCloakThranduil
+"Elven Cloack: \n Diventa invisibile quando è immobile.\nAbilità passiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
@@ -238,7 +262,7 @@ CONTROLBAR:TooltipFlood09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRebuild09v2
-"Heals 3000 health-points from any structure. \n Target structures gain 20% bonus armor for 15s. \n Left click icon then left click on target structures"
+"Heals 3000 health-points from any structure. \n Target structures gain 15% bonus armor for 15s. \n Left click icon then left click on target structures"
 End
 //------------------------------------------------------------
 CONTROLBAR:DwarvenCaptainofDale09v2
@@ -1272,7 +1296,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Evoca tre Piogge Infuocate intorno a Sauron in cerchio."
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Richiede Fortezza aggiornare \cn\n Fornisce +25% danno +25% esperienza \n Sempre cumulativa."
+"Richiede Fortezza aggiornare \cn\n Fornisce +25% danno +25% esperienza. \n Category: 'Stacky Damage'"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Richiede fortezza aggiornare. \n\n Guarisce le unità alleate nelle vicinanze. \n Riforma 1 unità per orda ogni 10 secondi."
@@ -14776,7 +14800,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Restituisce 4000 punti vita ad ogni struttura. \n The target structures gain 20% bonus armor for 15s.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Restituisce 4000 punti vita ad ogni struttura.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:Draft

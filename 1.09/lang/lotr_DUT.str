@@ -28,6 +28,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipElvenCloakThranduil09v2
+"Elven Cloack: \n Maak jezelf onzichtbaar in stilstand\nPassieve kracht"
+END
+//------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 "Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
 END
@@ -125,7 +129,7 @@ CONTROLBAR:ToolTipHaldirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster. \n Category: 'Stacky Armor' \n Passive ability"
+"Bondgenoten in de buurt van Tom Bombadil krijgen +25% pantser, \n and earn experience +25% faster. \n Category: 'Stacky Armor' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
@@ -234,7 +238,7 @@ CONTROLBAR:TooltipFlood09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRebuild09v2
-"Heals 3000 health-points from any structure. \n Target structures gain 20% bonus armor for 15s. \n Left click icon then left click on target structures"
+"Heals 3000 health-points from any structure. \n Target structures gain 15% bonus armor for 15s. \n Left click icon then left click on target structures"
 End
 //------------------------------------------------------------
 CONTROLBAR:DwarvenCaptainofDale09v2
@@ -1268,7 +1272,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Summon Three Fi&res of Doom around Sauron in a circle"
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and +25% experience \n Always stacks"
+"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and +25% experience. \n Category: 'Stacky Damage'"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
@@ -1390,9 +1394,6 @@ END
 NUMBER:0
 "0"
 END
-
-
-// comment:
 
 TIME:Days
 "%d dagen"
@@ -8339,7 +8340,7 @@ CONTROLBAR:SwoopAttack
 END
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Requires Level 3 \n Geef Mûmakil opdracht de vijand te vertrappen\nKlik met links op het icoontje en daarna met links op het doelwit"
+"Geef Mûmakil opdracht de vijand te vertrappen\nKlik met links op het icoontje en daarna met links op het doelwit"
 END
 
 CONTROLBAR:Guard
@@ -14779,7 +14780,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Repareert gebouwen. \n The target structures gain 20% bonus armor for 15s. \nKlik met links op het icoontje en daarna met links op de gebouwen"
+"Repareert gebouwen\nKlik met links op het icoontje en daarna met links op de gebouwen"
 END
 
 CONTROLBAR:Draft
@@ -14839,7 +14840,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Creëert bosrijk terrein\nAlle bevriende eenheden krijgen +35% pantser\nHeeft geen effect op helden\nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Creëert bosrijk terrein\nAlle bevriende eenheden krijgen +50% pantser\nHeeft geen effect op helden\nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -16243,7 +16244,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Bondgenoten in de buurt van Tom Bombadil krijgen\n +25% pantser,\nen verdienen ervaring 25% sneller\n\nPassieve kracht Maximaal 1 per keer"
+"Bondgenoten in de buurt van Tom Bombadil krijgen\n+50% schade en +50% pantser,\nen verdienen twee keer zo snel ervaring\n\nPassieve kracht Maximaal 1 per keer"
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -16579,7 +16580,7 @@ CONTROLBAR:ToggleLooseFormation
 END
 
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-30% Speed, +20% Armor \n and +25% extra arrow resistance. \n Loses -7% damage."
+"-40% snelheid\n+25% pantser"
 END
 
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
@@ -25579,7 +25580,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStonework
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
-"Extra pantser voor fort en muren\nNodig voor machtige katapult. \n\n Upgrades summoned Lone Towers."
+"Extra pantser voor fort en muren\nNodig voor machtige katapult"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions
@@ -25595,7 +25596,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
-"Geneest bondgenoten bij het fort en in de hallen\nExtra weerstand voor fort. \n\n Upgrades summoned Lone Towers."
+"Geneest bondgenoten bij het fort en in de hallen\nExtra weerstand voor fort"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
@@ -29527,7 +29528,7 @@ CONTROLBAR:ToolTipActivateFireShip
 END
 
 CONTROLBAR:ToolTipBarbedArrows
-"Nodig: niveau 2\nRicht enorme verwoesting aan en extra schade"
+"Richt enorme verwoesting aan en extra schade"
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeAxeThrowers
@@ -43899,7 +43900,7 @@ CONTROLBAR:ToolTipBuildGondorFighterHorde
 END
 
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
-"Sterk tegen gebouwen die grondstoffen genereren \n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+"Sterk tegen gebouwen die grondstoffen genereren"
 END
 
 CONTROLBAR:ToolTipBuildMordorCorsairHorde
@@ -44095,7 +44096,7 @@ CONTROLBAR:ToolTipHeal
 END
 
 CONTROLBAR:TooltipRallyingCall
-"Geselecteerde bondgenoten krijgen +50% schade \n en verdienen ervaring 50% sneller. \n Klik met links op het icoontje en daarna met links op de doelwitten"
+"Geselecteerde bondgenoten krijgen +50% schade\nKlik met links op het icoontje en daarna met links op de doelwitten"
 END
 
 CONTROLBAR:TooltipDwarvenRiches
@@ -44119,11 +44120,11 @@ CONTROLBAR:ToolTipGandalfLeadership
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Eenheden in de buurt van het fort\nkrijgen +25% pantser,\nen verdienen ervaring 25% sneller\nPrijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager\n\n Upgrades summoned Lone Towers. \n\n Upgrades summoned Lone Towers."
+"Eenheden in de buurt van het fort\nkrijgen +25% pantser,\nen verdienen ervaring 25% sneller\nPrijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Geneest alle bondgenoten in de buurt\nHelden tot leven wekken wordt 5% goedkoper\nHelden tot leven wekken gaat 15% sneller. \n\n Upgrades summoned Lone Towers"
+"Geneest alle bondgenoten in de buurt\nHelden tot leven wekken wordt 20% goedkoper\nHelden tot leven wekken gaat 20% sneller"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
@@ -44155,7 +44156,7 @@ TOOLTIP:LackGondorIronOreTechnology
 END
 
 OBJECT:HeroicStatueDescription
-"Eenheden in de buurt van het standbeeld\nkrijgen +25% pantser\nen verdienen ervaring 25% sneller\n\nEffecten stapelen op\n\nVerhoogt de limiet commandopunten met 10"
+"Eenheden in de buurt van het standbeeld\nkrijgen +25% pantser\nen verdienen ervaring 50% sneller\n\nEffecten stapelen op\n\nVerhoogt de limiet commandopunten met 10"
 END
 
 CONTROLBAR:HornofGondor
@@ -44167,7 +44168,7 @@ CONTROLBAR:ToolTipHornofGondor
 END
 
 CONTROLBAR:ToolTipBoromirLeadership
-"Nodig: niveau 5\nBondgenoten in de buurt van Boromir krijgen\n+50% schade\n en verdienen ervaring 25% sneller. \n\nPassieve kracht"
+"Nodig: niveau 5\nBondgenoten in de buurt van Boromir krijgen\n+50% schade\n\nPassieve kracht"
 END
 
 CONTROLBAR:CaptainofGondorBoromir
@@ -44187,7 +44188,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Bondgenoten in de buurt van Théoden krijgen\n+25% schade\n en verdienen ervaring 25% sneller. \n\n Effecten stapelen op. \n\n Passieve kracht"
+"Bondgenoten in de buurt van Théoden krijgen\n+50% schade\n\nPassieve kracht"
 END
 
 CONTROLBAR:ToolTipGloriousCharge
@@ -44231,7 +44232,7 @@ CONTROLBAR:CaptainofGondor
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
-"Nodig: niveau 6\nBondgenoten in de buurt van Faramir krijgen\n+35% pantser\n\nPassieve kracht"
+"Nodig: niveau 6\nBondgenoten in de buurt van Faramir krijgen\n+50% pantser\n\nPassieve kracht"
 END
 
 CONTROLBAR:ThrowSpear
@@ -44239,7 +44240,7 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Nodig: niveau 3\nCavalerie-eenheden in de buurt van Éomer krijgen\n+35% pantser\n\nPassieve kracht"
+"Nodig: niveau 3\nCavalerie-eenheden in de buurt van Éomer krijgen\n+50% pantser\n\nPassieve kracht"
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -44303,11 +44304,11 @@ CONTROLBAR:ToolTipMenLongShotAbility
 END
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"Research van upgrade vaandeldrager in barakken om te kunnen gebruiken\n\n+25% pantser, -30% snelheid"
+"Research van upgrade vaandeldrager in barakken om te kunnen gebruiken\n\n+25% pantser, -40% snelheid"
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Nodig: niveau 8\nBondgenoten in de buurt worden genezen, krijgen\n+35% schade en +50% pantser\n\nKlik met links om te activeren"
+"Nodig: niveau 10\nBondgenoten in de buurt worden genezen, krijgen\n+50% schade en +50% pantser\n\nKlik met links om te activeren"
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
@@ -44375,7 +44376,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
-"Nodig: niveau 4\nBondgenoten in de buurt van Haldir krijgen\n+50% schade\n en verdienen ervaring 25% sneller.\n\nPassieve kracht"
+"Nodig: niveau 4\nBondgenoten in de buurt van Haldir krijgen\n+50% schade\n\nPassieve kracht"
 END
 
 CONTROLBAR:GlorfindelBladeOfPurity
@@ -44459,7 +44460,7 @@ OBJECT:DwarvenStatueDescription
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Eenheden in de buurt van het\nstandbeeld krijgen +25% schade en verdienen ervaring 25% sneller\nPrijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager. \n\n Upgrades summoned Lone Towers."
+"Eenheden in de buurt van het\nstandbeeld krijgen +50% pantser\nPrijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager"
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
@@ -44467,7 +44468,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+30% bouwsnelheid\nMaakt research naar upgrades mithril pantser, gesmede wapens en vuurschot mogelijk\nVoegt een verdedigende bijlentoren toe \n Forge Works gain armor: \n +20% against heros, pikemen and cavalry"
+"+25% bouwsnelheid\nMaakt research naar upgrades mithril pantser, gesmede wapens en vuurschot mogelijk\nVoegt een verdedigende bijlentoren toe"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade
@@ -44483,7 +44484,7 @@ CONTROLBAR:ToolTipBlackArrows
 END
 
 OBJECT:DwarvenHeroicStatueDescription
-"Eenheden in de buurt van het standbeeld krijgen \n +35% pantser \n\n Verhoogt de limiet commandopunten met 10"
+"Eenheden in de buurt van het standbeeld krijgen \n +50% pantser \n\n Verhoogt de limiet commandopunten met 10"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade
@@ -44539,7 +44540,7 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Bondgenoten in de buurt van Gimli krijgen \n +35% pantser \n\n Passieve kracht"
+"Bondgenoten in de buurt van Gimli krijgen \n +50% pantser \n\n Passieve kracht"
 END
 
 CONTROLBAR:ToolTipAxeThrow
@@ -44587,7 +44588,7 @@ CONTROLBAR:TooltipUpgradeIsengardSiegeWorksLevel3
 END
 
 CONTROLBAR:ToolTipWarChant
-"Geselecteerde bondgenoten krijgen +50% schade\n en verdienen ervaring 50% sneller.\nKlik met links op het icoontje en daarna met links op de doelwitten"
+"Geselecteerde bondgenoten krijgen +50% schade\nKlik met links op het icoontje en daarna met links op de doelwitten"
 END
 
 CONTROLBAR:ToolTipIndustry
@@ -44599,15 +44600,15 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Besmet een deel van het terrein\nAlle bondgenoten krijgen +35% pantser\nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Besmet een deel van het terrein\nAlle bondgenoten krijgen +50% pantser\nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Roept het Oog van Sauron op\nMaakt verscholen vijanden zichtbaar\nBondgenoten krijgen +25% schade en +25% pantser,\nen verdienen ervaring 50% sneller \n Klik met links op het icoontje en daarna met links op het doelgebied"
+"Roept het Oog van Sauron op\nMaakt verscholen vijanden zichtbaar\nBondgenoten krijgen +25% schade en verdienen ervaring 25% sneller\nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 
 CONTROLBAR:ToolTipDarkness
-"Hult de gehele kaart tijdelijk in duisternis\nAlle bondgenoten krijgen +50% schade en +33% pantser,\nen verdienen ervaring 50% sneller\nKlik met links om te activeren"
+"Hult de gehele kaart tijdelijk in duisternis\nAlle bondgenoten krijgen +25% schade en +25% pantser,\nen verdienen ervaring 50% sneller\nKlik met links om te activeren"
 END
 
 CONTROLBAR:ToolTipSummonCrebain
@@ -44615,7 +44616,7 @@ CONTROLBAR:ToolTipSummonCrebain
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
-"Nodig: niveau 5\nBondgenoten in de buurt van Lurtz krijgen\n+50% schade\n en verdienen ervaring 25% sneller.\n\nPassieve kracht"
+"Nodig: niveau 5\nBondgenoten in de buurt van Lurtz krijgen\n+50% schade\n\nPassieve kracht"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
@@ -44635,7 +44636,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Nodig: niveau 6\nDood geselecteerde vijand om Sharku's gezondheid te herstellen en tijdelijk +35% schade, +35% pantser te krijgen and -50% crushing deceleration.\nKlik met links op het icoontje en daarna met links op het doelwit"
+"Nodig: niveau 8\nDood geselecteerde vijand om Sharku's gezondheid te herstellen en tijdelijk +50% schade en +50% pantser te krijgen\nKlik met links op het icoontje en daarna met links op het doelwit"
 END
 
 CONTROLBAR:ToggleLurtzWeapon
@@ -44715,7 +44716,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Bondgenoten in de buurt van de Trol-tromslager krijgen +35% pantser \n \n Passieve kracht"
+"Bondgenoten in de buurt van de Trol-tromslager krijgen +50% pantser \n \n Passieve kracht"
 END
 
 CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3
@@ -44779,7 +44780,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Nodig: niveau 2\nPlaatst een schedeltotem die op de kaart blijft staan totdat hij is vernietigd\nLaat mist in de buurt verdwijnen, onthult verborgen eenheden en geeft +35% pantserbonus aan eenheden in de buurt\nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Nodig: niveau 2\nPlaatst een schedeltotem die op de kaart blijft staan totdat hij is vernietigd\nLaat mist in de buurt verdwijnen, onthult verborgen eenheden en geeft +50% pantserbonus aan eenheden in de buurt\nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
@@ -44875,7 +44876,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"Wargen krijgen +55% schade \n lose -15% armor against pike and structural damage\n Klik met links om te activeren"
+"Wargen krijgen +60% schade\nKlik met links om te activeren"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
@@ -44891,7 +44892,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Extra pantser voor fort en muren\nNodig voor brandende munitie. \n\n Upgrades summoned Lone Towers."
+"Extra pantser voor fort en muren\nNodig voor brandende munitie"
 END
 
 CONTROLBAR:ToolTipOutlawLeadership

@@ -24,8 +24,32 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:nothing09v2
+"nothing"
+END
+//------------------------------------------------------------
 CONTROLBAR:nothingDesc09v2
 "nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothing09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothingDesc09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothing09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothingDesc09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipElvenCloakThranduil
+"Elven Cloack: \n Blir osynlig vid stillastående \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
@@ -238,7 +262,7 @@ CONTROLBAR:TooltipFlood09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRebuild09v2
-"Heals 3000 health-points from any structure. \n Target structures gain 20% bonus armor for 15s. \n Left click icon then left click on target structures"
+"Heals 3000 health-points from any structure. \n Target structures gain 15% bonus armor for 15s. \n Left click icon then left click on target structures"
 End
 //------------------------------------------------------------
 CONTROLBAR:DwarvenCaptainofDale09v2
@@ -1272,7 +1296,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Summon Three Fi&res of Doom around Sauron in a circle"
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and +25% experience \n Always stacks"
+"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and +25% experience. \n Category: 'Stacky Damage'"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
@@ -14783,7 +14807,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Reparerar byggnader. \n The target structures gain 20% bonus armor for 15s. \nVänsterklicka på ikonen, vänsterklicka sedan på målbyggnaderna"
+"Reparerar byggnader. \n The Target structures gain 15% bonus armor for 15s. \nVänsterklicka på ikonen, vänsterklicka sedan på målbyggnaderna"
 END
 
 CONTROLBAR:Draft
@@ -44324,7 +44348,7 @@ CONTROLBAR:ToolTipArrowWind
 END
 
 CONTROLBAR:ToolTipElvenCloakThranduil
-"Blir osynlig vid stillastående \n Passiv förmåga"
+"Elven Cloack: \n Blir osynlig vid stillastående \n Passiv förmåga"
 END
 
 CONTROLBAR:ToolTipDeadEye

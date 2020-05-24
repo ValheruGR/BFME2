@@ -24,8 +24,32 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:nothing09v2
+"nothing"
+END
+//------------------------------------------------------------
 CONTROLBAR:nothingDesc09v2
 "nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothing09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothingDesc09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothing09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothingDesc09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipElvenCloakThranduil09v2
+"Elven Cloack: \n Solange sich die Einheit nicht bewegt, bleibt sie unsichtbar \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
@@ -238,7 +262,7 @@ CONTROLBAR:TooltipFlood09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRebuild09v2
-"Heals 3000 health-points from any structure. \n Target structures gain 20% bonus armor for 15s. \n Left click icon then left click on target structures"
+"Heals 3000 health-points from any structure. \n Target structures gain 15% bonus armor for 15s. \n Left click icon then left click on target structures"
 End
 //------------------------------------------------------------
 CONTROLBAR:DwarvenCaptainofDale09v2
@@ -1272,7 +1296,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Rufe drei Feuer des Untergangs um Sauron herum in einem &Kreis"
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Nahe Verbündete erhalten +25% Schaden und +25% Erfahrung \n Wird immer addiert"
+"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Nahe Verbündete erhalten +25% Schaden und +25% Erfahrung \n Category: 'Stacky Damage'"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Heilt nahe Verbündete. \n Stockt eine Einheit pro Horde alle 10 Sekunden auf"
@@ -14781,7 +14805,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Repariert 4000 Gesundheitspunkte aus jeder Struktur. \n The target structures gain 20% bonus armor for 15s. \n Linksklicke auf das Symbol und anschließend auf die gewünschte Gebäude"
+"Repariert 4000 Gesundheitspunkte aus jeder Struktur. \n Linksklicke auf das Symbol und anschließend auf die gewünschte Gebäude"
 END
 
 CONTROLBAR:Draft
