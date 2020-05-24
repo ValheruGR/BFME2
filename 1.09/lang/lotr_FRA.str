@@ -47,12 +47,34 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
-//------------------------------------------------------------
-CONTROLBAR:nothingDesc09v2
-"nothing"
+CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
+"Requiert niveau 2 \nOrdonne aux gardiens de charger l'ennemi\nLe gardien gagne +25% vitesse et +25% armure \n Category: 'Simple Armor'  \nProvoque un renversement \nClic gauche sur l'icône puis clic gauche sur la cible"
 END
-
-CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
+CONTROLBAR:ToolTipBarbedArrows09v2
+"Requires Level 2\n Causes meta impact and increased damage \n Left click icon then left click on target"
+End
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework09v2
+"Increases Fortress and Wall armor \n Pre-requisite for Ivory Tower \n Upgrades summoned Lone Towers"
+END
+CONTROLBAR:ToolTipSharkuManEater09v2
+"Requires Level 6 \n Kill target enemy which restores Sharku's health and temporarily grants +35% Damage, +35% armor and -50% crushing deceleration.\n Left click icon then left click on target enemy"
+END
+CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel309v2
+"+30% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain armor: \n +20% against heros, pikemen and cavalry"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
+"Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
+END
+CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
+"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+END
+TOOLTIP:MordorOrcFighterHordeDescription09v2
+"Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
+"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework09v2
 "Donne des points d'armure supplémentaires à la forteresse et aux murs \nPrérequis pour la Catapulte lourde. \n\n La tour d'archers défensive invoquée en bénéficie"
 END
 //------------------------------------------------------------
@@ -114,26 +136,32 @@ END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
 "Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Les alliés proches de la forteresse gagnent \n+25% armure\nexpérience gagnée 25% plus rapidement\nBonus cumulatif \nRéduit le coût des héros de 10% \nRéduit le temps de recrutement des héros de 10% \nRéduit le coût des bâtisseurs de 20%\n\nAméliore la tour d'archers défensive invoquée"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 "Allies near Fortress gain \n +25% Damage and 25% experience \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Les alliés proches de la forteresse gagnent \n+25% dommage +25% d'expérience \nRéduit le coût des héros de 10% \nRéduit le temps de recrutement des héros de 10% \nRéduit le coût des bâtisseurs de 20% \n\nAméliore la tour d'archers défensive invoquée"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
 "Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \n Left click to activate"
+"Les Wargs gagnent +55% dégâts mais perdent -15% armure contre les piquiers et les dégâts provenant de structures \n Le bonus ne peut être annulé et est cumulatif \nClic gauche pour activer"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
 "Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Left click icon then left click on target area"
+"Invoque l'Oeil de Sauron \nRévèle les ennemis furtifs \nLes alliés gagnent +25% dégâts, +25% armure, +50% d'expérience \nClic gauche sur l'icône puis clic gauche sur la zone cible"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
 "Requires Level 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Allied hordes gain +33% armor and +50% damage. \n Category: 'Simple Armor' \n Left click to activate"
+"Requiert : niveau 8 \n Les unités alliées proches sont soignées et gagnent +35% armure, +50% dégâts \nBonus de charisme modeste \n Bonus non cumulatif \nClic gauche pour activer"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
 "Allies near Gimli gain +35% armor \n Category: 'Simple Armor' \n Passive ability"
+"Les alliés proches de Gimli gagnent \n +35% armure \n \n Capacité passive"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
@@ -145,7 +173,7 @@ CONTROLBAR:ToolTipBattleWagonLeadership09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive ability"
+"Requiert : niveau 4 \nLes alliés proches du Roi Gobelin gagnent\n +25% armure, expérience gagnée 25% plus rapidement  \n Category: 'Stacky Armor' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n\n Capacité passive"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
@@ -162,6 +190,7 @@ END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
 "Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster. \n Category: 'Stacky Armor' \n Passive ability"
+"Les alliés proches de Tom Bombadil gagnent \n+25% armure, \nexpérience gagnée 25% plus rapidement \nBonus cumulatif \n\n Capacité passive"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
@@ -186,11 +215,6 @@ END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
 "Allies near Saruman gain +25% Armor and earn experience 25% faster \n Category: 'Stacky Armor' \n Passive ability"
-END
-//------------------------------------------------------------
-CONTROLBAR:ToolTipBloodthirsty09v2
-//Not used yet
-"Requires Level 2 \n Order this unit to kill a friendly unit \n to gain combat experience \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -256,6 +280,16 @@ END
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 "Strong vs. Pikemen\n and Resource Buildings \n Guardians gain +5% speed at level 3, 5, 7 and 10."
 End
+//------------------------------------------------------------
+TOOLTIP:GondorTowerGuardHordeDescription09v2
+"Tower Guards gain +5% speed at level 3, 5, 7 and 10."
+END
+TOOLTIP:DwarvenGuardianHordeDescription09v2
+"Guardians gain +5% speed at level 3, 5, 7 and 10."
+END
+TOOLTIP:ElvenRivendellLancerHordeDescription09v2
+"Rivendell Lancers gain +7% speed at level 5."
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
 "Requires Level 10 \n Causes a large earthquake around Gloin's location \n Can stun the Army of the Dead for 5 seconds, but does not kill them \n Left click icon then left click on target"

@@ -24,8 +24,31 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:nothing09v2
+"nothing"
+END
+//------------------------------------------------------------
 CONTROLBAR:nothingDesc09v2
 "nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothing09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothingDesc09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothing09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:nothingDesc09v2
+"nothing"
+END
+CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
+"Nodig: niveau 2\nLaat beschermers de vijand aanvallen\nBeschermers krijgen +25% snelheid en +25% pantser \n Category: 'Simple Armor'  \nVijanden worden de lucht in geslingerd\nKlik met links op het icoontje en daarna met links op het doelwit"
 END
 CONTROLBAR:ToolTipBarbedArrows09v2
 "Nodig: niveau 2\nRicht enorme verwoesting aan en extra schade"
@@ -42,6 +65,12 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Geneest alle bondgenoten in de buurt\nHelden tot leven wekken wordt 5% goedkoper\nHelden tot leven wekken gaat 15% sneller. \n\n Upgrades summoned Lone Towers"
 END
+CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
+"Sterk tegen gebouwen die grondstoffen genereren \n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+END
+TOOLTIP:MordorOrcFighterHordeDescription09v2
+"Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Geneest bondgenoten bij het fort en in de hallen\nExtra weerstand voor fort. \n\n Upgrades summoned Lone Towers."
 END
@@ -55,12 +84,11 @@ CONTROLBAR:ToolTipElvenCloakThranduil09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
-"Nodig: niveau 2\nPlaatst een schedeltotem die op de kaart blijft staan totdat hij is vernietigd\nLaat mist in de buurt verdwijnen, onthult verborgen eenheden en geeft +50% pantserbonus aan eenheden in de buurt\nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Nodig: niveau 2\nPlaatst een schedeltotem die op de kaart blijft staan totdat hij is vernietigd\nLaat mist in de buurt verdwijnen, onthult verborgen eenheden en geeft +35% pantserbonus aan eenheden in de buurtn en en verdienen ervaring 25% sneller \n Category: 'Simple Armor' \nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Allies near the Drummer Troll gain +35% armor and +25% experience. \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Category: 'Simple Armor' \n Passive ability"
+"Bondgenoten in de buurt van de Trol-tromslager krijgen +35% pantser \n en verdienen ervaring 25% sneller. \n Cave Trolls, Mountain Trolls and Attack Trolls also gain +15% Armor, 15% Experience & autoheal themselves faster. \n Category: 'Simple Armor' \n \n Passieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
@@ -88,51 +116,48 @@ OBJECT:ElvenHeroicStatueDescription09v2
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n Category: 'Stacky Armor' \nIncreases command point limit by 10"
-"Eenheden in de buurt van het standbeeld\nkrijgen +25% pantser\nen verdienen ervaring 50% sneller\n\nEffecten stapelen op\n\nVerhoogt de limiet commandopunten met 10"
+"Eenheden in de buurt van het standbeeld\nkrijgen +25% pantser\nen verdienen ervaring 25% sneller \n Category: 'Stacky Armor' \n\nVerhoogt de limiet commandopunten met 10"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Allies near the Statue gain 35% Armor \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
-"Eenheden in de buurt van het standbeeld krijgen \n +50% pantser \n\n Verhoogt de limiet commandopunten met 10"
+"Eenheden in de buurt van het standbeeld krijgen \n +35% pantser \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n\n Verhoogt de limiet commandopunten met 10"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Category: 'Stacky Damage'"
-"Vermindert de kwetsbaarheid van het fort voor mêlee-aanvallen"
+"Vermindert de kwetsbaarheid van het fort voor mêlee-aanvallen \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Category: 'Stacky Damage'"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Provides 25% damage and 25% experience to nearby troops \n Reduces hero cost by 10% \n Category: 'Stacky Damage' \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
-"Geeft extra ervaring aan troepen in de buurt\nPrijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager"
+"Eenheden in de buurt van het fort\n krijgen +25% schade,\nen verdienen ervaring 25% sneller \n Category: 'Stacky Damage' \n Prijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Eenheden in de buurt van het fort\nkrijgen +25% pantser,\nen verdienen ervaring 25% sneller \n Category: 'Stacky Damage' \n Prijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager\n\n Upgrades summoned Lone Towers."
+"Eenheden in de buurt van het fort\n krijgen +25% schade,\nen verdienen ervaring 25% sneller \n Category: 'Stacky Damage' \n Prijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager\n\n Upgrades summoned Lone Towers."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage and 25% experience \n Category: 'Stacky Damage' \n Prijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager"
+"Eenheden in de buurt van het fort\n krijgen +25% schade,\nen verdienen ervaring 25% sneller \n Category: 'Stacky Damage' \n Prijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \n Left click to activate"
+"Wargen krijgen +55% schade but \n lose -10% armor against pike and structural damage\n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \n Klik met links om te activeren"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
 "Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Left click icon then left click on target area"
+"Roept het Oog van Sauron op\nMaakt verscholen vijanden zichtbaar\nBondgenoten krijgen +25% schade en verdienen ervaring 25% sneller\nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requires Level 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Allied hordes gain +33% armor and +50% damage. \n Category: 'Simple Armor' \n Left click to activate"
+"Nodig: niveau 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Bondgenoten in de buurt worden genezen, krijgen\n+50% schade en +33% pantser. \n Category: 'Simple Armor' \n\nKlik met links om te activeren"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Allies near Gimli gain +35% armor \n Category: 'Simple Armor' \n Passive ability"
+"Bondgenoten in de buurt van Gimli krijgen +35% pantser \n Category: 'Simple Armor' \n\n Passieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Passive ability"
+"Bondgenoten in de buurt van koning Dáin krijgen\n+25% schade en +25% pantser,\nen verdienen ervaring 50% sneller \n Category: 'High Tier' \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonLeadership09v2
@@ -140,60 +165,61 @@ CONTROLBAR:ToolTipBattleWagonLeadership09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive ability"
+"Nodig: niveau 4 \n Bondgenoten in de buurt van de Aardmannen-koning krijgen\n+25% pantser en verdienen 25% meer ervaring \n Category: 'Stacky Armor' \n\nPassieve kracht"
+"Nodig: niveau 4\nBondgenoten in de buurt van de Aardmannen-koning krijgen\n+25% schade en verdienen 25% meer ervaring\n\nPassieve kracht"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High-Tier' \n Passive ability"
+"Nodig: niveau 3\nBondgenoten in de buurt van Elrond krijgen\n+25% schade en +25% pantser,\nen verdienen ervaring 50% sneller \n Category: 'High-Tier' \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Nodig: niveau 3\n Cavalerie-eenheden in de buurt van Arwen krijgen \n+25% schade en verdienen 25% meer ervaring \n Category: 'Stacky Armor' \n \nPassieve kracht"
+"Nodig: niveau 3\n Cavalerie-eenheden in de buurt van Arwen krijgen \n+25% pantser en verdienen 25% meer ervaring \n Category: 'Stacky Armor' \n \nPassieve kracht"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Requires Level 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster \n Category: 'Simple Damage' \n Passive ability"
+"Nodig: niveau 4\nBondgenoten in de buurt van Haldir krijgen\n+50% schade en verdienen ervaring 25% sneller \n Category: 'Simple Damage' \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Bondgenoten in de buurt van Tom Bombadil krijgen +25% pantser, \n and earn experience +25% faster. \n Category: 'Stacky Armor' \n Passive ability"
+"Bondgenoten in de buurt van Tom Bombadil krijgen \n+25% pantser en verdienen 25% meer ervaring \n Category: 'Stacky Armor' \n \nPassieve kracht"
+"Bondgenoten in de buurt van Tom Bombadil krijgen\n+50% schade en +50% pantser,\nen verdienen twee keer zo snel ervaring\n\nPassieve kracht Maximaal 1 per keer"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Requires Level 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Category: 'High-Tier' \n Passive ability"
+"Nodig: niveau 4\nBondgenoten in de buurt van Aragorn krijgen\n+25% schade en +25% pantser,\n en verdienen ervaring 50% sneller \n Category: 'High-Tier' \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Requires Level 3 \n Cavalry near Eomer gain 35% Armor \n Category: 'Simple Armor' \n Passive ability"
+"Nodig: niveau 3\nCavalerie-eenheden in de buurt van Éomer krijgen\n+35% pantser \n Category: 'Simple Armor' \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Requires Level 6 \n Allies near Faramir gain \n +35% armor \n Category: 'Simple Armor' \n Passive ability"
+"Nodig: niveau 6\nBondgenoten in de buurt van Faramir krijgen\n+35% pantser \n Category: 'Simple Armor' \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster \n Category: 'Simple Damage' \n Passive ability"
+"Nodig: niveau 5\nBondgenoten in de buurt van Boromir krijgen\n+50% schade en verdienen ervaring 25% sneller \n Category: 'Simple Damage' \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Allies near Theoden gain \n +25% Damage and +25% experience. \n Category: 'Stacky Damage' \n Passive ability"
+"Bondgenoten in de buurt van Théoden krijgen\n+25% schade en verdienen ervaring 25% sneller \n Category: 'Stacky Damage' \n\nPassieve kracht"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipBloodthirsty09v2
-//Not used yet
-"Requires Level 2 \n Order this unit to kill a friendly unit \n to gain combat experience \n Left click icon then left click on target units"
+TOOLTIP:ToolTipSarumanLeadership09v2
+"Bondgenoten in de buurt van Saruman krijgen \n+25% pantser en verdienen 25% meer ervaring \n Category: 'Stacky Armor' \n \nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
-"Requires Level 10 \n A high damage attack that causes metaimpact. \n Effective against cavalry and weak heroes. \n Stuns light sensitive enemy units. \n Can only use with bow equipped \n Left click icon then left click on target" 
+"Nodig: niveau 10 \n A high damage attack that causes metaimpact. \n Effective against cavalry and weak heroes. \n Stuns light sensitive enemy units. \n Can only use with bow equipped \n Left click icon then left click on target" 
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Requires Level 10 \n An extremely powerful single shot attack that causes damage over time. \n The target is reduced to only 90% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
+"Nodig: niveau 10 \n An extremely powerful single shot attack that causes damage over time. \n The target is reduced to only 90% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Requires Level 2 \n Geef Mûmakil opdracht de vijand te vertrappen\nKlik met links op het icoontje en daarna met links op het doelwit"
+"Nodig: niveau 2 \n Geef Mûmakil opdracht de vijand te vertrappen\nKlik met links op het icoontje en daarna met links op het doelwit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
@@ -201,7 +227,7 @@ CONTROLBAR:ToolTipVenomousWords09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Requires Level 4 \n Enemy hordes and any kind of heroes are reduced to \n 75% armor and 75% damage for 30 seconds.\n Enemy hordes lose simple leadership bonuses \n Left click icon then left click on target units"
+"Nodig: niveau 4 \n Enemy hordes and any kind of heroes are reduced to \n 75% armor and 75% damage for 30 seconds.\n Enemy hordes lose simple leadership bonuses \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
@@ -221,11 +247,11 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Requires Level 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn attacks slower but deals damage in area \n Cancels Shield Maiden bonus. \n Left click to activate"
+"Nodig: niveau 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn attacks slower but deals damage in area \n Cancels Shield Maiden bonus. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Requires Level 5 \n Eowyn gains 35% Armor \n Halves the deceleration rate of friendly Rohirrim when trampling\n Cancels the disguise \n Left click to activate"
+"Nodig: niveau 5 \n Eowyn gains 35% Armor \n Halves the deceleration rate of friendly Rohirrim when trampling\n Cancels the disguise \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipSunflare09v2
@@ -248,8 +274,18 @@ CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 "Strong vs. Pikemen\n and Resource Buildings \n Guardians gain +5% speed at level 3, 5, 7 and 10."
 End
 //------------------------------------------------------------
+TOOLTIP:GondorTowerGuardHordeDescription09v2
+"Tower Guards gain +5% speed at level 3, 5, 7 and 10."
+END
+TOOLTIP:DwarvenGuardianHordeDescription09v2
+"Guardians gain +5% speed at level 3, 5, 7 and 10."
+END
+TOOLTIP:ElvenRivendellLancerHordeDescription09v2
+"Rivendell Lancers gain +7% speed at level 5."
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
-"Requires Level 10 \n Causes a large earthquake around Gloin's location \n Can stun the Army of the Dead for 5 seconds, but does not kill them \n Left click icon then left click on target"
+"Nodig: niveau 10 \n Causes a large earthquake around Gloin's location \n Can stun the Army of the Dead for 5 seconds, but does not kill them \n Left click icon then left click on target"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom09v2
@@ -288,7 +324,7 @@ UPGRADE:Anduril09v2
 "Anduril"
 End
 TOOLTIP:AndurilDesc09v2
-"Anduril: Aragorn gains +10% Damage and +7% speed \n Requires Level 5 \n Passive ability"
+"Anduril: Aragorn gains +10% Damage and +7% speed \n Nodig: niveau 5 \n Passive ability"
 END
 //------------------------------------------------------------
 GUI:SpellBookRefreshReduction09v2
@@ -321,7 +357,7 @@ CONTROLBAR:GaladrielWordOfPower09v2
 "Nenya [&V]"
 END
 CONTROLBAR:ToolTipGaladrielWordOfPower09v2
-"Requires Level 10 \n Nenya \Sends out a shockwave that destroys surrounding enemies \n Left click to activate"
+"Nodig: niveau 10 \n Nenya \Sends out a shockwave that destroys surrounding enemies \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
@@ -346,7 +382,7 @@ CONTROLBAR:KingsFavorDain09v2
 "King's Favor [&C]"
 END
 CONTROLBAR:ToolTipKingsFavorDain09v2
-"Requires Level 6 \n Targeted units gain experience \n Left click icon then left click on target units"
+"Nodig: niveau 6 \n Targeted units gain experience \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSauronsFiresOfDoom09v2

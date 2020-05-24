@@ -48,28 +48,34 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 
-CONTROLBAR:ToolTipBarbedArrows
+CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
+"Wymaga 2 poziomu \n Wydaje gwardzistom rozkaz zaatakowania wroga \n Gwardzisci otrzymuja +25% do szybkosci oraz +25% do pancerza \n Category: 'Simple Armor' \n Atak powoduje odrzucenie przeciwnika \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
+END
+CONTROLBAR:ToolTipBarbedArrows09v2
 " Potrzbuje poziomu 2\n Powoduje potezne uderzenie i zwiekszone obrazenia\n Kliknij lewym przyciskiem na ikonke potem lewym przyciskiem na cel"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework09v2
 "Zwieksza pancerz fortecy oraz murów \n Wymagane do zbudowania Wiezy z kosci sloniowej \n Ulepszenie przywoluje Samotne Wieze"
 END
-CONTROLBAR:ToolTipSharkuManEater
+CONTROLBAR:ToolTipSharkuManEater09v2
 "Wymaga 6 poziomu \n Zabija wskazanego wroga, przywracajac zdrowie Sharku i tymczasowo zapewniajac mu +35% do zadawanych obrazenm +35% do pancerza and -50% crushing deceleration. \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym wrogu"
 END
-CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
+CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel309v2
 "+30% zwiekszona szybkosc budowy \n Pozwala na opracowanie mithrilowych zbroi, hartowanych ostrzy oraz plonacych strzal \n Dodaje obronna wieze topornicza \n Warsztat Kuzniczy zyskuje pancerz: \n +20% przeciwko bohaterom, pikinierom i kawaleri"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Leczy  pobliskich sojuszników \n Odradza jednostki z batalionu co 6.5 sekundy\nZmniejsza koszt przywrócenia bohatera do zycia o 5%\n Zmniejsza czas przywrócenia bohatera do zycia o 15%\n\n Ulepszenie przywoluje Wolnostojace Wieze"
 END
-CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
+CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
 "Jednostka dobra przeciwko budynkom zbierajacym zasoby\n Bonus Hordy: \n Zebrane jednostki orków w minimalnej liczbe 70\n zyskuja +33% do zadawanych brazen oraz 20% do szybkosci"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
+TOOLTIP:MordorOrcFighterHordeDescription09v2
+"Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Leczy sojuszników w poblizu fortecy oraz w salach \n Odradza jednostke z oddzialu co 6.5 sekundy\n Redukuje czas odrodzienia sie bohatera o 25% \n Zapewnia fortecy dodatkowe punkty wytrzymalosci\n\n Ulepszone przyzywa Wieze Wolnostojaca"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework09v2
 "Zapewnia dodatkowy pancerz fortecy oraz murom \n Wymagane do stworzenia poteznej katapulty\n\n Ulepszenie wzywa Samotne Wieze"
 END
 //------------------------------------------------------------
@@ -138,18 +144,22 @@ END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
 "Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \n Left click to activate"
+"Wargowie otrzymuja +55% do zadawanych obrazen ale traci -15% pancerza przeciwko pikinierom and struktura\n Bonus nie moze byc usuniety i zawsze sie kumuluje \n Kliknij lewym przyciskiem myszy, aby uaktywnic"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
 "Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Left click icon then left click on target area"
+"Przywoluje Oko Saurona \n Odkrywa niewidocznych wrogów \n Sojusznicy otrzymuja +25% do zadawanych obrazen, +25% do pancerza \n oraz 50% szybciej zdobywaja doswiadczenie \n Kliknij lewym przyciskiem myszy na ikonie a nastepnie na wybranym obszarze"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
 "Requires Level 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Allied hordes gain +33% armor and +50% damage. \n Category: 'Simple Armor' \n Left click to activate"
+"Wymaga 8 poziomu \n Pobliscy sojusznicy zostaja uleczeni i otrzymuja \n +50% do zadawanych obrazen, ich pancerz zostaje podwojony \nPodstawowy zdolnosci zostaja. \nNie kumuluje sie  z innymi bonusami do pancerza\n Jednoski wrazliwe na swiatlo zostaja sparalizowane. \n Kliknij lewym przyciskiem, aby uaktywnic"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
 "Allies near Gimli gain +35% armor \n Category: 'Simple Armor' \n Passive ability"
+"Sojusznicy w poblizu Gimliego otrzymuja \n +35% do pancerza\n \n Zdolnosc bierna"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
@@ -162,6 +172,7 @@ End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
 "Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive ability"
+"Wymaga 4 poziomu \n Sojusznicy w poblizu bohatera otrzymuja \n +25% do pancerza \n oraz 25% wiecej doswiadczenia \nZawsze sie kumuluje\n \n Zdolnosc pasywna"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
@@ -178,6 +189,7 @@ END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
 "Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster. \n Category: 'Stacky Armor' \n Passive ability"
+"Sojusznicy w poblizu Toma Bombadila otrzymuja \n +25% do pancerza \n oraz o 25% szybciej zdobywa doswiadczenie \n Zawsze sie  kumuluje  \n\n Zdolnosc bierna"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
@@ -272,6 +284,16 @@ END
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 "Strong vs. Pikemen\n and Resource Buildings \n Guardians gain +5% speed at level 3, 5, 7 and 10."
 End
+//------------------------------------------------------------
+TOOLTIP:GondorTowerGuardHordeDescription09v2
+"Tower Guards gain +5% speed at level 3, 5, 7 and 10."
+END
+TOOLTIP:DwarvenGuardianHordeDescription09v2
+"Guardians gain +5% speed at level 3, 5, 7 and 10."
+END
+TOOLTIP:ElvenRivendellLancerHordeDescription09v2
+"Rivendell Lancers gain +7% speed at level 5."
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
 "Requires Level 10 \n Causes a large earthquake around Gloin's location \n Can stun the Army of the Dead for 5 seconds, but does not kill them \n Left click icon then left click on target"

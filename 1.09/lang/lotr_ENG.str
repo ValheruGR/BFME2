@@ -47,6 +47,9 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
+"Requires Level 2 \n Order Guardians to charge the enemy \n Guardians gain +25% Speed and +25% Armor \n Category: 'Simple Armor' \n Causes meta impact \n Left click icon then left click on target"
+END
 CONTROLBAR:ToolTipBarbedArrows09v2
 "Requires Level 2\n Causes meta impact and increased damage \n Left click icon then left click on target"
 End
@@ -201,11 +204,6 @@ TOOLTIP:ToolTipSarumanLeadership09v2
 "Allies near Saruman gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipBloodthirsty09v2
-//Not used yet
-"Requires Level 2 \n Order this unit to kill a friendly unit \n to gain combat experience \n Left click icon then left click on target units"
-END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
 "Requires Level 10 \n A high damage attack that causes metaimpact. \n Effective against cavalry and weak heroes. \n Stuns light sensitive enemy units. \n Can only use with bow equipped \n Left click icon then left click on target" 
 END
@@ -265,13 +263,14 @@ End
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
 "Strong vs. Cavalry and \n Unit Production Buildings \n Tower Guards gain +5% speed at level 3, 5 and 7."
 END
-TOOLTIP:GondorTowerGuardHordeDescription09v2
-"Tower Guards gain +5% speed at level 3, 5, 7 and 10."
-END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 "Strong vs. Pikemen\n and Resource Buildings \n Guardians gain +5% speed at level 3, 5, 7 and 10."
 End
+//------------------------------------------------------------
+TOOLTIP:GondorTowerGuardHordeDescription09v2
+"Tower Guards gain +5% speed at level 3, 5, 7 and 10."
+END
 TOOLTIP:DwarvenGuardianHordeDescription09v2
 "Guardians gain +5% speed at level 3, 5, 7 and 10."
 END

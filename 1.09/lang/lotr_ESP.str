@@ -47,28 +47,34 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
-CONTROLBAR:ToolTipBarbedArrows
+CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
+"Requisito: Nivel 2. \n Ordena a los guardianes que carguen contra el enemigo. \n Los guardianes reciben +25% a la velocidad y +25% a la armadura. \n Category: 'Simple Armor'  \n Causa metaimpacto. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+END
+CONTROLBAR:ToolTipBarbedArrows09v2
 "Requisito: Nivel 2. \n Causa un metaimpacto y daño aumentado"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework09v2
 "Aumenta la armadura de la fortaleza y los muros \n Requisito para Torre de Marfil. \n Mejora a cualquier Torre Solitaria convocada."
 END
-CONTROLBAR:ToolTipSharkuManEater
+CONTROLBAR:ToolTipSharkuManEater09v2
 "Requisito: Nivel 6. \n Mata al enemigo apuntado, haciendo que Sharku recupere salud y proporcionando, temporalmente, +35% al daño, +35% a la armadura y -50% desaceleración por pisoteo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
-CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
+CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel309v2
 "+30% a la velocidad de construcción. \n Permite las mejoras cota de mithril, espadas forjadas y proyectil en llamas. \n Añade una torre de hachas defensiva.\n La forja gana armadura: \n +20% contra Heroes, Picas y Caballeria"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Reduce el coste de revivir héroes en un 5%. \n Reduce el tiempo de revivir héroes en un 15%. \n Mejora a cualquier Torre Solitaria convocada."
 END
-CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
+CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
 "Fuerte contra edificios generadores de recursos. \n Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +25% velocidad"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
+TOOLTIP:MordorOrcFighterHordeDescription09v2
+"Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Añade puntos de golpe adicionales a la fortaleza. \n Reduce el tiempo de revivir heroes en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
 END
-CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework09v2
 "Proporciona armadura adicional a la fortaleza y a los muros \n Requisito para catapulta poderosa \n Mejora a cualquier Torre Solitaria convocada."
 END
 //------------------------------------------------------------
@@ -139,10 +145,12 @@ END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
 "Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \n Left click to activate"
+"El huargo gana +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas \n La bonificacion no puede ser cancelada y no se acumula \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
 "Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Left click icon then left click on target area"
+"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Siempre se acumula \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
@@ -151,6 +159,7 @@ END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
 "Allies near Gimli gain +35% armor \n Category: 'Simple Armor' \n Passive ability"
+"Los aliados cercanos a Gimli ganan \n +35% a la armadura.\n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
@@ -163,6 +172,7 @@ End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
 "Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive ability"
+"Requisito: Nivel 4. \n Los aliados cercanos ganan \n +25% a la armadura y 25% más de experiencia. \n Siempre se acumula \n Capacidad pasiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
@@ -170,7 +180,7 @@ CONTROLBAR:TooltipElrondLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Requires Level 3 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Passive ability"
+"Requisito: Nivel 3 \n La caballería cercana a Arwen gana \n +25% a la armadura \n y consigue experiencia un 25% más rápido. \n Category: 'Stacky Armor' \n \n Capacidad pasiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
@@ -178,7 +188,7 @@ CONTROLBAR:ToolTipHaldirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster. \n Category: 'Stacky Armor' \n Passive ability"
+"Los aliados cercanos a Tom Bombadil ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Category: 'Stacky Armor' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
@@ -203,11 +213,6 @@ END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
 "Allies near Saruman gain +25% Armor and earn experience 25% faster \n Category: 'Stacky Armor' \n Passive ability"
-END
-//------------------------------------------------------------
-CONTROLBAR:ToolTipBloodthirsty09v2
-//Not used yet
-"Requires Level 2 \n Order this unit to kill a friendly unit \n to gain combat experience \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -273,6 +278,16 @@ END
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 "Fuerte contra piqueros y edificios generadores de recursos. \n Los Guardianes ganan +5% velocidad en los niveles 3, 5, 7 y 10."
 End
+//------------------------------------------------------------
+TOOLTIP:GondorTowerGuardHordeDescription09v2
+"Tower Guards gain +5% speed at level 3, 5, 7 and 10."
+END
+TOOLTIP:DwarvenGuardianHordeDescription09v2
+"Guardians gain +5% speed at level 3, 5, 7 and 10."
+END
+TOOLTIP:ElvenRivendellLancerHordeDescription09v2
+"Rivendell Lancers gain +7% speed at level 5."
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
 "Requisito: Nivel 10 \n Causa un pequeño terremoto alrededor de Gloin. \n Paraliza al Ejercito de los Muertos por 5 segundos, pero no los mata. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."

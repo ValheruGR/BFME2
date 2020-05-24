@@ -47,28 +47,34 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
-CONTROLBAR:ToolTipBarbedArrows
+CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
+"Krever: Nivå 2\nGi voktere ordre om å storme fienden\nVokterne får +25 % hurtighet og +25 % rustning \n Category: 'Simple Armor' \nForårsaker metaskade\nVenstreklikk på ikonet, og venstreklikk på målet"
+END
+CONTROLBAR:ToolTipBarbedArrows09v2
 "Krever: Nivå 2\ Forårsaker metanedslag og øker skaden"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework09v2
 "Styrker rustning for borgen og murene\nKreves for å ta i bruk flammeammunisjon. \n\n Upgrades summoned Lone Towers."
 END
-CONTROLBAR:ToolTipSharkuManEater
+CONTROLBAR:ToolTipSharkuManEater09v2
 "Krever: Nivå 6\nDreper den valgte fienden og gjenoppretter Snagas helse, og gir midlertidig +35 % skadebonus, +35 % rustning and -50% crushing deceleration.\nVenstreklikk på ikonet, og venstreklikk på målet"
 END
-CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
+CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel309v2
 "+30 % byggehastighet\nLar deg aktivere oppgradering til mithril-brynje, sterkere sverd og flammeskudd\nLegger til forsvars-/øksetårn \n Forge Works gain armor: \n +20% against heros, pikemen and cavalry"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Helbreder alle allierte i nærheten \n Reduserer kostnader for gjenoppliving av helter med 5 %\nReduserer gjenopplivingstid for heltermed 15 % \n\n Upgrades summoned Lone Towers"
 END
-CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
+CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
 "Sterke mot ressursbyggverk \n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
+TOOLTIP:MordorOrcFighterHordeDescription09v2
+"Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Helbreder stasjonerte enheter i borg og saler\nGir borgen ekstra treffpoeng. \n\n Upgrades summoned Lone Towers."
 END
-CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework09v2
 "Gir ekstra rustning til borgen og murene\nKreves for å ta i bruk enorm katapult. \n\n Upgrades summoned Lone Towers."
 END
 //------------------------------------------------------------
@@ -137,18 +143,22 @@ END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
 "Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \n Left click to activate"
+"Ulver får +55 % skade \n lose -15% armor against pike and structural damage \nVenstreklikk for å aktivere"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
 "Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Left click icon then left click on target area"
+"Påkaller Saurons Øye\nAvslører skjulte fiender.\nAllierte får +25 % skadebonus, +25 % rustning,\nog får erfaring 50 % raskere \nVenstreklikk på ikonet, og venstreklikk på valgt område"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
 "Requires Level 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Allied hordes gain +33% armor and +50% damage. \n Category: 'Simple Armor' \n Left click to activate"
+"Krever: Nivå 8\nAllierte i nærheten helbredes og får\n+50 % skadebonus og +35 % rustning\n\nVenstreklikk for å aktivere"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
 "Allies near Gimli gain +35% armor \n Category: 'Simple Armor' \n Passive ability"
+"Allierte i nærheten av Gimli får \n +35 % rustning \n \n Passiv egenskap"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
@@ -161,6 +171,7 @@ End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
 "Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive ability"
+"Krever: Nivå 4\nAllierte i nærheten av tussekongen får\n+25 % skadebonus og 25 % mer erfaring \n\n Passiv egenskap"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
@@ -177,6 +188,7 @@ END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
 "Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster. \n Category: 'Stacky Armor' \n Passive ability"
+"Allierte i nærheten av Tom Bombadil får\n +25 % rustning,\nog får erfaring 25 % raskere\n\nPassiv egenskap\nKan ikke kombineres"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
@@ -271,6 +283,16 @@ END
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 "Strong vs. Pikemen\n and Resource Buildings \n Guardians gain +5% speed at level 3, 5, 7 and 10."
 End
+//------------------------------------------------------------
+TOOLTIP:GondorTowerGuardHordeDescription09v2
+"Tower Guards gain +5% speed at level 3, 5, 7 and 10."
+END
+TOOLTIP:DwarvenGuardianHordeDescription09v2
+"Guardians gain +5% speed at level 3, 5, 7 and 10."
+END
+TOOLTIP:ElvenRivendellLancerHordeDescription09v2
+"Rivendell Lancers gain +7% speed at level 5."
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
 "Requires Level 10 \n Causes a large earthquake around Gloin's location \n Can stun the Army of the Dead for 5 seconds, but does not kill them \n Left click icon then left click on target"

@@ -47,29 +47,35 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
-CONTROLBAR:ToolTipBarbedArrows
+CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
+"Требуется уровень 2. \n Стражники нападают на врага. \n Стражники наносят +25% урона и получают +25% брони. \n Category: 'Simple Armor' \nНаносят огромный урон. \nЩелкните на пиктограмме, затем - на цели."
+END
+CONTROLBAR:ToolTipBarbedArrows09v2
 "Требуется уровень 2. \n Атака, сбивающая противников с ног. Наносит увеличенный урон."
 END
 
-CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework09v2
 "Укрепление защиты стен и крепости. \n Требуется для возведения Нуменорской Башни.\n\n Улучшает призванные Одинокие Башни."
 END
-CONTROLBAR:ToolTipSharkuManEater
+CONTROLBAR:ToolTipSharkuManEater09v2
 "Требуется уровень 6. \n При убийстве врага запас здоровья Шарку восстанавливается, он временно наносит +35% урона, получает +35% брони и -50% crushing deceleration. \n Щелкните на пиктограмме, затем - на цели."
 END
-CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
+CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel309v2
 "+30% скорости работы. \n Позволяет изобретать митрильную броню, стальное оружие и огненные камни. \n Возводится башня метателей. \n Постройка получает дополнительну броню: \n +20% против героев, пикинеров, кавалерии."
 END
-CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Исцеление находящихся рядом союзников. \n Воскрешение павших воинов в отряде каждые 6.5 секунд. \nСнижение стоимости воскрешения героя на 5%. %\n Снижение времени воскрешения героя на 15%. \n\n Улучшает призванные Одинокие Башни"
 END
-CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
+CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
 "Преимущество: здания, производящие ресурсы. \n Орки, в количестве минимум 70 \n получают +33% атаки, +20% скорости"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
+TOOLTIP:MordorOrcFighterHordeDescription09v2
+"Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Исцеление союзников в чертогах и неподалеку от крепости. \n Воскрешение павших воинов в отряде каждые 6.5 секунд. \n Уменьшение времени ожидания героя на 25%. \n Крепость получает дополнительный запас прочности. \n Улучшает призванные Одинокие Башни"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework09v2
 "Усиление брони стен и крепости \n Требуется для постройки мощной катапульты. \n\n Улучшает призванные Одинокие Башни"
 END
 //------------------------------------------------------------
@@ -126,15 +132,18 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 CONTROLBAR:TooltipWargRiderHowl09v2
 "Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \n Left click to activate"
+"Варги наносят +55% урона, но теряют 15% брони против пикинеров и построек. \n Бонус не может быть подавлен и всегда накапливается. \n ЛКМ - применение способности."
 END
 CONTROLBAR:ToolTipEyeofSauron09v2
 "Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Left click icon then left click on target area"
+"Появление Ока Саурона. \n Обнаружение скрытых врагов. \n Союзники получают +25% к атаке и +25% брони, \n а также +50% больще опыта. \n Всегда накапливается. \n Щелкните на пиктограмме, затем - на участке местности."
 END
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
 "Требуется уровень 8 \n Союзные войска, монстры и герои излечиваются на большой территории вокруг Глорфинделя. \n Воскрешает 2-х погибших на отряд в течение всего времени действия. \n Союзные войска получают + 33% брони и + 50% урона. \n Category: 'Simple Armor' \n \n ЛКМ - применение способности."
 END
 CONTROLBAR:ToolTipGimliLeadership09v2
 "Allies near Gimli gain +35% armor \n Category: 'Simple Armor' \n Passive ability"
+"Союзники рядом с Гимли получают \n 35% брони. \n \n Пассивная способность."
 END
 CONTROLBAR:ToolTipDainLeadership09v2
 "Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Passive ability"
@@ -144,6 +153,7 @@ CONTROLBAR:ToolTipBattleWagonLeadership09v2
 End
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
 "Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive ability"
+"Требуется уровень 4. \n Союзники рядом с героем получают +25% брони и набирают опыт на 25% быстрее. \n Всегда накапливается. \n Пассивная способность."
 End
 CONTROLBAR:TooltipElrondLeadership09v2
 "Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High-Tier' \n Passive ability"
@@ -156,6 +166,7 @@ CONTROLBAR:ToolTipHaldirLeadership09v2
 END
 CONTROLBAR:ToolTipInspiringPresence09v2
 "Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster. \n Category: 'Stacky Armor' \n Passive ability"
+"Войска рядом с Бомбадилом получают \n +25% брони, \n и набирают опыт на 25% быстрее \n Всегда сочетается с другими лидерствами \n \n Пассивная способность"
 END
 CONTROLBAR:ToolTipAragornLeadership09v2
 "Requires Level 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Category: 'High-Tier' \n Passive ability"
@@ -238,6 +249,16 @@ END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 "Сильны против копейщиков \n и зданий, производящих ресурсы. \n Стражи получают + 5% скорости на уровнях 3, 5, 7 и 10."
+END
+//------------------------------------------------------------
+TOOLTIP:GondorTowerGuardHordeDescription09v2
+"Tower Guards gain +5% speed at level 3, 5, 7 and 10."
+END
+TOOLTIP:DwarvenGuardianHordeDescription09v2
+"Стражи получают + 5% скорости на уровнях 3, 5, 7 и 10."
+END
+TOOLTIP:ElvenRivendellLancerHordeDescription09v2
+"Rivendell Lancers gain +7% speed at level 5."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
