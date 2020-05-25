@@ -144,7 +144,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier' \n Left click icon then left click on target area"
 "Roept het Oog van Sauron op\nMaakt verscholen vijanden zichtbaar\nBondgenoten krijgen +25% schade en verdienen ervaring 25% sneller\nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 //------------------------------------------------------------
@@ -160,8 +160,8 @@ CONTROLBAR:ToolTipDainLeadership09v2
 "Bondgenoten in de buurt van koning Dáin krijgen\n+25% schade en +25% pantser,\nen verdienen ervaring 50% sneller \n Category: 'High Tier' \n\nPassieve kracht"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipBattleWagonLeadership09v2
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
+"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Category: 'Stacky Damage' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2

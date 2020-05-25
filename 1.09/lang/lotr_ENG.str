@@ -48,7 +48,7 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
-"Requires Level 2 \n Order Guardians to charge the enemy \n Guardians gain +25% Speed and +25% Armor \n Category: 'Simple Armor' \n Causes meta impact \n Left click icon then left click on target"
+"Requires Level 2 \n Order Guardians to charge the enemy \n Guardians gain +25% Speed and +25% Armor. \n Category: 'Simple Armor' \n Causes meta impact \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipBarbedArrows09v2
 "Requires Level 2\n Causes meta impact and increased damage \n Left click icon then left click on target"
@@ -113,11 +113,11 @@ OBJECT:ElvenHeroicStatueDescription09v2
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n Category: 'Stacky Armor' \nIncreases command point limit by 10"
+"Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster. \n Category: 'Stacky Armor' \nIncreases command point limit by 10"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Allies near the Statue gain 35% Armor \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Allies near the Statue gain 35% Armor. \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
@@ -125,11 +125,11 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Provides 25% damage and 25% experience to nearby troops \n Reduces hero cost by 10% \n Category: 'Stacky Damage' \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Provides 25% damage and 25% experience to nearby troops \n Category: 'Stacky Damage' \n Reduces hero cost by 10%  \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster. \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
@@ -141,7 +141,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier' \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
@@ -156,7 +156,7 @@ CONTROLBAR:ToolTipDainLeadership09v2
 "Allies near King Dain gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier' \n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipBattleWagonLeadership09v2
+CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 "Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Category: 'Stacky Damage' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 //------------------------------------------------------------
@@ -185,11 +185,11 @@ CONTROLBAR:ToolTipAragornLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Requires Level 3 \n Cavalry near Eomer gain 35% Armor \n Category: 'Simple Armor' \n Passive ability"
+"Requires Level 3 \n Cavalry near Eomer gain 35% Armor. \n Category: 'Simple Armor' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Requires Level 6 \n Allies near Faramir gain +35% armor \n Category: 'Simple Armor' \n Passive ability"
+"Requires Level 6 \n Allies near Faramir gain +35% Armor. \n Category: 'Simple Armor' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2

@@ -115,12 +115,12 @@ OBJECT:ElvenHeroicStatueDescription09v2
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n Category: 'Stacky Armor' \nIncreases command point limit by 10"
+"Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster. \n Category: 'Stacky Armor' \nIncreases command point limit by 10"
 "Tout allié à proximité de la statue gagne \n+25% armure, \nexpérience gagnée 25% plus rapidement \n\nBonus cumulatif \nAugmente la limite de points commandement de 10"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Allies near the Statue gain 35% Armor \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Allies near the Statue gain 35% Armor. \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
 "Les alliés proches de la statue gagnent \n+35% armure \n \nAugmente la limite de points commandement de 10"
 END
 //------------------------------------------------------------
@@ -130,12 +130,12 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Provides 25% damage and 25% experience to nearby troops \n Reduces hero cost by 10% \n Category: 'Stacky Damage' \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Provides 25% damage and 25% experience to nearby troops \n Category: 'Stacky Damage' \n Reduces hero cost by 10%  \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 "Donne +25% de dommage et 25% d'expérience aux troupes proches \nRéduit le coût des héros de 10%\nRéduit le temps de recrutement des héros de 10%\nRéduit le coût des bâtisseurs de 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster. \n Category: 'Stacky Damage' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 "Les alliés proches de la forteresse gagnent \n+25% armure\nexpérience gagnée 25% plus rapidement\nBonus cumulatif \nRéduit le coût des héros de 10% \nRéduit le temps de recrutement des héros de 10% \nRéduit le coût des bâtisseurs de 20%\n\nAméliore la tour d'archers défensive invoquée"
 END
 //------------------------------------------------------------
@@ -150,7 +150,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier' \n Left click icon then left click on target area"
 "Invoque l'Oeil de Sauron \nRévèle les ennemis furtifs \nLes alliés gagnent +25% dégâts, +25% armure, +50% d'expérience \nClic gauche sur l'icône puis clic gauche sur la zone cible"
 END
 //------------------------------------------------------------
@@ -160,16 +160,16 @@ CONTROLBAR:ToolTipGlorfindelStarlight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Allies near Gimli gain +35% armor \n Category: 'Simple Armor' \n Passive ability"
+"Allies near Gimli gain +35% Armor. \n Category: 'Simple Armor' \n Passive ability"
 "Les alliés proches de Gimli gagnent \n +35% armure \n \n Capacité passive"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Passive ability"
+"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier' \n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipBattleWagonLeadership09v2
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
+"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Category: 'Stacky Damage' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
@@ -185,7 +185,7 @@ CONTROLBAR:ToolTipArwenLeadership09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Requires Level 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster \n Category: 'Simple Damage' \n Passive ability"
+"Requires Level 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster. \n Category: 'Simple Damage' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
@@ -198,15 +198,15 @@ CONTROLBAR:ToolTipAragornLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Requires Level 3 \n Cavalry near Eomer gain 35% Armor \n Category: 'Simple Armor' \n Passive ability"
+"Requires Level 3 \n Cavalry near Eomer gain 35% Armor. \n Category: 'Simple Armor' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Requires Level 6 \n Allies near Faramir gain \n +35% armor \n Category: 'Simple Armor' \n Passive ability"
+"Requires Level 6 \n Allies near Faramir gain \n +35% Armor. \n Category: 'Simple Armor' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster \n Category: 'Simple Damage' \n Passive ability"
+"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster. \n Category: 'Simple Damage' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
@@ -214,7 +214,7 @@ CONTROLBAR:ToolTipTheodenLeadership09v2
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Allies near Saruman gain +25% Armor and earn experience 25% faster \n Category: 'Stacky Armor' \n Passive ability"
+"Allies near Saruman gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
