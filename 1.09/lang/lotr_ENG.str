@@ -1051,7 +1051,7 @@ Map:mapmptyrngorthad
 "Tyrn Gorthad"
 END
 Map:mapmptyrngorthad/Desc
-"Better known as the Barrow-downs, the ancient burial grounds of the kings of Arnor were corrupted with evil spirits by the Witch-king. Map from RotWK, edited by Ecthelion"
+"Better known as the Barrow-downs, the ancient burial grounds of the kings of Arnor were corrupted with evil spirits by the Witch-king. \n Map from RotWK, edited by Ecthelion"
 END
 //------------------------------------------------------------
 Map:mapmptournamentudunII
@@ -45462,7 +45462,7 @@ TOOLTIP:LackMightyCatapultDwarvenStonework
 "Requires the Dwarven Stonework upgrade \n Constructs a Catapult on the top of the Fortress that delivers flaming barrages"
 END
 
-OBJECT:ArgonathStatues"
+OBJECT:ArgonathStatues
 "Argonath Statue"
 END
 

@@ -83,8 +83,7 @@ CONTROLBAR:ToolTipElvenCloakThranduil09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
-"Krever: Nivå 2\nSetter ut en hodeskalletotem som forblir på kartet til den blir ødelagt\nFjerner sløret i nærheten, avdekker skjulte enheter og gir +35 % rustning til allierte i nærheten \nVenstreklikk på ikonet, og venstreklikk på valgt område"
+"Krever: Nivå 2\nSetter ut en hodeskalletotem som forblir på kartet til den blir ødelagt\nFjerner sløret i nærheten, avdekker skjulte enheter og gir +35 % rustning til allierte i nærheten \n Category: 'Simple Armor' \nVenstreklikk på ikonet, og venstreklikk på valgt område"
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
@@ -114,23 +113,19 @@ OBJECT:ElvenHeroicStatueDescription09v2
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster. \n Category: 'Stacky Armor' \nIncreases command point limit by 10"
-"Allierte i nærheten av statuen får \n +25 % skadebonus \n og får erfaring 25 % raskere \n \n Hever grensen for kommandopoeng med 10"
+"Allierte i nærheten av statuen får \n +25 % skadebonus \n og får erfaring 25 % raskere \n Category: 'Stacky Armor' \n \n Hever grensen for kommandopoeng med 10"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Allies near the Statue gain 35% Armor. \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
-"Allierte i nærheten av statuen får \n +35 % rustning \n \n Hever grensen for kommandopoeng med 10"
+"Allierte i nærheten av statuen får \n +35 % rustning \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n \n Hever grensen for kommandopoeng med 10"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Category: 'Stacky Damage'"
-"Senker borgens sårbarhet overfor nærangrep"
+"Senker borgens sårbarhet overfor nærangrep\n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Category: 'Stacky Damage'"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Provides 25% damage and 25% experience to nearby troops \n Category: 'Stacky Damage' \n Reduces hero cost by 10%  \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
-"Gir ekstra erfaring til tropper i nærheten\nReduserer heltekostnader med 10%\nReduserer helters gjennoplivningstid med 10%\nReduserer kostnaden for byggere med 20%"
+"Provides 25% damage and 25% experience to nearby troops \n Category: 'Stacky Damage' \n Reduserer heltekostnader med 10%\nReduserer helters gjennoplivningstid med 10%\nReduserer kostnaden for byggere med 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
@@ -142,23 +137,19 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \n Left click to activate"
-"Ulver får +55 % skade \n lose -15% armor against pike and structural damage \nVenstreklikk for å aktivere"
+"Ulver får +55 % skade \n lose -15% armor against pike and structural damage \n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \nVenstreklikk for å aktivere"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier' \n Left click icon then left click on target area"
-"Påkaller Saurons Øye\nAvslører skjulte fiender.\nAllierte får +25 % skadebonus, +25 % rustning,\nog får erfaring 50 % raskere \nVenstreklikk på ikonet, og venstreklikk på valgt område"
+"Påkaller Saurons Øye\nAvslører skjulte fiender.\nAllierte får +25 % skadebonus, +25 % rustning,\nog får erfaring 50 % raskere \n Category: 'High Tier'\nVenstreklikk på ikonet, og venstreklikk på valgt område"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
 "Requires Level 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Allied hordes gain +33% armor and +50% damage. \n Category: 'Simple Armor' \n Left click to activate"
-"Krever: Nivå 8\nAllierte i nærheten helbredes og får\n+50 % skadebonus og +35 % rustning\n\nVenstreklikk for å aktivere"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Allies near Gimli gain +35% Armor. \n Category: 'Simple Armor' \n Passive ability"
-"Allierte i nærheten av Gimli får \n +35 % rustning \n \n Passiv egenskap"
+"Allierte i nærheten av Gimli får \n +35 % rustning \n Category: 'Simple Armor' \n \n Passiv egenskap"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
@@ -170,8 +161,7 @@ CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive ability"
-"Krever: Nivå 4\nAllierte i nærheten av tussekongen får\n+25 % skadebonus og 25 % mer erfaring \n\n Passiv egenskap"
+"Krever: Nivå 4\nAllierte i nærheten av tussekongen får\n+25 % skadebonus og 25 % mer erfaring \n Category: 'Stacky Armor' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n\n Passiv egenskap"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
@@ -187,8 +177,7 @@ CONTROLBAR:ToolTipHaldirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster. \n Category: 'Stacky Armor' \n Passive ability"
-"Allierte i nærheten av Tom Bombadil får\n +25 % rustning,\nog får erfaring 25 % raskere\n\nPassiv egenskap\nKan ikke kombineres"
+"Allierte i nærheten av Tom Bombadil får\n +25 % rustning,\nog får erfaring 25 % raskere \n Category: 'Stacky Armor'  \nKan ikke kombineres"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
@@ -42436,7 +42425,7 @@ TOOLTIP:LackMightyCatapultDwarvenStonework
 "Krever oppgradering til dvergenes steinbrudd\nBygger en katapult oppå borgen, som skyter brennende sperreild"
 END
 
-OBJECT:ArgonathStatues"
+OBJECT:ArgonathStatues
 "Argonath-statue"
 END
 

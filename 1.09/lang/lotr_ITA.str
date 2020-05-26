@@ -83,13 +83,11 @@ CONTROLBAR:ToolTipElvenCloakThranduil09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
-"Richiede livello 2.\nCrea un totem del teschio, che permane fino alla sua distruzione.\nDirada la nebbia nelle vicinanze, rivela le unità mimetizzate, fornisce +35% corazza alle unità alleate vicine e +25% esperienza.\nClicca con il pulsante sinistro sull'icona e quindi sulla zona bersaglio."
+"Richiede livello 2.\nCrea un totem del teschio, che permane fino alla sua distruzione.\nDirada la nebbia nelle vicinanze, rivela le unità mimetizzate, fornisce +35% corazza alle unità alleate vicine e +25% esperienza. \n Category: 'Simple Armor' \nClicca con il pulsante sinistro sull'icona e quindi sulla zona bersaglio."
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Allies near the Drummer Troll gain +35% armor and +25% experience. \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Category: 'Simple Armor' \n Passive ability"
-"Gli alleati vicino al Troll con tamburi ottengono +35% corazza e +25% esperienza. \nI Troll Di Caverna, I Troll Di Montagna ed I Troll D'Attacco guadagnano +15% corazza, +15% esperienza e guariscono più velocemente.\n\nAbilità passiva."
+"Gli alleati vicino al Troll con tamburi ottengono +35% corazza e +25% esperienza. \nI Troll Di Caverna, I Troll Di Montagna ed I Troll D'Attacco guadagnano +15% corazza, +15% esperienza e guariscono più velocemente. \n Category: 'Simple Armor' \n\nAbilità passiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
@@ -115,23 +113,19 @@ OBJECT:ElvenHeroicStatueDescription09v2
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster. \n Category: 'Stacky Armor' \nIncreases command point limit by 10"
-"Gli alleati vicino alla statua ottengono\n+25% corazza\ne +25% accumulo esperienza.\n\nSempre cumulabile.\n\nAumenta di 10 il limite di punti comando."
+"Gli alleati vicino alla statua ottengono\n+25% corazza\ne +25% accumulo esperienza.\n Category: 'Stacky Armor' \n\nAumenta di 10 il limite di punti comando."
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Allies near the Statue gain 35% Armor. \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
-"Gli alleati vicino alla statua ottengono\n+35% corazza.\n\nAumenta di 10 il limite di punti comando."
+"Gli alleati vicino alla statua ottengono\n+35% corazza. \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n\nAumenta di 10 il limite di punti comando."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Category: 'Stacky Damage'"
-"Riduce la vulnerabilità in mischia della fortezza. \n Gli alleati vicini ottengono +25% danno e +25% accumulo esperienza. \nSempre cumulativa."
+"Riduce la vulnerabilità in mischia della fortezza. \n Gli alleati vicini ottengono +25% danno e +25% accumulo esperienza. \n Category: 'Stacky Damage'"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Provides 25% damage and 25% experience to nearby troops \n Category: 'Stacky Damage' \n Reduces hero cost by 10%  \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
-"Fornisce 25% danno e 25% esperienza aggiuntiva alle truppe vicine.\nRiduce del 10% il costo dell'Eroe.\nRiduce del 10% il tempo di reclutamento dell'Eroe.\nRiduce del 20% il costo dei costruttori."
+"Fornisce 25% danno e 25% esperienza aggiuntiva alle truppe vicine. \n Category: 'Stacky Damage' \nRiduce del 10% il costo dell'Eroe.\nRiduce del 10% il tempo di reclutamento dell'Eroe.\nRiduce del 20% il costo dei costruttori."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
@@ -143,23 +137,19 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \n Left click to activate"
-"+55% danno agli Warg. \nPerdono 15% armatura verso le picche e le strutture.\nIl bonus non può essere rimosso. \nSempre cumulativa. \nClicca con il pulsante sinistro per attivare."
+"+55% danno agli Warg. \nPerdono 10% armatura verso le picche e le strutture.\n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \n Clicca con il pulsante sinistro per attivare."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier' \n Left click icon then left click on target area"
-"Evoca l'Occhio di Sauron.\nRivela i nemici mimetizzati.\nGli alleati ottengono +25% danno, +25% corazza e accumulano esperienza il 50% più velocemente.\n Sempre cumulativo. \nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
+"Evoca l'Occhio di Sauron.\nRivela i nemici mimetizzati.\nGli alleati ottengono +25% danno, +25% corazza e accumulano esperienza il 50% più velocemente.\n Category: 'High Tier' \nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
 "Requires Level 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Allied hordes gain +33% armor and +50% damage. \n Category: 'Simple Armor' \n Left click to activate"
-"Richiede livello 8.\nCura le unità alleate in zona e fornisce\n+50% danno e +35% corazza.\nComando semplice, non cumulativo con altri comandi sull'armatura.\n\nClicca con il pulsante sinistro per attivare."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Allies near Gimli gain +35% Armor. \n Category: 'Simple Armor' \n Passive ability"
-"Gli alleati vicino a Gimli ottengono\n+35% corazza.\n\nAbilità passiva."
+"Gli alleati vicino a Gimli ottengono\n+35% corazza. \n Category: 'Simple Armor' \n\nAbilità passiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
@@ -171,8 +161,7 @@ CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive ability"
-"Richiede livello 4.\nGli alleati vicino al eroe ottengono +25% corazza e +25% accumulo esperienza.\nSempre cumulativa. \nAbilità passiva."
+"Richiede livello 4.\nGli alleati vicino al eroe ottengono +25% corazza e +25% accumulo esperienza. \n Category: 'Stacky Armor' \n Category: 'Stacky Armor' \nAbilità passiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
@@ -188,8 +177,7 @@ CONTROLBAR:ToolTipHaldirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster. \n Category: 'Stacky Armor' \n Passive ability"
-"Gli alleati vicini a Tom Bombadil ottengono +25% corazza e\naccumulano esperienza con +25% velocità. \nSempre cumulativa. \n\nAbilità passiva."
+"Gli alleati vicini a Tom Bombadil ottengono +25% corazza e\naccumulano esperienza con +25% velocità. \n Category: 'Stacky Armor' \n\nAbilità passiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
@@ -42441,7 +42429,7 @@ TOOLTIP:LackMightyCatapultDwarvenStonework
 "Richiede il potenziamento Scalpellino dei Nani.\nCostruisce una catapulta sulla sommità della fortezza, la quale scaglia proiettili infuocati."
 END
 
-OBJECT:ArgonathStatues"
+OBJECT:ArgonathStatues
 "Statua Argonath"
 END
 

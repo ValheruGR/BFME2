@@ -144,8 +144,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier' \n Left click icon then left click on target area"
-"Roept het Oog van Sauron op\nMaakt verscholen vijanden zichtbaar\nBondgenoten krijgen +25% schade en verdienen ervaring 25% sneller\nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Roept het Oog van Sauron op\nMaakt verscholen vijanden zichtbaar\n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier' \nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
@@ -165,8 +164,7 @@ CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Nodig: niveau 4 \n Bondgenoten in de buurt van de Aardmannen-koning krijgen\n+25% pantser en verdienen 25% meer ervaring \n Category: 'Stacky Armor' \n\nPassieve kracht"
-"Nodig: niveau 4\nBondgenoten in de buurt van de Aardmannen-koning krijgen\n+25% schade en verdienen 25% meer ervaring\n\nPassieve kracht"
+"Nodig: niveau 4\nBondgenoten in de buurt van de Aardmannen-koning krijgen\n+25% schade en verdienen 25% meer ervaring \n Category: 'Stacky Armor \n\nPassieve kracht"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
@@ -183,7 +181,6 @@ END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
 "Bondgenoten in de buurt van Tom Bombadil krijgen \n+25% pantser en verdienen 25% meer ervaring \n Category: 'Stacky Armor' \n \nPassieve kracht"
-"Bondgenoten in de buurt van Tom Bombadil krijgen\n+50% schade en +50% pantser,\nen verdienen twee keer zo snel ervaring\n\nPassieve kracht Maximaal 1 per keer"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
@@ -42422,7 +42419,7 @@ TOOLTIP:LackMightyCatapultDwarvenStonework
 "Nodig: upgrade Dwergen-steenwerk\nBouwt een katapult die vurige projectielen afschiet, boven op een fort"
 END
 
-OBJECT:ArgonathStatues"
+OBJECT:ArgonathStatues
 "Argonath-beeld"
 END
 
