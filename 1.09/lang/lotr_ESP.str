@@ -69,7 +69,7 @@ CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
 "Fuerte contra edificios generadores de recursos. \n Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +25% velocidad"
 END
 TOOLTIP:MordorOrcFighterHordeDescription09v2
-"Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+"Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +25% velocidad"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Añade puntos de golpe adicionales a la fortaleza. \n Reduce el tiempo de revivir heroes en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
@@ -79,17 +79,15 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenCloakThranduil09v2
-"Elven Cloack: \n Mientras se esté quieto, proporciona invisibilidad \n Capacidad pasiva."
+"Capa élfica: \n Mientras Thranduil esté quieto, proporciona invisibilidad \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Category: 'Simple Armor' \n Left click icon then left click on target area"
-"Requisito: Nivel 2. \n Coloca un tótem de cráneo que quedará en el mapa hasta que sea destruido\n Levanta la niebla de guerra y detecta unidades sigilosas \n Los aliados cercanos ganan +35% armadura y +25% experiencia. \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el terreno al que se pueda llegar."
+"Requisito: Nivel 2. \n Coloca un tótem de cráneo que quedará en el mapa hasta que sea destruido\n Levanta la niebla de guerra y detecta unidades sigilosas \n Los aliados cercanos ganan +35% armadura y +25% experiencia. \n Category: 'Simple Armor' \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el terreno al que se pueda llegar."
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Allies near the Drummer Troll gain +35% armor and +25% experience. \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Category: 'Simple Armor' \n Passive ability"
-"Los aliados cercanos al troll con tambor ganan +35% a armadura y +25% experiencia. \n Trolls cercanos ganan +15% armadura +15% experiencia y se auto-curan más rápido.  \n Capacidad pasiva."
+"Los aliados cercanos al troll con tambor ganan +35% a armadura y +25% experiencia. \n Todos los trolls cercanos ganan +15% armadura +15% experiencia y se auto-curan más rápido. \n Category: 'Simple Armor' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
@@ -109,30 +107,25 @@ END
 CONTROLBAR:ToolTipElvenWood09v2
 "Crea una zona frondosa.\n Las unidades aliadas reciben +35% a la armadura. \n Category: 'Simple Armor' \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
 END
-END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Los aliados cercanos a la estatua ganan \n +25% al daño \n y consiguen experiencia un 25% más rápido. \n Category: 'Stacky Damage' \n Los aliados cercanos se vuelven inmunes al miedo y al terror. \n \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +25% al daño \n y consiguen experiencia un 25% más rápido. \n Category: 'Stacky Damage' \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n \n Aumenta en 10 el límite de puntos de mando."
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster \n Category: 'Stacky Armor' \nIncreases command point limit by 10"
-"Los aliados cercanos a la estatua ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n \n Siempre se acumula. \n \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Category: 'Stacky Armor' \n \n Aumenta en 10 el límite de puntos de mando."
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Allies near the Statue gain 35% Armor \n Category: 'Simple Armor' \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
-"Los aliados cercanos a la estatua ganan \n +35% a la armadura. \n \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan +35% a la armadura. \n Category: 'Simple Armor' \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n \n Aumenta en 10 el límite de puntos de mando."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Category: 'Stacky Damage'"
-"Disminuye la vulnerabilidad cuerpo a cuerpo de la fortaleza. \n Unidades cercanas reciben \n 25% daño y 25% experiencia \n Siempre se acumula."
+"Disminuye la vulnerabilidad cuerpo a cuerpo de la fortaleza. \n Unidades cercanas reciben \n 25% daño y 25% experiencia \n Category: 'Stacky Damage'"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Provides 25% damage and 25% experience to nearby troops \n Reduces hero cost by 10% \n Category: 'Stacky Damage' \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
-"Proporciona +25% daño y +25% experiencia a las unidades cercanas \n Reduce el coste de los héroes en un 10% \n Reduce el tiempo de reclutamiento de los héroes en un 10% \n Reduce el coste de los constructores en un 20%"
+"Proporciona +25% daño y +25% experiencia a las unidades cercanas \n Category: 'Stacky Damage' \n Reduce el coste de los héroes en un 10% \n Reduce el tiempo de reclutamiento de los héroes en un 10% \n Reduce el coste de los constructores en un 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
@@ -144,13 +137,11 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \n Left click to activate"
-"El huargo gana +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas \n La bonificacion no puede ser cancelada y no se acumula \n Para activarlo, haz clic con el botón izquierdo."
+"Los wargos y sus jinetes ganan +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n Category: 'Unique' \n La bonificacion no puede ser cancelada y no se acumula con ningún liderasgo de daño. \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Left click icon then left click on target area"
-"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Siempre se acumula \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
@@ -158,25 +149,23 @@ CONTROLBAR:ToolTipGlorfindelStarlight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Allies near Gimli gain +35% armor \n Category: 'Simple Armor' \n Passive ability"
-"Los aliados cercanos a Gimli ganan \n +35% a la armadura.\n \n Capacidad pasiva."
+"Los aliados cercanos a Gimli ganan \n +35% a la armadura. \n Category: 'Simple Armor'\n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High Tier' \n Passive ability"
+"Los aliados cercanos al rey Dain ganan \n +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipBattleWagonLeadership09v2
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster \n Category: 'Stacky Damage' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
+"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Category: 'Stacky Damage' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive ability"
-"Requisito: Nivel 4. \n Los aliados cercanos ganan \n +25% a la armadura y 25% más de experiencia. \n Siempre se acumula \n Capacidad pasiva."
+"Requisito: Nivel 4. \n Los aliados cercanos ganan \n +25% a la armadura y 25% más de experiencia. \n Category: 'Stacky Armor' \n Los trolls de las cavernas cercanos ganan experience 25% más rápido. \n Siempre se acumula \n Capacidad pasiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High-Tier' \n Passive ability"
+"Requisito: Nivel 3 \n Los aliados cercanos a Elrond ganan \n +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
@@ -184,7 +173,7 @@ CONTROLBAR:ToolTipArwenLeadership09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Requires Level 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster \n Category: 'Simple Damage' \n Passive ability"
+"Requisito: Nivel 4. \n Los aliados cercanos a Haldir ganan \n +50% al daño y consiguen experiencia 25% más rápido. \n Category: 'Simple Damage' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
@@ -192,27 +181,27 @@ CONTROLBAR:ToolTipInspiringPresence09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Requires Level 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Category: 'High-Tier' \n Passive ability"
+"Requisito: Nivel 4 \n Los aliados cercanos a Aragorn ganan \n +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Requires Level 3 \n Cavalry near Eomer gain 35% Armor \n Category: 'Simple Armor' \n Passive ability"
+"Requisito: Nivel 3. \n La caballería cercana a Eomer gana \n +35% a armadura. \n Category: 'Simple Armor' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Requires Level 6 \n Allies near Faramir gain \n +35% armor \n Category: 'Simple Armor' \n Passive ability"
+"Requisito: Nivel 6. \n Los aliados cercanos a Faramir ganan \n +35% a la armadura. \n Category: 'Simple Armor' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster \n Category: 'Simple Damage' \n Passive ability"
+"Requisito: Nivel 5. \n Los aliados cercanos a Boromir ganan \n +50% al daño y consiguen experiencia 25% más rápido. \n Category: 'Simple Damage' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Allies near Theoden gain \n +25% Damage and +25% experience. \n Category: 'Stacky Damage' \n Passive ability"
+"Los aliados cercanos a Théoden ganan \n +25% al daño y ganan experiencia 25% más rápido. \n Category: 'Stacky Damage' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Allies near Saruman gain +25% Armor and earn experience 25% faster \n Category: 'Stacky Armor' \n Passive ability"
+"Los aliados cercanos a Saruman ganan \n +25% a la armadura y consiguen experiencia un 25% más rápido. \n Category: 'Stacky Armor' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -42440,7 +42429,7 @@ TOOLTIP:LackMightyCatapultDwarvenStonework
 "Requisito: Mejora trabajo de piedra enano \n Construye una catapulta en lo alto de la fortaleza, que lanza proyectiles ardientes."
 END
 
-OBJECT:ArgonathStatues"
+OBJECT:ArgonathStatues
 "Estatua de Argonath"
 END
 
