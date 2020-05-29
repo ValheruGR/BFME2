@@ -47,8 +47,48 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipElvenWood09v2
+"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and +25% experience. \n Enemy cavalry decelerate 3.5 times faster. \n Category: 'Unique SPELL' \n Wipes any other SPELL effects from allies.  \n Left click icon then left click on target area"
+END
+CONTROLBAR:MenWood09v2
+"Men Wood"
+End
+//------------------------------------------------------------
+CONTROLBAR:ToolTipCloudBreak09v2
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Stuns enemy units for 10 seconds \n Heals and revives allied units during 15 seconds \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipDarkness09v2
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Category: Unique 'SPELL' \n Lasts 180 seconds. \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipFreezingRain09v2
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n Enemy units are reduced to only \n 75% armor and 75% damage. \n Category: 'DEBUFF' \n Wipes LEADERSHIP, BUFF and SPELL from the enemy. \n Lasts 150 seconds. \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipFarSight09v2
+"Spy on the enemy forces\n\n Gives a temporary range bonus of +35% to \n units at its target area\n Category: Unique 'SPELL' \n \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipMightyRage09v2
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'WEAPON' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
+END
+CONTROLBAR:ToolTipWitchKingDreadVisage09v2
+"Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
+End
+CONTROLBAR:TooltipCaveBats09v2
+"Reveals the shroud and detects stealthed units \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target area"
+END
+CONTROLBAR:TooltipCrebain09v2
+"Reveals the shroud and detects stealthed units \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGBloodHunt09v2
+"Voraussetzung: Stufe 4 \n Verbündete Kavallerie-Einheiten in der Nähe verursachen +25% Schaden, erhalten +25% Rüstung und sammeln doppelt so schnell Erfahrung \n Zertrampeln-Abbremsung verbündeter Kavallerie-Einheiten halbiert \n Category: 'Unique SPELL' \n Passive Fähigkeit"
+END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
-"Voraussetzung: Stufe 2 \n Hetze die Hüter auf den Feind \n Die Hüter sind +25% schneller, erhalten +25% Rüstung und werfen den Gegner zurück \n Category: 'Simple Armor' \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Voraussetzung: Stufe 2 \n Hetze die Hüter auf den Feind \n Die Hüter sind +25% schneller, erhalten +25% Rüstung und werfen den Gegner zurück \n Category: 'Armor BUFF' \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 CONTROLBAR:ToolTipBarbedArrows09v2
 "Requires Level 2\n Causes meta impact and increased damage \n Left click icon then left click on target"
@@ -83,61 +123,61 @@ CONTROLBAR:ToolTipElvenCloakThranduil09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Voraussetzung: Stufe 2 \n Platziert ein Schädeltotem, das bis zu seiner Zerstörung auf der Karte bleibt \n Lichtet den Nebel und verleiht Verbündeten in der Nähe +35% Rüstung und +25% Erfahrung \n Category: 'Simple Armor'\n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Voraussetzung: Stufe 2 \n Platziert ein Schädeltotem, das bis zu seiner Zerstörung auf der Karte bleibt \n Lichtet den Nebel und verleiht Verbündeten in der Nähe +35% Rüstung und +25% Erfahrung \n Category: 'Armor BUFF'\n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Verbündete in der Nähe des Trommler-Trolls erhalten +35% Rüstung und +25% Erfahrung \n Trolle erhalten +15% Rüstung, +15% Erfahrung und heilen sich selbst schneller \n Category: 'Simple Armor' \n \n Passive Fähigkeit"
+"Verbündete in der Nähe des Trommler-Trolls erhalten +35% Rüstung und +25% Erfahrung \n Trolle erhalten +15% Rüstung, +15% Erfahrung und heilen sich selbst schneller \n Category: 'Armor BUFF' \n \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Die gewählten Verbündeten verursachen +40% Schaden, erhalten 50% Erfahrung und +10% Geschwindigkeit \n Category: 'Simple Damage' \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Die gewählten Verbündeten verursachen +40% Schaden, erhalten 50% Erfahrung und +10% Geschwindigkeit \n Category: 'Damage LEADERSHIP' \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 End
 CONTROLBAR:TooltipRallyingCall09v2
-"Die gewählten Verbündeten verursachen +50% Schaden und erhalten +50% Erfahrung\n Category: 'Simple Damage' \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Die gewählten Verbündeten verursachen +50% Schaden und erhalten +50% Erfahrung\n Category: 'Damage LEADERSHIP' \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Die gewählten Verbündeten verursachen +50% Schaden und erhalten +25% Erfahrung\n Category: 'Simple Damage' \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Die gewählten Verbündeten verursachen +50% Schaden und erhalten +25% Erfahrung\n Category: 'Damage LEADERSHIP' \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Verdirbt einen Landstrich \n Alle Verbündeten erhalten +35% Rüstung \n Category: 'Simple Armor' \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Verdirbt einen Landstrich \n Alle Verbündeten erhalten +35% Rüstung \n Category: 'Armor BUFF' \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipElvenWood09v2
-"Bringt die Umgebung zum Blühen \n Verbündeten Einheiten erhalten +35% Rüstung. \n Category: 'Simple Armor' \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+CONTROLBAR:ToolTipMenWood09v2
+"Bringt die Umgebung zum Blühen \n Verbündeten Einheiten erhalten +35% Rüstung. \n Category: 'Armor BUFF' \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Verbündete in der Nähe der Statue \n verursachen +25% Schaden und \n sammeln 25% mehr Erfahrung  \n Category: 'Stacky Damage' \n Allies gain terror and fear resistance. \n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n verursachen +25% Schaden und \n sammeln 25% mehr Erfahrung  \n Category: 'Damage SPELL' \n Allies gain terror and fear resistance. \n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Verbündete in der Nähe der Statue \n erhalten +25% Rüstung und sammeln \n 25% schneller Erfahrung \n Category: 'Stacky Armor' \n \nErhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n erhalten +25% Rüstung und sammeln \n 25% schneller Erfahrung \n Category: 'Armor SPELL' \n \nErhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Verbündete in der Nähe der Statue \n erhalten +35% Rüstung \n Category: 'Simple Armor' \n Allies gain terror and fear resistance.\n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n erhalten +35% Rüstung \n Category: 'Armor BUFF' \n Allies gain terror and fear resistance.\n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Senkt die Nahkampf-Anfälligkeit der Festung \n Verbündete Einheiten in der näheren Umgebung erhalten: \n +25% mehr Schaden und +25% schneller Erfahrung\n Category: 'Stacky Damage'"
+"Senkt die Nahkampf-Anfälligkeit der Festung \n Verbündete Einheiten in der näheren Umgebung erhalten: \n +25% mehr Schaden und +25% schneller Erfahrung\n Category: 'Damage SPELL'"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Verleiht Truppen in der näheren Umgebung +25% Schaden und +25% Erfahrung  \n Category: 'Stacky Damage' \n Senkt Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden \n um 10% \n Senkt Kosten für Baumeister um 20%"
+"Verleiht Truppen in der näheren Umgebung +25% Schaden und +25% Erfahrung  \n Category: 'Damage SPELL' \n Senkt Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden \n um 10% \n Senkt Kosten für Baumeister um 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Verbündete in der Nähe der Festung \n erhalten +25% Schaden und +25% mehr Erfahrung \n Category: 'Stacky Damage' \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
+"Verbündete in der Nähe der Festung \n erhalten +25% Schaden und +25% mehr Erfahrung \n Category: 'Damage SPELL' \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Verbündete in der Nähe der Festung erhalten \n +25% Schaden und +25% Erfahrung  \n Category: 'Stacky Damage' \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung \n von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
+"Verbündete in der Nähe der Festung erhalten \n +25% Schaden und +25% Erfahrung  \n Category: 'Damage SPELL' \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung \n von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Warge verursachen +55% Schaden, aber \n verlieren -10% Rüstung gegen Lanzen und Gebäude \n Category: 'Unique' \n Bonus cannot be removed and does not stack with any damage leadership. \n Aktivieren mit Linksklick"
+"Warge verursachen +55% Schaden, aber \n verlieren -10% Rüstung gegen Lanzen und Gebäude \n Category: 'Unique WEAPON' \n Wipes previous any LEADERSHIP bonus. \n Aktivieren mit Linksklick"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
@@ -145,11 +185,11 @@ CONTROLBAR:ToolTipEyeofSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requires Level 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Allied hordes gain +33% armor and +50% damage. \n Category: 'Simple Armor' \n Left click to activate"
+"Requires Level 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Allied hordes gain +33% armor and +50% damage. \n Category: 'Armor BUFF' \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Verbündete in Gimlis Nähe erhalten \n +35% Rüstung \n Category: 'Simple Armor' \n \n Passive Fähigkeit"
+"Verbündete in Gimlis Nähe erhalten \n +35% Rüstung \n Category: 'Armor BUFF' \n \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
@@ -157,51 +197,51 @@ CONTROLBAR:ToolTipDainLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Category: 'Stacky Damage' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Category: 'Damage SPELL' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Voraussetzung: Stufe 4 \n Verbündete in der Nähe des Helden \n erhalten +25% Rüstung und \n 25% schneller Erfahrung \n Category: 'Stacky Armor' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive Fähigkeit"
+"Voraussetzung: Stufe 4 \n Verbündete in der Nähe des Helden \n erhalten +25% Rüstung und \n 25% schneller Erfahrung \n Category: 'Armor SPELL' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive Fähigkeit"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High-Tier' \n Passive ability"
+"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High-Tier SPELL' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Requires Level 3 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Passive ability"
+"Requires Level 3 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n Category: 'Armor SPELL' \n Passive ability"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Requires Level 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster. \n Category: 'Simple Damage' \n Passive ability"
+"Requires Level 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster. \n Category: 'Damage LEADERSHIP' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Verbündete in Tom Bombadils Nähe verursachen \n erhalten +25% Rüstung und \n sammeln Erfahrung +25% schneller \n Category: 'Stacky Armor' \n \n Passive Fähigkeit"
+"Verbündete in Tom Bombadils Nähe verursachen \n erhalten +25% Rüstung und \n sammeln Erfahrung +25% schneller \n Category: 'Armor SPELL' \n \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Requires Level 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Category: 'High-Tier' \n Passive ability"
+"Requires Level 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Category: 'High-Tier SPELL' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Requires Level 3 \n Cavalry near Eomer gain 35% Armor. \n Category: 'Simple Armor' \n Passive ability"
+"Requires Level 3 \n Cavalry near Eomer gain 35% Armor. \n Category: 'Armor BUFF' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Requires Level 6 \n Allies near Faramir gain \n +35% Armor. \n Category: 'Simple Armor' \n Passive ability"
+"Requires Level 6 \n Allies near Faramir gain \n +35% Armor. \n Category: 'Armor BUFF' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster. \n Category: 'Simple Damage' \n Passive ability"
+"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster. \n Category: 'Damage LEADERSHIP' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Allies near Theoden gain \n +25% Damage and +25% experience. \n Category: 'Stacky Damage' \n Passive ability"
+"Allies near Theoden gain \n +25% Damage and +25% experience. \n Category: 'Damage SPELL' \n Passive ability"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Allies near Saruman gain +25% Armor and earn experience 25% faster. \n Category: 'Stacky Armor' \n Passive ability"
+"Allies near Saruman gain +25% Armor and earn experience 25% faster. \n Category: 'Armor SPELL' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -1329,7 +1369,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Rufe drei Feuer des Untergangs um Sauron herum in einem &Kreis"
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Nahe Verbündete erhalten +25% Schaden und +25% Erfahrung \n Category: 'Stacky Damage'"
+"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Nahe Verbündete erhalten +25% Schaden und +25% Erfahrung \n Category: 'Damage SPELL'"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Heilt nahe Verbündete. \n Stockt eine Einheit pro Horde alle 10 Sekunden auf"
@@ -25444,7 +25484,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Mauer errichten"
+"Maue&r errichten"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -25696,7 +25736,7 @@ TOOLTIP:Lacksprerequisiteupgradedefault
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Mauer errichten"
+"Maue&r errichten"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -26362,7 +26402,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Mauer errichten"
+"Maue&r errichten"
 END
 
 CONTROLBAR:ConstructElvenLorienWarriorHorde
@@ -28878,11 +28918,11 @@ CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan
-"Mauer errichten"
+"Maue&r errichten"
 END
 
 CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
-"Mauer errichten"
+"Maue&r errichten"
 END
 
 CONTROLBAR:Command_ConstructIsengardCastleWallHub
@@ -29074,7 +29114,7 @@ CONTROLBAR:ConstructMordorCorsairsOfUmbarHorde
 END
 
 CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan
-"Mauer errichten"
+"Maue&r errichten"
 END
 
 CONTROLBAR:ConstructDwarvenHallExpansion
@@ -29322,7 +29362,7 @@ CONTROLBAR:Command_DwarvenCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_SmallWallSpan
-"Mauer errichten"
+"Maue&r errichten"
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
@@ -29330,7 +29370,7 @@ CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_SmallWallSpan
-"Mauer errichten"
+"Maue&r errichten"
 END
 
 CONTROLBAR:ConstructCorsairShip
