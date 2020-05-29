@@ -47,8 +47,48 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipElvenWood09v2
+"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and +25% experience. \n Enemy cavalry decelerate 3.5 times faster. \n Category: 'Unique SPELL' \n Wipes any other SPELL effects from allies.  \n Left click icon then left click on target area"
+END
+CONTROLBAR:MenWood09v2
+"Men Wood"
+End
+//------------------------------------------------------------
+CONTROLBAR:ToolTipCloudBreak09v2
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Stuns enemy units for 10 seconds \n Heals and revives allied units during 15 seconds \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipDarkness09v2
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Category: Unique 'SPELL' \n Lasts 180 seconds. \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipFreezingRain09v2
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n Enemy units are reduced to only \n 75% armor and 75% damage. \n Category: 'DEBUFF' \n Wipes LEADERSHIP, BUFF and SPELL from the enemy. \n Lasts 150 seconds. \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipFarSight09v2
+"Spy on the enemy forces\n\n Gives a temporary range bonus of +35% to \n units at its target area\n Category: Unique 'SPELL' \n \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipMightyRage09v2
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'WEAPON' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
+END
+CONTROLBAR:ToolTipWitchKingDreadVisage09v2
+"Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
+End
+CONTROLBAR:TooltipCaveBats09v2
+"Reveals the shroud and detects stealthed units \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target area"
+END
+CONTROLBAR:TooltipCrebain09v2
+"Reveals the shroud and detects stealthed units \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGBloodHunt09v2
+"Requisito: Nivel 4. \n La caballería aliada cercana gana \n +25% a daño, +25% a armadura \n y consiguen experiencia un 50% más rápido.\n Se reduce la disminución de velocidad por pisoteo de la caballería amiga. \n Category: 'Unique SPELL' \n Capacidad pasiva."
+END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
-"Requisito: Nivel 2. \n Ordena a los guardianes que carguen contra el enemigo. \n Los guardianes reciben +25% a la velocidad y +25% a la armadura. \n Category: 'Simple Armor'  \n Causa metaimpacto. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 2. \n Ordena a los guardianes que carguen contra el enemigo. \n Los guardianes reciben +25% a la velocidad y +25% a la armadura. \n Category: 'Armor BUFF'  \n Causa metaimpacto. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:ToolTipBarbedArrows09v2
 "Requisito: Nivel 2. \n Causa un metaimpacto y daño aumentado"
@@ -74,6 +114,7 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Añade puntos de golpe adicionales a la fortaleza. \n Reduce el tiempo de revivir heroes en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework09v2
 "Proporciona armadura adicional a la fortaleza y a los muros \n Requisito para catapulta poderosa \n Mejora a cualquier Torre Solitaria convocada."
 END
@@ -83,61 +124,62 @@ CONTROLBAR:ToolTipElvenCloakThranduil09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Requisito: Nivel 2. \n Coloca un tótem de cráneo que quedará en el mapa hasta que sea destruido\n Levanta la niebla de guerra y detecta unidades sigilosas \n Los aliados cercanos ganan +35% armadura y +25% experiencia. \n Category: 'Simple Armor' \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el terreno al que se pueda llegar."
+"Requisito: Nivel 2. \n Coloca un tótem de cráneo que quedará en el mapa hasta que sea destruido\n Levanta la niebla de guerra y detecta unidades sigilosas \n Los aliados cercanos ganan +35% armadura y +25% experiencia. \n Category: 'Armor BUFF' \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el terreno al que se pueda llegar."
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Los aliados cercanos al troll con tambor ganan +35% a armadura y +25% experiencia. \n Todos los trolls cercanos ganan +15% armadura +15% experiencia y se auto-curan más rápido. \n Category: 'Simple Armor' \n Capacidad pasiva."
+"Los aliados cercanos al troll con tambor ganan +35% a armadura y +25% experiencia. \n Todos los trolls cercanos ganan +15% armadura +15% experiencia y se auto-curan más rápido. \n Category: 'Armor BUFF' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Los aliados apuntados ganan +40% al daño, +10% velocidad \n y ganan experiencia un 50% más rápido. \n Category: 'Simple Damage' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Los aliados apuntados ganan +40% al daño, +10% velocidad \n y ganan experiencia un 50% más rápido. \n Category: 'Damage LEADERSHIP' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 End
+//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Los aliados apuntados ganan +50% al daño y ganan experiencia un 50% más rápido. \n Category: 'Simple Damage' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Los aliados apuntados ganan +50% al daño y ganan experiencia un 50% más rápido. \n Category: 'Damage LEADERSHIP' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
+//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Los aliados apuntados ganan +50% al daño y ganan experiencia un 25% más rápido. \n Category: 'Simple Damage' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Los aliados apuntados ganan +50% al daño y ganan experiencia un 25% más rápido. \n Category: 'Damage LEADERSHIP' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Mancilla una zona.\nLas unidades aliadas reciben +35% a la armadura.\n Category: 'Simple Armor' \nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Mancilla una zona.\nLas unidades aliadas reciben +35% a la armadura.\n Category: 'Armor BUFF' \nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
-//------------------------------------------------------------
-CONTROLBAR:ToolTipElvenWood09v2
-"Crea una zona frondosa.\n Las unidades aliadas reciben +35% a la armadura. \n Category: 'Simple Armor' \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
+CONTROLBAR:ToolTipMenWood09v2
+"Crea una zona frondosa.\n Las unidades aliadas reciben +35% a la armadura. \n Category: 'Armor BUFF' \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Los aliados cercanos a la estatua ganan \n +25% al daño \n y consiguen experiencia un 25% más rápido. \n Category: 'Stacky Damage' \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +25% al daño \n y consiguen experiencia un 25% más rápido. \n Category: 'Damage SPELL' \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n \n Aumenta en 10 el límite de puntos de mando."
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Los aliados cercanos a la estatua ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Category: 'Stacky Armor' \n \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n \n Aumenta en 10 el límite de puntos de mando."
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Los aliados cercanos a la estatua ganan +35% a la armadura. \n Category: 'Simple Armor' \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan +35% a la armadura. \n Category: 'Armor BUFF' \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n \n Aumenta en 10 el límite de puntos de mando."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Disminuye la vulnerabilidad cuerpo a cuerpo de la fortaleza. \n Unidades cercanas reciben \n 25% daño y 25% experiencia \n Category: 'Stacky Damage'"
+"Disminuye la vulnerabilidad cuerpo a cuerpo de la fortaleza. \n Unidades cercanas reciben \n 25% daño y 25% experiencia \n Category: 'Damage SPELL'"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Proporciona +25% daño y +25% experiencia a las unidades cercanas \n Category: 'Stacky Damage' \n Reduce el coste de los héroes en un 10% \n Reduce el tiempo de reclutamiento de los héroes en un 10% \n Reduce el coste de los constructores en un 20%"
+"Proporciona +25% daño y +25% experiencia a las unidades cercanas \n Category: 'Damage SPELL' \n Reduce el coste de los héroes en un 10% \n Reduce el tiempo de reclutamiento de los héroes en un 10% \n Reduce el coste de los constructores en un 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Proporciona +25% daño y +25% experiencia a las unidades cercanas \n Category: 'Stacky Damage' \n Reduce el coste de los héroes en un 10% \n Reduce el tiempo de reclutamiento de los héroes en un 10% \n Reduce el coste de los constructores en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
+"Proporciona +25% daño y +25% experiencia a las unidades cercanas \n Category: 'Damage SPELL' \n Reduce el coste de los héroes en un 10% \n Reduce el tiempo de reclutamiento de los héroes en un 10% \n Reduce el coste de los constructores en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Los aliados cercanos a la fortaleza ganan \n +25% al daño y +25% experiencia. \n Category: 'Stacky Damage' \n Reduce el coste de los héroes en un 10%. \n Reduce el tiempo de reclutamiento de los héroes en un 10%. \n Reduce el coste de los constructores en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
+"Los aliados cercanos a la fortaleza ganan \n +25% al daño y +25% experiencia. \n Category: 'Damage SPELL' \n Reduce el coste de los héroes en un 10%. \n Reduce el tiempo de reclutamiento de los héroes en un 10%. \n Reduce el coste de los constructores en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Los wargos y sus jinetes ganan +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n Category: 'Unique' \n La bonificacion no puede ser cancelada y no se acumula con ningún liderasgo de daño. \n Para activarlo, haz clic con el botón izquierdo."
+"Los wargos y sus jinetes ganan +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n Category: 'Unique SPELL' \n La bonificacion no puede ser cancelada y no se acumula con ningún liderasgo de daño. \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
@@ -145,11 +187,11 @@ CONTROLBAR:ToolTipEyeofSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requisito: Nivel 8. \n Hordas, monstruos y heroes aliados en una largo rango alrededo de Glorfindel son curados. \n Revive 2 unidades por batallón durante su duración. \n Las hordas aliadas ganan +33% armadura y +50 al daño. \n Clase de liderazgo simple \n No se acumula con otros liderazgo de armadura. \n \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 8. \n Hordas, monstruos y heroes aliados en una largo rango alrededo de Glorfindel son curados. \n Revive 2 unidades por batallón durante su duración. \n Las hordas aliadas ganan +33% armadura y +50 al daño. \n Category: 'Armor BUFF' \n \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Los aliados cercanos a Gimli ganan \n +35% a la armadura. \n Category: 'Simple Armor'\n \n Capacidad pasiva."
+"Los aliados cercanos a Gimli ganan \n +35% a la armadura. \n Category: 'Armor BUFF'\n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
@@ -157,11 +199,11 @@ CONTROLBAR:ToolTipDainLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Category: 'Stacky Damage' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Category: 'Damage SPELL' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Requisito: Nivel 4. \n Los aliados cercanos ganan \n +25% a la armadura y 25% más de experiencia. \n Category: 'Stacky Armor' \n Los trolls de las cavernas cercanos ganan experience 25% más rápido. \n Siempre se acumula \n Capacidad pasiva."
+"Requisito: Nivel 4. \n Los aliados cercanos ganan \n +25% a la armadura y 25% más de experiencia. \n Category: 'Armor SPELL' \n Los trolls de las cavernas cercanos ganan experience 25% más rápido. \n Siempre se acumula \n Capacidad pasiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
@@ -169,15 +211,15 @@ CONTROLBAR:TooltipElrondLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Requisito: Nivel 3 \n La caballería cercana a Arwen gana \n +25% a la armadura \n y consigue experiencia un 25% más rápido. \n Category: 'Stacky Armor' \n \n Capacidad pasiva."
+"Requisito: Nivel 3 \n La caballería cercana a Arwen gana \n +25% a la armadura \n y consigue experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n \n Capacidad pasiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Requisito: Nivel 4. \n Los aliados cercanos a Haldir ganan \n +50% al daño y consiguen experiencia 25% más rápido. \n Category: 'Simple Damage' \n \n Capacidad pasiva."
+"Requisito: Nivel 4. \n Los aliados cercanos a Haldir ganan \n +50% al daño y consiguen experiencia 25% más rápido. \n Category: 'Damage LEADERSHIP' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Los aliados cercanos a Tom Bombadil ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Category: 'Stacky Armor' \n \n Capacidad pasiva."
+"Los aliados cercanos a Tom Bombadil ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
@@ -185,23 +227,23 @@ CONTROLBAR:ToolTipAragornLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Requisito: Nivel 3. \n La caballería cercana a Eomer gana \n +35% a armadura. \n Category: 'Simple Armor' \n \n Capacidad pasiva."
+"Requisito: Nivel 3. \n La caballería cercana a Eomer gana \n +35% a armadura. \n Category: 'Armor BUFF' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Requisito: Nivel 6. \n Los aliados cercanos a Faramir ganan \n +35% a la armadura. \n Category: 'Simple Armor' \n \n Capacidad pasiva."
+"Requisito: Nivel 6. \n Los aliados cercanos a Faramir ganan \n +35% a la armadura. \n Category: 'Armor BUFF' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Requisito: Nivel 5. \n Los aliados cercanos a Boromir ganan \n +50% al daño y consiguen experiencia 25% más rápido. \n Category: 'Simple Damage' \n \n Capacidad pasiva."
+"Requisito: Nivel 5. \n Los aliados cercanos a Boromir ganan \n +50% al daño y consiguen experiencia 25% más rápido. \n Category: 'Damage LEADERSHIP' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Los aliados cercanos a Théoden ganan \n +25% al daño y ganan experiencia 25% más rápido. \n Category: 'Stacky Damage' \n \n Capacidad pasiva."
+"Los aliados cercanos a Théoden ganan \n +25% al daño y ganan experiencia 25% más rápido. \n Category: 'Damage SPELL' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Los aliados cercanos a Saruman ganan \n +25% a la armadura y consiguen experiencia un 25% más rápido. \n Category: 'Stacky Armor' \n Capacidad pasiva."
+"Los aliados cercanos a Saruman ganan \n +25% a la armadura y consiguen experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -269,13 +311,13 @@ CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 End
 //------------------------------------------------------------
 TOOLTIP:GondorTowerGuardHordeDescription09v2
-"Tower Guards gain +5% speed at level 3, 5, 7 and 10."
+"Los Guardias de la Torre ganan +5% velocidad en los niveles 3, 5, 7 y 10."
 END
 TOOLTIP:DwarvenGuardianHordeDescription09v2
-"Guardians gain +5% speed at level 3, 5, 7 and 10."
+"Los Guardianes ganan +5% velocidad en los niveles 3, 5, 7 y 10."
 END
 TOOLTIP:ElvenRivendellLancerHordeDescription09v2
-"Rivendell Lancers gain +7% speed at level 5."
+"Los Lanceros de Rivendell ganan +5% velocidad en el nivel 5."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
@@ -1329,7 +1371,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Convoca a los fuegos del destino en un circulo alrededor de Sauron."
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Requisito: Investigar la mejora en la fortaleza. \n Proporciona a los aliados cercanos +25% daño y ganan experiencia 25% más rapido \n Category: 'Stacky Damage'"
+"Requisito: Investigar la mejora en la fortaleza. \n Proporciona a los aliados cercanos +25% daño y ganan experiencia 25% más rapido \n Category: 'Damage SPELL'"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Requisito: Investigar la mejora en la fortaleza. \n Cura a los aliados cercanos \n Repone una unidad por batallón cada 10 segundos."
@@ -15779,11 +15821,11 @@ CONTROLBAR:MordorFellBeastRevive
 END
 
 CONTROLBAR:MordorFellBeastHotkey
-"&Bestia alada"
+"Bestia alada (&F)"
 END
 
 CONTROLBAR:MordorMouthofSauronHotkey
-"B&oca de Sauron"
+"&Boca de Sauron"
 END
 
 CONTROLBAR:MordorMouthofSauronRecruit
@@ -25446,7 +25488,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Construir muro"
+"Construir mu&ro"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -25698,7 +25740,7 @@ TOOLTIP:Lacksprerequisiteupgradedefault
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Construir muro"
+"Construir mu&ro"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -26364,7 +26406,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Construir muro"
+"Construir mu&ro"
 END
 
 CONTROLBAR:ConstructElvenLorienWarriorHorde
@@ -28880,11 +28922,11 @@ CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan
-"Construir muro"
+"Construir mu&ro"
 END
 
 CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
-"Construir muro"
+"Construir mu&ro"
 END
 
 CONTROLBAR:Command_ConstructIsengardCastleWallHub
@@ -29076,7 +29118,7 @@ CONTROLBAR:ConstructMordorCorsairsOfUmbarHorde
 END
 
 CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan
-"Construir muro"
+"Construir mu&ro"
 END
 
 CONTROLBAR:ConstructDwarvenHallExpansion
@@ -29324,7 +29366,7 @@ CONTROLBAR:Command_DwarvenCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_SmallWallSpan
-"Construir muro"
+"Construir mu&ro"
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
@@ -29332,7 +29374,7 @@ CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_SmallWallSpan
-"Construir muro"
+"Construir mu&ro"
 END
 
 CONTROLBAR:ConstructCorsairShip
