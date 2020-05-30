@@ -48,6 +48,22 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipTreeBeardLeadership
+"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Category: 'Unique LEADERSHIP'\n \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipLurtzLeadership
+"Requires Level 5 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n Category: 'Damage LEADERSHIP' \n \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipPalantirVision09v2
+"Spy on the enemy forces\n\n Gives a temporary +10% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipFarSight09v2
+"Spy on the enemy forces\n\n Gives a temporary range bonus of +35% to \n units at its target area\n Category: 'Unique SPELL'. \n \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
 "Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and +25% experience. \n Enemy cavalry decelerate 3.5 times faster. \n Category: 'Unique SPELL' \n Wipes any other SPELL effects from allies.  \n Left click icon then left click on target area"
 END
@@ -181,7 +197,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Påkaller Saurons Øye\nAvslører skjulte fiender.\nAllierte får +25 % skadebonus, +25 % rustning,\nog får erfaring 50 % raskere \n Category: 'High Tier'\nVenstreklikk på ikonet, og venstreklikk på valgt område"
+"Påkaller Saurons Øye\nAvslører skjulte fiender.\nAllierte får +25 % skadebonus, +25 % rustning,\nog får erfaring 50 % raskere \n Category: 'High Tier SPELL'\nVenstreklikk på ikonet, og venstreklikk på valgt område"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
@@ -193,7 +209,7 @@ CONTROLBAR:ToolTipGimliLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier' \n Passive ability"
+"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier SPELL' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
@@ -254,7 +270,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Requires Level 10 \n An extremely powerful single shot attack that causes damage over time. \n The target is reduced to only 90% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
+"Requires Level 10 \n An extremely powerful single shot attack that causes damage for 30 seconds. \n The target is reduced to only 90% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
@@ -262,15 +278,15 @@ CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"The infantry and cavaly from the enemy is reduced to \n 60% speed and 50% rate of fire for 19 seconds. \n Doesn't affect machines, Battle Wagons or monsters. \n Enemy hordes lose simple leadership bonuses \n Stacks with other negative spells \n Left click icon then left click on target units"
+"The infantry and cavaly from the enemy is reduced to \n 60% speed and 50% rate of fire for 19 seconds. \n Doesn't affect machines, Battle Wagons or monsters. \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Stacks with other negative spells \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Requires Level 4 \n Enemy hordes and any kind of heroes are reduced to \n 75% armor and 75% damage for 30 seconds.\n Enemy hordes lose simple leadership bonuses \n Left click icon then left click on target units"
+"Requires Level 4 \n Enemy hordes and any kind of heroes are reduced to \n 75% armor and 75% damage for 30 seconds.\n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters are reduced to 75% armor and 75% damage. \n Enemies lose their simple leadership bonuses. \n\n Left click icon and left click on target area"
+"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters are reduced to 75% armor and 75% damage. \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon and left click on target area"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2

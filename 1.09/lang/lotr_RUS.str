@@ -48,6 +48,22 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipTreeBeardLeadership
+"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Category: 'Unique LEADERSHIP'\n \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipLurtzLeadership
+"Requires Level 5 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n Category: 'Damage LEADERSHIP' \n \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipPalantirVision09v2
+"Spy on the enemy forces\n\n Gives a temporary +10% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipFarSight09v2
+"Spy on the enemy forces\n\n Gives a temporary range bonus of +35% to \n units at its target area\n Category: 'Unique SPELL'. \n \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
 "Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and +25% experience. \n Enemy cavalry decelerate 3.5 times faster. \n Category: 'Unique SPELL' \n Wipes any other SPELL effects from allies.  \n Left click icon then left click on target area"
 END
@@ -168,7 +184,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 "Варги наносят +55% урона, но теряют 10% брони против пикинеров и построек. \n Category: 'Unique WEAPON' \n Wipes previous any LEADERSHIP bonus. \n ЛКМ - применение способности."
 END
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Появление Ока Саурона. \n Обнаружение скрытых врагов. \n Союзники получают +25% к атаке и +25% брони, \n а также +50% больще опыта. \n Category: 'High Tier' \n Щелкните на пиктограмме, затем - на участке местности."
+"Появление Ока Саурона. \n Обнаружение скрытых врагов. \n Союзники получают +25% к атаке и +25% брони, \n а также +50% больще опыта. \n Category: 'High Tier SPELL' \n Щелкните на пиктограмме, затем - на участке местности."
 END
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
 "Требуется уровень 8 \n Союзные войска, монстры и герои излечиваются на большой территории вокруг Глорфинделя. \n Воскрешает 2-х погибших на отряд в течение всего времени действия. \n Союзные войска получают + 33% брони и + 50% урона. \n Category: 'Armor BUFF' \n \n ЛКМ - применение способности."
@@ -177,7 +193,7 @@ CONTROLBAR:ToolTipGimliLeadership09v2
 "Союзники рядом с Гимли получают \n 35% брони. \n Category: 'Armor BUFF' \n \n Пассивная способность."
 END
 CONTROLBAR:ToolTipDainLeadership09v2
-"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier' \n Passive ability"
+"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier SPELL' \n Passive ability"
 END
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 "Находящиеся рядом со знаменем союзники наносят \n +25% урона \n и набирают опыт на 25% быстрее. \n Category: 'Damage SPELL' \nБоевая повозка вне боя постепенно ремонтируется. \n На боевой повозке размещается несколько фаланг."

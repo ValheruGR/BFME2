@@ -48,6 +48,22 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipTreeBeardLeadership
+"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Category: 'Unique LEADERSHIP'\n \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipLurtzLeadership
+"Requires Level 5 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n Category: 'Damage LEADERSHIP' \n \n Passive ability"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipPalantirVision09v2
+"Spy on the enemy forces\n\n Gives a temporary +10% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
+CONTROLBAR:TooltipFarSight09v2
+"Spy on the enemy forces\n\n Gives a temporary range bonus of +35% to \n units at its target area\n Category: 'Unique SPELL'. \n \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
 "Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and +25% experience. \n Enemy cavalry decelerate 3.5 times faster. \n Category: 'Unique SPELL' \n Wipes any other SPELL effects from allies.  \n Left click icon then left click on target area"
 END
@@ -179,11 +195,11 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Los wargos y sus jinetes ganan +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n Category: 'Unique SPELL' \n La bonificacion no puede ser cancelada y no se acumula con ningún liderasgo de daño. \n Para activarlo, haz clic con el botón izquierdo."
+"Los wargos y sus jinetes ganan +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n Category: 'Unique WEAPON' \n Wipes LEADERSHIP effects from the wargs. \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier SPELL' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
@@ -195,7 +211,7 @@ CONTROLBAR:ToolTipGimliLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Los aliados cercanos al rey Dain ganan \n +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier' \n \n Capacidad pasiva."
+"Los aliados cercanos al rey Dain ganan +25% al daño, \n +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier SPELL' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
@@ -207,43 +223,43 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Requisito: Nivel 3 \n Los aliados cercanos a Elrond ganan \n +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier' \n \n Capacidad pasiva."
+"Requisito: Nivel 3 \n Los aliados cercanos a Elrond ganan +25% al daño, \n +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier SPELL' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Requisito: Nivel 3 \n La caballería cercana a Arwen gana \n +25% a la armadura \n y consigue experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n \n Capacidad pasiva."
+"Requisito: Nivel 3 \n La caballería cercana a Arwen gana +25% a la armadura \n y consigue experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n \n Capacidad pasiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Requisito: Nivel 4. \n Los aliados cercanos a Haldir ganan \n +50% al daño y consiguen experiencia 25% más rápido. \n Category: 'Damage LEADERSHIP' \n \n Capacidad pasiva."
+"Requisito: Nivel 4. \n Los aliados cercanos a Haldir ganan +50% al daño \n y consiguen experiencia 25% más rápido. \n Category: 'Damage LEADERSHIP' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Los aliados cercanos a Tom Bombadil ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n \n Capacidad pasiva."
+"Los aliados cercanos a Tom Bombadil ganan +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Requisito: Nivel 4 \n Los aliados cercanos a Aragorn ganan \n +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier' \n \n Capacidad pasiva."
+"Requisito: Nivel 4 \n Los aliados cercanos a Aragorn ganan +25% al daño, \n +25% a la armadura y consiguen experiencia un 50% más rápido. \n Category: 'High Tier SPELL' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Requisito: Nivel 3. \n La caballería cercana a Eomer gana \n +35% a armadura. \n Category: 'Armor BUFF' \n \n Capacidad pasiva."
+"Requisito: Nivel 3. \n La caballería cercana a Eomer gana +35% a armadura. \n Category: 'Armor BUFF' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Requisito: Nivel 6. \n Los aliados cercanos a Faramir ganan \n +35% a la armadura. \n Category: 'Armor BUFF' \n \n Capacidad pasiva."
+"Requisito: Nivel 6. \n Los aliados cercanos a Faramir ganan +35% a la armadura. \n Category: 'Armor BUFF' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Requisito: Nivel 5. \n Los aliados cercanos a Boromir ganan \n +50% al daño y consiguen experiencia 25% más rápido. \n Category: 'Damage LEADERSHIP' \n \n Capacidad pasiva."
+"Requisito: Nivel 5. \n Los aliados cercanos a Boromir ganan +50% al daño \n y consiguen experiencia 25% más rápido. \n Category: 'Damage LEADERSHIP' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Los aliados cercanos a Théoden ganan \n +25% al daño y ganan experiencia 25% más rápido. \n Category: 'Damage SPELL' \n \n Capacidad pasiva."
+"Los aliados cercanos a Théoden ganan +25% al daño \n y ganan experiencia 25% más rápido. \n Category: 'Damage SPELL' \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Los aliados cercanos a Saruman ganan \n +25% a la armadura y consiguen experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n Capacidad pasiva."
+"Los aliados cercanos a Saruman ganan +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -251,7 +267,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Requisito: Nivel 10 \n Disparo extremadamente poderoso que causa daño por veneno en el tiempo. \n Reduce la velocidad del objetivo en un -10%. \n Efectivo contra heroes duros. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 10 \n Disparo extremadamente poderoso que causa daño de veneno por 30 segundos. \n Reduce la velocidad del objetivo en un -10%. \n Efectivo contra heroes duros. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
@@ -259,15 +275,15 @@ CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"La infanteria y la caballeria del enemigo es reducida hasta \n 60% velocidad y 50% cadencia de fuego por 19 segundos. \n No afecta Maquinas, Carros de Batallas ni monstruos. \n Los enemigos pierden sus bonificaciones de liderazgo simple. \n Se acumula con otros hechizos negativos. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
+"La infanteria y la caballeria del enemigo es reducida hasta \n 60% velocidad y 50% cadencia de fuego por 19 segundos. \n No afecta Maquinas, Carros de Batallas ni monstruos. \n Category: 'STUN' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Se acumula con otros hechizos negativos. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Requisito: Nivel 4 \n Las hordas enemigas y cualquier tipo de heroe son reducidos a 75% armadura y 75% daño por 30 segundos. \n Las unidades enemigas pierden sus mejoras de liderazgo simple \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
+"Requisito: Nivel 4 \n Las hordas enemigas y cualquier tipo de heroe son reducidos a 75% armadura y 75% daño por 30 segundos. \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Las unidades aliadas que están dentro de la niebla tienen sigilo. \n Las hordas, heroes y monstruos enemigos son reducidos a 75% armadura y 75% daño. \n Los enemigos pierden sus bonificaciones de liderazgo simple \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Las unidades aliadas que están dentro de la niebla tienen sigilo. \n Las hordas, heroes y monstruos enemigos son reducidos a 75% armadura y 75% daño. \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
@@ -15322,7 +15338,7 @@ CONTROLBAR:RohanPippinHotkey
 END
 
 CONTROLBAR:ConstructTreebeard
-"Bárbol (&T)"
+"&Bárbol"
 END
 
 CONTROLBAR:ToolTipConstructRohanBannerUnits
@@ -15985,7 +16001,7 @@ CONTROLBAR:IsengardSarumanHotkey
 END
 
 CONTROLBAR:ConstructEnt
-"Ent (&R)"
+"E&nt"
 END
 
 CONTROLBAR:ConstructEntFir
