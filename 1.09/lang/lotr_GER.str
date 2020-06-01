@@ -24,35 +24,15 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
-CONTROLBAR:nothing09v2
-"nothing"
+CONTROLBAR:ToolTipDainStubbornPride09v2
+"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Category: 'Unique WEAPON' \n Dain becomes able to reveal stealth.\n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:nothingDesc09v2
-"nothing"
-END
-//------------------------------------------------------------
-CONTROLBAR:nothing09v2
-"nothing"
-END
-//------------------------------------------------------------
-CONTROLBAR:nothingDesc09v2
-"nothing"
-END
-//------------------------------------------------------------
-CONTROLBAR:nothing09v2
-"nothing"
-END
-//------------------------------------------------------------
-CONTROLBAR:nothingDesc09v2
-"nothing"
-END
-//------------------------------------------------------------
-CONTROLBAR:ToolTipTreeBeardLeadership
+CONTROLBAR:ToolTipTreeBeardLeadership09v2
 "Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Category: 'Unique LEADERSHIP'\n \n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipLurtzLeadership
+CONTROLBAR:ToolTipLurtzLeadership09v2
 "Requires Level 5 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n Category: 'Damage LEADERSHIP' \n \n Passive ability"
 END
 //------------------------------------------------------------

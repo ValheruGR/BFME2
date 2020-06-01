@@ -24,44 +24,24 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
-CONTROLBAR:nothing09v2
-"nothing"
+CONTROLBAR:ToolTipDainStubbornPride09v2
+"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Category: 'Unique WEAPON' \n Dain becomes able to reveal stealth.\n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:nothingDesc09v2
-"nothing"
+CONTROLBAR:ToolTipTreeBeardLeadership09v2
+"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Category: 'Unique LEADERSHIP'\n Passive ability"
 END
 //------------------------------------------------------------
-CONTROLBAR:nothing09v2
-"nothing"
-END
-//------------------------------------------------------------
-CONTROLBAR:nothingDesc09v2
-"nothing"
-END
-//------------------------------------------------------------
-CONTROLBAR:nothing09v2
-"nothing"
-END
-//------------------------------------------------------------
-CONTROLBAR:nothingDesc09v2
-"nothing"
-END
-//------------------------------------------------------------
-CONTROLBAR:ToolTipTreeBeardLeadership
-"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Category: 'Unique LEADERSHIP'\n \n Passive ability"
-END
-//------------------------------------------------------------
-CONTROLBAR:ToolTipLurtzLeadership
-"Requires Level 5 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n Category: 'Damage LEADERSHIP' \n \n Passive ability"
+CONTROLBAR:ToolTipLurtzLeadership09v2
+"Requires Level 5 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n Category: 'Damage LEADERSHIP' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n\n Gives a temporary +10% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n Gives a temporary +10% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spy on the enemy forces\n\n Gives a temporary range bonus of +35% to \n units at its target area\n Category: 'Unique SPELL'. \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n units at its target area\n Category: 'Unique SPELL'. \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
@@ -84,11 +64,11 @@ CONTROLBAR:ToolTipFreezingRain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spy on the enemy forces\n\n Gives a temporary range bonus of +35% to \n units at its target area\n Category: Unique 'SPELL' \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n units at its target area\n Category: Unique 'SPELL' \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'WEAPON' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'WEAPON' \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipWitchKingDreadVisage09v2
 "Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
@@ -144,19 +124,19 @@ CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Los aliados cercanos al troll con tambor ganan +35% a armadura y +25% experiencia. \n Todos los trolls cercanos ganan +15% armadura +15% experiencia y se auto-curan más rápido. \n Category: 'Armor BUFF' \n Capacidad pasiva."
+"Los aliados cercanos al troll con tambor ganan \n +35% a armadura y +25% experiencia. \n Todos los trolls cercanos ganan \n +15% armadura +15% experiencia y se auto-curan más rápido. \n Category: 'Armor BUFF' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Los aliados apuntados ganan +40% al daño, +10% velocidad \n y ganan experiencia un 50% más rápido. \n Category: 'Damage LEADERSHIP' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Los aliados apuntados ganan \n +40% al daño, +10% velocidad \n y consiguen experiencia un 50% más rápido. \n Category: 'Damage LEADERSHIP' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Los aliados apuntados ganan +50% al daño y ganan experiencia un 50% más rápido. \n Category: 'Damage LEADERSHIP' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Los aliados apuntados ganan \n +50% al daño y consiguen experiencia un 50% más rápido. \n Category: 'Damage LEADERSHIP' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Los aliados apuntados ganan +50% al daño y ganan experiencia un 25% más rápido. \n Category: 'Damage LEADERSHIP' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Los aliados apuntados ganan \n +50% al daño y consiguen experiencia un 25% más rápido. \n Category: 'Damage LEADERSHIP' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
@@ -167,15 +147,15 @@ CONTROLBAR:ToolTipMenWood09v2
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Los aliados cercanos a la estatua ganan \n +25% al daño \n y consiguen experiencia un 25% más rápido. \n Category: 'Damage SPELL' \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +25% al daño \n y consiguen experiencia un 25% más rápido. \n Category: 'Damage SPELL' \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n Aumenta en 10 el límite de puntos de mando."
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Los aliados cercanos a la estatua ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n Aumenta en 10 el límite de puntos de mando."
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Los aliados cercanos a la estatua ganan +35% a la armadura. \n Category: 'Armor BUFF' \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +35% a la armadura. \n Category: 'Armor BUFF' \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n Aumenta en 10 el límite de puntos de mando."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
@@ -195,7 +175,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Los wargos y sus jinetes ganan +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n Category: 'Unique WEAPON' \n Wipes LEADERSHIP effects from the wargs. \n Para activarlo, haz clic con el botón izquierdo."
+"Los wargos y sus jinetes ganan \n +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n Category: 'Unique WEAPON' \n Wipes LEADERSHIP effects from the wargs. \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
@@ -203,15 +183,15 @@ CONTROLBAR:ToolTipEyeofSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requisito: Nivel 8. \n Hordas, monstruos y heroes aliados en una largo rango alrededo de Glorfindel son curados. \n Revive 2 unidades por batallón durante su duración. \n Las hordas aliadas ganan +33% armadura y +50 al daño. \n Category: 'Armor BUFF' \n \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 8. \n Hordas, monstruos y heroes aliados en una largo rango alrededo de Glorfindel son curados. \n Revive 2 unidades por batallón durante su duración. \n Las hordas aliadas ganan \n +33% armadura y +50 al daño. \n Category: 'Armor BUFF' \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Los aliados cercanos a Gimli ganan \n +35% a la armadura. \n Category: 'Armor BUFF'\n \n Capacidad pasiva."
+"Los aliados cercanos a Gimli ganan \n +35% a la armadura. \n Category: 'Armor BUFF'\n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Los aliados cercanos al rey Dain ganan +25% al daño, \n +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier SPELL' \n \n Capacidad pasiva."
+"Los aliados cercanos al rey Dain ganan \n +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier SPELL' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
@@ -219,43 +199,43 @@ CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Requisito: Nivel 4. \n Los aliados cercanos ganan \n +25% a la armadura y 25% más de experiencia. \n Category: 'Armor SPELL' \n Los trolls de las cavernas cercanos ganan experience 25% más rápido. \n Siempre se acumula \n Capacidad pasiva."
+"Requisito: Nivel 4. \n Los aliados cercanos ganan \n +25% a la armadura y 25% más de experiencia. \n Category: 'Armor SPELL' \n Los trolls de las cavernas cercanos ganan experience 25% más rápido. \n Capacidad pasiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Requisito: Nivel 3 \n Los aliados cercanos a Elrond ganan +25% al daño, \n +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier SPELL' \n \n Capacidad pasiva."
+"Requisito: Nivel 3 \n Los aliados cercanos a Elrond ganan +25% al daño, \n +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Category: 'High Tier SPELL' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Requisito: Nivel 3 \n La caballería cercana a Arwen gana +25% a la armadura \n y consigue experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n \n Capacidad pasiva."
+"Requisito: Nivel 3 \n La caballería cercana a Arwen gana +25% a la armadura \n y consigue experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n Capacidad pasiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Requisito: Nivel 4. \n Los aliados cercanos a Haldir ganan +50% al daño \n y consiguen experiencia 25% más rápido. \n Category: 'Damage LEADERSHIP' \n \n Capacidad pasiva."
+"Requisito: Nivel 4. \n Los aliados cercanos a Haldir ganan +50% al daño \n y consiguen experiencia 25% más rápido. \n Category: 'Damage LEADERSHIP' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Los aliados cercanos a Tom Bombadil ganan +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n \n Capacidad pasiva."
+"Los aliados cercanos a Tom Bombadil ganan +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Category: 'Armor SPELL' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Requisito: Nivel 4 \n Los aliados cercanos a Aragorn ganan +25% al daño, \n +25% a la armadura y consiguen experiencia un 50% más rápido. \n Category: 'High Tier SPELL' \n \n Capacidad pasiva."
+"Requisito: Nivel 4 \n Los aliados cercanos a Aragorn ganan +25% al daño, \n +25% a la armadura y consiguen experiencia un 50% más rápido. \n Category: 'High Tier SPELL' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Requisito: Nivel 3. \n La caballería cercana a Eomer gana +35% a armadura. \n Category: 'Armor BUFF' \n \n Capacidad pasiva."
+"Requisito: Nivel 3. \n La caballería cercana a Eomer gana +35% a armadura. \n Category: 'Armor BUFF' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Requisito: Nivel 6. \n Los aliados cercanos a Faramir ganan +35% a la armadura. \n Category: 'Armor BUFF' \n \n Capacidad pasiva."
+"Requisito: Nivel 6. \n Los aliados cercanos a Faramir ganan +35% a la armadura. \n Category: 'Armor BUFF' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Requisito: Nivel 5. \n Los aliados cercanos a Boromir ganan +50% al daño \n y consiguen experiencia 25% más rápido. \n Category: 'Damage LEADERSHIP' \n \n Capacidad pasiva."
+"Requisito: Nivel 5. \n Los aliados cercanos a Boromir ganan +50% al daño \n y consiguen experiencia 25% más rápido. \n Category: 'Damage LEADERSHIP' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Los aliados cercanos a Théoden ganan +25% al daño \n y ganan experiencia 25% más rápido. \n Category: 'Damage SPELL' \n \n Capacidad pasiva."
+"Los aliados cercanos a Théoden ganan +25% al daño \n y consiguen experiencia 25% más rápido. \n Category: 'Damage SPELL' \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
@@ -287,7 +267,7 @@ CONTROLBAR:TooltipEnshroudingMist09v2
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
-"Para activar este equipo, investiga la mejora portaestandartes en el cuartel. \n \n +25% a armadura, -30% a velocidad y +33% extra resistencia contra flechas ."
+"Para activar este equipo, investiga la mejora portaestandartes en el cuartel. \n +25% a armadura, -30% a velocidad y +33% extra resistencia contra flechas ."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
@@ -499,7 +479,7 @@ Map:mapHDforlindon
 "The Cow Maze"
 End
 Map:mapHDforlindon/Desc
-"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heros trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\n Map originally from BFME1 by Haldir, edited by Ecthelion."
+"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heros trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\n Map originally from BFME1 by Haldir, edited by Ecthelion."
 End
 //The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\nMap from BFME1 by Haldir, edited by Ecthelion."
 //------------------------------------------------------------
@@ -731,7 +711,7 @@ END
 //"Druwait Reef"
 //End
 //Map:maptestdruwaithreef/desc
-//" This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
+//" This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
 //End
 //------------------------------------------------------------
 //	Map:maptestbrownlands8p
@@ -780,7 +760,7 @@ END
 //"Anfalas II"
 //END
 //Map:mapNEWanfalasii/Desc
-//"The western coastal section of Gondor populated by small villages of herdsmen and fishermen.\n\n Size: 360 x 390\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Inn, 1x Signal Fire. \n Map from RotWK, by Mako."
+//"The western coastal section of Gondor populated by small villages of herdsmen and fishermen.\n Size: 360 x 390\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Inn, 1x Signal Fire. \n Map from RotWK, by Mako."
 //END
 //------------------------------------------------------------
 Map:mapNEWgreenleafforest
@@ -815,7 +795,7 @@ End
 //	"Desert Of Rhun" //removed
 //	End
 //	Map:mapNEWdesertofrhun/desc
-//	"A vast desert lying to the south-east of Rhun. Many unprepared travellers lose their way attempting to traverse this rugged region. \n\n Size: 550 x 550\n Lairs: 6x Goblin Lair\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
+//	"A vast desert lying to the south-east of Rhun. Many unprepared travellers lose their way attempting to traverse this rugged region. \n Size: 550 x 550\n Lairs: 6x Goblin Lair\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
 //	End
 //------------------------------------------------------------
 Map:mapMOtournamentamonhen
@@ -1387,7 +1367,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Convoca a los fuegos del destino en un circulo alrededor de Sauron."
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Requisito: Investigar la mejora en la fortaleza. \n Proporciona a los aliados cercanos +25% daño y ganan experiencia 25% más rapido \n Category: 'Damage SPELL'"
+"Requisito: Investigar la mejora en la fortaleza. \n Proporciona a los aliados cercanos +25% daño y consiguen experiencia 25% más rapido \n Category: 'Damage SPELL'"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Requisito: Investigar la mejora en la fortaleza. \n Cura a los aliados cercanos \n Repone una unidad por batallón cada 10 segundos."
@@ -1410,7 +1390,7 @@ CONTROLBAR:SpecialAbility_ShieldBubble
 "Burbuja esc&udo"
 END
 CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"El mago transfiere toda su energia en un escudo que absorberá toda clase de daño dirigido hacia él. \n Gandalf gana inmunidad al meta impacto \n Dura 5 segundos \n \n Haz clic con el botón izquierdo sobre el icono para activar."
+"El mago transfiere toda su energia en un escudo que absorberá toda clase de daño dirigido hacia él. \n Gandalf gana inmunidad al meta impacto \n Dura 5 segundos \n Haz clic con el botón izquierdo sobre el icono para activar."
 END
 CONTROLBAR:Fire_pit
 "Fogata de campamen&to"
@@ -1422,13 +1402,13 @@ CONTROLBAR:FireWorks
 "Desplegar fuegos ar&tificiales."
 END
 CONTROLBAR:ToolTipFireWorks
-"Merry despliega sus fuegos artificiales en el suelo para luego ser encendidos.\n \n Haz clic con el botón izquierdo sobre el icono para activar."
+"Merry despliega sus fuegos artificiales en el suelo para luego ser encendidos.\n Haz clic con el botón izquierdo sobre el icono para activar."
 End
 CONTROLBAR:FireWorks2
 "Activar fuegos ar&tificiales."
 END
 CONTROLBAR:ToolTipFireWorks2
-"Enciende los fuegos artificiales con el fin de dañar a las unidades enemigas cercanas \n \n Haz clic con el botón izquierdo sobre el icono para activar."
+"Enciende los fuegos artificiales con el fin de dañar a las unidades enemigas cercanas \n Haz clic con el botón izquierdo sobre el icono para activar."
 End
 CONTROLBAR:FireWorksObj
 "Fuegos Artificiales"
