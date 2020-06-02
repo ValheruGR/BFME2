@@ -142,7 +142,6 @@ END
 CONTROLBAR:ToolTipTaint09v2
 "Besmet een deel van het terrein\nAlle bondgenoten krijgen +35% pantser  \n Category: 'Armor BUFF' \nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipMenWood09v2
 "Creëert bosrijk terrein\nAlle bevriende eenheden krijgen +35% pantser\nHeeft geen effect op helden \n Category: 'Armor BUFF' \n Klik met links op het icoontje en daarna met links op het doelgebied"
 END
@@ -452,6 +451,48 @@ END
 Map:mapmpnothing/Desc
 "nothing"
 END
+//------------------------------------------------------------
+Map:mapETgapofrohanII
+"Gap of Rohan II " 
+End
+Map:mapETgapofrohanII/Desc
+"The only large and easily traversable pass between the Misty Mountains and the White Mountains. \n Map reworked Ecthelion, originally from BFME1."
+End
+//------------------------------------------------------------
+Map:mapTTsouthhollin
+"South Hollin"
+end
+Map:mapTTsouthhollin/desc
+"Hollin was a realm of the Noldor in Eriador during the Second Age, located near the Walls of Moria, under the shadow of the Misty Mountains. It was the only lasting Noldorin realm outside Lindon. \n Map by Temptation and Ecthelion"
+End
+//------------------------------------------------------------
+Map:mapTTfordofbruinen
+"Fords of Bruinen" 
+End
+Map:mapTTfordofbruinen/Desc
+"The upland forests, mostly made up of beeches, lay to the West of Rivendell where the Bruinen river flows, a favorite hunting ground for trolls who descended from the mountains to attack travelers on the Great Western highway.\n Map by Temptation"
+End
+//------------------------------------------------------------
+Map:mapTTosgiliathII
+"Osgiliath II" 
+End
+Map:mapTTosgiliathII/Desc
+"The first capital of the Kingdom of Gondor. Translated from Sindarin, the name of the city means "Citadel of the Stars".\n Map edited by Temptation"
+End
+//------------------------------------------------------------
+Map:mapTTpelennorfields
+"Pelennor Fields" 
+End
+Map:mapTTpelennorfields/Desc
+"The Pelennor Fields lay just outside the city of Minas Tirith, on the west bank of the river Anduin. The land ran down toward the river in slopes and terraces. The Pelennor Fields were home to farmers and herdsmen who had barns, pens, livestock, granaries, and kilns for drying hops and malt which were located on the Pelennor.\n Map by Temptation"
+End
+//------------------------------------------------------------
+Map:mapTTsmallwold
+"Small Wold" 
+End
+Map:mapTTsmallwold/Desc
+"The Wold, also known as the Wold of Rohan or Wold, were the upland grasslands of Rohan. This was the northeastern area of Rohan. It was located between Fangorn Forest and River Anduin.\n Map by Temptation"
+End
 //------------------------------------------------------------
 Map:mapSBmigration
 "Migration"
