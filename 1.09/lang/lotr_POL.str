@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipMordorTavern09v2
+"Trains Corsairs of Umbar \n Allows research of Mordor unit upgrades. \n Tavern bonus: \n 2 tavern = corsairs 10% cheaper \n 3 tavern = 15% cheaper \n 4 taverns = 20% cheaper"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
 "Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Category: 'Unique WEAPON' \n Dain becomes able to reveal stealth.\n Passive ability"
 END
@@ -463,7 +467,7 @@ Map:mapTTsouthhollin/desc
 End
 //------------------------------------------------------------
 Map:mapTTfordofbruinen
-"Fords of Bruinen" 
+"Ford of Bruinen" 
 End
 Map:mapTTfordofbruinen/Desc
 "The upland forests, mostly made up of beeches, lay to the West of Rivendell where the Bruinen river flows, a favorite hunting ground for trolls who descended from the mountains to attack travelers on the Great Western highway.\n Map by Temptation"
@@ -29425,7 +29429,7 @@ CONTROLBAR:ConstructElvenGrove
 END
 
 CONTROLBAR:ConstructElvenHobbitShirrif
-"Hobbici"
+"Hobbici (&R)"
 END
 
 CONTROLBAR:ConstructElvenWallHub
