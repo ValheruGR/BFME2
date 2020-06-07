@@ -44233,7 +44233,7 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"La production de ressources de la structure sélectionnée augmente temporairement de 400% par rapport à la production actuelle \nClic gauche sur l'icône puis clic gauche sur la structure de production de ressources ciblée"
+"La production de ressources de la structure sélectionnée augmente temporairement de 350% par rapport à la production actuelle \nClic gauche sur l'icône puis clic gauche sur la structure de production de ressources ciblée"
 END
 
 CONTROLBAR:TooltipPalantirVision
