@@ -37,7 +37,7 @@ CONTROLBAR:ToolTipTreeBeardLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Requires Level 5 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n Category: 'Damage LEADERSHIP' \n Passive ability"
+"Requires Level 5 \n Allies near Lurtz gain +50% Damage \n and earn experience 25% faster. \n Category: 'Damage LEADERSHIP' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
@@ -49,7 +49,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and +25% experience. \n Enemy cavalry decelerate 3.5 times faster. \n Category: 'Unique SPELL' \n Wipes any other SPELL effects from allies.  \n Left click icon then left click on target area"
+"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry decelerate 3.5 times faster. \n Category: 'Unique SPELL' \n Wipes any other SPELL effects from allies.  \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Men Wood"
@@ -199,7 +199,7 @@ CONTROLBAR:ToolTipDainLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Category: 'Damage SPELL' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+"Allies near the banner gain +25% Damage \n and earn experience 25% faster. \n Category: 'Damage SPELL' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
@@ -44458,7 +44458,7 @@ CONTROLBAR:ToolTipMenLongShotAbility
 END
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"Para activar este equipo, investiga la mejora portaestandartes en el cuartel. \n \n +25% a armadura, -30% a velocidad y +33% extra resistencia contra flechas ."
+"Para activar este equipo, investiga la mejora portaestandartes en el cuartel. \n \n +25% a armadura, -30% a velocidad."
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
@@ -45030,7 +45030,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"El huargo gana +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas \n La bonificacion no puede ser cancelada y no se acumula \n Para activarlo, haz clic con el botón izquierdo."
+"El huargo gana +55% al daño.\n Pierde -10% armadura contra daño estructural y de picas \n La bonificacion no puede ser cancelada y no se acumula \n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
