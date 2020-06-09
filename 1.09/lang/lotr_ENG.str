@@ -823,10 +823,10 @@ Map:mapMHjunglesoffarharad/Desc
 "This region in the very south of Far Harad is densely forested with tropical trees and bushes and supplied with water by rivers flowing out into the Great Sea. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
-Map:mapNEWtowerhillsiii
+Map:mapJKtowerhillsiii
 "Tower Hills II"
 End
-Map:mapNEWtowerhillsiii/desc
+Map:mapJKtowerhillsiii/desc
 "These hills are the home of the ancient Elven towers that held the Elendil Stone, the last of the Palantiri of the North. \n Map from RotWK, by Mako."
 End
 //------------------------------------------------------------
@@ -851,18 +851,18 @@ Map:mapNEWtournamentemynarnen/Desc
 "Emyn Arnen means "Hills Beside the Water" in Sindarin, refering to the Great Anduin river.\n Located in Ithilien in the south of Osgiliath bordering the Mountains of Shadow.\n Map by Ecthelion."
 END
 //------------------------------------------------------------
-Map:mapNEWforlindonhills
+Map:mapJKforlindonhills
 "Forlindon Hills"
 END
-Map:mapNEWforlindonhills/Desc
-"The region of Forlindon was inhabited by Elves and were the chief part of Gil-galad's kingdom, surrounded by the Blue Mountains and the Great Sea.\n Map by Jokuc."
+Map:mapJKforlindonhills/Desc
+"The region of Forlindon was inhabited by Elves and were the chief part of Gil-galad's kingdom, surrounded by the Blue Mountains and the Great Sea.\n Map by Jokuc`."
 END
 //------------------------------------------------------------
-Map:mapNEWtowerhills
+Map:mapJKtowerhills
 "Tower Hills"
 END
-Map:mapNEWtowerhills/Desc
-"With a layout similar to Fords of Isen and the skin of Tower Hills, this 1v1 map is made to provide a mix of fun elements and balanced gameplay. \n Turn off ring heroes for tournament mode. \n Map by Jokuc."
+Map:mapJKtowerhills/Desc
+"With a layout similar to Fords of Isen and the skin of Tower Hills, this 1v1 map is made to provide a mix of fun elements and balanced gameplay. \n Turn off ring heroes for tournament mode. \n Map by Jokuc`."
 END
 //------------------------------------------------------------
 Map:mapNEWudunii
@@ -17982,7 +17982,7 @@ CONTROLBAR:ToolTipToggleWedgeFormation
 END
 
 CONTROLBAR:ToolTipToggleLineFormation
-"Default Line For&mation"
+"Default Line Formation" //obsolete
 END
 
 CONTROLBAR:TogglePorcupineFormation
