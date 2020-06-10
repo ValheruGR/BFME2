@@ -106,7 +106,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Category: 'Unique SPELL' "
 END
 TOOLTIP:MordorOrcFighterHordeDescription09v2
 "Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
