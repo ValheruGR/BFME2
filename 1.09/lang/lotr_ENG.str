@@ -364,7 +364,7 @@ TOOLTIP:AndurilDesc09v2
 END
 //------------------------------------------------------------
 GUI:SpellBookRefreshReduction09v2
-"Bonus: \n Spellbook cooldowns: %d%%"
+"Bonus: \n Spellbook \n cooldowns: \n %d%%"
 End
 //------------------------------------------------------------
 OBJECT:TheForsakenInn09v2
