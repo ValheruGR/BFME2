@@ -37,7 +37,7 @@ CONTROLBAR:ToolTipTreeBeardLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Requires Level 5 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n Category: 'Damage LEADERSHIP' \n \n Passive ability"
+"Requires Level 5 \n Allies near Lurtz gain \n +50% Damage \n and earn experience 25% faster. \n Category: 'Damage LEADERSHIP' \n \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
@@ -49,7 +49,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and +25% experience. \n Enemy cavalry decelerate 3.5 times faster. \n Category: 'Unique SPELL' \n Wipes any other SPELL effects from allies.  \n Left click icon then left click on target area"
+"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry decelerate 3.5 times faster. \n Category: 'Unique SPELL' \n Wipes any other SPELL effects from allies.  \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Men Wood"
@@ -210,7 +210,7 @@ CONTROLBAR:ToolTipBoromirLeadership09v2
 "Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster. \n Category: 'Damage LEADERSHIP' \n Passive ability"
 END
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Allies near Theoden gain \n +25% Damage and +25% experience. \n Category: 'Damage SPELL' \n Passive ability"
+"Allies near Theoden gain \n +25% damage and earn experience 25% faster. \n Category: 'Damage SPELL' \n Passive ability"
 END
 TOOLTIP:ToolTipSarumanLeadership09v2
 "—оюзные войска р€дом с —аруманом получают +25% брони и набирают опыт на 25% быстрее. \n Category: 'Armor SPELL' \n ѕассивна€ способность."
@@ -793,10 +793,10 @@ Map:mapMHjunglesoffarharad/Desc
 "This region in the very south of Far Harad is densely forested with tropical trees and bushes and supplied with water by rivers flowing out into the Great Sea. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
-Map:mapNEWtowerhillsiii
+Map:mapJKtowerhillsiii
 "Tower Hills II"
 End
-Map:mapNEWtowerhillsiii/desc
+Map:mapJKtowerhillsiii/desc
 "These hills are the home of the ancient Elven towers that held the Elendil Stone, the last of the Palantiri of the North. \n Map from RotWK, by Mako."
 End
 //------------------------------------------------------------
@@ -821,17 +821,17 @@ Map:mapNEWtournamentemynarnen/Desc
 "Emyn Arnen means "Hills Beside the Water" in Sindarin, refering to the Great Anduin river.\n Located in Ithilien in the south of Osgiliath bordering the Mountains of Shadow.\n Map by Ecthelion."
 END
 //------------------------------------------------------------
-Map:mapNEWforlindonhills
+Map:mapJKforlindonhills
 "Forlindon Hills"
 END
-Map:mapNEWforlindonhills/Desc
+Map:mapJKforlindonhills/Desc
 "The region of Forlindon was inhabited by Elves and were the chief part of Gil-galad's kingdom, surrounded by the Blue Mountains and the Great Sea.\n Map by Jokuc."
 END
 //------------------------------------------------------------
-Map:mapNEWtowerhills
+Map:mapJKtowerhills
 "Tower Hills"
 END
-Map:mapNEWtowerhills/Desc
+Map:mapJKtowerhills/Desc
 "With a layout similar to Fords of Isen and the skin of Tower Hills, this 1v1 map is made to provide a mix of fun elements and balanced gameplay. \n Turn off ring heroes for tournament mode. \n Map by Jokuc."
 END
 //------------------------------------------------------------
@@ -44211,7 +44211,7 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"”казанна€ постройка временно производит 400% ресурса. \n ўелкните на пиктограмме, затем - на постройке."
+"”казанна€ постройка временно производит 350% ресурса. \n ўелкните на пиктограмме, затем - на постройке."
 END
 
 CONTROLBAR:TooltipPalantirVision

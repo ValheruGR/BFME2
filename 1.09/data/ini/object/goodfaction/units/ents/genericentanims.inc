@@ -68,14 +68,30 @@
 		End
 
 		; -------- DEBATE ANIMS ---------------
+		AnimationState   = USER_2
+			StateName		= STATE_JustBuilt
+			Animation = Sprout
+
+				AnimationName = RUTreeberd_MOTA ;;MOTA IS NO ROCK;; C  ;sprout 
+				AnimationMode = ONCE    ;MANUAL ;; hold first frame
+				AnimationBlendTime = 0
+				AnimationSpeedFactorRange = #DIVIDE( 9666.66 SUMMONED_ENT_SPAWN_DURATION ) #DIVIDE( 9666.66 SUMMONED_ENT_SPAWN_DURATION )
+			End
+			;BeginScript
+			;	CurDrawableShowSubObjectPermanently("ROCK")
+			;EndScript
+			FXEvent	= Frame:25 Name:FX_EntSprout	
+			FXEvent = Frame:25 Name:FX_EntSproutButterflies
+		End
+
+		; -------- DEBATE ANIMS ---------------
 		AnimationState   = JUST_BUILT
 			StateName		= STATE_JustBuilt
 			Animation = Sprout
 
-				AnimationName = RUTreeberd_MOTA ;;MOTA IS NO ROCK;; C  ;sprout animation
+				AnimationName = RUTreeberd_MOTA
 				AnimationMode = ONCE    ;MANUAL ;; hold first frame
 				AnimationBlendTime = 0
-				AnimationSpeedFactorRange = #DIVIDE( 9666.66 SUMMONED_ENT_SPAWN_DURATION ) #DIVIDE( 9666.66 SUMMONED_ENT_SPAWN_DURATION )
 			End
 			BeginScript
 				CurDrawableShowSubObjectPermanently("ROCK")
