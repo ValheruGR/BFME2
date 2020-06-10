@@ -89,7 +89,7 @@
 			StateName		= STATE_JustBuilt
 			Animation = Sprout
 
-				AnimationName = RUTreeberd_MOTAanimation
+				AnimationName = RUTreeberd_MOTA
 				AnimationMode = ONCE    ;MANUAL ;; hold first frame
 				AnimationBlendTime = 0
 			End
