@@ -23,6 +23,24 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
+"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
+END
+CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
+"Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
+END
+CONTROLBAR:ToolTipGloriousCharge09v2
+"Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique WEAPON'. \n Theoden must be mounted to use ability \n Left click to activate"
+END
+TOOLTIP:GoblinHordeBonusDescription09v2
+"Horde Bonus: \n Gathered goblins in numbers of at least 100 \n gain +33% damage and +25% speed. \n Category: 'Unique SPELL' "
+END
+CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
+"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
+END
+CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
+"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Category: 'Unique SPELL' "
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
 "Provides additional armor to the Citadel, its expansions and surrounding walls. \n\n Upgrades summoned Lone Towers"
@@ -104,7 +122,7 @@ CONTROLBAR:ToolTipSharkuManEater09v2
 "Requires Level 6 \n Kill target enemy which restores Sharku's health and temporarily grants +35% Damage, +35% armor and -50% crushing deceleration.\n Left click icon then left click on target enemy"
 END
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel309v2
-"+30% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain armor: \n +20% against heros, pikemen and cavalry"
+"+30% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain 20% armor against Pikemen and Cavalry"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
@@ -112,7 +130,7 @@ END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
 "Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Category: 'Unique SPELL' "
 END
-TOOLTIP:MordorOrcFighterHordeDescription09v2
+TOOLTIP:MordorHordeBonusDescription09v2
 "Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
@@ -47734,7 +47752,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+30% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain armor: \n +20% against heros, pikemen and cavalry"
+"+30% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain 20% armor against pikemen and cavalry"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade
