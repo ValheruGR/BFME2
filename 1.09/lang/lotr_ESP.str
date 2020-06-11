@@ -364,7 +364,7 @@ TOOLTIP:AndurilDesc09v2
 END
 //------------------------------------------------------------
 GUI:SpellBookRefreshReduction09v2
-"Bonif. \n Recarga de hechizos: %d%%"
+"Bonif. \n Recarga de \n hechizos: \n %d%%"
 End
 //------------------------------------------------------------
 OBJECT:TheForsakenInn09v2
