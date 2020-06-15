@@ -23,6 +23,21 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
+"Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
+END
+CONTROLBAR:ToolTipGloriousCharge09v2
+"Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique WEAPON'. \n Theoden must be mounted to use ability \n Left click to activate"
+END
+TOOLTIP:GoblinHordeBonusDescription09v2
+"Horde Bonus: \n Gathered goblins in numbers of at least 100 \n gain +33% damage and +25% speed. \n Category: 'Unique SPELL' "
+END
+CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
+"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
+END
+CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
+"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Category: 'Unique SPELL' "
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
 "Provides additional armor to the Citadel, its expansions and surrounding walls. \n\n Upgrades summoned Lone Towers"
@@ -104,7 +119,7 @@ CONTROLBAR:ToolTipSharkuManEater09v2
 "Требуется уровень 6. \n При убийстве врага запас здоровья Шарку восстанавливается, он временно наносит +35% урона, получает +35% брони и -50% crushing deceleration. \n Щелкните на пиктограмме, затем - на цели."
 END
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel309v2
-"+30% скорости работы. \n Позволяет изобретать митрильную броню, стальное оружие и огненные камни. \n Возводится башня метателей. \n Постройка получает дополнительну броню: \n +20% против героев, пикинеров, кавалерии."
+"+30% скорости работы. \n Позволяет изобретать митрильную броню, стальное оружие и огненные камни. \n Возводится башня метателей. \n Постройка получает дополнительну броню: \n +20% против пикинеров, кавалерии."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Исцеление находящихся рядом союзников. \n Воскрешение павших воинов в отряде каждые 6.5 секунд. \nСнижение стоимости воскрешения героя на 5%. %\n Снижение времени воскрешения героя на 15%. \n\n Улучшает призванные Одинокие Башни"
@@ -112,7 +127,7 @@ END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
 "Преимущество: здания, производящие ресурсы. \n Орки, в количестве минимум 70 \n получают +33% атаки, +20% скорости"
 END
-TOOLTIP:MordorOrcFighterHordeDescription09v2
+TOOLTIP:MordorHordeBonusDescription09v2
 "Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2

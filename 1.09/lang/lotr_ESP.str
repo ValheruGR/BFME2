@@ -23,6 +23,21 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
+"Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed \n at level 5."
+END
+CONTROLBAR:ToolTipGloriousCharge09v2
+"Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique WEAPON'. \n Theoden must be mounted to use ability \n Left click to activate"
+END
+TOOLTIP:GoblinHordeBonusDescription09v2
+"Horde Bonus: \n Gathered goblins in numbers of at least 100 \n gain +33% damage and +25% speed. \n Category: 'Unique SPELL' "
+END
+CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
+"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
+END
+CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
+"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Category: 'Unique SPELL' "
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMordorTavern09v2
 "Trains Corsairs of Umbar \n Allows research of Mordor unit upgrades. \n Tavern bonus: \n 2 tavern = corsairs 10% cheaper \n 3 tavern = 15% cheaper \n 4 taverns = 20% cheaper"
@@ -88,7 +103,7 @@ CONTROLBAR:ToolTipGBloodHunt09v2
 "Requisito: Nivel 4. \n La caballería aliada cercana gana \n +25% a daño, +25% a armadura \n y consiguen experiencia un 50% más rápido.\n Se reduce la disminución de velocidad por pisoteo de la caballería amiga. \n Category: 'Unique SPELL' \n Capacidad pasiva."
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
-"Requisito: Nivel 2. \n Ordena a los guardianes que carguen contra el enemigo. \n Los guardianes reciben +25% a la velocidad y +25% a la armadura. \n Category: 'Armor BUFF'  \n Causa metaimpacto. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 2. \n Ordena a los guardianes que carguen contra el enemigo. \n Los guardianes reciben +25% a la velocidad \n y +25% a la armadura. \n Category: 'Armor BUFF'  \n Causa metaimpacto. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:ToolTipBarbedArrows09v2
 "Requisito: Nivel 2. \n Causa un metaimpacto y daño aumentado"
@@ -100,7 +115,7 @@ CONTROLBAR:ToolTipSharkuManEater09v2
 "Requisito: Nivel 6. \n Mata al enemigo apuntado, haciendo que Sharku recupere salud y proporcionando, temporalmente, +35% al daño, +35% a la armadura y -50% desaceleración por pisoteo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel309v2
-"+30% a la velocidad de construcción. \n Permite las mejoras cota de mithril, espadas forjadas y proyectil en llamas. \n Añade una torre de hachas defensiva.\n La forja gana armadura: \n +20% contra Heroes, Picas y Caballeria"
+"+30% a la velocidad de construcción. \n Permite las mejoras cota de mithril, espadas forjadas y proyectil en llamas. \n Añade una torre de hachas defensiva.\n La forja gana +20% armadura contra Picas y Caballeria"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Reduce el coste de revivir héroes en un 5%. \n Reduce el tiempo de revivir héroes en un 15%. \n Mejora a cualquier Torre Solitaria convocada."
@@ -108,7 +123,7 @@ END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
 "Fuerte contra edificios generadores de recursos. \n Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +25% velocidad"
 END
-TOOLTIP:MordorOrcFighterHordeDescription09v2
+TOOLTIP:MordorHordeBonusDescription09v2
 "Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +25% velocidad"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
@@ -311,13 +326,13 @@ CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 End
 //------------------------------------------------------------
 TOOLTIP:GondorTowerGuardHordeDescription09v2
-"Los Guardias de la Torre ganan +5% velocidad en los niveles 3, 5, 7 y 10."
+"Los Guardias de la Torre ganan +5% velocidad \n en los niveles 3, 5, 7 y 10."
 END
 TOOLTIP:DwarvenGuardianHordeDescription09v2
-"Los Guardianes ganan +5% velocidad en los niveles 3, 5, 7 y 10."
+"Los Guardianes ganan +5% velocidad \n en los niveles 3, 5, 7 y 10."
 END
 TOOLTIP:ElvenRivendellLancerHordeDescription09v2
-"Los Lanceros de Rivendell ganan +5% velocidad en el nivel 5."
+"Los Lanceros ganan +5% velocidad \n en el nivel 5."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
