@@ -23,6 +23,10 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
+"Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Category: 'Damage SPELL'"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
 "Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
 END
@@ -674,7 +678,7 @@ Map:mapNEWwoodyend
 "Woody End"
 End
 Map:mapNEWwoodyend/desc
-"Woody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east.\n Size: 580 x 480\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Outpost, 2x Signal Fire, 1x Tower. \n Map from RotWK, by MauHuR."
+"Woody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east.\n Size: 580 x 480\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Outpost, 2x Signal Fire, 1x Tower. \n Map from RotWK, by Solas."
 End
 //------------------------------------------------------------
 //	Map:mapTESTriveroforodruin

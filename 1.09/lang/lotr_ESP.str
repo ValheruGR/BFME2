@@ -39,6 +39,10 @@ CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
 "Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Category: 'Unique SPELL' "
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
+"Provides additional armor to the Citadel, its expansions and surrounding walls. \n\n Upgrades summoned Lone Towers"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipMordorTavern09v2
 "Trains Corsairs of Umbar \n Allows research of Mordor unit upgrades. \n Tavern bonus: \n 2 tavern = corsairs 10% cheaper \n 3 tavern = 15% cheaper \n 4 taverns = 20% cheaper"
 END
@@ -667,7 +671,7 @@ Map:mapNEWwoodyend
 "Woody End"
 End
 Map:mapNEWwoodyend/desc
-"Woody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east.\n Size: 580 x 480\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Outpost, 2x Signal Fire, 1x Tower. \n Map from RotWK, by MauHuR."
+"Woody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east.\n Size: 580 x 480\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Outpost, 2x Signal Fire, 1x Tower. \n Map from RotWK, by Solas."
 End
 //------------------------------------------------------------
 //	Map:mapTESTriveroforodruin
@@ -14100,7 +14104,7 @@ CONTROLBAR:ToolTipConstructMenWorkshop
 END
 
 CONTROLBAR:ConstructMenSentryTower
-"Construir to&rreón"
+"Construir torreón (&D)"
 END
 
 CONTROLBAR:ToolTipConstructMenWallHub
@@ -15172,7 +15176,7 @@ CONTROLBAR:ConstructGarrisonUpgrade
 END
 
 CONTROLBAR:ConstructIronOreUpgrade
-"&Mineral de hierro"
+"Mineral &de hierro"
 END
 
 CONTROLBAR:ConstructNumenorStoneworkUpgrade
@@ -15184,11 +15188,11 @@ CONTROLBAR:ConstructReinforcedGateUpgrade
 END
 
 CONTROLBAR:ConstructGrandHarvestUpgrade
-"Gran cosecha (&Y)"
+"G&ran cosecha"
 END
 
 CONTROLBAR:ConstructSiegeMaterialsUpgrade
-"Materiales de asedio (&V)"
+"Ma&teriales de asedio"
 END
 
 CONTROLBAR:ConstructGondorSilverTreeBanner
@@ -25630,7 +25634,7 @@ CONTROLBAR:ToolTipConstructDwarvenFortress
 END
 
 CONTROLBAR:ConstructDwarvenSentryTower
-"Construir tor&reón"
+"Construir torreón (&D)"
 END
 
 CONTROLBAR:ConstructDwarvenBarracks
@@ -26122,7 +26126,7 @@ CONTROLBAR:ToolTipPurchaseWildFireDrake
 END
 
 CONTROLBAR:ConstructWildSentryTower
-"Construir to&rre de vigilancia"
+"Construir torre &de vigilancia"
 END
 
 OBJECT:WildMineShaft
@@ -44317,7 +44321,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyGondorIronOre
 END
 
 CONTROLBAR:PurchaseTechnologyGondorIronOre
-"Investigar mineral de h&ierro"
+"Investigar mineral &de hierro"
 END
 
 TOOLTIP:LackGondorIronOreTechnology
