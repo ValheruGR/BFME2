@@ -26,7 +26,6 @@ END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Category: 'Damage SPELL'"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
 "Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
 END
