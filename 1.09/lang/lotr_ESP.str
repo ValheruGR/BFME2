@@ -23,6 +23,9 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+APT:FileTransferStatus::3
+"Recibido testest"
+END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Category: 'Damage SPELL'"
 END
