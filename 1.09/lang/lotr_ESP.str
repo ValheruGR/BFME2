@@ -23,6 +23,15 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+APT:FileTransferStatus::3
+"Recibido testest"
+END
+TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
+"Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Category: 'Damage SPELL'"
+END
+CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
+"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
+END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed \n at level 5."
 END
@@ -304,7 +313,9 @@ END
 CONTROLBAR:ToolTipDisguise09v2
 "Requisito: Nivel 4 \n Se disfraza como un rohirrim normal, usando sus armas y luchando como una de ellos. \n Eowyn ataca mas lento pero hace daño en area. \n Cancela el bonus Doncella Guerrera. \n Haz clic con el botón izquierdo para activarlo."
 END
-//------------------------------------------------------------
+CONTROLBAR:ToolTipSmite09v2
+"Requires Level 2 \n Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
+END
 CONTROLBAR:ToolTipShieldMaiden09v2
 "Requisito: Nivel 5 \n Eowyn recibe +35% a la armadura. \n Reduce la disminución de velocidad por pisoteo de Rohirrim amigos \n Cancela el Disfraz. \n Para activarlo, haz clic con el botón izquierdo."
 END

@@ -52,16 +52,17 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Version 2.18: Now compatible with 1.09 beta. \n This is Bos Primigenius Taurus: The Tower War. \n Playable for 3 and 2 players.\n*Ring heroes enables COW aspirants friendly mode* \n If you forget to team up, other players will be allied but kill-counters won't work\n Made with a lot of love for patch 1.09. \n\n Thorin sucks. \nDo you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map."
+"This is Bos Primigenius Taurus: The Tower War. (Build 220) \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players. \n *Tick ring heroes to enable HARDCORE mode* \n If you forget to team up, other players will be allied but kill-counters won't work \n Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n\n Thorin sucks."
+	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
+	// \n Version 2.19: Now compatible with 1.09v2. \n 
 End
 //--------------------------------------------------------------------------------//
 //--------------------------------------------------------------------------------//
 //--------------------------------------------------------------------------------//
 
 
- 
 
 
 
@@ -237,11 +238,9 @@ End
 //-------------------------done---------------------
 TOOLTIP:DisplayDamage_SpiderRiderArcherBasic
 "Damage per unit: \n CAVALRY_RANGED damage: 90"
-//"Damage per unit: \n CAVALRY_RANGED damage: 81 \n SIEGE damage: 10"
 End
 TOOLTIP:DisplayDamage_SpiderRiderArcherUpgrade
 "Damage per unit: \n CAVALRY_RANGED damage: 90 \n FLAME damage: 30"
-//"Damage per unit: \n CAVALRY_RANGED damage: 81 \n SIEGE damage: 10 \n FLAME damage: 30"
 End
 TOOLTIP:DisplayDamage_SpiderRiderArcherElite
 "Damage per unit: \n PIERCE damage: 21 \n POISON damage: 4.2 (for 7 seconds)" 
@@ -1771,13 +1770,13 @@ SCRIPT:GameStart1
 ////"Don't let bad bois access to the tunnel network!!"
 //Aight, there's just a cooldown each 3 waves rest between waves. Only between different army groups
 //Aight, there's just a cooldown each 3 waves
-"Thorin sucks, enable ring heroes to play easy mode if you are with him"
-//"This is Bos Primigenius Taurus: The TW \n Objective is to prevent enemies from entering top middle tunnel."
+//"Thorin sucks, enable ring heroes to play easy mode if you are with him"
+"This is Bos Primigenius Taurus: The TW \n Objective is to prevent enemies from entering top middle tunnel."
 End
 SCRIPT:GameStart2
-"Guerrilla cheats with double Farm. Block"
+//"Guerrilla cheats with double Farm. Block"
 //"Win this map with Thorin and you will gain respect among the cowmmunity."
-///"Always taking in consideration\n that Thorin Sucks, \nyour goal is to survive 20 waves."
+"Always taking in consideration \n that Thorin Sucks, \n your goal is to survive 20 waves."
 End
 SCRIPT:GameStart2_Cows
 "The Ladies will show you the route of your enemies"
@@ -1805,7 +1804,7 @@ SCRIPT:UnitRemovedAdvertencia
 End
 //-------------------------------------------//
 SCRIPT:WIN
-"WP"
+"Congratulations. \n You have won the cow map. \n\n Map by Ecthelion! \n Special thanks to the cow-players: \n Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, \n FarmerLau, Sauron, Temptation, Mithrandir, King, \n Stormcrow, ForCarnDum, Ahwehawe, Xelenos, F \n and whoever actually ever played this map during its two and half years of develepment."
 End
 SCRIPT:LOSE
 ";( cows not happy"
@@ -1825,14 +1824,17 @@ End
 SCRIPT:2PlayersMode_Easy
 "2 Players mode Enabled in Milkless-Cow mode mode"
 End
+SCRIPT:2PlayersMode_Hard
+"2 Players mode Enabled in Hard-Core mode mode"
+End
 SCRIPT:4PlayersMode
 "4 Players mode Enabled"
 End
 SCRIPT:EASY
-"Ring Heroes enabled\n Milkless cow mode activated \n Use it to git gud and and later on win true game mode."
+"EASY MODE HAS BEEN ENABLED \n Use it to git gud and eventually play true game mode."
 End
 SCRIPT:HARDCORE
-"Hard mode enabled \n You will have to think where to put your shit and be as efficient possible."
+"HARDCORE MODE HAS BEEN ENABLED. \n Good luck"
 End
 //-------------------------------------------//
 SCRIPT:MOO_01
