@@ -23,8 +23,17 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+APT:FileTransferStatus:2
+"Recibido Test22"
+END
+APT:FileTransferStatus:3
+"Recibido TEST33"
+END
+APT:FileTransferStatus::2
+"Recibido Test2"
+END
 APT:FileTransferStatus::3
-"Recibido testest"
+"Recibido TEST3"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Category: 'Damage SPELL'"
@@ -15007,7 +15016,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Crea una zona frondosa.\n Las unidades aliadas reciben +35% a la armadura.\nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
+"Crea una zona frondosa.\nTodas las unidades aliadas reciben +50% a la armadura.\nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
 END
 
 CONTROLBAR:SummonEntAllies
@@ -16414,7 +16423,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Los aliados cercanos a Tom Bombadil ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Siempre se acumula.\n \n Capacidad pasiva."
+"Los aliados cercanos a Tom Bombadil ganan \n +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Siempre se acumula.\n \n Capacidad pasiva."
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -16794,11 +16803,11 @@ CONTROLBAR:ToolTipSpeechCraft
 END
 
 CONTROLBAR:ToolTipDisguise
-"Requisito: Nivel 4 \n Se disfraza como un rohirrim normal, usando sus armas y peleando como una de ellos. \n Cancela el bonus Doncella Guerrera. \n Haz clic con el botón izquierdo para activarlo."
+"Requisito: Nivel 4 \n Se disfraza como un rohirrim normal, usando sus armas y peleando como una de ellos. \n Haz clic con el botón izquierdo para activarlo."
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Requisito: Nivel 5 \n Eowyn recibe +35% a la armadura. \n Reduce la disminución de velocidad por pisoteo de Rohirrim amigos \n Cancela el Disfraz. \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 5 \n Eowyn recibe +65% a la armadura. \n Reduce la disminución de velocidad por pisoteo de Rohirrims amigos \n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:ToggleTrebWeapon
@@ -29311,7 +29320,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
-"Hace que caiga una lluvia de roca fundida sobre la zona seleccionada causando fuertes daños a aliados y enemigos por igual.\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Hace que caiga una lluvia de roca fundida sobre la zona seleccionada. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 
 CONTROLBAR:TerribleFury
@@ -44083,7 +44092,7 @@ CONTROLBAR:ToolTipBuildGondorFighterHorde
 END
 
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
-"Fuerte contra edificios generadores de recursos. \n Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +25% velocidad"
+"Fuerte contra edificios generadores de recursos. \n Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +25% velocidad pero pierden -10% armadura de perforación."
 END
 
 CONTROLBAR:ToolTipBuildMordorCorsairHorde
@@ -44283,11 +44292,11 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"La producción de recursos de la estructura de recursos seleccionada aumenta en un 350% de manera temporal. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"La producción de recursos de la estructura de recursos seleccionada aumenta en un 300% de manera temporal. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:TooltipPalantirVision
-"Espía a las fuerzas enemigas. \n Proporciona una bonificación de +10% velocidad temporalmente a las unidades en su área de efecto. \n Siempre se acumula."
+"Espía a las fuerzas enemigas. \n Proporciona una bonificación de +15% velocidad temporalmente a las unidades en su área de efecto. \n Siempre se acumula."
 END
 
 CONTROLBAR:TooltipFarSeeing
@@ -44307,9 +44316,8 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Reduce el coste de revivir héroes en un 5%. \n Reduce el tiempo de revivir héroes en un 15%. \n Mejora a cualquier Torre Solitaria convocada."
+"Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Reduce el coste de revivir héroes en un 5%. \n Reduce el tiempo de revivir héroes en un 15%. \n Reduce el coste de reclutamiento de héroes en un 5%. \n\n Mejora a cualquier Torre Solitaria convocada."
 END
-//\n Reduce el coste de reclutamiento de héroes en un 5%.
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
 "Permite que los batallones compren la mejora portaestandartes. \n Permite que los soldados adopten la formación muralla de escudos."
@@ -44372,11 +44380,11 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Los aliados cercanos a Théoden ganan \n +25% al daño y ganan experiencia 25% más rápido. \n Siempre se acumula. \n \n Capacidad pasiva."
+"Los aliados cercanos a Théoden ganan \n +50% al daño y ganan experiencia 25% más rápido.\n \n Capacidad pasiva."
 END
 
 CONTROLBAR:ToolTipGloriousCharge
-"Requisito: Nivel 7. \n Théoden y las tropas de caballería cercanas reciben +99% armadura, +25% al daño y las vuelve inmune a la desaceleración por pisoteo. \n  Théoden debe estar montado para usar esta capacidad. \n La bonificación no puede ser cancelada y siempre se acumula. \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 7. \n Théoden y las tropas de caballería cercanas reciben +80% armadura, +25% al daño y las vuelve inmune a la desaceleración por pisoteo. \n  Théoden debe estar montado para usar esta capacidad. \n La bonificación no puede ser cancelada y siempre se acumula. \n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:Smite
@@ -44396,7 +44404,7 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Requisito: Nivel 2 \n Poderoso ataque a distancia contra un objetivo. \n Especialmente poderoso contra monstruos voladores de Mordor. \n Bonificación contra heroes \n Cancela el Disfraz. \nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Poderoso ataque a distancia contra un objetivo. \n Especialmente poderoso contra monstruos voladores de Mordor. \n Bonificación contra heroes de la oscuridad \n\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToggleFaramirWeapons
@@ -44416,7 +44424,7 @@ CONTROLBAR:CaptainofGondor
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
-"Requisito: Nivel 6. \n Los aliados cercanos a Faramir ganan \n +35% a la armadura. \n \n Capacidad pasiva."
+"Requisito: Nivel 6. \n Los aliados cercanos a Faramir ganan \n +50% a la armadura. \n \n Capacidad pasiva."
 END
 
 CONTROLBAR:ThrowSpear
@@ -44424,7 +44432,7 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Requisito: Nivel 3. \n La caballería cercana a Eomer gana \n +35% a armadura. \n \n Capacidad pasiva."
+"Requisito: Nivel 3. \n La caballería cercana a Eomer gana \n +50% a armadura. \n \n Capacidad pasiva."
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -44448,11 +44456,11 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Requisito: Nivel 2. \n Aragorn recibe +50% al daño y +50% a la armadura.\n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 2. \n Aragorn recibe +100% al daño y +50% a la armadura.\n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:ToolTipAragornLeadership
-"Requisito: Nivel 4. \n Los aliados cercanos a Aragorn reciben \n +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Siempre se acumula. \n \n Capacidad pasiva."
+"Requisito: Nivel 4. \n Los aliados cercanos a Aragorn reciben \n +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n \n Capacidad pasiva."
 END
 
 CONTROLBAR:WizardBlast
@@ -44488,11 +44496,11 @@ CONTROLBAR:ToolTipMenLongShotAbility
 END
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"Para activar este equipo, investiga la mejora portaestandartes en el cuartel. \n \n +25% a armadura, -30% a velocidad."
+"Para activar este equipo, investiga la mejora portaestandartes en el cuartel. \n \n +20% a armadura pero +25% resistancia contra flechas, -30% a velocidad."
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requisito: Nivel 8. \n Los aliados cercanos se curan y ganan \n +50% al daño, +35% a la armadura. \n Clase de liderazgo simple \n No se acumula con otros liderazgo de armadura \n Las unidades enemigas sensibles a la luz serán aturdidas. \n \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 10. \n Los aliados cercanos se curan y ganan \n +50% al daño, +50% a la armadura. \n Clase de liderazgo simple \n No se acumula con otros liderazgo de armadura \n Las unidades enemigas sensibles a la luz serán aturdidas. \n \n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
@@ -44668,7 +44676,7 @@ CONTROLBAR:ToolTipBlackArrows
 END
 
 OBJECT:DwarvenHeroicStatueDescription
-"Los aliados cercanos a la estatua ganan \n +35% a la armadura. \n \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +50% a la armadura. \n \n Aumenta en 10 el límite de puntos de mando."
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade
@@ -44724,7 +44732,7 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Los aliados cercanos a Gimli ganan \n +35% a la armadura.\n \n Capacidad pasiva."
+"Los aliados cercanos a Gimli ganan \n +50% a la armadura.\n \n Capacidad pasiva."
 END
 
 CONTROLBAR:ToolTipAxeThrow
@@ -44784,11 +44792,11 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Mancilla una zona.\nLas unidades aliadas reciben +35% a la armadura.\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Mancilla una zona.\nLas unidades aliadas reciben +50% a la armadura.\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Siempre se acumula \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño y ganan experiencia un 25% más rápido. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 
 CONTROLBAR:ToolTipDarkness
@@ -44796,7 +44804,7 @@ CONTROLBAR:ToolTipDarkness
 END
 
 CONTROLBAR:ToolTipSummonCrebain
-"Revela la niebla de guerra y detecta unidades en sigilo. \n Los enemigos cercanos pierden un 25% de daño y un 25% de armadura. \n Los enemigos pierden sus bonificaciones de liderazgo simple \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
+"Revela la niebla de guerra y detecta unidades en sigilo. \n Los enemigos cercanos pierden un 25% de daño y un 25% de armadura. \n Los enemigos pierden sus bonificaciones de liderazgo simple \n\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
@@ -44820,7 +44828,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Requisito: Nivel 6. \n Mata al enemigo apuntado, haciendo que Sharku recupere salud y proporcionando, temporalmente, +35% al daño, +35% a la armadura y -50% desaceleración por pisoteo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 8. \n Mata al enemigo apuntado, haciendo que Sharku recupere salud y proporcionando, temporalmente, +50% al daño y +50% a la armadura. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToggleLurtzWeapon
@@ -44864,7 +44872,7 @@ CONTROLBAR:TooltipEscape
 END
 
 CONTROLBAR:ToolTipVenomousWords
-"Reduce en un -40% la velocidad de los enemigos y en un -50% la cadencia de fuego de arqueros.\n Los enemigos pierden sus bonificaciones de liderazgo simple \n Se acumula con otros hechizos negativos \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
+"Reduce considerablemente la velocidad y la cadencia de fuego del enemigo.\n Los enemigos pierden sus bonificaciones de liderazgo simple \n Se acumula con otros hechizos negativos \n\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
 END
 
 CONTROLBAR:SpecialAbilitySarumanFireball
@@ -44900,7 +44908,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Los aliados cercanos al troll con tambor ganan +35% a armadura y +25% experiencia. \n Trolls cercanos ganan +15% armadura +15% experiencia y se auto-curan más rápido.  \n Capacidad pasiva."
+"Los aliados cercanos al troll con tambor ganan +50% a armadura y +25% experiencia. \n Trolls cercanos ganan +15% armadura +15% experiencia y se auto-curan más rápido.  \n Capacidad pasiva."
 END
 
 CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3
@@ -44964,7 +44972,7 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Requisito: Nivel 2. \n Coloca un tótem de cráneo que quedará en el mapa hasta que sea destruido\n Levanta la niebla de guerra y detecta unidades sigilosas \n Los aliados cercanos ganan +35% armadura y +25% experiencia. \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el terreno al que se pueda llegar."
+"Requisito: Nivel 2. \n Coloca un tótem de cráneo que quedará en el mapa hasta que sea destruido\n Levanta la niebla de guerra y detecta unidades sigilosas \n Los aliados cercanos ganan +50% armadura y +25% experiencia. \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el terreno al que se pueda llegar."
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
@@ -45060,7 +45068,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"El huargo gana +55% al daño.\n Pierde -10% armadura contra daño estructural y de picas \n La bonificacion no puede ser cancelada y no se acumula \n Para activarlo, haz clic con el botón izquierdo."
+"El huargo gana +65% al daño.\n Pierde -15% armadura contra daño estructural y de picas \n La bonificacion no puede ser cancelada y siempre se acumula \n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
