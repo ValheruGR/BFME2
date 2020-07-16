@@ -25526,7 +25526,7 @@ CONTROLBAR:ToolTipCommand_ConstructMenWallHubExpansion
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressNumenorStonework
-"Trabajo de piedra de Númenor (&N)"
+"Trabajo de piedra de &Númenor"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressFlamingMunitions
@@ -25610,7 +25610,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToTrebuchet
 END
 
 CONTROLBAR:PorterExtinguishFire
-"Apagar fuego [&g]"
+"Apa&gar fuego"
 END
 
 CONTROLBAR:ToolTipPorterExtinguishFire
