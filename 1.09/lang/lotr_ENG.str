@@ -6667,17 +6667,17 @@ END
 
 Version:Format4
 // context: TRANSLATE ONLY THE WORD Build. DO NOT MODIFY THE VARIABLES  
-"1.09 2.0"
+"1.09v2"
 END
 
 Version:Format3
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"1.09 2.0"
+"1.09v2"
 END
 
 Version:Format2
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"1.09 2.0"
+"1.09v2"
 END
 
 Version:BuildTime
@@ -31612,7 +31612,7 @@ CONTROLBAR:ToolTipStartWallSpanRepair
 END
 
 CONTROLBAR:ConstructIsengardLumberMill
-"L&umber Mill"
+"Build L&umber Mill"
 END
 
 CONTROLBAR:ToolTipConstructIsengardLumberMill

@@ -5668,15 +5668,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09 2.0"
+"1.09v2"
 END
 
 Version:Format3
-"1.09 2.0"
+"1.09v2"
 END
 
 Version:Format2
-"1.09 2.0"
+"1.09v2"
 END
 
 Version:BuildTime
@@ -14348,11 +14348,11 @@ CONTROLBAR:ConstructGondorWall
 END
 
 CONTROLBAR:BattleTowerUpgrade
-"Construir mejora de Tor&reón."
+"Construir mejora &de Torreón."
 END
 
 CONTROLBAR:PosternGateUpgrade
-"Construir mejora de &postigo (&W)"
+"Construir mejora de postigo (&W)"
 END
 
 CONTROLBAR:FlagsUpgrade
@@ -29308,7 +29308,7 @@ CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel
 END
 
 CONTROLBAR:SpecialAbilityFireDrakeInferno
-"Infierno (&V)"
+"Infie&rno"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno
@@ -29536,7 +29536,7 @@ CONTROLBAR:ConstructMordorAttackTroll
 END
 
 CONTROLBAR:ConstructMordorBattleTower
-"Construir to&rreón"
+"Construir torreón (&D)"
 END
 
 CONTROLBAR:ConstructMordorHaradrimArcherHorde
