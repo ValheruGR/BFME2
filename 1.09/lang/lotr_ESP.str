@@ -491,13 +491,6 @@ Map:mapMOblackrootVale/Desc
 END
 //------------------------------------------------------------
 Map:mapETgapofrohanII
-"Blackroot Vale"
-END
-Map:mapMOblackrootVale/Desc
-"The Blackroot Vale, known as Mornan in Sindarin, was a valley of rich grassland through which the River Blackroot flowed. \n Map by Motoma"
-END
-//------------------------------------------------------------
-Map:mapETgapofrohanII
 "Gap of Rohan II " 
 End
 Map:mapETgapofrohanII/Desc
@@ -1225,8 +1218,7 @@ Map:mapSOdruadanforest
 "Druadan Forest"
 END
 Map:mapSOdruadanforest/Desc
-"The Druadan Forest is a pine forest in Gondor, located in Anorien, north of Minas Tirith. The forest is home to mysterious folk known as the Druedain, the Wild Men of the Woods. 
- Map from RotWK, by Solas."
+"The Druadan Forest is a pine forest in Gondor, located in Anorien, north of Minas Tirith. The forest is home to mysterious folk known as the Druedain, the Wild Men of the Woods. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapmpshire4p
@@ -29642,7 +29634,7 @@ CONTROLBAR:PoisonArrows
 END
 
 CONTROLBAR:PurchaseIsengardWargSentry
-"Construir centinela huargo (&L)"
+"Construir centinela huargo (&W)"
 END
 
 CONTROLBAR:Roar
@@ -29670,7 +29662,7 @@ CONTROLBAR:ShelobWebbing
 END
 
 CONTROLBAR:SpecialAbilityBatCloud
-"&Nube de murciélagos"
+"Nube de murciélagos (&C)"
 END
 
 CONTROLBAR:Command_CreateAHero_ArcherToggleWeapon
@@ -29686,7 +29678,7 @@ CONTROLBAR:SpecialAbilityDwarvenDemolisherDeploy
 END
 
 CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades
-"Aceros envenenados (&J)"
+"Aceros envenenados (&T)"
 END
 
 CONTROLBAR:SpecialAbilityOilBarrels
@@ -29702,7 +29694,7 @@ CONTROLBAR:SpecialAbilityWildmanPillage
 END
 
 CONTROLBAR:SpecialAbilityWyrmReposition
-"Cambiar de posición"
+"Cambiar de posición (&R)"
 END
 
 CONTROLBAR:ThrowFireBombs
