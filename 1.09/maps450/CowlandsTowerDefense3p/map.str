@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.69 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 2.94 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -75,13 +75,79 @@ End
 
 
 
+
+
 //---------------------------------------------------
-CONTROLBAR:RitualistSacrifice_New
-"Sacrifice a Berserker (&T)"
+CONTROLBAR:FortressFireDrakeHotkey_New
+"Cremona, la dragoncita <3"
 END
-CONTROLBAR:RitualistSacrificeDesc_New
-"Lurtz performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain double damage, double armor and become +30% faster for 35 seconds. \n Lurtz's self rate of fire is also improved. \n Left click icon, then left click on the target berserker"
+OBJECT:FortressFireDrake_New
+"Cremona, la dragoncita <3"
 END
+TOOLTIP:FortressFireDrake_New
+"A source of warm love."
+END
+CONTROLBAR:ToolTipDrakeLeadership_New
+"Requires Level 6 \n Player units near la dragona gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+END
+CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno_New
+"Requires Level 7 \n Breathes fire over a selected area \n Left click icon then left click on target area"
+END
+CONTROLBAR:GoblinKingSpawnFireDrakes_New
+"Call the kids [&B]"
+//
+END
+CONTROLBAR:TooltipGoblinKingSpawnFireDrakes_New
+"Requires Level 9 \n Calls dis lady's blessings and delivers them to charge onto the enemy. \n Left click icon then left click on pathable location"
+END
+CONTROLBAR:FireDrakePassiveBoost_New
+"Smaug's Niece"
+END
+CONTROLBAR:FireDrakePassiveBoostDesc_New
+"Requires Level 10 \n Cremona gains 250% damage. \n Passive ability"
+END
+//---------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest_New
+"Nearby units gain +35% Damage and gain experience +25% faster \n Category: 'War_Chant' \n Reduces the cost of Drogoth and Fire Drake."
+END
+//---------------------------------------------------
+CONTROLBAR:SummonBalrogFire_New
+"Awake a Fire Demon (&B)"
+End
+CONTROLBAR:SummonBalrogFireDesc_New
+"Requires Level 10 \n Awakes a Fire Demon from the deeps of Moria. \n Left click icon then left click on pathable location"
+END
+//---------------------------------------------------
+CONTROLBAR:SummonBalrogIce_New
+"Awake a Ice Demon (&B)"
+End
+CONTROLBAR:SummonBalrogIceDesc_New
+"Requires Level 10  \n Awakes a Ice Demon from the deeps of what's left on Angmar. \n Can only use when dismounted \n Left click icon then left click on pathable location"
+END
+//---------------------------------------------------
+CONTROLBAR:ConstructIsengardLumberMill_New
+"Build a lumber mill (&Y)"
+END
+//---------------------------------------------------
+CONTROLBAR:PurchaseDwarvenBallistaUpgrade_New
+"Install anti-&dragons device"
+END
+CONTROLBAR:PurchaseDwarvenBallistaUpgradeDesc_New
+"Installs a dwarven ballista on this tower \n Deals siege damage in area, causes meta impact and has a bonus against monsters"
+END
+//---------------------------------------------------
+CONTROLBAR:UpgradeWildmenHallLevel2_New
+"Upgrad&e Wildmen Hall to Level 2"
+End
+CONTROLBAR:UpgradeWildmenHallLevel2Desc_New
+"Allows training of the Wildmen Axe Throwers \n  +10% Faster Build Speed"
+End
+CONTROLBAR:UpgradeWildmenHallLevel3_New
+"Upgrad&e Wildmen Hall to Level 3"
+End
+CONTROLBAR:UpgradeWildmenHallLevel3Desc_New
+"+25% Faster Build Speed"
+End
 //---------------------------------------------------
 CONTROLBAR:GandalfMaiarLight_New
 "Light of Maiars (&C)"
@@ -97,7 +163,7 @@ CONTROLBAR:ToolTipSpecialAbilityWingBlast_New
 "Requires Level 3 \n Shoots a shockwave of force below Drogoth, causing high meta damage to enemies \n Damage bonus against heroes and monsters \n Left click icon then left click on target area"
 END
 CONTROLBAR:ToolTipSpecialAbilityDrogothFireball_New
-"Requires Level 5 \n Sends five fireball at selected area \n Left click icon then left click on target location"
+"Requires Level 5 \n Sends five fireball at selected area. \n The enemies affected receive damage from the fire for 20 seconds. \n Left click icon then left click on target location"
 END
 //---------------------------------------------------
 CONTROLBAR:HornofGondorPassive_New
@@ -123,30 +189,26 @@ END
 CONTROLBAR:ShelobPermanentStingerDesc_New
 "Requires Level 2 \n All the enemies attacked by Shelob are slowed down and poisoned over time. \n Specialy effective against Cavalry. \n Passive ability"
 END
-//---------------------
-CONTROLBAR:ShelobFreezeingScrech_New
-"Freezeing Sc&reech" 
+CONTROLBAR:ShelobFreezeingScreech_New
+"F&reezeing Screech" 
 END
-CONTROLBAR:TooltipShelobFreezeingScrech_New
-"Requires Level 5 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
+CONTROLBAR:TooltipShelobFreezeingScreech_New
+"Requires Level 4 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
 END
-//---------------------
 CONTROLBAR:ShelobToxicCumShot_New
-"&Toxic Lady Juice"
+"Toxic Lady Juice (&V)"
 END
 CONTROLBAR:ShelobToxicCumShotDesc_New
-"Requires Level 4 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
+"Requires Level 5 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
 END
-//---------------------
 CONTROLBAR:SpecialAbilityWildShelobTunnel_New
 "Tunnel [&C]"
 END
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel_New
 "Requires Level 8 \n Allows Shelob to tunnel under the ground and emerge at any unshrouded location, causing damage and metaimpact. \n Left click icon then left click on target location"
 END
-//---------------------
 CONTROLBAR:ShelobWebbing_New
-"Ungoliant's mad fruitfulness!"
+"&Ungoliant's mad fruitfulness!"
 End
 CONTROLBAR:ToolTipShelobWebbing_New
 "Requires Level 10 \n Shelob shoots a storm of spider webs and eggs. \n Enemy units are crippled. \n Upon death, spider eggs will appaer, \n then shelob babies will be born. \n Left click icon then left click on target area"
@@ -171,32 +233,12 @@ CONTROLBAR:TooltipScreechBlackRider_New
 "Requires Level 10 \n Burst the eardrums of the enemy, causing high dosis of damage. \n Fear prevails over rationality and units temporaly lose their way. \n Left click to activate"
 END
 //---------------------------------------------------
-CONTROLBAR:SlayerArrow
-"Slayer Arrow [&R]"
-END
-CONTROLBAR:SlayerArrowDesc
-"Single ranged attack that causes high damage. \n Causes meta-impact \n Left click icon then left click on target"
-END
-//---------------------------------------------------
 CONTROLBAR:ConstructMordorHaradrimArcherHorde_New
 "&Rhun Archers"
 End
 OBJECT:HordeMordorHaradrimArcher_New
 "Rhun Archers"
 END
-//---------------------------------------------------
-CONTROLBAR:AzogChildsPrerequisite_New
-"Requires level 5 \n Brings to battlefield a Carlitos, Panchito y Miguelito."
-End
-CONTROLBAR:AzogChilds_New
-"Carlitos, Panchito y Miguelito"
-End
-CONTROLBAR:AzogChildsDesc_New
-"Brings to battlefield a Carlitos, Panchito y Miguelito. \n Si! \n La familia felix."
-End
-CONTROLBAR:AzogChildsPurchased_New
-"Wow La familia felix"
-End
 //---------------------------------------------------
 OBJECT:InnTavern_New
 "Cowlands Inn"
@@ -214,7 +256,7 @@ OBJECT:SignalFireDescription09v2
 End
 //---------------------------------------------------
 CONTROLBAR:ConstructMordorWell_New
-"Build a Healing Morgul Pit (&W)" 
+"Build a healing Morgul pit (&W)" 
 //Necromancer Monument (&W)
 END
 //---------------------------------------------------
@@ -226,17 +268,17 @@ CONTROLBAR:RainOfFireDescSaruman_New
 END
 //---------------------------------------------------
 CONTROLBAR:GoblinKingMount_New
-"Mount / Dismount [&M]"
+"Moun&t / Dismount"
 End
 CONTROLBAR:ToolTipGoblinKingMount_New
 "Left click to switch between \n mounted and on foot"
 END
 //---------------------
 CONTROLBAR:GorkilToxicCumShot_New
-"&Toxic cum-shot"
+"Toxic cum-shot (&V)"
 END
 CONTROLBAR:GorkilToxicCumShotDesc_New
-"Requires Level 6 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
+"Requires Level 5 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons freezes the target for 6 seconds.\n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:AxeStormIsengard_New
@@ -255,7 +297,7 @@ CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades_New
 End
 //---------------------------------------------------
 CONTROLBAR:Devastation_New
-"Devastation (&T)"
+"De&vastation"
 End
 CONTROLBAR:ToolTipDevastation_New
 "Requires Level 2 \n Trees are instantly turned into resources \n Stuns every unit in target area for short duration \n Left click icon then left click on target forest"
@@ -270,7 +312,7 @@ CONTROLBAR:ToggleSpiderRiderWeapons_New
 END
 //---------------------------------------------------
 CONTROLBAR:ConstructIsengardUpgradeTower_New
-"Tower of Upgrades (&W)"
+"Build a to&wer of upgrades"
 END
 OBJECT:ConstructIsengardUpgradeTower_New
 "Tower of Upgrades"
@@ -285,12 +327,35 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressPoisonArrows_New
 "Equips your Arrow Dens with Poison Arrows"
 END
-//---------------------------------------------------
-CONTROLBAR:SpecialAbilityBalrogBreath_New
-"Cold B&reathe"
+//------------------------BlueBalrog-----------------------
+OBJECT:BalrogBlue_New
+"Ice Demon"
 END
-CONTROLBAR:ToolTipSpecialAbilityBalrogBreath_New
-"Requires Level 5 \n Breathes ice fire like that dead dragon from Warcraft 3, freezeing and shit. \n Does it twice cuz he's got energy. \n Left click icon then left click on target area" 
+CONTROLBAR:SpecialAbilityIgniteBlue_New
+"Ancient demon mode (&I)"
+END
+CONTROLBAR:ToolTipSpecialAbilityIgniteBlue_New
+"The demon gains +100% damage, \n +50% armor and +15% speed. \n Left click to activate"
+END
+CONTROLBAR:SpecialAbilityFireWhipBlue_New
+"Freezeing &Whip"
+END
+CONTROLBAR:ToolTipSpecialAbilityFireWhipBlue_New
+"Attacks with a freezeing whip. \n Paralyzes the targets. \n Left click icon then left click on target"
+END
+CONTROLBAR:SpecialAbilityBalrogBreathBlue_New
+"Cold Breathe (&V)"
+END
+CONTROLBAR:ToolTipSpecialAbilityBalrogBreathBlue_New
+"Breathes ice fire like that dead dragon from Warcraft 3, freezeing and shit. \n Does it twice cuz he's got energy. \n Left click icon then left click on target area" 
+///Requires Level 5 \n 
+END
+//------------------------RedBalrog-----------------------
+CONTROLBAR:SpecialAbilityIgniteRed_New
+"&Ignite"
+END
+CONTROLBAR:ToolTipSpecialAbilityIgniteRed_New
+"The Balrog gains +100% damage, +50% armor and +15% speed. \n Left click to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:FueltheFires_New
@@ -305,28 +370,34 @@ GUI:STRUCTURE_WALL_DISCOUNT_New
 END
 //------------------------------------------------------------
 GUI:SpellBookRefreshReduction09v2
-"Powers and Abilities \n Reload bonus: %d%%"
+"Powers and abilities: \n Reload bonus: %d%%"
 End
 //---------------------------------------------------
 OBJECT:ConstructFurnace_New
-"Guild Smelters facility"
+"Guild smelters facility"
 END
 CONTROLBAR:ConstructFurnace_New
-"Build a Guild Smelters facility"
+"Build a guild smelters fa&cility "
 END
 CONTROLBAR:ToolTipFurnace_New
 "Reduces the cost of upgrades.\n  1 Furnace: -16%.\n 2 Furnaces: -32%. \n 3 Furnaces: -28%.\n 4 Furnaces: -64%"
 END
 //---------------------------------------------------
 Upgrade:FortressPoisonArrows_New
-"Poison Arrows"
+"Poison arrows"
 END
 //---------------------------------------------------
+CONTROLBAR:VenomousWords_New
+"False Encou&ragement"
+END
+CONTROLBAR:ToolTipVenomousWords_New
+"Requires Level 2 \n Convinces enemies within a small radius to ignore their commander's orders, break formation and advance alone. \n Target units healthpoints are reduced to 35%, speed is increased to 200%. \n Lasts two minutes. \n Left click icon then left click on target units"
+END
 CONTROLBAR:GrimaToxicShit_New
 "Toxic shit-talking [&V]"
 END
 CONTROLBAR:GrimaToxicShitDesc_New
-"Requires Level 2 \n Grima fulls the head of the targeted heroe with bullshit that ends up killing it up over time. \n Left click icon then left click on target"
+"Requires Level 2 \n Grima fills the head of the targeted heroe with bullshit that ends up killing it up over time. \n Left click icon then left click on target"
 END
 CONTROLBAR:GrimaLandThing_New
 "Alienating Land (&B)" // Tainted Land
@@ -397,15 +468,18 @@ End
 OBJECT:ChieftainOfDunland_New
 "Chieftain of Dunland"
 End
-//	TOOLTIP:WildmenBuildingHouseDesc_New
+//	TOOLTIP:DunlandHallDesc_New
 //	"Trains Dunland Axe Throwers" //allows research of Fire torches upgrade.
 //	End
 //---------------------------------------------------
-OBJECT:WildmenBuildingHouse_New
+CONTROLBAR:DunlandHall_New
+"Build a Dunland hall (&K)"
+END
+OBJECT:DunlandHall_New
 "Dunland Hall"
 End
-TOOLTIP:WildmenBuildingHouseDesc_New
-"Trains Dunland Axe Throwers" //allows research of Fire torches upgrade.
+TOOLTIP:DunlandHallDesc_New
+"Trains Dunland Axe Throwers"
 End
 //---------------------------------------------------
 OBJECT:HordeDwarvenAxeThrower_New
@@ -516,12 +590,12 @@ TOOLTIP:DisplayDamage_LancerUpgrade
 //"Damage per unit: \n SLASH damage: 44 \n SPECIALIST damage: 10 \n SIEGE damage 17 \n POISON damage 15 (for 60 seconds)"
 End
 //--------------------------Done-----------------------
-//DwarvenGuardianThrowingAxe
+//BunitosWildmenAxeDesignModifier
 TOOLTIP:DisplayDamage_DunlandAxeThrowerBasic
-"Damage per unit: \n SLASH damage: 56"
+"Damage per unit: \n SLASH damage: 150"
 End
 TOOLTIP:DisplayDamage_DunlandAxeThrowerUpgrade
-"Damage per unit: \n SLASH damage: 98"
+"Damage per unit: \n SLASH damage: 300"
 //74
 End
 //--------------------------Done-----------------------
@@ -615,13 +689,8 @@ CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade_New
 "Level 2: Allows recruiting Wildmen Axe Throwers. \n +10% Faster Build Speed"
 END
 //---------------------------------------------------
-CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel2_New
-"Level 2: Allows recruiting Berserkers. \n +10% Faster Build Speed"
-//"Level 2: Allows recruiting Wildmen Axe Throwers. \n +10% Faster Build Speed"
-End
-//---------------------------------------------------
 CONTROLBAR:ConstructTrollDrum_New
-"Build a Troll Drum (&W)"
+"Build a troll drum (&W)"
 END
 //---------------------------------------------------
 //	CONTROLBAR:TooltipLumbermillUnpackMordor_New
@@ -736,7 +805,7 @@ CONTROLBAR:ToolTipBuildGoblinArcherHorde_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipConstructWildMineShaft_New
-"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 5"
+"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 4"
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseUpgradeSentryTowerPoisonArrows_New
@@ -840,7 +909,7 @@ TOOLTIP:RankingTroll_New
 END
 //---------------------------------------------------
 CONTROLBAR:GarrisonTower_New
-"Garrisonable Tower (&D)"
+"Buil&d a garrisonable tower"
 END
 OBJECT:GarrisonTower_New
 "Garrisonable Tower"
@@ -862,10 +931,10 @@ OBJECT:DwarvenLoneTowerDescription_New
 End
 //-------------------------------------------------
 CONTROLBAR:ConstructStealthDetectorSentryTower_New
-"Build a Stealth Detector Tower(&J)"
+"Build a stealth detector tower (&J)"
 END
 CONTROLBAR:ConstructStealthDetectorSentryTowerDesc_New
-"Requires Stonework from the Fortress or a Stone Maker. \n Will reveal any invisible in a radius of 450"
+"Reveal any invisible unit in a radius of 450 \n Requires Stonework from the Fortress or a Stone Maker."
 END
 //--------------------------------------------------//
 OBJECT:StealthDetectorSentryTower_New
@@ -905,7 +974,7 @@ CONTROLBAR:ConstructBattleTowerLevel2UpgradeDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ThunderBolt_New
-"Thunderbolt [&T]"
+"&Thunderbolt"
 END
 CONTROLBAR:ToolTipThunderBolt_New
 "Requires Level 4 \n Strikes a powerful lightning bolt against targeted enemy \n Left click icon then left click on target"
@@ -915,14 +984,14 @@ CONTROLBAR:SpeechCraft_New
 "Speech Craft [&C]"
 END
 CONTROLBAR:ToolTipSpeechCraft_New
-"Requires Level 2 \n Give targeted units experience \n Left click icon then left click on target units"
+"Requires Level 4 \n Target units, including heroes, gain experience twice faster for 30 seconds. \n Category: "Unique" \n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilitySarumanFireball_New
 "Fireball Storm [&C]"
 END
 CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
-"Requires Level 6 \n Spells a rain of fireballs. \n Left click icon then left click on target"
+"Requires Level 6 \n Spells a rain of fireballs. \n The enemies affected receive damage from the fire for 20 seconds. \n Left click icon then left click on target"
 // Throws a ball of energy
 END
 //---------------------------------------------------
@@ -941,7 +1010,7 @@ End
 //	End
 //---------------------------------------------------
 CONTROLBAR:SharkuBoostDesc_New
-"Requires Level 3\n Sharku's warg gains some sort of animal veterancy that allows crushing enemies in a 30% lower minimun speed. \n Sharku warg deceleration by crushing is also reduced by 30%.\n Passive ability"
+"Requires Level 2 \n Sharku's warg gains some sort of animal veterancy that allows crushing enemies in a 30% lower minimun speed. \n Sharku warg deceleration by crushing is also reduced by 30%.\n Passive ability"
 END
 CONTROLBAR:SharkuBoost_New
 "Bad Boy"
@@ -955,7 +1024,7 @@ CONTROLBAR:ToolTipSharkuManEater_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt_New
-"Requires Level 4 \n Any kind of allied unit near Sharku gain: \n +25% Armor earn experience 25% faster \n Category: 'Armor_Inspiration' \n Passive ability"
+"Requires Level 4 \n Players units near Sharku gain: \n +25% Armor earn experience 25% faster \n Category: 'Armor_Inspiration' \n Passive ability"
 END
 //---------------------------------------------------
 CONTROLBAR:SharkuCrippleStrikeMelee_New
@@ -976,14 +1045,26 @@ CONTROLBAR:ToolTipGenericPillage_New
 "Requires Level 6 \n Loot enemy kills for resources \n Passive ability"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
-"Requires Level 4 \n Lurtz gains +50% Damage, +10% Armor and improved fire rate \n Left click icon to activate"
+CONTROLBAR:RitualistSacrifice_New
+"Sac&rifice a Berserke"
+END
+CONTROLBAR:RitualistSacrificeDesc_New
+"Lurtz performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain double damage, double armor and become +30% faster for 35 seconds. \n Lurtz's self rate of fire is also improved. \n Left click icon, then left click on the target berserker"
 END
 CONTROLBAR:LurtzBoost_New
-"Uruk Bane"
+"Locura"
 END
 CONTROLBAR:LurtzBoostDesc_New
-"Requires Level 5 \n Lurtz gains a permanent bonus of +250% rate of fire and +200 damage. \n Passive ability"
+"Requires Level 3 \n Lurtz gains a permanent bonus of +250% rate of fire and +150 damage. \n Passive ability"
+END
+CONTROLBAR:LurtzBaneStrike_New
+"Bane S&trike"
+END
+CONTROLBAR:LurtzBaneStrikeDesc_New
+"Requires Level 5 \n Tripple shoot that causes high damage and meta-impact \n Left click icon then left click on target"
+END
+CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
+"Requires Level 5 \n Lurtz gains +50% Damage, +10% Armor and improved fire rate \n Left click icon to activate"
 END
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple_New
 "Requires Level 7 \n Pins enemy hero in place \n Can damage flyers \n Can only use with bow equipped \n Left click icon then left click on target"
@@ -1004,7 +1085,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
-"Requires Level 4 \n Allies near the Goblin King gain \n +25% Armor and earn experience 25% faster. \n Category: Armor_Inspiration \n \nPassive ability"
+"Requires Level 3 \n Allies near the Goblin King gain \n +25% Armor and earn experience 25% faster. \n Category: Armor_Inspiration \n \nPassive ability"
 End
 //---------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem_New
@@ -1018,26 +1099,41 @@ TOOLTIP:ToolTipGorkilTotemDesc_New
 "Allies near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Statue'"
 END
 //---------------------------------------------------
-CONTROLBAR:AzogCallSomething_New
-"Call Something (&B)"
+//	CONTROLBAR:AzogChildsPrerequisite_New
+//	"Requires level 5 \n Brings to battlefield a Carlitos, Panchito y Miguelito."
+//	End
+//	CONTROLBAR:AzogChilds_New
+//	"Carlitos, Panchito y Miguelito"
+//	End
+//	CONTROLBAR:AzogChildsDesc_New
+//	"Brings to battlefield a Carlitos, Panchito y Miguelito. \n Si! \n La familia felix."
+//	End
+//	CONTROLBAR:AzogChildsPurchased_New
+//	"Wow La familia felix"
+//	End
+//	CONTROLBAR:AzogCallSomething_New
+//	"Call Something (&B)"
+//	End
+//	CONTROLBAR:AzogCallSomethingDesc_New
+//	"Requires Level 6 \n Summons several hordes of goblins. \n Left click icon then left click on pathable location"
+//	END
+//	CONTROLBAR:AzogGoblinFury_New
+//	"Goblin Fury (&T)"
+//	END
+//	CONTROLBAR:AzogGoblinFuryDesc_New
+//	"Requires Level 3 \n Targeted player units gain \n+150% Damage, +30 speed & +60% range \n Category: 'GoblinFury' \n Enemy units are debuffed \n Left click icon then left click on target units"
+//	END
+CONTROLBAR:AzogGoblinCharge_New
+"Goblin Charge (&W)"
+END
+CONTROLBAR:AzogGoblinChargeDesc_New
+"Requires Level 4 \n Calls a bunch of heavy armored goblins to charge against the enemy and poison them on their way. \n Left click icon then left click on target area"
+END
+CONTROLBAR:AzogsAzogTremor_New
+"Tremors (&V)"
 End
-CONTROLBAR:AzogCallSomethingDesc_New
-"Requires Level 6 \n Summons several hordes of goblins. \n Left click icon then left click on pathable location"
-END
-//---------------------------------------------------
-//---------------------------------------------------
-CONTROLBAR:AzogGoblinFury_New
-"Goblin Fury (&T)"
-END
-CONTROLBAR:AzogGoblinFuryDesc_New
-"Requires Level 3 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: 'MightyRage' \n Enemy units are debuffed \n Left click icon then left click on target units"
-END
-//---------------------------------------------------
-CONTROLBAR:WildWave_New
-"Goblin Flood (&B)"
-END
-CONTROLBAR:WildWaveDesc_New
-"Requires Level 7 \n Summon a wave of rageful wild animals that will crush anything on their pass. \n Left click icon then left click on target area"
+CONTROLBAR:AzogsAzogTremorDesc_New
+"Requires Level 8 \n Causes a series of tremors on the selected area. \n Knocks down the enemies and \n slows them down. \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:AwakenWyrm_New
@@ -1112,8 +1208,16 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEnchantedAnvil_New
 "Reduces the cost of Elven unit upgrades: \n 1 fortress with Enchanted Anvil = 50% cheaper"
 END
 //---------------------------------------------------
+CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel2_New
+"Level 2: Allows recruiting Berserkers. \n +10% Faster Build Speed"
+//"Level 2: Allows recruiting Wildmen Axe Throwers. \n +10% Faster Build Speed"
+End
 CONTROLBAR:ToolTipBuildIsengardBerserker_New
-"Requires Level 2 Uruk Pit \n Strong vs. Infantry \n Can detonate mines"
+"Requires Level 2 Uruk Pit \n Provides leadership. \n Nearby allies gain +25% damage \n and earn experience 25% faster. \n Category: 'Statue'.  \n Provides a source for Lurtz sacrifices. \n Can detonate mines"
+END
+//---------------------------------------------------
+CONTROLBAR:IsengardBerserkerLeadership_New
+"Nearby allies gain +25% damage \n and earn experience 25% faster. \n Category: 'Statue'."
 END
 //---------------------------------------------------
 CONTROLBAR:Crebain_New
@@ -1217,16 +1321,25 @@ CONTROLBAR:ToolTipHaldirGoldenArrow_New
 "Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipGloriousCharge_New
-"Requires Level 7 \n Theoden and nearby men gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n left click icon to activate"
+CONTROLBAR:GorkilRoussingSpeech_New
+"Goblin Roussing Speech [&B]"
+END
+CONTROLBAR:GorkilRoussingSpeechDesc_New
+"Requires Level 7 \n The Goblin King and nearby player goblins gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Gorkil must be mounted to use ability \n left click icon to activate"
 END
 //---------------------------------------------------
-CONTROLBAR:Flood_New
+CONTROLBAR:GloriousCharge_New
+"Glorious Charge [&V]"
+END
+CONTROLBAR:ToolTipGloriousCharge_New
+"Requires Level 7 \n Theoden and nearby player men gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n left click icon to activate"
+END
+//---------------------------------------------------
+CONTROLBAR:Charge_New
 "Forth, and fear no darkness [&B]"
 END
- CONTROLBAR:TooltipFlood_New
+ CONTROLBAR:TooltipCharge_New
 "Requires Level 10 \n Por la muerte y la gloria \n Left click icon then left click on target area"
-//"Requires Level 10 \n Elrond figures out he's fuckin tired of Arwen taking all the credit from the Flood that saved the Hobbits from the Nazguls. \n Therefore he's gonna prove he can summon a powerful Flood anywhere on the cowlands, even if there are no rivers at all\n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:MenIceArrowsActive_New
@@ -1285,7 +1398,7 @@ CONTROLBAR:IsengardExplosiveBoltsActive_New
 "Explosive Bolt Sho&t"
 End
 CONTROLBAR:IsengardExplosiveBoltsActiveDesc_New
-"Requires Level 5\n Causes splash damage explosions on the targets \n Deals high amounts of SIEGE damage \n Left click icon then left click on target"
+"Requires Level 4\n Causes splash damage explosions on the targets \n Deals high amounts of SIEGE damage \n Left click icon then left click on target"
 End
 CONTROLBAR:IsengardExplosiveBoltsPassive_New
 "Explosive Bolts"
@@ -1315,7 +1428,7 @@ CONTROLBAR:ToolTipSummonElvenAllies_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipDarkness_New
-"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player units and heroes gain \n +50% Damage, +33% Armor and earn experience 50% faster \n Category: 'Uncategorized' \n left click icon to activate"
+"Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player units and heroes gain \n +50% Damage, +33% Armor and earn experience 50% faster \n Category: 'Darkness' \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing_New
@@ -1325,11 +1438,11 @@ CONTROLBAR:HourOfTheWitchKing_New
 "Memories of A&ngmar" // Hour of the Witch-king // Curse
 END
 //---------------------------------------------------
-CONTROLBAR:RainOfMorgul_New
-"Rains Of Morg&ul"
+CONTROLBAR:RainsOfMorgul_New
+"Rains Of Morgul (&B)"
 END
-CONTROLBAR:RainOfMorgulDesc_New
-"Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies \n Requires to be mounted in a Fellbeast \n left click icon to activate"
+CONTROLBAR:RainsOfMorgulDesc_New
+"Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:OutlawLeadership_New
@@ -1340,10 +1453,10 @@ CONTROLBAR:ToolTipOutlawLeadership_New
 END
 //---------------------------------------------------
 CONTROLBAR:Blight_New
-"Rape the Land (&B)" // Blight
+"Rape the Land (&V)" // Blight
 End
 CONTROLBAR:BlightDesc_New
-"Requires Level 8 \n Enemy units in the affected area receive damage over time and, upon death, some of them, briefly become Wights under your control \n Allied STRUCTURES health points are quadruplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area"
+"Requires Level 8 \n Enemy units in the affected area receive damage over time, \n get their speed reduced by -20%, \n and upon death, some of them, briefly become Wights under your control \n Allied STRUCTURES health points are quadruplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:Sunflare_New
@@ -1508,7 +1621,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyGondorFireArrows_New
 END
 //---------------------------------------------------
 CONTROLBAR:TooltipConstructDwarvenMineShaft_New
-"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 4"
+"Generates resources\n Provides access to the tunnel network \n Quantity available to build: 5"
 END
 //---------------------------------------------------
 CONTROLBAR:EomerSpear_New
@@ -1548,7 +1661,7 @@ CONTROLBAR:EowynRestoreDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipWoundingArrow_New
-"Requires Level 2 \n Single ranged attack that causes high damage and certain monsters to flee \n Causes meta-impact \n Efective against monsters of any kind \n Left click icon then left click on target"
+"Requires Level 2 \n Single ranged attack that causes high damage and certain monsters to flee \n Causes meta-impact and reduces the target's speed by -20% \n Efective against monsters of any kind \n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipHawkStrike_New
@@ -1595,7 +1708,10 @@ END
 CONTROLBAR:AzogHotkey_New
 "&Azog of Moria"
 END
-CONTROLBAR:BalrogHotkey_New
+CONTROLBAR:RedBalrogHotkey_New
+"&Balrog, the Durin's Bane"
+End
+CONTROLBAR:BlueBalrogHotkey_New
 "Iced &Balrog" //Durin's Bane, the 
 End
 CONTROLBAR:BrandHotkey_New
@@ -1611,7 +1727,7 @@ TOOLTIP:BrandHeroModeDesc_New
 "Brand, the sniper"
 End
 OBJECT:Azog_New
-"Azog"
+"Azog of Moria"
 END
 TOOLTIP:AzogDesc_New
 "The mighty goblin from Moria"
@@ -1701,7 +1817,7 @@ CONTROLBAR:ToolTipSlaughterHouse_New
 END
 //-------------------------------------------------
 CONTROLBAR:ConstructElvenFarm_New
-"Build a Elven &Farm"
+"Build a elven &farm"
 END
 CONTROLBAR:ConstructElvenFarmDesc_New
 "Generates resources based on available terrain \n Can train Lothlorien Warriors. \n Quantity available to build: 1"
@@ -1738,13 +1854,6 @@ END
 //-------------------------------------------------
 CONTROLBAR:ConstructRohanStable_New
 "Build Rohan S&table"
-END
-//-------------------------------------------------
-CONTROLBAR:WildmenOfDunlandHouse_New
-"Wildmen of D&unland hall"
-END
-CONTROLBAR:WildmenOfDunlandHouseDesc_New
-"Trains wildmen from Dunland:\n Axe Throwers and Torch Throwers"
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipBuildIronOreUpgrade_New
@@ -1863,9 +1972,9 @@ End
 CONTROLBAR:ToolTipLurtzLeadership_New
 "Requires Level 6 \n Allies near Lurtz gain \n +35% Damage. \n Category: 'War_Chant' \n Passive ability"
 END
-//	CONTROLBAR:AzogLeadershipDesc_New
-//	"Allies near Azog gain \n +50% Damage and earn experience 25% faster \n Category: 'War_Chant' \n Passive ability"
-//	End
+CONTROLBAR:AzogLeadershipDesc_New
+"Requires Level 2 \n Allies near Azog gain \n +35% Damage.r \n Category: 'War_Chant' \n Passive ability"
+End
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners_New
 "Allies near Fortress gain \n +35% Damage and 25% experience \n Category: 'War_Chant' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n Upgrades summoned Lone Towers"
 END
@@ -1891,11 +2000,17 @@ CONTROLBAR:ToolTipTheodenLeadership_New
 "Allies near Theoden gain \n +50% Damage and earn experience 25% faster \n Category: 'War_Chant' \n Passive ability"
 END
 //--------------------------------------------------//
+OBJECT:LightningTower_New
+"Lightning tower"
+End
+TOOLTIP:LightningTowerDesc_New
+"Summons fucking thunderbolt against the enemies on the zone."
+End
 CONTROLBAR:LightningTower_New
-"Light&ning Tower"
+"Build a light&ning tower"
 End
 CONTROLBAR:LightningTowerDesc_New
-"Build a bigass tower which is literally summoning fucken thunderbolts in any enemies it catches"
+"Summons fucking thunderbolt against the enemies on the zone. \n Requires Wizard's Tower upgrade from the Fortress."
 End
 //--------------------------------------------------//
 //CONTROLBAR:WaterTower
@@ -1964,7 +2079,7 @@ OBJECT:MaleCow_New
 "Rider of the apocowlipsis"
 END
 TOOLTIP:MaleCowDesc_New
-"Behold"
+"Behold how i heal nearby cows."
 END
 OBJECT:LeadingDragon_New
 "Mother of dragons!"
@@ -2179,13 +2294,13 @@ SCRIPT:AliveCreeps
 "Alive creeps"
 End
 SCRIPT:Wave
-"NormalMode Wave"
+"Normal mode: Wave"
 End
 SCRIPT:WaveEasy
-"EasyMode Wave"
+"Easy mode: Wave"
 End
 SCRIPT:WaveHard
-"HardMode Wave"
+"Hard mode: Wave"
 End
 SCRIPT:TimeSinceSpawned
 "TimeSinceSpawned"

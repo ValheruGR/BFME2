@@ -474,6 +474,20 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapmpnothing
+"nothing"
+END
+Map:mapmpnothing/Desc
+"nothing"
+END
+//------------------------------------------------------------
+Map:mapMOblackrootVale
+"Blackroot Vale"
+END
+Map:mapMOblackrootVale/Desc
+"The Blackroot Vale, known as Mornan in Sindarin, was a valley of rich grassland through which the River Blackroot flowed. \n Map by Motoma"
+END
+//------------------------------------------------------------
 Map:mapETgapofrohanII
 "Gap of Rohan II " 
 End
@@ -642,49 +656,49 @@ END
 //"Buckland III"
 //END
 //MAP:mapTESTBucklandIII/Desc
-//"The Eastern border of the Shire was the home of Merry Brandybuck.\n Size: 550 x 550\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Outpost, 2x Signal Fire. \n Map from RotWK, by Mako."
+//"The Eastern border of the Shire was the . \n Map from RotWK, by Mako."
 //END
 //------------------------------------------------------------
 Map:mapMAeastmarch
 "East March"
 END
 Map:mapMAeastmarch/Desc
-"A small but densely populated sliver of land between the Old Forest and the east bank of the Brandywine river, inhabited by Hobbits.\n Size: 600 x 500\n Lairs: 8x Goblin Lair, 8x Troll Lair\n Neutral Structures: 1x Tower. \n Map from RotWK, by Mako."
+"A small but densely populated sliver of land between the Old Forest and the east bank of the Brandywine river, inhabited by Hobbits. \n Map from RotWK, by Mako."
 END
 //------------------------------------------------------------
 //Map:mapTESTFordsOfGlanduin
 //"Fords of Glanduin"
 //END
 //Map:mapTESTFordsOfGlanduin/Desc
-//"Beginning in the Hithaeglir south of Khazad-dum, the Glanduin formed Eregion's southern boundary to Dunland.\n Size: 500 x 500\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
+//"Beginning in the Hithaeglir south of Khazad-dum, the Glanduin formed Eregion's southern boundary to Dunland \n Map from RotWK, by Solas."
 //END
 //------------------------------------------------------------
 Map:mapSOgondoroutpost
 "Gondor Outpost"
 END
 Map:mapSOgondoroutpost/Desc
-"An outpost on the border of Harondor which served to keep watch of the southern roads.\n Size: 500 x 500\n Lairs: 8x Warg Lair\n Neutral Structures: 1x Outpost. \n Map from RotWK, by Solas, Mako & TheRanger."
+"An outpost on the border of Harondor which served to keep watch of the southern roads. \n Map from RotWK, by Solas, Mako & TheRanger."
 END
 //------------------------------------------------------------
 Map:mapSOplainsoflindon
 "Plains of Lindon"
 END
 Map:mapSOplainsoflindon/Desc
-"A green and quiet Elvish country beyond the Lune.\n Size: 313 x 375\n Lairs: 2x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
+"A green and quiet Elvish country beyond the Lune. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapSOwoodyend
 "Woody End"
 End
 Map:mapSOwoodyend/desc
-"Woody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east.\n Size: 580 x 480\n Lairs: 4x Warg Lair, 2x Troll Lair\n Neutral Structures: 2x Outpost, 2x Signal Fire, 1x Tower. \n Map from RotWK, by Solas."
+"Woody End was an upland wooded region of the Eastfarthing of the Shire, lying between the Green Hill Country on the west and the Marish on the east. \n Map from RotWK, by Solas."
 End
 //------------------------------------------------------------
 //	Map:mapTESTriveroforodruin
 //	"River of Orodruin"
 //	End
 //	Map:mapTESTriveroforodruin/desc
-//	"Orodruin, also known as Mount Doom, is a towering volcano in the land of Mordor. Around it, there is an arid plateau that is separated by rivers of lava.\n Size: 380 x 340\n Lairs: 2x Goblin Lair, 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 2x Signal Fire. \n Map from RotWK"
+//	"Orodruin, also known as Mount Doom, is a towering volcano in the land of Mordor. Around it, there is an arid plateau that is separated by rivers of lava.\n Map from RotWK"
 //	End
 //------------------------------------------------------------
 //Map:mapTESTrhunshore
@@ -1195,14 +1209,15 @@ Map:mapmpsouthdowns
 "South Downs"
 END
 Map:mapmpsouthdowns/Desc
-"Walking along the East-West Road from Bree to the Weather Hills, one could see the Downs to the south. The Greenway, running through the Andrath, separated the South Downs from the Barrow-downs. \n Map from RotWK."
+"Walking along the East-West Road from Bree to the Weather Hills, one could see the Downs to the south. The Greenway, running through the Andrath, separated the South Downs from the Barrow-downs. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
-Map:mapmpsleepingforest
-"Sleeping Forest"
+Map:mapSOdruadanforest
+"Druadan Forest"
 END
-Map:mapmpsleepingforest/Desc
-"Map from RotWK."
+Map:mapSOdruadanforest/Desc
+"The Druadan Forest is a pine forest in Gondor, located in Anorien, north of Minas Tirith. The forest is home to mysterious folk known as the Druedain, the Wild Men of the Woods. 
+ Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapmpshire4p
@@ -5652,15 +5667,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09 2.0"
+"1.09v2"
 END
 
 Version:Format3
-"1.09 2.0"
+"1.09v2"
 END
 
 Version:Format2
-"1.09 2.0"
+"1.09v2"
 END
 
 Version:BuildTime
