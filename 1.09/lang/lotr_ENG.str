@@ -23,6 +23,13 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
+"Shield Crush"
+END
+CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
+"Improved Shield Crush"
+END
+//------------------------------------------------------------
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Category: 'Damage SPELL'"
 END
@@ -47474,7 +47481,7 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Requires Level 2 \n Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
+"Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
 END
 
 //Faramir
