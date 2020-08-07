@@ -110,7 +110,7 @@ CONTROLBAR:TooltipCrebain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Voraussetzung: Stufe 4 \n Verbündete Kavallerie-Einheiten in der Nähe verursachen +25% Schaden, erhalten +25% Rüstung und sammeln doppelt so schnell Erfahrung \n Zertrampeln-Abbremsung verbündeter Kavallerie-Einheiten halbiert \n Category: 'Unique SPELL' \n Passive Fähigkeit"
+"Voraussetzung: Stufe 3 \n Verbündete Kavallerie-Einheiten in der Nähe verursachen +25% Schaden, erhalten +25% Rüstung und sammeln doppelt so schnell Erfahrung \n Zertrampeln-Abbremsung verbündeter Kavallerie-Einheiten halbiert \n Category: 'Unique SPELL' \n Passive Fähigkeit"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
 "Voraussetzung: Stufe 2 \n Hetze die Hüter auf den Feind \n Die Hüter sind +25% schneller, erhalten +25% Rüstung und werfen den Gegner zurück \n Category: 'Armor BUFF' \n Linksklicke auf das Symbol und anschließend auf das Ziel"
