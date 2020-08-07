@@ -117,7 +117,7 @@ CONTROLBAR:TooltipCrebain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Requiert : niveau 4 \nLa cavalerie alliée proche gagne +25% armure, +25% dégâts, expérience gagnée 50% plus rapidement \nRéduction de l'écrasement de cavalerie alliée \n Category: 'Unique SPELL' \nCapacité passive"
+"Requiert : niveau 3 \nLa cavalerie alliée proche gagne +25% armure, +25% dégâts, expérience gagnée 50% plus rapidement \nRéduction de l'écrasement de cavalerie alliée \n Category: 'Unique SPELL' \nCapacité passive"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
 "Requiert niveau 2 \nOrdonne aux gardiens de charger l'ennemi\nLe gardien gagne +25% vitesse et +25% armure \n Category: 'Armor BUFF'  \nProvoque un renversement \nClic gauche sur l'icône puis clic gauche sur la cible"
