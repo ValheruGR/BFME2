@@ -1214,10 +1214,10 @@ Map:mapmpstaddle/Desc
 "Staddle was a village in Bree Land, located on the southeastern side of Bree-hill. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
-Map:mapmpsouthdowns
+Map:mapSOsouthdowns
 "South Downs"
 END
-Map:mapmpsouthdowns/Desc
+Map:mapSOsouthdowns/Desc
 "Walking along the East-West Road from Bree to the Weather Hills, one could see the Downs to the south. The Greenway, running through the Andrath, separated the South Downs from the Barrow-downs. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
