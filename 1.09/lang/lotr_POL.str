@@ -23,6 +23,15 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:TooltipDwarvenRiches09v2
+"Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"
+END
+CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
+"Shield Crush"
+END
+CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
+"Improved Shield Crush"
+END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Category: 'Damage SPELL'"
 END
@@ -33,7 +42,7 @@ CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique WEAPON'. \n Theoden must be mounted to use ability \n Left click to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique Non-wipeable'. \n Theoden must be mounted to use ability \n Left click to activate"
 END
 TOOLTIP:GoblinHordeBonusDescription09v2
 "Horde Bonus: \n Gathered goblins in numbers of at least 100 \n gain +33% damage and +25% speed. \n Category: 'Unique SPELL' "
@@ -54,7 +63,7 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Category: 'Unique WEAPON' \n Dain becomes able to reveal stealth.\n Passive ability"
+"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Category: 'Unique Non-wipeable' \n Dain becomes able to reveal stealth.\n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
@@ -202,7 +211,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Wargowie otrzymuja +55% do zadawanych obrazen ale traci -10% pancerza przeciwko pikinierom and struktura \n Category: 'Unique WEAPON' \n Wipes previous any LEADERSHIP bonus. \n Kliknij lewym przyciskiem myszy, aby uaktywnic"
+"Wargowie otrzymuja +55% do zadawanych obrazen ale traci -10% pancerza przeciwko pikinierom and struktura \n Category: 'Unique Non-wipeable' \n Wipes previous any LEADERSHIP bonus. \n Kliknij lewym przyciskiem myszy, aby uaktywnic"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
