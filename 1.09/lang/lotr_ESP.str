@@ -44,9 +44,6 @@ END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique Non-wipeable'. \n Theoden must be mounted to use ability \n Left click to activate"
 END
-TOOLTIP:GoblinHordeBonusDescription09v2
-"Horde Bonus: \n Gathered goblins in numbers of at least 100 \n gain +33% damage and +25% speed. \n Category: 'Unique SPELL' "
-END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
 "Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
 END
@@ -142,9 +139,6 @@ END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
 "Fuerte contra edificios generadores de recursos. \n Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +25% velocidad"
 END
-TOOLTIP:MordorHordeBonusDescription09v2
-"Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +25% velocidad"
-END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Añade puntos de golpe adicionales a la fortaleza. \n Reduce el tiempo de revivir heroes en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
 END
@@ -221,7 +215,7 @@ CONTROLBAR:ToolTipEyeofSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requisito: Nivel 8. \n Hordas, monstruos y heroes aliados en una largo rango alrededo de Glorfindel son curados. \n Revive 2 unidades por batallón durante su duración. \n Las hordas aliadas ganan \n +33% armadura y +50 al daño. \n Category: 'Armor BUFF' \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 8. \n Unidades, monstruos y heroes aliados en una largo rango alrededo de Glorfindel son curados mientras el conjuro este activo. \n Los batallón reviven sus unidades mientras esté activo. \n Las unidades aliadas ganan +33% armadura y +50 al daño mientras esté activo. \n Category: 'Armor BUFF' \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
@@ -345,16 +339,6 @@ END
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 "Fuerte contra piqueros y edificios generadores de recursos. \n Los Guardianes ganan +5% velocidad en los niveles 3, 5, 7 y 10."
 End
-//------------------------------------------------------------
-TOOLTIP:GondorTowerGuardHordeDescription09v2
-"Los Guardias de la Torre ganan +5% velocidad \n en los niveles 3, 5, 7 y 10."
-END
-TOOLTIP:DwarvenGuardianHordeDescription09v2
-"Los Guardianes ganan +5% velocidad \n en los niveles 3, 5, 7 y 10."
-END
-TOOLTIP:ElvenRivendellLancerHordeDescription09v2
-"Los Lanceros ganan +5% velocidad \n en el nivel 5."
-END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
 "Requisito: Nivel 10 \n Causa un pequeño terremoto alrededor de Gloin. \n Paraliza al Ejercito de los Muertos por 5 segundos, pero no los mata. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
