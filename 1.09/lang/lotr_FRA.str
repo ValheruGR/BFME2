@@ -23,6 +23,9 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipHourOfTheWitchKing09v2
+"Requiert niveau 10 \n Réinitialise, dans la zone d'effet, les compteurs de compétences spéciales des héros ennemis de 80% \nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
+END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"
 END
@@ -72,7 +75,7 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n Gives a temporary +10% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n Left click icon then left click on target area"
+"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
@@ -29331,7 +29334,7 @@ CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight
 END
 
 CONTROLBAR:ToolTipHourOfTheWitchKing
-"Requiert niveau 10 \n Réinitialise, dans la zone d'effet, les compteurs de compétences spéciales des héros ennemis de 60% \nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
+"Requiert niveau 10 \n Réinitialise les compteurs de compétences spéciales de l'ennemi visé \nClic gauche sur l'icône puis clic gauche sur la cible"
 END
 
 CONTROLBAR:ToolTipThunderBolt

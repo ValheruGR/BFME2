@@ -1,3 +1,6 @@
+// String file for Lord of the Rings
+
+// comment: DO NOT TRANSLATE
 LETTER:G
 "G"
 END
@@ -195,7 +198,7 @@ GUI:RandomSide
 END
 
 GUI:BuddyAddReq
-"Un usuario de La Batalla por la Tierra Media™ II quiere añadir un amigo"
+"Un usuario de La Batalla por la Tierra Media(tm) II quiere añadir un amigo"
 END
 
 GUI:ControlBarBack
@@ -1703,7 +1706,7 @@ GUI:DesyncTitle
 END
 
 GUI:DesyncText
-"La Batalla por la Tierra Media™ II ha perdido la sincronización con los demás jugadores y no puede continuar. Es posible que los demás jugadores tengan versiones diferentes del juego. Sal de la partida antes de intentar jugar online de nuevo."
+"La Batalla por la Tierra Media(tm) II ha perdido la sincronización con los demás jugadores y no puede continuar. Es posible que los demás jugadores tengan versiones diferentes del juego. Sal de la partida antes de intentar jugar online de nuevo."
 END
 
 GUI:LadderDetails
@@ -2007,11 +2010,11 @@ GUI:LocaleSelect
 END
 
 GUI:Command&ConquerGenerals
-"La Batalla por la Tierra Media™ II"
+"La Batalla por la Tierra Media(tm) II"
 END
 
 GUI:FullGameName
-"El Señor de los Anillos™, La Batalla por la Tierra Media™ II"
+"El Señor de los Anillos(tm), La Batalla por la Tierra Media(tm) II"
 END
 
 GUI:SinglePlayer
@@ -3223,7 +3226,7 @@ GUI:FirewallPopUpTitle
 END
 
 GUI:FirewallPopUpMessage
-"El firewall de Windows XP SP2 está activado. Hay que introducir La Batalla por la Tierra Media™ II en la lista de excepciones. ¿Quieres que lo haga el juego de manera automática?"
+"El firewall de Windows XP SP2 está activado. Hay que introducir La Batalla por la Tierra Media(tm) II en la lista de excepciones. ¿Quieres que lo haga el juego de manera automática?"
 END
 
 GUI:FirewallNoAdminTitle
@@ -3455,11 +3458,11 @@ GUI:GSDisconReason2
 END
 
 GUI:GSDisconReason3
-"Se ha perdido la conexión con La Batalla por la Tierra Media™ II Online."
+"Se ha perdido la conexión con La Batalla por la Tierra Media(tm) II Online."
 END
 
 GUI:GSDisconReason4
-"No se ha podido conectar con La Batalla por la Tierra Media™ II Online."
+"No se ha podido conectar con La Batalla por la Tierra Media(tm) II Online."
 END
 
 GUI:GSDisconReason5
@@ -3527,7 +3530,7 @@ GUI:GSDisconReason20
 END
 
 GUI:GSDisconReason21
-"Se ha perdido la conexión con La Batalla por la Tierra Media™ II debido a una cuenta duplicada (misma clave de CD)."
+"Se ha perdido la conexión con La Batalla por la Tierra Media(tm) II debido a una cuenta duplicada (misma clave de CD)."
 END
 
 GUI:GSGroupRoomJoinFail
@@ -3703,7 +3706,7 @@ GUI:GSFailedToHost
 END
 
 GUI:NATNegotiationFailed
-"La Batalla por la Tierra Media™ II no puede conectarse con otro(s) jugador(es). Si el problema continúa y tienes NAT o un Firewall:\n Haz clic sobre el botón Actualizar NAT del menú de opciones. Si tienes un dispositivo DLink, haz clic sobre el botón Enviar retardo del menú de opciones. Si sigues sin ser capaz de conectarte, piensa en abrir un puerto de tu firewall. Si quieres más detalles, consulta el manual y el archivo léeme."
+"La Batalla por la Tierra Media(tm) II no puede conectarse con otro(s) jugador(es). Si el problema continúa y tienes NAT o un Firewall:\n Haz clic sobre el botón Actualizar NAT del menú de opciones. Si tienes un dispositivo DLink, haz clic sobre el botón Enviar retardo del menú de opciones. Si sigues sin ser capaz de conectarte, piensa en abrir un puerto de tu firewall. Si quieres más detalles, consulta el manual y el archivo léeme."
 END
 
 GUI:GPErrorTitle
@@ -4191,7 +4194,7 @@ GUI:CannotConnectToServservTitle
 END
 
 GUI:CannotConnectToServserv
-"No se ha podido establecer una conexión con los servidores de La Batalla por la Tierra Media™ II Online. Comprueba la conexión a Internet"
+"No se ha podido establecer una conexión con los servidores de La Batalla por la Tierra Media(tm) II Online. Comprueba la conexión a Internet"
 END
 
 GUI:PatchAvailable
@@ -4199,7 +4202,7 @@ GUI:PatchAvailable
 END
 
 GUI:MustPatchForOnline
-"Para jugar en La Batalla por la Tierra Media™ II Online, tienes que descargar la actualización."
+"Para jugar en La Batalla por la Tierra Media(tm) II Online, tienes que descargar la actualización."
 END
 
 GUI:CanPatchForOnline
@@ -5755,11 +5758,11 @@ TOOLTIP:Options/tooltipDoubleClickGuard
 END
 
 TOOLTIP:Options/tooltipAlternateMouse
-"Activar para usar la interfaz de ratón de estilo Command & Conquer™"
+"Activar para usar la interfaz de ratón de estilo Command & Conquer(tm)"
 END
 
 TOOLTIP:Options/tooltipAlternativeMouseSetUp
-"Activar para usar la interfaz de ratón de estilo Command & Conquer™"
+"Activar para usar la interfaz de ratón de estilo Command & Conquer(tm)"
 END
 
 TOOLTIP:options/tooltipEAX
@@ -15531,7 +15534,7 @@ GUI:TooltipNoMoreCommandPoints
 END
 
 CREDITS:DevelopmentTitle1
-"El Señor de los Anillos™"
+"El Señor de los Anillos(tm)"
 END
 
 CREDITS:EAPacificDevTeam2
@@ -16155,7 +16158,7 @@ CREDITS:NewLineThanks2
 END
 
 CREDITS:NewLineThanks3
-"El Señor de los Anillos™; El Retorno del Rey™"
+"El Señor de los Anillos(tm); El Retorno del Rey(tm)"
 END
 
 CREDITS:BingThanks
@@ -17855,7 +17858,7 @@ APT:LogoffConfirmationTitle
 END
 
 APT:LogoffConfirmationMsg
-"¿Seguro que quieres desconectarte de La Batalla por la Tierra Media™ II Online?"
+"¿Seguro que quieres desconectarte de La Batalla por la Tierra Media(tm) II Online?"
 END
 
 APT:CreateAccount
@@ -23227,7 +23230,7 @@ FESL:FESL-108
 END
 
 FESL:FESL-107
-"No se ha podido autenticar esta cuenta para jugar a La Batalla por la Tierra Media™ II"
+"No se ha podido autenticar esta cuenta para jugar a La Batalla por la Tierra Media(tm) II"
 END
 
 FESL:FESL-106
@@ -23259,7 +23262,7 @@ FESL:FESL-100
 END
 
 APPDATA:PictureFolder
-"Capturas de pantalla de La Batalla por la Tierra Media™ II"
+"Capturas de pantalla de La Batalla por la Tierra Media(tm) II"
 END
 
 APT:SaveFileDiskFull
@@ -40711,7 +40714,7 @@ STAT:RTS_FAVORITE_UNIT
 END
 
 ToolTip:OnlineShell/OnlineLogin/GamespyShortcut
-"Haz clic aquí para visitar el sitio web de Gamespy para La Batalla por la Tierra Media™ II incluyendo los torneos oficiales."
+"Haz clic aquí para visitar el sitio web de Gamespy para La Batalla por la Tierra Media(tm) II incluyendo los torneos oficiales."
 END
 
 ToolTip:OnlineShell/HomeButton
@@ -41911,7 +41914,7 @@ CREDITS:MPEGNotice
 END
 
 CREDITS:DevelopmentTitle2
-"La Batalla por la Tierra Media™ II"
+"La Batalla por la Tierra Media(tm) II"
 END
 
 CREDITS:DevelopmentTitle3
@@ -41987,7 +41990,7 @@ CREDITS:BFME1Thanks
 END
 
 CREDITS:BFME1Thanks2
-"el juego original "El Señor de los Anillos™, La Batalla por la Tierra Media™""
+"el juego original "El Señor de los Anillos(tm), La Batalla por la Tierra Media(tm)""
 END
 
 CREDITS:BFME1Thanks3
@@ -43419,11 +43422,11 @@ CONTROLBAR:Screech
 END
 
 CONTROLBAR:ScreechWitchKing
-"Chillido [&C]"
+"&Chillido"
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Hora del Rey Brujo [&V]"
+"Hora del Rey &Brujo"
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde

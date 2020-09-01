@@ -4155,15 +4155,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09"
+"%d.%02d.%d versione %d %c%c"
 END
 
 Version:Format3
-"1.09"
+"Versione %d.%02d.%d"
 END
 
 Version:Format2
-"1.09"
+"Versione %d.%02d"
 END
 
 Version:BuildTime
@@ -8348,6 +8348,10 @@ END
 
 OBJECT:CampFloor
 "Terreno dell'accampamento"
+END
+
+OBJECT:Fireworks
+"Fuochi artificiali"
 END
 
 OBJECT:Lightning
@@ -13291,7 +13295,7 @@ CONTROLBAR:WarChant
 END
 
 CONTROLBAR:TooltipEnshroudingMist
-"Mimetizza le forze alleate.\nRiduce notevolmente la corazza e il danno di orde, eroi e mostri nemici. \n Le unità nemiche perdono i loro bonus di comando semplici \nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
+"Mimetizza le forze alleate.\nRiduce notevolmente la corazza e il danno del nemico.\nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
 END
 
 CONTROLBAR:Industry
@@ -13331,7 +13335,7 @@ CONTROLBAR:FueltheFires
 END
 
 CONTROLBAR:ToolTipFueltheFires
-"+65% risorse dagli alberi raccolti. \n Le Segherie guadagnano 20% armatura \nPotere passivo. \nFunziona anche per gli alleati. \nLa fortezza deve essere presente"
+"+100% risorse dagli alberi raccolti.\nPotere passivo."
 END
 
 CONTROLBAR:PlusCommandPoints
@@ -13359,7 +13363,7 @@ CONTROLBAR:FreezingRain
 END
 
 CONTROLBAR:ToolTipFreezingRain
-"Fa piovere temporaneamente su tutta la mappa.\nTutte le unità nemiche perdono tutti i bonus di comando semplici ed avanzati.\nClicca con il pulsante sinistro per attivare."
+"Fa piovere temporaneamente su tutta la mappa.\nTutte le unità nemiche perdono tutti i bonus di comando.\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:Plus1Nazgul
@@ -13439,7 +13443,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Restituisce 4000 punti vita ad ogni struttura.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Ripara le strutture.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:Draft
@@ -13491,7 +13495,7 @@ CONTROLBAR:CloudBreak
 END
 
 CONTROLBAR:ToolTipCloudBreak
-"Annulla Pioggia gelida e Tenebre.\nStordisce le unità nemiche per 10 secondi. \n Guarisce e resuscita le unità alleate per 15 secondi\nClicca con il pulsante sinistro per attivare."
+"Annulla Pioggia gelida e Tenebre.\nStordisce le unità nemiche.\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:ElvenWood
@@ -13499,7 +13503,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Crea bosco\nTutte le unità alleate guadagnano +50% corazza.\nNon ha effetto sugli Eroi.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Crea bosco\nTutte le unità del Bene guadagnano +50% corazza.\nTutte le unità del Male perdono tutti i bonus comando.\nNon ha effetto sugli Eroi.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:SummonEntAllies
@@ -13563,7 +13567,7 @@ CONTROLBAR:SummonTomBombadil
 END
 
 CONTROLBAR:TooltipSummonTomBombadil
-"Evoca Tom Bombadil... Guarda che eccellenti mustacchi! maaama miaa!!\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Evoca Tom Bombadil.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:SummonHobbitAllies
@@ -13583,7 +13587,7 @@ CONTROLBAR:LoneTower
 END
 
 CONTROLBAR:TooltipLoneTower
-"Evoca una torre difensiva. \nFornisce comando, cura e rigenera le unità alleate. \n\nPuò essere aggiornata con lo Scalpellino dei nani. \n\nClicca con il pulsante sinistro sull'icona, quindi sulla zona percorribile."
+"Evoca una torre difensiva.\nClicca con il pulsante sinistro sull'icona, quindi sulla zona percorribile."
 END
 
 CONTROLBAR:ArrowVolley
@@ -13607,7 +13611,7 @@ CONTROLBAR:Undermine
 END
 
 CONTROLBAR:TooltipUndermine
-"Posiziona un pozzo minerario sulla mappa.\nIl pozzo minerario si collega all'istante alla rete di gallerie.\nCausa un forte danno nell'area di effetto ed un lieve danno nell'area limitrofa. \nClicca con il pulsante sinistro sull'icona,\nquindi su una posizione visibile."
+"Posiziona un pozzo minerario sulla mappa.\nIl pozzo minerario si collega all'istante alla rete di gallerie.\nClicca con il pulsante sinistro sull'icona,\nquindi su una posizione visibile."
 END
 
 OBJECT:UndermineMineShaft
@@ -13715,7 +13719,7 @@ CONTROLBAR:ToolTipBuildGondorFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
-"Efficace contro cavalleria e\nstrutture di produzione risorse."
+"Efficace contro cavalleria."
 END
 
 CONTROLBAR:ToolTipBuildGondorTrebuchet
@@ -13743,7 +13747,7 @@ CONTROLBAR:ConstructGondorPeasant
 END
 
 CONTROLBAR:ToolTipBuildNumenorStoneworkUpgrade
-"Potenzia la corazza di mura e torri. \nPrerequisito per la Possente Catapulta. \n\nAggiorna le Torri Solitarie evocate."
+"Potenzia la corazza di mura e torri."
 END
 
 CONTROLBAR:ToolTipBuildReinforcedGateUpgrade
@@ -13755,7 +13759,7 @@ CONTROLBAR:ToolTipBuildIronOreUpgrade
 END
 
 CONTROLBAR:ToolTipBuildGrandHarvestUpgrade
-"+15% risorse dalle fattorie.\nIl giocatore deve disporre di un mercato per usare questo potenziamento."
+"+10% risorse dalle fattorie.\nIl giocatore deve disporre di un mercato per usare questo potenziamento."
 END
 
 CONTROLBAR:ToolTipBuildSiegeMaterialsUpgrade
@@ -14063,7 +14067,7 @@ CONTROLBAR:ConstructGoblinArcherHorde
 END
 
 CONTROLBAR:ToolTipBuildGoblinFighterHorde
-"Efficace contro picchieri.\nBonus Orda: \nGoblin riuniti nel numero di almeno 100.\n Guadagnano +33% danno e +25% velocità."
+"Efficace contro picchieri."
 END
 
 CONTROLBAR:ConstructGoblinCave
@@ -14183,9 +14187,9 @@ CONTROLBAR:ConstructWildSpiderPitLevel3Upgrade
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderPitLevel3Upgrade
-"Livello 3: +25% velocità di costruzione."
+"Livello 3: +25% velocità di costruzione.\nConsente la ricerca di Sacche di veleno."
 END
-// "\n Consente la ricerca delle Sacche Di Veleno"
+
 CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
 "Potenzia la tesoreria al livello 2 (&U)"
 END
@@ -14193,7 +14197,6 @@ END
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade
 "Livello 2: consente la ricerca del potenziamento Lame temprate."
 END
-// \n La struttura guadagna armatura: \n +10% verso gli eroi \n +20% verso i picchieri \n +25% verso la cavalleria.
 
 CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
 "Potenzia la tesoreria al livello 3 (&U)"
@@ -14202,8 +14205,6 @@ END
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
 "Livello 3: consente la ricerca del potenziamento Frecce infuocate."
 END
-// \n La struttura guadagna armatura: \n +10% verso gli eroi \n +20% verso i picchieri \n +25% verso la cavalleria.
-
 
 CONTROLBAR:ConstructWildSpiderlingHorde
 "Ragni (&L)"
@@ -14286,7 +14287,7 @@ CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair
 END
 
 CONTROLBAR:ToolTipBuildMordorEasterlingHorde
-"Efficace contro cavalleria e\nstrutture di produzione risorse."
+"Efficace contro cavalleria."
 END
 
 CONTROLBAR:ConstructMordorPorter
@@ -14330,7 +14331,7 @@ CONTROLBAR:ToolTipBuildMordorCatapult
 END
 
 CONTROLBAR:ToolTipBuildMordorGrond
-"Richiede officina dell'assedio di livello 3.\nServe per abbattere i cancelli."
+"Richiede officina dell'assedio di livello 1.\nServe per abbattere i cancelli."
 END
 
 CONTROLBAR:ToolTipBuildMordorBannerOrc
@@ -14482,7 +14483,7 @@ CONTROLBAR:ConstructIsengardFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildIsengardPikemen
-"Efficace contro cavalleria e\nstrutture di produzione risorse."
+"Efficace contro cavalleria."
 END
 
 CONTROLBAR:ToolTipBuildIsengardSiegeLadder
@@ -14862,7 +14863,7 @@ CONTROLBAR:ToolTipHawkStrike
 END
 
 CONTROLBAR:ToolTipTrainArchers
-"Richiede livello 3.\nGli arcieri bersaglio ottengono esperienza.\nClicca con il pulsante sinistro sull'icona,\nquindi sul bersaglio."
+"Richiede livello 4.\nGli arcieri bersaglio ottengono esperienza.\nClicca con il pulsante sinistro sull'icona,\nquindi sul bersaglio."
 END
 
 CONTROLBAR:MonsterSlayer
@@ -14906,7 +14907,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Gli alleati vicini a Tom Bombadil ottengono +25% danno, +25% corazza e\naccumulano esperienza con +50% velocità. \nSempre cumulativa. \n\nAbilità passiva."
+"Gli alleati vicini a Tom Bombadil ottengono +50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -14938,11 +14939,11 @@ CONTROLBAR:ForGondor
 END
 
 CONTROLBAR:ToolTipForGondor
-"Richiede livello 4.\nGli alleati vicini a Boromir ottengono\n+50% danno e\n guadagna esperienza 25% più veloce.\n\nAbilità passiva."
+"Richiede livello 4.\nGli alleati vicini a Boromir ottengono\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:ToolTipWarSpeech
-"Gli alleati vicini a Thèoden ottengono\n+50% danno e\n guadagna esperienza 25% più veloce.\n\nAbilità passiva."
+"Gli alleati vicini a Thèoden ottengono\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:LastStand
@@ -15195,7 +15196,7 @@ END
 
 
 CONTROLBAR:ToolTipWoundingArrow
-"Richiede livello 2\nUn potente attacco singolo a distanza.\nCausa meta-impatto.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Richiede livello 2\nUn potente attacco singolo a distanza.\nMette in fuga il bersaglio.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipCaptainofGondor
@@ -15243,7 +15244,7 @@ CONTROLBAR:ToggleLooseFormation
 END
 
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-30% velocità\n+20% corazza \n 25% resistenza alle frecce"
+"-40% velocità\n+25% corazza"
 END
 
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
@@ -15259,7 +15260,7 @@ CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLooseFormation
 END
 
 CONTROLBAR:ToolTipToggleFighterLooseToBlockFormation
-"-30% velocità\n+20% corazza \n +25% resistenza alle frecce"
+"-40% velocità\n+25% corazza"
 END
 
 CONTROLBAR:ToolTipToggleFighterBlockToLooseFormation
@@ -15287,11 +15288,11 @@ CONTROLBAR:ToolTipSpeechCraft
 END
 
 CONTROLBAR:ToolTipDisguise
-"Richiede livello 4.\nVeste i panni di un normale Rohirrim, vestendone l'armamento e combattendo allo stesso modo.\nClicca con il pulsante sinistro per attivare."
+"Richiede livello 4.\nVeste i panni di un normale Rohirrim.\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:ToolTipShieldMaiden
-"Richiede livello 5.\nÉowyn ottiene corazza +65%. \n Riduce la decelerazione dei Rohirrim alleati \n Cancella il travestimento \nClicca con il pulsante sinistro per attivare."
+"Richiede livello 5.\nÉowyn ottiene corazza +65%.\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:ToggleTrebWeapon
@@ -20711,11 +20712,11 @@ Map:MAPMPAnfalas/Desc
 END
 
 Map:MAPMPAnorien/Desc
-"Il territorio nord-occidentale di Gondor delimita i confini tra Gondor e Rohan."
+"Il territorio nord-occidentale di Gondor delimita i confini tra Gondor e Rohan.\nPosizioni iniziali: castelli\nPunti di espansione: 1\nInsediamenti: 8\nTane: Troll e Warg"
 END
 
 Map:MAPMPBelfalas/Desc
-"Questo territorio di Gondor è composto da una grande penisola che si estende nella Baia di Belfalas."
+"Questo territorio di Gondor è composto da una grande penisola che si estende nella Baia di Belfalas.\nPosizioni iniziali: castelli\nPunti di espansione: 3\nInsediamenti: 13\nTane: Troll e Goblin"
 END
 
 Map:MAPMPBlackGate/Desc
@@ -20727,7 +20728,7 @@ Map:MAPMPCairAndros/Desc
 END
 
 Map:MAPMPCentralIthilien/Desc
-"Territorio nella zona orientale di Gondor, ai margini delle montagne che la dividono da Mordor."
+"Territorio nella zona orientale di Gondor, ai margini delle montagne che la dividono da Mordor.\nPosizioni iniziali: castelli\nPunti di espansione: 4\nInsediamenti: 12\nTane: Troll e Goblin"
 END
 
 Map:MAPMPCrossroads/Desc
@@ -20735,7 +20736,7 @@ Map:MAPMPCrossroads/Desc
 END
 
 Map:MAPMPDagorlad/Desc
-"Oscure lande desolate fuori dal Nero Cancello di Mordor"
+"Oscure lande desolate fuori dal Nero Cancello di Mordor.\nPosizioni iniziali: accampamenti\nPunti di espansione: 8\nInsediamenti: 16\nTane: Goblin"
 END
 
 Map:MAPMPDeadMarshes/Desc
@@ -20743,11 +20744,11 @@ Map:MAPMPDeadMarshes/Desc
 END
 
 Map:MAPMPDruadanForest/Desc
-"Un'antica foresta ai piedi dei Monti Bianchi, situata a nord-ovest di Minas Tirith."
+"Un'antica foresta ai piedi dei Monti Bianchi, situata a nord-ovest di Minas Tirith.\nPosizioni iniziali: castelli\nPunti di espansione: 4\nInsediamenti: 16\nTane: Goblin"
 END
 
 Map:MAPMPDunharrow/Desc
-"Il punto di raduno delle genti di Rohan, situato ai piedi dei Monti Bianchi."
+"Il punto di raduno delle genti di Rohan, situato ai piedi dei Monti Bianchi.\nPosizioni iniziali: castelli\nPunti di espansione: 4\nInsediamenti: 8\nTane: Troll, Goblin e Warg"
 END
 
 Map:MAPMPEastEmnet/Desc
@@ -20759,19 +20760,19 @@ Map:MAPMPEastRohan/Desc
 END
 
 Map:MAPMPEastfold/Desc
-"Territori orientali di Rohan, ai confini con Gondor."
+"Territori orientali di Rohan, ai confini con Gondor.\nPosizioni iniziali: castelli\nPunti di espansione: 3\nInsediamenti: 10\nTane: Troll e Goblin"
 END
 
 Map:MAPMPEavesofFangorn/Desc
-"Le terre dorate che si estendono ai margini della Foresta di Fangorn."
+"Le terre dorate che si estendono ai margini della Foresta di Fangorn.\nPosizioni iniziali: castelli\nPunti di espansione: 3\nInsediamenti: 6\nTane: Troll e Warg"
 END
 
 Map:MAPMPEmynArnen/Desc
-"Una terra verde e lussureggiante nel cuore di Gondor, accanto alle oscure montagne che la separano da Mordor, a est."
+"Una terra verde e lussureggiante nel cuore di Gondor, accanto alle oscure montagne che la separano da Mordor, a est.\nPosizioni iniziali: castelli\nPunti di espansione: 1\nInsediamenti: 8\nTane: Troll e Goblin"
 END
 
 Map:MAPMPEmynMuil/Desc
-"Oscure e rocciose colline, molto intricate, dove Gollum ha condotto Frodo e Sam nel viaggio verso Gondor."
+"Oscure e rocciose colline, molto intricate, dove Gollum ha condotto Frodo e Sam nel viaggio verso Gondor.\nPosizioni iniziali: castelli\nPunti di espansione: 2\nInsediamenti: 8\nTane: Troll"
 END
 
 Map:MAPMPEnedwaith/Desc
@@ -20791,7 +20792,7 @@ Map:MAPMPGapofRohan/Desc
 END
 
 Map:MAPMPHalifirien/Desc
-"Un'alta collina, ricoperta di foreste, situata sul confine che separa Gondor da Rohan."
+"Un'alta collina, ricoperta di foreste, situata sul confine che separa Gondor da Rohan.\nPosizioni iniziali: castelli\nPunti di espansione: 3\nInsediamenti: 8\nTane: Warg"
 END
 
 Map:MAPMPHarlond/Desc
@@ -20807,7 +20808,7 @@ Map:MAPMPLebennin/Desc
 END
 
 Map:MAPMPMirkwood/Desc
-"Una grande foresta, a est delle Montagne Nebbiose."
+"Una grande foresta, a est delle Montagne Nebbiose.\nPosizioni iniziali: castelli\nPunti di espansione: 0\nInsediamenti: 12\nTane: Troll, Warg e Goblin"
 END
 
 Map:MAPMPMtDoom/Desc
@@ -20815,15 +20816,15 @@ Map:MAPMPMtDoom/Desc
 END
 
 Map:MAPMPNearHarad/Desc
-"Una desolata landa desertica situata a sud di Mordor, madrepatria dei guerrieri Haradrim."
+"Una desolata landa desertica situata a sud di Mordor, madrepatria dei guerrieri Haradrim.\nPosizioni iniziali: accampamenti\nPunti di espansione: 3\nInsediamenti: 12\nTane: Goblin\nRestrizioni strutture: nessuna scala d'assedio o torre"
 END
 
 Map:MAPMPMouthsofEntwash/Desc
-"La regione paludosa ove il fiume Entalluvio confluisce nell'Anduin."
+"La regione paludosa ove il fiume Entalluvio confluisce nell'Anduin.\nPosizioni iniziali: accampamenti\nPunti di espansione: 6\nInsediamenti: 11\nTane: Warg"
 END
 
 Map:MAPMPNorthernIthilien/Desc
-"Le terre settentrionali di Gondor, dove Faramir ha incontrato per la prima volta Frodo e Sam, nel loro viaggio in direzione di Mordor."
+"Le terre settentrionali di Gondor, dove Faramir ha incontrato per la prima volta Frodo e Sam, nel loro viaggio in direzione di Mordor.\nPosizioni iniziali: castelli\nPunti di espansione: 3\nInsediamenti: 8\nTane: Troll e Goblin"
 END
 
 Map:MAPMPNurn/Desc
@@ -20831,7 +20832,7 @@ Map:MAPMPNurn/Desc
 END
 
 Map:MAPMPBrownLands/Desc
-"Una desolata zona rocciosa, situata a sud di Bosco Atro."
+"Una desolata zona rocciosa, situata a sud di Bosco Atro.\nPosizioni iniziali: castelli\nPunti di espansione: 6\nInsediamenti: 16\nTane: Goblin"
 END
 
 Map:MAPMPOsgiliath/Desc
@@ -20859,11 +20860,11 @@ Map:MAPMPWestEmnet/Desc
 END
 
 Map:MAPMPWold/Desc
-"Un'antica zona desolata, a nord della vetta di Amon Hen."
+"Un'antica zona desolata, a nord della vetta di Amon Hen.\nPosizioni iniziali: castelli\nPunti di espansione: 6\nInsediamenti: 14\nTane: Goblin e Warg"
 END
 
 Map:MAPMPWestfold/Desc
-"Una zona rocciosa, con radi alberi, situata nella parte occidentale di Rohan. \n\nEdited by Ecthelion"
+"Una zona rocciosa, con radi alberi, situata nella parte occidentale di Rohan.\nPosizioni iniziali: castelli\nPunti di espansione: 4\nInsediamenti: 10\nTane: Troll, Goblin e Warg"
 END
 
 Map:MAPMPSHelmsDeep/Desc
@@ -24035,7 +24036,7 @@ CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower
-"Fornisce il potere Visione del palantìr.\nGarantisce un bonus di velocità alle unità del giocatore nella mappa. \nSempre cumulativo. \nAumenta il campo visivo della fortezza."
+"Fornisce il potere Visione del palantìr.\nAumenta il campo visivo della fortezza."
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressBoilingOil
@@ -24179,7 +24180,7 @@ CONTROLBAR:ConstructDwarvenStatue
 END
 
 CONTROLBAR:TooltipConstructDwarvenStatue
-"Gli alleati vicino alla statua ottengono +50% corazza.\nAumenta di 10 il limite di punti comando."
+"Gli alleati vicino alla statua ottengono\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\nNon cumulabile.\nAumenta di 10 il limite di punti comando."
 END
 
 CONTROLBAR:ConstructDwarvenArcheryRange
@@ -24243,7 +24244,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStonework
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
-"Fornisce corazza e punti ferita aggiuntivi a fortezza e mura.\nPrerequisito per catapulta possente. \n\nAggiorna le Torri Solitarie evocate."
+"Fornisce corazza e punti ferita aggiuntivi a fortezza e mura.\nPrerequisito per catapulta possente."
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions
@@ -24259,7 +24260,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
-"Cura gli alleati vicino alla fortezza. \nRiforma unità nelle orde ogni 6.5 secondi. \nRiduce il tempo di rianimazione degli eroi del 25% \nAggiunge punti ferita alla fortezza. \n\nAggiorna le Torri Solitarie evocate."
+"Cura gli alleati vicino alla fortezza e nelle sale.\nAggiunge punti ferita alla fortezza."
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
@@ -24427,7 +24428,7 @@ CONTROLBAR:ConstructDwarvenPhalanxHorde
 END
 
 CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde
-"Efficace contro cavalleria e\nstrutture di produzione risorse."
+"Efficace contro cavalleria."
 END
 
 CONTROLBAR:ConstructDwarvenAxeThrowerHorde
@@ -24559,7 +24560,7 @@ CONTROLBAR:WildGoblinKingHotkey
 END
 
 CONTROLBAR:WildGoblinKingRecruit
-"Recluta Gorkil - il leader dei Goblin"
+"Recluta il leader dei Goblin"
 END
 
 CONTROLBAR:WildDrogothHotkey
@@ -24579,7 +24580,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressDragonNest
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest
-"Consente di evocare un Drago di fuoco. \nCura Drogoth. \nRiduce il tempo di rianimazione di Drogoth del 10%."
+"Consente di evocare un Drago di fuoco."
 END
 
 CONTROLBAR:PurchaseShipUpgradePirateFlag
@@ -24639,7 +24640,7 @@ OBJECT:WildMineShaft
 END
 
 OBJECT:WildMineShaftDescription
-"Genera risorse in base al terreno disponibile.\nFornisce accesso alla rete delle gallerie.\nAumenta di 50 il limite di punti comando. \nLivello 2: +25% armatura extra. \nLivello 3: +25% armatura extra."
+"Genera risorse in base al terreno disponibile.\nFornisce accesso alla rete delle gallerie.\nAumenta di 50 il limite di punti comando."
 END
 
 OBJECT:WildSpiderPit
@@ -24815,7 +24816,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressMysticFountains
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains
-"Cura le truppe nelle vicinanze. \n Riforma unità nelle orde ogni 6.5 secondi.\nRiduce del 20% il tempo di rianimazione degli Eroi alla fortezza."
+"Cura le truppe nelle vicinanze.\nRiduce del 25% il tempo di rianimazione degli Eroi alla fortezza."
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressEnchantedAnvil
@@ -24823,7 +24824,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressEnchantedAnvil
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEnchantedAnvil
-"Riduce il costo dei potenziamenti delle unità elfiche:\n1 fortezza con incudine = -20%.\n2 fortezze con incudine = -30%.\n3 fortezze con incudine = -40%.\n4 fortezze con incudine = -50%.\n5 fortezze con incudine = -60%."
+"Riduce il costo dei potenziamenti delle unità elfiche:\n1 fortezza con incudine = -10%.\n2 fortezze con incudine = -20%.\n3 fortezze con incudine = -25%.\n4 fortezze con incudine = -30%.\n5 fortezze con incudine = -35%."
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressBlessedMist
@@ -24839,7 +24840,7 @@ CONTROLBAR:PurchaseUpgradeElvenFortressCrystalMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat
-"Riduce la vulnerabilità in mischia della fortezza. \n Gli alleati vicini ottengono +25% danno e +25% accumulo esperienza. \nSempre cumulativa."
+"Riduce la vulnerabilità in mischia della fortezza."
 END
 
 CONTROLBAR:ToolTipElvenEntMoot
@@ -24861,7 +24862,6 @@ END
 CONTROLBAR:ToolTipBuildEregionForgeLevel2
 "Consente la ricerca del potenziamento Lame temprate."
 END
-//
 
 CONTROLBAR:PurchaseUpgradeEregionForgeLevel3
 "Potenzia la fucina dell'Eregion al livello 3 (&U)"
@@ -24870,7 +24870,6 @@ END
 CONTROLBAR:ToolTipBuildEregionForgeLevel3
 "Consente la ricerca di Frecce Puntargento."
 END
-//
 
 CONTROLBAR:ToolTipGreenPasture
 "Addestra la cavalleria elfica."
@@ -24985,7 +24984,7 @@ CONTROLBAR:ConstructElvenMithlondSentryHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
-"Efficace contro cavalleria e\nstrutture di produzione risorse.\nVicino agli alberi acquisisce furtività."
+"Efficace contro cavalleria.\nVicino agli alberi acquisisce furtività."
 END
 
 CONTROLBAR:BuildElvenRivendellLancers
@@ -27221,7 +27220,7 @@ CONTROLBAR:Barricade
 END
 
 CONTROLBAR:TooltipBarricade
-"Evoca una torre difensiva presidiata da degli arcieri. \n E' possibile aggiornare con Frecce Infuocate. \nClicca con il pulsante sinistro sull'icona, quindi su una zona percorribile."
+"Evoca una torre difensiva presidiata da degli arcieri.\nClicca con il pulsante sinistro sull'icona, quindi su una zona percorribile."
 END
 
 CONTROLBAR:ArrowVolleyEvil
@@ -27277,7 +27276,7 @@ CONTROLBAR:Sunflare
 END
 
 CONTROLBAR:TooltipSunflare
-"Un potente raggio di luce solare colpisce il campo di battaglia. \nLe unità nemiche perdono il loro comando semplice.\nCancella Oscurità e Pioggia Gelida. \nClicca con il pulsante sinistro sull'icona,\nquindi sulla zona bersaglio."
+"Un potente raggio di luce solare colpisce il campo di battaglia.\nClicca con il pulsante sinistro sull'icona,\nquindi sulla zona bersaglio."
 END
 
 CONTROLBAR:CaveBats
@@ -27285,7 +27284,7 @@ CONTROLBAR:CaveBats
 END
 
 CONTROLBAR:TooltipCaveBats
-"Dirada la nebbia e rileva le unità mimetizzate. \nLe unità nemiche perdono il loro comando semplice.\nRiduce notevolmente la corazza e il danno del nemico.\nClicca con il pulsante sinistro sull'icona, quindi su una zona percorribile."
+"Dirada la nebbia e rileva le unità mimetizzate.\nRiduce notevolmente la corazza e il danno del nemico.\nClicca con il pulsante sinistro sull'icona, quindi su una zona percorribile."
 END
 
 CONTROLBAR:UntamedAllegiance
@@ -27349,7 +27348,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressRazorSpines
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines
-"Danneggia le unità nemiche adiacenti alla fortezza in modo continuo. \nCura le unità nelle vicinanze."
+"Danneggia le unità nemiche adiacenti alla fortezza."
 END
 
 CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows
@@ -27429,7 +27428,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressBurningForges
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressBurningForges
-"Riduce il costo dei potenziamenti delle unità di Isengard:\n1 fortezza con fucine fiammeggianti = -10%.\n2 fortezze con fucine fiammeggianti = -20%.\n3 fortezze con fucine fiammeggianti = -30%.\n4 fortezze con fucine fiammeggianti = -40%.\n5 fortezze con fucine fiammeggianti = -50%."
+"Riduce il costo dei potenziamenti delle unità di Isengard:\n1 fortezza con fucine fiammeggianti = -10%.\n2 fortezze con fucine fiammeggianti = -20%.\n3 fortezze con fucine fiammeggianti = -25%.\n4 fortezze con fucine fiammeggianti = -30%.\n5 fortezze con fucine fiammeggianti = -35%."
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations
@@ -27437,7 +27436,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations
-"Cura le unità nelle vicinanze. \Riforma unità dalle orde ogni 10 secondi. \nRiduce il costo dei potenziamenti di strutture e mura di Isengard:\n1 fortezza con fossati = -7.5%.\n2 fortezze con fossati = -15%.\n3 fortezze con fossati = -20%.\n4 fortezze con fossati = -25%.\n5 fortezze con fossati = -33%."
+"Riduce il costo dei potenziamenti di strutture e mura di Isengard:\n1 fortezza con fossati = -10%.\n2 fortezze con fossati = -20%.\n3 fortezze con fossati = -25%.\n4 fortezze con fossati = -30%.\n5 fortezze con fossati = -35%."
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressMurderOfCrows
@@ -27573,7 +27572,7 @@ CONTROLBAR:PurchaseUpgradeMordorFortressDoomPyres
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres
-"Fornisce 25% danno e 25% esperienza aggiuntiva alle truppe vicine.\nRiduce del 10% il costo dell'Eroe.\nRiduce del 10% il tempo di reclutamento dell'Eroe.\nRiduce del 20% il costo dei costruttori."
+"Fornisce esperienza aggiuntiva alle truppe vicine.\nRiduce del 10% il costo dell'Eroe.\nRiduce del 10% il tempo di reclutamento dell'Eroe.\nRiduce del 20% il costo dei costruttori."
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressMagmaCauldrons
@@ -27589,7 +27588,7 @@ CONTROLBAR:PurchaseUpgradeMordorFortressLavaMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat
-"Riduce la vulnerabilità in mischia della fortezza. \nCura le unità nelle vicinanze."
+"Riduce la vulnerabilità in mischia della fortezza."
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressGorgorothSpire
@@ -27693,7 +27692,7 @@ CONTROLBAR:Citadel
 END
 
 CONTROLBAR:TooltipCitadel
-"Posiziona una Cittadella su un punto qualsiasi del campo di battaglia.\nConnesso alla rete dei tunnel. \nClicca con il pulsante sinistro sull'icona, quindi su una zona percorribile."
+"Posiziona una Cittadella su un punto qualsiasi del campo di battaglia.\nClicca con il pulsante sinistro sull'icona, quindi su una zona percorribile."
 END
 
 CONTROLBAR:SonicSong
@@ -27713,7 +27712,7 @@ CONTROLBAR:ToolTipAncientMaster
 END
 
 CONTROLBAR:ToolTipMouthOfSauronDoubt
-"Richiede livello 4.\nRiduce notevolmente la corazza e il danno di orde ed heroi nemico.\nLe unità nemiche perdono il loro bonus di comando semplice. \nClicca con il pulsante sinistro sull'icona, quindi sulle unità bersaglio."
+"Richiede livello 4.\nRiduce notevolmente la corazza e il danno del nemico.\nClicca con il pulsante sinistro sull'icona, quindi sulle unità bersaglio."
 END
 
 CONTROLBAR:DreadVisage
@@ -27721,7 +27720,7 @@ CONTROLBAR:DreadVisage
 END
 
 CONTROLBAR:ToolTipDreadVisage
-"Riduce notevolmente la corazza e il danno del nemico.\nLe unità nemiche perdono il loro bonus di comando semplice. \nAbilità passiva."
+"Riduce notevolmente la corazza e il danno del nemico.\nAbilità passiva."
 END
 
 CONTROLBAR:ToolTipBlackRiderMorgulBlade
@@ -27729,7 +27728,7 @@ CONTROLBAR:ToolTipBlackRiderMorgulBlade
 END
 
 CONTROLBAR:ToolTipBackstab
-"Richiede livello 6.\nDanno da mischia elevato in grado anche di avvelenare il bersaglio.\nPuò essere usato contro unità volanti. n\Clicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Richiede livello 6.\nDanno da mischia elevato in grado anche di avvelenare il bersaglio.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipCorrodeAllegiance
@@ -27737,7 +27736,7 @@ CONTROLBAR:ToolTipCorrodeAllegiance
 END
 
 CONTROLBAR:ToolTipTameTheBeast
-"Richiede livello 9.\nGli Warg e i cavalieri Warg bersaglio passano sotto il controllo di Sharku.\nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
+"Richiede livello 2.\nGli Warg e i cavalieri Warg bersaglio passano sotto il controllo di Sharku.\nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
 END
 
 CONTROLBAR:BloodHunt
@@ -27745,7 +27744,7 @@ CONTROLBAR:BloodHunt
 END
 
 CONTROLBAR:ToolTipGlorfindelWindRider
-"Richiede livello 6.\nGlorfindel ottiene +40% velocità e corazza doppia quando è a cavallo.\nClicca con il pulsante sinistro per attivare."
+"Richiede livello 6.\nGlorfindel ottiene +60% velocità e corazza doppia quando è a cavallo.\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:WildWalk
@@ -27757,7 +27756,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Richiesto livello 7.\nFornisce a tutte le unità nelle vicinanze resistenza alla paura.\nNon può essere cancellato ed è sempre cumulativo. \nAbilità passiva."
+"Richiesto livello 7.\nFornisce a tutte le unità nelle vicinanze resistenza alla paura.\nAbilità passiva."
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
@@ -27777,7 +27776,7 @@ CONTROLBAR:ToolTipGloinSmash
 END
 
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger
-"Richiede livello 6.\nSi può usare solo in sella.\nIl nemico bersaglio rimane stordito per 6 secondi ed avvelenato nel tempo per 25 secondi.\nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
+"Richiede livello 6.\nSi può usare solo in sella.\nIl nemico bersaglio rimane stordito e avvelenato nel tempo.\nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
 END
 
 CONTROLBAR:TooltipGoblinKingSpawnFireDrakes
@@ -27789,7 +27788,7 @@ CONTROLBAR:TooltipWildShelobInstillTerror
 END
 
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel
-"Richiede livello 7.\nConsente a Shelob di scavare sottoterra e di emergere in un punto qualsiasi della mappa non coperto dalla nebbia.\nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
+"Richiede livello 10.\nConsente a Shelob di scavare sottoterra e di emergere in un punto qualsiasi della mappa non coperto dalla nebbia.\nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
 END
 
 CONTROLBAR:SpecialAbilityFireDrakeInferno
@@ -27833,7 +27832,7 @@ CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight
 END
 
 CONTROLBAR:ToolTipHourOfTheWitchKing
-"Richiede livello 10.\nI contatori delle abilità speciali del nemico vengono ridotte al 60% della carica.\nClicca con il pulsante sinistro sull'icona e poi sull'area bersaglio."
+"Richiede livello 10.\nI contatori delle abilità speciali del nemico vengono azzerati subito dopo l'uso.\nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipThunderBolt
@@ -28143,7 +28142,7 @@ END
 
 
 CONTROLBAR:ShelobWebbing
-"Ragnatela Di &Ungoliant"
+"Ragnatela"
 END
 
 CONTROLBAR:SpecialAbilityBatCloud
@@ -28195,7 +28194,7 @@ CONTROLBAR:ToolTipActivateFireShip
 END
 
 CONTROLBAR:ToolTipBarbedArrows
-"Richiede Livello 3 \nCausa ferite da impatto e danni più gravi. \n Click sinistro sull'icona e click sinistro sul bersaglio."
+"Causa ferite da impatto e danni più gravi."
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeAxeThrowers
@@ -28237,12 +28236,10 @@ END
 CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade
 "Consente la ricerca di Corazza pesante."
 END
-// \n La struttura guadagna armatura: \n +10% verso gli Eroi \n +25% verso i Picchieri \n +33% verso la cavalleria.
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade
 "Consente la ricerca di minerale di ferro. "
 END
-// \n La struttura guadagna armatura: \n +10% verso gli Eroi \n +25% verso i Picchieri \n +33% verso la cavalleria.
 
 CONTROLBAR:ToolTipBuildGoodBombardShip
 "Nave elfica dotata di balista a lunga gittata.\nEfficace contro strutture."
@@ -28263,12 +28260,10 @@ END
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel2
 "Consente la ricerca di Lame temprate e Corazza pesante. "
 END
-// \n La struttura guadagna armatura: \n +10% verso gli Eroi \n +25% verso i Picchieri \n +33% verso la cavalleria.
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel3
 "Consente la ricerca di Frecce infuocate."
 END
-// \n La struttura guadagna armatura: \n +10% verso gli Eroi \n +25% verso i Picchieri \n +33% verso la cavalleria.
 
 CONTROLBAR:ToolTipBuildMordorAttackTroll
 "Richiede gabbia dei Troll di livello 3.\nEfficace contro spadaccini, cavalleria e strutture."
@@ -28351,7 +28346,7 @@ CONTROLBAR:ToolTipSharkuWargMount
 END
 
 CONTROLBAR:ToolTipShelobWebbing
-"Richiede Livello 10. \nBlocca le unità nemiche nella tela del ragno. \nGuarisce Shelob in base al danno inflitto."
+"Blocca le unità nemiche nella tela del ragno."
 END
 
 CONTROLBAR:ToolTipSpecialAbilityBatCloud
@@ -28383,7 +28378,7 @@ CONTROLBAR:ToolTipToggleThranduilWeapons
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardLineToPorcupineFormation
-"Le unità formano un cerchio, con le picche verso l'esterno. \n+60% armatura \nLa cavalleria nemica viene rallentata mentre carica."
+"Le unità formano un cerchio, con le picche verso l'esterno."
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardPorcupineToLineFormation
@@ -28399,7 +28394,7 @@ CONTROLBAR:ToolTipWildMountainGiantStomp
 END
 
 CONTROLBAR:ToolTipWildShelobPoisonedStinger
-"Richiede livello 6.\nAvvelena il nemico, causando danni per 30 secondi \n Paralizza l'eroe bersagliato per 6 secondi."
+"Richiede livello 6.\nAvvelena il nemico, causando danni nel tempo."
 END
 
 CONTROLBAR:ToolTipWitchKingDismount
@@ -28407,7 +28402,7 @@ CONTROLBAR:ToolTipWitchKingDismount
 END
 
 CONTROLBAR:ToolTipWitchKingDreadVisage
-"Richiede livello 2.\nRiduce notevolmente la corazza e il danno del nemico. \nLe unità nemiche perdono il loro bonus di comando semplice.\nAbilità passiva. "
+"Richiede livello 2.\nRiduce notevolmente la corazza e il danno del nemico.\nAbilità passiva."
 END
 
 CONTROLBAR:ToolTipWitchKingMount
@@ -28419,7 +28414,7 @@ CONTROLBAR:ToolTipWordOfPoultry
 END
 
 CONTROLBAR:TooltipIvoryTowerVision
-"Elimina tutta la nebbia per 30 secondi \n e unità del giocatore guadagnano 10% di velocità su tutta la mappa."
+"Elimina tutta la nebbia per 30 secondi."
 END
 
 CONTROLBAR:TooltipRoar
@@ -28427,7 +28422,7 @@ CONTROLBAR:TooltipRoar
 END
 
 CONTROLBAR:TooltipSpecialAbilityDwarvenDemolisherDeploy
-"Raddoppia la corazza, ma immobilizza il demolitore."
+"Potenzia la corazza, ma immobilizza il demolitore."
 END
 
 CONTROLBAR:TooltipSpecialAbilityOilBarrels
@@ -28907,7 +28902,7 @@ OBJECT:DwarvenLoneTower
 END
 
 OBJECT:DwarvenLoneTowerDescription
-"Apre il fuoco contro i nemici vicini. \nRileva la furtività. \n Possono ricevere diversi aggiornamenti della fortezza."
+"Lancia delle asce contro i nemici vicini."
 END
 
 OBJECT:DwarvenMagicDoor
@@ -30039,7 +30034,7 @@ OBJECT:ShireWorkPit
 END
 
 OBJECT:SignalFireDescription
-"Conquista per ridurre i tempi di ricarica del potere. n\ Guarisce le unità volanti e gli eroi nelle vicinanze."
+"Conquista per ridurre i tempi di ricarica del potere."
 END
 
 OBJECT:SkullTotem
@@ -31315,7 +31310,7 @@ CONTROLBAR:Trollfindgoblintothrow
 END
 
 CONTROLBAR:ToolTipTrollfindgoblintothrow
-"Trova un Goblin da raccogliere e scagliare contro il nemico. Causa terrore e meta-impatto."
+"Trova un Goblin da raccogliere e scagliare contro il nemico."
 END
 
 OBJECT:NaturesWrath
@@ -41035,7 +41030,7 @@ OBJECT:ArgonathStatues"
 END
 
 OBJECT:HearthWellDescription
-"Gli alleati vicini guariscono. \nRiforma un unità in ogni orda ogni 10 secondi. \nIndividua le unità mimetizzate."
+"Gli alleati vicini guariscono, se non sono sotto attacco."
 END
 
 CONTROLBAR:FireWeaponMightyCatapult
@@ -42571,7 +42566,7 @@ CONTROLBAR:ToolTipBuildGondorFighterHorde
 END
 
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
-"Efficace contro le strutture di raccolta risorse. \nBonus Orda: \nOrchi raccolti in numero superiore a 70. \nottengono +33% danno +20% velocità -10% resistenza alle frecce."
+"Efficace contro le strutture di raccolta risorse."
 END
 
 CONTROLBAR:ToolTipBuildMordorCorsairHorde
@@ -42587,7 +42582,7 @@ CONTROLBAR:ToolTipBuildIsengardUrukHai
 END
 
 CONTROLBAR:ToolTipBuildIsengardCrossbowmen
-"Efficace contro la fanteria."
+"Efficace contro la fanteria.\nResistente alle frecce."
 END
 
 CONTROLBAR:ToolTipBuildIsengardWildmanHorde
@@ -42615,7 +42610,7 @@ CONTROLBAR:ToolTipBuildElvenLorienArcherHordeWithNoPrerequisites
 END
 
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde
-"Efficace contro la fanteria. \nBonus Orda: \nOrchi raccolti in mumero di almeno 70 \nguadagnano +33% danno +20%velocità -10%resistenza alle frecce."
+"Efficace contro la fanteria."
 END
 
 CONTROLBAR:ToolTipBuildMordorHaradrimHorde
@@ -42767,7 +42762,7 @@ CONTROLBAR:ToolTipHeal
 END
 
 CONTROLBAR:TooltipRallyingCall
-"Gli alleati bersaglio ottengono +50% danno e +50% esperienza.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Gli alleati bersaglio ottengono +50% danno.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:TooltipDwarvenRiches
@@ -42775,7 +42770,7 @@ CONTROLBAR:TooltipDwarvenRiches
 END
 
 CONTROLBAR:TooltipPalantirVision
-"Spia le forze nemiche.\n\nFornisce un bonus velocità di 15% temporaneo\nalle unità nella zona bersaglio."
+"Spia le forze nemiche.\n\nFornisce un bonus velocità temporaneo\nalle unità nella zona bersaglio."
 END
 
 CONTROLBAR:TooltipFarSeeing
@@ -42783,7 +42778,7 @@ CONTROLBAR:TooltipFarSeeing
 END
 
 CONTROLBAR:TooltipFarSight
-"Spia le forze nemiche.\n\nBonus temporaneo di 35% a distanza\nalle unità nella zona bersaglio.\n\nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
+"Spia le forze nemiche.\n\nBonus temporaneo a distanza\nalle unità nella zona bersaglio.\n\nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
 END
 
 CONTROLBAR:ToolTipGandalfLeadership
@@ -42791,11 +42786,11 @@ CONTROLBAR:ToolTipGandalfLeadership
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Gli alleati vicino alla fortezza ottengono\n+25% danno e\n+25% accumulo esperienza. \nSempre cumulativo.\nRiduce del 10% il costo dell'Eroe.\nRiduce il tempo di reclutamento dell'Eroe del 10%.\nRiduce il costo dei costruttori del 20%. \n\nAggiorna le Torri Solitarie evocate."
+"Gli alleati vicino alla fortezza ottengono\n+25% corazza e\n+25% accumulo esperienza.\nRiduce del 10% il costo dell'Eroe.\nRiduce il tempo di reclutamento dell'Eroe del 10%.\nRiduce il costo dei costruttori del 20%."
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Cura tutti gli alleati nelle vicinanze. \n Riforma unità nelle orde ogni 6.5 secondi.\nRiduce del 5% il costo di rianimazione dell'Eroe.\nRiduce del 15% il tempo di rianimazione dell'Eroe. \nRiduce il costo di reclutamento dell'eroe del 5%."
+"Cura tutti gli alleati nelle vicinanze.\nRiduce del 20% il costo di rianimazione dell'Eroe.\nRiduce del 20% il tempo di rianimazione dell'Eroe."
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
@@ -42839,7 +42834,7 @@ CONTROLBAR:ToolTipHornofGondor
 END
 
 CONTROLBAR:ToolTipBoromirLeadership
-"Richiede livello 5.\nGli alleati vicino a Boromir ottengono\n+50% danno e guadagnano esperienza 25% più velocemente.\n\nAbilità passiva."
+"Richiede livello 5.\nGli alleati vicino a Boromir ottengono\n+50% danno.\n\nAbilità passiva."
 END
 
 CONTROLBAR:CaptainofGondorBoromir
@@ -42863,7 +42858,7 @@ CONTROLBAR:ToolTipTheodenLeadership
 END
 
 CONTROLBAR:ToolTipGloriousCharge
-"Richiede livello 7.\nThèoden e la cavalleria nelle vicinanze guadagnano +80% corazza, +25% danno e diventano immuni al rallentamento mentre caricano.\nThèoden deve essere a cavallo per usare l'abilità.\nClicca con il pulsante sinistro per attivare."
+"Richiede livello 5.\nThèoden e la cavalleria nelle vicinanze subiscono solo il 10% del danno normale.\nThèoden deve essere a cavallo per usare l'abilità.\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:Smite
@@ -42883,7 +42878,7 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Potente attacco a distanza contro un singolo bersaglio.\n Bonus contro gli eroi del male. \nMolto efficace contro i mostri volanti.\n\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Potente attacco a distanza contro un singolo bersaglio.\nMolto efficace contro i mostri volanti.\n\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:ToggleFaramirWeapons
@@ -42915,7 +42910,7 @@ CONTROLBAR:ToolTipEomerLeadership
 END
 
 CONTROLBAR:ToolTipThrowSpear
-"Un potente attacco a distanza.\nBonus contro gli Olifanti. \nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Un potente attacco a distanza.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:Athelas
@@ -42975,15 +42970,15 @@ CONTROLBAR:ToolTipMenLongShotAbility
 END
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"Ricerca il potenziamento Portastendardo nella caserma per rendere disponibile questo equipaggiamento.\n+20% corazza, +25% corazza a danno perforante -30% velocità."
+"Ricerca il potenziamento Portastendardo nella caserma per rendere disponibile questo equipaggiamento.\n+25% corazza, -40% velocità."
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Richiede livello 10.\nCura le unità alleate in zona e fornisce\n+50% danno e +50% corazza.\nComando semplice, non cumulativo con altri comandi sull'armatura.\n\nClicca con il pulsante sinistro per attivare."
+"Richiede livello 10.\nCura le unità alleate in zona e fornisce\n+50% danno e +50% corazza.\n\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
-"Richiede livello 3.\nGlorfindel ottiene +50% danno e invulnerabilità per 10 secondi a terra.\n\nClicca con il pulsante sinistro per attivare."
+"Richiede livello 3.\nGlorfindel ottiene +100% danno e invulnerabilità per 10 secondi a terra.\n\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:ToolTipArrowWind
@@ -42995,7 +42990,7 @@ CONTROLBAR:ToolTipElvenCloakThranduil
 END
 
 CONTROLBAR:ToolTipDeadEye
-"Richiede livello 4.\nAumenta temporaneamente il danno\ne la velocità di fuoco.\nPerde -15% corazza quando attivo. \nClicca con il pulsante sinistro per attivare."
+"Richiede livello 4.\nAumenta temporaneamente il danno\ne la velocità di fuoco.\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:ToolTipThranduilWildWalk
@@ -43007,7 +43002,7 @@ CONTROLBAR:ToolTipMoveUnseen
 END
 
 CONTROLBAR:ToolTipElvenStatue
-"Gli alleati vicini alla statua ottengono\n+25% danno e\n+25% accumulo esperienza.\nSempre cumulativa.\nFornisce 10 punti comando bonus."
+"Gli alleati vicini alla statua ottengono\n+25% danno e\n+25% accumulo esperienza."
 END
 
 CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHorde
@@ -43023,7 +43018,7 @@ CONTROLBAR:ToolTipBuildElvenBarracksLevel3
 END
 
 OBJECT:ElvenHeroicStatueDescription
-"Gli alleati vicino alla statua ottengono\n+25% danno\ne +25% accumulo esperienza.\n\nSempre cumulabile.\n\nAumenta di 10 il limite di punti comando."
+"Gli alleati vicino alla statua ottengono\n+25% danno\ne +25% accumulo esperienza.\n\nAumenta di 10 il limite di punti comando."
 END
 
 CONTROLBAR:TooltipElvenGrace
@@ -43031,7 +43026,7 @@ CONTROLBAR:TooltipElvenGrace
 END
 
 CONTROLBAR:ToolTipPersonalFlood
-"Richiede livello 4.\nEvoca un'alluvione che danneggia i nemici e spegne gli incendi.\n Bonus contro i cavalieri neri. \nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
+"Richiede livello 4.\nEvoca un'alluvione che danneggia i nemici e spegne gli incendi.\nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
 END
 
 CONTROLBAR:ToggleElvenWarriorWeapons
@@ -43043,11 +43038,11 @@ CONTROLBAR:HaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Richiede livello 10.\nCausa meta-impatto.\nAttacco devastante, stordisce inoltre le unità sensibili alla luce.\n Efficace contro gli eroi a cavallo/volanti. \nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
+"Richiede livello 7.\nAttacco devastante, stordisce inoltre le unità sensibili alla luce.\nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
-"Richiede livello 4.\nLe unità vicine ad Haldir ottengono\n+50% danno e guadagnano esperienza 25% più velocemente.\n\nAbilità passiva."
+"Richiede livello 4.\nLe unità vicine ad Haldir ottengono\n+50% danno.\n\nAbilità passiva."
 END
 
 CONTROLBAR:GlorfindelBladeOfPurity
@@ -43079,7 +43074,7 @@ CONTROLBAR:ArrowWind
 END
 
 CONTROLBAR:ToolTipKnifeFighter
-"Richiede livello 4.\nClicca con il pulsante sinistro per attivare.\nAlterna l'attacco in mischia.\n+35% corazza."
+"Richiede livello 6.\nClicca con il pulsante sinistro per attivare.\nAlterna l'attacco in mischia.\n+20% corazza."
 END
 
 CONTROLBAR:ThranduilElvenCloak
@@ -43091,7 +43086,7 @@ CONTROLBAR:ThornofVengeance
 END
 
 CONTROLBAR:ElrondFarsight
-"Visione estesa (&T)"
+"Visione estesa (&R)"
 END
 
 CONTROLBAR:TooltipElrondLeadership
@@ -43107,7 +43102,7 @@ CONTROLBAR:ElrondRestoration
 END
 
 CONTROLBAR:ToolTipElrondRestoration
-"Richiede livello 10.\nCura del 20% gli alleati vicini e ripristina i contatori delle loro abilità speciali.\nClicca con il pulsante sinistro per attivare."
+"Richiede livello 7.\nCura gli alleati vicini e ripristina i contatori delle loro abilità speciali.\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:ElrondWhirlwind
@@ -43115,11 +43110,11 @@ CONTROLBAR:ElrondWhirlwind
 END
 
 CONTROLBAR:TooltipElrondWhirlwind
-"Richiede livello 5.\nEvoca un turbine distruttore sul campo di battaglia.\nClicca con il pulsante sinistro sull'icona e poi sulla zona bersaglio."
+"Richiede livello 10.\nEvoca un turbine distruttore sul campo di battaglia.\nClicca con il pulsante sinistro sull'icona e poi sulla zona bersaglio."
 END
 
 CONTROLBAR:ToolTipTreeBeardLeadership
-"Gli alleati Ent vicino a Barbalbero ottengono\n+25% corazza, +10% velocità,20% portata e 25% esperienza aggiuntiva.\n\nAbillità passiva."
+"Gli alleati Ent vicino a Barbalbero ottengono\n+50% corazza, +15% velocità e\n+20% portata.\n\nAbillità passiva."
 END
 
 CONTROLBAR:ToolTipBuildTreebeard
@@ -43131,7 +43126,7 @@ OBJECT:DwarvenStatueDescription
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Fornisce esperienza addizionale alle truppe. \nRiduce del 10% il costo dell'Eroe.\nRiduce il tempo di reclutamento dell'Eroe del 10%.\nRiduce il costo dei costruttori del 20%. \n\nAggiorna le Torri Solitarie evocate."
+"Gli alleati vicino alla statua ottengono\n+50% corazza.\nRiduce del 10% il costo dell'Eroe.\nRiduce il tempo di reclutamento dell'Eroe del 10%.\nRiduce il costo dei costruttori del 20%."
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
@@ -43139,7 +43134,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+25% velocità di costruzione.\nConsente la ricerca dei potenziamenti Cotta di mithril, Lame temprate e Colpo fiammeggiante.\nAggiunge torre difensiva con lanciatori d'ascia. \nGuadagna armatura: +20% verso gli eroi, picchieri e la cavalleria."
+"+25% velocità di costruzione.\nConsente la ricerca dei potenziamenti Cotta di mithril, Lame temprate e Colpo fiammeggiante.\nAggiunge torre difensiva con lanciatori d'ascia."
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade
@@ -43151,7 +43146,7 @@ CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel3Upgrade
 END
 
 CONTROLBAR:ToolTipBlackArrows
-"Richiede livello 2.\nIncute timore in alcune unità bersaglio.\nBonus contro gli Olifanti. \nInfligge un grande danno agli eroi. \nAggiunge danno triplo.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Richiede livello 2.\nIncute timore nel nemico bersaglio.\nAggiunge danno triplo.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 OBJECT:DwarvenHeroicStatueDescription
@@ -43191,11 +43186,11 @@ CONTROLBAR:SummonRoyalGuard
 END
 
 CONTROLBAR:ToolTipDainLeadership
-"Gli alleati vicini a Re Dàin ottengono\n+25% danno, +25% corazza,\n+50% accumulo esperienza.\nAbilità passiva. \n Sempre cumulativa."
+"Gli alleati vicini a Re Dàin ottengono\n+25% danno, +25% corazza,\n+50% accumulo esperienza.\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:ToolTipMightyRage
-"Richiede livello 4.\nLe unità alleate bersaglio ottengono\n+20% velocità e +25% danno,\nle unità nemiche perdono i vantaggi.\n Il bonus non può essere rimosso ed è sempre cumulativo. \nClicca con il pulsante sinistro sull'icona e poi sulle unità bersaglio."
+"Richiede livello 4.\nLe unità alleate bersaglio ottengono\n+20% velocità e +25% danno,\nle unità nemiche perdono i vantaggi.\nClicca con il pulsante sinistro sull'icona e poi sulle unità bersaglio."
 END
 
 CONTROLBAR:AxeThrow
@@ -43215,11 +43210,11 @@ CONTROLBAR:ToolTipGimliLeadership
 END
 
 CONTROLBAR:ToolTipAxeThrow
-"Potente attacco a distanza con danno da impatto.\nMolto efficace contro la cavalleria e le unità volanti.\nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
+"Potente attacco a distanza con danno da impatto.\nMolto efficace contro la cavalleria.\nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipSlayer
-"Richiede livello 5.\nGimli ottiene danno +50% e velocità doppia ma perde -15% di resistenza al danno strutturale.\nClicca con il pulsante sinistro per attivare"
+"Richiede livello 5.\nGimli ottiene doppio danno e velocità doppia.\nClicca con il pulsante sinistro per attivare"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack
@@ -43231,7 +43226,7 @@ CONTROLBAR:ToolTipBuildDwarvenBattleWagon
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier
-"Gli alleati vicini allo stendardo ottengono\n+25% danno e\n+25% accumulo esperienza.\nRipara lentamente il carro da battaglia, quando non si combatte.\nSempre cumulativo. \nAggiunge diverse falangi al carro da battaglia.\nRileva la furtività."
+"Gli alleati vicini allo stendardo ottengono\n+25% danno e\n+25% accumulo esperienza.\nRipara lentamente il carro da battaglia, quando non si combatte.\nAggiunge diverse falangi al carro da battaglia."
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeHearth
@@ -43259,7 +43254,7 @@ CONTROLBAR:TooltipUpgradeIsengardSiegeWorksLevel3
 END
 
 CONTROLBAR:ToolTipWarChant
-"Le unità alleate bersaglio ottengono +40% danno, +50% esperienza e +10% velocità.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Le unità alleate bersaglio ottengono +50% danno.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipIndustry
@@ -43275,23 +43270,23 @@ CONTROLBAR:ToolTipTaint
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Evoca l'Occhio di Sauron.\nRivela i nemici mimetizzati.\nGli alleati ottengono +25% danno, +25% corazza e accumulano esperienza il 25% più velocemente.\n Comando di tipo semplice, sempre cumulativo. \nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
+"Evoca l'Occhio di Sauron.\nRivela i nemici mimetizzati.\nGli alleati ottengono +25% danno e accumulano esperienza il 25% più velocemente.\nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
 END
 
 CONTROLBAR:ToolTipDarkness
-"Cela temporaneamente l'intera mappa.\nTutte le unità alleate guadagnano +50% danno, +33% corazza, +50% accumulo esperienza.\I mostri guadagnano +25% danno, +33$ armatura e +50% esperienza. \nSempre cumulativo nClicca con il pulsante sinistro per attivare."
+"Cela temporaneamente l'intera mappa.\nTutte le unità alleate guadagnano +25% danno, +25% corazza, +50% accumulo esperienza.\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:ToolTipSummonCrebain
-"Dirada la nebbia vicina e rileva le unità mimetizzate.\nTutte le unità nemiche perdono 25% danno e 25% corazza.\Le unità nemiche perdono i loro bonus di comando semplici. \nClicca con il pulsante sinistro sull'icona, quindi su una zona percorribile."
+"Dirada la nebbia vicina e rileva le unità mimetizzate.\nTutte le unità nemiche perdono 25% danno e 25% corazza.\nClicca con il pulsante sinistro sull'icona, quindi su una zona percorribile."
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
-"Richiede livello 5.\nGli alleati vicini a Lurtz ottengono\n+50% danno e +25% esperienza.\n\nAbilità passiva."
+"Richiede livello 5.\nGli alleati vicini a Lurtz ottengono\n+50% danno.\n\nAbilità passiva."
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
-"Richiede livello 4.\nBlocca un Eroe in un punto.\nSi può usare solo con l'arco equipaggiato.\n Danneggia anche le unità volanti. \nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Richiede livello 4.\nBlocca un Eroe in un punto.\nSi può usare solo con l'arco equipaggiato.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
@@ -43299,11 +43294,11 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
 END
 
 CONTROLBAR:ToolTipGBloodHunt
-"Richiede livello 4.\nLa cavalleria alleata vicina ottiene +25% danno, +25% corazza e +50% accumulo esperienza.\nRidotto il rallentamento da calpestamento della cavalleria alleata.\nSempre cumulativo. \nAbilità passiva."
+"Richiede livello 4.\nLa cavalleria alleata vicina ottiene +25% danno, +25% corazza e +50% accumulo esperienza.\nRidotto il rallentamento da calpestamento della cavalleria alleata.\nAbilità passiva."
 END
 
 CONTROLBAR:ToolTipDominate
-"Richiede livello 7.\nOttiene il controllo temporaneo dei nemici scelti come bersaglio.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Richiede livello 8.\nOttiene il controllo temporaneo dei nemici scelti come bersaglio.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipSharkuManEater
@@ -43351,7 +43346,7 @@ CONTROLBAR:TooltipEscape
 END
 
 CONTROLBAR:ToolTipVenomousWords
-"Riduce notevolmente la velocità del nemico e la sua frequenza di attacco.\nLe unità nemiche perdono i loro bonus da comando semplice. \nE' cumulabile con altri poteri. \nClicca con il pulsante sinistro sull'icona, quindi sulle unità bersaglio."
+"Riduce notevolmente la corazza e il danno del nemico.\nClicca con il pulsante sinistro sull'icona, quindi sulle unità bersaglio."
 END
 
 CONTROLBAR:SpecialAbilitySarumanFireball
@@ -43387,7 +43382,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Gli alleati vicino al Troll con tamburi ottengono +50% corazza e +25% esperienza. \nI Troll Di Caverna, I Troll Di Montagna ed I Troll D'Attacco guadagnano +15% corazza, +15% esperienza e guariscono più velocemente.\n\nAbilità passiva."
+"Gli alleati vicino al Troll con tamburi ottengono +50% corazza.\n\nAbilità passiva."
 END
 
 CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3
@@ -43435,7 +43430,7 @@ CONTROLBAR:HourOfTheWitchKing
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde
-"Efficace contro la fanteria.\nResistente allo schiacciamento.\n Bonus Orda: \nGoblin raccolti in numero superiore a 100\n guadagnano +33% danno e +25% velocità."
+"Efficace contro la fanteria.\nResistente allo schiacciamento."
 END
 
 CONTROLBAR:ToolTipPoisonArrows
@@ -43447,15 +43442,15 @@ CONTROLBAR:ToolTipBuildGoblinCaveTroll
 END
 
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy
-"Richiede livello 4.\nGli alleati vicino al eroe ottengono +25% corazza e +25% accumulo esperienza.\nSempre cumulativa. \nAbilità passiva."
+"Richiede livello 4.\nGli alleati vicino al Re dei Goblin ottengono +25% corazza e\n+25% accumulo esperienza.\nAbilità passiva."
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Richiede livello 2.\nCrea un totem del teschio, che permane fino alla sua distruzione.\nDirada la nebbia nelle vicinanze, rivela le unità mimetizzate, fornisce +50% corazza alle unità alleate vicine e +25% esperienza.\nClicca con il pulsante sinistro sull'icona e quindi sulla zona bersaglio."
+"Richiede livello 2.\nCrea un totem del teschio, che permane fino alla sua distruzione.\nDirada la nebbia nelle vicinanze, rivela le unità mimetizzate, fornisce +50% corazza alle unità alleate vicine.\nClicca con il pulsante sinistro sull'icona e quindi sulla zona bersaglio."
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
-"Richiede fenditura di livello 2.\nEfficace contro cavalleria e\nstrutture di produzione risorse."
+"Richiede fenditura di livello 2.\nEfficace contro la cavalleria."
 END
 
 CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade
@@ -43547,7 +43542,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"+65% danno agli Warg. \nPerdono 15% armatura verso le picche e le strutture.\nIl bonus non può essere rimosso. \nSempre cumulativa. \nClicca con il pulsante sinistro per attivare."
+"+60% danno agli Warg.\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
@@ -43555,7 +43550,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
-"Carica (&R)"
+"Carica (&E)"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
@@ -43563,7 +43558,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Fornisce corazza aggiuntiva alle mura e alla fortezza.\nPrerequisito per Torre D'Avorio. \n\nAggiorna le Torri Solitarie evocate."
+"Fornisce corazza aggiuntiva alle mura e alla fortezza.\nPrerequisito per Munizioni fiammeggianti."
 END
 
 CONTROLBAR:ToolTipOutlawLeadership
@@ -43571,11 +43566,11 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Manto elfico (&C)"
+"Manto &elfico"
 END
 
 CONTROLBAR:ChargeAttack
-"Ca&rica"
+"Carica (&E)"
 END
 
 CONTROLBAR:ConstructRohanPeasant
@@ -43595,103 +43590,11 @@ CONTROLBAR:PersonalFlood
 END
 
 CONTROLBAR:ElvenGrace
-"Athelas (&R)"
+"Athelas (&C)"
 END
 
 
 
 GUI:PleaseSelectBuddy
 "Impossibile inviare il messaggio. Devi selezionare uno o più amici."
-END
-
-// String lines for Patch 1.08
-
-CONTROLBAR:GrabPassengerTB
-"Pickup Merry or Pippin"
-END
-
-CONTROLBAR:SpecialAbility_ShieldBubble
-"Sc&udo Sfera"
-END
-
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"Lo stregone trasferisce tutto il suo potere in uno scudo per difendersi \n Gandalf guadagna 99% Armatura e resiste ai contraccolpi per 5 secondi. \n Click sinistro sull'icona per attivare."
-END
-
-CONTROLBAR:Fire_pit
-"Fuoco da campo (&C)"
-END
-
-CONTROLBAR:TooltipFire_pit
-"Fuoco da campo che guarisce le unità alleate nelle vicinanze. \nRiforma 1 unità per orda ogni 5 secondi. \n Garantisce +5% bonus armatura. \nSempre cumulativo. \nRivela unità mimetizzate."
-END
-
-CONTROLBAR:FireWorks
-"Fuochi D'Artificio / Accendi (&V)"
-END
-
-CONTROLBAR:ToolTipFireWorks
-"Merry può mettere un fuoco d'artificio sul terreno ed accenderlo \n \n Click sinistro per attivare "
-END
-
-CONTROLBAR:FireWorks2
-"Accendi Fuochi D'Artificio(&B)"
-END
-
-CONTROLBAR:ToolTipFireWorks2
-"Fuochi d'artificio danneggiano le unità in una grande area \n \n Click sinistro per attivare "
-END
-
-CONTROLBAR:FireWorksObj
-"Fuochi artificiali"
-END
-
-CONTROLBAR:HobbitFireCracker
-"Petardi (&R)"
-END
-
-CONTROLBAR:ToolTipHobbitFireCracker
-"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio"
-END
-
-CONTROLBAR:ToolTipHobbitFireCrackerMerry
-"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio \nBonus contro gli Olifanti \nEfficace contro le strutture"
-END
-
-CONTROLBAR:ToolTipHobbitFireCrackerSam
-"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio \nEfficace contro Shelob "
-End
-
-// String lines for Patch 1.09
-
-CONTROLBAR:GaladHealBTP
-"&Luce Di Galadriel"
-END
-
-CONTROLBAR:ToolTipGaladHeal
-"Guarisce tutte le unità e gli eroi in una grande area intorno a Galadriel \nClick sinistro per attivare."
-END
-
-CONTROLBAR:LadyOfLight
-"Luce di &Vallar"
-END
-
-CONTROLBAR:TooltipLadyOfLight
-"Fa calare la luyce dei Valar sul nemico."
-END
-
-CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Evoca tre Piogge Infuocate intorno a Sauron in cerchio."
-END
-
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Richiede Fortezza aggiornare \n\n Fornisce +25% danno +25% esperienza \n Sempre cumulativa."
-END
-
-CONTROLBAR:LoneTowerHealingUpgradeIcon
-"Richiede fortezza aggiornare. \n\n Guarisce le unità alleate nelle vicinanze. \n Riforma 1 unità per orda ogni 10 secondi."
-END
-
-CONTROLBAR:LoneTowerArmorUpgradeIcon
-"Richiede Fortezza aggiornare. \n\n Riduce notevolmente il danno subito."
 END

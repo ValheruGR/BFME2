@@ -23,6 +23,9 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipHourOfTheWitchKing09v2
+"Requisito: Nivel 10 \n Los contadores de las capacidades especiales de los heroes apuntados quedan en 80%. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area."
+END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "La producción de recursos de la estructura de recursos seleccionada aumenta en un 350% de manera temporal. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
@@ -72,7 +75,7 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n Gives a temporary +10% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n Left click icon then left click on target area"
+"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
@@ -29343,7 +29346,7 @@ CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight
 END
 
 CONTROLBAR:ToolTipHourOfTheWitchKing
-"Requisito: Nivel 10 \n Los contadores de las capacidades especiales de los heroes apuntados quedan en 60%. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area."
+"Requisito: Nivel 10 \n Los contadores de las capacidades especiales del enemigo apuntado quedan como si se acabaran de usar. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToolTipThunderBolt
@@ -29651,7 +29654,7 @@ CONTROLBAR:SharkuWargMount
 END
 
 CONTROLBAR:ShelobWebbing
-"Telaraña de Ungoliant. (&B)"
+"Telaraña de Ungoliant [&B]"
 END
 
 CONTROLBAR:SpecialAbilityBatCloud
@@ -44439,7 +44442,7 @@ CONTROLBAR:Athelas
 END
 
 CONTROLBAR:BladeMaster
-"Maestro de espadas [&T]"
+"Maes&tro de espadas"
 END
 
 CONTROLBAR:Elendil
@@ -44551,7 +44554,7 @@ CONTROLBAR:ToolTipPersonalFlood
 END
 
 CONTROLBAR:ToggleElvenWarriorWeapons
-"Arma alternativa [&R]"
+"Arma a&lternativa"
 END
 
 CONTROLBAR:HaldirGoldenArrow
@@ -44571,11 +44574,11 @@ CONTROLBAR:GlorfindelBladeOfPurity
 END
 
 CONTROLBAR:GlorfindelWindRider
-"Jinete del viento [&W]"
+"Jinete del viento [&C]"
 END
 
 CONTROLBAR:GlorfindelStarlight
-"Luz estelar [&V]"
+"Luz estelar [&B]"
 END
 
 CONTROLBAR:HawkStrike
@@ -44603,7 +44606,7 @@ CONTROLBAR:ThranduilElvenCloak
 END
 
 CONTROLBAR:ThornofVengeance
-"Espina de venganza [&B]"
+"Espina de &venganza"
 END
 
 CONTROLBAR:ElrondFarsight
@@ -44619,7 +44622,7 @@ CONTROLBAR:ToolTipElrondFarsight
 END
 
 CONTROLBAR:ElrondRestoration
-"Restauración [&V]"
+"Restauración [&B]"
 END
 
 CONTROLBAR:ToolTipElrondRestoration
@@ -44715,11 +44718,11 @@ CONTROLBAR:ToolTipMightyRage
 END
 
 CONTROLBAR:AxeThrow
-"Lanzamiento de hacha [&T]"
+"Lanzamien&to de hacha"
 END
 
 CONTROLBAR:Leap
-"Ataque con salto [&C]"
+"Ataque &con salto"
 END
 
 CONTROLBAR:Slayer
@@ -44839,11 +44842,11 @@ CONTROLBAR:SpecialAbilityLurtzCripple
 END
 
 CONTROLBAR:TameTheBeast
-"Domar a la bes&tia"
+"Domar a la bestia (&C)"
 END
 
 CONTROLBAR:SharkuManEater
-"Devorahombres [&C]"
+"Devorahombres [&T]"
 END
 
 CONTROLBAR:VenomousWords
@@ -44859,7 +44862,7 @@ CONTROLBAR:Backstab
 END
 
 CONTROLBAR:CorrodeAllegiance
-"Debilitar alianza [&V]"
+"De&bilitar alianza"
 END
 
 CONTROLBAR:TooltipEscape
@@ -44879,11 +44882,11 @@ CONTROLBAR:SpeechCraft
 END
 
 CONTROLBAR:Dominate
-"Dominación [&V]"
+"Dominación [&B]"
 END
 
 CONTROLBAR:ThunderBolt
-"Rayo [&B]"
+"Rayo [&V]"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityMouthOfSauronEvilEye
@@ -44939,15 +44942,15 @@ CONTROLBAR:MouthOfSauronDissent
 END
 
 CONTROLBAR:Screech
-"Chillido [&X]"
+"Chillido [&R]"
 END
 
 CONTROLBAR:ScreechWitchKing
-"Chillido [&X]"
+"&Chillido"
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Hora del Rey Brujo [&T]"
+"Hora del Rey &Brujo"
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde
@@ -44987,11 +44990,11 @@ CONTROLBAR:GoblinKingMount
 END
 
 CONTROLBAR:GoblinKingPoisonedStinger
-"Dardo envenenado [&V]"
+"Dardo en&venenado"
 END
 
 CONTROLBAR:GoblinKingSpawnFireDrakes
-"Llamada desde el Abismo [&B]"
+"Llamada desde el A&bismo"
 END
 
 CONTROLBAR:ToolTipGoblinKingMount
@@ -45003,7 +45006,7 @@ CONTROLBAR:WildShelobInstillTerror
 END
 
 CONTROLBAR:WildShelobPoisonedStinger
-"Dardo envenenado [&V]"
+"Dardo envenenado [&T]"
 END
 
 CONTROLBAR:SpecialAbilityWildShelobTunnel
