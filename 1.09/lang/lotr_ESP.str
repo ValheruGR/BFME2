@@ -19,16 +19,18 @@
 CONTROLBAR:nothing09v2
 "nothing"
 END
-CAH:Command_CreateAHero_ShieldCrush_Level1_Name
-"Carga de escudo [&X]"
-END
-
-CAH:Command_CreateAHero_ShieldCrush_Level3_Name
-"Carga de escudo mejorada [&X]"
-END
 //------------------------------------------------------------
 CONTROLBAR:nothingDesc09v2
 "nothing"
+END
+CONTROLBAR:TooltipDwarvenRiches09v2
+"La producción de recursos de la estructura de recursos seleccionada aumenta en un 350% de manera temporal. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+END
+CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
+"Carga de escudo [&X]"
+END
+CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
+"Carga de escudo mejorada [&X]"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Category: 'Damage SPELL'"
@@ -40,7 +42,7 @@ CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique WEAPON'. \n Theoden must be mounted to use ability \n Left click to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique Non-wipeable'. \n Theoden must be mounted to use ability \n Left click to activate"
 END
 TOOLTIP:GoblinHordeBonusDescription09v2
 "Horde Bonus: \n Gathered goblins in numbers of at least 100 \n gain +33% damage and +25% speed. \n Category: 'Unique SPELL' "
@@ -61,7 +63,7 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Category: 'Unique WEAPON' \n Dain becomes able to reveal stealth.\n Passive ability"
+"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Category: 'Unique Non-wipeable' \n Dain becomes able to reveal stealth.\n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
@@ -168,7 +170,7 @@ CONTROLBAR:ToolTipWarChant09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Los aliados apuntados ganan \n +50% al daño y consiguen experiencia un 50% más rápido. \n Category: 'Damage LEADERSHIP' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Los aliados apuntados ganan+50% al daño  \n y consiguen experiencia un 50% más rápido. \n Category: 'Damage LEADERSHIP' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
@@ -211,7 +213,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Los wargos y sus jinetes ganan \n +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n Category: 'Unique WEAPON' \n Wipes LEADERSHIP effects from the wargs. \n Para activarlo, haz clic con el botón izquierdo."
+"Los wargos y sus jinetes ganan \n +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n Category: 'Unique Non-wipeable' \n Wipes LEADERSHIP effects from the wargs. \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
@@ -315,7 +317,7 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Requisito: Nivel 4 \n Se disfraza como un rohirrim normal, usando sus armas y luchando como una de ellos. \n Eowyn ataca mas lento pero hace daño en area. \n Cancela el bonus Doncella Guerrera. \n Haz clic con el botón izquierdo para activarlo."
+"Requisito: Nivel 3 \n Se disfraza como un rohirrim normal, usando sus armas y luchando como una de ellos. \n Eowyn ataca mas lento pero hace daño en area. \n Cancela el bonus Doncella Guerrera. \n Haz clic con el botón izquierdo para activarlo."
 END
 CONTROLBAR:ToolTipSmite09v2
 "Requires Level 2 \n Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
@@ -1214,10 +1216,10 @@ Map:mapmpstaddle/Desc
 "Staddle was a village in Bree Land, located on the southeastern side of Bree-hill. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
-Map:mapmpsouthdowns
+Map:mapSOsouthdowns
 "South Downs"
 END
-Map:mapmpsouthdowns/Desc
+Map:mapSOsouthdowns/Desc
 "Walking along the East-West Road from Bree to the Weather Hills, one could see the Downs to the south. The Greenway, running through the Andrath, separated the South Downs from the Barrow-downs. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
@@ -44301,7 +44303,7 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"La producción de recursos de la estructura de recursos seleccionada aumenta en un 300% de manera temporal. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"La producción de recursos de la estructura de recursos seleccionada aumenta en un 350% de manera temporal. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:TooltipPalantirVision

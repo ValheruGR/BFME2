@@ -23,6 +23,15 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:TooltipDwarvenRiches09v2
+"Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"
+END
+CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
+"Shield Crush"
+END
+CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
+"Improved Shield Crush"
+END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Category: 'Damage SPELL'"
 END
@@ -33,7 +42,7 @@ CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique WEAPON'. \n Theoden must be mounted to use ability \n Left click to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique Non-wipeable'. \n Theoden must be mounted to use ability \n Left click to activate"
 END
 TOOLTIP:GoblinHordeBonusDescription09v2
 "Horde Bonus: \n Gathered goblins in numbers of at least 100 \n gain +33% damage and +25% speed. \n Category: 'Unique SPELL' "
@@ -54,7 +63,7 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Category: 'Unique WEAPON' \n Dain becomes able to reveal stealth.\n Passive ability"
+"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Category: 'Unique Non-wipeable' \n Dain becomes able to reveal stealth.\n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
@@ -202,7 +211,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Ulver får +55 % skade \n lose -15% armor against pike and structural damage \n Category: 'Unique WEAPON' \n Wipes previous any LEADERSHIP bonus. \nVenstreklikk for å aktivere"
+"Ulver får +55 % skade \n lose -15% armor against pike and structural damage \n Category: 'Unique Non-wipeable' \n Wipes previous any LEADERSHIP bonus. \nVenstreklikk for å aktivere"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
@@ -283,7 +292,7 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Requires Level 2 \n Gi Mûmakil ordre om å trampe ned fienden\nVenstreklikk på ikonet, og venstreklikk på målet"
+"Requires Level 3 \n Gi Mûmakil ordre om å trampe ned fienden\nVenstreklikk på ikonet, og venstreklikk på målet"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
@@ -1210,10 +1219,10 @@ Map:mapmpstaddle/Desc
 "Staddle was a village in Bree Land, located on the southeastern side of Bree-hill. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
-Map:mapmpsouthdowns
+Map:mapSOsouthdowns
 "South Downs"
 END
-Map:mapmpsouthdowns/Desc
+Map:mapSOsouthdowns/Desc
 "Walking along the East-West Road from Bree to the Weather Hills, one could see the Downs to the south. The Greenway, running through the Andrath, separated the South Downs from the Barrow-downs. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
