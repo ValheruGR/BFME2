@@ -23,6 +23,9 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipHourOfTheWitchKing09v2
+"Richiede livello 10.\nI contatori delle abilità speciali del nemico vengono ridotte al 80% della carica.\nClicca con il pulsante sinistro sull'icona e poi sull'area bersaglio."
+END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"
 END
@@ -43,9 +46,6 @@ CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique Non-wipeable'. \n Theoden must be mounted to use ability \n Left click to activate"
-END
-TOOLTIP:GoblinHordeBonusDescription09v2
-"Horde Bonus: \n Gathered goblins in numbers of at least 100 \n gain +33% damage and +25% speed. \n Category: 'Unique SPELL' "
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
 "Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
@@ -75,7 +75,7 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n\n Gives a temporary +10% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
@@ -141,9 +141,6 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
 "Efficace contro le strutture di raccolta risorse. \nBonus Orda: \nOrchi raccolti in numero superiore a 70. \nottengono +33% danno +20% velocità."
-END
-TOOLTIP:MordorHordeBonusDescription09v2
-"Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Cura gli alleati vicino alla fortezza. \nRiforma unità nelle orde ogni 6.5 secondi. \nRiduce il tempo di rianimazione degli eroi del 25% \nAggiunge punti ferita alla fortezza. \n\nAggiorna le Torri Solitarie evocate."
@@ -219,7 +216,7 @@ CONTROLBAR:ToolTipEyeofSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requires Level 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Allied hordes gain +33% armor and +50% damage. \n Category: 'Armor BUFF' \n Left click to activate"
+"Requires Level 8 \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Category: 'Armor BUFF' \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
@@ -348,16 +345,6 @@ END
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 "Strong vs. Pikemen\n and Resource Buildings \n Guardians gain +5% speed at level 3, 5, 7 and 10."
 End
-//------------------------------------------------------------
-TOOLTIP:GondorTowerGuardHordeDescription09v2
-"Tower Guards gain +5% speed at level 3, 5, 7 and 10."
-END
-TOOLTIP:DwarvenGuardianHordeDescription09v2
-"Guardians gain +5% speed at level 3, 5, 7 and 10."
-END
-TOOLTIP:ElvenRivendellLancerHordeDescription09v2
-"Rivendell Lancers gain +7% speed at level 5."
-END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
 "Requires Level 10 \n Causes a large earthquake around Gloin's location \n Can stun the Army of the Dead for 5 seconds, but does not kill them \n Left click icon then left click on target"
@@ -29358,7 +29345,7 @@ CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight
 END
 
 CONTROLBAR:ToolTipHourOfTheWitchKing
-"Richiede livello 10.\nI contatori delle abilità speciali del nemico vengono ridotte al 60% della carica.\nClicca con il pulsante sinistro sull'icona e poi sull'area bersaglio."
+"Richiede livello 10.\nI contatori delle abilità speciali del nemico vengono azzerati subito dopo l'uso.\nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipThunderBolt

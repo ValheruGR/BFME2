@@ -4155,15 +4155,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09"
+"%d.%02d.%d Build %d %c%c"
 END
 
 Version:Format3
-"1.09"
+"Versie %d.%02d.%d"
 END
 
 Version:Format2
-"1.09"
+"Versie %d.%02d"
 END
 
 Version:BuildTime
@@ -13503,7 +13503,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Creëert bosrijk terrein\nAlle bevriende eenheden krijgen +50% pantser\nHeeft geen effect op helden\nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Creëert bosrijk terrein\nAlle bevriende eenheden krijgen +50% pantser\nAlle vijanden verliezen hun leiderschapsbonussen\nHeeft geen effect op helden\nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -13719,7 +13719,7 @@ CONTROLBAR:ToolTipBuildGondorFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
-"Sterk tegen cavalerie en\ngebouwen die eenheden produceren"
+"Sterk tegen cavalerie"
 END
 
 CONTROLBAR:ToolTipBuildGondorTrebuchet
@@ -14287,7 +14287,7 @@ CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair
 END
 
 CONTROLBAR:ToolTipBuildMordorEasterlingHorde
-"Sterk tegen cavalerie en\ngebouwen die eenheden produceren"
+"Sterk tegen cavalerie"
 END
 
 CONTROLBAR:ConstructMordorPorter
@@ -14483,7 +14483,7 @@ CONTROLBAR:ConstructIsengardFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildIsengardPikemen
-"Sterk tegen cavalerie en\ngebouwen die eenheden produceren"
+"Sterk tegen cavalerie"
 END
 
 CONTROLBAR:ToolTipBuildIsengardSiegeLadder
@@ -24427,7 +24427,7 @@ CONTROLBAR:ConstructDwarvenPhalanxHorde
 END
 
 CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde
-"Sterk tegen cavalerie en\ngebouwen die eenheden produceren"
+"Sterk tegen cavalerie"
 END
 
 CONTROLBAR:ConstructDwarvenAxeThrowerHorde
@@ -25304,14 +25304,6 @@ END
 
 CONTROLBAR:LW_ToolTip_Eomer
 "Type eenheid: held"
-END
-
-CONTROLBAR:LadyOfLight
-"Lady Of Light"
-END
-
-CONTROLBAR:TooltipLadyOfLight
-"Call down the light of Valar onto your enemies"
 END
 
 CONTROLBAR:LW_Hero_Eowyn
@@ -40171,7 +40163,7 @@ CONTROLBAR:CAHBladeMaster
 END
 
 CONTROLBAR:CAHElendil
-"Elendil (&x)"
+"&Elendil"
 END
 
 CONTROLBAR:CAHKingsFavor
@@ -43023,7 +43015,7 @@ CONTROLBAR:ToolTipBuildElvenBarracksLevel3
 END
 
 OBJECT:ElvenHeroicStatueDescription
-"Eenheden in de buurt van het\nstandbeeld krijgen +25% schade\nen verdienen ervaring 25% sneller\n\nEffecten stapelen op\n\nVerhoogt de limiet commandopunten met 10"
+"Eenheden in de buurt van het\nstandbeeld krijgen +25% schade\nen verdienen ervaring 25% sneller\n\nVerhoogt de limiet commandopunten met 10"
 END
 
 CONTROLBAR:TooltipElvenGrace
@@ -43091,7 +43083,7 @@ CONTROLBAR:ThornofVengeance
 END
 
 CONTROLBAR:ElrondFarsight
-"Ver zicht (&T)"
+"Ver zicht (&R)"
 END
 
 CONTROLBAR:TooltipElrondLeadership
@@ -43455,7 +43447,7 @@ CONTROLBAR:TooltipGoblinKingSkullTotem
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
-"Nodig: kloof niveau 2\nSterk tegen cavalerie en\ngebouwen die eenheden produceren"
+"Nodig: kloof niveau 2\nSterk tegen cavalerie"
 END
 
 CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade
@@ -43555,7 +43547,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
-"Sto&rmaanval"
+"Stormaanval (&E)"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
@@ -43571,11 +43563,11 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Elfen-mantel (&C)"
+"Elfen-mantel (&E)"
 END
 
 CONTROLBAR:ChargeAttack
-"Sto&rmaanval"
+"Stormaanval (&E)"
 END
 
 CONTROLBAR:ConstructRohanPeasant
@@ -43595,99 +43587,9 @@ CONTROLBAR:PersonalFlood
 END
 
 CONTROLBAR:ElvenGrace
-"Athelas (&R)"
+"Athelas (&C)"
 END
 
 GUI:PleaseSelectBuddy
 "Chatbericht kon niet worden verstuurd. Er moet minimaal één vriend zijn geselecteerd."
-END
-
-// String lines for Patch 1.08
-
-CONTROLBAR:GrabPassengerTB
-"Pickup Merry or Pippin"
-END
-
-CONTROLBAR:SpecialAbility_ShieldBubble
-"Shield B&ubble"
-END
-
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"The Wizard transfers all of his Power into a Shield that will absorvs every kind of damage dealt on him. \n Gandalf also gains inmunity to knock-back. \n Lasts 5 seconds. \n \n Left click icon to activate"
-END
-
-CONTROLBAR:Fire_pit
-"Fire pit (&V)"
-END
-
-CONTROLBAR:TooltipFire_pit
-"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants +5% armor bonus \n Always stacks \n Detect stealth"
-END
-
-CONTROLBAR:FireWorks
-"FireWorks / Ignite [&V]"
-END
-
-CONTROLBAR:ToolTipFireWorks
-"Merry can drop Fireworks \n on the ground and ignite it \n \n Left click to activate  "
-End
-
-CONTROLBAR:FireWorks2
-"Ignite Fireworks [&B]"
-END
-
-CONTROLBAR:ToolTipFireWorks2
-"Fireworks damages units within large radius \n \n Left click to activate "
-End
-
-CONTROLBAR:FireWorksObj
-"FireWorks"
-END
-
-CONTROLBAR:HobbitFireCracker
-"Firecracker [&R]"
-END
-
-CONTROLBAR:ToolTipHobbitFireCracker
-"Hero can throw a small Firecracker \n Left click icon then left click on target"
-End
-CONTROLBAR:ToolTipHobbitFireCrackerMerry
-"Hero can throw a small Firecracker. \n Effective against Mumakils \n Special bonus against structures. \n Left click icon then left click on target"
-End
-CONTROLBAR:ToolTipHobbitFireCrackerSam
-"Hero can throw a small Firecracker. Special bonus against Shelob. \n Left click icon then left click on target"
-End
-
-// String lines for Patch 1.09
-
-CONTROLBAR:GaladHealBTP
-"&Light Of Galadriel"
-END
-
-CONTROLBAR:ToolTipGaladHeal
-"Heals all allied units and heroes in a large circle around Galadriel \n Left click to activate"
-END
-
-CONTROLBAR:LadyOfLight
-"Light Of &Valars"
-END
-
-CONTROLBAR:TooltipLadyOfLight
-"Call down the light of Valar onto your enemies"
-END
-
-CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Summon Three Fi&res of Doom around Sauron in a circle"
-END
-
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and +25% experience \n Always stacks"
-END
-
-CONTROLBAR:LoneTowerHealingUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
-END
-
-CONTROLBAR:LoneTowerArmorUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Significantly reduces the amount of damage taken."
 END

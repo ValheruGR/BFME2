@@ -4155,15 +4155,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09"
+"%d.%02d.%d wariant %d %c%c"
 END
 
 Version:Format3
-"1.09"
+"Wersja %d.%02d.%d"
 END
 
 Version:Format2
-"1.09"
+"Wersja %d.%02d"
 END
 
 Version:BuildTime
@@ -13295,7 +13295,7 @@ CONTROLBAR:WarChant
 END
 
 CONTROLBAR:TooltipEnshroudingMist
-"Sojusznicze jednostki w obrebie mgly zostaja zamaskowane \n Znacznie zmniejsza pancerz oraz  obra¿enia zadawane przez wrogie jednostki, bohaterow i potwory\n Przeciwnik traci bonusy za choragiew  \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
+"Sojusznicze jednostki w obrebie mgly zostaja zamaskowane \n Znacznie zmniejsza pancerz wrogich jednostek i zadawane przez nie obrazenia \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
 END
 
 CONTROLBAR:Industry
@@ -13335,7 +13335,7 @@ CONTROLBAR:FueltheFires
 END
 
 CONTROLBAR:ToolTipFueltheFires
-"+65% do zasobów zbieranych z drzew \n Tartaki zyskuja +20% do pancerza \n Dziala dla sojusznikow \n Moc bierna \n Forteca musi byc obecna"
+"+100% do zasobów zbieranych z drzew \n Moc bierna"
 END
 
 CONTROLBAR:PlusCommandPoints
@@ -13363,7 +13363,7 @@ CONTROLBAR:FreezingRain
 END
 
 CONTROLBAR:ToolTipFreezingRain
-"Tymczasowo przywoluje opady deszczu nad cala mapa \n Przeciwnik traci podstawowe  premie do morale oraz te wyzszego rzedu  \n Kliknij lewym przyciskiem, aby uaktywnic"
+"Tymczasowo przywoluje opady deszczu nad cala mapa \n Przeciwnik traci wszystkie premie do morale \n Kliknij lewym przyciskiem, aby uaktywnic"
 END
 
 CONTROLBAR:Plus1Nazgul
@@ -13443,7 +13443,7 @@ CONTROLBAR:Rebuild
 END
 
 CONTROLBAR:TooltipRebuild
-"Naprawia budynki do 4000 punktow zycia \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym budynku"
+"Naprawia budynki \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym budynku"
 END
 
 CONTROLBAR:Draft
@@ -13503,7 +13503,7 @@ CONTROLBAR:ElvenWood
 END
 
 CONTROLBAR:ToolTipElvenWood
-"Tworzy obszar porosniety roslinnoscia \n Wszystkie sojusznicze jednostki otrzymuja  dwokrotnie zwiekszony pancerz  \n Nie wplywa na bohaterów \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
+"Tworzy obszar porosniety roslinnoscia \n Wszystkie sojusznicze jednostki otrzymuja +50% do pancerza \n Wszystkie wrogie jednostki traca premie do morale \n Nie wplywa na bohaterów \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -13567,7 +13567,7 @@ CONTROLBAR:SummonTomBombadil
 END
 
 CONTROLBAR:TooltipSummonTomBombadil
-"Przywoluje Toma Bombadila, wszechmogacego grubego faceta z kapeluszem, ktory lubi spiewac Mowia ze jest on ludzkim odzwierciedleniem Eru, ktory stworzyl Ëa \n Kliknij lewym przyciskiem na ikonie, a nastepnie na dostepnym miejscu"
+"Przywoluje Toma Bombadila \n Kliknij lewym przyciskiem na ikonie, a nastepnie na dostepnym miejscu"
 END
 
 CONTROLBAR:SummonHobbitAllies
@@ -13587,7 +13587,7 @@ CONTROLBAR:LoneTower
 END
 
 CONTROLBAR:TooltipLoneTower
-"Przywoluje wieze obronna \n Wieza dostarcza dodatkowe morale dla spojuszniczych jednostek ktore moga sie przy niej uleczyc i zostac odnowione \n Moze byc udoskonalona dzieki Kamieniarstow \n Kliknij lewym przyciskiem na ikonie, a nastepnie na dostepnym miejscu"
+"Przywoluje wieze obronna \n Kliknij lewym przyciskiem na ikonie, a nastepnie na dostepnym miejscu"
 END
 
 CONTROLBAR:ArrowVolley
@@ -13611,7 +13611,7 @@ CONTROLBAR:Undermine
 END
 
 CONTROLBAR:TooltipUndermine
-"Umiesc szyb kopalniany w dowolnym miejscu mapy \n Szyb natychmiast zostaje polaczony z siecia tuneli \n Zadaje obrazenia w  miejscu umieszczenia oraz obrazenia\n Kliknij lewym przyciskiem na ikonie, a nastepnie na widocznym miejscu"
+"Umiesc szyb kopalniany w dowolnym miejscu mapy \n Szyb natychmiast zostaje polaczony z siecia tuneli \n Kliknij lewym przyciskiem na ikonie, a nastepnie na widocznym miejscu"
 END
 
 OBJECT:UndermineMineShaft
@@ -13719,7 +13719,7 @@ CONTROLBAR:ToolTipBuildGondorFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
-"Jednostka dobra przeciwko kawalerii oraz budowniczym"
+"Jednostka dobra przeciwko kawalerii"
 END
 
 CONTROLBAR:ToolTipBuildGondorTrebuchet
@@ -13747,7 +13747,7 @@ CONTROLBAR:ConstructGondorPeasant
 END
 
 CONTROLBAR:ToolTipBuildNumenorStoneworkUpgrade
-"Zwiekszony pancerz murów i wiez \n Potrzebuje uprzednio ulepszenia poteznej katapulty \n\n Ulepszenie wzywa samotna wieze"
+"Zwiekszony pancerz murów i wiez"
 END
 
 CONTROLBAR:ToolTipBuildReinforcedGateUpgrade
@@ -13759,7 +13759,7 @@ CONTROLBAR:ToolTipBuildIronOreUpgrade
 END
 
 CONTROLBAR:ToolTipBuildGrandHarvestUpgrade
-"+15% zasobów z gospodarstw\n Gracz musi posiadac targowisko, aby móc korzystac z tego ulepszenia"
+"+10% zasobów z gospodarstw\n Gracz musi posiadac targowisko, aby móc korzystac z tego ulepszenia"
 END
 
 CONTROLBAR:ToolTipBuildSiegeMaterialsUpgrade
@@ -14067,7 +14067,7 @@ CONTROLBAR:ConstructGoblinArcherHorde
 END
 
 CONTROLBAR:ToolTipBuildGoblinFighterHorde
-"Jednostka dobra przeciwko pikinierom \n Bonus Hordy: \n Horda goblinow w minimalnej ilosci 100 \n zyskuja +33% do obrazen oraz +25% do predkosci ataku"
+"Jednostka dobra przeciwko pikinierom"
 END
 
 CONTROLBAR:ConstructGoblinCave
@@ -14187,7 +14187,7 @@ CONTROLBAR:ConstructWildSpiderPitLevel3Upgrade
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderPitLevel3Upgrade
-"Poziom 3: +25% zwiekszona szybkosc budowy"
+"Poziom 3: +25% zwiekszona szybkosc budowy \n Pozwala na opracowanie torebek jadowych"
 END
 
 CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade
@@ -14287,7 +14287,7 @@ CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair
 END
 
 CONTROLBAR:ToolTipBuildMordorEasterlingHorde
-"Jednostka dobra przeciwko kawalerii  i \n budynka produkujacym jednostki"
+"Jednostka dobra przeciwko kawalerii"
 END
 
 CONTROLBAR:ConstructMordorPorter
@@ -14331,7 +14331,7 @@ CONTROLBAR:ToolTipBuildMordorCatapult
 END
 
 CONTROLBAR:ToolTipBuildMordorGrond
-"Wymaga warsztatu oblezniczy 3 poziomu \n Sluzy do wywazania bram"
+"Wymaga warsztatu oblezniczy 1 poziomu \n Sluzy do wywazania bram"
 END
 
 CONTROLBAR:ToolTipBuildMordorBannerOrc
@@ -14483,7 +14483,7 @@ CONTROLBAR:ConstructIsengardFireArrowPorter
 END
 
 CONTROLBAR:ToolTipBuildIsengardPikemen
-"Jednostka dobra przeciwko kawalerii i \n Budynka produkujacym jednoski"
+"Jednostka dobra przeciwko kawalerii"
 END
 
 CONTROLBAR:ToolTipBuildIsengardSiegeLadder
@@ -14739,7 +14739,7 @@ CONTROLBAR:ToolTipSpecialAbilityEntFindRock
 END
 
 CONTROLBAR:tooltipCommand_ToggleEntRockThrow
-"Uaktywnia tryb rzucania kamieniami (&T)"
+"Uaktywnia tryb rzucania kamieniami"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk
@@ -14751,7 +14751,7 @@ CONTROLBAR:ToolTipSpecialAbilityGrabAndEatPassenger
 END
 
 CONTROLBAR:ToolTipSpecialAbilityIgnite
-" Obra¿enia jak i pancerz balroga zostaja podwojone  \n Kliknij lewym przyciskiem, aby uaktywnic"
+"Balrog otrzymuje +200% do zadawanych obrazen oraz +50% do pancerza \n Kliknij lewym przyciskiem, aby uaktywnic"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFlamingSword
@@ -14863,7 +14863,7 @@ CONTROLBAR:ToolTipHawkStrike
 END
 
 CONTROLBAR:ToolTipTrainArchers
-"Wymaga 3 poziomu \n Wskazani lucznicy otrzymuja doswiadczenie \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych lucznikach"
+"Wymaga 4 poziomu \n Wskazani lucznicy otrzymuja doswiadczenie \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych lucznikach"
 END
 
 CONTROLBAR:MonsterSlayer
@@ -14907,7 +14907,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Sojusznicy w poblizu Toma Bombadila otrzymuja \n +25% do zadawanych obrazen, +25% do pancerza \n oraz o 50% szybciej zdobywa doswiadczenie \n Zawsze sie  kumuluje  \n\n Zdolnosc bierna"
+"Sojusznicy w poblizu Toma Bombadila otrzymuja \n +50% do zadawanych obrazen, +50% do pancerza \n oraz dwukrotnie szybciej zdobywaja doswiadczenie \n Zdolnosc bierna \n Nie kumuluje sie"
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -15139,7 +15139,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Flakonik Galadrieli (&T)"
+"Flakonik Galadrieli (&p)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -15195,7 +15195,7 @@ CONTROLBAR:ToolTipLightningSword
 END
 
 CONTROLBAR:ToolTipWoundingArrow
-"Wymaga 2 poziomu \n Pojedynczy, potezny atak dystansowy, który zadaje wysokie obrazenia oraz zmusza potwory do ucieczke \n Wp³ywa na jednostki w pobli¿u \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
+"Wymaga 2 poziomu \n Pojedynczy, potezny atak dystansowy, który powoduje ucieczke celu \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
 END
 
 CONTROLBAR:ToolTipCaptainofGondor
@@ -15243,7 +15243,7 @@ CONTROLBAR:ToggleLooseFormation
 END
 
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-30% do szybkosci\n+20% do pancerza +25% do wrazliwosc na strzaly"
+"-40% do szybkosci\n+25% do pancerza"
 END
 
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
@@ -15287,7 +15287,7 @@ CONTROLBAR:ToolTipSpeechCraft
 END
 
 CONTROLBAR:ToolTipDisguise
-"Wymaga 4 poziomu \n Maskuje jednostke jako zwyklego Rohirrima, noszacego ich uzbrojenie i walczacego jak jeden z nich\n Kliknij lewym przyciskiem, aby uaktywnic"
+"Wymaga 4 poziomu \n Maskuje jednostke jako zwyklego Rohirrima\n Kliknij lewym przyciskiem, aby uaktywnic"
 END
 
 CONTROLBAR:ToolTipShieldMaiden
@@ -15335,7 +15335,7 @@ CONTROLBAR:TooltipSplitHorde
 END
 
 CONTROLBAR:GarrisonExit
-"Ewakuacja (&T)"
+"Ewakuacja"
 END
 
 CONTROLBAR:ToolTipStructureExit
@@ -20711,11 +20711,11 @@ Map:MAPMPAnfalas/Desc
 END
 
 Map:MAPMPAnorien/Desc
-"Pólnocno-zachodni obszar Gondoru, stanowiacy granice pomiedzy Gondorem i Rohanem."
+"Pólnocno-zachodni obszar Gondoru, stanowiacy granice pomiedzy Gondorem i Rohanem.\nPozycje startowe: Zamki\nPunkty ekspansji: 1\nOsady: 8\nLegowiska: Trolle i wargowie"
 END
 
 Map:MAPMPBelfalas/Desc
-"Terytorium Gondoru lezy na wielkim pólwyspie wcinajacym sie w zatoke Belfalas."
+"Terytorium Gondoru lezy na wielkim pólwyspie wcinajacym sie w zatoke Belfalas.\nPozycje startowe: Zamki\nPunkty rozbudowy: 3\nOsady: 13\nLegowiska: Trolle i gobliny"
 END
 
 Map:MAPMPBlackGate/Desc
@@ -20727,7 +20727,7 @@ Map:MAPMPCairAndros/Desc
 END
 
 Map:MAPMPCentralIthilien/Desc
-"Kraina w poludniowym Gondorze, graniczaca z górami odgradzajacymi Gondor od Mordoru."
+"Kraina w poludniowym Gondorze, graniczaca z górami odgradzajacymi Gondor od Mordoru.\nPozycje startowe: Zamki\nPunkty ekspansji: 4\nOsady: 12\nLegowiska: Trolle i gobliny"
 END
 
 Map:MAPMPCrossroads/Desc
@@ -20735,7 +20735,7 @@ Map:MAPMPCrossroads/Desc
 END
 
 Map:MAPMPDagorlad/Desc
-"Ponura, jalowa równina przed Czarnymi Wrotami Mordoru."
+"Ponura, jalowa równina przed Czarnymi Wrotami Mordoru.\nPozycje startowe: Obozy\nPunkty ekspansji: 8\nOsady: 16\nLegowiska: Gobliny"
 END
 
 Map:MAPMPDeadMarshes/Desc
@@ -20743,11 +20743,11 @@ Map:MAPMPDeadMarshes/Desc
 END
 
 Map:MAPMPDruadanForest/Desc
-"Prastary las u stóp Bialych Gór, na pólnocny-zachód od Minas Tirith."
+"Prastary las u stóp Bialych Gór, na pólnocny-zachód od Minas Tirith.\nPozycje startowe: Zamki\nPunkty ekspansji: 4\nOsady: 16\nLegowiska: Gobliny"
 END
 
 Map:MAPMPDunharrow/Desc
-"Miejsce zgromadzen mieszkanców Rohanu, lezace u stóp Bialych Gór."
+"Miejsce zgromadzen mieszkanców Rohanu, lezace u stóp Bialych Gór.\nPozycje startowe: Zamki\nPunkty ekspansji: 4\nOsady: 8\nLegowiska: Trolle, gobliny i wargowie"
 END
 
 Map:MAPMPEastEmnet/Desc
@@ -20759,19 +20759,19 @@ Map:MAPMPEastRohan/Desc
 END
 
 Map:MAPMPEastfold/Desc
-"Obszar wschodniego Rohanu graniczacy z Gondorem."
+"Obszar wschodniego Rohanu graniczacy z Gondorem.\nLiczba graczy: 3\nPozycje startowe: Zamki\nPunkty ekspansji: 3\nOsady: 10\nLegowiska: Trolle i gobliny"
 END
 
 Map:MAPMPEavesofFangorn/Desc
-"Zlote ziemie na skraju Fangornu."
+"Zlote ziemie na skraju Fangornu.\nLiczba graczy: 3\nPozycje startowe: Zamki\nPunkty ekspansji: 3\nOsady: 6\nLegowiska: Trolle i wargowie"
 END
 
 Map:MAPMPEmynArnen/Desc
-"Bujna, zielona kraina w srodkowym Gondorze, graniczaca z górami oddzielajacymi na wschodzie Gondor od Mordoru."
+"Bujna, zielona kraina w srodkowym Gondorze, graniczaca z górami oddzielajacymi na wschodzie Gondor od Mordoru.\nPozycje startowe: Zamki\nPunkty ekspansji: 1\nOsady: 8\nLegowiska: Trolle i gobliny"
 END
 
 Map:MAPMPEmynMuil/Desc
-"Ciemne, kamieniste, przypominajace labirynty wzgórza, przez które Gollum prowadzil Froda i Sama w czasie wyprawy do Mordoru."
+"Ciemne, kamieniste, przypominajace labirynty wzgórza, przez które Gollum prowadzil Froda i Sama w czasie wyprawy do Mordoru.\nPozycje startowe: Zamki\nPunkty ekspansji: 2\nOsady: 8\nLegowiska: Trolle"
 END
 
 Map:MAPMPEnedwaith/Desc
@@ -20791,7 +20791,7 @@ Map:MAPMPGapofRohan/Desc
 END
 
 Map:MAPMPHalifirien/Desc
-"Wysokie, lesiste wzgórze na granicy pomiedzy Gondorem i Rohanem."
+"Wysokie, lesiste wzgórze na granicy pomiedzy Gondorem i Rohanem.\nPozycje startowe: Zamki\nPunkty ekspansji: 3\nOsady: 8\nLegowiska: Wargowie"
 END
 
 Map:MAPMPHarlond/Desc
@@ -20807,7 +20807,7 @@ Map:MAPMPLebennin/Desc
 END
 
 Map:MAPMPMirkwood/Desc
-"Wielki las na wschód od Gór Mglistych."
+"Wielki las na wschód od Gór Mglistych.\nPozycje startowe: Zamki\nPunkty ekspansji: 0\nOsady: 12\nLegowiska: Trolle, gobliny i wargowie"
 END
 
 Map:MAPMPMtDoom/Desc
@@ -20815,15 +20815,15 @@ Map:MAPMPMtDoom/Desc
 END
 
 Map:MAPMPNearHarad/Desc
-"Jalowa, pusta kraina, lezaca na poludnie od Mordoru. Jest ojczyzna wojowników Haradrimów."
+"Jalowa, pusta kraina, lezaca na poludnie od Mordoru. Jest ojczyzna wojowników Haradrimów.\nPozycje startowe: Obozy\nPunkty ekspansji: 3\nOsady: 12\nLegowiska: Gobliny\nOgraniczenia budowy: Brak drabin oblezniczych i wiez"
 END
 
 Map:MAPMPMouthsofEntwash/Desc
-"Podmokly, bagnisty obszar, gdzie Rzeka Entów wpada do Anduiny."
+"Podmokly, bagnisty obszar, gdzie Rzeka Entów wpada do Anduiny.\nPozycje startowe: Zamki\nPunkty ekspansji: 6\nOsady: 11\nLegowiska: Wargowie"
 END
 
 Map:MAPMPNorthernIthilien/Desc
-"Pólnocny region Gondoru, gdzie Faramir po raz pierwszy spotkal Froda i Sama idacych do Mordoru."
+"Pólnocny region Gondoru, gdzie Faramir po raz pierwszy spotkal Froda i Sama idacych do Mordoru.\nPozycje startowe: Zamki\nPunkty ekspansji: 3\nOsady: 8\nLegowiska: Trolle i gobliny"
 END
 
 Map:MAPMPNurn/Desc
@@ -20831,7 +20831,7 @@ Map:MAPMPNurn/Desc
 END
 
 Map:MAPMPBrownLands/Desc
-"Skalista, opustoszala kraina, lezaca na poludnie od Mrocznej Puszczy."
+"Skalista, opustoszala kraina, lezaca na poludnie od Mrocznej Puszczy.\nPozycje startowe: Zamki\nPunkty ekspansji: 6\nOsady: 16\nLegowiska: Gobliny"
 END
 
 Map:MAPMPOsgiliath/Desc
@@ -20859,11 +20859,11 @@ Map:MAPMPWestEmnet/Desc
 END
 
 Map:MAPMPWold/Desc
-"Stara, opuszczona kraina lezaca na pólnoc od Amon Hen."
+"Stara, opuszczona kraina lezaca na pólnoc od Amon Hen.\nPozycje startowe: Zamki\nPunkty ekspansji: 6\nOsady: 14\nLegowiska: Gobliny i wargowie"
 END
 
 Map:MAPMPWestfold/Desc
-"Skalista, porosnieta rzadkim lasem kraina we wschodnim Rohanie. \n\nEdited by Ecthelion"
+"Skalista, porosnieta rzadkim lasem kraina we wschodnim Rohanie.\nPozycje startowe: Zamki\nPunkty ekspansji: 4\nOsady: 10\nLegowiska: Trolle, gobliny i wargowie"
 END
 
 Map:MAPMPSHelmsDeep/Desc
@@ -24035,7 +24035,7 @@ CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower
-"Udostepnia moc wizji palantiru \n Daje  jednostka gracza bonus do szybkosci poruszania sie po mapie\n Umiejetnosc laczona \n Zwieksza zasieg widzenia z fortecy"
+"Udostepnia moc wizji palantiru \n Zwieksza zasieg widzenia z fortecy"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressBoilingOil
@@ -24179,7 +24179,7 @@ CONTROLBAR:ConstructDwarvenStatue
 END
 
 CONTROLBAR:TooltipConstructDwarvenStatue
-"Sojusznicy w poblizu posagu otrzymuja \n  +50% do pancerza   \n Zwieksza limit punktów dowodzenia o 10"
+"Sojusznicy w poblizu posagu otrzymuja \n +50% do zadawanych obrazen, +50% do pancerza \n oraz dwukrotnie szybciej zdobywaja doswiadczenie \n Nie kumuluje sie \n Zwieksza limit punktów dowodzenia o 10"
 END
 
 CONTROLBAR:ConstructDwarvenArcheryRange
@@ -24243,7 +24243,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStonework
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
-"Zapewnia dodatkowy pancerz fortecy oraz murom \n Wymagane do stworzenia poteznej katapulty\n\n Ulepszenie wzywa Samotne Wieze"
+"Zapewnia dodatkowy pancerz fortecy oraz murom \n Wymagane do stworzenia poteznej katapulty"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions
@@ -24259,7 +24259,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
-"Leczy sojuszników w poblizu fortecy oraz w salach \n Odradza jednostke z oddzialu co 6.5 sekundy\n Redukuje czas odrodzienia sie bohatera o 25% \n Zapewnia fortecy dodatkowe punkty wytrzymalosci"
+"Leczy sojuszników w poblizu fortecy oraz w salach \n Zapewnia fortecy dodatkowe punkty wytrzymalosci"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
@@ -24427,7 +24427,7 @@ CONTROLBAR:ConstructDwarvenPhalanxHorde
 END
 
 CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde
-"Jednostka dobra przeciwko kawalerii oraz \n Budynka produkujacym jednostki"
+"Jednostka dobra przeciwko kawalerii"
 END
 
 CONTROLBAR:ConstructDwarvenAxeThrowerHorde
@@ -24559,7 +24559,7 @@ CONTROLBAR:WildGoblinKingHotkey
 END
 
 CONTROLBAR:WildGoblinKingRecruit
-"Zwerbuj Gorkila - przywódce goblinów"
+"Zwerbuj przywódce goblinów"
 END
 
 CONTROLBAR:WildDrogothHotkey
@@ -24579,7 +24579,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressDragonNest
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest
-"Pozwala na przywolanie ognistego smoka\n Liczy Drogotha\n Redukuje czas odrodzenia Drogotha o 10%"
+"Pozwala na przywolanie ognistego smoka"
 END
 
 CONTROLBAR:PurchaseShipUpgradePirateFlag
@@ -27219,7 +27219,7 @@ CONTROLBAR:Barricade
 END
 
 CONTROLBAR:TooltipBarricade
-"Przywoluje wieze obronna z lucznikami\nMozliwosc ulepszenia o Ogniste Strzaly z  fortecy\nKliknij lewym przyciskiem na ikonie, a nastepnie na dowolnym dostepnym miejscu"
+"Przywoluje wieze obronna z lucznikami\nKliknij lewym przyciskiem na ikonie, a nastepnie na dowolnym dostepnym miejscu"
 END
 
 CONTROLBAR:ArrowVolleyEvil
@@ -27275,7 +27275,7 @@ CONTROLBAR:Sunflare
 END
 
 CONTROLBAR:TooltipSunflare
-"Przywoluje palace swiatlo sloneczne, które spopiela pole bitwy \n\n Efektywne przeciw slabym bohaterom\n Usuwa Mrok oraz Mrozny Deszcz\n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
+"Przywoluje palace swiatlo sloneczne, które spopiela pole bitwy \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
 END
 
 CONTROLBAR:CaveBats
@@ -27283,7 +27283,7 @@ CONTROLBAR:CaveBats
 END
 
 CONTROLBAR:TooltipCaveBats
-"Rozwiewa mgle i wykrywa zamaskowane jednostki \nJednostki wroga traca bonusy  za chorogiew \n Znacznie zmniejsza pancerz oraz obrazenia zadawane przez pobliskich wrogów \n Kliknij lewym przyciskiem na ikonie, a nastepnie na dowolnym dostepnym miejscu"
+"Rozwiewa mgle i wykrywa zamaskowane jednostki \n Znacznie zmniejsza pancerz oraz obrazenia zadawane przez pobliskich wrogów \n Kliknij lewym przyciskiem na ikonie, a nastepnie na dowolnym dostepnym miejscu"
 END
 
 CONTROLBAR:UntamedAllegiance
@@ -27347,7 +27347,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressRazorSpines
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines
-"Zadaje nieprzerwanie obrazenia jednostkom w sasiedztwie fortecy\n Leczy jednoski obok fortecy"
+"Zadaje obrazenia jednostkom w sasiedztwie fortecy"
 END
 
 CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows
@@ -27427,7 +27427,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressBurningForges
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressBurningForges
-"Zmniejsza koszt ulepszen jednostek Isengardu \n 1 forteca z ognistymi kuzniami = 10% taniej \n 2 fortece z ognistymi kuzniami = 20% taniej \n 3 fortece z ognistymi kuzniami = 30% taniej \n 4 fortece z ognistymi kuzniami = 40% taniej \n 5 fortec z ognistymi kuzniami = 50% taniej"
+"Zmniejsza koszt ulepszen jednostek Isengardu \n 1 forteca z ognistymi kuzniami = 10% taniej \n 2 fortece z ognistymi kuzniami = 20% taniej \n 3 fortece z ognistymi kuzniami = 25% taniej \n 4 fortece z ognistymi kuzniami = 30% taniej \n 5 fortec z ognistymi kuzniami = 35% taniej"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations
@@ -27435,7 +27435,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations
-"Leczy jednostki w poblizu\n Odnawia jednostki w oddziale co 10 sekund\nZmniejsza koszt budynków i murów Isengardu \n 1 forteca z wykopaliskami = 7.5% taniej \n 2 fortece z wykopaliskami = 15% taniej \n 3 fortece z wykopaliskami = 20% taniej \n 4 fortece z wykopaliskami = 25% taniej \n 5 fortec z wykopaliskami = 33% taniej"
+"Zmniejsza koszt budynków i murów Isengardu \n 1 forteca z wykopaliskami = 10% taniej \n 2 fortece z wykopaliskami = 20% taniej \n 3 fortece z wykopaliskami = 25% taniej \n 4 fortece z wykopaliskami = 30% taniej \n 5 fortec z wykopaliskami = 35% taniej"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressMurderOfCrows
@@ -27571,7 +27571,7 @@ CONTROLBAR:PurchaseUpgradeMordorFortressDoomPyres
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres
-"Zapewnia o 25% zadawane obrazenia i  zmniejsza o 25% zdobywane doswiadczenie pobliskim oddzialom \n Zmniejsza koszt bohaterów o 10% \n Zmniejsza czas werbowania bohaterów o 10% \n Zmniejsza koszt budowniczych o 20%"
+"Zapewnia dodatkowe doswiadczenie pobliskim oddzialom \n Zmniejsza koszt bohaterów o 10% \n Zmniejsza czas werbowania bohaterów o 10% \n Zmniejsza koszt budowniczych o 20%"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressMagmaCauldrons
@@ -27587,7 +27587,7 @@ CONTROLBAR:PurchaseUpgradeMordorFortressLavaMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat
-"Zmniejsza podatnosc fortecy na ataki wrecz\n Leczy jednostki w poblizu"
+"Zmniejsza podatnosc fortecy na ataki wrecz"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressGorgorothSpire
@@ -27691,7 +27691,7 @@ CONTROLBAR:Citadel
 END
 
 CONTROLBAR:TooltipCitadel
-"Pozwala umiescic cytadele w dowolnym miejscu pola bitwy\nLaczy z siecia tuneli \n Kliknij lewym przyciskiem na ikonie, a nastepnie na dowolnym dostepnym miejscu"
+"Pozwala umiescic cytadele w dowolnym miejscu pola bitwy \n Kliknij lewym przyciskiem na ikonie, a nastepnie na dowolnym dostepnym miejscu"
 END
 
 CONTROLBAR:SonicSong
@@ -27711,7 +27711,7 @@ CONTROLBAR:ToolTipAncientMaster
 END
 
 CONTROLBAR:ToolTipMouthOfSauronDoubt
-"Wymaga 4 poziomu \n Znacznie zmniejsza pancerz oraz obrazenia zadawane przez wskazanych wrogów i bohaterow\n Wrogie jednostki traca swoje zdolnosci chorogwi \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
+"Wymaga 4 poziomu \n Znacznie zmniejsza pancerz oraz obrazenia zadawane przez wskazanych wrogów \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
 END
 
 CONTROLBAR:DreadVisage
@@ -27719,7 +27719,7 @@ CONTROLBAR:DreadVisage
 END
 
 CONTROLBAR:ToolTipDreadVisage
-"Znacznie zmniejsza pancerz oraz obrazenia zadawane przez pobliskich wrogów \n Jednostki przeciwniki traca swoje proste zdolnosci\n Zdolnosc bierna"
+"Znacznie zmniejsza pancerz oraz obrazenia zadawane przez pobliskich wrogów \n Zdolnosc bierna"
 END
 
 CONTROLBAR:ToolTipBlackRiderMorgulBlade
@@ -27727,7 +27727,7 @@ CONTROLBAR:ToolTipBlackRiderMorgulBlade
 END
 
 CONTROLBAR:ToolTipBackstab
-"Wymaga 6 poziomu\nAtak wrecz zadajacy duze obrazenia, który dodatkowo zatruwa przeciwnika\n Moze byc uzyty przeciw jednostka latajacym\nKliknij lewym przyciskiem na ikonie, a nastepnie na celu"
+"Wymaga 6 poziomu\nAtak wrecz zadajacy duze obrazenia, który dodatkowo zatruwa przeciwnika\nKliknij lewym przyciskiem na ikonie, a nastepnie na celu"
 END
 
 CONTROLBAR:ToolTipCorrodeAllegiance
@@ -27735,7 +27735,7 @@ CONTROLBAR:ToolTipCorrodeAllegiance
 END
 
 CONTROLBAR:ToolTipTameTheBeast
-"Wymaga 9 poziomu \n Wskazana kawaleria przechodzi pod kontrole Sharku \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
+"Wymaga 2 poziomu \n Wskazani wargowie lub jezdzcy wargów przechodza pod kontrole Sharku \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
 END
 
 CONTROLBAR:BloodHunt
@@ -27743,7 +27743,7 @@ CONTROLBAR:BloodHunt
 END
 
 CONTROLBAR:ToolTipGlorfindelWindRider
-"Wymaga 6 poziomu \n Glorfindel otrzymuje +40% do szybkosci oraz podwójnie wzmocniony pancerz, kiedy dosiada wierzchowca \n Kliknij lewym przyciskiem, aby uaktywnic"
+"Wymaga 6 poziomu \n Glorfindel otrzymuje +60% do szybkosci oraz podwójnie wzmocniony pancerz, kiedy dosiada wierzchowca \n Kliknij lewym przyciskiem, aby uaktywnic"
 END
 
 CONTROLBAR:WildWalk
@@ -27755,7 +27755,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Wymaga 7 poziomu \n Zapewnia odpornosc na strach i terror wszystkim pobliskim sojusznikom \n Zdolnosc nie moze byc usunieta i zawsze kumuluje sie z innymi zdolnosciami \n Zdolnosc bierna"
+"Wymaga 7 poziomu \n Zapewnia odpornosc na strach wszystkim pobliskim sojusznikom \n Zdolnosc bierna"
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
@@ -27775,7 +27775,7 @@ CONTROLBAR:ToolTipGloinSmash
 END
 
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger
-"Wymaga 6 poziomu \n Mozna uzyc tylko dosiadajac wierzchowca \n Wskazany przeciwnik otrzymuje obrazenia od trucizny przez 25 sekund. \n Wskazani bohaterowie sa sparalizowani przez 6 sekundy.\n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
+"Wymaga 6 poziomu \n Mozna uzyc tylko dosiadajac wierzchowca \n Wskazany przeciwnik zostaje ogluszony i z uplywem czasu otrzymuje obrazenia od trucizny \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
 END
 
 CONTROLBAR:TooltipGoblinKingSpawnFireDrakes
@@ -27787,7 +27787,7 @@ CONTROLBAR:TooltipWildShelobInstillTerror
 END
 
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel
-"Wymaga 7 poziomu \n Pozwala Szelobie na zakopanie sie w ziemi i wyjscie w dowolnym miejscu mapy \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym miejscu"
+"Wymaga 10 poziomu \n Pozwala Szelobie na zakopanie sie w ziemi i wyjscie w dowolnym miejscu mapy \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym miejscu"
 END
 
 CONTROLBAR:SpecialAbilityFireDrakeInferno
@@ -27831,7 +27831,7 @@ CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight
 END
 
 CONTROLBAR:ToolTipHourOfTheWitchKing
-"Wymaga 10 poziomu \n Liczniki specjalnych zdolnosci u wskazanego bohatera przeciwnika zostaja zresetowany do 60% zuzycia  \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
+"Wymaga 10 poziomu \n Liczniki specjalnych zdolnosci u wskazanego przeciwnika zostaja wyzerowane \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
 END
 
 CONTROLBAR:ToolTipThunderBolt
@@ -28139,7 +28139,7 @@ CONTROLBAR:SharkuWargMount
 END
 
 CONTROLBAR:ShelobWebbing
-"Pajeczyna &Ungolianty"
+"Pajeczyna"
 END
 
 CONTROLBAR:SpecialAbilityBatCloud
@@ -28191,7 +28191,7 @@ CONTROLBAR:ToolTipActivateFireShip
 END
 
 CONTROLBAR:ToolTipBarbedArrows
-" Potrzbuje poziomu 3\n Powoduje potezne uderzenie i zwiekszone obrazenia\n Kliknij lewym przyciskiem na ikonke potem lewym przyciskiem na cel"
+"Powoduje potezne uderzenie i zwiekszone obrazenia"
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeAxeThrowers
@@ -28343,7 +28343,7 @@ CONTROLBAR:ToolTipSharkuWargMount
 END
 
 CONTROLBAR:ToolTipShelobWebbing
-" Potrzeba poziomu 10 \n Okalecza wrogie jednostki w pajeczynach \n Leczenie Sheloby zale¿y od  zadawanych calkowicie obrazen"
+"Okalecza wrogie jednostki w pajeczynach"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityBatCloud
@@ -28375,7 +28375,7 @@ CONTROLBAR:ToolTipToggleThranduilWeapons
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardLineToPorcupineFormation
-"Jednostki tworza krag i wystawiaja piki na zewnatrz\n +60% do pancerza\n Wroga kawaleria zostaje  spowolniona gdy zaatakuje"
+"Jednostki tworza krag i wystawiaja piki na zewnatrz"
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardPorcupineToLineFormation
@@ -28391,7 +28391,7 @@ CONTROLBAR:ToolTipWildMountainGiantStomp
 END
 
 CONTROLBAR:ToolTipWildShelobPoisonedStinger
-"Wymaga 6 poziomu \n Zatruwa wroga zadajac mu obrazenia przez 30 sekund \n Parali¿uje wybranego bohatera na 6 sekundy"
+"Wymaga 6 poziomu \n Zatruwa wroga zadajac mu obrazenia wraz z uplywem czasu"
 END
 
 CONTROLBAR:ToolTipWitchKingDismount
@@ -28399,7 +28399,7 @@ CONTROLBAR:ToolTipWitchKingDismount
 END
 
 CONTROLBAR:ToolTipWitchKingDreadVisage
-"Wymaga 2 poziomu \n Znacznie zmniejsza pancerz i obrazenia zadawane przez pobliskich przeciwników\n Pobliskie jednostki wroga traca swoje bonusy za choragwie \n Zdolnosc bierna"
+"Wymaga 2 poziomu \n Znacznie zmniejsza pancerz i obrazenia zadawane przez pobliskich przeciwników \n Zdolnosc bierna"
 END
 
 CONTROLBAR:ToolTipWitchKingMount
@@ -28411,7 +28411,7 @@ CONTROLBAR:ToolTipWordOfPoultry
 END
 
 CONTROLBAR:TooltipIvoryTowerVision
-"Rozwiewa cala mgle\n Jednostki gracza na mapie otrzymuja +10% szybkosci\n  Utrzymuje sie 30 sek."
+"Rozwiewa cala mgle na 30 sek."
 END
 
 CONTROLBAR:TooltipRoar
@@ -28419,7 +28419,7 @@ CONTROLBAR:TooltipRoar
 END
 
 CONTROLBAR:TooltipSpecialAbilityDwarvenDemolisherDeploy
-"Zwieksza pancerz burzyciela dwokrotnie ale jednoczesnie go unieruchamia"
+"Zwieksza pancerz burzyciela ale jednoczesnie go unieruchamia"
 END
 
 CONTROLBAR:TooltipSpecialAbilityOilBarrels
@@ -28899,7 +28899,7 @@ OBJECT:DwarvenLoneTower
 END
 
 OBJECT:DwarvenLoneTowerDescription
-"Strzela w pobliskich wrogow. \n Odslania schowane jednostki wroga.\n Moze uzyskac rozne udoskonalenia z fortecy."
+"Pozwala miotac toporami w pobliskich wrogów"
 END
 
 OBJECT:DwarvenMagicDoor
@@ -30031,7 +30031,7 @@ OBJECT:ShireWorkPit
 END
 
 OBJECT:SignalFireDescription
-"Zajmij, aby skrócic czas odnawiania dla nieu¿ytych  mocy \n Leczy bohaterow oraz jednostki latajace znajdujace sie przy Palenisku Sygnalizujacym"
+"Zajmij, aby skrócic czas odnawiania mocy"
 END
 
 OBJECT:SkullTotem
@@ -31303,7 +31303,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerForgedBlades
 END
 
 CONTROLBAR:Trollfindgoblintothrow
-"&Podnies goblina i rzuc nim \n Powoduje terror u wrogow i obszarowe obrazenia"
+"&Podnies goblina"
 END
 
 CONTROLBAR:ToolTipTrollfindgoblintothrow
@@ -41027,7 +41027,7 @@ OBJECT:ArgonathStatues"
 END
 
 OBJECT:HearthWellDescription
-"Pobliscy sojusznicy zostana uleczeni\n Odnawia jednostki z oddzia³u co 10 sekund.\n Wykrywa niewidzialne jednostki"
+"Pobliscy sojusznicy zostana uleczeni, jesli nie beda atakowani."
 END
 
 CONTROLBAR:FireWeaponMightyCatapult
@@ -42191,7 +42191,8 @@ SUBTITLE:CS36_01
 END
 
 SUBTITLE:CS36_02
-"Zaplacicie za to! \n\n Wy dranie!"
+"Zaplacicie za to! \n\n
+\nWy dranie!"
 END
 
 SUBTITLE:CS36_03
@@ -42331,7 +42332,9 @@ SUBTITLE:CS56_02
 END
 
 SUBTITLE:CS56_03
-"Sa wszedzie! \nNie mozemy ich powstrzymac!"
+"Sa wszedzie!
+\n\n\n
+\nNie mozemy ich powstrzymac!"
 END
 
 SUBTITLE:CS56_04
@@ -42563,7 +42566,7 @@ CONTROLBAR:ToolTipBuildGondorFighterHorde
 END
 
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
-"Jednostka dobra przeciwko budynkom zbierajacym zasoby\n Bonus Hordy: \n Zebrane jednostki orków w minimalnej liczbe 70\n zyskuja +33% do zadawanych brazen oraz 20% do szybkosci oraz -10% do odpornosci dla obrazen przebijajacych"
+"Jednostka dobra przeciwko budynkom zbierajacym zasoby"
 END
 
 CONTROLBAR:ToolTipBuildMordorCorsairHorde
@@ -42579,7 +42582,7 @@ CONTROLBAR:ToolTipBuildIsengardUrukHai
 END
 
 CONTROLBAR:ToolTipBuildIsengardCrossbowmen
-"Jednostka dobra przeciwko piechocie"
+"Jednostka dobra przeciwko piechocie \n Odporna na strzaly"
 END
 
 CONTROLBAR:ToolTipBuildIsengardWildmanHorde
@@ -42611,7 +42614,7 @@ CONTROLBAR:ToolTipBuildMordorOrcArcherHorde
 END
 
 CONTROLBAR:ToolTipBuildMordorHaradrimHorde
-"Jednostka dobra przeciwko piechocie i potworom\n Bonus Hordy: \n Zebrane orki w minimalnej liczbe 70\n zyskuja +33% do obrazen +20% do szybkosci i -10% do odpornosci na obrazenia przebijajace"
+"Jednostka dobra przeciwko piechocie i potworom"
 END
 
 CONTROLBAR:ToolTipBuildMordorArcher
@@ -42759,7 +42762,7 @@ CONTROLBAR:ToolTipHeal
 END
 
 CONTROLBAR:TooltipRallyingCall
-"Wskazani sojusznicy otrzymuja +50% do zadawanych obrazen i +50% do doswiadczenia \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
+"Wskazani sojusznicy otrzymuja +50% do zadawanych obrazen \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
 END
 
 CONTROLBAR:TooltipDwarvenRiches
@@ -42767,7 +42770,7 @@ CONTROLBAR:TooltipDwarvenRiches
 END
 
 CONTROLBAR:TooltipPalantirVision
-"Szpieguje sily wroga \n \n Zapewnia tymczasowa +15% premie szybkosci  \n jednostek na wskazanym obszarze\n Zawsze sie kumuluje\n\n Kliknij lewym na ikonkê potem lewym przyciskiem myszki na wskazany obszar "
+"Szpieguje sily wroga \n \n Zapewnia tymczasowa premie szybkosci dla \n jednostek na wskazanym obszarze"
 END
 
 CONTROLBAR:TooltipFarSeeing
@@ -42775,7 +42778,7 @@ CONTROLBAR:TooltipFarSeeing
 END
 
 CONTROLBAR:TooltipFarSight
-"Pozwala szpiegowac sily przeciwnika \n \n Zapewnia tymczasowa premie do zasiegu +35% dla \n jednostek na obszarze docelowym \nZawsze sie kumuluje \n\nKliknij lewym przyciskiem na ikonie, a nastepnie na obszarze docelowym"
+"Pozwala szpiegowac sily przeciwnika \n \n Zapewnia tymczasowa premie do zasiegu dla \n jednostek na obszarze docelowym \n Kliknij lewym przyciskiem na ikonie, a nastepnie na obszarze docelowym"
 END
 
 CONTROLBAR:ToolTipGandalfLeadership
@@ -42783,11 +42786,11 @@ CONTROLBAR:ToolTipGandalfLeadership
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Sojusznicy w poblizu fortecy otrzymuja \n +25% do zadawanych obrazen oraz zdobywaja doswiadczenie 25% szybciej \n Zawsze Kumuluje siê\n Zmniejsza koszt bohaterów o 10% \n Zmniejsza czas werbowania bohaterów o 10% \n Zmniejsza koszt budowniczych o 20%\n\n Ulepszone przyzywa Wieze Wolnostojaca"
+"Sojusznicy w poblizu fortecy otrzymuja \n +25% do pancerza oraz zdobywaja doswiadczenie 25% szybciej \n Zmniejsza koszt bohaterów o 10% \n Zmniejsza czas werbowania bohaterów o 10% \n Zmniejsza koszt budowniczych o 20%"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Leczy  pobliskich sojuszników \n Odradza jednostki z batalionu co 6.5 sekundy\nZmniejsza koszt przywrócenia bohatera do zycia o 5%\n Zmniejsza czas przywrócenia bohatera do zycia o 15%\n\n Ulepszenie przywoluje Wolnostojace Wieze"
+"Leczy wszystkich pobliskich sojuszników \n Zmniejsza czas przywrócenia bohatera do zycia o 20%"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining
@@ -42819,7 +42822,7 @@ TOOLTIP:LackGondorIronOreTechnology
 END
 
 OBJECT:HeroicStatueDescription
-"Sojusznicy w poblizu posagu otrzymuja \n +25% do pancerza \n oraz 25% szybciej zdobywaja doswiadczenie \n \n Zawsze sie kumuluje \n \n Zwieksza limit punktów dowodzenia o 10"
+"Sojusznicy w poblizu posagu otrzymuja \n +25% do pancerza \n oraz 50% szybciej zdobywaja doswiadczenie \n \n Zawsze sie kumuluje \n \n Zwieksza limit punktów dowodzenia o 10"
 END
 
 CONTROLBAR:HornofGondor
@@ -42851,11 +42854,11 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Sojusznicy w poblizu Theodena otrzymuja \n +50% do zadawanych obrazen \n+25% do doswiadczenia\n \n Zdolnosc bierna"
+"Sojusznicy w poblizu Theodena otrzymuja \n +50% do zadawanych obrazen \n \n Zdolnosc bierna"
 END
 
 CONTROLBAR:ToolTipGloriousCharge
-"Wymaga 7 poziomu \n Theoden i pobliskie jednostki kawalerii otrzymuja  80% pancerze, +25% do zadawanych obrazen oraz so niewrazliwi na zwalnianie przy ataku \n Aby móc uzywac tej zdolnosci, Theoden musi dosiadac wierzchowca\n Zdolnosc nie moze byc usunieta i zawsze sie kumuluje  \n Kliknij lewym przyciskiem, aby uaktywnic"
+"Wymaga 5 poziomu \n Theoden i pobliskie jednostki kawalerii otrzymuja jedynie 10% obrazen \n Aby móc uzywac tej zdolnosci, Theoden musi dosiadac wierzchowca \n Kliknij lewym przyciskiem, aby uaktywnic"
 END
 
 CONTROLBAR:Smite
@@ -42875,7 +42878,7 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Potezny atak z dystansu \n Bonus przy walce z bohaterami sil zla\n Wyjatkowo skuteczny przeciwko Latajacym Bestia \n \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
+"Potezny atak z dystansu na pojedynczy cel \n Wyjatkowo skuteczny przeciwko latajacym potworom \n \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
 END
 
 CONTROLBAR:ToggleFaramirWeapons
@@ -42903,7 +42906,7 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Wymaga 3 poziomu \n Kawaleria w poblizu Eomera otrzymuje \n podwojny pancerz \n \n Zdolnosc bierna"
+"Wymaga 3 poziomu \n Kawaleria w poblizu Eomera otrzymuje \n +50% do pancerza \n \n Zdolnosc bierna"
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -42927,11 +42930,11 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Wymaga 2 poziomu \n Aragorn otrzymuje +100% do zadawanych obrazen oraz podwaja pancerz \n Kliknij lewym przyciskiem myszy, aby uaktywnic"
+"Wymaga 2 poziomu \n Aragorn otrzymuje +100% do zadawanych obrazen, +50% do pancerza \n Kliknij lewym przyciskiem myszy, aby uaktywnic"
 END
 
 CONTROLBAR:ToolTipAragornLeadership
-"Wymaga 4 poziomu \n Sojusznicy wokól Aragorna otrzymuja \n +25% do zadawanych obrazen, +25% do pancerza \n oraz 50% szybciej zdobywaja doswiadczenie\n zawsze sie kumuluje \n \n Zdolnosc bierna"
+"Wymaga 4 poziomu \n Sojusznicy wokól Aragorna otrzymuja \n +50% do zadawanych obrazen, +50% do pancerza \n oraz dwukrotnie szybciej zdobywaja doswiadczenie \n \n Zdolnosc bierna"
 END
 
 CONTROLBAR:WizardBlast
@@ -42967,15 +42970,15 @@ CONTROLBAR:ToolTipMenLongShotAbility
 END
 
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
-"Opracuj chorazego w koszarach, aby udostepnic to wyposazenie \n \n +20% do pancerza,+25% odpornosci na strzaly, -30% do szybkosci"
+"Opracuj chorazego w koszarach, aby udostepnic to wyposazenie \n \n +25% do pancerza, -40% do szybkosci"
 END
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Wymaga 10 poziomu \n Pobliscy sojusznicy zostaja uleczeni i otrzymuja \n +50% do zadawanych obrazen, ich pancerz zostaje podwojony \nPodstawowy zdolnosci zostaja. \nNie kumuluje sie  z innymi bonusami do pancerza\n Jednoski wrazliwe na swiatlo zostaja sparalizowane. \n Kliknij lewym przyciskiem, aby uaktywnic"
+"Wymaga 10 poziomu \n Pobliscy sojusznicy zostaja uleczeni i otrzymuja \n +50% do zadawanych obrazen, +50% do pancerza \n \n Kliknij lewym przyciskiem, aby uaktywnic"
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
-"Wymaga 3 poziomu \n Glorfindel otrzymuje +50% do zadawanych obrazen oraz nietykalnosc przez 10s\nMoze uzyc jedynie gdy  walczy pieszo \n Kliknij lewym przyciskiem, aby uaktywnic"
+"Wymaga 3 poziomu \n Glorfindel otrzymuje +100% do zadawanych obrazen oraz nietykalnosc przez 10s, jesli walczy pieszo \n Kliknij lewym przyciskiem, aby uaktywnic"
 END
 
 CONTROLBAR:ToolTipArrowWind
@@ -42987,7 +42990,7 @@ CONTROLBAR:ToolTipElvenCloakThranduil
 END
 
 CONTROLBAR:ToolTipDeadEye
-"Wymaga 4 poziomu \n Tymczasowo zwieksza zadawane obrazenia \noraz szybkosc ostrzalu \n Bohater traci 15% pancerzy gdy  zdolnosc jest aktywna\n Kliknij lewym przyciskiem, aby uaktywnic"
+"Wymaga 4 poziomu \n Tymczasowo zwieksza zadawane obrazenia \noraz szybkosc ostrzalu \n Kliknij lewym przyciskiem, aby uaktywnic"
 END
 
 CONTROLBAR:ToolTipThranduilWildWalk
@@ -43015,7 +43018,7 @@ CONTROLBAR:ToolTipBuildElvenBarracksLevel3
 END
 
 OBJECT:ElvenHeroicStatueDescription
-"Sojusznicy w poblizu posagu otrzymuja \n +25% do zadawanych obrazen \n oraz 25% szybciej zdobywaja doswiadczenie \n \n Zawsze sie kumuluje \n \n Zwieksza limit punktów dowodzenia o 10"
+"Sojusznicy w poblizu posagu otrzymuja \n +25% do zadawanych obrazen \n oraz 25% szybciej zdobywaja doswiadczenie \n \n Zwieksza limit punktów dowodzenia o 10"
 END
 
 CONTROLBAR:TooltipElvenGrace
@@ -43023,7 +43026,7 @@ CONTROLBAR:TooltipElvenGrace
 END
 
 CONTROLBAR:ToolTipPersonalFlood
-"Wymaga 4 poziomu \n Przywoluje potop, który niszczy wrogów i gasi ogien.\n Bardzo efektywne przeciw kawaleri.\nBonus przeciwk Czarnym Jezdzca\n \n Kliknij lewym przyciskiem myszy na ikonie, a nastepnie na celu"
+"Wymaga 4 poziomu \n Przywoluje potop, który niszczy wrogów i gasi ogien \n Kliknij lewym przyciskiem myszy na ikonie, a nastepnie na celu"
 END
 
 CONTROLBAR:ToggleElvenWarriorWeapons
@@ -43035,11 +43038,11 @@ CONTROLBAR:HaldirGoldenArrow
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
-"Wymaga 10 poziomu \n Atak zadajacy duze obrazenia, który powoduje obrazenia obszarowe\n Oglusza wrogie jednostki. \n Efektywne przeciwko bohaterom na koniach\n Moze byc uzyte jedynie z lukiem w wyposazeniu \n Kliknij lewym przyciskiem myszy na ikonie, a nastepnie na celu"
+"Wymaga 7 poziomu \n Atak zadajacy duze obrazenia, który dodatkowo oglusza jednostki wrazliwe na swiatlo \n Kliknij lewym przyciskiem myszy na ikonie, a nastepnie na celu"
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
-"Wymaga 4 poziomu \n Sojusznicy w poblizu Haldira otrzymuja \n +50% do zadawanych obrazen i pozyskuja doswiadczenie +25% szybciej  \n Zdolnosc bierna"
+"Wymaga 4 poziomu \n Sojusznicy w poblizu Haldira otrzymuja \n +50% do zadawanych obrazen \n \n Zdolnosc bierna"
 END
 
 CONTROLBAR:GlorfindelBladeOfPurity
@@ -43071,7 +43074,7 @@ CONTROLBAR:ArrowWind
 END
 
 CONTROLBAR:ToolTipKnifeFighter
-"Wymaga 4 poziomu \n kliknij lewym przyciskiem, aby uaktywnic \n Alternatywny atak w zwarciu \n +35% do pancerza"
+"Wymaga 6 poziomu \n kliknij lewym przyciskiem, aby uaktywnic \n Alternatywny atak w zwarciu \n +20% do pancerza"
 END
 
 CONTROLBAR:ThranduilElvenCloak
@@ -43083,7 +43086,7 @@ CONTROLBAR:ThornofVengeance
 END
 
 CONTROLBAR:ElrondFarsight
-"Dalekie widzenie (&T)"
+"Dalekie widzenie (&R)"
 END
 
 CONTROLBAR:TooltipElrondLeadership
@@ -43099,7 +43102,7 @@ CONTROLBAR:ElrondRestoration
 END
 
 CONTROLBAR:ToolTipElrondRestoration
-"Wymaga 10 poziomu \n Leczy 20% punktow zycia pobliskich sojuszników i w pelni odnawia ich zdolnosci specjalne \n Kliknij lewym przyciskiem, aby uaktywnic"
+"Wymaga 7 poziomu \n Leczy pobliskich sojuszników i w pelni odnawia ich zdolnosci specjalne \n Kliknij lewym przyciskiem, aby uaktywnic"
 END
 
 CONTROLBAR:ElrondWhirlwind
@@ -43111,7 +43114,7 @@ CONTROLBAR:TooltipElrondWhirlwind
 END
 
 CONTROLBAR:ToolTipTreeBeardLeadership
-"Pobliskie enty oraz Drzewiec uzyskuja \n +25% do pancerza, +10% do szybkosci \n oraz +20% do zasiegu i +25% szybciej zdobywaja doswiadczenie \n \n Zdolnosc bierna"
+"Pobliskie enty oraz Drzewiec uzyskuja \n +50% do pancerza, +15% do szybkosci \n oraz +20% do zasiegu \n \n Zdolnosc bierna"
 END
 
 CONTROLBAR:ToolTipBuildTreebeard
@@ -43119,17 +43122,19 @@ CONTROLBAR:ToolTipBuildTreebeard
 END
 
 OBJECT:DwarvenStatueDescription
-"Sojusznicy w poblizu posagu otrzymuja \n podwojenie  pancerza \n Zwieksza limit punktów dowodzenia o 10"
+"Sojusznicy w poblizu posagu otrzymuja \n +50% do pancerza \n Zwieksza limit punktów dowodzenia o 10"
 END
 
-
+CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
+"Sojusznicy w poblizu posagu otrzymuja \n +50% do pancerza \n Zmniejsza koszt bohaterów o 10% \n Zmniejsza czas werbowania bohaterów o 10% \n Zmniejsza koszt budowniczych o 20%"
+END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 "+10% zwiekszona szybkosc budowy \n Pozwala na opracowanie mlotów oblezniczych"
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+25% zwiekszona szybkosc budowy \n Pozwala na opracowanie mithrilowych zbroi, hartowanych ostrzy oraz plonacych strzal \n Dodaje obronna wieze topornicza \n Warsztat Kuzniczy zyskuje pancerz: \n +20% przeciwko bohaterom, pikinierom i kawaleri"
+"+25% zwiekszona szybkosc budowy \n Pozwala na opracowanie mithrilowych zbroi, hartowanych ostrzy oraz plonacych strzal \n Dodaje obronna wieze topornicza"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade
@@ -43141,11 +43146,11 @@ CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel3Upgrade
 END
 
 CONTROLBAR:ToolTipBlackArrows
-"Wymaga 2 poziomu \n Wywoluje strach we wskazanych jednostkach \n Bonus przeciwko Mumakila\n Zadaje wysokie obrazenia bohatera \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
+"Wymaga 2 poziomu \n Wywoluje strach we wskazanym wrogu \n Dodaje potrójne obrazenia \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
 END
 
 OBJECT:DwarvenHeroicStatueDescription
-"Sojusznicy w poblizu posagu zyskuja podwojny pancerz \n \n Zwieksza limit punktów dowodzenia o 10"
+"Sojusznicy w poblizu posagu zyskuja \n +50% do pancerza \n \n Zwieksza limit punktów dowodzenia o 10"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade
@@ -43185,7 +43190,7 @@ CONTROLBAR:ToolTipDainLeadership
 END
 
 CONTROLBAR:ToolTipMightyRage
-"Wymaga 4 poziomu \n Wskazane sojusznicze jednostki otrzymuja +20% do szybkosci, +25% do zadawanych obrazen\n Bonus nie moze byc usuniety, ani nie kumuluje sie\n \n Wrogie jednostki traca wzmocnienia \n \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
+"Wymaga 4 poziomu \n Wskazane sojusznicze jednostki otrzymuja +20% do szybkosci, +25% do zadawanych obrazen \n Wrogie jednostki traca wzmocnienia \n \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
 END
 
 CONTROLBAR:AxeThrow
@@ -43201,7 +43206,7 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Sojusznicy w poblizu Gimliego otrzymuja \n podwojony pancerz\n \n Zdolnosc bierna"
+"Sojusznicy w poblizu Gimliego otrzymuja \n +50% do pancerza\n \n Zdolnosc bierna"
 END
 
 CONTROLBAR:ToolTipAxeThrow
@@ -43209,7 +43214,7 @@ CONTROLBAR:ToolTipAxeThrow
 END
 
 CONTROLBAR:ToolTipSlayer
-"Wymaga 5 poziomu \n Gimli otrzymuje +50% do zadawanych obrazen, oraz zyskuje dwukrotnie wieksza szybkosc, ale traci -15%  do pancerza \n Kliknij lewym przyciskiem, aby uaktywnic"
+"Wymaga 5 poziomu \n Gimli zadaje podwójne obrazenia oraz zyskuje dwukrotnie wieksza szybkosc \n Kliknij lewym przyciskiem, aby uaktywnic"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack
@@ -43221,7 +43226,7 @@ CONTROLBAR:ToolTipBuildDwarvenBattleWagon
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier
-"Sojusznicy w poblizu sztandaru otrzymuja \n +25% do zadawanych obrazen \n oraz zdobywaja doswiadczenie szybciej o 25% \n Zawsze sie kumuluje  \nPowoli przywraca punkty wytrzymalosci wozu bojowego, gdy nie uczestniczy on w walce \n Dodaje kilka falang do wozu bojowego"
+"Sojusznicy w poblizu sztandaru otrzymuja \n +25% do zadawanych obrazen \n oraz zdobywaja doswiadczenie szybciej o 25% \n Powoli przywraca punkty wytrzymalosci wozu bojowego, gdy nie uczestniczy on w walce \n Dodaje kilka falang do wozu bojowego"
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeHearth
@@ -43249,7 +43254,7 @@ CONTROLBAR:TooltipUpgradeIsengardSiegeWorksLevel3
 END
 
 CONTROLBAR:ToolTipWarChant
-"Wskazani sojusznicy otrzymuja +40% do zadawanych obrazen, 50% do zdobywanego doswiadczenia i +10% do szybkosci \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
+"Wskazani sojusznicy otrzymuja +50% do zadawanych obrazen \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
 END
 
 CONTROLBAR:ToolTipIndustry
@@ -43261,7 +43266,7 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Plugawi wskazany obszar \n Wszystkie jednostki sojuszników otrzymuja podwojony pancerz \n Kliknij lewym przyciskiem myszy na ikonie, a nastepnie na wybranym obszarze"
+"Plugawi wskazany obszar \n Wszystkie jednostki sojuszników otrzymuja +50% do pancerza \n Kliknij lewym przyciskiem myszy na ikonie, a nastepnie na wybranym obszarze"
 END
 
 CONTROLBAR:ToolTipEyeofSauron
@@ -43269,11 +43274,11 @@ CONTROLBAR:ToolTipEyeofSauron
 END
 
 CONTROLBAR:ToolTipDarkness
-"Tymczasowo pograza cala mape w ciemnosciach \n Wszystkie sojusznicze jednostki otrzymuja +50% do zadawanych obrazen, +33% do pancerza oraz 50% szybciej zdobywaja doswiadczenie\n Potwory otrzymuja +25% do zadawanych obrazen, +33% do pancerza i +50% szybciej zdobywaja doswiadczenie\n Zawsze kumuluja sie \n Kliknij lewym przyciskiem, aby uaktywnic"
+"Tymczasowo pograza cala mape w ciemnosciach \n Wszystkie sojusznicze jednostki otrzymuja +25% do zadawanych obrazen, +25% do pancerza oraz 50% szybciej zdobywaja doswiadczenie \n Kliknij lewym przyciskiem, aby uaktywnic"
 END
 
 CONTROLBAR:ToolTipSummonCrebain
-"Rozwiewa mgle w poblizu i wykrywa zamaskowane jednostki \n Wrogie jednostki przeciwnika traca 25% wytrzymalosci oraz 25% pancerza \nPrzeciwnicy traca swoje bonusy z choragwi\n\n Kliknij lewym przyciskiem na ikonie, a nastepnie na dostepnym miejscu"
+"Rozwiewa mgle w poblizu i wykrywa zamaskowane jednostki \n Wszystkie jednostki przeciwnika traca 25% wytrzymalosci oraz 25% pancerza \n Kliknij lewym przyciskiem na ikonie, a nastepnie na dostepnym miejscu"
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
@@ -43289,7 +43294,7 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
 END
 
 CONTROLBAR:ToolTipGBloodHunt
-"Wymaga 4 poziomu \n Pobliska sojusznicza kawaleria otrzymuje +25% do zadawanych obrazen, +25% do pancerza oraz 50% szybciej zdobywa doswiadczenie \n Zmniejsza redukcje szybkosci sojuszniczej kawalerii przy tratowaniu\n Zawsze Kumuluje sie \n Zdolnosc bierna"
+"Wymaga 4 poziomu \n Pobliska sojusznicza kawaleria otrzymuje +25% do zadawanych obrazen, +25% do pancerza oraz 50% szybciej zdobywa doswiadczenie \n Zmniejsza redukcje szybkosci sojuszniczej kawalerii przy tratowaniu \n Zdolnosc bierna"
 END
 
 CONTROLBAR:ToolTipDominate
@@ -43341,7 +43346,7 @@ CONTROLBAR:TooltipEscape
 END
 
 CONTROLBAR:ToolTipVenomousWords
-"Znacznie zmniejsza szybkosc oraz obrazenia zadawane przez ogien\n Jednostki wroga traca swoje bonusy z choragwi \n Kumuluje sie w innymi negatywnymi czarami \n \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
+"Znacznie zmniejsza pancerz oraz obrazenia zadawane przez wskazane jednostki wroga \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
 END
 
 CONTROLBAR:SpecialAbilitySarumanFireball
@@ -43377,7 +43382,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Sojusznicy w poblizu trolla dobosza otrzymuja podwojny pancerz i +25% szybciej pozyskuja doswiadczenie\nTrole Jaskiniowe, Gorskie Trole i Trole Bojowe zyskuja +15% pancerza, o 15%  szybcie zyskuja doswiadczenie i ich samoleczenie jest szybsze  \n Zdolnosc bierna"
+"Sojusznicy w poblizu trolla dobosza otrzymuja+50% do pancerza \n \n Zdolnosc bierna"
 END
 
 CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3
@@ -43425,7 +43430,7 @@ CONTROLBAR:HourOfTheWitchKing
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde
-"Jednostka dobra przeciwko piechocie oraz \n Duza odpornosc do taranowania\n Bonus Hordy: \n  Zgrupowanie goblinow w ilosc co najmniej 100\n zyskuja +33% do zadawanych obrazen +25%  szybkosci"
+"Jednostka dobra przeciwko piechocie oraz \n budynkom produkujacym jednostki"
 END
 
 CONTROLBAR:ToolTipPoisonArrows
@@ -43437,15 +43442,15 @@ CONTROLBAR:ToolTipBuildGoblinCaveTroll
 END
 
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy
-"Wymaga 4 poziomu \n Sojusznicy w poblizu bohatera otrzymuja \n +25% do pancerza \n oraz 25% wiecej doswiadczenia \nZawsze sie kumuluje\n \n Zdolnosc pasywna"
+"Wymaga 4 poziomu \n Sojusznicy w poblizu króla goblinów otrzymuja \n +25% do pancerza \n oraz 25% wiecej doswiadczenia \n \n Zdolnosc pasywna"
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Wymaga 2 poziomu \n Pozwala ustawic totem czaszki, który pozostaje na mapie, az zostanie zniszczony \n Rozwiewa mgle w poblizu, wykrywa zamaskowane jednostki i zapewnia pobliskim sojusznikom podwojenie pancerza i u³atwia zdobycie doswiadczenia o +25% \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
+"Wymaga 2 poziomu \n Pozwala ustawic totem czaszki, który pozostaje na mapie, az zostanie zniszczony \n Rozwiewa mgle w poblizu, wykrywa zamaskowane jednostki i zapewnia pobliskim sojusznikom premie +50% do pancerza \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
-"Wymaga szczeliny 2 poziomu \n Jednostka dobra przeciwko kawalerii i \n Budynka Prodokujacym Jednostki"
+"Wymaga szczeliny 2 poziomu \n Jednostka dobra przeciwko kawalerii"
 END
 
 CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade
@@ -43537,7 +43542,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"Wargowie otrzymuja +65% do zadawanych obrazen ale traci -15% pancerza przeciwko pikinierom and struktura\n Bonus nie moze byc usuniety i zawsze sie kumuluje \n Kliknij lewym przyciskiem myszy, aby uaktywnic"
+"Wargowie otrzymuja +60% do zadawanych obrazen \n Kliknij lewym przyciskiem myszy, aby uaktywnic"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
@@ -43545,7 +43550,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
-"Atak z szarzy (&r)"
+"Atak z szarzy (&e)"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
@@ -43553,7 +43558,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Zwieksza pancerz fortecy oraz murów \n Wymagane do zbudowania Wiezy z kosci sloniowej \n Ulepszenie przywoluje Samotne Wieze"
+"Zwieksza pancerz fortecy oraz murów \n Wymagane do zbudowania plonacej amunicji"
 END
 
 CONTROLBAR:ToolTipOutlawLeadership
@@ -43565,7 +43570,7 @@ CONTROLBAR:ElvenCloak
 END
 
 CONTROLBAR:ChargeAttack
-"Atak z szarzy (&r)"
+"Atak z szarzy (&e)"
 END
 
 CONTROLBAR:ConstructRohanPeasant
@@ -43585,99 +43590,10 @@ CONTROLBAR:PersonalFlood
 END
 
 CONTROLBAR:ElvenGrace
-"Athelas (&R)"
+"Athelas (&c)"
 END
 
 GUI:PleaseSelectBuddy
 "Wysylanie wiadomosci nie powiodlo sie. Wybierz co najmniej jednego adresata."
 END
 // String lines for Patch 1.09
-
-CONTROLBAR:GrabPassengerTB
-"Podnies Merrego albo Pippina"
-END
-
-CONTROLBAR:SpecialAbility_ShieldBubble
-"Ochronny Babel (&B)"
-END
-
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-" Czarodziej przemienia swoje moce w ochronna tarcze, ktora bedzie absolbowac  kazdy rodzaj ataku uzyty na niej.\n Gandalf jest niewrazliwy na przewrocenia.\n Trwa 5 sek.\n Klinac lewym przyciskiem na ikone by aktywowac"
-END
-
-CONTROLBAR:Fire_pit
-"Palenisko (&V)"
-END
-
-CONTROLBAR:TooltipFire_pit
-"Palenisko, ktore ulecza nieopodal znajdujace sie sojusznicze jednostki\n Odradza 1 jednostke z hordy co 5 sekund.\n Dostarcza kumulujacy sie bonus 5% do pancerza\n Odkrywa niewidoczne jednostki."
-END
-CONTROLBAR:FireWorks
-"Fajerwerki / Zapalenie [&V]"
-END
-
-CONTROLBAR:ToolTipFireWorks
-"Merry oduszcza Fajerwerki\n na ziemie i podpala je\n\n Lewy przycisk myszki by aktywowac"
-End
-
-CONTROLBAR:FireWorks2
-"Podpal Fajerwerki [&B]"
-END
-
-CONTROLBAR:ToolTipFireWorks2
-"Fajerwerki zadaja obrazenia jednostka na duzym obszare\n\n Lewy przycisk myszki by aktywowac."
-End
-
-CONTROLBAR:FireWorksObj
-"Fajerwerki"
-END
-
-CONTROLBAR:HobbitFireCracker
-"Bomba [&R]"
-END
-
-CONTROLBAR:ToolTipHobbitFireCracker
-"Bohater moze rzucic mala Bomba\n Kliknac lewym przyciskiem na ikone, a nastepnie lewym przyciskiem na cel"
-End
-
-CONTROLBAR:ToolTipHobbitFireCrackerMerry
-"Bohater moze rzucic mala bomba.\nEfektywne przeciw Mumakilom\n Dodatkowe obrazenia przeciw budynka.\nKliknac lewym przyciskiem na ikone, a nastepnie lewym przyciskiem na cel."
-End
-
-CONTROLBAR:ToolTipHobbitFireCrackerSam
-"Bohater moze rzucic mala bomba.\n Dodatkowe obrazenia przeciw Szelobie. \nKliknac lewym przyciskiem na ikone, a nastepnie lewym przyciskiem na cel."
-End
-
-// String lines for Patch 1.09
-
-CONTROLBAR:GaladHealBTP
-"Swiatlo Galadrieli (&L)"
-END
-
-CONTROLBAR:ToolTipGaladHeal
-"Leczy wszystkich pobliskich sojusznikow w poblizu Galadrieli\n Lewy przycisk myszki by aktywowac."
-END
-
-CONTROLBAR:LadyOfLight
-"Swiatlo Valarow (&V)"
-END
-
-CONTROLBAR:TooltipLadyOfLight
-" Wzywa swiatlo Valarow by rozprawic sie z wrogami"
-END
-
-CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Przyzywa trzy kregi Ognia Piekielnego dookola Saurona. (&R)"
-END
-
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Wymaga ulepszenia w fortecy. \n\n Daje +25% do ataku  i +25% do doswiadczenia dla pobliskich jednostek.\nZawsze sie kumuluje"
-END
-
-CONTROLBAR:LoneTowerHealingUpgradeIcon
-"Wymaga ulepszenia w fortecy.\n\nLeczy pobliskie jednostki sojusznicze.\n Odradza jedna jednostke z hordy co 10 sekund."
-END
-
-CONTROLBAR:LoneTowerArmorUpgradeIcon
-"Wymaga ulepszenia w fortecy.\n\n Znacznie zmniejsza przyjmowane obrazenia przez fortece."
-END

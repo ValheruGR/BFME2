@@ -23,6 +23,9 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipHourOfTheWitchKing09v2
+"Kräver grad 10 \nOffrets alla kraft-tidur töms \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
+END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"
 END
@@ -43,9 +46,6 @@ CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique Non-wipeable'. \n Theoden must be mounted to use ability \n Left click to activate"
-END
-TOOLTIP:GoblinHordeBonusDescription09v2
-"Horde Bonus: \n Gathered goblins in numbers of at least 100 \n gain +33% damage and +25% speed. \n Category: 'Unique SPELL' "
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
 "Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
@@ -75,7 +75,7 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n\n Gives a temporary +10% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
@@ -141,9 +141,6 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
 "Stark mot resursbyggnader \n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
-END
-TOOLTIP:MordorHordeBonusDescription09v2
-"Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Helar garnisonsenheter och allierade i närheten av fästningen \nGer fästningen fler träffpoäng. \n\n Upgrades summoned Lone Towers."
@@ -345,16 +342,6 @@ END
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 "Strong vs. Pikemen\n and Resource Buildings \n Guardians gain +5% speed at level 3, 5, 7 and 10."
 End
-//------------------------------------------------------------
-TOOLTIP:GondorTowerGuardHordeDescription09v2
-"Tower Guards gain +5% speed at level 3, 5, 7 and 10."
-END
-TOOLTIP:DwarvenGuardianHordeDescription09v2
-"Guardians gain +5% speed at level 3, 5, 7 and 10."
-END
-TOOLTIP:ElvenRivendellLancerHordeDescription09v2
-"Rivendell Lancers gain +7% speed at level 5."
-END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
 "Requires Level 10 \n Causes a large earthquake around Gloin's location \n Can stun the Army of the Dead for 5 seconds, but does not kill them \n Left click icon then left click on target"

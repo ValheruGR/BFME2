@@ -23,6 +23,9 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipHourOfTheWitchKing09v2
+"Requisito: Nivel 10 \n Los contadores de las capacidades especiales de los heroes apuntados quedan en 80%. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area."
+END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "La producción de recursos de la estructura de recursos seleccionada aumenta en un 350% de manera temporal. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
@@ -43,9 +46,6 @@ CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique Non-wipeable'. \n Theoden must be mounted to use ability \n Left click to activate"
-END
-TOOLTIP:GoblinHordeBonusDescription09v2
-"Horde Bonus: \n Gathered goblins in numbers of at least 100 \n gain +33% damage and +25% speed. \n Category: 'Unique SPELL' "
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
 "Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
@@ -75,7 +75,7 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n Gives a temporary +10% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n Left click icon then left click on target area"
+"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
@@ -141,9 +141,6 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
 "Fuerte contra edificios generadores de recursos. \n Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +25% velocidad"
-END
-TOOLTIP:MordorHordeBonusDescription09v2
-"Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +25% velocidad"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Añade puntos de golpe adicionales a la fortaleza. \n Reduce el tiempo de revivir heroes en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
@@ -221,7 +218,7 @@ CONTROLBAR:ToolTipEyeofSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requisito: Nivel 8. \n Hordas, monstruos y heroes aliados en una largo rango alrededo de Glorfindel son curados. \n Revive 2 unidades por batallón durante su duración. \n Las hordas aliadas ganan \n +33% armadura y +50 al daño. \n Category: 'Armor BUFF' \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 8. \n Unidades, monstruos y heroes aliados en una largo rango alrededo de Glorfindel son curados mientras el conjuro este activo. \n Los batallón reviven sus unidades mientras esté activo. \n Las unidades aliadas ganan +33% armadura y +50 al daño mientras esté activo. \n Category: 'Armor BUFF' \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
@@ -345,16 +342,6 @@ END
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 "Fuerte contra piqueros y edificios generadores de recursos. \n Los Guardianes ganan +5% velocidad en los niveles 3, 5, 7 y 10."
 End
-//------------------------------------------------------------
-TOOLTIP:GondorTowerGuardHordeDescription09v2
-"Los Guardias de la Torre ganan +5% velocidad \n en los niveles 3, 5, 7 y 10."
-END
-TOOLTIP:DwarvenGuardianHordeDescription09v2
-"Los Guardianes ganan +5% velocidad \n en los niveles 3, 5, 7 y 10."
-END
-TOOLTIP:ElvenRivendellLancerHordeDescription09v2
-"Los Lanceros ganan +5% velocidad \n en el nivel 5."
-END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
 "Requisito: Nivel 10 \n Causa un pequeño terremoto alrededor de Gloin. \n Paraliza al Ejercito de los Muertos por 5 segundos, pero no los mata. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
@@ -29359,7 +29346,7 @@ CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight
 END
 
 CONTROLBAR:ToolTipHourOfTheWitchKing
-"Requisito: Nivel 10 \n Los contadores de las capacidades especiales de los heroes apuntados quedan en 60%. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area."
+"Requisito: Nivel 10 \n Los contadores de las capacidades especiales del enemigo apuntado quedan como si se acabaran de usar. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:ToolTipThunderBolt
@@ -29667,7 +29654,7 @@ CONTROLBAR:SharkuWargMount
 END
 
 CONTROLBAR:ShelobWebbing
-"Telaraña de Ungoliant. (&B)"
+"Telaraña de Ungoliant [&B]"
 END
 
 CONTROLBAR:SpecialAbilityBatCloud
@@ -44455,7 +44442,7 @@ CONTROLBAR:Athelas
 END
 
 CONTROLBAR:BladeMaster
-"Maestro de espadas [&T]"
+"Maes&tro de espadas"
 END
 
 CONTROLBAR:Elendil
@@ -44567,7 +44554,7 @@ CONTROLBAR:ToolTipPersonalFlood
 END
 
 CONTROLBAR:ToggleElvenWarriorWeapons
-"Arma alternativa [&R]"
+"Arma a&lternativa"
 END
 
 CONTROLBAR:HaldirGoldenArrow
@@ -44587,11 +44574,11 @@ CONTROLBAR:GlorfindelBladeOfPurity
 END
 
 CONTROLBAR:GlorfindelWindRider
-"Jinete del viento [&W]"
+"Jinete del viento [&C]"
 END
 
 CONTROLBAR:GlorfindelStarlight
-"Luz estelar [&V]"
+"Luz estelar [&B]"
 END
 
 CONTROLBAR:HawkStrike
@@ -44619,7 +44606,7 @@ CONTROLBAR:ThranduilElvenCloak
 END
 
 CONTROLBAR:ThornofVengeance
-"Espina de venganza [&B]"
+"Espina de &venganza"
 END
 
 CONTROLBAR:ElrondFarsight
@@ -44635,7 +44622,7 @@ CONTROLBAR:ToolTipElrondFarsight
 END
 
 CONTROLBAR:ElrondRestoration
-"Restauración [&V]"
+"Restauración [&B]"
 END
 
 CONTROLBAR:ToolTipElrondRestoration
@@ -44731,11 +44718,11 @@ CONTROLBAR:ToolTipMightyRage
 END
 
 CONTROLBAR:AxeThrow
-"Lanzamiento de hacha [&T]"
+"Lanzamien&to de hacha"
 END
 
 CONTROLBAR:Leap
-"Ataque con salto [&C]"
+"Ataque &con salto"
 END
 
 CONTROLBAR:Slayer
@@ -44855,11 +44842,11 @@ CONTROLBAR:SpecialAbilityLurtzCripple
 END
 
 CONTROLBAR:TameTheBeast
-"Domar a la bes&tia"
+"Domar a la bestia (&C)"
 END
 
 CONTROLBAR:SharkuManEater
-"Devorahombres [&C]"
+"Devorahombres [&T]"
 END
 
 CONTROLBAR:VenomousWords
@@ -44875,7 +44862,7 @@ CONTROLBAR:Backstab
 END
 
 CONTROLBAR:CorrodeAllegiance
-"Debilitar alianza [&V]"
+"De&bilitar alianza"
 END
 
 CONTROLBAR:TooltipEscape
@@ -44895,11 +44882,11 @@ CONTROLBAR:SpeechCraft
 END
 
 CONTROLBAR:Dominate
-"Dominación [&V]"
+"Dominación [&B]"
 END
 
 CONTROLBAR:ThunderBolt
-"Rayo [&B]"
+"Rayo [&V]"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityMouthOfSauronEvilEye
@@ -44955,15 +44942,15 @@ CONTROLBAR:MouthOfSauronDissent
 END
 
 CONTROLBAR:Screech
-"Chillido [&X]"
+"Chillido [&R]"
 END
 
 CONTROLBAR:ScreechWitchKing
-"Chillido [&X]"
+"&Chillido"
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Hora del Rey Brujo [&T]"
+"Hora del Rey &Brujo"
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde
@@ -45003,11 +44990,11 @@ CONTROLBAR:GoblinKingMount
 END
 
 CONTROLBAR:GoblinKingPoisonedStinger
-"Dardo envenenado [&V]"
+"Dardo en&venenado"
 END
 
 CONTROLBAR:GoblinKingSpawnFireDrakes
-"Llamada desde el Abismo [&B]"
+"Llamada desde el A&bismo"
 END
 
 CONTROLBAR:ToolTipGoblinKingMount
@@ -45019,7 +45006,7 @@ CONTROLBAR:WildShelobInstillTerror
 END
 
 CONTROLBAR:WildShelobPoisonedStinger
-"Dardo envenenado [&V]"
+"Dardo envenenado [&T]"
 END
 
 CONTROLBAR:SpecialAbilityWildShelobTunnel
