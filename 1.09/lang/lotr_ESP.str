@@ -218,7 +218,7 @@ CONTROLBAR:ToolTipEyeofSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requisito: Nivel 8. \n Unidades, monstruos y heroes aliados en una largo rango alrededo de Glorfindel son curados mientras el conjuro este activo. \n Los batallón reviven sus unidades mientras esté activo. \n Las unidades aliadas ganan +33% armadura y +50 al daño mientras esté activo. \n Category: 'Armor BUFF' \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 8. \n Unidades, monstruos y heroes aliados en una largo rango alrededo de Glorfindel son curados mientras el conjuro este activo. \n Los batallón reviven sus unidades mientras esté activo. \n Las unidades aliadas ganan +33% armadura y +50 al daño mientras esté activo. \n Las unidades enemigas sienten miedo mientras esté activo. \n Category: 'Armor BUFF' \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
@@ -913,7 +913,7 @@ Map:mapMAmountgram
 "Mount Gram"
 End
 Map:mapMAmountgram/desc
-"The mountain was long inhabited by a group of Orcs led by Golfimbul. They terrorized some of the inhabitants of eastern Eriador including those of the Shire. \n Map from RotWK, by Mako."
+"The mountain was long inhabited by a group of Orcs led by Golfimbul. They terrorized some of the inhabitants of eastern Eriador including those of the Shire. \n Map from by Mako, edited by Ecthelion."
 End
 //------------------------------------------------------------
 Map:mapMOeastfold

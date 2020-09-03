@@ -202,7 +202,7 @@ CONTROLBAR:ToolTipEyeofSauron09v2
 "Появление Ока Саурона. \n Обнаружение скрытых врагов. \n Союзники получают +25% к атаке и +25% брони, \n а также +50% больще опыта. \n Category: 'High Tier SPELL' \n Щелкните на пиктограмме, затем - на участке местности."
 END
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Требуется уровень 8 \n Союзные войска, монстры и герои излечиваются на большой территории вокруг Глорфинделя. \n Воскрешает 2-х погибших на отряд в течение всего времени действия. \n Союзные войска получают + 33% брони и + 50% урона. \n Category: 'Armor BUFF' \n \n ЛКМ - применение способности."
+"Requires Level 8 \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Enemy units are scared while active. \n Category: 'Armor BUFF' \n Left click to activate"
 END
 CONTROLBAR:ToolTipGimliLeadership09v2
 "Союзники рядом с Гимли получают \n 35% брони. \n Category: 'Armor BUFF' \n \n Пассивная способность."
@@ -883,7 +883,7 @@ Map:mapMAmountgram
 "Mount Gram"
 End
 Map:mapMAmountgram/desc
-"The mountain was long inhabited by a group of Orcs led by Golfimbul. They terrorized some of the inhabitants of eastern Eriador including those of the Shire. \n Map from RotWK, by Mako."
+"The mountain was long inhabited by a group of Orcs led by Golfimbul. They terrorized some of the inhabitants of eastern Eriador including those of the Shire. \n Map from by Mako, edited by Ecthelion."
 End
 //------------------------------------------------------------
 Map:mapMOeastfold
