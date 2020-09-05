@@ -216,7 +216,7 @@ CONTROLBAR:ToolTipEyeofSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requires Level 8 \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Category: 'Armor BUFF' \n Left click to activate"
+"Requires Level 8 \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Enemy units are scared while active. \n Category: 'Armor BUFF' \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
@@ -916,7 +916,7 @@ Map:mapMAmountgram
 "Mount Gram"
 End
 Map:mapMAmountgram/desc
-"The mountain was long inhabited by a group of Orcs led by Golfimbul. They terrorized some of the inhabitants of eastern Eriador including those of the Shire. \n Map from RotWK, by Mako."
+"The mountain was long inhabited by a group of Orcs led by Golfimbul. They terrorized some of the inhabitants of eastern Eriador including those of the Shire. \n Map from by Mako, edited by Ecthelion."
 End
 //------------------------------------------------------------
 Map:mapMOeastfold
