@@ -17,3 +17,9 @@
  	
     ; But not this! Don't 'sight' horde brains
 	; EvaEnemyObjectSightedEvent	= GenericEnemyUnitSighted ; Normal response to enemy units
+
+	
+	
+	 ;;-;;
+	//Lazy method to reach to every unit.
+		#include "..\..\..\09v2LeadershipEffect.inc"
