@@ -27,7 +27,7 @@
 				Model = None
 			End
 			AnimationState = USER_74	// FX_GenericLeadership
-  				ParticleSysBone		= ARRROW HighLevelLD_NoSL FollowBone:Yes
+  				ParticleSysBone		= NONE HighLevelLD_NoSL FollowBone:Yes
  			End
         End
 		//------------------
@@ -37,11 +37,11 @@
 				Model = None
 			End
 			AnimationState = USER_73	// FX_DainMightyRageBuff09v2
-  				ParticleSysBone		= ARRROW MightyRageParticle_NoSL FollowBone:Yes
- 				ParticleSysBone		= ARRROW MightyRageParticle2_NoSL FollowBone:Yes
- 				ParticleSysBone		= ARRROW MightyRageParticle3_NoSL FollowBone:Yes
- 				ParticleSysBone		= ARRROW MightyRageParticle4_NoSL FollowBone:Yes
- 				ParticleSysBone		= ARRROW MightyRageParticle5_NoSL FollowBone:Yes
+  				ParticleSysBone		= NONE MightyRageParticle_NoSL FollowBone:Yes
+ 				ParticleSysBone		= NONE MightyRageParticle2_NoSL FollowBone:Yes
+ 				ParticleSysBone		= NONE MightyRageParticle3_NoSL FollowBone:Yes
+ 				ParticleSysBone		= NONE MightyRageParticle4_NoSL FollowBone:Yes
+ 				ParticleSysBone		= NONE MightyRageParticle5_NoSL FollowBone:Yes
 			End
         End
 		//------------------
@@ -51,27 +51,37 @@
 				Model = None
 			End
 			AnimationState = USER_72	// FX_GenericDebuffWK09v2
-  				ParticleSysBone		= ARRROW WitchkingDreadVisage FollowBone:Yes
+  				ParticleSysBone		= NONE WitchkingDreadVisage FollowBone:Yes
  			End
         End
 		//------------------
-		Draw = W3DScriptedModelDraw Draw_EcthsTWBuff
+		Draw = W3DScriptedModelDraw Draw_GenericStackArmorEffect
             ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
 				Model = None
 			End
-			AnimationState = USER_71 //placeholder
-  				ParticleSysBone		= ARRROW StunLarge_New FollowBone:Yes
+			AnimationState = USER_71 // GenericArmorStackLeadership
+  				ParticleSysBone		= NONE GenericArmorStackPseudoNugget09v2 FollowBone:Yes
  			End
         End
 		//------------------
-		Draw = W3DScriptedModelDraw Draw_ParticlePlaceHolder
+		Draw = W3DScriptedModelDraw Draw_GenericStackDamageEffect
             ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
 				Model = None
 			End
-			AnimationState = USER_70 //placeholder
-  				ParticleSysBone		= ARRROW PLaceHolder01 FollowBone:Yes
+			AnimationState = USER_70	// GenericDamageStackLeadership
+  				ParticleSysBone		= NONE GenericDamageStackPseudoNugget09v2 FollowBone:Yes
+ 			End
+        End
+		//------------------
+		Draw = W3DScriptedModelDraw Draw_DarknessEffect
+            ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState 			= NONE
+				Model = None
+			End
+			AnimationState = USER_69 //placeholder
+  				ParticleSysBone		= NONE DarknessPseudoNugget09v2 FollowBone:Yes
  			End
         End
 		//------------------
