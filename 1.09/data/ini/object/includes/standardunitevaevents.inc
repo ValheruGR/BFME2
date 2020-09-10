@@ -80,8 +80,20 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
-			AnimationState = USER_69 //placeholder
+			AnimationState = USER_69 //SpellBookDarkness
   				ParticleSysBone		= NONE DarknessPseudoNugget09v2 FollowBone:Yes
+ 			End
+        End
+		//------------------
+		Draw = W3DScriptedModelDraw Draw_GloriousChargeEffect
+            ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState 			= NONE
+				Model = None
+			End
+			AnimationState = USER_68 //TheodenGloriousCharge
+  				ParticleSysBone		= BAT_HHEAD GCglowWhite_NoSM FollowBone:Yes
+  				ParticleSysBone		= B_HHIPL GCglowHorseRearWhite_NoSM FollowBone:Yes
+  				ParticleSysBone		= BAT_SPINE2 GCglowHorseWhite_NoSM FollowBone:Yes
  			End
         End
 		//------------------
