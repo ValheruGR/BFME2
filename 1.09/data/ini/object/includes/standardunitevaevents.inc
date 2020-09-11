@@ -46,20 +46,9 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
-<<<<<<< HEAD
-			AnimationState = USER_73	// FX_DainMightyRageBuff09v2
-			ParticleSysBone		= BAT_RIBS MightyRageParticle_NoSL FollowBone:Yes
-  				;ParticleSysBone		= NONE MightyRageParticle_NoSL FollowBone:Yes
- 				;ParticleSysBone		= NONE MightyRageParticle2_NoSL FollowBone:Yes
- 				;ParticleSysBone		= NONE MightyRageParticle3_NoSL FollowBone:Yes
- 				;ParticleSysBone		= NONE MightyRageParticle4_NoSL FollowBone:Yes
- 				;ParticleSysBone		= NONE MightyRageParticle5_NoSL FollowBone:Yes
-			End
-=======
 			AnimationState = USER_71 // GenericArmorStackLeadership
   				ParticleSysBone		= NONE GenericArmorStackPseudoNugget09v2 FollowBone:Yes
  			End
->>>>>>> 199a126f1841087ed38158e7781b1c4c5d4380fb
         End
 		//------------------
 		Draw = W3DScriptedModelDraw Draw_GenericStackDamageEffect
@@ -79,13 +68,13 @@
 				Model = None
 			End
 			AnimationState = USER_73	// FX_DainMightyRageBuff09v2
-  				;;-;;	ParticleSysBone		= NONE MightyRageParticle_NoSL FollowBone:Yes
- 				;;-;;	ParticleSysBone		= NONE MightyRageParticle2_NoSL FollowBone:Yes
- 				;;-;;	ParticleSysBone		= NONE MightyRageParticle3_NoSL FollowBone:Yes
- 				;;-;;	ParticleSysBone		= NONE MightyRageParticle4_NoSL FollowBone:Yes
- 				;;-;;	ParticleSysBone		= NONE MightyRageParticle5_NoSL FollowBone:Yes
-  				ParticleSysBone		= NONE StunLarge_New_TestforMRage FollowBone:Yes
- 			End
+				ParticleSysBone			= BAT_RIBS MightyRageParticle_NoSLValTest FollowBone:Yes
+  				;ParticleSysBone		= NONE MightyRageParticle_NoSL FollowBone:Yes
+ 				;ParticleSysBone		= NONE MightyRageParticle2_NoSL FollowBone:Yes
+ 				;ParticleSysBone		= NONE MightyRageParticle3_NoSL FollowBone:Yes
+ 				;ParticleSysBone		= NONE MightyRageParticle4_NoSL FollowBone:Yes
+ 				;ParticleSysBone		= NONE MightyRageParticle5_NoSL FollowBone:Yes
+  			End
         End
 		//------------------
 		Draw = W3DScriptedModelDraw Draw_DarknessEffect
