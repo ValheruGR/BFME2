@@ -20,7 +20,17 @@
 	//	Would be ideal to use it as an InheritableModule in object.ini
 	//	but then the first Draw module of any object is invisible.... 
 	//	which means everything on Worldbuilder becomes invisible
-		//------------------
+	
+	
+	
+	
+	//-----------------------------------------------------------------------------
+	;//Basic Leadership System
+		//Warchant
+		//Land
+		//HighTierHero
+		//StackyDamage
+		//StackyArmor
 		Draw = W3DScriptedModelDraw Draw_LeadershipEffect
             ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
@@ -31,11 +41,12 @@
  			End
         End
 		//------------------
-		Draw = W3DScriptedModelDraw Draw_MightRage
+		Draw = W3DScriptedModelDraw Draw_GenericStackArmorEffect
             ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
 				Model = None
 			End
+<<<<<<< HEAD
 			AnimationState = USER_73	// FX_DainMightyRageBuff09v2
 			ParticleSysBone		= BAT_RIBS MightyRageParticle_NoSL FollowBone:Yes
   				;ParticleSysBone		= NONE MightyRageParticle_NoSL FollowBone:Yes
@@ -44,26 +55,11 @@
  				;ParticleSysBone		= NONE MightyRageParticle4_NoSL FollowBone:Yes
  				;ParticleSysBone		= NONE MightyRageParticle5_NoSL FollowBone:Yes
 			End
-        End
-		//------------------
-		Draw = W3DScriptedModelDraw Draw_WitchKingDebuff
-            ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
-				Model = None
-			End
-			AnimationState = USER_72	// FX_GenericDebuffWK09v2
-  				ParticleSysBone		= NONE WitchkingDreadVisage FollowBone:Yes
- 			End
-        End
-		//------------------
-		Draw = W3DScriptedModelDraw Draw_GenericStackArmorEffect
-            ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
-				Model = None
-			End
+=======
 			AnimationState = USER_71 // GenericArmorStackLeadership
   				ParticleSysBone		= NONE GenericArmorStackPseudoNugget09v2 FollowBone:Yes
  			End
+>>>>>>> 199a126f1841087ed38158e7781b1c4c5d4380fb
         End
 		//------------------
 		Draw = W3DScriptedModelDraw Draw_GenericStackDamageEffect
@@ -75,17 +71,57 @@
   				ParticleSysBone		= NONE GenericDamageStackPseudoNugget09v2 FollowBone:Yes
  			End
         End
+	//-----------------------------------------------------------------------------
+	;//Unique Spells
+		Draw = W3DScriptedModelDraw Draw_MightRage
+            ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState 			= NONE
+				Model = None
+			End
+			AnimationState = USER_73	// FX_DainMightyRageBuff09v2
+  				;;-;;	ParticleSysBone		= NONE MightyRageParticle_NoSL FollowBone:Yes
+ 				;;-;;	ParticleSysBone		= NONE MightyRageParticle2_NoSL FollowBone:Yes
+ 				;;-;;	ParticleSysBone		= NONE MightyRageParticle3_NoSL FollowBone:Yes
+ 				;;-;;	ParticleSysBone		= NONE MightyRageParticle4_NoSL FollowBone:Yes
+ 				;;-;;	ParticleSysBone		= NONE MightyRageParticle5_NoSL FollowBone:Yes
+  				ParticleSysBone		= NONE StunLarge_New_TestforMRage FollowBone:Yes
+ 			End
+        End
 		//------------------
 		Draw = W3DScriptedModelDraw Draw_DarknessEffect
             ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
 				Model = None
 			End
-			AnimationState = USER_69 //placeholder
-  				ParticleSysBone		= NONE DarknessPseudoNugget09v2 FollowBone:Yes
+			AnimationState = USER_69 //SpellBookDarkness
+  				;;-;; ParticleSysBone		= NONE DarknessPseudoNugget09v2 FollowBone:Yes
+  				ParticleSysBone		= NONE HighLevelLD_DarknessNoSL FollowBone:Yes
  			End
         End
 		//------------------
+		;;-;; DoesntReadBones ;;-;; Draw = W3DScriptedModelDraw Draw_GloriousChargeEffect
+		;;-;; DoesntReadBones ;;-;; 	ParticlesAttachedToAnimatedBones = yes
+		;;-;; DoesntReadBones ;;-;; 	ModelConditionState 			= NONE
+		;;-;; DoesntReadBones ;;-;; 		Model = None
+		;;-;; DoesntReadBones ;;-;; 	End
+		;;-;; DoesntReadBones ;;-;; 	AnimationState = USER_68 //TheodenGloriousCharge
+		;;-;; DoesntReadBones ;;-;; 		;doesnt work;EnteringStateFX = FX_TheodenGloriousChargeFX
+  		;;-;; DoesntReadBones ;;-;; 		;ParticleSysBone		= BAT_HHEAD GCglowWhite_NoSM FollowBone:Yes
+  		;;-;; DoesntReadBones ;;-;; 		;ParticleSysBone		= B_HHIPL GCglowHorseRearWhite_NoSM FollowBone:Yes
+  		;;-;; DoesntReadBones ;;-;; 		;ParticleSysBone		= BAT_SPINE2 GCglowHorseWhite_NoSM FollowBone:Yes
+ 		;;-;; DoesntReadBones ;;-;; 	End
+        ;;-;; DoesntReadBones ;;-;; End
+	//-----------------------------------------------------------------------------
+	;//Unique Debuff
+		Draw = W3DScriptedModelDraw Draw_WitchKingDebuff
+            ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState 			= NONE
+				Model = None
+			End
+			AnimationState = USER_72	// FX_GenericDebuffWK09v2
+  				ParticleSysBone		= NONE WitchkingDreadVisage FollowBone:Yes
+ 			End
+        End
 		
 		
 		
