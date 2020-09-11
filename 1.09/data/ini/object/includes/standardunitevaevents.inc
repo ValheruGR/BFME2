@@ -37,11 +37,12 @@
 				Model = None
 			End
 			AnimationState = USER_73	// FX_DainMightyRageBuff09v2
-  				ParticleSysBone		= NONE MightyRageParticle_NoSL FollowBone:Yes
- 				ParticleSysBone		= NONE MightyRageParticle2_NoSL FollowBone:Yes
- 				ParticleSysBone		= NONE MightyRageParticle3_NoSL FollowBone:Yes
- 				ParticleSysBone		= NONE MightyRageParticle4_NoSL FollowBone:Yes
- 				ParticleSysBone		= NONE MightyRageParticle5_NoSL FollowBone:Yes
+			ParticleSysBone		= BAT_RIBS MightyRageParticle_NoSL FollowBone:Yes
+  				;ParticleSysBone		= NONE MightyRageParticle_NoSL FollowBone:Yes
+ 				;ParticleSysBone		= NONE MightyRageParticle2_NoSL FollowBone:Yes
+ 				;ParticleSysBone		= NONE MightyRageParticle3_NoSL FollowBone:Yes
+ 				;ParticleSysBone		= NONE MightyRageParticle4_NoSL FollowBone:Yes
+ 				;ParticleSysBone		= NONE MightyRageParticle5_NoSL FollowBone:Yes
 			End
         End
 		//------------------
