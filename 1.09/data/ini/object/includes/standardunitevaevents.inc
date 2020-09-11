@@ -88,17 +88,18 @@
  			End
         End
 		//------------------
-		Draw = W3DScriptedModelDraw Draw_GloriousChargeEffect
-            ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
-				Model = None
-			End
-			AnimationState = USER_68 //TheodenGloriousCharge
-  				ParticleSysBone		= BAT_HHEAD GCglowWhite_NoSM FollowBone:Yes
-  				ParticleSysBone		= B_HHIPL GCglowHorseRearWhite_NoSM FollowBone:Yes
-  				ParticleSysBone		= BAT_SPINE2 GCglowHorseWhite_NoSM FollowBone:Yes
- 			End
-        End
+		;;-;; DoesntReadBones ;;-;; Draw = W3DScriptedModelDraw Draw_GloriousChargeEffect
+		;;-;; DoesntReadBones ;;-;; 	ParticlesAttachedToAnimatedBones = yes
+		;;-;; DoesntReadBones ;;-;; 	ModelConditionState 			= NONE
+		;;-;; DoesntReadBones ;;-;; 		Model = None
+		;;-;; DoesntReadBones ;;-;; 	End
+		;;-;; DoesntReadBones ;;-;; 	AnimationState = USER_68 //TheodenGloriousCharge
+		;;-;; DoesntReadBones ;;-;; 		;doesnt work;EnteringStateFX = FX_TheodenGloriousChargeFX
+  		;;-;; DoesntReadBones ;;-;; 		;ParticleSysBone		= BAT_HHEAD GCglowWhite_NoSM FollowBone:Yes
+  		;;-;; DoesntReadBones ;;-;; 		;ParticleSysBone		= B_HHIPL GCglowHorseRearWhite_NoSM FollowBone:Yes
+  		;;-;; DoesntReadBones ;;-;; 		;ParticleSysBone		= BAT_SPINE2 GCglowHorseWhite_NoSM FollowBone:Yes
+ 		;;-;; DoesntReadBones ;;-;; 	End
+        ;;-;; DoesntReadBones ;;-;; End
 	//-----------------------------------------------------------------------------
 	;//Unique Debuff
 		Draw = W3DScriptedModelDraw Draw_WitchKingDebuff
