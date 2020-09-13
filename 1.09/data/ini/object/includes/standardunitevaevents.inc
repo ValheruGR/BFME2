@@ -123,15 +123,15 @@
         End
 	//-----------------------------------------------------------------------------
 	;//HordeBonus
-		Draw = W3DScriptedModelDraw Draw_WitchKingDebuff
-            ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
-				Model = None
-			End
-			AnimationState = USER_67	// MordorLargeGroupBonus
-  				ParticleSysBone		= NONE WitchkingDreadVisage FollowBone:Yes
- 			End
-        End
+		;Draw = W3DScriptedModelDraw Draw_HordeBonus
+        ;    ParticlesAttachedToAnimatedBones = yes
+		;	ModelConditionState 			= NONE
+		;		Model = None
+		;	End
+		;	AnimationState = USER_67	// MordorLargeGroupBonus
+  		;		ParticleSysBone		= NONE placeholder FollowBone:Yes
+ 		;	End
+        ;End
 		
 		
 		
