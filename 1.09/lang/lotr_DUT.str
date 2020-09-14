@@ -23,6 +23,14 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+//------------------------------------------------------------
+UPGRADE:AutohealUpgradeAdvanced
+"Advanced Auto heal"
+END
+UPGRADE:AutohealUpgradeBasic
+"Basic Auto heal"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
 "Nodig: niveau 10\nReset de timers voor speciale vaardigheden van de geselecteerde vijand naar net gebruikt\nKlik met links op het icoontje en daarna met links op het doelwit"
 END

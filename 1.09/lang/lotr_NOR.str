@@ -23,6 +23,14 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+//------------------------------------------------------------
+UPGRADE:AutohealUpgradeAdvanced
+"Advanced Auto heal"
+END
+UPGRADE:AutohealUpgradeBasic
+"Basic Auto heal"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
 "Krever Nivå 10\nValgte fienders tidtakere for spesialevner blir satt til "nettopp brukt"\nVenstreklikk på ikonet, og venstreklikk på målet"
 END

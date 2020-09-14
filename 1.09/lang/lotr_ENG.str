@@ -23,6 +23,14 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+//------------------------------------------------------------
+UPGRADE:AutohealUpgradeAdvanced
+"Advanced Auto heal"
+END
+UPGRADE:AutohealUpgradeBasic
+"Basic Auto heal"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
 "Requires Level 10 \n Target Heroes in an AOE have their special ability timers reset to 80% used \n Left click icon then left click on area"
 END

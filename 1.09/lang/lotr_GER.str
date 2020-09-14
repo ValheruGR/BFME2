@@ -23,6 +23,14 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+//------------------------------------------------------------
+UPGRADE:AutohealUpgradeAdvanced
+"Advanced Auto heal"
+END
+UPGRADE:AutohealUpgradeBasic
+"Basic Auto heal"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
 "Voraussetzung: Stufe 10 \n Die Spezialf‰higkeit-Timer der Helden im Umfeld des Effekts werden auf "80% verwendet" gesetzt \n Linksklicke auf das Symbol und anschlieﬂend auf ein Gebiet"
 END

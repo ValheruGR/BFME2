@@ -23,6 +23,14 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+//------------------------------------------------------------
+UPGRADE:AutohealUpgradeAdvanced
+"Advanced Auto heal"
+END
+UPGRADE:AutohealUpgradeBasic
+"Basic Auto heal"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
 "Requisito: Nivel 10 \n Los contadores de las capacidades especiales de los heroes apuntados quedan en 80%. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area."
 END

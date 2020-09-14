@@ -23,6 +23,14 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+//------------------------------------------------------------
+UPGRADE:AutohealUpgradeAdvanced
+"Advanced Auto heal"
+END
+UPGRADE:AutohealUpgradeBasic
+"Basic Auto heal"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
 "Requiert niveau 10 \n Réinitialise, dans la zone d'effet, les compteurs de compétences spéciales des héros ennemis de 80% \nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
 END
