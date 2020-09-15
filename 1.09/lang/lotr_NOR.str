@@ -56,10 +56,10 @@ CONTROLBAR:ToolTipGloriousCharge09v2
 "Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique Non-wipeable'. \n Theoden must be mounted to use ability \n Left click to activate"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
+"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +20% speed. \n Category: 'Unique SPELL' "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Category: 'Unique SPELL' "
+"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n Category: 'Unique SPELL' "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -148,7 +148,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Helbreder alle allierte i nærheten \n Reduserer kostnader for gjenoppliving av helter med 5 %\nReduserer gjenopplivingstid for heltermed 15 % \n\n Upgrades summoned Lone Towers"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Sterke mot ressursbyggverk \n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+"Sterke mot ressursbyggverk \n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Category: 'Unique SPELL' "
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Helbreder stasjonerte enheter i borg og saler\nGir borgen ekstra treffpoeng. \n\n Upgrades summoned Lone Towers."
