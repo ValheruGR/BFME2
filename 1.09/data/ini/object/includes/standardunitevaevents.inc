@@ -31,12 +31,21 @@
 		//HighTierHero
 		//StackyDamage
 		//StackyArmor
+		
+		//USER_74	// 3k hero
+		//USER_73	// mighyrage
+		//USER_72	// wk debuff. Innecesary tho.
+		//USER_71	// stacky armor
+		//USER_70	// stacky damage
+		//USER_69	// darkness
+		//USER_68	// Glorious charge. Doesnt workk tho. Disabled.
+		//USER_67	// Posible Horde Bonus. Nothing there tho.
 		Draw = W3DScriptedModelDraw Draw_LeadershipEffect
             ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
 				Model = None
 			End
-			AnimationState = USER_74	// FX_GenericLeadership
+			AnimationState = USER_74	// GenericHeroLeadership // SharkuLeadership
   				ParticleSysBone		= NONE HighLevelLD_NoSL FollowBone:Yes
  			End
         End
@@ -67,8 +76,9 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
-			AnimationState = USER_73	// FX_DainMightyRageBuff09v2
+			AnimationState = USER_73	// DainMightyRageBuff
 				ParticleSysBone			= BAT_RIBS MightyRageParticle_NoSLValTest FollowBone:Yes
+				
   				;ParticleSysBone		= NONE MightyRageParticle_NoSL FollowBone:Yes
  				;ParticleSysBone		= NONE MightyRageParticle2_NoSL FollowBone:Yes
  				;ParticleSysBone		= NONE MightyRageParticle3_NoSL FollowBone:Yes
@@ -82,7 +92,7 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
-			AnimationState = USER_69 //SpellBookDarkness
+			AnimationState = USER_69 //	SpellBookDarkness
   				;;-;; ParticleSysBone		= NONE DarknessPseudoNugget09v2 FollowBone:Yes
   				ParticleSysBone		= NONE HighLevelLD_DarknessNoSL FollowBone:Yes
  			End
@@ -107,10 +117,21 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
-			AnimationState = USER_72	// FX_GenericDebuffWK09v2
+			AnimationState = USER_72	// GenericDebuffWK
   				ParticleSysBone		= NONE WitchkingDreadVisage FollowBone:Yes
  			End
         End
+	//-----------------------------------------------------------------------------
+	;//HordeBonus
+		;Draw = W3DScriptedModelDraw Draw_HordeBonus
+        ;    ParticlesAttachedToAnimatedBones = yes
+		;	ModelConditionState 			= NONE
+		;		Model = None
+		;	End
+		;	AnimationState = USER_67	// MordorLargeGroupBonus
+  		;		ParticleSysBone		= NONE placeholder FollowBone:Yes
+ 		;	End
+        ;End
 		
 		
 		

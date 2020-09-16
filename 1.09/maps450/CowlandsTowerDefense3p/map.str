@@ -52,7 +52,8 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.65 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Thorin sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.80 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Maka sucks."
+	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
 	// \n Players need to be in same team to get Kill Counter working."
@@ -76,6 +77,34 @@ End
 
 
 
+//------------------------------------------------------------
+TOOLTIP:ToolTipBuildGoblinArcherHorde_New
+"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
+END
+//------------------------------------------------------------
+UPGRADE:GoblinGundabadTraining_New
+"Gundabad Training"
+End
+CONTROLBAR:PurchaseTechnologyGundabadTraining_New
+"Research Goblin Gundabad Train&ing"
+End
+CONTROLBAR:ToolTipPurchaseTechnologyGundabadTraining_New
+"Requires Level 2 Goblin Cave \n Allows purchasing Gundabad Training upgrade on Goblin Archers."
+End
+//------------------------------------------------------------
+CONTROLBAR:GoblinGundabadTrainingApply_New
+"Purchase Gundabad Train&ing"
+End
+CONTROLBAR:GoblinGundabadTrainingApplyDesc_New
+"Research upgrade at Goblin Cave to enable this equipment \n When equipped, significantly increases the movement speed, the range of the aim and the damage caused by Arrows \n Consumes 15 additional commandpoints per horde."
+End
+//---------------------------------------------------
+CONTROLBAR:PurchaseTechnologyIsengardTorches_New
+"Research &Torches"
+End
+CONTROLBAR:ToolTipPurchaseTechnologyIsengardTorches_New
+"Requires Level 2 Hall \n Allows Axe Throwers to use \n and throw explosive fire torches."
+End
 //------------------------------------------------------------
 CONTROLBAR:InnSummonDwarvenMenOfDale_New
 "&Summon Elite Men of Dale"
@@ -176,14 +205,14 @@ CONTROLBAR:ToolTipDrakeLeadership_New
 END
 //--------------
 CONTROLBAR:SpecialAbilityFireDrakeInferno_New
-"Cold Infe&rno"
+"Cold Inferno (&T)"
 END
 CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno_New
 "Requires Level 7 \n Breathes cold fire over a selected area \n Left click icon then left click on target area"
 END
 //--------------
 CONTROLBAR:GoblinKingSpawnFireDrakes_New
-"Call the nephews [&B]"
+"&Call the nephews"
 END
 CONTROLBAR:TooltipGoblinKingSpawnFireDrakes_New
 "Requires Level 8 \n Calls the blessings of her sister and delivers them to charge towards the enemy, while their mother hangs out with her friends at 5 am. \n Left click icon then left click on pathable location"
@@ -221,13 +250,6 @@ END
 CONTROLBAR:PurchaseDwarvenBallistaUpgradeDesc_New
 "Installs a dwarven ballista on this tower \n Deals siege damage in area, causes meta impact and has a bonus against monsters"
 END
-//---------------------------------------------------
-CONTROLBAR:PurchaseTechnologyIsengardTorches_New
-"Research &Torches"
-End
-CONTROLBAR:ToolTipPurchaseTechnologyIsengardTorches_New
-"Requires Level 2 Hall \n Allows Axe Throwers to use \n and throw explosive fire torches."
-End
 //---------------------------------------------------
 CONTROLBAR:UpgradeDunlandHallLevel2_New
 "Upgrad&e Dunland Hall to Level 2"
@@ -280,25 +302,25 @@ CONTROLBAR:ShelobPermanentStingerDesc_New
 "Requires Level 2 \n All the enemies attacked by Shelob are slowed down and poisoned over time. \n Specialy effective against Cavalry. \n Passive ability"
 END
 CONTROLBAR:ShelobFreezeingScreech_New
-"F&reezeing Screech" 
+"Freezeing Screech (&T)" 
 END
 CONTROLBAR:TooltipShelobFreezeingScreech_New
 "Requires Level 4 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
 END
 CONTROLBAR:ShelobToxicCumShot_New
-"Toxic Lady Juice (&V)"
+"Toxic Lady Juice (&C)"
 END
 CONTROLBAR:ShelobToxicCumShotDesc_New
-"Requires Level 5 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons paralyzing the target for 6 seconds.\n Left click icon then left click on target"
+"Requires Level 6 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons paralyzing the target for 6 seconds.\n Left click icon then left click on target"
 END
 CONTROLBAR:SpecialAbilityWildShelobTunnel_New
-"Tunnel [&C]"
+"Tunnel [&B]"
 END
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel_New
 "Requires Level 8 \n Allows Shelob to tunnel under the ground and emerge at any unshrouded location, causing damage and metaimpact. \n Left click icon then left click on target location"
 END
 CONTROLBAR:ShelobWebbing_New
-"&Ungoliant's mad fruitfulness!"
+"Ungoliant's mad fruitfulness! (&V)"
 End
 CONTROLBAR:ToolTipShelobWebbing_New
 "Requires Level 10 \n Shelob shoots a storm of spider webs and eggs. \n Enemy units are crippled. \n Upon death, spider eggs will appaer, \n then shelob babies will be born. \n Left click icon then left click on target area"
@@ -351,11 +373,6 @@ OBJECT:SignalFireDescription09v2
 "Capture it to decrease recharge times for unused spellbooks. \n Reduces special abilities reload time. \n Heals nearby Heros and Flyers. \n\n 1 signal fire = -20% reduction of spells and abilities"
 End
 //---------------------------------------------------
-CONTROLBAR:ConstructMordorWell_New
-"Build a healing Morgul pit (&W)" 
-//Necromancer Monument (&W)
-END
-//---------------------------------------------------
 CONTROLBAR:GoblinKingBattleFrenzy_New
 "Battle Frenzy"
 End
@@ -364,15 +381,15 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy_New
 End
 //-----
 CONTROLBAR:TooltipGoblinKingSkullTotem_New
-"Requires Level 2 \n Places a skull totem which will remain \n on the map for a period of time. \n Allies near the totem gain \n +25% damage and earn experience 25% faster. \n Category: 'Statue' \n Left click icon then left click on target area"
+"Requires Level 2 \n Places a skull totem which will remain \n on the map for a period of time. \n Allies nearby the totem are healed and \n replenish one unit per horde each 10 seconds. \n Nearby units earn experience +50% faster. \n Category: 'Well'" \n Left click icon then left click on target area"
 END
 //-----
 OBJECT:ToolTipGorkilTotem_New
-"Idiot Totem"
+"Healing Totem"
 END
-TOOLTIP:ToolTipGorkilTotemDesc_New
-"Allies near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Statue'"
-END
+//	TOOLTIP:ToolTipGorkilTotemDesc_New
+//	"Allies near the totem gain +25% damage and earn experience 25% faster. \n Category: 'Statue'"
+//	END
 //-----
 CONTROLBAR:GoblinKingMount_New
 "Moun&t / Dismount"
@@ -382,7 +399,7 @@ CONTROLBAR:ToolTipGoblinKingMount_New
 END
 //-----
 CONTROLBAR:GorkilsDebuff_New
-"Goblin King's Curse [&B]"
+"Goblin King's &Curse"
 END
 CONTROLBAR:GorkilsDebuffDesc_New
 "Requires Level 4 \n Can only use on foot. \n Debuff enemy units for 30 seconds \n Targeted enemies lose -33% armor, -15% speed\n and all leadership and buff bonuses \n Left click icon then left click on target units \n Does not stack with another debuff"
@@ -392,21 +409,28 @@ CONTROLBAR:GoblinsTrainAllies_New
 "King of the Goblins Blessing [&V]"
 END
 CONTROLBAR:GoblinsTrainAlliesDesc_New
-"Requires Level 6 \n Can only use on foot. \n Targeted units gain experience. \n Left click icon then left click on target units"
+"Requires Level 6 \n Targeted units gain experience. \n Left click icon then left click on target units"
 END
 //---------------------
 CONTROLBAR:GorkilToxicCumShot_New
-"Toxic cum-shot (&V)"
+"Toxic cum-shot (&C)"
 END
 CONTROLBAR:GorkilToxicCumShotDesc_New
-"Requires Level 5 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons paralyzes the target for 6 seconds.\n Left click icon then left click on target"
+"Requires Level 4 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons paralyzes the target for 6 seconds.\n Left click icon then left click on target"
 END
 //---------------------
 CONTROLBAR:GorkilRoussingSpeech_New
 "Goblin Roussing Speech [&B]"
 END
 CONTROLBAR:GorkilRoussingSpeechDesc_New
-"Requires Level 7 \n Can only use when mounted \n The Goblin King and nearby player goblins gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n left click icon to activate"
+"Requires Level 7 \n Can only use when mounted \n The Goblin King and nearby player goblins gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Category: 'Glorious_Charge' \n left click icon to activate"
+END
+//---------------------
+CONTROLBAR:GorkilSummonMarauders_New
+"Call from the Deeps [&V]"
+END
+CONTROLBAR:GorkilSummonMaraudersDesc_New
+"Requires Level 10 \n Gorkil awakes a bunch of monstrous marauders half-trolls from the deeps of the Middle-Earth where goblins manage to have sex with trolls. \n Opens a crack and deals damage in the holes."
 END
 //---------------------------------------------------
 CONTROLBAR:AxeStormIsengard_New
@@ -418,10 +442,10 @@ END
 //Requires Level 2 \n 
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades_New
-"Poisoned Axes (&J)"
+"Use Poisoned projec&tiles"
 End
 CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades_New
-"Poisons targeted enemies causing damage over time. \n Left click to activate"
+"Projectiles are empoison in order to slow down enemies and cause light damage over time. \n Left click to activate"
 End
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenBattleWagon_New
@@ -532,7 +556,8 @@ CONTROLBAR:IsengardTrainAlliesDesc_New
 END
 //-----
 CONTROLBAR:GrimaLandThing_New
-"Land of Confussion" // Tainted Land //"Alienating Land (&B)" // Tainted Land
+"Land of Confussion"
+ // Tainted Land //"Alienating Land (&B)" // Tainted Land
 End
 CONTROLBAR:GrimaLandThingDesc_New
 "Requires Level 7 \n Taints an area of terrain \n Those who sin, are reduced to 75% armor and 75% damage \n Those who have got weak hearts, are frightened \n Those who studied accounting, are terrorized \n Category: 'DEBUFF' \n Allied STRUCTURES health points are quadruplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area"
@@ -813,11 +838,19 @@ CONTROLBAR:EliteTrainingScienceDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade_New
-"Level 2: Allows recruiting Dunland Axe Throwers. \n +10% Faster Build Speed"
+"Level 2: Allows researching Gundabad Training upgrade. \n +10% Faster Build Speed"
+//"Level 2: Allows recruiting Dunland Axe Throwers. \n +10% Faster Build Speed"
 END
 //---------------------------------------------------
+CONTROLBAR:ConstructMordorWell_New
+"Build a Morgul healing pit (&W)" 
+//Necromancer Monument (&W)
+END
+OBJECT:MordorWell_New
+"Morgul healing pit" 
+END
 CONTROLBAR:ConstructTrollDrum_New
-"Build a troll drum (&W)"
+"Build a troll drum (&B)"
 END
 //---------------------------------------------------
 TOOLTIP:LackGondorBasicTraining_New
@@ -857,6 +890,13 @@ CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining_New
 END
 CONTROLBAR:ToolTipPurchaseTechnologyDwarvenBasicTraining_New
 "Requires Level 3 Forge Works and Science from SpellBook. \n Allows battalions of Men of Dale to purchase a Elite Training service. \n The upgraded hordes become able to shoot Black Arrows permanently and get increased to Level 2"
+END
+//------------------------------------------------------------
+CONTROLBAR:PurchaseTechnologySpiderVenomSacks_New
+"Research &Venom Sacs"
+END
+CONTROLBAR:ToolTipPurchaseTechnologySpiderVenomSacks_New
+"Requires Level 3 Treasure Trove and Science from SpellBook. \n Allows Goblins and Riders hordes to purchase a Venom Sacks. \n Provides ilimitated Poison Arrows ammo."
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseUpgradeIsengardBasicTraining_New
@@ -920,9 +960,6 @@ END
 CONTROLBAR:ToolTipBuildIsengardCrossbowmen_New
 "Strong vs. Infantry"
 END
-CONTROLBAR:ToolTipBuildGoblinArcherHorde_New
-"Strong vs. Infantry\n Resistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed" 
-END
 //---------------------------------------------------
 CONTROLBAR:PurchaseUpgradeSentryTowerPoisonArrows_New
 "Poison Arrows (&T)"
@@ -936,6 +973,16 @@ TOOLTIP:LackWildBasicTraining_New
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildBasicTraining_New
 "Increases this horde to level 2, grants Heavy Armor, and becomes able to use Poison Arrows permanently."
+END
+//------------------------------------------------------------
+CONTROLBAR:PurchaseSpiderVenomSacks_New
+"Purchase &Venom Sacs"
+END
+CONTROLBAR:ToolTipPurchaseSpiderVenomSacks_New
+"Upgrades this horde with Venom Sacs \n Archers become able to use Poison Arrow permanently, \n inflicting poison damage over time"
+END
+TOOLTIP:LackVenomSacksTechnology_New
+"Research at Treasure Trove to enable this equipment . \n When equipped, archers become able to use Poison Arrow permanently, \n inflicting poison damage over time"
 END
 //---------------------------------------------------
 TOOLTIP:LackDwarvenBasicTraining_New
@@ -968,11 +1015,8 @@ TOOLTIP:LackDwarvenFireArrows_New
 "Research upgrade at Siege Works to enable this equipment \n When equipped, significantly increases the damage caused by Arrows"
 END
 //------------------------------------------------------------------------
-TOOLTIP:WildVenomSacs_New
+TOOLTIP:MordorPoisonedSpears_New
 "Poisoned Spears \n This horde is equipped with spears that inflicts poison damage over time and slows down the enemy"
-END
-TOOLTIP:LackVenomSacksTechnology_New
-"Research upgrade at Tavern to enable this equipment \n When equipped, lancers spears inflict poison to enemies causing damage over time and slowing them down"
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseTechnologyWildBasicTraining_New
@@ -1035,7 +1079,7 @@ TOOLTIP:GenericBattleTowerDesc_New
 END
 //-------------------------------------------------
 TOOLTIP:GenericLoneTowerDesc_New
-"Fires at nearby enemies. \n Can be garrisoned with archers for greater damage output. \n Contained archers gain +9% Range.\n Category: 'Uncategorized' \n Can receive different upgrades from the fortress. "
+"Fires at nearby enemies. \n Can be garrisoned with archers for greater damage output. \n Contained archers gain +9% Range.\n Category: 'LoneTower' \n Can receive different upgrades from the fortress. "
 End
 //-------------------------------------------------
 TOOLTIP:ToolTipBattleWagonHearthDesc_New
@@ -1072,6 +1116,9 @@ END
 //--------------------------------------------------//
 TOOLTIP:GenericHeroicStatueDesc_New
 "Allies near the Statue gain +25% Damage \n and earn experience 25% faster. \n Category: 'Statue'"
+End
+TOOLTIP:GenericHeroicStatueDescGoblins_New
+"Allies near the Troll Drum gain +25% Damage \n and earn experience 25% faster. \n Category: 'Statue'"
 End
 //--------------------------------------------------//
 TOOLTIP:GenericWellDesc_New
@@ -1247,13 +1294,13 @@ END
 //	"Requires Level 3 \n Targeted player units gain \n+150% Damage, +30 speed & +60% range \n Category: 'GoblinFury' \n Enemy units are debuffed \n Left click icon then left click on target units"
 //	END
 CONTROLBAR:AzogScavenger_New
-"Scave&nger"
+"S&cavenger"
 End
 CONTROLBAR:AzogScavengerDesc_New
 "Requires Level 6 \n Nearby player unit's kills earn extra resources. \n Earn's 100% of the bounty value instead of 25%. \n Left click to activate"
 END
 CONTROLBAR:AzogGoblinCharge_New
-"Goblin Charge (&W)"
+"Goblin Charge (&T)"
 END
 CONTROLBAR:AzogGoblinChargeDesc_New
 "Requires Level 4 \n Calls a bunch of heavy armored goblins to charge against the enemy and poison them on their way. \n Summons more goblins at level 7 and even moar goblins at level 9. \n Left click icon then left click on target area"
@@ -1476,7 +1523,7 @@ CONTROLBAR:GloriousCharge_New
 "Glorious Charge [&V]"
 END
 CONTROLBAR:ToolTipGloriousCharge_New
-"Requires Level 7 \n Theoden and nearby player men gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n left click icon to activate"
+"Requires Level 7 \n Theoden and nearby player men gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n Category: 'Glorious_Charge' \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:Charge_New
@@ -1671,7 +1718,7 @@ CONTROLBAR:KingsFavorDainDesc_New
 "Requires Level 3 \n Targeted dwarves gain experience \n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipMightyRage_New
-"Requires Level 5 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Category: 'MightyRage' \n Enemy units are debuffed \n Left click icon then left click on target units"
+"Requires Level 5 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Units also become inmune to metaimpact. \n Category: 'MightyRage' \n Enemy units are debuffed \n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:DwarvenRiches_New
@@ -1720,6 +1767,9 @@ CONTROLBAR:ToolTipGlorfindelBladeOfPurity_New
 "Requires Level 6 \n Glorfindel gains +50% Damage and Invulnerability for 10 seconds. \n Nearby player units gain +37% damage. \n Category: 'High-Tier Hero'. \n Left click to activate"
 END
 //---------------------------------------------------
+CONTROLBAR:ToolTipBuilGenericLevel3UpgradeWithTowerGoblins_New
+"Level 3: +25% Faster Build Speed \n Reduces the cost of the available units by 33% \n Reduces the cost of the Gundabad Training upgrade by 33%\n Adds a defensive tower"
+END
 CONTROLBAR:ToolTipBuilGenericLevel3UpgradeWithTower_New
 "Level 3: +25% Faster Build Speed \n Reduces the cost of the available units by 33% \n Adds a defensive tower"
 END
@@ -1895,7 +1945,7 @@ END
 CONTROLBAR:PurchaseTechnologyPoisonedSpears_New
 "Research Poisoned Spears(&V)"
 END
-CONTROLBAR:ToolTipPurchaseTechnologySpiderVenomSacks_New
+CONTROLBAR:ToolTipPurchaseTechnologyPoisonedSpears_New
 "Allows hordes to purchase the Poisoned Spears upgrade \n When equipped, lances cause damage over time and slows down the enemy"
 END
 //---------------------------------------------
@@ -1910,29 +1960,35 @@ CONTROLBar:ToolTipDominateTrollNew
 "Take control of target enemy troll \n Left click icon then left click on target troll"
 End
 //-------------------------------------------------
-CONTROLBAR:GloinSlam_New
-"Slam [&R]"
-END
-CONTROLBAR:ToolTipDwarvenGloinSlam_New
-"Requires Level 4 \n Powerful attack that causes high damage\n Left click icon then left click on target"
-END
 CONTROLBAR:GloinShakeFoundation_New
-"Shake enemy boot&y"
+"Shake enemy booty (&R)"
 END
 CONTROLBAR:ToolTipDwarvenGloinShakeFoundation_New
 "Requires Level 2 \n Creates a hole beneath the enemy, shockwaving the target. \n Left click icon then left click on target"
 END
+CONTROLBAR:GloinSlam_New
+"Slam [&T]"
+END
+CONTROLBAR:ToolTipDwarvenGloinSlam_New
+"Requires Level 4 \n Powerful attack that causes high damage\n Left click icon then left click on target"
+END
+CONTROLBAR:Undermine_New
+"Open a Bunker (&C)"
+END
+CONTROLBAR:TooltipUndermine_New
+"Requires Level 7 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
+END
 CONTROLBAR:GloinEarthquake_New
-"Earthquake [&V]"
+"Earthquake [&B]"
 END
 CONTROLBAR:GloinEarthquakeDesc_New
 "Requires Level 9 \n Creates a small earthquake by doing some shit with it's hammer \n Left click icon then left click on target"
 END
-CONTROLBAR:Undermine_New
-"Open a &Bunker"
+CONTROLBAR:GloinSmash_New
+"Shatter Hammer [&V]"
 END
-CONTROLBAR:TooltipUndermine_New
-"Requires Level 7 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
+CONTROLBAR:ToolTipGloinSmash_New
+"Requires Level 10 \n Causes a small earthquake around Gloin's location \n Left click icon then left click on target"
 END
 // "with 10 contain slots  " not rlly
 //---------------------------------------------------
@@ -2017,13 +2073,13 @@ CONTROLBAR:BrandBoostDesc_New
 "Brand, as grandchild of Bard the Dragon Slayer, continues a lineage of excelent longbowmen. \n Brand has a improved archery skills and damage bonus against Dragons\n Passive ability"
 END
 CONTROLBAR:SpecialPowerDeadlySniper_New
-"Black Sniper [&V]"
+"&Black Sniper"
 END
 CONTROLBAR:TooltipSpecialPowerDeadlySniper_New
 "Requires Level 8 \n Temporarily grants an increase to damage and range. \n Left click to activate"
 END
 CONTROLBAR:DaleArcherAllies_New
-"Summon Dale Elite [&B]"
+"Summon Dale Elite [&V]"
 END
 CONTROLBAR:DaleArcherAlliesDesc_New
 "Requires Level 10 \n Summons two batallions of Elite Archers from Dale. \n Archers are equipped with Black Arrows. \n Left click icon then left click on pathable location"
@@ -2225,7 +2281,7 @@ END
 Upgrade:FortressFireArrows_New
 "Battle Tower Fire Arrows"
 END
-Upgrade:WildVenomSacs_New
+Upgrade:MordorPoisonedSpears_New
 "Poisoned Spears"
 END
 Upgrade:LegolasTrainedAlliesUpgrade_New
@@ -2390,8 +2446,9 @@ SCRIPT:GameStart1
 End
 SCRIPT:GameStart2
 //"Guerrilla cheats with double Farm. Block"
+"Win this map with Maka and \n you will gain respect among the cowmmunity."
 //"Win this map with Thorin and you will gain respect among the cowmmunity."
-"Always taking in consideration \n that Thorin Sucks, \n your goal is to survive 20 waves."
+//"Always taking in consideration \n that Thorin Sucks, \n your goal is to survive 20 waves."
 End
 SCRIPT:GameStart2_Cows
 "The Ladies will show you the route of your enemies"
@@ -2425,9 +2482,11 @@ SCRIPT:CREDITS
 "...Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau,\n Sauron, Temptation, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, Tor|Sapffire \n and whoever actually ever played this map during its three years of develepment."
 End
 SCRIPT:LOSE
-";( cows not happy"
+//";( cows not happy"
 // 	"Enemies have entered the tunnel system\n and poisoned the water supplies\n of the cows of this lands :/ \n Is thorin playing here or wat"
 //"lol. \nIs thorin playing here or what."
+//"lol. \nIs thorin playing here or what."
+"lol. \n Is maka playing here or what."
 End
 SCRIPT:LOSE_TESTINGMODE
 "lel. \n You lost, but this is testing mode."

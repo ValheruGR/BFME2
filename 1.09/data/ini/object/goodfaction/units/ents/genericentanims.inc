@@ -33,11 +33,21 @@
 			End
 		End
 
+		;;-;;
+		AnimationState = DYING DEATH_2 WEAPONSET_TOGGLE_1				; fading out.
+			Flags =	START_FRAME_LAST
+			Animation = Die
+				AnimationName = RUTreeberd_MOTC ;;-;; RUTreeberd_IDLA
+				AnimationMode = ONCE_BACKWARDS
+			End
+		End
+		;;-;;
 		AnimationState = DYING DEATH_2				; fading out.
 			Animation = Die
-				AnimationName = RUTreeberd_IDLA
-				AnimationMode = ONCE
+				AnimationName = RUTreeberd_MOTA ;;-;; RUTreeberd_IDLA
+				AnimationMode = ONCE_BACKWARDS
 			End
+			Flags =	START_FRAME_LAST
 		End
 
 		AnimationState = DYING WEAPONSET_TOGGLE_1
