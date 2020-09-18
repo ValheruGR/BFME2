@@ -127,7 +127,7 @@ CONTROLBAR:TooltipCrebain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Requires Level 3 \n Nearby allied cavalry gain +25% Damage, +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n Category: 'Unique SPELL' \n Passive ability"
+"Requires Level 3 \n Nearby allied cavalry gain +25% Damage, +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n Category: 'High-Tier SPELL' \n Passive ability"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
 "Requires Level 2 \n Order Guardians to charge the enemy \n Guardians gain +25% Speed and +25% Armor. \n Category: 'Armor BUFF' \n Causes meta impact \n Left click icon then left click on target"
@@ -1470,7 +1470,7 @@ CONTROLBAR:GrabPassengerTB
 "Pickup Merry or Pippin"
 END
 CONTROLBAR:SpecialAbility_ShieldBubble
-"Shield B&ubble"
+"Shield Bubble (&W)"
 END
 CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
 "The Wizard transfers all of his Power into a Shield that will absorbs every kind of damage dealt on him. \n Gandalf also gains inmunity to knock-back. \n Lasts 5 seconds. \n \n Left click icon to activate"

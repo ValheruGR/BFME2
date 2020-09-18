@@ -127,7 +127,7 @@ CONTROLBAR:TooltipCrebain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Requisito: Nivel 3. \n La caballería aliada cercana gana \n +25% a daño, +25% a armadura \n y consiguen experiencia un 50% más rápido.\n Se reduce la disminución de velocidad por pisoteo de la caballería amiga. \n Category: 'Unique SPELL' \n Capacidad pasiva."
+"Requisito: Nivel 3. \n La caballería aliada cercana gana \n +25% a daño, +25% a armadura \n y consiguen experiencia un 50% más rápido.\n Se reduce la disminución de velocidad por pisoteo de la caballería amiga. \n Category: 'High-Tier SPELL' \n Capacidad pasiva."
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
 "Requisito: Nivel 2. \n Ordena a los guardianes que carguen contra el enemigo. \n Los guardianes reciben +25% a la velocidad \n y +25% a la armadura. \n Category: 'Armor BUFF'  \n Causa metaimpacto. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
@@ -1471,7 +1471,7 @@ CONTROLBAR:GrabPassengerTB
 "Pickup Merry or Pippin"
 END
 CONTROLBAR:SpecialAbility_ShieldBubble
-"Burbuja esc&udo"
+"Burbuja escudo (&W)"
 END
 CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
 "El mago transfiere toda su energia en un escudo que absorberá toda clase de daño dirigido hacia él. \n Gandalf gana inmunidad al meta impacto \n Dura 5 segundos \n Haz clic con el botón izquierdo sobre el icono para activar."

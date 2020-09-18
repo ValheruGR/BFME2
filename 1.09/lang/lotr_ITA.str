@@ -127,7 +127,7 @@ CONTROLBAR:TooltipCrebain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Richiede livello 3.\nLa cavalleria alleata vicina ottiene +25% danno, +25% corazza e +50% accumulo esperienza.\nRidotto il rallentamento da calpestamento della cavalleria alleata. \n Category: 'Unique SPELL' \nAbilità passiva."
+"Richiede livello 3.\nLa cavalleria alleata vicina ottiene +25% danno, +25% corazza e +50% accumulo esperienza.\nRidotto il rallentamento da calpestamento della cavalleria alleata. \n Category: 'High-Tier SPELL' \nAbilità passiva."
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
 "Richiede livello 2.\nOrdina ai guardiani di caricare il nemico.\nI guardiani ottengono +25% velocità e +25% corazza. \n Category: 'Armor BUFF'  \nCausa danno da impatto.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
@@ -1475,7 +1475,7 @@ CONTROLBAR:GrabPassengerTB
 "Pickup Merry or Pippin"
 END
 CONTROLBAR:SpecialAbility_ShieldBubble
-"Sc&udo Sfera"
+"Scudo Sfera (&W)"
 END
 CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
 "Lo stregone trasferisce tutto il suo potere in uno scudo per difendersi \n Gandalf guadagna 99% Armatura e resiste ai contraccolpi per 5 secondi. \n Click sinistro sull'icona per attivare."

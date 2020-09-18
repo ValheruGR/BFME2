@@ -127,7 +127,7 @@ CONTROLBAR:TooltipCrebain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Nodig: niveau 3\nCavalerie van bondgenoten in de buurt krijgt +25% schade en +25% pantser,\nen verdient ervaring 50% sneller\nMinder vertraging door vertrappen van geallieerde cavalerie \n Category: 'Unique SPELL' \nPassieve kracht"
+"Nodig: niveau 3\nCavalerie van bondgenoten in de buurt krijgt +25% schade en +25% pantser,\nen verdient ervaring 50% sneller\nMinder vertraging door vertrappen van geallieerde cavalerie \n Category: 'High-Tier SPELL' \nPassieve kracht"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
 "Nodig: niveau 2\nLaat beschermers de vijand aanvallen\nBeschermers krijgen +25% snelheid en +25% pantser \n Category: 'Armor BUFF'  \nVijanden worden de lucht in geslingerd\nKlik met links op het icoontje en daarna met links op het doelwit"
@@ -1472,7 +1472,7 @@ CONTROLBAR:GrabPassengerTB
 "Pickup Merry or Pippin"
 END
 CONTROLBAR:SpecialAbility_ShieldBubble
-"Shield B&ubble"
+"Shield Bubble (&W)"
 END
 CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
 "The Wizard transfers all of his Power into a Shield that will absorbs every kind of damage dealt on him. \n Gandalf also gains inmunity to knock-back. \n Lasts 5 seconds. \n \n Left click icon to activate"

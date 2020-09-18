@@ -127,7 +127,7 @@ CONTROLBAR:TooltipCrebain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Krever: Nivå 3\nAlliert kavaleri i nærheten får +25 % skadebonus, +25 % rustning og får erfaring 50 % raskere \n Senkning av eget kavaleris tramping reduseres \n Category: 'Unique SPELL' \n Passiv egenskap"
+"Krever: Nivå 3\nAlliert kavaleri i nærheten får +25 % skadebonus, +25 % rustning og får erfaring 50 % raskere \n Senkning av eget kavaleris tramping reduseres \n Category: 'High-Tier SPELL' \n Passiv egenskap"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
 "Krever: Nivå 2\nGi voktere ordre om å storme fienden\nVokterne får +25 % hurtighet og +25 % rustning \n Category: 'Armor BUFF' \nForårsaker metaskade\nVenstreklikk på ikonet, og venstreklikk på målet"
@@ -1475,7 +1475,7 @@ CONTROLBAR:GrabPassengerTB
 "Pickup Merry or Pippin"
 END
 CONTROLBAR:SpecialAbility_ShieldBubble
-"Shield B&ubble"
+"Shield Bubble (&W)"
 END
 CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
 "The Wizard transfers all of his Power into a Shield that will absorbs every kind of damage dealt on him. \n Gandalf also gains inmunity to knock-back. \n Lasts 5 seconds. \n \n Left click icon to activate"

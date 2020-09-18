@@ -127,7 +127,7 @@ CONTROLBAR:TooltipCrebain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Requiert : niveau 3 \nLa cavalerie alliée proche gagne +25% armure, +25% dégâts, expérience gagnée 50% plus rapidement \nRéduction de l'écrasement de cavalerie alliée \n Category: 'Unique SPELL' \nCapacité passive"
+"Requiert : niveau 3 \nLa cavalerie alliée proche gagne +25% armure, +25% dégâts, expérience gagnée 50% plus rapidement \nRéduction de l'écrasement de cavalerie alliée \n Category: 'High-Tier SPELL' \nCapacité passive"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
 "Requiert niveau 2 \nOrdonne aux gardiens de charger l'ennemi\nLe gardien gagne +25% vitesse et +25% armure \n Category: 'Armor BUFF'  \nProvoque un renversement \nClic gauche sur l'icône puis clic gauche sur la cible"
@@ -1469,7 +1469,7 @@ CONTROLBAR:GrabPassengerTB
 "Recueillir Merry et Pippin"
 END
 CONTROLBAR:SpecialAbility_ShieldBubble
-"B&ulle protectrice"
+"B&ulle protectrice (&W)"
 END
 CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
 "Le magicien concentre tout son Pouvoir dans un bouclier qui absorbera tous les dommages reçus. \n Gandalf ne peut être renversé. \n Dure 5 secondes \n Clic gauche pour activer"

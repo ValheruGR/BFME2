@@ -127,7 +127,7 @@ CONTROLBAR:TooltipCrebain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Wymaga 3 poziomu \n Pobliska sojusznicza kawaleria otrzymuje +25% do zadawanych obrazen, +25% do pancerza oraz 50% szybciej zdobywa doswiadczenie \n Zmniejsza redukcje szybkosci sojuszniczej kawalerii przy tratowaniu \n Category: 'Unique SPELL' \n Zdolnosc bierna"
+"Wymaga 3 poziomu \n Pobliska sojusznicza kawaleria otrzymuje +25% do zadawanych obrazen, +25% do pancerza oraz 50% szybciej zdobywa doswiadczenie \n Zmniejsza redukcje szybkosci sojuszniczej kawalerii przy tratowaniu \n Category: 'High-Tier SPELL' \n Zdolnosc bierna"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
 "Wymaga 2 poziomu \n Wydaje gwardzistom rozkaz zaatakowania wroga \n Gwardzisci otrzymuja +25% do szybkosci oraz +25% do pancerza \n Category: 'Armor BUFF' \n Atak powoduje odrzucenie przeciwnika \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
@@ -1475,7 +1475,7 @@ CONTROLBAR:GrabPassengerTB
 "Podnies Merrego albo Pippina"
 END
 CONTROLBAR:SpecialAbility_ShieldBubble
-"Ochronny Babel (&B)"
+"Ochronny Babel (&W)"
 END
 CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
 " Czarodziej przemienia swoje moce w ochronna tarcze, ktora bedzie absolbowac  kazdy rodzaj ataku uzyty na niej.\n Gandalf jest niewrazliwy na przewrocenia.\n Trwa 5 sek.\n Klinac lewym przyciskiem na ikone by aktywowac"
