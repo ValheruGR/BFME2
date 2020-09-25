@@ -23,11 +23,34 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPersonalFlood09v2
+"Wymaga 5 poziomu \n Przywoluje potop, który niszczy wrogów i gasi ogien.\n Bardzo efektywne przeciw kawaleri.\nBonus przeciwk Czarnym Jezdzca. \n The flood horses are improved at level 10. \n Kliknij lewym przyciskiem myszy na ikonie, a nastepnie na celu"
+END
+CONTROLBAR:ToolTipSlayer09v2
+"Wymaga 5 poziomu \n Gimli otrzymuje +50% do zadawanych obrazen, oraz zyskuje dwukrotnie wieksza szybkosc, ale traci -15%  do pancerza \n Has an 80% chance to knockback heroes\n Kliknij lewym przyciskiem, aby uaktywnic"
+END
+CONTROLBAR:TooltipElrondWhirlwind09v2
+"Wymaga 6 poziomu \n Przywoluje niszczycielski wir na pole bitwy \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
+END
+CONTROLBAR:TooltipScreechWitchKing09v2
+"Wymaga 4 poziomu \n Sprawia, ze jednostki wroga uciekaja w przerazeniu \n When dismounted it can pierce through the level 5 fear immunity from enemy hordes\n Kliknij lewym przyciskiem, aby uaktywnic"
+END
 //------------------------------------------------------------
-UPGRADE:AutohealUpgradeAdvanced
+CONTROLBAR:ToolTipBuildIronOreUpgrade09v2
+"Zmniejsza koszt hartowanych ostrzy i ciezkich zbroi o 33%"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
+"Wymaga 3 poziomu \n Glorfindel otrzymuje +50% do zadawanych obrazen oraz nietykalnosc przez 10s\nMoze uzyc jedynie gdy  walczy pieszo \n Kliknij lewym przyciskiem, aby uaktywnic"
+END
+CONTROLBAR:TooltipBladeMaster09v2
+"Wymaga 2 poziomu \n Aragorn otrzymuje +50% do zadawanych obrazen oraz podwaja pancerz \n Kliknij lewym przyciskiem myszy, aby uaktywnic"
+END
+//------------------------------------------------------------
+UPGRADE:AutohealUpgradeAdvanced09v2
 "Advanced Auto heal"
 END
-UPGRADE:AutohealUpgradeBasic
+UPGRADE:AutohealUpgradeBasic09v2
 "Basic Auto heal"
 END
 //------------------------------------------------------------
@@ -114,7 +137,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'WEAPON' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'Non-wipeable' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipWitchKingDreadVisage09v2
 "Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
@@ -44447,7 +44470,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Wymaga 2 poziomu \n Aragorn otrzymuje +50% do zadawanych obrazen oraz podwaja pancerz \n Kliknij lewym przyciskiem myszy, aby uaktywnic"
+"Wymaga 2 poziomu \n Aragorn otrzymuje +100% do zadawanych obrazen oraz podwaja pancerz \n Kliknij lewym przyciskiem myszy, aby uaktywnic"
 END
 
 CONTROLBAR:ToolTipAragornLeadership

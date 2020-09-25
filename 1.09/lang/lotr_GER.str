@@ -23,11 +23,34 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPersonalFlood09v2
+"Voraussetzung: Stufe 5 \n Entfesselt eine Flut, die Gegner verletzt und Feuer löscht \n Besonders effektiv gegen Reiter \n Bonus gegen schwarze Reiter \n The flood horses are improved at level 10.\n\n Linksklicke auf das Symbol und anschließend auf das Ziel"
+END
+CONTROLBAR:ToolTipSlayer09v2
+"Voraussetzung: Stufe 5 \n Gimli verursacht +50% Schaden und ist doppelt so schnell, aber verliert -15% Schutz vor Gebäudeschaden \n Has an 80% chance to knockback heroes\n Aktivieren mit Linksklick"
+END
+CONTROLBAR:TooltipElrondWhirlwind09v2
+"Voraussetzung: Stufe 6 \n Beschwört auf dem Schlachtfeld einen zerstörerischen Wirbelwind \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+END
+CONTROLBAR:TooltipScreechWitchKing09v2
+"Voraussetzung: Stufe 4 \n Schlägt feindliche Einheiten in die Flucht \n When dismounted it can pierce through the level 5 fear immunity from enemy hordes\n Aktivieren mit Linksklick"
+END
 //------------------------------------------------------------
-UPGRADE:AutohealUpgradeAdvanced
+CONTROLBAR:ToolTipBuildIronOreUpgrade09v2
+"Senkt Kosten der Upgrades "Geschmiedete Klingen" und "Schwere Rüstung" um 33%"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
+"Voraussetzung: Stufe 3 \n Glorfindel verursacht +50% Schaden und ist 10 Sekunden lang unverwundbar\n Kann nur zu Fuß verwendet werden \n Aktivieren mit Linksklick"
+END
+CONTROLBAR:TooltipBladeMaster09v2
+"Voraussetzung: Stufe 2 \n Aragorn verursacht +50% Schaden und erhält +50% Rüstung\n Aktivieren mit Linksklick"
+END
+//------------------------------------------------------------
+UPGRADE:AutohealUpgradeAdvanced09v2
 "Advanced Auto heal"
 END
-UPGRADE:AutohealUpgradeBasic
+UPGRADE:AutohealUpgradeBasic09v2
 "Basic Auto heal"
 END
 //------------------------------------------------------------
@@ -114,7 +137,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'WEAPON' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'Non-wipeable' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipWitchKingDreadVisage09v2
 "Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
@@ -44452,7 +44475,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Voraussetzung: Stufe 2 \n Aragorn verursacht +50% Schaden und erhält +50% Rüstung\n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 2 \n Aragorn verursacht +100% Schaden und erhält +50% Rüstung\n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:ToolTipAragornLeadership

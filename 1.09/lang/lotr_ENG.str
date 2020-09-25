@@ -23,11 +23,34 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPersonalFlood09v2
+"Requires Level 5 \n Summons a flood that will damage enemies and put out fires. \n Specially effective to cavalry. \n Bonus against Black Riders. \n The flood horses are improved at level 10. \n\nLeft click icon then left click on target"
+END
+CONTROLBAR:ToolTipSlayer09v2
+"Requires Level 5 \n Gimli gains +50% Damage, Double Speed, but loses -15% armor against Structural arrows. \n Has an 80% chance to knockback heroes \n Left click to activate"
+END
+CONTROLBAR:TooltipElrondWhirlwind09v2
+"Requires Level 6 \n Summons a destructive whirlwind onto the battlefield \n Lasts 17s \n Deals minimal damage to all units \n Left click icon then left click on target area"
+End
+CONTROLBAR:TooltipScreechWitchKing09v2
+"Requires Level 4 \n Causes enemy units to flee in terror \n When dismounted it can pierce through the level 5 fear immunity from enemy hordes \n Left click to activate"
+END
 //------------------------------------------------------------
-UPGRADE:AutohealUpgradeAdvanced
+CONTROLBAR:ToolTipBuildIronOreUpgrade09v2
+"Reduces the cost of Forged Blades and Heavy Armor upgrades by 33%"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
+"Requires Level 3 \n Glorfindel gains +50% Damage and Invulnerability for 10s \n Can only use when dismounted \n\n Left click to activate"
+END
+CONTROLBAR:TooltipBladeMaster09v2
+"Requires Level 2 \n Aragorn gains +50% Damage and +50% armor. \n Left click to activate"
+END
+//------------------------------------------------------------
+UPGRADE:AutohealUpgradeAdvanced09v2
 "Advanced Auto heal"
 END
-UPGRADE:AutohealUpgradeBasic
+UPGRADE:AutohealUpgradeBasic09v2
 "Basic Auto heal"
 END
 //------------------------------------------------------------
@@ -114,7 +137,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'WEAPON' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'Non-wipeable' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipWitchKingDreadVisage09v2
 "Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
@@ -16592,7 +16615,7 @@ CONTROLBAR:ElvenWood
 End
 
 CONTROLBAR:ToolTipElvenWood
-"Creates lush terrain \n Allied units gain +35% armor. \n Left click icon then left click on target area"
+"Creates lush terrain \n Allied units gain double armor \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:SummonEntAllies
@@ -16832,7 +16855,7 @@ CONTROLBAR:ToolTipBuildReinforcedGateUpgrade
 END
 
 CONTROLBAR:ToolTipBuildIronOreUpgrade
-"Reduces the cost of Forged Blades and Heavy Armor upgrades by 33%"
+"Reduces the cost of Forged Blades and Heavy Armor upgrades by 25%"
 END
 
 CONTROLBAR:ToolTipBuildGrandHarvestUpgrade
@@ -17786,7 +17809,7 @@ CONTROLBAR:TooltipScreechBlackRider
 END
 
 CONTROLBAR:TooltipScreechWitchKing
-"Requires Level 4 \n Causes enemy units to flee in terror \n When dismounted it can pierce through the level 5 fear immunity from enemy hordes \n Left click to activate"
+"Requires Level 6 \n Causes enemy units to flee in terror \n Left click to activate"
 END
 
 CONTROLBAR:NarsilAttack
@@ -17878,7 +17901,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:ToolTipInspiringPresence
-"Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster \n Always stacks \n \n Passive ability"
+"Allies near Tom Bombadil gain \n +25% Damage, +25% Armor, \n and earn experience +50% faster \n Always stacks \n \n Passive ability"
 END
 
 CONTROLBAR:DwarvenGrudge
@@ -31210,7 +31233,7 @@ CONTROLBAR:Crebain
 END
 
 CONTROLBAR:TooltipCrebain
-"Reveals the shroud and detects stealthed units \n Enemy units are reduced to 75% armor and 75% damage \n Left click icon then left click on target area"
+"Reveals the shroud and detects stealthed units \n Significantly reduces enemy Armor and Damage \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:SummonWild
@@ -31258,7 +31281,7 @@ CONTROLBAR:CaveBats
 END
 
 CONTROLBAR:TooltipCaveBats
-"Reveals the shroud and detects stealthed units \n Enemy units lose their simple leadership bonuses \n Enemy units are reduced to 75% armor and 75% damage \n\n Left click icon then left click on pathable location"
+"Reveals the shroud and detects stealthed units \n Enemy units lose their simple leadership bonuses \n Significantly reduces enemy Armor and Damage \n\n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:UntamedAllegiance
@@ -31725,7 +31748,7 @@ CONTROLBAR:DreadVisage
 END
 
 CONTROLBAR:ToolTipDreadVisage
-"Enemy units are reduced to 75% armor and 75% damage \n Enemy units lose their simple leadership bonuses \n Passive ability"
+"Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Passive ability"
 END
 
 CONTROLBAR:ToolTipBlackRiderMorgulBlade
@@ -31749,7 +31772,7 @@ CONTROLBAR:BloodHunt
 END
 
 CONTROLBAR:ToolTipGlorfindelWindRider
-"Requires Level 6 \n Glorfindel gains +40% speed and +50% armor when mounted \n Required to be mounted \n Left click to activate"
+"Requires Level 6 \n Glorfindel gains +40% speed and Double Armor when mounted \n Left click to activate"
 END
 
 CONTROLBAR:WildWalk
@@ -32476,7 +32499,7 @@ CONTROLBAR:ToolTipWitchKingDismount
 End
 
 CONTROLBAR:ToolTipWitchKingDreadVisage
-"Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Enemy units lose their simple leadership bonuses \n Passive ability"
+"Requires Level 2 \n Significantly reduces enemy Armor and Damage \n Enemy units lose their simple leadership bonuses \n Passive ability"
 End
 
 CONTROLBAR:ToolTipWitchKingMount
@@ -47163,7 +47186,7 @@ CONTROLBAR:ToolTipBuildGondorFighterHorde
 "Strong vs. Pikemen\n and Resource Buildings"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
-"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed"
+"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed -10% pierce resistance"
 END
 CONTROLBAR:ToolTipBuildMordorCorsairHorde
 "Strong vs. Pikemen and Structures"
@@ -47346,11 +47369,11 @@ CONTROLBAR:TooltipRallyingCall
 END
 
 CONTROLBAR:TooltipDwarvenRiches
-"Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"
+"Selected structure's resource output is temporarily raised to 300% \n Left click icon then left click on target resource structure"
 END
 
 CONTROLBAR:TooltipPalantirVision
-"Spy on the enemy forces\n\n Gives a temporary +10% speed bonus to \n units at its target area\n Always stacks \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area\n Always stacks \n \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:TooltipFarSeeing
@@ -47451,11 +47474,11 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Allies near Theoden gain \n +25% damage and earn experience 25% faster. \n Always stacks\n \n Passive ability"
+"Allies near Theoden gain \n +50% Damage \n +25% experience \n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipGloriousCharge
-"Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, +25 damage and become immune to desacelerate(and fear) by trampling. \n Theoden must be mounted to use ability \n Bonus cannot be removed and always stacks \n Left click to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain +80% armor, +25 damage and become inmune to desacelerate by trampling. \n Theoden must be mounted to use ability \n Bonus cannot be removed and always stacks \n Left click to activate"
 END
 
 //Eowyin
@@ -47477,7 +47500,7 @@ CONTROLBAR:ToolTipEowynMount
 END
 
 CONTROLBAR:ToolTipSmite
-"Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
+"Powerful ranged attack \n Bonus against evil heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
 END
 
 //Faramir
@@ -47499,7 +47522,7 @@ CONTROLBAR:CaptainofGondor
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
-"Requires Level 6 \n Allies near Faramir gain \n +35% armor \n \n Passive ability"
+"Requires Level 6 \n Allies near Faramir gain \n +50% Armor \n \n Passive ability"
 END
 
 
@@ -47510,7 +47533,7 @@ CONTROLBAR:ThrowSpear
 END
 
 CONTROLBAR:ToolTipEomerLeadership
-"Requires Level 3 \n Cavalry near Eomer gain 35% Armor \n \n Passive ability"
+"Requires Level 3 \n Cavalry near Eomer gain double Armor \n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -47536,7 +47559,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Requires Level 2 \n Aragorn gains +50% Damage and +50% armor. \n Left click to activate"
+"Requires Level 2 \n Aragorn gains +100% Damage and double Armor. \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipAragornLeadership
@@ -47579,8 +47602,8 @@ CONTROLBAR:ToolTipMenLongShotAbility
 "Requires Level 2 \n \n The rangers bombard anywhere within great radius with a volley of arrows \n Left click icon then left click on target area"
 End
 
-TOOLTIP:ToolTipToggleGFighterLineToBlockFormation
-"Research Banner Carrier upgrade at Barracks to enable this equipment \n \n +25% Armor, -30% Speed and +33% extra arrow resistance"
+CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
+"Research Banner Carrier upgrade at Barracks to enable this equipment \n \n +20% Armor but +25% resistance to arrows, -30% Speed"
 END
 
 // +++++++++++++++++++++++++++++++++++++++++++ELVES+++++++++++++++++++++++++++++++++++++++++++
@@ -47645,7 +47668,7 @@ CONTROLBAR:TooltipElvenGrace
 END
 
 CONTROLBAR:ToolTipPersonalFlood
-"Requires Level 5 \n Summons a flood that will damage enemies and put out fires. \n Specially effective to cavalry. \n Bonus against Black Riders \n\nLeft click icon then left click on target"
+"Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective to cavalry. \n Bonus against Black Riders \n\nLeft click icon then left click on target"
 END
 
 //Haldir
@@ -47743,7 +47766,7 @@ CONTROLBAR:ElrondWhirlwind
 End
 
 CONTROLBAR:TooltipElrondWhirlwind
-"Requires Level 6 \n Summons a destructive whirlwind onto the battlefield \n Lasts 17s \n Deals minimal damage to all units \n Left click icon then left click on target area"
+"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
 End
 
 // Treebeard
@@ -47766,7 +47789,7 @@ OBJECT:DwarvenStatueDescription
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Allies near Fortress gain \n +25% Damage and 25% experience \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +50% Damage and 25% experience \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
@@ -47790,7 +47813,7 @@ CONTROLBAR:ToolTipBlackArrows
 End
 
 OBJECT:DwarvenHeroicStatueDescription
-"Allies near the Statue gain 35% Armor \n \n Increases command point limit by 10"
+"Allies near the Statue gain double Armor \n \n Increases command point limit by 10"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade
@@ -47838,7 +47861,7 @@ CONTROLBAR:ToolTipDainLeadership
 END
 
 CONTROLBAR:ToolTipMightyRage
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed and +25% Damage\n Bonus cannot be removed and always stacks \n\n Enemy units are reduced to 75% armor and 75% damage \n Enemy units lose their simple leadership bonuses \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed and +25% Damage\n Bonus cannot be removed and always stacks \n\n Enemy units are debuffed \n\n Left click icon then left click on target units"
 END
 
 // Gimli
@@ -47856,7 +47879,7 @@ CONTROLBAR:Slayer
 END
 
 CONTROLBAR:ToolTipGimliLeadership
-"Allies near Gimli gain +35% armor\n \n Passive ability"
+"Allies near Gimli gain double Armor\n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipAxeThrow
@@ -47864,7 +47887,7 @@ CONTROLBAR:ToolTipAxeThrow
 END
 
 CONTROLBAR:ToolTipSlayer
-"Requires Level 5 \n Gimli gains +50% Damage, Double Speed, but loses -15% Structural Armor \n Has an 80% chance to knockback heroes \n Left click to activate"
+"Requires Level 5 \n Gimli gains +50% Damage, Double Speed, but loses -15% Structural Armor \n Left click to activate"
 END
 
 //====== Units
@@ -47924,11 +47947,11 @@ CONTROLBAR:ToolTipDevastation
 END
 
 CONTROLBAR:ToolTipTaint
-"Taints an area of terrain \n All ally units gain +35% armor \n Left click icon then left click on target area"
+"Taints an area of terrain \n All ally units gain double Armor \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipEyeofSauron
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster \n always stacks \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% armor \n and earn experience 50% faster \n Simple leadership kind \n Always stacks \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipDarkness
@@ -47940,7 +47963,7 @@ CONTROLBAR:ToolTipSummonCrebain
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
-"Requires Level 5 \n Allies near Lurtz gain \n +50% Damage \n and earn experience 25% faster. \n \n Passive ability"
+"Requires Level 5 \n Allies near Lurtz gain \n +50% Damage +25% Experience \n \n Passive ability"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
@@ -47960,7 +47983,7 @@ CONTROLBAR:ToolTipDominate
 END
 
 CONTROLBAR:ToolTipSharkuManEater
-"Requires Level 6 \n Kill target enemy which restores Sharku's health and temporarily grants +35% Damage, +35% armor and -50% crushing deceleration.\n Left click icon then left click on target enemy"
+"Requires Level 8 \n Kill target enemy which restores Sharku's health and temporarily grants +50% Damage and double armor \n Left click icon then left click on target enemy"
 END
 
 //=== Heroes
@@ -48013,7 +48036,7 @@ CONTROLBAR:TooltipEscape
 END
 
 CONTROLBAR:ToolTipVenomousWords
-"Enemy units are reduced to 60% speed and 50% rate of fire \n Enemy units lose their simple leadership bonuses \n Stacks with other negative spells \n\n Left click icon then left click on target units"
+"Significantly reduces enemy speed and rate of fire \n Enemy units lose their simple leadership bonuses \n Stacks with other negative spells \n\n Left click icon then left click on target units"
 END
 
 
@@ -48056,7 +48079,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Allies near the Drummer Troll gain +35% armor and +25% experience \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster\n Passive ability"
+"Allies near the Drummer Troll gain double armor and +25% experience \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster\n Passive ability"
 END
 
 //Structures
@@ -48130,11 +48153,11 @@ CONTROLBAR:ToolTipBuildGoblinCaveTroll
 END
 
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy
-"Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
+"Requires Level 4 \n Allies near the hero gain \n +25% Armor and earn experience 25% faster \n Always stacks \n \nPassive ability"
 End
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies \n Left click icon then left click on target area"
+"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides double armor and +25% experience bonus to nearby allies \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
@@ -48242,7 +48265,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions
 END
 
 CONTROLBAR:TooltipWargRiderHowl
-"Wargs gain +55% Damage but \n lose -15% armor against pike and structural damage\n Bonus cannot be removed and does not stack \n Left click to activate"
+"Wargs gain +65% Damage but \n lose -15% armor against pikes and structural \n Bonus cannot be removed and always stacks \n Left click to activate"
 END
 
 //========== Release Candidate 4 fixes

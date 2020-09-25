@@ -23,11 +23,34 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPersonalFlood09v2
+"Requisito: Nivel 5. \n Convoca una inundación que daña a los enemigos y apaga los fuegos. \n Bonificación contra Nazguls. \n The flood horses are improved at level 10.\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+END
+CONTROLBAR:ToolTipSlayer09v2
+"Requisito: Nivel 5. \n Gimli causa +50% daño y dobla su velocidad. \n Pierde -15% armadura contra daño del tipo estructural \n Has an 80% chance to knockback heroes\n Para activarlo, haz clic con el botón izquierdo."
+END
+CONTROLBAR:TooltipElrondWhirlwind09v2
+"Requisito: Nivel 6 \n Convoca un remolino de destrucción. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+END
+CONTROLBAR:TooltipScreechWitchKing09v2
+"Requisito: Nivel 4 \n Hace que las unidades enemigas huyan presa del terror.\n When dismounted it can pierce through the level 5 fear immunity from enemy hordes \n Haz clic con el botón izquierdo para activarlo."
+END
 //------------------------------------------------------------
-UPGRADE:AutohealUpgradeAdvanced
+CONTROLBAR:ToolTipBuildIronOreUpgrade09v2
+"Reduce en un 33% el coste de las mejoras espadas forjadas y armadura pesada."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
+"Requisito: Nivel 3. \n Glorfindel recibe +50% al daño e invulnerabilidad durante 10 s cuando no está montado. \n Para activarlo, haz clic con el botón izquierdo."
+END
+CONTROLBAR:TooltipBladeMaster09v2
+"Requisito: Nivel 2. \n Aragorn recibe +50% al daño y +50% a la armadura.\n Para activarlo, haz clic con el botón izquierdo."
+END
+//------------------------------------------------------------
+UPGRADE:AutohealUpgradeAdvanced09v2
 "Advanced Auto heal"
 END
-UPGRADE:AutohealUpgradeBasic
+UPGRADE:AutohealUpgradeBasic09v2
 "Basic Auto heal"
 END
 //------------------------------------------------------------
@@ -114,7 +137,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'WEAPON' \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'Non-wipeable' \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipWitchKingDreadVisage09v2
 "Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
@@ -29662,7 +29685,7 @@ CONTROLBAR:SharkuWargMount
 END
 
 CONTROLBAR:ShelobWebbing
-"Telaraña de Ungoliant [&B]"
+"Telaraña de Ungoliant. (&B)"
 END
 
 CONTROLBAR:SpecialAbilityBatCloud
@@ -44462,7 +44485,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Requisito: Nivel 2. \n Aragorn recibe +50% al daño y +50% a la armadura.\n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 2. \n Aragorn recibe +100% al daño y +50% a la armadura.\n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:ToolTipAragornLeadership
