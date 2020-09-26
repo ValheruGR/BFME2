@@ -93,9 +93,8 @@
 				Model = None
 			End
 			AnimationState = USER_69 //	SpellBookDarkness
-  				;;-;; ParticleSysBone		= NONE DarknessPseudoNugget09v2 FollowBone:Yes
-  				;;-;; ParticleSysBone		= NONE HighLevelLD_DarknessNoSL FollowBone:Yes
-  				ParticleSysBone		= NONE DarknessGlowStyle09v2 FollowBone:Yes	;;-;; TESTING
+				;ParticleSysBone		= NONE DarknessTwinkleStyle09v2 FollowBone:Yes
+  				ParticleSysBone			= NONE DarknessGlowStyle09v2 FollowBone:Yes
  			End
         End
 		//------------------
