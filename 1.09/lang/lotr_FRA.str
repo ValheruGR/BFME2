@@ -23,12 +23,35 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPersonalFlood09v2
+"Requiert : niveau 5\nInvoque une inondation qui inflige des dégâts à l'ennemi et éteint les feux \n Particulièrement éfficace contre la cavalerie \n Bonus contre les Cavaliers noirs \n Bonus against Black Riders. \n The flood horses are improved at level 10.\nClic gauche sur l'icône puis clic gauche sur la cible"
+END
+CONTROLBAR:ToolTipSlayer09v2
+"Requiert : niveau 5\nGimli gagne +50% dégâts et double sa vitesse mais -15% de résistance aux attaques provenant de structures \n Has an 80% chance to knockback heroes\nClic gauche pour activer"
+END
+CONTROLBAR:TooltipElrondWhirlwind09v2
+"Requiert : niveau 6\nInvoque un tourbillon dévastateur sur le champ de bataille \nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
+END
+CONTROLBAR:TooltipScreechWitchKing09v2
+"Requiert niveau 4 \n Fait fuir de terreur les unités ennemies \n When dismounted it can pierce through the level 5 fear immunity from enemy hordes\n Clic gauche pour activer"
+END
 //------------------------------------------------------------
-UPGRADE:AutohealUpgradeAdvanced
+CONTROLBAR:ToolTipBuildIronOreUpgrade09v2
+"Réduit le coût des Lames forgées et des améliorations d'Armures lourdes de 33%"
+END
+//------------------------------------------------------------
+UPGRADE:AutohealUpgradeAdvanced09v2
 "Advanced Auto heal"
 END
-UPGRADE:AutohealUpgradeBasic
+UPGRADE:AutohealUpgradeBasic09v2
 "Basic Auto heal"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
+"Requiert : niveau 3 \nGlorfindel gagne +50% dégâts et invulnérabilité pendant 10s\n Ne peut être utilisé que Glorfindel descendu de sa monture \nClic gauche pour activer"
+END
+CONTROLBAR:TooltipBladeMaster09v2
+"Requiert : niveau 2\nAragorn gagne +50% dégâts et double son armure \nClic gauche pour activer"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
@@ -114,7 +137,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'WEAPON' \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'Non-wipeable' \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipWitchKingDreadVisage09v2
 "Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
@@ -496,7 +519,7 @@ Map:mapETgapofrohanII
 "Gap of Rohan II " 
 End
 Map:mapETgapofrohanII/Desc
-"The only large and easily traversable pass between the Misty Mountains and the White Mountains. \n Map reworked Ecthelion, originally from BFME1."
+"The only large and easily traversable pass between the Misty Mountains and the White Mountains. \n Map reworked by Ecthelion, originally from BFME1."
 End
 //------------------------------------------------------------
 Map:mapTTsouthhollin
@@ -44443,7 +44466,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Requiert : niveau 2\nAragorn gagne +50% dégâts et double son armure \nClic gauche pour activer"
+"Requiert : niveau 2\nAragorn gagne +100% dégâts et double son armure \nClic gauche pour activer"
 END
 
 CONTROLBAR:ToolTipAragornLeadership

@@ -23,11 +23,34 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPersonalFlood09v2
+"Требуется уровень 5. \n Громадная волна наносит урон врагам и тушит пожары. \n Особенно эффективна против Назгулов. \n Bonus against Black Riders. \n The flood horses are improved at level 10.\n Щелкните на пиктограмме, затем - на цели."
+END
+CONTROLBAR:ToolTipSlayer09v2
+"Требуется уровень 5. \n Гимли получает +50% к атаке, скорость удвоена. \n Штраф к броне против зданий -15%. \n Has an 80% chance to knockback heroes\n ЛКМ - применение способности."
+END
+CONTROLBAR:TooltipElrondWhirlwind09v2
+"Требуется уровень 6. \n На поле боя возникает страшный ураган. \n Щелкните на пиктограмме, затем - на участке местности."
+END
+CONTROLBAR:TooltipScreechWitchKing09v2
+"Треубется уровень 4. \n Враги в ужасе разбегаются. \n When dismounted it can pierce through the level 5 fear immunity from enemy hordes\n ЛКМ - применение способности."
+END
 //------------------------------------------------------------
-UPGRADE:AutohealUpgradeAdvanced
+CONTROLBAR:ToolTipBuildIronOreUpgrade09v2
+"Сокращение стоимости стального оружия и тяжелых доспехов на 33%."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
+"Требуется уровень 3. \n Глорфиндел наносит +50% урона и становится неуязвимым на 10 секунд. \n Может быть использована только пешим Глорфинделом. \n \nЛКМ - применение способности."
+END
+CONTROLBAR:TooltipBladeMaster09v2
+"Требуется уровень 2. \n Арагорн наносит +50% урона и получает +50% брони. \n ЛКМ - применение способности."
+END
+//------------------------------------------------------------
+UPGRADE:AutohealUpgradeAdvanced09v2
 "Advanced Auto heal"
 END
-UPGRADE:AutohealUpgradeBasic
+UPGRADE:AutohealUpgradeBasic09v2
 "Basic Auto heal"
 END
 //------------------------------------------------------------
@@ -114,7 +137,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'WEAPON' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'Non-wipeable' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipWitchKingDreadVisage09v2
 "Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
@@ -468,7 +491,7 @@ Map:mapETgapofrohanII
 "Gap of Rohan II " 
 End
 Map:mapETgapofrohanII/Desc
-"The only large and easily traversable pass between the Misty Mountains and the White Mountains. \n Map reworked Ecthelion, originally from BFME1."
+"The only large and easily traversable pass between the Misty Mountains and the White Mountains. \n Map reworked by Ecthelion, originally from BFME1."
 End
 //------------------------------------------------------------
 Map:mapTTsouthhollin
@@ -15246,7 +15269,7 @@ CONTROLBAR:ToolTipBuildReinforcedGateUpgrade
 END
 
 CONTROLBAR:ToolTipBuildIronOreUpgrade
-"Сокращение стоимости стального оружия и тяжелых доспехов на 25%."
+"Сокращение стоимости стального оружия и тяжелых доспехов на 33%."
 END
 
 CONTROLBAR:ToolTipBuildGrandHarvestUpgrade
@@ -44422,7 +44445,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Требуется уровень 2. \n Арагорн наносит +50% урона и получает +50% брони. \n ЛКМ - применение способности."
+"Требуется уровень 2. \n Арагорн наносит +100% урона и получает +50% брони. \n ЛКМ - применение способности."
 END
 
 CONTROLBAR:ToolTipAragornLeadership

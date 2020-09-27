@@ -23,11 +23,34 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPersonalFlood09v2
+"Krever: Nivå 5\nPåkaller en flodbølge som skader fienden og slukker branner \n Bonus against Black Riders. \n The flood horses are improved at level 10. \nVenstreklikk på ikonet, og venstreklikk på målet"
+END
+CONTROLBAR:ToolTipSlayer09v2
+"Krever: Nivå 5\n Gimli gains +50% Damage, Double Speed, but loses -15% armor against Structural arrows. \n Has an 80% chance to knockback heroes\nVenstreklikk for å aktivere"
+END
+CONTROLBAR:TooltipElrondWhirlwind09v2
+"Krever: Nivå 6\nPåkaller en ødeleggende virvelvind til slagmarken\nVenstreklikk på ikonet, og venstreklikk på valgt område"
+END
+CONTROLBAR:TooltipScreechWitchKing09v2
+"Krever: nivå 4\nFår fienden til å flykte av skrekk\n When dismounted it can pierce through the level 5 fear immunity from enemy hordes \nVenstreklikk for å aktivere"
+END
 //------------------------------------------------------------
-UPGRADE:AutohealUpgradeAdvanced
+CONTROLBAR:ToolTipBuildIronOreUpgrade09v2
+"Reduserer kostnadene for oppgradering til sterkere sverd og tung rustning med 33 %"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
+"Krever: Nivå 3\nGlorfindel får +50 % skadebonus og blir usårbar i 10 sek til fots \n Venstreklikk for å aktivere"
+END
+CONTROLBAR:TooltipBladeMaster09v2
+"Krever: Nivå 2\nAragorn gjør +50 % skade, og får +50 % rustning\nVenstreklikk for å aktivere"
+END
+//------------------------------------------------------------
+UPGRADE:AutohealUpgradeAdvanced09v2
 "Advanced Auto heal"
 END
-UPGRADE:AutohealUpgradeBasic
+UPGRADE:AutohealUpgradeBasic09v2
 "Basic Auto heal"
 END
 //------------------------------------------------------------
@@ -114,7 +137,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'WEAPON' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'Non-wipeable' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipWitchKingDreadVisage09v2
 "Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
@@ -501,7 +524,7 @@ Map:mapETgapofrohanII
 "Gap of Rohan II " 
 End
 Map:mapETgapofrohanII/Desc
-"The only large and easily traversable pass between the Misty Mountains and the White Mountains. \n Map reworked Ecthelion, originally from BFME1."
+"The only large and easily traversable pass between the Misty Mountains and the White Mountains. \n Map reworked by Ecthelion, originally from BFME1."
 End
 //------------------------------------------------------------
 Map:mapTTsouthhollin
@@ -44451,7 +44474,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Krever: Nivå 2\nAragorn gjør +50 % skade, og får +50 % rustning\nVenstreklikk for å aktivere"
+"Krever: Nivå 2\nAragorn gjør +100 % skade, og får +50 % rustning\nVenstreklikk for å aktivere"
 END
 
 CONTROLBAR:ToolTipAragornLeadership

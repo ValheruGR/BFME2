@@ -23,11 +23,34 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPersonalFlood09v2
+"Kräver grad 5 \n Manar fram en flodvåg som skadar fiender och släcker bränder \n Bonus against Black Riders. \n The flood horses are improved at level 10.\n Vänsterklicka på ikonen, vänsterklicka sedan på målet"
+END
+CONTROLBAR:ToolTipSlayer09v2
+"Kräver grad 5 \n Gimli gains +50% Damage, Double Speed, but loses -15% armor against Structural arrows. \n Has an 80% chance to knockback heroes\n Vänsterklicka för att aktivera"
+END
+CONTROLBAR:TooltipElrondWhirlwind09v2
+"Kräver grad 6 \n Framkallar en destruktiv virvelvind på slagfältet \n Vänsterklicka på ikonen, vänsterklicka sedan på målområdet"
+END
+CONTROLBAR:TooltipScreechWitchKing09v2
+"Kräver grad 4 \nFår fiendeenheter att fly i skräck\n When dismounted it can pierce through the level 5 fear immunity from enemy hordes \nVänsterklicka för att aktivera"
+END
 //------------------------------------------------------------
-UPGRADE:AutohealUpgradeAdvanced
+CONTROLBAR:ToolTipBuildIronOreUpgrade09v2
+"Sänker priset på uppgraderingarna tung rustning och smidda klingor med 33%"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
+"Kräver grad 3 \n Glorfindel får +50% skadeverkan och 10 s osårbarhet till fots \n \n Vänsterklicka för att aktivera"
+END
+CONTROLBAR:TooltipBladeMaster09v2
+"Kräver grad 2 \n Aragorn får +50% skadeverkan, +50% rustning \n Vänsterklicka för att aktivera"
+END
+//------------------------------------------------------------
+UPGRADE:AutohealUpgradeAdvanced09v2
 "Advanced Auto heal"
 END
-UPGRADE:AutohealUpgradeBasic
+UPGRADE:AutohealUpgradeBasic09v2
 "Basic Auto heal"
 END
 //------------------------------------------------------------
@@ -114,7 +137,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'WEAPON' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'Non-wipeable' \n\n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipWitchKingDreadVisage09v2
 "Requires Level 2 \n Enemy units are reduced to 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
@@ -498,7 +521,7 @@ Map:mapETgapofrohanII
 "Gap of Rohan II " 
 End
 Map:mapETgapofrohanII/Desc
-"The only large and easily traversable pass between the Misty Mountains and the White Mountains. \n Map reworked Ecthelion, originally from BFME1."
+"The only large and easily traversable pass between the Misty Mountains and the White Mountains. \n Map reworked by Ecthelion, originally from BFME1."
 End
 //------------------------------------------------------------
 Map:mapTTsouthhollin
@@ -44448,7 +44471,7 @@ CONTROLBAR:Oathbreakers
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Kräver grad 2 \n Aragorn får +50% skadeverkan, +50% rustning \n Vänsterklicka för att aktivera"
+"Kräver grad 2 \n Aragorn får +100% skadeverkan, +50% rustning \n Vänsterklicka för att aktivera"
 END
 
 CONTROLBAR:ToolTipAragornLeadership

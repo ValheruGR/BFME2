@@ -93,9 +93,8 @@
 				Model = None
 			End
 			AnimationState = USER_69 //	SpellBookDarkness
-  				;;-;; ParticleSysBone		= NONE DarknessPseudoNugget09v2 FollowBone:Yes
-  				;;-;; ParticleSysBone		= NONE HighLevelLD_DarknessNoSL FollowBone:Yes
-  				ParticleSysBone		= NONE DarknessGlowStyle09v2 FollowBone:Yes	;;-;; TESTING
+				;ParticleSysBone		= NONE DarknessTwinkleStyle09v2 FollowBone:Yes
+  				ParticleSysBone			= NONE DarknessGlowStyle09v2 FollowBone:Yes
  			End
         End
 		//------------------
@@ -133,6 +132,19 @@
   		;		ParticleSysBone		= NONE placeholder FollowBone:Yes
  		;	End
         ;End
+	//-----------------------------------------------------------------------------
+	;//FarSeeing
+		Draw = W3DScriptedModelDraw Draw_FarSeeing
+            ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState 			= NONE
+				Model = None
+			End
+			AnimationState = USER_66	// FarSeeing
+  				ParticleSysBone		= NONE FarsightPseudoNuggetTop09v2 FollowBone:Yes
+  				ParticleSysBone		= NONE FarsightPseudoNuggetMid09v2 FollowBone:Yes
+  				ParticleSysBone		= NONE FarsightPseudoNuggetBott09v2 FollowBone:Yes
+ 			End
+        End
 		
 		
 		
