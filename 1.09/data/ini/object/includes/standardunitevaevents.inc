@@ -45,6 +45,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_74 DYING
+  			End
+ 			AnimationState = USER_74 BURNINGDEATH
+  			End
 			AnimationState = USER_74	// GenericHeroLeadership // SharkuLeadership
   				ParticleSysBone		= NONE HighLevelLD_NoSL FollowBone:Yes
  			End
@@ -55,6 +59,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_71 DYING
+  			End
+ 			AnimationState = USER_71 BURNINGDEATH
+  			End
 			AnimationState = USER_71 // GenericArmorStackLeadership
   				ParticleSysBone		= NONE GenericArmorStackPseudoNugget09v2 FollowBone:Yes
  			End
@@ -65,6 +73,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_70 DYING
+  			End
+ 			AnimationState = USER_70 BURNINGDEATH
+  			End
 			AnimationState = USER_70	// GenericDamageStackLeadership
   				ParticleSysBone		= NONE GenericDamageStackPseudoNugget09v2 FollowBone:Yes
  			End
@@ -76,6 +88,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_73 DYING
+  			End
+ 			AnimationState = USER_73 BURNINGDEATH
+  			End
 			AnimationState = USER_73	// DainMightyRageBuff
 				ParticleSysBone			= BAT_RIBS MightyRageParticle_NoSLValTest FollowBone:Yes
 				
@@ -92,10 +108,13 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_69 DYING
+  			End
+ 			AnimationState = USER_69 BURNINGDEATH
+  			End
 			AnimationState = USER_69 //	SpellBookDarkness
-				;ParticleSysBone		= NONE DarknessTwinkleStyle09v2 FollowBone:Yes
-  				ParticleSysBone			= NONE DarknessGlowStyle09v2 FollowBone:Yes
- 			End
+				ParticleSysBone		= NONE DarknessParticle09v2 FollowBone:Yes
+  			End
         End
 		//------------------
 		;;-;; DoesntReadBones ;;-;; Draw = W3DScriptedModelDraw Draw_GloriousChargeEffect
@@ -117,6 +136,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_72 DYING
+  			End
+ 			AnimationState = USER_72 BURNINGDEATH
+  			End
 			AnimationState = USER_72	// GenericDebuffWK
   				ParticleSysBone		= NONE WitchkingDreadVisage FollowBone:Yes
  			End
@@ -128,6 +151,10 @@
 		;	ModelConditionState 			= NONE
 		;		Model = None
 		;	End
+		;	AnimationState = USER_67 DYING
+  		;	End
+ 		;	AnimationState = USER_67 BURNINGDEATH
+  		;	End
 		;	AnimationState = USER_67	// MordorLargeGroupBonus
   		;		ParticleSysBone		= NONE placeholder FollowBone:Yes
  		;	End
@@ -139,6 +166,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_66 DYING
+  			End
+ 			AnimationState = USER_66 BURNINGDEATH
+  			End
 			AnimationState = USER_66	// FarSeeing
   				ParticleSysBone		= NONE FarsightPseudoNuggetTop09v2 FollowBone:Yes
   				ParticleSysBone		= NONE FarsightPseudoNuggetMid09v2 FollowBone:Yes
