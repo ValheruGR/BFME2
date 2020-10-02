@@ -180,19 +180,21 @@
 	;;-;;		End
 	//-----------------------------------------------------------------------------
 	;;-;;	//GloriousCharge
-	//-//	Does not read bones so this won't work here.
-	;;-;;	Draw = W3DScriptedModelDraw Draw_GloriousChargeEffect
-	;;-;;		ParticlesAttachedToAnimatedBones = yes
-	;;-;;		ModelConditionState 			= NONE
-	;;-;;			Model = None
-	;;-;;		End
-	;;-;;		AnimationState = USER_68 //TheodenGloriousCharge
-	;;-;;			;doesnt work;EnteringStateFX = FX_TheodenGloriousChargeFX
-  	;;-;;			;ParticleSysBone		= BAT_HHEAD GCglowWhite_NoSM FollowBone:Yes
-  	;;-;;			;ParticleSysBone		= B_HHIPL GCglowHorseRearWhite_NoSM FollowBone:Yes
-  	;;-;;			;ParticleSysBone		= BAT_SPINE2 GCglowHorseWhite_NoSM FollowBone:Yes
- 	;;-;;		End
-	;;-;;	End
+	//-//	Does not read bones so this won't work here. //-// This will stop the FX stacking at least.
+		Draw = W3DScriptedModelDraw Draw_GloriousChargeEffect
+			ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState 			= NONE
+				Model = None
+			End
+			AnimationState = USER_68 DYING
+			End
+			AnimationState = USER_68 BURNINGDEATH
+			End
+			AnimationState = USER_68 //TheodenGloriousCharge
+				EnteringStateFX = FX_TheodenGloriousChargeFX
+ 			End
+		End
+	//-----------------------------------------------------------------------------
 		
 		
 		

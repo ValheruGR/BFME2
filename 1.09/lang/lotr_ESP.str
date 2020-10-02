@@ -61,10 +61,10 @@ CONTROLBAR:TooltipDwarvenRiches09v2
 "La producción de recursos de la estructura de recursos seleccionada aumenta en un 350% de manera temporal. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
-"Carga de escudo [&X]"
+"Carga de escudo (&X)"
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
-"Carga de escudo mejorada [&X]"
+"Carga de escudo mejorada (&X)"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Category: 'Damage SPELL'"
@@ -430,7 +430,7 @@ UPGRADE:ElvenStructuralSilverthornArrows09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn09v2
-"Municiones Púa de Plata (&W)"
+"Municiones Púa de Plata (&U)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn09v2
 "Mejora con Puas de Plata las flechas de la fortaleza y todas las torres adicionales. \n Incrementa el daño causado por las flechas"
@@ -444,7 +444,7 @@ CONTROLBAR:ToolTipWordofPowerSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower09v2
-"Nenya [&V]"
+"Nenya (&V)"
 END
 CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 "Envía una descarga que mata a los enemigos de alrededor. \n Para activarlo, haz clic con el botón izquierdo."
@@ -469,7 +469,7 @@ CONTROLBAR:ToolTipElrondFarsight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
-"Favor del rey [&C]"
+"Favor del rey (&C)"
 END
 CONTROLBAR:ToolTipKingsFavorDain09v2
 "Requisito: Nivel 6 \n Da experiencia a las unidades apuntadas. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
@@ -822,7 +822,7 @@ END
 //End
 //------------------------------------------------------------
 //	Map:maptestbrownlands8p
-//	"Brown Lands [8p]" // MAP REMOVED
+//	"Brown Lands (8p)" // MAP REMOVED
 //	END
 //	Map:maptestbrownlands8p/Desc
 //	"Lands to the east of the River Anduin scorched by Sauron at the end of the Second Age. Once the lush home of the Entwives, this area has been desolate since the battles of the Last Alliance.\n Size: 500 x 500\n Lairs: 10x Goblin Lair. \n Map from RotWK"
@@ -934,7 +934,7 @@ Map:mapJKtowerhills/Desc
 END
 //------------------------------------------------------------
 Map:mapMAudunii
-"Udun [6p]"
+"Udun (6p)"
 END
 Map:mapMAudunii/Desc
 "The lands behind the Black Gate known as Udun take the name of the underworld due to the volcanic ash and noxious fumes that cover them.\n Map from RotWK, by Mako."
@@ -8513,7 +8513,7 @@ CONTROLBAR:GrabAndEatPassenger
 END
 
 CONTROLBAR:SpecialAbilityIgnite
-"Prender fuego (&T)"
+"Prende&r fuego"
 END
 
 CONTROLBAR:SpecialAbilityFlamingSword
@@ -8521,11 +8521,11 @@ CONTROLBAR:SpecialAbilityFlamingSword
 END
 
 CONTROLBAR:SpecialAbilityFireWhip
-"Látigo de fuego (&W)"
+"Lá&tigo de fuego"
 END
 
 CONTROLBAR:SpecialAbilityBalrogScream
-"Grito (&B)"
+"Grito (&C)"
 END
 
 CONTROLBAR:SpecialAbilityBalrogBreath
@@ -8533,7 +8533,7 @@ CONTROLBAR:SpecialAbilityBalrogBreath
 END
 
 CONTROLBAR:SpecialAbilityBalrogWings
-"Alas (&R)"
+"Alas (&B)"
 END
 
 CONTROLBAR:DwarfToss
@@ -16164,7 +16164,7 @@ CONTROLBAR:ToolTipGenericRecruitHero
 END
 
 CONTROLBAR:FireArrowUpgrade
-"Flechas de fuego (&W)"
+"Flechas de f&uego"
 END
 
 CONTROLBAR:TooltipFireArrowUpgrade
@@ -16200,11 +16200,11 @@ CONTROLBAR:ToolTipBonkWithPan
 END
 
 CONTROLBAR:StartSelfRepair
-"Autoreparación (&R]"
+"Autoreparación (&R)"
 END
 
 CONTROLBAR:StartCitadelSelfRepair
-"Autoreparación (&R]"
+"Autoreparación (&R)"
 END
 
 CONTROLBAR:TooltipStartSelfRepair
@@ -16284,7 +16284,7 @@ CONTROLBAR:ToolTipSpecialAbilityEntFindRock
 END
 
 CONTROLBAR:tooltipCommand_ToggleEntRockThrow
-"Activa y desactiva el modo de lanzar rocas [&V]"
+"Activa y desactiva el modo de lanzar rocas (&V)"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk
@@ -16344,7 +16344,7 @@ CONTROLBAR:ToolTipBuildMordorBatteringRam
 END
 
 CONTROLBAR:ToggleCatapultWeapons
-"Cambiar munición [&R]"
+"Cambiar munición (&R)"
 END
 
 CONTROLBAR:TooltipToggleCatapultWeapons
@@ -16384,7 +16384,7 @@ CONTROLBAR:ToolTipNarsilAttack
 END
 
 CONTROLBAR:WargRiderHowl
-"Aullido [&T]"
+"Aullido (&T)"
 END
 
 CONTROLBAR:ToggleGateOpenClose
@@ -16592,7 +16592,7 @@ CONTROLBAR:ToggleWedgeFormation
 END
 
 CONTROLBAR:ToggleLineFormation
-"Formación en línea [&V]"
+"Formación en línea (&V)"
 END
 
 CONTROLBAR:ToolTipToggleWedgeFormation
@@ -16612,7 +16612,7 @@ CONTROLBAR:ToolTipTogglePorcupineFormation
 END
 
 CONTROLBAR:ToggleBlockFormation
-"Formación muralla de escudos [&V]"
+"Formación muralla de escudos (&V)"
 END
 
 //CONTROLBAR:ToolTipToggleBlockFormation
@@ -16676,7 +16676,7 @@ CONTROLBAR:ToolTipMount
 END
 
 CONTROLBAR:UseSword
-"Usar espada [&v]"
+"Usar espada (&v)"
 END
 
 CONTROLBAR:ToolTipUseSword
@@ -16880,7 +16880,7 @@ CONTROLBAR:TooltipSplitHorde
 END
 
 CONTROLBAR:GarrisonExit
-"Evacuar [&T]"
+"Evacuar (&T)"
 END
 
 CONTROLBAR:ToolTipStructureExit
@@ -24487,7 +24487,7 @@ SCRIPT:MEEdBonus02
 END
 
 CONTROLBAR:PurchaseTechnologyRohanFireArrows
-"Investigación: Mejora flechas de fuego (&W)"
+"Investigación: Mejora flechas de f&uego"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyRohanFireArrows
@@ -24499,7 +24499,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeRohanFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyRohanForgedBlades
-"Mejora espadas forjadas (&W)"
+"Mejora espadas for&jadas"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyRohanForgedBlades
@@ -24507,7 +24507,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRohanForgedBlades
 END
 
 CONTROLBAR:PurchaseUpgradeRohanForgedBlades
-"Espadas forjadas (&W)"
+"Espadas for&jadas"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanForgedBlades
@@ -24539,7 +24539,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRohanBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeRohanBasicTraining
-"Mejora de Portaestanda&rte"
+"Mejora de Portaestandarte (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanBasicTraining
@@ -26355,7 +26355,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEncasingVines
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressMysticFountains
-"Fuentes místicas (&Y)"
+"Fuentes mís&ticas"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains
@@ -28897,7 +28897,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines
 END
 
 CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows
-"Flechas de fuego (&W)"
+"Flechas de f&uego"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerFireArrows
@@ -28953,7 +28953,7 @@ CONTROLBAR:ToolTipConstructIsengardWallHubExpansion
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressOrcfireMunitions
-"Municiones de fuego orco (&W)"
+"Municiones de f&uego orco"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressOrcfireMunitions
@@ -28969,7 +28969,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressIronPlating
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressBurningForges
-"Forjas a&rdientes"
+"Forjas ardien&tes"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressBurningForges
@@ -28977,7 +28977,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressBurningForges
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations
-"Excavaciones (&Y)"
+"Excavaciones (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations
@@ -28985,7 +28985,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressMurderOfCrows
-"Bandada de &cuervos"
+"Bandada de cue&rvos"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressMurderOfCrows
@@ -28993,7 +28993,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressMurderOfCrows
 END
 
 CONTROLBAR:SpecialAbilityMurderOfCrows
-"Bandada de &cuervos"
+"Bandada de cue&rvos"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityMurderOfCrows
@@ -29441,7 +29441,7 @@ CONTROLBAR:BattleWagonUpgradeAxeThrowers
 END
 
 CONTROLBAR:BattleWagonUpgradeBannerCarrier
-"Mejorar con Portaestanda&rte"
+"Mejorar con Portaestandarte (&W)"
 END
 
 CONTROLBAR:BattleWagonUpgradeHearth
@@ -29453,7 +29453,7 @@ CONTROLBAR:BattleWagonUpgradeMenOfDale
 END
 
 CONTROLBAR:BlackArrows
-"Flechas negras [&T]"
+"Flechas negras (&T)"
 END
 
 CONTROLBAR:BlackRiderMount
@@ -29689,15 +29689,15 @@ CONTROLBAR:ShelobWebbing
 END
 
 CONTROLBAR:SpecialAbilityBatCloud
-"Nube de murciélagos (&C)"
+"Nube de murciélagos (&R)"
 END
 
 CONTROLBAR:Command_CreateAHero_ArcherToggleWeapon
-"Cambiar arma [&V]"
+"Cambiar arma (&V)"
 END
 
 CONTROLBAR:Command_CreateAHero_CorruptedManToggleWeapon
-"Cambiar arma [&V]"
+"Cambiar arma (&V)"
 END
 
 CONTROLBAR:SpecialAbilityDwarvenDemolisherDeploy
@@ -32845,7 +32845,7 @@ CONTROLBAR:ToolTipCancelWallSpan
 END
 
 CONTROLBAR:PurchaseUpgradeSentryTowerForgedBlades
-"Mejora espadas forjadas (&B)"
+"Mejora espadas for&jadas"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerForgedBlades
@@ -37955,7 +37955,7 @@ CONTROLBAR:ToolTipGoblinGiantSentryUpgrade
 END
 
 CONTROLBAR:PurchaseTechnologyDwarvenBasicTraining
-"Investigar Portaestanda&rte"
+"Investigar Portaestandarte (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyDwarvenBasicTraining
@@ -37967,7 +37967,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyDwarvenForgedBlades
-"Investigar Espadas forjadas (&B)"
+"Investigar Espadas for&jadas"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyDwarvenForgedBlades
@@ -37995,7 +37995,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenHeavyArmor
 END
 
 CONTROLBAR:PurchaseTechnologyGondorFireArrows
-"Investigar flechas de fuego (&W)"
+"Investigar flechas de f&uego"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorFireArrows
@@ -38007,7 +38007,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeGondorFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyGondorForgedBlades
-"Investigar Espadas forjadas (&B)"
+"Investigar Espadas for&jadas"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorForgedBlades
@@ -38051,7 +38051,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeGondorKnightShield
 END
 
 CONTROLBAR:PurchaseTechnologyGondorFireStones
-"Investigar proyectiles de fuego (&W)"
+"Investigar proyectiles de f&uego"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorFireStones
@@ -38059,7 +38059,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyGondorFireStones
 END
 
 CONTROLBAR:PurchaseUpgradeGondorFireStones
-"Comprar proyectiles de fuego (&W)"
+"Comprar proyectiles de f&uego"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeGondorFireStones
@@ -38083,7 +38083,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeRohanHorseShield
 END
 
 CONTROLBAR:PurchaseTechnologyIsengardFireArrows
-"Investigar flechas de fuego (&W)"
+"Investigar flechas de f&uego"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyIsengardFireArrows
@@ -38095,7 +38095,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyIsengardForgedBlades
-"Investigar Espadas forjadas (&B)"
+"Investigar Espadas for&jadas"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyIsengardForgedBlades
@@ -38123,7 +38123,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardHeavyArmor
 END
 
 CONTROLBAR:PurchaseTechnologyMordorFireArrows
-"Investigar flechas de fuego (&W)"
+"Investigar flechas de f&uego"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyMordorFireArrows
@@ -38135,7 +38135,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMordorFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyGondorBasicTraining
-"Investigar Portaestanda&rte"
+"Investigar Portaestandarte (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeGondorBasicTraining
@@ -38143,7 +38143,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeGondorBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyIsengardBasicTraining
-"Investigar Portaestanda&rte"
+"Investigar Portaestandarte (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyIsengardBasicTraining
@@ -38155,7 +38155,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyMordorBasicTraining
-"Investigar Portaestanda&rte"
+"Investigar Portaestandarte (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyMordorBasicTraining
@@ -38191,7 +38191,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyWildBasicTraining
-"Investigar Portaestanda&rte"
+"Investigar Portaestandarte (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining
@@ -38199,7 +38199,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeWildFireArrows
-"Comprar flechas de fuego (&W)"
+"Comprar flechas de f&uego"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFireArrows
@@ -38207,7 +38207,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyWildFireArrows
-"Investigar flechas de fuego (&W)"
+"Investigar flechas de f&uego"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyWildFireArrows
@@ -38219,7 +38219,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildForgedBlade
 END
 
 CONTROLBAR:PurchaseTechnologyWildForgedBlades
-"Investigar Espadas forjadas (&B)"
+"Investigar Espadas for&jadas"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyWildForgedBlades
@@ -38243,7 +38243,7 @@ CONTROLBAR:ToolTipPurchaseechnologyWildHeavyArmor
 END
 
 CONTROLBAR:PurchaseTechnologySpiderVenomSacks
-"Investigar bolsas de veneno (&V)"
+"Investigar &bolsas de veneno"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologySpiderVenomSacks
@@ -38251,7 +38251,7 @@ CONTROLBAR:ToolTipPurchaseTechnologySpiderVenomSacks
 END
 
 CONTROLBAR:PurchaseSpiderVenomSacks
-"Comprar bolsas de veneno de araña (&W)"
+"Comprar &bolsas de veneno de araña"
 END
 
 CONTROLBAR:ToolTipPurchaseSpiderVenomSacks
@@ -38263,7 +38263,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyElvenBasicTraining
-"Investigar Portaestanda&rte"
+"Investigar Portaestandarte (&W)"
 END
 
 CONTROLBAR:ToolTipBuildElvenBasicTraining
@@ -38283,7 +38283,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyElvenBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeElvenSilverthornArrows
-"Comprar flechas púa de plata (&W)"
+"Comprar flechas púa de Plata (&U)"
 END
 
 CONTROLBAR:TooltipPurchaseUpgradeElvenSilverthornArrows
@@ -38291,7 +38291,7 @@ CONTROLBAR:TooltipPurchaseUpgradeElvenSilverthornArrows
 END
 
 CONTROLBAR:PurchaseTechnologyElvenForgedBlades
-"Investigar Espadas forjadas (&B)"
+"Investigar Espadas for&jadas"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenForgedBlades
@@ -38315,7 +38315,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenHeavyArmor
 END
 
 CONTROLBAR:PurchaseTechnologyElvenSilverthornArrows
-"Investigar flechas púa de plata (&W)"
+"Investigar flechas púa de Plata (&U)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyElvenSilverthornArrows
@@ -38323,7 +38323,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyElvenSilverthornArrows
 END
 
 CONTROLBAR:PurchaseTechnologyMordorForgedBlades
-"Investigar Espadas forjadas (&B)"
+"Investigar Espadas for&jadas"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyMordorForgedBlades
@@ -38359,7 +38359,7 @@ CONTROLBAR:PurchaseTechnologyDwarvenFlamingShot
 END
 
 CONTROLBAR:PurchaseTechnologyDwarvenSiegeHammer
-"Investigación: Martillos de asedio (&W)"
+"Investigación: Martillos de asedio (&U)"
 END
 
 CONTROLBAR:PurchaseTechnologyElderRacesMagicArrows
@@ -38371,7 +38371,7 @@ CONTROLBAR:PurchaseTechnologyElvenCloak
 END
 
 CONTROLBAR:PurchaseTechnologyIsengardTorches
-"Investigación: Antorchas (&W)"
+"Investigación: Anto&rchas"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot
@@ -38387,7 +38387,7 @@ CONTROLBAR:PurchaseUpgradeElderRacesWarBarding
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardTorches
-"Mejorar con antorchas (&W)"
+"Mejorar con anto&rchas"
 END
 
 CONTROLBAR:PurchaseUpgradeShipArmor
@@ -38443,7 +38443,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeShipArmor
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenSiegeHammer
-"Martillos de asedio (&W)"
+"Martillos de asedio (&U)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenSiegeHammer
@@ -41655,67 +41655,67 @@ CONTROLBAR:ToolTipCAH_CM_Conquer_Palantir
 END
 
 CONTROLBAR:HotWSummonAllies_Level1
-"Pedir refuerzos [&P]"
+"Pedir refuerzos (&P)"
 END
 
 CONTROLBAR:HotWSummonAllies_Level2
-"Pedir refuerzos mejorado [&P]"
+"Pedir refuerzos mejorado (&P)"
 END
 
 CONTROLBAR:HotWSummonAllies_Level3
-"Pedir refuerzos grande [&P]"
+"Pedir refuerzos grande (&P)"
 END
 
 CONTROLBAR:HotWSummonAllies_Level4
-"Pedir refuerzos superior [&P]"
+"Pedir refuerzos superior (&P)"
 END
 
 CONTROLBAR:TrainAllies_Level_1
-"Entrenar aliados [&N]"
+"Entrenar aliados (&N)"
 END
 
 CONTROLBAR:TrainAllies_Level_2
-"Entrenar aliados mejorado [&N]"
+"Entrenar aliados mejorado (&N)"
 END
 
 CONTROLBAR:TrainAllies_Level_3
-"Entrenar aliados grande [&N]"
+"Entrenar aliados grande (&N)"
 END
 
 CONTROLBAR:CAH_ThrowSpear_Level1
-"Arrojar lanza [&T]"
+"Arrojar lanza (&T)"
 END
 
 CONTROLBAR:CAH_ThrowSpear_Level2
-"Arrojar lanza mejorado [&T]"
+"Arrojar lanza mejorado (&T)"
 END
 
 CONTROLBAR:CAH_ThrowSpear_Level3
-"Arrojar lanza poderoso [&T]"
+"Arrojar lanza poderoso (&T)"
 END
 
 CONTROLBAR:Invulnerability_Level1
-"In&vulnerabilidad [&V]"
+"In&vulnerabilidad (&V)"
 END
 
 CONTROLBAR:Invulnerability_Level2
-"In&vulnerabilidad mejorada [&V]"
+"In&vulnerabilidad mejorada (&V)"
 END
 
 CONTROLBAR:Invulnerability_Level3
-"In&vulnerabilidad grande [&V]"
+"In&vulnerabilidad grande (&V)"
 END
 
 CONTROLBAR:CAHAthelas
-"Athelas [&R]"
+"Athelas (&R)"
 END
 
 CONTROLBAR:CAHBladeMaster
-"Maestro de espadas [&W]"
+"Maestro de espadas (&W)"
 END
 
 CONTROLBAR:CAHElendil
-"Elendil [&X]"
+"Elendil (&X)"
 END
 
 CONTROLBAR:CAHKingsFavor
@@ -41723,11 +41723,11 @@ CONTROLBAR:CAHKingsFavor
 END
 
 CONTROLBAR:CAH_Starlight
-"Luz estelar [&L]"
+"Luz estelar (&L)"
 END
 
 CONTROLBAR:HeroToggleHorse
-"Montar/Desmontar [&M]"
+"Montar/Desmontar (&M)"
 END
 
 CONTROLBAR:Leadership
@@ -41739,15 +41739,15 @@ CONTROLBAR:CAH_HotW_Conquer
 END
 
 CONTROLBAR:SpecialAbilityHotWCrippleStrikeMelee_Level1
-"Golpe lisiante [&C]"
+"Golpe lisiante (&C)"
 END
 
 CONTROLBAR:SpecialAbilityHotWCrippleStrikeMelee_Level2
-"Golpe lisiante mejorado [&C]"
+"Golpe lisiante mejorado (&C)"
 END
 
 CONTROLBAR:CAH_HeroicCharge
-"Carga heroica [&B]"
+"Carga heroica (&B)"
 END
 
 CONTROLBAR:CAH_A_Stealth_Level1
@@ -41755,39 +41755,39 @@ CONTROLBAR:CAH_A_Stealth_Level1
 END
 
 CONTROLBAR:CAH_A_TrueSight
-"Vista verdadera [&O]"
+"Vista verdadera (&O)"
 END
 
 CONTROLBAR:SpecialAbilityCreateAHeroArcherToggleWeapon
-"Cambiar de arma [&W]"
+"Cambiar de arma (&W)"
 END
 
 CONTROLBAR:SpecialAbilityCrippleStrikeRanged_Level1
-"Disparo lisiante [&C]"
+"Disparo lisiante (&C)"
 END
 
 CONTROLBAR:SpecialAbilityCrippleStrikeRanged_Level2
-"Disparo lisiante mejorado [&C]"
+"Disparo lisiante mejorado (&C)"
 END
 
 CONTROLBAR:SpecialAbilityCrippleStrikeRanged_Level3
-"Disparo lisiante grande [&C]"
+"Disparo lisiante grande (&C)"
 END
 
 CONTROLBAR:SpecialAbilityCrippleStrikeRanged_Level4
-"Disparo lisiante superior [&C]"
+"Disparo lisiante superior (&C)"
 END
 
 CONTROLBAR:CAH_RainOfArrows_Level1
-"Lluvia de flechas [&V]"
+"Lluvia de flechas (&V)"
 END
 
 CONTROLBAR:CAH_RainOfArrows_Level2
-"Lluvia de flechas mejorada [&V]"
+"Lluvia de flechas mejorada (&V)"
 END
 
 CONTROLBAR:CAH_RainOfArrows_Level3
-"Lluvia de flechas poderosa [&V]"
+"Lluvia de flechas poderosa (&V)"
 END
 
 CONTROLBAR:CAH_ArrowBonus_Level1
@@ -41807,11 +41807,11 @@ CONTROLBAR:CAH_ArrowBonus_Level4
 END
 
 CONTROLBAR:CAH_Healing_Level1
-"Autocuración [&R]"
+"Autocuración (&R)"
 END
 
 CONTROLBAR:CAH_Healing_Level2
-"Autocuración mejorada [&R]"
+"Autocuración mejorada (&R)"
 END
 
 CONTROLBAR:CAH_SummonFamiliar_Level1
@@ -41827,15 +41827,15 @@ CONTROLBAR:CAH_SummonFamiliar_Level3
 END
 
 CONTROLBAR:CAH_SpawnTornado_Level1
-"Remolino [&B]"
+"Remolino (&B)"
 END
 
 CONTROLBAR:CAH_SpawnTornado_Level2
-"Remolino mejorado [&B]"
+"Remolino mejorado (&B)"
 END
 
 CONTROLBAR:CAH_SpawnTornado_Level3
-"Gran remolino [&B]"
+"Gran remolino (&B)"
 END
 
 CONTROLBAR:CAH_BallLightning_L1
@@ -41855,27 +41855,27 @@ CONTROLBAR:SpecialAbilityHeroBlink
 END
 
 CONTROLBAR:SpecialAbilityCAHFireball1
-"Bola de fuego [&T]"
+"Bola de fuego (&T)"
 END
 
 CONTROLBAR:SpecialAbilityCAHFireball2
-"Bola de fuego mejorada [&T]"
+"Bola de fuego mejorada (&T)"
 END
 
 CONTROLBAR:SpecialAbilityCAHFireball3
-"Bola de fuego poderosa [&T]"
+"Bola de fuego poderosa (&T)"
 END
 
 CONTROLBAR:LightBlast_Level1
-"E&stallido de luz [&V]"
+"E&stallido de luz (&V)"
 END
 
 CONTROLBAR:LightBlast_Level2
-"Estallido de luz mejorado [&V]"
+"Estallido de luz mejorado (&V)"
 END
 
 CONTROLBAR:LightBlast_Level3
-"Estallido de luz grande [&V]"
+"Estallido de luz grande (&V)"
 END
 
 CONTROLBAR:ConvertEnemy_L1
@@ -41899,15 +41899,15 @@ CONTROLBAR:CAH_Curse_Level3
 END
 
 CONTROLBAR:ForcePush_Level1
-"Empujón poderoso [&R]"
+"Empujón poderoso (&R)"
 END
 
 CONTROLBAR:ForcePush_Level2
-"Empujón poderoso mejorado [&R]"
+"Empujón poderoso mejorado (&R)"
 END
 
 CONTROLBAR:ForcePush_Level3
-"Empujón poderoso potente [&R]"
+"Empujón poderoso potente (&R)"
 END
 
 CONTROLBAR:TeleportLevel1
@@ -41931,7 +41931,7 @@ CONTROLBAR:CAHWordofPower
 END
 
 CONTROLBAR:CAH_W_TrueSight
-"Vista verdadera [&O]"
+"Vista verdadera (&O)"
 END
 
 CONTROLBAR:WordOfPoultry_Level1
@@ -41943,55 +41943,55 @@ CONTROLBAR:WordOfPoultry_Level2
 END
 
 CONTROLBAR:CAH_AxeThrow_Level1
-"Lanzamiento de hacha [&T]"
+"Lanzamiento de hacha (&T)"
 END
 
 CONTROLBAR:CAH_AxeThrow_Level2
-"Lanzamiento de hacha mejorado[&T]"
+"Lanzamiento de hacha mejorado(&T)"
 END
 
 CONTROLBAR:CAH_AxeThrow_Level3
-"Lanzamiento de hacha poderoso[&T]"
+"Lanzamiento de hacha poderoso(&T)"
 END
 
 CONTROLBAR:CAH_BattleRage_Level1
-"Furia de batalla [&R]"
+"Furia de batalla (&R)"
 END
 
 CONTROLBAR:CAH_BattleRage_Level2
-"Furia de batalla mejorada [&R]"
+"Furia de batalla mejorada (&R)"
 END
 
 CONTROLBAR:CAH_BattleRage_Level3
-"Furia de batalla grande [&R]"
+"Furia de batalla grande (&R)"
 END
 
 CONTROLBAR:CAH_BattleRage_Level4
-"Furia de batalla superior [&R]"
+"Furia de batalla superior (&R)"
 END
 
 CONTROLBAR:CAH_Bombard_Level1
-"Bombardear [&B]"
+"Bombardear (&B)"
 END
 
 CONTROLBAR:CAH_Bombard_Level2
-"Bombardear mejorado [&B]"
+"Bombardear mejorado (&B)"
 END
 
 CONTROLBAR:CAH_Bombard_Level3
-"Bombardear grande [&B]"
+"Bombardear grande (&B)"
 END
 
 CONTROLBAR:CAH_Charge_Level1
-"Carga [&X]"
+"Carga (&X)"
 END
 
 CONTROLBAR:CAH_Charge_Level2
-"Carga mejorada [&X]"
+"Carga mejorada (&X)"
 END
 
 CONTROLBAR:CAH_Charge_Level3
-"Carga poderosa [&X]"
+"Carga poderosa (&X)"
 END
 
 CONTROLBAR:CAH_ClearGarrisoned
@@ -42019,15 +42019,15 @@ CONTROLBAR:CAH_Leap_Level2
 END
 
 CONTROLBAR:CAH_Sapper_Level1
-"Zapador [&P]"
+"Zapador (&P)"
 END
 
 CONTROLBAR:CAH_Sapper_Level2
-"Zapador mejorado [&P]"
+"Zapador mejorado (&P)"
 END
 
 CONTROLBAR:CAH_Sapper_Level3
-"Zapador poderoso [&P]"
+"Zapador poderoso (&P)"
 END
 
 CONTROLBAR:CAH_Toughness
@@ -42039,35 +42039,35 @@ CONTROLBAR:CAH_WillPower_Level1
 END
 
 CONTROLBAR:SoSSummonAllies_Level1
-"Pedir refuerzos [&P]"
+"Pedir refuerzos (&P)"
 END
 
 CONTROLBAR:SoSSummonAllies_Level2
-"Pedir refuerzos mejorado [&P]"
+"Pedir refuerzos mejorado (&P)"
 END
 
 CONTROLBAR:SoSSummonAllies_Level3
-"Pedir refuerzos grande [&P]"
+"Pedir refuerzos grande (&P)"
 END
 
 CONTROLBAR:SoSSummonAllies_Level4
-"Pedir refuerzos superior [&P]"
+"Pedir refuerzos superior (&P)"
 END
 
 CONTROLBAR:CAH_BerserkerRage_L1
-"Furia de bersérker [&R]"
+"Furia de bersérker (&R)"
 END
 
 CONTROLBAR:CAH_BerserkerRage_L2
-"Furia de bersérker mejorada [&R]"
+"Furia de bersérker mejorada (&R)"
 END
 
 CONTROLBAR:CAH_BerserkerRage_L3
-"Furia de bersérker grande [&R]"
+"Furia de bersérker grande (&R)"
 END
 
 CONTROLBAR:CAH_BerserkerRage_L4
-"Furia de bersérker superior [&R]"
+"Furia de bersérker superior (&R)"
 END
 
 CONTROLBAR:CAH_FireBomb_Level1
@@ -42107,15 +42107,15 @@ CONTROLBAR:CAH_UntamedAllegiance
 END
 
 CONTROLBAR:CAH_HowlOfRage_Level1
-"Aullido de furia [&T]"
+"Aullido de furia (&T)"
 END
 
 CONTROLBAR:CAH_HowlOfRage_Level2
-"Aullido de furia mejorado [&T]"
+"Aullido de furia mejorado (&T)"
 END
 
 CONTROLBAR:CAH_HowlOfRage_Level3
-"Aullido de furia grande [&T]"
+"Aullido de furia grande (&T)"
 END
 
 CONTROLBAR:CAH_Infernal_L1
@@ -42135,23 +42135,23 @@ CONTROLBAR:CAH_InspireFear_Level2
 END
 
 CONTROLBAR:CAH_SpillOil_Level1
-"Derrame de aceite/Encender fuego [&K]"
+"Derrame de aceite/Encender fuego (&K)"
 END
 
 CONTROLBAR:CAH_SpillOil_Level2
-"Derrame de aceite/Encender fuego mejorado [&K]"
+"Derrame de aceite/Encender fuego mejorado (&K)"
 END
 
 CONTROLBAR:CAH_SpillOil_Level3
-"Derrame de aceite/Encender fuego grande [&K]"
+"Derrame de aceite/Encender fuego grande (&K)"
 END
 
 CONTROLBAR:SpecialAbilitySoSCrippleStrikeMelee_Level1
-"Golpe lisiante [&C]"
+"Golpe lisiante (&C)"
 END
 
 CONTROLBAR:SpecialAbilitySoSCrippleStrikeMelee_Level2
-"Golpe lisiante mejorado [&C]"
+"Golpe lisiante mejorado (&C)"
 END
 
 CONTROLBAR:CAH_Assassin_Level1
@@ -42203,11 +42203,11 @@ CONTROLBAR:CAH_CM_Stealth_Level2
 END
 
 CONTROLBAR:SpecialAbilityCreateAHeroCorruptedManToggleWeapon_Level1
-"Cambiar arma [&W]"
+"Cambiar arma (&W)"
 END
 
 CONTROLBAR:SpecialAbilityCreateAHeroCorruptedManToggleWeapon_Level2
-"Cambiar arma mejorado [&W]"
+"Cambiar arma mejorado (&W)"
 END
 
 CONTROLBAR:CAH_ClimbWalls
@@ -42215,19 +42215,19 @@ CONTROLBAR:CAH_ClimbWalls
 END
 
 CONTROLBAR:CAH_Coerce_Level1
-"Intimidación [&O]"
+"Intimidación (&O)"
 END
 
 CONTROLBAR:CAH_Coerce_Level2
-"Intimidación mejorada [&O]"
+"Intimidación mejorada (&O)"
 END
 
 CONTROLBAR:CAH_Coerce_Level3
-"Intimidación grande [&O]"
+"Intimidación grande (&O)"
 END
 
 CONTROLBAR:CAH_Coerce_Level4
-"Disfraz [&J]"
+"Disfraz (&J)"
 END
 
 ToolTip:CAHRequiresLevel
@@ -44249,55 +44249,55 @@ CONTROLBAR:EvacuateAll
 END
 
 CONTROLBAR:PurchaseUpgradeGondorForgedBlades
-"Comprar espadas forjadas (&B)"
+"Comprar espadas for&jadas"
 END
 
 CONTROLBAR:PurchaseUpgradeRohanElvenWarriorForgedBlades
-"Comprar espadas forjadas (&B)"
+"Comprar espadas for&jadas"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardForgedBlades
-"Comprar espadas forjadas (&B)"
+"Comprar espadas for&jadas"
 END
 
 CONTROLBAR:PurchaseUpgradeWildForgedBlade
-"Comprar espadas forjadas (&B)"
+"Comprar espadas for&jadas"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenForgedBlades
-"Comprar espadas forjadas (&B)"
+"Comprar espadas for&jadas"
 END
 
 CONTROLBAR:PurchaseUpgradeGondorBasicTraining
-"Comprar Portaestanda&rte"
+"Comprar Portaestandarte (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardBasicTraining
-"Comprar Portaestanda&rte"
+"Comprar Portaestandarte (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorBasicTraining
-"Comprar Portaestanda&rte"
+"Comprar Portaestandarte (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorBasicTrainingForMumakil
-"Comprar Portaestanda&rte"
+"Comprar Portaestandarte (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeWildBasicTraining
-"Comprar Portaestanda&rte"
+"Comprar Portaestandarte (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenBasicTraining
-"Comprar Portaestanda&rte"
+"Comprar Portaestandarte (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining
-"Comprar Portaestanda&rte"
+"Comprar Portaestandarte (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTrainingForMirkwoodArcherHorde
-"Comprar Portaestanda&rte"
+"Comprar Portaestandarte (&W)"
 END
 
 TOOLTIP:LackLevel3EregionForge
@@ -44381,7 +44381,7 @@ OBJECT:HeroicStatueDescription
 END
 
 CONTROLBAR:HornofGondor
-"Cuerno de Gondor [&R]"
+"Cuerno de Gondor (&R)"
 END
 
 CONTROLBAR:ToolTipHornofGondor
@@ -44393,7 +44393,7 @@ CONTROLBAR:ToolTipBoromirLeadership
 END
 
 CONTROLBAR:CaptainofGondorBoromir
-"Capitán de Gondor [&C]"
+"Capitán de Gondor (&C)"
 END
 
 CONTROLBAR:TheodenMount
@@ -44401,11 +44401,11 @@ CONTROLBAR:TheodenMount
 END
 
 CONTROLBAR:KingsFavor
-"Favor del rey [&C]"
+"Favor del rey (&C)"
 END
 
 CONTROLBAR:GloriousCharge
-"Carga gloriosa [&V]"
+"Carga gloriosa (&V)"
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
@@ -44417,15 +44417,15 @@ CONTROLBAR:ToolTipGloriousCharge
 END
 
 CONTROLBAR:Smite
-"Castigo [&T]"
+"Castigo (&T)"
 END
 
 CONTROLBAR:Disguise
-"Disfraz [&C]"
+"Disfraz (&C)"
 END
 
 CONTROLBAR:ShieldMaiden
-"Doncella guerrera [&V]"
+"Doncella guerrera (&V)"
 END
 
 CONTROLBAR:ToolTipEowynMount
@@ -44449,7 +44449,7 @@ CONTROLBAR:FaramirKnightRanger
 END
 
 CONTROLBAR:CaptainofGondor
-"Capitán de Gondor [&B]"
+"Capitán de Gondor (&B)"
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
@@ -44457,7 +44457,7 @@ CONTROLBAR:ToolTipFaramirLeadership
 END
 
 CONTROLBAR:ThrowSpear
-"Arrojar lanza [&T]"
+"Arrojar lanza (&T)"
 END
 
 CONTROLBAR:ToolTipEomerLeadership
@@ -44469,7 +44469,7 @@ CONTROLBAR:ToolTipThrowSpear
 END
 
 CONTROLBAR:Athelas
-"Athelas [&R]"
+"Athelas (&R)"
 END
 
 CONTROLBAR:BladeMaster
@@ -44477,11 +44477,11 @@ CONTROLBAR:BladeMaster
 END
 
 CONTROLBAR:Elendil
-"Elendil [&V]"
+"Elendil (&V)"
 END
 
 CONTROLBAR:Oathbreakers
-"Perjuros [&B]"
+"Perjuros (&B)"
 END
 
 CONTROLBAR:TooltipBladeMaster
@@ -44493,19 +44493,19 @@ CONTROLBAR:ToolTipAragornLeadership
 END
 
 CONTROLBAR:WizardBlast
-"Estallido de mago [&R]"
+"Estallido de mago (&R)"
 END
 
 CONTROLBAR:LightningSword
-"Espada relámpago [&T]"
+"Espada relámpago (&T)"
 END
 
 CONTROLBAR:GandalfMount
-"Montar/Desmontar [&C]"
+"Montar/Desmontar (&C)"
 END
 
 CONTROLBAR:IstariLight
-"Luz de los Istari [&V]"
+"Luz de los Istari (&V)"
 END
 
 CONTROLBAR:WordofPower
@@ -44585,7 +44585,7 @@ CONTROLBAR:ToolTipPersonalFlood
 END
 
 CONTROLBAR:ToggleElvenWarriorWeapons
-"Arma al&ternativa"
+"Arma alte&rnativa"
 END
 
 CONTROLBAR:HaldirGoldenArrow
@@ -44601,19 +44601,19 @@ CONTROLBAR:ToolTipHaldirLeadership
 END
 
 CONTROLBAR:GlorfindelBladeOfPurity
-"Acero de pureza [&T]"
+"Acero de pureza (&T)"
 END
 
 CONTROLBAR:GlorfindelWindRider
-"Jinete del viento [&C]"
+"Jinete del viento (&C)"
 END
 
 CONTROLBAR:GlorfindelStarlight
-"Luz estelar [&B]"
+"Luz estelar (&B)"
 END
 
 CONTROLBAR:HawkStrike
-"Ataque de halcón [&R]"
+"Ataque de halcón (&R)"
 END
 
 CONTROLBAR:TrainArchers
@@ -44641,7 +44641,7 @@ CONTROLBAR:ThornofVengeance
 END
 
 CONTROLBAR:ElrondFarsight
-"Vista lejana [&T]"
+"Vista lejana (&T)"
 END
 
 CONTROLBAR:TooltipElrondLeadership
@@ -44653,7 +44653,7 @@ CONTROLBAR:ToolTipElrondFarsight
 END
 
 CONTROLBAR:ElrondRestoration
-"Restauración [&B]"
+"Restauración (&B)"
 END
 
 CONTROLBAR:ToolTipElrondRestoration
@@ -44661,7 +44661,7 @@ CONTROLBAR:ToolTipElrondRestoration
 END
 
 CONTROLBAR:ElrondWhirlwind
-"Remolino [&B]"
+"Remolino (&B)"
 END
 
 CONTROLBAR:TooltipElrondWhirlwind
@@ -44717,19 +44717,19 @@ CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel3Upgrade
 END
 
 CONTROLBAR:GloinSlam
-"Embestida [&R]"
+"Embestida (&R)"
 END
 
 CONTROLBAR:GloinShakeFoundation
-"Temblar cimientos [&T]"
+"Temblar cimientos (&T)"
 END
 
 CONTROLBAR:GloinSmash
-"Martillo despedazador [&C]"
+"Martillo despedazador (&C)"
 END
 
 CONTROLBAR:MightyRage
-"Furia poderosa [&T]"
+"Furia poderosa (&T)"
 END
 
 CONTROLBAR:DainStubbornPride
@@ -44737,7 +44737,7 @@ CONTROLBAR:DainStubbornPride
 END
 
 CONTROLBAR:SummonRoyalGuard
-"Convocar a la guardia real [&V]."
+"Convocar a la guardia real (&V)"
 END
 
 CONTROLBAR:ToolTipDainLeadership
@@ -44757,7 +44757,7 @@ CONTROLBAR:Leap
 END
 
 CONTROLBAR:Slayer
-"Exterminador [&V]"
+"Exterminador (&V)"
 END
 
 CONTROLBAR:ToolTipGimliLeadership
@@ -44861,15 +44861,15 @@ CONTROLBAR:ToolTipSharkuManEater
 END
 
 CONTROLBAR:ToggleLurtzWeapon
-"Cambiar arma [&R]"
+"Cambiar arma (&R)"
 END
 
 CONTROLBAR:SpecialAbilityLurtzCarnage
-"Carnicería [&T]"
+"Carnicería (&T)"
 END
 
 CONTROLBAR:SpecialAbilityLurtzCripple
-"Lisiar [&C]"
+"Lisiar (&C)"
 END
 
 CONTROLBAR:TameTheBeast
@@ -44877,19 +44877,19 @@ CONTROLBAR:TameTheBeast
 END
 
 CONTROLBAR:SharkuManEater
-"Devorahombres [&T]"
+"Devorahombres (&T)"
 END
 
 CONTROLBAR:VenomousWords
-"Palabras ponzoñosas [&R]"
+"Palabras ponzoñosas (&R)"
 END
 
 CONTROLBAR:Escape
-"Huida [&T]"
+"Huida (&T)"
 END
 
 CONTROLBAR:Backstab
-"Puñalada [&C]"
+"Puñalada (&C)"
 END
 
 CONTROLBAR:CorrodeAllegiance
@@ -44905,19 +44905,19 @@ CONTROLBAR:ToolTipVenomousWords
 END
 
 CONTROLBAR:SpecialAbilitySarumanFireball
-"Bola de fuego [&T]"
+"Bola de fuego (&T)"
 END
 
 CONTROLBAR:SpeechCraft
-"Oratoria [&C]"
+"Oratoria (&C)"
 END
 
 CONTROLBAR:Dominate
-"Dominación [&B]"
+"Dominación (&V)"
 END
 
 CONTROLBAR:ThunderBolt
-"Rayo [&V]"
+"Rayo (&B)"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityMouthOfSauronEvilEye
@@ -44953,7 +44953,7 @@ CONTROLBAR:BlackRiderMorgulBlade
 END
 
 CONTROLBAR:ScreechBlackRider
-"Chillido [&V]"
+"Chillido (&V)"
 END
 
 CONTROLBAR:ToolTipBuildMordorMumakil
@@ -44961,19 +44961,19 @@ CONTROLBAR:ToolTipBuildMordorMumakil
 END
 
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye
-"Ojo malvado [&T]"
+"Ojo malvado (&T)"
 END
 
 CONTROLBAR:MouthOfSauronDoubt
-"Duda [&C]"
+"Duda (&C)"
 END
 
 CONTROLBAR:MouthOfSauronDissent
-"Disensión [&B]"
+"Disensión (&B)"
 END
 
 CONTROLBAR:Screech
-"Chillido [&R]"
+"Chillido (&R)"
 END
 
 CONTROLBAR:ScreechWitchKing
@@ -45037,15 +45037,15 @@ CONTROLBAR:WildShelobInstillTerror
 END
 
 CONTROLBAR:WildShelobPoisonedStinger
-"Dardo envenenado [&T]"
+"Dardo envenenado (&T)"
 END
 
 CONTROLBAR:SpecialAbilityWildShelobTunnel
-"Túnel [&C]"
+"Túnel (&C)"
 END
 
 CONTROLBAR:SpecialAbilityDrogothFireball
-"Bola de fuego [&R]"
+"Bola de fuego (&R)"
 END
 
 CONTROLBAR:SpecialAbilityWingBlast
@@ -45053,11 +45053,11 @@ CONTROLBAR:SpecialAbilityWingBlast
 END
 
 CONTROLBAR:SpecialAbilityDrogothFireflight
-"Vuelo de fuego [&C]"
+"Vuelo de fuego (&C)"
 END
 
 CONTROLBAR:SpecialAbilityIncinerate
-"Incinerar [&B]"
+"Incinerar (&B)"
 END
 
 OBJECT:HordeMordorHaradrimLancer
@@ -45101,7 +45101,7 @@ CONTROLBAR:TooltipWargRiderHowl
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
-"Comprar espadas forjadas (&B)"
+"Comprar espadas for&jadas"
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
@@ -45109,7 +45109,7 @@ CONTROLBAR:DwarvenGuardianChargeAttack
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
-"Comprar Portaestanda&rte"
+"Comprar Portaestandarte (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
@@ -45141,11 +45141,11 @@ CONTROLBAR:MoveUnseen
 END
 
 CONTROLBAR:PersonalFlood
-"Inundación [&T]"
+"Inundación (&T)"
 END
 
 CONTROLBAR:ElvenGrace
-"Athelas [&R]"
+"Athelas (&R)"
 END
 
 GUI:PleaseSelectBuddy
