@@ -38,8 +38,12 @@
 		//USER_71	// stacky armor
 		//USER_70	// stacky damage
 		//USER_69	// darkness
-		//USER_68	// Glorious charge. Doesnt workk tho. Disabled.
-		//USER_67	// Posible Horde Bonus. Nothing there tho.
+		;//USER_68	// Glorious charge. Doesnt workk tho. Disabled.
+		;//USER_67	// Posible Horde Bonus. Nothing there tho.
+		;//USER_66	// Posible Farsight.
+	//-----------------------------------------------------------------------------
+	;;-;;	//HighTierHeroLeadership
+	//-//	This is untouched but now multiple heroes won't stack the FX's causing lag.
 		Draw = W3DScriptedModelDraw Draw_LeadershipEffect
             ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
@@ -53,7 +57,9 @@
   				ParticleSysBone		= NONE HighLevelLD_NoSL FollowBone:Yes
  			End
         End
-		//------------------
+	//-----------------------------------------------------------------------------
+	;;-;;	//StackyArmorLeadership
+	//-//	This is designed to be similrar to ElvenWood Nugget, slightly more green rather than gold.
 		Draw = W3DScriptedModelDraw Draw_GenericStackArmorEffect
             ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
@@ -67,7 +73,9 @@
   				ParticleSysBone		= NONE GenericArmorStackPseudoNugget09v2 FollowBone:Yes
  			End
         End
-		//------------------
+	//-----------------------------------------------------------------------------
+	;;-;;	//StackyDamageLeadership
+	//-//	This is designed to be similrar to RallyingCall Nugget, slightly more green rather than gold.
 		Draw = W3DScriptedModelDraw Draw_GenericStackDamageEffect
             ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
@@ -82,7 +90,8 @@
  			End
         End
 	//-----------------------------------------------------------------------------
-	;//Unique Spells
+	;;-;;	//MightyRage
+	//-//	From five laggy particles to only none that creates the texture of the original nugget.
 		Draw = W3DScriptedModelDraw Draw_MightRage
             ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
@@ -93,16 +102,18 @@
  			AnimationState = USER_73 BURNINGDEATH
   			End
 			AnimationState = USER_73	// DainMightyRageBuff
-				ParticleSysBone			= BAT_RIBS MightyRageParticle_NoSLValTest FollowBone:Yes
-				
-  				;ParticleSysBone		= NONE MightyRageParticle_NoSL FollowBone:Yes
- 				;ParticleSysBone		= NONE MightyRageParticle2_NoSL FollowBone:Yes
- 				;ParticleSysBone		= NONE MightyRageParticle3_NoSL FollowBone:Yes
- 				;ParticleSysBone		= NONE MightyRageParticle4_NoSL FollowBone:Yes
- 				;ParticleSysBone		= NONE MightyRageParticle5_NoSL FollowBone:Yes
+				ParticleSysBone			= NONE MightyRageParticle_NoSLValTest FollowBone:Yes
+   				;;-;;	ParticleSysBone		= NONE MightyRageParticle_NoSL FollowBone:Yes
+ 				;;-;;	ParticleSysBone		= NONE MightyRageParticle2_NoSL FollowBone:Yes
+ 				;;-;;	ParticleSysBone		= NONE MightyRageParticle3_NoSL FollowBone:Yes
+ 				;;-;;	ParticleSysBone		= NONE MightyRageParticle4_NoSL FollowBone:Yes
+ 				;;-;;	ParticleSysBone		= NONE MightyRageParticle5_NoSL FollowBone:Yes
+ 				;;-;;	ParticleSysBone		= NONE SpellMightyRage FollowBone:Yes
   			End
         End
-		//------------------
+	//-----------------------------------------------------------------------------
+	;;-;;	//Darkness
+	//-//	This is a reshaped Twinkle, similar to HighTierHero.
 		Draw = W3DScriptedModelDraw Draw_DarknessEffect
             ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
@@ -116,21 +127,9 @@
 				ParticleSysBone		= NONE DarknessParticle09v2 FollowBone:Yes
   			End
         End
-		//------------------
-		;;-;; DoesntReadBones ;;-;; Draw = W3DScriptedModelDraw Draw_GloriousChargeEffect
-		;;-;; DoesntReadBones ;;-;; 	ParticlesAttachedToAnimatedBones = yes
-		;;-;; DoesntReadBones ;;-;; 	ModelConditionState 			= NONE
-		;;-;; DoesntReadBones ;;-;; 		Model = None
-		;;-;; DoesntReadBones ;;-;; 	End
-		;;-;; DoesntReadBones ;;-;; 	AnimationState = USER_68 //TheodenGloriousCharge
-		;;-;; DoesntReadBones ;;-;; 		;doesnt work;EnteringStateFX = FX_TheodenGloriousChargeFX
-  		;;-;; DoesntReadBones ;;-;; 		;ParticleSysBone		= BAT_HHEAD GCglowWhite_NoSM FollowBone:Yes
-  		;;-;; DoesntReadBones ;;-;; 		;ParticleSysBone		= B_HHIPL GCglowHorseRearWhite_NoSM FollowBone:Yes
-  		;;-;; DoesntReadBones ;;-;; 		;ParticleSysBone		= BAT_SPINE2 GCglowHorseWhite_NoSM FollowBone:Yes
- 		;;-;; DoesntReadBones ;;-;; 	End
-        ;;-;; DoesntReadBones ;;-;; End
 	//-----------------------------------------------------------------------------
-	;//Unique Debuff
+	;;-;;	//DreadVisage
+	//-//	This ons is actually pretty innecesary as it's a generic debuff modifier.
 		Draw = W3DScriptedModelDraw Draw_WitchKingDebuff
             ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
@@ -145,37 +144,57 @@
  			End
         End
 	//-----------------------------------------------------------------------------
-	;//HordeBonus
-		;Draw = W3DScriptedModelDraw Draw_HordeBonus
-        ;    ParticlesAttachedToAnimatedBones = yes
-		;	ModelConditionState 			= NONE
-		;		Model = None
-		;	End
-		;	AnimationState = USER_67 DYING
-  		;	End
- 		;	AnimationState = USER_67 BURNINGDEATH
-  		;	End
-		;	AnimationState = USER_67	// MordorLargeGroupBonus
-  		;		ParticleSysBone		= NONE placeholder FollowBone:Yes
- 		;	End
-        ;End
+	;;-;;	//HordeBonus
+	//-//	Too annoying
+	;;-;;	Draw = W3DScriptedModelDraw Draw_HordeBonus
+    ;;-;;	    ParticlesAttachedToAnimatedBones = yes
+	;;-;;		ModelConditionState 			= NONE
+	;;-;;			Model = None
+	;;-;;		End
+	;;-;;		AnimationState = USER_67 DYING
+  	;;-;;		End
+ 	;;-;;		AnimationState = USER_67 BURNINGDEATH
+  	;;-;;		End
+	;;-;;		AnimationState = USER_67	// MordorLargeGroupBonus
+  	;;-;;			ParticleSysBone		= NONE placeholder FollowBone:Yes
+ 	;;-;;		End
+    ;;-;;	End
 	//-----------------------------------------------------------------------------
-	;//FarSeeing
-		Draw = W3DScriptedModelDraw Draw_FarSeeing
-            ParticlesAttachedToAnimatedBones = yes
+	;;-;;	//FarSeeing
+	//-//	Did not manage to be better than nugget.
+	;;-;;		Draw = W3DScriptedModelDraw Draw_FarSeeing
+	;;-;;			ParticlesAttachedToAnimatedBones = yes
+	;;-;;			ModelConditionState 			= NONE
+	;;-;;				Model = None
+	;;-;;			End
+	;;-;;			AnimationState = USER_66 DYING
+	;;-;;			End
+	;;-;;			AnimationState = USER_66 BURNINGDEATH
+	;;-;;			End
+	;;-;;			ModelConditionState 			= USER_66
+	;;-;;				Model = exfarsightorig
+	;;-;;				;ParticleSysBone		= NONE FarsightPseudoNuggetTop09v2 FollowBone:Yes
+	;;-;;				;ParticleSysBone		= NONE FarsightPseudoNuggetMid09v2 FollowBone:Yes
+	;;-;;				;ParticleSysBone		= NONE FarsightPseudoNuggetBott09v2 FollowBone:Yes
+	;;-;;			End
+	;;-;;		End
+	//-----------------------------------------------------------------------------
+	;;-;;	//GloriousCharge
+	//-//	Does not read bones so this won't work here. //-// This will stop the FX stacking at least.
+		Draw = W3DScriptedModelDraw Draw_GloriousChargeEffect
+			ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
 				Model = None
 			End
-			AnimationState = USER_66 DYING
-  			End
- 			AnimationState = USER_66 BURNINGDEATH
-  			End
-			AnimationState = USER_66	// FarSeeing
-  				ParticleSysBone		= NONE FarsightPseudoNuggetTop09v2 FollowBone:Yes
-  				ParticleSysBone		= NONE FarsightPseudoNuggetMid09v2 FollowBone:Yes
-  				ParticleSysBone		= NONE FarsightPseudoNuggetBott09v2 FollowBone:Yes
+			AnimationState = USER_68 DYING
+			End
+			AnimationState = USER_68 BURNINGDEATH
+			End
+			AnimationState = USER_68 //TheodenGloriousCharge
+				EnteringStateFX = FX_TheodenGloriousChargeFX
  			End
-        End
+		End
+	//-----------------------------------------------------------------------------
 		
 		
 		
