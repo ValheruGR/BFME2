@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.80 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Maka sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.86 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Maka sucks."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -138,10 +138,10 @@ CONTROLBAR:TooltipPalantirVision_New
 "Spy on the enemy forces\n\n Gives a temporary +20% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
-CONTROLBAR:SpecialAbilityWildmanPillage_New
+CONTROLBAR:SpecialAbilityDunlandPillage_New
 "Pillage"
 End
-CONTROLBAR:ToolTipSpecialAbilityWildmanPillage_New
+CONTROLBAR:ToolTipSpecialAbilityDunlandPillage_New
 "The axe thrower will somehow steal resources whenever dealing damage to enemy heroes \n Passive ability"
 End
 //---------------------------------------------------
@@ -420,7 +420,7 @@ CONTROLBAR:GorkilToxicCumShotDesc_New
 END
 //---------------------
 CONTROLBAR:GorkilRoussingSpeech_New
-"Goblin Roussing Speech [&B]"
+"Day of the Goblin! [&B]"
 END
 CONTROLBAR:GorkilRoussingSpeechDesc_New
 "Requires Level 7 \n Can only use when mounted \n The Goblin King and nearby player goblins gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Category: 'Glorious_Charge' \n left click icon to activate"
@@ -1523,7 +1523,7 @@ CONTROLBAR:GloriousCharge_New
 "Glorious Charge [&V]"
 END
 CONTROLBAR:ToolTipGloriousCharge_New
-"Requires Level 7 \n Theoden and nearby player men gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n Category: 'Glorious_Charge' \n left click icon to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n Category: 'Glorious_Charge' \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:Charge_New
@@ -2335,29 +2335,29 @@ CONTROLBAR:ToolTipWizardBlast_New
 "Large range spell that suck out backward enemy units monsters or heroes. \n Left click icon then left click on target"
 END
 CONTROLBAR:HoraDelMago_New
-"Time Stop (&Y)"
+"Time Stop (&V)"
 End
 CONTROLBAR:HoraDelMagoDesc_New
 "Requires Level 10 \n Saruman does some dance with suck-type FX's. \n Enemies around Saruman are continously paralyzed. \n Looks like ice shit. \n There are some snow flakes, kinda. \n Thorin sucks. \n Left click to activate"
 END
 CONTROLBAR:SpecialAbilitySarumanFireball_New
-"Fireballs [&C]"
+"Fireballs [&T]"
 END
 CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
 "Requires Level 3 \n Spells a bunch of fireballs towards the enemy. \n Targets become on fire and receive damage for 20 seconds. \n Left click icon then left click on target enemies"
 // Throws a ball of energy
 END
 CONTROLBAR:ThunderBolt_New
-"Lightning S&torm"
+"Lightning Storm (&B)"
 END
 CONTROLBAR:ToolTipThunderBolt_New
-"Requires Level 5 \n Strikes a series of lightning strikes against the units in the target area. \n Level 7 and level 9 calls even more lightning strikes. \n Left click icon then left click on target location"
+"Requires Level 8 \n Strikes a series of lightning strikes against the units in the target area. \n Level 7 and level 9 calls even more lightning strikes. \n Left click icon then left click on target location"
 END
 CONTROLBAR:RainOfFireSaruman_New
-"Meteorites (&B)"
+"Black Magic Meteorite (&C)"
 END
 CONTROLBAR:RainOfFireDescSaruman_New
-"Requires Level 8 \n Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
+"Requires Level 6 \n Calls down a corrupted meteorite that will cause magic and siege against enemies and blight the land. \n Left click icon then left click on target area"
 END
 //	CONTROLBAR:Devastation_New
 //	"Devastation (&Y)"
