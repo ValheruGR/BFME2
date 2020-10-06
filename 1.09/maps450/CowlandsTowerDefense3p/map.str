@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.86 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Maka sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.89 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Maka sucks."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -79,7 +79,7 @@ End
 
 //------------------------------------------------------------
 TOOLTIP:ToolTipBuildGoblinArcherHorde_New
-"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
+"Strong vs. Infantry\n Resistant to trample\n Can be upgraded with Gundabad Training"
 END
 //------------------------------------------------------------
 UPGRADE:GoblinGundabadTraining_New
@@ -142,7 +142,7 @@ CONTROLBAR:SpecialAbilityDunlandPillage_New
 "Pillage"
 End
 CONTROLBAR:ToolTipSpecialAbilityDunlandPillage_New
-"The axe thrower will somehow steal resources whenever dealing damage to enemy heroes \n Passive ability"
+"The axe thrower will somehow steal resources \n whenever dealing damage to enemy heroes \n Passive ability"
 End
 //---------------------------------------------------
 CONTROLBAR:ConstructMordorTrollCage_New
@@ -2442,7 +2442,8 @@ SCRIPT:GameStart1
 //Aight, there's just a cooldown each 3 waves rest between waves. Only between different army groups
 //Aight, there's just a cooldown each 3 waves
 //"Thorin sucks, enable ring heroes to play easy mode if you are with him"
-"This is Bos Primigenius Taurus: The TW \n Objective is to prevent enemies from entering top middle tunnel."
+//"This is Bos Primigenius Taurus: The TW \n Objective is to prevent enemies from entering top middle tunnel."
+"This is Bos Primigenius Taurus: The TW \n If it makes you cry, you re' doing it right."
 End
 SCRIPT:GameStart2
 //"Guerrilla cheats with double Farm. Block"
