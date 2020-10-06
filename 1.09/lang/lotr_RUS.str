@@ -37,7 +37,7 @@ CONTROLBAR:TooltipScreechWitchKing09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildIronOreUpgrade09v2
-"Сокращение стоимости стального оружия и тяжелых доспехов на 33%."
+"Reduces the cost of Forged Blades, Heavy Armor and Fire Arrows upgrades by 33%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
@@ -176,6 +176,7 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Исцеление союзников в чертогах и неподалеку от крепости. \n Воскрешение павших воинов в отряде каждые 6.5 секунд. \n Уменьшение времени ожидания героя на 25%. \n Крепость получает дополнительный запас прочности. \n Улучшает призванные Одинокие Башни"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework09v2
 "Усиление брони стен и крепости \n Требуется для постройки мощной катапульты. \n\n Улучшает призванные Одинокие Башни"
 END
@@ -187,93 +188,122 @@ END
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 "Требуется уровень 2. \n На карте появляется череп на шесте (его можно уничтожить). \n Вокруг тотема рассеивается туман войны, становятся видимыми скрывшиеся враги, а союзники получают 35% брони и +25% опыта. \n Category: 'Armor BUFF' \n Щелкните на пиктограмме, затем - на участке местности."
 END
+//------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
 "Союзники рядом с троллем-барабанщиком получают +35% брони и +25% опыта. \n Пещерные, Горные и Боевые Тролли получают +15% брони, +15% опыта и способность лечиться. \n Category: 'Armor BUFF' \n Пассивная способность."
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
 "Указанные союзники наносят +40% урона, получают +50% опыта в бою и +10% скорости.\n Category: 'Damage LEADERSHIP' \n Щелкните на пиктограмме, затем - на нужных войсках."
 End
+//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
 "Союзники наносят на +50% урона и получают в бою дополнительные +50% опыта. \n Category: 'Damage LEADERSHIP' \n Щелкните на пиктограмме, затем - на цели."
 END
+//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
 "Союзники наносят на +50% урона и получают в бою дополнительные +25% опыта. \n Category: 'Damage LEADERSHIP' \n Щелкните на пиктограмме, затем - на цели."
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
 "Создание участка оскверненной земли. \n Все союзники получают +35% брони. \n Category: 'Armor BUFF' \n Щелкните на пиктограмме, затем - на участке местности."
 END
 CONTROLBAR:ToolTipMenWood09v2
 "Выбранный участок покрывается эльфийским лесом \n +35% к броне союзникам \n Category: 'Armor BUFF' \n Активируется левой кнопкой мыши"
 END
+//------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
 "Союзники рядом со статуей \n наносят +25% урона \n и набирают опыт на 25% быстрее. \n Category: 'Damage SPELL' \n Allies gain terror and fear resistance. \nУвеличение лимита очков командования на 10."
 END
+//------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
 "Союзники рядом со статуей \nполучают +25% брони,\nа их опыт растет на 25% быстрее. \n Category: 'Armor SPELL' \nУвеличение лимита очков командования на 10."
 END
+//------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
 "Союзники рядом со статуей \n получают +35% брони. \n Category: 'Armor BUFF' \n Allies gain terror and fear resistance. \nУвеличение лимита очков командования на 10."
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
 "Уменьшение урона, наносимого крепости в ближнем бою. \n Союзники поблизости получают: \n +25% атаки и +25% опыта. \n Category: 'Damage SPELL'. "
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
 "Находящиеся рядом войска получают +25% брони и опыта. \n Category: 'Damage SPELL' \n Сокращение стоимости призыва героя на 10%. \n Сокращение времени ожидания героя на 10%. \n Сокращение стоимости обучения строителей на 20%."
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
 "Союзники рядом с крепостью получают\n +25% брони,\nа их опыт растет на 25% быстрее. \n Category: 'Damage SPELL' \n \n Снижение стоимости призыва героя на 10%. \n Снижение времени ожидания героя на 10%. \n Снижение стоимости обучения строителей на 20%.\n\n Улучшает призванные Одинокие Башни"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 "Союзники рядом с крепостью получают +25% к атаке и +25% опыта. \n Category: 'Damage SPELL' \n Снижение стоимости призыва героя на 10%. \n Уменьшение времени ожидания героя на 10%. \n Снижение стоимости подготовки строителей на 20%. \n\n Улучшает призванные Одинокие Башни."
 END
+//------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
 "Варги наносят +55% урона, но теряют 10% брони против пикинеров и построек. \n Category: 'Unique Non-wipeable' \n Wipes LEADERSHIP effects from the wargs. \n ЛКМ - применение способности."
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
 "Появление Ока Саурона. \n Обнаружение скрытых врагов. \n Союзники получают +25% к атаке и +25% брони, \n а также +50% больще опыта. \n Category: 'High Tier SPELL' \n Щелкните на пиктограмме, затем - на участке местности."
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
 "Requires Level 8 \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Enemy units are scared while active. \n Category: 'Armor BUFF' \n Left click to activate"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
 "Союзники рядом с Гимли получают \n 35% брони. \n Category: 'Armor BUFF' \n \n Пассивная способность."
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
 "Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier SPELL' \n Passive ability"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 "Находящиеся рядом со знаменем союзники наносят \n +25% урона \n и набирают опыт на 25% быстрее. \n Category: 'Damage SPELL' \nБоевая повозка вне боя постепенно ремонтируется. \n На боевой повозке размещается несколько фаланг."
 End
+//------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
 "Требуется уровень 4. \n Союзники рядом с героем получают +25% брони и набирают опыт на 25% быстрее. \n Category: 'Armor SPELL' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Пассивная способность."
 End
+//------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
 "Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High-Tier SPELL' \n Passive ability"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
 "Требуется уровень 3. \n Кавалерия рядом с Арвен Гейн +25% брони и набирают опыт на 25% быстрее. \n Category: 'Armor SPELL' \n Пассивная способность."
 End
+//------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
 "Requires Level 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster. \n Category: 'Damage LEADERSHIP' \n Passive ability"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
 "Войска рядом с Бомбадилом получают \n +25% брони, \n и набирают опыт на 25% быстрее \n Category: 'Armor SPELL' \n Пассивная способность"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
 "Requires Level 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Category: 'High-Tier SPELL' \n Passive ability"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
 "Requires Level 3 \n Cavalry near Eomer gain 35% Armor. \n Category: 'Armor BUFF' \n Passive ability"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
 "Requires Level 6 \n Allies near Faramir gain \n +35% Armor. \n Category: 'Armor BUFF' \n Passive ability"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
 "Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster. \n Category: 'Damage LEADERSHIP' \n Passive ability"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
 "Allies near Theoden gain \n +25% damage and earn experience 25% faster. \n Category: 'Damage SPELL' \n Passive ability"
 END
+//------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
 "Союзные войска рядом с Саруманом получают +25% брони и набирают опыт на 25% быстрее. \n Category: 'Armor SPELL' \n Пассивная способность."
 END
@@ -339,7 +369,6 @@ End
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
 "Преимущество: кавалерия и \n постройки типа "казарма. \n Tower Guards gain +5% speed at level 3, 5 and 7."
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 "Сильны против копейщиков \n и зданий, производящих ресурсы. \n Стражи получают + 5% скорости на уровнях 3, 5, 7 и 10."
 END
@@ -1166,7 +1195,7 @@ Map:mapmptyrngorthad
 "Tyrn Gorthad"
 END
 Map:mapmptyrngorthad/Desc
-"Better known as the Barrow-downs, the ancient burial grounds of the kings of Arnor were corrupted with evil spirits by the Witch-king. Map from RotWK, edited by Ecthelion"
+"Better known as the Barrow-downs, the ancient burial grounds of the kings of Arnor were corrupted with evil spirits by the Witch-king. \n Map from RotWK, edited by Ecthelion"
 END
 //------------------------------------------------------------
 Map:mapmptournamentudunII
@@ -1215,8 +1244,7 @@ Map:mapSOdruadanforest
 "Druadan Forest"
 END
 Map:mapSOdruadanforest/Desc
-"The Druadan Forest is a pine forest in Gondor, located in Anorien, north of Minas Tirith. The forest is home to mysterious folk known as the Druedain, the Wild Men of the Woods. 
- Map from RotWK, by Solas."
+"The Druadan Forest is a pine forest in Gondor, located in Anorien, north of Minas Tirith. The forest is home to mysterious folk known as the Druedain, the Wild Men of the Woods. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapmpshire4p
@@ -1240,12 +1268,12 @@ Map:mapmppelennorfields/Desc
 "The Battle of the Pelennor Fields was a battle for the city of Minas Tirith, and ultimately for Gondor. It was the greatest battle of the War of the Ring, and indeed the largest of the entire Third Age. \n Map from RotWK, by Lazarus."
 END
 //------------------------------------------------------------
-Map:mapmpoldforest
-"Old Forest"
-END
-Map:mapmpoldforest/Desc
-"Standing between the borders of Buckland and Breeland, The Old Forest hides great mystery and danger beneath its dark canopy. \n Map from RotWK."
-END
+//	Map:mapmpoldforest
+//	"Old Forest"
+//	END
+//	Map:mapmpoldforest/Desc
+//	"Standing between the borders of Buckland and Breeland, The Old Forest hides great mystery and danger beneath its dark canopy. \n Map from RotWK."
+//	END
 //------------------------------------------------------------
 Map:mapmpnevrast4p
 "Nevrast"
