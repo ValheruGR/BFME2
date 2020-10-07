@@ -37,7 +37,7 @@ CONTROLBAR:TooltipScreechWitchKing09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildIronOreUpgrade09v2
-"Reduce en un 33% el coste de las mejoras espadas forjadas y armadura pesada."
+"Reduce en un 33% el coste de las mejoras \n espadas forjadas, armadura pesada y flechas de fuego"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
@@ -348,7 +348,7 @@ CONTROLBAR:ToolTipDisguise09v2
 "Requisito: Nivel 3 \n Se disfraza como un rohirrim normal, usando sus armas y luchando como una de ellos. \n Eowyn ataca mas lento pero hace daño en area. \n Cancela el bonus Doncella Guerrera. \n Haz clic con el botón izquierdo para activarlo."
 END
 CONTROLBAR:ToolTipSmite09v2
-"Requires Level 2 \n Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
+"Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
 "Requisito: Nivel 5 \n Eowyn recibe +35% a la armadura. \n Reduce la disminución de velocidad por pisoteo de Rohirrim amigos \n Cancela el Disfraz. \n Para activarlo, haz clic con el botón izquierdo."
@@ -29441,7 +29441,7 @@ CONTROLBAR:BattleWagonUpgradeAxeThrowers
 END
 
 CONTROLBAR:BattleWagonUpgradeBannerCarrier
-"Mejorar con Portaestandarte (&W)"
+"Mejorar con Portaestanda&rte"
 END
 
 CONTROLBAR:BattleWagonUpgradeHearth
@@ -29565,7 +29565,7 @@ CONTROLBAR:ConstructMordorAttackTroll
 END
 
 CONTROLBAR:ConstructMordorBattleTower
-"Construir torreón (&D)"
+"Construir torr&eón"
 END
 
 CONTROLBAR:ConstructMordorHaradrimArcherHorde
@@ -45121,7 +45121,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Capa élfica (&T)"
+"Capa élfica (&C)"
 END
 
 CONTROLBAR:ChargeAttack

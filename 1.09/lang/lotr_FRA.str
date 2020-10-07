@@ -37,7 +37,14 @@ CONTROLBAR:TooltipScreechWitchKing09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildIronOreUpgrade09v2
-"Réduit le coût des Lames forgées et des améliorations d'Armures lourdes de 33%"
+"Reduces the cost of Forged Blades, Heavy Armor and Fire Arrows upgrades by 33%"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
+"Requires Level 3 \n Glorfindel gains +50% Damage and Invulnerability for 10s \n Can only use when dismounted \n\n Left click to activate"
+END
+CONTROLBAR:TooltipBladeMaster09v2
+"Requires Level 2 \n Aragorn gains +50% Damage and +50% armor. \n Left click to activate"
 END
 //------------------------------------------------------------
 UPGRADE:AutohealUpgradeAdvanced09v2
@@ -45,13 +52,6 @@ UPGRADE:AutohealUpgradeAdvanced09v2
 END
 UPGRADE:AutohealUpgradeBasic09v2
 "Basic Auto heal"
-END
-//------------------------------------------------------------
-CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
-"Requiert : niveau 3 \nGlorfindel gagne +50% dégâts et invulnérabilité pendant 10s\n Ne peut être utilisé que Glorfindel descendu de sa monture \nClic gauche pour activer"
-END
-CONTROLBAR:TooltipBladeMaster09v2
-"Requiert : niveau 2\nAragorn gagne +50% dégâts et double son armure \nClic gauche pour activer"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
@@ -114,7 +114,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry decelerate 3.5 times faster. \n Category: 'Unique SPELL' \n Wipes any other SPELL effects from allies.  \n Left click icon then left click on target area"
+"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry decelerate 3.5 times faster. \n Category: 'Unique SPELL' \n Wipes any other SPELL effects from allies. \n Creates a propective shield against enemy Taint Land or Men Wood on it's center. \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Men Wood"
@@ -165,7 +165,7 @@ CONTROLBAR:ToolTipSharkuManEater09v2
 "Requires Level 6 \n Kill target enemy which restores Sharku's health and temporarily grants +35% Damage, +35% armor and -50% crushing deceleration.\n Left click icon then left click on target enemy"
 END
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel309v2
-"+30% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain 20% armor against pikemen and cavalry"
+"+30% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain 20% armor against Pikemen and Cavalry"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
@@ -176,6 +176,7 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers"
 END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework09v2
 "Donne des points d'armure supplémentaires à la forteresse et aux murs \nPrérequis pour la Catapulte lourde. \n\n La tour d'archers défensive invoquée en bénéficie"
 END
@@ -195,9 +196,11 @@ END
 CONTROLBAR:ToolTipWarChant09v2
 "Les alliés ciblés gagnent +40% dégâts, +50% expérience, +10% vitesse \n Category: 'Damage LEADERSHIP' \nClic gauche sur l'icône puis clic gauche sur les unités ciblées"
 End
+//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
 "Les dégâts des alliés visés augmentent de +50%, +50% d'expérience \n Category: 'Damage LEADERSHIP' \nClic gauche sur l'icône puis clic gauche sur les unités ciblées"
 END
+//------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
 "Les dégâts des alliés visés augmentent de +50%, +25% d'expérience \n Category: 'Damage LEADERSHIP' \nClic gauche sur l'icône puis clic gauche sur les unités ciblées"
 END
@@ -205,7 +208,6 @@ END
 CONTROLBAR:ToolTipTaint09v2
 "Souille une zone\n+35% armure aux unités alliées \n Category: 'Armor BUFF' \nClic gauche sur l'icône puis clic gauche sur la zone cible \nNe peut pas s'utiliser avec d'autres bonus"
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipMenWood09v2
 "Fait pousser une forêt\nLes unités alliées gagnent +35% armure. \n Category: 'Armor BUFF' \nClic gauche sur l'icône puis clic gauche sur la zone cible"
 END
@@ -346,7 +348,7 @@ CONTROLBAR:ToolTipDisguise09v2
 "Requires Level 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn attacks slower but deals damage in area \n Cancels Shield Maiden bonus. \n Left click to activate"
 END
 CONTROLBAR:ToolTipSmite09v2
-"Requires Level 2 \n Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
+"Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
 "Requires Level 5 \n Eowyn gains 35% Armor \n Halves the deceleration rate of friendly Rohirrim when trampling\n Cancels the disguise \n Left click to activate"
@@ -367,7 +369,6 @@ End
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
 "Strong vs. Cavalry and \n Unit Production Buildings \n Tower Guards gain +5% speed at level 3, 5 and 7."
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 "Strong vs. Pikemen\n and Resource Buildings \n Guardians gain +5% speed at level 3, 5, 7 and 10."
 End
@@ -416,7 +417,7 @@ TOOLTIP:AndurilDesc09v2
 END
 //------------------------------------------------------------
 GUI:SpellBookRefreshReduction09v2
-"Bonus: \n Spellbook cooldowns: %d%%"
+"Bonus: \n Spellbook \n cooldowns: \n %d%%"
 End
 //------------------------------------------------------------
 OBJECT:TheForsakenInn09v2
@@ -683,7 +684,7 @@ END
 //"Buckland III"
 //END
 //MAP:mapTESTBucklandIII/Desc
-//"The Eastern border of the Shire was the . \n Map from RotWK, by Mako."
+//"The Eastern border of the Shire was the home of Merry Brandybuck. \n Map from RotWK, by Mako."
 //END
 //------------------------------------------------------------
 Map:mapMAeastmarch
@@ -697,7 +698,7 @@ END
 //"Fords of Glanduin"
 //END
 //Map:mapTESTFordsOfGlanduin/Desc
-//"Beginning in the Hithaeglir south of Khazad-dum, the Glanduin formed Eregion's southern boundary to Dunland \n Map from RotWK, by Solas."
+//"Beginning in the Hithaeglir south of Khazad-dum, the Glanduin formed Eregion's southern boundary to Dunland. \n Map from RotWK, by Solas."
 //END
 //------------------------------------------------------------
 Map:mapSOgondoroutpost
@@ -921,14 +922,14 @@ Map:mapJKforlindonhills
 "Forlindon Hills"
 END
 Map:mapJKforlindonhills/Desc
-"The region of Forlindon was inhabited by Elves and were the chief part of Gil-galad's kingdom, surrounded by the Blue Mountains and the Great Sea.\n Map by Jokuc."
+"The region of Forlindon was inhabited by Elves and were the chief part of Gil-galad's kingdom, surrounded by the Blue Mountains and the Great Sea.\n Map by Jokuc`."
 END
 //------------------------------------------------------------
 Map:mapJKtowerhills
 "Tower Hills"
 END
 Map:mapJKtowerhills/Desc
-"With a layout similar to Fords of Isen and the skin of Tower Hills, this 1v1 map is made to provide a mix of fun elements and balanced gameplay. \n Turn off ring heroes for tournament mode. \n Map by Jokuc."
+"With a layout similar to Fords of Isen and the skin of Tower Hills, this 1v1 map is made to provide a mix of fun elements and balanced gameplay. \n Turn off ring heroes for tournament mode. \n Map by Jokuc`."
 END
 //------------------------------------------------------------
 Map:mapMAudunii
@@ -1194,7 +1195,7 @@ Map:mapmptyrngorthad
 "Tyrn Gorthad"
 END
 Map:mapmptyrngorthad/Desc
-"Better known as the Barrow-downs, the ancient burial grounds of the kings of Arnor were corrupted with evil spirits by the Witch-king. Map from RotWK, edited by Ecthelion"
+"Better known as the Barrow-downs, the ancient burial grounds of the kings of Arnor were corrupted with evil spirits by the Witch-king. \n Map from RotWK, edited by Ecthelion"
 END
 //------------------------------------------------------------
 Map:mapmptournamentudunII
@@ -1267,12 +1268,12 @@ Map:mapmppelennorfields/Desc
 "The Battle of the Pelennor Fields was a battle for the city of Minas Tirith, and ultimately for Gondor. It was the greatest battle of the War of the Ring, and indeed the largest of the entire Third Age. \n Map from RotWK, by Lazarus."
 END
 //------------------------------------------------------------
-Map:mapmpoldforest
-"Old Forest"
-END
-Map:mapmpoldforest/Desc
-"Standing between the borders of Buckland and Breeland, The Old Forest hides great mystery and danger beneath its dark canopy. \n Map from RotWK."
-END
+//	Map:mapmpoldforest
+//	"Old Forest"
+//	END
+//	Map:mapmpoldforest/Desc
+//	"Standing between the borders of Buckland and Breeland, The Old Forest hides great mystery and danger beneath its dark canopy. \n Map from RotWK."
+//	END
 //------------------------------------------------------------
 Map:mapmpnevrast4p
 "Nevrast"
