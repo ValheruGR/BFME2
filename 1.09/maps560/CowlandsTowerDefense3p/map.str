@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.89 \n Made with a lot of love for patch 1.09. \n Playable for 3 and 2 players, with two degrees of difficulty available. If you forget to team up, other players will be allied but kill-counters won't work \n \n \n Maka sucks."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.91. \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -268,14 +268,14 @@ CONTROLBAR:GandalfMaiarLightDesc_New
 "Requires Level 8 \n Calls down a barrage of magic projectiles onto your enemies \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight_New
-"Requires Level 2 \n Sends a fiery dragon missile at selected target \n Left click icon then left click on target"
+CONTROLBAR:ToolTipSpecialAbilityDrogothFireball_New
+"Requires Level 3 \n Send a tripple fireball at selected targets. \n The enemies affected receive damage from the fire for 16 seconds. \n Left click icon then left click on target location"
 END
 CONTROLBAR:ToolTipSpecialAbilityWingBlast_New
-"Requires Level 3 \n Shoots a shockwave of force below Drogoth, causing high meta damage to enemies \n Damage bonus against heroes and monsters \n Left click icon then left click on target area"
+"Requires Level 5 \n Shoots a shockwave of force below Drogoth, causing high meta damage to enemies \n Damage bonus against heroes and monsters \n Left click icon then left click on target area"
 END
-CONTROLBAR:ToolTipSpecialAbilityDrogothFireball_New
-"Requires Level 5 \n Sends five fireball at selected area. \n The enemies affected receive damage from the fire for 20 seconds. \n Left click icon then left click on target location"
+CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight_New
+"Requires Level 7 \n Sends a fiery dragon missile at selected target \n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:HornofGondorPassive_New
@@ -545,7 +545,7 @@ CONTROLBAR:FalseEncouragement_New
 "False Encouragemen&t"
 END
 CONTROLBAR:FalseEncouragementDesc_New
-"Requires Level 3 \n Convinces enemies within a small radius to ignore their commander's orders, break formation and advance alone. \n Target units healthpoints are reduced to 35%, \n damage is reduced to 50%, but speed is increased to 180%. \n Affects allies. \n Lasts two minutes. \n Left click icon then left click on target units"
+"Requires Level 3 \n Convinces enemies within a small radius to ignore their original orders, break formation and advance alone. \n Target units healthpoints are reduced to 35%, \n damage is reduced to 50%, but speed is increased to 180%. \n Affects allies. \n Lasts two minutes. \n Left click icon then left click on target units"
 END
 //-----
 CONTROLBAR:IsengardTrainAllies_New
@@ -556,7 +556,7 @@ CONTROLBAR:IsengardTrainAlliesDesc_New
 END
 //-----
 CONTROLBAR:GrimaLandThing_New
-"Land of Confussion"
+"Land of &Confussion"
  // Tainted Land //"Alienating Land (&B)" // Tainted Land
 End
 CONTROLBAR:GrimaLandThingDesc_New
@@ -564,10 +564,17 @@ CONTROLBAR:GrimaLandThingDesc_New
 END
 //-----
 CONTROLBAR:GrimaEconomyPower_New
-"Employer leadership (&V)"
+"Employer leadership (&B)"
 END
 CONTROLBAR:GrimaEconomyPowerDesc_New
-"Requires Level 9 \n Another of the things Grima learned in Rohan was about disguising one's self interests with the idea of common good. \n Grima encourages lumber jackers to raise the production with promises of better salaries and vacations as result of the economy growing. He convincingly explains that everyone can be easily benefited once the enterprise improve its profits. \n Lumber workers gain +50% speed and harvest +50% more resources"//BUNITO_ESSAY//
+"Requires Level 8 \n Another of the things Grima learned in Rohan was about disguising one's self interests with the idea of common good. \n Grima encourages lumber jackers to raise the production with promises of better salaries and vacations as result of the economy growing. He convincingly explains that everyone can be easily benefited once the enterprise improve its profits. \n Lumber workers gain +50% speed and harvest +50% more resources"//BUNITO_ESSAY//
+END
+//-----
+CONTROLBAR:GrimaSummonMine_New
+"Deploy mines [&V]"
+END
+CONTROLBAR:GrimaSummonMineDesc_New
+"Requires Level 10 \n Grima setups three explosive mines on the selected area. \n Player decides how he is going to detonate them. \n Explosion doesn't discriminate allies from enemies. \n Left click icon then left click on target location"
 END
 //---------------------------------------------------
 CONTROLBAR:IsengardLoneTower_New
@@ -1043,7 +1050,7 @@ CONTROLBAR:PurchaseUpgradeWildBasicTraining_New
 END
 //---------------------------------------------------
 CONTROLBAR:RingWraithMode_New
-"Worst &Nightmare"
+"Worst Nightmare (&C)"
 END
 CONTROLBAR:RingWraithModeDesc_New
 "Requires Level 7 \n Turns into a ring wraith, dealing supernatural damage. \n Effective against any kind of heroe. \n Heroes upon death become into ring wraiths aswell."
@@ -2344,20 +2351,19 @@ CONTROLBAR:SpecialAbilitySarumanFireball_New
 "Fireballs [&T]"
 END
 CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
-"Requires Level 3 \n Spells a bunch of fireballs towards the enemy. \n Targets become on fire and receive damage for 20 seconds. \n Left click icon then left click on target enemies"
-// Throws a ball of energy
-END
-CONTROLBAR:ThunderBolt_New
-"Lightning Storm (&B)"
-END
-CONTROLBAR:ToolTipThunderBolt_New
-"Requires Level 8 \n Strikes a series of lightning strikes against the units in the target area. \n Level 7 and level 9 calls even more lightning strikes. \n Left click icon then left click on target location"
+"Requires Level 3 \n Spells a bunch of fireballs towards the enemy. \n Targets become on fire and receive damage for 16 seconds. \n Left click icon then left click on target enemies"
 END
 CONTROLBAR:RainOfFireSaruman_New
-"Black Magic Meteorite (&C)"
+"Black Magic Meteorite (&B)"
 END
 CONTROLBAR:RainOfFireDescSaruman_New
-"Requires Level 6 \n Calls down a corrupted meteorite that will cause magic and siege against enemies and blight the land. \n Left click icon then left click on target area"
+"Requires Level 8 \n Calls down a corrupted meteorite that will cause magic and siege against enemies and blight the land. \n Left click icon then left click on target area"
+END
+CONTROLBAR:ThunderBolt_New
+"Lightning Storm (&C)"
+END
+CONTROLBAR:ToolTipThunderBolt_New
+"Requires Level 7 \n Strikes a series of lightning strikes against the units in the target area. \n At level 10 calls even more lightning strikes. \n Left click icon then left click on target location"
 END
 //	CONTROLBAR:Devastation_New
 //	"Devastation (&Y)"
