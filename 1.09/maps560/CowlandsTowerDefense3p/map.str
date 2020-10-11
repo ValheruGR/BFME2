@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.91. \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.93. \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -545,7 +545,7 @@ CONTROLBAR:FalseEncouragement_New
 "False Encouragemen&t"
 END
 CONTROLBAR:FalseEncouragementDesc_New
-"Requires Level 3 \n Convinces enemies within a small radius to ignore their original orders, break formation and advance alone. \n Target units healthpoints are reduced to 35%, \n damage is reduced to 50%, but speed is increased to 180%. \n Affects allies. \n Lasts two minutes. \n Left click icon then left click on target units"
+"Requires Level 3 \n Convinces enemies within a small radius to ignore their original orders, break formation and advance alone. \n Target units healthpoints are reduced to 35%, \n damage is reduced to 50%, but speed is increased to 180%. \n Affects allies. \n Lasts 60 seconds. \n Left click icon then left click on target units"
 END
 //-----
 CONTROLBAR:IsengardTrainAllies_New
@@ -1336,7 +1336,7 @@ CONTROLBAR:ToolTipEomerLeadership_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipIstariLight_New
-"Requires Level 4 \n Beam of light that damages enemies. \n Bonus against Cavalry and Monsters. \n Left click icon then left click on target"
+"Requires Level 2 \n Beam of light that damages enemies. \n Bonus against Cavalry and Monsters. \n Left click icon then left click on target"
 END
 //-------------FortressHealingButton-----------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains_New
@@ -1502,14 +1502,14 @@ CONTROLBAR:ThranduilBoostDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:LegolasTrainArchers_New
-"Art of the Bow [&T]"
+"Art of the &Bow"
 END
 CONTROLBAR:LegolasTrainArchersDesc_New
 "Requires Level 7 \n Legolas decides to share his knowledge with player archer batallions. \n Targeted archer batallion learns to shoot arrows 50% faster permanently and earn experience. \n Left click icon then left click on target archers"
 END
 //---------------------------------------------------
 CONTROLBAR:MenWood_New
-"Fanatic pseudo-ecologist [&B]"
+"Fanatic pseudo-ecologist [&V]"
 END
 CONTROLBAR:MenWoodDesc_New
 "Requires Level 10 \n Faramir understands that replenish the forests of Ithilien is the next step after Sauron's defeat. He doesn't precisely care about the benefits that trees have against soil erosion, floods, ozone layer deterioration, etcetera. That Faramir became the Captain of Ithilien doesn't imply he stopped being an ideal ranger; the woods can keep acting like a useful barrier against Gondor enemies. \n But that's not the only reason either.\n Being a pragmatic clever boy with a strong future vision, he sees the monopoly of the Ithilien Forest resources can become a excelent business if we promote a holy crusade against those "Sea Terrorists" and "Sand Terrorists". \n Furthermore, who says Men of the West will never travel to Valinor to rape all those pussy elves that left the Middle-Earth? \n Creates lush terrain \n Enemies near the trees lose simple leadership and -25% armor/-25% damage.  \n Allied STRUCTURES health points are quadruplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area" //BUNITO_ESSAY//
@@ -1661,7 +1661,7 @@ CONTROLBAR:BlightDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:Sunflare_New
-"Moonlight [&B]"
+"Moonlight [&V]"
 END
 CONTROLBAR:TooltipSunflare_New
 "Requires Level 9 \n In honor to the Piano Sonata 4, a beam of canalized moonlight energy is summoned to scorch the cowlands \n Left click icon then left click on target area"
@@ -1675,7 +1675,7 @@ CONTROLBAR:TooltipEnshroudingMist_New
 END
 //---------------------------------------------------
 CONTROLBAR:ArwenRestore_New
-"Evenstar Restoration (&B)"
+"E&venstar Restoration"
 END
 CONTROLBAR:ArwenRestoreDesc_New
 "Requires Level 10 \n Fully refreshes the special ability timers from nearby allies and heals 20% health points \n Left click icon and left click on target allies"
@@ -1747,7 +1747,7 @@ CONTROLBAR:LightningSword_New
 "Shock of Lucidi&ty"
 END
 CONTROLBAR:ToolTipLightningSword_New
-"Requires Level 2 \n Shoots out lightning shocks from Gandalf's sword\n in order to help your enemies releasing their true identity.... \n Left click icon then left click on target"
+"Requires Level 4 \n Shoots out lightning shocks from Gandalf's sword\n in order to help your enemies releasing their true identity.... \n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:Euthanasia_New
@@ -2336,10 +2336,11 @@ TOOLTIP:ToolTipSarumanLeadership_New
 "Player units near Saruman gain +25% armor \n and earn experience 25% faster  \n Category: 'Armor_Inspiration' \n Passive ability"
 END
 CONTROLBAR:WizardBlast_New
-"Wizard Blast [&R]"
+//"Wizard Blast [&R]"
+"Me sucky-sucky, &ten dorra"
 END
 CONTROLBAR:ToolTipWizardBlast_New
-"Large range spell that suck out backward enemy units monsters or heroes. \n Left click icon then left click on target"
+"Requires Level 3 \n Me so horny. \n Fiften dorra? \n Me love you long time. \n Large range spell that suck enemy units monsters or heroes. \n Doubles magic damage at level 10. \n Left click icon then left click on target"
 END
 CONTROLBAR:HoraDelMago_New
 "Time Stop (&V)"
@@ -2348,10 +2349,10 @@ CONTROLBAR:HoraDelMagoDesc_New
 "Requires Level 10 \n Saruman does some dance with suck-type FX's. \n Enemies around Saruman are continously paralyzed. \n Looks like ice shit. \n There are some snow flakes, kinda. \n Thorin sucks. \n Left click to activate"
 END
 CONTROLBAR:SpecialAbilitySarumanFireball_New
-"Fireballs [&T]"
+"Fi&reballs"
 END
 CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
-"Requires Level 3 \n Spells a bunch of fireballs towards the enemy. \n Targets become on fire and receive damage for 16 seconds. \n Left click icon then left click on target enemies"
+"Spells a bunch of fireballs towards the enemy. \n Targets become on fire and receive damage for 16 seconds. \n Left click icon then left click on target enemies"
 END
 CONTROLBAR:RainOfFireSaruman_New
 "Black Magic Meteorite (&B)"
@@ -2576,8 +2577,14 @@ SCRIPT:LifeTook
 "A creep has entered the tunnel system."
 End
 //------------------Counters-----------------//
-SCRIPT:VidasRestantes
-"Remaining lives"
+SCRIPT:EasyMode
+"Easy Mode: Remaining lives"
+End
+SCRIPT:NormalMode
+"Normal Mode: Remaining lives"
+End
+SCRIPT:HardMode
+"Hard Mode: Remaining lives"
 End
 SCRIPT:NextWaveAnticipador
 "Next wave in..."
@@ -2595,13 +2602,7 @@ SCRIPT:AliveCreeps
 "Alive creeps"
 End
 SCRIPT:Wave
-"Normal mode: Wave"
-End
-SCRIPT:WaveEasy
-"Easy mode: Wave"
-End
-SCRIPT:WaveHard
-"Hard mode: Wave"
+"Wave"
 End
 SCRIPT:TimeSinceSpawned
 "TimeSinceSpawned"
