@@ -23,6 +23,12 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ThunderBolt09v2
+"Thunderbolt Storm [&B]"
+END
+CONTROLBAR:ToolTipThunderBolt09v2
+"Requires Level 10 \n Saruman creates a series of clouds that strike powerful lightning bolts against targeted location. \n Left click icon then left click on location"
+END
 CONTROLBAR:ToolTipPersonalFlood09v2
 "Требуется уровень 5. \n Громадная волна наносит урон врагам и тушит пожары. \n Особенно эффективна против Назгулов. \n Bonus against Black Riders. \n The flood horses are improved at level 10.\n Щелкните на пиктограмме, затем - на цели."
 END
