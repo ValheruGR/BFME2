@@ -8503,7 +8503,7 @@ CONTROLBAR:TrollFindRock
 END
 
 CONTROLBAR:TrollFindTastyOrc
-"Buscar orco que comer (&B)"
+"Buscar orco que &comer"
 END
 
 CONTROLBAR:TrollFindOrcToHold
@@ -9847,7 +9847,7 @@ OBJECT:GenericMountainTroll
 END
 
 CONTROLBAR:TrollFindTree
-"Encuentra un árbol (&V)"
+"Encuen&tra un árbol"
 END
 
 CONTROLBAR:ConstructWarg
@@ -16126,7 +16126,7 @@ CONTROLBAR:ToolTipBuildEntBirch
 END
 
 CONTROLBAR:KickAndPunch
-"Ataque &corto alcance"
+"Ataque co&rto alcance"
 END
 
 CONTROLBAR:ToolTipKickAndPunch
@@ -16134,7 +16134,7 @@ CONTROLBAR:ToolTipKickAndPunch
 END
 
 CONTROLBAR:ThrowRocks
-"Lanzar ro&cas"
+"Lanzar &rocas"
 END
 
 CONTROLBAR:ToolTipThrowRocks
@@ -29591,7 +29591,7 @@ CONTROLBAR:DainLeadership
 END
 
 CONTROLBAR:DominateTroll
-"Dominar &troll"
+"Dominar t&roll"
 END
 
 CONTROLBAR:ElrondLeadership
@@ -32859,7 +32859,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerForgedBlades
 END
 
 CONTROLBAR:Trollfindgoblintothrow
-"Manotear un trasgo (&B)"
+"&Coger un trasgo"
 END
 
 CONTROLBAR:ToolTipTrollfindgoblintothrow
@@ -44643,7 +44643,7 @@ CONTROLBAR:ThranduilElvenCloak
 END
 
 CONTROLBAR:ThornofVengeance
-"Espina de &venganza"
+"Espina de venganza (&B)"
 END
 
 CONTROLBAR:ElrondFarsight
