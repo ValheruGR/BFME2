@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.93. \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 3.95 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -135,7 +135,7 @@ CONTROLBAR:InnSummonNoldorArcherDesc_New
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision_New
-"Spy on the enemy forces\n\n Gives a temporary +20% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilityDunlandPillage_New
@@ -186,11 +186,11 @@ CONTROLBAR:EagleUseClawsDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:FortressFireDrakeHotkey_New
-"S&catha, la dragona cold"
+"S&catha, the cold lady"
 //"&Cremona, la dragona"
 END
 OBJECT:FortressFireDrake_New
-"Scatha, la dragona cold"
+"Scatha, the cold lady"
 //"Cremona, la dragona"
 END
 TOOLTIP:FortressFireDrake_New
@@ -212,7 +212,7 @@ CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno_New
 END
 //--------------
 CONTROLBAR:GoblinKingSpawnFireDrakes_New
-"&Call the nephews"
+"&Fire Drake Charge"
 END
 CONTROLBAR:TooltipGoblinKingSpawnFireDrakes_New
 "Requires Level 8 \n Calls the blessings of her sister and delivers them to charge towards the enemy, while their mother hangs out with her friends at 5 am. \n Left click icon then left click on pathable location"
@@ -227,10 +227,10 @@ CONTROLBAR:FireDrakePassiveBoostDesc_New
 END
 //--------------
 CONTROLBAR:SarumanDragonStrike_New
-"Dragon Strike (&V)"
+"Cold Dragon Strike (&V)"
 END
 CONTROLBAR:SarumanDragonStrikeDesc_New
-"Requires Level 10 \n Summons a fire breathing Dragon to fly-by and scorch the target location \n Left click icon then left click on target area"
+"Requires Level 10 \n Summons a cold fire breathing Dragon to fly-by, damage and slow down the enemies in the target location \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:SummonBalrogIce_New
@@ -308,7 +308,7 @@ CONTROLBAR:TooltipShelobFreezeingScreech_New
 "Requires Level 4 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
 END
 CONTROLBAR:ShelobToxicCumShot_New
-"Toxic Lady Juice (&C)"
+"Venom Shoot (&C)"
 END
 CONTROLBAR:ShelobToxicCumShotDesc_New
 "Requires Level 6 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons paralyzing the target for 6 seconds.\n Left click icon then left click on target"
@@ -320,7 +320,7 @@ CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel_New
 "Requires Level 8 \n Allows Shelob to tunnel under the ground and emerge at any unshrouded location, causing damage and metaimpact. \n Left click icon then left click on target location"
 END
 CONTROLBAR:ShelobWebbing_New
-"Ungoliant's mad fruitfulness! (&V)"
+"Webbing Shoot (&V)"
 End
 CONTROLBAR:ToolTipShelobWebbing_New
 "Requires Level 10 \n Shelob shoots a storm of spider webs and eggs. \n Enemy units are crippled. \n Upon death, spider eggs will appaer, \n then shelob babies will be born. \n Left click icon then left click on target area"
@@ -413,7 +413,7 @@ CONTROLBAR:GoblinsTrainAlliesDesc_New
 END
 //---------------------
 CONTROLBAR:GorkilToxicCumShot_New
-"Toxic cum-shot (&C)"
+"Venom Shoot (&C)"
 END
 CONTROLBAR:GorkilToxicCumShotDesc_New
 "Requires Level 4 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons paralyzes the target for 6 seconds.\n Left click icon then left click on target"
@@ -545,7 +545,7 @@ CONTROLBAR:FalseEncouragement_New
 "False Encouragemen&t"
 END
 CONTROLBAR:FalseEncouragementDesc_New
-"Requires Level 3 \n Convinces enemies within a small radius to ignore their original orders, break formation and advance alone. \n Target units healthpoints are reduced to 35%, \n damage is reduced to 50%, but speed is increased to 180%. \n Affects allies. \n Lasts 60 seconds. \n Left click icon then left click on target units"
+"Requires Level 3 \n Convinces enemies within a small radius to ignore their original orders, break formation and advance alone. \n Target units healthpoints are reduced to 35%, \n damage is reduced to 50%, but speed is increased to 180%. \n Affects allies. \n Lasts 45 seconds. \n Left click icon then left click on target units"
 END
 //-----
 CONTROLBAR:IsengardTrainAllies_New
@@ -1168,7 +1168,7 @@ CONTROLBAR:BloodHunt_New
 "Blood Hunt"
 END
 CONTROLBAR:ToolTipGBloodHunt_New
-"Requires Level 2 \n Nearby player units gain +25% Damage, \n +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n Category: 'High-tier Hero' \n Passive ability" //'Unique SPELL' en realidad est esto pero i lie.
+"Requires Level 2 \n Nearby player units gain +25% Damage, \n +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n Category: 'High-tier Hero' \n Passive ability"
 END
 //-----
 CONTROLBAR:SharkuManEater_New
@@ -1247,7 +1247,7 @@ CONTROLBAR:RitualistSacrifice_New
 "Sac&rifice a Berserke"
 END
 CONTROLBAR:RitualistSacrificeDesc_New
-"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain double damage, double armor and become +30% faster for 35 seconds. \n Left click icon, then left click on the target berserker"
+"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain \n+25% Damage, +50 speed & +100% range \n Units also become inmune to metaimpact. \n Category: 'MightyRage' \n Left click icon, then left click on the target berserker"
 END
 CONTROLBAR:LurtzBoost_New
 "Locura"
