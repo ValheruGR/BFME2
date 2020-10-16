@@ -319,7 +319,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Requisito: Nivel 10 \n Disparo extremadamente poderoso que causa daño de veneno por 30 segundos. \n Reduce la velocidad del objetivo en un -10%. \n Efectivo contra heroes duros. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 9 \n Disparo extremadamente poderoso que causa daño de veneno por 15 segundos. \n Reduce la velocidad del objetivo hasta quedar en tan solo 70%. \n Efectivo contra heroes duros. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
