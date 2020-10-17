@@ -23,6 +23,13 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+//------------------------------------------------------------
+UPGRADE:FarmLevel2Tooltip09v2
+"Level 2: +50 Command Points"
+END
+UPGRADE:FarmLevel3Tooltip09v2
+"Level 3: +75 Command Points"
+END
 CONTROLBAR:ThunderBolt09v2
 "Tormenta de Rayos [&B]"
 END
