@@ -38,9 +38,9 @@
 		//USER_71	// stacky armor
 		//USER_70	// stacky damage
 		//USER_69	// darkness
-		;//USER_68	// Glorious charge. Doesnt workk tho. Disabled.
+		//USER_68	// Glorious charge. Simple anti multi fx.
 		;//USER_67	// Posible Horde Bonus. Nothing there tho.
-		;//USER_66	// Posible Farsight.
+		//USER_66	// EvilHeal particles
 	//-----------------------------------------------------------------------------
 	;;-;;	//HighTierHeroLeadership
 	//-//	This is untouched but now multiple heroes won't stack the FX's causing lag.
@@ -160,24 +160,22 @@
  	;;-;;		End
     ;;-;;	End
 	//-----------------------------------------------------------------------------
-	;;-;;	//FarSeeing
-	//-//	Did not manage to be better than nugget.
-	;;-;;		Draw = W3DScriptedModelDraw Draw_FarSeeing
-	;;-;;			ParticlesAttachedToAnimatedBones = yes
-	;;-;;			ModelConditionState 			= NONE
-	;;-;;				Model = None
-	;;-;;			End
-	;;-;;			AnimationState = USER_66 DYING
-	;;-;;			End
-	;;-;;			AnimationState = USER_66 BURNINGDEATH
-	;;-;;			End
-	;;-;;			ModelConditionState 			= USER_66
-	;;-;;				Model = exfarsightorig
-	;;-;;				;ParticleSysBone		= NONE FarsightPseudoNuggetTop09v2 FollowBone:Yes
-	;;-;;				;ParticleSysBone		= NONE FarsightPseudoNuggetMid09v2 FollowBone:Yes
-	;;-;;				;ParticleSysBone		= NONE FarsightPseudoNuggetBott09v2 FollowBone:Yes
-	;;-;;			End
-	;;-;;		End
+	//FarSeeing
+ 		Draw = W3DScriptedModelDraw Draw_EvilHeal
+			ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState 			= NONE
+				Model = None
+			End
+			AnimationState = USER_66 DYING
+			End
+			AnimationState = USER_66 BURNINGDEATH
+			End
+			AnimationState = USER_66
+ 				ParticleSysBone		= NONE EvilHealGlowInfantry09v2 FollowBone:Yes
+				ParticleSysBone		= NONE EvilHealGlowCavalry09v2 FollowBone:Yes
+				ParticleSysBone		= NONE EvilHealGlowMonster09v2 FollowBone:Yes
+			End
+		End
 	//-----------------------------------------------------------------------------
 	;;-;;	//GloriousCharge
 	//-//	Does not read bones so this won't work here. //-// This will stop the FX stacking at least.
