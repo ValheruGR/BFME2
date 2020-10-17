@@ -41,6 +41,7 @@
 		//USER_68	// Glorious charge. Simple anti multi fx.
 		;//USER_67	// Posible Horde Bonus. Nothing there tho.
 		//USER_66	// EvilHeal particles
+		//USER_65	// ElrondHeal particles
 	//-----------------------------------------------------------------------------
 	;;-;;	//HighTierHeroLeadership
 	//-//	This is untouched but now multiple heroes won't stack the FX's causing lag.
@@ -145,7 +146,7 @@
         End
 	//-----------------------------------------------------------------------------
 	;;-;;	//HordeBonus
-	//-//	Too annoying
+	;;-;;	//-//	Too annoying
 	;;-;;	Draw = W3DScriptedModelDraw Draw_HordeBonus
     ;;-;;	    ParticlesAttachedToAnimatedBones = yes
 	;;-;;		ModelConditionState 			= NONE
@@ -160,8 +161,25 @@
  	;;-;;		End
     ;;-;;	End
 	//-----------------------------------------------------------------------------
-	//FarSeeing
- 		Draw = W3DScriptedModelDraw Draw_EvilHeal
+	//GloriousCharge
+	//-//	This will stop the FX stacking at least.
+		Draw = W3DScriptedModelDraw Draw_GloriousChargeEffect
+			ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState 			= NONE
+				Model = None
+			End
+			AnimationState = USER_68 DYING
+			End
+			AnimationState = USER_68 BURNINGDEATH
+			End
+			AnimationState = USER_68 //TheodenGloriousCharge
+				EnteringStateFX = FX_TheodenGloriousChargeFX
+ 			End
+		End
+	//-----------------------------------------------------------------------------
+	//Evil heal
+	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
+  		Draw = W3DScriptedModelDraw Draw_EvilHeal
 			ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
 				Model = None
@@ -177,21 +195,25 @@
 			End
 		End
 	//-----------------------------------------------------------------------------
-	;;-;;	//GloriousCharge
-	//-//	Does not read bones so this won't work here. //-// This will stop the FX stacking at least.
-		Draw = W3DScriptedModelDraw Draw_GloriousChargeEffect
-			ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
-				Model = None
-			End
-			AnimationState = USER_68 DYING
-			End
-			AnimationState = USER_68 BURNINGDEATH
-			End
-			AnimationState = USER_68 //TheodenGloriousCharge
-				EnteringStateFX = FX_TheodenGloriousChargeFX
- 			End
-		End
+	;;//Elrond ElvenGrace
+	;;//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
+  	;;	Draw = W3DScriptedModelDraw Draw_ElrondHeal
+	;;		ParticlesAttachedToAnimatedBones = yes
+	;;		ModelConditionState 			= NONE
+	;;			Model = None
+	;;		End
+	;;		AnimationState = USER_65 DYING
+	;;		End
+	;;		AnimationState = USER_65 BURNINGDEATH
+	;;		End
+	;;		AnimationState = USER_65
+ 	;;			ParticleSysBone		= NONE ElrondAragornlight1 FollowBone:Yes
+	;;			ParticleSysBone		= NONE ElrondAragornlight2 FollowBone:Yes
+	;;			ParticleSysBone		= NONE Aragornlight3 FollowBone:Yes
+	;;			ParticleSysBone		= NONE ElrondAragornlight4 FollowBone:Yes
+	;;			ParticleSysBone		= NONE ElrondAragornlight4High FollowBone:Yes
+	;;		End
+	;;	End
 	//-----------------------------------------------------------------------------
 		
 		
