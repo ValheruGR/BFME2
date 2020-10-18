@@ -354,7 +354,7 @@ CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
-"+20% a armadura, -30% a velocidad y +25% extra resistencia contra flechas."
+"+20% a armadura, -30% a velocidad y +25% extra resistencia contra flechas. \n Pierde -7% daño."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2

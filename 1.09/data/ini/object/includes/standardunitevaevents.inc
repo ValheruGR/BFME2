@@ -42,6 +42,7 @@
 		;//USER_67	// Posible Horde Bonus. Nothing there tho.
 		//USER_66	// EvilHeal particles
 		//USER_65	// ElrondHeal particles
+		//USER_64	// IsengardDevasation/GloinStun
 	//-----------------------------------------------------------------------------
 	;;-;;	//HighTierHeroLeadership
 	//-//	This is untouched but now multiple heroes won't stack the FX's causing lag.
@@ -214,6 +215,22 @@
 	;;			ParticleSysBone		= NONE ElrondAragornlight4High FollowBone:Yes
 	;;		End
 	;;	End
+	//-----------------------------------------------------------------------------
+	//Devastation
+	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
+  		Draw = W3DScriptedModelDraw Draw_DevastationParalyze
+			ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState 			= NONE
+				Model = None
+			End
+			AnimationState = USER_64 DYING
+			End
+			AnimationState = USER_64 BURNINGDEATH
+			End
+			AnimationState = USER_64
+ 				ParticleSysBone		= NONE DevastationStunDrawStyleNoSM09v2 FollowBone:Yes
+ 			End
+		End
 	//-----------------------------------------------------------------------------
 		
 		
