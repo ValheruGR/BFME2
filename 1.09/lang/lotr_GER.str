@@ -521,6 +521,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:TheGreenDragon
+"The Green Dragon"
+END
+Map:TheGreenDragon/Desc
+"A large 2v2 map made in honor of The Green Dragon. A popular inn of Bywater, the Green Dragon Inn was frequented by Hobbits from both Bywater itself and the neighboring settlement of Hobbiton. \n Map from RotWK."
+END
+//------------------------------------------------------------
 Map:ThePrancingPony
 "The Prancing Pony"
 END
