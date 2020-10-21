@@ -25,24 +25,18 @@
 	
 	
 	//-----------------------------------------------------------------------------
-	;//Basic Leadership System
-		//Warchant
-		//Land
-		//HighTierHero
-		//StackyDamage
-		//StackyArmor
-		
-		//USER_74	// 3k hero
+ 		//USER_74	// BasicLeadership:HighTierHero
 		//USER_73	// mighyrage
 		//USER_72	// wk debuff. Innecesary tho.
-		//USER_71	// stacky armor
-		//USER_70	// stacky damage
-		//USER_69	// darkness
+		//USER_71	// BasicLeadership:StackyArmor
+		//USER_70	// BasicLeadership:StackyDamage
+		//USER_69	// DarknessSparkle
 		//USER_68	// Glorious charge. Simple anti multi fx.
-		;//USER_67	// Posible Horde Bonus. Nothing there tho.
+		;//USER_67	// Posible Horde Bonus. Nothing active currently.
 		//USER_66	// EvilHeal particles
 		//USER_65	// ElrondHeal particles
 		//USER_64	// IsengardDevasation/GloinStun
+		//USER_63	// ElrondFarsightSparkle
 	//-----------------------------------------------------------------------------
 	;;-;;	//HighTierHeroLeadership
 	//-//	This is untouched but now multiple heroes won't stack the FX's causing lag.
@@ -229,6 +223,22 @@
 			End
 			AnimationState = USER_64
  				ParticleSysBone		= NONE DevastationStunDrawStyleNoSM09v2 FollowBone:Yes
+ 			End
+		End
+	//-----------------------------------------------------------------------------
+	//ElrondFarsightSparkle
+	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
+  		Draw = W3DScriptedModelDraw Draw_ElrondFarsight
+			ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState 			= NONE
+				Model = None
+			End
+			AnimationState = USER_63 DYING
+			End
+			AnimationState = USER_63 BURNINGDEATH
+			End
+			AnimationState = USER_63
+ 				ParticleSysBone		= NONE HighLevelLDElrondShroud_NoSL FollowBone:Yes
  			End
 		End
 	//-----------------------------------------------------------------------------
