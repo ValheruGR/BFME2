@@ -521,6 +521,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapJBVgrasslandoffavnor
+"Grassland of Favnor"
+END
+Map:mapJBVgrasslandoffavnor/Desc
+"An ancient place where the City of Favnor stood in the mountains. This ancient city was destroyed many ages ago and now it is only recognized by its ruins. \n Map by JBV3737 in 2007. Edited by Ecthelion in 2020."
+END
+//------------------------------------------------------------
 Map:TheGreenDragon
 "The Green Dragon"
 END
