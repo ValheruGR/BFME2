@@ -515,11 +515,11 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
+Map:ThePrancingPony
+"The Prancing Pony"
 END
-Map:mapmpnothing/Desc
-"nothing"
+Map:ThePrancingPony/Desc
+"A large 8 player map made in honor of The Prancing Pony"
 END
 //------------------------------------------------------------
 Map:mapMOblackrootVale
