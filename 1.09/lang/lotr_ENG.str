@@ -20,6 +20,14 @@ CONTROLBAR:nothing09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:SummonBalrogSauron09v2
+"Summon Bal&rog"
+End
+//------------------------------------------------------------
+CONTROLBAR:SummonEagleAlliesGaladriel09v2
+"Summon Eagle Allies (&V)"
+End
+//------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
 "Level 2: +50 Command Points"
 END
@@ -27,9 +35,6 @@ UPGRADE:FarmLevel3Tooltip09v2
 "Level 3: +75 Command Points"
 END
 //------------------------------------------------------------
-CONTROLBAR:nothingDesc09v2
-"nothing"
-END
 CONTROLBAR:ThunderBolt09v2
 "Thunderbolt Storm [&B]"
 END
@@ -456,7 +461,7 @@ CONTROLBAR:ToolTipWordofPowerSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower09v2
-"Nenya [&V]"
+"Nenya [&B]"
 END
 CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 "Requires Level 10 \n Nenya \Sends out a shockwave that destroys surrounding enemies \n Left click to activate"
@@ -508,18 +513,25 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
+Map:mapJBVgrasslandoffavnor
+"Grassland of Favnor"
 END
-Map:mapmpnothing/Desc
-"nothing"
+Map:mapJBVgrasslandoffavnor/Desc
+"An ancient place where the City of Favnor stood in the mountains. This ancient city was destroyed many ages ago and now it is only recognized by its ruins. \n Map by JBV3737 in 2007. Edited by Ecthelion in 2020."
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
+Map:TheGreenDragon
+"The Green Dragon"
 END
-Map:mapmpnothing/Desc
-"nothing"
+Map:TheGreenDragon/Desc
+"A large 2v2 map made in honor of The Green Dragon. A popular inn of Bywater, the Green Dragon Inn was frequented by Hobbits from both Bywater itself and the neighboring settlement of Hobbiton. \n Map from RotWK."
+END
+//------------------------------------------------------------
+Map:ThePrancingPony
+"The Prancing Pony"
+END
+Map:ThePrancingPony/Desc
+"A large 8 player map made in honor of The Prancing Pony. \n Map from RotWK."
 END
 //------------------------------------------------------------
 Map:mapMOblackrootVale
@@ -1471,7 +1483,7 @@ END
 
 
 CONTROLBAR:GaladHealBTP
-"&Light Of Galadriel"
+"Light Of Galad&riel"
 END
 CONTROLBAR:ToolTipGaladHeal
 "Heals all allied units and heroes in a large circle around Galadriel \n Left click to activate"
@@ -31882,7 +31894,7 @@ CONTROLBAR:ToolTipThunderBolt
 END
 
 CONTROLBAR:GaladrielTornado
-"Nature's &Wrath"
+"Nature's Wra&th"
 END
 
 CONTROLBAR:TooltipGaladrielTornado
