@@ -20,6 +20,17 @@ CONTROLBAR:nothing09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:nothingDesc09v2
+"nothing"
+END
+//------------------------------------------------------------
+CONTROLBAR:ShelobWebbing09v2
+"We&b Of Ungoliant"
+End
+CONTROLBAR:ToolTipShelobWebbing09v2
+"Requires Level 10 \n Cripples enemy units in spider webs for 4.5 seconds and drains their life for the duration. \n Shelob is healed based on total damage caused to heroes. \n Left click icon then left click on target area"
+End
+//------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
 "Summon Bal&rog"
 End
