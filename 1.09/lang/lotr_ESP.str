@@ -24,6 +24,14 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:SummonBalrogSauron09v2
+"Summon Bal&rog"
+End
+//------------------------------------------------------------
+CONTROLBAR:SummonEagleAlliesGaladriel09v2
+"Summon Eagle Allies (&V)"
+End
+//------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
 "Level 2: +50 Command Points"
 END
@@ -457,7 +465,7 @@ CONTROLBAR:ToolTipWordofPowerSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower09v2
-"Nenya (&V)"
+"Nenya (&B)"
 END
 CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 "Envía una descarga que mata a los enemigos de alrededor. \n Para activarlo, haz clic con el botón izquierdo."

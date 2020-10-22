@@ -24,6 +24,14 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:SummonBalrogSauron09v2
+"Summon Bal&rog"
+End
+//------------------------------------------------------------
+CONTROLBAR:SummonEagleAlliesGaladriel09v2
+"Summon Eagle Allies (&V)"
+End
+//------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
 "Level 2: +50 Command Points"
 END
@@ -460,7 +468,7 @@ CONTROLBAR:ToolTipWordofPowerSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower09v2
-"Nenya [&V]"
+"Nenya [&B]"
 END
 CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 "Requires Level 10 \n Nenya \Sends out a shockwave that destroys surrounding enemies \n Left click to activate"

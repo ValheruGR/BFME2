@@ -20,6 +20,14 @@ CONTROLBAR:nothing09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:SummonBalrogSauron09v2
+"Summon Bal&rog"
+End
+//------------------------------------------------------------
+CONTROLBAR:SummonEagleAlliesGaladriel09v2
+"Summon Eagle Allies (&V)"
+End
+//------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
 "Level 2: +50 Command Points"
 END
@@ -27,9 +35,6 @@ UPGRADE:FarmLevel3Tooltip09v2
 "Level 3: +75 Command Points"
 END
 //------------------------------------------------------------
-CONTROLBAR:nothingDesc09v2
-"nothing"
-END
 CONTROLBAR:ThunderBolt09v2
 "Thunderbolt Storm [&B]"
 END
@@ -456,7 +461,7 @@ CONTROLBAR:ToolTipWordofPowerSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower09v2
-"Nenya [&V]"
+"Nenya [&B]"
 END
 CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 "Requires Level 10 \n Nenya \Sends out a shockwave that destroys surrounding enemies \n Left click to activate"
@@ -1478,7 +1483,7 @@ END
 
 
 CONTROLBAR:GaladHealBTP
-"&Light Of Galadriel"
+"Light Of Galad&riel"
 END
 CONTROLBAR:ToolTipGaladHeal
 "Heals all allied units and heroes in a large circle around Galadriel \n Left click to activate"
@@ -31889,7 +31894,7 @@ CONTROLBAR:ToolTipThunderBolt
 END
 
 CONTROLBAR:GaladrielTornado
-"Nature's &Wrath"
+"Nature's Wra&th"
 END
 
 CONTROLBAR:TooltipGaladrielTornado
