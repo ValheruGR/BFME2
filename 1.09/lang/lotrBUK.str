@@ -5343,7 +5343,7 @@ END
 
 GUI:NotifiedStartIntent
 // context: The player who hosts the game wants to start the game. This message is displayed in the chat window of the multiplayer lobby.
-"Host wants to start game but cannot because one or more others are not ready!"
+"Udders are brimming... milks a'plenty; let's jugar and squeeze each other 'till empty!"
 END
 
 GUI:HostLeft
@@ -16783,7 +16783,7 @@ END
 
 // MEN OF THE WEST UNITS
 CONTROLBAR:ConstructGondorArcherHorde
-"Gondor Ar&chers"
+"Gondor &Archers"
 END
 CONTROLBAR:ConstructGondorRangerHorde
 "Ithilien &Rangers"
@@ -17473,7 +17473,7 @@ CONTROLBAR:ConstructIsengardUrukHai
 "U&ruk-hai"
 END
 CONTROLBAR:ConstructIsengardCrossbowmen
-"Uruk &Crossbowmen"
+"Uruk Crossbowmen(&A)"
 END
 CONTROLBAR:ConstructIsengardPikemen
 "Uruk &Pikemen"
@@ -27763,7 +27763,7 @@ END
 ///////////////////////////////////
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Build Wall (&R)"
+"Build Wall(&R)"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -27993,7 +27993,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
-"Mighty &Catapult"
+"Mighty C&atapult"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressMightyCatapult
@@ -28034,7 +28034,7 @@ END
 
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Build Wall (&R)"
+"Build Wall(&R)"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -28264,7 +28264,7 @@ END
 //////////////////////////////
 
 CONTROLBAR:ConstructWildSpiderHolesExpansion
-"Spider Holes Expansion"
+"S&pider Holes Expansion"
 END
 
 CONTROLBAR:ToolTipConstructWildSpiderHolesExpansion
@@ -28738,7 +28738,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Build Wall (&R)"
+"Build Wall(&R)"
 END
 
 
@@ -31523,11 +31523,11 @@ CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan
-"Build Wall (&R)"
+"Build Wall(&R)"
 END
 
 CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
-"Build Wall (&R)"
+"Build Wall(&R)"
 END
 
 CONTROLBAR:Command_ConstructIsengardCastleWallHub
@@ -31733,7 +31733,7 @@ CONTROLBAR:ConstructMordorCorsairsOfUmbarHorde
 END
 
 CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan
-"Build Wall (&R)"
+"Build Wall(&R)"
 END
 
 CONTROLBAR:ConstructDwarvenHallExpansion
@@ -31995,7 +31995,7 @@ CONTROLBAR:Command_DwarvenCastleWallHub_BeginRamp
 End
 
 CONTROLBAR:Command_DwarvenCastleWallHub_SmallWallSpan
-"Build Wall (&R)"
+"Build Wall(&R)"
 End
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
@@ -32003,7 +32003,7 @@ CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
 End
 
 CONTROLBAR:Command_GondorCastleWallHub_SmallWallSpan
-"Build Wall (&R)"
+"Build Wall(&R)"
 End
 
 CONTROLBAR:ConstructCorsairShip
@@ -32271,7 +32271,7 @@ CONTROLBAR:SpecialAbilityDwarvenDemolisherDeploy
 End
 
 CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades
-"Poisoned Blades (&W)"
+"Poisoned Blades(&W)"
 End
 
 
@@ -35600,7 +35600,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerForgedBlades
 END
 
 CONTROLBAR:Trollfindgoblintothrow
-"Pi&ck up Goblin"
+"&Pick up Goblin"
 END
 
 CONTROLBAR:ToolTipTrollfindgoblintothrow
