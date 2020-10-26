@@ -24,6 +24,13 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ShelobWebbing09v2
+"We&b Of Ungoliant"
+End
+CONTROLBAR:ToolTipShelobWebbing09v2
+"Requires Level 10 \n Cripples enemy units in spider webs for 4.5 seconds and drains their life for the duration. \n Shelob is healed based on total damage caused to heroes. \n Left click icon then left click on target area"
+End
+//------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
 "Summon Bal&rog"
 End
@@ -530,11 +537,11 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapJBVgrasslandoffavnor
-"Grassland of Favnor"
+Map:mapETgrassland
+"Grasslands"
 END
-Map:mapJBVgrasslandoffavnor/Desc
-"An ancient place where the City of Favnor stood in the mountains. This ancient city was destroyed many ages ago and now it is only recognized by its ruins. \n Map by JBV3737 in 2007. Edited by Ecthelion in 2020."
+Map:mapETgrassland/Desc
+"An ancient place where the City of Favnor stood in the mountains. This ancient city was destroyed many ages ago and now it is only recognized by its ruins. \n Map by Ecthelion, originally created by JBV3737."
 END
 //------------------------------------------------------------
 Map:TheGreenDragon
@@ -614,10 +621,10 @@ Map:mapSOsouthfarthing/Desc
 "As a rural, fertile, and slightly warmer area of the Shire, the Southfarthing was the site of much of the Pipe-weed production. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
-Map:mapETrhun6p
+Map:mapETvalleysofrhun
 "Valleys of Rhün"
 END
-Map:mapETrhun6p/Desc
+Map:mapETvalleysofrhun/Desc
 //"A series of partially fertile valleys, feeded by water sinks from the nearby mountain chains at the far east of the Middle-Earth, around the Sea of Rhun. \n Map by Ecthelion."
 "The east of the Middle-Earth form a multiplicity of enviroments where aridity and humble piedmont oasis reign, alternating with streams and valleys of singular beauty, creating a landscape with certain paradisiacal opulence. \n Map by Ecthelion"
 //Sierras Pampeanas, Argentina.
@@ -1268,10 +1275,10 @@ Map:mapmpthewold/Desc
 "The Wold was the northernmost and least populated part of Rohan. It is a grassy upland plain lying between Fangorn Forest and the Anduin, bordered to the north by the Limlight. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
-Map:mapmpstaddle
+Map:mapSOstaddle
 "Staddle"
 END
-Map:mapmpstaddle/Desc
+Map:mapSOstaddle/Desc
 "Staddle was a village in Bree Land, located on the southeastern side of Bree-hill. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
