@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+UPGRADE:GandalfTheWhite09v2
+"Gandalf The White: +100% magic damage, -20% reload time."
+END
+//------------------------------------------------------------
 CONTROLBAR:ShelobWebbing09v2
 "We&b Of Ungoliant"
 End
