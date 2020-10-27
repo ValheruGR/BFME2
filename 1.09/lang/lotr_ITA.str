@@ -138,7 +138,7 @@ CONTROLBAR:TooltipPalantirVision09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spy on the enemy forces\n\n Gives a temporary range bonus of +35% to \n units at its target area\n Category: 'Unique SPELL'. \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n hordes at its target area\n Category: 'Unique SPELL'. \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
@@ -158,10 +158,6 @@ END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
 "Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n Enemy units are reduced to only \n 75% armor and 75% damage. \n Category: 'DEBUFF' \n Wipes LEADERSHIP, BUFF and SPELL from the enemy. \n Lasts 150 seconds. \n Left click to activate"
-END
-//------------------------------------------------------------
-CONTROLBAR:TooltipFarSight09v2
-"Spy on the enemy forces\n\n Gives a temporary range bonus of +35% to \n units at its target area\n Category: Unique 'SPELL' \n \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
