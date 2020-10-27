@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+UPGRADE:GandalfTheWhite09v2
+"Gandalf The White: +100% magic damage, -20% reload time."
+END
+//------------------------------------------------------------
 CONTROLBAR:ShelobWebbing09v2
 "We&b Of Ungoliant"
 End
@@ -1304,12 +1308,12 @@ Map:mapmppelennorfields/Desc
 "The Battle of the Pelennor Fields was a battle for the city of Minas Tirith, and ultimately for Gondor. It was the greatest battle of the War of the Ring, and indeed the largest of the entire Third Age. \n Map from RotWK, by Lazarus."
 END
 //------------------------------------------------------------
-//	Map:mapmpoldforest
-//	"Old Forest"
-//	END
-//	Map:mapmpoldforest/Desc
-//	"Standing between the borders of Buckland and Breeland, The Old Forest hides great mystery and danger beneath its dark canopy. \n Map from RotWK."
-//	END
+Map:mapmpoldforest
+"Old Forest"
+END
+Map:mapmpoldforest/Desc
+"Standing between the borders of Buckland and Breeland, The Old Forest hides great mystery and danger beneath its dark canopy. \n Map from RotWK."
+END
 //------------------------------------------------------------
 Map:mapmpnevrast4p
 "Nevrast"
