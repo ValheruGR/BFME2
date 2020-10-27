@@ -136,7 +136,7 @@
  			AnimationState = USER_72 BURNINGDEATH
   			End
 			AnimationState = USER_72	// GenericDebuffWK
-  				ParticleSysBone		= NONE WitchkingDreadVisage FollowBone:Yes
+  				ParticleSysBone		= NONE WitchkingDreadVisage_NoSM FollowBone:Yes
  			End
         End
 	//-----------------------------------------------------------------------------
