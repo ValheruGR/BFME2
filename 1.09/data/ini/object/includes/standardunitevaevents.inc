@@ -25,20 +25,21 @@
 	
 	
 	//-----------------------------------------------------------------------------
- 		//USER_74	// BasicLeadership:HighTierHero
-		//USER_73	// mighyrage
-		//USER_72	// wk debuff. Innecesary tho.
-		//USER_71	// BasicLeadership:StackyArmor
-		//USER_70	// BasicLeadership:StackyDamage
-		//USER_69	// DarknessSparkle
-		//USER_68	// Glorious charge. Simple anti multi fx.
-		;//USER_67	// Posible Horde Bonus. Nothing active currently.
-		//USER_66	// EvilHeal particles
-		//USER_65	// ElrondHeal particles
-		//USER_64	// IsengardDevasation/GloinStun
-		//USER_63	// ElrondFarsightSparkle
+			//USER_68	// GloriousCharge. Simple anti multi fx.
+			//USER_69	// DarknessSparkle
+			//USER_74	// BasicLeadership:HighTierHero
+			//USER_73	// Mighyrage
+			//USER_72	// Doubt
+			//USER_71	// BasicLeadership:StackyArmor
+			//USER_70	// BasicLeadership:StackyDamage
+			;//USER_67	// Posible Horde Bonus. Nothing active currently.
+			//USER_64	// IsengardDevasation/GloinStun
+			//USER_63	// ElrondFarsightSparkle
+			//USER_62	// ElronElvenGrace modifier
+			//USER_65	// ElronElvenGrace heal
+			//USER_66	// EvilHeal particles
 	//-----------------------------------------------------------------------------
-	;;-;;	//HighTierHeroLeadership
+	;;-;;	// BasicLeadership:HighTierHero
 	//-//	This is untouched but now multiple heroes won't stack the FX's causing lag.
 		Draw = W3DScriptedModelDraw Draw_LeadershipEffect
             ParticlesAttachedToAnimatedBones = yes
@@ -86,7 +87,7 @@
  			End
         End
 	//-----------------------------------------------------------------------------
-	;;-;;	//MightyRage
+	;;-;;	// Mighyrage
 	//-//	From five laggy particles to only none that creates the texture of the original nugget.
 		Draw = W3DScriptedModelDraw Draw_MightRage
             ParticlesAttachedToAnimatedBones = yes
@@ -108,8 +109,8 @@
   			End
         End
 	//-----------------------------------------------------------------------------
-	;;-;;	//Darkness
-	//-//	This is a reshaped Twinkle, similar to HighTierHero.
+	;;-;;	//DarknessSparkle
+	//-//	This is a reshaped Twinkle, similar to High Tier Hero.
 		Draw = W3DScriptedModelDraw Draw_DarknessEffect
             ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
@@ -124,7 +125,7 @@
   			End
         End
 	//-----------------------------------------------------------------------------
-	;;-;;	//DreadVisage
+	;;-;;	// Doubt
 	//-//	This ons is actually pretty innecesary as it's a generic debuff modifier.
 		Draw = W3DScriptedModelDraw Draw_WitchKingDebuff
             ParticlesAttachedToAnimatedBones = yes
@@ -135,8 +136,8 @@
   			End
  			AnimationState = USER_72 BURNINGDEATH
   			End
-			AnimationState = USER_72	// GenericDebuffWK
-  				ParticleSysBone		= NONE WitchkingDreadVisage_NoSM FollowBone:Yes
+			AnimationState = USER_72	// Doubt
+  				ParticleSysBone		= NONE MoSDoubtUniqueParticle_NoSM FollowBone:Yes
  			End
         End
 	//-----------------------------------------------------------------------------
@@ -194,7 +195,7 @@
 	//-----------------------------------------------------------------------------
 	//Elrond ElvenGrace
 	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
-  		Draw = W3DScriptedModelDraw Draw_ElrondHeal
+  		Draw = W3DScriptedModelDraw Draw_ElrondElvenGraceHeal
 			ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
 				Model = None
@@ -210,7 +211,7 @@
 	//-----------------------------------------------------------------------------
 	//Elrond ElvenGrace
 	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
-  		Draw = W3DScriptedModelDraw Draw_ElrondHealBonus
+  		Draw = W3DScriptedModelDraw Draw_ElrondElvenGraceBonus
 			ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
 				Model = None
