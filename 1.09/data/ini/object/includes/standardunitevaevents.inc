@@ -184,31 +184,46 @@
 			AnimationState = USER_66 BURNINGDEATH
 			End
 			AnimationState = USER_66
- 				ParticleSysBone		= NONE EvilHealGlowInfantry09v2 FollowBone:Yes
-				ParticleSysBone		= NONE EvilHealGlowCavalry09v2 FollowBone:Yes
-				ParticleSysBone		= NONE EvilHealGlowMonster09v2 FollowBone:Yes
+ 				ParticleSysBone		= NONE EvilHealParticleFlare09v2 FollowBone:Yes
+ 				ParticleSysBone		= NONE EvilHealParticleFlareHIGH09v2 FollowBone:Yes
+				ParticleSysBone		= NONE EvilHealParticleBlast09v2 FollowBone:Yes
+				ParticleSysBone		= NONE EvilHealParticleBlastHIGH9v2 FollowBone:Yes
+				ParticleSysBone		= NONE EvilHealParticleHeal09v2 FollowBone:Yes
 			End
 		End
 	//-----------------------------------------------------------------------------
-	;;//Elrond ElvenGrace
-	;;//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
-  	;;	Draw = W3DScriptedModelDraw Draw_ElrondHeal
-	;;		ParticlesAttachedToAnimatedBones = yes
-	;;		ModelConditionState 			= NONE
-	;;			Model = None
-	;;		End
-	;;		AnimationState = USER_65 DYING
-	;;		End
-	;;		AnimationState = USER_65 BURNINGDEATH
-	;;		End
-	;;		AnimationState = USER_65
- 	;;			ParticleSysBone		= NONE ElrondAragornlight1 FollowBone:Yes
-	;;			ParticleSysBone		= NONE ElrondAragornlight2 FollowBone:Yes
-	;;			ParticleSysBone		= NONE Aragornlight3 FollowBone:Yes
-	;;			ParticleSysBone		= NONE ElrondAragornlight4 FollowBone:Yes
-	;;			ParticleSysBone		= NONE ElrondAragornlight4High FollowBone:Yes
-	;;		End
-	;;	End
+	//Elrond ElvenGrace
+	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
+  		Draw = W3DScriptedModelDraw Draw_ElrondHeal
+			ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState 			= NONE
+				Model = None
+			End
+			AnimationState = USER_65 DYING
+			End
+			AnimationState = USER_65 BURNINGDEATH
+			End
+			AnimationState = USER_65
+ 				EnteringStateFX = FX_ElrondElvenGrace09v2
+			End
+		End
+	//-----------------------------------------------------------------------------
+	//Elrond ElvenGrace
+	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
+  		Draw = W3DScriptedModelDraw Draw_ElrondHealBonus
+			ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState 			= NONE
+				Model = None
+			End
+			AnimationState = USER_62 DYING
+			End
+			AnimationState = USER_62 BURNINGDEATH
+			End
+			AnimationState = USER_62
+ 				ParticleSysBone		= NONE EvilHealParticleFlare09v2 FollowBone:Yes
+ 				ParticleSysBone		= NONE EvilHealParticleFlareHIGH09v2 FollowBone:Yes
+			End
+		End
 	//-----------------------------------------------------------------------------
 	//Devastation
 	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
