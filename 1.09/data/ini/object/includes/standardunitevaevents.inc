@@ -199,9 +199,8 @@
 			AnimationState = USER_62 BURNINGDEATH
 			End
 			AnimationState = USER_62
- 				ParticleSysBone		= NONE EvilHealParticleFlare09v2 FollowBone:Yes
- 				ParticleSysBone		= NONE EvilHealParticleFlareHIGH09v2 FollowBone:Yes
-			End
+ 				ParticleSysBone		= NONE ElrondElvenGrace04_NoSL FollowBone:Yes
+ 			End
 		End
 	//-----------------------------------------------------------------------------
 	//Devastation
