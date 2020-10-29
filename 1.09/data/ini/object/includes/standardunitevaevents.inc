@@ -100,12 +100,6 @@
   			End
 			AnimationState = USER_73	// DainMightyRageBuff
 				ParticleSysBone			= NONE MightyRageParticle_NoSLValTest FollowBone:Yes
-   				;;-;;	ParticleSysBone		= NONE MightyRageParticle_NoSL FollowBone:Yes
- 				;;-;;	ParticleSysBone		= NONE MightyRageParticle2_NoSL FollowBone:Yes
- 				;;-;;	ParticleSysBone		= NONE MightyRageParticle3_NoSL FollowBone:Yes
- 				;;-;;	ParticleSysBone		= NONE MightyRageParticle4_NoSL FollowBone:Yes
- 				;;-;;	ParticleSysBone		= NONE MightyRageParticle5_NoSL FollowBone:Yes
- 				;;-;;	ParticleSysBone		= NONE SpellMightyRage FollowBone:Yes
   			End
         End
 	//-----------------------------------------------------------------------------
@@ -140,22 +134,6 @@
   				ParticleSysBone		= NONE MoSDoubtUniqueParticle_NoSM FollowBone:Yes
  			End
         End
-	//-----------------------------------------------------------------------------
-	;;-;;	//HordeBonus
-	;;-;;	//-//	Too annoying
-	;;-;;	Draw = W3DScriptedModelDraw Draw_HordeBonus
-    ;;-;;	    ParticlesAttachedToAnimatedBones = yes
-	;;-;;		ModelConditionState 			= NONE
-	;;-;;			Model = None
-	;;-;;		End
-	;;-;;		AnimationState = USER_67 DYING
-  	;;-;;		End
- 	;;-;;		AnimationState = USER_67 BURNINGDEATH
-  	;;-;;		End
-	;;-;;		AnimationState = USER_67	// MordorLargeGroupBonus
-  	;;-;;			ParticleSysBone		= NONE placeholder FollowBone:Yes
- 	;;-;;		End
-    ;;-;;	End
 	//-----------------------------------------------------------------------------
 	//GloriousCharge
 	//-//	This will stop the FX stacking at least.
