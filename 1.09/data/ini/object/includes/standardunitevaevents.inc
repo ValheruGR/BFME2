@@ -151,7 +151,7 @@
  			End
 		End
 	//-----------------------------------------------------------------------------
-	//Evil heal
+	//EvilHeal
 	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
   		Draw = W3DScriptedModelDraw Draw_EvilHeal
 			ParticlesAttachedToAnimatedBones = yes
