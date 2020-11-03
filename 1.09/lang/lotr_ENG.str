@@ -354,7 +354,7 @@ CONTROLBAR:ToolTipVenomousWords09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Requires Level 4 \n Enemy hordes and heroes in the target location suffer \n -25% armor, -25% damage and -5% armor. \n Lasts 30 seconds. \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
+"Requires Level 4 \n Enemy hordes and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Lasts 30 seconds. \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2

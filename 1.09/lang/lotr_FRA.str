@@ -25,86 +25,86 @@ CONTROLBAR:nothingDesc09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ShelobWebbing09v2
-"We&b Of Ungoliant"
+"Toile d'Ungoliant"
 End
 CONTROLBAR:ToolTipShelobWebbing09v2
-"Requiert : niveau 10 \n Cripples enemy units in spider webs for 4.5 seconds and drains their life for the duration. \n Shelob is healed based on total damage caused to heroes. \n Clic gauche sur l'icône puis clic gauche sur la cible"
+"Requiert : niveau 10 \nParalyse les unités ennemies dans une toile d'araigné pendant 4.5 secondes et drainent leurs points de vies.\nSoigne Arachne proportionnellement aux dégâts engendrés.\nClic gauche sur l'icône puis clic gauche sur la cible."
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
-"Summon Bal&rog"
+"Invoque le Balrog"
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonEagleAlliesGaladriel09v2
-"Summon Eagle Allies (&V)"
+"Invoque les aigles [&V]"
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
-"Level 2: +50 Command Points"
+"Niveau 2: +50 Points de commandement."
 END
 UPGRADE:FarmLevel3Tooltip09v2
-"Level 3: +75 Command Points"
+"Niveau 3: +75 Points de commandement."
 END
 CONTROLBAR:ThunderBolt09v2
-"Thunderbolt Storm [&B]"
+"Coup de tonnerre [&B]"
 END
 CONTROLBAR:ToolTipThunderBolt09v2
-"Requiert : niveau 10 \n Saruman creates a series of clouds that strike powerful lightning bolts against targeted location. \n Left click icon then left click on location"
+"Requiert : niveau 10\nSaruman frappe l'ennemi visé d'un puissant éclair \nClic gauche sur l'icône puis clic gauche sur la cible."
 END
 CONTROLBAR:ToolTipPersonalFlood09v2
-"Requiert : niveau 5\nInvoque une inondation qui inflige des dégâts à l'ennemi et éteint les feux \n Particulièrement éfficace contre la cavalerie \n Bonus contre les Cavaliers noirs \n Bonus against Black Riders. \n The flood horses are improved at level 10.\nClic gauche sur l'icône puis clic gauche sur la cible"
+"Requiert : niveau 5\nInvoque une inondation qui inflige des dégâts à l'ennemi et éteint les feux \n Particulièrement éfficace contre la cavalerie \nBonus contre les Cavaliers noirs. \nPouvoir améliorer au niveau 10.\nClic gauche sur l'icône puis clic gauche sur la cible."
 END
 CONTROLBAR:ToolTipSlayer09v2
-"Requiert : niveau 5\nGimli gagne +50% dégâts et double sa vitesse mais -15% de résistance aux attaques provenant de structures \n Has an 80% chance to knockback heroes\nClic gauche pour activer"
+"Requiert : niveau 5\nGimli gagne +50% de dégâts et double sa vitesse mais perd -15% de résistance aux attaques provenant des structures.\nGagne 80% de chance de repousser un héro\nClic gauche pour activer."
 END
 CONTROLBAR:TooltipElrondWhirlwind09v2
-"Requiert : niveau 6\nInvoque un tourbillon dévastateur sur le champ de bataille \nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
+"Requiert : niveau 6\nInvoque un tourbillon dévastateur sur le champ de bataille \nClic gauche sur l'icône puis clic gauche sur la zone ciblée."
 END
 CONTROLBAR:TooltipScreechWitchKing09v2
-"Requiert niveau 4 \n Fait fuir de terreur les unités ennemies \n When dismounted it can pierce through the level 5 fear immunity from enemy hordes\n Clic gauche pour activer"
+"Requiert niveau 4 \nFait fuir de terreur les unités ennemies.\nUne fois au sol, le crie du Roi Sorcier peut percer l'immunité d'un bataillon niveau 5.\n Clic gauche pour activer."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildIronOreUpgrade09v2
-"Reduces the cost of Forged Blades, Heavy Armor and Fire Arrows upgrades by 33%"
+"Réduit le coût des Lames forgées, améliorations d'Armures lourdes et Fléches de feu de 33%."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
-"Requiert : niveau 3 \n Glorfindel gains +50% Damage and Invulnerability for 10s \n Can only use when dismounted \n\n Left click to activate"
+"Requiert : niveau 3 \nGlorfindel gagne +50% de dégâts et deviens invulnérable pendant 10 secondes.\nNe peut être utilisé sur sa monture\nClic gauche pour activer."
 END
 CONTROLBAR:TooltipBladeMaster09v2
-"Requiert : niveau 2 \n Aragorn gains +50% Damage and +50% armor. \n Left click to activate"
+"Requiert : niveau 2\nAragorn gagne +50% de dégâts et +50% d'armure. \nClic gauche pour activer."
 END
 //------------------------------------------------------------
 UPGRADE:AutohealUpgradeAdvanced09v2
-"Advanced Auto heal"
+"Soin automatique avancé."
 END
 UPGRADE:AutohealUpgradeBasic09v2
-"Basic Auto heal"
+"Soin automatique de base."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Requiert niveau 10 \n Réinitialise, dans la zone d'effet, les compteurs de compétences spéciales des héros ennemis de 80% \nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
+"Requiert : niveau 10 \n Réinitialise dans la zone d'effet, les compteurs de compétences spéciales des héros ennemis de 80%. \nClic gauche sur l'icône puis clic gauche sur la zone ciblée."
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
-"Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"
+"La production de ressources de la structure sélectionnée augmente temporairement de 350% par rapport à la production actuelle. \nClic gauche sur l'icône puis clic gauche sur la structure de production de ressources."
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
-"Shield Crush"
+"Pénétration d'armure"
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
-"Improved Shield Crush"
+"Pénétration d'armure améliorée"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
-"Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Modifier Type: 'Damage SPELL'"
+"Amélioration de commandement de la forteresse: \nLes unités proche gagnent +25% de dégats et gagnent +25% d'éxpériences plus rapidement. \n Modifier Type: 'Damage SPELL'"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Modifier Type: 'Unique SPELL' "
+"Fort contre piquiers \nBonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent \n +33% de dégats et +25% de vitesse. \n Modifier Type: 'Unique SPELL' "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
-"Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
+"Forts contre la cavalerie,archers et bâtiments de production d'unités.\n Les lanciers Rivendell gagnent +7% de vitesse de déplacement au niveau 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Requiert : niveau 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Modifier Type: 'Unique IRRESISTIBLE'. \n Theoden must be mounted to use ability \n Left click to activate"
+"Requiert : niveau 7 \nTheoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Modifier Type: 'Unique IRRESISTIBLE'. \n Theoden must be mounted to use ability \n Left click to activate"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
 "Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +20% speed. \n Modifier Type: 'Unique SPELL' "
