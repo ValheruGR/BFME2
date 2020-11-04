@@ -411,7 +411,7 @@ CONTROLBAR:Command_ConstructMordorCastleWallHub09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFlood09v2
-"Se produce una poderosa inundación que aplasta a las unidades enemigas. \n Efectiva contra estructuras y caballería. \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre la zona objetivo."
+"Se produce una poderosa inundación que aplasta a las unidades enemigas. \n Efectiva contra estructuras y caballeria. \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre la zona objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRebuild09v2
@@ -15785,7 +15785,7 @@ END
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade
 "Nivel 2: Permite investigar la mejora espadas forjadas."
 END
-// \n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra caballería.
+// \n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra Caballeria.
 
 CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
 "Mejorar tesoro a nivel 3 (&E)"
@@ -15794,7 +15794,7 @@ END
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
 "Nivel 3: Permite investigar la mejora flecha de fuego."
 END
-// \n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra caballería.
+// \n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra Caballeria.
 
 CONTROLBAR:ConstructWildSpiderlingHorde
 "Arácn&idos"
@@ -26450,7 +26450,7 @@ END
 CONTROLBAR:ToolTipBuildEregionForgeLevel2
 "Permite investigar la mejora espadas forjadas."
 END
-// \n La forja gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra caballería.
+// \n La forja gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra Caballeria.
 
 CONTROLBAR:PurchaseUpgradeEregionForgeLevel3
 "Mejorar forja de Eregion a nivel 3 (&E)"
@@ -26459,7 +26459,7 @@ END
 CONTROLBAR:ToolTipBuildEregionForgeLevel3
 "Permite investigar la mejora flechas púa de plata."
 END
-// \n La forja gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra caballería.
+// \n La forja gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra Caballeria.
 
 CONTROLBAR:ToolTipGreenPasture
 "Entrena caballería elfa."
@@ -29326,7 +29326,7 @@ CONTROLBAR:ToolTipCorrodeAllegiance
 END
 
 CONTROLBAR:ToolTipTameTheBeast
-"Requisito: Nivel 9 \n Las unidades de caballería apuntados pasan a ser controlados por Sharku. \n Haz clic con el botón izquierdo sobre el objetivo y, a continuación, sobre el objetivo."
+"Requisito: Nivel 9 \n Las unidades de caballeria apuntados pasan a ser controlados por Sharku. \n Haz clic con el botón izquierdo sobre el objetivo y, a continuación, sobre el objetivo."
 END
 
 CONTROLBAR:BloodHunt
@@ -29824,12 +29824,12 @@ END
 CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade
 "Permite la investigación de armadura pesada."
 END
-// \n La Herreria gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra caballería.
+// \n La Herreria gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra Caballeria.
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade
 "Permite la investigación de mineral de hierro."
 END
-// \n La Herreria gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra caballería.
+// \n La Herreria gana armadura: \n +10% contra Heroes \n +25% contra Picas \n +33% contra Caballeria.
 
 CONTROLBAR:ToolTipBuildGoodBombardShip
 "Nave elfa equipada con una balista de largo alcance \n Fuerte contra estructuras."
@@ -29850,12 +29850,12 @@ END
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel2
 "Permite la investigación de espadas forjadas y armadura pesada."
 END
-// \n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra caballería.
+// \n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra Caballeria.
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel3
 "Permite investigar la mejora flecha de fuego."
 END
-// \n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra caballería.
+// \n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra Caballeria.
 
 CONTROLBAR:ToolTipBuildMordorAttackTroll
 "Requisito: Jaula de trolls de nivel 3 \n Fuerte contra espadachines, caballería y estructuras."
@@ -29970,7 +29970,7 @@ CONTROLBAR:ToolTipToggleThranduilWeapons
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardLineToPorcupineFormation
-"La unidad forma un círculo con las picas extendidas. \n +60% armadura \n La caballería enemiga se desacelera al pisotear."
+"La unidad forma un círculo con las picas extendidas. \n +60% armadura \n La caballeria enemiga se desacelera al pisotear."
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardPorcupineToLineFormation
@@ -37188,7 +37188,7 @@ DIALOGEVENT:MTrBas_OffT075subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT076subtitle
-"*You will find a Hero’s abilities on the Palantir. Some are Passive abilities which mean they’re always enabled such as Boromir’s LIDERAZGO ability. "
+"*You will find a Hero’s abilities on the Palantir. Some are Passive abilities which mean they’re always enabled such as Boromir’s Leadership ability. "
 END
 
 DIALOGEVENT:MTrBas_OffT077subtitle
@@ -41775,7 +41775,7 @@ CONTROLBAR:HeroToggleHorse
 "Montar/Desmontar (&M)"
 END
 
-CONTROLBAR:LIDERAZGO
+CONTROLBAR:Leadership
 "Liderazgo"
 END
 
@@ -44734,7 +44734,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
-"+30% a la velocidad de construcción. \n Permite las mejoras cota de mithril, espadas forjadas y proyectil en llamas. \n Añade una torre de hachas defensiva.\n La forja gana armadura: \n +20% contra Heroes, Picas y caballería"
+"+30% a la velocidad de construcción. \n Permite las mejoras cota de mithril, espadas forjadas y proyectil en llamas. \n Añade una torre de hachas defensiva.\n La forja gana armadura: \n +20% contra Heroes, Picas y Caballeria"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade
