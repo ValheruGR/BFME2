@@ -95,22 +95,22 @@ CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
 "Improved Shield Crush"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
-"Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Category: 'Damage SPELL'"
+"Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Modifier Type: 'Damage SPELL'"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Category: 'Unique SPELL' "
+"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Modifier Type: 'Unique SPELL' "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Category: 'Unique Non-wipeable'. \n Theoden must be mounted to use ability \n Left click to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Modifier Type: 'Unique IRRESISTIBLE'. \n Theoden must be mounted to use ability \n Left click to activate"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +20% speed. \n Category: 'Unique SPELL' "
+"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +20% speed. \n Modifier Type: 'Unique SPELL' "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n Category: 'Unique SPELL' "
+"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n Modifier Type: 'Unique SPELL' "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -122,30 +122,30 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Category: 'Unique Non-wipeable' \n Dain becomes able to reveal stealth.\n Passive ability"
+"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Modifier Type: 'Unique IRRESISTIBLE' \n Dain becomes able to reveal stealth.\n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Category: 'Unique LEADERSHIP'\n \n Passive ability"
+"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Modifier Type: 'Unique LEADERSHIP'\n \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Requires Level 5 \n Allies near Lurtz gain \n +50% Damage \n and earn experience 25% faster. \n Category: 'Damage LEADERSHIP' \n \n Passive ability"
+"Requires Level 5 \n Allies near Lurtz gain \n +50% Damage \n and earn experience 25% faster. \n Modifier Type: 'Damage LEADERSHIP' \n \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area \n Category: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n hordes at its target area\n Category: 'Unique SPELL'. \n Left click icon then left click on target area"
+"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n hordes at its target area\n Modifier Type: 'Unique SPELL'. \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry decelerate 3.5 times faster. \n Category: 'Unique SPELL' \n Wipes any other SPELL effects from allies.  \n Left click icon then left click on target area"
+"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +250%. \n Modifier Type: 'Unique SPELL' \n Wipes any other SPELL effects from allies.  \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
-"Men Wood"
+"Human Wood"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipCloudBreak09v2
@@ -153,31 +153,31 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Category: Unique 'SPELL' \n Lasts 180 seconds. \n Left click to activate"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Modifier Type: Unique 'SPELL' \n Lasts 180 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n Category: 'DEBUFF' \n Wipes LEADERSHIP, BUFF and SPELL from the enemy. \n Lasts 150 seconds. \n Left click to activate"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP, BUFF and SPELL from the enemy. \n Lasts 150 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Category: Unique 'Non-wipeable' \n Enemy hordes suffer in the same location suffer \n -25% armor and -25% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Modifier Type: Unique 'IRRESISTIBLE' \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
-"Requires Level 2 \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
+"Requires Level 2 \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
 End
 CONTROLBAR:TooltipCaveBats09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target area"
+"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target area"
 END
 CONTROLBAR:TooltipCrebain09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target area"
+"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Wymaga 3 poziomu \n Pobliska sojusznicza kawaleria otrzymuje +25% do zadawanych obrazen, +25% do pancerza oraz 50% szybciej zdobywa doswiadczenie \n Zmniejsza redukcje szybkosci sojuszniczej kawalerii przy tratowaniu \n Category: 'High-Tier SPELL' \n Zdolnosc bierna"
+"Wymaga 3 poziomu \n Pobliska sojusznicza kawaleria otrzymuje +25% do zadawanych obrazen, +25% do pancerza oraz 50% szybciej zdobywa doswiadczenie \n Zmniejsza redukcje szybkosci sojuszniczej kawalerii przy tratowaniu \n Modifier Type: 'High-Tier SPELL' \n Zdolnosc bierna"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
-"Wymaga 2 poziomu \n Wydaje gwardzistom rozkaz zaatakowania wroga \n Gwardzisci otrzymuja +25% do szybkosci oraz +25% do pancerza \n Category: 'Armor BUFF' \n Atak powoduje odrzucenie przeciwnika \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
+"Wymaga 2 poziomu \n Wydaje gwardzistom rozkaz zaatakowania wroga \n Gwardzisci otrzymuja +25% do szybkosci oraz +25% do pancerza \n Modifier Type: 'Armor BUFF' \n Atak powoduje odrzucenie przeciwnika \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
 END
 CONTROLBAR:ToolTipBarbedArrows09v2
 " Potrzbuje poziomu 2\n Powoduje potezne uderzenie i zwiekszone obrazenia\n Kliknij lewym przyciskiem na ikonke potem lewym przyciskiem na cel"
@@ -195,7 +195,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Leczy  pobliskich sojuszników \n Odradza jednostki z batalionu co 6.5 sekundy\nZmniejsza koszt przywrócenia bohatera do zycia o 5%\n Zmniejsza czas przywrócenia bohatera do zycia o 15%\n\n Ulepszenie przywoluje Wolnostojace Wieze"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Jednostka dobra przeciwko budynkom zbierajacym zasoby\n Bonus Hordy: \n Zebrane jednostki orków w minimalnej liczbe 70\n zyskuja +33% do zadawanych brazen oraz 20% do szybkosci. \n Category: 'Unique SPELL' "
+"Jednostka dobra przeciwko budynkom zbierajacym zasoby\n Bonus Hordy: \n Zebrane jednostki orków w minimalnej liczbe 70\n zyskuja +33% do zadawanych brazen oraz 20% do szybkosci. \n Modifier Type: 'Unique SPELL' "
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Leczy sojuszników w poblizu fortecy oraz w salach \n Odradza jednostke z oddzialu co 6.5 sekundy\n Redukuje czas odrodzienia sie bohatera o 25% \n Zapewnia fortecy dodatkowe punkty wytrzymalosci\n\n Ulepszone przyzywa Wieze Wolnostojaca"
@@ -209,125 +209,125 @@ CONTROLBAR:ToolTipElvenCloakThranduil09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Wymaga 2 poziomu \n Pozwala ustawic totem czaszki, który pozostaje na mapie, az zostanie zniszczony \n Rozwiewa mgle w poblizu, wykrywa zamaskowane jednostki i zapewnia pobliskim sojusznikom +35% do pancerza i u³atwia zdobycie doswiadczenia o +25% \n Category: 'Armor BUFF' \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
+"Wymaga 2 poziomu \n Pozwala ustawic totem czaszki, który pozostaje na mapie, az zostanie zniszczony \n Rozwiewa mgle w poblizu, wykrywa zamaskowane jednostki i zapewnia pobliskim sojusznikom +35% do pancerza i u³atwia zdobycie doswiadczenia o +25% \n Modifier Type: 'Armor BUFF' \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Allies near the Drummer Troll gain +35% armor and +25% experience. \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Category: 'Armor BUFF' \n Passive ability"
+"Allies near the Drummer Troll gain +35% armor and +25% experience. \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Modifier Type: 'Armor BUFF' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Wskazani sojusznicy otrzymuja +40% do zadawanych obrazen, 50% do zdobywanego doswiadczenia i +10% do szybkosci \n Category: 'Damage LEADERSHIP' \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
+"Wskazani sojusznicy otrzymuja +40% do zadawanych obrazen, 50% do zdobywanego doswiadczenia i +10% do szybkosci \n Modifier Type: 'Damage LEADERSHIP' \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
 End
 CONTROLBAR:TooltipRallyingCall09v2
-"Wskazani sojusznicy otrzymuja +50% do zadawanych obrazen \n i 50% do zdobywanego doswiadczenia\n Category: 'Damage LEADERSHIP' \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
+"Wskazani sojusznicy otrzymuja +50% do zadawanych obrazen \n i 50% do zdobywanego doswiadczenia\n Modifier Type: 'Damage LEADERSHIP' \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
 END
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Wskazani sojusznicy otrzymuja +50% do zadawanych obrazen \n i 25% do zdobywanego doswiadczenia\n Category: 'Damage LEADERSHIP' \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
+"Wskazani sojusznicy otrzymuja +50% do zadawanych obrazen \n i 25% do zdobywanego doswiadczenia\n Modifier Type: 'Damage LEADERSHIP' \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych jednostkach"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Plugawi wskazany obszar \n Wszystkie jednostki sojuszników otrzymuja +35% do pancerza \n Category: 'Armor BUFF' \n Kliknij lewym przyciskiem myszy na ikonie, a nastepnie na wybranym obszarze"
+"Plugawi wskazany obszar \n Wszystkie jednostki sojuszników otrzymuja +35% do pancerza \n Modifier Type: 'Armor BUFF' \n Kliknij lewym przyciskiem myszy na ikonie, a nastepnie na wybranym obszarze"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMenWood09v2
-"Tworzy obszar porosniety roslinnoscia \n Wszystkie sojusznicze jednostki otrzymuja +35% do pancerza  \n Category: 'Armor BUFF' Nie wplywa na bohaterów \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
+"Tworzy obszar porosniety roslinnoscia \n Wszystkie sojusznicze jednostki otrzymuja +35% do pancerza  \n Modifier Type: 'Armor BUFF' Nie wplywa na bohaterów \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranym obszarze"
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Sojusznicy w poblizu posagu otrzymuja \n +25% do zadawanych obrazen \n oraz 25% szybciej zdobywaja doswiadczenie \n Category: 'Damage SPELL' \n Allies gain terror and fear resistance. \n \n Zwieksza limit punktów dowodzenia o 10"
+"Sojusznicy w poblizu posagu otrzymuja \n +25% do zadawanych obrazen \n oraz 25% szybciej zdobywaja doswiadczenie \n Modifier Type: 'Damage SPELL' \n Allies gain terror and fear resistance. \n \n Zwieksza limit punktów dowodzenia o 10"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Sojusznicy w poblizu posagu otrzymuja \n +25% do pancerza \n oraz 25% szybciej zdobywaja doswiadczenie \n Category: 'Armor SPELL' \n \n Zwieksza limit punktów dowodzenia o 10"
+"Sojusznicy w poblizu posagu otrzymuja \n +25% do pancerza \n oraz 25% szybciej zdobywaja doswiadczenie \n Modifier Type: 'Armor SPELL' \n \n Zwieksza limit punktów dowodzenia o 10"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Sojusznicy w poblizu posagu otrzymuja \n  +35% do pancerza. \n Category: 'Armor BUFF' \n Allies gain terror and fear resistance. \n \n Zwieksza limit punktów dowodzenia o 10"
+"Sojusznicy w poblizu posagu otrzymuja \n  +35% do pancerza. \n Modifier Type: 'Armor BUFF' \n Allies gain terror and fear resistance. \n \n Zwieksza limit punktów dowodzenia o 10"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Zmniejsza podatnosc fortecy na ataki wrecz. \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Category: 'Damage SPELL'"
+"Zmniejsza podatnosc fortecy na ataki wrecz. \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Modifier Type: 'Damage SPELL'"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Zapewnia o 25% zadawane obrazenia i  zmniejsza o 25% zdobywane doswiadczenie pobliskim oddzialom \n Category: 'Damage SPELL' \n Zmniejsza koszt bohaterów o 10% \n Zmniejsza czas werbowania bohaterów o 10% \n Zmniejsza koszt budowniczych o 20%"
+"Zapewnia o 25% zadawane obrazenia i  zmniejsza o 25% zdobywane doswiadczenie pobliskim oddzialom \n Modifier Type: 'Damage SPELL' \n Zmniejsza koszt bohaterów o 10% \n Zmniejsza czas werbowania bohaterów o 10% \n Zmniejsza koszt budowniczych o 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Sojusznicy w poblizu fortecy otrzymuja \n +25% do zadawanych obrazen oraz zdobywaja doswiadczenie 25% szybciej \n Category: 'Damage SPELL' \n Zmniejsza koszt bohaterów o 10% \n Zmniejsza czas werbowania bohaterów o 10% \n Zmniejsza koszt budowniczych o 20%\n\n Ulepszone przyzywa Wieze Wolnostojaca"
+"Sojusznicy w poblizu fortecy otrzymuja \n +25% do zadawanych obrazen oraz zdobywaja doswiadczenie 25% szybciej \n Modifier Type: 'Damage SPELL' \n Zmniejsza koszt bohaterów o 10% \n Zmniejsza czas werbowania bohaterów o 10% \n Zmniejsza koszt budowniczych o 20%\n\n Ulepszone przyzywa Wieze Wolnostojaca"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Sojusznicy w poblizu fortecy otrzymuja \n +25% do zadawanych obrazen oraz zdobywaja doswiadczenie 25% szybciej \n Category: 'Damage SPELL' \n Zmniejsza koszt bohaterów o 10% \n Zmniejsza czas werbowania bohaterów o 10% \n Zmniejsza koszt budowniczych o 20%\n\n Ulepszone przyzywa Wieze Wolnostojaca"
+"Sojusznicy w poblizu fortecy otrzymuja \n +25% do zadawanych obrazen oraz zdobywaja doswiadczenie 25% szybciej \n Modifier Type: 'Damage SPELL' \n Zmniejsza koszt bohaterów o 10% \n Zmniejsza czas werbowania bohaterów o 10% \n Zmniejsza koszt budowniczych o 20%\n\n Ulepszone przyzywa Wieze Wolnostojaca"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Wargowie otrzymuja +55% do zadawanych obrazen ale traci -10% pancerza przeciwko pikinierom and struktura \n Category: 'Unique Non-wipeable' \n Wipes previous any LEADERSHIP bonus. \n Kliknij lewym przyciskiem myszy, aby uaktywnic"
+"Wargowie otrzymuja +55% do zadawanych obrazen ale traci -10% pancerza przeciwko pikinierom and struktura \n Modifier Type: 'Unique IRRESISTIBLE' \n Wipes previous any LEADERSHIP bonus. \n Kliknij lewym przyciskiem myszy, aby uaktywnic"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Przywoluje Oko Saurona \n Odkrywa niewidocznych wrogów \n Sojusznicy otrzymuja +25% do zadawanych obrazen, +25% do pancerza \n oraz 50% szybciej zdobywaja doswiadczenie \n Category: 'High Tier SPELL' \n Kliknij lewym przyciskiem myszy na ikonie a nastepnie na wybranym obszarze"
+"Przywoluje Oko Saurona \n Odkrywa niewidocznych wrogów \n Sojusznicy otrzymuja +25% do zadawanych obrazen, +25% do pancerza \n oraz 50% szybciej zdobywaja doswiadczenie \n Modifier Type: 'High Tier SPELL' \n Kliknij lewym przyciskiem myszy na ikonie a nastepnie na wybranym obszarze"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requires Level 8 \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Enemy units are scared while active. \n Category: 'Armor BUFF' \n Left click to activate"
+"Requires Level 8 \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Enemy units are scared while active. \n Modifier Type: 'Armor BUFF' \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Sojusznicy w poblizu Gimliego otrzymuja \n +35% do pancerza \n Category: 'Armor BUFF' \n \n Zdolnosc bierna"
+"Sojusznicy w poblizu Gimliego otrzymuja \n +35% do pancerza \n Modifier Type: 'Armor BUFF' \n \n Zdolnosc bierna"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High Tier SPELL' \n Passive ability"
+"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: 'High Tier SPELL' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Category: 'Damage SPELL' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Modifier Type: 'Damage SPELL' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Wymaga 4 poziomu \n Sojusznicy w poblizu bohatera otrzymuja \n +25% do pancerza \n oraz 25% wiecej doswiadczenia \n Category: 'Armor SPELL'  \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n \n Zdolnosc pasywna"
+"Wymaga 4 poziomu \n Sojusznicy w poblizu bohatera otrzymuja \n +25% do pancerza \n oraz 25% wiecej doswiadczenia \n Modifier Type: 'Armor SPELL'  \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n \n Zdolnosc pasywna"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Category: 'High-Tier SPELL' \n Passive ability"
+"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: 'High-Tier SPELL' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Requires Level 3 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n Category: 'Armor SPELL' \n Passive ability"
+"Requires Level 3 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n Modifier Type: 'Armor SPELL' \n Passive ability"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Requires Level 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster. \n Category: 'Damage LEADERSHIP' \n Passive ability"
+"Requires Level 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster. \n Modifier Type: 'Damage LEADERSHIP' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Sojusznicy w poblizu Toma Bombadila otrzymuja \n +25% do pancerza \n oraz o 25% szybciej zdobywa doswiadczenie \n Category: 'Armor SPELL' \n\n Zdolnosc bierna"
+"Sojusznicy w poblizu Toma Bombadila otrzymuja \n +25% do pancerza \n oraz o 25% szybciej zdobywa doswiadczenie \n Modifier Type: 'Armor SPELL' \n\n Zdolnosc bierna"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Requires Level 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Category: 'High-Tier SPELL' \n Passive ability"
+"Requires Level 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Modifier Type: 'High-Tier SPELL' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Requires Level 3 \n Cavalry near Eomer gain 35% Armor. \n Category: 'Armor BUFF' \n Passive ability"
+"Requires Level 3 \n Cavalry near Eomer gain 35% Armor. \n Modifier Type: 'Armor BUFF' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Requires Level 6 \n Allies near Faramir gain \n +35% Armor. \n Category: 'Armor BUFF' \n Passive ability"
+"Requires Level 6 \n Allies near Faramir gain \n +35% Armor. \n Modifier Type: 'Armor BUFF' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster. \n Category: 'Damage LEADERSHIP' \n Passive ability"
+"Requires Level 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster. \n Modifier Type: 'Damage LEADERSHIP' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Allies near Theoden gain \n +25% damage and earn experience 25% faster. \n Category: 'Damage SPELL' \n Passive ability"
+"Allies near Theoden gain \n +25% damage and earn experience 25% faster. \n Modifier Type: 'Damage SPELL' \n Passive ability"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Allies near Saruman gain +25% Armor and earn experience 25% faster. \n Category: 'Armor SPELL' \n Passive ability"
+"Allies near Saruman gain +25% Armor and earn experience 25% faster. \n Modifier Type: 'Armor SPELL' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBloodthirsty09v2
@@ -348,15 +348,15 @@ CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"Enemy hordes and heroes in the target location suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds. \n Category: 'STUN' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
+"Enemy hordes and heroes in the target location suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds. \n Modifier Type: 'STUN' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Requires Level 4 \n Enemy hordes and heroes in the target location suffer \n -25% armor, -25% damage and -5% armor. \n Lasts 30 seconds. \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
+"Requires Level 4 \n Enemy hordes and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Lasts 30 seconds. \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters in the same area suffer \n -25% armor and -25% damage. \n Lasts 60 seconds. \n Category: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon and left click on target area"
+"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters in the same area suffer \n -25% armor and -25% damage. \n Lasts 60 seconds. \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon and left click on target area"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
