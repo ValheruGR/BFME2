@@ -137,6 +137,26 @@
 
 		
 		;-------------------------------------- AFLAME states
+;;-;;
+ 		AnimationState        =  AFLAME WADING
+			Animation           = Splash
+				AnimationName     = RUTreeberd_SPLA  ; Splashing water on himself
+				AnimationMode      = LOOP
+				AnimationBlendTime  = 5
+			End
+			BeginScript
+				CurDrawableHideSubObjectPermanently("ROCK")
+			EndScript
+ 			ParticleSysBone     = BAT_HEAD TreebeardSteam FollowBone:yes
+			ParticleSysBone     = BAT_SPINE1 TreebeardSteam FollowBone:yes
+			ParticleSysBone     = BAT_PELVIS TreebeardSteam1 FollowBone:yes
+			ParticleSysBone     = BAT_CALFR TreebeardSteam FollowBone:yes
+			ParticleSysBone     = B_POINT1L TrBrdWaterDrips FollowBone:yes
+			ParticleSysBone     = B_POINT1R TrBrdWaterDrips FollowBone:yes
+			ParticleSysBone     = B_THUMB1L TrBrdWaterDrips FollowBone:yes
+			ParticleSysBone     = B_THUMB1R TrBrdWaterDrips FollowBone:yes
+		End	
+
 		AnimationState = AFLAME DYING SPLATTED
 			Animation = DieSplat
 				AnimationName = RUTreeberd_LNDA
