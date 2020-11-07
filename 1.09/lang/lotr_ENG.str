@@ -47777,7 +47777,7 @@ END
 // Elrond
 
 CONTROLBAR:ElrondFarsight
-"Farsight [&T]"
+"Farsigh&t"
 END
 
 CONTROLBAR:TooltipElrondLeadership
@@ -47789,7 +47789,7 @@ CONTROLBAR:ToolTipElrondFarsight
 END
 
 CONTROLBAR:ElrondRestoration
-"Restoration [&V]"
+"Restoration [&B]"
 END
 
 CONTROLBAR:ToolTipElrondRestoration
@@ -47797,7 +47797,7 @@ CONTROLBAR:ToolTipElrondRestoration
 END
 
 CONTROLBAR:ElrondWhirlwind
-"Whirlwind [&B]"
+"Whirlwind [&V]"
 End
 
 CONTROLBAR:TooltipElrondWhirlwind

@@ -138,7 +138,7 @@ CONTROLBAR:TooltipPalantirVision09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Espía a las fuerzas enemigas. \n Proporciona una bonificación de alcance de 35% a las unidades en su área de efecto.\n Modificador tipo 'HECHIZO único'. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
+"Espía a las fuerzas enemigas. \n Proporciona una bonificación de alcance de +35% a las hordas aliadas en su área de efecto.\n Modificador tipo 'HECHIZO único'. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
@@ -44706,7 +44706,7 @@ CONTROLBAR:ToolTipElrondRestoration
 END
 
 CONTROLBAR:ElrondWhirlwind
-"Remolino (&B)"
+"Remolino (&V)"
 END
 
 CONTROLBAR:TooltipElrondWhirlwind
