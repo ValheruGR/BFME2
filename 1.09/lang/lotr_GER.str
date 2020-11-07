@@ -504,6 +504,92 @@ END
 
 
 
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.09v1
+
+//------------------------------------------------------------
+
+
+CONTROLBAR:GaladHealBTP
+"&Licht Galadriels"
+END
+CONTROLBAR:ToolTipGaladHeal
+"Heilt alle verbündeten Einheiten und helden in einem großen Kreis um Galadriel \n Linksklick zum Aktivieren"
+END
+CONTROLBAR:LadyOfLight
+"Licht des &Valars"
+END
+CONTROLBAR:TooltipLadyOfLight
+"Lass das Licht von Valar auf deine Gegner hereinbrechen. \n Deals massive damage in a large area"
+END
+CONTROLBAR:SpecialAbilityFiresOfDoom2
+"Rufe drei Feuer des Untergangs um Sauron herum in einem &Kreis"
+END
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
+"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Nahe Verbündete erhalten +25% Schaden und +25% Erfahrung \n Modifier Type: 'Damage SPELL'"
+END
+CONTROLBAR:LoneTowerHealingUpgradeIcon
+"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Heilt nahe Verbündete. \n Stockt eine Einheit pro Horde alle 10 Sekunden auf"
+END
+CONTROLBAR:LoneTowerArmorUpgradeIcon
+"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Verringert des zugefügten Schaden gewaltig."
+END
+
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.08
+
+//------------------------------------------------------------
+
+CONTROLBAR:GrabPassengerTB
+"Heb Merry oder Pippin auf"
+END
+CONTROLBAR:SpecialAbility_ShieldBubble
+"Schild Blase (&W)"
+END
+CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
+"Der Zauberer formt mit all seiner Kraft einen Schild, der jede Art von Schaden abfängt, welcher ihm zugefügt wird \n Gandalf kann nicht zurückgeworfen werden \n Hält 5 Sekunden an. \n\n Linksklick auf das Symbol zum Aktivieren" 
+END
+CONTROLBAR:Fire_pit
+"Feuer Grube (&V)"
+END
+CONTROLBAR:TooltipFire_pit
+"Lagerfeuer, welches nahe Verbündete heilt \n Stockt 1 Einheit pro Horde alle 5 Sekunden auf. \n Gibt +5% Rüstung \n Wird immer addiert \n Deckt getarnte Einheiten auf"
+END
+CONTROLBAR:FireWorks
+"Feuerwerk / Anzünden [&V]"
+END
+CONTROLBAR:ToolTipFireWorks
+"Merry kann ein Feuerwerk auf dem Boden platzieren \n und dies anzünden \n \n Linksklick zum Aktivieren "
+End
+CONTROLBAR:FireWorks2
+"Zünde Feuerwerk an [&B]"
+END
+CONTROLBAR:ToolTipFireWorks2
+"Das Feuerwerk fügt Einheiten in großem Umkreis Schaden zu \n \n Linksklick zum Aktivieren"
+End
+CONTROLBAR:FireWorksObj
+"Feuerwerk"
+END
+CONTROLBAR:HobbitFireCracker
+"Feuerwerkskörper [&R]"
+END
+CONTROLBAR:ToolTipHobbitFireCracker
+"Der Held kann einen kleinen Feuerwerkskörper werfen \n Linksklick auf das Symbol und anschließend auf ein Ziel"
+End
+CONTROLBAR:ToolTipHobbitFireCrackerMerry
+"Der Held kann einen kleinen Feuerwerkskörper werfen. \n Effektiv gegen Mumakil (Olifanten) \n Besonderer Bonus gegen gebäude. \n Linksklick auf das Symbol und anschließend auf ein Ziel"
+End
+CONTROLBAR:ToolTipHobbitFireCrackerSam
+"Der Held kann einen kleinen Feuerwerkskörper werfen. Besonderer Schaden gegen Kankra. \n Linksklick auf das Symbol und anschließend auf ein Ziel"
+End
+//------------------------------------------------------------
+
+
+
 // Map.Strings	-----	2019
 
  
@@ -1490,92 +1576,6 @@ END
 Map:mapETfordsofanduin/Desc
 "Reskin of the popular 1v1 map, Fords of Isen II. Design based on Amon Hen, Argonath and surrounding areas of the Anduin. \n Map by Ecthelion and SilverBane."
 END
-//------------------------------------------------------------
-
-
-
-
-//------------------------------------------------------------
-
-// String lines for Patch 1.09v1
-
-//------------------------------------------------------------
-
-
-CONTROLBAR:GaladHealBTP
-"&Licht Galadriels"
-END
-CONTROLBAR:ToolTipGaladHeal
-"Heilt alle verbündeten Einheiten und helden in einem großen Kreis um Galadriel \n Linksklick zum Aktivieren"
-END
-CONTROLBAR:LadyOfLight
-"Licht des &Valars"
-END
-CONTROLBAR:TooltipLadyOfLight
-"Lass das Licht von Valar auf deine Gegner hereinbrechen. \n Deals massive damage in a large area"
-END
-CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Rufe drei Feuer des Untergangs um Sauron herum in einem &Kreis"
-END
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Nahe Verbündete erhalten +25% Schaden und +25% Erfahrung \n Modifier Type: 'Damage SPELL'"
-END
-CONTROLBAR:LoneTowerHealingUpgradeIcon
-"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Heilt nahe Verbündete. \n Stockt eine Einheit pro Horde alle 10 Sekunden auf"
-END
-CONTROLBAR:LoneTowerArmorUpgradeIcon
-"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Verringert des zugefügten Schaden gewaltig."
-END
-
-
-//------------------------------------------------------------
-
-// String lines for Patch 1.08
-
-//------------------------------------------------------------
-
-CONTROLBAR:GrabPassengerTB
-"Heb Merry oder Pippin auf"
-END
-CONTROLBAR:SpecialAbility_ShieldBubble
-"Schild Blase (&W)"
-END
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"Der Zauberer formt mit all seiner Kraft einen Schild, der jede Art von Schaden abfängt, welcher ihm zugefügt wird \n Gandalf kann nicht zurückgeworfen werden \n Hält 5 Sekunden an. \n\n Linksklick auf das Symbol zum Aktivieren" 
-END
-CONTROLBAR:Fire_pit
-"Feuer Grube (&V)"
-END
-CONTROLBAR:TooltipFire_pit
-"Lagerfeuer, welches nahe Verbündete heilt \n Stockt 1 Einheit pro Horde alle 5 Sekunden auf. \n Gibt +5% Rüstung \n Wird immer addiert \n Deckt getarnte Einheiten auf"
-END
-CONTROLBAR:FireWorks
-"Feuerwerk / Anzünden [&V]"
-END
-CONTROLBAR:ToolTipFireWorks
-"Merry kann ein Feuerwerk auf dem Boden platzieren \n und dies anzünden \n \n Linksklick zum Aktivieren "
-End
-CONTROLBAR:FireWorks2
-"Zünde Feuerwerk an [&B]"
-END
-CONTROLBAR:ToolTipFireWorks2
-"Das Feuerwerk fügt Einheiten in großem Umkreis Schaden zu \n \n Linksklick zum Aktivieren"
-End
-CONTROLBAR:FireWorksObj
-"Feuerwerk"
-END
-CONTROLBAR:HobbitFireCracker
-"Feuerwerkskörper [&R]"
-END
-CONTROLBAR:ToolTipHobbitFireCracker
-"Der Held kann einen kleinen Feuerwerkskörper werfen \n Linksklick auf das Symbol und anschließend auf ein Ziel"
-End
-CONTROLBAR:ToolTipHobbitFireCrackerMerry
-"Der Held kann einen kleinen Feuerwerkskörper werfen. \n Effektiv gegen Mumakil (Olifanten) \n Besonderer Bonus gegen gebäude. \n Linksklick auf das Symbol und anschließend auf ein Ziel"
-End
-CONTROLBAR:ToolTipHobbitFireCrackerSam
-"Der Held kann einen kleinen Feuerwerkskörper werfen. Besonderer Schaden gegen Kankra. \n Linksklick auf das Symbol und anschließend auf ein Ziel"
-End
 
 //------------------------------------------------------------
 
