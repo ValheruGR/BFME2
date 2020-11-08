@@ -33,3 +33,19 @@
  			End
 		End
 	//-----------------------------------------------------------------------------
+		RemoveModule Draw_DarknessEffect
+		
+		Draw = W3DScriptedModelDraw Draw_DarknessEffect
+            ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState 			= NONE
+				Model = None
+			End
+			AnimationState = USER_69 DYING
+  			End
+ 			AnimationState = USER_69 BURNINGDEATH
+  			End
+			AnimationState = USER_69 //	SpellBookDarkness
+				ParticleSysBone		= NONE DarknessParticleBig09v2 FollowBone:Yes
+  			End
+        End
+	//-----------------------------------------------------------------------------

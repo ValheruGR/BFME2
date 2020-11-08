@@ -115,7 +115,7 @@
  			AnimationState = USER_69 BURNINGDEATH
   			End
 			AnimationState = USER_69 //	SpellBookDarkness
-				ParticleSysBone		= NONE DarknessParticle09v2 FollowBone:Yes
+				ParticleSysBone		= NONE DarknessParticleSmall09v2 FollowBone:Yes
   			End
         End
 	//-----------------------------------------------------------------------------
