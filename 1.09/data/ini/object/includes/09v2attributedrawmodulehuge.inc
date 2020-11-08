@@ -7,6 +7,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_66 STUNNED_FLAILING
+  			End
+			AnimationState = USER_66 PASSENGER
+  			End
 			AnimationState = USER_66 DYING
 			End
 			AnimationState = USER_66 BURNINGDEATH
@@ -24,6 +28,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_64 STUNNED_FLAILING
+  			End
+			AnimationState = USER_64 PASSENGER
+  			End
 			AnimationState = USER_64 DYING
 			End
 			AnimationState = USER_64 BURNINGDEATH
@@ -40,6 +48,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_69 STUNNED_FLAILING
+  			End
+			AnimationState = USER_69 PASSENGER
+  			End
 			AnimationState = USER_69 DYING
   			End
  			AnimationState = USER_69 BURNINGDEATH
