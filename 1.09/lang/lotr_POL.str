@@ -509,6 +509,92 @@ END
 
 
 
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.09v1
+
+//------------------------------------------------------------
+
+
+CONTROLBAR:GaladHealBTP
+"Swiatlo Galadrieli (&L)"
+END
+CONTROLBAR:ToolTipGaladHeal
+"Leczy wszystkich pobliskich sojusznikow w poblizu Galadrieli\n Lewy przycisk myszki by aktywowac."
+END
+CONTROLBAR:LadyOfLight
+"Swiatlo Valarow (&V)"
+END
+CONTROLBAR:TooltipLadyOfLight
+"Wzywa swiatlo Valarow by rozprawic sie z wrogami. \n Deals massive damage in a large area"
+END
+CONTROLBAR:SpecialAbilityFiresOfDoom2
+"Przyzywa trzy kregi Ognia Piekielnego dookola Saurona. (&R)"
+END
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
+"Wymaga ulepszenia w fortecy. \n\n Daje +25% do ataku  i +25% do doswiadczenia dla pobliskich jednostek.\nZawsze sie kumuluje"
+END
+CONTROLBAR:LoneTowerHealingUpgradeIcon
+"Wymaga ulepszenia w fortecy.\n\nLeczy pobliskie jednostki sojusznicze.\n Odradza jedna jednostke z hordy co 10 sekund."
+END
+CONTROLBAR:LoneTowerArmorUpgradeIcon
+"Wymaga ulepszenia w fortecy.\n\n Znacznie zmniejsza przyjmowane obrazenia przez fortece."
+END
+
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.08
+
+//------------------------------------------------------------
+
+CONTROLBAR:GrabPassengerTB
+"Podnies Merrego albo Pippina"
+END
+CONTROLBAR:SpecialAbility_ShieldBubble
+"Ochronny Babel (&W)"
+END
+CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
+" Czarodziej przemienia swoje moce w ochronna tarcze, ktora bedzie absolbowac  kazdy rodzaj ataku uzyty na niej.\n Gandalf jest niewrazliwy na przewrocenia.\n Trwa 5 sek.\n Klinac lewym przyciskiem na ikone by aktywowac"
+END
+CONTROLBAR:Fire_pit
+"Palenisko (&V)"
+END
+CONTROLBAR:TooltipFire_pit
+"Palenisko, ktore ulecza nieopodal znajdujace sie sojusznicze jednostki\n Odradza 1 jednostke z hordy co 5 sekund.\n Dostarcza kumulujacy sie bonus 5% do pancerza\n Odkrywa niewidoczne jednostki."
+END
+CONTROLBAR:FireWorks
+"Fajerwerki / Zapalenie [&V]"
+END
+CONTROLBAR:ToolTipFireWorks
+"Merry oduszcza Fajerwerki\n na ziemie i podpala je\n\n Lewy przycisk myszki by aktywowac"
+End
+CONTROLBAR:FireWorks2
+"Podpal Fajerwerki [&B]"
+END
+CONTROLBAR:ToolTipFireWorks2
+"Fajerwerki zadaja obrazenia jednostka na duzym obszare\n\n Lewy przycisk myszki by aktywowac."
+End
+CONTROLBAR:FireWorksObj
+"Fajerwerki"
+END
+CONTROLBAR:HobbitFireCracker
+"Bomba [&R]"
+END
+CONTROLBAR:ToolTipHobbitFireCracker
+"Bohater moze rzucic mala Bomba\n Kliknac lewym przyciskiem na ikone, a nastepnie lewym przyciskiem na cel"
+End
+CONTROLBAR:ToolTipHobbitFireCrackerMerry
+"Bohater moze rzucic mala bomba.\nEfektywne przeciw Mumakilom\n Dodatkowe obrazenia przeciw budynka.\nKliknac lewym przyciskiem na ikone, a nastepnie lewym przyciskiem na cel."
+End
+CONTROLBAR:ToolTipHobbitFireCrackerSam
+"Bohater moze rzucic mala bomba.\n Dodatkowe obrazenia przeciw Szelobie. \nKliknac lewym przyciskiem na ikone, a nastepnie lewym przyciskiem na cel."
+End
+//------------------------------------------------------------
+
+
+
 // Map.Strings	-----	2019
 
  
@@ -1495,92 +1581,6 @@ END
 Map:mapETfordsofanduin/Desc
 "Reskin of the popular 1v1 map, Fords of Isen II. Design based on Amon Hen, Argonath and surrounding areas of the Anduin. \n Map by Ecthelion and SilverBane."
 END
-//------------------------------------------------------------
-
-
-
-
-//------------------------------------------------------------
-
-// String lines for Patch 1.09v1
-
-//------------------------------------------------------------
-
-
-CONTROLBAR:GaladHealBTP
-"Swiatlo Galadrieli (&L)"
-END
-CONTROLBAR:ToolTipGaladHeal
-"Leczy wszystkich pobliskich sojusznikow w poblizu Galadrieli\n Lewy przycisk myszki by aktywowac."
-END
-CONTROLBAR:LadyOfLight
-"Swiatlo Valarow (&V)"
-END
-CONTROLBAR:TooltipLadyOfLight
-"Wzywa swiatlo Valarow by rozprawic sie z wrogami. \n Deals massive damage in a large area"
-END
-CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Przyzywa trzy kregi Ognia Piekielnego dookola Saurona. (&R)"
-END
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Wymaga ulepszenia w fortecy. \n\n Daje +25% do ataku  i +25% do doswiadczenia dla pobliskich jednostek.\nZawsze sie kumuluje"
-END
-CONTROLBAR:LoneTowerHealingUpgradeIcon
-"Wymaga ulepszenia w fortecy.\n\nLeczy pobliskie jednostki sojusznicze.\n Odradza jedna jednostke z hordy co 10 sekund."
-END
-CONTROLBAR:LoneTowerArmorUpgradeIcon
-"Wymaga ulepszenia w fortecy.\n\n Znacznie zmniejsza przyjmowane obrazenia przez fortece."
-END
-
-
-//------------------------------------------------------------
-
-// String lines for Patch 1.08
-
-//------------------------------------------------------------
-
-CONTROLBAR:GrabPassengerTB
-"Podnies Merrego albo Pippina"
-END
-CONTROLBAR:SpecialAbility_ShieldBubble
-"Ochronny Babel (&W)"
-END
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-" Czarodziej przemienia swoje moce w ochronna tarcze, ktora bedzie absolbowac  kazdy rodzaj ataku uzyty na niej.\n Gandalf jest niewrazliwy na przewrocenia.\n Trwa 5 sek.\n Klinac lewym przyciskiem na ikone by aktywowac"
-END
-CONTROLBAR:Fire_pit
-"Palenisko (&V)"
-END
-CONTROLBAR:TooltipFire_pit
-"Palenisko, ktore ulecza nieopodal znajdujace sie sojusznicze jednostki\n Odradza 1 jednostke z hordy co 5 sekund.\n Dostarcza kumulujacy sie bonus 5% do pancerza\n Odkrywa niewidoczne jednostki."
-END
-CONTROLBAR:FireWorks
-"Fajerwerki / Zapalenie [&V]"
-END
-CONTROLBAR:ToolTipFireWorks
-"Merry oduszcza Fajerwerki\n na ziemie i podpala je\n\n Lewy przycisk myszki by aktywowac"
-End
-CONTROLBAR:FireWorks2
-"Podpal Fajerwerki [&B]"
-END
-CONTROLBAR:ToolTipFireWorks2
-"Fajerwerki zadaja obrazenia jednostka na duzym obszare\n\n Lewy przycisk myszki by aktywowac."
-End
-CONTROLBAR:FireWorksObj
-"Fajerwerki"
-END
-CONTROLBAR:HobbitFireCracker
-"Bomba [&R]"
-END
-CONTROLBAR:ToolTipHobbitFireCracker
-"Bohater moze rzucic mala Bomba\n Kliknac lewym przyciskiem na ikone, a nastepnie lewym przyciskiem na cel"
-End
-CONTROLBAR:ToolTipHobbitFireCrackerMerry
-"Bohater moze rzucic mala bomba.\nEfektywne przeciw Mumakilom\n Dodatkowe obrazenia przeciw budynka.\nKliknac lewym przyciskiem na ikone, a nastepnie lewym przyciskiem na cel."
-End
-CONTROLBAR:ToolTipHobbitFireCrackerSam
-"Bohater moze rzucic mala bomba.\n Dodatkowe obrazenia przeciw Szelobie. \nKliknac lewym przyciskiem na ikone, a nastepnie lewym przyciskiem na cel."
-End
 //------------------------------------------------------------
 
 // String file for Lord of the Rings

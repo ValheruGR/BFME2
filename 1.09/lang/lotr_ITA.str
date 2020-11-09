@@ -509,6 +509,92 @@ END
 
 
 
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.09v1
+
+//------------------------------------------------------------
+
+
+CONTROLBAR:GaladHealBTP
+"&Luce Di Galadriel"
+END
+CONTROLBAR:ToolTipGaladHeal
+"Guarisce tutte le unità e gli eroi in una grande area intorno a Galadriel \nClick sinistro per attivare."
+END
+CONTROLBAR:LadyOfLight
+"Luce di &Vallar"
+END
+CONTROLBAR:TooltipLadyOfLight
+"Fa calare la luyce dei Valar sul nemico. \n Deals massive damage in a large area"
+END
+CONTROLBAR:SpecialAbilityFiresOfDoom2
+"Evoca tre Piogge Infuocate intorno a Sauron in cerchio."
+END
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
+"Richiede Fortezza aggiornare \cn\n Fornisce +25% danno +25% esperienza. \n Modifier Type: 'Damage SPELL'"
+END
+CONTROLBAR:LoneTowerHealingUpgradeIcon
+"Richiede fortezza aggiornare. \n\n Guarisce le unità alleate nelle vicinanze. \n Riforma 1 unità per orda ogni 10 secondi."
+END
+CONTROLBAR:LoneTowerArmorUpgradeIcon
+"Richiede Fortezza aggiornare. \n\n Riduce notevolmente il danno subito."
+END
+
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.08
+
+//------------------------------------------------------------
+
+CONTROLBAR:GrabPassengerTB
+"Pickup Merry or Pippin"
+END
+CONTROLBAR:SpecialAbility_ShieldBubble
+"Scudo Sfera (&W)"
+END
+CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
+"Lo stregone trasferisce tutto il suo potere in uno scudo per difendersi \n Gandalf guadagna 99% Armatura e resiste ai contraccolpi per 5 secondi. \n Click sinistro sull'icona per attivare."
+END
+CONTROLBAR:Fire_pit
+"Fuoco da campo (&C)"
+END
+CONTROLBAR:TooltipFire_pit
+"Fuoco da campo che guarisce le unità alleate nelle vicinanze. \nRiforma 1 unità per orda ogni 5 secondi. \n Garantisce +5% bonus armatura. \nSempre cumulativo. \nRivela unità mimetizzate."
+END
+CONTROLBAR:FireWorks
+"Fuochi D'Artificio / Accendi (&V)"
+END
+CONTROLBAR:ToolTipFireWorks
+"Merry può mettere un fuoco d'artificio sul terreno ed accenderlo \n \n Click sinistro per attivare "
+END
+CONTROLBAR:FireWorks2
+"Accendi Fuochi D'Artificio(&B)"
+END
+CONTROLBAR:ToolTipFireWorks2
+"Fuochi d'artificio danneggiano le unità in una grande area \n \n Click sinistro per attivare "
+END
+CONTROLBAR:FireWorksObj
+"Fuochi artificiali"
+END
+CONTROLBAR:HobbitFireCracker
+"Petardi (&R)"
+END
+CONTROLBAR:ToolTipHobbitFireCracker
+"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio"
+END
+CONTROLBAR:ToolTipHobbitFireCrackerMerry
+"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio \nBonus contro gli Olifanti \nEfficace contro le strutture"
+END
+CONTROLBAR:ToolTipHobbitFireCrackerSam
+"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio \nEfficace contro Shelob "
+End
+//------------------------------------------------------------
+
+
+
 // Map.Strings	-----	2019
 
  
@@ -1495,92 +1581,6 @@ END
 Map:mapETfordsofanduin/Desc
 "Reskin of the popular 1v1 map, Fords of Isen II. Design based on Amon Hen, Argonath and surrounding areas of the Anduin. \n Map by Ecthelion and SilverBane."
 END
-//------------------------------------------------------------
-
-
-
-
-//------------------------------------------------------------
-
-// String lines for Patch 1.09v1
-
-//------------------------------------------------------------
-
-
-CONTROLBAR:GaladHealBTP
-"&Luce Di Galadriel"
-END
-CONTROLBAR:ToolTipGaladHeal
-"Guarisce tutte le unità e gli eroi in una grande area intorno a Galadriel \nClick sinistro per attivare."
-END
-CONTROLBAR:LadyOfLight
-"Luce di &Vallar"
-END
-CONTROLBAR:TooltipLadyOfLight
-"Fa calare la luyce dei Valar sul nemico. \n Deals massive damage in a large area"
-END
-CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Evoca tre Piogge Infuocate intorno a Sauron in cerchio."
-END
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Richiede Fortezza aggiornare \cn\n Fornisce +25% danno +25% esperienza. \n Modifier Type: 'Damage SPELL'"
-END
-CONTROLBAR:LoneTowerHealingUpgradeIcon
-"Richiede fortezza aggiornare. \n\n Guarisce le unità alleate nelle vicinanze. \n Riforma 1 unità per orda ogni 10 secondi."
-END
-CONTROLBAR:LoneTowerArmorUpgradeIcon
-"Richiede Fortezza aggiornare. \n\n Riduce notevolmente il danno subito."
-END
-
-
-//------------------------------------------------------------
-
-// String lines for Patch 1.08
-
-//------------------------------------------------------------
-
-CONTROLBAR:GrabPassengerTB
-"Pickup Merry or Pippin"
-END
-CONTROLBAR:SpecialAbility_ShieldBubble
-"Scudo Sfera (&W)"
-END
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"Lo stregone trasferisce tutto il suo potere in uno scudo per difendersi \n Gandalf guadagna 99% Armatura e resiste ai contraccolpi per 5 secondi. \n Click sinistro sull'icona per attivare."
-END
-CONTROLBAR:Fire_pit
-"Fuoco da campo (&C)"
-END
-CONTROLBAR:TooltipFire_pit
-"Fuoco da campo che guarisce le unità alleate nelle vicinanze. \nRiforma 1 unità per orda ogni 5 secondi. \n Garantisce +5% bonus armatura. \nSempre cumulativo. \nRivela unità mimetizzate."
-END
-CONTROLBAR:FireWorks
-"Fuochi D'Artificio / Accendi (&V)"
-END
-CONTROLBAR:ToolTipFireWorks
-"Merry può mettere un fuoco d'artificio sul terreno ed accenderlo \n \n Click sinistro per attivare "
-END
-CONTROLBAR:FireWorks2
-"Accendi Fuochi D'Artificio(&B)"
-END
-CONTROLBAR:ToolTipFireWorks2
-"Fuochi d'artificio danneggiano le unità in una grande area \n \n Click sinistro per attivare "
-END
-CONTROLBAR:FireWorksObj
-"Fuochi artificiali"
-END
-CONTROLBAR:HobbitFireCracker
-"Petardi (&R)"
-END
-CONTROLBAR:ToolTipHobbitFireCracker
-"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio"
-END
-CONTROLBAR:ToolTipHobbitFireCrackerMerry
-"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio \nBonus contro gli Olifanti \nEfficace contro le strutture"
-END
-CONTROLBAR:ToolTipHobbitFireCrackerSam
-"L'eroe può lanciare dei petardi \nClick sinistro sull'icona quindi click sinistro sul bersaglio \nEfficace contro Shelob "
-End
 //------------------------------------------------------------
 
 // String file for Lord of the Rings

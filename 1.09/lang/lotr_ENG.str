@@ -510,10 +510,95 @@ END
 
 
 
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.09v1
+
+//------------------------------------------------------------
+
+
+CONTROLBAR:GaladHealBTP
+"Light Of Galad&riel"
+END
+CONTROLBAR:ToolTipGaladHeal
+"Heals all allied units and heroes in a large circle around Galadriel \n Left click to activate"
+END
+CONTROLBAR:LadyOfLight
+"Light Of &Valars"
+END
+CONTROLBAR:TooltipLadyOfLight
+"Call down the Light of Valar onto your enemies. \n Deals massive damage in a large area"
+END
+CONTROLBAR:SpecialAbilityFiresOfDoom2
+"Summon Three Fi&res of Doom around Sauron in a circle"
+END
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
+"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and earn experience 25% faster. \n Modifier Type: 'Damage SPELL'"
+END
+CONTROLBAR:LoneTowerHealingUpgradeIcon
+"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
+END
+CONTROLBAR:LoneTowerArmorUpgradeIcon
+"Requires researching the upgrade at fortress. \n\n Significantly reduces the amount of damage taken."
+END
+
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.08
+
+//------------------------------------------------------------
+
+CONTROLBAR:GrabPassengerTB
+"Pickup Merry or Pippin"
+END
+CONTROLBAR:SpecialAbility_ShieldBubble
+"Shield Bubble (&W)"
+END
+CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
+"The Wizard transfers all of his Power into a Shield that will absorbs every kind of damage dealt on him. \n Gandalf also gains inmunity to knock-back. \n Lasts 5 seconds. \n \n Left click icon to activate"
+END
+CONTROLBAR:Fire_pit
+"Fire pit (&V)"
+END
+CONTROLBAR:TooltipFire_pit
+"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants a stacking bonus of +5% armor \n Detect stealth"
+END
+CONTROLBAR:FireWorks
+"FireWorks / Deploy [&V]"
+END
+CONTROLBAR:ToolTipFireWorks
+"Merry can drop Fireworks \n on the ground and ignite it \n \n Left click to activate"
+End
+CONTROLBAR:FireWorks2
+"Fireworks / Ignite [&B]"
+END
+CONTROLBAR:ToolTipFireWorks2
+"Fireworks damages units within large radius \n \n Left click to activate"
+End
+CONTROLBAR:FireWorksObj
+"FireWorks"
+END
+CONTROLBAR:HobbitFireCracker
+"Fi&recracker"
+END
+CONTROLBAR:ToolTipHobbitFireCracker
+"Hero can throw a small Firecracker \n Left click icon then left click on target"
+End
+CONTROLBAR:ToolTipHobbitFireCrackerMerry
+"Hero can throw a small Firecracker. \n Effective against Mumakils \n Special bonus against structures. \n Left click icon then left click on target"
+End
+CONTROLBAR:ToolTipHobbitFireCrackerSam
+"Hero can throw a small Firecracker. \n Special bonus against Shelob. \n Left click icon then left click on target"
+End
+//------------------------------------------------------------
+
+
+
 // Map.Strings	-----	2019
 
  
-
 
 
 //------------------------------------------------------------
@@ -1481,92 +1566,6 @@ END
 Map:mapETfordsofanduin/Desc
 "Reskin of the popular 1v1 map, Fords of Isen II. Design based on Amon Hen, Argonath and surrounding areas of the Anduin. \n Map by Ecthelion and SilverBane."
 END
-//------------------------------------------------------------
-
-
-
-
-//------------------------------------------------------------
-
-// String lines for Patch 1.09v1
-
-//------------------------------------------------------------
-
-
-CONTROLBAR:GaladHealBTP
-"Light Of Galad&riel"
-END
-CONTROLBAR:ToolTipGaladHeal
-"Heals all allied units and heroes in a large circle around Galadriel \n Left click to activate"
-END
-CONTROLBAR:LadyOfLight
-"Light Of &Valars"
-END
-CONTROLBAR:TooltipLadyOfLight
-"Call down the Light of Valar onto your enemies. \n Deals massive damage in a large area"
-END
-CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Summon Three Fi&res of Doom around Sauron in a circle"
-END
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Provides to nearby allies +25% damage and earn experience 25% faster. \n Modifier Type: 'Damage SPELL'"
-END
-CONTROLBAR:LoneTowerHealingUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
-END
-CONTROLBAR:LoneTowerArmorUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Significantly reduces the amount of damage taken."
-END
-
-
-//------------------------------------------------------------
-
-// String lines for Patch 1.08
-
-//------------------------------------------------------------
-
-CONTROLBAR:GrabPassengerTB
-"Pickup Merry or Pippin"
-END
-CONTROLBAR:SpecialAbility_ShieldBubble
-"Shield Bubble (&W)"
-END
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"The Wizard transfers all of his Power into a Shield that will absorbs every kind of damage dealt on him. \n Gandalf also gains inmunity to knock-back. \n Lasts 5 seconds. \n \n Left click icon to activate"
-END
-CONTROLBAR:Fire_pit
-"Fire pit (&V)"
-END
-CONTROLBAR:TooltipFire_pit
-"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Grants a stacking bonus of +5% armor \n Detect stealth"
-END
-CONTROLBAR:FireWorks
-"FireWorks / Deploy [&V]"
-END
-CONTROLBAR:ToolTipFireWorks
-"Merry can drop Fireworks \n on the ground and ignite it \n \n Left click to activate"
-End
-CONTROLBAR:FireWorks2
-"Fireworks / Ignite [&B]"
-END
-CONTROLBAR:ToolTipFireWorks2
-"Fireworks damages units within large radius \n \n Left click to activate"
-End
-CONTROLBAR:FireWorksObj
-"FireWorks"
-END
-CONTROLBAR:HobbitFireCracker
-"Fi&recracker"
-END
-CONTROLBAR:ToolTipHobbitFireCracker
-"Hero can throw a small Firecracker \n Left click icon then left click on target"
-End
-CONTROLBAR:ToolTipHobbitFireCrackerMerry
-"Hero can throw a small Firecracker. \n Effective against Mumakils \n Special bonus against structures. \n Left click icon then left click on target"
-End
-CONTROLBAR:ToolTipHobbitFireCrackerSam
-"Hero can throw a small Firecracker. \n Special bonus against Shelob. \n Left click icon then left click on target"
-End
 
 //------------------------------------------------------------
 
@@ -47778,7 +47777,7 @@ END
 // Elrond
 
 CONTROLBAR:ElrondFarsight
-"Farsight [&T]"
+"Farsigh&t"
 END
 
 CONTROLBAR:TooltipElrondLeadership
@@ -47790,7 +47789,7 @@ CONTROLBAR:ToolTipElrondFarsight
 END
 
 CONTROLBAR:ElrondRestoration
-"Restoration [&V]"
+"Restoration [&B]"
 END
 
 CONTROLBAR:ToolTipElrondRestoration
@@ -47798,7 +47797,7 @@ CONTROLBAR:ToolTipElrondRestoration
 END
 
 CONTROLBAR:ElrondWhirlwind
-"Whirlwind [&B]"
+"Whirlwind [&V]"
 End
 
 CONTROLBAR:TooltipElrondWhirlwind

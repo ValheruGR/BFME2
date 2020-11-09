@@ -46,6 +46,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_74 STUNNED_FLAILING
+  			End
+			AnimationState = USER_74 PASSENGER
+  			End
 			AnimationState = USER_74 DYING
   			End
  			AnimationState = USER_74 BURNINGDEATH
@@ -62,6 +66,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_71 STUNNED_FLAILING
+  			End
+			AnimationState = USER_71 PASSENGER
+  			End
 			AnimationState = USER_71 DYING
   			End
  			AnimationState = USER_71 BURNINGDEATH
@@ -78,6 +86,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_70 STUNNED_FLAILING
+  			End
+			AnimationState = USER_70 PASSENGER
+  			End
 			AnimationState = USER_70 DYING
   			End
  			AnimationState = USER_70 BURNINGDEATH
@@ -94,6 +106,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_73 STUNNED_FLAILING
+  			End
+			AnimationState = USER_73 PASSENGER
+  			End
 			AnimationState = USER_73 DYING
   			End
  			AnimationState = USER_73 BURNINGDEATH
@@ -110,12 +126,16 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_69 STUNNED_FLAILING
+  			End
+			AnimationState = USER_69 PASSENGER
+  			End
 			AnimationState = USER_69 DYING
   			End
  			AnimationState = USER_69 BURNINGDEATH
   			End
 			AnimationState = USER_69 //	SpellBookDarkness
-				ParticleSysBone		= NONE DarknessParticle09v2 FollowBone:Yes
+				ParticleSysBone		= NONE DarknessParticleSmall09v2 FollowBone:Yes
   			End
         End
 	//-----------------------------------------------------------------------------
@@ -126,6 +146,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_72 STUNNED_FLAILING
+  			End
+			AnimationState = USER_72 PASSENGER
+  			End
 			AnimationState = USER_72 DYING
   			End
  			AnimationState = USER_72 BURNINGDEATH
@@ -142,6 +166,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_68 STUNNED_FLAILING
+  			End
+			AnimationState = USER_68 PASSENGER
+  			End
 			AnimationState = USER_68 DYING
 			End
 			AnimationState = USER_68 BURNINGDEATH
@@ -150,6 +178,30 @@
 				EnteringStateFX = FX_TheodenGloriousChargeFX
  			End
 		End
+	;;-;;	//-----------------------------------------------------------------------------
+	;;-;;	//EvilHeal
+	;;-;;	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
+  	;;-;;		Draw = W3DScriptedModelDraw Draw_EvilHeal
+	;;-;;			ParticlesAttachedToAnimatedBones = yes
+	;;-;;			ModelConditionState 			= NONE
+	;;-;;				Model = None
+	;;-;;			End
+	;;-;;			AnimationState = USER_66 STUNNED_FLAILING
+  	;;-;;			End
+	;;-;;			AnimationState = USER_66 PASSENGER
+  	;;-;;			End
+	;;-;;			AnimationState = USER_66 DYING
+	;;-;;			End
+	;;-;;			AnimationState = USER_66 BURNINGDEATH
+	;;-;;			End
+	;;-;;			AnimationState = USER_66
+ 	;;-;;				ParticleSysBone		= NONE EvilHealParticleFlare09v2 FollowBone:Yes
+ 	;;-;;				ParticleSysBone		= NONE EvilHealParticleFlareHIGH09v2 FollowBone:Yes
+	;;-;;				ParticleSysBone		= NONE EvilHealParticleBlast09v2 FollowBone:Yes
+	;;-;;				ParticleSysBone		= NONE EvilHealParticleBlastHIGH9v2 FollowBone:Yes
+	;;-;;				ParticleSysBone		= NONE EvilHealParticleHeal09v2 FollowBone:Yes
+	;;-;;			End
+	;;-;;		End
 	//-----------------------------------------------------------------------------
 	//EvilHeal
 	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
@@ -158,16 +210,17 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_66 STUNNED_FLAILING
+  			End
+			AnimationState = USER_66 PASSENGER
+  			End
 			AnimationState = USER_66 DYING
 			End
 			AnimationState = USER_66 BURNINGDEATH
 			End
 			AnimationState = USER_66
- 				ParticleSysBone		= NONE EvilHealParticleFlare09v2 FollowBone:Yes
- 				ParticleSysBone		= NONE EvilHealParticleFlareHIGH09v2 FollowBone:Yes
-				ParticleSysBone		= NONE EvilHealParticleBlast09v2 FollowBone:Yes
-				ParticleSysBone		= NONE EvilHealParticleBlastHIGH9v2 FollowBone:Yes
-				ParticleSysBone		= NONE EvilHealParticleHeal09v2 FollowBone:Yes
+ 				ParticleSysBone		= NONE UntamedAllegianceParticle1Small09v2 FollowBone:Yes
+ 				ParticleSysBone		= NONE UntamedAllegianceParticle2Small09v2 FollowBone:Yes
 			End
 		End
 	//-----------------------------------------------------------------------------
@@ -178,6 +231,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_65 STUNNED_FLAILING
+  			End
+			AnimationState = USER_65 PASSENGER
+  			End
 			AnimationState = USER_65 DYING
 			End
 			AnimationState = USER_65 BURNINGDEATH
@@ -194,6 +251,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_62 STUNNED_FLAILING
+  			End
+			AnimationState = USER_62 PASSENGER
+  			End
 			AnimationState = USER_62 DYING
 			End
 			AnimationState = USER_62 BURNINGDEATH
@@ -210,12 +271,16 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_64 STUNNED_FLAILING
+  			End
+			AnimationState = USER_64 PASSENGER
+  			End
 			AnimationState = USER_64 DYING
 			End
 			AnimationState = USER_64 BURNINGDEATH
 			End
 			AnimationState = USER_64
- 				ParticleSysBone		= NONE DevastationStunDrawStyleNoSM09v2 FollowBone:Yes
+ 				ParticleSysBone		= NONE DevastationStunSmall09v2 FollowBone:Yes
  			End
 		End
 	//-----------------------------------------------------------------------------
@@ -226,6 +291,10 @@
 			ModelConditionState 			= NONE
 				Model = None
 			End
+			AnimationState = USER_63 STUNNED_FLAILING
+  			End
+			AnimationState = USER_63 PASSENGER
+  			End
 			AnimationState = USER_63 DYING
 			End
 			AnimationState = USER_63 BURNINGDEATH

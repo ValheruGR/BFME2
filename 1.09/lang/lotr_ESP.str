@@ -138,7 +138,7 @@ CONTROLBAR:TooltipPalantirVision09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Espía a las fuerzas enemigas. \n Proporciona una bonificación de alcance de 35% a las unidades en su área de efecto.\n Modificador tipo 'HECHIZO único'. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
+"Espía a las fuerzas enemigas. \n Proporciona una bonificación de alcance de +35% a las hordas aliadas en su área de efecto.\n Modificador tipo 'HECHIZO único'. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
@@ -502,6 +502,92 @@ END
 CONTROLBAR:ToolTipSauronsFiresOfDoom09v2
 "Invoca una tormenta de rocas fundidas en un área alrededor de Sauron. \n No daña a unidades aliadas \n Haz clic con el botón izquierdo para activar."
 END
+//------------------------------------------------------------
+
+
+
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.09v1
+
+//------------------------------------------------------------
+
+
+CONTROLBAR:GaladHealBTP
+"&Luz de Galadriel"
+END
+CONTROLBAR:ToolTipGaladHeal
+"Cura toda unidad y heroe aliado dentro de un circulo cerca de Galadriel \n Haz clic con el botón izquierdo sobre el icono para activar."
+END
+CONTROLBAR:LadyOfLight
+"Luz de los &Valar"
+END
+CONTROLBAR:TooltipLadyOfLight
+"Convoca la luz de los Valar contra de tus enemigos. \n Deals massive damage in a large area"
+END
+CONTROLBAR:SpecialAbilityFiresOfDoom2
+"Convoca a los fuegos del destino en un circulo alrededor de Sauron."
+END
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
+"Requisito: Investigar la mejora en la fortaleza. \n Proporciona a los aliados cercanos +25% daño y consiguen experiencia 25% más rapido \n Modificador tipo 'HECHIZO de daño'"
+END
+CONTROLBAR:LoneTowerHealingUpgradeIcon
+"Requisito: Investigar la mejora en la fortaleza. \n Cura a los aliados cercanos \n Repone una unidad por batallón cada 10 segundos."
+END
+CONTROLBAR:LoneTowerArmorUpgradeIcon
+"Requisito: Investigar la mejora en la fortaleza. \n Reduce de manera importante el daño recibido."
+END
+
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.08
+
+//------------------------------------------------------------
+
+CONTROLBAR:GrabPassengerTB
+"Pickup Merry or Pippin"
+END
+CONTROLBAR:SpecialAbility_ShieldBubble
+"Burbuja escudo (&W)"
+END
+CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
+"El mago transfiere toda su energia en un escudo que absorberá toda clase de daño dirigido hacia él. \n Gandalf gana inmunidad al meta impacto \n Dura 5 segundos \n Haz clic con el botón izquierdo sobre el icono para activar."
+END
+CONTROLBAR:Fire_pit
+"Fogata de campamen&to"
+END
+CONTROLBAR:TooltipFire_pit
+"Campamento donde los aliados cercanos pueden ser curados \n Repone una unidad por batallón cada 5 segundos. \n Provee un bonus acumulativo de +5% armadura. \n Detect stealth"
+END
+CONTROLBAR:FireWorks
+"Desplegar fuegos ar&tificiales."
+END
+CONTROLBAR:ToolTipFireWorks
+"Merry despliega sus fuegos artificiales en el suelo para luego ser encendidos.\n Haz clic con el botón izquierdo sobre el icono para activar."
+End
+CONTROLBAR:FireWorks2
+"Activar fuegos ar&tificiales."
+END
+CONTROLBAR:ToolTipFireWorks2
+"Enciende los fuegos artificiales con el fin de dañar a las unidades enemigas cercanas \n Haz clic con el botón izquierdo sobre el icono para activar."
+End
+CONTROLBAR:FireWorksObj
+"Fuegos Artificiales"
+END
+CONTROLBAR:HobbitFireCracker
+"Peta&rdo"
+END
+CONTROLBAR:ToolTipHobbitFireCracker
+"El hobbit puede lanza un petardo que ataca unidades enemigas."
+End
+CONTROLBAR:ToolTipHobbitFireCrackerMerry
+"El hobbit lanza un petardo que mata unidades enemigas. \n Bonificación especial contra estructuras y Mumakils."
+End
+CONTROLBAR:ToolTipHobbitFireCrackerSam
+"El hobbit lanza un petardo que mata unidades enemigas.\n  Bonificación especial contra Ella-la-araña."
+End
 //------------------------------------------------------------
 
 
@@ -1491,92 +1577,6 @@ END
 Map:mapETfordsofanduin/Desc
 "Reskin del popular mapa de 1v1, Vados del Isen II. Diseño basado en Amon Hen, Argonath y el area alrededor del Rio Anduin. \n Hecho por Ecthelion y SilverBane."
 END
-//------------------------------------------------------------
-
-
-
-
-//------------------------------------------------------------
-
-// String lines for Patch 1.09v1
-
-//------------------------------------------------------------
-
-
-CONTROLBAR:GaladHealBTP
-"&Luz de Galadriel"
-END
-CONTROLBAR:ToolTipGaladHeal
-"Cura toda unidad y heroe aliado dentro de un circulo cerca de Galadriel \n Haz clic con el botón izquierdo sobre el icono para activar."
-END
-CONTROLBAR:LadyOfLight
-"Luz de los &Valar"
-END
-CONTROLBAR:TooltipLadyOfLight
-"Convoca la luz de los Valar contra de tus enemigos. \n Deals massive damage in a large area"
-END
-CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Convoca a los fuegos del destino en un circulo alrededor de Sauron."
-END
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Requisito: Investigar la mejora en la fortaleza. \n Proporciona a los aliados cercanos +25% daño y consiguen experiencia 25% más rapido \n Modificador tipo 'HECHIZO de daño'"
-END
-CONTROLBAR:LoneTowerHealingUpgradeIcon
-"Requisito: Investigar la mejora en la fortaleza. \n Cura a los aliados cercanos \n Repone una unidad por batallón cada 10 segundos."
-END
-CONTROLBAR:LoneTowerArmorUpgradeIcon
-"Requisito: Investigar la mejora en la fortaleza. \n Reduce de manera importante el daño recibido."
-END
-
-
-//------------------------------------------------------------
-
-// String lines for Patch 1.08
-
-//------------------------------------------------------------
-
-CONTROLBAR:GrabPassengerTB
-"Pickup Merry or Pippin"
-END
-CONTROLBAR:SpecialAbility_ShieldBubble
-"Burbuja escudo (&W)"
-END
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"El mago transfiere toda su energia en un escudo que absorberá toda clase de daño dirigido hacia él. \n Gandalf gana inmunidad al meta impacto \n Dura 5 segundos \n Haz clic con el botón izquierdo sobre el icono para activar."
-END
-CONTROLBAR:Fire_pit
-"Fogata de campamen&to"
-END
-CONTROLBAR:TooltipFire_pit
-"Campamento donde los aliados cercanos pueden ser curados \n Repone una unidad por batallón cada 5 segundos. \n Provee un bonus acumulativo de +5% armadura. \n Detect stealth"
-END
-CONTROLBAR:FireWorks
-"Desplegar fuegos ar&tificiales."
-END
-CONTROLBAR:ToolTipFireWorks
-"Merry despliega sus fuegos artificiales en el suelo para luego ser encendidos.\n Haz clic con el botón izquierdo sobre el icono para activar."
-End
-CONTROLBAR:FireWorks2
-"Activar fuegos ar&tificiales."
-END
-CONTROLBAR:ToolTipFireWorks2
-"Enciende los fuegos artificiales con el fin de dañar a las unidades enemigas cercanas \n Haz clic con el botón izquierdo sobre el icono para activar."
-End
-CONTROLBAR:FireWorksObj
-"Fuegos Artificiales"
-END
-CONTROLBAR:HobbitFireCracker
-"Peta&rdo"
-END
-CONTROLBAR:ToolTipHobbitFireCracker
-"El hobbit puede lanza un petardo que ataca unidades enemigas."
-End
-CONTROLBAR:ToolTipHobbitFireCrackerMerry
-"El hobbit lanza un petardo que mata unidades enemigas. \n Bonificación especial contra estructuras y Mumakils."
-End
-CONTROLBAR:ToolTipHobbitFireCrackerSam
-"El hobbit lanza un petardo que mata unidades enemigas.\n  Bonificación especial contra Ella-la-araña."
-End
 //------------------------------------------------------------
 
 // String file for Lord of the Rings
@@ -44706,7 +44706,7 @@ CONTROLBAR:ToolTipElrondRestoration
 END
 
 CONTROLBAR:ElrondWhirlwind
-"Remolino (&B)"
+"Remolino (&V)"
 END
 
 CONTROLBAR:TooltipElrondWhirlwind

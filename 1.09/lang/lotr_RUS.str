@@ -505,6 +505,93 @@ END
 
 
 
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.09v1
+
+//------------------------------------------------------------
+
+
+CONTROLBAR:GaladHealBTP
+"&Свет Галадриэли."
+END
+CONTROLBAR:ToolTipGaladHeal
+"Исцеляет всех союзников и Героев в огромном радиусе вокруг Галадриэли. \n Щелкните на пиктограмме для активации способности."
+END
+CONTROLBAR:LadyOfLight
+"Свет Валар."
+END
+CONTROLBAR:TooltipLadyOfLight
+"Призывает Свет Валара на головы врагов. \n Наносит огромный урон на большой территории"
+END
+CONTROLBAR:SpecialAbilityFiresOfDoom2
+"Призывает трёх Духов Огня рядом с Сауроном."
+END
+CONTROLBAR:LoneTowerLeadershipUpgradeIcon
+"Требуется соответствующее улучшение крепости. \n\n Союзники поблизости получают +25% к атаке и +25% к опыту. \n Modifier Type: 'Damage SPELL'"
+END
+CONTROLBAR:LoneTowerHealingUpgradeIcon
+"Требуется соответствующее улучшение крепости. \n\n Исцеляет союзников поблизости. \n Воскрешает одного убитого в отряде каждые 10 секунд."
+END
+CONTROLBAR:LoneTowerArmorUpgradeIcon
+"Требуется соответствующее улучшение крепости. \n\n Существенно уменьшает наносимый врагами урон."
+END
+
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.08
+
+//------------------------------------------------------------
+
+CONTROLBAR:GrabPassengerTB
+"Поднять Мерри или Пиппина"
+END
+CONTROLBAR:SpecialAbility_ShieldBubble
+"Мега-щит (&W)"
+END
+CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
+"Вызывается мега-щит \n Гндальф получает +99% к броне и невосприимчив к откидываниям на 5 секунд \n Щелкните на пиктограмме для включения способности."
+END
+CONTROLBAR:Fire_pit
+"Костер. (&V)"
+END
+CONTROLBAR:TooltipFire_pit
+"Костер, исцеляющий	союзников поблизости. \n Воскрешает одного убитого в отряде каждые 5 секунд. \n Союзники получают +5% брони. \n Всегда накапливается. \n Обнаруживает скрытых врагов."
+END
+CONTROLBAR:FireWorks
+"Фейерверки / Поджечь. [&V]"
+END
+CONTROLBAR:ToolTipFireWorks
+"Мерри раскладывает фейерверки \n на земле и поджигает их. \n \n Щелкните на пиктограмме для активации способности.  "
+END
+CONTROLBAR:FireWorks2
+"Поджечь фейерверки. [&B]"
+END
+CONTROLBAR:ToolTipFireWorks2
+"Фейерверки наносят урон врагам в большом радиусе. \n \n Щелкните на пиктограмме для активации способности."
+END
+CONTROLBAR:FireWorksObj
+"Фейерверки."
+END
+CONTROLBAR:HobbitFireCracker
+"Петарда. [&R]"
+END
+CONTROLBAR:ToolTipHobbitFireCracker
+"Герой бросает небольшую петарду. \n Щелкните на пиктограмме, затем на цели."
+END
+CONTROLBAR:ToolTipHobbitFireCrackerMerry
+"Герой бросает небольшую петарду. \n Эффективно против Мумаков. \n Бонус против построек. \n Щелкните на пиктограмме, затем на цели."
+END
+CONTROLBAR:ToolTipHobbitFireCrackerSam
+"Герой бросает небольшую петарду. Бонус против Шелоб. \n Щелкните на пиктограмме, затем на цели."
+END
+
+//------------------------------------------------------------
+
+
+
 // Map.Strings	-----	2019
 
  
@@ -1490,93 +1577,6 @@ END
 Map:mapETfordsofanduin/Desc
 "Reskin of the popular 1v1 map, Fords of Isen II. Design based on Amon Hen, Argonath and surrounding areas of the Anduin. \n Map by Ecthelion and SilverBane."
 END
-//------------------------------------------------------------
-
-
-
-
-//------------------------------------------------------------
-
-// String lines for Patch 1.09v1
-
-//------------------------------------------------------------
-
-
-CONTROLBAR:GaladHealBTP
-"&Свет Галадриэли."
-END
-CONTROLBAR:ToolTipGaladHeal
-"Исцеляет всех союзников и Героев в огромном радиусе вокруг Галадриэли. \n Щелкните на пиктограмме для активации способности."
-END
-CONTROLBAR:LadyOfLight
-"Свет Валар."
-END
-CONTROLBAR:TooltipLadyOfLight
-"Призывает Свет Валара на головы врагов. \n Наносит огромный урон на большой территории"
-END
-CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Призывает трёх Духов Огня рядом с Сауроном."
-END
-CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Требуется соответствующее улучшение крепости. \n\n Союзники поблизости получают +25% к атаке и +25% к опыту. \n Modifier Type: 'Damage SPELL'"
-END
-CONTROLBAR:LoneTowerHealingUpgradeIcon
-"Требуется соответствующее улучшение крепости. \n\n Исцеляет союзников поблизости. \n Воскрешает одного убитого в отряде каждые 10 секунд."
-END
-CONTROLBAR:LoneTowerArmorUpgradeIcon
-"Требуется соответствующее улучшение крепости. \n\n Существенно уменьшает наносимый врагами урон."
-END
-
-
-//------------------------------------------------------------
-
-// String lines for Patch 1.08
-
-//------------------------------------------------------------
-
-CONTROLBAR:GrabPassengerTB
-"Поднять Мерри или Пиппина"
-END
-CONTROLBAR:SpecialAbility_ShieldBubble
-"Мега-щит (&W)"
-END
-CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"Вызывается мега-щит \n Гндальф получает +99% к броне и невосприимчив к откидываниям на 5 секунд \n Щелкните на пиктограмме для включения способности."
-END
-CONTROLBAR:Fire_pit
-"Костер. (&V)"
-END
-CONTROLBAR:TooltipFire_pit
-"Костер, исцеляющий	союзников поблизости. \n Воскрешает одного убитого в отряде каждые 5 секунд. \n Союзники получают +5% брони. \n Всегда накапливается. \n Обнаруживает скрытых врагов."
-END
-CONTROLBAR:FireWorks
-"Фейерверки / Поджечь. [&V]"
-END
-CONTROLBAR:ToolTipFireWorks
-"Мерри раскладывает фейерверки \n на земле и поджигает их. \n \n Щелкните на пиктограмме для активации способности.  "
-END
-CONTROLBAR:FireWorks2
-"Поджечь фейерверки. [&B]"
-END
-CONTROLBAR:ToolTipFireWorks2
-"Фейерверки наносят урон врагам в большом радиусе. \n \n Щелкните на пиктограмме для активации способности."
-END
-CONTROLBAR:FireWorksObj
-"Фейерверки."
-END
-CONTROLBAR:HobbitFireCracker
-"Петарда. [&R]"
-END
-CONTROLBAR:ToolTipHobbitFireCracker
-"Герой бросает небольшую петарду. \n Щелкните на пиктограмме, затем на цели."
-END
-CONTROLBAR:ToolTipHobbitFireCrackerMerry
-"Герой бросает небольшую петарду. \n Эффективно против Мумаков. \n Бонус против построек. \n Щелкните на пиктограмме, затем на цели."
-END
-CONTROLBAR:ToolTipHobbitFireCrackerSam
-"Герой бросает небольшую петарду. Бонус против Шелоб. \n Щелкните на пиктограмме, затем на цели."
-END
-
 //------------------------------------------------------------
 
 // String file for Lord of the Rings
