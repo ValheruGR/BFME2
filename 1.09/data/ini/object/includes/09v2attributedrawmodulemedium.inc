@@ -16,8 +16,8 @@
 		;;-;;		AnimationState = USER_66 BURNINGDEATH
 		;;-;;		End
  		;;-;;		;;-;;	AnimationState = USER_66
- 		;;-;;		;;-;;		ParticleSysBone		= NONE UntamedAllegianceParticle2Huge09v2 FollowBone:Yes
-		;;-;;		;;-;;		ParticleSysBone		= NONE UntamedAllegianceParticle1Huge09v2 FollowBone:Yes
+ 		;;-;;		;;-;;		ParticleSysBone		= NONE UntamedAllegianceParticle1Small09v2 FollowBone:Yes
+		;;-;;		;;-;;		ParticleSysBone		= NONE UntamedAllegianceParticle2Small09v2 FollowBone:Yes
  		;;-;;		;;-;;	End
 		;;-;;	End
    		Draw = W3DScriptedModelDraw Draw_EvilHeal
@@ -35,6 +35,7 @@
 			End
 			ModelConditionState = USER_66
 				Model = exmordorhealcav
+				ParticleSysBone		= NONE SpellHealMordorMedium FollowBone:Yes
 			End
  		End
 	//-----------------------------------------------------------------------------

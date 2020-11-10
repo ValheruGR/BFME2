@@ -241,6 +241,7 @@
 			End
 			ModelConditionState = USER_66
 				Model = exmordorheal
+				ParticleSysBone		= NONE SpellHealMordorSmall FollowBone:Yes
 			End
 		End
 	//-----------------------------------------------------------------------------
