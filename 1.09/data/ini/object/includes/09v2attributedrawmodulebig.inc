@@ -94,7 +94,7 @@
   			End
  			AnimationState = USER_71 BURNINGDEATH
   			End
-			ModelConditionState = USER_70
+			ModelConditionState = USER_71
 				Model = explaceholder1
 				Texture = explaceholder1.tga exlightaura02.tga
 			End
