@@ -899,7 +899,7 @@ Behavior = DominateEnemySpecialPower ModuleTag_ConvertEnemySpecialPower_L1
 	UnpackTime					= 2000
 	PreparationTime				= 1   
 	FreezeAfterTriggerDuration	= 2500 // Hold AI for this long after we fire.		
-	AttributeModifierAffects	= ALL -DOZER -HERO -STRUCTURE -ARMY_OF_DEAD -MOVE_ONLY ENEMIES NEUTRAL
+	AttributeModifierAffects	= CREATE_A_HERO_DOMINATE_OBJECT_FILTER
 End
 
 //--------------------------------------------------------------------------	
@@ -929,7 +929,7 @@ Behavior = DominateEnemySpecialPower ModuleTag_ConvertEnemySpecialPower_L2
 	UnpackTime					= 2000
 	PreparationTime				= 1   
 	FreezeAfterTriggerDuration	= 2500 // Hold AI for this long after we fire.		
-	AttributeModifierAffects	= ALL -DOZER -HERO -STRUCTURE -ARMY_OF_DEAD -MOVE_ONLY ENEMIES NEUTRAL
+	AttributeModifierAffects	= CREATE_A_HERO_DOMINATE_OBJECT_FILTER
 End
 
 //--------------------------------------------------------------------------	
@@ -1983,7 +1983,7 @@ Behavior = SpecialPowerModule ModuleTag_CreateAHeroHowlOfRageStarter_Level2
 	SpecialPowerTemplate		= SpecialAbilityCreateAHeroHowlOfRage_Level2
 	AttributeModifier			= GenericBuff40
 	AttributeModifierRange		= CREATE_A_HERO_HOWL_OF_RAGE_RADIUS_L2
-	AttributeModifierAffects	= ANY +INFANTRY +CAVALRY +MONSTER -HERO
+	AttributeModifierAffects	= GENERIC_BUFF_RECIPIENT_OBJECT_FILTER
 	TriggerFX					= FX_HowlofRage2
 	UpdateModuleStartsAttack	= No
 	StartsPaused				= Yes
@@ -2001,7 +2001,7 @@ Behavior = SpecialPowerModule ModuleTag_CreateAHeroHowlOfRageStarter_Level3
 	SpecialPowerTemplate		= SpecialAbilityCreateAHeroHowlOfRage_Level3
 	AttributeModifier			= GenericBuff60
 	AttributeModifierRange		= CREATE_A_HERO_HOWL_OF_RAGE_RADIUS_L3
-	AttributeModifierAffects	= ANY +INFANTRY +CAVALRY +MONSTER -HERO
+	AttributeModifierAffects	= GENERIC_BUFF_RECIPIENT_OBJECT_FILTER
 	TriggerFX					= FX_HowlofRage3
 	UpdateModuleStartsAttack	= No
 	StartsPaused				= Yes
@@ -2400,7 +2400,7 @@ Behavior = DominateEnemySpecialPower ModuleTag_CreateAHeroCoercePower_Level1
 	UnpackTime					= 2000
 	PreparationTime				= 1   
 	FreezeAfterTriggerDuration	= 2500 // Hold AI for this long after we fire.	
-	AttributeModifierAffects	= ALL -DOZER -HERO -STRUCTURE -ARMY_OF_DEAD -MOVE_ONLY ENEMIES NEUTRAL
+	AttributeModifierAffects	= CREATE_A_HERO_COERCE_OBJECT_FILTER
 End
 
 //--------------------------------------------------------------------------	
@@ -2430,7 +2430,7 @@ Behavior = DominateEnemySpecialPower ModuleTag_CreateAHeroCoercePower_Level2
 	UnpackTime					= 2000
 	PreparationTime				= 1   
 	FreezeAfterTriggerDuration	= 2500 // Hold AI for this long after we fire.		
-	AttributeModifierAffects	= ALL -DOZER -HERO -STRUCTURE -ARMY_OF_DEAD -MOVE_ONLY ENEMIES NEUTRAL
+	AttributeModifierAffects	= CREATE_A_HERO_COERCE_OBJECT_FILTER
 End
 
 //--------------------------------------------------------------------------	
@@ -2460,7 +2460,7 @@ Behavior = DominateEnemySpecialPower ModuleTag_CreateAHeroCoercePower_Level3
 	UnpackTime					= 2000
 	PreparationTime				= 1   
 	FreezeAfterTriggerDuration	= 2500 // Hold AI for this long after we fire.		
-	AttributeModifierAffects	= ALL -DOZER -HERO -STRUCTURE -ARMY_OF_DEAD -MOVE_ONLY ENEMIES NEUTRAL
+	AttributeModifierAffects	= CREATE_A_HERO_COERCE_OBJECT_FILTER
 End
 
 //--------------------------------------------------------------------------	
