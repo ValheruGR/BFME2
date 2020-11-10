@@ -181,46 +181,66 @@
 	;;-;;	//-----------------------------------------------------------------------------
 	;;-;;	//EvilHeal
 	;;-;;	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
-  	;;-;;		Draw = W3DScriptedModelDraw Draw_EvilHeal
-	;;-;;			ParticlesAttachedToAnimatedBones = yes
-	;;-;;			ModelConditionState 			= NONE
-	;;-;;				Model = None
-	;;-;;			End
-	;;-;;			AnimationState = USER_66 STUNNED_FLAILING
-  	;;-;;			End
-	;;-;;			AnimationState = USER_66 PASSENGER
-  	;;-;;			End
-	;;-;;			AnimationState = USER_66 DYING
-	;;-;;			End
-	;;-;;			AnimationState = USER_66 BURNINGDEATH
-	;;-;;			End
-	;;-;;			AnimationState = USER_66
- 	;;-;;				ParticleSysBone		= NONE EvilHealParticleFlare09v2 FollowBone:Yes
- 	;;-;;				ParticleSysBone		= NONE EvilHealParticleFlareHIGH09v2 FollowBone:Yes
-	;;-;;				ParticleSysBone		= NONE EvilHealParticleBlast09v2 FollowBone:Yes
-	;;-;;				ParticleSysBone		= NONE EvilHealParticleBlastHIGH9v2 FollowBone:Yes
-	;;-;;				ParticleSysBone		= NONE EvilHealParticleHeal09v2 FollowBone:Yes
-	;;-;;			End
+  	;;-;;	Draw = W3DScriptedModelDraw Draw_EvilHeal
+	;;-;;		ParticlesAttachedToAnimatedBones = yes
+	;;-;;		ModelConditionState 			= NONE
+	;;-;;			Model = None
 	;;-;;		End
+	;;-;;		AnimationState = USER_66 STUNNED_FLAILING
+  	;;-;;		End
+	;;-;;		AnimationState = USER_66 PASSENGER
+  	;;-;;		End
+	;;-;;		AnimationState = USER_66 DYING
+	;;-;;		End
+	;;-;;		AnimationState = USER_66 BURNINGDEATH
+	;;-;;		End
+	;;-;;		AnimationState = USER_66
+ 	;;-;;			ParticleSysBone		= NONE EvilHealParticleFlare09v2 FollowBone:Yes
+ 	;;-;;			ParticleSysBone		= NONE EvilHealParticleFlareHIGH09v2 FollowBone:Yes
+	;;-;;			ParticleSysBone		= NONE EvilHealParticleBlast09v2 FollowBone:Yes
+	;;-;;			ParticleSysBone		= NONE EvilHealParticleBlastHIGH9v2 FollowBone:Yes
+	;;-;;			ParticleSysBone		= NONE EvilHealParticleHeal09v2 FollowBone:Yes
+	;;-;;		End
+	;;-;;	End
+	;;-;;	//-----------------------------------------------------------------------------
+	;;-;;	//EvilHeal
+	;;-;;	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
+  	;;-;;	Draw = W3DScriptedModelDraw Draw_EvilHeal
+	;;-;;		ParticlesAttachedToAnimatedBones = yes
+	;;-;;		ModelConditionState 			= NONE
+	;;-;;			Model = None
+	;;-;;		End
+	;;-;;		AnimationState = USER_66 STUNNED_FLAILING
+  	;;-;;		End
+	;;-;;		AnimationState = USER_66 PASSENGER
+  	;;-;;		End
+	;;-;;		AnimationState = USER_66 DYING
+	;;-;;		End
+	;;-;;		AnimationState = USER_66 BURNINGDEATH
+	;;-;;		End
+	;;-;;		AnimationState = USER_66
+ 	;;-;;			ParticleSysBone		= NONE UntamedAllegianceParticle1Small09v2 FollowBone:Yes
+ 	;;-;;			ParticleSysBone		= NONE UntamedAllegianceParticle2Small09v2 FollowBone:Yes
+	;;-;;		End
+	;;-;;	End
 	//-----------------------------------------------------------------------------
 	//EvilHeal
 	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
-  		Draw = W3DScriptedModelDraw Draw_EvilHeal
+		Draw = W3DScriptedModelDraw Draw_EvilHeal
 			ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState 			= NONE
 				Model = None
 			End
 			AnimationState = USER_66 STUNNED_FLAILING
-  			End
+			End
 			AnimationState = USER_66 PASSENGER
-  			End
+			End
 			AnimationState = USER_66 DYING
 			End
 			AnimationState = USER_66 BURNINGDEATH
 			End
-			AnimationState = USER_66
- 				ParticleSysBone		= NONE UntamedAllegianceParticle1Small09v2 FollowBone:Yes
- 				ParticleSysBone		= NONE UntamedAllegianceParticle2Small09v2 FollowBone:Yes
+			ModelConditionState = USER_66
+				Model = exmordorheal
 			End
 		End
 	//-----------------------------------------------------------------------------
