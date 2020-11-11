@@ -15,10 +15,10 @@
 		;;-;;		End
 		;;-;;		AnimationState = USER_66 BURNINGDEATH
 		;;-;;		End
- 		;;-;;		;;-;;	AnimationState = USER_66
- 		;;-;;		;;-;;		ParticleSysBone		= NONE UntamedAllegianceParticle1Big09v2 FollowBone:Yes
-		;;-;;		;;-;;		ParticleSysBone		= NONE UntamedAllegianceParticle2Big09v2 FollowBone:Yes
- 		;;-;;		;;-;;	End
+ 		;;-;;		AnimationState = USER_66
+ 		;;-;;			ParticleSysBone		= NONE UntamedAllegianceParticle1Huge09v2 FollowBone:Yes
+		;;-;;			ParticleSysBone		= NONE UntamedAllegianceParticle2Huge09v2 FollowBone:Yes
+ 		;;-;;		End
 		;;-;;	End
    		Draw = W3DScriptedModelDraw Draw_EvilHeal
 			ParticlesAttachedToAnimatedBones = yes
@@ -34,9 +34,9 @@
 			AnimationState = USER_66 BURNINGDEATH
 			End
 			ModelConditionState = USER_66
-				Model = exmordorhealcav
-				ParticleSysBone		= NONE SpellHealMordorBig FollowBone:Yes
-			End
+				Model = exmordorhealmum
+				ParticleSysBone		= NONE SpellHealMordorHuge FollowBone:Yes
+ 			End
  		End
 	//-----------------------------------------------------------------------------
 		RemoveModule Draw_DevastationParalyze
@@ -55,7 +55,7 @@
 			AnimationState = USER_64 BURNINGDEATH
 			End
 			AnimationState = USER_64
- 				ParticleSysBone		= NONE DevastationStunBig09v2 FollowBone:Yes
+ 				ParticleSysBone		= NONE DevastationStunHuge09v2 FollowBone:Yes
  			End
 		End
 	//-----------------------------------------------------------------------------
@@ -75,7 +75,7 @@
  			AnimationState = USER_69 BURNINGDEATH
   			End
 			AnimationState = USER_69 //	SpellBookDarkness
-				ParticleSysBone		= NONE DarknessParticleBig09v2 FollowBone:Yes
+				ParticleSysBone		= NONE DarknessParticleHuge09v2 FollowBone:Yes
   			End
         End
 	//-----------------------------------------------------------------------------
