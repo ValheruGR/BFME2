@@ -24,8 +24,8 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
-UPGRADE:GandalfTheWhite09v2
-"Gandalf The White: +100% magic damage, -20% reload time."
+CONTROLBAR:GenericMountTooltipDain09v2
+"Requires Level 6  \n Left click to switch between \n mounted and on foot"
 END
 //------------------------------------------------------------
 CONTROLBAR:ShelobWebbing09v2

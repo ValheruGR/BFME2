@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:GenericMountTooltipDain09v2
+"Requires Level 6  \n Left click to switch between \n mounted and on foot"
+END
+//------------------------------------------------------------
 CONTROLBAR:ShelobWebbing09v2
 "Telaraña de Ungoliant (&B)"
 End
