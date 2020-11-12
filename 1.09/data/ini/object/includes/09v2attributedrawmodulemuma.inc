@@ -79,45 +79,45 @@
   			End
         End
 	//-----------------------------------------------------------------------------
-		RemoveModule Draw_GenericStackArmorEffect
-		
- 		Draw = W3DScriptedModelDraw Draw_GenericStackArmorEffect
-            ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
-				Model = None
-			End
-			AnimationState = USER_71 STUNNED_FLAILING
-  			End
-			AnimationState = USER_71 PASSENGER
-  			End
-			AnimationState = USER_71 DYING
-  			End
- 			AnimationState = USER_71 BURNINGDEATH
-  			End
-			ModelConditionState = USER_71
-				Model = explaceholder1
-				Texture = explaceholder1.tga exlightaura02.tga
-			End
-        End
+		;RemoveModule Draw_GenericStackArmorEffect
+		;
+ 		;Draw = W3DScriptedModelDraw Draw_GenericStackArmorEffect
+        ;    ParticlesAttachedToAnimatedBones = yes
+		;	ModelConditionState 			= NONE
+		;		Model = None
+		;	End
+		;	AnimationState = USER_71 STUNNED_FLAILING
+  		;	End
+		;	AnimationState = USER_71 PASSENGER
+  		;	End
+		;	AnimationState = USER_71 DYING
+  		;	End
+ 		;	AnimationState = USER_71 BURNINGDEATH
+  		;	End
+		;	ModelConditionState = USER_71
+		;		Model = explaceholder1
+		;		Texture = explaceholder1.tga exlightaura02.tga
+		;	End
+        ;End
 	//-----------------------------------------------------------------------------
-		RemoveModule Draw_GenericStackDamageEffect
-		
-		Draw = W3DScriptedModelDraw Draw_GenericStackDamageEffect
-            ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
-				Model = None
-			End
-			AnimationState = USER_70 STUNNED_FLAILING
-  			End
-			AnimationState = USER_70 PASSENGER
-  			End
-			AnimationState = USER_70 DYING
-  			End
- 			AnimationState = USER_70 BURNINGDEATH
-  			End
-			ModelConditionState = USER_70
-				Model = explaceholder1
-				Texture = explaceholder1.tga exlnzflar1.tga
-  			End
-        End
+		;RemoveModule Draw_GenericStackDamageEffect
+		;
+		;Draw = W3DScriptedModelDraw Draw_GenericStackDamageEffect
+        ;    ParticlesAttachedToAnimatedBones = yes
+		;	ModelConditionState 			= NONE
+		;		Model = None
+		;	End
+		;	AnimationState = USER_70 STUNNED_FLAILING
+  		;	End
+		;	AnimationState = USER_70 PASSENGER
+  		;	End
+		;	AnimationState = USER_70 DYING
+  		;	End
+ 		;	AnimationState = USER_70 BURNINGDEATH
+  		;	End
+		;	ModelConditionState = USER_70
+		;		Model = explaceholder1
+		;		Texture = explaceholder1.tga exlnzflar1.tga
+  		;	End
+        ;End
 	//-----------------------------------------------------------------------------
