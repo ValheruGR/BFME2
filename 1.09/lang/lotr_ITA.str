@@ -217,7 +217,7 @@ CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Gli alleati vicino al Troll con tamburi ottengono +35% corazza e +25% esperienza. \nI Troll Di Caverna, I Troll Di Montagna ed I Troll D'Attacco guadagnano +15% corazza, +15% esperienza e guariscono più velocemente. \n Modifier Type: 'Armor BUFF' \n\nAbilità passiva."
+"Gli alleati vicino al Troll con tamburi ottengono +35% corazza e +25% esperienza. \n Gli Trolls vicino guadagnano +15% corazza, +15% esperienza e guariscono più velocemente. \n Modifier Type: 'Armor BUFF' \n\nAbilità passiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
@@ -291,7 +291,7 @@ CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Richiede livello 4.\nGli alleati vicino al eroe ottengono +25% corazza e +25% accumulo esperienza. \n Modifier Type: 'Armor SPELL' \n Modifier Type: 'Armor SPELL' \nAbilità passiva."
+"Richiede livello 4.\nGli alleati vicino al eroe ottengono +25% corazza e +25% accumulo esperienza. \n Modifier Type: 'Armor SPELL' \n Modifier Type: 'Armor SPELL' \n Nearby Trolls gain experience 25% faster \n and autoheal +50 health points. \nAbilità passiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2

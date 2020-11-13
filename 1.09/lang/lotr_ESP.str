@@ -218,7 +218,7 @@ CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Los aliados cercanos al troll con tambor ganan \n +35% a armadura y +25% experiencia. \n Todos los trolls cercanos ganan \n +15% armadura +15% experiencia y se auto-curan más rápido. \n Modificador tipo 'BUFF de armadura'. \n Capacidad pasiva."
+"Los aliados cercanos al troll con tambor ganan \n +35% a armadura y +25% experiencia. \n Los trolls cercanos ganan \n +15% armadura +15% experiencia y se auto-curan más rápido. \n Modificador tipo 'BUFF de armadura'. \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
@@ -293,7 +293,7 @@ CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Requisito: Nivel 4. \n Los aliados cercanos ganan \n +25% a la armadura y 25% más de experiencia. \n Modificador tipo 'HECHIZO de armadura'. \n Los trolls de las cavernas cercanos ganan experience 25% más rápido. \n Capacidad pasiva."
+"Requisito: Nivel 4. \n Los aliados cercanos ganan \n +25% a la armadura y 25% más de experiencia. \n Modificador tipo 'HECHIZO de armadura'. \n Los trolls cercanos ganan experience 25% más rápido. \n Capacidad pasiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2

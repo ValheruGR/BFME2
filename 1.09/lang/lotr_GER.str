@@ -291,7 +291,7 @@ CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Voraussetzung: Stufe 4 \n Verbündete in der Nähe des Helden \n erhalten +25% Rüstung und \n 25% schneller Erfahrung \n Modifier Type: 'Armor SPELL' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive Fähigkeit"
+"Voraussetzung: Stufe 4 \n Verbündete in der Nähe des Helden \n erhalten +25% Rüstung und \n 25% schneller Erfahrung \n Modifier Type: 'Armor SPELL' \n Nearby Trolls gain experience 25% faster \n and autoheal +50 health points. \n Passive Fähigkeit"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2

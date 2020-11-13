@@ -219,7 +219,7 @@ CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Allies near the Drummer Troll gain +35% armor and +25% experience. \n Cave Trolls, Mountain Trolls and Attack Trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Modifier Type: 'Armor BUFF' \n Passive ability"
+"Allies near the Drummer Troll gain +35% armor and +25% experience. \n Nearby trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Modifier Type: 'Armor BUFF' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
@@ -294,7 +294,7 @@ CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Nearby Cave Trolls gain experience 25% faster and autoheal +50 health points. \n Modifier Type: 'Armor SPELL'\n Passive ability"
+"Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Nearby Trolls gain experience 25% faster and autoheal +50 health points. \n Modifier Type: 'Armor SPELL'\n Passive ability"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2

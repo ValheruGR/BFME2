@@ -218,7 +218,7 @@ CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Союзники рядом с троллем-барабанщиком получают +35% брони и +25% опыта. \n Пещерные, Горные и Боевые Тролли получают +15% брони, +15% опыта и способность лечиться. \n Modifier Type: 'Armor BUFF' \n Пассивная способность."
+"Союзники рядом с троллем-барабанщиком получают +35% брони и +25% опыта. \n Nearby Trolls gain +15% брони, +15% опыта и способность лечиться. \n Modifier Type: 'Armor BUFF' \n Пассивная способность."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
@@ -293,7 +293,7 @@ CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Требуется уровень 4. \n Союзники рядом с героем получают +25% брони и набирают опыт на 25% быстрее. \n Modifier Type: 'Armor SPELL' \n Nearby Cave Trolls gain experience 25% faster \n and autoheal +50 health points. \n Пассивная способность."
+"Требуется уровень 4. \n Союзники рядом с героем получают +25% брони и набирают опыт на 25% быстрее. \n Modifier Type: 'Armor SPELL' \n Nearby Trolls gain experience 25% faster \n and autoheal +50 health points. \n Пассивная способность."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
