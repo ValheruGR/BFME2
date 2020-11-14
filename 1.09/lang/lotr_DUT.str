@@ -25,7 +25,7 @@ CONTROLBAR:nothingDesc09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:GenericMountTooltipDain09v2
-"Requires Level 6  \n Left click to switch between \n mounted and on foot"
+"Nodig: niveau 6 \n Klik met links om op te stijgen \n of af te stappen"
 END
 //------------------------------------------------------------
 CONTROLBAR:ShelobWebbing09v2
@@ -218,7 +218,7 @@ CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Bondgenoten in de buurt van de Trol-tromslager krijgen +35% pantser \n en verdienen ervaring 25% sneller. \n Nearby trolls krijgen ook +15% pantser, 15% ervaring & automatische genezing gaat sneller. \n Modifier Type: 'Armor BUFF' \n \n Passieve kracht"
+"Bondgenoten in de buurt van de Trol-tromslager krijgen +35% pantser \n en verdienen ervaring 25% sneller. \n Nabije trollen krijgen ook +15% pantser, 15% ervaring & automatische genezing gaat sneller. \n Modifier Type: 'Armor BUFF' \n \n Passieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
@@ -293,7 +293,7 @@ CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Nodig: niveau 4\nBondgenoten in de buurt van de Aardmannen-koning krijgen\n+25% schade en verdienen 25% meer ervaring  \n Nearby Trolls gain experience 25% faster \n and autoheal +50 health points. \n Modifier Type: 'Stacky Armor' \n\nPassieve kracht"
+"Nodig: niveau 4\nBondgenoten in de buurt van de Aardmannen-koning krijgen\n+25% schade en verdienen 25% meer ervaring.  Nabije trollen krijgen ervaring 25% sneller \n en genezen automatisch +50 gezondheidspunten. \n Modifier Type: 'Stacky Armor' \n\nPassieve kracht"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2

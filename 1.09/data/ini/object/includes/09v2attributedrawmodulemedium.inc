@@ -55,7 +55,7 @@
 			AnimationState = USER_64 BURNINGDEATH
 			End
 			AnimationState = USER_64
- 				ParticleSysBone		= NONE DevastationStunSmall09v2 FollowBone:Yes
+ 				ParticleSysBone		= NONE DevastationStunMedium09v2 FollowBone:Yes
  			End
 		End
 	//-----------------------------------------------------------------------------
