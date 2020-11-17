@@ -293,7 +293,7 @@ CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Nodig: niveau 4\nBondgenoten in de buurt van de Aardmannen-koning krijgen\n+25% schade en verdienen 25% meer ervaring.  Nabije trollen krijgen ervaring 25% sneller \n en genezen automatisch +50 gezondheidspunten. \n Modifier Type: 'Stacky Armor' \n\nPassieve kracht"
+"Nodig: niveau 4\nBondgenoten in de buurt van de Aardmannen-koning krijgen\n+25% schade en verdienen 25% meer ervaring. \n Nabije trollen krijgen ervaring 25% sneller \n en genezen automatisch +50 gezondheidspunten. \n Modifier Type: 'Armor SPELL' \n\nPassieve kracht"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
@@ -373,14 +373,15 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Nodig: niveau 3 \n Vermommen als een normale Rohirrim. \n Eowyn valt trager aan maar doet schade in een gebied \n Verwijderd Schildmaagd bonus. \n Klik met links om te activeren"
+"Nodig: niveau 3 \n Vermommen als een normale Rohirrim. \n Eowyn valt trager aan maar doet schade in een gebied \n Klik met links om te activeren"
 END
 CONTROLBAR:ToolTipSmite09v2
-"Krachtige afstandsaanval op één enkel doelwit\n \n Effectief tegen helden \n Vooral effectief tegen vliegende monsters\n\nKlik met links op het icoontje en daarna met links op het doelwit"
+"Krachtige afstandsaanval op één enkel doelwit \n Effectief tegen helden \n Vooral effectief tegen vliegende monsters\n\nKlik met links op het icoontje en daarna met links op het doelwit"
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
 "Nodig: niveau 5 \n Eowyn krijgens 35% pantser \n Halveert de vertraging van bevriende Rohirrim bij vertrappelen \n Klik met links om te activeren"
 END
+//	\n Verwijderd Schildmaagd bonus.
 //------------------------------------------------------------
 CONTROLBAR:TooltipSunflare09v2
 "Roept een vurige straal zonlicht op die zowel vijanden als bevriende eenheden verschroeit. \n Effectief tegen zwakke helden \n Annuleert Duisternis & Vriezende regen \n Klik met links op het icoontje en daarna met links op het doelwit"
@@ -596,7 +597,7 @@ End
 
 
 
-// Map.Strings	-----	2019
+// Maps.Strings	-----	2019
 
  
 
@@ -623,6 +624,13 @@ END
 Map:mapmpnothing/Desc
 "nothing"
 END
+//------------------------------------------------------------
+Map:mapETlossarnach
+"Lossarnach" 
+End
+Map:mapETlossarnach/Desc
+"Lossarnach, also named Vale of Flowers, was a fertile region and fiefdom in the Southern Gondor. Located southwest of Minas Tirith and directly east of Lebennin, it was populated by many refugees from Ithilien and Osgiliath. \n Map by Ecthelion"
+End
 //------------------------------------------------------------
 Map:mapETgrassland
 "Grasslands"

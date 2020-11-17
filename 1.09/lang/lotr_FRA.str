@@ -25,7 +25,7 @@ CONTROLBAR:nothingDesc09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:GenericMountTooltipDain09v2
-"Requires Level 6  \n Left click to switch between \n mounted and on foot"
+"Requiert : niveau 6 \n Clic gauche pour monter \n ou descendre de monture"
 END
 //------------------------------------------------------------
 CONTROLBAR:ShelobWebbing09v2
@@ -76,7 +76,7 @@ CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
 "Requiert : niveau 3 \nGlorfindel gagne +50% de dégâts et deviens invulnérable pendant 10 secondes.\nNe peut être utilisé sur sa monture\nClic gauche pour activer."
 END
 CONTROLBAR:TooltipBladeMaster09v2
-"Requiert : niveau 2\nAragorn gagne +50% de dégâts et +50% d'armure. \nClic gauche pour activer."
+"Requiert : niveau 2\nAragorn gagne +50% de dégâts et +50% d'armures. \nClic gauche pour activer."
 END
 //------------------------------------------------------------
 UPGRADE:AutohealUpgradeAdvanced09v2
@@ -99,348 +99,352 @@ CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
 "Pénétration d'armure améliorée"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
-"Amélioration de commandement de la forteresse: \nLes unités proche gagnent +25% de dégats et gagnent +25% d'éxpériences plus rapidement. \n Modifier Type: 'Damage SPELL'"
+"Amélioration de commandement de la forteresse: \nLes unités proche gagnent +25% de dégâts et gagnent +25% d'éxpériences plus rapidement. \n Modifier Type: 'Damage SPELL'"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Fort contre piquiers \nBonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent \n +33% de dégats et +25% de vitesse. \n Modifier Type: 'Unique SPELL' "
+"Fort contre piquiers \nBonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent \n +33% de dégâts et +25% de vitesse. \n Modifier Type: 'Unique SPELL' "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Forts contre la cavalerie,archers et bâtiments de production d'unités.\n Les lanciers Rivendell gagnent +7% de vitesse de déplacement au niveau 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Requiert : niveau 7 \nTheoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Modifier Type: 'Unique IRRESISTIBLE'. \n Theoden must be mounted to use ability \n Left click to activate"
+"Requiert : niveau 7\nThéoden et les cavaliers proches gagnent 99% d'arumres, +25% de dégâts et sont immunisés au ralentissement lors d'une charge.\nLa cavalerie est immunisé à la peur pendant la durée de l'effet.\nThéoden ne peut utiliser sa capacité que sur sa monture.\n Modifier Type: 'Unique IRRESISTIBLE'.\nClic gauche pour activer"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +20% speed. \n Modifier Type: 'Unique SPELL' "
+"Fort contre l'infanterie \nRésistants à l'écrasement \n Bonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent +33% de dégâts et +20% de vitesse.\n Modifier Type: 'Unique SPELL'"
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n Modifier Type: 'Unique SPELL' "
+"Fort contre l'infanterie\n Bonus de horde: \n Un rassemblement d'orcs supérieur ou égal à 70 gagnent +33% de dégâts et +15% de vitesse.\n Modifier Type: 'Unique SPELL'"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
-"Provides additional armor to the Citadel, its expansions and surrounding walls. \n\n Upgrades summoned Lone Towers"
+"Donne un bonus d'armure à la forteresse, ses éxpansions et murs.\n Améliore le pouvoir de la tour solitaire."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMordorTavern09v2
-"Trains Corsairs of Umbar \n Allows research of Mordor unit upgrades. \n Tavern bonus: \n 2 tavern = corsairs 10% cheaper \n 3 tavern = 15% cheaper \n 4 taverns = 20% cheaper"
+"Entraîne les Corsaires d'Umbar\nPermet la recherche des améliorations d'unités du Mordor.\n Bonus de la taverne:\n Deux tavernes: les corsaires sont 10% moins couteux.\n Trois tavernes: 15% moins couteux.\n Quatre tavernes: 20% moins couteux."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Requiert : niveau 7 \n Grants all nearby allies resistance to fear and terror \n Modifier Type: 'Unique IRRESISTIBLE' \n Dain becomes able to reveal stealth.\n Passive ability"
+"Requiert : niveau 7 \nAccorde une résistance à la peur et à la terreur à tous les alliés proches.\n Modifier Type: 'Unique IRRESISTIBLE'.\n Dain détecte les unités furtives. \nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Modifier Type: 'Unique LEADERSHIP'\n Passive ability"
+"Les Ents alliés proches de Sylvebarbe gagnent \n+25% d'armures, +10% de vitesse \n +20% de portée \net  +25% d'expériences.\nModifier Type: 'Unique LEADERSHIP'.\n Capacité passive"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Requiert : niveau 5 \n Allies near Lurtz gain +50% Damage \n and earn experience 25% faster. \n Modifier Type: 'Damage LEADERSHIP' \n Passive ability"
+"Requiert : niveau 5\nLes alliés proches de Lurtz gagnent \n+50% de dégâts et gagnent +25% d'expériences plus rapidement.\n Modifier Type: 'Damage LEADERSHIP'.\nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: 'Unique LEADERSHIP'. \n Clic gauche sur l'icône puis clic gauche sur la cible"
+"Espionne l'ennemi.\nConfère un bonus temporaire de vitesse de +15% aux unités dans la zone cible.\n Modifier Type: 'Unique LEADERSHIP'.\n Bonus cumulatif. \n clic gauche puis clic gauche sur la zone ciblée"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n hordes at its target area\n Modifier Type: 'Unique SPELL'. \n Clic gauche sur l'icône puis clic gauche sur la cible"
+"Espionne les forces ennemies.\nConfère un bonus temporaire de portée de +35% aux unités dans la zone ciblée.\n Modifier Type: 'Unique SPELL'. \n Bonus cumulatif. \nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +250%. \n Modifier Type: 'Unique SPELL' \n Wipes any other SPELL effects from allies. \n Creates a propective shield against enemy Taint Land or Men Wood on it's center. \n Clic gauche sur l'icône puis clic gauche sur la cible"
+"Fait pousser une forêt. \nCrée une zone de protection en son centre contre la forêt homme ou la terre soullié. \nLes unités alliées gagnent +35% d'armures, +25% de dégâts et gagnent +25% d'éxpériences plus rapidement. \n Modifier Type: 'Unique SPELL'. \n Wipes any other SPELL effects from allies. \nLa cavalerie ennemie ralentie 3,5 fois plus rapidement. \nClic gauche sur l'icône puis clic gauche sur la zone cible"
 END
 CONTROLBAR:MenWood09v2
-"Human Wood"
+"Forêt Homme"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipCloudBreak09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Stuns enemy units for 10 seconds \n Heals and revives allied units during 15 seconds \n Left click to activate"
+"Annule la Pluie glacée,Ombre et le soin de Perce-nuage.\nEtourdit les unités ennemies pendant 10 secondes\nSoigne et renouvelle les unités alliées pendant 15 secondes \nClic gauche pour activer"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Modifier Type: Unique 'SPELL' \n Lasts 180 seconds. \n Left click to activate"
+"Annule la Pluie glacée,Ombre et le soin de Perce-nuage.\nPlonge temporairement la carte dans l'obscurité pendant 180 secondes.\n Les bataillons alliés gagnent +50% de dégâts, +33% d'armures  et gagnent +50% d'expériences plus rapidement.\nLes monstres gagnent +25% de dégâts, +33% d'armures et gagnent +50% d'expériences plus rapidement.\n Modifier Type: Unique 'SPELL'.\nBonus cumulatif.\nClic gauche pour activer"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP, BUFF and SPELL from the enemy. \n Lasts 150 seconds. \n Left click to activate"
+"Annule la Pluie glacée,Ombre et le soin de Perce-nuage.\nLa carte est temporairement couverte de pluie pendant 150 secondes.\n Les unités ennemies perdre -25% d'armures et -25% de dégâts .\n Modifier Type: 'DEBUFF'. \n Wipes LEADERSHIP, BUFF and SPELL effects from the enemy.\nClic gauche pour activer"
+END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requiert : niveau 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Modifier Type: Unique 'IRRESISTIBLE' \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
+"Requiert : niveau 4\nLes unités alliées ciblées gagnent+20% de vitesse, +25% de dégâts ainsi que +25% de révélation du brouillard. \n Modifier Type: Unique 'IRRESISTIBLE' \n Les unités énnemies proche souffre d'un malus de -25% de dégâts et -25% d'armures. \n Modifier Type: 'DEBUFF'. \n Wipes LEADERSHIP and BUFF effects from the enemy.\n Clic gauche sur l'icône puis clic gauche sur les unités ciblées"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
-"Requiert : niveau 2 \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
+"Requiert : niveau 2\n Les unités énnemies proche souffre d'un malus de -25% de dégâts et -25% d'armures.\n Wipes LEADERSHIP and BUFF effects from the enemy.\n Modifier Type: 'DEBUFF'.\nPouvoir passif."
 End
 CONTROLBAR:TooltipCaveBats09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Clic gauche sur l'icône puis clic gauche sur la cible"
+"Révèle le brouillard et détecte les unités furtives.\n Réduit de -25% l'armures et les dégâts des unités ennemis.\nWipes LEADERSHIP and BUFF effects from the enemy.\n Modifier Type: 'DEBUFF'.\n Clic gauche sur l'icône puis clic gauche sur une zone praticable"
 END
 CONTROLBAR:TooltipCrebain09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Clic gauche sur l'icône puis clic gauche sur la cible"
+"Révèle le brouillard et détecte les unités furtives.\n Réduit de -25% l'armures et les dégâts des unités ennemis.\nWipes LEADERSHIP and BUFF effects from the enemy.\n Modifier Type: 'DEBUFF'.\n Clic gauche sur l'icône puis clic gauche sur une zone praticable"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Requiert : niveau 3 \nLa cavalerie alliée proche gagne +25% armure, +25% dégâts, expérience gagnée 50% plus rapidement \nRéduction de l'écrasement de cavalerie alliée \n Modifier Type: 'High-Tier SPELL' \nCapacité passive"
+"Requiert : niveau 3 \nLa cavalerie alliée proche gagnent +25% d'armure, +25% de dégâts et gagnent +50% d'expériences plus rapidement.\nRéduction de l'écrasement de cavalerie alliée.\n Modifier Type: 'High-Tier SPELL'.\nCapacité passive."
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
-"Requiert niveau 2 \nOrdonne aux gardiens de charger l'ennemi\nLe gardien gagne +25% vitesse et +25% armure \n Modifier Type: 'Armor BUFF'  \nProvoque un renversement \nClic gauche sur l'icône puis clic gauche sur la cible"
+"Requiert niveau 2 \nOrdonne aux gardiens de charger l'ennemi.\nL'unité gagne +25% de vitesse et +25% d'armure.\n Modifier Type: 'Armor BUFF'.\nProvoque un renversement.\nClic gauche sur l'icône puis clic gauche sur la cible"
 END
 CONTROLBAR:ToolTipBarbedArrows09v2
-"Requiert : niveau 2\n Causes meta impact and increased damage \n Left click icon then left click on target"
+"Requiert Niveau 2\nInflige des dégâts du type"meta-impact" et augmente les dégâts.\nClic gauche puis clic gauche sur la cible"
 End
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework09v2
-"Increases Fortress and Wall armor \n Pre-requisite for Ivory Tower \n Upgrades summoned Lone Towers"
+"Donne un bonus d'armure à la forteresse, ses éxpansions et murs.\n Prérequis à la tour d'ivoire.\nAméliore le pouvoir de la tour solitaire."
 END
 CONTROLBAR:ToolTipSharkuManEater09v2
-"Requiert : niveau 6 \n Kill target enemy which restores Sharku's health and temporarily grants +35% Damage, +35% armor and -50% crushing deceleration.\n Left click icon then left click on target enemy"
+"Requiert : niveau 6 \nTue l'ennemi ciblé, restaure la vie de Sharcoux et confère temporairement +35% d'armure, +35% de dégâts and -50% de ralentissement au piétinnement.\n Clic gauche sur l'icône puis clic gauche sur la cible."
 END
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel309v2
-"+30% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain 20% armor against Pikemen and Cavalry"
+"Vitesse de construction +30% \n Permet la recherche des améliorations cote de mailles en mithril, lames forgées et trait enflammé.\n Ajoute une tour de lanceurs de haches défensive\nLa forge renforce son armure :\n+20% contre les piquiers et cavaliers"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
-"Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
+"Soigne tous les alliés proches.\nRenouvelle une unité manquante par bataillon toute les 6.5 secondes.\nRéduit le coût de résurrection des héros de 5%.\nRéduit le temps de résurrection des héros de 15%.\nAméliore la tour solitaire invoquée."
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Modifier Type: 'Unique SPELL' "
+"Fort contre bâtiments de ressources.\n Bonus de horde : \nUn rassemblement d'orcs supérieur ou égal à 70 gagnent +33% de dégâts, +20% de vitesse.\n Modifier Type: 'Unique SPELL'."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
-"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers"
+"Soigne les alliés proches de la forteresse.\n Renouvelle une unité manquante par bataillon toute les 6.5 secondes.\nRéduit le temps de résurection des héros de 25%.\nAjoute des points de vie à la forteresse.\n Renforce la tour solitaire invoquée."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework09v2
-"Donne des points d'armure supplémentaires à la forteresse et aux murs \nPrérequis pour la Catapulte lourde. \n\n La tour d'archers défensive invoquée en bénéficie"
+"Donne des points d'armure supplémentaires à la forteresse et aux murs \nPrérequis pour la Catapulte lourde. \n La tour d'archers défensive invoquée en bénéficie."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenCloakThranduil09v2
-"Elven Cloack: \n L'unité immobile est invisible \nCapacité passive"
+"Menteau elfique: \n L'unité immobile est invisible.\nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Requiert : niveau 2\nPlace un totem de crânes qui reste sur la carte jusqu'à destruction \nRévèle le brouillard, détecte les unités furtives proches et confère un bonus d'armure de +35%, +25% d'expérience aux alliés proches \n Modifier Type: 'Armor BUFF'  \nClic gauche sur l'icône puis clic gauche sur la zone cible"
+"Requiert : niveau 2\nPlace un totem de crânes qui reste sur la carte jusqu'à destruction.\nRévèle le brouillard, détecte les unités furtives proches et confère un bonus d'armure de +35%, +25% d'expérience aux alliés proches \n Modifier Type: 'Armor BUFF'.\nClic gauche sur l'icône puis clic gauche sur la zone cible."
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Les alliés proches du tambour gagnent \n+35% armure +25% d'expérience \n Les Trolls proches gagnent +15% armures +15% d'expérience et se soignent eux même plus rapidement \n Modifier Type: 'Armor BUFF' \n\nCapacité passive"
+"Les alliés proches du tambour gagnent \n+35% d'armures +25% d'expériences.\n Les Trolls gagnent +15% d'armures +15% d'expériences et se soignent eux même plus rapidement.\n Modifier Type: 'Armor BUFF'.\nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Les alliés ciblés gagnent +40% dégâts, +50% expérience, +10% vitesse \n Modifier Type: 'Damage LEADERSHIP' \nClic gauche sur l'icône puis clic gauche sur les unités ciblées"
+"Les alliés ciblés gagnent +40% de dégâts, les unités gagnent +50% d'expériences, +10% de vitesse.\n Modifier Type: 'Damage LEADERSHIP'.\nClic gauche sur l'icône puis clic gauche sur les unités ciblées."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Les dégâts des alliés visés augmentent de +50%, +50% d'expérience \n Modifier Type: 'Damage LEADERSHIP' \nClic gauche sur l'icône puis clic gauche sur les unités ciblées"
+"Les dégâts des alliés visés augmentent de +50%, les unités gagnent +50% d'expériences.\n Modifier Type: 'Damage LEADERSHIP'.\nClic gauche sur l'icône puis clic gauche sur les unités ciblées."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Les dégâts des alliés visés augmentent de +50%, +25% d'expérience \n Modifier Type: 'Damage LEADERSHIP' \nClic gauche sur l'icône puis clic gauche sur les unités ciblées"
+"Les dégâts des alliés visés augmentent de +50%, les unités gagnent +25% d'expériences.\n Modifier Type: 'Damage LEADERSHIP'.\nClic gauche sur l'icône puis clic gauche sur les unités ciblées."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Souille une zone\n+35% armure aux unités alliées \n Modifier Type: 'Armor BUFF' \nClic gauche sur l'icône puis clic gauche sur la zone cible \nNe peut pas s'utiliser avec d'autres bonus"
+"Souille une zone.\nDonne +35% d'armures aux unités alliées.\n Modifier Type: 'Armor BUFF'.\nClic gauche sur l'icône puis clic gauche sur la zone cible.\nNe peut pas s'utiliser avec d'autres bonus."
 END
 CONTROLBAR:ToolTipMenWood09v2
-"Fait pousser une forêt\nLes unités alliées gagnent +35% armure. \n Modifier Type: 'Armor BUFF' \nClic gauche sur l'icône puis clic gauche sur la zone cible"
+"Fait pousser une forêt.\nLes unités alliées gagnent +35% d'armures. \n Modifier Type: 'Armor BUFF'.\nClic gauche sur l'icône puis clic gauche sur la zone cible."
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Les alliés proches de la statue gagnent \n+25% dégâts, \nexpérience gagnée 25% plus rapidement \n Modifier Type: 'Damage SPELL' \n Allies gain terror and fear resistance. \n\nAugmente la limite de points commandement de 10"
+"Les alliés proches de la statue gagnent +25% de dégâts, +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'Damage SPELL'.\n Les alliés gagnent une immunité à la peur et à la terreur.\nAugmente la limite de points commandement de 10 points."
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Tout allié à proximité de la statue gagne \n+25% armure, \nexpérience gagnée 25% plus rapidement  \n Modifier Type: 'Armor SPELL' \nAugmente la limite de points commandement de 10"
+"Tout allié à proximité de la statue gagne +25% d'armure et +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'Armor SPELL'.\nAugmente la limite de points commandement de 10 points."
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Les alliés proches de la statue gagnent \n+35% armure \n Modifier Type: 'Armor BUFF' \n Allies gain terror and fear resistance. \n \nAugmente la limite de points commandement de 10"
+"Les alliés proches de la statue gagnent +35% d'armures.\n Modifier Type: 'Armor BUFF'.\n Les alliés gagnent une immunité à la peur et à la terreur.\n Augmente la limite de points commandement de 10 points."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Réduit la vulnérabilité de la forteresse au combat rapproché \nLes alliés proches recoivent : \n+25% dommage et expérience gagné 25% plus vite \n Modifier Type: 'Damage SPELL'"
+"Réduit la vulnérabilité de la forteresse au combat rapproché.\nLes alliés proches recoivent : +25% de dégâts et +25% d'expérience gagnés plus rapidement.\n Modifier Type: 'Damage SPELL'."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Donne +25% de dommage et 25% d'expérience aux troupes proches\n Modifier Type: 'Damage SPELL' \nRéduit le coût des héros de 10%\nRéduit le temps de recrutement des héros de 10%\nRéduit le coût des bâtisseurs de 20%"
+"Donne +25% de dégâts et +25% d'expériences aux troupes proches.\n Modifier Type: 'Damage SPELL'.\nRéduit le coût des héros de 10%.\nRéduit le temps de recrutement des héros de 10%.\nRéduit le coût des bâtisseurs de 20%."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Les alliés proches de la forteresse gagnent \n+25% armure\nexpérience gagnée 25% plus rapidement \n Modifier Type: 'Damage SPELL' \nRéduit le coût des héros de 10% \nRéduit le temps de recrutement des héros de 10% \nRéduit le coût des bâtisseurs de 20%\n\nAméliore la tour d'archers défensive invoquée"
+"Les alliés proches de la forteresse gagnent +25% d'armures et +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'Damage SPELL'.\nRéduit le coût des héros de 10%.\nRéduit le temps de recrutement des héros de 10%.\nRéduit le coût des bâtisseurs de 20%.\nAméliore la tour solitaire invoquée."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Les alliés proches de la forteresse gagnent \n+25% dommage +25% d'expérience  \n Modifier Type: 'Damage SPELL' \nRéduit le coût des héros de 10% \nRéduit le temps de recrutement des héros de 10% \nRéduit le coût des bâtisseurs de 20% \n\nAméliore la tour d'archers défensive invoquée"
+"Les alliés proches de la forteresse gagnent +25% de dégâts +25% d'expérience gagnées plus rapidement.\n Modifier Type: 'Damage SPELL'.\nRéduit le coût des héros de 10%.\nRéduit le temps de recrutement des héros de 10%.\nRéduit le coût des bâtisseurs de 20%.\nAméliore la tour solitaire invoquée."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Les Wargs gagnent +55% dégâts mais perdent -10% armure contre les piquiers et les dégâts provenant de structures \n Modifier Type: 'Unique IRRESISTIBLE' \n Wipes previous any LEADERSHIP bonus. \nClic gauche pour activer"
+"Les Wargs gagnent +55% de dégâts mais perdent -10% d'armures contre les piquiers et les dégâts provenant des structures.\n Modifier Type: 'Unique IRRESISTIBLE'.\n Wipes any other LEADERSHIP effects from the wargs. \nClic gauche pour activer."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Invoque l'Oeil de Sauron \nRévèle les ennemis furtifs \nLes alliés gagnent +25% dégâts, +25% armure, +50% d'expérience \n Modifier Type: 'High Tier SPELL' \nClic gauche sur l'icône puis clic gauche sur la zone cible"
+"Invoque l'Oeil de Sauron \nRévèle les ennemis furtifs. \nLes alliés gagnent +25% de dégâts, +25% d'armures et +50% d'expériences.\n Modifier Type: 'High Tier SPELL'.\nClic gauche sur l'icône puis clic gauche sur la zone cible."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requiert : niveau 8 \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Enemy units are scared while active. \n Modifier Type: 'Armor BUFF' \n Left click to activate"
+"Requiert : niveau 8 \n Les unités alliées, monstres et héroes sont soignées et gagnent +35% armure, +50% dégâts.\nRenouvelle les unités manquantes pendant l'utilisation du pouvoir.\nLes unités ennemies sont soumises à l'effet 'peur'.\n Modifier Type: 'Armor BUFF'.\nClic gauche pour activer."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Les alliés proches de Gimli gagnent \n +35% armure \n Modifier Type: 'Armor BUFF' \n \n Capacité passive"
+"Les alliés proches de Gimli gagnent +35% d'armures.\n Modifier Type: 'Armor BUFF'.\n Capacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: 'High Tier SPELL' \n Passive ability"
+"Les alliés proches du Roi Daïn gagnent +25% d'armures, +25% de dégâts et +50% d'expériences gagnées plus rapidement. \n Modifier Type: 'High Tier SPELL'\n Capacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Modifier Type: 'Damage SPELL' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+"Les alliés proches de la bannière gagnent +25% de dégâts et +25% d'expérience gagnées plus rapidement.\n Modifier Type: 'Damage SPELL'.\n Soigne lentement le Chariot de guerre lorsque celui-ci n'est pas au combat.\n Ajoute plusieurs Phalanges au Chariot de guerre.\nRévèle les ennemis furtifs."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Requiert : niveau 4 \nLes alliés proches du Roi Gobelin gagnent\n +25% armure, expérience gagnée 25% plus rapidement  \n Modifier Type: 'Armor SPELL' \n Nearby Trolls gain experience 25% faster \n and autoheal +50 health points. \n\n Capacité passive"
+"Requiert : niveau 4 \nLes alliés proches du Roi Gobelin gagnent +25% d'armure et +25% d'expériences gagnées plus rapidement. \n Les troll gagnent +25% d'éxpériences gagnées plus rapidement et se soigne à hauteur de +50 points de vie. \n Modifier Type: 'Armor SPELL'. \n Capacité passive."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Requiert : niveau 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: 'High-Tier SPELL' \n Passive ability"
+"Requiert : niveau 3\nLes alliés proches d'Elrond gagnent +25% d'armures, +25% de dégâts et +50% d'expériences gagnées plus rapidement.\n Modifier Type: 'High-Tier SPELL'.\nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Requiert : niveau 3 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n Modifier Type: 'Armor SPELL' \n Passive ability"
+"Requiert : niveau 3\n La cavaleries proches d'Arwen gagnent +25% d'armures et +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'Armor SPELL'.\nCapacité passive."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Requiert : niveau 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster. \n Modifier Type: 'Damage LEADERSHIP' \n Passive ability"
+"Requiert : niveau 4\nLes alliés proches de Haldir gagnent \n+50% de dégâts +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'Damage LEADERSHIP'\nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Les alliés proches de Tom Bombadil gagnent \n+25% armure, \nexpérience gagnée 25% plus rapidement \n Modifier Type: 'Armor SPELL' \n\n Capacité passive"
+"Les alliés proches de Tom Bombadil gagnent \n+25% d'armures et +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'Armor SPELL'.\n Capacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Requiert : niveau 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Modifier Type: 'High-Tier SPELL' \n Passive ability"
+"Requiert : niveau 4\nLes alliés proches d'Aragorn gagnent \n+25% d'armures, +25% de dégâts et gagnent +50% d'expériences plus rapidement.\n Modifier Type: 'High-Tier SPELL'.\nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Requiert : niveau 3 \n Cavalry near Eomer gain 35% Armor. \n Modifier Type: 'Armor BUFF' \n Passive ability"
+"Requiert : niveau 3\nLes cavaliers proches d'Eomer gagnent \n+35% d'armures.\n Modifier Type: 'Armor BUFF'.\nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Requiert : niveau 6 \n Allies near Faramir gain \n +35% Armor. \n Modifier Type: 'Armor BUFF' \n Passive ability"
+"Requiert : niveau 6\nLes alliés proches de Faramir gagnent +35% d'armures.\n Modifier Type: 'Armor BUFF'.\n Capacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Requiert : niveau 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster. \n Modifier Type: 'Damage LEADERSHIP' \n Passive ability"
+"Requiert : niveau 5\nLes alliés proches de Boromir gagnent \n+50% de dégâts et +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'Damage LEADERSHIP'.\nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Allies near Theoden gain \n +25% damage and earn experience 25% faster. \n Modifier Type: 'Damage SPELL' \n Passive ability"
+"Les alliés proches de Théoden gagnent \n+25% de dégâts et +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'Damage SPELL'.\nCapacité passive."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Allies near Saruman gain +25% Armor and earn experience 25% faster. \n Modifier Type: 'Armor SPELL' \n Passive ability"
+"Les alliés proches de Saruman gagnent +25% d'armures et +25% d'éxpériences gagnées plus rapidement.\n Modifier Type: 'Armor SPELL'.\n Capacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
-"Requiert : niveau 10 \n A high damage attack that causes metaimpact. \n Effective against cavalry and weak heroes. \n Stuns light sensitive enemy units. \n Can only use with bow equipped \n Left click icon then left click on target" 
+"Requiert : niveau 10 \nCette attaque inflige de lourds dégâts provoquant un renversement.\nEtourdit les unités ennemies sensible à la lumière.\nParticulièrement éfficace contre la cavalerie et les héros.\n Ne peut être utilisé qu'avec l'arc en main.\nClic gauche sur l'icône puis clic gauche sur la cible."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Requiert : niveau 9 \n An extremely powerful single shot attack that causes damage for 15 seconds. \n The target is reduced to only 70% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
+"Requiert : niveau  \nAttaque unique extrêmement puissante causant des dégâts pendant 15 secondes.\nLa cible voit ca vitesse de déplacement réduite à 70%.\nEfficace contre les héros.\n Clic gauche sur l'icône puis clic gauche sur la cible."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Requiert : niveau 3 \n Ordonne au Mûmakil d'écraser l'ennemi \nClic gauche sur l'icône puis clic gauche sur la cible"
+"Requiert : niveau 3 \n Ordonne au Mûmakil d'écraser l'ennemi.\nClic gauche sur l'icône puis clic gauche sur la cible."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"Enemy hordes and heroes in the target location suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds. \n Modifier Type: 'STUN' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
+"Réduit de manière significative la vitesse de -40% et la vitesse de tir des ennemis de -50% pendant 19 secondes.\n Modifier Type: 'STUN'.\n Wipes LEADERSHIP and BUFF effects from the enemy. \nClic gauche sur l'icône puis clic gauche sur les unités ciblées."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Requiert : niveau 4 \n Enemy hordes and heroes in the target location suffer \n -25% armor, -25% damage and -5% armor. \n Lasts 30 seconds. \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
+"Requiert : niveau 4\nRéduit de manière significative les dégâts de -25% et l'armure de -25% des unités ennemies. \nLes héros perdent -5% d'armures. \n Modifier Type: 'DEBUFF'.\nDure 30 secondes.\n Wipes LEADERSHIP and BUFF effects from the enemy.\nClic gauche sur l'icône puis clic gauche sur les unités ciblées."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters in the same area suffer \n -25% armor and -25% damage. \n Lasts 60 seconds. \n Modifier Type: 'DEBUFF' \n Wipes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon and left click on target area"
+"Les unités alliées à l'intérieur du brouillard deviennent furtives.\nRéduit de manière significative l'armure de -25% et les dégâts de -25% des unités ennemies, héros et monstres.\n Modifier Type: 'DEBUFF'. \n Wipes LEADERSHIP and BUFF effects from the enemy. \nClic gauche sur l'icône puis clic gauche sur la zone cible"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
-"Research Banner Carrier upgrade at Barracks to enable this equipment. \n +25% Armor, -30% Speed and +33% extra arrow resistance"
+"Rechercher amélioration porte-étendard à la Caserne pour activer cette capacité. \n +25% d'armure, -30% de vitesse et +33% de résistance aux flèches."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
-"+25% Armor, -30% Speed and +33% extra arrow resistance"
+"+25% d'armure, -30% de vitesse et +33% de résistance aux flèches."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
-"+20% Armor, -30% Speed and +25% extra arrow resistance. \n Loses -7% damage."
+"+20% d'armure, -30% de vitesse et +25% de résistance aux flèches.\n Perd -7% de dégâts."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Requiert : niveau 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn attacks slower but deals damage in area \n Cancels Shield Maiden bonus. \n Left click to activate"
+"Requiert : niveau 4\nSe déguise comme un Rohirrim, portant leur armement et se battant comme l'un d'entre eux.\nLes attaques d'Eowyn sont plus lente mais font des dégâts de zone..\nle bonus Clic gauche pour activer."
 END
 CONTROLBAR:ToolTipSmite09v2
-"Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
+"Puissante attaque à distance.\nBonus contre les héros.\nParticulièrement puissante contre les monstres volants.\nClic gauche sur l'icône puis clic gauche sur la cible."
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Requiert : niveau 5 \n Eowyn gains 35% Armor \n Halves the deceleration rate of friendly Rohirrim when trampling\n Cancels the disguise \n Left click to activate"
+"Requiert : niveau 5\nEowyn gagne +35% d'armure.\nReduit de moitié le ralentissement des rohirrim lors d'une charge.\nClic gauche pour activer."
 END
+//	\nAnnule le bonnus de porteuse de bouclier
+//	\nAnnule le déguisement.
+//	\nAnnule le déguisement.
 //------------------------------------------------------------
 CONTROLBAR:TooltipSunflare09v2
-"Calls a fiery beam of sunlight to scorch the battlefield and indiscriminately burn enemies and allies. \n Effective against weak heros \n Cancels Darkness & Frezzing Rain \n Clic gauche sur l'icône puis clic gauche sur la cible"
+"Embrase le champ de bataille d'un ardent rayon de lumière solaire sans discerner les unités ennemies et alliés.\n Bonus contre les héros.\n Annule Ombre et pluie glacée.\nClic gauche sur l'icône puis clic gauche sur la zone cible."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipCitadel09v2
-"Places a Citadel Fortress anywhere on the battlefield \n Connected to the tunnel network \n Provides resources over time\n Left click icon then left click on pathable location"
+"Place une citadelle n'importe où sur le champ de bataille.\nConnectée au réseau de tunnels.\nDonne des ressources dans le temps.\nClic gauche sur l'icône puis clic gauche sur une zone praticable"
 END
 //------------------------------------------------------------
 OBJECT:SignalFireDescription09v2
-"Capture it to decrease recharge times for unused powers \n Heals nearby Heros and Flyers. \n\n 1 signal fire = -25% reduction of spellbook reload time \n 2 signal fires = -35% reduction \n 3 signal fires = -50% reduction"
+"Capturez-le pour réduire le temps de recharge des pouvoirs.\nSoigne les héros et unités volantes proches.\n1 feu de signal = -25% de temps de recharge des pouvoirs.\n2 feux de signal = -35% de temps de recharge des pouvoirs.\n3 feux de signal = -50% de temps de recharge des pouvoirs."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
-"Strong vs. Cavalry and \n Unit Production Buildings \n Tower Guards gain +5% speed at level 3, 5 and 7."
+"Fort contre cavalerie et bâtiments de production d'unités.\nLes gardes de la tour gagnent +5% de vitesse au niveau 3, 5 et 7."
 END
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
-"Strong vs. Pikemen\n and Resource Buildings \n Guardians gain +5% speed at level 3, 5, 7 and 10."
+"Fort contre piquier et bâtiments de production de ressource.\nLes gardiens gagnent +5% de vitesse au niveau 3, 5, 7 et 10."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
-"Requiert : niveau 10 \n Causes a large earthquake around Gloin's location \n Can stun the Army of the Dead for 5 seconds, but does not kill them \n Left click icon then left click on target"
+"Requiert : niveau 10 \nCrée un petit tremblement de terre autour de la position de Gloïn.\nPeut immobilisé l'armée des morts pendant 5 secondes.\nClic gauche sur l'icône puis clic gauche sur la zone cible."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom09v2
-"Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Clic gauche sur l'icône puis clic gauche sur la cible"
+"Fait tomber une pluie de roches en fusion sur la zone sélectionnée.\nInflige des dégâts aux unités énnemies et alliés présent dans la zone.\nClic gauche sur l'icône puis clic gauche sur la zone cible."
 END
 //------------------------------------------------------------
 CONTROLBAR:Command_ConstructMordorCastleWallHub09v2
-"&Wall Hub"
+"Assise (&W)"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFlood09v2
-"Summons a powerful Flood to crush your enemy \n Effective against cavalry and buildings \n Clic gauche sur l'icône puis clic gauche sur la cible"
+"Invoque une puissante inondation pour balayer les unités ennemies.\nEfficace contre les bâtiments et la cavalerie.\nClic gauche puis clic droit sur la zone cible."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRebuild09v2
-"Heals 3000 health-points from any structure. \n Target structures gain 15% bonus armor for 15s. \n Left click icon then left click on target structures"
+"Répare pour 3000 points de santé n'importe quelles structures.\nLa structure sélectionner gagne un bonus d'armure de +15% pendant 15 secondes.\nClic gauche sur l'icône puis clic gauche sur la cible."
 End
 //------------------------------------------------------------
 CONTROLBAR:DwarvenCaptainofDale09v2
-"Prince Brand, the Captain of Dale"
+"Prince Brand, Capitaine de Dale"
 END
 CONTROLBAR:DwarvenCaptainofDaleRecruit09v2
-"Recruit Prince Brand, the Captain of Dale"
+"Recruter Prince Brand, Capitaine de Dale"
 END
 CONTROLBAR:DwarvenCaptainofDaleRevive09v2
 "Revive Prince Brand, the Captain of Dale"
 END
 CONTROLBAR:DwarvenCaptainofDaleHotkey09v2
-"Prince Brand, Ca&ptain of Dale"
+"Prince &Brand, Capitaine de Dale"
 END
 OBJECT:DwarvenCaptainofDale09v2
-"Prince Brand, Captain of Dale"
+"Prince Brand, Capitaine de Dale"
 END
 //------------------------------------------------------------
 UPGRADE:Anduril09v2
 "Anduril"
 End
 TOOLTIP:AndurilDesc09v2
-"Anduril: Aragorn gains +10% Damage and +7% speed \n Requiert : niveau 5 \n Passive ability"
+"Requiert : niveau 5\nAnduril: Aragorn gagne +10% de dégâts et +7% de vitesse.\nCapacité passive."
 END
 //------------------------------------------------------------
 GUI:SpellBookRefreshReduction09v2
@@ -452,57 +456,57 @@ OBJECT:TheForsakenInn09v2
 End
 //------------------------------------------------------------
 UPGRADE:ElvenStructuralSilverthornArrows09v2
-"Silverthorn Munitions"
+"Munitions flèches d'argent."
 END
 //------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn09v2
-"&Silverthorn Munitions"
+"Munitions flèches d'argent."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn09v2
-"Grants Silverthorn Munitions to fortress and all attached towers \n Increases the damage caused by arrows"
+"Donne des munitions en flèches d'argent à la forteresse et à ses tours.\n Augmente les dégâts causés par les flèches."
 END
 //------------------------------------------------------------
 CONTROLBAR:WordofPowerSauron09v2
-"Word of Power [&B]"
+"Mots de pouvoirs [&B]"
 END
 CONTROLBAR:ToolTipWordofPowerSauron09v2
-"Sends out a shockwave that kills surrounding enemies \n Left click to activate"
+"Envoie une onde de choc qui tue tous les ennemies proches.\n Click droit pour activer."
 END
 //------------------------------------------------------------
 CONTROLBAR:GaladrielWordOfPower09v2
 "Nenya [&B]"
 END
 CONTROLBAR:ToolTipGaladrielWordOfPower09v2
-"Requiert : niveau 10 \n Nenya \Sends out a shockwave that destroys surrounding enemies \n Left click to activate"
+"Requiert : niveau 10 \n Nenya.\Envoie une onde de choc qui tue tous les ennemies proches.\n Click droit pour activer."
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
-"&Ring Of Power"
+"Anneau de pouvoirs"
 END
 CONTROLBAR:ToolTipRingOfPower09v2
-"Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
+"Sauron crée un afflux d'ombre et de flamme qui inflige des dégâts aux énnemies proches.\n Click droit pour activer."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAthelasAragorn09v2
-"Heal 1000 health points from nearby Heroes. \n Left click to activate"
+"Soigne les héros proches de 1000 points de vie.\nClick droit pour activer."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to experience gaining \n Provides resistance to fear and terror \n Lasts 12 seconds \n Left click to activate"
+"Soigne les unités et héros proches de 750 points de vie.\n Les hordes et monstres proches gagnent un bonus de +15% points de vie et +25% d'expériences.\n Donne un bonus de résistance à la peur et à la terreur.\nDure 12 secondes.\nClick droit pour activer."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Reveals an area of the map \n Provides +27.5% vision reveal range to any allied unit for 25 second. \n Doesn't affect heroes. \n Clic gauche sur l'icône puis clic gauche sur la cible"
+"Révèle une zone de la carte.\nDonne un bonus de +27.5% de révélation de vision a toute les unités pendant 25 secondes.\nN'affecte pas les héros.\nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
-"King's Favor [&C]"
+"Faveur du roi [&C]"
 END
 CONTROLBAR:ToolTipKingsFavorDain09v2
-"Requiert : niveau 6 \n Targeted units gain experience \n Left click icon then left click on target units"
+"Requiert : niveau 6\n Les unités sélectionner gagnent de l'éxpériences.\n Click gauche sur l'icone puis click gauche sur les unités."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSauronsFiresOfDoom09v2
-"Calls down many molten rocks in an area around Sauron, \n Left click icon starts the channeling \n Does not hurt allies"
+"Invoque une pluie de pierres en fusion dans la zone autour de Sauron.\n Ne blaisse pas les unités alliés.\n Click gauche pour commencer l'invocation."
 END
 //------------------------------------------------------------
 
@@ -594,7 +598,7 @@ End
 
 
 
-// Map.Strings	-----	2019
+// Maps.Strings	-----	2019
 
  
 
@@ -621,6 +625,13 @@ END
 Map:mapmpnothing/Desc
 "nothing"
 END
+//------------------------------------------------------------
+Map:mapETlossarnach
+"Lossarnach" 
+End
+Map:mapETlossarnach/Desc
+"Lossarnach, also named Vale of Flowers, was a fertile region and fiefdom in the Southern Gondor. Located southwest of Minas Tirith and directly east of Lebennin, it was populated by many refugees from Ithilien and Osgiliath. \n Map by Ecthelion"
+End
 //------------------------------------------------------------
 Map:mapETgrassland
 "Grasslands"
