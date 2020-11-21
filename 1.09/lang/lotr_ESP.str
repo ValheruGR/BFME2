@@ -80,10 +80,10 @@ CONTROLBAR:TooltipBladeMaster09v2
 END
 //------------------------------------------------------------
 UPGRADE:AutohealUpgradeAdvanced09v2
-"Autocuración"
+"Autocuración mejorada"
 END
 UPGRADE:AutohealUpgradeBasic09v2
-"Autocuración mejorada"
+"Autocuración"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
@@ -146,7 +146,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Crea una zona frondosa.\n Ls unidades aliadas reciben +35% a la armadura, \n +25% al daño y consiguen experiencia un 25% más rápido. \n Se incrementa la disminución de velocidad por pisoteo de la caballería enemiga en un +250%. \n Modificador tipo 'HECHIZO único'. \n Barre los modificadores tipo HECHIZO de los propios aliados. \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
+"Crea una zona frondosa cuyo centro crea un escudo protectivo \n contra los conjuros Tierra Mancillada y Bosque Humano del enemigo. \n Ls unidades aliadas reciben +35% a la armadura, \n +25% al daño y consiguen experiencia un 25% más rápido. \n Modificador tipo 'HECHIZO único'. \n Barre los modificadores tipo HECHIZO de los propios aliados. \n Se incrementa la disminución de velocidad por pisoteo de la caballería enemiga en un +250%. \n Modificador tipo 'HECHIZO único'. \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
 END
 CONTROLBAR:MenWood09v2
 "Bosque humano"
@@ -218,7 +218,7 @@ CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Los aliados cercanos al troll con tambor ganan \n +35% a armadura y +25% experiencia. \n Todos los trolls cercanos ganan \n +15% armadura +15% experiencia y se auto-curan más rápido. \n Modificador tipo 'BUFF de armadura'. \n Capacidad pasiva."
+"Los aliados cercanos al troll con tambor ganan \n +35% a armadura y +25% experiencia. \n Los trolls cercanos ganan \n +15% armadura +15% experiencia y se auto-curan más rápido. \n Modificador tipo 'BUFF de armadura'. \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
@@ -293,7 +293,7 @@ CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Requisito: Nivel 4. \n Los aliados cercanos ganan \n +25% a la armadura y 25% más de experiencia. \n Modificador tipo 'HECHIZO de armadura'. \n Los trolls de las cavernas cercanos ganan experience 25% más rápido. \n Capacidad pasiva."
+"Requisito: Nivel 4. \n Los aliados cercanos ganan \n +25% a la armadura y 25% más de experiencia. \n Los trolls cercanos ganan experience 25% más rápido. \n Modificador tipo 'HECHIZO de armadura'.  \n Capacidad pasiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
@@ -373,14 +373,16 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Requisito: Nivel 3 \n Se disfraza como un rohirrim normal, usando sus armas y luchando como una de ellos. \n Eowyn ataca mas lento pero hace daño en area. \n Cancela el bonus Doncella Guerrera. \n Haz clic con el botón izquierdo para activarlo."
+"Requisito: Nivel 3 \n Se disfraza como un rohirrim normal, usando sus armas y luchando como una de ellos. \n Eowyn ataca mas lento pero hace daño en area. \n Haz clic con el botón izquierdo para activarlo."
 END
 CONTROLBAR:ToolTipSmite09v2
 "Poderoso ataque a distancia contra un objetivo. \n Bonificación contra heroes. \n Especialmente poderoso contra bestias voladoras de Mordor. \n\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Requisito: Nivel 5 \n Eowyn recibe +35% a la armadura. \n Reduce la disminución de velocidad por pisoteo de Rohirrim amigos \n Cancela el Disfraz. \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 5 \n Eowyn recibe +35% a la armadura. \n Reduce la disminución de velocidad por pisoteo de Rohirrim amigos. \n Para activarlo, haz clic con el botón izquierdo."
 END
+//	\n Cancela el bonus Doncella Guerrera.
+//	\n Cancela el Disfraz.
 //------------------------------------------------------------
 CONTROLBAR:TooltipSunflare09v2
 "Convoca un ardiente rayo de luz solar que asola el campo de batalla y daña a enemigos y aliados por igual. \n Efectivo contra héroes débiles \n Anula la Lluvia Paralizadora y la Oscuridad. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
@@ -596,7 +598,7 @@ End
 
 
 
-// Map.Strings	-----	2019
+// Maps.Strings	-----	2019
 
  
 
@@ -623,6 +625,13 @@ END
 Map:mapmpnothing/Desc
 "nothing"
 END
+//------------------------------------------------------------
+Map:mapETlossarnach
+"Lossarnach" 
+End
+Map:mapETlossarnach/Desc
+"Lossarnach, also named Vale of Flowers, was a fertile region and fiefdom in the Southern Gondor. Located southwest of Minas Tirith and directly east of Lebennin, it was populated by many refugees from Ithilien and Osgiliath. \n Map by Ecthelion"
+End
 //------------------------------------------------------------
 Map:mapETgrassland
 "Grasslands"
