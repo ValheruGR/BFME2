@@ -25,25 +25,25 @@
 	
 	
 	//-----------------------------------------------------------------------------
-			//USER_68	// GloriousCharge. Simple anti multi fx.
-			//USER_69	// DarknessSparkle
-			//USER_74	// BasicLeadership:HighTierHero
-			//USER_73	// Mighyrage
-			//USER_72	// Doubt
-			//USER_71	// BasicLeadership:StackyArmor
-			//USER_70	// BasicLeadership:StackyDamage
-			;//USER_67	// Posible Horde Bonus. Nothing active currently.
-			//USER_64	// IsengardDevasation/GloinStun
-			//USER_63	// ElrondFarsightSparkle
-			//USER_62	// ElronElvenGrace modifier
-			//USER_65	// ElronElvenGrace heal
-			//USER_66	// EvilHeal particles
+			//USER_68	// Draw_GloriousChargeEffect
+			//USER_69	// Draw_DarknessEffect
+			//USER_74	// Draw_HighTierHeroLeadershipEffect
+			//USER_73	// Draw_MightRageEffect
+			//USER_72	// Draw_DoubtEffect
+			//USER_71	// Draw_ArmorStackLeadershipEffect
+			//USER_70	// Draw_DamageStackLeadershipEffect
+			;//USER_67	// Draw_HordeBonus
+			//USER_64	// Draw_DevastationParalyzeEffect
+			//USER_63	// Draw_ElrondFarsightEffect
+			//USER_62	// Draw_ElrondElvenGraceBonusEffect
+			//USER_65	// Draw_ElrondElvenGraceHealEffect
+			//USER_66	// Draw_EvilHealEffect
+			//USER_61	// Draw_ElvenWoodEffect
 	//-----------------------------------------------------------------------------
-	;;-;;	// BasicLeadership:HighTierHero
-	//-//	This is untouched but now multiple heroes won't stack the FX's causing lag.
-		Draw = W3DScriptedModelDraw Draw_LeadershipEffect
+ 	//-//	This is untouched but now multiple heroes won't stack the FX's causing lag.
+		Draw = W3DScriptedModelDraw Draw_HighTierHeroLeadershipEffect
             ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
+			ModelConditionState = NONE
 				Model = None
 			End
 			AnimationState = USER_74 STUNNED_FLAILING
@@ -59,11 +59,10 @@
  			End
         End
 	//-----------------------------------------------------------------------------
-	;;-;;	//StackyArmorLeadership
-	//-//	This is designed to be similrar to ElvenWood Nugget, slightly more green rather than gold.
-		Draw = W3DScriptedModelDraw Draw_GenericStackArmorEffect
+ 	//-//	This is designed to be similrar to ElvenWood Nugget, slightly more green rather than gold.
+		Draw = W3DScriptedModelDraw Draw_ArmorStackLeadershipEffect
             ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
+			ModelConditionState = NONE
 				Model = None
 			End
 			AnimationState = USER_71 STUNNED_FLAILING
@@ -79,11 +78,10 @@
  			End
         End
 	//-----------------------------------------------------------------------------
-	;;-;;	//StackyDamageLeadership
-	//-//	This is designed to be similrar to RallyingCall Nugget, slightly more green rather than gold.
-		Draw = W3DScriptedModelDraw Draw_GenericStackDamageEffect
+ 	//-//	This is designed to be similrar to RallyingCall Nugget, slightly more green rather than gold.
+		Draw = W3DScriptedModelDraw Draw_DamageStackLeadershipEffect
             ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
+			ModelConditionState = NONE
 				Model = None
 			End
 			AnimationState = USER_70 STUNNED_FLAILING
@@ -99,11 +97,10 @@
  			End
         End
 	//-----------------------------------------------------------------------------
-	;;-;;	// Mighyrage
-	//-//	From five laggy particles to only none that creates the texture of the original nugget.
-		Draw = W3DScriptedModelDraw Draw_MightRage
+ 	//-//	From five laggy particles to only none that creates the texture of the original nugget.
+		Draw = W3DScriptedModelDraw Draw_MightRageEffect
             ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
+			ModelConditionState = NONE
 				Model = None
 			End
 			AnimationState = USER_73 STUNNED_FLAILING
@@ -119,11 +116,10 @@
   			End
         End
 	//-----------------------------------------------------------------------------
-	;;-;;	//DarknessSparkle
-	//-//	This is a reshaped Twinkle, similar to High Tier Hero.
+ 	//-//	This is a reshaped Twinkle, similar to High Tier Hero.
 		Draw = W3DScriptedModelDraw Draw_DarknessEffect
             ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
+			ModelConditionState = NONE
 				Model = None
 			End
 			AnimationState = USER_69 STUNNED_FLAILING
@@ -139,11 +135,10 @@
   			End
         End
 	//-----------------------------------------------------------------------------
-	;;-;;	// Doubt
-	//-//	This ons is actually pretty innecesary as it's a generic debuff modifier.
-		Draw = W3DScriptedModelDraw Draw_WitchKingDebuff
+ 	//-//	This ons is actually pretty innecesary as it's a generic debuff modifier.
+		Draw = W3DScriptedModelDraw Draw_DoubtEffect
             ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
+			ModelConditionState = NONE
 				Model = None
 			End
 			AnimationState = USER_72 STUNNED_FLAILING
@@ -163,7 +158,7 @@
 	//-//	This will stop the FX stacking at least.
 		Draw = W3DScriptedModelDraw Draw_GloriousChargeEffect
 			ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
+			ModelConditionState = NONE
 				Model = None
 			End
 			AnimationState = USER_68 STUNNED_FLAILING
@@ -181,9 +176,9 @@
 	;;-;;	//-----------------------------------------------------------------------------
 	;;-;;	//EvilHeal
 	;;-;;	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
-  	;;-;;	Draw = W3DScriptedModelDraw Draw_EvilHeal
+  	;;-;;	Draw = W3DScriptedModelDraw Draw_EvilHealEffect
 	;;-;;		ParticlesAttachedToAnimatedBones = yes
-	;;-;;		ModelConditionState 			= NONE
+	;;-;;		ModelConditionState = NONE
 	;;-;;			Model = None
 	;;-;;		End
 	;;-;;		AnimationState = USER_66 STUNNED_FLAILING
@@ -205,9 +200,9 @@
 	;;-;;	//-----------------------------------------------------------------------------
 	;;-;;	//EvilHeal
 	;;-;;	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
-  	;;-;;	Draw = W3DScriptedModelDraw Draw_EvilHeal
+  	;;-;;	Draw = W3DScriptedModelDraw Draw_EvilHealEffect
 	;;-;;		ParticlesAttachedToAnimatedBones = yes
-	;;-;;		ModelConditionState 			= NONE
+	;;-;;		ModelConditionState = NONE
 	;;-;;			Model = None
 	;;-;;		End
 	;;-;;		AnimationState = USER_66 STUNNED_FLAILING
@@ -226,18 +221,22 @@
 	//-----------------------------------------------------------------------------
 	//EvilHeal
 	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
-		Draw = W3DScriptedModelDraw Draw_EvilHeal
+		Draw = W3DScriptedModelDraw Draw_EvilHealEffect
 			ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
+			ModelConditionState = NONE
 				Model = None
 			End
-			AnimationState = USER_66 STUNNED_FLAILING
+			ModelConditionState = USER_66 STUNNED_FLAILING
+				Model = None
 			End
-			AnimationState = USER_66 PASSENGER
+			ModelConditionState = USER_66 PASSENGER
+				Model = None
 			End
-			AnimationState = USER_66 DYING
+			ModelConditionState = USER_66 DYING
+				Model = None
 			End
-			AnimationState = USER_66 BURNINGDEATH
+			ModelConditionState = USER_66 BURNINGDEATH
+				Model = None
 			End
 			ModelConditionState = USER_66
 				Model = exmordorheal
@@ -247,9 +246,9 @@
 	//-----------------------------------------------------------------------------
 	//Elrond ElvenGrace
 	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
-  		Draw = W3DScriptedModelDraw Draw_ElrondElvenGraceHeal
+  		Draw = W3DScriptedModelDraw Draw_ElrondElvenGraceHealEffect
 			ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
+			ModelConditionState = NONE
 				Model = None
 			End
 			AnimationState = USER_65 STUNNED_FLAILING
@@ -267,9 +266,9 @@
 	//-----------------------------------------------------------------------------
 	//Elrond ElvenGrace
 	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
-  		Draw = W3DScriptedModelDraw Draw_ElrondElvenGraceBonus
+  		Draw = W3DScriptedModelDraw Draw_ElrondElvenGraceBonusEffect
 			ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
+			ModelConditionState = NONE
 				Model = None
 			End
 			AnimationState = USER_62 STUNNED_FLAILING
@@ -287,9 +286,9 @@
 	//-----------------------------------------------------------------------------
 	//Devastation
 	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
-  		Draw = W3DScriptedModelDraw Draw_DevastationParalyze
+  		Draw = W3DScriptedModelDraw Draw_DevastationParalyzeEffect
 			ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
+			ModelConditionState = NONE
 				Model = None
 			End
 			AnimationState = USER_64 STUNNED_FLAILING
@@ -307,9 +306,9 @@
 	//-----------------------------------------------------------------------------
 	//ElrondFarsightSparkle
 	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
-  		Draw = W3DScriptedModelDraw Draw_ElrondFarsight
+  		Draw = W3DScriptedModelDraw Draw_ElrondFarsightEffect
 			ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState 			= NONE
+			ModelConditionState = NONE
 				Model = None
 			End
 			AnimationState = USER_63 STUNNED_FLAILING
@@ -323,6 +322,30 @@
 			AnimationState = USER_63
  				ParticleSysBone		= NONE HighLevelLDElrondShroud_NoSL FollowBone:Yes
  			End
+		End
+	//-----------------------------------------------------------------------------
+	//ElvenWoodUnique
+	//-//	solves multi fx stacking. solves particles showing up on dead corpses. allows creating different FX's per specific object. For example mumakil.
+  		Draw = W3DScriptedModelDraw Draw_ElvenWoodEffect
+			ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState = NONE
+				Model = None
+			End
+			ModelConditionState = USER_61 STUNNED_FLAILING
+				Model = None
+  			End
+			ModelConditionState = USER_61 PASSENGER
+				Model = None
+  			End
+			ModelConditionState = USER_61 DYING
+				Model = None
+			End
+			ModelConditionState = USER_61 BURNINGDEATH
+				Model = None
+			End
+			ModelConditionState = USER_61
+				Model = explaceholder2
+  			End
 		End
 	//-----------------------------------------------------------------------------
 		
