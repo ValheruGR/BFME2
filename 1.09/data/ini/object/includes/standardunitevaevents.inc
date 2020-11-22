@@ -344,7 +344,7 @@
 				Model = None
 			End
 			ModelConditionState = USER_61
-				Model = explaceholder2
+				Model = explaceholder1 ;; explaceholder2
   			End
 		End
 	//-----------------------------------------------------------------------------
