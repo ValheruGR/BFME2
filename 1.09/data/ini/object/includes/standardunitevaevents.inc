@@ -344,7 +344,9 @@
 				Model = None
 			End
 			ModelConditionState = USER_61
-				Model = explaceholder1 ;; explaceholder2
+				;Model = explaceholder1 ;; explaceholder2
+				Model = None
+ 				ParticleSysBone		= NONE UniqueArmorPseudoNugget09v2 FollowBone:Yes
   			End
 		End
 	//-----------------------------------------------------------------------------
