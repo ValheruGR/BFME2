@@ -102,7 +102,7 @@ TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Mejora de liderazgo de fortaleza comprada: \n Las unidades cercanas ganan +25% al daño y consiguen experiencia un +25% más rápido. \n Modificador tipo 'HECHIZO de daño'"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Fuerte contra piqueros \n Bonificación por horda: \n Los trasgos agrupados en grupos de al menos 100\n ganan +33% al daño y +25% velocidad. \n Modificador tipo 'HECHIZO único' "
+"Fuerte contra piqueros \n Bonificación por horda: \n Los trasgos agrupados en grupos de al menos 100\n ganan +33% al daño y +25% velocidad. \n Modificador tipo 'FORMACION única' "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Fuerte contra arqueros y \n edificios de construcción de unidades. \n Los Lanceros de Rivendell ganan +7% velocidad en el nivel level 5."
@@ -111,10 +111,10 @@ CONTROLBAR:ToolTipGloriousCharge09v2
 "Requisito: Nivel 7 \n Théoden y las tropas de caballería cercanas reciben +99% armadura, +25% al daño y las vuelve inmune a la desaceleración por pisoteo. \n La caballería tambien se vuelve inmune al miedo. \n Modificador tipo 'IRRESISTIBLE único'. \n Théoden debe estar montado para usar esta capacidad. \n Para activarlo, haz clic con el botón izquierdo."
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Fuerte contra infantería\nResistant to trample\n Bonificación por horda: \n Los trasgos agrupados en grupos de al menos 100\n ganan +33% al daño y +20% velocidad. \n Modificador tipo 'HECHIZO único' "
+"Fuerte contra infantería\nResistant to trample\n Bonificación por horda: \n Los trasgos agrupados en grupos de al menos 100\n ganan +33% al daño y +20% velocidad. \n Modificador tipo 'FORMACION única' "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Fuerte contra infantería\n Bonificación por horda: \n Los orcos agrupados en grupos de al menos 70\n ganan +33% al daño y +15% velocidad. \n Modificador tipo 'HECHIZO único' "
+"Fuerte contra infantería\n Bonificación por horda: \n Los orcos agrupados en grupos de al menos 70\n ganan +33% al daño y +15% velocidad. \n Modificador tipo 'FORMACION única' "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -199,7 +199,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Reduce el coste de revivir héroes en un 5%. \n Reduce el tiempo de revivir héroes en un 15%. \n Mejora a cualquier Torre Solitaria convocada."
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Fuerte contra edificios generadores de recursos. \n Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +20% velocidad. \n Modificador tipo 'HECHIZO único' "
+"Fuerte contra edificios generadores de recursos. \n Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +20% velocidad. \n Modificador tipo 'FORMACION única' "
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Añade puntos de golpe adicionales a la fortaleza. \n Reduce el tiempo de revivir heroes en un 20%. \n Mejora a cualquier Torre Solitaria convocada."

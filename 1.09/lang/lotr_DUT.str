@@ -102,7 +102,7 @@ TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Eenheden in de buurt van het fort\n krijgen +25% schade,\nen verdienen ervaring 25% sneller \n Modifier Type: 'Damage SPELL'"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Sterk tegen speervechters\n Horde Bonus: \n Aardmannen in groep van minstens 100 \n krijgen +33% schade +25% snelheid. \n Modifier Type: 'Unique SPELL' "
+"Sterk tegen speervechters\n Horde Bonus: \n Aardmannen in groep van minstens 100 \n krijgen +33% schade +25% snelheid. \n Modifier Type: 'Unique FORMATION' "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Sterk tegen boogschutters en \n Gebouwen die troepen produceren. \n Rivendell Lancers krijgen +7% snelheid op level 5."
@@ -111,10 +111,10 @@ CONTROLBAR:ToolTipGloriousCharge09v2
 "Nodig: niveau 7 \n Théoden en cavalerie in de buurt krijgen +99% pantser, \n +25% schade en wordt immuun tegen vertraging door vertrappelen. \n Gedurende deze tijd wordt cavalerie ook imuun tegen angst\n Modifier Type: 'Unique IRRESISTIBLE' \n Théoden moet te paard zijn om de kracht te gebruiken \n Klik met links om te activeren"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Sterk tegen Infantry\nResistent tegen vertrappelen\n Horde Bonus: \n Aardmannen in groep van minstens 100 \n krijgen +33% schade +20% snelheid. \n Modifier Type: 'Unique SPELL' "
+"Sterk tegen Infantry\nResistent tegen vertrappelen\n Horde Bonus: \n Aardmannen in groep van minstens 100 \n krijgen +33% schade +20% snelheid. \n Modifier Type: 'Unique FORMATION' "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Sterk tegen Infantry\n Horde Bonus: \n Orcs in groep van minstens 70\n krijgen +33% schade en +15% snelheid. \n Modifier Type: 'Unique SPELL' "
+"Sterk tegen Infantry\n Horde Bonus: \n Orcs in groep van minstens 70\n krijgen +33% schade en +15% snelheid. \n Modifier Type: 'Unique FORMATION' "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -199,7 +199,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Geneest alle bondgenoten in de buurt\nHelden tot leven wekken wordt 5% goedkoper\nHelden tot leven wekken gaat 15% sneller. \n\n Upgrade opgeroepen Eenzame Torens"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Sterk tegen gebouwen die grondstoffen genereren \n Horde Bonus: \n Orcs in aantallen van minstens 70\n krijgen +33% schade +20% snelheid. \n Modifier Type: 'Unique SPELL' "
+"Sterk tegen gebouwen die grondstoffen genereren \n Horde Bonus: \n Orcs in aantallen van minstens 70\n krijgen +33% schade +20% snelheid. \n Modifier Type: 'Unique FORMATION' "
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Geneest bondgenoten bij het fort en in de hallen\nExtra weerstand voor fort. \n\n Upgrade opgeroepen Eenzame Torens."
