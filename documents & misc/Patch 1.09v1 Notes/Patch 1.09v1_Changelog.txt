@@ -2,24 +2,11 @@
 			;;-----------------------------------------------------------------------------------------------;;
 					;--------------------------------------------------------------------;
 					
-					
-					
-					
-					
-					
-											THIS IS NORMAL OLD 1.09 CHANGELOG
-											WE HAVE BEEN PLAYING SINCE 2017
-											
-											
-											
-											
-											
-											
-											
-											
+					PATCH 1.09 V1 CHANGELOG
+					RELEASED IN MARCH OF 2017.
+
 			;;-----------------------------------------------------------------------------------------------;;
 					;--------------------------------------------------------------------;
-
 
 						Log notes; 
 			*"from" means from 1.08. "Originally" means 1.06/2.06. Aswell, "restored" implies values from 1.06/1.06.
@@ -1223,10 +1210,10 @@ Does not stun.. Now AI will use lurtz cripple on flyers.
 
 
  				
-				;;-------------------------------------------------------------------------------------;;
+ 				;;-------------------------------------------------------------------------------------;;
 				;;-------------------# Global: Spellbooks, Units, Structures, Neutrals, Misc#----------------------;;
 				;;-------------------------------------------------------------------------------------;;
-				
+
 				
 				
 
@@ -1350,11 +1337,11 @@ Does not stun.. Now AI will use lurtz cripple on flyers.
 (From Archers gaining both PIERCE/FLAME damage amounts unequally. Some archers were gaining more PIERCE than FLAME, others more FLAME than PIERCE)
 						;--example---;
 							Now
-		GoblinArcher unupgraded	  = 26 PIERCE damage.
-		GoblinArcher + fire arrow = 26 PIERCE damage (+15% bonus to units exept cavalry) + 20 FLAME damage.
+GoblinArcher unupgraded	  = 26 PIERCE damage.
+GoblinArcher + fire arrow = 26 PIERCE damage (+15% bonus to units exept cavalry) + 20 FLAME damage.
 							Before
-		GoblinArcher unupgraded	  = 28 PIERCE damage. (yeah we also nerfed them)
-		GoblinArcher + fire arrow = 20 PIERCE damage + 30 FLAME damage.
+GoblinArcher unupgraded	  = 28 PIERCE damage. (yeah we also nerfed them)
+GoblinArcher + fire arrow = 20 PIERCE damage + 30 FLAME damage.
 						;------------;
 ;----------------------------------------------------------------;;
 -Fixed Outer Wall Hub system (builder-built wall system). Now Wall Hub upgrade (from wall segments) can no longer build outside the range of the main Outer Wall Hub (builder-built). If the main Wall Hub is destroyed, player has to build one again.
@@ -1831,231 +1818,4 @@ Does not stun.. Now AI will use lurtz cripple on flyers.
 -Good Blue Mountains; fixed drogoth balance in Blue Mountains. Vanilla rebalance was affecting nazguls, not drogoth. (Due weapon renames on 08)
 -Good Campaign; fixed errors in the spell book tree. //LogNote: e.g. powers being inaccessible due wrong prerequisites, or not requiring prerequisites at all.
 -Evil Campaign; Untamed Allegiance convert creeps ability restored. Now it's possible to complete all secondary missions in Fornost.
-
-
-
-
-			;;-----------------------------------------------------------------------------------------------;;
-					;--------------------------------------------------------------------;
-					
-					
-					
-					
-					
-					
-													1.09_v1_Cosmetics.Changelog
-													COSMETIC, VISUAL, OTHER STUFF.
-											
-											
-											
-											
-											
-											
-											
-											
-			;;-----------------------------------------------------------------------------------------------;;
-					;--------------------------------------------------------------------;
-
-
-
--added HC’s all Ents
-
-added gandy models
--Ents burning death animation lasts 6 seconds from 2.5.
--Gloin now has new icons.
-
-;;----------------------------------------------------------------------------;;
-;;--------------------------------SPECIAL EFFECTS-----------------------------;;
-;;----------------------------------------------------------------------------;;
--Improved Blademaster, Athelas, and Elendil FX
--Grand Harvest now shows new FX on own player farms while active.
--Frezzing rains now correctly shows the drops of water in a high zoom.
--Untamed allegiance now displays a new heal texture. Pretty.
--New devastation FXs. (hit fx, nugget model, 
--Palantir speed bonus now displays a leadership nugget on units.
--Farsight range bonus now displays a leadership nugget on units.
--Mighty Rage damage/experience bonus now displays a leadership nugget on units.
--Hobbit rock color now brown from blue.
--Removed men wood around fortress.
--New Legolas knife fighter FX.
--New Gimli Slayer FX.
--New Aragorn Blademaster FX.
--New Glorfindel Blade of Purity FX.
--Men Lone Tower Armor Upgrade now shows a new texture
--Dwarf Lone Tower Armor Upgrade now shows a new texture
--added TB FX
-added saruman staff fx
-added TB LD FX
--Reworked Elven Mist FX
--Added a new Mist Sound
--Added new Ambient Fortress FX
--Added 4 new Summon Hobbit’s sounds
--Gimli Slayer FX reworked.
-
-;-----------------------------create-a-hero---------------------------;
--Custom heroes now gain the CE star object if the player is Goblin, Isengard or Mordor.
-
-
-;;----------------------------------------------------------------------------;;
-;;-------------------------------MODELS or RETEXTURING------------------------;;
-;;----------------------------------------------------------------------------;;
--Added new Fortress Floor for: Isengard, Mordor, Goblins, Men and Goblins.
--Rohan Rohirrim now displays their shields on level 7.
--Undermine will now spawn in a variety of new textures
--Mountain Trolls now spawn with one of 2 randomly selected textures
--Attack trolls now spawn with one of 2 randomly selected textures
--Gondor knights now displays their shields on level 7. 
--All eagles will randomize between 3 different textures.
-added cave troll skins
-added dwarf fort banner-now red.
-added wagons
--Treebeard Model now slightly larger
--BANNERS for banner carrier units.
--added willow ent
--added dwarf rings
--All eagles will randomize between 3 different textures.
--Added Isengard buildings floors.
-
-
-
-;;----------------------------------------------------------------------------;;
-;;---------------------------2 months of cosmetic changelog-------------------;;
-;;----------------------------------------------------------------------------;;
-;//;means it is already mentioned on /SPECIAL EFFECTS or /MODELS or RETEXTURING.
-
-;6/04/15
--Added Gob builder.
--Added saruman Hd skin.
--Added saruman spawn fx.
--Added WK spawn super special effect
-
-;26/03/15
--Added elendil shit.
--Added gandalf icons.
--Drogoth icons
--Glorfindel icons-
--Haldir icons
--Legolas icons
-
-;18/03/15
-;//;-Finally added the texture of devastation
-;//;-Added UA cavalry tamplate
-;//;-Added furnace bib
-
-;14/03/15
-;//;-Fixed Arwen selection box.
-
-;11/03/15
--Added Thranduil model
-;//;-Added Palantir nugget
-;//;-Added devastation nugget
-;//;-Added devastation cast point
-
-;04/03/15
--Added Witchking on foot textures.
--Added Drogoth texture at level 5.
-
-;03/03/15
-;//;-Added Untamed allegiance heal nugget.
-
-;02/2/15
--Added Arwen horse.
--Added Summoned Dragon textures. Size increased by 20% without reason.
--Added Darkness clouds in a independent and only visual behavior, triggered automatically.
-
-;22/2/15
--Added textures of citadel with its own towers.
-
-;18/2/15
--Added Silverthorn Arrow Thrail
-
-;17/2/2015
-;//;-Added Eagle skins
-;//;-Added Isengard buildings floors.
-
-;16/2/2015
--Added Dwarven porter
-;//;-Added Elven farsight shits.
-
-;9/2/2015
--Added Isengard, Goblin, Elven, Men and Mordor floors.
--Added elven fortress particles
--Added goblin fortress particles.
--Added isengard fortress particles.
--Added men fortress particles.
--Added mordor fortress particles.
--Added the loading screen
-
-;-/-/2014
--Added Saruman level 10 power
--Added Gimli spawn
--Added certain new units sounds from your voice.ini.
-
-;;----------------------------------------------------------------------------;;
-;;--------------------------------Ecthelion changes---------------------------;;
-;;----------------------------------------------------------------------------;;
-;;;;;;;;DOESN'T MATTER CUZ REMOVED;;;;;;;;;;;-Aragorn voice die sound range reduced.
-;;;;;;;;DOESN'T MATTER CUZ REMOVED;;;;;;;;;;;-Gandalf voice die sound range reduced.
--Blackrider death voice doesn't sound in the whole map anymore.
--Changed the heavy armor of axe thrower.
--Added electric FX for Thranduil dead eye.
--Added new Blademaster hit fx.
--Thranduil Dead eye trigger sound fx is now the CaH Invulnerability spell.
--Dwarven Richness spell FX now blue from orange.
--Summoning ents song FX now has a delay of 5 secs. Volumen 110 from 120.
--Now Galadriel Tornado will get the CE FX if the owner is Elf.
--Now Mumakils, Ents, Giants, Firedrakes, Drogoth, Eagles,  Fellbeasts, Witchking, Treebeard & Shelob show auto healing FX whilst applicable
--All banner carriers now win the CE color FX when the hordes rank to level 5. (and what happens with the bannercarrier models of HIGH LOD?)
--Now barrage will be blue to dwarf, and red to mordor.
--Now all dwarven catapults, when are upgraded with fire, will shot a mithril projectiles. But, bombard still red.
--Summoned Spiderlings now are 25% bigger.
--Citadel Mighty Catapult projectiles will use the CE model (blue mithril).
--Now hobbits sticks have a new Sound FX. (thanks rotwk comunity :))
--Fixed bug with easterlings and mithlond pikes having no animations when afraid. (from rotwk 2.02)
--Added some sounds when elven fortress has anvil upgrade. (from rotwk 2.02)
-
-
-
-
-
-
-
-
-
-	1.09_v1_Patch 1.09 Credits
-	
-	****************Battle For Middle Earth II Patch 1.09 Credits*************
-
-	Valheru - Lead, Special FX, Sounds, Models, 2D Art, Maps, Coding, Bug Fixing, Balance, Ideas, Rigging
-
-	Ecthelion - Maps, Coding, Bug Fixing, Testing, Balance, Ideas, Beta and Translators Crew Direction
-
-	Arch4ng3l, RanDoMLol, Maka, Apmn - Testing, Balance, Ideas
-
-	Rider Of Rohan - Models, 2D Art, Rigging, HD Textures(as per his HD Pack available on Moddb)
-
-	Mathijs - Models, 2D Art
-
-	Ruudy, Morgul, Valenquetta - Models
-
-	MattTheLegoman, SilverBane - Maps and Reskins
-
-	*And thanks to everyone else involved in the beta testing process, which has took around 2.5 years;
-
-	Fitton, Luigi, Thorin, Niick, Tyrion, Xelenos, StrayHearth, Buk Lau, HungryHorse, YodA, Askarian, GluteMaster, Celebrimdor, Scorpion, Daryl, Casper, Kumail, Lazar, Temptation, Menji, Guerrilla, Coptic, Roxas, 4Justice clan members, Kitty, Derork, Orchist, Orgueil . - Testing
-
-
-***********************************ASSETS**************************************************************
-
-Please do not use assets included in this patch without permission. You can pop a message to Valheru on
-Gamereplays and ask for permission there. He will direct you to whoever created what it is you wish to use.
-Profile is here https://www.gamereplays.org/community/index.php?showuser=50947 
-
-We hope you enjoy the patch, for any assistance you can visit Gamereplays BFMEII Portal 
-https://www.gamereplays.org/battleformiddleearth2/ and also the facebook groups. See you in game!
-
-*******************************************************************************************************
-
-
-
 

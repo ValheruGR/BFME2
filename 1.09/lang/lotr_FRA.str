@@ -102,7 +102,7 @@ TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Amélioration de commandement de la forteresse: \nLes unités proche gagnent +25% de dégâts et gagnent +25% d'éxpériences plus rapidement. \n Modifier Type: 'Damage SPELL'"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Fort contre piquiers \nBonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent \n +33% de dégâts et +25% de vitesse. \n Modifier Type: 'Unique SPELL' "
+"Fort contre piquiers \nBonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent \n +33% de dégâts et +25% de vitesse. \n Modifier Type: 'Unique FORMATION' "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Forts contre la cavalerie,archers et bâtiments de production d'unités.\n Les lanciers Rivendell gagnent +7% de vitesse de déplacement au niveau 5."
@@ -111,10 +111,10 @@ CONTROLBAR:ToolTipGloriousCharge09v2
 "Requiert : niveau 7\nThéoden et les cavaliers proches gagnent 99% d'arumres, +25% de dégâts et sont immunisés au ralentissement lors d'une charge.\nLa cavalerie est immunisé à la peur pendant la durée de l'effet.\nThéoden ne peut utiliser sa capacité que sur sa monture.\n Modifier Type: 'Unique IRRESISTIBLE'.\nClic gauche pour activer"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Fort contre l'infanterie \nRésistants à l'écrasement \n Bonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent +33% de dégâts et +20% de vitesse.\n Modifier Type: 'Unique SPELL'"
+"Fort contre l'infanterie \nRésistants à l'écrasement \n Bonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent +33% de dégâts et +20% de vitesse.\n Modifier Type: 'Unique FORMATION'"
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Fort contre l'infanterie\n Bonus de horde: \n Un rassemblement d'orcs supérieur ou égal à 70 gagnent +33% de dégâts et +15% de vitesse.\n Modifier Type: 'Unique SPELL'"
+"Fort contre l'infanterie\n Bonus de horde: \n Un rassemblement d'orcs supérieur ou égal à 70 gagnent +33% de dégâts et +15% de vitesse.\n Modifier Type: 'Unique FORMATION'"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -199,7 +199,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Soigne tous les alliés proches.\nRenouvelle une unité manquante par bataillon toute les 6.5 secondes.\nRéduit le coût de résurrection des héros de 5%.\nRéduit le temps de résurrection des héros de 15%.\nAméliore la tour solitaire invoquée."
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Fort contre bâtiments de ressources.\n Bonus de horde : \nUn rassemblement d'orcs supérieur ou égal à 70 gagnent +33% de dégâts, +20% de vitesse.\n Modifier Type: 'Unique SPELL'."
+"Fort contre bâtiments de ressources.\n Bonus de horde : \nUn rassemblement d'orcs supérieur ou égal à 70 gagnent +33% de dégâts, +20% de vitesse.\n Modifier Type: 'Unique FORMATION'."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Soigne les alliés proches de la forteresse.\n Renouvelle une unité manquante par bataillon toute les 6.5 secondes.\nRéduit le temps de résurection des héros de 25%.\nAjoute des points de vie à la forteresse.\n Renforce la tour solitaire invoquée."
@@ -44886,7 +44886,7 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
-"Lurtz gagne +100% dégâts et +20% armure\nNe peut être utilisé qu'avec l'épée en main\nClic gauche pour activer"
+"Requiert : niveau 2 \nLurtz gagne +100% dégâts et +20% armure\nNe peut être utilisé qu'avec l'épée en main\nClic gauche pour activer"
 END
 
 CONTROLBAR:ToolTipGBloodHunt
