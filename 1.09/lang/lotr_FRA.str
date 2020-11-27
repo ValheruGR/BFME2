@@ -44886,7 +44886,7 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
-"Lurtz gagne +100% dégâts et +20% armure\nNe peut être utilisé qu'avec l'épée en main\nClic gauche pour activer"
+"Requiert : niveau 2 \nLurtz gagne +100% dégâts et +20% armure\nNe peut être utilisé qu'avec l'épée en main\nClic gauche pour activer"
 END
 
 CONTROLBAR:ToolTipGBloodHunt

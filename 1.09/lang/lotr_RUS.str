@@ -44890,7 +44890,7 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
-"Лурц наносит +100% урона и получает +20% брони. \n Используется только когда выбран меч. \n ЛКМ - применение способности."
+"Требуется уровень 2.\n Лурц наносит +100% урона и получает +20% брони. \n Используется только когда выбран меч. \n ЛКМ - применение способности."
 END
 
 CONTROLBAR:ToolTipGBloodHunt

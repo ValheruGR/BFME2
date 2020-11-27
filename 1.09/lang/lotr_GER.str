@@ -44891,7 +44891,7 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
-"Lurtz verursacht +100% Schaden und erhält +20% Rüstung \n Nur mit gezogenem Schwert verfügbar \n Aktivieren mit Linksklick"
+"Voraussetzung: Stufe 2 \n Lurtz verursacht +100% Schaden und erhält +20% Rüstung \n Nur mit gezogenem Schwert verfügbar \n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:ToolTipGBloodHunt

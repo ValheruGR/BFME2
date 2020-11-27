@@ -44903,7 +44903,7 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
-"Lurtz gana +100% al daño y +20% a la armadura. \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 2 \n Lurtz gana +100% al daño y +20% a la armadura. \n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:ToolTipGBloodHunt
