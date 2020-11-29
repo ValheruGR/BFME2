@@ -24,6 +24,25 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+Color:Cyan09v2
+"Cyan"
+END
+Color:DarkGreen09v2
+"Dark Green"
+END
+Color:GreenLime09v2
+"Green Lime"
+END
+Color:DarkPink09v1
+"Wine"
+END
+Color:White
+"White"
+END
+Color:Grey
+"Grey"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipAxeThrow09v2
 "Ataque a distancia que causa daño con área de efecto. \n Especialmente efectivo contra caballería y unidades aereas. \n El daño causado por el proyectil aumenta en los niveles 4 y 7. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END

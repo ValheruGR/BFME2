@@ -24,6 +24,25 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+Color:Cyan09v2
+"Cyan"
+END
+Color:DarkGreen09v2
+"Dark Green"
+END
+Color:GreenLime09v2
+"Green Lime"
+END
+Color:DarkPink09v1
+"Wine"
+END
+Color:White
+"White"
+END
+Color:Grey
+"Grey"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipAxeThrow09v2
 "Effektiver Fernangriff mit Fl‰chenschaden \nBesonders effektiv gegen Kavallerie und Lufteinheiten \n Ability damage is improved at level 4 and 7 \n Linksklicke auf das Symbol und anschlieﬂend auf das Ziel"
 END

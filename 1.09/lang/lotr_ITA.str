@@ -24,6 +24,25 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+Color:Cyan09v2
+"Cyan"
+END
+Color:DarkGreen09v2
+"Dark Green"
+END
+Color:GreenLime09v2
+"Green Lime"
+END
+Color:DarkPink09v1
+"Wine"
+END
+Color:White
+"White"
+END
+Color:Grey
+"Grey"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipAxeThrow09v2
 "Potente attacco a distanza con danno da impatto.\nMolto efficace contro la cavalleria e le unità volanti. \n Ability damage is improved at level 4 and 7. \nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
 END

@@ -24,6 +24,25 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+Color:Cyan09v2
+"Cyan"
+END
+Color:DarkGreen09v2
+"Dark Green"
+END
+Color:GreenLime09v2
+"Green Lime"
+END
+Color:DarkPink09v1
+"Wine"
+END
+Color:White
+"White"
+END
+Color:Grey
+"Grey"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipAxeThrow09v2
 "Krachtige afstandsaanval met schade in een doelgebied\nZeer effectief tegen cavalerie \n Ability damage is improved at level 4 and 7. \nKlik met links op het icoontje en daarna met links op het doelwit"
 END
