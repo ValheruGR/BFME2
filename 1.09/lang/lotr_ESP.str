@@ -24,8 +24,37 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+Color:Cyan09v2
+"Cyan"
+END
+Color:DarkGreen09v2
+"Dark Green"
+END
+Color:GreenLime09v2
+"Green Lime"
+END
+Color:DarkPink09v1
+"Wine"
+END
+Color:White
+"White"
+END
+Color:Grey
+"Grey"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipAxeThrow09v2
+"Ataque a distancia que causa daño con área de efecto. \n Especialmente efectivo contra caballería y unidades aereas. \n El daño causado por el proyectil aumenta en los niveles 4 y 7. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+END
+CONTROLBAR:ToolTipLeap09v2
+"Requisito: Nivel 2 \n Gimli salta causando daño en una zona. \n El daño en area de la habilidad es mejorado en los niveles 4 y 7. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+END
+TOOLTIP:ToolTipWitchKing09v2
+"El daño en area causado por la maza del Rey Brujo es mejorado en los niveles 5 y 8."
+END
+//------------------------------------------------------------
 CONTROLBAR:GenericMountTooltipDain09v2
-"Requires Level 6  \n Left click to switch between \n mounted and on foot"
+"Requires Level 6 \n Haz clic con el botón izquierdo para\n cambiar entre ir montado o a pie."
 END
 //------------------------------------------------------------
 CONTROLBAR:ShelobWebbing09v2
