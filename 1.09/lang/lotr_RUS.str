@@ -23,6 +23,9 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
+"“ребуетс€ уровень 3 \n ќтр€д получает возможность использовать €д. \n яд некоторое врем€ наносит дополнительный урон врагу."
+END
 //------------------------------------------------------------
 Color:Cyan09v2
 "Cyan"
@@ -116,7 +119,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"“ребуетс€ уровень 10. \n ¬рем€ действи€ способностей вражеских героев в радиусе действи€ перезар€жаетс€ на 80%. \n ўелкните на пиктограмме, затем - на цели."
+"“ребуетс€ уровень 10. \n ¬рем€ действи€ способностей вражеских героев в радиусе действи€ перезар€жаетс€ на 80%. \n Heroes around Witch King suffer -25% damage. \n Modifier Type: Unique 'IRRESISTIBLE' \n ўелкните на пиктограмме, затем - на цели."
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"
