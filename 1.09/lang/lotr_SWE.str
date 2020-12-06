@@ -23,6 +23,9 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
+"Kräver grad 3 \n Uppgraderar denna hord med giftkörtlar \n Gör giftskada på fiender och gör fortlöpande skada"
+END
 //------------------------------------------------------------
 Color:Cyan09v2
 "Cyan"
@@ -47,7 +50,7 @@ CONTROLBAR:ToolTipAxeThrow09v2
 "Powerful ranged attack with splash damage \n Specially effective to cavalry and flyers \n Ability damage is improved at level 4 and 7. \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipLeap09v2
-"Requires Level 2 \n Gimli jumps to a location causing area-effect damage. \n Ability radius of effect is improved at level 4 and 7. \n Left click icon then left click on target area"
+"Kräver grad 2 \n Gimli jumps to a location causing area-effect damage. \n Ability radius of effect is improved at level 4 and 7. \n Left click icon then left click on target area"
 END
 TOOLTIP:ToolTipWitchKing09v2
 "Mace attack radius of effect is improved is improved at level 5 and 8."
@@ -116,7 +119,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Kräver grad 10 \nOffrets alla kraft-tidur töms \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
+"Kräver grad 10 \nOffrets alla kraft-tidur töms \n Heroes around Witch King lose 25% damage. \n Modifier Type: Unique 'IRRESISTIBLE' \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"

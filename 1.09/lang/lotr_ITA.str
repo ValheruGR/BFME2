@@ -23,6 +23,9 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
+"Richiede Livello 3 \n Potenzia quest'orda con Sacche di veleno.\nInfligge danno da veleno ai nemici e provoca danni aggiuntivi nel tempo."
+END
 //------------------------------------------------------------
 Color:Cyan09v2
 "Cyan"
@@ -116,7 +119,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Richiede livello 10.\nI contatori delle abilità speciali del nemico vengono ridotte al 80% della carica.\nClicca con il pulsante sinistro sull'icona e poi sull'area bersaglio."
+"Richiede livello 10.\nI contatori delle abilità speciali del nemico vengono ridotte al 80% della carica.\n Heroes around Witch King lose 25% damage. \n Modifier Type: Unique 'IRRESISTIBLE' \nClicca con il pulsante sinistro sull'icona e poi sull'area bersaglio."
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"
