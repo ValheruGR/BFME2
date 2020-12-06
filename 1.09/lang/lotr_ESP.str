@@ -119,7 +119,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Requisito: Nivel 10 \n Los contadores de las capacidades especiales de los heroes apuntados quedan en 80%. \n Heroes around Witch King lose 25% damage. \n Modifier Type: Unique 'IRRESISTIBLE' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area."
+"Requisito: Nivel 10 \n Los contadores de las capacidades especiales de los heroes apuntados quedan en 80%. \n Los heroes alrededor del Rey Brujo sufren -25% damage. \n Modifier Type: Unique 'IRRESISTIBLE' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area."
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "La producción de recursos de la estructura de recursos seleccionada aumenta en un 350% de manera temporal. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."

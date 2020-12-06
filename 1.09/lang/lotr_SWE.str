@@ -119,7 +119,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Kräver grad 10 \nOffrets alla kraft-tidur töms \n Heroes around Witch King lose 25% damage. \n Modifier Type: Unique 'IRRESISTIBLE' \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
+"Kräver grad 10 \nOffrets alla kraft-tidur töms \n Heroes around Witch King suffer -25% damage. \n Modifier Type: Unique 'IRRESISTIBLE' \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"

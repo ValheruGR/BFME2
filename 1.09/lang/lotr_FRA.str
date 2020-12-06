@@ -119,7 +119,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Requiert : niveau 10 \n Réinitialise dans la zone d'effet, les compteurs de compétences spéciales des héros ennemis de 80%. \n Heroes around Witch King lose 25% damage. \n Modifier Type: Unique 'IRRESISTIBLE' \nClic gauche sur l'icône puis clic gauche sur la zone ciblée."
+"Requiert : niveau 10 \n Réinitialise dans la zone d'effet, les compteurs de compétences spéciales des héros ennemis de 80%. \n Heroes around Witch King suffer -25% damage. \n Modifier Type: Unique 'IRRESISTIBLE' \nClic gauche sur l'icône puis clic gauche sur la zone ciblée."
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "La production de ressources de la structure sélectionnée augmente temporairement de 350% par rapport à la production actuelle. \nClic gauche sur l'icône puis clic gauche sur la structure de production de ressources."
