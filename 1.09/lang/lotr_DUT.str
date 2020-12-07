@@ -178,7 +178,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creëert bosrijk terrein met mooie vogels, koeien, paarden, ... De koeien durven al wel eens kaka te doen dus je moet oppassen waar je loopt.\nAlle bevriende eenheden krijgen +35% pantser, \n +25% schade en verdienen ervaring 25% sneller \n Vijandige cavalerie vertraagd +250% sneller \n Modifier Type: 'Unique SPELL' \n Vernietigd alle andere SPELL effecten van bondgenoten. \n Heeft geen effect op helden \n Klik met links op het icoontje en daarna met links op het doelgebied" 
+"Creëert bosrijk terrein met mooie vogels, koeien, paarden, ... De koeien durven al wel eens kaka te doen dus je moet oppassen waar je loopt.\nAlle bevriende eenheden krijgen +35% pantser, \n +25% schade en verdienen ervaring 25% sneller \n Vijandige cavalerie vertraagd +250% sneller \n Modifier Type: 'Unique SPELL' \n Vernietigd alle andere LEADERSHIP effecten van bondgenoten. \n Heeft geen effect op helden \n Klik met links op het icoontje en daarna met links op het doelgebied" 
 END
 CONTROLBAR:MenWood09v2
 "Menselijk bos"
