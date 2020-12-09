@@ -119,7 +119,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Krever Nivå 10\nValgte fienders tidtakere for spesialevner blir satt til "nettopp brukt". \n Heroes around Witch King suffer -25% damage. \n Modifier Type: Unique 'IRRESISTIBLE' \nVenstreklikk på ikonet, og venstreklikk på målet"
+"Krever Nivå 10\nValgte fienders tidtakere for spesialevner blir satt til "nettopp brukt". \n Enemy heroes around Witch King suffer -25% damage. \n Modifier Type: Unique 'IRRESISTIBLE' \nVenstreklikk på ikonet, og venstreklikk på målet"
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"
