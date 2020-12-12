@@ -376,8 +376,8 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 "Nodig: niveau 9 \n Een extreem sterk schot dat schade aanricht voor 15 seconden. \n Het doelwit is vertraagd tot 70% snelheid. \n Effectief tegen sterke helden. \n Klik links op het icoontje en daarna links op het doelwit"
 END
 //------------------------------------------------------------
-CONTROLBAR:ToolTipSpecialAbilityChargeAttack
-"Nodig: niveau 2 \n Geef Mûmakil opdracht de vijand te vertrappen\nKlik met links op het icoontje en daarna met links op het doelwit"
+CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
+"Nodig: niveau 2 \n Geef Mûmakil opdracht de vijand te vertrappen\n Damage caused is improved at levels 5 and 10.\nKlik met links op het icoontje en daarna met links op het doelwit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
