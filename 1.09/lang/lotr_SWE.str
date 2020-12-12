@@ -178,7 +178,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +250%. \n Modifier Type: 'Unique SPELL' \n Wipes any other LEADERSHIP effect from allies.  \n Left click icon then left click on target area"
+"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +250%. \n Modifier Type: 'Unique SPELL' \n Wipes any other LEADERSHIP and BUFF effect from allies.  \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -376,7 +376,7 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Kräver grad 3 \n Beordra mûmakil att trampa ner fienden \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
+"Kräver grad 2 \n Beordra mûmakil att trampa ner fienden \n Damage caused is improved at levels 5 and 10.\nVänsterklicka på ikonen, vänsterklicka sedan på målet"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
