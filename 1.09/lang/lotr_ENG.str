@@ -23,6 +23,15 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
+"Provides Palantir Vision \n Grants a speed bonus to player units in the map \n Always stack \n Increases Fortress vision range"
+END
+CONTROLBAR:TooltipPalantirVision09v2
+"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: 'Unique LEADERSHIP'. \n Left click icon then left click on target area"
+END
+CONTROLBAR:TooltipIvoryTowerVision
+"Reveals the entire shroud \n Player units in the map gain +10% speed \n Lasts 30 seconds"
+End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Requires Level 3 \n Upgrades this horde with Venom Sacs \n Inflicts poison to enemies causing damage over time"
 END
