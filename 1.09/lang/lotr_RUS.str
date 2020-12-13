@@ -23,6 +23,12 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
+"Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on allies"
+END
+CONTROLBAR:TooltipIvoryTowerVision09v2
+"Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: 'Unique SPELL' \n Lasts 30 seconds"
+End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Требуется уровень 3 \n Отряд получает возможность использовать яд. \n Яд некоторое время наносит дополнительный урон врагу."
 END
@@ -162,7 +168,7 @@ CONTROLBAR:ToolTipDainStubbornPride09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Modifier Type: 'Unique LEADERSHIP'\n \n Passive ability"
+"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Modifier Type: 'Unique SPELL'\n \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
@@ -170,7 +176,7 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: 'Unique IRRESISTIBLE'. \n \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
@@ -273,7 +279,7 @@ CONTROLBAR:ToolTipMenWood09v2
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Союзники рядом со статуей \n наносят +25% урона \n и набирают опыт на 25% быстрее. \n Modifier Type: 'Damage SPELL' \n Allies gain terror and fear resistance. \nУвеличение лимита очков командования на 10."
+"Союзники рядом со статуей \n наносят +25% урона \n и набирают опыт на 25% быстрее. \n Modifier Type: 'Damage SPELL' \n Allies gain terror and fear resistance. \n Modifier Type: 'Unique SPELL'\nУвеличение лимита очков командования на 10."
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
@@ -281,7 +287,7 @@ OBJECT:HeroicStatueDescription09v2
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Союзники рядом со статуей \n получают +35% брони. \n Modifier Type: 'Armor BUFF' \n Allies gain terror and fear resistance. \nУвеличение лимита очков командования на 10."
+"Союзники рядом со статуей \n получают +35% брони. \n Modifier Type: 'Armor BUFF' \n Allies gain terror and fear resistance. \n Modifier Type: 'Unique SPELL'\nУвеличение лимита очков командования на 10."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
@@ -521,7 +527,7 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Исцеляет 750 очков здоровья всем ближайшим войскам и героям. \n Ближайшие войска и монстры получают \n 15%-ую прибавку к запасу здоровья и +25% бонусного опыта. \n Союзные войска становятся неуязвимы к страху и ужасу. \n Длительность: 12 секунд. \n ЛКМ - применение способности."
+"Исцеляет 750 очков здоровья всем ближайшим войскам и героям. \n Ближайшие войска и монстры получают \n 15%-ую прибавку к запасу здоровья и +25% бонусного опыта. \n Союзные войска становятся неуязвимы к страху и ужасу. \n Modifier Type: Unique 'IRRESISTIBLE' \n Длительность: 12 секунд. \n ЛКМ - применение способности."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
 "Указанный участок карты становится доступен для обзора. \n Даёт 27,5%-ый бонус к обзору всем союзным войскам на 25 секунд. \n Не влияет на героев. \n  Щелкните на пиктограмме, затем - на указанном участке местности."
@@ -594,7 +600,7 @@ CONTROLBAR:Fire_pit
 "Костер. (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Костер, исцеляющий	союзников поблизости. \n Воскрешает одного убитого в отряде каждые 5 секунд. \n Союзники получают +5% брони. \n Всегда накапливается. \n Обнаруживает скрытых врагов."
+"Костер, исцеляющий	союзников поблизости. \n Воскрешает одного убитого в отряде каждые 5 секунд. \n Союзники получают +5% брони. \n Всегда накапливается. \n Modifier Type: Unique 'IRRESISTIBLE'\n Обнаруживает скрытых врагов."
 END
 CONTROLBAR:FireWorks
 "Фейерверки / Поджечь. [&V]"

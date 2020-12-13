@@ -23,6 +23,12 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
+"Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on allies"
+END
+CONTROLBAR:TooltipIvoryTowerVision09v2
+"Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: 'Unique SPELL' \n Lasts 30 seconds"
+End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Nodig: niveau 3 \n Geeft deze troep de upgrade gifzakken\nVergiftigt vijanden en veroorzaakt langere tijd schade"
 END
@@ -162,7 +168,7 @@ CONTROLBAR:ToolTipDainStubbornPride09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Enten van bondgenoten in de buurt van Boombaard krijgen \n +25% pantser, +10% snelheid, \n  +20% aanvalsbereik en +25% ervaring. \n Modifier Type: 'Unique LEADERSHIP' \n\n Passieve kracht"
+"Enten van bondgenoten in de buurt van Boombaard krijgen \n +25% pantser, +10% snelheid, \n  +20% aanvalsbereik en +25% ervaring. \n Modifier Type: 'Unique SPELL' \n\n Passieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
@@ -170,7 +176,7 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spioneer vijandige troepen\n\n Geeft tijdelijk +15% snelheid bonus voor \n troepen in het doelgebied \n Modifier Type: 'Unique LEADERSHIP'. \n \n Klik met links op het icoontje en daarna met links op het doelwit"
+"Spioneer vijandige troepen\n\n Geeft tijdelijk +15% snelheid bonus voor \n troepen in het doelgebied \n Modifier Type: 'Unique IRRESISTIBLE'. \n \n Klik met links op het icoontje en daarna met links op het doelwit"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
@@ -273,7 +279,7 @@ CONTROLBAR:ToolTipMenWood09v2
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Eenheden in de buurt van het\nstandbeeld krijgen +25% schade\nen verdienen ervaring 25% sneller \n Modifier Type: 'Damage SPELL' \n Bondgenoten krijgen immuniteit tegen angst \n\nVerhoogt de limiet van commandopunten met 10"
+"Eenheden in de buurt van het\nstandbeeld krijgen +25% schade\nen verdienen ervaring 25% sneller \n Modifier Type: 'Damage SPELL' \n Bondgenoten krijgen immuniteit tegen angst \n Modifier Type: 'Unique SPELL'\n\nVerhoogt de limiet van commandopunten met 10"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
@@ -281,7 +287,7 @@ OBJECT:HeroicStatueDescription09v2
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Eenheden in de buurt van het standbeeld \nkrijgen +35% pantser \n Modifier Type: 'Armor BUFF' \n Bondgenoten krijgen immuniteit tegen angst. \n\n Verhoogt de limiet van commandopunten van met 10"
+"Eenheden in de buurt van het standbeeld \nkrijgen +35% pantser \n Modifier Type: 'Armor BUFF' \n Bondgenoten krijgen immuniteit tegen angst. \n Modifier Type: 'Unique SPELL'\n\n Verhoogt de limiet van commandopunten van met 10"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
@@ -523,7 +529,7 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Geneest 750 gezondheidspunten van nabije troepen en helden. \n Nabije troepen en monsters krijgen een verhoging van: \n +15% gezondheidspunten en +25% sneller ervaring \n Geeft weerstand tegen angst \n Duurt 12 seconden \n Klik met links om te activeren"
+"Geneest 750 gezondheidspunten van nabije troepen en helden. \n Nabije troepen en monsters krijgen een verhoging van: \n +15% gezondheidspunten en +25% sneller ervaring \n Geeft weerstand tegen angst \n Modifier Type: Unique 'IRRESISTIBLE'\n Duurt 12 seconden \n Klik met links om te activeren"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
 "Onthult een deel van de kaart \n Geeft +27.5% bereik voor onthulling voor elke eenheid voor 25 seconden. \n Heeft geen effect op helden \n Klik met links op het icoontje en daarna met links op het doelwit"
@@ -596,7 +602,7 @@ CONTROLBAR:Fire_pit
 "Fire pit (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals Nabije bondgenoten \n Replenish 1 unit per horde each 5 seconds. \n Grants a stacking bonus of +5% pantser \n Detect stealth"
+"Campfire that heals Nabije bondgenoten \n Replenish 1 unit per horde each 5 seconds. \n Grants a bonus of +5% pantser \n Modifier Type: Unique 'IRRESISTIBLE' \n Detect stealth"
 END
 CONTROLBAR:FireWorks
 "FireWorks / Ignite [&V]"

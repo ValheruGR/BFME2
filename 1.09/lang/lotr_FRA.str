@@ -23,6 +23,12 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
+"Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on allies"
+END
+CONTROLBAR:TooltipIvoryTowerVision09v2
+"Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: 'Unique SPELL' \n Lasts 30 seconds"
+End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Requiert : niveau 3 \n Améliore cette horde avec les poches à venin \nEmpoisonne les ennemis et inflige des dégâts progressivement"
 END
@@ -162,7 +168,7 @@ CONTROLBAR:ToolTipDainStubbornPride09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Les Ents alliés proches de Sylvebarbe gagnent \n+25% d'armures, +10% de vitesse \n +20% de portée \net  +25% d'expériences.\nModifier Type: 'Unique LEADERSHIP'.\n Capacité passive"
+"Les Ents alliés proches de Sylvebarbe gagnent \n+25% d'armures, +10% de vitesse \n +20% de portée \net  +25% d'expériences.\nModifier Type: 'Unique SPELL'.\n Capacité passive"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
@@ -170,11 +176,11 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Espionne l'ennemi.\nConfère un bonus temporaire de vitesse de +15% aux unités dans la zone cible.\n Modifier Type: 'Unique LEADERSHIP'.\n Bonus cumulatif. \n clic gauche puis clic gauche sur la zone ciblée"
+"Espionne l'ennemi.\nConfère un bonus temporaire de vitesse de +15% aux unités dans la zone cible.\n Modifier Type: 'Unique IRRESISTIBLE'. \n clic gauche puis clic gauche sur la zone ciblée"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Espionne les forces ennemies.\nConfère un bonus temporaire de portée de +35% aux unités dans la zone ciblée.\n Modifier Type: 'Unique SPELL'. \n Bonus cumulatif. \nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
+"Espionne les forces ennemies.\nConfère un bonus temporaire de portée de +35% aux unités dans la zone ciblée.\n Modifier Type: 'Unique SPELL'. \nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
@@ -273,7 +279,7 @@ CONTROLBAR:ToolTipMenWood09v2
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Les alliés proches de la statue gagnent +25% de dégâts, +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'Damage SPELL'.\n Les alliés gagnent une immunité à la peur et à la terreur.\nAugmente la limite de points commandement de 10 points."
+"Les alliés proches de la statue gagnent +25% de dégâts, +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'Damage SPELL'.\n Les alliés gagnent une immunité à la peur et à la terreur.\n Modifier Type: 'Unique SPELL'\nAugmente la limite de points commandement de 10 points."
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
@@ -281,7 +287,7 @@ OBJECT:HeroicStatueDescription09v2
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Les alliés proches de la statue gagnent +35% d'armures.\n Modifier Type: 'Armor BUFF'.\n Les alliés gagnent une immunité à la peur et à la terreur.\n Augmente la limite de points commandement de 10 points."
+"Les alliés proches de la statue gagnent +35% d'armures.\n Modifier Type: 'Armor BUFF'.\n Les alliés gagnent une immunité à la peur et à la terreur.\n Modifier Type: 'Unique SPELL'\n Augmente la limite de points commandement de 10 points."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
@@ -524,7 +530,7 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Soigne les unités et héros proches de 750 points de vie.\n Les hordes et monstres proches gagnent un bonus de +15% points de vie et +25% d'expériences.\n Donne un bonus de résistance à la peur et à la terreur.\nDure 12 secondes.\nClick droit pour activer."
+"Soigne les unités et héros proches de 750 points de vie.\n Les hordes et monstres proches gagnent un bonus de +15% points de vie et +25% d'expériences.\n Donne un bonus de résistance à la peur et à la terreur.\n Modifier Type: Unique 'IRRESISTIBLE' \nDure 12 secondes.\nClick droit pour activer."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
 "Révèle une zone de la carte.\nDonne un bonus de +27.5% de révélation de vision a toute les unités pendant 25 secondes.\nN'affecte pas les héros.\nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
@@ -597,7 +603,7 @@ CONTROLBAR:Fire_pit
 "Foyer (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Un feu de camp soignera les unités alliées proches \n Rajoute une unité manquante par bataillon toute les 5 secondes \n Confère un bonus cumulatif de +5% d'armure \n Détecte la furtivité"
+"Un feu de camp soignera les unités alliées proches \n Rajoute une unité manquante par bataillon toute les 5 secondes \n Confère un bonus de +5% d'armure \n Modifier Type: Unique 'IRRESISTIBLE' \n Détecte la furtivité"
 END
 CONTROLBAR:FireWorks
 "Feux d'artice / Allumer [&V]"

@@ -23,6 +23,12 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
+"Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on allies"
+END
+CONTROLBAR:TooltipIvoryTowerVision09v2
+"Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: 'Unique SPELL' \n Lasts 30 seconds"
+End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Voraussetzung Stufe 3 \n Rüstet diese Horde mit Giftsäcken aus \n Fügt Gegnern Giftschaden zu und erzeugt Schaden über Zeit"
 END
@@ -162,7 +168,7 @@ CONTROLBAR:ToolTipDainStubbornPride09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Modifier Type: 'Unique LEADERSHIP'\n \n Passive ability"
+"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Modifier Type: 'Unique SPELL'\n \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
@@ -170,7 +176,7 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: 'Unique LEADERSHIP'. \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: 'Unique IRRESISTIBLE'. \n \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
@@ -271,7 +277,7 @@ CONTROLBAR:ToolTipMenWood09v2
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Verbündete in der Nähe der Statue \n verursachen +25% Schaden und \n sammeln 25% mehr Erfahrung  \n Modifier Type: 'Damage SPELL' \n Allies gain terror and fear resistance. \n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n verursachen +25% Schaden und \n sammeln 25% mehr Erfahrung  \n Modifier Type: 'Damage SPELL' \n Allies gain terror and fear resistance. \n Modifier Type: 'Unique SPELL'\n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
@@ -279,7 +285,7 @@ OBJECT:HeroicStatueDescription09v2
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Verbündete in der Nähe der Statue \n erhalten +35% Rüstung \n Modifier Type: 'Armor BUFF' \n Allies gain terror and fear resistance.\n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n erhalten +35% Rüstung \n Modifier Type: 'Armor BUFF' \n Allies gain terror and fear resistance. \n Modifier Type: 'Unique SPELL'\n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
@@ -520,7 +526,7 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to experience gaining \n Provides resistance to fear and terror \n Lasts 12 seconds \n Left click to activate"
+"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to experience gaining \n Provides resistance to fear and terror \n Modifier Type: Unique 'IRRESISTIBLE'\n Lasts 12 seconds \n Left click to activate"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
 "Reveals an area of the map \n Provides +27.5% vision reveal range to any allied unit for 25 second. \n Doesn't affect heroes. \n Left click icon then left click on target area"
@@ -593,7 +599,7 @@ CONTROLBAR:Fire_pit
 "Feuer Grube (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Lagerfeuer, welches nahe Verbündete heilt \n Stockt 1 Einheit pro Horde alle 5 Sekunden auf. \n Gibt +5% Rüstung \n Wird immer addiert \n Deckt getarnte Einheiten auf"
+"Lagerfeuer, welches nahe Verbündete heilt \n Stockt 1 Einheit pro Horde alle 5 Sekunden auf. \n Gibt +5% Rüstung \n Modifier Type: Unique 'IRRESISTIBLE' \n Deckt getarnte Einheiten auf"
 END
 CONTROLBAR:FireWorks
 "Feuerwerk / Anzünden [&V]"

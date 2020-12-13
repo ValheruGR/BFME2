@@ -23,6 +23,12 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
+"Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on allies"
+END
+CONTROLBAR:TooltipIvoryTowerVision09v2
+"Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: 'Unique SPELL' \n Lasts 30 seconds"
+End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Requisito: Nivel 3 \n Mejora la horda con sacos de veneno \n Envenena a los enemigos causando daño a lo largo del tiempo"
 END
@@ -162,7 +168,7 @@ CONTROLBAR:ToolTipDainStubbornPride09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Los ents aliados cercanos a Bárbol ganan \n +25% a la armadura, +10% a la velocidad \n +20% al alcance y +25% experiencia. \n Modificador tipo 'LIDERAZGO único'. \n \n Capacidad pasiva."
+"Los ents aliados cercanos a Bárbol ganan \n +25% a la armadura, +10% a la velocidad \n +20% al alcance y +25% experiencia. \n Modificador tipo 'SPELL único'. \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
@@ -170,11 +176,11 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Espía a las fuerzas enemigas. \n Proporciona una bonificación de +15% velocidad temporalmente a las unidades en su área de lanzamiento. \n Modificador tipo 'LIDERAZGO único'. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
+"Espía a las fuerzas enemigas. \n Proporciona una bonificación de +15% velocidad temporalmente a las unidades en su área de lanzamiento. \n Modificador tipo 'IRRESISTIBLE único'. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Espía a las fuerzas enemigas. \n Proporciona una bonificación de alcance de +35% a las hordas aliadas en su área de efecto.\n Modificador tipo 'HECHIZO único'. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
+"Espía a las fuerzas enemigas. \n Proporciona una bonificación de alcance de +35% a las hordas aliadas en su área de efecto.\n Modificador tipo 'SPELL único'. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
@@ -273,7 +279,7 @@ CONTROLBAR:ToolTipMenWood09v2
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Los aliados cercanos a la estatua ganan \n +25% al daño \n y consiguen experiencia un 25% más rápido. \n Modificador tipo 'HECHIZO de daño'. \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +25% al daño \n y consiguen experiencia un 25% más rápido. \n Modificador tipo 'HECHIZO de daño'. \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n Modifier Type: 'Unique SPELL'\n Aumenta en 10 el límite de puntos de mando."
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
@@ -281,7 +287,7 @@ OBJECT:HeroicStatueDescription09v2
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Los aliados cercanos a la estatua ganan \n +35% a la armadura. \n Modificador tipo 'BUFF de armadura'. \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +35% a la armadura. \n Modificador tipo 'BUFF de armadura'. \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n Modifier Type: 'Unique SPELL'\n Aumenta en 10 el límite de puntos de mando."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
@@ -524,7 +530,7 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Cura 750 puntos de salud de los heroes y hordas cercanas. \n Las hordas y monstruos cercanos reciben un incremento de \n +15% puntos de salud y ganan experience 25% más rapido. \n Proporciona inmunida al miedo y al terror. \n Dura 12 segundos \n Haz clic con el botón izquierdo para activar."
+"Cura 750 puntos de salud de los heroes y hordas cercanas. \n Las hordas y monstruos cercanos reciben un incremento de \n +15% puntos de salud y ganan experience 25% más rapido. \n Proporciona inmunidad al miedo y al terror. \n Modifier Type: Unique 'IRRESISTIBLE' \n Dura 12 segundos \n Haz clic con el botón izquierdo para activar."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
 "Revela un area del mapa \n Proporciona +27.5% rango de visión a cualquier unidad aliada por 25 segundos. \n No afecta heroes. \n Haz clic con el botón izquierdo para activar."
@@ -597,7 +603,7 @@ CONTROLBAR:Fire_pit
 "Fogata de campamen&to"
 END
 CONTROLBAR:TooltipFire_pit
-"Campamento donde los aliados cercanos pueden ser curados \n Repone una unidad por batallón cada 5 segundos. \n Provee un bonus acumulativo de +5% armadura. \n Detect stealth"
+"Campamento donde los aliados cercanos pueden ser curados \n Repone una unidad por batallón cada 5 segundos. \n Los aliados cercanos ganan +5% armadura. \n Modifier Type: Unique 'IRRESISTIBLE' \n Detect stealth"
 END
 CONTROLBAR:FireWorks
 "Desplegar fuegos ar&tificiales."
