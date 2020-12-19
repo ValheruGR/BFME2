@@ -27,7 +27,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
 "Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on allies"
 END
 CONTROLBAR:TooltipIvoryTowerVision09v2
-"Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: 'RESISTANT IvoryTowerBonus' \n Lasts 30 seconds"
+"Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: RESISTANT IvoryTowerBonus' \n Lasts 30 seconds"
 End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Requiert : niveau 3 \n Améliore cette horde avec les poches à venin \nEmpoisonne les ennemis et inflige des dégâts progressivement"
@@ -137,10 +137,10 @@ CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
 "Pénétration d'armure améliorée"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
-"Amélioration de commandement de la forteresse: \nLes unités proche gagnent +25% de dégâts et gagnent +25% d'éxpériences plus rapidement. \n Modifier Type: 'RESISTANT 'Damage Inspiring'"
+"Amélioration de commandement de la forteresse: \nLes unités proche gagnent +25% de dégâts et gagnent +25% d'éxpériences plus rapidement. \n Modifier Type: RESISTANT 'Damage Inspiring'"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Fort contre piquiers \nBonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent \n +33% de dégâts et +25% de vitesse. \n Modifier Type: 'RESISTANT 'HordeBonus'  "
+"Fort contre piquiers \nBonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent \n +33% de dégâts et +25% de vitesse. \n Modifier Type: RESISTANT 'HordeBonus'  "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Forts contre la cavalerie,archers et bâtiments de production d'unités.\n Les lanciers Rivendell gagnent +7% de vitesse de déplacement au niveau 5."
@@ -149,10 +149,10 @@ CONTROLBAR:ToolTipGloriousCharge09v2
 "Requiert : niveau 7\nThéoden et les cavaliers proches gagnent 99% d'arumres, +25% de dégâts et sont immunisés au ralentissement lors d'une charge.\nLa cavalerie est immunisé à la peur pendant la durée de l'effet.\nThéoden ne peut utiliser sa capacité que sur sa monture.\n Modifier Type: 'DEBUFF_PROOF GloriousCharge'.\nClic gauche pour activer"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Fort contre l'infanterie \nRésistants à l'écrasement \n Bonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent +33% de dégâts et +20% de vitesse. \n Modifier Type: 'RESISTANT 'HordeBonus' "
+"Fort contre l'infanterie \nRésistants à l'écrasement \n Bonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent +33% de dégâts et +20% de vitesse. \n Modifier Type: RESISTANT 'HordeBonus' "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Fort contre l'infanterie\n Bonus de horde: \n Un rassemblement d'orcs supérieur ou égal à 70 gagnent +33% de dégâts et +15% de vitesse.\n Modifier Type: 'RESISTANT 'HordeBonus' "
+"Fort contre l'infanterie\n Bonus de horde: \n Un rassemblement d'orcs supérieur ou égal à 70 gagnent +33% de dégâts et +15% de vitesse.\n Modifier Type: RESISTANT 'HordeBonus' "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -176,15 +176,15 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Espionne l'ennemi.\nConfère un bonus temporaire de vitesse de +15% aux unités dans la zone cible.\n Modifier Type: 'RESISTANT PalantirBonus'. \n Clic gauche puis clic gauche sur la zone ciblée"
+"Espionne l'ennemi.\nConfère un bonus temporaire de vitesse de +15% aux unités dans la zone cible.\n Modifier Type: RESISTANT PalantirBonus'. \n Clic gauche puis clic gauche sur la zone ciblée"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Espionne les forces ennemies.\nConfère un bonus temporaire de portée de +35% aux unités dans la zone ciblée.\n Modifier Type: 'RESISTANT FarsightBonus'. \nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
+"Espionne les forces ennemies.\nConfère un bonus temporaire de portée de +35% aux unités dans la zone ciblée.\n Modifier Type: RESISTANT FarsightBonus'. \nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Fait pousser une forêt. \nCrée une zone de protection en son centre contre la forêt homme ou la terre soullié. \nLes unités alliées gagnent +35% d'armures, +25% de dégâts et gagnent +25% d'éxpériences plus rapidement. \nLa cavalerie ennemie ralentie 3,5 fois plus rapidement. \n Modifier Type: 'RESISTANT ElvenWood' \n Overrides LEADERSHIP effects from the allies.\nClic gauche sur l'icône puis clic gauche sur la zone cible"
+"Fait pousser une forêt. \nCrée une zone de protection en son centre contre la forêt homme ou la terre soullié. \nLes unités alliées gagnent +35% d'armures, +25% de dégâts et gagnent +25% d'éxpériences plus rapidement. \nLa cavalerie ennemie ralentie 3,5 fois plus rapidement. \n Modifier Type: RESISTANT ElvenWood' \n Overrides LEADERSHIP effects from the allies.\nClic gauche sur l'icône puis clic gauche sur la zone cible"
 END
 CONTROLBAR:MenWood09v2
 "Forêt Homme"
@@ -195,11 +195,11 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Annule la Pluie glacée,Ombre et le soin de Perce-nuage.\nPlonge temporairement la carte dans l'obscurité pendant 180 secondes.\n Les bataillons alliés gagnent +50% de dégâts, +33% d'armures  et gagnent +50% d'expériences plus rapidement.\nLes monstres gagnent +25% de dégâts, +33% d'armures et gagnent +50% d'expériences plus rapidement.\n Modifier Type: 'RESISTANT Darkness'.\nBonus cumulatif.\nClic gauche pour activer"
+"Annule la Pluie glacée,Ombre et le soin de Perce-nuage.\nPlonge temporairement la carte dans l'obscurité pendant 180 secondes.\n Les bataillons alliés gagnent +50% de dégâts, +33% d'armures  et gagnent +50% d'expériences plus rapidement.\nLes monstres gagnent +25% de dégâts, +33% d'armures et gagnent +50% d'expériences plus rapidement.\n Modifier Type: RESISTANT Darkness'.\nBonus cumulatif.\nClic gauche pour activer"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Annule la Pluie glacée,Ombre et le soin de Perce-nuage.\nLa carte est temporairement couverte de pluie pendant 150 secondes.\n Les unités ennemies perdre -25% d'armures et -25% de dégâts .\n Modifier Type: 'DEBUFF'. \n Neutralizes LEADERSHIP, BUFF and 'RESISTANT modifiers from the enemy.\nClic gauche pour activer"
+"Annule la Pluie glacée,Ombre et le soin de Perce-nuage.\nLa carte est temporairement couverte de pluie pendant 150 secondes.\n Les unités ennemies perdre -25% d'armures et -25% de dégâts .\n Modifier Type: 'DEBUFF'. \n Neutralizes LEADERSHIP, BUFF and RESISTANT modifiers from the enemy.\nClic gauche pour activer"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
@@ -216,7 +216,7 @@ CONTROLBAR:TooltipCrebain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Requiert : niveau 3 \nLa cavalerie alliée proche gagnent +25% d'armure, +25% de dégâts et gagnent +50% d'expériences plus rapidement.\nRéduction de l'écrasement de cavalerie alliée.\n Modifier Type: 'RESISTANT 'High-Tier Hero'.\nCapacité passive."
+"Requiert : niveau 3 \nLa cavalerie alliée proche gagnent +25% d'armure, +25% de dégâts et gagnent +50% d'expériences plus rapidement.\nRéduction de l'écrasement de cavalerie alliée.\n Modifier Type: RESISTANT 'High-Tier Hero'.\nCapacité passive."
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
 "Requiert niveau 2 \nOrdonne aux gardiens de charger l'ennemi.\nL'unité gagne +25% de vitesse et +25% d'armure.\n Modifier Type: 'Armor BUFF' \nProvoque un renversement.\nClic gauche sur l'icône puis clic gauche sur la cible"
@@ -237,7 +237,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Soigne tous les alliés proches.\nRenouvelle une unité manquante par bataillon toute les 6.5 secondes.\nRéduit le coût de résurrection des héros de 5%.\nRéduit le temps de résurrection des héros de 15%.\nAméliore la tour solitaire invoquée."
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Fort contre bâtiments de ressources.\n Bonus de horde : \nUn rassemblement d'orcs supérieur ou égal à 70 gagnent +33% de dégâts, +20% de vitesse.\n Modifier Type: 'RESISTANT 'HordeBonus' "
+"Fort contre bâtiments de ressources.\n Bonus de horde : \nUn rassemblement d'orcs supérieur ou égal à 70 gagnent +33% de dégâts, +20% de vitesse.\n Modifier Type: RESISTANT 'HordeBonus' "
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Soigne les alliés proches de la forteresse.\n Renouvelle une unité manquante par bataillon toute les 6.5 secondes.\nRéduit le temps de résurection des héros de 25%.\nAjoute des points de vie à la forteresse.\n Renforce la tour solitaire invoquée."
@@ -279,31 +279,31 @@ CONTROLBAR:ToolTipMenWood09v2
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Les alliés proches de la statue gagnent +25% de dégâts, +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'RESISTANT 'Damage Inspiring'.\n Les alliés gagnent une immunité à la peur et à la terreur.\n Modifier Type: 'LEADERSHIP AntiFear'\nAugmente la limite de points commandement de 10 points."
+"Les alliés proches de la statue gagnent +25% de dégâts, +25% d'expériences gagnées plus rapidement.\n Modifier Type: RESISTANT 'Damage Inspiring'.\n Les alliés gagnent une immunité à la peur et à la terreur.\n Modifier Type: 'LEADERSHIP AntiFear'\nAugmente la limite de points commandement de 10 points."
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Tout allié à proximité de la statue gagne +25% d'armure et +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'RESISTANT 'Armor Inspiring'.\nAugmente la limite de points commandement de 10 points."
+"Tout allié à proximité de la statue gagne +25% d'armure et +25% d'expériences gagnées plus rapidement.\n Modifier Type: RESISTANT 'Armor Inspiring'.\nAugmente la limite de points commandement de 10 points."
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Les alliés proches de la statue gagnent +35% d'armures.\n Modifier Type: 'Armor BUFF'.\n Les alliés gagnent une immunité à la peur et à la terreur.\n Modifier Type: 'RESISTANT AntiFear'\n Augmente la limite de points commandement de 10 points."
+"Les alliés proches de la statue gagnent +35% d'armures.\n Modifier Type: 'Armor BUFF'.\n Les alliés gagnent une immunité à la peur et à la terreur.\n Modifier Type: RESISTANT AntiFear'\n Augmente la limite de points commandement de 10 points."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Réduit la vulnérabilité de la forteresse au combat rapproché.\nLes alliés proches recoivent : +25% de dégâts et +25% d'expérience gagnés plus rapidement.\n Modifier Type: 'RESISTANT 'Damage Inspiring'."
+"Réduit la vulnérabilité de la forteresse au combat rapproché.\nLes alliés proches recoivent : +25% de dégâts et +25% d'expérience gagnés plus rapidement.\n Modifier Type: RESISTANT 'Damage Inspiring'."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Donne +25% de dégâts et +25% d'expériences aux troupes proches.\n Modifier Type: 'RESISTANT 'Damage Inspiring'.\nRéduit le coût des héros de 10%.\nRéduit le temps de recrutement des héros de 10%.\nRéduit le coût des bâtisseurs de 20%."
+"Donne +25% de dégâts et +25% d'expériences aux troupes proches.\n Modifier Type: RESISTANT 'Damage Inspiring'.\nRéduit le coût des héros de 10%.\nRéduit le temps de recrutement des héros de 10%.\nRéduit le coût des bâtisseurs de 20%."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Les alliés proches de la forteresse gagnent +25% d'armures et +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'RESISTANT 'Damage Inspiring'.\nRéduit le coût des héros de 10%.\nRéduit le temps de recrutement des héros de 10%.\nRéduit le coût des bâtisseurs de 20%.\nAméliore la tour solitaire invoquée."
+"Les alliés proches de la forteresse gagnent +25% d'armures et +25% d'expériences gagnées plus rapidement.\n Modifier Type: RESISTANT 'Damage Inspiring'.\nRéduit le coût des héros de 10%.\nRéduit le temps de recrutement des héros de 10%.\nRéduit le coût des bâtisseurs de 20%.\nAméliore la tour solitaire invoquée."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Les alliés proches de la forteresse gagnent +25% de dégâts +25% d'expérience gagnées plus rapidement.\n Modifier Type: 'RESISTANT 'Damage Inspiring'.\nRéduit le coût des héros de 10%.\nRéduit le temps de recrutement des héros de 10%.\nRéduit le coût des bâtisseurs de 20%.\nAméliore la tour solitaire invoquée."
+"Les alliés proches de la forteresse gagnent +25% de dégâts +25% d'expérience gagnées plus rapidement.\n Modifier Type: RESISTANT 'Damage Inspiring'.\nRéduit le coût des héros de 10%.\nRéduit le temps de recrutement des héros de 10%.\nRéduit le coût des bâtisseurs de 20%.\nAméliore la tour solitaire invoquée."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
@@ -311,7 +311,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Invoque l'Oeil de Sauron \nRévèle les ennemis furtifs. \nLes alliés gagnent +25% de dégâts, +25% d'armures et +50% d'expériences.\n Modifier Type: 'RESISTANT 'High-Tier Hero'.\nClic gauche sur l'icône puis clic gauche sur la zone cible."
+"Invoque l'Oeil de Sauron \nRévèle les ennemis furtifs. \nLes alliés gagnent +25% de dégâts, +25% d'armures et +50% d'expériences.\n Modifier Type: RESISTANT 'High-Tier Hero'.\nClic gauche sur l'icône puis clic gauche sur la zone cible."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
@@ -323,23 +323,23 @@ CONTROLBAR:ToolTipGimliLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Les alliés proches du Roi Daïn gagnent +25% d'armures, +25% de dégâts et +50% d'expériences gagnées plus rapidement. \n Modifier Type: 'RESISTANT 'High-Tier Hero'\n Capacité passive."
+"Les alliés proches du Roi Daïn gagnent +25% d'armures, +25% de dégâts et +50% d'expériences gagnées plus rapidement. \n Modifier Type: RESISTANT 'High-Tier Hero'\n Capacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Les alliés proches de la bannière gagnent +25% de dégâts et +25% d'expérience gagnées plus rapidement.\n Modifier Type: 'RESISTANT 'Damage Inspiring'.\n Soigne lentement le Chariot de guerre lorsque celui-ci n'est pas au combat.\n Ajoute plusieurs Phalanges au Chariot de guerre.\nRévèle les ennemis furtifs."
+"Les alliés proches de la bannière gagnent +25% de dégâts et +25% d'expérience gagnées plus rapidement.\n Modifier Type: RESISTANT 'Damage Inspiring'.\n Soigne lentement le Chariot de guerre lorsque celui-ci n'est pas au combat.\n Ajoute plusieurs Phalanges au Chariot de guerre.\nRévèle les ennemis furtifs."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Requiert : niveau 4 \nLes alliés proches du Roi Gobelin gagnent +25% d'armure et +25% d'expériences gagnées plus rapidement. \n Les troll gagnent +25% d'éxpériences gagnées plus rapidement et se soigne à hauteur de +50 points de vie. \n Modifier Type: 'RESISTANT 'Armor Inspiring'. \n Capacité passive."
+"Requiert : niveau 4 \nLes alliés proches du Roi Gobelin gagnent +25% d'armure et +25% d'expériences gagnées plus rapidement. \n Les troll gagnent +25% d'éxpériences gagnées plus rapidement et se soigne à hauteur de +50 points de vie. \n Modifier Type: RESISTANT 'Armor Inspiring'. \n Capacité passive."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Requiert : niveau 3\nLes alliés proches d'Elrond gagnent +25% d'armures, +25% de dégâts et +50% d'expériences gagnées plus rapidement.\n Modifier Type: 'RESISTANT 'High-Tier Hero'.\nCapacité passive."
+"Requiert : niveau 3\nLes alliés proches d'Elrond gagnent +25% d'armures, +25% de dégâts et +50% d'expériences gagnées plus rapidement.\n Modifier Type: RESISTANT 'High-Tier Hero'.\nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Requiert : niveau 3\n La cavaleries proches d'Arwen gagnent +25% d'armures et +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'RESISTANT 'Armor Inspiring'.\nCapacité passive."
+"Requiert : niveau 3\n La cavaleries proches d'Arwen gagnent +25% d'armures et +25% d'expériences gagnées plus rapidement.\n Modifier Type: RESISTANT 'Armor Inspiring'.\nCapacité passive."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
@@ -347,11 +347,11 @@ CONTROLBAR:ToolTipHaldirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Les alliés proches de Tom Bombadil gagnent \n+25% d'armures et +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'RESISTANT 'Armor Inspiring'.\n Capacité passive."
+"Les alliés proches de Tom Bombadil gagnent \n+25% d'armures et +25% d'expériences gagnées plus rapidement.\n Modifier Type: RESISTANT 'Armor Inspiring'.\n Capacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Requiert : niveau 4\nLes alliés proches d'Aragorn gagnent \n+25% d'armures, +25% de dégâts et gagnent +50% d'expériences plus rapidement.\n Modifier Type: 'RESISTANT 'High-Tier Hero'.\nCapacité passive."
+"Requiert : niveau 4\nLes alliés proches d'Aragorn gagnent \n+25% d'armures, +25% de dégâts et gagnent +50% d'expériences plus rapidement.\n Modifier Type: RESISTANT 'High-Tier Hero'.\nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
@@ -367,11 +367,11 @@ CONTROLBAR:ToolTipBoromirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Les alliés proches de Théoden gagnent \n+25% de dégâts et +25% d'expériences gagnées plus rapidement.\n Modifier Type: 'RESISTANT 'Damage Inspiring'.\nCapacité passive."
+"Les alliés proches de Théoden gagnent \n+25% de dégâts et +25% d'expériences gagnées plus rapidement.\n Modifier Type: RESISTANT 'Damage Inspiring'.\nCapacité passive."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Les alliés proches de Saruman gagnent +25% d'armures et +25% d'éxpériences gagnées plus rapidement.\n Modifier Type: 'RESISTANT 'Armor Inspiring'.\n Capacité passive."
+"Les alliés proches de Saruman gagnent +25% d'armures et +25% d'éxpériences gagnées plus rapidement.\n Modifier Type: RESISTANT 'Armor Inspiring'.\n Capacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -574,7 +574,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Invoque trois pluies de roches en fusion dans un cercle autour de Sauron"
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Requiert de rechercher l'amélioration dans la forteresse. \n\n Les unités alliées proches gagnent +25% dommage et +25% d'expérience \n Modifier Type: 'RESISTANT 'Damage Inspiring'"
+"Requiert de rechercher l'amélioration dans la forteresse. \n\n Les unités alliées proches gagnent +25% dommage et +25% d'expérience \n Modifier Type: RESISTANT 'Damage Inspiring'"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Requiert de rechercher l'amélioration dans la forteresse. \n\n Soigne les unités alliées proches \n Renouvelle une unité manquante par bataillon toute les 10 secondes"
@@ -603,7 +603,7 @@ CONTROLBAR:Fire_pit
 "Foyer (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Un feu de camp soignera les unités alliées proches \n Rajoute une unité manquante par bataillon toute les 5 secondes \n Confère un bonus de +5% d'armure \n Modifier Type: 'RESISTANT HobbitCampfire' \n Détecte la furtivité"
+"Un feu de camp soignera les unités alliées proches \n Rajoute une unité manquante par bataillon toute les 5 secondes \n Confère un bonus de +5% d'armure \n Modifier Type: RESISTANT HobbitCampfire' \n Détecte la furtivité"
 END
 CONTROLBAR:FireWorks
 "Feux d'artice / Allumer [&V]"
@@ -650,12 +650,12 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
-END
-Map:mapmpnothing/Desc
-"nothing"
-END
+Map:mapetdruadanforestIII
+"Druadan Forest III"
+End
+Map:mapetdruadanforestIII/Desc
+"An old forest at the foot of the White Mountains, to the northwest of Minas Tirith. \n Map from BFME1, remade by Ecthelion."
+End
 //------------------------------------------------------------
 Map:mapETlebenninIV
 "Lebennin IV"
@@ -22569,7 +22569,7 @@ Map:MAPWOREttenmoors/Desc
 END
 
 Map:MAPWORFangorn/Desc
-"Cette forêt sombre et mystérieuse est le foyer de Sylvebarbe et des Ents."
+"Cette forêt sombre et mystérieuse est le foyer de Sylvebarbe et des Ents.\n Map reworked by Ecthelion."
 END
 
 Map:MAPWORForlindon/Desc

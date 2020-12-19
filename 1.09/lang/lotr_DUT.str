@@ -27,7 +27,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
 "Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on allies"
 END
 CONTROLBAR:TooltipIvoryTowerVision09v2
-"Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: 'RESISTANT IvoryTowerBonus' \n Lasts 30 seconds"
+"Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: RESISTANT IvoryTowerBonus' \n Lasts 30 seconds"
 End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Nodig: niveau 3 \n Geeft deze troep de upgrade gifzakken\nVergiftigt vijanden en veroorzaakt langere tijd schade"
@@ -137,10 +137,10 @@ CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
 "Verbeterde schildstoot"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
-"Eenheden in de buurt van het fort\n krijgen +25% schade,\nen verdienen ervaring 25% sneller \n Modifier Type: 'RESISTANT 'Damage Inspiring'"
+"Eenheden in de buurt van het fort\n krijgen +25% schade,\nen verdienen ervaring 25% sneller \n Modifier Type: RESISTANT 'Damage Inspiring'"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Sterk tegen speervechters\n Horde Bonus: \n Aardmannen in groep van minstens 100 \n krijgen +33% schade +25% snelheid. \n Modifier Type: 'RESISTANT 'HordeBonus'  "
+"Sterk tegen speervechters\n Horde Bonus: \n Aardmannen in groep van minstens 100 \n krijgen +33% schade +25% snelheid. \n Modifier Type: RESISTANT 'HordeBonus'  "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Sterk tegen boogschutters en \n Gebouwen die troepen produceren. \n Rivendell Lancers krijgen +7% snelheid op level 5."
@@ -149,10 +149,10 @@ CONTROLBAR:ToolTipGloriousCharge09v2
 "Nodig: niveau 7 \n Théoden en cavalerie in de buurt krijgen +99% pantser, \n +25% schade en wordt immuun tegen vertraging door vertrappelen. \n Gedurende deze tijd wordt cavalerie ook imuun tegen angst\n Modifier Type: 'DEBUFF_PROOF GloriousCharge' \n Théoden moet te paard zijn om de kracht te gebruiken \n Klik met links om te activeren"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Sterk tegen Infantry\nResistent tegen vertrappelen\n Horde Bonus: \n Aardmannen in groep van minstens 100 \n krijgen +33% schade +20% snelheid. \n Modifier Type: 'RESISTANT 'HordeBonus'  "
+"Sterk tegen Infantry\nResistent tegen vertrappelen\n Horde Bonus: \n Aardmannen in groep van minstens 100 \n krijgen +33% schade +20% snelheid. \n Modifier Type: RESISTANT 'HordeBonus'  "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Sterk tegen Infantry\n Horde Bonus: \n Orcs in groep van minstens 70\n krijgen +33% schade en +15% snelheid. \n Modifier Type: 'RESISTANT 'HordeBonus'  "
+"Sterk tegen Infantry\n Horde Bonus: \n Orcs in groep van minstens 70\n krijgen +33% schade en +15% snelheid. \n Modifier Type: RESISTANT 'HordeBonus'  "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -176,15 +176,15 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spioneer vijandige troepen\n\n Geeft tijdelijk +15% snelheid bonus voor \n troepen in het doelgebied \n Modifier Type: 'RESISTANT PalantirBonus'. \n \n Klik met links op het icoontje en daarna met links op het doelwit"
+"Spioneer vijandige troepen\n\n Geeft tijdelijk +15% snelheid bonus voor \n troepen in het doelgebied \n Modifier Type: RESISTANT PalantirBonus'. \n \n Klik met links op het icoontje en daarna met links op het doelwit"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spioneer vjiandige troepen\n Geeft een tijdelijke bonus: +35% aan het aanvalsbereik \n van troepen in het doelgebied\n Modifier Type: 'RESISTANT FarsightBonus'. \n Klik met links op het icoontje en daarna met links op het doelwit"
+"Spioneer vjiandige troepen\n Geeft een tijdelijke bonus: +35% aan het aanvalsbereik \n van troepen in het doelgebied\n Modifier Type: RESISTANT FarsightBonus'. \n Klik met links op het icoontje en daarna met links op het doelwit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creëert bosrijk terrein met mooie vogels, koeien, paarden, ... De koeien durven al wel eens kaka te doen dus je moet oppassen waar je loopt.\nAlle bevriende eenheden krijgen +35% pantser, \n +25% schade en verdienen ervaring 25% sneller \n Vijandige cavalerie vertraagd +250% sneller \n Modifier Type: 'RESISTANT ElvenWood' \n Overrides LEADERSHIP effects from the allies. \n Heeft geen effect op helden \n Klik met links op het icoontje en daarna met links op het doelgebied" 
+"Creëert bosrijk terrein met mooie vogels, koeien, paarden, ... De koeien durven al wel eens kaka te doen dus je moet oppassen waar je loopt.\nAlle bevriende eenheden krijgen +35% pantser, \n +25% schade en verdienen ervaring 25% sneller \n Vijandige cavalerie vertraagd +250% sneller \n Modifier Type: RESISTANT ElvenWood' \n Overrides LEADERSHIP effects from the allies. \n Heeft geen effect op helden \n Klik met links op het icoontje en daarna met links op het doelgebied" 
 END
 CONTROLBAR:MenWood09v2
 "Menselijk bos"
@@ -195,11 +195,11 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Verdrijft vorst (enkel de genezing), regen en duisternis \n Bedekt de hele kaart tijdelijk met duisternis\n Bevriende troepen krijgen +50% schade, +33% pantser en krijgen ervaring 50% sneller \n Monsters krijgen +25% schade, +33% pantser en +50% ervaring \n Modifier Type: 'RESISTANT Darkness' \n Duurt 180 seconden. \n Klik met links om te activeren"
+"Verdrijft vorst (enkel de genezing), regen en duisternis \n Bedekt de hele kaart tijdelijk met duisternis\n Bevriende troepen krijgen +50% schade, +33% pantser en krijgen ervaring 50% sneller \n Monsters krijgen +25% schade, +33% pantser en +50% ervaring \n Modifier Type: RESISTANT Darkness' \n Duurt 180 seconden. \n Klik met links om te activeren"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Verdrijft vorst (enkel de genezing), regen en duisternis \n Bedekt de hele kaart tijdelijk met regen \n Alle vijandige troepen en monsters op de kaart lijden \n -25% pantser en -25% schade. \n Modifier Type: 'DEBUFF' \n Verwijderd LEADERSHIP, BUFF en 'RESISTANT van de vijand. \n Duurt 150 seconden. \n Klik met links om te activeren"
+"Verdrijft vorst (enkel de genezing), regen en duisternis \n Bedekt de hele kaart tijdelijk met regen \n Alle vijandige troepen en monsters op de kaart lijden \n -25% pantser en -25% schade. \n Modifier Type: 'DEBUFF' \n Verwijderd LEADERSHIP, BUFF en RESISTANT van de vijand. \n Duurt 150 seconden. \n Klik met links om te activeren"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
@@ -216,7 +216,7 @@ CONTROLBAR:TooltipCrebain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Nodig: niveau 3\nCavalerie van bondgenoten in de buurt krijgt +25% schade en +25% pantser,\nen verdient ervaring 50% sneller\nMinder vertraging door vertrappen van geallieerde cavalerie \n Modifier Type: 'RESISTANT 'High-Tier Hero' \nPassieve kracht"
+"Nodig: niveau 3\nCavalerie van bondgenoten in de buurt krijgt +25% schade en +25% pantser,\nen verdient ervaring 50% sneller\nMinder vertraging door vertrappen van geallieerde cavalerie \n Modifier Type: RESISTANT 'High-Tier Hero' \nPassieve kracht"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
 "Nodig: niveau 2\nLaat beschermers de vijand aanvallen\nBeschermers krijgen +25% snelheid en +25% pantser \n Modifier Type: 'Armor BUFF' \nVijanden worden de lucht in geslingerd\nKlik met links op het icoontje en daarna met links op het doelwit"
@@ -237,7 +237,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Geneest alle bondgenoten in de buurt\nHelden tot leven wekken wordt 5% goedkoper\nHelden tot leven wekken gaat 15% sneller. \n\n Upgrade opgeroepen Eenzame Torens"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Sterk tegen gebouwen die grondstoffen genereren \n Horde Bonus: \n Orcs in aantallen van minstens 70\n krijgen +33% schade +20% snelheid. \n Modifier Type: 'RESISTANT 'HordeBonus'  "
+"Sterk tegen gebouwen die grondstoffen genereren \n Horde Bonus: \n Orcs in aantallen van minstens 70\n krijgen +33% schade +20% snelheid. \n Modifier Type: RESISTANT 'HordeBonus'  "
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Geneest bondgenoten bij het fort en in de hallen\nExtra weerstand voor fort. \n\n Upgrade opgeroepen Eenzame Torens."
@@ -279,31 +279,31 @@ CONTROLBAR:ToolTipMenWood09v2
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Eenheden in de buurt van het\nstandbeeld krijgen +25% schade\nen verdienen ervaring 25% sneller \n Modifier Type: 'RESISTANT 'Damage Inspiring' \n Bondgenoten krijgen immuniteit tegen angst \n Modifier Type: 'LEADERSHIP AntiFear'\n\nVerhoogt de limiet van commandopunten met 10"
+"Eenheden in de buurt van het\nstandbeeld krijgen +25% schade\nen verdienen ervaring 25% sneller \n Modifier Type: RESISTANT 'Damage Inspiring' \n Bondgenoten krijgen immuniteit tegen angst \n Modifier Type: 'LEADERSHIP AntiFear'\n\nVerhoogt de limiet van commandopunten met 10"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Eenheden in de buurt van het standbeeld\nkrijgen +25% pantser\nen verdienen ervaring 25% sneller \n Modifier Type: 'RESISTANT 'Armor Inspiring' \n\nVerhoogt de limiet van commandopunten met 10"
+"Eenheden in de buurt van het standbeeld\nkrijgen +25% pantser\nen verdienen ervaring 25% sneller \n Modifier Type: RESISTANT 'Armor Inspiring' \n\nVerhoogt de limiet van commandopunten met 10"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Eenheden in de buurt van het standbeeld \nkrijgen +35% pantser \n Modifier Type: 'Armor BUFF' \n Bondgenoten krijgen immuniteit tegen angst. \n Modifier Type: 'RESISTANT AntiFear'\n\n Verhoogt de limiet van commandopunten van met 10"
+"Eenheden in de buurt van het standbeeld \nkrijgen +35% pantser \n Modifier Type: 'Armor BUFF' \n Bondgenoten krijgen immuniteit tegen angst. \n Modifier Type: RESISTANT AntiFear'\n\n Verhoogt de limiet van commandopunten van met 10"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Vermindert de kwetsbaarheid van het fort voor mêlee-aanvallen \n Nabije bevriende eenheden krijgen: \n +25% schade en verdienen ervaring +25% sneller\n Modifier Type: 'RESISTANT 'Damage Inspiring'"
+"Vermindert de kwetsbaarheid van het fort voor mêlee-aanvallen \n Nabije bevriende eenheden krijgen: \n +25% schade en verdienen ervaring +25% sneller\n Modifier Type: RESISTANT 'Damage Inspiring'"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Eenheden in de buurt van het fort\n krijgen +25% schade,\nen verdienen ervaring 25% sneller \n Modifier Type: 'RESISTANT 'Damage Inspiring' \n Prijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager"
+"Eenheden in de buurt van het fort\n krijgen +25% schade,\nen verdienen ervaring 25% sneller \n Modifier Type: RESISTANT 'Damage Inspiring' \n Prijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Eenheden in de buurt van het fort\n krijgen +25% schade,\nen verdienen ervaring 25% sneller \n Modifier Type: 'RESISTANT 'Damage Inspiring' \n Prijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager\n\n Upgrade opgeroepen Eenzame Torens."
+"Eenheden in de buurt van het fort\n krijgen +25% schade,\nen verdienen ervaring 25% sneller \n Modifier Type: RESISTANT 'Damage Inspiring' \n Prijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager\n\n Upgrade opgeroepen Eenzame Torens."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Eenheden in de buurt van het fort\n krijgen +25% schade,\nen verdienen ervaring 25% sneller \n Modifier Type: 'RESISTANT 'Damage Inspiring' \n Prijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager"
+"Eenheden in de buurt van het fort\n krijgen +25% schade,\nen verdienen ervaring 25% sneller \n Modifier Type: RESISTANT 'Damage Inspiring' \n Prijs van helden wordt 10% lager\nBrengt rekruteringstijd held met 10% terug\nPrijs van bouwers wordt 20% lager"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
@@ -311,7 +311,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Roept het Oog van Sauron op\nMaakt verscholen vijanden zichtbaar\n bondgenoten krijgen +25% schade, +25% pantser, \n en verdienen ervaring 50% sneller. \n Modifier Type: 'RESISTANT 'High-Tier Hero' \nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Roept het Oog van Sauron op\nMaakt verscholen vijanden zichtbaar\n bondgenoten krijgen +25% schade, +25% pantser, \n en verdienen ervaring 50% sneller. \n Modifier Type: RESISTANT 'High-Tier Hero' \nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
@@ -323,23 +323,23 @@ CONTROLBAR:ToolTipGimliLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Bondgenoten in de buurt van koning Dáin krijgen\n+25% schade en +25% pantser,\nen verdienen ervaring 50% sneller \n Modifier Type: 'RESISTANT 'High-Tier Hero' \n\nPassieve kracht"
+"Bondgenoten in de buurt van koning Dáin krijgen\n+25% schade en +25% pantser,\nen verdienen ervaring 50% sneller \n Modifier Type: RESISTANT 'High-Tier Hero' \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Bondgenoten nabij de vaandeldrager krijgen \n +25% schade en verdienen ervaring 25% faster. \n Modifier Type: 'RESISTANT 'Damage Inspiring' \n Geneest de strijdwagen langzaam als hij niet in gevecht is \n Voegt enkele speervechters toe aan de strijdwagen \n Onthult verborgen vijanden"
+"Bondgenoten nabij de vaandeldrager krijgen \n +25% schade en verdienen ervaring 25% faster. \n Modifier Type: RESISTANT 'Damage Inspiring' \n Geneest de strijdwagen langzaam als hij niet in gevecht is \n Voegt enkele speervechters toe aan de strijdwagen \n Onthult verborgen vijanden"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Nodig: niveau 4\nBondgenoten in de buurt van de Aardmannen-koning krijgen\n+25% schade en verdienen 25% meer ervaring. \n Nabije trollen krijgen ervaring 25% sneller \n en genezen automatisch +50 gezondheidspunten. \n Modifier Type: 'RESISTANT 'Armor Inspiring' \n\nPassieve kracht"
+"Nodig: niveau 4\nBondgenoten in de buurt van de Aardmannen-koning krijgen\n+25% schade en verdienen 25% meer ervaring. \n Nabije trollen krijgen ervaring 25% sneller \n en genezen automatisch +50 gezondheidspunten. \n Modifier Type: RESISTANT 'Armor Inspiring' \n\nPassieve kracht"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Nodig: niveau 3\nBondgenoten in de buurt van Elrond krijgen\n+25% schade en +25% pantser,\nen verdienen ervaring 50% sneller \n Modifier Type: 'RESISTANT 'High-Tier Hero' \n\nPassieve kracht"
+"Nodig: niveau 3\nBondgenoten in de buurt van Elrond krijgen\n+25% schade en +25% pantser,\nen verdienen ervaring 50% sneller \n Modifier Type: RESISTANT 'High-Tier Hero' \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Nodig: niveau 3\n Cavalerie-eenheden in de buurt van Arwen krijgen \n+25% pantser en verdienen 25% meer ervaring \n Modifier Type: 'RESISTANT 'Armor Inspiring' \n \nPassieve kracht"
+"Nodig: niveau 3\n Cavalerie-eenheden in de buurt van Arwen krijgen \n+25% pantser en verdienen 25% meer ervaring \n Modifier Type: RESISTANT 'Armor Inspiring' \n \nPassieve kracht"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
@@ -347,11 +347,11 @@ CONTROLBAR:ToolTipHaldirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Bondgenoten in de buurt van Tom Bombadil krijgen \n+25% pantser en verdienen 25% meer ervaring \n Modifier Type: 'RESISTANT 'Armor Inspiring' \n \nPassieve kracht"
+"Bondgenoten in de buurt van Tom Bombadil krijgen \n+25% pantser en verdienen 25% meer ervaring \n Modifier Type: RESISTANT 'Armor Inspiring' \n \nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Nodig: niveau 4\nBondgenoten in de buurt van Aragorn krijgen\n+25% schade en +25% pantser,\n en verdienen ervaring 50% sneller \n Modifier Type: 'RESISTANT 'High-Tier Hero' \n\nPassieve kracht"
+"Nodig: niveau 4\nBondgenoten in de buurt van Aragorn krijgen\n+25% schade en +25% pantser,\n en verdienen ervaring 50% sneller \n Modifier Type: RESISTANT 'High-Tier Hero' \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
@@ -367,11 +367,11 @@ CONTROLBAR:ToolTipBoromirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Bondgenoten in de buurt van Théoden krijgen\n+25% schade en verdienen ervaring 25% sneller \n Modifier Type: 'RESISTANT 'Damage Inspiring' \n\nPassieve kracht"
+"Bondgenoten in de buurt van Théoden krijgen\n+25% schade en verdienen ervaring 25% sneller \n Modifier Type: RESISTANT 'Damage Inspiring' \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Bondgenoten in de buurt van Saruman krijgen \n+25% pantser en verdienen 25% meer ervaring \n Modifier Type: 'RESISTANT 'Armor Inspiring' \n \nPassieve kracht"
+"Bondgenoten in de buurt van Saruman krijgen \n+25% pantser en verdienen 25% meer ervaring \n Modifier Type: RESISTANT 'Armor Inspiring' \n \nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -573,7 +573,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "&Roept drie Doemvuren op rond Sauron"
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Vereist het onderzoek bij je fort. \n\n Geeft nabije bondgenoten +25% schade en verdienen ervaring 25% sneller. \n Modifier Type: 'RESISTANT 'Damage Inspiring'"
+"Vereist het onderzoek bij je fort. \n\n Geeft nabije bondgenoten +25% schade en verdienen ervaring 25% sneller. \n Modifier Type: RESISTANT 'Damage Inspiring'"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Vereist het onderzoek bij je fort. \n\n Geneest nabije bondgenoten. \n Herstelt één eenheid per troep, elke 10 seconden"
@@ -602,7 +602,7 @@ CONTROLBAR:Fire_pit
 "Fire pit (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals Nabije bondgenoten \n Replenish 1 unit per horde each 5 seconds. \n Grants a bonus of +5% pantser \n Modifier Type: 'RESISTANT HobbitCampfire' \n Detect stealth"
+"Campfire that heals Nabije bondgenoten \n Replenish 1 unit per horde each 5 seconds. \n Grants a bonus of +5% pantser \n Modifier Type: RESISTANT HobbitCampfire' \n Detect stealth"
 END
 CONTROLBAR:FireWorks
 "FireWorks / Ignite [&V]"
@@ -649,12 +649,12 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
-END
-Map:mapmpnothing/Desc
-"nothing"
-END
+Map:mapetdruadanforestIII
+"Druadan Forest III"
+End
+Map:mapetdruadanforestIII/Desc
+"An old forest at the foot of the White Mountains, to the northwest of Minas Tirith. \n Map from BFME1, remade by Ecthelion."
+End
 //------------------------------------------------------------
 Map:mapETlebenninIV
 "Lebennin IV"
@@ -22573,7 +22573,7 @@ Map:MAPWOREttenmoors/Desc
 END
 
 Map:MAPWORFangorn/Desc
-"Een mysterieus en donker woud waar Boombaard en de Enten wonen."
+"Een mysterieus en donker woud waar Boombaard en de Enten wonen.\n Map reworked by Ecthelion."
 END
 
 Map:MAPWORForlindon/Desc

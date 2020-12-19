@@ -27,7 +27,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
 "Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on allies"
 END
 CONTROLBAR:TooltipIvoryTowerVision09v2
-"Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: 'RESISTANT IvoryTowerBonus' \n Lasts 30 seconds"
+"Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: RESISTANT IvoryTowerBonus' \n Lasts 30 seconds"
 End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Voraussetzung Stufe 3 \n Rüstet diese Horde mit Giftsäcken aus \n Fügt Gegnern Giftschaden zu und erzeugt Schaden über Zeit"
@@ -137,10 +137,10 @@ CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
 "Improved Shield Crush"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
-"Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Modifier Type: 'RESISTANT 'Damage Inspiring'"
+"Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Modifier Type: RESISTANT 'Damage Inspiring'"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Modifier Type: 'RESISTANT 'HordeBonus'  "
+"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Modifier Type: RESISTANT 'HordeBonus'  "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
@@ -149,10 +149,10 @@ CONTROLBAR:ToolTipGloriousCharge09v2
 "Voraussetzung Stufe 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Modifier Type: 'DEBUFF_PROOF GloriousCharge'. \n Theoden must be mounted to use ability \n Left click to activate"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Strong vs. Infantry\n'RESISTANT to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +20% speed. \n Modifier Type: 'RESISTANT 'HordeBonus'  "
+"Strong vs. Infantry\nRESISTANT to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +20% speed. \n Modifier Type: RESISTANT 'HordeBonus'  "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n Modifier Type: 'RESISTANT 'HordeBonus'  "
+"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n Modifier Type: RESISTANT 'HordeBonus'  "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -176,15 +176,15 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: 'RESISTANT PalantirBonus'. \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: RESISTANT PalantirBonus'. \n \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n hordes at its target area\n Modifier Type: 'RESISTANT FarsightBonus'. \n Left click icon then left click on target area"
+"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n hordes at its target area\n Modifier Type: RESISTANT FarsightBonus'. \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +250%. \n Modifier Type: 'RESISTANT ElvenWood' \n Overrides LEADERSHIP effects from the allies.  \n Left click icon then left click on target area"
+"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +250%. \n Modifier Type: RESISTANT ElvenWood' \n Overrides LEADERSHIP effects from the allies.  \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -195,11 +195,11 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Modifier Type: 'RESISTANT Darkness' \n Lasts 180 seconds. \n Left click to activate"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Modifier Type: RESISTANT Darkness' \n Lasts 180 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n Modifier Type: 'DEBUFF' \n Neutralizes LEADERSHIP, BUFF and 'RESISTANT modifiers from the enemy. \n Lasts 150 seconds. \n Left click to activate"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n Modifier Type: 'DEBUFF' \n Neutralizes LEADERSHIP, BUFF and RESISTANT modifiers from the enemy. \n Lasts 150 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
@@ -216,7 +216,7 @@ CONTROLBAR:TooltipCrebain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Voraussetzung: Stufe 3 \n Verbündete Kavallerie-Einheiten in der Nähe verursachen +25% Schaden, erhalten +25% Rüstung und sammeln doppelt so schnell Erfahrung \n Zertrampeln-Abbremsung verbündeter Kavallerie-Einheiten halbiert \n Modifier Type: 'RESISTANT 'High-Tier Hero' \n Passive Fähigkeit"
+"Voraussetzung: Stufe 3 \n Verbündete Kavallerie-Einheiten in der Nähe verursachen +25% Schaden, erhalten +25% Rüstung und sammeln doppelt so schnell Erfahrung \n Zertrampeln-Abbremsung verbündeter Kavallerie-Einheiten halbiert \n Modifier Type: RESISTANT 'High-Tier Hero' \n Passive Fähigkeit"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
 "Voraussetzung: Stufe 2 \n Hetze die Hüter auf den Feind \n Die Hüter sind +25% schneller, erhalten +25% Rüstung und werfen den Gegner zurück \n Modifier Type: 'Armor BUFF'  \n Linksklicke auf das Symbol und anschließend auf das Ziel"
@@ -237,7 +237,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Modifier Type: 'RESISTANT 'HordeBonus'  "
+"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Modifier Type: RESISTANT 'HordeBonus'  "
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers"
@@ -277,31 +277,31 @@ CONTROLBAR:ToolTipMenWood09v2
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Verbündete in der Nähe der Statue \n verursachen +25% Schaden und \n sammeln 25% mehr Erfahrung  \n Modifier Type: 'RESISTANT 'Damage Inspiring' \n Allies gain terror and fear resistance. \n Modifier Type: 'LEADERSHIP AntiFear'\n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n verursachen +25% Schaden und \n sammeln 25% mehr Erfahrung  \n Modifier Type: RESISTANT 'Damage Inspiring' \n Allies gain terror and fear resistance. \n Modifier Type: 'LEADERSHIP AntiFear'\n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Verbündete in der Nähe der Statue \n erhalten +25% Rüstung und sammeln \n 25% schneller Erfahrung \n Modifier Type: 'RESISTANT 'Armor Inspiring' \n \nErhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n erhalten +25% Rüstung und sammeln \n 25% schneller Erfahrung \n Modifier Type: RESISTANT 'Armor Inspiring' \n \nErhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Verbündete in der Nähe der Statue \n erhalten +35% Rüstung \n Modifier Type: 'Armor BUFF' \n Allies gain terror and fear resistance. \n Modifier Type: 'RESISTANT AntiFear'\n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n erhalten +35% Rüstung \n Modifier Type: 'Armor BUFF' \n Allies gain terror and fear resistance. \n Modifier Type: RESISTANT AntiFear'\n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Senkt die Nahkampf-Anfälligkeit der Festung \n Verbündete Einheiten in der näheren Umgebung erhalten: \n +25% mehr Schaden und +25% schneller Erfahrung\n Modifier Type: 'RESISTANT 'Damage Inspiring'"
+"Senkt die Nahkampf-Anfälligkeit der Festung \n Verbündete Einheiten in der näheren Umgebung erhalten: \n +25% mehr Schaden und +25% schneller Erfahrung\n Modifier Type: RESISTANT 'Damage Inspiring'"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Verleiht Truppen in der näheren Umgebung +25% Schaden und +25% Erfahrung  \n Modifier Type: 'RESISTANT 'Damage Inspiring' \n Senkt Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden \n um 10% \n Senkt Kosten für Baumeister um 20%"
+"Verleiht Truppen in der näheren Umgebung +25% Schaden und +25% Erfahrung  \n Modifier Type: RESISTANT 'Damage Inspiring' \n Senkt Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden \n um 10% \n Senkt Kosten für Baumeister um 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Verbündete in der Nähe der Festung \n erhalten +25% Schaden und +25% mehr Erfahrung \n Modifier Type: 'RESISTANT 'Damage Inspiring' \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
+"Verbündete in der Nähe der Festung \n erhalten +25% Schaden und +25% mehr Erfahrung \n Modifier Type: RESISTANT 'Damage Inspiring' \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Verbündete in der Nähe der Festung erhalten \n +25% Schaden und +25% Erfahrung  \n Modifier Type: 'RESISTANT 'Damage Inspiring' \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung \n von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
+"Verbündete in der Nähe der Festung erhalten \n +25% Schaden und +25% Erfahrung  \n Modifier Type: RESISTANT 'Damage Inspiring' \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung \n von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
@@ -309,7 +309,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Beschwört Saurons Auge \n Enttarnt versteckte Feinde und deine Mutter \n Verbündete verursachen +25% Schaden, erhalten +25% Rüstung \n und sammeln Erfahrung 50% schneller. \n Modifier Type: 'RESISTANT 'High-Tier Hero' \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Beschwört Saurons Auge \n Enttarnt versteckte Feinde und deine Mutter \n Verbündete verursachen +25% Schaden, erhalten +25% Rüstung \n und sammeln Erfahrung 50% schneller. \n Modifier Type: RESISTANT 'High-Tier Hero' \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
@@ -321,23 +321,23 @@ CONTROLBAR:ToolTipGimliLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: 'RESISTANT 'High-Tier Hero' \n Passive ability"
+"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: RESISTANT 'High-Tier Hero' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Modifier Type: 'RESISTANT 'Damage Inspiring' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Modifier Type: RESISTANT 'Damage Inspiring' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Voraussetzung: Stufe 4 \n Verbündete in der Nähe des Helden \n erhalten +25% Rüstung und \n 25% schneller Erfahrung \n Nearby Trolls gain experience 25% faster \n and autoheal +50 health points. \n Modifier Type: 'RESISTANT 'Armor Inspiring' \n Passive Fähigkeit"
+"Voraussetzung: Stufe 4 \n Verbündete in der Nähe des Helden \n erhalten +25% Rüstung und \n 25% schneller Erfahrung \n Nearby Trolls gain experience 25% faster \n and autoheal +50 health points. \n Modifier Type: RESISTANT 'Armor Inspiring' \n Passive Fähigkeit"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Voraussetzung Stufe 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: 'RESISTANT 'High-Tier Hero' \n Passive ability"
+"Voraussetzung Stufe 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: RESISTANT 'High-Tier Hero' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Voraussetzung Stufe 3 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n Modifier Type: 'RESISTANT 'Armor Inspiring' \n Passive ability"
+"Voraussetzung Stufe 3 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n Modifier Type: RESISTANT 'Armor Inspiring' \n Passive ability"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
@@ -345,11 +345,11 @@ CONTROLBAR:ToolTipHaldirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Verbündete in Tom Bombadils Nähe verursachen \n erhalten +25% Rüstung und \n sammeln Erfahrung +25% schneller \n Modifier Type: 'RESISTANT 'Armor Inspiring' \n \n Passive Fähigkeit"
+"Verbündete in Tom Bombadils Nähe verursachen \n erhalten +25% Rüstung und \n sammeln Erfahrung +25% schneller \n Modifier Type: RESISTANT 'Armor Inspiring' \n \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Voraussetzung Stufe 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Modifier Type: 'RESISTANT 'High-Tier Hero' \n Passive ability"
+"Voraussetzung Stufe 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Modifier Type: RESISTANT 'High-Tier Hero' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
@@ -365,11 +365,11 @@ CONTROLBAR:ToolTipBoromirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Allies near Theoden gain \n +25% damage and earn experience 25% faster. \n Modifier Type: 'RESISTANT 'Damage Inspiring' \n Passive ability"
+"Allies near Theoden gain \n +25% damage and earn experience 25% faster. \n Modifier Type: RESISTANT 'Damage Inspiring' \n Passive ability"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Allies near Saruman gain +25% Armor and earn experience 25% faster. \n Modifier Type: 'RESISTANT 'Armor Inspiring' \n Passive ability"
+"Allies near Saruman gain +25% Armor and earn experience 25% faster. \n Modifier Type: RESISTANT 'Armor Inspiring' \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -570,7 +570,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Rufe drei Feuer des Untergangs um Sauron herum in einem &Kreis"
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Nahe Verbündete erhalten +25% Schaden und +25% Erfahrung \n Modifier Type: 'RESISTANT 'Damage Inspiring'"
+"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Nahe Verbündete erhalten +25% Schaden und +25% Erfahrung \n Modifier Type: RESISTANT 'Damage Inspiring'"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Heilt nahe Verbündete. \n Stockt eine Einheit pro Horde alle 10 Sekunden auf"
@@ -599,7 +599,7 @@ CONTROLBAR:Fire_pit
 "Feuer Grube (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Lagerfeuer, welches nahe Verbündete heilt \n Stockt 1 Einheit pro Horde alle 5 Sekunden auf. \n Gibt +5% Rüstung \n Modifier Type: 'RESISTANT HobbitCampfire' \n Deckt getarnte Einheiten auf"
+"Lagerfeuer, welches nahe Verbündete heilt \n Stockt 1 Einheit pro Horde alle 5 Sekunden auf. \n Gibt +5% Rüstung \n Modifier Type: RESISTANT HobbitCampfire' \n Deckt getarnte Einheiten auf"
 END
 CONTROLBAR:FireWorks
 "Feuerwerk / Anzünden [&V]"
@@ -646,12 +646,12 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapmpnothing
-"nothing"
-END
-Map:mapmpnothing/Desc
-"nothing"
-END
+Map:mapetdruadanforestIII
+"Druadan Forest III"
+End
+Map:mapetdruadanforestIII/Desc
+"An old forest at the foot of the White Mountains, to the northwest of Minas Tirith. \n Map from BFME1, remade by Ecthelion."
+End
 //------------------------------------------------------------
 Map:mapETlebenninIV
 "Lebennin IV"
@@ -22574,7 +22574,7 @@ Map:MAPWOREttenmoors/Desc
 END
 
 Map:MAPWORFangorn/Desc
-"Dieser dunkle und rätselhafte Wald ist die Heimat Baumbarts und der Baumhirten."
+"Dieser dunkle und rätselhafte Wald ist die Heimat Baumbarts und der Baumhirten.\n Map reworked by Ecthelion."
 END
 
 Map:MAPWORForlindon/Desc
