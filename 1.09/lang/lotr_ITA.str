@@ -1256,11 +1256,11 @@ Map:MapSBUpperAnduin/Desc
 "The Anduin flows from northern reaches of Middle-Earth to the bay of Belfalas, far to the south. The ancestors of the Rohirrims lived near the springs of the Great River. \n Creeps: 4x Warg, 1x Troll \n Neutral structures: 1x Inn \n Map by SilverBane`"
 End
 //------------------------------------------------------------
-Map:AdornRiver
+Map:mapMPAdornRiver
 "Adorn River"
 END
-Map:AdornRiver/Desc
-"The river Adorn occurs in Middle-earth between the White Mountains (Ered Nimrais) and the western part of Rohan. \n Map by RotWK."
+Map:mapMPAdornRiver/Desc
+"The river Adorn occurs in Middle-earth between the White Mountains (Ered Nimrais) and the western part of Rohan. \n Map from RotWK."
 END
 //------------------------------------------------------------
 Map:Forochel
@@ -1555,7 +1555,7 @@ Map:mapmperech
 "Erech"
 END
 Map:mapmperech/Desc
-"An ancient site at the feet of the White Mountains in Gondor.  Erech was most famous for a huge Stone, said to have fallen from heaven, though, in fact, brought to Middle-earth by Isildur.\n Map by RotWK."
+"An ancient site at the feet of the White Mountains in Gondor.  Erech was most famous for a huge Stone, said to have fallen from heaven, though, in fact, brought to Middle-earth by Isildur.\n Map from RotWK."
 END
 //------------------------------------------------------------
 Map:mapmpbuckland6p
