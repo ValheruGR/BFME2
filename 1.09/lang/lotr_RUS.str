@@ -648,6 +648,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:mapttfiriendale
+"Firien Dale"
+END
+Map:mapTTfiriendale/Desc
+"Halifirien, tallest of the Beacon-hills of Gondor, standing apart from the main range among the trees of the Firien Wood, known as the Firien-dale. the Firien-dale lay where Rohan's Eastfold marched with the Gondorian region of Anorien. \n Map by Tempt&Ecth"
+END
+//------------------------------------------------------------
 Map:mapetdruadanforestIII
 "Druadan Forest III"
 End
