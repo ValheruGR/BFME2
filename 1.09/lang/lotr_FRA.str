@@ -23,6 +23,14 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+//------------------------------------------------------------
+CONTROLBAR:PrinceofIthilien09v2
+"Prince of Ithilien [&B]"
+END
+CONTROLBAR:PrinceofIthilienDesc09v2
+"Requires Level 5 \n Targeted archers gain experience \n Left click icon then left click on target archers"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
 "Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on allies"
 END
@@ -359,7 +367,7 @@ CONTROLBAR:ToolTipEomerLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Requiert : niveau 6\nLes alliés proches de Faramir gagnent +35% d'armures.\n Modifier Type: 'Armor BUFF'.\n Capacité passive."
+"Requiert : niveau 7\nLes alliés proches de Faramir gagnent +35% d'armures.\n Modifier Type: 'Armor BUFF'.\n Capacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
@@ -16844,7 +16852,7 @@ CONTROLBAR:ToolTipWoundingArrow
 END
 
 CONTROLBAR:ToolTipCaptainofGondor
-"Requiert : niveau 7\nDonne de l'expérience aux unités ciblées\nClic gauche sur l'icône puis clic gauche sur la cible"
+"Requiert : niveau 5\nDonne de l'expérience aux unités ciblées\nClic gauche sur l'icône puis clic gauche sur la cible"
 END
 
 CONTROLBAR:FaramirWarSpeech
