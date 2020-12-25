@@ -375,7 +375,7 @@ CONTROLBAR:ToolTipBoromirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Los aliados cercanos a Théoden ganan +25% al daño \n y consiguen experiencia 25% más rápido. \n Modificador tipo: RESISTANT 'Damage Inspiring'. \n Capacidad pasiva."
+"Requisito: Nivel 2. \n Los aliados cercanos a Théoden ganan +25% al daño \n y consiguen experiencia 25% más rápido. \n Modificador tipo: RESISTANT 'Damage Inspiring'. \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2

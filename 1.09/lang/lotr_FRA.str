@@ -375,7 +375,7 @@ CONTROLBAR:ToolTipBoromirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Les alliés proches de Théoden gagnent \n+25% de dégâts et +25% d'expériences gagnées plus rapidement.\n Modifier Type: RESISTANT 'Damage Inspiring'.\nCapacité passive."
+"Requiert : niveau 2\nLes alliés proches de Théoden gagnent \n+25% de dégâts et +25% d'expériences gagnées plus rapidement.\n Modifier Type: RESISTANT 'Damage Inspiring'.\nCapacité passive."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
