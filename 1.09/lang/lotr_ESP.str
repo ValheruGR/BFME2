@@ -192,7 +192,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Crea una zona frondosa cuyo centro crea un escudo protectivo \n contra los conjuros Tierra Mancillada y Bosque Humano del enemigo. \n Ls unidades aliadas reciben +35% a la armadura, \n +25% al daño y consiguen experiencia un 25% más rápido. \n La infanteria aliada tambien ve incrementada su capacidad de desacelerar el pisoteo de la caballeria enemiga en un +250%. \n Modificador tipo: RESISTANT ElvenWood'. \n Reemplaza los modificadores tipo LEADERSHIP de los propios aliados. \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
+"Crea una zona frondosa cuyo centro crea un escudo protectivo \n contra los conjuros Tierra Mancillada y Bosque Humano del enemigo. \n Ls unidades aliadas reciben +35% a la armadura, \n +25% al daño y consiguen experiencia un 25% más rápido. \n La infanteria aliada tambien ve incrementada su capacidad de desacelerar el pisoteo de la caballeria enemiga en un +250%. \n Modificador tipo: RESISTANT 'ElvenWood'. \n Reemplaza los modificadores tipo LEADERSHIP de los propios aliados. \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
 END
 CONTROLBAR:MenWood09v2
 "Bosque humano"
@@ -203,7 +203,7 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Cubre de oscuridad todo el mapa, de manera temporal. \n Anula la Lluvia Paralizadora, la Oscuridad y la capacidad de curar de la Ruptura de nubes. \n Las hordas aliadas ganan +50% al daño, +33% a la armadura y consiguen experiencia un 50% más rápido. \n Los monstruos independientemente ganan +25% daño +33% armadura y +50% experiencia. \n Dura 180 segundos. \n Modificador tipo: RESISTANT Darkness'. \n Para activarlo, haz clic con el botón izquierdo."
+"Cubre de oscuridad todo el mapa, de manera temporal. \n Anula la Lluvia Paralizadora, la Oscuridad y la capacidad de curar de la Ruptura de nubes. \n Las hordas aliadas ganan +50% al daño, +33% a la armadura y consiguen experiencia un 50% más rápido. \n Los monstruos independientemente ganan +25% daño +33% armadura y +50% experiencia. \n Dura 180 segundos. \n Modificador tipo: RESISTANT 'Darkness'. \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
@@ -611,7 +611,7 @@ CONTROLBAR:Fire_pit
 "Fogata de campamen&to"
 END
 CONTROLBAR:TooltipFire_pit
-"Campamento donde los aliados cercanos pueden ser curados \n Repone una unidad por batallón cada 5 segundos. \n Los aliados cercanos ganan +5% armadura. \n Modifier Type: RESISTANT HobbitCampfire' \n Detect stealth"
+"Campamento donde los aliados cercanos pueden ser curados \n Repone una unidad por batallón cada 5 segundos. \n Los aliados cercanos ganan +5% armadura. \n Modifier Type: RESISTANT 'HobbitCampfire' \n Detect stealth"
 END
 CONTROLBAR:FireWorks
 "Desplegar fuegos ar&tificiales."
@@ -662,7 +662,7 @@ Map:mapttfiriendale
 "Firien Dale"
 END
 Map:mapTTfiriendale/Desc
-"Halifirien, tallest of the Beacon-hills of Gondor, standing apart from the main range among the trees of the Firien Wood, known as the Firien-dale. the Firien-dale lay where Rohan's Eastfold marched with the Gondorian region of Anorien. \n Map by Tempt&Ecth"
+"A deep cleft separating the Halifirien hill from its spur of the White Mountains; the source of the Mering Stream. \n Map by Temptation and Ecthelion"
 END
 //------------------------------------------------------------
 Map:mapetdruadanforestIII
