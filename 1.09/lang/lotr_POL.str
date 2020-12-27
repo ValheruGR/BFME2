@@ -192,7 +192,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +250%. \n Modifier Type: RESISTANT ElvenWood' \n Overrides LEADERSHIP effects from the allies.  \n Left click icon then left click on target area"
+"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +250%. \n Modifier Type: RESISTANT 'ElvenWood' \n Overrides LEADERSHIP effects from the allies.  \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -203,7 +203,7 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Modifier Type: RESISTANT Darkness' \n Lasts 180 seconds. \n Left click to activate"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Modifier Type: RESISTANT 'Darkness' \n Lasts 180 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
@@ -373,7 +373,7 @@ CONTROLBAR:ToolTipBoromirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Allies near Theoden gain \n +25% damage and earn experience 25% faster. \n Modifier Type: RESISTANT 'Damage Inspiring' \n Passive ability"
+"Potrzeba poziomu 2 \n Allies near Theoden gain \n +25% damage and earn experience 25% faster. \n Modifier Type: RESISTANT 'Damage Inspiring' \n Passive ability"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
@@ -612,7 +612,7 @@ CONTROLBAR:Fire_pit
 "Palenisko (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Palenisko, ktore ulecza nieopodal znajdujace sie sojusznicze jednostki\n Odradza 1 jednostke z hordy co 5 sekund.\n Dostarcza kumulujacy sie bonus 5% do pancerza\n Modifier Type: RESISTANT HobbitCampfire'\n Odkrywa niewidoczne jednostki."
+"Palenisko, ktore ulecza nieopodal znajdujace sie sojusznicze jednostki\n Odradza 1 jednostke z hordy co 5 sekund.\n Dostarcza kumulujacy sie bonus 5% do pancerza\n Modifier Type: RESISTANT 'HobbitCampfire'\n Odkrywa niewidoczne jednostki."
 END
 CONTROLBAR:FireWorks
 "Fajerwerki / Zapalenie [&V]"
@@ -663,7 +663,7 @@ Map:mapttfiriendale
 "Firien Dale"
 END
 Map:mapTTfiriendale/Desc
-"Halifirien, tallest of the Beacon-hills of Gondor, standing apart from the main range among the trees of the Firien Wood, known as the Firien-dale. the Firien-dale lay where Rohan's Eastfold marched with the Gondorian region of Anorien. \n Map by Tempt&Ecth"
+"A deep cleft separating the Halifirien hill from its spur of the White Mountains; the source of the Mering Stream. \n Map by Temptation and Ecthelion"
 END
 //------------------------------------------------------------
 Map:mapetdruadanforestIII

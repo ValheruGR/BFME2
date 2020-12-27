@@ -192,7 +192,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creëert bosrijk terrein met mooie vogels, koeien, paarden, ... De koeien durven al wel eens kaka te doen dus je moet oppassen waar je loopt.\nAlle bevriende eenheden krijgen +35% pantser, \n +25% schade en verdienen ervaring 25% sneller \n Vijandige cavalerie vertraagd +250% sneller \n Modifier Type: RESISTANT ElvenWood' \n Overrides LEADERSHIP effects from the allies. \n Heeft geen effect op helden \n Klik met links op het icoontje en daarna met links op het doelgebied" 
+"Creëert bosrijk terrein met mooie vogels, koeien, paarden, ... De koeien durven al wel eens kaka te doen dus je moet oppassen waar je loopt.\nAlle bevriende eenheden krijgen +35% pantser, \n +25% schade en verdienen ervaring 25% sneller \n Vijandige cavalerie vertraagd +250% sneller \n Modifier Type: RESISTANT 'ElvenWood' \n Overrides LEADERSHIP effects from the allies. \n Heeft geen effect op helden \n Klik met links op het icoontje en daarna met links op het doelgebied" 
 END
 CONTROLBAR:MenWood09v2
 "Menselijk bos"
@@ -203,7 +203,7 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Verdrijft vorst (enkel de genezing), regen en duisternis \n Bedekt de hele kaart tijdelijk met duisternis\n Bevriende troepen krijgen +50% schade, +33% pantser en krijgen ervaring 50% sneller \n Monsters krijgen +25% schade, +33% pantser en +50% ervaring \n Modifier Type: RESISTANT Darkness' \n Duurt 180 seconden. \n Klik met links om te activeren"
+"Verdrijft vorst (enkel de genezing), regen en duisternis \n Bedekt de hele kaart tijdelijk met duisternis\n Bevriende troepen krijgen +50% schade, +33% pantser en krijgen ervaring 50% sneller \n Monsters krijgen +25% schade, +33% pantser en +50% ervaring \n Modifier Type: RESISTANT 'Darkness' \n Duurt 180 seconden. \n Klik met links om te activeren"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
@@ -375,7 +375,7 @@ CONTROLBAR:ToolTipBoromirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Bondgenoten in de buurt van Théoden krijgen\n+25% schade en verdienen ervaring 25% sneller \n Modifier Type: RESISTANT 'Damage Inspiring' \n\nPassieve kracht"
+"Nodig: niveau 2\nBondgenoten in de buurt van Théoden krijgen\n+25% schade en verdienen ervaring 25% sneller \n Modifier Type: RESISTANT 'Damage Inspiring' \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
@@ -610,7 +610,7 @@ CONTROLBAR:Fire_pit
 "Fire pit (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals Nabije bondgenoten \n Replenish 1 unit per horde each 5 seconds. \n Grants a bonus of +5% pantser \n Modifier Type: RESISTANT HobbitCampfire' \n Detect stealth"
+"Campfire that heals Nabije bondgenoten \n Replenish 1 unit per horde each 5 seconds. \n Grants a bonus of +5% pantser \n Modifier Type: RESISTANT 'HobbitCampfire' \n Detect stealth"
 END
 CONTROLBAR:FireWorks
 "FireWorks / Ignite [&V]"
@@ -661,7 +661,7 @@ Map:mapttfiriendale
 "Firien Dale"
 END
 Map:mapTTfiriendale/Desc
-"Halifirien, tallest of the Beacon-hills of Gondor, standing apart from the main range among the trees of the Firien Wood, known as the Firien-dale. the Firien-dale lay where Rohan's Eastfold marched with the Gondorian region of Anorien. \n Map by Tempt&Ecth"
+"A deep cleft separating the Halifirien hill from its spur of the White Mountains; the source of the Mering Stream. \n Map by Temptation and Ecthelion"
 END
 //------------------------------------------------------------
 Map:mapetdruadanforestIII

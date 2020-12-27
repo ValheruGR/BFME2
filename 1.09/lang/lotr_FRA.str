@@ -192,7 +192,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Fait pousser une forêt. \nCrée une zone de protection en son centre contre la forêt homme ou la terre soullié. \nLes unités alliées gagnent +35% d'armures, +25% de dégâts et gagnent +25% d'éxpériences plus rapidement. \nLa cavalerie ennemie ralentie 3,5 fois plus rapidement. \n Modifier Type: RESISTANT ElvenWood' \n Overrides LEADERSHIP effects from the allies.\nClic gauche sur l'icône puis clic gauche sur la zone cible"
+"Fait pousser une forêt. \nCrée une zone de protection en son centre contre la forêt homme ou la terre soullié. \nLes unités alliées gagnent +35% d'armures, +25% de dégâts et gagnent +25% d'éxpériences plus rapidement. \nLa cavalerie ennemie ralentie 3,5 fois plus rapidement. \n Modifier Type: RESISTANT 'ElvenWood' \n Overrides LEADERSHIP effects from the allies.\nClic gauche sur l'icône puis clic gauche sur la zone cible"
 END
 CONTROLBAR:MenWood09v2
 "Forêt Homme"
@@ -203,7 +203,7 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Annule la Pluie glacée,Ombre et le soin de Perce-nuage.\nPlonge temporairement la carte dans l'obscurité pendant 180 secondes.\n Les bataillons alliés gagnent +50% de dégâts, +33% d'armures  et gagnent +50% d'expériences plus rapidement.\nLes monstres gagnent +25% de dégâts, +33% d'armures et gagnent +50% d'expériences plus rapidement.\n Modifier Type: RESISTANT Darkness'.\nBonus cumulatif.\nClic gauche pour activer"
+"Annule la Pluie glacée,Ombre et le soin de Perce-nuage.\nPlonge temporairement la carte dans l'obscurité pendant 180 secondes.\n Les bataillons alliés gagnent +50% de dégâts, +33% d'armures  et gagnent +50% d'expériences plus rapidement.\nLes monstres gagnent +25% de dégâts, +33% d'armures et gagnent +50% d'expériences plus rapidement.\n Modifier Type: RESISTANT 'Darkness'.\nBonus cumulatif.\nClic gauche pour activer"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
@@ -375,7 +375,7 @@ CONTROLBAR:ToolTipBoromirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Les alliés proches de Théoden gagnent \n+25% de dégâts et +25% d'expériences gagnées plus rapidement.\n Modifier Type: RESISTANT 'Damage Inspiring'.\nCapacité passive."
+"Requiert : niveau 2\nLes alliés proches de Théoden gagnent \n+25% de dégâts et +25% d'expériences gagnées plus rapidement.\n Modifier Type: RESISTANT 'Damage Inspiring'.\nCapacité passive."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
@@ -611,7 +611,7 @@ CONTROLBAR:Fire_pit
 "Foyer (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Un feu de camp soignera les unités alliées proches \n Rajoute une unité manquante par bataillon toute les 5 secondes \n Confère un bonus de +5% d'armure \n Modifier Type: RESISTANT HobbitCampfire' \n Détecte la furtivité"
+"Un feu de camp soignera les unités alliées proches \n Rajoute une unité manquante par bataillon toute les 5 secondes \n Confère un bonus de +5% d'armure \n Modifier Type: RESISTANT 'HobbitCampfire' \n Détecte la furtivité"
 END
 CONTROLBAR:FireWorks
 "Feux d'artice / Allumer [&V]"
@@ -662,7 +662,7 @@ Map:mapttfiriendale
 "Firien Dale"
 END
 Map:mapTTfiriendale/Desc
-"Halifirien, tallest of the Beacon-hills of Gondor, standing apart from the main range among the trees of the Firien Wood, known as the Firien-dale. the Firien-dale lay where Rohan's Eastfold marched with the Gondorian region of Anorien. \n Map by Tempt&Ecth"
+"A deep cleft separating the Halifirien hill from its spur of the White Mountains; the source of the Mering Stream. \n Map by Temptation and Ecthelion"
 END
 //------------------------------------------------------------
 Map:mapetdruadanforestIII
