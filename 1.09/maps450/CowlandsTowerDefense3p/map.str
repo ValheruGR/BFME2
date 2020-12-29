@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 4.08 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your map. \n *This is Bos Primigenius Taurus: Build 4.10 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -260,6 +260,12 @@ End
 CONTROLBAR:UpgradeDunlandHallLevel3_New
 "Upgrad&e Dunland Hall to Level 3"
 End
+UPGRADE:IsengardDunlandHallLevel2_New
+"Warg Pit Level 2"
+END
+UPGRADE:IsengardDunlandHallLevel3_New
+"Warg Pit Level 3"
+END
 //---------------------------------------------------
 CONTROLBAR:GandalfMaiarLight_New
 "Light of Maiars (&C)"
@@ -549,10 +555,11 @@ CONTROLBAR:FalseEncouragementDesc_New
 END
 //-----
 CONTROLBAR:IsengardTrainAllies_New
-"Train the army [&C]"
+"Train the army [&B]"
 END
 CONTROLBAR:IsengardTrainAlliesDesc_New
-"Requires Level 5 \n Grima doesn't have a shit to do. \n The least thing he could do is to train the allied uruk-hais or the savage Dunland people as he learned in Rohan. \n Targeted units gain experience \n Left click icon then left click on target units"
+//"Requires Level 5 \n Grima doesn't have a shit to do. \n The least thing he could do is to train the allied uruk-hais or the savage Dunland people as he learned in Rohan. \n Targeted units gain experience \n Left click icon then left click on target units"
+"Requires Level 5 \n Mustafa learn uruk how to fite \n Left click icon then left click on target units"
 END
 //-----
 CONTROLBAR:GrimaLandThing_New
@@ -1247,7 +1254,7 @@ CONTROLBAR:RitualistSacrifice_New
 "Sac&rifice a Berserke"
 END
 CONTROLBAR:RitualistSacrificeDesc_New
-"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain \n+25% Damage, +25 speed & +66% range \n Units also become inmune to metaimpact. \n Category: 'MightyRage' \n Left click icon, then left click on the target berserker"
+"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain \n+37% Damage, +25 speed & +66% range \n Units also become inmune to metaimpact. \n Category: 'MightyRage' \n Left click icon, then left click on the target berserker"
 END
 CONTROLBAR:LurtzBoost_New
 "Locura"
@@ -1266,8 +1273,12 @@ END
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage_New
 "Requires Level 5 \n Lurtz gains +50% Damage, +10% Armor and improved fire rate \n Left click icon to activate"
 END
+CONTROLBAR:SpecialAbilityLurtzCripple_New
+"archr Blukc [&C]"
+END
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple_New
-"Requires Level 7 \n Pins enemy hero in place \n Can damage flyers \n Can only use with bow equipped \n Left click icon then left click on target"
+"Requires Level 7 \n brom can bluk blakridre, and THIS can bluk brom! \n also bluks mustrs includng truls \n and it have sblish \n btw isen archers do funy damg vs orc \n Left click icon then left click on target"
+//"Requires Level 7 \n Pins enemy hero in place \n Can damage flyers \n Can only use with bow equipped \n Left click icon then left click on target"
 END
 CONTROLBAR:LurtzSummonUrukGuard_New
 "Summon Uruk Guard [&V]"
