@@ -25,24 +25,22 @@
 	
 	
 	//-----------------------------------------------------------------------------
-			//USER_68	// Draw_GloriousChargeEffect
-			//USER_69	// Draw_DarknessEffect
 			//USER_74	// Draw_HighTierHeroLeadershipEffect
 			//USER_73	// Draw_MightRageEffect
 			//USER_72	// Draw_DoubtEffect
 			//USER_71	// Draw_ArmorStackLeadershipEffect
 			//USER_70	// Draw_DamageStackLeadershipEffect
+			//USER_69	// Draw_DarknessEffect
+			//USER_68	// Draw_GloriousChargeEffect
 			//USER_67	// Draw_HordeBonusEffect
-			//USER_64	// Draw_DevastationParalyzeEffect
-			//USER_63	// Draw_ElrondFarsightEffect
-			//USER_62	// Draw_ElrondElvenGraceBonusEffect
-			//USER_65	// Draw_ElrondElvenGraceHealEffect
 			//USER_66	// Draw_EvilHealEffect
+			//USER_65	// Draw_ElrondElvenGraceHealEffect
+			//USER_64	// Draw_DevastationParalyzeEffect
+			;;Disabled;;//USER_63	// Draw_ElrondFarsightEffect
+			//USER_62	// Draw_ElrondElvenGraceBonusEffect
 			//USER_61	// Draw_ElvenWoodEffect
-			//USER_60	// Draw_ArmorVanillaLeadershipEffect
-			//USER_59	// Draw_DamageVanillaLeadershipEffect
-			//USER_58	// LEADERSHIP + BUFF killer
-			//USER_57	// SPELL killer
+			;;Disabled;;//USER_60	// Draw_ArmorVanillaLeadershipEffect
+			;;Disabled;;/USER_59	// Draw_DamageVanillaLeadershipEffect
 	//-----------------------------------------------------------------------------
  	//-//Draw_HighTierHeroLeadershipEffect
 		Draw = W3DScriptedModelDraw Draw_HighTierHeroLeadershipEffect
@@ -403,7 +401,7 @@
 			ModelConditionState = NONE
 				Model = None
 			End
-			ModelConditionState = USER_59 USER_58
+			ModelConditionState = USER_59
 				Model = None
 			End
 			ModelConditionState = USER_59 STUNNED_FLAILING
