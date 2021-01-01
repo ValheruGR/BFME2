@@ -172,8 +172,10 @@
 			AnimationState = USER_68 BURNINGDEATH
 			End
 			AnimationState = USER_68 //Draw_GloriousChargeEffect
-				EnteringStateFX = FX_TheodenGloriousChargeFX
- 			End
+				ParticleSysBone		= BAT_HHEAD GCglowHorseNonHumanCavalryWhite_NoSL09v2 FollowBone:Yes ;;-;;GCglowHorseWhite_NoSL09v2 
+				ParticleSysBone		= B_HHIPL GCglowNonHumanCavalryRearWhite_NoSL09v2 FollowBone:Yes ;;-;; GCglowHorseRearWhite_NoSL09v2
+				ParticleSysBone		= BAT_SPINE2 GCglowWhiteNonHumanCavalry_NoSL09v2 FollowBone:Yes ;;-;;GCglowWhite_NoSL09v2
+  			End
 		End
 	//-----------------------------------------------------------------------------
 	//Draw_HordeBonusEffect

@@ -601,7 +601,7 @@ Behavior = SpecialPowerModule ModuleTag_CreateAHeroHeroicChargeUpdate
 	AttributeModifierRange		 = 200
 	AttributeModifierAffectsSelf = Yes
 	AttributeModifierAffects	 = ANY +CAVALRY	
-	;;-;; AttributeModifierFX			 = FX_TheodenGloriousChargeFX
+	AttributeModifierFX			 = FX_TheodenGloriousChargeFX
 End
 
 Behavior = SpecialAbilityUpdate ModuleTag_CreateAHeroHeroicAnimation
