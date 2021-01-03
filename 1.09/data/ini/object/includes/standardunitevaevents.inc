@@ -298,7 +298,7 @@
 			AnimationState = USER_62 BURNINGDEATH
 			End
 			AnimationState = USER_62 // Draw_ElrondElvenGraceBonusEffect
- 				ParticleSysBone		= NONE ElrondElvenGrace04_NoSL FollowBone:Yes
+ 				ParticleSysBone		= NONE ElrondElvenGraceSparkleLeadership_NoSL FollowBone:Yes
  			End
 		End
 	//-----------------------------------------------------------------------------
