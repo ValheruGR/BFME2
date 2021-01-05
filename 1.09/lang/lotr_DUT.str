@@ -29556,7 +29556,7 @@ CONTROLBAR:BattleWagonUpgradeMenOfDale
 END
 
 CONTROLBAR:BlackArrows
-"Zwarte pijlen (&K)"
+"Zwarte pijlen (&T)"
 END
 
 CONTROLBAR:BlackRiderMount
@@ -29760,7 +29760,7 @@ CONTROLBAR:PlanningModeDescription
 END
 
 CONTROLBAR:PoisonArrows
-"Gif&pijlen"
+"Gifpijlen (&T)"
 END
 
 CONTROLBAR:PurchaseIsengardWargSentry
@@ -45212,7 +45212,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Elfen-mantel (&C)"
+"Elfen-mantel (&T)"
 END
 
 CONTROLBAR:ChargeAttack

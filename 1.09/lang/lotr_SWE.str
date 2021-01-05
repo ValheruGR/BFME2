@@ -29538,7 +29538,7 @@ CONTROLBAR:ActivateFireShip
 END
 
 CONTROLBAR:BarbedArrows
-"Hullingförsedda p&ilar"
+"Hullingförsedda pilar (&T)"
 END
 
 CONTROLBAR:BattleWagonUpgradeAxeThrowers
@@ -29762,7 +29762,7 @@ CONTROLBAR:PlanningModeDescription
 END
 
 CONTROLBAR:PoisonArrows
-"G&iftpilar"
+"Giftpilar (&T)"
 END
 
 CONTROLBAR:PurchaseIsengardWargSentry
@@ -45215,7 +45215,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Alv&mantel"
+"Alvman&tel"
 END
 
 CONTROLBAR:ChargeAttack

@@ -29559,7 +29559,7 @@ CONTROLBAR:BattleWagonUpgradeMenOfDale
 END
 
 CONTROLBAR:BlackArrows
-"Czarne strzaly (&k)"
+"Czarne strzaly (&T)"
 END
 
 CONTROLBAR:BlackRiderMount
@@ -29763,7 +29763,7 @@ CONTROLBAR:PlanningModeDescription
 END
 
 CONTROLBAR:PoisonArrows
-"Zatrute strzaly (&p)"
+"Zatrute strzaly (&T)"
 END
 
 CONTROLBAR:PurchaseIsengardWargSentry
@@ -45215,7 +45215,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Plaszcz elfów (&c)"
+"Plaszcz elfów (&T)"
 END
 
 CONTROLBAR:ChargeAttack

@@ -29559,7 +29559,7 @@ CONTROLBAR:BattleWagonUpgradeMenOfDale
 END
 
 CONTROLBAR:BlackArrows
-"Schwarze Pfeile (&K)"
+"Schwarze Pfeile (&T)"
 END
 
 CONTROLBAR:BlackRiderMount
@@ -29763,7 +29763,7 @@ CONTROLBAR:PlanningModeDescription
 END
 
 CONTROLBAR:PoisonArrows
-"Giftpfeile (&P)"
+"Giftpfeile (&T)"
 END
 
 CONTROLBAR:PurchaseIsengardWargSentry
@@ -45220,7 +45220,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Elbenmantel [&C]"
+"Elbenmantel [&T]"
 END
 
 CONTROLBAR:ChargeAttack

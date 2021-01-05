@@ -29561,7 +29561,7 @@ CONTROLBAR:BattleWagonUpgradeMenOfDale
 END
 
 CONTROLBAR:BlackArrows
-"Frecce nere (&K)"
+"Frecce nere (&T)"
 END
 
 CONTROLBAR:BlackRiderMount
@@ -29765,7 +29765,7 @@ CONTROLBAR:PlanningModeDescription
 END
 
 CONTROLBAR:PoisonArrows
-"Frecce avvelenate (&P)"
+"Frecce avvelenate (&T)"
 END
 
 CONTROLBAR:PurchaseIsengardWargSentry
@@ -45224,7 +45224,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Manto elfico (&C)"
+"Manto elfico (&T)"
 END
 
 CONTROLBAR:ChargeAttack

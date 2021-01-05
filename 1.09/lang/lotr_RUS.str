@@ -29561,7 +29561,7 @@ CONTROLBAR:BattleWagonUpgradeMenOfDale
 END
 
 CONTROLBAR:BlackArrows
-"„ерные стрелы (&K)"
+"„ерные стрелы (&T)"
 END
 
 CONTROLBAR:BlackRiderMount
@@ -29765,7 +29765,7 @@ CONTROLBAR:PlanningModeDescription
 END
 
 CONTROLBAR:PoisonArrows
-"ќтравленные стрелы (&P)"
+"ќтравленные стрелы (&T)"
 END
 
 CONTROLBAR:PurchaseIsengardWargSentry
@@ -45219,7 +45219,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Ёльфийский плащ (&C)"
+"Ёльфийский плащ (&T)"
 END
 
 CONTROLBAR:ChargeAttack
