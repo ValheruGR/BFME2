@@ -29554,7 +29554,7 @@ CONTROLBAR:BattleWagonUpgradeMenOfDale
 END
 
 CONTROLBAR:BlackArrows
-"Flè&ches noires"
+"Flèches noires (&T)"
 END
 
 CONTROLBAR:BlackRiderMount
@@ -29758,7 +29758,7 @@ CONTROLBAR:PlanningModeDescription
 END
 
 CONTROLBAR:PoisonArrows
-"Flèches em&poisonnées"
+"Flèches empoisonnées (&T)"
 END
 
 CONTROLBAR:PurchaseIsengardWargSentry
@@ -45215,7 +45215,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Cape elfique [&C]"
+"Cape elfique [&T]"
 END
 
 CONTROLBAR:ChargeAttack

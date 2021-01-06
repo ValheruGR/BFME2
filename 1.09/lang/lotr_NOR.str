@@ -29543,7 +29543,7 @@ CONTROLBAR:ActivateFireShip
 END
 
 CONTROLBAR:BarbedArrows
-"Sylskarpe piler (&U)"
+"Sylskarpe piler (&T)"
 END
 
 CONTROLBAR:BattleWagonUpgradeAxeThrowers
@@ -29563,7 +29563,7 @@ CONTROLBAR:BattleWagonUpgradeMenOfDale
 END
 
 CONTROLBAR:BlackArrows
-"Svarte piler (&O)"
+"Svarte piler (&T)"
 END
 
 CONTROLBAR:BlackRiderMount
@@ -29767,7 +29767,7 @@ CONTROLBAR:PlanningModeDescription
 END
 
 CONTROLBAR:PoisonArrows
-"Giftige piler (&K)"
+"Giftige piler (&T)"
 END
 
 CONTROLBAR:PurchaseIsengardWargSentry
@@ -45219,7 +45219,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Alvekappe (&U)"
+"Alvekappe (&T)"
 END
 
 CONTROLBAR:ChargeAttack
