@@ -16790,7 +16790,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Fiala di Galadriel (&P)"
+"Fiala di Galadriel (&T)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -45224,7 +45224,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Manto elfico (&T)"
+"Manto elfico (&C)"
 END
 
 CONTROLBAR:ChargeAttack

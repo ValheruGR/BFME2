@@ -16787,7 +16787,7 @@ CONTROLBAR:ToolTipMount
 END
 
 CONTROLBAR:UseSword
-"Usar espada (&v)"
+"Usar espada (&V)"
 END
 
 CONTROLBAR:ToolTipUseSword
@@ -45232,7 +45232,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Capa élfica (&T)"
+"Capa élfica (&W)"
 END
 
 CONTROLBAR:ChargeAttack

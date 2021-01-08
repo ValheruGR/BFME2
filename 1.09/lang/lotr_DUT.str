@@ -16788,7 +16788,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Flesje van Galadriel (&P)"
+"Flesje van Galadriel (&T)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -45212,7 +45212,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Elfen-mantel (&T)"
+"Elfen-mantel (&C)"
 END
 
 CONTROLBAR:ChargeAttack

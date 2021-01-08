@@ -16795,7 +16795,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Galadriels flas&ke"
+"Galadriels flaske (&T)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -45219,7 +45219,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Alvekappe (&T)"
+"Alvekappe (&C)"
 END
 
 CONTROLBAR:ChargeAttack
