@@ -24610,7 +24610,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeRohanFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyRohanForgedBlades
-"Mejora espadas for&jadas"
+"Mejora espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyRohanForgedBlades
@@ -24618,7 +24618,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRohanForgedBlades
 END
 
 CONTROLBAR:PurchaseUpgradeRohanForgedBlades
-"Espadas for&jadas"
+"Espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanForgedBlades
@@ -32956,7 +32956,7 @@ CONTROLBAR:ToolTipCancelWallSpan
 END
 
 CONTROLBAR:PurchaseUpgradeSentryTowerForgedBlades
-"Mejora espadas for&jadas"
+"Mejora espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerForgedBlades
@@ -38078,7 +38078,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyDwarvenForgedBlades
-"Investigar Espadas for&jadas"
+"Investigar Espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyDwarvenForgedBlades
@@ -38118,7 +38118,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeGondorFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyGondorForgedBlades
-"Investigar Espadas for&jadas"
+"Investigar Espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorForgedBlades
@@ -38206,7 +38206,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyIsengardForgedBlades
-"Investigar Espadas for&jadas"
+"Investigar Espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyIsengardForgedBlades
@@ -38330,7 +38330,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildForgedBlade
 END
 
 CONTROLBAR:PurchaseTechnologyWildForgedBlades
-"Investigar Espadas for&jadas"
+"Investigar Espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyWildForgedBlades
@@ -38402,7 +38402,7 @@ CONTROLBAR:TooltipPurchaseUpgradeElvenSilverthornArrows
 END
 
 CONTROLBAR:PurchaseTechnologyElvenForgedBlades
-"Investigar Espadas for&jadas"
+"Investigar Espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenForgedBlades
@@ -38434,7 +38434,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyElvenSilverthornArrows
 END
 
 CONTROLBAR:PurchaseTechnologyMordorForgedBlades
-"Investigar Espadas for&jadas"
+"Investigar Espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyMordorForgedBlades
@@ -38474,7 +38474,7 @@ CONTROLBAR:PurchaseTechnologyDwarvenSiegeHammer
 END
 
 CONTROLBAR:PurchaseTechnologyElderRacesMagicArrows
-"Investigar flechas púa de plata. (&W)"
+"Investigar flechas púa de plata. (&U)"
 END
 
 CONTROLBAR:PurchaseTechnologyElvenCloak
@@ -44360,23 +44360,23 @@ CONTROLBAR:EvacuateAll
 END
 
 CONTROLBAR:PurchaseUpgradeGondorForgedBlades
-"Comprar espadas for&jadas"
+"Comprar espadas forjadas (&B)"
 END
 
 CONTROLBAR:PurchaseUpgradeRohanElvenWarriorForgedBlades
-"Comprar espadas for&jadas"
+"Comprar espadas forjadas (&B)"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardForgedBlades
-"Comprar espadas for&jadas"
+"Comprar espadas forjadas (&B)"
 END
 
 CONTROLBAR:PurchaseUpgradeWildForgedBlade
-"Comprar espadas for&jadas"
+"Comprar espadas forjadas (&B)"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenForgedBlades
-"Comprar espadas for&jadas"
+"Comprar espadas forjadas (&B)"
 END
 
 CONTROLBAR:PurchaseUpgradeGondorBasicTraining
@@ -45212,7 +45212,7 @@ CONTROLBAR:TooltipWargRiderHowl
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
-"Comprar espadas for&jadas"
+"Comprar espadas forjadas (&B)"
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
