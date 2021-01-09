@@ -419,7 +419,7 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Nodig: niveau 3 \n Vermommen als een normale Rohirrim. \n Eowyn valt trager aan maar doet schade in een gebied \n Klik met links om te activeren"
+"Nodig: niveau 3 \n Vermommen als een normale Rohirrim. \n Eowyn doet schade in een gebied \n Klik met links om te activeren"
 END
 CONTROLBAR:ToolTipSmite09v2
 "Krachtige afstandsaanval op één enkel doelwit \n Effectief tegen helden \n Vooral effectief tegen vliegende monsters\n\nKlik met links op het icoontje en daarna met links op het doelwit"
