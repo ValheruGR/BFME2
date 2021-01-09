@@ -82,11 +82,11 @@ CONTROLBAR:ToolTipShelobWebbing09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
-"Convocar Bal&rogs"
+"Convocar Balrogs (&W)"
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonEagleAlliesGaladriel09v2
-"Convocar águilas aliadas (&V)"
+"Convocar águilas aliadas (&T)"
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
@@ -506,7 +506,7 @@ UPGRADE:ElvenStructuralSilverthornArrows09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn09v2
-"Municiones Púa de Plata (&U)"
+"Municiones Púa de Plata (&W)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn09v2
 "Mejora con Puas de Plata las flechas de la fortaleza y todas las torres adicionales. \n Incrementa el daño causado por las flechas"
@@ -527,7 +527,7 @@ CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
-"Anillo de Poder (&W)"
+"Anillo de Poder (&V)"
 END
 CONTROLBAR:ToolTipRingOfPower09v2
 "Sauron crea una influencia de sombras y fuego que constantemente daña enemigos a su alrededor. \n Para activar, haz clic con el botón izquierdo."
@@ -25702,7 +25702,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -25954,7 +25954,7 @@ TOOLTIP:Lacksprerequisiteupgradedefault
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -26620,7 +26620,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:ConstructElvenLorienWarriorHorde
@@ -29136,11 +29136,11 @@ CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:Command_ConstructIsengardCastleWallHub
@@ -29332,7 +29332,7 @@ CONTROLBAR:ConstructMordorCorsairsOfUmbarHorde
 END
 
 CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:ConstructDwarvenHallExpansion
@@ -29456,7 +29456,7 @@ CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno
 END
 
 CONTROLBAR:SpecialAbilityFiresOfDoom
-"Fuegos del destino (&Y)"
+"Fuegos del destino (&R)"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
@@ -29496,7 +29496,7 @@ CONTROLBAR:ToolTipThunderBolt
 END
 
 CONTROLBAR:GaladrielTornado
-"I&ra de la naturaleza"
+"Ira de la naturaleza (&W)"
 END
 
 CONTROLBAR:TooltipGaladrielTornado
@@ -29580,7 +29580,7 @@ CONTROLBAR:Command_DwarvenCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_SmallWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
@@ -29588,7 +29588,7 @@ CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_SmallWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:ConstructCorsairShip
@@ -44764,7 +44764,7 @@ CONTROLBAR:ToolTipElrondFarsight
 END
 
 CONTROLBAR:ElrondRestoration
-"Restauración (&B)"
+"Restauración (&V)"
 END
 
 CONTROLBAR:ToolTipElrondRestoration

@@ -82,11 +82,11 @@ CONTROLBAR:ToolTipShelobWebbing09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
-"Summon Bal&rog"
+"Summon Balrogs (&W)"
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonEagleAlliesGaladriel09v2
-"Summon Eagle Allies (&V)"
+"Summon Eagle Allies (&T)"
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
@@ -523,7 +523,7 @@ CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
-"&Ring Of Power"
+"Ring Of Power (&V)"
 END
 CONTROLBAR:ToolTipRingOfPower09v2
 "Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
@@ -16697,7 +16697,7 @@ CONTROLBAR:ToggleWedgeFormation
 END
 
 CONTROLBAR:ToggleLineFormation
-"Linienfor&mation"
+"Linienformation (&V)"
 END
 
 CONTROLBAR:ToolTipToggleWedgeFormation
@@ -25697,7 +25697,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Maue&r errichten"
+"Mauer errichten"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -25949,7 +25949,7 @@ TOOLTIP:Lacksprerequisiteupgradedefault
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Maue&r errichten"
+"Mauer errichten"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -26615,7 +26615,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Maue&r errichten"
+"Mauer errichten"
 END
 
 CONTROLBAR:ConstructElvenLorienWarriorHorde
@@ -29131,11 +29131,11 @@ CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan
-"Maue&r errichten"
+"Mauer errichten"
 END
 
 CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
-"Maue&r errichten"
+"Mauer errichten"
 END
 
 CONTROLBAR:Command_ConstructIsengardCastleWallHub
@@ -29327,7 +29327,7 @@ CONTROLBAR:ConstructMordorCorsairsOfUmbarHorde
 END
 
 CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan
-"Maue&r errichten"
+"Mauer errichten"
 END
 
 CONTROLBAR:ConstructDwarvenHallExpansion
@@ -29575,7 +29575,7 @@ CONTROLBAR:Command_DwarvenCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_SmallWallSpan
-"Maue&r errichten"
+"Mauer errichten"
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
@@ -29583,7 +29583,7 @@ CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_SmallWallSpan
-"Maue&r errichten"
+"Mauer errichten"
 END
 
 CONTROLBAR:ConstructCorsairShip
@@ -29727,7 +29727,7 @@ CONTROLBAR:IvoryTowerVision
 END
 
 CONTROLBAR:Knife
-"Messer"
+"Messer (&W)"
 END
 
 CONTROLBAR:MenLongShotAbility
@@ -29831,7 +29831,7 @@ CONTROLBAR:SpecialAbilityWyrmReposition
 END
 
 CONTROLBAR:ThrowFireBombs
-"Brandbo&mben"
+"Brandbomben (&W)"
 END
 
 CONTROLBAR:ToggleDwarvenGuardianWeapons
@@ -44391,7 +44391,7 @@ CONTROLBAR:PurchaseUpgradeElvenBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining
-"Bannerträger kaufen [&C]"
+"Ba&nnerträger kaufen"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTrainingForMirkwoodArcherHorde

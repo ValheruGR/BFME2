@@ -82,11 +82,11 @@ CONTROLBAR:ToolTipShelobWebbing09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
-"Bal&rog oproepen"
+"Balrogs oproepen (&W)"
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonEagleAlliesGaladriel09v2
-"Adelaar bondgenoten roepen(&V)"
+"Adelaar bondgenoten roepen(&T)"
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
@@ -526,7 +526,7 @@ CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
-"&Ring Van Kracht"
+"Ring Van Kracht (&V)"
 END
 CONTROLBAR:ToolTipRingOfPower09v2
 "Sauron creëert een instroom van duisternis en vuur en richt constant schade aan omringende vijanden \n Klik met links om te activeren"
@@ -25696,7 +25696,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Muu&r bouwen"
+"Muur bouwen"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -25948,7 +25948,7 @@ TOOLTIP:Lacksprerequisiteupgradedefault
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Muu&r bouwen"
+"Muur bouwen"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -26612,7 +26612,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Muu&r bouwen"
+"Muur bouwen"
 END
 
 CONTROLBAR:ConstructElvenLorienWarriorHorde
@@ -29128,11 +29128,11 @@ CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan
-"Muu&r bouwen"
+"Muur bouwen"
 END
 
 CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
-"Muu&r bouwen"
+"Muur bouwen"
 END
 
 CONTROLBAR:Command_ConstructIsengardCastleWallHub
@@ -29324,7 +29324,7 @@ CONTROLBAR:ConstructMordorCorsairsOfUmbarHorde
 END
 
 CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan
-"Muu&r bouwen"
+"Muur bouwen"
 END
 
 CONTROLBAR:ConstructDwarvenHallExpansion
@@ -29572,7 +29572,7 @@ CONTROLBAR:Command_DwarvenCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_SmallWallSpan
-"Muu&r bouwen"
+"Muur bouwen"
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
@@ -29580,7 +29580,7 @@ CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_SmallWallSpan
-"Muu&r bouwen"
+"Muur bouwen"
 END
 
 CONTROLBAR:ConstructCorsairShip
@@ -29724,7 +29724,7 @@ CONTROLBAR:IvoryTowerVision
 END
 
 CONTROLBAR:Knife
-"Mes (&R)"
+"Mes (&W)"
 END
 
 CONTROLBAR:MenLongShotAbility
@@ -29828,7 +29828,7 @@ CONTROLBAR:SpecialAbilityWyrmReposition
 END
 
 CONTROLBAR:ThrowFireBombs
-"Vuurbo&mmen"
+"Vuurbommen (&W)"
 END
 
 CONTROLBAR:ToggleDwarvenGuardianWeapons
@@ -44384,7 +44384,7 @@ CONTROLBAR:PurchaseUpgradeElvenBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining
-"Vaandeldrager kopen (&C)"
+"Vaandeldrager kopen (&N)"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTrainingForMirkwoodArcherHorde

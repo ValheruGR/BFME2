@@ -82,11 +82,11 @@ CONTROLBAR:ToolTipShelobWebbing09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
-"Summon Bal&rog"
+"Summon Balrog (&W)"
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonEagleAlliesGaladriel09v2
-"Summon Eagle Allies (&V)"
+"Summon Eagle Allies (&T)"
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
@@ -524,7 +524,7 @@ CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
-"Кольцо Силы (&R) "
+"Кольцо Силы (&V)"
 END
 CONTROLBAR:ToolTipRingOfPower09v2
 "Саурон создает всплеск тени и пламени, постоянно наносит урон окружающим врагам \n ЛКМ - применение способности."
@@ -570,7 +570,7 @@ CONTROLBAR:ToolTipGaladHeal
 "Исцеляет всех союзников и Героев в огромном радиусе вокруг Галадриэли. \n Щелкните на пиктограмме для активации способности."
 END
 CONTROLBAR:LadyOfLight
-"Свет Валар."
+"Свет Валар (&V)"
 END
 CONTROLBAR:TooltipLadyOfLight
 "Призывает Свет Валара на головы врагов. \n Наносит огромный урон на большой территории"
@@ -25699,7 +25699,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Стена (&R)"
+"Стена"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -25951,7 +25951,7 @@ TOOLTIP:Lacksprerequisiteupgradedefault
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Стена (&R)"
+"Стена"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -26617,7 +26617,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Стена (&R)"
+"Стена"
 END
 
 CONTROLBAR:ConstructElvenLorienWarriorHorde
@@ -29133,7 +29133,7 @@ CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan
-"Стена (&R)"
+"Стена"
 END
 
 CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
@@ -29729,7 +29729,7 @@ CONTROLBAR:IvoryTowerVision
 END
 
 CONTROLBAR:Knife
-"Клинок (&R)"
+"Клинок (&W)"
 END
 
 CONTROLBAR:MenLongShotAbility
@@ -29833,7 +29833,7 @@ CONTROLBAR:SpecialAbilityWyrmReposition
 END
 
 CONTROLBAR:ThrowFireBombs
-"Бомбы (&M)"
+"Бомбы (&W)"
 END
 
 CONTROLBAR:ToggleDwarvenGuardianWeapons
@@ -44389,7 +44389,7 @@ CONTROLBAR:PurchaseUpgradeElvenBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining
-"Знаменосец (&C)"
+"Знаменосец (&N)"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTrainingForMirkwoodArcherHorde

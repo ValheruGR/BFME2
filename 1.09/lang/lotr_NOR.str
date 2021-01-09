@@ -82,11 +82,11 @@ CONTROLBAR:ToolTipShelobWebbing09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
-"Summon Bal&rog"
+"Summon Balrogs (&W)"
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonEagleAlliesGaladriel09v2
-"Summon Eagle Allies (&V)"
+"Summon Eagle Allies (&T)"
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
@@ -528,7 +528,7 @@ CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
-"&Ring Of Power"
+"Ring Of Power (&V)"
 END
 CONTROLBAR:ToolTipRingOfPower09v2
 "Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
@@ -14427,7 +14427,7 @@ CONTROLBAR:SelectNearestBuilderDescription
 END
 
 CONTROLBAR:ToolTipRohanWall
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:ConstructGondorStable
@@ -25703,7 +25703,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -25955,7 +25955,7 @@ TOOLTIP:Lacksprerequisiteupgradedefault
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -26619,7 +26619,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:ConstructElvenLorienWarriorHorde
@@ -29135,11 +29135,11 @@ CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:Command_ConstructIsengardCastleWallHub
@@ -29331,7 +29331,7 @@ CONTROLBAR:ConstructMordorCorsairsOfUmbarHorde
 END
 
 CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:ConstructDwarvenHallExpansion
@@ -29455,7 +29455,7 @@ CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno
 END
 
 CONTROLBAR:SpecialAbilityFiresOfDoom
-"Dommedagsf&lammer"
+"Dommedagsflammer (&R)"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
@@ -29463,7 +29463,7 @@ CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
 END
 
 CONTROLBAR:TerribleFury
-"Voldsomt raseri (&P)"
+"Voldsomt raseri (&T)"
 END
 
 CONTROLBAR:TooltipTerribleFury
@@ -29495,7 +29495,7 @@ CONTROLBAR:ToolTipThunderBolt
 END
 
 CONTROLBAR:GaladrielTornado
-"Naturens &vrede"
+"Naturens vrede (&W)"
 END
 
 CONTROLBAR:TooltipGaladrielTornado
@@ -29579,7 +29579,7 @@ CONTROLBAR:Command_DwarvenCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_SmallWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
@@ -29587,7 +29587,7 @@ CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_SmallWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:ConstructCorsairShip
@@ -29731,7 +29731,7 @@ CONTROLBAR:IvoryTowerVision
 END
 
 CONTROLBAR:Knife
-"Kniv (&R)"
+"Kniv (&W)"
 END
 
 CONTROLBAR:MenLongShotAbility
@@ -29835,7 +29835,7 @@ CONTROLBAR:SpecialAbilityWyrmReposition
 END
 
 CONTROLBAR:ThrowFireBombs
-"Brannbomber (&T)"
+"Brannbomber (&W)"
 END
 
 CONTROLBAR:ToggleDwarvenGuardianWeapons
@@ -44751,7 +44751,7 @@ CONTROLBAR:ToolTipElrondFarsight
 END
 
 CONTROLBAR:ElrondRestoration
-"Gjenoppbygging (&T)"
+"Gjenoppbygging (&B)"
 END
 
 CONTROLBAR:ToolTipElrondRestoration

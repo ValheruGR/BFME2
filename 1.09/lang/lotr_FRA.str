@@ -82,11 +82,11 @@ CONTROLBAR:ToolTipShelobWebbing09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
-"Invoque le Balrog"
+"Invoque les Balrogs (&W)"
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonEagleAlliesGaladriel09v2
-"Invoque les aigles [&V]"
+"Invoque les aigles [&T)"
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
@@ -527,7 +527,7 @@ CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
-"Anneau de pouvoirs"
+"Anneau de pouvoirs (&V)"
 END
 CONTROLBAR:ToolTipRingOfPower09v2
 "Sauron crée un afflux d'ombre et de flamme qui inflige des dégâts aux énnemies proches.\n Click droit pour activer."
@@ -573,7 +573,7 @@ CONTROLBAR:ToolTipGaladHeal
 "Soigne toutes les unités et héros dans un large cercle autour de Galadriel \n Click gauche pour activer"
 END
 CONTROLBAR:LadyOfLight
-"&Lumière des Valars"
+"Lumière des &Valars"
 END
 CONTROLBAR:TooltipLadyOfLight
 "Amener la lumière des Valars sur vos ennemis. \n Deals massive damage in a large area"
@@ -16700,7 +16700,7 @@ CONTROLBAR:ToggleWedgeFormation
 END
 
 CONTROLBAR:ToggleLineFormation
-"For&mation en ligne"
+"Formation en ligne (&V)"
 END
 
 CONTROLBAR:ToolTipToggleWedgeFormation
@@ -25692,7 +25692,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Construire mu&r"
+"Construire mur"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -25944,7 +25944,7 @@ TOOLTIP:Lacksprerequisiteupgradedefault
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Construire mu&r"
+"Construire mur"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -26610,7 +26610,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Construire mu&r"
+"Construire mur"
 END
 
 CONTROLBAR:ConstructElvenLorienWarriorHorde
@@ -29126,7 +29126,7 @@ CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan
-"Construire mu&r"
+"Construire mur"
 END
 
 CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
@@ -29446,7 +29446,7 @@ CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno
 END
 
 CONTROLBAR:SpecialAbilityFiresOfDoom
-"Feu&x du Destin"
+"Feux du Destin (&R)"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
@@ -29486,7 +29486,7 @@ CONTROLBAR:ToolTipThunderBolt
 END
 
 CONTROLBAR:GaladrielTornado
-"F&ureur de la nature"
+"Fureur de la nature (&W)"
 END
 
 CONTROLBAR:TooltipGaladrielTornado
@@ -29570,7 +29570,7 @@ CONTROLBAR:Command_DwarvenCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_SmallWallSpan
-"Construire mu&r"
+"Construire mur"
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
@@ -29578,7 +29578,7 @@ CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_SmallWallSpan
-"Construire mu&r"
+"Construire mur"
 END
 
 CONTROLBAR:ConstructCorsairShip
@@ -29722,7 +29722,7 @@ CONTROLBAR:IvoryTowerVision
 END
 
 CONTROLBAR:Knife
-"Couteau"
+"Couteau (&W)"
 END
 
 CONTROLBAR:MenLongShotAbility
@@ -29826,7 +29826,7 @@ CONTROLBAR:SpecialAbilityWyrmReposition
 END
 
 CONTROLBAR:ThrowFireBombs
-"Bo&mbes incendiaires"
+"Bombes incendiaires (&W)"
 END
 
 CONTROLBAR:ToggleDwarvenGuardianWeapons
@@ -44386,7 +44386,7 @@ CONTROLBAR:PurchaseUpgradeElvenBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining
-"Acheter &porte-étendard"
+"Acheter porte-éte&ndard"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTrainingForMirkwoodArcherHorde
