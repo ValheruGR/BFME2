@@ -82,11 +82,11 @@ CONTROLBAR:ToolTipShelobWebbing09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
-"Convocar Bal&rogs"
+"Convocar Balrogs (&W)"
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonEagleAlliesGaladriel09v2
-"Convocar águilas aliadas (&V)"
+"Convocar águilas aliadas (&T)"
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
@@ -391,7 +391,7 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Requisito: Nivel 2 \n Hace que los mumakil pisoteen al enemigo. \n Damage caused is improved at levels 5 and 10.\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 2 \n Hace que los mumakil pisoteen al enemigo. .\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
@@ -419,7 +419,7 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Requisito: Nivel 3 \n Se disfraza como un rohirrim normal, usando sus armas y luchando como una de ellos. \n Eowyn ataca mas lento pero hace daño en area. \n Haz clic con el botón izquierdo para activarlo."
+"Requisito: Nivel 3 \n Se disfraza como un rohirrim normal, usando sus armas y luchando como una de ellos. \n Eowyn causa daño en area. \n Haz clic con el botón izquierdo para activarlo."
 END
 CONTROLBAR:ToolTipSmite09v2
 "Poderoso ataque a distancia contra un objetivo. \n Bonificación contra heroes. \n Especialmente poderoso contra bestias voladoras de Mordor. \n\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
@@ -506,7 +506,7 @@ UPGRADE:ElvenStructuralSilverthornArrows09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn09v2
-"Municiones Púa de Plata (&U)"
+"Municiones Púa de Plata (&W)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn09v2
 "Mejora con Puas de Plata las flechas de la fortaleza y todas las torres adicionales. \n Incrementa el daño causado por las flechas"
@@ -527,7 +527,7 @@ CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
-"Anillo de Poder (&W)"
+"Anillo de Poder (&V)"
 END
 CONTROLBAR:ToolTipRingOfPower09v2
 "Sauron crea una influencia de sombras y fuego que constantemente daña enemigos a su alrededor. \n Para activar, haz clic con el botón izquierdo."
@@ -567,7 +567,7 @@ END
 
 
 CONTROLBAR:GaladHealBTP
-"&Luz de Galadriel"
+"Luz de Galad&riel"
 END
 CONTROLBAR:ToolTipGaladHeal
 "Cura toda unidad y heroe aliado dentro de un circulo cerca de Galadriel \n Haz clic con el botón izquierdo sobre el icono para activar."
@@ -16787,7 +16787,7 @@ CONTROLBAR:ToolTipMount
 END
 
 CONTROLBAR:UseSword
-"Usar espada (&v)"
+"Usar espada (&V)"
 END
 
 CONTROLBAR:ToolTipUseSword
@@ -24610,7 +24610,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeRohanFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyRohanForgedBlades
-"Mejora espadas for&jadas"
+"Mejora espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyRohanForgedBlades
@@ -24618,7 +24618,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRohanForgedBlades
 END
 
 CONTROLBAR:PurchaseUpgradeRohanForgedBlades
-"Espadas for&jadas"
+"Espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanForgedBlades
@@ -25702,7 +25702,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -25954,7 +25954,7 @@ TOOLTIP:Lacksprerequisiteupgradedefault
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -26620,7 +26620,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:ConstructElvenLorienWarriorHorde
@@ -29136,11 +29136,11 @@ CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:Command_ConstructIsengardCastleWallHub
@@ -29332,7 +29332,7 @@ CONTROLBAR:ConstructMordorCorsairsOfUmbarHorde
 END
 
 CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:ConstructDwarvenHallExpansion
@@ -29456,7 +29456,7 @@ CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno
 END
 
 CONTROLBAR:SpecialAbilityFiresOfDoom
-"Fuegos del destino (&Y)"
+"Fuegos del destino (&R)"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom
@@ -29496,7 +29496,7 @@ CONTROLBAR:ToolTipThunderBolt
 END
 
 CONTROLBAR:GaladrielTornado
-"I&ra de la naturaleza"
+"Ira de la naturaleza (&W)"
 END
 
 CONTROLBAR:TooltipGaladrielTornado
@@ -29580,7 +29580,7 @@ CONTROLBAR:Command_DwarvenCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_SmallWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
@@ -29588,7 +29588,7 @@ CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_SmallWallSpan
-"Construir mu&ro"
+"Construir muro"
 END
 
 CONTROLBAR:ConstructCorsairShip
@@ -32956,7 +32956,7 @@ CONTROLBAR:ToolTipCancelWallSpan
 END
 
 CONTROLBAR:PurchaseUpgradeSentryTowerForgedBlades
-"Mejora espadas for&jadas"
+"Mejora espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerForgedBlades
@@ -38078,7 +38078,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyDwarvenForgedBlades
-"Investigar Espadas for&jadas"
+"Investigar Espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyDwarvenForgedBlades
@@ -38118,7 +38118,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeGondorFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyGondorForgedBlades
-"Investigar Espadas for&jadas"
+"Investigar Espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorForgedBlades
@@ -38206,7 +38206,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyIsengardForgedBlades
-"Investigar Espadas for&jadas"
+"Investigar Espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyIsengardForgedBlades
@@ -38330,7 +38330,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildForgedBlade
 END
 
 CONTROLBAR:PurchaseTechnologyWildForgedBlades
-"Investigar Espadas for&jadas"
+"Investigar Espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyWildForgedBlades
@@ -38402,7 +38402,7 @@ CONTROLBAR:TooltipPurchaseUpgradeElvenSilverthornArrows
 END
 
 CONTROLBAR:PurchaseTechnologyElvenForgedBlades
-"Investigar Espadas for&jadas"
+"Investigar Espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenForgedBlades
@@ -38434,7 +38434,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyElvenSilverthornArrows
 END
 
 CONTROLBAR:PurchaseTechnologyMordorForgedBlades
-"Investigar Espadas for&jadas"
+"Investigar Espadas forjadas (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyMordorForgedBlades
@@ -38474,7 +38474,7 @@ CONTROLBAR:PurchaseTechnologyDwarvenSiegeHammer
 END
 
 CONTROLBAR:PurchaseTechnologyElderRacesMagicArrows
-"Investigar flechas púa de plata. (&W)"
+"Investigar flechas púa de plata. (&U)"
 END
 
 CONTROLBAR:PurchaseTechnologyElvenCloak
@@ -44360,23 +44360,23 @@ CONTROLBAR:EvacuateAll
 END
 
 CONTROLBAR:PurchaseUpgradeGondorForgedBlades
-"Comprar espadas for&jadas"
+"Comprar espadas forjadas (&B)"
 END
 
 CONTROLBAR:PurchaseUpgradeRohanElvenWarriorForgedBlades
-"Comprar espadas for&jadas"
+"Comprar espadas forjadas (&B)"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardForgedBlades
-"Comprar espadas for&jadas"
+"Comprar espadas forjadas (&B)"
 END
 
 CONTROLBAR:PurchaseUpgradeWildForgedBlade
-"Comprar espadas for&jadas"
+"Comprar espadas forjadas (&B)"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenForgedBlades
-"Comprar espadas for&jadas"
+"Comprar espadas forjadas (&B)"
 END
 
 CONTROLBAR:PurchaseUpgradeGondorBasicTraining
@@ -44764,7 +44764,7 @@ CONTROLBAR:ToolTipElrondFarsight
 END
 
 CONTROLBAR:ElrondRestoration
-"Restauración (&B)"
+"Restauración (&V)"
 END
 
 CONTROLBAR:ToolTipElrondRestoration
@@ -45212,7 +45212,7 @@ CONTROLBAR:TooltipWargRiderHowl
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
-"Comprar espadas for&jadas"
+"Comprar espadas forjadas (&B)"
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
@@ -45232,7 +45232,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Capa élfica (&T)"
+"Capa élfica (&W)"
 END
 
 CONTROLBAR:ChargeAttack

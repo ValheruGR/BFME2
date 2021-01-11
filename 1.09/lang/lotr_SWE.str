@@ -82,11 +82,11 @@ CONTROLBAR:ToolTipShelobWebbing09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
-"Summon Bal&rog"
+"Summon Balrogs (&W)"
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonEagleAlliesGaladriel09v2
-"Summon Eagle Allies (&V)"
+"Summon Eagle Allies (&T)"
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
@@ -390,7 +390,7 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Kräver grad 2 \n Beordra mûmakil att trampa ner fienden \n Damage caused is improved at levels 5 and 10.\nVänsterklicka på ikonen, vänsterklicka sedan på målet"
+"Kräver grad 2 \n Beordra mûmakil att trampa ner fienden .\nVänsterklicka på ikonen, vänsterklicka sedan på målet"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
@@ -418,7 +418,7 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Kräver grad 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn attacks slower but deals damage in area \n Cancels Shield Maiden bonus. \n Left click to activate"
+"Requires Level 3 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn deals damage in area \n Left click to activate"
 END
 CONTROLBAR:ToolTipSmite09v2
 "Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
@@ -524,7 +524,7 @@ CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
-"&Ring Of Power"
+"Ring Of Power (&V)"
 END
 CONTROLBAR:ToolTipRingOfPower09v2
 "Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
@@ -564,7 +564,7 @@ END
 
 
 CONTROLBAR:GaladHealBTP
-"&Light Of Galadriel"
+"Light Of Galad&riel"
 END
 CONTROLBAR:ToolTipGaladHeal
 "Heals all allied units and heroes in a large circle around Galadriel \n Left click to activate"
@@ -16790,7 +16790,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Galad&riels flaska"
+"Galadriels flaska (&T)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -25698,7 +25698,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -25950,7 +25950,7 @@ TOOLTIP:Lacksprerequisiteupgradedefault
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -26614,7 +26614,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:ConstructElvenLorienWarriorHorde
@@ -29130,11 +29130,11 @@ CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:Command_ConstructIsengardCastleWallHub
@@ -29326,7 +29326,7 @@ CONTROLBAR:ConstructMordorCorsairsOfUmbarHorde
 END
 
 CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:ConstructDwarvenHallExpansion
@@ -29490,7 +29490,7 @@ CONTROLBAR:ToolTipThunderBolt
 END
 
 CONTROLBAR:GaladrielTornado
-"Naturens &vrede"
+"Naturens vrede (&W)"
 END
 
 CONTROLBAR:TooltipGaladrielTornado
@@ -29574,7 +29574,7 @@ CONTROLBAR:Command_DwarvenCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_SmallWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
@@ -29582,7 +29582,7 @@ CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_SmallWallSpan
-"Bygg mu&r"
+"Bygg mur"
 END
 
 CONTROLBAR:ConstructCorsairShip
@@ -29726,7 +29726,7 @@ CONTROLBAR:IvoryTowerVision
 END
 
 CONTROLBAR:Knife
-"Kniv (&R)"
+"Kniv (&W)"
 END
 
 CONTROLBAR:MenLongShotAbility
@@ -29810,7 +29810,7 @@ CONTROLBAR:SpecialAbilityDwarvenDemolisherDeploy
 END
 
 CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades
-"G&iftklingor"
+"Giftklingor (&W)"
 END
 
 CONTROLBAR:SpecialAbilityOilBarrels
@@ -29830,7 +29830,7 @@ CONTROLBAR:SpecialAbilityWyrmReposition
 END
 
 CONTROLBAR:ThrowFireBombs
-"Brandbo&mber"
+"Brandbomber (&W)"
 END
 
 CONTROLBAR:ToggleDwarvenGuardianWeapons
@@ -44735,7 +44735,7 @@ CONTROLBAR:ThornofVengeance
 END
 
 CONTROLBAR:ElrondFarsight
-"Fjärrsyn [&Y]"
+"Fjärrsyn [&T]"
 END
 
 CONTROLBAR:TooltipElrondLeadership
@@ -44747,7 +44747,7 @@ CONTROLBAR:ToolTipElrondFarsight
 END
 
 CONTROLBAR:ElrondRestoration
-"Återställande [&R]"
+"Återställande [&V]"
 END
 
 CONTROLBAR:ToolTipElrondRestoration
@@ -45215,7 +45215,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Alvman&tel"
+"Alvmantel (&C)"
 END
 
 CONTROLBAR:ChargeAttack

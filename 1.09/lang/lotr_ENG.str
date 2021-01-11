@@ -82,11 +82,11 @@ CONTROLBAR:ToolTipShelobWebbing09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
-"Summon Bal&rog"
+"Summon Balrogs (&W)"
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonEagleAlliesGaladriel09v2
-"Summon Eagle Allies (&V)"
+"Summon Eagle Allies (&T)"
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
@@ -392,7 +392,7 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Requires Level 2 \n Order Mumakil to trample the enemy. \n Damage caused is improved at levels 5 and 10. \n Left click icon then left click on target"
+"Requires Level 2 \n Order Mumakil to trample the enemy. \n Left click icon then left click on target"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
@@ -420,7 +420,7 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Requires Level 3 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn attacks slower but deals damage in area \n Left click to activate"
+"Requires Level 3 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn deals damage in area \n Left click to activate"
 END
 CONTROLBAR:ToolTipSmite09v2
 "Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
@@ -527,7 +527,7 @@ CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
-"&Ring Of Power"
+"Ring Of Power (&V)"
 END
 CONTROLBAR:ToolTipRingOfPower09v2
 "Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
@@ -27492,7 +27492,7 @@ CAH:ArmorMenuLabel
 END
 
 CAH:ArmorMenuDesc
-"Armor more RESISTANT damage"
+"Armor more resistant damage"
 END
 
 CAH:PowerMenuLabel
@@ -27838,7 +27838,7 @@ END
 ///////////////////////////////////
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Build Wall (&R)"
+"Build Wall"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -28109,7 +28109,7 @@ END
 
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Build Wall (&R)"
+"Build Wall"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -28339,7 +28339,7 @@ END
 //////////////////////////////
 
 CONTROLBAR:ConstructWildSpiderHolesExpansion
-"Spider Holes Expansion"
+"S&pider Holes Expansion"
 END
 
 CONTROLBAR:ToolTipConstructWildSpiderHolesExpansion
@@ -28813,7 +28813,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Build Wall (&R)"
+"Build Wall"
 END
 
 
@@ -29583,6 +29583,7 @@ END
 
 CONTROLBAR:LW_ToolTip_DwarvenAxeThrowerHorde
 "\nUnit Type: Basic Archer\nStrong vs. Pikemen and archers."
+//"\nUnit Type: Basic Archer\nStrong vs. Infantry"
 END
 
 CONTROLBAR:LW_Unit_DwarvenMenOfDaleHorde
@@ -31598,11 +31599,11 @@ CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan
-"Build Wall (&R)"
+"Build Wall"
 END
 
 CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
-"Build Wall (&R)"
+"Build Wall"
 END
 
 CONTROLBAR:Command_ConstructIsengardCastleWallHub
@@ -31808,7 +31809,7 @@ CONTROLBAR:ConstructMordorCorsairsOfUmbarHorde
 END
 
 CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan
-"Build Wall (&R)"
+"Build Wall"
 END
 
 CONTROLBAR:ConstructDwarvenHallExpansion
@@ -31980,7 +31981,7 @@ CONTROLBAR:ToolTipThunderBolt
 END
 
 CONTROLBAR:GaladrielTornado
-"Nature's Wra&th"
+"Nature's &Wrath"
 END
 
 CONTROLBAR:TooltipGaladrielTornado
@@ -32070,7 +32071,7 @@ CONTROLBAR:Command_DwarvenCastleWallHub_BeginRamp
 End
 
 CONTROLBAR:Command_DwarvenCastleWallHub_SmallWallSpan
-"Build Wall (&R)"
+"Build Wall"
 End
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
@@ -32078,7 +32079,7 @@ CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
 End
 
 CONTROLBAR:Command_GondorCastleWallHub_SmallWallSpan
-"Build Wall (&R)"
+"Build Wall"
 End
 
 CONTROLBAR:ConstructCorsairShip
@@ -35675,7 +35676,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerForgedBlades
 END
 
 CONTROLBAR:Trollfindgoblintothrow
-"Pi&ck up Goblin"
+"&Pick up Goblin"
 END
 
 CONTROLBAR:ToolTipTrollfindgoblintothrow
@@ -44036,11 +44037,11 @@ CONTROLBAR:ToolTipCAH_InspireFear_Level2
 End
 
 CONTROLBAR:ToolTipCAH_Infernal_L1
-"Hero is RESISTANT to fire for a period of time"
+"Hero is resistant to fire for a period of time"
 End
 
 CONTROLBAR:ToolTipCAH_Infernal_L2
-"Hero and nearby allies are RESISTANT to fire for a period of time"
+"Hero and nearby allies are resistant to fire for a period of time"
 End
 
 
@@ -44651,11 +44652,11 @@ CONTROLBAR:ToolTipCAH_InspireFear_Level2_Palantir
 End
 
 CONTROLBAR:ToolTipCAH_Infernal_L1_Palantir
-"Hero is RESISTANT to fire for a period of time \n Left click to activate"
+"Hero is resistant to fire for a period of time \n Left click to activate"
 End
 
 CONTROLBAR:ToolTipCAH_Infernal_L2_Palantir
-"Hero and nearby allies are RESISTANT to fire for a period of time \n Left click to activate"
+"Hero and nearby allies are resistant to fire for a period of time \n Left click to activate"
 End
 
 
@@ -47343,7 +47344,7 @@ CONTROLBAR:ToolTipBuildIsengardBerserker
 "Requires Level 2 Uruk Pit \n Strong vs. Infantry"
 END
 CONTROLBAR:ToolTipBuildDwarvenAxeThrowerHorde
-"Strong vs. Archers and Pikemen\n RESISTANT to arrows" 
+"Strong vs. Archers and Pikemen\n Resistant to arrows" 
 END
 CONTROLBAR:ToolTipBuildDwarvenMenOfDaleHorde
 "Requires Level 2 Archery Range \n Strong vs. Infantry and Monsters"
@@ -47380,7 +47381,7 @@ CONTROLBAR:ConstructSindarWarriorHorde
 End
 
 CONTROLBAR:ToolTipBuildSindarWarriorHorde
-"Skilled with Bow and Sword  \n RESISTANT to cavalry"
+"Skilled with Bow and Sword  \n Resistant to cavalry"
 END
 
 OBJECT:RohanPeasant
@@ -47450,7 +47451,7 @@ CONTROLBAR:PurchaseUpgradeElvenBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining
-"Purchase Banner &Carrier"
+"Purchase Ba&nner Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTrainingForMirkwoodArcherHorde
@@ -47865,7 +47866,7 @@ CONTROLBAR:ToolTipElrondFarsight
 END
 
 CONTROLBAR:ElrondRestoration
-"Restoration [&B]"
+"Restoration [&V]"
 END
 
 CONTROLBAR:ToolTipElrondRestoration
@@ -47873,7 +47874,7 @@ CONTROLBAR:ToolTipElrondRestoration
 END
 
 CONTROLBAR:ElrondWhirlwind
-"Whirlwind [&V]"
+"Whirlwind [&B]"
 End
 
 CONTROLBAR:TooltipElrondWhirlwind
@@ -48252,7 +48253,7 @@ END
 
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde
-"Strong vs. Infantry\nRESISTANT to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
+"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
 END
 
 CONTROLBAR:ToolTipPoisonArrows
@@ -48402,7 +48403,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Elven Cloak [&T]"
+"Elven Cloak [&C]"
 END
 
 CONTROLBAR:ChargeAttack

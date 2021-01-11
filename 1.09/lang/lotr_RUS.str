@@ -82,11 +82,11 @@ CONTROLBAR:ToolTipShelobWebbing09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
-"Summon Bal&rog"
+"Summon Balrog (&W)"
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonEagleAlliesGaladriel09v2
-"Summon Eagle Allies (&V)"
+"Summon Eagle Allies (&T)"
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
@@ -391,7 +391,7 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Требуется уровень 2 \n Мумакил топчет противников \n Damage caused is improved at levels 5 and 10.\n Щелкните на пиктограмме, затем - на цели."
+"Требуется уровень 2 \n Мумакил топчет противников .\n Щелкните на пиктограмме, затем - на цели."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
@@ -419,7 +419,7 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Требуется уровень 3 \n Эовин маскируется под рядового всадника Рохиррим. \n Эовин атакует медленнее, но наносит урон по области. \n Отменяет бонус способности "Воительница". \n Щелкните на пиктограмме, чтобы активировать."
+"Требуется уровень 3 \n Эовин маскируется под рядового всадника Рохиррим. \n Эовин атакует наносит урон по области. \n Щелкните на пиктограмме, чтобы активировать."
 END
 CONTROLBAR:ToolTipSmite09v2
 "Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
@@ -524,7 +524,7 @@ CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
-"Кольцо Силы (&R) "
+"Кольцо Силы (&V)"
 END
 CONTROLBAR:ToolTipRingOfPower09v2
 "Саурон создает всплеск тени и пламени, постоянно наносит урон окружающим врагам \n ЛКМ - применение способности."
@@ -564,13 +564,13 @@ END
 
 
 CONTROLBAR:GaladHealBTP
-"&Свет Галадриэли."
+"Свет Галадриэли. (&R)"
 END
 CONTROLBAR:ToolTipGaladHeal
 "Исцеляет всех союзников и Героев в огромном радиусе вокруг Галадриэли. \n Щелкните на пиктограмме для активации способности."
 END
 CONTROLBAR:LadyOfLight
-"Свет Валар."
+"Свет Валар (&V)"
 END
 CONTROLBAR:TooltipLadyOfLight
 "Призывает Свет Валара на головы врагов. \n Наносит огромный урон на большой территории"
@@ -25699,7 +25699,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Стена (&R)"
+"Стена"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -25951,7 +25951,7 @@ TOOLTIP:Lacksprerequisiteupgradedefault
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Стена (&R)"
+"Стена"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -26617,7 +26617,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Стена (&R)"
+"Стена"
 END
 
 CONTROLBAR:ConstructElvenLorienWarriorHorde
@@ -29133,7 +29133,7 @@ CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan
-"Стена (&R)"
+"Стена"
 END
 
 CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
@@ -29729,7 +29729,7 @@ CONTROLBAR:IvoryTowerVision
 END
 
 CONTROLBAR:Knife
-"Клинок (&R)"
+"Клинок (&W)"
 END
 
 CONTROLBAR:MenLongShotAbility
@@ -29813,7 +29813,7 @@ CONTROLBAR:SpecialAbilityDwarvenDemolisherDeploy
 END
 
 CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades
-"Отравленные клинки (&P)"
+"Отравленные клинки (&W)"
 END
 
 CONTROLBAR:SpecialAbilityOilBarrels
@@ -29833,7 +29833,7 @@ CONTROLBAR:SpecialAbilityWyrmReposition
 END
 
 CONTROLBAR:ThrowFireBombs
-"Бомбы (&M)"
+"Бомбы (&W)"
 END
 
 CONTROLBAR:ToggleDwarvenGuardianWeapons
@@ -44389,7 +44389,7 @@ CONTROLBAR:PurchaseUpgradeElvenBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining
-"Знаменосец (&C)"
+"Знаменосец (&N)"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTrainingForMirkwoodArcherHorde
@@ -45219,7 +45219,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Эльфийский плащ (&T)"
+"Эльфийский плащ (&C)"
 END
 
 CONTROLBAR:ChargeAttack

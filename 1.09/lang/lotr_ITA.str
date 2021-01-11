@@ -82,11 +82,11 @@ CONTROLBAR:ToolTipShelobWebbing09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
-"Summon Bal&rog"
+"Summon Balrogs (&W)"
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonEagleAlliesGaladriel09v2
-"Summon Eagle Allies (&V)"
+"Summon Eagle Allies (&T)"
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
@@ -394,7 +394,7 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Richiede Livello 2 \n Ordina all'Olifante di schiacciare il nemico.\n Damage caused is improved at levels 5 and 10.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Richiede Livello 2 \n Ordina all'Olifante di schiacciare il nemico.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
@@ -422,7 +422,7 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Richiede Livello 4 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn attacks slower but deals damage in area \n Cancels Shield Maiden bonus. \n Left click to activate"
+"Requires Level 3 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn deals damage in area \n Left click to activate"
 END
 CONTROLBAR:ToolTipSmite09v2
 "Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
@@ -528,7 +528,7 @@ CONTROLBAR:ToolTipGaladrielWordOfPower09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:RingOfPower09v2
-"&Ring Of Power"
+"Ring Of Power (&V)"
 END
 CONTROLBAR:ToolTipRingOfPower09v2
 "Sauron creates an influx of shadow and flame, constantly damages surrounding enemies \n Left click to activate"
@@ -568,7 +568,7 @@ END
 
 
 CONTROLBAR:GaladHealBTP
-"&Luce Di Galadriel"
+"Luce Di Galad&riel"
 END
 CONTROLBAR:ToolTipGaladHeal
 "Guarisce tutte le unità e gli eroi in una grande area intorno a Galadriel \nClick sinistro per attivare."
@@ -16698,7 +16698,7 @@ CONTROLBAR:ToggleWedgeFormation
 END
 
 CONTROLBAR:ToggleLineFormation
-"For&mazione in linea"
+"Formazione in linea (&V)"
 END
 
 CONTROLBAR:ToolTipToggleWedgeFormation
@@ -16790,7 +16790,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Fiala di Galadriel (&P)"
+"Fiala di Galadriel (&T)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -25699,7 +25699,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Costruisci mu&ra"
+"Costruisci mura"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -25951,7 +25951,7 @@ TOOLTIP:Lacksprerequisiteupgradedefault
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Costruisci mu&ra"
+"Costruisci mura"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -26617,7 +26617,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Costruisci mu&ra"
+"Costruisci mura"
 END
 
 CONTROLBAR:ConstructElvenLorienWarriorHorde
@@ -29133,7 +29133,7 @@ CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan
-"Costruisci mu&ra"
+"Costruisci mura"
 END
 
 CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
@@ -29577,7 +29577,7 @@ CONTROLBAR:Command_DwarvenCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_DwarvenCastleWallHub_SmallWallSpan
-"Costruisci mu&ra"
+"Costruisci mura"
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
@@ -29585,7 +29585,7 @@ CONTROLBAR:Command_GondorCastleWallHub_BeginRamp
 END
 
 CONTROLBAR:Command_GondorCastleWallHub_SmallWallSpan
-"Costruisci mu&ra"
+"Costruisci mura"
 END
 
 CONTROLBAR:ConstructCorsairShip
@@ -29729,7 +29729,7 @@ CONTROLBAR:IvoryTowerVision
 END
 
 CONTROLBAR:Knife
-"Coltello"
+"Coltello (&W)"
 END
 
 CONTROLBAR:MenLongShotAbility
@@ -29815,7 +29815,7 @@ CONTROLBAR:SpecialAbilityDwarvenDemolisherDeploy
 END
 
 CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades
-"Lame avvelenate (&P)"
+"Lame avvelenate (&W)"
 END
 
 CONTROLBAR:SpecialAbilityOilBarrels
@@ -29835,7 +29835,7 @@ CONTROLBAR:SpecialAbilityWyrmReposition
 END
 
 CONTROLBAR:ThrowFireBombs
-"Bo&mbe incendiarie"
+"Bombe incendiarie (&W)"
 END
 
 CONTROLBAR:ToggleDwarvenGuardianWeapons
@@ -44395,7 +44395,7 @@ CONTROLBAR:PurchaseUpgradeElvenBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining
-"Acquista Portastendardo (&C)"
+"Acquista Portaste&ndardo"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTrainingForMirkwoodArcherHorde
@@ -45224,7 +45224,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Manto elfico (&T)"
+"Manto elfico (&C)"
 END
 
 CONTROLBAR:ChargeAttack
