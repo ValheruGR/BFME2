@@ -27492,7 +27492,7 @@ CAH:ArmorMenuLabel
 END
 
 CAH:ArmorMenuDesc
-"Armor more RESISTANT damage"
+"Armor more resistant damage"
 END
 
 CAH:PowerMenuLabel
@@ -48253,7 +48253,7 @@ END
 
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde
-"Strong vs. Infantry\nRESISTANT to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
+"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed"
 END
 
 CONTROLBAR:ToolTipPoisonArrows

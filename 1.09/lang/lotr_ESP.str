@@ -30384,7 +30384,7 @@ OBJECT:DoGoldurWallCatapultSmall
 END
 
 OBJECT:DoGoldurWallHubSmall
-"&Centro amurallado"
+"Centro amurallado"
 END
 
 OBJECT:DoGoldurWallTowerSmall
@@ -30540,7 +30540,7 @@ OBJECT:DwarvenCastleWallGate
 END
 
 OBJECT:DwarvenCastleWallHub
-"&Centro amurallado"
+"Centro amurallado"
 END
 
 OBJECT:DwarvenGuard
@@ -30632,7 +30632,7 @@ OBJECT:ElvenCastleWallGate
 END
 
 OBJECT:ElvenCastleWallHub
-"&Centro amurallado"
+"Centro amurallado"
 END
 
 OBJECT:ElvenCastleWallSegment
@@ -31096,7 +31096,7 @@ OBJECT:IsengardCastleWallGate
 END
 
 OBJECT:IsengardCastleWallHub
-"&Centro amurallado"
+"Centro amurallado"
 END
 
 OBJECT:IsengardCastleWallSegment
@@ -31360,7 +31360,7 @@ OBJECT:MordorCastleWallGate
 END
 
 OBJECT:MordorCastleWallHub
-"&Centro amurallado"
+"Centro amurallado"
 END
 
 OBJECT:MordorCastleWallSegment
@@ -31856,7 +31856,7 @@ OBJECT:WildCastleWallGate
 END
 
 OBJECT:WildCastleWallHub
-"&Centro amurallado"
+"Centro amurallado"
 END
 
 OBJECT:WildCastleWallSegment
@@ -33140,7 +33140,7 @@ OBJECT:GondorWallGate
 END
 
 OBJECT:GondorWallHub
-"&Centro amurallado"
+"Centro amurallado"
 END
 
 OBJECT:IsengardWallHubExpansion
@@ -37966,7 +37966,7 @@ OBJECT:MordorBarricadeDescription
 END
 
 OBJECT:DwarvenWallHub
-"&Centro amurallado"
+"Centro amurallado"
 END
 
 OBJECT:GarrisonableTower
