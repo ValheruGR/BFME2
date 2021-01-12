@@ -16697,7 +16697,7 @@ CONTROLBAR:ToggleWedgeFormation
 END
 
 CONTROLBAR:ToggleLineFormation
-"Formazione in linea (&V)"
+"For&mazione in linea"
 END
 
 CONTROLBAR:ToolTipToggleWedgeFormation
@@ -16705,11 +16705,11 @@ CONTROLBAR:ToolTipToggleWedgeFormation
 END
 
 CONTROLBAR:ToolTipToggleLineFormation
-"Normale formazione in linea (&V)"
+"Normale for&mazione in linea"
 END
 
 CONTROLBAR:TogglePorcupineFormation
-"Formazione porcospino (&V)"
+"For&mazione porcospino"
 END
 
 CONTROLBAR:ToolTipTogglePorcupineFormation
@@ -16717,7 +16717,7 @@ CONTROLBAR:ToolTipTogglePorcupineFormation
 END
 
 CONTROLBAR:ToggleBlockFormation
-"Formazione muro di scudi (&V)"
+"For&mazione muro di scudi"
 END
 
 CONTROLBAR:ToolTipToggleBlockFormation

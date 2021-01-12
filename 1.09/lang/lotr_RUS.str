@@ -16698,7 +16698,7 @@ CONTROLBAR:ToggleWedgeFormation
 END
 
 CONTROLBAR:ToggleLineFormation
-"Линия (&V)"
+"Линия (&M)"
 END
 
 CONTROLBAR:ToolTipToggleWedgeFormation
@@ -16710,7 +16710,7 @@ CONTROLBAR:ToolTipToggleLineFormation
 END
 
 CONTROLBAR:TogglePorcupineFormation
-"Еж  (&V)"
+"Еж  (&M)"
 END
 
 CONTROLBAR:ToolTipTogglePorcupineFormation
@@ -16718,7 +16718,7 @@ CONTROLBAR:ToolTipTogglePorcupineFormation
 END
 
 CONTROLBAR:ToggleBlockFormation
-"Стена щитов (&V)"
+"Стена щитов (&M)"
 END
 
 CONTROLBAR:ToolTipToggleBlockFormation
