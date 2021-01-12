@@ -16696,7 +16696,7 @@ CONTROLBAR:ToggleWedgeFormation
 END
 
 CONTROLBAR:ToggleLineFormation
-"Linienformation (&V)"
+"Linienfor&mation"
 END
 
 CONTROLBAR:ToolTipToggleWedgeFormation
@@ -16704,11 +16704,11 @@ CONTROLBAR:ToolTipToggleWedgeFormation
 END
 
 CONTROLBAR:ToolTipToggleLineFormation
-"Standard-Linienformation (&V)"
+"Standard-Linienfor&mation"
 END
 
 CONTROLBAR:TogglePorcupineFormation
-"Stachelschwein-Formation (&V)"
+"Stachelschwein-For&mation"
 END
 
 CONTROLBAR:ToolTipTogglePorcupineFormation
@@ -16716,7 +16716,7 @@ CONTROLBAR:ToolTipTogglePorcupineFormation
 END
 
 CONTROLBAR:ToggleBlockFormation
-"Schildwall-Formation (&V)"
+"Schildwall-For&mation"
 END
 
 CONTROLBAR:ToolTipToggleBlockFormation

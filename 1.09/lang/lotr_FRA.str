@@ -16700,7 +16700,7 @@ CONTROLBAR:ToggleWedgeFormation
 END
 
 CONTROLBAR:ToggleLineFormation
-"Formation en ligne (&V)"
+"For&mation en ligne"
 END
 
 CONTROLBAR:ToolTipToggleWedgeFormation
@@ -16708,11 +16708,11 @@ CONTROLBAR:ToolTipToggleWedgeFormation
 END
 
 CONTROLBAR:ToolTipToggleLineFormation
-"Formation en ligne par défaut (&V)"
+"For&mation en ligne par défaut"
 END
 
 CONTROLBAR:TogglePorcupineFormation
-"Formation porc-épic (&V)"
+"For&mation porc-épic"
 END
 
 CONTROLBAR:ToolTipTogglePorcupineFormation
@@ -16720,7 +16720,7 @@ CONTROLBAR:ToolTipTogglePorcupineFormation
 END
 
 CONTROLBAR:ToggleBlockFormation
-"Formation en bloc (&V)"
+"For&mation en bloc"
 END
 
 CONTROLBAR:ToolTipToggleBlockFormation

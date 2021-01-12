@@ -16698,7 +16698,7 @@ CONTROLBAR:ToggleWedgeFormation
 END
 
 CONTROLBAR:ToggleLineFormation
-"Linjeformering (&V)"
+"Linje&formering"
 END
 
 CONTROLBAR:ToolTipToggleWedgeFormation
@@ -16710,7 +16710,7 @@ CONTROLBAR:ToolTipToggleLineFormation
 END
 
 CONTROLBAR:TogglePorcupineFormation
-"Igelkottformering (&V)"
+"&Igelkottformering"
 END
 
 CONTROLBAR:ToolTipTogglePorcupineFormation
@@ -16718,7 +16718,7 @@ CONTROLBAR:ToolTipTogglePorcupineFormation
 END
 
 CONTROLBAR:ToggleBlockFormation
-"Sköldmur-formering (&V)"
+"Sköldmur-for&mering"
 END
 
 CONTROLBAR:ToolTipToggleBlockFormation
