@@ -32,7 +32,7 @@ CONTROLBAR:PrinceofIthilienDesc09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
-"Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on allies"
+"Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on player units"
 END
 CONTROLBAR:TooltipIvoryTowerVision09v2
 "Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: RESISTANT IvoryTowerBonus' \n Lasts 30 seconds"
