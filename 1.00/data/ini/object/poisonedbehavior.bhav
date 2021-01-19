@@ -1,0 +1,4 @@
+	Behavior = PoisonedBehavior ModuleTag_UnskinnyBop
+		PoisonDamageInterval	=	1000
+		PoisonDuration			=	30000
+	End
