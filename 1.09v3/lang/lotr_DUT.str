@@ -15260,7 +15260,7 @@ CONTROLBAR:Undermine
 END
 
 CONTROLBAR:TooltipUndermine
-"Plaatst een mijnschacht op een willekeurige locatie op de kaart\nDe mijnschacht wordt onmiddellijk verbonden met het tunnelnetwerk\nKlik met links op het icoontje en daarna met links op een zichtbare locatie"
+"Plaatst een mijnschacht op een willekeurige locatie op de kaart \n Does not need shroud reveal but cannot be casted near any enemy fortress. \nDe mijnschacht wordt onmiddellijk verbonden met het tunnelnetwerk\nKlik met links op het icoontje en daarna met links op een zichtbare locatie"
 END
 
 OBJECT:UndermineMineShaft

@@ -158,7 +158,7 @@ CONTROLBAR:ToolTipGloriousCharge09v2
 "Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Modifier Type: 'DEBUFF_PROOF GloriousCharge'. \n Theoden must be mounted to use ability \n Left click to activate"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Strong vs. Infantry\nRESISTANT to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +20% speed. \n Modifier Type: RESISTANT 'HordeBonus'  "
+"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +20% speed. \n Modifier Type: RESISTANT 'HordeBonus'  "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
 "Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n Modifier Type: RESISTANT 'HordeBonus'  "
@@ -16834,7 +16834,7 @@ CONTROLBAR:Undermine
 END
 
 CONTROLBAR:TooltipUndermine
-"Places a Mine Shaft anywhere on the map \n Mine Shaft becomes immediately connected to tunnel network \n Deals high damage at spawn point and light damage in the perimeter\n Left click icon then left click on visible location"
+"Places a Mine Shaft anywhere on the map \n Does not need shroud reveal but cannot be casted near any enemy fortress. \n Mine Shaft becomes immediately connected to tunnel network \n Deals high damage at spawn point and light damage in the perimeter\n Left click icon then left click on visible location"
 END
 
 OBJECT:UndermineMineShaft

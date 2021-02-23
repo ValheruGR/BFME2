@@ -25,17 +25,17 @@ CONTROLBAR:nothingDesc09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
-"Prince of Ithilien [&B]"
+"Принц Итилиена [&B]"
 END
 CONTROLBAR:PrinceofIthilienDesc09v2
-"Requires Level 5 \n Targeted archers gain experience \n Left click icon then left click on target archers"
+"Требуется уровень 5 \n Выбранные стрелки получают опыт. \n Щелкни левой кнопкой мыши по иконке, затем по выбранным лучникам."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
-"Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on allies"
+"Увеличивает дальность обзора крепости и \n позволяет обнаружить невидимых врагов. \n Открывает карту союзным войскам."
 END
 CONTROLBAR:TooltipIvoryTowerVision09v2
-"Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: RESISTANT IvoryTowerBonus' \n Lasts 30 seconds"
+"Полностью открывает карту. \n Союзные войска получают +10% к скорости передвижения. \n Modifier Type: RESISTANT IvoryTowerBonus' \n Длительность: 30 секунд. "
 End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Требуется уровень 3 \n Отряд получает возможность использовать яд. \n Яд некоторое время наносит дополнительный урон врагу."
@@ -67,7 +67,7 @@ CONTROLBAR:ToolTipLeap09v2
 "Требуется уровень 2. \n Гимли совершает прыжок, нанося урон оказавшимся рядом врагам. \n Ability radius of effect is improved at level 4 and 7. \n Щелкните на пиктограмме, затем - на участке местности."
 END
 TOOLTIP:ToolTipWitchKing09v2
-"Mace attack radius of effect is improved is improved at level 5 and 8."
+"Радиус нанесения урона  повышается на 5-ом и 8-ом уровнях."
 END
 //------------------------------------------------------------
 CONTROLBAR:GenericMountTooltipDain09v2
@@ -75,47 +75,47 @@ CONTROLBAR:GenericMountTooltipDain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ShelobWebbing09v2
-"We&b Of Ungoliant"
+"Паутина Унголианта (&B)"
 End
 CONTROLBAR:ToolTipShelobWebbing09v2
-"Требуется уровень 10 \n Cripples enemy units in spider webs for 4.5 seconds and drains their life for the duration. \n Shelob is healed based on total damage caused to heroes. \n Left click icon then left click on target area"
+"Требуется уровень 10 \n Охватывает паутиной вражеские войска, не позволяя им двигаться в течение 5 сек., \n а так же истощает их жизненные силы. \n Шелоб исцеляется в зависимости от суммарного урона, нанесённого вражеским героям. \n Щелкните на пиктограмме, затем - на участке местности."
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonBalrogSauron09v2
-"Summon Balrog (&W)"
+"Призыв Барлога (&W)"
 End
 //------------------------------------------------------------
 CONTROLBAR:SummonEagleAlliesGaladriel09v2
-"Summon Eagle Allies (&T)"
+"Призыв союзных орлов (&T)"
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
-"Level 2: +50 Command Points"
+"Уровень 2: +50 Очков командования"
 END
 UPGRADE:FarmLevel3Tooltip09v2
-"Level 3: +75 Command Points"
+"Уровень 3: +75 Очков командования"
 END
 CONTROLBAR:ThunderBolt09v2
 "Thunderbolt Storm [&B]"
 END
 CONTROLBAR:ToolTipThunderBolt09v2
-"Требуется уровень 10 \n Saruman creates a series of clouds that strike powerful lightning bolts against targeted location. \n Left click icon then left click on location"
+"Требуется уровень 10 \n Саруман создаёт грозовое облако, поражающее противников серией молний в указанном месте. \n Щелкните на пиктограмме, затем - на участке местности."
 END
 CONTROLBAR:ToolTipPersonalFlood09v2
-"Требуется уровень 5. \n Громадная волна наносит урон врагам и тушит пожары. \n Особенно эффективна против Назгулов. \n Bonus against Black Riders. \n The flood horses are improved at level 10.\n Щелкните на пиктограмме, затем - на цели."
+"Требуется уровень 5. \n Громадная волна наносит урон врагам и тушит пожары. \n Особенно эффективна против Назгулов. \n Способность улучшается на 10 уровне.\n Щелкните на пиктограмме, затем - на цели."
 END
 CONTROLBAR:ToolTipSlayer09v2
-"Требуется уровень 5. \n Гимли получает +50% к атаке, скорость удвоена. \n Штраф к броне против зданий -15%. \n Has an 80% chance to knockback heroes\n ЛКМ - применение способности."
+"Требуется уровень 5. \n Гимли получает +50% к атаке, скорость удвоена. \n Штраф к броне против зданий -15%. \n Имеет 80% шанс сбить с ног вражеских героев. \n ЛКМ - применение способности."
 END
 CONTROLBAR:TooltipElrondWhirlwind09v2
 "Требуется уровень 6. \n На поле боя возникает страшный ураган. \n Щелкните на пиктограмме, затем - на участке местности."
 END
 CONTROLBAR:TooltipScreechWitchKing09v2
-"Треубется уровень 4. \n Враги в ужасе разбегаются. \n When dismounted it can pierce through the level 5 fear immunity from enemy hordes\n ЛКМ - применение способности."
+"Треубется уровень 4. \n Враги в ужасе разбегаются. \n В спешенном состоянии спобосность игнорирует иммунитет к страху отрядов 5 уровня.\n ЛКМ - применение способности."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildIronOreUpgrade09v2
-"Reduces the cost of Forged Blades, Heavy Armor and Fire Arrows upgrades by 33%"
+"Снижает стоимость улучшений Кованые клинки, Тяжёлая броня и Огненные стрелы на 33%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
@@ -126,10 +126,10 @@ CONTROLBAR:TooltipBladeMaster09v2
 END
 //------------------------------------------------------------
 UPGRADE:AutohealUpgradeAdvanced09v2
-"Improved Auto heal"
+"Улучшенное самоисцеление"
 END
 UPGRADE:AutohealUpgradeBasic09v2
-"Basic Auto heal"
+"Самоисцеление"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
@@ -157,10 +157,10 @@ CONTROLBAR:ToolTipGloriousCharge09v2
 "Требуется уровень 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Modifier Type: 'DEBUFF_PROOF GloriousCharge'. \n Theoden must be mounted to use ability \n Left click to activate"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Strong vs. Infantry\nRESISTANT to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +20% speed. \n Modifier Type: RESISTANT 'HordeBonus'  "
+"Преимущество: пехота.\n Противостоит атаке конницы. \n Бонус орды: гоблины в количестве от 100 и больше получают: \n +33% к атаке и +20% к скорости. \n Modifier Type: RESISTANT 'HordeBonus'  "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n Modifier Type: RESISTANT 'HordeBonus'  "
+"Преимущество: пехота." Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n Modifier Type: RESISTANT 'HordeBonus'  "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -15262,7 +15262,7 @@ CONTROLBAR:Undermine
 END
 
 CONTROLBAR:TooltipUndermine
-"В любом ВИДИМОМ месте на карте призывается подкоп \n Подкоп соединен с системой туннелей \n Наносит сильный урон в месте призыва и легкий урон по периметру \n Активируется левой кнопкой мыши"
+"Призывается подкоп\n Может быть использован в любом месте вдали от вражеской крепости   \n Подкоп соединен с системой туннелей \n Наносит сильный урон в месте призыва и легкий урон по периметру \n Активируется левой кнопкой мыши"
 END
 
 OBJECT:UndermineMineShaft

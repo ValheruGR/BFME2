@@ -16046,7 +16046,7 @@ OBJECT:GondorCastleUpgradeBattleTower
 END
 
 CONTROLBAR:SelectAllHeroes
-"Select All Heroes [&Z]"
+"Select All Heroes [&Y]"
 END
 CONTROLBAR:SelectAllHeroesDescription
 "Click here to select all hero units on the map"
@@ -18348,7 +18348,6 @@ CONTROLBAR:ToggleLooseFormation
 END
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
 "-30% Speed \n +20% Armor \n +25% arrow resistance"
-
 END
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
 "Default Formation"
@@ -47726,7 +47725,7 @@ END
 
 
 CONTROLBAR:ToolTipGlorfindelStarlight
-"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, double armor \n \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n \n Left click to activate"
+"Requires Level 10 \n Nearby allies become healed and gain \n +50% Damage, double armor \n \n Simple leadership kind \n Does not stack with other Armor leaderships \n Light sensitive units become stunned. \n \n Left click to activate" 
 END
 
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity
