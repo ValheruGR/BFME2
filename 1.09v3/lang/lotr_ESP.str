@@ -16275,7 +16275,7 @@ CONTROLBAR:ToolTipGenericRecruitHero
 END
 
 CONTROLBAR:FireArrowUpgrade
-"Flechas de f&uego"
+"Flechas de fuego (&B)"
 END
 
 CONTROLBAR:TooltipFireArrowUpgrade
@@ -16439,7 +16439,7 @@ CONTROLBAR:ToolTipSpecialAbilityGrondPower
 END
 
 CONTROLBAR:ConstructMordorDrummerTrolls
-"Troll con tambor (&Y)"
+"Troll con tambor (&W)"
 END
 
 CONTROLBAR:TooltipConstructMordorDrummerTrolls
@@ -16951,7 +16951,7 @@ CONTROLBAR:ToolTipShieldMaiden
 END
 
 CONTROLBAR:ToggleTrebWeapon
-"&Bombardear"
+"Bombardear (&V)"
 END
 
 CONTROLBAR:ToolTipToggleTrebWeapon
@@ -16959,7 +16959,7 @@ CONTROLBAR:ToolTipToggleTrebWeapon
 END
 
 CONTROLBAR:NoAutoAcquire
-"Deqtener ad&uisición automática"
+"Detener aduisición au&tomática"
 END
 
 CONTROLBAR:ToolTipNoAutoAcquire
@@ -24598,7 +24598,7 @@ SCRIPT:MEEdBonus02
 END
 
 CONTROLBAR:PurchaseTechnologyRohanFireArrows
-"Investigación: Mejora flechas de f&uego"
+"Investigación: Mejora flechas de fuego (&U)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyRohanFireArrows
@@ -29008,7 +29008,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines
 END
 
 CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows
-"Flechas de f&uego"
+"Flechas de fuego (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerFireArrows
@@ -29064,7 +29064,7 @@ CONTROLBAR:ToolTipConstructIsengardWallHubExpansion
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressOrcfireMunitions
-"Municiones de f&uego orco"
+"Municiones de fuego orco (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressOrcfireMunitions
@@ -32984,7 +32984,7 @@ OBJECT:HordeDunedainRanger
 END
 
 CONTROLBAR:StopBombard
-"Detener el &bombardeo"
+"Detener el bombardeo (&V)"
 END
 
 CONTROLBAR:ToolTipCommandStopBombard
@@ -38106,7 +38106,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenHeavyArmor
 END
 
 CONTROLBAR:PurchaseTechnologyGondorFireArrows
-"Investigar flechas de f&uego"
+"Investigar flechas de fuego (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorFireArrows
@@ -38162,7 +38162,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeGondorKnightShield
 END
 
 CONTROLBAR:PurchaseTechnologyGondorFireStones
-"Investigar proyectiles de f&uego"
+"Investigar proyectiles de fuego (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorFireStones
@@ -38170,7 +38170,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyGondorFireStones
 END
 
 CONTROLBAR:PurchaseUpgradeGondorFireStones
-"Comprar proyectiles de f&uego"
+"Comprar proyectiles de fuego (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeGondorFireStones
@@ -38194,7 +38194,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeRohanHorseShield
 END
 
 CONTROLBAR:PurchaseTechnologyIsengardFireArrows
-"Investigar flechas de f&uego"
+"Investigar flechas de fuego (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyIsengardFireArrows
@@ -38234,7 +38234,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardHeavyArmor
 END
 
 CONTROLBAR:PurchaseTechnologyMordorFireArrows
-"Investigar flechas de f&uego"
+"Investigar flechas de fuego (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyMordorFireArrows
@@ -38254,7 +38254,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeGondorBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyIsengardBasicTraining
-"Investigar Portaestandarte (&W)"
+"Investigar Portaestandarte (&R)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyIsengardBasicTraining
@@ -38302,7 +38302,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyWildBasicTraining
-"Investigar Portaestandarte (&W)"
+"Investigar Portaestandarte (&R)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining
@@ -38310,7 +38310,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeWildFireArrows
-"Comprar flechas de f&uego"
+"Comprar flechas de fuego (&B)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFireArrows
@@ -38318,7 +38318,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyWildFireArrows
-"Investigar flechas de f&uego"
+"Investigar flechas de fuego (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyWildFireArrows
@@ -38374,7 +38374,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyElvenBasicTraining
-"Investigar Portaestandarte (&W)"
+"Investigar Portaestandarte (&R)"
 END
 
 CONTROLBAR:ToolTipBuildElvenBasicTraining
@@ -38394,7 +38394,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyElvenBasicTraining
 END
 
 CONTROLBAR:PurchaseUpgradeElvenSilverthornArrows
-"Comprar flechas púa de Plata (&U)"
+"Comprar flechas púa de Plata (&B)"
 END
 
 CONTROLBAR:TooltipPurchaseUpgradeElvenSilverthornArrows
@@ -38426,7 +38426,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenHeavyArmor
 END
 
 CONTROLBAR:PurchaseTechnologyElvenSilverthornArrows
-"Investigar flechas púa de Plata (&U)"
+"Investigar flechas púa de Plata (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyElvenSilverthornArrows
@@ -38470,11 +38470,11 @@ CONTROLBAR:PurchaseTechnologyDwarvenFlamingShot
 END
 
 CONTROLBAR:PurchaseTechnologyDwarvenSiegeHammer
-"Investigación: Martillos de asedio (&U)"
+"Investigación: Martillos de asedio (&W)"
 END
 
 CONTROLBAR:PurchaseTechnologyElderRacesMagicArrows
-"Investigar flechas púa de plata. (&U)"
+"Investigar flechas púa de plata. (&W)"
 END
 
 CONTROLBAR:PurchaseTechnologyElvenCloak
@@ -38554,7 +38554,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeShipArmor
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenSiegeHammer
-"Martillos de asedio (&U)"
+"Martillos de asedio (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenSiegeHammer
@@ -44332,7 +44332,7 @@ CONTROLBAR:ToolTipConstructWildSentryTower
 END
 
 CONTROLBAR:ConstructSindarWarriorHorde
-"G&uerreros elfos"
+"Guerre&ros elfos"
 END
 
 CONTROLBAR:ToolTipBuildSindarWarriorHorde
@@ -45232,7 +45232,7 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"&Capa élfica"
+"&Capa elfica"
 END
 
 CONTROLBAR:ChargeAttack

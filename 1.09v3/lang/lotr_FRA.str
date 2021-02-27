@@ -15262,7 +15262,7 @@ CONTROLBAR:Undermine
 END
 
 CONTROLBAR:TooltipUndermine
-"Place une mine n'importe où sur la carte \n Does not need shroud reveal but cannot be casted near any enemy fortress. \nLa mine est immédiatement reliée au réseau de tunnels \nProvoque de lourds dommages au point d'apparition et de légers dommages dans le périmètre \nClic gauche sur l'icône puis clic gauche sur la zone visible"
+"Place une mine n'importe où sur la carte \n N'a nul besoin de vision mais ne peut être placé près d'une forteresse ennemie \nLa mine est immédiatement reliée au réseau de tunnels \nProvoque de lourds dommages au point d'apparition et de légers dommages dans le périmètre \nClic gauche sur l'icône puis clic gauche sur la zone visible"
 END
 
 OBJECT:UndermineMineShaft
