@@ -9956,7 +9956,7 @@ CONTROLBAR:TrollFindTree
 END
 
 CONTROLBAR:ConstructWarg
-"Huargo (&L)"
+"Huargo (&W)"
 END
 
 CONTROLBAR:ToolTipBuildWarg
@@ -9964,7 +9964,7 @@ CONTROLBAR:ToolTipBuildWarg
 END
 
 CONTROLBAR:ConstructSpider
-"Araña (&L)"
+"Araña (&W)"
 END
 
 CONTROLBAR:ToolTipBuildSpider
@@ -9972,7 +9972,7 @@ CONTROLBAR:ToolTipBuildSpider
 END
 
 CONTROLBAR:ConstructBarrowWight
-"Tu&mulario"
+"Tumulario(&W)"
 END
 
 CONTROLBAR:ToolTipBuildBarrowWight
@@ -26242,7 +26242,7 @@ CONTROLBAR:PurchaseShipUpgradePirateFlag
 END
 
 CONTROLBAR:PurchaseUpgradePirateFlag
-"Bandera &pirata"
+"Bandera pirata (&R)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradePirateFlag
@@ -26378,7 +26378,7 @@ TOOLTIP:LackLevel2TreasureTrove
 END
 
 CONTROLBAR:PurchaseUpgradeCirdansCraftwork
-"Artesanía de &Cirdan"
+"Artesanía de Cirdan(&R)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeCirdansCraftwork
@@ -26482,7 +26482,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEnchantedAnvil
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressBlessedMist
-"N&iebla bendecida"
+"Niebla bendecida(&T)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressBlessedMist
