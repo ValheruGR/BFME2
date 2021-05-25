@@ -41,6 +41,8 @@
 			//USER_61	// Draw_ElvenWoodEffect
 			;;Disabled;;//USER_60	// Draw_PlaceHolder01
 			;;Disabled;;/USER_59	// Draw_PlaceHolder02
+			//USER_58	// This is used to "mark" units under debuff. Obsolete.
+			
 	//-----------------------------------------------------------------------------
  	//-//Draw_HighTierHeroLeadershipEffect
 		Draw = W3DScriptedModelDraw Draw_HighTierHeroLeadershipEffect
