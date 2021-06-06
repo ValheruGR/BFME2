@@ -25602,7 +25602,7 @@ GUI:TerrainResourcePercentageClaimable
 END
 
 CONTROLBAR:RadialBack
-"Volver (&V)"
+"Volver"
 END
 
 CONTROLBAR:ToolTipCommandRadialBack
@@ -25910,7 +25910,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressBanners
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
-"Barrilete de asedio (&Y)"
+"Barrilete de asedio (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
