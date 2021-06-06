@@ -24,6 +24,13 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:SummonWargAllies09v3
+"Summon Warg Allies (&V)"
+End
+CONTROLBAR:SummonWargAlliesDesc09v3
+"Requires Level 10 \n Summons a group of Warg Riders of Isengard to Sharku's side \n Left click icon then left click on pathable location"
+END
+//------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
 "Принц Итилиена [&B]"
 END
@@ -99,7 +106,7 @@ CONTROLBAR:ThunderBolt09v2
 "Thunderbolt Storm [&B]"
 END
 CONTROLBAR:ToolTipThunderBolt09v2
-"Требуется уровень 10 \n Саруман создаёт грозовое облако, поражающее противников серией молний в указанном месте. \n Щелкните на пиктограмме, затем - на участке местности."
+"Требуется уровень 8 \n Саруман создаёт грозовое облако, поражающее противников серией молний в указанном месте. \n Щелкните на пиктограмме, затем - на участке местности."
 END
 CONTROLBAR:ToolTipPersonalFlood09v2
 "Требуется уровень 5. \n Громадная волна наносит урон врагам и тушит пожары. \n Особенно эффективна против Назгулов. \n Способность улучшается на 10 уровне.\n Щелкните на пиктограмме, затем - на цели."
@@ -44951,7 +44958,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 
 CONTROLBAR:ToolTipDominate
-"Требуется уровень 8. \n Получение временного контроля над указанными врагами. \n Щелкните на пиктограмме, затем - на врагах."
+"Требуется уровень 10 \n Получение временного контроля над указанными врагами. \n Щелкните на пиктограмме, затем - на врагах."
 END
 
 CONTROLBAR:ToolTipSharkuManEater

@@ -24,6 +24,13 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:SummonWargAllies09v3
+"Summon Warg Allies (&V)"
+End
+CONTROLBAR:SummonWargAlliesDesc09v3
+"Requires Level 10 \n Summons a group of Warg Riders of Isengard to Sharku's side \n Left click icon then left click on pathable location"
+END
+//------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
 "Prince of Ithilien [&B]"
 END
@@ -99,7 +106,7 @@ CONTROLBAR:ThunderBolt09v2
 "Coup de tonnerre [&B]"
 END
 CONTROLBAR:ToolTipThunderBolt09v2
-"Requiert : niveau 10\nSaruman frappe l'ennemi visé d'un puissant éclair \nClic gauche sur l'icône puis clic gauche sur la cible."
+"Requiert : niveau 8\nSaruman frappe l'ennemi visé d'un puissant éclair \nClic gauche sur l'icône puis clic gauche sur la cible."
 END
 CONTROLBAR:ToolTipPersonalFlood09v2
 "Requiert : niveau 5\nInvoque une inondation qui inflige des dégâts à l'ennemi et éteint les feux \n Particulièrement éfficace contre la cavalerie \nBonus contre les Cavaliers noirs. \nPouvoir améliorer au niveau 10.\nClic gauche sur l'icône puis clic gauche sur la cible."
@@ -44947,7 +44954,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 
 CONTROLBAR:ToolTipDominate
-"Requiert : niveau 8\nContrôle temporairement les ennemis ciblés\nClic gauche sur l'icône puis clic gauche sur les ennemis ciblés"
+"Requiert : niveau 10\nContrôle temporairement les ennemis ciblés\nClic gauche sur l'icône puis clic gauche sur les ennemis ciblés"
 END
 
 CONTROLBAR:ToolTipSharkuManEater

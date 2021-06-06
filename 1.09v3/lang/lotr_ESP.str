@@ -24,6 +24,13 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:SummonWargAllies09v3
+"Convocar huargos de Isengard (&V)"
+End
+CONTROLBAR:SummonWargAlliesDesc09v3
+"Requisito: Nivel 10 \n Convoca un grupo de Jinetes de Huargos de Isengard que lucharán junto a Sharku. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
+END
+//------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
 "Principe de Ithilien [&B]"
 END
@@ -99,7 +106,7 @@ CONTROLBAR:ThunderBolt09v2
 "Tormenta de Rayos (&B)"
 END
 CONTROLBAR:ToolTipThunderBolt09v2
-"Requisito: Nivel 10 \n Saruman conjura una nube que lanza poderosos relámpagos contra los enemigos en la zona seleccionada. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Requisito: Nivel 8 \n Saruman conjura una nube que lanza poderosos relámpagos contra los enemigos en la zona seleccionada. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 CONTROLBAR:ToolTipPersonalFlood09v2
 "Requisito: Nivel 5. \n Convoca una inundación que daña a los enemigos y apaga los fuegos. \n Bonificación contra Nazguls. \n Los caballos de la inundación son mejorados en el nivel 10.\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
