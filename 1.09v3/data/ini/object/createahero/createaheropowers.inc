@@ -486,15 +486,35 @@ End
 Behavior = SpecialPowerModule ModuleTag_CreateAHeroBladeMasterStarter					// SpecialAbility is	a SpecialPower,	SpecialPower is	anyting	special
 	SpecialPowerTemplate = SpecialAbilityCreateAHeroBladeMaster
 	StartsPaused		 = Yes
+	UpdateModuleStartsAttack		= Yes ;;-;;
 End
-
-Behavior = HeroModeSpecialAbilityUpdate ModuleTag_CreateAHeroBladeMasterUpdate	  //	So the difference in SpecialAbility	is that	it takes timing	from this Update, instead of simply	firing.
-	SpecialPowerTemplate  =	SpecialAbilityCreateAHeroBladeMaster
-	HeroAttributeModifier =	CreateAHeroBladeMaster
-	HeroEffectDuration	  =	30000 //	this should	sync with the auto ability delay re-fire time in commandButtons.ini
-	UnpackTime			  =	1 //	insant unpack
-	TriggerSound		  =	AragornBladeMaster
+Behavior = ActivateModuleSpecialPower ModuleTag_UnpackHeroMode  ;;-;;
+	SpecialPowerTemplate			= SpecialAbilityCreateAHeroBladeMaster
+	TriggerSpecialPower				= ModuleTag_TriggerMode
+	UnpackTime              		= 800
+	PackTime                		= 500
+	UnpackingVariation				= 2 ;; sets PACKING_TYPE_2
+	TriggerSound					= AragornBladeMaster
+ 	End
+Behavior = SpecialPowerModule ModuleTag_TriggerMode ;;-;;
+	SpecialPowerTemplate			= SpecialAbilityActivateeDummyThree
+	UpdateModuleStartsAttack		= No
+	StartsPaused					= No
 End
+Behavior = WeaponModeSpecialPowerUpdate ModuleTag_AragornBladeMasterUpdate ;;-;;
+	SpecialPowerTemplate			= SpecialAbilityActivateeDummyThree
+	Duration						= 30000
+	AttributeModifier				= CreateAHeroBladeMaster
+	WeaponSetFlags					= WEAPONSET_HERO_MODE
+	StartsPaused					= No
+End
+;;.;;	Behavior = HeroModeSpecialAbilityUpdate ModuleTag_CreateAHeroBladeMasterUpdate	  //	So the difference in SpecialAbility	is that	it takes timing	from this Update, instead of simply	firing.
+;;.;;		SpecialPowerTemplate  =	SpecialAbilityCreateAHeroBladeMaster
+;;.;;		HeroAttributeModifier =	CreateAHeroBladeMaster
+;;.;;		HeroEffectDuration	  =	30000 //	this should	sync with the auto ability delay re-fire time in commandButtons.ini
+;;.;;		UnpackTime			  =	1 //	insant unpack
+;;.;;		TriggerSound		  =	AragornBladeMaster
+;;.;;	End
 
 //--------------------------------------------------------------------------	
 // Special Power ATHELAS
@@ -515,8 +535,8 @@ End
 Behavior = SpecialAbilityUpdate ModuleTag_CreateAHeroAthelasUpdate               
 	SpecialPowerTemplate = SpecialAbilityCreateAHeroAthelas
 	StartAbilityRange	 = 1.6
-	UnpackTime			 = 1	 // Nothing to touching it
-	PreparationTime		 = 3	 // touching	it to grabbing it
+	UnpackTime			 = 800 ;;.;; 1	 // Nothing to touching it
+	;;.;; PreparationTime		 = 3	 // touching	it to grabbing it
 	PackTime			 = 2096	 // whacking	it to holding it nice
 	AwardXPForTriggering = 0
 End
@@ -538,8 +558,8 @@ Behavior = SpecialPowerModule ModuleTag_ElendilStarter
 	AttributeModifier		 = CreateAHeroElendilAntiCategory	// Used	for	the	anti category duration only.
 	AttributeModifierRange	 = 200.0
 	StartsPaused			 = Yes								// obtained	on level 2
-	SetModelCondition		 = ModelConditionState:USER_3
-	SetModelConditionTime	 = 10.0	// 10 secs of glow anim for sword
+	;;.;;	SetModelCondition		 = ModelConditionState:USER_3
+	;;.;;	SetModelConditionTime	 = 10.0	// 10 secs of glow anim for sword
 End
 
 Behavior = ModelConditionSpecialAbilityUpdate ModuleTag_ElendilUpdate   
@@ -553,6 +573,7 @@ Behavior = ModelConditionSpecialAbilityUpdate ModuleTag_ElendilUpdate
 	GenerateTerror			= Yes
 	EmotionPulseRadius		= 180
 	ObjectFilter			= ELENDIL_OBJECT_FILTER
+        CustomAnimAndDuration				= AnimState:USER_3 AnimTime:10000 ;;.;;
 End
 
 
@@ -593,26 +614,47 @@ Behavior = UnpauseSpecialPowerUpgrade ModuleTag_CreateAHeroHeroicChargeEnabler
 	SpecialPowerTemplate = SpecialAbilityCreateAHeroHeroicCharge
 	TriggeredBy			 = Upgrade_CreateAHeroHeroicCharge
 End
-Behavior = SpecialPowerModule ModuleTag_CreateAHeroHeroicChargeUpdate   
-	SpecialPowerTemplate		 = SpecialAbilityCreateAHeroHeroicCharge
-	UpdateModuleStartsAttack	 = Yes
-	StartsPaused = Yes
-	AttributeModifier			 = CreateAHeroHeroicCharge
-	AttributeModifierRange		 = 200
-	AttributeModifierAffectsSelf = Yes
-	AttributeModifierAffects	 = ANY +CAVALRY	
-	AttributeModifierFX			 = FX_TheodenGloriousChargeFX
-End
-
-Behavior = SpecialAbilityUpdate ModuleTag_CreateAHeroHeroicAnimation
-	UnpackTime              = 1000
-	UnpackingVariation		= 1
-	
-	SpecialPowerTemplate	= SpecialAbilityCreateAHeroHeroicCharge
- 	PreparationTime         = 0  
- 	PersistentPrepTime      = 0
- 	PackTime                = 1330
-End
+;;.;;	Behavior = SpecialPowerModule ModuleTag_CreateAHeroHeroicChargeUpdate   
+;;.;;		SpecialPowerTemplate		 = SpecialAbilityCreateAHeroHeroicCharge
+;;.;;		UpdateModuleStartsAttack	 = Yes
+;;.;;		StartsPaused = Yes
+;;.;;		AttributeModifier			 = CreateAHeroHeroicCharge
+;;.;;		AttributeModifierRange		 = 200
+;;.;;		AttributeModifierAffectsSelf = Yes
+;;.;;		AttributeModifierAffects	 = ANY +CAVALRY	+INFANTRY ;;.;; ANY +CAVALRY	
+;;.;;		AttributeModifierFX			 = FX_TheodenGloriousChargeFX
+;;.;;	End
+;;.;;	
+;;.;;	Behavior = SpecialAbilityUpdate ModuleTag_CreateAHeroHeroicAnimation
+;;.;;		UnpackTime              = 1000
+;;.;;		UnpackingVariation		= 1
+;;.;;		
+;;.;;		SpecialPowerTemplate	= SpecialAbilityCreateAHeroHeroicCharge
+;;.;;	 	PreparationTime         = 0  
+;;.;;	 	PersistentPrepTime      = 0
+;;.;;	 	PackTime                = 1330
+;;.;;	End
+  	Behavior = SpecialPowerModule ModuleTag_CreateAHeroHeroicChargeUpdate
+		SpecialPowerTemplate    		= SpecialAbilityCreateAHeroHeroicCharge
+		StartsPaused					= Yes
+		UpdateModuleStartsAttack		= Yes ;;-;;
+ 	End
+ 	Behavior = ActivateModuleSpecialPower ModuleTag_CreateAHeroHeroicAnimation
+		SpecialPowerTemplate			= SpecialAbilityCreateAHeroHeroicCharge
+  		TriggerSpecialPower				= ModuleTag_TriggerMode4
+   		StartAbilityRange       		= 300
+ 		UnpackTime              		= 1000 ;;-;;
+ 		PackTime                		= 965 ;;-;; 1330
+   		UnpackingVariation				= 1 ;; sets PACKING_TYPE_1
+	End
+ 	Behavior = SpecialPowerModule ModuleTag_TriggerMode4   
+		SpecialPowerTemplate      		= SpecialAbilityActivateeDummyFour
+		AttributeModifier				= CreateAHeroHeroicCharge
+		AttributeModifierRange			= 200
+		AttributeModifierAffectsSelf	= Yes
+		AttributeModifierAffects		= ANY +CAVALRY	+INFANTRY ;;.;; ANY +CAVALRY	
+		AttributeModifierFX				= FX_TheodenGloriousChargeFX
+	End
 
 //--------------------------------------------------------------------------	
 // Special Power WORD OF POWER
@@ -2889,22 +2931,30 @@ Behavior = UnpauseSpecialPowerUpgrade ModuleTag_CreateAHeroHealingEnabler_Level1
 	SpecialPowerTemplate		= SpecialAbilityCreateAHeroHealing_Level1
 	TriggeredBy					= Upgrade_CreateAHeroHealing_Level1
 End
-Behavior = PlayerHealSpecialPower ModuleTag_CreateAHeroHealingPower_Level1
-	SpecialPowerTemplate		= SpecialAbilityCreateAHeroHealing_Level1
-	UpdateModuleStartsAttack	= Yes
+;;.;;
+Behavior = SpecialPowerModule ModuleTag_CreateAHeroHealingPower_Level1
+	SpecialPowerTemplate			= SpecialAbilityCreateAHeroHealing_Level1
+	UpdateModuleStartsAttack		= Yes
+End
+;;.;;
+Behavior = ActivateModuleSpecialPower ModuleTag_CreateAHeroHealingUpdate_Level1
+	SpecialPowerTemplate    = SpecialAbilityCreateAHeroHealing_Level1
+	StartAbilityRange	 	= 1.6
+	UnpackTime			 	= 400 ;;.;; 1	 // Nothing to touching it
+	PreparationTime		 	= 400 ;;.;; 1	 // touching	it to grabbing it
+	PackTime			 	= 2000	 // whacking	it to holding it nice
+	AwardXPForTriggering 	= 0
+	TriggerSpecialPower  	= ModuleTag_TriggerMode1 OBJECTPOS
+	UnpackingVariation		= 5
+End
+;;.;;
+Behavior = PlayerHealSpecialPower ModuleTag_TriggerMode1
+	SpecialPowerTemplate		= SpecialAbilityActivateeDummyOne
 	StartsPaused				= Yes
 	HealAffects					= INFANTRY CAVALRY MONSTER
 	HealAmount					= CREATE_A_HERO_HEALING_AMOUNT_L1	// percent of max health
 	HealRadius					= CREATE_A_HERO_HEALING_RADIUS_L1
-	HealFX					= FX_SpellHealUnitHealBuff
-End
-Behavior = SpecialAbilityUpdate ModuleTag_CreateAHeroHealingUpdate_Level1
-	SpecialPowerTemplate    = SpecialAbilityCreateAHeroHealing_Level1
-	StartAbilityRange	 = 1.6
-	UnpackTime			 = 1	 // Nothing to touching it
-	PreparationTime		 = 1	 // touching	it to grabbing it
-	PackTime			 = 2000	 // whacking	it to holding it nice
-	AwardXPForTriggering = 0
+	HealFX						= FX_SpellHealUnitHealBuff
 End
 
 
@@ -2915,23 +2965,30 @@ Behavior = UnpauseSpecialPowerUpgrade ModuleTag_CreateAHeroHealingEnabler_Level2
 	SpecialPowerTemplate		= SpecialAbilityCreateAHeroHealing_Level2
 	TriggeredBy					= Upgrade_CreateAHeroHealing_Level2
 End
-Behavior = PlayerHealSpecialPower ModuleTag_CreateAHeroHealingPower_Level2
-	SpecialPowerTemplate		= SpecialAbilityCreateAHeroHealing_Level2
-	UpdateModuleStartsAttack	= Yes
+;;.;;
+Behavior = SpecialPowerModule ModuleTag_CreateAHeroHealingPower_Level2
+	SpecialPowerTemplate			= SpecialAbilityCreateAHeroHealing_Level2
+	UpdateModuleStartsAttack		= Yes
+End
+;;.;;
+Behavior = ActivateModuleSpecialPower ModuleTag_CreateAHeroHealingUpdate_Level2
+	SpecialPowerTemplate    = SpecialAbilityCreateAHeroHealing_Level2
+	StartAbilityRange	 	= 1.6
+	UnpackTime			 	= 400 ;;.;; 1	 // Nothing to touching it
+	PreparationTime		 	= 400 ;;.;; 1	 // touching	it to grabbing it
+	PackTime			 	= 2000	 // whacking	it to holding it nice
+	AwardXPForTriggering 	= 0
+	TriggerSpecialPower  	= ModuleTag_TriggerMode2 OBJECTPOS
+	UnpackingVariation		= 5
+End
+;;.;;
+Behavior = PlayerHealSpecialPower ModuleTag_TriggerMode2
+	SpecialPowerTemplate		= SpecialAbilityActivateeDummyTwo
 	StartsPaused				= Yes
 	HealAffects					= INFANTRY CAVALRY MONSTER
 	HealAmount					= CREATE_A_HERO_HEALING_AMOUNT_L2	// percent of max health
 	HealRadius					= CREATE_A_HERO_HEALING_RADIUS_L2
 	HealFX						= FX_SpellHealUnitHealBuff
-End
-Behavior = SpecialAbilityUpdate ModuleTag_CreateAHeroHealingUpdate_Level2
-	SpecialPowerTemplate    = SpecialAbilityCreateAHeroHealing_Level2
-	StartAbilityRange	 = 1.6
-	UnpackTime			 = 1	 // Nothing to touching it
-	PreparationTime		 = 1	 // touching	it to grabbing it
-	PackTime			 = 2000	 // whacking	it to holding it nice
-	AwardXPForTriggering = 0
-	UnpackingVariation	   = 5
 End
 
 
@@ -3364,13 +3421,15 @@ Behavior = SpecialAbilityUpdate ModuleTag_CreateAHeroChargeUpdate_Level3
 	SpecialPowerTemplate		= SpecialAbilityCreateAHeroCharge_Level3
 	StartAbilityRange			= 150.0 ;//Negative distances will cause the unit to overshoot the destination.
 	AbilityAbortRange			= 50.0
-	PreparationTime				= 0 
+	UnpackTime					= 400 ;;.;; 1000
+	PreparationTime				= 400 ;;.;;  0
 	PackTime					= 3000  ;// without this pack time, the charge would not complete
 	//TriggerSound				= GondorSoldierVoiceEnterStateAttackCharge
 	TriggerAttributeModifier	= CreateAHeroChargeBonus_Level3
 	AttributeModifierDuration	= 20000
 	ChargeAttackSpeedBoost		= Yes
 	IgnoreFacingCheck			= Yes
+	UnpackingVariation			= 1
 End
 
 //--------------------------------------------------------------------------
@@ -3607,18 +3666,20 @@ Behavior = SpecialPowerModule ModuleTag_CreateAHeroBattleRagePower_Level1
 	SpecialPowerTemplate		 = SpecialAbilityCreateAHeroBattleRage_Level1
 	UpdateModuleStartsAttack	 = Yes
 	StartsPaused				 = Yes
-	AttributeModifier			 = CreateAHeroBattleRageBonus_Level1
-	AttributeModifierRange		 = 1
-	AttributeModifierAffectsSelf = Yes
-	AttributeModifierAffects	 = ANY +CAVALRY	+INFANTRY
+	;;.;;	AttributeModifier			 = CreateAHeroBattleRageBonus_Level1
+	;;.;;	AttributeModifierRange		 = 1
+	;;.;;	AttributeModifierAffectsSelf = Yes
+	;;.;;	AttributeModifierAffects	 = ANY +CAVALRY	+INFANTRY
 	//AttributeModifierFX			 = FX_CreateAHeroBattleRage
 End	
 Behavior = SpecialAbilityUpdate ModuleTag_CreateAHeroBattleRagePowerUpdate_Level1
 	SpecialPowerTemplate    = SpecialAbilityCreateAHeroBattleRage_Level1
-	UnpackTime             = 1  ;// (changing this will scale anim speed)
-	PreparationTime        = 1 ;// time to complete hack once prepared (changing this will scale anim speed)
+	UnpackTime             = 200 ;;.;; 1  ;// (changing this will scale anim speed)
+	PreparationTime        = 200 ;;.;; 1 ;// time to complete hack once prepared (changing this will scale anim speed)
 	PackTime               = 3000  ;// (changing this will scale anim speed)
 	UnpackingVariation	   = 6
+		TriggerAttributeModifier			= CreateAHeroBattleRageBonus_Level1 ;;.;;
+		AttributeModifierDuration			= 20000 ;;.;;
 End
 
 
@@ -3634,18 +3695,20 @@ Behavior = SpecialPowerModule ModuleTag_CreateAHeroBattleRagePower_Level2
 	SpecialPowerTemplate		 = SpecialAbilityCreateAHeroBattleRage_Level2
 	UpdateModuleStartsAttack	 = No
 	StartsPaused				 = Yes
-	AttributeModifier			 = CreateAHeroBattleRageBonus_Level2
-	AttributeModifierRange		 = 1
-	AttributeModifierAffectsSelf = Yes
-	AttributeModifierAffects	 = ANY +CAVALRY	+INFANTRY
+	;;.;;	AttributeModifier			 = CreateAHeroBattleRageBonus_Level2
+	;;.;;	AttributeModifierRange		 = 1
+	;;.;;	AttributeModifierAffectsSelf = Yes
+	;;.;;	AttributeModifierAffects	 = ANY +CAVALRY	+INFANTRY
 	//AttributeModifierFX			 = FX_CreateAHeroBattleRage
 End
 Behavior = SpecialAbilityUpdate ModuleTag_CreateAHeroBattleRagePowerUpdate_Level2
 	SpecialPowerTemplate    = SpecialAbilityCreateAHeroBattleRage_Level2
-	UnpackTime             = 1  ;// (changing this will scale anim speed)
-	PreparationTime        = 1 ;// time to complete hack once prepared (changing this will scale anim speed)
+	UnpackTime             = 300 ;;.;; 1  ;// (changing this will scale anim speed)
+	PreparationTime        = 300 ;;.;; 1 ;// time to complete hack once prepared (changing this will scale anim speed)
 	PackTime               = 3000  ;// (changing this will scale anim speed)
 	UnpackingVariation	   = 6
+		TriggerAttributeModifier			= CreateAHeroBattleRageBonus_Level2 ;;.;;
+		AttributeModifierDuration			= 40000 ;;.;;
 End
 
 
@@ -3662,18 +3725,20 @@ Behavior = SpecialPowerModule ModuleTag_CreateAHeroBattleRagePower_Level3
 	SpecialPowerTemplate		 = SpecialAbilityCreateAHeroBattleRage_Level3
 	UpdateModuleStartsAttack	 = No
 	StartsPaused				 = Yes
-	AttributeModifier			 = CreateAHeroBattleRageBonus_Level3
-	AttributeModifierRange		 = 1
-	AttributeModifierAffectsSelf = Yes
-	AttributeModifierAffects	 = ANY +CAVALRY	+INFANTRY
+	;;.;;	AttributeModifier			 = CreateAHeroBattleRageBonus_Level3
+	;;.;;	AttributeModifierRange		 = 1
+	;;.;;	AttributeModifierAffectsSelf = Yes
+	;;.;;	AttributeModifierAffects	 = ANY +CAVALRY	+INFANTRY
 	//AttributeModifierFX			 = FX_CreateAHeroBattleRage
 End
 Behavior = SpecialAbilityUpdate ModuleTag_CreateAHeroBattleRagePowerUpdate_Level3
 	SpecialPowerTemplate    = SpecialAbilityCreateAHeroBattleRage_Level3
-	UnpackTime             = 1  ;// (changing this will scale anim speed)
-	PreparationTime        = 1 ;// time to complete hack once prepared (changing this will scale anim speed)
+	UnpackTime             = 400 ;;.;; 1  ;// (changing this will scale anim speed)
+	PreparationTime        = 400 ;;.;; 1 ;// time to complete hack once prepared (changing this will scale anim speed)
 	PackTime               = 3000  ;// (changing this will scale anim speed)
 	UnpackingVariation	   = 6
+		TriggerAttributeModifier			= CreateAHeroBattleRageBonus_Level3 ;;.;;
+		AttributeModifierDuration			= 60000 ;;.;;
 End
 
 
@@ -3690,17 +3755,19 @@ Behavior = SpecialPowerModule ModuleTag_CreateAHeroBattleRagePower_Level4
 	SpecialPowerTemplate		 = SpecialAbilityCreateAHeroBattleRage_Level4
 	UpdateModuleStartsAttack	 = No
 	StartsPaused				 = Yes
-	AttributeModifier			 = CreateAHeroBattleRageBonus_Level4
-	AttributeModifierRange		 = 1
-	AttributeModifierAffectsSelf = Yes
-	AttributeModifierAffects	 = ANY +CAVALRY	+INFANTRY
+	;;.;;	AttributeModifier			 = CreateAHeroBattleRageBonus_Level4
+	;;.;;	AttributeModifierRange		 = 1
+	;;.;;	AttributeModifierAffectsSelf = Yes
+	;;.;;	AttributeModifierAffects	 = ANY +CAVALRY	+INFANTRY
 	//AttributeModifierFX			 = FX_CreateAHeroBattleRage
 End
 Behavior = SpecialAbilityUpdate ModuleTag_CreateAHeroBattleRagePowerUpdate_Level4
 	SpecialPowerTemplate    = SpecialAbilityCreateAHeroBattleRage_Level4
-	UnpackTime             = 1  ;// (changing this will scale anim speed)
-	PreparationTime        = 1 ;// time to complete hack once prepared (changing this will scale anim speed)
+	UnpackTime             = 500 ;;.;; 1  ;// (changing this will scale anim speed)
+	PreparationTime        = 500 ;;.;; 1 ;// time to complete hack once prepared (changing this will scale anim speed)
 	PackTime               = 3000  ;// (changing this will scale anim speed)
 	UnpackingVariation	   = 6
+		TriggerAttributeModifier			= CreateAHeroBattleRageBonus_Level4 ;;.;;
+		AttributeModifierDuration			= 90000 ;;.;;
 End
 
