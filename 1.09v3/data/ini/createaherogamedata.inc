@@ -4,6 +4,8 @@
 
 
 //-----------------------CreateAHero------------------
+#define CREATE_A_HERO_ATHELAS_HEAL_AMOUNT						2000 ;;.;; 1000 ; ; 2000 ; ; 600
+
 #define CREATE_A_HERO_ATTRIBUTE_MULTIPLIER						1
 #define CREATE_A_HERO_COMMAND_POINT_COST						50
 
