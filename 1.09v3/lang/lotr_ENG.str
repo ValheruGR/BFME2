@@ -144,7 +144,7 @@ CONTROLBAR:ToolTipHourOfTheWitchKing09v2
 "Requires Level 10 \n Target Heroes in an AOE have their special ability timers reset to 80% used. \n Enemy heroes around Witch King suffer -25% damage. \n Modifier Type: 'STUN WitchKingCurse' \n Left click icon then left click on area"
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
-"Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"
+"Selected structure's resource output is temporarily raised to 300%. \n Left click icon then left click on target resource structure"
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
 "Shield Crush"
@@ -47474,7 +47474,7 @@ TOOLTIP:LackMordorBarbedArrow
 END
 
 CONTROLBAR:BarbedArrowUpgrade
-"Barbed Arro&ws"
+"Barbed Arrows"
 END
 
 // Power Spells

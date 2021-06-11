@@ -143,7 +143,7 @@ CONTROLBAR:ToolTipHourOfTheWitchKing09v2
 "Nodig: niveau 10\nReset de timers voor speciale vaardigheden van de geselecteerde vijand naar net gebruikt \n Enemy heroes around Witch King suffer -25% damage. \n Modifier Type: 'STUN WitchKingCurse' \nKlik met links op het icoontje en daarna met links op het doelwit"
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
-"Geselecteerd gebouw produceert tijdelijk +350% grondstoffen\nKlik met links op het icoontje en daarna met links op een gebouw dat grondstoffen genereert"
+"Geselecteerd gebouw produceert tijdelijk +300% grondstoffen\nKlik met links op het icoontje en daarna met links op een gebouw dat grondstoffen genereert"
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
 "Schildstoot"
@@ -44407,7 +44407,7 @@ TOOLTIP:LackMordorBarbedArrow
 END
 
 CONTROLBAR:BarbedArrowUpgrade
-"Getande pijlen (&W)"
+"Getande pijlen"
 END
 
 CONTROLBAR:ToolTipHeal

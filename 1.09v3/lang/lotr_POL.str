@@ -143,7 +143,7 @@ CONTROLBAR:ToolTipHourOfTheWitchKing09v2
 "Wymaga 10 poziomu \n Liczniki specjalnych zdolnosci u wskazanego bohatera przeciwnika zostaja zresetowany do 80% zuzycia.  \n Enemy heroes around Witch King suffer -25% damage. \n Modifier Type: 'STUN WitchKingCurse' \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
-"Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"
+"Selected structure's resource output is temporarily raised to 300%. \n Left click icon then left click on target resource structure"
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
 "Shield Crush"
@@ -44409,7 +44409,7 @@ TOOLTIP:LackMordorBarbedArrow
 END
 
 CONTROLBAR:BarbedArrowUpgrade
-"Kolczaste strzaly (&w)"
+"Kolczaste strzaly"
 END
 
 CONTROLBAR:ToolTipHeal

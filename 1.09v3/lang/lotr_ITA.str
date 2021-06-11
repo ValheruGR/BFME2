@@ -143,7 +143,7 @@ CONTROLBAR:ToolTipHourOfTheWitchKing09v2
 "Richiede livello 10.\nI contatori delle abilità speciali del nemico vengono ridotte al 80% della carica.\n Enemy heroes around Witch King suffer -25% damage. \n Modifier Type: 'STUN WitchKingCurse' \nClicca con il pulsante sinistro sull'icona e poi sull'area bersaglio."
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
-"Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"
+"Selected structure's resource output is temporarily raised to 300%. \n Left click icon then left click on target resource structure"
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
 "Shield Crush"
@@ -44417,7 +44417,7 @@ TOOLTIP:LackMordorBarbedArrow
 END
 
 CONTROLBAR:BarbedArrowUpgrade
-"Frecce uncinate (&W)"
+"Frecce uncinate"
 END
 
 CONTROLBAR:ToolTipHeal

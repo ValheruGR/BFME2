@@ -493,7 +493,7 @@ Behavior = ActivateModuleSpecialPower ModuleTag_UnpackHeroMode  ;;-;;
 	TriggerSpecialPower				= ModuleTag_TriggerMode
 	UnpackTime              		= 800
 	PackTime                		= 500
-	UnpackingVariation				= 2 ;; sets PACKING_TYPE_2
+	UnpackingVariation				= 1 ;; sets PACKING_TYPE_2
 	TriggerSound					= AragornBladeMaster
  	End
 Behavior = SpecialPowerModule ModuleTag_TriggerMode ;;-;;
@@ -535,10 +535,11 @@ End
 Behavior = SpecialAbilityUpdate ModuleTag_CreateAHeroAthelasUpdate               
 	SpecialPowerTemplate = SpecialAbilityCreateAHeroAthelas
 	StartAbilityRange	 = 1.6
-	UnpackTime			 = 800 ;;.;; 1	 // Nothing to touching it
+	UnpackTime			 = 1 ;;.;; 800 ;;.;; 1	 // Nothing to touching it
 	;;.;; PreparationTime		 = 3	 // touching	it to grabbing it
 	PackTime			 = 2096	 // whacking	it to holding it nice
 	AwardXPForTriggering = 0
+	UnpackingVariation		= 2; 5
 End
 
 

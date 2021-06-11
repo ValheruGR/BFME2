@@ -143,7 +143,7 @@ CONTROLBAR:ToolTipHourOfTheWitchKing09v2
 "Требуется уровень 10. \n Время действия способностей вражеских героев в радиусе действия перезаряжается на 80%. \n Enemy heroes around Witch King suffer -25% damage. \n Modifier Type: 'STUN WitchKingCurse' \n Щелкните на пиктограмме, затем - на цели."
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
-"Selected structure's resource output is temporarily raised to 350%. \n Left click icon then left click on target resource structure"
+"Selected structure's resource output is temporarily raised to 300%. \n Left click icon then left click on target resource structure"
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
 "Shield Crush"
@@ -44412,7 +44412,7 @@ TOOLTIP:LackMordorBarbedArrow
 END
 
 CONTROLBAR:BarbedArrowUpgrade
-"Зазубренные стрелы (&W)"
+"Зазубренные стрелы"
 END
 
 CONTROLBAR:ToolTipHeal
