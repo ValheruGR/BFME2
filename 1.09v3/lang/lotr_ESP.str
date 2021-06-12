@@ -42101,15 +42101,15 @@ CONTROLBAR:CAH_Bombard_Level3
 END
 
 CONTROLBAR:CAH_Charge_Level1
-"Carga (&X)"
+"Carga (&W)"
 END
 
 CONTROLBAR:CAH_Charge_Level2
-"Carga mejorada (&X)"
+"Carga mejorada (&W)"
 END
 
 CONTROLBAR:CAH_Charge_Level3
-"Carga poderosa (&X)"
+"Carga poderosa (&W)"
 END
 
 CONTROLBAR:CAH_ClearGarrisoned
@@ -42117,15 +42117,15 @@ CONTROLBAR:CAH_ClearGarrisoned
 END
 
 CONTROLBAR:CAH_EarthShaker_Level1
-"Terremoto (&X)"
+"Terremoto (&K)"
 END
 
 CONTROLBAR:CAH_EarthShaker_Level2
-"Terremoto mejorado (&X)"
+"Terremoto mejorado (&K)"
 END
 
 CONTROLBAR:CAH_EarthShaker_Level3
-"Terremoto poderoso (&X)"
+"Terremoto poderoso (&K)"
 END
 
 CONTROLBAR:CAH_Leap_Level1
@@ -42137,15 +42137,15 @@ CONTROLBAR:CAH_Leap_Level2
 END
 
 CONTROLBAR:CAH_Sapper_Level1
-"Zapador (&P)"
+"Zapador (&V)"
 END
 
 CONTROLBAR:CAH_Sapper_Level2
-"Zapador mejorado (&P)"
+"Zapador mejorado (&V)"
 END
 
 CONTROLBAR:CAH_Sapper_Level3
-"Zapador poderoso (&P)"
+"Zapador poderoso (&V)"
 END
 
 CONTROLBAR:CAH_Toughness
@@ -42157,19 +42157,19 @@ CONTROLBAR:CAH_WillPower_Level1
 END
 
 CONTROLBAR:SoSSummonAllies_Level1
-"Pedir refuerzos (&P)"
+"Pedir refuerzos (&B)"
 END
 
 CONTROLBAR:SoSSummonAllies_Level2
-"Pedir refuerzos mejorado (&P)"
+"Pedir refuerzos mejorado (&B)"
 END
 
 CONTROLBAR:SoSSummonAllies_Level3
-"Pedir refuerzos grande (&P)"
+"Pedir refuerzos grande (&B)"
 END
 
 CONTROLBAR:SoSSummonAllies_Level4
-"Pedir refuerzos superior (&P)"
+"Pedir refuerzos superior (&B)"
 END
 
 CONTROLBAR:CAH_BerserkerRage_L1
