@@ -1444,23 +1444,23 @@ TheEnd
 END
 
 Credits1
-"CREDITS\n "
+"CREDITS"
 END
 
 Credits2
-"Map Direction\n\nCrusard\n"
+"Map Direction\nCrusard"
 END
 
 Credits3
-"Oficial Betatesters:\n\nFox\nThalantyr\n"
+"Oficial Betatesters:\nFox and Thalantyr"
 END
 
 Credits4
-"Special thanks to:\n\nMasterbadeend\nRidder Geel\nJus_Sauron\nRob38\nBlatant\n"
+"Special thanks to:\nMasterbadeend, Ridder Geel, Jus_Sauron, Rob38, Blatant"
 END
 
 Credits5
-"Visit BFME Heaven and The 3rd Age for great maps and mods!\n"
+"Visit BFME Heaven and The 3rd Age for great maps and mods!"
 END
 
 Credits6
@@ -1600,7 +1600,7 @@ CONTROLBAR:TooltipLegendsThornMetalArmor
 END
 
 CONTROLBAR:LegendsMirrorImage
-"&Mirror Image"
+"Mirror Image (&W)"
 END
 
 CONTROLBAR:TooltipLegendsMirrorImage
@@ -1608,7 +1608,7 @@ CONTROLBAR:TooltipLegendsMirrorImage
 END
 
 CONTROLBAR:LegendsUncontrollableRage
-"&Uncontrollable Rage"
+"Uncontrollable Rage(&V)"
 END
 
 CONTROLBAR:TooltipLegendsUncontrollableRage
@@ -1616,7 +1616,7 @@ CONTROLBAR:TooltipLegendsUncontrollableRage
 END
 
 CONTROLBAR:LegendsEscape
-"&Escape"
+"Escape (&C)"
 END
 
 CONTROLBAR:TooltipLegendsEscape
@@ -1624,7 +1624,7 @@ CONTROLBAR:TooltipLegendsEscape
 END
 
 CONTROLBAR:LegendsBlazingSweep
-"Blazing S&weep"
+"Blazing Sweep (&B)"
 END
 
 CONTROLBAR:TooltipLegendsBlazingSweep
@@ -1632,7 +1632,7 @@ CONTROLBAR:TooltipLegendsBlazingSweep
 END
 
 CONTROLBAR:LegendsColorSpray
-"Color Spray"
+"Color Spray (&W)"
 END
 
 CONTROLBAR:TooltipLegendsColorSpray
@@ -1644,27 +1644,27 @@ CONTROLBAR:LegendsRegeneration
 END
 
 CONTROLBAR:TooltipLegendsRegeneration
-"Requires Level 4 \nCalls an aura of healing around the caster.\nLeft click to activate"
+"Requires Level 4 \nCalls an aura of healing around the caster for 20 seconds..\nLeft click to activate"
 END
 
 CONTROLBAR:LegendsNaturesFavour
-"&Nature's Favour"
+"Nature's Favour (&T)"
 END
 
 CONTROLBAR:TooltipLegendsNaturesFavour
-"Requires Level 5\nThe forces of nature are bound to protect nearby allies, temporarily raising their defense\nLeft click to activate"
+"Requires Level 5\nThe forces of nature are bound to protect nearby allies, temporarily raising their armor 20%.\nLeft click to activate"
 END
 
 CONTROLBAR:LegendsEntanglingVines
-"Entangling Vines"
+"Entangling Vines(&V)"
 END
 
 CONTROLBAR:TooltipLegendsEntanglingVines
-"Requires Level 9 \n Grasses, weeds, bushes, and even trees wrap, twist, and entwine about creatures, holding them fast and causing them to become entangled\nLeft click icon then left click on target area"
+"Requires Level 9 \n Grasses, weeds, bushes, and even trees wrap, twist, and entwine about creatures, holding them fast and causing them to become entangled. \n Enemies cannot move and lose 20% armor. \nLeft click icon then left click on target area"
 END
 
 CONTROLBAR:LegendsNaturesAlly
-"Nature's Ally"
+"Nature's Ally (&B)"
 END
 
 CONTROLBAR:TooltipLegendsNaturesAlly

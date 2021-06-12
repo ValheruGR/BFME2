@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
+"Disfraz (&V)"
+END
+//------------------------------------------------------------
 CONTROLBAR:SummonWargAllies09v3
 "Convocar huargos de Isengard (&V)"
 End
@@ -146,10 +150,10 @@ CONTROLBAR:TooltipDwarvenRiches09v2
 "La producción de recursos de la estructura de recursos seleccionada aumenta en un 300% de manera temporal. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
-"Carga de escudo (&X)"
+"Carga de escudo (&Y)"
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
-"Carga de escudo mejorada (&X)"
+"Carga de escudo mejorada (&Y)"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Mejora de liderazgo de fortaleza comprada: \n Las unidades cercanas ganan +25% al daño y consiguen experiencia un +25% más rápido. \n Modificador tipo: RESISTANT 'Damage Inspiring'"
@@ -41773,19 +41777,19 @@ CONTROLBAR:ToolTipCAH_CM_Conquer_Palantir
 END
 
 CONTROLBAR:HotWSummonAllies_Level1
-"Pedir refuerzos (&P)"
+"Pedir refuerzos (&U)"
 END
 
 CONTROLBAR:HotWSummonAllies_Level2
-"Pedir refuerzos mejorado (&P)"
+"Pedir refuerzos mejorado (&U)"
 END
 
 CONTROLBAR:HotWSummonAllies_Level3
-"Pedir refuerzos grande (&P)"
+"Pedir refuerzos grande (&U)"
 END
 
 CONTROLBAR:HotWSummonAllies_Level4
-"Pedir refuerzos superior (&P)"
+"Pedir refuerzos superior (&U)"
 END
 
 CONTROLBAR:TrainAllies_Level_1
@@ -41813,15 +41817,15 @@ CONTROLBAR:CAH_ThrowSpear_Level3
 END
 
 CONTROLBAR:Invulnerability_Level1
-"In&vulnerabilidad (&V)"
+"Invulnerabilidad (&V)"
 END
 
 CONTROLBAR:Invulnerability_Level2
-"In&vulnerabilidad mejorada (&V)"
+"Invulnerabilidad mejorada (&V)"
 END
 
 CONTROLBAR:Invulnerability_Level3
-"In&vulnerabilidad grande (&V)"
+"Invulnerabilidad grande (&V)"
 END
 
 CONTROLBAR:CAHAthelas
@@ -41833,7 +41837,7 @@ CONTROLBAR:CAHBladeMaster
 END
 
 CONTROLBAR:CAHElendil
-"Elendil (&X)"
+"Elendil (&N)"
 END
 
 CONTROLBAR:CAHKingsFavor
@@ -41841,7 +41845,7 @@ CONTROLBAR:CAHKingsFavor
 END
 
 CONTROLBAR:CAH_Starlight
-"Luz estelar (&L)"
+"Luz estelar (&I)"
 END
 
 CONTROLBAR:HeroToggleHorse
@@ -41873,7 +41877,7 @@ CONTROLBAR:CAH_A_Stealth_Level1
 END
 
 CONTROLBAR:CAH_A_TrueSight
-"Vista verdadera (&O)"
+"Vista verdadera (&I)"
 END
 
 CONTROLBAR:SpecialAbilityCreateAHeroArcherToggleWeapon
@@ -41933,15 +41937,15 @@ CONTROLBAR:CAH_Healing_Level2
 END
 
 CONTROLBAR:CAH_SummonFamiliar_Level1
-"Convocar familiar.(&P)"
+"Convocar familiar (&U)"
 END
 
 CONTROLBAR:CAH_SummonFamiliar_Level2
-"Convocar familiar mejorado.(&P)"
+"Convocar familiar mejorado (&U)"
 END
 
 CONTROLBAR:CAH_SummonFamiliar_Level3
-"Convocar familiar grande.(&P)"
+"Convocar familiar grande (&U)"
 END
 
 CONTROLBAR:CAH_SpawnTornado_Level1
@@ -41969,7 +41973,7 @@ CONTROLBAR:CAH_BallLightning_L3
 END
 
 CONTROLBAR:SpecialAbilityHeroBlink
-"Parpade&o"
+"Parpadeo (&W)"
 END
 
 CONTROLBAR:SpecialAbilityCAHFireball1
@@ -41997,11 +42001,11 @@ CONTROLBAR:LightBlast_Level3
 END
 
 CONTROLBAR:ConvertEnemy_L1
-"Con&vertir enemigo"
+"Convertir enemigo (&Y)"
 END
 
 CONTROLBAR:ConvertEnemy_L2
-"Con&vertir enemigo mejorado"
+"Convertir enemigo mejorado (&Y)"
 END
 
 CONTROLBAR:CAH_Curse_Level1
@@ -42029,15 +42033,15 @@ CONTROLBAR:ForcePush_Level3
 END
 
 CONTROLBAR:TeleportLevel1
-"Te&letransporte"
+"Teletransporte (&B)"
 END
 
 CONTROLBAR:TeleportLevel2
-"Te&letransporte mejorado"
+"Teletransporte mejorado (&B)"
 END
 
 CONTROLBAR:TeleportLevel3
-"Te&letransporte grande"
+"Teletransporte grande (&B)"
 END
 
 CONTROLBAR:SpecialAbilityWordOfDoom_Level1
@@ -42045,19 +42049,19 @@ CONTROLBAR:SpecialAbilityWordOfDoom_Level1
 END
 
 CONTROLBAR:CAHWordofPower
-"Palabra de poder"
+"Palabra de poder (&P)"
 END
 
 CONTROLBAR:CAH_W_TrueSight
-"Vista verdadera (&O)"
+"Vista verdadera (&I)"
 END
 
 CONTROLBAR:WordOfPoultry_Level1
-"Convocar al rebaño."
+"Convocar al rebaño (&U)"
 END
 
 CONTROLBAR:WordOfPoultry_Level2
-"Convocar al rebaño mejorado."
+"Convocar al rebaño mejorado (&U)"
 END
 
 CONTROLBAR:CAH_AxeThrow_Level1
@@ -42089,15 +42093,15 @@ CONTROLBAR:CAH_BattleRage_Level4
 END
 
 CONTROLBAR:CAH_Bombard_Level1
-"Bombardear (&B)"
+"Bombardear (&V)"
 END
 
 CONTROLBAR:CAH_Bombard_Level2
-"Bombardear mejorado (&B)"
+"Bombardear mejorado (&V)"
 END
 
 CONTROLBAR:CAH_Bombard_Level3
-"Bombardear grande (&B)"
+"Bombardear grande (&V)"
 END
 
 CONTROLBAR:CAH_Charge_Level1
@@ -42117,15 +42121,15 @@ CONTROLBAR:CAH_ClearGarrisoned
 END
 
 CONTROLBAR:CAH_EarthShaker_Level1
-"Terremoto (&K)"
+"Terremoto (&B)"
 END
 
 CONTROLBAR:CAH_EarthShaker_Level2
-"Terremoto mejorado (&K)"
+"Terremoto mejorado (&B)"
 END
 
 CONTROLBAR:CAH_EarthShaker_Level3
-"Terremoto poderoso (&K)"
+"Terremoto poderoso (&B)"
 END
 
 CONTROLBAR:CAH_Leap_Level1
@@ -42137,15 +42141,15 @@ CONTROLBAR:CAH_Leap_Level2
 END
 
 CONTROLBAR:CAH_Sapper_Level1
-"Zapador (&V)"
+"Zapador (&U)
 END
 
 CONTROLBAR:CAH_Sapper_Level2
-"Zapador mejorado (&V)"
+"Zapador mejorado (&U)
 END
 
 CONTROLBAR:CAH_Sapper_Level3
-"Zapador poderoso (&V)"
+"Zapador poderoso (&U)
 END
 
 CONTROLBAR:CAH_Toughness
@@ -42157,19 +42161,19 @@ CONTROLBAR:CAH_WillPower_Level1
 END
 
 CONTROLBAR:SoSSummonAllies_Level1
-"Pedir refuerzos (&B)"
+"Pedir refuerzos (&U)"
 END
 
 CONTROLBAR:SoSSummonAllies_Level2
-"Pedir refuerzos mejorado (&B)"
+"Pedir refuerzos mejorado (&U)"
 END
 
 CONTROLBAR:SoSSummonAllies_Level3
-"Pedir refuerzos grande (&B)"
+"Pedir refuerzos grande (&U)"
 END
 
 CONTROLBAR:SoSSummonAllies_Level4
-"Pedir refuerzos superior (&B)"
+"Pedir refuerzos superior (&U)"
 END
 
 CONTROLBAR:CAH_BerserkerRage_L1
@@ -42189,19 +42193,19 @@ CONTROLBAR:CAH_BerserkerRage_L4
 END
 
 CONTROLBAR:CAH_FireBomb_Level1
-"B&omba de fuego"
+"Bomba de fuego (&T)"
 END
 
 CONTROLBAR:CAH_FireBomb_Level2
-"B&omba de fuego mejorada"
+"Bomba de fuego mejorada (&T)"
 END
 
 CONTROLBAR:CAH_FireBomb_Level3
-"B&omba de fuego poderosa"
+"Bomba de fuego poderosa (&T)"
 END
 
 CONTROLBAR:CAH_FireBomb_Level4
-"B&omba de fuego superior"
+"Bomba de fuego superior (&T)"
 END
 
 CONTROLBAR:CAH_PoisonAttack_Level1
@@ -42221,19 +42225,19 @@ CONTROLBAR:CAH_PoisonAttack_Level4
 END
 
 CONTROLBAR:CAH_UntamedAllegiance
-"&Lealtad indomable"
+"Lealtad indomable (&B)"
 END
 
 CONTROLBAR:CAH_HowlOfRage_Level1
-"Aullido de furia (&T)"
+"Aullido de furia (&W)"
 END
 
 CONTROLBAR:CAH_HowlOfRage_Level2
-"Aullido de furia mejorado (&T)"
+"Aullido de furia mejorado (&W)"
 END
 
 CONTROLBAR:CAH_HowlOfRage_Level3
-"Aullido de furia grande (&T)"
+"Aullido de furia grande (&W)"
 END
 
 CONTROLBAR:CAH_Infernal_L1
@@ -42245,23 +42249,23 @@ CONTROLBAR:CAH_Infernal_L2
 END
 
 CONTROLBAR:CAH_InspireFear_Level1
-"Inspirar miedo"
+"Inspirar miedo (&I)"
 END
 
 CONTROLBAR:CAH_InspireFear_Level2
-"Insp&irar miedo mejorado"
+"Inspirar miedo mejorado (&I)"
 END
 
 CONTROLBAR:CAH_SpillOil_Level1
-"Derrame de aceite/Encender fuego (&K)"
+"Derrame de aceite/Encender fuego (&V)"
 END
 
 CONTROLBAR:CAH_SpillOil_Level2
-"Derrame de aceite/Encender fuego mejorado (&K)"
+"Derrame de aceite/Encender fuego mejorado (&V)"
 END
 
 CONTROLBAR:CAH_SpillOil_Level3
-"Derrame de aceite/Encender fuego grande (&K)"
+"Derrame de aceite/Encender fuego grande (&V)"
 END
 
 CONTROLBAR:SpecialAbilitySoSCrippleStrikeMelee_Level1
@@ -42273,39 +42277,39 @@ CONTROLBAR:SpecialAbilitySoSCrippleStrikeMelee_Level2
 END
 
 CONTROLBAR:CAH_Assassin_Level1
-"Ases&ino"
+"Asesino (&C)"
 END
 
 CONTROLBAR:CAH_Assassin_Level2
-"Ases&ino mejorado"
+"Asesino mejorado (&C)"
 END
 
 CONTROLBAR:CAH_Assassin_Level3
-"Ases&ino poderoso"
+"Asesino poderoso (&C)"
 END
 
 CONTROLBAR:CAH_Assassin_Level4
-"Ases&ino superior"
+"Asesino superior (&C)"
 END
 
 CONTROLBAR:CAH_AttachSpy_Level1
-"Añadir esp&ía"
+"Añadir espía (&I)"
 END
 
 CONTROLBAR:CAH_AttachSpy_Level2
-"Añadir esp&ía mejorado"
+"Añadir espía mejorado (&I)"
 END
 
 CONTROLBAR:CAH_StealMoney_Level1
-"Robar &recursos"
+"Robar recursos (&R)"
 END
 
 CONTROLBAR:CAH_StealMoney_Level2
-"Robar &recursos mejorado"
+"Robar recursos mejorado (&R)"
 END
 
 CONTROLBAR:CAH_StealMoney_Level3
-"Robar &recursos grande"
+"Robar recursos grande (&R)"
 END
 
 CONTROLBAR:CAH_CM_Conquer
@@ -42313,11 +42317,11 @@ CONTROLBAR:CAH_CM_Conquer
 END
 
 CONTROLBAR:CAH_CM_Stealth_Level1
-"Sigilo"
+"Sigilo (&T)"
 END
 
 CONTROLBAR:CAH_CM_Stealth_Level2
-"Sigilo mejorado"
+"Sigilo mejorado (&T)"
 END
 
 CONTROLBAR:SpecialAbilityCreateAHeroCorruptedManToggleWeapon_Level1
@@ -42333,20 +42337,20 @@ CONTROLBAR:CAH_ClimbWalls
 END
 
 CONTROLBAR:CAH_Coerce_Level1
-"Intimidación (&O)"
+"Intimidación (&B)"
 END
 
 CONTROLBAR:CAH_Coerce_Level2
-"Intimidación mejorada (&O)"
+"Intimidación mejorada (&B)"
 END
 
 CONTROLBAR:CAH_Coerce_Level3
-"Intimidación grande (&O)"
+"Intimidación grande (&B)"
 END
 
-CONTROLBAR:CAH_Coerce_Level4
-"Disfraz (&J)"
-END
+//	CONTROLBAR:CAH_Coerce_Level4
+//	"Disfraz (&J)"
+//	END
 
 ToolTip:CAHRequiresLevel
 "Requisito: Nivel %d"
@@ -44595,7 +44599,7 @@ CONTROLBAR:BladeMaster
 END
 
 CONTROLBAR:Elendil
-"Elendil (&V)"
+"Elendil (&N)"
 END
 
 CONTROLBAR:Oathbreakers
