@@ -34,7 +34,7 @@ CONTROLBAR:ImprovedArmorL1
 END
 
 CONTROLBAR:TooltipImprovedArmorL1
-"Damage resistance +10%\nPassive Effect"
+"Damage resistance +5 & +6% more healthpoints.%\nPassive Effect"
 END
 
 CONTROLBAR:ImprovedArmorL2
@@ -42,7 +42,7 @@ CONTROLBAR:ImprovedArmorL2
 END
 
 CONTROLBAR:TooltipImprovedArmorL2
-"Damage resistance +15%\nPassive Effect"
+"Damage resistance +5% & +6% more healthpoints.\nPassive Effect"
 END
 
 CONTROLBAR:BootsOfSpeed
@@ -1568,7 +1568,7 @@ CONTROLBAR:ToolTipUltima
 END
 
 CONTROLBAR:LegendsTrollsMight
-"Troll's might"
+"Troll's might (&R)"
 END
 
 CONTROLBAR:TooltipLegendsTrollsMight
@@ -1576,7 +1576,7 @@ CONTROLBAR:TooltipLegendsTrollsMight
 END
 
 CONTROLBAR:LegendsOrcsCunning
-"Goblin's Cunning"
+"Goblin's Cunning (&T)"
 END
 
 CONTROLBAR:TooltipLegendsOrcsCunning
@@ -1584,7 +1584,7 @@ CONTROLBAR:TooltipLegendsOrcsCunning
 END
 
 CONTROLBAR:LegendsBigWham
-"Big Wham!"
+"Big Wham! (&C)"
 END
 
 CONTROLBAR:TooltipLegendsBigWham
@@ -1600,7 +1600,7 @@ CONTROLBAR:TooltipLegendsThornMetalArmor
 END
 
 CONTROLBAR:LegendsMirrorImage
-"Mirror Image (&W)"
+"Mirror Image (&R)"
 END
 
 CONTROLBAR:TooltipLegendsMirrorImage
@@ -1608,7 +1608,7 @@ CONTROLBAR:TooltipLegendsMirrorImage
 END
 
 CONTROLBAR:LegendsUncontrollableRage
-"Uncontrollable Rage(&V)"
+"Uncontrollable Rage(&B)"
 END
 
 CONTROLBAR:TooltipLegendsUncontrollableRage
@@ -1624,7 +1624,7 @@ CONTROLBAR:TooltipLegendsEscape
 END
 
 CONTROLBAR:LegendsBlazingSweep
-"Blazing Sweep (&B)"
+"Blazing Sweep (&V)"
 END
 
 CONTROLBAR:TooltipLegendsBlazingSweep
@@ -1632,7 +1632,7 @@ CONTROLBAR:TooltipLegendsBlazingSweep
 END
 
 CONTROLBAR:LegendsColorSpray
-"Color Spray (&W)"
+"Color Spray (&R)"
 END
 
 CONTROLBAR:TooltipLegendsColorSpray
@@ -1640,7 +1640,7 @@ CONTROLBAR:TooltipLegendsColorSpray
 END
 
 CONTROLBAR:LegendsRegeneration
-"&Regeneration"
+"Regeneration (&T)"
 END
 
 CONTROLBAR:TooltipLegendsRegeneration
@@ -1648,7 +1648,7 @@ CONTROLBAR:TooltipLegendsRegeneration
 END
 
 CONTROLBAR:LegendsNaturesFavour
-"Nature's Favour (&T)"
+"Nature's Favour (&C)"
 END
 
 CONTROLBAR:TooltipLegendsNaturesFavour
@@ -1688,7 +1688,7 @@ CONTROLBAR:TooltipLegendsSoulPurge
 END
 
 CONTROLBAR:LegendsSwiftTheHawk
-"Animal Companion\nSpike, the &White Hawk"
+"Animal Companion\nSpike, the White Hawk (&R)"
 END
 
 CONTROLBAR:TooltipLegendsSwiftTheHawk

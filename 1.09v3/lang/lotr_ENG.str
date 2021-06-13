@@ -44936,7 +44936,7 @@ CONTROLBAR:CAH_BallLightning_L3
 END
 
 CONTROLBAR:SpecialAbilityHeroBlink
-"Blink (&W)"
+"Blink (&W)" 
 END
 
 CONTROLBAR:SpecialAbilityCAHFireball1
@@ -45109,15 +45109,15 @@ CONTROLBAR:CAH_Leap_Level2
 END
 
 CONTROLBAR:CAH_Sapper_Level1
-"Sapper (&U)
+"Sapper (&U)"
 END
 
 CONTROLBAR:CAH_Sapper_Level2
-"Improved Sapper (&U)
+"Improved Sapper (&U)"
 END
 
 CONTROLBAR:CAH_Sapper_Level3
-"Mighty Sapper (&U)
+"Mighty Sapper (&U)"
 END
 
 CONTROLBAR:CAH_Toughness
@@ -45322,15 +45322,15 @@ CONTROLBAR:CAH_ClimbWalls
 END
 
 CONTROLBAR:CAH_Coerce_Level1
-"Coerce (&B)
+"Coerce (&B)"
 END
 
 CONTROLBAR:CAH_Coerce_Level2
-"Improved Coerce (&B)
+"Improved Coerce (&B)"
 END
 
 CONTROLBAR:CAH_Coerce_Level3
-"Great Coerce (&B)
+"Great Coerce (&B)"
 END
 
 //CONTROLBAR:CAH_Coerce_Level4
