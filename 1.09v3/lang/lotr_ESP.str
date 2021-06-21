@@ -4,7 +4,7 @@
 
 //------------------------------------------------------------
 
-// String lines for new Patch 1.09v2	-----	2019
+// String lines for new Patch 1.09v3	-----	2019
 
 //------------------------------------------------------------
 
@@ -24,6 +24,13 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:Draft09v3
+"D&raft"
+End
+CONTROLBAR:ToolTipDraft09v3
+"Arms the peasants of this battalion. \n When equipped, increases the damage done by Melee Weapons \n and significantly reduces the amount of damage taken."
+END
+//------------------------------------------------------------
 CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
 "Disfraz (&V)"
 END
@@ -34,6 +41,19 @@ End
 CONTROLBAR:SummonWargAlliesDesc09v3
 "Requisito: Nivel 10 \n Convoca un grupo de Jinetes de Huargos de Isengard que lucharán junto a Sharku. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
 END
+//------------------------------------------------------------
+
+
+
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.09v2
+
+//------------------------------------------------------------
+
+
+
 //------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
 "Principe de Ithilien [&B]"
