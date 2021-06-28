@@ -29583,7 +29583,8 @@ CONTROLBAR:BattleWagonUpgradeAxeThrowers
 END
 
 CONTROLBAR:BattleWagonUpgradeBannerCarrier
-"Mejorar con Portaestanda&rte"
+"Mejorar con Portaestandarte (&V)"
+//(&R)
 END
 
 CONTROLBAR:BattleWagonUpgradeHearth
@@ -29851,8 +29852,9 @@ CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades
 END
 
 CONTROLBAR:SpecialAbilityOilBarrels
-"Barriles de aceite (&V)"
+"Ba&rriles de aceite"
 END
+// (&R)
 
 CONTROLBAR:SpecialAbilitySummonedDragonReposition
 "Cambia&r de posición"
@@ -38517,7 +38519,7 @@ CONTROLBAR:PurchaseTechnologyIsengardTorches
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot
-"Comprar p&royectiles en llamas"
+"Comprar proyectiles en llamas (&B)"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesMagicArrows
