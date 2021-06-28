@@ -15914,7 +15914,7 @@ CONTROLBAR:ToolTipBuildWildMountainGiant
 END
 
 CONTROLBAR:ConstructWildMarauderHorde
-"&Merodeadores semitroll"
+"Merodeadores semitroll (&V)"
 END
 
 OBJECT:MordorEasterling
@@ -15926,7 +15926,7 @@ CONTROLBAR:ConstructMordorOrcFighterHorde
 END
 
 CONTROLBAR:ConstructMordorOrcArcherHorde
-"Arqueros orcos (&L)"
+"Arqueros orcos (&V)"
 END
 
 CONTROLBAR:ConstructMordorHaradrimHorde
@@ -16126,7 +16126,7 @@ CONTROLBAR:ConstructIsengardWildmanHorde
 END
 
 CONTROLBAR:ConstructIsengardWargRider
-"Jinetes de huargos (&L)"
+"Jinetes de huargos (&V)"
 END
 
 CONTROLBAR:ConstructIsengardSiegeBallista
