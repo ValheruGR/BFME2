@@ -16902,7 +16902,7 @@ CONTROLBAR:ConstructGondorShieldGuardHorde
 "Gondor &Tower Guards"
 END
 CONTROLBAR:ConstructGondorKnightHorde
-"Gondor &Knights"
+"Gondor Knights (&W)"
 END
 CONTROLBAR:ConstructGondorTrebuchet
 "T&rebuchet"
@@ -17381,7 +17381,7 @@ END
 // \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry"
 
 CONTROLBAR:ConstructWildSpiderlingHorde
-"Spider&lings"
+"Spi&derlings"
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderlingHorde
@@ -17401,7 +17401,7 @@ CONTROLBAR:ToolTipBuildWildMountainGiant
 END
 
 CONTROLBAR:ConstructWildMarauderHorde
-"Half-Troll &Marauders"
+"Half-&Troll Marauders"
 END
 
 // MORDOR UNITS
@@ -17583,7 +17583,7 @@ CONTROLBAR:ConstructIsengardCrossbowmen
 "Uruk &Crossbowmen"
 END
 CONTROLBAR:ConstructIsengardPikemen
-"Uruk &Pikemen"
+"Uruk Pikemen (&T)"
 END
 CONTROLBAR:ConstructIsengardWildmanHorde
 "&Wildmen of Dunland"
@@ -28273,7 +28273,7 @@ CONTROLBAR:ConstructDwarvenGuardianHorde
 END
 
 CONTROLBAR:ConstructDwarvenPhalanxHorde
-"&Phalanxes"
+"Phalanxes (&T)"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde
@@ -28321,7 +28321,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel3
 END
 
 CONTROLBAR:ConstructDwarvenMenOfDale
-"Men of Da&le"
+"Men of Dale (&R)"
 END
 
 CONTROLBAR:ConstructDwarvenArcheryRangeLevel2Upgrade
@@ -28371,7 +28371,7 @@ END
 //////////////////////////////
 
 CONTROLBAR:ConstructWildSpiderHolesExpansion
-"S&pider Holes Expansion"
+"Spider Holes Expansion (&T)"
 END
 
 CONTROLBAR:ToolTipConstructWildSpiderHolesExpansion
@@ -28873,7 +28873,7 @@ CONTROLBAR:ConstructElvenMirkwoodArcherHorde
 END
 
 CONTROLBAR:ConstructElvenMithlondSentryHorde
-"Train &Mithlond Sentries"
+"Train Mi&thlond Sentries"
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
@@ -28881,7 +28881,7 @@ CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
 END
 
 CONTROLBAR:BuildElvenRivendellLancers
-"Train Rivende&ll Lancers"
+"Train Rivendell Lancers (&W)"
 END
 
 CONTROLBAR:ConstructElvenPorter
