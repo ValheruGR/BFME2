@@ -350,7 +350,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Roept het Oog van Sauron op\nMaakt verscholen vijanden zichtbaar\n bondgenoten krijgen +25% schade, +25% pantser, \n en verdienen ervaring 50% sneller. \n Modifier Type: RESISTANT 'High-Tier Hero' \nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Roept het Oog van Sauron op\nMaakt verscholen vijanden zichtbaar\n bondgenoten krijgen +25% schade, +25% pantser, \n en verdienen ervaring 50% sneller. \n Modifier Type: RESISTANT 'High-Tier Hero' \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: RESISTANT 'High-Tier Hero'\nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
@@ -687,6 +687,48 @@ END
 Map:mapmpnothing/Desc
 "nothing"
 END
+//------------------------------------------------------------
+Map:mapPKbamfurlong
+"Bamfurlong" 
+End
+Map:mapPKbamfurlong/Desc
+"Bamfurlong was a farm in the boggy region of the Marish in the eastern Shire. It was the home of Farmer Maggot, who lived above ground rather than in a traditional Hobbit-hole. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:mapSOironhillsii
+"Iron Hills II"
+END
+Map:mapSOironhillsii/Desc
+"These hills, rich in iron, were long held by the Dwarves and Dain Ironfoot. \n Map from RotWK, by Solas."
+END
+//----------------------------------
+Map:mapeterechiii
+"Erech: 4th Age" 
+End
+Map:mapeterechiii/Desc
+"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age.\nMap by Ecthelion."
+End
+//------------------------------------------------------------
+Map:mapTTbaranduin
+"River Baranduin"
+END
+Map:mapTTbaranduin/Desc
+"The Baranduin River of Eriador is known by the Hobbits as the Brandywine River. It marks the the boundary between the known and the unknown. \n Map by Temptation."
+END
+//------------------------------------------------------------
+Map:mapPKcanyonsofkhand
+"Canyons of Khand" 
+End
+Map:mapPKcanyonsofkhand/Desc
+"Khand was the name of a land which lay to the south of Mordor and the east of Near Harad. Little is known about Khand or its people, but it was most likely a dry and barren land covered in desert. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:mapPKlonelymountain
+"Slopes of the Lonely Mountain"
+End
+Map:mapPKlonelymountain/desc
+"The Battle of the five Armies took place in this valley, located between the Lonely Mountain and Dale. The five warring parties were the Goblins and the Wargs against Men, Elves, and Dwarves. \n Map by Powerkartoffel."
+End
 //------------------------------------------------------------
 Map:mapttfiriendale
 "Firien Dale"
