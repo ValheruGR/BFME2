@@ -131,7 +131,7 @@ CONTROLBAR:ThunderBolt09v2
 "Thunderbolt Storm [&B]"
 END
 CONTROLBAR:ToolTipThunderBolt09v2
-"Potrzeba poziomu 8 \n Saruman creates a series of clouds that strike powerful lightning bolts against targeted location. \n Left click icon then left click on location"
+"Potrzeba poziomu 10 \n Saruman creates a series of clouds that strike powerful lightning bolts against targeted location. \n Left click icon then left click on location"
 END
 CONTROLBAR:ToolTipPersonalFlood09v2
 "Wymaga 5 poziomu \n Przywoluje potop, który niszczy wrogów i gasi ogien.\n Bardzo efektywne przeciw kawaleri.\nBonus przeciwk Czarnym Jezdzca. \n The flood horses are improved at level 10. \n Kliknij lewym przyciskiem myszy na ikonie, a nastepnie na celu"
@@ -45020,7 +45020,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 
 CONTROLBAR:ToolTipDominate
-"Wymaga 10 poziomu \n Zapewnia tymczasowa kontrole nad wskazanymi wrogami \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych wrogach"
+"Wymaga 8 poziomu \n Zapewnia tymczasowa kontrole nad wskazanymi wrogami \n Kliknij lewym przyciskiem na ikonie, a nastepnie na wybranych wrogach"
 END
 
 CONTROLBAR:ToolTipSharkuManEater

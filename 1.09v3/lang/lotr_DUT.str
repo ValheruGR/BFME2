@@ -130,7 +130,7 @@ CONTROLBAR:ThunderBolt09v2
 "Storm van bliksemschichten [&B]"
 END
 CONTROLBAR:ToolTipThunderBolt09v2
-"Nodig: niveau 8 \n Saruman creëert een serie van wolken die zeer sterke bliksemschichten afsturen op het doelwitgebied. \n Klik met links op het icoontje en daarna met links op het doelwit"
+"Nodig: niveau 10 \n Saruman creëert een serie van wolken die zeer sterke bliksemschichten afsturen op het doelwitgebied. \n Klik met links op het icoontje en daarna met links op het doelwit"
 END
 CONTROLBAR:ToolTipPersonalFlood09v2
 "Nodig: niveau 5\nRoept een overstroming op die schade aanricht bij vijanden en vuren blust\n Bonus tegen Black Riders. \n De overstroming wordt sterker op level 10 \n Klik met links op het icoontje en daarna met links op het doelwit"
@@ -45017,7 +45017,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 
 CONTROLBAR:ToolTipDominate
-"Nodig: niveau 10\nGeeft tijdelijk controle over geselecteerde vijanden\nKlik met links op het icoontje en daarna met links op de doelwitten"
+"Nodig: niveau 8\nGeeft tijdelijk controle over geselecteerde vijanden\nKlik met links op het icoontje en daarna met links op de doelwitten"
 END
 
 CONTROLBAR:ToolTipSharkuManEater

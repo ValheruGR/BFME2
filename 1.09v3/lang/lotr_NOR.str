@@ -131,7 +131,7 @@ CONTROLBAR:ThunderBolt09v2
 "Thunderbolt Storm [&B]"
 END
 CONTROLBAR:ToolTipThunderBolt09v2
-"Krever: Nivå 8 \n Saruman creates a series of clouds that strike powerful lightning bolts against targeted location. \n Left click icon then left click on location"
+"Krever: Nivå 10 \n Saruman creates a series of clouds that strike powerful lightning bolts against targeted location. \n Left click icon then left click on location"
 END
 CONTROLBAR:ToolTipPersonalFlood09v2
 "Krever: Nivå 5\nPåkaller en flodbølge som skader fienden og slukker branner \n Bonus against Black Riders. \n The flood horses are improved at level 10. \nVenstreklikk på ikonet, og venstreklikk på målet"
@@ -45025,7 +45025,7 @@ CONTROLBAR:ToolTipGBloodHunt
 END
 
 CONTROLBAR:ToolTipDominate
-"Krever: Nivå 10\nFå midlertidig kontroll over utvalgte fiender\nVenstreklikk på ikonet, og venstreklikk på valgte fiender"
+"Krever: Nivå 8\nFå midlertidig kontroll over utvalgte fiender\nVenstreklikk på ikonet, og venstreklikk på valgte fiender"
 END
 
 CONTROLBAR:ToolTipSharkuManEater
