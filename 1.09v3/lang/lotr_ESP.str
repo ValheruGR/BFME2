@@ -350,7 +350,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Modificador tipo: RESISTANT 'High-Tier Hero'. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: RESISTANT 'High-Tier Hero'\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: RESISTANT 'High-Tier Hero'\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
@@ -10029,7 +10029,7 @@ CONTROLBAR:TrollFindTree
 END
 
 CONTROLBAR:ConstructWarg
-"Huargo (&W)"
+"Huargo (&L)"
 END
 
 CONTROLBAR:ToolTipBuildWarg
@@ -10037,7 +10037,7 @@ CONTROLBAR:ToolTipBuildWarg
 END
 
 CONTROLBAR:ConstructSpider
-"Araña (&W)"
+"Araña (&L)"
 END
 
 CONTROLBAR:ToolTipBuildSpider
@@ -15956,7 +15956,7 @@ CONTROLBAR:ToolTipBuildWildMountainGiant
 END
 
 CONTROLBAR:ConstructWildMarauderHorde
-"Merodeadores semitroll (&V)"
+"&Merodeadores semitroll"
 END
 
 OBJECT:MordorEasterling
@@ -15968,7 +15968,7 @@ CONTROLBAR:ConstructMordorOrcFighterHorde
 END
 
 CONTROLBAR:ConstructMordorOrcArcherHorde
-"Arqueros orcos (&V)"
+"Arqueros orcos (&L)"
 END
 
 CONTROLBAR:ConstructMordorHaradrimHorde
@@ -16168,7 +16168,7 @@ CONTROLBAR:ConstructIsengardWildmanHorde
 END
 
 CONTROLBAR:ConstructIsengardWargRider
-"Jinetes de huargos (&V)"
+"Jinetes de huargos (&L)"
 END
 
 CONTROLBAR:ConstructIsengardSiegeBallista
@@ -24671,7 +24671,7 @@ SCRIPT:MEEdBonus02
 END
 
 CONTROLBAR:PurchaseTechnologyRohanFireArrows
-"Investigación: Mejora flechas de fuego (&U)"
+"Investigación: Mejora flechas de f&uego"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyRohanFireArrows
@@ -26451,7 +26451,7 @@ TOOLTIP:LackLevel2TreasureTrove
 END
 
 CONTROLBAR:PurchaseUpgradeCirdansCraftwork
-"Artesanía de Cirdan(&R)"
+"Artesanía de Ci&rdan"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeCirdansCraftwork
@@ -44663,7 +44663,7 @@ CONTROLBAR:BladeMaster
 END
 
 CONTROLBAR:Elendil
-"Elendil (&N)"
+"Elendil (&V)"
 END
 
 CONTROLBAR:Oathbreakers
