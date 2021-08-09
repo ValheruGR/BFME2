@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 460 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 490 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -77,6 +77,82 @@ End
 
 
 
+
+
+//------------------------------------------------------------
+CONTROLBAR:SummonIronHillZealots_New
+"Summon Iron Hill Zealots (&V)"
+END
+CONTROLBAR:SummonIronHillZealotsDesc_New
+"Requires Level 10 \n Summons three groups of Gimli berserker-cousins from the Iron Hills. \n Left click icon then left click on pathable location"
+END
+//------------------------------------------------------------
+CONTROLBAR:SmaugAlly_New
+"Summon Smaug"
+END
+
+CONTROLBAR:TooltipSmaugAlly_New
+"Summons the legendary Smaug temporary \n Left click icon then left click on pathable location"
+END
+//------------------------------------------------------------
+OBJECT:Smaug_New
+"Smaug"
+END
+//UPGRADE:SmaugDesc_New
+//"Why is ecth so pro?"
+//End
+//------------------------------------------------------------
+UPGRADE:RohanMirkRider_New
+"Research MirkRider Ability (&T)"
+END
+UPGRADE:RohanMirkRiderDesc_New
+"Requires Level 2 Stable \n Allows Rohirrim Archers to use the MirkRider ability."
+End
+//-----------
+CONTROLBAR:RohanMirkRider_New
+"MirkRider Ability (&T)"
+END
+CONTROLBAR:RohanMirkRiderDesc_New
+"Temporary grants a boost of +30% range. \n Lasts 45 seconds. \n Left click to activate"
+END
+//-----------
+TOOLTIP:RohanMirkRider_New
+"MirkRiders"
+END
+TOOLTIP:RohanMirkRiderDesc_New
+"This battallion has elite training and became a MirkRider. \n Gained +30% permanent range bonus. \n Left click to activate"
+END
+//------------------------------------------------------------
+CONTROLBAR:SpecialAbilitySummonedDragonReposition_New
+"Reposition (&C)"
+End
+//-----
+CONTROLBAR:Roar_New
+"&Whiplash"
+End
+CONTROLBAR:TooltipRoar_New
+"Beat the drums and make Terence Fletcher proud. \n Provides +20% range and fear inmunity to player infantry for the duration of the music. \n Left click to activate"
+End
+CONTROLBAR:DrummerTrollTrainAllies_New
+"&Train Allies"
+END
+CONTROLBAR:DrummerTrollTrainAlliesDesc_New
+"Targeted units gain experience. \n Left click icon then left click on target units"
+END
+//------------------------------------------------------------
+TOOLTIP:TooltipConstructMordorDrummerTrolls_New
+"Drummer of Mordor: Provides Leadership. \n Player units gain +50% Armor and earn experience 25% faster. \n Category: 'TaintLand' \n Player units gain +35% earn experience 35% faster. \n Category: 'DrummerTroll'"
+END
+CONTROLBAR:TooltipConstructMordorDrummerTrolls_New
+"Requires Level 2 Troll Cage \n Provides Leadership to player units"
+END
+//------------------------------------------------------------
+CONTROLBAR:KingsCurse_New
+"King's Curse [&B]"
+END
+CONTROLBAR:KingsCurseDesc_New
+"Requires Level 10 \n Argon, the self-proclaimed King of Gondor, has the skills to lift the curses of his people, yet he can arbitrarily decide to cast new ones based on whatever excuses he may invent. \n Perhaps another broken oath that isn't even written? \n Arbitrary and improperly justified lightning strikes the ground and upon death, the affected units turn into members of the Dead Army. \n Left click icon then left click on target units"
+END
 //------------------------------------------------------------
 CONTROLBAR:MumakilCharge_New
 "Mumakil Charge"
@@ -251,8 +327,11 @@ CONTROLBAR:ConstructIsengardLumberMill_New
 "Build a lumber mill (&Y)"
 END
 //---------------------------------------------------
+UPGRADE:PurchaseDwarvenBallistaUpgrade_New
+"Anti-Dragons Ballista"
+END
 CONTROLBAR:PurchaseDwarvenBallistaUpgrade_New
-"Install anti-&dragons device"
+"Install Anti-&Dragons Ballista"
 END
 CONTROLBAR:PurchaseDwarvenBallistaUpgradeDesc_New
 "Installs a dwarven ballista on this tower \n Deals siege damage in area, causes meta impact and has a bonus against monsters"
@@ -282,13 +361,22 @@ CONTROLBAR:GandalfMaiarLightDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityDrogothFireball_New
-"Requires Level 3 \n Send a tripple fireball at selected targets. \n The enemies affected receive damage from the fire for 20 seconds. \n Left click icon then left click on target location"
+"Requires Level 2 \n Send a tripple fireball at selected targets. \n The enemies affected receive damage from the fire for 20 seconds. \n Left click icon then left click on target location"
 END
 CONTROLBAR:ToolTipSpecialAbilityWingBlast_New
-"Requires Level 5 \n Shoots a shockwave of force below Drogoth, causing high meta damage to enemies \n Damage bonus against heroes and monsters \n Left click icon then left click on target area"
+"Requires Level 4 \n Shoots a shockwave of force below Drogoth, causing high meta damage to enemies \n Damage bonus against heroes and monsters \n Left click icon then left click on target area"
 END
 CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight_New
-"Requires Level 7 \n Sends a fiery dragon missile at selected target \n Left click icon then left click on target"
+"Requires Level 6 \n Sends a fiery dragon missile at selected target \n Left click icon then left click on target"
+END
+CONTROLBAR:ToolTipSpecialAbilityIncinerate_New
+"Requires Level 8 \n Breathes fire over a selected area \n Left click icon then left click on target area"
+END
+CONTROLBAR:GenericMountDrogoth_New
+"Toggle foot / flying mode [&V]"
+END
+CONTROLBAR:GenericMountTooltipDrogoth_New
+"Requires Level 10  \n Left click to switch between \n foot and fly-mode"
 END
 //---------------------------------------------------
 CONTROLBAR:HornofGondorPassive_New
@@ -320,11 +408,11 @@ END
 CONTROLBAR:TooltipShelobFreezeingScreech_New
 "Requires Level 4 \n Burst the eardrums of the enemy, causing damage and slowing them down. \n Left click to activate"
 END
-CONTROLBAR:ShelobToxicCumShot_New
-"Venom Shoot (&C)"
+CONTROLBAR:ShelobPoisonedDart_New
+"Poisoned Dart (&C)"
 END
-CONTROLBAR:ShelobToxicCumShotDesc_New
-"Requires Level 6 \n Shoots a highly concentrated amount of liquid on the target \n Causes high damage in area, poisons paralyzing the target for 6 seconds.\n Left click icon then left click on target"
+CONTROLBAR:ShelobPoisonedDartDesc_New
+"Requires Level 6 \n Shoots a dart with a highly concentrated amount of liquid on the target. \n Causes high damage in area and paralyzes the target for 6 seconds.\n Left click icon then left click on target"
 END
 CONTROLBAR:SpecialAbilityWildShelobTunnel_New
 "Tunnel [&B]"
@@ -333,10 +421,10 @@ CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel_New
 "Requires Level 8 \n Allows Shelob to tunnel under the ground and emerge at any unshrouded location, causing damage and metaimpact. \n Left click icon then left click on target location"
 END
 CONTROLBAR:ShelobWebbing_New
-"Webbing Shoot (&V)"
+"Rain of spider-webs (&V)"
 End
 CONTROLBAR:ToolTipShelobWebbing_New
-"Requires Level 10 \n Shelob shoots a storm of spider webs and eggs. \n Enemy units are crippled. \n Upon death, spider eggs will appaer, \n then shelob babies will be born. \n Left click icon then left click on target area"
+"Requires Level 10 \n Shelob fires a storm of spider-webs loaded with eggs. \n Enemy units are crippled and spider-eggs will be created on the bodies of the dead. \n Left click icon then left click on target area"
 End
 //---------------------------------------------------
 CONTROLBAR:BlackRiderMorgulBlade_New
@@ -417,26 +505,19 @@ END
 CONTROLBAR:GorkilsDebuffDesc_New
 "Requires Level 4 \n Can only use on foot. \n Debuff enemy units for 30 seconds \n Targeted enemies lose -33% armor, -15% speed\n and all leadership and buff bonuses \n Left click icon then left click on target units \n Does not stack with another debuff"
 END
-//-----
-CONTROLBAR:GoblinsTrainAllies_New
-"King of the Goblins Blessing [&V]"
-END
-CONTROLBAR:GoblinsTrainAlliesDesc_New
-"Requires Level 6 \n Targeted units gain experience. \n Left click icon then left click on target units"
-END
 //---------------------
-CONTROLBAR:GorkilToxicCumShot_New
-"Venom Shoot (&C)"
+CONTROLBAR:GorkilPoisonedDart_New
+"Poisoned Dart (&C)"
 END
-CONTROLBAR:GorkilToxicCumShotDesc_New
-"Requires Level 4 \n Can only use when mounted \n Shoots a highly concentrated amount of liquid on the target \n Causes damage in area, poisons paralyzes the target for 6 seconds.\n Left click icon then left click on target"
+CONTROLBAR:GorkilPoisonedDartDesc_New
+"Requires Level 4 \n Can only use when mounted \n Shoots a dart with a highly concentrated amount of liquid on a target. \n Causes damage in area and paralyzes the target for 6 seconds.\n Left click icon then left click on target"
 END
 //---------------------
 CONTROLBAR:GorkilRoussingSpeech_New
-"Day of the Goblin! [&B]"
+"Rousing Speech [&B]"
 END
 CONTROLBAR:GorkilRoussingSpeechDesc_New
-"Requires Level 7 \n Can only use when mounted \n The Goblin King and nearby player goblins gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Category: 'Glorious_Charge' \n left click icon to activate"
+"Requires Level 7 \n The Goblin King boosts nearby player goblins. \n Provides +999% armor, +50% damage, \n inmunity to deceleration when trampling, resistance to knockback \n and, finally, inmunity to any kind of fear. \n Category: 'Glorious_Charge' \n left click icon to activate"
 END
 //---------------------
 CONTROLBAR:GorkilSummonMarauders_New
@@ -548,7 +629,8 @@ CONTROLBAR:ConstructFurnace_New
 "Build a guild smelters fa&cility "
 END
 CONTROLBAR:ToolTipFurnace_New
-"Reduces the cost of upgrades.\n  1 Furnace: -33.3%.\n 2 Furnaces: -50%. \n 3 Furnaces: -66.6%."
+"Reduces the cost of upgrades.\n  1 Furnace: -25%.\n 2 Furnaces: -33.3%. \n 3 Furnaces: -50%."
+//"Reduces the cost of upgrades.\n  1 Furnace: -33.3%.\n 2 Furnaces: -50%. \n 3 Furnaces: -66.6%."
 END
 //---------------------------------------------------
 Upgrade:FortressPoisonArrows_New
@@ -639,6 +721,9 @@ END
 CONTROLBAR:UpgradeTowerArmorUpgradeIconDesc_New
 "Tower gains 50% more health points."
 END
+CONTROLBAR:UpgradeTowerArmorUpgradeIconDescLack_New
+"Requires all the previous upgrades."
+END
 //---------------------------------------------------
 CONTROLBAR:ChieftainOfDunlandHotkey_New
 "Chieftain of &Dunland"
@@ -705,19 +790,19 @@ TOOLTIP:DisplayDamage_SpiderRiderArcherElite
 //1.2
 End
 //--------------------------Done---------------------
-//RohanRohirrimBow
-TOOLTIP:DisplayDamage_RohirrimArcherBasic
-"Damage per unit: \n CAVALRY_RANGED damage: 100"
-//"Damage per unit: \n CAVALRY_RANGED damage: 90 \n SIEGE damage: 8"
-//"Damage per unit: \n CAVALRY_RANGED damage: 95 \n SIEGE damage: 9"
-//"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19"
-End
-TOOLTIP:DisplayDamage_RohirrimArcherUpgrade
-"Damage per unit: \n CAVALRY_RANGED damage: 100 \n FLAME damage: 50"
-//"Damage per unit: \n CAVALRY_RANGED damage: 90 \n SIEGE damage: 8 \n FLAME damage: 50"
-//"Damage per unit: \n CAVALRY_RANGED damage: 95 \n SIEGE damage: 9 \n FLAME damage: 48"
-//"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19 \n FLAME damage: 48"
-End
+//	//RohanRohirrimBow
+//	TOOLTIP:DisplayDamage_RohirrimArcherBasic
+//	"Damage per unit: \n CAVALRY_RANGED damage: 100"
+//	//"Damage per unit: \n CAVALRY_RANGED damage: 90 \n SIEGE damage: 8"
+//	//"Damage per unit: \n CAVALRY_RANGED damage: 95 \n SIEGE damage: 9"
+//	//"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19"
+//	End
+//	TOOLTIP:DisplayDamage_RohirrimArcherUpgrade
+//	"Damage per unit: \n CAVALRY_RANGED damage: 100 \n FLAME damage: 50"
+//	//"Damage per unit: \n CAVALRY_RANGED damage: 90 \n SIEGE damage: 8 \n FLAME damage: 50"
+//	//"Damage per unit: \n CAVALRY_RANGED damage: 95 \n SIEGE damage: 9 \n FLAME damage: 48"
+//	//"Damage per unit: \n CAVALRY_RANGED damage: 74 \n SIEGE damage: 19 \n FLAME damage: 48"
+//	End
 //---------------------------------------------
 TOOLTIP:DisplayDamage_RangerBasic
 "Damage per unit: \n PIERCE damage: 65"
@@ -884,42 +969,42 @@ CONTROLBAR:ConstructTrollDrum_New
 "Build a troll drum (&B)"
 END
 //---------------------------------------------------
-TOOLTIP:LackGondorBasicTraining_New
+TOOLTIP:LackGondorEliteTraining_New
 "Research upgrade at BlackSmith to enable this equipment \n When equipped, increases this horde to Level 2 and becomes able to shoot Dunedain Ice Arrows"
 END
-TOOLTIP:LackIsengardBasicTraining_New
+TOOLTIP:LackIsengardEliteTraining_New
 "Purchase Upgrade at Armory to enable this equipment \n When equipped, increases this horde to Level 2, receives Heavy Armor and becomes able to shoot Explosive Bolts permanently."
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseTechnologyGondorFireArrows_New
 "Research &Fire Arrows" // different hotkey only.
 END
-CONTROLBAR:PurchaseTechnologyIsengardBasicTraining_New
+CONTROLBAR:PurchaseTechnologyIsengardEliteTraining_New
 "Research Explosive Bolts (&E)"
 END
-CONTROLBAR:PurchaseTechnologyElvenBasicTraining_New
+CONTROLBAR:PurchaseTechnologyElvenEliteTraining_New
 "Research Golden Arrows (&G)"
 END
-CONTROLBAR:PurchaseTechnologyGondorBasicTraining_New
-"Research Dunedain Ice Arrows (&I)"
+CONTROLBAR:PurchaseTechnologyGondorEliteTraining_New
+"Research Men Elite Training (&I)"
 END
 //---------------------------------------------------
-CONTROLBAR:ToolTipPurchaseTechnologyIsengardBasicTraining_New
+CONTROLBAR:ToolTipPurchaseTechnologyIsengardEliteTraining_New
 "Requires Level 3 Armory and Science from SpellBook. \n Allows Crossbowmen to purchase the Explosive Bolts upgrade. \n The upgraded hordes become able to shoot Explosive Bolts permanently and get increased to Level 2."
 END
-CONTROLBAR:ToolTipPurchaseTechnologyElvenBasicTraining_New
+CONTROLBAR:ToolTipPurchaseTechnologyElvenEliteTraining_New
 "Requires Level 3 Eregion Forge and Science from Spellbook. \n Allows battalions to purchase the Golden Arrows upgrade. \n The upgraded hordes become able to shoot Golden Arrows permanently and get increased to Level 2."
 END
-CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining_New
-"Requires Level 3 Blacksmith and Science from SpellBook. \n Allows Gondor Rangers to purchase the Dunedain Ice Arrows upgrade. \n The upgraded hordes become able to shoot Ice Arrows permanently and get increased to Level 2."
+CONTROLBAR:ToolTipPurchaseTechnologyGondorEliteTraining_New
+"Requires Level 3 Blacksmith and Science from SpellBook. \n Allows Gondor Rangers to purchase the Dunedain Ice Arrows upgrade. \n Allows Rohirrim Archers to become MirkRiders permanently."
 END
-CONTROLBAR:ToolTipPurchaseTechnologyMordorBasicTraining_New
+CONTROLBAR:ToolTipPurchaseTechnologyMordorEliteTraining_New
 "Requires Level 3 Tavern and Science from SpellBook. \n Allows battalions of Haradrim Archer to purchase a Elite Training pack service. \n The upgraded hordes become able to shoot Barbed Arrows permanently and get increased to Level 3."
 END
-CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining_New
+CONTROLBAR:ToolTipPurchaseTechnologyWildEliteTraining_New
 "Requires Level 3 Treasure Trove and Science from SpellBook. \n Allows Goblins battalions to purchase a Elite Training pack service.\n The upgraded hordes become able to shoot Poison Arrows permanently and get increased to Level 2."
 END
-CONTROLBAR:ToolTipPurchaseTechnologyDwarvenBasicTraining_New
+CONTROLBAR:ToolTipPurchaseTechnologyDwarvenEliteTraining_New
 "Requires Level 3 Forge Works and Science from SpellBook. \n Allows battalions of Men of Dale to purchase a Elite Training service. \n The upgraded hordes become able to shoot Black Arrows permanently and get increased to Level 2"
 END
 //------------------------------------------------------------
@@ -930,17 +1015,20 @@ CONTROLBAR:ToolTipPurchaseTechnologySpiderVenomSacks_New
 "Requires Level 3 Treasure Trove and Science from SpellBook. \n Allows Goblins and Riders hordes to purchase a Venom Sacks. \n Provides ilimitated Poison Arrows ammo."
 END
 //---------------------------------------------------
-CONTROLBAR:PurchaseUpgradeIsengardBasicTraining_New
+CONTROLBAR:PurchaseUpgradeIsengardEliteTraining_New
 "Purchase Explosive Bolts (&C)"
 END
-CONTROLBAR:PurchaseUpgradeGondorBasicTraining_New
-"Purchase Dunedain Ice Arrows (&C)"
+CONTROLBAR:PurchaseUpgradeGondorEliteTraining_New
+"Purchase Elite Training (&C)"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeIsengardBasicTraining_New
+CONTROLBAR:ToolTipPurchaseUpgradeIsengardEliteTraining_New
 "Increases this horde to Level 2, grants heavy armor and becomes able to shoot Explosive Bolts permanently."
 END
-CONTROLBAR:ToolTipPurchaseUpgradeGondorBasicTraining_New
+CONTROLBAR:ToolTipPurchaseUpgradeGondorEliteTraining_New
 "Increases this battalion to Level 2 and becomes able to shoot Dunedain Ice Arrows."
+END
+CONTROLBAR:ToolTipPurchaseUpgradeRohanEliteTraining_New
+"Increases this battalion to Level 5 and becomes able to shoot like a MirkRider permanently."
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel2_New
@@ -993,16 +1081,16 @@ CONTROLBAR:ToolTipBuildIsengardCrossbowmen_New
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseUpgradeSentryTowerPoisonArrows_New
-"Poison Arrows (&T)"
+"Poison Arrows (&B)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerPoisonArrows_New
 "Upgrades this Tower with Poison Arrows \n Increases damage done by arrows and inflicts poison damage on the enemy, causing damage over time and slow them down"
 END
 //---------------------------------------------------
-TOOLTIP:LackWildBasicTraining_New
+TOOLTIP:LackWildEliteTraining_New
 "Research at Treasure Trove to enable this technique . \n When equipped, increases this horde to level 2, receives Heavy Armor and become able to shoot Poison Arrows permanently."
 END
-CONTROLBAR:ToolTipPurchaseUpgradeWildBasicTraining_New
+CONTROLBAR:ToolTipPurchaseUpgradeWildEliteTraining_New
 "Increases this horde to level 2, grants Heavy Armor, and becomes able to use Poison Arrows permanently."
 END
 //------------------------------------------------------------
@@ -1016,23 +1104,23 @@ TOOLTIP:LackVenomSacksTechnology_New
 "Research at Treasure Trove to enable this equipment . \n When equipped, archers become able to use Poison Arrow permanently, \n inflicting poison damage over time"
 END
 //---------------------------------------------------
-TOOLTIP:LackDwarvenBasicTraining_New
+TOOLTIP:LackDwarvenEliteTraining_New
 "Research at Forge Works to enable this technique . \n When equipped, increases this horde to level 2, receives Heavy Armor, and become able to use Poison Black permanently."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenTraining_New
 "Increases this horde to level 2, grants Heavy Armor and becomes able to shoot Black Arrows permanently."
 End
 //---------------------------------------------------
-TOOLTIP:LackMordorBasicTraining_New
+TOOLTIP:LackMordorEliteTraining_New
 "Research upgrade at Tavern to enable this technique \n When equipped, increases this horde to Level 3, receives Heavy Armor and becomes able to use Barbed Arrows permanently."
 END
-TOOLTIP:LackElderRacesBasicTraining_New
+TOOLTIP:LackElderRacesEliteTraining_New
 "Research upgrade at the EregionForge to enable this equipment \n When equipped, increases this horde to Level 2, receives Heavy Armor and becomes able to shoot Golden Arrows permanently."
 END
-CONTROLBAR:ToolTipPurchaseUpgradeMordorBasicTraining_New
+CONTROLBAR:ToolTipPurchaseUpgradeMordorEliteTraining_New
 "Increases this horde to level 3, grants Heavy Armor and becomes able to shoot Barbed Arrows permanently."
 END
-CONTROLBAR:ToolTipPurchaseUpgradeElderRacesBasicTraining_New
+CONTROLBAR:ToolTipPurchaseUpgradeElderRacesEliteTraining_New
 "Increases this horde to level 2, grants Heavy Armor and becomes able to shoot Golden Arrows permanently."
 END
 //------------------------------------------------------------//
@@ -1050,26 +1138,26 @@ TOOLTIP:MordorPoisonedSpears_New
 "Poisoned Spears \n This horde is equipped with spears that inflicts poison damage over time and slows down the enemy"
 END
 //---------------------------------------------------
-CONTROLBAR:PurchaseTechnologyWildBasicTraining_New
+CONTROLBAR:PurchaseTechnologyWildEliteTraining_New
 "Research Goblin Elite Training"
 END
-CONTROLBAR:PurchaseTechnologyMordorBasicTraining_New
+CONTROLBAR:PurchaseTechnologyMordorEliteTraining_New
 "Research Rhun Elite Trai&ning"
 END
-CONTROLBAR:PurchaseTechnologyDwarvenBasicTraining_New
+CONTROLBAR:PurchaseTechnologyDwarvenEliteTraining_New
 "Research Dale Elite Trai&ning"
 END
 //---------------------------------------------------
-CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining_New
+CONTROLBAR:PurchaseUpgradeDwarvenEliteTraining_New
 "Purchase Elite Trai&ning"
 END
-CONTROLBAR:PurchaseUpgradeMordorBasicTraining_New
+CONTROLBAR:PurchaseUpgradeMordorEliteTraining_New
 "Purchase Elite Trai&ning"
 END
-CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining_New
+CONTROLBAR:PurchaseUpgradeElderRacesEliteTraining_New
 "Purchase Golden Arrows (&N)"
 END
-CONTROLBAR:PurchaseUpgradeWildBasicTraining_New
+CONTROLBAR:PurchaseUpgradeWildEliteTraining_New
 "Purchase E&lite Trai&ning"
 END
 //---------------------------------------------------
@@ -1192,7 +1280,7 @@ CONTROLBAR:BloodHunt_New
 "Blood Hunt"
 END
 CONTROLBAR:ToolTipGBloodHunt_New
-"Requires Level 2 \n Nearby player units gain +25% Damage, \n +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n Category: 'High-tier Hero' \n Passive ability"
+"Requires Level 2 \n Nearby player units gain +25% Damage, \n +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n Type: 'High-Tier Hero' \n Passive ability"
 END
 //-----
 CONTROLBAR:SharkuManEater_New
@@ -1230,13 +1318,13 @@ CONTROLBAR:GimliUniqueLeadership_New
 "Dwarven superiority" //Stubborn Pride
 END
 CONTROLBAR:ToolTipGimliUniqueLeadership_New
-"Requires Level 4 \n Gimli reminds nearby dwarves \n about their superiority to Elves. \n All nearby dwarves, including gimli, gain \n +15% speed, +15% damage \n and become resistent to fear or terror \n Category: 'Uncategorized' \n Passive ability"
+"Requires Level 4 \n Gimli reminds nearby dwarves \n about their superiority to Elves. \n All nearby dwarves, including gimli, gain \n +15% speed, +15% damage, +75% armor \n and become immune to fear or terror \n Category: 'Uncategorized' \n Passive ability"
 END
 CONTROLBAR:GimliSlayerAttack_New
-"Slayer Attack (&B)"
+"Berserker-attack (&B)"
 End
 CONTROLBAR:GimliSlayerAttackDesc_New
-"Requires Level 10 \n GIMLI DANCES WITH HIS AXE AND PERFORMS FUCKING INSANE DAMAGE ON THE TARGET, ROOTING EM IN PLACE FOR A DECENT DURATION"
+"Requires Level 7 \n Gimli targets an alive unit and will attack it untill he can't breath. \n The target is paralyzed at every hit. \n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipGenericPillage_New
@@ -1271,7 +1359,7 @@ CONTROLBAR:RitualistSacrifice_New
 "Sac&rifice a Berserke"
 END
 CONTROLBAR:RitualistSacrificeDesc_New
-"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain \n+37% Damage, +25 speed & +66% range \n Units also become inmune to metaimpact. \n Category: 'MightyRage' \n Left click icon, then left click on the target berserker"
+"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain \n+37% Damage, +25 speed & +66% range \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Left click icon, then left click on the target berserker"
 END
 CONTROLBAR:LurtzBoost_New
 "Locura"
@@ -1425,7 +1513,7 @@ CONTROLBAR:PurchaseUpgradeElderRacesMagicArrowsDesc_New
 End
 //---------------------------------------------------
 CONTROLBAR:TooltipScreechWitchKing_New
-"Requires Level 4 \n Causes enemy units to flee in terror, independently of fear inmunity. \n Affected units become -30% slower for 12 seconds. \n Category: 'Unique' \n left click icon to activate"
+"Requires Level 4 \n Causes enemy units to flee in terror, independently of fear inmunity. \n Affected units become -30% slower for 15 seconds. \n Category: 'Terrorist King' \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipWitchKingDreadVisage_New
@@ -1440,7 +1528,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardHeavyArmor_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEnchantedAnvil_New
-"Reduces the cost of Elven unit upgrades: \n 1 fortress with Enchanted Anvil = 50% cheaper"
+"Reduces the cost of Elven unit upgrades: \n 1 fortress with Enchanted Anvil = 40% cheaper"
 END
 //---------------------------------------------------
 CONTROLBAR:Crebain_New
@@ -1568,7 +1656,7 @@ CONTROLBAR:GloriousCharge_New
 "Glorious Charge [&V]"
 END
 CONTROLBAR:ToolTipGloriousCharge_New
-"Requires Level 7 \n Theoden and nearby cavalry gain +999% armor, +50% damage, \n become inmune to desacelerate by trampling, \n become resistant to knockback \n and finally, become inmune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n Category: 'Glorious_Charge' \n left click icon to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain +999% armor, +50% damage, \n become immune to desacelerate by trampling, \n become resistant to knockback \n and finally, become immune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n Category: 'Glorious_Charge' \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:Charge_New
@@ -1740,7 +1828,7 @@ CONTROLBAR:TooltipLoneTowerMen_New
 END
 //---------------------------------------------------
 CONTROLBAR:OathWave_New
-"Oathbreakers &Wave"
+"Oathbreakers Wave (&C)"
 END
 CONTROLBAR:OathWaveDesc_New
 "Requires Level 5 \n Sends a charge of oathbreakers towards the target location. \n Summons more units at level 7 and even moar at level 9.\n Left click icon then left click on target units"
@@ -1754,7 +1842,7 @@ CONTROLBAR:AxeStormDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership_New
-"Player units near King Dain gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+"Player units near King Dain gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability"
 END
 CONTROLBAR:KingsFavorDain_New
 "King's Favor [&C]"
@@ -1763,11 +1851,11 @@ CONTROLBAR:KingsFavorDainDesc_New
 "Requires Level 3 \n Targeted dwarves gain experience \n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipMightyRage_New
-"Requires Level 5 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Units also become inmune to metaimpact. \n Category: 'MightyRage' \n Enemy units are debuffed \n \n If Dain is level 10, the targeted player units earn resources from kills. \n Earns 65% of the bounty value instead of 33%.\n Left click icon then left click on target units"
+"Requires Level 5 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Enemy units are debuffed \n \n If Dain is level 10, the targeted player units earn resources from kills. \n Earns 65% of the bounty value instead of 33%.\n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:DwarvenRiches_New
-"Tax Exemption (&B)"
+"Temporary Tax Exemption (&B)"
 END
 CONTROLBAR:TooltipDwarvenRiches_New
 "Requires Level 8 \n Dain understands the positive effects the minery has in the unemployment rates. \n Targeted fortress will apply a tax exemption on the transnational mining companies, therefore they will raise its production +30%. \n The King mistakenly believes the capital benefits, based in concepts of efficiency, shall be reinverted in infraestructure and the precarious work conditions of the miners will vanish \n Dain also believes -without any doubt- the exploitation of the national soil in hands of foreigners will be responsable and environment caring\n Left click icon then left click in the fortress." //BUNITO_ESSAY//
@@ -1781,11 +1869,12 @@ CONTROLBAR:ToolTipSummonDunedainAllies_New
 //Calls a group of expert Dunedain Rangers \n Left click icon then left click on pathable location
 END
 //---------------------------------------------------
-CONTROLBAR:LightningSword_New
-"Shock of Lucidi&ty"
-END
+//CONTROLBAR:LightningSword_New
+//"Shock of Lucidi&ty"
+//END
 CONTROLBAR:ToolTipLightningSword_New
-"Requires Level 4 \n Shoots out lightning shocks from Gandalf's sword\n in order to help your enemies releasing their true identity.... \n Left click icon then left click on target"
+//"Requires Level 4 \n Shoots out lightning shocks from Gandalf's sword\n in order to help your enemies releasing their true identity.... \n Left click icon then left click on target"
+"Requires Level 4 \n Shoots out lightning bolts from Gandalf's sword \n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:Euthanasia_New
@@ -1809,7 +1898,8 @@ CONTROLBAR:ToolTipGlorfindelWindRider_New
 "Requires Level 4 \n Glorfindel gains +60% speed and 75% Armor when mounted \n left click icon to activate"
 END
 CONTROLBAR:ToolTipGlorfindelBladeOfPurity_New
-"Requires Level 6 \n Glorfindel gains +50% Damage and Invulnerability for 10 seconds. \n Nearby player units gain +37% damage. \n Category: 'High-Tier Hero'. \n Left click to activate"
+"Requires Level 3 \n Glorfindel gains +50% Damage and Invulnerability for 10 seconds. \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant'. \n Left click to activate"
+//"Requires Level 3 \n Glorfindel gains +50% Damage and Invulnerability for 10 seconds. \n Nearby player units gain +37% damage. \n Type: 'High-Tier Hero'. \n Left click to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuilGenericLevel3UpgradeWithTowerGoblins_New
@@ -1871,7 +1961,7 @@ CONTROLBAR:ShieldMaiden_New
 "Shield Charge [&V]"
 END
 CONTROLBAR:ToolTipShieldMaiden_New
-"Requires Level 7 \n Eowyn temporarily becomes inmune to arrows and gain +70% speed. \n Halves the deceleration rate of friendly cavalry when trampling and grants them +25% speed. \n left click icon to activate"
+"Requires Level 7 \n Eowyn temporarily becomes immune to arrows and gain +70% speed. \n Halves the deceleration rate of friendly cavalry when trampling and grants them +25% speed. \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:EowynRestore_New
@@ -1976,11 +2066,11 @@ CONTROLBAR:ToolTipSpecialAbilityOsgiliathVeterans_New
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipElvenGifts_New
-"Requires Level 5 \n Nearby heroes can enjoy this delicious "lembas" \n kind of bread, gaining +200 damage as long they stay near Arwen\n Passive power"
+"Requires Level 4 \n Nearby heroes can enjoy this delicious "lembas" \n kind of bread, gaining +200 damage as long they stay near Arwen\n Passive power"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPersonalFlood_New
-"Requires Level 7 \n Summons flood horses that, coming from arwen, will damage and knock-back enemies. \n Specially effective to cavalry. \n Bonus against Black Riders \nLeft click icon to activate" 
+"Requires Level 6 \n Summons flood horses that, coming from arwen, will damage and knock-back enemies. \n Specially effective to cavalry. \n Bonus against Black Riders \nLeft click icon to activate" 
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipPurchaseElvenEagle_New
@@ -1997,43 +2087,57 @@ END
 CONTROLBAR:PurchaseUpgradePoisonedSpears_New
 "Purchase Poisoned Spears (&V)"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeSpiderVenomSacks_New
+CONTROLBAR:PurchaseUpgradePoisonedSpearsDesc_New
 "Upgrades this horde with Poisoned Spears \n Inflicts poison to enemies causing damage over time \n Slows down the speed of the enemy by -15%"
+END
+TOOLTIP:PurchaseUpgradePoisonedSpearsDesc_New
+"Research upgrade at Tavern to enable this equipment \n When equipped, inflicts poison to enemies causing damage over time and slowing them down."
 END
 //-------------------------------------------------
 CONTROLBar:ToolTipDominateTrollNew
 "Take control of target enemy troll \n Left click icon then left click on target troll"
 End
 //-------------------------------------------------
-CONTROLBAR:GloinShakeFoundation_New
-"Shake enemy booty (&R)"
-END
-CONTROLBAR:ToolTipDwarvenGloinShakeFoundation_New
-"Requires Level 2 \n Creates a hole beneath the enemy, shockwaving the target. \n Left click icon then left click on target"
-END
 CONTROLBAR:GloinSlam_New
-"Slam [&T]"
+"Slam [&R]"
 END
 CONTROLBAR:ToolTipDwarvenGloinSlam_New
-"Requires Level 4 \n Powerful attack that causes high damage\n Left click icon then left click on target"
+"Powerful attack that causes high damage\n Left click icon then left click on target"
 END
+//------------
+CONTROLBAR:GloinShakeFoundation_New
+"Crack the Ground (&T)"
+END
+CONTROLBAR:ToolTipDwarvenGloinShakeFoundation_New
+"Requires Level 4 \n Creates a hole beneath the enemy, shockwaving the target. \n Left click icon then left click on target"
+END
+//------------
 CONTROLBAR:Undermine_New
 "Open a Bunker (&C)"
 END
 CONTROLBAR:TooltipUndermine_New
-"Requires Level 7 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
+"Requires Level 6 \n Opens up a Bunker entry gate anywhere terrain allows it \n Bunker becomes immediately connected to tunnel network \n The rudimentary structure and abuse of cheap materials implies this Bunker will have a short lifetime. \n Left click icon then left click on visible location"
 END
+//------------
 CONTROLBAR:GloinEarthquake_New
 "Earthquake [&B]"
 END
 CONTROLBAR:GloinEarthquakeDesc_New
 "Requires Level 9 \n Creates a small earthquake by doing some shit with it's hammer \n Left click icon then left click on target"
 END
+//------------
 CONTROLBAR:GloinSmash_New
 "Shatter Hammer [&V]"
 END
 CONTROLBAR:ToolTipGloinSmash_New
 "Requires Level 10 \n Causes a small earthquake around Gloin's location \n Left click icon then left click on target"
+END
+//------------
+CONTROLBAR:DwarvenCharge_New
+"Guardian Charge (&B)"
+END
+CONTROLBAR:DwarvenChargeDesc_New
+"Requires Level 8 \n Calls a bunch of heavy armored guardians to charge against the enemy. \n Left click icon then left click on target area"
 END
 // "with 10 contain slots  " not rlly
 //---------------------------------------------------
@@ -2057,7 +2161,7 @@ CONTROLBAR:ConstructRohanStable_New
 END
 //-------------------------------------------------
 CONTROLBAR:ToolTipBuildIronOreUpgrade_New
-"Reduces the cost of Units and Fortress upgrades by -50%"
+"Reduces the cost of Units and Fortress upgrades by 35%"
 END
 //-------------------------------------------------
 CONTROLBAR:HordeDunlandAxeThrower_New
@@ -2079,7 +2183,7 @@ CONTROLBAR:ArwenLeadership_New
 "Evenstar Leadership"
 End
 CONTROLBAR:ArwenLeadershipDesc_New
-"Requires Level 3 \n Player units near Undomiel gain \n +25% armor, +5% range earn experience 25% faster. \n Category: 'Armor_Inspiration' \n \nPassive ability"
+"Requires Level 2 \n Player units near Undomiel gain \n +25% armor, +5% range earn experience 25% faster. \n Category: 'Armor_Inspiration' \n \nPassive ability"
 End
 //-------------------------------------------------
 CONTROLBAR:LegolasLeadership_New
@@ -2138,14 +2242,30 @@ CONTROLBAR:FaramirIsAlsoARangerBoyDesc
 END
 //--------------------------------------------------//
 CONTROLBAR:TooltipElrondLeadership_New
-"Requires Level 3 \n Player units near Elrond gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+"Requires Level 3 \n Player units near Elrond gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:AragornAthelasDesc_New
 "Heals the bearby units. \n Grants a bonus of +25% rate of firen, \n and +30% speed. \n Does not affect allies. \n Left click to activate"
 END
 CONTROLBAR:ToolTipAragornLeadership_New
-"Requires Level 3 \n Player units near Aragorn gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+"Requires Level 3 \n Player units near Aragorn gain \n +25% Damage, +25% Armor, and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability"
+END
+//--------------------------------------------------//
+CONTROLBAR:TooltipBladeMaster_New
+"Requires Level 2 \n Aragorn gains +50% Damage and +50% armor. \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant' \n Left click to activate"
+END
+//--------------------------------------------------//
+CONTROLBAR:Elendil_New
+"Elendil [&T]"
+END
+CONTROLBAR:ToolTipElendil_New
+"Requires Level 2 \n Causes enemy units to flee in terror, independently of fear inmunity. \n Affected units become -30% slower for 15 seconds and every kind of leadership is removed. \n Category: 'Terrorist King' \n \n Aragorn gains +50% Damage and +50% armor. \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant' \n left click icon to activate"
+END
+//"Causes nearby enemy units to flee \n Enemy hordes and heroes in the surrounding area suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds. \n Modifier Type: 'STUN' \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Left click to activate"
+//--------------------------------------------------//
+TOOLTIP:ToolTipAragornLeadership_New
+"\n Leadership: \n Player units near Aragorn gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster \n Type: 'High-Tier Hero' "
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipGlorfindelStarlight_New
@@ -2175,7 +2295,7 @@ CONTROLBAR:GothmogLeadership_New
 "Rational irrationality"
 END
 CONTROLBAR:ToolTipGothmogLeadership_New
-"Requires Level 3 \n What does Nietzsche, Freud, Durkheim, Heidegger and Weber have in common? Yes, they all are occidental european thinkers. Therefore, beneath all their works there's a series of dichotomies and counter terms. Most of them have root in ancient greek philosophy, like the opposition between Body and Soul. This dualism has acted like the mother of conflict in any kind of human art, from here you have derivations, such as the opposition between the human Irrationality and the Rationality, Community and Society, Mecanic relationships and Organic relationships, Idealism and Pragmatism, Ritual and Technique, Tradition and Efficience, Epicureanism and Asceticism, Dionisio and Apollo, Communitarianism and Individualism, Popular knowledge and Scientific knowledge, Equality and Freedoom, etcetera. Nietzsche liked to idealize greek culture because he thought certain dualism, in first instance Dionisio and Apolo, lived in harmony together, while in modern society has rather prevailed Apollo as heritage of christianism. \n Modernity has became synonymous of pure and efficient rationality, and everyone is embracing this. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, body, beliefs, localisms. Killing humans (and things in general) is not just "spontaneous savage hate", it's a rational way of preserving a rich "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player units near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Category: 'High-tier Hero' \n Passive ability"
+"Requires Level 3 \n What does Nietzsche, Freud, Durkheim, Heidegger and Weber have in common? Yes, they all are occidental european thinkers. Therefore, beneath all their works there's a series of dichotomies and counter terms. Most of them have root in ancient greek philosophy, like the opposition between Body and Soul. This dualism has acted like the mother of conflict in any kind of human art, from here you have derivations, such as the opposition between the human Irrationality and the Rationality, Community and Society, Mecanic relationships and Organic relationships, Idealism and Pragmatism, Ritual and Technique, Tradition and Efficience, Epicureanism and Asceticism, Dionisio and Apollo, Communitarianism and Individualism, Popular knowledge and Scientific knowledge, Equality and Freedoom, etcetera. Nietzsche liked to idealize greek culture because he thought certain dualism, in first instance Dionisio and Apolo, lived in harmony together, while in modern society has rather prevailed Apollo as heritage of christianism. \n Modernity has became synonymous of pure and efficient rationality, and everyone is embracing this. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, body, beliefs, localisms. Killing humans (and things in general) is not just "spontaneous savage hate", it's a rational way of preserving a rich "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player units near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability"
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipWarChant_New
@@ -2320,7 +2440,7 @@ END
 UPGRADE:EliteTraining_New
 "Elite Training"
 END
-UPGRADE:IsengardBasicTraining_New
+UPGRADE:IsengardEliteTraining_New
 "Explosive Bolts"
 END
 Upgrade:FortressFireArrows_New
@@ -2332,18 +2452,15 @@ END
 Upgrade:LegolasTrainedAlliesUpgrade_New
 "Legolas Archery knowledge"
 END
-UPGRADE:EliteTraining_New
-"Elite Training"
-END
-UPGRADE:IsengardBasicTraining_New
+UPGRADE:IsengardEliteTraining_New
 "Explosive Bolts"
 END
 //---------------------------------------------------
 OBJECT:RetardedFireDrake_New
 "Retarded Fire Drake"
 END
-OBJECT:DwarvenCaptain_New
-"Iron Hills Captain"
+OBJECT:DwarvenZealot_New
+"Zealot"
 END
 OBJECT:NoldorWarrior_New
 "Noldor Warrior"
@@ -2357,9 +2474,9 @@ END
 TOOLTIP:MaleCowDesc_New
 "Behold how i heal nearby cows."
 END
-OBJECT:LeadingDragon_New
-"Mother of dragons!"
-END
+//OBJECT:LeadingDragon_New
+//"Morocha, la dragona"
+//END
 TOOLTIP:LeadingDragonDesc_New
 "Provides leadership to nearby dragons"
 END
@@ -2447,7 +2564,7 @@ SCRIPT:BonusForWipingArmy_Yellow
 "Standard Win: \n +600 extra resources"
 End
 SCRIPT:BonusForWipingArmy_Red
-"Barely won: \n +300 resources only"
+"You took too long: \n +300 resources only"
 End
 //WhoCares....
 //SCRIPT:MoneyReductionAdvertence
@@ -2581,6 +2698,10 @@ End
 SCRIPT:Mustafa06
 "i gib u 100$ if u make ptch like 1.00"
 End
+//----------------------
+OBJECT:Cow
+"Happy cow"
+END
 //----------------------
 OBJECT:Carmela
 "Carmen, la vaca fuerte"
