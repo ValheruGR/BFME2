@@ -75,7 +75,7 @@ END
 Color:Cyan09v2
 "Cyan"
 END
-Color:DarkGreen09v2
+Color:DarkGreen09v1
 "Verde Oscuro"
 END
 Color:GreenLime09v2
@@ -215,7 +215,7 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Espía a las fuerzas enemigas. \n Proporciona una bonificación de +15% velocidad temporalmente a las unidades en su área de lanzamiento. \n Modificador tipo: RESISTANT PalantirBonus'. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
+"Espía a las fuerzas enemigas. \n Proporciona una bonificación de +15% velocidad temporalmente a las unidades en su área de lanzamiento. \n Modificador tipo: RESISTANT 'PalantirBonus'. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2

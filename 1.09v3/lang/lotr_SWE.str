@@ -76,7 +76,7 @@ END
 Color:Cyan09v2
 "Cyan"
 END
-Color:DarkGreen09v2
+Color:DarkGreen09v1
 "Dark Green"
 END
 Color:GreenLime09v2
@@ -216,7 +216,7 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: RESISTANT PalantirBonus'. \n Vänsterklicka på ikonen, vänsterklicka sedan på målet area"
+"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: RESISTANT 'PalantirBonus'. \n Vänsterklicka på ikonen, vänsterklicka sedan på målet area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
