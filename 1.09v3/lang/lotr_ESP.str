@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:TooltipSummonTomBombadil09v3
+"Convoca a Tom Bombadil, un poderoso gordito con sombrero que le gusta cantar. \n Se dice que es la personificación humana de Eru, creador del Ëa. \n Las unidades aliadas cercanas a Tom ganan +25% Armadura y consiguen experiencia 25% más rápido.  \n Modificador tipo: «Armor RESISTANT» \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el lugar donde quieras que aparezca."
+END
+//------------------------------------------------------------
 CONTROLBAR:Draft09v3
 "D&raft"
 End
@@ -66,7 +70,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
 "Aumenta el rango de visión de la fortaleza y detecta el sigilo. \n Desbloquea el uso del poder Visión en Palantir"
 END
 CONTROLBAR:TooltipIvoryTowerVision09v2
-"Levanta toda la niebla de guerra \n Las unidades y heroes del jugador ganan +10% velocidad \n Modifier Type: RESISTANT IvoryTowerBonus \n Dura 30 segundos."
+"Levanta toda la niebla de guerra \n Las unidades y heroes del jugador ganan +10% velocidad \n Modificador tipo: «RESISTANT IvoryTower» \n Dura 30 segundos."
 End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Requisito: Nivel 3 \n Mejora la horda con sacos de veneno \n Envenena a los enemigos causando daño a lo largo del tiempo"
@@ -164,7 +168,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Requisito: Nivel 10 \n Los contadores de las capacidades especiales de los heroes apuntados quedan en 80%. \n Los heroes enemigos alrededor del Rey Brujo sufren -25% damage. \n Modifier Type: 'STUN WitchKingCurse' \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area."
+"Requisito: Nivel 10 \n Los contadores de las capacidades especiales de los heroes apuntados quedan en 80%. \n Los heroes enemigos alrededor del Rey Brujo sufren -25% damage. \n Modificador tipo: «WitchKing STUN» \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area."
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "La producción de recursos de la estructura de recursos seleccionada aumenta en un 300% de manera temporal. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
@@ -176,22 +180,22 @@ CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
 "Carga de escudo mejorada (&Y)"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
-"Mejora de liderazgo de fortaleza comprada: \n Las unidades cercanas ganan +25% al daño y consiguen experiencia un +25% más rápido. \n Modificador tipo: RESISTANT 'Damage Inspiring'"
+"Mejora de liderazgo de fortaleza comprada: \n Las unidades cercanas ganan +25% al daño y consiguen experiencia un +25% más rápido. \n Modificador tipo: «Damage RESISTANT»"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Fuerte contra piqueros \n Bonificación por horda: \n Los trasgos agrupados en grupos de al menos 100\n ganan +33% al daño y +25% velocidad.\n Modifier Type: RESISTANT 'HordeBonus'  "
+"Fuerte contra piqueros \n Bonificación por horda: \n Los trasgos agrupados en grupos de al menos 100\n ganan +33% al daño y +25% velocidad.\n Modificador tipo: «RESISTANT HordeBonus» "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Fuerte contra arqueros y \n edificios de construcción de unidades. \n Los Lanceros de Rivendell ganan +7% velocidad en el nivel level 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Requisito: Nivel 7 \n Théoden y las tropas de caballería cercanas reciben +99% armadura, +25% al daño y las vuelve inmune a la desaceleración por pisoteo. \n La caballería tambien se vuelve inmune al miedo. \n Modificador tipo: 'DEBUFF_PROOF GloriousCharge'. \n Théoden debe estar montado para usar esta capacidad. \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 7 \n Théoden y las tropas de caballería cercanas reciben +99% armadura, +25% al daño y las vuelve inmune a la desaceleración por pisoteo. \n La caballería tambien se vuelve inmune al miedo. \n Modificador tipo: «DEBUFF_PROOF GloriousCharge». \n Théoden debe estar montado para usar esta capacidad. \n Para activarlo, haz clic con el botón izquierdo."
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Fuerte contra infantería\nResistant to trample\n Bonificación por horda: \n Los trasgos agrupados en grupos de al menos 100\n ganan +33% al daño y +20% velocidad. \n Modifier Type: RESISTANT 'HordeBonus'  "
+"Fuerte contra infantería\nResistant to trample\n Bonificación por horda: \n Los trasgos agrupados en grupos de al menos 100\n ganan +33% al daño y +20% velocidad. \n Modificador tipo: «RESISTANT HordeBonus» "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Fuerte contra infantería\n Bonificación por horda: \n Los orcos agrupados en grupos de al menos 70\n ganan +33% al daño y +15% velocidad. \n Modifier Type: RESISTANT 'HordeBonus'  "
+"Fuerte contra infantería\n Bonificación por horda: \n Los orcos agrupados en grupos de al menos 70\n ganan +33% al daño y +15% velocidad. \n Modificador tipo: «RESISTANT HordeBonus» "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -203,27 +207,27 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Requisito: Nivel 7 \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n Modificador tipo: 'DEBUFF_PROOF StubbornPride' Dain se vuelve capaz de revelar sigilo \n Capacidad pasiva."
+"Requisito: Nivel 7 \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n Modificador tipo: «DEBUFF_PROOF StubbornPride» \n Dain se vuelve capaz de revelar sigilo \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Los ents aliados cercanos a Bárbol ganan \n +25% a la armadura, +10% a la velocidad \n +20% al alcance y +25% experiencia. \n Modificador tipo: 'TreeBeard LEADERSHIP'. \n \n Capacidad pasiva."
+"Los ents aliados cercanos a Bárbol ganan \n +25% a la armadura, +10% a la velocidad \n +20% al alcance y +25% experiencia. \n Modificador tipo: «LEADERSHIP TreeBeard» \n \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Requisito: Nivel 5 \n Los aliados cercanos a Lurtz ganan \n +50% a daño y ganan experiencia 25% más rápido. \n Modificador tipo: LEADERSHIP. \n Capacidad pasiva."
+"Requisito: Nivel 5 \n Los aliados cercanos a Lurtz ganan \n +50% a daño y ganan experiencia 25% más rápido. \n Modificador tipo: «Damage LEADERSHIP» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Espía a las fuerzas enemigas. \n Proporciona una bonificación de +15% velocidad temporalmente a las unidades en su área de lanzamiento. \n Modificador tipo: RESISTANT 'PalantirBonus'. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
+"Espía a las fuerzas enemigas. \n Proporciona una bonificación de +15% velocidad temporalmente a las unidades en su área de lanzamiento. \n Modificador tipo: «RESISTANT Palantir» \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Espía a las fuerzas enemigas. \n Proporciona una bonificación de alcance de +35% a las hordas aliadas en su área de efecto.\n Modificador tipo: RESISTANT FarsightBonus'. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
+"Espía a las fuerzas enemigas. \n Proporciona una bonificación de alcance de +35% a las hordas aliadas en su área de efecto.\n Modificador tipo: «RESISTANT Farsight» \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Crea una zona frondosa cuyo centro crea un escudo protectivo \n contra los conjuros Tierra Mancillada y Bosque Humano del enemigo. \n Ls unidades aliadas reciben +35% a la armadura, \n +25% al daño y consiguen experiencia un 25% más rápido. \n La infanteria aliada tambien ve incrementada su capacidad de desacelerar el pisoteo de la caballeria enemiga en un +250%. \n Modificador tipo: RESISTANT 'ElvenWood'. \n Reemplaza los modificadores tipo LEADERSHIP de los propios aliados. \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
+"Crea una zona frondosa cuyo centro crea un escudo protector contra los conjuros Tierra Mancillada y Bosque Humano del enemigo. \n Las unidades aliadas reciben +35% a la armadura, +25% al daño, consiguen experiencia un 25% más rápido y ven incrementada su capacidad de desacelerar el pisoteo de la caballeria enemiga en un +250%. \n Modificador tipo: «RESISTANT ElvenWood» \n Reemplaza los modificadores tipo LEADERSHIP de los propios aliados. \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
 END
 CONTROLBAR:MenWood09v2
 "Bosque humano"
@@ -234,31 +238,31 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Cubre de oscuridad todo el mapa, de manera temporal. \n Anula la Lluvia Paralizadora, la Oscuridad y la capacidad de curar de la Ruptura de nubes. \n Las hordas aliadas ganan +50% al daño, +33% a la armadura y consiguen experiencia un 50% más rápido. \n Los monstruos independientemente ganan +25% daño +33% armadura y +50% experiencia. \n Dura 180 segundos. \n Modificador tipo: RESISTANT 'Darkness'. \n Para activarlo, haz clic con el botón izquierdo."
+"Cubre de oscuridad todo el mapa, de manera temporal. \n Anula la Lluvia Paralizadora, la Oscuridad y la capacidad de curar de la Ruptura de nubes. \n Las hordas aliadas ganan +50% al daño, +33% a la armadura y consiguen experiencia un 50% más rápido. \n Los monstruos independientemente ganan +25% daño +33% armadura y +50% experiencia. \n Dura 180 segundos. \n Modificador tipo: «RESISTANT Darkness» \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Hace que llueva en todo el mapa temporalmente. \n Anula la Lluvia Paralizadora, la Oscuridad y la capacidad de curar de la Ruptura de nubes. \n Las unidades enemigas sufren -25% armadura y -25% al daño. \n Modificador tipo: 'DEBUFF'. \n Neutraliza los modificadores tipo LEADERSHIP, BUFF y RESISTANT del enemigo. \n Dura 150 segundos. \n Para activarlo, haz clic con el botón izquierdo."
+"Hace que llueva en todo el mapa temporalmente. \n Anula la Lluvia Paralizadora, la Oscuridad y la capacidad de curar de la Ruptura de nubes. \n Las unidades enemigas sufren -25% armadura y -25% al daño. \n Modificador tipo: «DEBUFF Basic» \n Neutraliza los modificadores tipo LEADERSHIP, BUFF y RESISTANT del enemigo. \n Dura 150 segundos. \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requisito: Nivel 4 \n Las unidades aliadas apuntadas ganan +20% a la velocidad, +25% al daño y su visión aumenta en un +25%. \n Modificador tipo: 'DEBUFF_PROOF MightyRage'. \n Las hordas enemigas en la misma localizacion sufren -25% armadura y -25% al daño. \n Modificador tipo: 'DEBUFF'. \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 4 \n Las unidades aliadas apuntadas ganan +20% a la velocidad, +25% al daño y su visión aumenta en un +25%. \n Modificador tipo: «DEBUFF_PROOF MightyRage». \n Las hordas enemigas en la misma localizacion sufren -25% armadura y -25% al daño. \n Modificador tipo: «DEBUFF Basic» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
-"Requisito: Nivel 2 \n Las hordas enemigas sufren -25% armadura y -25% al daño.  \n Modificador tipo: 'DEBUFF'. \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Capacidad pasiva"
+"Requisito: Nivel 2 \n Las hordas enemigas sufren -25% armadura y -25% al daño.  \n Modificador tipo: «DEBUFF Basic» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Capacidad pasiva"
 End
 CONTROLBAR:TooltipCaveBats09v2
-"Revela la ocultación y detecta unidades con sigilo. \n Las hordas enemigas sufren -25% armadura y -25% al daño. \n Modificador tipo: 'DEBUFF'. \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
+"Revela la ocultación y detecta unidades con sigilo. \n Las hordas enemigas sufren -25% armadura y -25% al daño. \n Modificador tipo: «DEBUFF Basic» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
 END
 CONTROLBAR:TooltipCrebain09v2
-"Revela la ocultación y detecta unidades con sigilo. \n Las hordas enemigas sufren -25% armadura y -25% al daño. \n Modificador tipo: 'DEBUFF'. \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
+"Revela la ocultación y detecta unidades con sigilo. \n Las hordas enemigas sufren -25% armadura y -25% al daño. \n Modificador tipo: «DEBUFF Basic» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Requisito: Nivel 3. \n La caballería aliada cercana gana \n +25% a daño, +25% a armadura \n y consiguen experiencia un 50% más rápido.\n Se reduce la disminución de velocidad por pisoteo de la caballería amiga. \n Modificador tipo: RESISTANT 'High-Tier Hero'. \n Capacidad pasiva."
+"Requisito: Nivel 3. \n La caballería aliada cercana gana \n +25% a daño, +25% a armadura \n y consiguen experiencia un 50% más rápido.\n Se reduce la disminución de velocidad por pisoteo de la caballería amiga. \n Modificador tipo: «RESISTANT High-Tier Hero» \n Capacidad pasiva."
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
-"Requisito: Nivel 2. \n Ordena a los guardianes que carguen contra el enemigo. \n Los guardianes reciben +25% a la velocidad \n y +25% a la armadura. \n Causa metaimpacto. \n Modificador tipo: 'Armor BUFF'. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 2. \n Ordena a los guardianes que carguen contra el enemigo. \n Los guardianes reciben +25% a la velocidad \n y +25% a la armadura. \n Causa metaimpacto. \n Modificador tipo: «Armor BUFF» \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:ToolTipBarbedArrows09v2
 "Requisito: Nivel 2. \n Causa un metaimpacto y daño aumentado"
@@ -276,7 +280,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Reduce el coste de revivir héroes en un 5%. \n Reduce el tiempo de revivir héroes en un 15%. \n Mejora a cualquier Torre Solitaria convocada."
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Fuerte contra edificios generadores de recursos. \n Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +20% velocidad. \n Modifier Type: RESISTANT 'HordeBonus' "
+"Fuerte contra edificios generadores de recursos. \n Bonificación por horda: \nLos orcos agrupados en grupos de al menos 70 \n ganan +33% daño, +20% velocidad. \n Modificador tipo: «RESISTANT HordeBonus»"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Añade puntos de golpe adicionales a la fortaleza. \n Reduce el tiempo de revivir heroes en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
@@ -291,126 +295,126 @@ CONTROLBAR:ToolTipElvenCloakThranduil09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Requisito: Nivel 2. \n Coloca un tótem de cráneo que quedará en el mapa hasta que sea destruido\n Levanta la niebla de guerra y detecta unidades sigilosas \n Los aliados cercanos ganan +35% armadura y +25% experiencia. \n Modificador tipo: 'Armor BUFF'. \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el terreno al que se pueda llegar."
+"Requisito: Nivel 2. \n Coloca un tótem de cráneo que quedará en el mapa hasta que sea destruido\n Levanta la niebla de guerra y detecta unidades sigilosas \n Los aliados cercanos ganan +35% armadura y +25% experiencia. \n Modificador tipo: «Armor BUFF» \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el terreno al que se pueda llegar."
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Los aliados cercanos al troll con tambor ganan \n +35% a armadura y +25% experiencia. \n Los trolls cercanos ganan \n +15% armadura +15% experiencia y se auto-curan más rápido. \n Modificador tipo: 'Armor BUFF'. \n Capacidad pasiva."
+"Los aliados cercanos al troll con tambor ganan \n +35% a armadura y +25% experiencia. \n Los trolls cercanos ganan \n +15% armadura +15% experiencia y se auto-curan más rápido. \n Modificador tipo: «Armor BUFF» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Los aliados apuntados ganan \n +40% al daño, +10% velocidad \n y consiguen experiencia un 50% más rápido. \n Modificador tipo: LEADERSHIP. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Los aliados apuntados ganan \n +40% al daño, +10% velocidad \n y consiguen experiencia un 50% más rápido. \n Modificador tipo: «Damage LEADERSHIP» \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Los aliados apuntados ganan+50% al daño  \n y consiguen experiencia un 50% más rápido. \n Modificador tipo: LEADERSHIP. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Los aliados apuntados ganan+50% al daño  \n y consiguen experiencia un 50% más rápido. \n Modificador tipo: «Damage LEADERSHIP» \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Los aliados apuntados ganan \n +50% al daño y consiguen experiencia un 25% más rápido. \n Modificador tipo: LEADERSHIP. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Los aliados apuntados ganan \n +50% al daño y consiguen experiencia un 25% más rápido. \n Modificador tipo: «Damage LEADERSHIP» \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Mancilla una zona.\nLas unidades aliadas reciben +35% a la armadura.\n Modificador tipo: 'Armor BUFF'. \nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Mancilla una zona.\nLas unidades aliadas reciben +35% a la armadura.\n Modificador tipo: «Armor BUFF» \nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:ToolTipMenWood09v2
-"Crea una zona frondosa.\n Las unidades aliadas reciben +35% a la armadura. \n Modificador tipo: 'Armor BUFF'. \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
+"Crea una zona frondosa.\n Las unidades aliadas reciben +35% a la armadura. \n Modificador tipo: «Armor BUFF» \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Los aliados cercanos a la estatua ganan \n +25% al daño \n y consiguen experiencia un 25% más rápido. \n Modificador tipo: RESISTANT 'Damage Inspiring'. \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n Modifier Type: 'LEADERSHIP AntiFear'\n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +25% al daño \n y consiguen experiencia un 25% más rápido. \n Modificador tipo: «Damage RESISTANT» \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n Modificador tipo: «LEADERSHIP AntiFear»\n Aumenta en 10 el límite de puntos de mando."
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Los aliados cercanos a la estatua ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Modificador tipo: RESISTANT 'Armor Inspiring'. \n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Modificador tipo: «Armor RESISTANT» \n Aumenta en 10 el límite de puntos de mando."
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Los aliados cercanos a la estatua ganan \n +35% a la armadura. \n Modificador tipo: 'Armor BUFF'. \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n Modifier Type: RESISTANT AntiFear'\n Aumenta en 10 el límite de puntos de mando."
+"Los aliados cercanos a la estatua ganan \n +35% a la armadura. \n Modificador tipo: «Armor BUFF» \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n Modificador tipo: «RESISTANT AntiFear»\n Aumenta en 10 el límite de puntos de mando."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Disminuye la vulnerabilidad cuerpo a cuerpo de la fortaleza. \n Unidades cercanas reciben \n 25% daño y 25% experiencia \n Modificador tipo: RESISTANT 'Damage Inspiring'"
+"Disminuye la vulnerabilidad cuerpo a cuerpo de la fortaleza. \n Unidades cercanas reciben \n 25% daño y 25% experiencia \n Modificador tipo: «Damage RESISTANT»"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Proporciona +25% daño y +25% experiencia a las unidades cercanas \n Modificador tipo: RESISTANT 'Damage Inspiring'. \n Reduce el coste de los héroes en un 10% \n Reduce el tiempo de reclutamiento de los héroes en un 10% \n Reduce el coste de los constructores en un 20%"
+"Proporciona +25% daño y +25% experiencia a las unidades cercanas \n Modificador tipo: «Damage RESISTANT» \n Reduce el coste de los héroes en un 10% \n Reduce el tiempo de reclutamiento de los héroes en un 10% \n Reduce el coste de los constructores en un 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Proporciona +25% daño y +25% experiencia a las unidades cercanas \n Modificador tipo: RESISTANT 'Damage Inspiring'. \n Reduce el coste de los héroes en un 10% \n Reduce el tiempo de reclutamiento de los héroes en un 10% \n Reduce el coste de los constructores en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
+"Proporciona +25% daño y +25% experiencia a las unidades cercanas \n Modificador tipo: «Damage RESISTANT» \n Reduce el coste de los héroes en un 10% \n Reduce el tiempo de reclutamiento de los héroes en un 10% \n Reduce el coste de los constructores en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Los aliados cercanos a la fortaleza ganan \n +25% al daño y +25% experiencia. \n Modificador tipo: RESISTANT 'Damage Inspiring'. \n Reduce el coste de los héroes en un 10%. \n Reduce el tiempo de reclutamiento de los héroes en un 10%. \n Reduce el coste de los constructores en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
+"Los aliados cercanos a la fortaleza ganan \n +25% al daño y +25% experiencia. \n Modificador tipo: «Damage RESISTANT» \n Reduce el coste de los héroes en un 10%. \n Reduce el tiempo de reclutamiento de los héroes en un 10%. \n Reduce el coste de los constructores en un 20%. \n Mejora a cualquier Torre Solitaria convocada."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Los huargos y sus jinetes ganan \n +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n Modificador tipo: 'DEBUFF_PROOF WargHowl'. \n Reemplaza los modificadores tipo LEADERSHIP de los huargos. \n Para activarlo, haz clic con el botón izquierdo."
+"Los huargos y sus jinetes ganan \n +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n Modificador tipo: «DEBUFF_PROOF Howl». \n Reemplaza los modificadores tipo LEADERSHIP de los huargos. \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: RESISTANT 'High-Tier Hero'\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modificador tipo: «RESISTANT High-Tier Hero»\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requisito: Nivel 8. \n Unidades, monstruos y heroes aliados en una largo rango alrededo de Glorfindel son curados mientras el conjuro este activo. \n Los batallón reviven sus unidades mientras esté activo. \n Las unidades aliadas ganan +33% armadura y +50 al daño mientras esté activo. \n Las unidades enemigas sienten miedo mientras esté activo. \n Modificador tipo: 'Armor BUFF'. \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 8. \n Unidades, monstruos y heroes aliados en una largo rango alrededo de Glorfindel son curados mientras el conjuro este activo. \n Los batallón reviven sus unidades mientras esté activo. \n Las unidades aliadas ganan +33% armadura y +50 al daño mientras esté activo. \n Las unidades enemigas sienten miedo mientras esté activo. \n Modificador tipo: «Armor BUFF» \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Los aliados cercanos a Gimli ganan \n +35% a la armadura. \n Modificador tipo: 'Armor BUFF'\n Capacidad pasiva."
+"Los aliados cercanos a Gimli ganan \n +35% a la armadura. \n Modificador tipo: «Armor BUFF»\n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Los aliados cercanos al rey Dain ganan \n +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Modificador tipo: RESISTANT 'High-Tier Hero'. \n Capacidad pasiva."
+"Los aliados cercanos al rey Dain ganan \n +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Modificador tipo: «RESISTANT High-Tier Hero» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Los aliados cercanos al estandarte reciben \n +25% a daño \n y consiguen experiencia un 25% más rápido. \n Modificador tipo: RESISTANT 'Damage Inspiring'. \n Cura lentamente al carro de batalla si no está en combate. \n Añade varias falanges al carro de batalla. \n Revela enemigos sigilosos."
+"Los aliados cercanos al estandarte reciben \n +25% a daño \n y consiguen experiencia un 25% más rápido. \n Modificador tipo: «Damage RESISTANT» \n Cura lentamente al carro de batalla si no está en combate. \n Añade varias falanges al carro de batalla. \n Revela enemigos sigilosos."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Requisito: Nivel 4. \n Los aliados cercanos ganan \n +25% a la armadura y 25% más de experiencia. \n Los trolls cercanos ganan experience 25% más rápido. \n Modificador tipo: RESISTANT 'Armor Inspiring'.  \n Capacidad pasiva."
+"Requisito: Nivel 4. \n Los aliados cercanos ganan \n +25% a la armadura y 25% más de experiencia. \n Los trolls cercanos ganan experience 25% más rápido. \n Modificador tipo: «Armor RESISTANT»  \n Capacidad pasiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Requisito: Nivel 3 \n Los aliados cercanos a Elrond ganan +25% al daño, \n +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Modificador tipo: RESISTANT 'High-Tier Hero'. \n Capacidad pasiva."
+"Requisito: Nivel 3 \n Los aliados cercanos a Elrond ganan +25% al daño, \n +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Modificador tipo: «RESISTANT High-Tier Hero» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Requisito: Nivel 3 \n La caballería cercana a Arwen gana +25% a la armadura \n y consigue experiencia un 25% más rápido. \n Modificador tipo: RESISTANT 'Armor Inspiring'. \n Capacidad pasiva."
+"Requisito: Nivel 3 \n La caballería cercana a Arwen gana +25% a la armadura \n y consigue experiencia un 25% más rápido. \n Modificador tipo: «Armor RESISTANT» \n Capacidad pasiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Requisito: Nivel 4. \n Los aliados cercanos a Haldir ganan +50% al daño \n y consiguen experiencia 25% más rápido. \n Modificador tipo: LEADERSHIP. \n Capacidad pasiva."
+"Requisito: Nivel 4. \n Los aliados cercanos a Haldir ganan +50% al daño \n y consiguen experiencia 25% más rápido. \n Modificador tipo: «Damage LEADERSHIP» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Los aliados cercanos a Tom Bombadil ganan +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Modificador tipo: RESISTANT 'Armor Inspiring'. \n Capacidad pasiva."
+"Los aliados cercanos a Tom Bombadil ganan +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Modificador tipo: «Armor RESISTANT» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Requisito: Nivel 4 \n Los aliados cercanos a Aragorn ganan +25% al daño, \n +25% a la armadura y consiguen experiencia un 50% más rápido. \n Modificador tipo: RESISTANT 'High-Tier Hero'. \n Capacidad pasiva."
+"Requisito: Nivel 4 \n Los aliados cercanos a Aragorn ganan +25% al daño, \n +25% a la armadura y consiguen experiencia un 50% más rápido. \n Modificador tipo: «RESISTANT High-Tier Hero» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Requisito: Nivel 3. \n La caballería cercana a Eomer gana +35% a armadura. \n Modificador tipo: 'Armor BUFF'. \n Capacidad pasiva."
+"Requisito: Nivel 3. \n La caballería cercana a Eomer gana +35% a armadura. \n Modificador tipo: «Armor BUFF» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Requisito: Nivel 7. \n Los aliados cercanos a Faramir ganan +35% a la armadura. \n Modificador tipo: 'Armor BUFF'. \n Capacidad pasiva."
+"Requisito: Nivel 7. \n Los aliados cercanos a Faramir ganan +35% a la armadura. \n Modificador tipo: «Armor BUFF» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Requisito: Nivel 5. \n Los aliados cercanos a Boromir ganan +50% al daño \n y consiguen experiencia 25% más rápido. \n Modificador tipo: LEADERSHIP. \n Capacidad pasiva."
+"Requisito: Nivel 5. \n Los aliados cercanos a Boromir ganan +50% al daño \n y consiguen experiencia 25% más rápido. \n Modificador tipo: «Damage LEADERSHIP» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Requisito: Nivel 2. \n Los aliados cercanos a Théoden ganan +25% al daño \n y consiguen experiencia 25% más rápido. \n Modificador tipo: RESISTANT 'Damage Inspiring'. \n Capacidad pasiva."
+"Requisito: Nivel 2. \n Los aliados cercanos a Théoden ganan +25% al daño \n y consiguen experiencia 25% más rápido. \n Modificador tipo: «Damage RESISTANT» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Los aliados cercanos a Saruman ganan +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Modificador tipo: RESISTANT 'Armor Inspiring'. \n Capacidad pasiva."
+"Los aliados cercanos a Saruman ganan +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Modificador tipo: «Armor RESISTANT» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -426,15 +430,15 @@ CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"Las hordas y heroes enemigos en la zona objetivo sufren \n -40% velocidad y -50% a la cadencia de fuego. \n Dura 19 segundos. \n Modificador tipo: 'STUN'. \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
+"Las hordas y heroes enemigos en la zona objetivo sufren \n -40% velocidad y -50% a la cadencia de fuego. \n Dura 19 segundos. \n Modificador tipo: «Wormtongue STUN». \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Requisito: Nivel 4 \n Las hordas y heroes enemigos en la zona objetivo sufren \n -25% armadura, -25% daño y a -5% velocidad. \n Dura 30 segundos. \n Modificador tipo: 'DEBUFF'. \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
+"Requisito: Nivel 4 \n Las hordas y heroes enemigos en la zona objetivo sufren \n -25% armadura, -25% daño y a -5% velocidad. \n Dura 30 segundos. \n Modificador tipo: «DEBUFF Basic» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Las unidades aliadas que están dentro de la niebla tienen sigilo. \n Las hordas, monstruos y heroes enemigos dentro de la niebla sufren \n -25% armadura y -25% daño. \n Dura 60 segundos. \n Modificador tipo: 'DEBUFF'. \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Las hordas, monstruos y heroes aliados que están dentro de la niebla obtienen sigilo. \n Las hordas, monstruos y heroes enemigos dentro de la niebla sufren  -25% armadura y -25% daño por 60 segundos. \n Modificador tipo: «DEBUFF Basic» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
@@ -569,10 +573,10 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Cura 750 puntos de salud de los heroes y hordas cercanas. \n Las hordas y monstruos cercanos reciben un incremento de \n +15% puntos de salud y ganan experience 25% más rapido. \n Proporciona inmunidad al miedo y al terror. \n Modifier Type: 'DEBUFF_PROOF ElvenGrace' \n Dura 12 segundos \n Haz clic con el botón izquierdo para activar."
+"Cura 750 puntos de salud de los heroes y hordas cercanas. \n Las hordas y monstruos cercanos reciben un incremento de \n +15% puntos de salud y ganan experience 25% más rapido. \n Proporciona inmunidad al miedo y al terror. \n Modificador tipo: «DEBUFF_PROOF ElvenGrace» \n Dura 12 segundos \n Haz clic con el botón izquierdo para activar."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Revela un area del mapa \n Proporciona +27.5% rango de visión a cualquier unidad aliada por 25 segundos. \n No afecta heroes. \n Modifier Type: 'DEBUFF_PROOF ElrondFarseeing' \n Haz clic con el botón izquierdo para activar."
+"Revela un area del mapa \n Proporciona +27.5% rango de visión a cualquier unidad aliada por 25 segundos. \n No afecta heroes. \n Modificador tipo: «DEBUFF_PROOF ElrondFarseeing» \n Haz clic con el botón izquierdo para activar."
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
@@ -613,7 +617,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Convoca a los fuegos del destino en un circulo alrededor de Sauron."
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Requisito: Investigar la mejora en la fortaleza. \n Proporciona a los aliados cercanos +25% daño y consiguen experiencia 25% más rapido \n Modificador tipo: RESISTANT 'Damage Inspiring'"
+"Requisito: Investigar la mejora en la fortaleza. \n Proporciona a los aliados cercanos +25% daño y consiguen experiencia 25% más rapido \n Modificador tipo: «Damage RESISTANT»"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Requisito: Investigar la mejora en la fortaleza. \n Cura a los aliados cercanos \n Repone una unidad por batallón cada 10 segundos."
@@ -642,7 +646,7 @@ CONTROLBAR:Fire_pit
 "Fogata de campamen&to"
 END
 CONTROLBAR:TooltipFire_pit
-"Campamento donde los aliados cercanos pueden ser curados \n Repone una unidad por batallón cada 5 segundos. \n Los aliados cercanos ganan +5% armadura. \n Modifier Type: RESISTANT 'HobbitCampfire' \n Detect stealth"
+"Campamento donde los aliados cercanos pueden ser curados \n Repone una unidad por batallón cada 5 segundos. \n Los aliados cercanos ganan +5% armadura. \n Modificador tipo: «RESISTANT HobbitCampfire» \n Detect stealth"
 END
 CONTROLBAR:FireWorks
 "Desplegar fuegos ar&tificiales."
@@ -16468,7 +16472,7 @@ CONTROLBAR:ToolTipSpecialAbilityEntFindRock
 END
 
 CONTROLBAR:tooltipCommand_ToggleEntRockThrow
-"Activa y desactiva el modo de lanzar rocas (&V)"
+"Activa y desactiva el modo de lanzar rocas (&R)"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk
@@ -16860,7 +16864,7 @@ CONTROLBAR:ToolTipMount
 END
 
 CONTROLBAR:UseSword
-"Usar espada (&V)"
+"Usar espada (&R)"
 END
 
 CONTROLBAR:ToolTipUseSword
@@ -16868,7 +16872,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Frasco de Galadriel (&T)"
+"Frasco de Galadriel (&V)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -43925,7 +43929,7 @@ SUBTITLE:CS35_06
 END
 
 SUBTITLE:CS36_01
-"*The Goblin invasion appears to be unstoppable."
+"*The Goblin invasion appears to be UNSTOPPING."
 END
 
 SUBTITLE:CS36_02
