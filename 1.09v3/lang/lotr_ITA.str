@@ -243,20 +243,20 @@ CONTROLBAR:ToolTipDarkness09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n Modifier Type: «DEBUFF Generic» \n Neutralizes LEADERSHIP, BUFF and RESISTANT modifiers from the enemy. \n Lasts 150 seconds. \n Left click to activate"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP, BUFF and RESISTANT» \n Lasts 150 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Richiede Livello 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Modifier Type: «DEBUFF_PROOF MightyRage» \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n Modifier Type: «DEBUFF Generic» \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
+"Richiede Livello 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Modifier Type: «DEBUFF_PROOF MightyRage» \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
-"Richiede Livello 2 \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n Modifier Type: «DEBUFF Generic» \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Passive ability"
+"Richiede Livello 2 \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Passive ability"
 End
 CONTROLBAR:TooltipCaveBats09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Modifier Type: «DEBUFF Generic» \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target area"
+"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target area"
 END
 CONTROLBAR:TooltipCrebain09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Modifier Type: «DEBUFF Generic» \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target area"
+"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
@@ -438,11 +438,11 @@ CONTROLBAR:ToolTipVenomousWords09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Richiede Livello 4 \n Enemy hordes and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Lasts 30 seconds. \n Modifier Type: «DEBUFF Generic» \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
+"Richiede Livello 4 \n Enemy hordes and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Lasts 30 seconds. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters in the same area suffer \n -25% armor and -25% damage. \n Lasts 60 seconds. \n Modifier Type: «DEBUFF Generic» \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n\n Left click icon and left click on target area"
+"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters in the same area suffer \n -25% armor and -25% damage. \n Lasts 60 seconds. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n\n Left click icon and left click on target area"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2

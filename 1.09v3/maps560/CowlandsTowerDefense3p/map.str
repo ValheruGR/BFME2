@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 490 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 499 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -113,14 +113,14 @@ CONTROLBAR:RohanMirkRider_New
 "MirkRider Ability (&T)"
 END
 CONTROLBAR:RohanMirkRiderDesc_New
-"Temporary grants a boost of +30% range. \n Lasts 45 seconds. \n Left click to activate"
+"Temporary grants a boost of +35% range and +15% rate of fire. \n Lasts 45 seconds. \n Left click to activate"
 END
 //-----------
 TOOLTIP:RohanMirkRider_New
 "MirkRiders"
 END
 TOOLTIP:RohanMirkRiderDesc_New
-"This battallion has elite training and became a MirkRider. \n Gained +30% permanent range bonus. \n Left click to activate"
+"This battallion has elite training and became a MirkRider. \n Gained +35% permanent range bonus and 15% rate of fire. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:SpecialAbilitySummonedDragonReposition_New
@@ -270,20 +270,20 @@ END
 //---------------------------------------------------
 CONTROLBAR:FortressFireDrakeHotkey_New
 "S&catha, the cold lady"
-//"&Cremona, la dragona"
+//"&Scatha, la dragona"
 END
 OBJECT:FortressFireDrake_New
 "Scatha, the cold lady"
-//"Cremona, la dragona"
+//"Scatha, la dragona"
 END
 TOOLTIP:FortressFireDrake_New
 "A source of cold love."
 END
 //--------------
-CONTROLBAR:DragonaLeadership_New
+CONTROLBAR:ScathaLeadership_New
 "Maternal instinct."
 End
-CONTROLBAR:ToolTipDrakeLeadership_New
+CONTROLBAR:ScathaLeadershipDesc_New
 "Allied units near la Dragona gain \n +50% Armor and earn experience 25% faster \n Category: 'TaintLand' \n Passive ability"
 END
 //--------------
@@ -1359,7 +1359,7 @@ CONTROLBAR:RitualistSacrifice_New
 "Sac&rifice a Berserke"
 END
 CONTROLBAR:RitualistSacrificeDesc_New
-"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain \n+37% Damage, +25 speed & +66% range \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Left click icon, then left click on the target berserker"
+"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain \n +37% Damage, +37 speed & +75% range \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Left click icon, then left click on the target berserker"
 END
 CONTROLBAR:LurtzBoost_New
 "Locura"
@@ -2644,7 +2644,7 @@ SCRIPT:WIN
 "Congratulations... \n You have won the cow map by Ecthelion. \n Special thanks to the beta-cow-players;"
 End
 SCRIPT:CREDITS
-"...Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau,\n Sauron, Temptation, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, Tor|Sapffire \n and whoever actually ever played this map during its three years of develepment."
+"...Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau,\n Sauron, Temptation, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, Tor|Sapffire \n and whoever actually ever played this map for more than 3 years of develepment."
 End
 SCRIPT:LOSE
 ";( cows not happy"
