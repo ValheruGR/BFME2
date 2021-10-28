@@ -690,10 +690,10 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
-Map:mapPKbamfurlong
+Map:map_PK_bamfurlong
 "Bamfurlong" 
 End
-Map:mapPKbamfurlong/Desc
+Map:map_PK_bamfurlong/Desc
 "Bamfurlong was a farm in the boggy region of the Marish in the eastern Shire. It was the home of Farmer Maggot, who lived above ground rather than in a traditional Hobbit-hole. \n Map by Powerkartoffel."
 End
 //------------------------------------------------------------
@@ -704,10 +704,10 @@ Map:mapSOironhillsii/Desc
 "These hills, rich in iron, were long held by the Dwarves and Dain Ironfoot. \n Map from RotWK, by Solas."
 END
 //----------------------------------
-Map:mapeterechiii
+Map:mapETerechiii
 "Erech 4th Age" 
 End
-Map:mapeterechiii/Desc
+Map:mapETerechiii/Desc
 "This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age.\nMap by Ecthelion."
 End
 //------------------------------------------------------------
@@ -718,31 +718,31 @@ Map:mapTTbaranduin/Desc
 "The Baranduin River of Eriador is known by the Hobbits as the Brandywine River. It marks the the boundary between the known and the unknown. \n Map by Temptation."
 END
 //------------------------------------------------------------
-Map:mapPKcanyonsofkhand
+Map:map_PK_canyons_of_khand
 "Canyons of Khand" 
 End
-Map:mapPKcanyonsofkhand/Desc
+Map:map_PK_canyons_of_khand/Desc
 "Khand was the name of a land which lay to the south of Mordor and the east of Near Harad. Little is known about Khand or its people, but it was most likely a dry and barren land covered in desert. \n Map by Powerkartoffel."
 End
 //------------------------------------------------------------
-Map:mapPKlonelymountain
+Map:map_PK_lonely_mountain
 "Slopes of the Lonely Mountain"
 End
-Map:mapPKlonelymountain/desc
+Map:map_PK_lonely_mountain/desc
 "The Battle of the five Armies took place in this valley, located between the Lonely Mountain and Dale. The five warring parties were the Goblins and the Wargs against Men, Elves, and Dwarves. \n Map by Powerkartoffel."
 End
 //------------------------------------------------------------
-Map:mapttfiriendale
+Map:mapTTfiriendale
 "Firien Dale"
 END
 Map:mapTTfiriendale/Desc
 "A deep cleft separating the Halifirien hill from its spur of the White Mountains; the source of the Mering Stream. \n Map by Temptation and Ecthelion"
 END
 //------------------------------------------------------------
-Map:mapetdruadanforestIII
+Map:mapETdruadanforestIII
 "Druadan Forest III"
 End
-Map:mapetdruadanforestIII/Desc
+Map:mapETdruadanforestIII/Desc
 "An old forest at the foot of the White Mountains, to the northwest of Minas Tirith. \n Map from BFME1, remade by Ecthelion."
 End
 //------------------------------------------------------------
