@@ -442,15 +442,15 @@ CONTROLBAR:TooltipEnshroudingMist09v2
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
-"Onderzoek Vaandeldrager upgrade bij de kazerne om deze mogelijkheid in te schakelen. \n +25% pantser, -30% snelheid en +33% extra weerstand tegen pijlen"
+"Onderzoek Vaandeldrager upgrade bij de kazerne om deze mogelijkheid in te schakelen. \n +25% pantser, -30% snelheid en +33% extra weerstand tegen pijlen. \n Verliest -5% schade."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
-"+25% pantser, -30% snelheid en +33% extra weerstand tegen pijlen"
+"+25% pantser, -30% snelheid en +33% extra weerstand tegen pijlen. \n Verliest -5% schade."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
-"+20% pantser, -30% snelheid en +25% extra weerstand tegen pijlen. \n Verliest -7% schade."
+"+20% pantser, -30% snelheid en +25% extra weerstand tegen pijlen. \n Verliest -5% schade."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2

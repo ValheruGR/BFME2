@@ -25,7 +25,7 @@ CONTROLBAR:nothingDesc09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipSummonTomBombadil09v3
-"Convoca a Tom Bombadil, un poderoso gordito con sombrero que le gusta cantar. \n Se dice que es la personificación humana de Eru, creador del Ëa. \n Las unidades aliadas cercanas a Tom ganan +25% Armadura y consiguen experiencia 25% más rápido.  \n Modificador tipo: «Armor RESISTANT» \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el lugar donde quieras que aparezca."
+"Convoca a Tom Bombadil, un poderoso gordito con sombrero que le gusta cantar. Se dice que es la personificación humana de Eru, creador del Ëa. \n Las unidades aliadas cercanas a Tom ganan +25% Armadura y consiguen experiencia 25% más rápido.  \n Modificador tipo: «Armor RESISTANT» \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el lugar donde quieras que aparezca."
 END
 //------------------------------------------------------------
 CONTROLBAR:Draft09v3
@@ -242,20 +242,20 @@ CONTROLBAR:ToolTipDarkness09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Hace que llueva en todo el mapa temporalmente. \n Anula la Lluvia Paralizadora, la Oscuridad y la capacidad de curar de la Ruptura de nubes. \n Las unidades enemigas sufren -25% armadura y -25% al daño. \n Modificador tipo: «DEBUFF Basic» \n Neutraliza los modificadores tipo LEADERSHIP, BUFF y RESISTANT del enemigo. \n Dura 150 segundos. \n Para activarlo, haz clic con el botón izquierdo."
+"Hace que llueva en todo el mapa temporalmente. \n Anula la Lluvia Paralizadora, la Oscuridad y la capacidad de curar de la Ruptura de nubes. \n Las unidades enemigas sufren -25% armadura y -25% al daño. \n Modificador tipo: «Basic DEBUFF» \n Neutraliza los modificadores tipo LEADERSHIP, BUFF y RESISTANT del enemigo. \n Dura 150 segundos. \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requisito: Nivel 4 \n Las unidades aliadas apuntadas ganan +20% a la velocidad, +25% al daño y su visión aumenta en un +25%. \n Modificador tipo: «DEBUFF_PROOF MightyRage». \n Las hordas enemigas en la misma localizacion sufren -25% armadura y -25% al daño. \n Modificador tipo: «DEBUFF Basic» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 4 \n Las unidades aliadas apuntadas ganan +20% a la velocidad, +25% al daño y su visión aumenta en un +25%. \n Modificador tipo: «DEBUFF_PROOF MightyRage». \n Las hordas enemigas en la misma localizacion sufren -25% armadura y -25% al daño. \n Modificador tipo: «Basic DEBUFF» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
-"Requisito: Nivel 2 \n Las hordas enemigas sufren -25% armadura y -25% al daño.  \n Modificador tipo: «DEBUFF Basic» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Capacidad pasiva"
+"Requisito: Nivel 2 \n Las hordas enemigas sufren -25% armadura y -25% al daño.  \n Modificador tipo: «Basic DEBUFF» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Capacidad pasiva"
 End
 CONTROLBAR:TooltipCaveBats09v2
-"Revela la ocultación y detecta unidades con sigilo. \n Las hordas enemigas sufren -25% armadura y -25% al daño. \n Modificador tipo: «DEBUFF Basic» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
+"Revela la ocultación y detecta unidades con sigilo. \n Las hordas enemigas sufren -25% armadura y -25% al daño. \n Modificador tipo: «Basic DEBUFF» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
 END
 CONTROLBAR:TooltipCrebain09v2
-"Revela la ocultación y detecta unidades con sigilo. \n Las hordas enemigas sufren -25% armadura y -25% al daño. \n Modificador tipo: «DEBUFF Basic» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
+"Revela la ocultación y detecta unidades con sigilo. \n Las hordas enemigas sufren -25% armadura y -25% al daño. \n Modificador tipo: «Basic DEBUFF» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
@@ -434,23 +434,23 @@ CONTROLBAR:ToolTipVenomousWords09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Requisito: Nivel 4 \n Las hordas y heroes enemigos en la zona objetivo sufren \n -25% armadura, -25% daño y a -5% velocidad. \n Dura 30 segundos. \n Modificador tipo: «DEBUFF Basic» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
+"Requisito: Nivel 4 \n Las hordas y heroes enemigos en la zona objetivo sufren \n -25% armadura, -25% daño y a -5% velocidad. \n Dura 30 segundos. \n Modificador tipo: «Basic DEBUFF» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Las hordas, monstruos y heroes aliados que están dentro de la niebla obtienen sigilo. \n Las hordas, monstruos y heroes enemigos dentro de la niebla sufren  -25% armadura y -25% daño por 60 segundos. \n Modificador tipo: «DEBUFF Basic» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Las hordas, monstruos y heroes aliados que están dentro de la niebla obtienen sigilo. \n Las hordas, monstruos y heroes enemigos dentro de la niebla sufren  -25% armadura y -25% daño por 60 segundos. \n Modificador tipo: «Basic DEBUFF \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
-"Para activar este equipo, investiga la mejora portaestandartes en el cuartel. \n +25% a armadura, -30% a velocidad y +33% extra resistencia contra flechas ."
+"Para activar este equipo, investiga la mejora portaestandartes en el cuartel. \n +25% a armadura, -30% a velocidad y +33% extra resistencia contra flechas. \n Pierde -5% daño."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
-"+25% a armadura, -30% a velocidad y +33% extra resistencia contra flechas."
+"+25% a armadura, -30% a velocidad y +33% extra resistencia contra flechas. \n Pierde -5% daño."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
-"+20% a armadura, -30% a velocidad y +25% extra resistencia contra flechas. \n Pierde -7% daño."
+"+20% a armadura, -30% a velocidad y +25% extra resistencia contra flechas. \n Pierde -5% daño."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2

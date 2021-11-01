@@ -443,15 +443,15 @@ CONTROLBAR:TooltipEnshroudingMist09v2
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
-"Исследуйте улучшение "Знамёна" в Казармах, чтобы войска могли приобрести эту способность. \n +25% Брони, -30% Скорости и +33% сопротивления к стрелам"
+"Исследуйте улучшение "Знамёна" в Казармах, чтобы войска могли приобрести эту способность. \n +25% Брони, -30% Скорости и +33% сопротивления к стрелам. \n Теряют -5% Урона."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
-"+25% Брони, -30% Скорости и +33% Сопротивления к стрелам"
+"+25% Брони, -30% Скорости и +33% Сопротивления к стрелам. \n Теряют -5% Урона."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
-"+20% Брони, -30% Скорости and +25% Сопротивления к стрелам. \n Теряют -7% Урона."
+"+20% Брони, -30% Скорости and +25% Сопротивления к стрелам. \n Теряют -5% Урона."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
@@ -16972,7 +16972,7 @@ CONTROLBAR:ToggleLooseFormation
 END
 
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-30% Speed, +20% Armor \n and +25% extra arrow resistance. \n Loses -7% damage."
+"-30% к скорости \n +20% к броне \n +25% к броне против лучников"
 END
 
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation

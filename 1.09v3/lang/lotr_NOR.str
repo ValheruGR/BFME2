@@ -446,15 +446,15 @@ CONTROLBAR:TooltipEnshroudingMist09v2
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
-"Research Banner Carrier upgrade at Barracks to enable this equipment. \n +25% Armor, -30% Speed and +33% extra arrow resistance"
+"Research Banner Carrier upgrade at Barracks to enable this equipment. \n +25% Armor, -30% Speed and +33% extra arrow resistance. \n Loses -5% damage."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
-"+25% Armor, -30% Speed and +33% extra arrow resistance"
+"+25% Armor, -30% Speed and +33% extra arrow resistance. \n Loses -5% damage."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
-"+20% Armor, -30% Speed and +25% extra arrow resistance. \n Loses -7% damage."
+"+20% Armor, -30% Speed and +25% extra arrow resistance. \n Loses -5% damage."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
@@ -16977,7 +16977,7 @@ CONTROLBAR:ToggleLooseFormation
 END
 
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-30% Speed, +20% Armor \n and +25% extra arrow resistance. \n Loses -7% damage."
+"-40 % hurtighet\n+25 % rustning"
 END
 
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation

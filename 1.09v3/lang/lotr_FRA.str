@@ -243,20 +243,20 @@ CONTROLBAR:ToolTipDarkness09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Annule la Pluie glacée,Ombre et le soin de Perce-nuage.\nLa carte est temporairement couverte de pluie pendant 150 secondes.\n Les unités ennemies perdre -25% d'armures et -25% de dégâts .\n Modifier Type: «DEBUFF Basic» \n Neutralizes LEADERSHIP, BUFF and RESISTANT modifiers from the enemy.\nClic gauche pour activer"
+"Annule la Pluie glacée,Ombre et le soin de Perce-nuage.\nLa carte est temporairement couverte de pluie pendant 150 secondes.\n Les unités ennemies perdre -25% d'armures et -25% de dégâts .\n Modifier Type: «Basic DEBUFF» \n Neutralizes LEADERSHIP, BUFF and RESISTANT modifiers from the enemy.\nClic gauche pour activer"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requiert : niveau 4\nLes unités alliées ciblées gagnent+20% de vitesse, +25% de dégâts ainsi que +25% de révélation du brouillard. \n Modifier Type: «DEBUFF_PROOF MightyRage» \n Les unités énnemies proche souffre d'un malus de -25% de dégâts et -25% d'armures. \n Modifier Type: «DEBUFF Basic» \n Neutralizes LEADERSHIP and BUFF effects from the enemy.\n Clic gauche sur l'icône puis clic gauche sur les unités ciblées"
+"Requiert : niveau 4\nLes unités alliées ciblées gagnent+20% de vitesse, +25% de dégâts ainsi que +25% de révélation du brouillard. \n Modifier Type: «DEBUFF_PROOF MightyRage» \n Les unités énnemies proche souffre d'un malus de -25% de dégâts et -25% d'armures. \n Modifier Type: «Basic DEBUFF» \n Neutralizes LEADERSHIP and BUFF effects from the enemy.\n Clic gauche sur l'icône puis clic gauche sur les unités ciblées"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
-"Requiert : niveau 2\n Les unités énnemies proche souffre d'un malus de -25% de dégâts et -25% d'armures.\n Neutralizes LEADERSHIP and BUFF effects from the enemy.\n Modifier Type: «DEBUFF Basic»\nPouvoir passif."
+"Requiert : niveau 2\n Les unités énnemies proche souffre d'un malus de -25% de dégâts et -25% d'armures.\n Neutralizes LEADERSHIP and BUFF effects from the enemy.\n Modifier Type: «Basic DEBUFF»\nPouvoir passif."
 End
 CONTROLBAR:TooltipCaveBats09v2
-"Révèle le brouillard et détecte les unités furtives.\n Réduit de -25% l'armures et les dégâts des unités ennemis.\nNeutralizes LEADERSHIP and BUFF effects from the enemy.\n Modifier Type: «DEBUFF Basic»\n Clic gauche sur l'icône puis clic gauche sur une zone praticable"
+"Révèle le brouillard et détecte les unités furtives.\n Réduit de -25% l'armures et les dégâts des unités ennemis.\nNeutralizes LEADERSHIP and BUFF effects from the enemy.\n Modifier Type: «Basic DEBUFF»\n Clic gauche sur l'icône puis clic gauche sur une zone praticable"
 END
 CONTROLBAR:TooltipCrebain09v2
-"Révèle le brouillard et détecte les unités furtives.\n Réduit de -25% l'armures et les dégâts des unités ennemis.\nNeutralizes LEADERSHIP and BUFF effects from the enemy.\n Modifier Type: «DEBUFF Basic»\n Clic gauche sur l'icône puis clic gauche sur une zone praticable"
+"Révèle le brouillard et détecte les unités furtives.\n Réduit de -25% l'armures et les dégâts des unités ennemis.\nNeutralizes LEADERSHIP and BUFF effects from the enemy.\n Modifier Type: «Basic DEBUFF»\n Clic gauche sur l'icône puis clic gauche sur une zone praticable"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
@@ -435,23 +435,23 @@ CONTROLBAR:ToolTipVenomousWords09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Requiert : niveau 4\nRéduit de manière significative les dégâts de -25% et l'armure de -25% des unités ennemies. \nLes héros perdent -5% d'armures. \n Modifier Type: «DEBUFF Basic»\nDure 30 secondes.\n Neutralizes LEADERSHIP and BUFF effects from the enemy.\nClic gauche sur l'icône puis clic gauche sur les unités ciblées."
+"Requiert : niveau 4\nRéduit de manière significative les dégâts de -25% et l'armure de -25% des unités ennemies. \nLes héros perdent -5% d'armures. \n Modifier Type: «Basic DEBUFF»\nDure 30 secondes.\n Neutralizes LEADERSHIP and BUFF effects from the enemy.\nClic gauche sur l'icône puis clic gauche sur les unités ciblées."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Les unités alliées à l'intérieur du brouillard deviennent furtives.\nRéduit de manière significative l'armure de -25% et les dégâts de -25% des unités ennemies, héros et monstres.\n Modifier Type: «DEBUFF Basic» \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \nClic gauche sur l'icône puis clic gauche sur la zone cible"
+"Les unités alliées à l'intérieur du brouillard deviennent furtives.\nRéduit de manière significative l'armure de -25% et les dégâts de -25% des unités ennemies, héros et monstres.\n Modifier Type: «Basic DEBUFF» \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \nClic gauche sur l'icône puis clic gauche sur la zone cible"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
-"Rechercher amélioration porte-étendard à la Caserne pour activer cette capacité. \n +25% d'armure, -30% de vitesse et +33% de résistance aux flèches."
+"Rechercher amélioration porte-étendard à la Caserne pour activer cette capacité. \n +25% d'armure, -30% de vitesse et +33% de résistance aux flèches.\n Perd -5% de dégâts."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
-"+25% d'armure, -30% de vitesse et +33% de résistance aux flèches."
+"+25% d'armure, -30% de vitesse et +33% de résistance aux flèches.\n Perd -5% de dégâts."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
-"+20% d'armure, -30% de vitesse et +25% de résistance aux flèches.\n Perd -7% de dégâts."
+"+20% d'armure, -30% de vitesse et +25% de résistance aux flèches.\n Perd -5% de dégâts."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
@@ -16974,7 +16974,7 @@ CONTROLBAR:ToggleLooseFormation
 END
 
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
-"-30% Speed, +20% Armor \n and +25% extra arrow resistance. \n Loses -7% damage."
+"-30% Speed, +20% Armor \n and +25% extra arrow resistance. \n Loses -5% damage."
 END
 
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
