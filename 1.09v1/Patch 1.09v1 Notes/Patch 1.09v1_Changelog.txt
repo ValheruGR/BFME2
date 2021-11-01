@@ -92,7 +92,7 @@
 -Goblin Spider rider sword now deals 75% against Mallorn.
 -Rivendell Lancer lance deals 115% to Goblin Mine.
 ;;-----------------ok mordor vs elves-----------;;
--Arwen Flood, both level 4 and level 10, deal 400% to Black Riders and Mouth of Sauron. //LogNote:Consider it lore change
+-Arwen Flood, both level 4 and level 10, deal 400% to Black Riders and MouthofSauron. //LogNote:Consider it lore change
 -Blackrider now deal 90% to Lancer. (It will still-one hit it due debuff. But lancers might survive it with heavy armor.)
 -Lorien warrior now gain a 10% bonus against mordor slaugher houses.
 -Mordor Orc Archers now deals 100% from 115% against Lorien Warrior and Mithlond sentry.
@@ -682,7 +682,7 @@
 				;;---------------------------------------#Mordor#--------------------------------------;;
 				;;-------------------------------------------------------------------------------------;;
 
--Fixed Mouth Of Sauron Doubt debuffing balrogs dragons and wyrms.
+-Fixed MouthofSauron Doubt debuffing balrogs dragons and wyrms.
 -Fixed mordor catapult not being able to use human heads. Note, the bombard icon will now bombard its default weapons. The long-range one will work against Ships, as originally intended by EA. With the difference it attacks ships automatically.
 -Fixed Witch King Mounted armor being 3.75% tougher unintentionally.
 -Fixed Barrow Wight glitch. (delay between shots now 0.6 seconds from 0.3 seconds.)
@@ -820,7 +820,7 @@ FAKE-Mountain Troll now deal 115% damage to Heroes when equipped with a Tree
 -Blackrider CRUSH damage is no longer affected thru stances.
 -Blackrider CRUSH damage gained in levels 6,7,8,9,10 reduced. (from 10,10,10,10,20 to 8,8,8,8,8 respectively)
 -Blackrider gains 80 HP from 60 when rank to level 2 and 3. And 100 HP from 80 when rank to level 4.
--Blackrider no longer shares his experience with Mouth of Sauron and other Blackriders anymore.
+-Blackrider no longer shares his experience with MouthofSauron and other Blackriders anymore.
 -Blackrider debuff radius now 175 from 200.
 -Blackrider now 400% stronger to Shelob/Gorkil Sting POISON damage.
 -Mordor Barrow Wight lifetime 85 secs from 100 secs.
@@ -830,10 +830,10 @@ FAKE-Mountain Troll now deal 115% damage to Heroes when equipped with a Tree
 -Barrow Wight HERO_RANGED armor now 20% from 10%.
 -Barrow Wight Drain Life multiplier (healself percentage per attack) now 33% from 35%. (originally 50%)
 -Barrow Wight default speed/charging mode now 33/100 from 25/100, respectively.
-;------------------ok. mmouth of sauron--------------------
--Mouth of Sauron Dissent spell cooldown 180 seconds from 200.
--Mouth of Sauron no longer shares his experience with blackriders anymore.
--Mouth of Sauron Evil Eye now have a +15% bonus against Aragorn, Gimli and Elrond.
+;------------------ok. mMouthofSauron--------------------
+-MouthofSauron Dissent spell cooldown 180 seconds from 200.
+-MouthofSauron no longer shares his experience with blackriders anymore.
+-MouthofSauron Evil Eye now have a +15% bonus against Aragorn, Gimli and Elrond.
 -Mouth of Suaron mounted deals 77% from 87% to STRUCTURES. 
 ;------------------ok. haradrim archers-----------------------;
 -Fixed Haradrim Archer health increased unintentionally. Restored to 250 from 300. 
@@ -1179,7 +1179,7 @@ Does not stun.. Now AI will use lurtz cripple on flyers.
 ;------------------ok. sharku-----------------------;
 -Sharku respawn timers actualised to his buildtime (45 secs from 50).
 -Sharku splash damage now 135 from 170 and can not be increased by ranking up. Base damage stays 270.
--Sharku health 2400 from 2000. Sharku armor set as Mouth of Sauron one. (consider MoS health is 2800)   
+-Sharku health 2400 from 2000. Sharku armor set as MouthofSauron one. (consider MoS health is 2800)   
 -Sharku can no longer eat Builders. (in order to avoid the bug)
 ;------------------ok. wormtongue-----------------------;
 -Wormtongue experience required for levels 8 9 reduced, and increased for level 10 proportionally. Does not mean he is nerfed. He needs to kill the same amount to reach to 10.
