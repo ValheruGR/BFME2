@@ -390,7 +390,7 @@ CONTROLBAR:ToolTipHaldirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Los aliados cercanos a Tom Bombadil ganan +25% a la armadura \n y consiguen experiencia un 25% más rápido. \n Modificador tipo: «Armor RESISTANT» \n Capacidad pasiva."
+"Los aliados cercanos a Tom Bombadil ganan \n +25% a la armadura y consiguen experiencia un 25% más rápido. \n Modificador tipo: «Armor RESISTANT» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
@@ -442,7 +442,7 @@ CONTROLBAR:TooltipEnshroudingMist09v2
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
-"Para activar este equipo, investiga la mejora portaestandartes en el cuartel. \n +25% a armadura, -30% a velocidad y +33% extra resistencia contra flechas. \n Pierde -5% daño."
+"Para activar este equipo, investiga la mejora portaestandartes en el cuartel. \n +25% a armadura, -30% a velocidad, \n +33% extra resistencia contra flechas. \n Pierde -5% daño."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
