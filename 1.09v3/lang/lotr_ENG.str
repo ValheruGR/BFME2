@@ -24,6 +24,14 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+TOOLTIP:ToolTipFellbeast09v3
+"Fellbeast attack radius against units is improved at level 6 and 10."
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipDominate09v3
+"Requires Level 8 \n Gain control of targeted enemies permanently. \n Left click icon then left click on target enemies"
+END
+//------------------------------------------------------------
 CONTROLBAR:TooltipSummonTomBombadil09v3
 "Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. \n It's told that he's the human personification of Eru, who created Ëa \n Provides +25% Armor and +25% fast earning Experience for nearby allies. \n Modifier Type: «Armor RESISTANT» \n Left click icon then left click on pathable location"
 END
@@ -103,11 +111,11 @@ CONTROLBAR:ToolTipLeap09v2
 "Requires Level 2 \n Gimli jumps to a location causing area-effect damage. \n Ability radius of effect is improved at level 4 and 7. \n Left click icon then left click on target area"
 END
 TOOLTIP:ToolTipWitchKing09v2
-"Mace attack radius of effect is improved is improved at level 5 and 8."
+"Mace attack radius of effect is improved at level 5 and 8."
 END
 //------------------------------------------------------------
 CONTROLBAR:GenericMountTooltipDain09v2
-"Requires Level 8  \n Left click to switch between \n mounted and on foot"
+"Requires Level 8 \n Left click to switch between \n mounted and on foot"
 END
 //------------------------------------------------------------
 CONTROLBAR:ShelobWebbing09v2
@@ -17923,7 +17931,7 @@ CONTROLBAR:ToolTipSpecialAbilityEntFindRock
 END
 
 CONTROLBAR:tooltipCommand_ToggleEntRockThrow
-"Toggle Rock-Throw Mode [&T]"
+"Toggle Rock-Throw Mode [&W]"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk
@@ -18313,7 +18321,7 @@ CONTROLBAR:ToolTipMount
 END
 
 CONTROLBAR:UseSword
-"Use Swo&rd"
+"Use Sword (&W)"
 END
 
 CONTROLBAR:ToolTipUseSword

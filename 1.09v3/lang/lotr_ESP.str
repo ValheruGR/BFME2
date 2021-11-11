@@ -16472,7 +16472,7 @@ CONTROLBAR:ToolTipSpecialAbilityEntFindRock
 END
 
 CONTROLBAR:tooltipCommand_ToggleEntRockThrow
-"Activa y desactiva el modo de lanzar rocas (&R)"
+"Activa y desactiva el modo de lanzar rocas (&W)"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk
@@ -16864,7 +16864,7 @@ CONTROLBAR:ToolTipMount
 END
 
 CONTROLBAR:UseSword
-"Usar espada (&R)"
+"Usar espada (&W)"
 END
 
 CONTROLBAR:ToolTipUseSword
