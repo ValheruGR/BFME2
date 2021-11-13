@@ -24,29 +24,27 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipEyeofSauron09v3
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Left click icon then left click on target area"
+END
 TOOLTIP:ToolTipFellbeast09v3
 "Fellbeast attack radius against units is improved at level 6 and 10."
 END
-//------------------------------------------------------------
 CONTROLBAR:ToolTipDominate09v3
 "Requires Level 8 \n Gain control of targeted enemies permanently. \n Left click icon then left click on target enemies"
 END
-//------------------------------------------------------------
 CONTROLBAR:TooltipSummonTomBombadil09v3
 "Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. \n It's told that he's the human personification of Eru, who created Ëa \n Provides +25% Armor and +25% fast earning Experience for nearby allies. \n Modifier Type: «Armor RESISTANT» \n Left click icon then left click on pathable location"
 END
-//------------------------------------------------------------
 CONTROLBAR:Draft09v3
 "D&raft"
 End
 CONTROLBAR:ToolTipDraft09v3
 "Arms the peasants of this battalion. \n When equipped, increases the damage done by Melee Weapons \n and significantly reduces the amount of damage taken."
 END
-//------------------------------------------------------------
 CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
 "Disguise (&V)"
 END
-//------------------------------------------------------------
 CONTROLBAR:SummonWargAllies09v3
 "Summon Warg Allies (&V)"
 End
@@ -229,7 +227,7 @@ CONTROLBAR:ToolTipLurtzLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces. \n Target units and machines gain +35% range. \n Modifier Type: «RESISTANT Palantir» \n Left click icon then left click on target area"
+"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: «RESISTANT Palantir» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
@@ -237,7 +235,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor, +25% damage \n and earn experience 25% faster. \n Modifier Type: «RESISTANT ElvenWood» \n Overrides LEADERSHIP effects from the allies. \n The center creates a propective shield against enemy Taint Land or Human Wood. \n Enemy cavalry deceleration rate is raised by +250%. \n Left click icon then left click on target area"
+"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, +25% damage and earn experience 25% faster. \n Modifier Type: «RESISTANT ElvenWood» \n Overrides LEADERSHIP effects from the allies. \n Enemy cavalry deceleration rate is raised by +250%. \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -248,7 +246,7 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness. \n Allies gain +50% Damage, +33% Armor \n and earn experience 50% faster. \n Monsters gain +25% Damage, +33% Armor, \n and earn experience 50% faster. \n Modifier Type: «RESISTANT Darkness» \n Lasts 180 seconds. \n Left click to activate"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Modifier Type: «RESISTANT Darkness» \n Lasts 180 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
@@ -305,7 +303,7 @@ CONTROLBAR:ToolTipElvenCloakThranduil09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud and detects stealth. \n Nearby allies gain +35% armor \n and earn +25% experience faster. \n Modifier Type: «Armor BUFF» \n Left click icon then left click on target area"
+"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Modifier Type: «Armor BUFF» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
@@ -332,7 +330,7 @@ CONTROLBAR:ToolTipMenWood09v2
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster. \n Modifier Type: «Damage RESISTANT» \n \n Allies gain terror and fear resistance. \n Modifier Type: «LEADERSHIP AntiFear»\n Increases command point limit by 10"
+"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster. \n Modifier Type: «Damage RESISTANT» \n Allies gain terror and fear resistance. \n Modifier Type: «LEADERSHIP AntiFear»\n Increases command point limit by 10"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
@@ -364,7 +362,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
@@ -46978,7 +46976,7 @@ SUBTITLE:CS35_06
 END
 
 SUBTITLE:CS36_01
-"*The Goblin invasion appears to be UNSTOPPING."
+"*The Goblin invasion appears to be unstoppable."
 END
 
 SUBTITLE:CS36_02

@@ -24,21 +24,27 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipEyeofSauron09v3
+"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura y consiguen experiencia un 50% más rápido. \n Trolls gain +7.5% Damage, +7.5% Armor y consiguen experiencia 50% más rápido. \n Modificador tipo: «RESISTANT High-Tier Hero»\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+END
+TOOLTIP:ToolTipFellbeast09v3
+"El daño en area del Nazgul es mejorado en nivel 6"
+END
+CONTROLBAR:ToolTipDominate09v3
+"Requisito: Nivel 8. \n Toma control temporal de los enemigos apuntados de forma permanent. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre los enemigos apuntados."
+END
 CONTROLBAR:TooltipSummonTomBombadil09v3
 "Convoca a Tom Bombadil, un poderoso gordito con sombrero que le gusta cantar. Se dice que es la personificación humana de Eru, creador del Ëa. \n Las unidades aliadas cercanas a Tom ganan +25% Armadura y consiguen experiencia 25% más rápido.  \n Modificador tipo: «Armor RESISTANT» \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el lugar donde quieras que aparezca."
 END
-//------------------------------------------------------------
 CONTROLBAR:Draft09v3
-"D&raft"
+"Leva (&R)"
 End
 CONTROLBAR:ToolTipDraft09v3
-"Arms the peasants of this battalion. \n When equipped, increases the damage done by Melee Weapons \n and significantly reduces the amount of damage taken."
+"Arma los campesinos de este batallón para la guerra. \n Aumenta el daño causado por las armas y mejora significativamente sus armaduras"
 END
-//------------------------------------------------------------
 CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
 "Disfraz (&V)"
 END
-//------------------------------------------------------------
 CONTROLBAR:SummonWargAllies09v3
 "Convocar huargos de Isengard (&V)"
 End
@@ -354,7 +360,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modificador tipo: «RESISTANT High-Tier Hero»\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Modificador tipo: «RESISTANT High-Tier Hero»\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
@@ -860,7 +866,7 @@ Map:mapHAforlindon
 "The Cow Maze"
 End
 Map:mapHAforlindon/Desc
-"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heros trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\n Map originally from BFME1 by Haldir, edited by Ecthelion."
+"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heroes trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\n Map originally from BFME1 by Haldir, edited by Ecthelion."
 End
 //The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\nMap from BFME1 by Haldir, edited by Ecthelion."
 //------------------------------------------------------------
@@ -16872,7 +16878,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Frasco de Galadriel (&V)"
+"Frasco de Galadriel (&T)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -43929,7 +43935,7 @@ SUBTITLE:CS35_06
 END
 
 SUBTITLE:CS36_01
-"*The Goblin invasion appears to be UNSTOPPING."
+"*The Goblin invasion appears to be unstoppable."
 END
 
 SUBTITLE:CS36_02

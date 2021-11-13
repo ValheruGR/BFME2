@@ -24,21 +24,27 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipEyeofSauron09v3
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Left click icon then left click on target area"
+END
+TOOLTIP:ToolTipFellbeast09v3
+"Fellbeast attack radius against units is improved at level 6 and 10."
+END
+CONTROLBAR:ToolTipDominate09v3
+"Requires Level 8 \n Gain control of targeted enemies permanently. \n Left click icon then left click on target enemies"
+END
 CONTROLBAR:TooltipSummonTomBombadil09v3
 "Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. \n It's told that he's the human personification of Eru, who created Ëa \n Provides +25% Armor and +25% fast earning Experience for nearby allies. \n Modifier Type: «Armor RESISTANT» \n Left click icon then left click on pathable location"
 END
-//------------------------------------------------------------
 CONTROLBAR:Draft09v3
 "D&raft"
 End
 CONTROLBAR:ToolTipDraft09v3
 "Arms the peasants of this battalion. \n When equipped, increases the damage done by Melee Weapons \n and significantly reduces the amount of damage taken."
 END
-//------------------------------------------------------------
 CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
 "Disguise (&V)"
 END
-//------------------------------------------------------------
 CONTROLBAR:SummonWargAllies09v3
 "Summon Warg Allies (&V)"
 End
@@ -572,7 +578,7 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Geneest 750 gezondheidspunten van nabije troepen en helden. \n Nabije troepen en monsters krijgen een verhoging van: \n +15% gezondheidspunten en +25% sneller ervaring \n Geeft weerstand tegen angst \n Modifier Type: 'UNSTOPPING ElvenGrace'\n Duurt 12 seconden \n Klik met links om te activeren"
+"Geneest 750 gezondheidspunten van nabije troepen en helden. \n Nabije troepen en monsters krijgen een verhoging van: \n +15% gezondheidspunten en +25% sneller ervaring \n Geeft weerstand tegen angst \n Modifier Type: «DEBUFF_PROOF ElvenGrace»\n Duurt 12 seconden \n Klik met links om te activeren"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
 "Onthult een deel van de kaart \n Geeft +27.5% bereik voor onthulling voor elke eenheid voor 25 seconden. \n Heeft geen effect op helden \n Modifier Type: «DEBUFF_PROOF ElrondFarseeing» \n Klik met links op het icoontje en daarna met links op het doelwit"
@@ -859,7 +865,7 @@ Map:mapHAforlindon
 "The Cow Maze"
 End
 Map:mapHAforlindon/Desc
-"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heros trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\n Map originally from BFME1 by Haldir, edited by Ecthelion."
+"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heroes trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\n Map originally from BFME1 by Haldir, edited by Ecthelion."
 End
 //The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\nMap from BFME1 by Haldir, edited by Ecthelion."
 //------------------------------------------------------------
