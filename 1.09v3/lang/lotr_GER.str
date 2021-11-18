@@ -24,6 +24,9 @@ CONTROLBAR:nothingDesc09v2
 "nichts"
 END
 //------------------------------------------------------------
+CONTROLBAR:TooltipDragonStrike09v3
+"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed. \n Modifier Type: «DragonStrike STUN» \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
+END
 CONTROLBAR:ToolTipEyeofSauron09v3
 "Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Left click icon then left click on target area"
 END

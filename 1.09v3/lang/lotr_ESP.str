@@ -24,6 +24,9 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:TooltipDragonStrike09v3
+"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed. \n Modifier Type: «DragonStrike STUN» \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
+END
 CONTROLBAR:ToolTipEyeofSauron09v3
 "Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura y consiguen experiencia un 50% más rápido. \n Trolls gain +7.5% Damage, +7.5% Armor y consiguen experiencia 50% más rápido. \n Modificador tipo: «RESISTANT High-Tier Hero»\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
