@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 499 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 502 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -79,6 +79,21 @@ End
 
 
 
+//------------------------------------------------------------
+//------------------------------------------------------------
+CONTROLBAR:BlackOrcCheerTheHorde_New
+"Black Rage (&W)"
+END
+CONTROLBAR:BlackOrcCheerTheHordeDesc_New
+"The Black Orcs gain +50% Damage, +35% speed and cannot be crushed whilst the duration of the spell. \n Lasts 29 seconds \n Left click to activate"
+END
+//------------------------------------------------------------
+OBJECT:BlackOrc_New
+"Black Orc"
+End
+OBJECT:BlackOrcHorde_New
+"Black Orcs"
+End
 //------------------------------------------------------------
 CONTROLBAR:SummonIronHillZealots_New
 "Summon Iron Hill Zealots (&V)"
@@ -269,15 +284,13 @@ CONTROLBAR:EagleUseClawsDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:FortressFireDrakeHotkey_New
-"S&catha, the cold lady"
-//"&Scatha, la dragona"
+"S&catha the Cold Drake"
 END
 OBJECT:FortressFireDrake_New
-"Scatha, the cold lady"
-//"Scatha, la dragona"
+"Scatha the Cold Drake"
 END
 TOOLTIP:FortressFireDrake_New
-"A source of cold love."
+"The famous cold Drake from the North."
 END
 //--------------
 CONTROLBAR:ScathaLeadership_New
@@ -2498,10 +2511,10 @@ CONTROLBAR:ToolTipWizardBlast_New
 "Wided attack spell that attract enemies onto Saruman. \n Left click icon then left click on target"
 //"Requires Level 3 \n Me so horny. \n Fiften dorra? \n Me love you long time. \n Large range spell that suck enemy units monsters or heroes. \n Doubles magic damage at level 10. \n Left click icon then left click on target"
 END
-CONTROLBAR:HoraDelMago_New
+CONTROLBAR:TimeStop_New
 "Time Stop (&V)"
 End
-CONTROLBAR:HoraDelMagoDesc_New
+CONTROLBAR:TimeStopDesc_New
 "Requires Level 10 \n Every kind of enemy unit in a large area around Saruman is continously paralyzed during the duration of the dance. \n Left click to activate"
 //"Requires Level 10 \n Saruman does some dance with suck-type FX's. \n Enemies around Saruman are continously paralyzed. \n Looks like ice shit. \n There are some snow flakes, kinda. \n Thorin sucks. \n Left click to activate"
 END
