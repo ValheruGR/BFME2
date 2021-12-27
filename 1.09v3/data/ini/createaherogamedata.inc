@@ -50,7 +50,7 @@
 #define CREATE_A_HERO_PREATTACKDELAY 							1000
 #define CREATE_A_HERO_DELAYBETWEENSHOTS 						1250
 #define CREATE_A_HERO_FIRINGDURATION 							1400
-#define	CREATE_A_HERO_DAMAGE								150	// 200 turned this up a little because animations slowed down...
+#define	CREATE_A_HERO_DAMAGE									150	// 200 turned this up a little because animations slowed down...
 
 #define CREATE_A_HERO_MOUNTED_PREATTACKDELAY 					700
 #define CREATE_A_HERO_MOUNTED_DELAYBETWEENSHOTS					800
