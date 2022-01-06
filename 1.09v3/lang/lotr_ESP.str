@@ -49,7 +49,7 @@ CONTROLBAR:TooltipDragonStrike09v3
 "Convoca un dragón de aliento de fuego para sobrevolar y asolar el campo de batalla. \n Cualquier unidad debajo del Dragon sufrirá -15% velocidad. \n Modificador tipo: «DragonStrike STUN» \n *Extremadamente peligroso en los bordes del mapa* \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre la zona objetivo."
 END
 CONTROLBAR:ToolTipEyeofSauron09v3
-"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura y consiguen experiencia un 50% más rápido. \n Trolls gain +7.5% Damage, +7.5% Armor y consiguen experiencia 50% más rápido. \n Modificador tipo: «RESISTANT High-Tier Hero»\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura y consiguen experiencia un 50% más rápido. \n Trolls gain +7.5% Damage, +7.5% Armor y consiguen experiencia 15% más rápido. \n Modificador tipo: «RESISTANT High-Tier Hero»\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 TOOLTIP:ToolTipFellbeast09v3
 "El daño en area del Nazgul es mejorado en nivel 6"
