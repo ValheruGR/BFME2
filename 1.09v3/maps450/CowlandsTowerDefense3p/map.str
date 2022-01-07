@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 502 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 533 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -80,6 +80,30 @@ End
 
 
 //------------------------------------------------------------
+//-----------------------------flags--------------------------//
+SCRIPT:SpeedMultiplierActivated
+"Speed Multiplier activated"
+END
+SCRIPT:SpeedMultiplierEnabled
+"Speed mult. set to 5x"
+END
+SCRIPT:SpeedMultiplierDisabled
+"Speed mult. set to 1x"
+END
+//------------------------------------------------------------
+CONTROLBAR:AttackTrollIntimidate_New
+"Intimida&te"
+End
+CONTROLBar:AttackTrollIntimidateDesc_New
+"Intimidates the target heroe or monster, reducing its health and speed. \n Target monsters suffer -50% health points and -50% speed. \n Target heroes suffer -25% health points and -25% speed. \n Left click icon then left click on the target"
+End
+//------------------------------------------------------------
+CONTROLBAR:ElvenGraceGhost_New
+"&Toxic Athelas"
+END
+CONTROLBAR:TooltipElvenGraceGhost_New
+"Poisons and slightly slows down nearby enemy units. \n Left click to activate"
+END
 //------------------------------------------------------------
 CONTROLBAR:BlackOrcCheerTheHorde_New
 "Black Rage (&W)"
@@ -450,7 +474,7 @@ CONTROLBAR:DreadVisage_New
 "Dread Visage"
 END
 CONTROLBAR:ToolTipDreadVisage09v2_New
-"Requires Level 6 \n Enemy units are reduced to \n 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP \n and BUFF effects from the enemy. \n Passive ability"
+"Enemy units are reduced to \n 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP \n and BUFF effects from the enemy. \n Passive ability"
 End
 CONTROLBAR:ScreechBlackRider_New
 "Deafening Screech [&B]"
@@ -983,10 +1007,10 @@ CONTROLBAR:ConstructTrollDrum_New
 END
 //---------------------------------------------------
 TOOLTIP:LackGondorEliteTraining_New
-"Research upgrade at BlackSmith to enable this equipment \n When equipped, increases this horde to Level 2 and becomes able to shoot Dunedain Ice Arrows"
+"Research upgrade at BlackSmith to enable this equipment \n When equipped, increases this horde to Level 5 and becomes able to shoot Dunedain Ice Arrows"
 END
 TOOLTIP:LackIsengardEliteTraining_New
-"Purchase Upgrade at Armory to enable this equipment \n When equipped, increases this horde to Level 2, receives Heavy Armor and becomes able to shoot Explosive Bolts permanently."
+"Purchase Upgrade at Armory to enable this equipment \n When equipped, increases this horde to Level 5, receives Heavy Armor and becomes able to shoot Explosive Bolts permanently."
 END
 //---------------------------------------------------
 CONTROLBAR:PurchaseTechnologyGondorFireArrows_New
@@ -1800,7 +1824,7 @@ CONTROLBAR:BlightDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:Sunflare_New
-"Moonlight [&V]"
+"Moonlight Flare[&V]"
 END
 CONTROLBAR:TooltipSunflare_New
 "Requires Level 9 \n In honor to the Piano Sonata 4, a beam of canalized moonlight energy is summoned to scorch the cowlands \n Left click icon then left click on target area"
@@ -1864,7 +1888,7 @@ CONTROLBAR:KingsFavorDainDesc_New
 "Requires Level 3 \n Targeted dwarves gain experience \n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipMightyRage_New
-"Requires Level 5 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Enemy units are debuffed \n \n If Dain is level 10, the targeted player units earn resources from kills. \n Earns 65% of the bounty value instead of 33%.\n Left click icon then left click on target units"
+"Requires Level 5 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Enemy units are debuffed \n \n If Dain is level 10, the targeted *player* units earn resources from kills, \n earning 65% of the bounty value instead of 33%.\n Left click icon then left click on target units"
 END
 //---------------------------------------------------
 CONTROLBAR:DwarvenRiches_New
@@ -2107,10 +2131,6 @@ TOOLTIP:PurchaseUpgradePoisonedSpearsDesc_New
 "Research upgrade at Tavern to enable this equipment \n When equipped, inflicts poison to enemies causing damage over time and slowing them down."
 END
 //-------------------------------------------------
-CONTROLBar:ToolTipDominateTrollNew
-"Take control of target enemy troll \n Left click icon then left click on target troll"
-End
-//-------------------------------------------------
 CONTROLBAR:GloinSlam_New
 "Slam [&R]"
 END
@@ -2188,8 +2208,8 @@ CONTROLBAR:ToolTipArrowWind_New
 "Requires Level 10 \n Launch a continuous volley of arrows with splash damage\n Left click icon then left click on target area"
 END
 //-------------------------------------------------
-CONTROLBAR:DescriptionConstructMordorDrummerTrollsNew
-"Allies near the Drummer Troll gain \n +50% armor and earn experience 25% faster \n Category: 'TaintLand' \n \nPassive ability"
+CONTROLBAR:DescriptionConstructMordorDrummerTrolls_New
+"Player hordes near the Drummer Troll move \n +15% faster \n Category: 'Unique' \n \nPassive ability"
 END
 //-------------------------------------------------
 CONTROLBAR:ArwenLeadership_New
@@ -2308,7 +2328,8 @@ CONTROLBAR:GothmogLeadership_New
 "Rational irrationality"
 END
 CONTROLBAR:ToolTipGothmogLeadership_New
-"Requires Level 3 \n What does Nietzsche, Freud, Durkheim, Heidegger and Weber have in common? Yes, they all are occidental european thinkers. Therefore, beneath all their works there's a series of dichotomies and counter terms. Most of them have root in ancient greek philosophy, like the opposition between Body and Soul. This dualism has acted like the mother of conflict in any kind of human art, from here you have derivations, such as the opposition between the human Irrationality and the Rationality, Community and Society, Mecanic relationships and Organic relationships, Idealism and Pragmatism, Ritual and Technique, Tradition and Efficience, Epicureanism and Asceticism, Dionisio and Apollo, Communitarianism and Individualism, Popular knowledge and Scientific knowledge, Equality and Freedoom, etcetera. Nietzsche liked to idealize greek culture because he thought certain dualism, in first instance Dionisio and Apolo, lived in harmony together, while in modern society has rather prevailed Apollo as heritage of christianism. \n Modernity has became synonymous of pure and efficient rationality, and everyone is embracing this. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, body, beliefs, localisms. Killing humans (and things in general) is not just "spontaneous savage hate", it's a rational way of preserving a rich "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player units near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability"
+//"Requires Level 3 \n What does Nietzsche, Freud, Durkheim, Heidegger and Weber have in common? Yes, they all are occidental european thinkers. Therefore, beneath all their works there's a series of dichotomies and counter terms. Most of them have root in ancient greek philosophy, like the opposition between Body and Soul. This dualism has acted like the mother of conflict in any kind of human art, from here you have derivations, such as the opposition between the human Irrationality and the Rationality, Community and Society, Mecanic relationships and Organic relationships, Idealism and Pragmatism, Ritual and Technique, Tradition and Efficience, Epicureanism and Asceticism, Dionisio and Apollo, Communitarianism and Individualism, Popular knowledge and Scientific knowledge, Equality and Freedoom, etcetera. Nietzsche liked to idealize greek culture because he thought certain dualism, in first instance Dionisio and Apolo, lived in harmony together, while in modern society has rather prevailed Apollo as heritage of christianism. \n Modernity has became synonymous of pure and efficient rationality, and everyone is embracing this. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, body, beliefs, localisms. Killing humans (and things in general) is not just "spontaneous savage hate", it's a rational way of preserving a rich "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player units near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability" //BUNITO_ESSAY//
+"Requires Level 3 \n Modernity is the result of the pure efficient rationality, and everyone is embracing this while being embraced by it, aswell. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, myths, body and soul, ancient beliefs, localisms. Culture, in general. Gothmog is more human that the human. \n Killing humans (and things in general) is not just "spontaneous savage hate" as depicted by Tolkien, it's a rational way of preserving a rich but supposedly "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player units near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability" //BUNITO_ESSAY//
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipWarChant_New

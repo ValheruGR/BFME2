@@ -1,0 +1,287 @@
+Map:mapjkbluemountainstowerwar
+"Blue Mountains TW: Free For All"
+End
+Map:mapjkbluemountainstowerwar/Desc
+"This is a free for all tower wars map for Patch 1.09. There are 19 waves, it takes around an hour.\n\nThe map has been tested and beaten with all factions by me. Solo play is supported. \n Turn on Ring Heroes for instructions. \n\nIf you wish the game to continue even after all opponents have lost, everyone must be team 1.\n**To avoid OOS, restart the game before playing**\n\n Ver 1.3 | Apr 2019 \n 1.09 compatibility by Ecthelion, 2022."
+End
+
+SCRIPT:01
+"Made by Jokuc \nVersion 1.3beta April-2019\n Keep 1.09 compatibility by Ecthelion, 2022"
+End
+
+SCRIPT:Intro01
+"Yo! Welcome to my third ffa tower wars map!"
+End
+
+SCRIPT:Intro02
+"This one is not easy,\nI don't expect beginners to get past wave 3..."
+End
+
+SCRIPT:Intro03
+"The map supports 4 factions which each have their own playstyles."
+End
+
+SCRIPT:Intro04
+"There are two entrences for the waves.\nThe main one has two big statues."
+End
+
+SCRIPT:Intro05
+"The second entrence has smaller statues\nand will not be used before wave 11."
+End
+
+SCRIPT:Intro06
+"If you dislike the height of the camera, just zoom in.\nIf you hate the angle... well, sucks to be you."
+End
+
+SCRIPT:Intro07
+"I wish everyone good luck! The game will begin shortly.."
+End
+
+
+SCRIPT:Wave5TT
+"Get your micro ready."
+End
+
+SCRIPT:Wave10TT
+"One does not simply walk into Mordor."
+End
+
+SCRIPT:Wave16TT
+"TO WAR!"
+End
+
+SCRIPT:IntroCountdown
+"Game starts in:"
+End
+
+SCRIPT:Income
+"Income:"
+End
+
+SCRIPT:WaveCounter
+"Wave:"
+End
+
+SCRIPT:P1_Count
+"Player 1 has defeated Wave:"
+End
+
+SCRIPT:P2_Count
+"Player 2 has defeated Wave:"
+End
+
+SCRIPT:P3_Count
+"Player 3 has defeated Wave:"
+End
+
+SCRIPT:P4_Count
+"Player 4 has defeated Wave:"
+End
+
+SCRIPT:DeathWaveP1
+"Player 1 made it to Wave:"
+End
+
+SCRIPT:DeathWaveP2
+"Player 2 made it to Wave:"
+End
+
+SCRIPT:DeathWaveP3
+"Player 3 made it to Wave:"
+End
+
+SCRIPT:DeathWaveP4
+"Player 4 made it to Wave:"
+End
+
+SCRIPT:RaceHint
+"Because one or more of you have reached this far, I shall tell you about race mode.\n\nYou will get all resources at once and the next wave will come immediately after you defeat all units on your side. This is great for testing out new strategies or just seeing who can beat all waves the fastest.\n\nTo activate Race Mode, set start resources to 3000"
+End
+
+SCRIPT:RaceModeSelected
+"Race mode activated."
+End
+
+SCRIPT:RaceModeIncome
+"Next income:"
+End
+
+SCRIPT:Rest
+"Next wave starts in:"
+End
+
+SCRIPT:Wave
+"Wave:"
+End
+
+SCRIPT:Income
+"Income:"
+End
+
+SCRIPT:P1W
+"Player 1 just won! Congratulations!"
+End
+
+SCRIPT:P2W
+"Player 2 just won! Congratulations!"
+End
+
+SCRIPT:P3W
+"Player 3 just won! Congratulations!"
+End
+
+SCRIPT:P4W
+"Player 4 just won! Congratulations!"
+End
+
+SCRIPT:DEVMODE
+"Devmode activated."
+End
+
+SCRIPT:DEVMODEdesc
+"Welcome to developer mode!\nPlease do not use this tool to cheat."
+End
+
+SCRIPT:DEVMODEkill
+"Killing player..."
+End
+
+SCRIPT:DEVMODEend
+"Leaving devmode..."
+End
+
+SCRIPT:DEVMODEendsin
+"Tomtenissen vandrar hem om:"
+End
+
+CONTROLBAR:StatueTest
+"Just another test yo"
+End
+
+CONTROLBAR:RapidFireBow
+"Rapid Fire"
+END
+
+CONTROLBAR:ToolTipRapidFireBow
+"Requires Level 5 \n Thranduil shoots arrows twice as fast for a short duration."
+END
+
+CONTROLBAR:ToolTipHaldirLeadershipNEW
+"Requires Level 7 \n Nearby Allies gain \n +50% Damage and earn experience +25% faster \n Passive ability"
+END
+
+CONTROLBAR:ToolTipDeadEyeNEW
+"Requires Level 4 \n Thranduil's arrows temporarily become surrounded \n with energy that causes high impact damage on enemies \n Left click to activate"
+END
+
+CONTROLBAR:ToolTipCaptainofGondorNEW
+"Give targeted units experience \n Left click icon then left click on target units"
+END
+
+CONTROLBAR:ToolTipWoundingArrowNEW
+"Requires Level 3 \n Single ranged attack that causes high damage and certain monsters to flee \n Causes meta-impact \n Left click icon then left click on target"
+END
+
+CONTROLBAR:ToolTipSummonDunedainAlliesNEW
+"Requires Level 8 \n Summons a group of Dunedain Rangers \n Left click icon then left click on location close to Faramir" 
+END
+
+CONTROLBAR:ShieldMaidenNEW
+"Extreme Focus"
+END
+
+CONTROLBAR:ToolTipFaramirBattleRage
+"Requires Level 10 \n Faramir gains an insane +300% damage and +50% speed \n Left click to activate"
+END
+
+CONTROLBAR:FaramirLeadership
+"Requires Level 4 \n Allies near Faramir gain \n +50% Damage and earn experience +25% faster \n \n Passive ability"
+END
+
+CONTROLBAR:ToolTipBuildMordorCatapultNEW
+"Strong against fire-weak units"
+END
+
+CONTROLBAR:ToolTipBuildIsengardSiegeBallistaNEW
+"Requires Level 2 Great Siege Works \n Strong against heroes and slow units"
+END
+
+CONTROLBAR:BuildMordorStatue
+"Fearsome Statue"
+END
+
+CONTROLBAR:ToolTipBuildMordorStatue
+"Intimidates nearby enemies, giving them -50% armor"
+END
+
+CONTROLBAR:ToolTipBuildDwarvenCatapultNEW
+"Strong vs. Structures and Siege units \n Fires two shots at once"
+END
+
+CONTROLBAR:ToolTipBuildDwarvenAxeThrowerHordeNEW
+"Slow but extremely strong" 
+END
+
+CONTROLBAR:CRAZYORCSTUFF
+"///////////////////////////////////////////////////////////////////////////////////"
+END
+
+CONTROLBAR:CrazyOrc
+"Crazy Orc"
+END
+
+CONTROLBAR:ToolTipRecruitCrazyOrc
+"Recruit a crazy orc"
+END
+
+TOOLTIP:LackLevel3OrcPit
+"Requires Level 3 Orc Pit"
+END
+
+CONTROLBAR:ToolTipPoisonArrowsNEW
+"Poison tipped arrows that \ncause damage over time"
+End
+
+CONTROLBAR:AnnoyOpponents
+"Annoy Opponents"
+End
+
+CONTROLBAR:ToolTipAnnoyOpponents
+"Requires Level 2 \n The Mouth of Sauron laughs at all players \n...But nothing happened!"
+End
+
+CONTROLBAR:MountArwen
+"Mount"
+End
+
+CONTROLBAR:ToolTipMountArwen
+"Requires Level 4 \n Mount Arwen"
+End
+
+CONTROLBAR:ToolTipWarChantNEW
+"Requires Level 8 \n Target allies gain +40% Damage, 50% experience & +10% speed \n Left click icon then left click on target units"
+End
+
+CONTROLBAR:ToolTipBerserkerRageCrazyOrc
+"Requires Level 10 \n Crazy Orc being crazy"
+End
+
+CONTROLBAR:TowerStuff
+"//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
+End
+
+CONTROLBAR:BuyTowerDamageUpgrade
+"Arrow Bonus"
+End
+
+CONTROLBAR:TowerDamageInfo
+"Tower gets +75% damage\n\nDoes not affect archers inside the tower"
+End
+
+CONTROLBAR:TowerRange
+"Increased Range"
+End
+
+CONTROLBAR:TowerRangeInfo
+"Tower gets double range\n\nDoes not affect archers inside the tower"
+End
