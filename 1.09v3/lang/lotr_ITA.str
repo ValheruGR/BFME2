@@ -24,6 +24,20 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
+"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n If Mystic Fountains upgrade is present, together can heal any allied Flying unit"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
+"Allows summoning of a Giant Eagle \n If Mystic Fountains upgrade is present, together can heal any allied Flying unit"
+END
+//------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v3
+"Heals nearby Allies. \n Continuosly damages enemy units adjacent to the Fortress. \n If Dragon Nest upgrade is present, together can heal any allied Flying unit."
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
+"Allows summoning of a Fire Drake \n Reduces Drogoth revival time by 10% \n If Razor Spines upgrade is present, together can heal any allied Flying unit"
+END
+//------------------------------
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
 "Requires Level 6 \n Poisons the enemy causing damage during 30 seconds \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
 End
@@ -26338,7 +26352,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressDragonNest
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest
-"Consente di evocare un Drago di fuoco. \nCura Drogoth. \nRiduce il tempo di rianimazione di Drogoth del 10%."
+"Consente di evocare un Drago di fuoco. \nRiduce il tempo di rianimazione di Drogoth del 10%."
 END
 
 CONTROLBAR:PurchaseShipUpgradePirateFlag
