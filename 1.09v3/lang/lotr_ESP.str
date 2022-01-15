@@ -233,7 +233,7 @@ CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Fuerte contra arqueros y \n edificios de construcción de unidades. \n Los Lanceros de Rivendell ganan +7% velocidad en el nivel level 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Requisito: Nivel 7 \n Théoden y las tropas de caballería cercanas reciben +99% armadura, +25% al daño y las vuelve inmune a la desaceleración por pisoteo. \n La caballería tambien se vuelve inmune al miedo. \n Modificador tipo: «DEBUFF_PROOF GloriousCharge». \n Théoden debe estar montado para usar esta capacidad. \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 7 \n Théoden y las tropas de caballería cercanas reciben +99% armadura, +25% al daño y las vuelve inmune a la desaceleración por pisoteo. \n La caballería tambien se vuelve inmune al miedo. \n Modificador tipo: «GloriousCharge». \n Théoden debe estar montado para usar esta capacidad. \n Para activarlo, haz clic con el botón izquierdo."
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
 "Fuerte contra infantería\nResistant to trample\n Bonificación por horda: \n Los trasgos agrupados en grupos de al menos 100\n ganan +33% al daño y +20% velocidad. \n Modificador tipo: «RESISTANT HordeBonus» "
@@ -251,7 +251,7 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Requisito: Nivel 7 \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n Modificador tipo: «DEBUFF_PROOF StubbornPride» \n Dain se vuelve capaz de revelar sigilo \n Capacidad pasiva."
+"Requisito: Nivel 7 \n Proporciona resistencia al miedo y al terror a todos los aliados cercanos. \n Modificador tipo: «StubbornPride» \n Dain se vuelve capaz de revelar sigilo \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
@@ -259,7 +259,7 @@ CONTROLBAR:ToolTipTreeBeardLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Requisito: Nivel 5 \n Los aliados cercanos a Lurtz ganan \n +50% a daño y ganan experiencia 25% más rápido. \n Modificador tipo: «Damage LEADERSHIP» \n Capacidad pasiva."
+"Requisito: Nivel 5 \n Los aliados cercanos a Lurtz ganan \n +35% a daño y ganan experiencia 25% más rápido. \n Modificador tipo: «Damage LEADERSHIP» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
@@ -290,7 +290,7 @@ CONTROLBAR:ToolTipFreezingRain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requisito: Nivel 4 \n Las unidades aliadas apuntadas ganan +20% a la velocidad, +25% al daño y su visión aumenta en un +25%. \n Modificador tipo: «DEBUFF_PROOF MightyRage». \n Las hordas enemigas en la misma localizacion sufren -25% armadura y -25% al daño. \n Modificador tipo: «Basic DEBUFF» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 4 \n Las unidades aliadas apuntadas ganan +20% a la velocidad, +25% al daño y su visión aumenta en un +25%. \n Modificador tipo: «MightyRage». \n Las hordas enemigas en la misma localizacion sufren -25% armadura y -25% al daño. \n Modificador tipo: «Basic DEBUFF» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
 "Requisito: Nivel 2 \n Las hordas enemigas sufren -25% armadura y -25% al daño.  \n Modificador tipo: «Basic DEBUFF» \n Neutraliza los modificadores tipo LEADERSHIP y BUFF del enemigo. \n Capacidad pasiva"
@@ -394,7 +394,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Los huargos y sus jinetes ganan \n +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n Modificador tipo: «DEBUFF_PROOF Howl». \n Reemplaza los modificadores tipo LEADERSHIP de los huargos. \n Para activarlo, haz clic con el botón izquierdo."
+"Los huargos y sus jinetes ganan \n +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n Modificador tipo: «Howl». \n Reemplaza los modificadores tipo LEADERSHIP de los huargos. \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
@@ -430,7 +430,7 @@ CONTROLBAR:ToolTipArwenLeadership09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Requisito: Nivel 4. \n Los aliados cercanos a Haldir ganan +50% al daño \n y consiguen experiencia 25% más rápido. \n Modificador tipo: «Damage LEADERSHIP» \n Capacidad pasiva."
+"Requisito: Nivel 4. \n Los aliados cercanos a Haldir ganan +35% al daño \n y consiguen experiencia 25% más rápido. \n Modificador tipo: «Damage LEADERSHIP» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
@@ -450,7 +450,7 @@ CONTROLBAR:ToolTipFaramirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Requisito: Nivel 5. \n Los aliados cercanos a Boromir ganan +50% al daño \n y consiguen experiencia 25% más rápido. \n Modificador tipo: «Damage LEADERSHIP» \n Capacidad pasiva."
+"Requisito: Nivel 5. \n Los aliados cercanos a Boromir ganan +35% al daño \n y consiguen experiencia 25% más rápido. \n Modificador tipo: «Damage LEADERSHIP» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
@@ -617,10 +617,10 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Cura 750 puntos de salud de los heroes y hordas cercanas. \n Las hordas y monstruos cercanos reciben un incremento de \n +15% puntos de salud y ganan experience 25% más rapido. \n Proporciona inmunidad al miedo y al terror. \n Modificador tipo: «DEBUFF_PROOF ElvenGrace» \n Dura 12 segundos \n Haz clic con el botón izquierdo para activar."
+"Cura 750 puntos de salud de los heroes y hordas cercanas. \n Las hordas y monstruos cercanos reciben un incremento de \n +15% puntos de salud y ganan experience 25% más rapido. \n Proporciona inmunidad al miedo y al terror. \n Modificador tipo: «ElvenGrace» \n Dura 12 segundos \n Haz clic con el botón izquierdo para activar."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Revela un area del mapa \n Proporciona +27.5% rango de visión a cualquier unidad aliada por 25 segundos. \n No afecta heroes. \n Modificador tipo: «DEBUFF_PROOF ElrondFarseeing» \n Haz clic con el botón izquierdo para activar."
+"Revela un area del mapa \n Proporciona +27.5% rango de visión a cualquier unidad aliada por 25 segundos. \n No afecta heroes. \n Modificador tipo: «ElrondFarseeing» \n Haz clic con el botón izquierdo para activar."
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2

@@ -233,7 +233,7 @@ CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Stark gegen Bogenschützen und \n Produktionsgebäude. \n Lanzenträger erhalten auf Stufe 5 +7 % Geschwindigkeit."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Voraussetzung Stufe 7 \n Theoden und Kavallerie in seiner Nähe erhalten +99 % Rüstung, \n +25 % Schaden und werden immun gegen Verlangsamung durch Trampeln \n Kavallerie wird für diese Dauer auch furchtlos . \n Modifikatortyp: «DEBUFF_PROOF GloriousCharge». \n Theoden muss beritten sein, um diese Fähigkeit zu nutzen \n Linksklicken zum aktivieren"
+"Voraussetzung Stufe 7 \n Theoden und Kavallerie in seiner Nähe erhalten +99 % Rüstung, \n +25 % Schaden und werden immun gegen Verlangsamung durch Trampeln \n Kavallerie wird für diese Dauer auch furchtlos . \n Modifikatortyp: «GloriousCharge». \n Theoden muss beritten sein, um diese Fähigkeit zu nutzen \n Linksklicken zum aktivieren"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
 "Stark gegen Infanterie\n Immun gegen Trampeln\n Hordenbonus: \n Gesammelte Goblins in einer Anzahl von mindestens 100\n erhalten +33 % Schaden +20 % Geschwindigkeit. \n Modifikatortyp: «RESISTANT HordeBonus»"
@@ -251,7 +251,7 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Voraussetzung Stufe 7 \n Gewährt allen Verbündeten in der Nähe Widerstand gegen Angst und Terror \n Modifikatortyp: «DEBUFF_PROOF StubbornPride» \n Dain kann Tarnung aufdecken.\n Passive Fähigkeit"
+"Voraussetzung Stufe 7 \n Gewährt allen Verbündeten in der Nähe Widerstand gegen Angst und Terror \n Modifikatortyp: «StubbornPride» \n Dain kann Tarnung aufdecken.\n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
@@ -290,7 +290,7 @@ CONTROLBAR:ToolTipFreezingRain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Voraussetzung Stufe 4 \n Angezielte befreundete Einheiten erhalten \n+20% Geschwindigkeit, +25% Schaden und +25% erweiterte Sicht.  \n Modifikatortyp: «DEBUFF_PROOF MightyRage» \n Feindliche Horden am selben Ort erleiden \n -25 % Rüstung und -25 % Schaden \n Modifikatortyp: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Linksklick-Symbol, dann Linksklick auf Zieleinheiten"
+"Voraussetzung Stufe 4 \n Angezielte befreundete Einheiten erhalten \n+20% Geschwindigkeit, +25% Schaden und +25% erweiterte Sicht.  \n Modifikatortyp: «MightyRage» \n Feindliche Horden am selben Ort erleiden \n -25 % Rüstung und -25 % Schaden \n Modifikatortyp: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Linksklick-Symbol, dann Linksklick auf Zieleinheiten"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
 "Voraussetzung Stufe 2 \n Gegnerische Horden in der Nähe erleiden -25 % Rüstung und -25 % Schaden.  \n Modifikatortyp: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Passive Fähigkeit"
@@ -392,7 +392,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Warge verursachen +55% Schaden, aber \n verlieren -10% Rüstung gegen Lanzen und Gebäude \n Modifikatortyp: «DEBUFF_PROOF Howl» \n Neutralisiert alle vorherigen LEADERSHIP-Bonus. \n Aktivieren mit Linksklick"
+"Warge verursachen +55% Schaden, aber \n verlieren -10% Rüstung gegen Lanzen und Gebäude \n Modifikatortyp: «Howl» \n Neutralisiert alle vorherigen LEADERSHIP-Bonus. \n Aktivieren mit Linksklick"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
@@ -613,10 +613,10 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heilt 750 Gesundheitspunkte von Horden und Helden in der Nähe. \n Horden und Monster in der Nähe erhalten einen Zuwachs von \n +15% auf Lebenspunkte und +25% auf Erfahrungsgewinne \n Bietet Widerstand gegen Angst und Terror \n Modifikatortyp: «DEBUFF_PROOF ElvenGrace»\n Für die Dauer von 12 Sekunden. \n Linksklick zum Aktivieren"
+"Heilt 750 Gesundheitspunkte von Horden und Helden in der Nähe. \n Horden und Monster in der Nähe erhalten einen Zuwachs von \n +15% auf Lebenspunkte und +25% auf Erfahrungsgewinne \n Bietet Widerstand gegen Angst und Terror \n Modifikatortyp: «ElvenGrace»\n Für die Dauer von 12 Sekunden. \n Linksklick zum Aktivieren"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Denkt einen Teil der Karte auf \n Gewährt jeder verbündeten Einheit 25 Sekunden lang +27,5% Sichtweite. \n Hat keinen Einfluss auf Helden. \n Modifikatortyp: «DEBUFF_PROOF ElrondFarseeing» \n Linksklick-Symbol dann Linksklick auf Zielbereich"
+"Denkt einen Teil der Karte auf \n Gewährt jeder verbündeten Einheit 25 Sekunden lang +27,5% Sichtweite. \n Hat keinen Einfluss auf Helden. \n Modifikatortyp: «ElrondFarseeing» \n Linksklick-Symbol dann Linksklick auf Zielbereich"
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2

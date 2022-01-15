@@ -234,7 +234,7 @@ CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Krever: Nivå 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Modifier Type: «DEBUFF_PROOF GloriousCharge». \n Theoden must be mounted to use ability \n Left click to activate"
+"Krever: Nivå 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Modifier Type: «GloriousCharge». \n Theoden must be mounted to use ability \n Left click to activate"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
 "Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +20% speed. \n Modifier Type: «RESISTANT HordeBonus» "
@@ -252,7 +252,7 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Krever: Nivå 7 \n Grants all nearby allies resistance to fear and terror \n Modifier Type: «DEBUFF_PROOF StubbornPride» \n Dain becomes able to reveal stealth.\n Passive ability"
+"Krever: Nivå 7 \n Grants all nearby allies resistance to fear and terror \n Modifier Type: «StubbornPride» \n Dain becomes able to reveal stealth.\n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
@@ -291,7 +291,7 @@ CONTROLBAR:ToolTipFreezingRain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Krever: Nivå 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Modifier Type: «DEBUFF_PROOF MightyRage» \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target units"
+"Krever: Nivå 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Modifier Type: «MightyRage» \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
 "Krever: Nivå 2 \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Passive ability"
@@ -393,7 +393,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Ulver får +55 % skade \n lose -15% armor against pike and structural damage \n Modifier Type: «DEBUFF_PROOF Howl» \n Neutralizes previous any LEADERSHIP bonus. \nVenstreklikk for å aktivere"
+"Ulver får +55 % skade \n lose -15% armor against pike and structural damage \n Modifier Type: «Howl» \n Neutralizes previous any LEADERSHIP bonus. \nVenstreklikk for å aktivere"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
@@ -619,10 +619,10 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to experience gaining \n Provides resistance to fear and terror \n Modifier Type: «DEBUFF_PROOF ElvenGrace» \n Lasts 12 seconds \n Left click to activate"
+"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to experience gaining \n Provides resistance to fear and terror \n Modifier Type: «ElvenGrace» \n Lasts 12 seconds \n Left click to activate"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Reveals an area of the map \n Provides +27.5% shroud reveal radius to any allied unit for 25 second. \n Doesn't affect heroes. \n Modifier Type: «DEBUFF_PROOF ElrondFarseeing» \n Left click icon then left click on target area"
+"Reveals an area of the map \n Provides +27.5% shroud reveal radius to any allied unit for 25 second. \n Doesn't affect heroes. \n Modifier Type: «ElrondFarseeing» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2

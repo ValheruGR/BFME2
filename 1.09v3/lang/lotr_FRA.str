@@ -234,7 +234,7 @@ CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Forts contre la cavalerie,archers et bâtiments de production d'unités.\n Les lanciers Rivendell gagnent +7% de vitesse de déplacement au niveau 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Requiert : niveau 7\nThéoden et les cavaliers proches gagnent 99% d'arumres, +25% de dégâts et sont immunisés au ralentissement lors d'une charge.\nLa cavalerie est immunisé à la peur pendant la durée de l'effet.\nThéoden ne peut utiliser sa capacité que sur sa monture.\n Modifier Type: «DEBUFF_PROOF GloriousCharge».\nClic gauche pour activer"
+"Requiert : niveau 7\nThéoden et les cavaliers proches gagnent 99% d'arumres, +25% de dégâts et sont immunisés au ralentissement lors d'une charge.\nLa cavalerie est immunisé à la peur pendant la durée de l'effet.\nThéoden ne peut utiliser sa capacité que sur sa monture.\n Modifier Type: «GloriousCharge».\nClic gauche pour activer"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
 "Fort contre l'infanterie \nRésistants à l'écrasement \n Bonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent +33% de dégâts et +20% de vitesse. \n Modifier Type: «RESISTANT HordeBonus»"
@@ -252,7 +252,7 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Requiert : niveau 7 \nAccorde une résistance à la peur et à la terreur à tous les alliés proches.\n Modifier Type: «DEBUFF_PROOF StubbornPride».\n Dain détecte les unités furtives. \nCapacité passive."
+"Requiert : niveau 7 \nAccorde une résistance à la peur et à la terreur à tous les alliés proches.\n Modifier Type: «StubbornPride».\n Dain détecte les unités furtives. \nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
@@ -291,7 +291,7 @@ CONTROLBAR:ToolTipFreezingRain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requiert : niveau 4\nLes unités alliées ciblées gagnent+20% de vitesse, +25% de dégâts ainsi que +25% de révélation du brouillard. \n Modifier Type: «DEBUFF_PROOF MightyRage» \n Les unités énnemies proche souffre d'un malus de -25% de dégâts et -25% d'armures. \n Modifier Type: «Basic DEBUFF» \n Neutralizes LEADERSHIP and BUFF effects from the enemy.\n Clic gauche sur l'icône puis clic gauche sur les unités ciblées"
+"Requiert : niveau 4\nLes unités alliées ciblées gagnent+20% de vitesse, +25% de dégâts ainsi que +25% de révélation du brouillard. \n Modifier Type: «MightyRage» \n Les unités énnemies proche souffre d'un malus de -25% de dégâts et -25% d'armures. \n Modifier Type: «Basic DEBUFF» \n Neutralizes LEADERSHIP and BUFF effects from the enemy.\n Clic gauche sur l'icône puis clic gauche sur les unités ciblées"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
 "Requiert : niveau 2\n Les unités énnemies proche souffre d'un malus de -25% de dégâts et -25% d'armures.\n Neutralizes LEADERSHIP and BUFF effects from the enemy.\n Modifier Type: «Basic DEBUFF»\nPouvoir passif."
@@ -395,7 +395,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Les Wargs gagnent +55% de dégâts mais perdent -10% d'armures contre les piquiers et les dégâts provenant des structures.\n Modifier Type: «DEBUFF_PROOF Howl».\n Overrides LEADERSHIP effects from the wargs. \nClic gauche pour activer."
+"Les Wargs gagnent +55% de dégâts mais perdent -10% d'armures contre les piquiers et les dégâts provenant des structures.\n Modifier Type: «Howl».\n Overrides LEADERSHIP effects from the wargs. \nClic gauche pour activer."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
@@ -618,10 +618,10 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Soigne les unités et héros proches de 750 points de vie.\n Les hordes et monstres proches gagnent un bonus de +15% points de vie et +25% d'expériences.\n Donne un bonus de résistance à la peur et à la terreur.\n Modifier Type: «DEBUFF_PROOF ElvenGrace» \nDure 12 secondes.\nClick droit pour activer."
+"Soigne les unités et héros proches de 750 points de vie.\n Les hordes et monstres proches gagnent un bonus de +15% points de vie et +25% d'expériences.\n Donne un bonus de résistance à la peur et à la terreur.\n Modifier Type: «ElvenGrace» \nDure 12 secondes.\nClick droit pour activer."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Révèle une zone de la carte.\nDonne un bonus de +27.5% de révélation de vision a toute les unités pendant 25 secondes.\nN'affecte pas les héros.\n Modifier Type: «DEBUFF_PROOF ElrondFarseeing» \nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
+"Révèle une zone de la carte.\nDonne un bonus de +27.5% de révélation de vision a toute les unités pendant 25 secondes.\nN'affecte pas les héros.\n Modifier Type: «ElrondFarseeing» \nClic gauche sur l'icône puis clic gauche sur la zone ciblée"
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2

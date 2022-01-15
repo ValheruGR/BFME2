@@ -233,7 +233,7 @@ CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Sterk tegen boogschutters en \n Gebouwen die troepen produceren. \n Rivendell Lancers krijgen +7% snelheid op level 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Nodig: niveau 7 \n Théoden en cavalerie in de buurt krijgen +99% pantser, \n +25% schade en wordt immuun tegen vertraging door vertrappelen. \n Gedurende deze tijd wordt cavalerie ook imuun tegen angst\n Modifier Type: «DEBUFF_PROOF GloriousCharge» \n Théoden moet te paard zijn om de kracht te gebruiken \n Klik met links om te activeren"
+"Nodig: niveau 7 \n Théoden en cavalerie in de buurt krijgen +99% pantser, \n +25% schade en wordt immuun tegen vertraging door vertrappelen. \n Gedurende deze tijd wordt cavalerie ook imuun tegen angst\n Modifier Type: «GloriousCharge» \n Théoden moet te paard zijn om de kracht te gebruiken \n Klik met links om te activeren"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
 "Sterk tegen Infantry\nResistent tegen vertrappelen\n Horde Bonus: \n Aardmannen in groep van minstens 100 \n krijgen +33% schade +20% snelheid. \n Modifier Type: «RESISTANT HordeBonus» "
@@ -251,7 +251,7 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Nodig: niveau 7 \n "Nodig: niveau 7\nMaakt alle bondgenoten in de buurt bestand tegen angst \n Modifier Type: «DEBUFF_PROOF StubbornPride» \n Dain kan onzichtbaarheid onthullen. \nPassieve kracht"
+"Nodig: niveau 7 \n "Nodig: niveau 7\nMaakt alle bondgenoten in de buurt bestand tegen angst \n Modifier Type: «StubbornPride» \n Dain kan onzichtbaarheid onthullen. \nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
@@ -290,7 +290,7 @@ CONTROLBAR:ToolTipFreezingRain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Nodig: niveau 4 \n Bevriende eenheden krijgen \n+20% snelheid, +25% schade en +25% onthulling. \n Modifier Type: «DEBUFF_PROOF MightyRage» \n Vijandige troepen in hetzelfde gebied lijden \n -25% pantser en -25% schade \n Modifier Type: «DEBUFF Generic» \n Verwijderd LEADERSHIP en BUFF effecten van de vijand. \n Klik links op het icoontje daarna met links op het doelwit"
+"Nodig: niveau 4 \n Bevriende eenheden krijgen \n+20% snelheid, +25% schade en +25% onthulling. \n Modifier Type: «MightyRage» \n Vijandige troepen in hetzelfde gebied lijden \n -25% pantser en -25% schade \n Modifier Type: «DEBUFF Generic» \n Verwijderd LEADERSHIP en BUFF effecten van de vijand. \n Klik links op het icoontje daarna met links op het doelwit"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
 "Nodig: niveau 2 \n Nabije vijandige troepen lijden -25% pantser en -25% schade.  \n Modifier Type: «DEBUFF Generic» \n Verwijderd LEADERSHIP en BUFF effecten van de vijand. \n Passieve vaardigheid"
@@ -394,7 +394,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Wargen krijgen +55% schade maar \n verliezen -10% pantser tegen speervechters en pijlschade van gebouwen\n Modifier Type: «DEBUFF_PROOF Howl» \n Verwijderd elke andere LEADERSHIP bonus. \n Klik met links om te activeren"
+"Wargen krijgen +55% schade maar \n verliezen -10% pantser tegen speervechters en pijlschade van gebouwen\n Modifier Type: «Howl» \n Verwijderd elke andere LEADERSHIP bonus. \n Klik met links om te activeren"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
@@ -616,10 +616,10 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Geneest 750 gezondheidspunten van nabije troepen en helden. \n Nabije troepen en monsters krijgen een verhoging van: \n +15% gezondheidspunten en +25% sneller ervaring \n Geeft weerstand tegen angst \n Modifier Type: «DEBUFF_PROOF ElvenGrace»\n Duurt 12 seconden \n Klik met links om te activeren"
+"Geneest 750 gezondheidspunten van nabije troepen en helden. \n Nabije troepen en monsters krijgen een verhoging van: \n +15% gezondheidspunten en +25% sneller ervaring \n Geeft weerstand tegen angst \n Modifier Type: «ElvenGrace»\n Duurt 12 seconden \n Klik met links om te activeren"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Onthult een deel van de kaart \n Geeft +27.5% bereik voor onthulling voor elke eenheid voor 25 seconden. \n Heeft geen effect op helden \n Modifier Type: «DEBUFF_PROOF ElrondFarseeing» \n Klik met links op het icoontje en daarna met links op het doelwit"
+"Onthult een deel van de kaart \n Geeft +27.5% bereik voor onthulling voor elke eenheid voor 25 seconden. \n Heeft geen effect op helden \n Modifier Type: «ElrondFarseeing» \n Klik met links op het icoontje en daarna met links op het doelwit"
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
