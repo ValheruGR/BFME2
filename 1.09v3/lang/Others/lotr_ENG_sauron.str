@@ -24,6 +24,21 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipPersonalFlood09v3
+"Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective against cavalry and Black Riders. \n Level 4 Arwen summons 3 Floodhorses.\n Level 7 Arwen summons 5 Floodhorses.  \n Level 10 Arwen summons 7 Floodhorses. \nLeft click icon then left click on target"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
+"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n If Mystic Fountains upgrade is present, together can heal any allied Flying unit"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
+"Allows summoning of a Giant Eagle \n If Mystic Fountains upgrade is present, together can heal any allied Flying unit"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v3
+"Heals nearby Allies. \n Continuosly damages enemy units adjacent to the Fortress. \n If Dragon Nest upgrade is present, together can heal any allied Flying unit."
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
+"Allows summoning of a Fire Drake \n Reduces Drogoth revival time by 10% \n If Razor Spines upgrade is present, together can heal any allied Flying unit"
+END
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
 "Requires Level 6 \n Poisons the enemy causing damage during 30 seconds \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
 End
@@ -255,11 +270,11 @@ CONTROLBAR:TooltipPalantirVision09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n hordes at its target area\n Modifier Type: «RESISTANT Farsight» \n Left click icon then left click on target area"
+"Spy on the enemy forces. \n Target archers gain +35% range. \n Modifier Type: «RESISTANT Farsight» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Modifier Type: «RESISTANT ElvenWood» \n Overrides LEADERSHIP effects from the allies. \n Enemy cavalry deceleration rate is raised by +250%. \n Left click icon then left click on target area"
+"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, +25% damage and earn experience 25% faster. \n Modifier Type: «RESISTANT ElvenWood» \n Overrides LEADERSHIP effects from the allies. \n Enemy cavalry deceleration rate is raised by +250%. \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -331,19 +346,19 @@ CONTROLBAR:TooltipGoblinKingSkullTotem09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Allies near the Drummer Troll gain +35% armor and +25% experience. \n Nearby trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Modifier Type: «Armor BUFF» \n Passive ability"
+"Allies near the Drummer Troll gain +35% armor \n and earn experience +25% faster. \n Nearby trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Modifier Type: «Armor BUFF» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Target allies gain +40% Damage, 50% experience & +10% speed. \n Modifier Type: «Damage LEADERSHIP» \n Left click icon then left click on target units"
+"Target allies gain +40% Damage, +10% speed, \n and earn experience 50% faster. \n Modifier Type: «Damage LEADERSHIP» \n Left click icon then left click on target units"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Targeted allies gain +50% Damage and +50% experience. \n Modifier Type: «Damage LEADERSHIP» \n Left click icon then left click on target units"
+"Target allies gain +50% Damage, \n and earn experience +50% faster. \n Modifier Type: «Damage LEADERSHIP» \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Targeted allies gain +50% Damage and +25% experience. \n Modifier Type: «Damage LEADERSHIP» \n Left click icon then left click on target units"
+"Target allies gain +50% Damage, \n and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
@@ -386,7 +401,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
@@ -422,7 +437,7 @@ CONTROLBAR:ToolTipHaldirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster. \n Modifier Type: «Armor RESISTANT» \n Passive ability"
+"Allies near Tom Bombadil gain \n +25% Armor and earn experience +25% faster. \n Modifier Type: «Armor RESISTANT» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
@@ -466,11 +481,11 @@ CONTROLBAR:ToolTipVenomousWords09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Requires Level 4 \n Enemy hordes and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Lasts 30 seconds. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target units"
+"Requires Level 4 \n Enemy units and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Lasts 30 seconds. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters in the same area suffer \n -25% armor and -25% damage. \n Lasts 60 seconds. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n\n Left click icon and left click on target area"
+"Allies within the mist become stealthed. \n Enemy units, heroes, and monsters within the mist \n suffer -25% armor and -25% damage. \n Lasts 60 seconds. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n\n Left click icon and left click on target area"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
@@ -17445,7 +17460,7 @@ END
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade
 "Level 2: Allows research of the Forged Blades upgrade"
 END
-// \n The structure gain armor: \n +10% against Heroes \n +20% against Pikes \n +25% against Cavalry
+// \n The structure gain armor: \n +10% against heroes \n +20% against Pikes \n +25% against Cavalry
 
 CONTROLBAR:ConstructWildTreasureTroveLevel3Upgrade
 "&Upgrade Treasure Trove to Level 3"
@@ -17454,7 +17469,7 @@ END
 CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade
 "Level 3: Allows research of the Fire Arrows upgrade"
 END
-// \n The structure gain armor: \n +10% against Heroes \n +20% against Pikes \n +25% against Cavalry"
+// \n The structure gain armor: \n +10% against heroes \n +20% against Pikes \n +25% against Cavalry"
 
 CONTROLBAR:ConstructWildSpiderlingHorde
 "Spi&derlings"

@@ -260,7 +260,7 @@ CONTROLBAR:ToolTipTreeBeardLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Requiert : niveau 5\nLes alliés proches de Lurtz gagnent \n+50% de dégâts et gagnent +25% d'expériences plus rapidement.\n Modifier Type: «Damage LEADERSHIP»\nCapacité passive."
+"Requiert : niveau 5\nLes alliés proches de Lurtz gagnent \n+35% de dégâts et gagnent +25% d'expériences plus rapidement.\n Modifier Type: «Damage LEADERSHIP»\nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
@@ -427,11 +427,11 @@ CONTROLBAR:TooltipElrondLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Requiert : niveau 3\n La cavaleries proches d'Arwen gagnent +25% d'armures et +25% d'expériences gagnées plus rapidement.\n Modifier Type: «Armor RESISTANT»\nCapacité passive."
+"Requiert : niveau 2\n La cavaleries proches d'Arwen gagnent +25% d'armures et +25% d'expériences gagnées plus rapidement.\n Modifier Type: «Armor RESISTANT»\nCapacité passive."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Requiert : niveau 4\nLes alliés proches de Haldir gagnent \n+50% de dégâts +25% d'expériences gagnées plus rapidement.\n Modifier Type: LEADERSHIP\nCapacité passive."
+"Requiert : niveau 4\nLes alliés proches de Haldir gagnent \n+35% de dégâts +25% d'expériences gagnées plus rapidement.\n Modifier Type: LEADERSHIP\nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
@@ -451,7 +451,7 @@ CONTROLBAR:ToolTipFaramirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Requiert : niveau 5\nLes alliés proches de Boromir gagnent \n+50% de dégâts et +25% d'expériences gagnées plus rapidement.\n Modifier Type: «Damage LEADERSHIP»\nCapacité passive."
+"Requiert : niveau 5\nLes alliés proches de Boromir gagnent \n+35% de dégâts et +25% d'expériences gagnées plus rapidement.\n Modifier Type: «Damage LEADERSHIP»\nCapacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2

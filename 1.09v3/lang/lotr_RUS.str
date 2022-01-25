@@ -260,7 +260,7 @@ CONTROLBAR:ToolTipTreeBeardLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Требуется уровень 5 \n Allies near Lurtz gain \n +50% Damage \n and earn experience 25% faster. \n Modifier Type: «Damage LEADERSHIP» \n \n Passive ability"
+"Требуется уровень 5 \n Allies near Lurtz gain \n +35% Damage \n and earn experience 25% faster. \n Modifier Type: «Damage LEADERSHIP» \n \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
@@ -427,11 +427,11 @@ CONTROLBAR:TooltipElrondLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Требуется уровень 3. \n Кавалерия рядом с Арвен Гейн +25% брони и набирают опыт на 25% быстрее. \n Modifier Type: «Armor RESISTANT» \n Пассивная способность."
+"Требуется уровень 2. \n Кавалерия рядом с Арвен Гейн +25% брони и набирают опыт на 25% быстрее. \n Modifier Type: «Armor RESISTANT» \n Пассивная способность."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Требуется уровень 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passive ability"
+"Требуется уровень 4 \n Allies near Haldir gain \n +35% Damage and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
@@ -451,7 +451,7 @@ CONTROLBAR:ToolTipFaramirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Требуется уровень 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passive ability"
+"Требуется уровень 5 \n Allies near Boromir gain \n +35% Damage and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2

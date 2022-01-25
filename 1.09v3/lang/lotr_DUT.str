@@ -259,7 +259,7 @@ CONTROLBAR:ToolTipTreeBeardLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Nodig: niveau 5\n Bondgenoten in de buurt van Lurtz krijgen\n+50% schade en 25% sneller ervaring \n Modifier Type: «Damage LEADERSHIP» \n\nPassieve kracht"
+"Nodig: niveau 5\n Bondgenoten in de buurt van Lurtz krijgen\n+35% schade en 25% sneller ervaring \n Modifier Type: «Damage LEADERSHIP» \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
@@ -426,11 +426,11 @@ CONTROLBAR:TooltipElrondLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Nodig: niveau 3\n Cavalerie-eenheden in de buurt van Arwen krijgen \n+25% pantser en verdienen 25% meer ervaring \n Modifier Type: «Armor RESISTANT» \n \nPassieve kracht"
+"Nodig: niveau 2\n Cavalerie-eenheden in de buurt van Arwen krijgen \n+25% pantser en verdienen 25% meer ervaring \n Modifier Type: «Armor RESISTANT» \n \nPassieve kracht"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Nodig: niveau 4\nBondgenoten in de buurt van Haldir krijgen\n+50% schade en verdienen ervaring 25% sneller \n Modifier Type: «Damage LEADERSHIP» \n\nPassieve kracht"
+"Nodig: niveau 4\nBondgenoten in de buurt van Haldir krijgen\n+35% schade en verdienen ervaring 25% sneller \n Modifier Type: «Damage LEADERSHIP» \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
@@ -450,7 +450,7 @@ CONTROLBAR:ToolTipFaramirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Nodig: niveau 5\nBondgenoten in de buurt van Boromir krijgen\n+50% schade en verdienen ervaring 25% sneller \n Modifier Type: «Damage LEADERSHIP» \n\nPassieve kracht"
+"Nodig: niveau 5\nBondgenoten in de buurt van Boromir krijgen\n+35% schade en verdienen ervaring 25% sneller \n Modifier Type: «Damage LEADERSHIP» \n\nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2

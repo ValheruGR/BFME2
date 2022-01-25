@@ -260,7 +260,7 @@ CONTROLBAR:ToolTipTreeBeardLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Kräver grad 5 \n Allies near Lurtz gain \n +50% Damage \n and earn experience 25% faster. \n Modifier Type: «Damage LEADERSHIP» \n \n Passiv förmåga"
+"Kräver grad 5 \n Allies near Lurtz gain \n +35% Damage \n and earn experience 25% faster. \n Modifier Type: «Damage LEADERSHIP» \n \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
@@ -427,11 +427,11 @@ CONTROLBAR:TooltipElrondLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Kräver grad 3 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n Modifier Type: «Armor RESISTANT» \n Passiv förmåga"
+"Kräver grad 2 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n Modifier Type: «Armor RESISTANT» \n Passiv förmåga"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Kräver grad 4 \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passiv förmåga"
+"Kräver grad 4 \n Allies near Haldir gain \n +35% Damage and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
@@ -451,7 +451,7 @@ CONTROLBAR:ToolTipFaramirLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Kräver grad 5 \n Allies near Boromir gain \n +50% Damage and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passiv förmåga"
+"Kräver grad 5 \n Allies near Boromir gain \n +35% Damage and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
