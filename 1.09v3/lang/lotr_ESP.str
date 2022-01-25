@@ -24,20 +24,23 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipPersonalFlood09v3
+"Requisito: Nivel 4. \n Convoca una inundación que daña a los enemigos y apaga los fuegos. \n Bonificación contra caballeria y Nazguls. \n Arwen Nivel 4: convoca 3 caballos de inundación. \n Arwen Nivel 7: convoca 5 caballos de inundación. \n Arwen Nivel 10: convoca 7 caballos de inundación. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+END
+"Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective against cavalry and Black Riders. \n Level 4 Arwen summons 3 Floodhorses.\n Level 7 Arwen summons 5 Floodhorses.  \n Level 10 Arwen summons 7 Floodhorses. \nLeft click icon then left click on target"
+END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n If Mystic Fountains upgrade is present, together can heal any allied Flying unit"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
 "Allows summoning of a Giant Eagle \n If Mystic Fountains upgrade is present, together can heal any allied Flying unit"
 END
-//------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v3
 "Heals nearby Allies. \n Continuosly damages enemy units adjacent to the Fortress. \n If Dragon Nest upgrade is present, together can heal any allied Flying unit."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
 "Allows summoning of a Fire Drake \n Reduces Drogoth revival time by 10% \n If Razor Spines upgrade is present, together can heal any allied Flying unit"
 END
-//------------------------------
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
 "Requires Level 6 \n Poisons the enemy causing damage during 30 seconds \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
 End
@@ -422,11 +425,11 @@ CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Requisito: Nivel 3 \n Los aliados cercanos a Elrond ganan +25% al daño, \n +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Modificador tipo: «RESISTANT High-Tier Hero» \n Capacidad pasiva."
+"Requisito: Nivel 3. \n Los aliados cercanos a Elrond ganan +25% al daño, \n +25% a la armadura \n y consiguen experiencia un 50% más rápido. \n Modificador tipo: «RESISTANT High-Tier Hero» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Requisito: Nivel 3 \n La caballería cercana a Arwen gana +25% a la armadura \n y consigue experiencia un 25% más rápido. \n Modificador tipo: «Armor RESISTANT» \n Capacidad pasiva."
+"Requisito: Nivel 2. \n La caballería cercana a Arwen gana +25% a la armadura \n y consigue experiencia un 25% más rápido. \n Modificador tipo: «Armor RESISTANT» \n Capacidad pasiva."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
@@ -438,7 +441,7 @@ CONTROLBAR:ToolTipInspiringPresence09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Requisito: Nivel 4 \n Los aliados cercanos a Aragorn ganan +25% al daño, \n +25% a la armadura y consiguen experiencia un 50% más rápido. \n Modificador tipo: «RESISTANT High-Tier Hero» \n Capacidad pasiva."
+"Requisito: Nivel 4. \n Los aliados cercanos a Aragorn ganan +25% al daño, \n +25% a la armadura y consiguen experiencia un 50% más rápido. \n Modificador tipo: «RESISTANT High-Tier Hero» \n Capacidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
