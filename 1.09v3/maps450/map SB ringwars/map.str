@@ -1,0 +1,211 @@
+Map:mapSBringwars
+"Ring Wars v1.3.1" 
+End
+Map:mapSBringwars/Desc
+"In this map you decide which units to spawn, by selecting a unit type in the cliff near your base. Once you purchase the unit type, clones will spawn continously in front of your fortress. You earn resources with your fortress incomes but also through the Scavanger power. In your base you can still call heroes, build expansions and recruit builders to construct more Wells and Statues. If you have enough money, you can also purchase special units, such as Drogoth, WitchKing and a Balrog by placing a unit in the flood pads with a number in your area. For more information, watch the intro. \n \n Map created by I_Show_No_Mercy in 2006. \n Rehawled by SilverBane` in 2015 \n Out of Synch fixed by Ecthelion in 2022. \n \n You can find and review the map in bfme2.heavengames.com"
+End
+
+MapIntro:01
+"Welcome To SilverBane`s ringwars    \n  version 1.3 - including bug fixes, balance changes and a lot of new stuff "
+End
+
+MapIntro:02
+"Please pay attention. I am going to list all the things you need to know!"
+End
+
+MapIntro:03
+"You can see this waterfall, dont you? \n Good. Select it and buy the unit that you would like to spawn from the waterfall \n and the unit will constantly spawn in front of your base, near the rock ramp."
+End
+
+MapIntro:04
+"You will notice some floor pads near a neutral Drogoth, Witch-King and Balrog. \n If you move a unit to the square with the number, and have that number of resources (in thousands) the unit will be created. \n There is no limit to how many you can create except the balrog, wich can only be purchased once ( to prevent game imbalances)"
+End
+
+MapIntro:05
+"Make Sure you activate your ring power scavenger or you WILL NOT get money. You have to fight to get money."
+End
+
+MapIntro:06
+"You can also research upgrades, select the armory and purchase the upgrade type you want, then you will be able to equip your units with that upgrade"
+End
+
+MapIntro:07
+"Losing the fortress will make you get defeated. Heroes have also got some improvements!"
+End
+
+MapIntro:08
+"Be creative, mix your units and find the best strategy to overhelm your opponent(s)!"
+End
+
+MapIntro:09
+"Make sure you restart the game if you plan to play a map other than Ring Wars or any game you play WILL go OUT OF SYNC!! press the X on the box if you plan to restart the program."
+End
+
+MapIntro:10
+"Another Reminder DONT FORGET TO RESTART THE GAME IF YOU PLAN TO PLAY A DIFFERENT MAP!!!"
+End
+
+Changes In 1.04uo
+"Drogoth for 15k, Witch-King for 20k, Balrog for 40k, balrog can now self-heal, remember that balrog can only be purchased once, don't lose him or you won't be able to buy him  again!"
+End
+
+
+
+
+SCRIPT:STOPORCS
+"You have received a power that makes you able to stop orc production! \n  Action cannot be reversed, and buying orcs after using this power also haves no effect \n Orc warrior and orc archer production is stopped"
+End
+
+
+
+
+
+
+
+MapInfo:03
+"Player 3 Money"
+End
+
+MapInfo:04
+"Player 4 Money"
+End
+
+MapInfo:02
+"Player 2 Money"
+End
+
+MapInfo:01
+"Player 1 Money"
+End
+
+
+
+
+
+
+CONTROLBAR:ToolTipWitchKingMorgulBlade
+"Requires level 6 \n Witch King will stab target unit for severe damage and it will turn into a ghost if killed by poison \n Specially useful vs. heroes"
+End
+
+
+CONTROLBAR:PurchaseTechnologyFireArrowRingWars
+"Fire &arrows"
+End
+
+
+CONTROLBAR:ToolTipPurchaseTechnologyFireArrowRingWars
+"Purchase Fire arrows Upgrade \n Select a battalion to equip upgrade"
+End
+
+
+
+CONTROLBAR:PurchaseSilverthornArrowsRingWars
+"&Silverthorn arrows"
+End
+
+
+CONTROLBAR:ToolTipPurchaseSilverthornArrowsRingWars
+"Purchase Silverthorn arrows Upgrade \n Select a battalion to equip upgrade"
+End
+
+
+
+
+
+CONTROLBAR:PurchaseTechnologyHeavyArmorRingWars
+"Hea&vy armor"
+End
+
+CONTROLBAR:ToolTipPurchaseTechnologyHeavyArmorRingWars
+"Purchase Heavy armor Upgrade \n Select a battalion to equip upgrade"
+End
+
+
+CONTROLBAR:PurchaseForgedBladesRingWars
+"For&ged blades"
+End
+
+
+
+CONTROLBAR:ToolTipPurchaseForgedBladesRingWars
+"Purchase Forged blades Upgrade \n Select a battalion to equip upgrade"
+End
+
+
+
+CONTROLBAR:Anvil
+"&Crafting materials"
+End
+
+CONTROLBAR:ToolTipAnvil
+"Purchase Crafting materials upgrade \n Reduces the cost of unit upgrades by 40%"
+End
+
+
+
+UPGRADE:CraftingMaterials
+"Crafting Materials"
+End
+
+
+
+
+CONTROLBAR:StopOrcs
+"Stop orc production"
+End
+
+CONTROLBAR:ToolTipStopOrcs
+"Using this power will stop your orc warriors and orc archers production \n Action cannot be reversed"
+End
+
+
+
+
+
+
+CONTROLBAR:BarbedArrow
+"Barbed Arro&w"
+End
+
+CONTROLBAR:ToolTipBarbedArrow
+"Requires level 9 \n Shoots a powerful flaming arrow for extra damage over time. \n Effective against heroes"
+End
+
+
+CONTROLBAR:ToolTipCaptainofGondorNew
+"Requires Level 5 \n Give targeted units experience\n Left click icon then left click on target units"
+End
+
+
+
+CONTROLBAR:LightningArrows
+"&Electrical Arrows"
+End
+
+
+
+CONTROLBAR:ToolTipLightningArrows
+"Requires level 7 \n Allows Haldir to shoot electrical arrows for a short period of time"
+End
+
+
+
+
+CONTROLBAR:HaldirBlademaster
+"&Swordmaster"
+End
+
+
+CONTROLBAR:ToolTipHaldirBlademaster
+"Requires level 3 \n Haldir gains +100% damage, +50% armor and is immune to knockback effects for a short period of time"
+End
+
+
+
+CONTROLBAR:PoisonArrowsLurtz
+"Poisoned Arrows"
+End
+
+CONTROLBAR:ToolTipPoisonArrowsLurtz
+"Requires level 6 \n Lurtz shoots poisoned arrows for extra damage over time \n Passive ability"
+End
