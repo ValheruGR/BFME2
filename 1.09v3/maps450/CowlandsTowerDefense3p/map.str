@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 533 \n Made with a lot of love for patch 1.09. \n *Multiplayer settings: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n *Singleplayer settings: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 5.49 \n Made with a lot of love for patch 1.09. \n Developed during 2018-2022 by Ecthelion. \n ______________________________________ \n MULTIPLAYER: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n  ______________________________________ \n SINGLEPLAYER: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -81,6 +81,12 @@ End
 
 //------------------------------------------------------------
 //-----------------------------flags--------------------------//
+CONTROLBAR:FastForwardToggle_New
+"Fast-Forward Toggle"
+END
+CONTROLBAR:FastForwardToggleDesc_New
+"Toggles the game visual speed between x1 and x5"
+END
 SCRIPT:SpeedMultiplierActivated
 "Speed Multiplier activated"
 END
@@ -152,14 +158,14 @@ CONTROLBAR:RohanMirkRider_New
 "MirkRider Ability (&T)"
 END
 CONTROLBAR:RohanMirkRiderDesc_New
-"Temporary grants a boost of +35% range and +15% rate of fire. \n Lasts 45 seconds. \n Left click to activate"
+"Temporary grants a boost of +40% range and +15% rate of fire. \n Lasts 30 seconds. \n Left click to activate"
 END
 //-----------
 TOOLTIP:RohanMirkRider_New
 "MirkRiders"
 END
 TOOLTIP:RohanMirkRiderDesc_New
-"This battallion has elite training and became a MirkRider. \n Gained +35% permanent range bonus and 15% rate of fire. \n Left click to activate"
+"This battallion has elite training and became a MirkRider. \n Gained +40% permanent range and 15% rate of fire bonus. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:SpecialAbilitySummonedDragonReposition_New
@@ -170,7 +176,7 @@ CONTROLBAR:Roar_New
 "&Whiplash"
 End
 CONTROLBAR:TooltipRoar_New
-"Beat the drums and make Terence Fletcher proud. \n Provides +20% range and fear inmunity to player infantry for the duration of the music. \n Left click to activate"
+"Beat the drums and make Terence Fletcher proud. \n Provides +35% RANGE and fear inmunity to player infantry for the duration of the music. \n Category: 'Farsight' \n Left click to activate"
 End
 CONTROLBAR:DrummerTrollTrainAllies_New
 "&Train Allies"
@@ -190,8 +196,10 @@ CONTROLBAR:KingsCurse_New
 "King's Curse [&B]"
 END
 CONTROLBAR:KingsCurseDesc_New
-"Requires Level 10 \n Argon, the self-proclaimed King of Gondor, has the skills to lift the curses of his people, yet he can arbitrarily decide to cast new ones based on whatever excuses he may invent. \n Perhaps another broken oath that isn't even written? \n Arbitrary and improperly justified lightning strikes the ground and upon death, the affected units turn into members of the Dead Army. \n Left click icon then left click on target units"
+"Requires Level 10 \n If Aragorn, a self-proclaimed King of Gondor, has the skills to lift the curses from the oathbreakers, who says he can't cast new ones? \If a justification is required for the credibility of the masses, he can always recur to another supposedly broken oath that wasn't ever written, again. \n\n Arbitrary and improperly justified lightning strikes the ground and upon death, the affected units turn into members of the Dead Army. \n Left click icon then left click on target units"
 END
+
+//decide to cast new ones based on whatever excuses he may invent
 //------------------------------------------------------------
 CONTROLBAR:MumakilCharge_New
 "Mumakil Charge"
@@ -618,13 +626,13 @@ OBJECT:BalrogBlue_New
 "Ice Demon"
 END
 CONTROLBAR:SpecialAbilityIgniteBlue_New
-"Ancient demon mode (&I)"
+"Ancient demon mode (&R)"
 END
 CONTROLBAR:ToolTipSpecialAbilityIgniteBlue_New
 "The demon gains +100% damage, \n +50% armor and +15% speed. \n Left click to activate"
 END
 CONTROLBAR:SpecialAbilityFireWhipBlue_New
-"Freezeing &Whip"
+"Freezeing Whip (&T)"
 END
 CONTROLBAR:ToolTipSpecialAbilityFireWhipBlue_New
 "Attacks with a freezeing whip. \n Paralyzes the targets. \n Left click icon then left click on target"
@@ -652,7 +660,7 @@ CONTROLBAR:ToolTipFueltheFires_New
 End
 //---------------------------------------------------
 GUI:STRUCTURE_WALL_DISCOUNT_New
-"Discount: \n Estructuras: %d%%"
+"Discount: \n Structures: %d%%"
 END
 //------------------------------------------------------------
 GUI:SpellBookRefreshReduction09v2
@@ -747,7 +755,7 @@ CONTROLBAR:UpgradeTowerArmorUpgradeIcon_New
 END
 //------
 CONTROLBAR:UpgradeTowerRangeBonusUpgradeIconDesc_New
-"Increases the vision range of the nearby units by +10%. \n Conflicts with local Excavations Upgrade" \n Category: 'Farsight' "
+"Increases the vision range of the nearby units by +18%. \n Conflicts with local Excavations Upgrade" \n Category: 'Farsight' "
 END
 CONTROLBAR:UpgradeTowerHealBonusUpgradeDescIcon_New
 "Heals nearby allies and replenish \n one unit per horde each 10 seconds. \n Nearby units gain experience 50% faster \n Category: 'Well' \n Conflicts with local Murder of Crows Upgrade"
@@ -1420,13 +1428,13 @@ CONTROLBAR:SpecialAbilityLurtzCripple_New
 END
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple_New
 //"Requires Level 7 \n brom can bluk blakridre, and THIS can bluk brom! \n also bluks mustrs includng truls \n and it have sblish \n btw isen archers do funy damg vs orc \n Left click icon then left click on target"
-"Requires Level 7 \n Pins enemy hero in place \n Can damage flyers \n Can only use with bow equipped \n Left click icon then left click on target"
+"Requires Level 7 \n Pins enemy hero or monster in place. \n In level 10 Lurtz becomes able to shoot 2 cripple arrows at same time. \n Left click icon then left click on target"
 END
 CONTROLBAR:LurtzSummonUrukGuard_New
 "Summon Uruk Guard [&V]"
 END
 CONTROLBAR:LurtzSummonUrukGuardDesc_New
-"Requires Level 10 \n Summons two batallions of Uruk Pikemen \n Armory upgrades affect them. \n Left click icon then left click on pathable location"
+"Requires Level 9 \n Summons two batallions of Uruk Pikemen \n Armory upgrades affect them. \n Left click icon then left click on pathable location"
 END
 //---------------------------------------------------
 //	CONTROLBAR:AzogChildsPrerequisite_New
@@ -1693,7 +1701,7 @@ CONTROLBAR:GloriousCharge_New
 "Glorious Charge [&V]"
 END
 CONTROLBAR:ToolTipGloriousCharge_New
-"Requires Level 7 \n Theoden and nearby cavalry gain +999% armor, +50% damage, \n become immune to desacelerate by trampling, \n become resistant to knockback \n and finally, become immune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n Category: 'Glorious_Charge' \n left click icon to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain +999% armor, +50% damage, +10% range, \n become immune to desacelerate by trampling, \n become resistant to knockback \n and finally, become immune to any kind of fear. \n Bonus cannot be removed and always stacks \n Theoden must be mounted to use ability \n Category: 'Glorious_Charge' \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:Charge_New
@@ -1976,14 +1984,14 @@ CONTROLBAR:EomerSpear_New
 "Spear Throw [&T]"
 END
 CONTROLBAR:EomerSpearDesc_New
-"Powerful ranged attack \n Effective against units and heroes. \n Bonus against Mounted units and Orcs. \n In level 10 Eomer becomes able to shoot 3 spears at same time. \n Left click icon then left click on target"
+"Powerful ranged attack \n Effective against units and heroes. \n Bonus against Mounted units and Orcs. \n In level 10 Eomer becomes able to shoot 2 spears at same time. \n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:EowynSmite_New
 "Smite [&T]"
 END
 CONTROLBAR:EowynSmiteDesc_New
-"Requires Level 2 \n Powerful ranged attack effective against units. \n Bonus against Monsters and Heroes. \n Crazy bitch: Deals *EXTREME* damage against other women and all the men she likes. \n Left click icon then left click on target"
+"Requires Level 2 \n Powerful ranged attack effective against units. \n Bonus against Monsters and Heroes. \n Crazy bitch: Deals *EXTREME* damage against other women and all the men she likes.  \n In level 10 Eowyn becomes able to shoot 3 spears at same time. \n Left click icon then left click on target"
 END
 //---------------------------------------------------
 CONTROLBAR:Disguise_New
@@ -2522,7 +2530,7 @@ TOOLTIP:StealthDragonDesc_New
 END
 //---------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership_New
-"Player units near Saruman gain \n +25% armor, +5% range earn experience 25% faster.  \n Category: 'Armor_Inspiration' \n Passive ability"
+"Player units near Saruman gain \n +25% armor, +5% range \n and earn experience 25% faster.  \n Category: 'Armor_Inspiration' \n Passive ability"
 END
 CONTROLBAR:WizardBlast_New
 "Telekinetic Attraction [&R]"
@@ -2586,20 +2594,85 @@ END
 GUI:UNITDiscount_New
 "Local units \n discount: -%d%%"
 END
+GUI:InnUNITDiscount_New
+"Global units \n discount: -%d%%"
+END
+GUI:INFANTRYDiscount
+// Context: used to display infantry discount modifier in palantir
+"Infantry cost -%d%%"
+END
 GUI:UPGRADE_DISCOUNT_New
 // Context: used to display the upgrade discount modifier in the palantir
 "Upgrade Bonus \n -%d%%"
 END
 //--------------------------------------------------//
-SCRIPT:BonusForWipingArmy_Green
-"Epic Rape win: \n +1200 extra resources"
+//_was 1200 600 600 300 300
+//_was 1600 1200 900 600 300
+
+//_now 1250 1000 750 500 250
+//_now 1200 900 600 400 200
+SCRIPT:BonusForWipingArmy1600
+"Overkill win: \n +1200 extra resources"
 End
-SCRIPT:BonusForWipingArmy_Yellow
-"Standard Win: \n +600 extra resources"
+SCRIPT:BonusForWipingArmy1200
+"HighSkilled Win: \n +900 extra resources"
 End
-SCRIPT:BonusForWipingArmy_Red
-"You took too long: \n +300 resources only"
+SCRIPT:BonusForWipingArmy900
+"Nice Win: \n +600 extra resources"
 End
+SCRIPT:BonusForWipingArmy600
+"Basic win: \n +300 resources only"
+End
+SCRIPT:BonusForWipingArmy300
+"You took too long: \n +100 resources only"
+End
+//--------------------------------------------------//
+SCRIPT:BonusForWipingArmy1600FINAL
+"Cows were mercilessly slaughtered. \n +1600 to final score"
+End
+SCRIPT:BonusForWipingArmy1200FINAL
+"Cows were put down with ease. \n +1200 to final score"
+End
+SCRIPT:BonusForWipingArmy900FINAL
+"Cows ranks were devastated. \n +900 to final score"
+End
+SCRIPT:BonusForWipingArmy600FINAL
+"Cows were defeated. \n +600 to final score"
+End
+SCRIPT:BonusForWipingArmy300FINAL
+"Cows almost escaped. \n +300 to final score"
+End
+//--------------------------------------------------//
+SCRIPT:t_VictoryText00_A
+"Congratulations, you have won the cowmap without challenge. \n You are qualified to play the next level of difficulty."
+End
+SCRIPT:t_VictoryText00_B
+"Congratulations, you have won the cowmap fair and square. \n But you are not ready for the next level of difficulty."
+End
+SCRIPT:t_VictoryText00_C
+"Congratulations, you have won the cowmap. \n Your qualification was low but you can improve it"
+End
+SCRIPT:CowMapScore
+"CowMap score:"
+End
+SCRIPT:t_VictoryText01
+"Special thanks to the beta-cow-players; \n Thorin, Arion, Guerrilla, FarmerLau, MusicDawn, \n Temptation, Fitton, Lovely, Gannicus, Sauron..."
+End
+SCRIPT:t_VictoryText02
+"... Fluffy Orc, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, Tor|Sapffire, BlockBuster \n and whoever actually played this map since its first build in January 1st of 2018."
+End
+//--------------------------------------------------//
+SCRIPT:LOSE
+";( cows not happy"
+// 	"Enemies have entered the tunnel system\n and poisoned the water supplies\n of the cows of this lands :/ \n Is thorin playing here or wat"
+//"lol. \nIs thorin playing here or what."
+//"lol. \nIs thorin playing here or what."
+//"lol. \n Is maka playing here or what."
+End
+SCRIPT:LOSE_TESTINGMODE
+"lel. \n You lost, but this is testing mode."
+End
+//--------------------------------------------------//
 //WhoCares....
 //SCRIPT:MoneyReductionAdvertence
 //"We are beginning to run out of gold incomes..."
@@ -2672,23 +2745,6 @@ End
 SCRIPT:UnitRemovedAdvertencia
 "A team has been removed. \n This occured because it has left the map."
 //"A team has been removed. \n This occured because: \n A: Map hoster opened the Planning mode. \n B: A team left the map.
-End
-//-------------------------------------------//
-SCRIPT:WIN
-"Congratulations... \n You have won the cow map by Ecthelion. \n Special thanks to the beta-cow-players;"
-End
-SCRIPT:CREDITS
-"...Thorin, Arion, Guerrilla, Fluffy Orc, Fitton, FarmerLau,\n Sauron, Temptation, Mithrandir, King, Stormcrow, ForCarnDum, \n Ahwehawe, Xelenos, F, Tor|Sapffire \n and whoever actually ever played this map for more than 3 years of develepment."
-End
-SCRIPT:LOSE
-";( cows not happy"
-// 	"Enemies have entered the tunnel system\n and poisoned the water supplies\n of the cows of this lands :/ \n Is thorin playing here or wat"
-//"lol. \nIs thorin playing here or what."
-//"lol. \nIs thorin playing here or what."
-//"lol. \n Is maka playing here or what."
-End
-SCRIPT:LOSE_TESTINGMODE
-"lel. \n You lost, but this is testing mode."
 End
 //---------------------------------------------------
 OBJECT:LadyCow
