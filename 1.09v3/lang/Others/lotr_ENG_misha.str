@@ -24,6 +24,18 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:GoblinKingBattleFrenzy09v3
+"Battle Frenzy"
+End
+CONTROLBAR:ToolTipFueltheFires09v3
+"Player Lumber Mills gain +65% Production, \n and +20% Armor. \n Allied Lumber Mills gain +65% production. \n Fortress must be present"
+End
+UPGRADE:BarbedArrowUpgrade09v3
+"Barbed Arrows"
+END
+CONTROLBAR:TooltipUndermine09v3
+"Places a Mine Shaft anywhere on the map \n Does not need shroud reveal but cannot be casted near any enemy fortress. \n Mine Shaft becomes immediately connected to tunnel network \n Deals high damage at spawn point and light damage in the perimeter\n Left click icon then left click on visible location"
+END
 CONTROLBAR:ToolTipPersonalFlood09v3
 "Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective against cavalry and Black Riders. \n Level 4 Arwen summons 3 Floodhorses.\n Level 7 Arwen summons 5 Floodhorses.  \n Level 10 Arwen summons 7 Floodhorses. \nLeft click icon then left click on target"
 END
@@ -61,10 +73,7 @@ CONTROLBAR:ToolTipBuildMordorMumakil09v3
 "Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
 END
 CONTROLBAR:TooltipDragonStrike09v3
-"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed. \n Modifier Type: «DragonStrike STUN» \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
-END
-CONTROLBAR:ToolTipEyeofSauron09v3
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Left click icon then left click on target area"
+"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed.  \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
 END
 TOOLTIP:ToolTipFellbeast09v3
 "Fellbeast attack radius against units is improved at level 6 and 10."
@@ -73,7 +82,7 @@ CONTROLBAR:ToolTipDominate09v3
 "Requires Level 8 \n Gain control of targeted enemies permanently. \n Left click icon then left click on target enemies"
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
-"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. \n It's told that he's the human personification of Eru, who created Ëa \n Provides +25% Armor and +25% fast earning Experience for nearby allies. \n Modifier Type: «Armor RESISTANT» \n Left click icon then left click on pathable location"
+"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. It's told that he's the human personification of Eru, who created Ã‹a. \n Allies near Tom Bombadil gain +25% Armor and earn experience 25% faster. \n Â«Armor BUFFÂ» \n Left click icon then left click on pathable location"
 END
 CONTROLBAR:Draft09v3
 "D&raft"
@@ -116,7 +125,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
 "Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on player units"
 END
 CONTROLBAR:TooltipIvoryTowerVision09v2
-"Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: «RESISTANT IvoryTower» \n Lasts 30 seconds"
+"Reveals the entire shroud \n Player units in the map gain +10% speed \n Â«IvoryTower BUFFÂ» \n Lasts 30 seconds"
 End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Requires Level 3 \n Upgrades this horde with Venom Sacs \n Inflicts poison to enemies causing damage over time"
@@ -152,7 +161,7 @@ TOOLTIP:ToolTipWitchKing09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:GenericMountTooltipDain09v2
-"Requires Level 8  \n Left click to switch between \n mounted and on foot"
+"Requires Level 8 \n Left click to switch between \n mounted and on foot"
 END
 //------------------------------------------------------------
 CONTROLBAR:ShelobWebbing09v2
@@ -176,7 +185,6 @@ END
 UPGRADE:FarmLevel3Tooltip09v2
 "Level 3: +75 Command Points"
 END
-//------------------------------------------------------------
 CONTROLBAR:ThunderBolt09v2
 "Thunderbolt Storm [&B]"
 END
@@ -187,7 +195,7 @@ CONTROLBAR:ToolTipPersonalFlood09v2
 "Requires Level 5 \n Summons a flood that will damage enemies and put out fires. \n Specially effective to cavalry. \n Bonus against Black Riders. \n The flood horses are improved at level 10. \n\nLeft click icon then left click on target"
 END
 CONTROLBAR:ToolTipSlayer09v2
-"Requires Level 5 \n Gimli gains +50% Damage, Double Speed, but loses -15% armor against Structural arrows. \n Has an 80% chance to knockback heroes \n Left click to activate"
+"Requires Level 5 \n Gimli gains +50% Damage, Double Speed, but loses -15% Armor against Structural arrows. \n Has an 80% chance to knockback heroes \n Left click to activate"
 END
 CONTROLBAR:TooltipElrondWhirlwind09v2
 "Requires Level 6 \n Summons a destructive whirlwind onto the battlefield \n Lasts 17s \n Deals minimal damage to all units \n Left click icon then left click on target area"
@@ -204,7 +212,7 @@ CONTROLBAR:ToolTipGlorfindelBladeOfPurity09v2
 "Requires Level 3 \n Glorfindel gains +50% Damage and Invulnerability for 10s \n Can only use when dismounted \n\n Left click to activate"
 END
 CONTROLBAR:TooltipBladeMaster09v2
-"Requires Level 2 \n Aragorn gains +50% Damage and +50% armor. \n Left click to activate"
+"Requires Level 2 \n Aragorn gains +50% Damage and +50% Armor. \n Left click to activate"
 END
 //------------------------------------------------------------
 UPGRADE:AutohealUpgradeAdvanced09v2
@@ -215,7 +223,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Requires Level 10 \n Target Heroes in an AOE have their special ability timers reset to 80% used. \n Enemy heroes around Witch King suffer -25% damage. \n Modifier Type: «WitchKing STUN» \n Left click icon then left click on area"
+"Requires Level 10 \n Target Heroes in an AOE have their special ability timers reset to 80% used. \n Enemy heroes around Witch King suffer -25% Damage. \n Left click icon then left click on area"
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Selected structure's resource output is temporarily raised to 300%. \n Left click icon then left click on target resource structure"
@@ -227,22 +235,22 @@ CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
 "Improved Shield Crush (&Y)"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
-"Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Modifier Type: «Damage RESISTANT»"
+"Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage, \n and earn Experience +25% faster \n Â«Damage BUFFÂ»"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Modifier Type: «RESISTANT HordeBonus»"
+"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% Damage +25% speed. \n Â«HordeBonus BUFFÂ»"
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Requires Level 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Modifier Type: «GloriousCharge». \n Theoden must be mounted to use ability \n Left click to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain +99% Armor, \n +25% Damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration.  \n Theoden must be mounted to use ability \n Left click to activate"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +20% speed. \n Modifier Type: «RESISTANT HordeBonus» "
+"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% Damage +20% speed. \n Â«HordeBonus BUFFÂ» "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n Modifier Type: «RESISTANT HordeBonus» "
+"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% Damage +15% speed. \n Â«HordeBonus BUFFÂ» "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -254,80 +262,80 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Modifier Type: «StubbornPride» \n Dain becomes able to reveal stealth.\n Passive ability"
+"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n Â«StubbornPrideÂ» \n Dain becomes able to reveal stealth.\n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Modifier Type: «LEADERSHIP TreeBeard»\n Passive ability"
+"Allied Ents near Treebeard gain: \n +25% Armor, +10% Speed \n +20% Range and +25% Experience \n Â«TreeBeard LEADERSHIPÂ» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Requires Level 5 \n Allies near Lurtz gain +35% Damage \n and earn experience 25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passive ability"
+"Requires Level 5 \n Allies near Lurtz gain: \n +40% Damage and earn Experience 20% faster. \n Â«Damage LEADERSHIPÂ» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: «RESISTANT Palantir» \n Left click icon then left click on target area"
+"Spy on the enemy forces\n Target hordes and machines gain +15% speed. \n Â«Palantir BUFFÂ» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spy on the enemy forces. \n Target archers gain +35% range. \n Modifier Type: «RESISTANT Farsight» \n Left click icon then left click on target area"
+"Spy on the enemy forces. \n Target archers gain +35% range. \n Â«Farsight BUFFÂ» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, +25% damage and earn experience 25% faster. \n Modifier Type: «RESISTANT ElvenWood» \n Overrides LEADERSHIP effects from the allies. \n Enemy cavalry deceleration rate is raised by +250%. \n Left click icon then left click on target area"
+"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% Armor, +25% Damage, \n and earn Experience 25% faster. \n Â«ElvenWood BUFFÂ» Â«Overrides Damage LEADERSHIPÂ» \n Enemies suffer +200% Deceleration when crushing. \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipCloudBreak09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Stuns enemy units for 10 seconds \n Heals and revives allied units during 15 seconds \n Left click to activate"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Stuns enemy units for 10 seconds. \n Heals and revives allied units during 15 seconds. \n Enemy trolls are turn into stones for 20 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Modifier Type: «RESISTANT Darkness» \n Lasts 180 seconds. \n Left click to activate"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness \n Hordes gain +50% Damage, +33% Armor, \n and earn Experience +50% faster. \n Monsters gain +25% Damage, +33% Armor, \n and earn Experience +50% faster. \n Â«Darkness BUFFÂ» \n Lasts 180 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP, BUFF and RESISTANT» \n Lasts 150 seconds. \n Left click to activate"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n Any enemy hordes and monsters in the map suffer \n -25% Armor and -25% Damage. \n Â«DEBUFFÂ» Â«Neutralizes LEADERSHIP and BUFFÂ» \n Lasts 150 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requires Level 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Modifier Type: «MightyRage» \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain: \n +25% Damage, +20% Speed \n and +25% shroud revealing.  \n Enemy hordes in the same location suffer: \n -25% Armor and -25% Damage \n Â«DEBUFFÂ» Â«Neutralizes LEADERSHIPÂ» \n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
-"Requires Level 2 \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Passive ability"
+"Requires Level 2 \n Nearby enemy hordes suffer: \n -25% Armor and -25% Damage. \n Â«DEBUFFÂ» Â«Neutralizes LEADERSHIPÂ» \n Passive ability"
 End
 CONTROLBAR:TooltipCaveBats09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target area"
+"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% Armor and -25% Damage. \n Â«DEBUFFÂ» Â«Neutralizes LEADERSHIPÂ» \n Left click icon then left click on target area"
 END
 CONTROLBAR:TooltipCrebain09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target area"
+"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% Armor and -25% Damage. \n Â«DEBUFFÂ» Â«Neutralizes LEADERSHIPÂ» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Requires Level 3 \n Nearby allied cavalry gain +25% Damage, +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n Modifier Type: «RESISTANT High-Tier Hero» \n Passive ability"
+"Requires Level 3 \n Cavalry near Sharku gain: \n +25% Damage, +25% Armor, \n earn Experience +50% faster, \n and -50% Deceleration when crushing. \n Â«HighTierHero BUFFÂ» \n Passive ability"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
-"Requires Level 2 \n Order Guardians to charge the enemy \n Guardians gain +25% Speed and +25% Armor. \n Causes meta impact \n Modifier Type: «Armor BUFF»  \n Left click icon then left click on target"
+"Requires Level 2 \n Order Guardians to charge the enemy \n Guardians gain +25% Speed and +25% Armor. \n Causes meta impact \n Â«Armor LEADERSHIPÂ»  \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipBarbedArrows09v2
 "Requires Level 2\n Causes meta impact and increased damage \n Left click icon then left click on target"
 End
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework09v2
-"Increases Fortress and Wall armor \n Pre-requisite for Ivory Tower \n Upgrades summoned Lone Towers"
+"Increases Fortress and Wall Armor \n Pre-requisite for Ivory Tower \n Upgrades summoned Lone Towers"
 END
 CONTROLBAR:ToolTipSharkuManEater09v2
-"Requires Level 6 \n Kill target enemy which restores Sharku's health and temporarily grants +35% Damage, +35% armor and -50% crushing deceleration.\n Left click icon then left click on target enemy"
+"Requires Level 6 \n Kill target enemy which restores Sharku's health and temporarily grants +35% Damage, +35% Armor and -50% Deceleration when crushing. \n Left click icon then left click on target enemy"
 END
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel309v2
-"+30% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain 20% armor against Pikemen and Cavalry"
+"+30% Faster Build Speed \n Allows research of Mithril Mail, Forged Blades, and Flaming Shot upgrades \n Adds Defensive Axe Tower \n Forge Works gain 20% Armor against Pikemen and Cavalry"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Modifier Type: «RESISTANT HordeBonus» "
+"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% Damage +20% speed. \n Â«HordeBonus BUFFÂ» "
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers"
@@ -342,134 +350,134 @@ CONTROLBAR:ToolTipElvenCloakThranduil09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Modifier Type: «Armor BUFF» \n Left click icon then left click on target area"
+"Requires Level 2 \n Places a skull totem that provides leadership. \n Totem will remain on the map until destroyed. \n Reveals the nearby shroud and detects stealth. \n Hordes near the totem gain: \n +35% Armor, and earn Experience +25% faster. \n Â«Armor LEADERSHIPÂ» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Allies near the Drummer Troll gain +35% armor \n and earn experience +25% faster. \n Nearby trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Modifier Type: «Armor BUFF» \n Passive ability"
+"Hordes near the Drummer Troll gain: \n +35% Armor, and earn Experience +25% faster. \n Trolls near the Drummer Troll gain: \n +20 autoheal points, \n +15% Armor, and earn Experience +25% faster. \n Â«Armor LEADERSHIPÂ» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Target allies gain +40% Damage, +10% speed, \n and earn experience 50% faster. \n Modifier Type: «Damage LEADERSHIP» \n Left click icon then left click on target units"
+"Target allies gain +40% Damage, +10% speed, \n and earn Experience +50% faster. \n Â«Damage LEADERSHIPÂ» \n Left click icon then left click on target units"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Target allies gain +50% Damage, \n and earn experience +50% faster. \n Modifier Type: «Damage LEADERSHIP» \n Left click icon then left click on target units"
+"Target allies gain +50% Damage, \n and earn Experience +50% faster. \n Â«Damage LEADERSHIPÂ» \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Target allies gain +50% Damage, \n and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Left click icon then left click on target units"
+"Target allies gain +50% Damage, \n and earn Experience +25% faster. \n Â«Damage LEADERSHIPÂ» \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Taints an area of terrain \n Allied hordes gain +35% armor. \n Modifier Type: «Armor BUFF» \n Left click icon then left click on target area"
+"Taints an area of terrain \n Allied hordes gain +35% Armor. \n Â«Armor LEADERSHIPÂ» \n Left click icon then left click on target area"
 END
 CONTROLBAR:ToolTipMenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor. \n Modifier Type: «Armor BUFF» \n Left click icon then left click on target area"
+"Creates lush terrain. \n Allied units gain +35% Armor. \n Â«Armor LEADERSHIPÂ» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster. \n Modifier Type: «Damage RESISTANT» \n Allies gain terror and fear resistance. \n Modifier Type: «LEADERSHIP AntiFear»\n Increases command point limit by 10"
+"Allies near the Statue gain: \n +25% Damage, \n and earn Experience 25% faster. \n Â«Damage BUFFÂ» \n Allies gain terror and fear resistance. \n Â«AntiFear LEADERSHIPÂ» \n Increases command point limit by 10"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Armor, \n and earn experience 25% faster. \n Modifier Type: «Armor RESISTANT» \nIncreases command point limit by 10"
+"Allies near the Statue gain: \n +25% Armor, \n and earn Experience 25% faster. \n Â«Armor BUFFÂ» \nIncreases command point limit by 10"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Allies near the Statue gain 35% Armor. \n Modifier Type: «Armor BUFF» \n Allies gain terror and fear resistance. \n Modifier Type: «RESISTANT AntiFear»\n Increases command point limit by 10"
+"Allies near the Statue gain 35% Armor. \n Â«Armor LEADERSHIPÂ» \n Allies gain terror and fear resistance. \n Â«AntiFear BUFF \n Increases command point limit by 10"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Modifier Type: «Damage RESISTANT»"
+"Decreases the melee vulnerability of the Fortress \n Allies near Fortress gain: +25% Damage, \n and earn Experience +25% faster. \n Â«Damage BUFFÂ»"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Provides 25% damage and 25% experience to nearby troops \n Modifier Type: «Damage RESISTANT» \n Reduces hero cost by 10%  \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Allies near Fortress gain: +25% Damage, \n and earn Experience +25% faster. \n Â«Damage BUFFÂ» \n Reduces hero cost by 10%  \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster. \n Modifier Type: «Damage RESISTANT» \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain: +25% Damage, \n and earn Experience +25% faster. \n Â«Damage BUFFÂ» \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage and 25% experience \n Modifier Type: «Damage RESISTANT» \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain: +25% Damage, \n and earn Experience +25% faster. \n Â«Damage BUFFÂ» \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n Modifier Type: «Howl» \n Overrides LEADERSHIP effects from the wargs. \n Left click to activate"
+"Wargs gain +55% Damage but suffer -10% Armor against pikes and structural arrows. \n Â«Overrides Damage LEADERSHIPÂ» \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Hordes gain +25% Damage, +25% Armor, \n and earn Experience 50% faster. \n Trolls gain +7.5% Damage, +7.5% Armor, \n and earn Experience +15% faster. \n Â«HighTierHero BUFFÂ» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requires Level 8 \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Enemy units are scared while active. \n Modifier Type: «Armor BUFF» \n Left click to activate"
+"Requires Level 8 \n Allied units, monsters and heroes are healed. \n Allied hordes gain +33% Armor, \n +50% Damage and replenish their units.\n Â«Armor LEADERSHIPÂ» \n Causes fear in nearby enemies. \n The Starlight effect depends on Glorfindel continous summoning. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Allies near Gimli gain +35% armor. \n Modifier Type: «Armor BUFF» \n Passive ability"
+"Allies near Gimli gain: \n +35% Armor. \n Â«Armor LEADERSHIPÂ» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Allies near King Dain gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Passive ability"
+"Allies near King Dain gain: \n +25% Damage, +25% Armor, \n and earn Experience 50% faster. \n Â«HighTierHero BUFFÂ» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Modifier Type: «Damage RESISTANT» \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+"Allies near the banner gain: \n +25% Damage, \n and earn Experience 25% faster. \n Â«Damage BUFFÂ» \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Requires Level 4 \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Nearby Trolls gain experience 25% faster and autoheal +50 health points. \n Modifier Type: «Armor RESISTANT»\n Passive ability"
+"Requires Level 4 \n Hordes near the Goblin King gain: \n +25% Armor, and earn Experience +25% faster. \n Trolls near the Goblin King gain: \n +20 autoheal points, and earn Experience +25 faster. \n Â«Armor BUFFÂ» \n Passive ability"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Requires Level 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Passive ability"
+"Requires Level 3 \n Allies near Elrond gain: \n +25% Damage, +25% Armor, \n and earn Experience 50% faster. \n Â«HighTierHero BUFFÂ» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Requires Level 3 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n Modifier Type: «Armor RESISTANT» \n Passive ability"
+"Requires Level 2. \n Cavalry near Arwen gain: \n +25% Armor, \n and earn Experience +25% faster. \n Â«Armor BUFFÂ» \n Passive ability"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Requires Level 4 \n Allies near Haldir gain \n +35% Damage and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passive ability"
+"Requires Level 4 \n Allies near Haldir gain: \n +40% Damage and earn Experience +20% faster. \n Â«Damage LEADERSHIPÂ» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Allies near Tom Bombadil gain \n +25% Armor and earn experience +25% faster. \n Modifier Type: «Armor RESISTANT» \n Passive ability"
+"Allies near Tom Bombadil gain: \n +25% Armor, \n and earn Experience +25% faster. \n Â«Armor BUFFÂ» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Requires Level 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Passive ability"
+"Requires Level 4 \n Allies near Aragorn gain: \n +25% Damage, +25% Armor, \n and earn Experience 50% faster. \n Â«HighTierHero BUFFÂ» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Requires Level 3 \n Cavalry near Eomer gain 35% Armor. \n Modifier Type: «Armor BUFF» \n Passive ability"
+"Requires Level 3 \n Cavalry near Eomer gain: \n 35% Armor. \n Â«Armor LEADERSHIPÂ» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Requires Level 7 \n Allies near Faramir gain +35% Armor. \n Modifier Type: «Armor BUFF» \n Passive ability"
+"Requires Level 7 \n Allies near Faramir gain: \n +35% Armor. \n Â«Armor LEADERSHIPÂ» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Requires Level 5 \n Allies near Boromir gain +35% Damage \n and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passive ability"
+"Requires Level 5 \n Allies near Boromir gain: \n +40% Damage, and earn Experience +20% faster. \n Â«Damage LEADERSHIPÂ» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Requires Level 2 \n Allies near Theoden gain +25% Damage \n and earn experience +25% faster. \n Modifier Type: «Damage RESISTANT» \n Passive ability"
+"Requires Level 2 \n Allies near Theoden gain: \n +25% Damage, \n and earn Experience +25% faster. \n Â«Damage BUFFÂ» \n Passive ability"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Allies near Saruman gain +25% Armor and earn experience 25% faster. \n Modifier Type: «Armor RESISTANT» \n Passive ability"
+"Inspiring Presence: \n Allies near Saruman gain: \n +25% Armor, \n and earn Experience 25% faster. \n Â«Armor BUFFÂ» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
-"Requires Level 10 \n A high damage attack that causes metaimpact. \n Effective against cavalry and weak heroes. \n Stuns light sensitive enemy units. \n Can only use with bow equipped \n Left click icon then left click on target" 
+"Requires Level 10 \n A high Damage attack that causes metaimpact. \n Effective against cavalry and weak heroes. \n Stuns light sensitive enemy units. \n Can only use with bow equipped \n Left click icon then left click on target" 
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Requires Level 9 \n An extremely powerful single shot attack that causes damage for 15 seconds. \n The target is reduced to only 70% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
+"Requires Level 9 \n An extremely powerful single shot attack that causes Damage for 15 seconds. \n The target is reduced to only 70% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
@@ -477,43 +485,43 @@ CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"Enemy hordes and heroes in the target location suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds. \n Modifier Type: «Wormtongue STUN» \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Left click icon then left click on target units"
+"Hordes and heroes in the target location suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds. \n Â«Neutralizes LEADERSHIPÂ» \n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Requires Level 4 \n Enemy units and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Lasts 30 seconds. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target units"
+"Requires Level 4 \n Enemy units and heroes in the target location suffer \n -25% Armor, -25% Damage and -5% speed. \n Â«DEBUFFÂ» Â«Neutralizes LEADERSHIPÂ» \n Lasts 30 seconds.\n Left click icon then left click on target units"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Allies within the mist become stealthed. \n Enemy units, heroes, and monsters within the mist \n suffer -25% armor and -25% damage. \n Lasts 60 seconds. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n\n Left click icon and left click on target area"
+"Allies within the mist become stealthed. \n Enemy units, heroes, and monsters within the mist \n suffer -25% Armor and -25% Damage. \n Lasts 60 seconds. \n Â«DEBUFFÂ» Â«Neutralizes LEADERSHIPÂ» \n Left click icon and left click on target area"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
-"Research Banner Carrier upgrade at Barracks to enable this equipment. \n +25% Armor, -30% Speed and +33% extra arrow resistance. \n Loses -5% damage."
+"Research Banner Carrier upgrade at Barracks to enable this equipment. \n +25% Armor, -30% Speed and +33% extra arrow resistance. \n Loses -5% Damage."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
-"+25% Armor, -30% Speed and +33% extra arrow resistance. \n Loses -5% damage."
+"+25% Armor, -30% Speed and +33% extra arrow resistance. \n Loses -5% Damage."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
-"+20% Armor, -30% Speed and +25% extra arrow resistance. \n Loses -5% damage."
+"+20% Armor, -30% Speed and +25% extra arrow resistance. \n Loses -5% Damage."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Requires Level 3 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn deals damage in area \n Left click to activate"
+"Requires Level 3 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn deals Damage in area \n Left click to activate"
 END
 CONTROLBAR:ToolTipSmite09v2
 "Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Requires Level 5 \n Eowyn gains 35% Armor \n Halves the deceleration rate of friendly Rohirrim when trampling \n Left click to activate"
+"Requires Level 5 \n Eowyn gains 35% Armor \n Nearby Rohirrims gain: \n -50% Deceleration when crushing. \n Left click to activate"
 END
 //	\n Cancels Shield Maiden bonus.
 //	\n Cancels the disguise
 //------------------------------------------------------------
 CONTROLBAR:TooltipSunflare09v2
-"Calls a fiery beam of sunlight to scorch the battlefield and indiscriminately burn enemies and allies. \n Effective against weak heroes \n Cancels Darkness & Frezzing Rain \n Left click icon then left click on target area"
+"Calls a fiery beam of sunlight to scorch the battlefield. \n Indiscriminately burn enemies and allies. \n Effective against weak heroes \n Cancels Freezing Rain, Darkness and CloudBreak healing. \n Enemy trolls are turn into stones for 20 seconds. \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipCitadel09v2
@@ -536,7 +544,7 @@ CONTROLBAR:ToolTipGloinSmash09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom09v2
-"Calls down a hail of molten rock that will damage any enemies or allies units on selected area \n Left click icon then left click on target area"
+"Calls down a hail of molten rock that will Damage any enemies or allies units on selected area \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:Command_ConstructMordorCastleWallHub09v2
@@ -548,7 +556,7 @@ CONTROLBAR:TooltipFlood09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRebuild09v2
-"Heals 3000 health-points from any structure. \n Target structures gain 15% bonus armor for 15s. \n Left click icon then left click on target structures"
+"Heals 3000 health-points from any structure. \n Target structures gain 15% bonus Armor for 15s. \n Left click icon then left click on target structures"
 End
 //------------------------------------------------------------
 CONTROLBAR:DwarvenCaptainofDale09v2
@@ -619,10 +627,10 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to experience gaining \n Provides resistance to fear and terror \n Modifier Type: «ElvenGrace» \n Lasts 12 seconds \n Left click to activate"
+"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to Experience gaining \n Provides resistance to fear and terror. \n Lasts 12 seconds \n Left click to activate"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Reveals an area of the map \n Provides +27.5% shroud reveal radius to any allied unit for 25 second. \n Doesn't affect heroes. \n Modifier Type: «ElrondFarseeing» \n Left click icon then left click on target area"
+"Reveals an area of the map \n Provides +27.5% shroud reveal radius to any allied unit for 25 second. \n Doesn't affect heroes. \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
@@ -663,13 +671,13 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Summon Three Fi&res of Doom around Sauron in a circle"
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Nearby allies gain +25% damage and earn experience 25% faster. \n Modifier Type: «Damage RESISTANT»"
+"Requires researching the upgrade at fortress. \n Nearby allies gain: \n +25% Damage, \n and earn Experience 25% faster. \n Â«Damage BUFFÂ»"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
+"Requires researching the upgrade at fortress. \n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
 END
 CONTROLBAR:LoneTowerArmorUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Significantly reduces the amount of damage taken."
+"Requires researching the upgrade at fortress. \n Significantly reduces the amount of damage taken."
 END
 
 
@@ -686,25 +694,25 @@ CONTROLBAR:SpecialAbility_ShieldBubble
 "Shield Bubble (&W)"
 END
 CONTROLBAR:ToolTipSpecialAbility_ShieldBubble
-"The Wizard transfers all of his Power into a Shield that will absorbs every kind of damage dealt on him. \n Gandalf also gains inmunity to knock-back. \n Lasts 5 seconds. \n \n Left click icon to activate"
+"The Wizard transfers all of his Power into a Shield that will absorbs every kind of damage dealt on him. \n Gandalf also gains inmunity to knock-back. \n Lasts 5 seconds. \n Left click icon to activate"
 END
 CONTROLBAR:Fire_pit
 "Fire pit (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Detect stealth \n Nearby allies gain +5% armor. \n Modifier Type: «RESISTANT HobbitCampfire»"
+"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Detect stealth \n Nearby allies gain +5% Armor. \n Â«Campfire BUFFÂ»"
 END
 CONTROLBAR:FireWorks
 "FireWorks / Deploy [&V]"
 END
 CONTROLBAR:ToolTipFireWorks
-"Merry can drop Fireworks \n on the ground and ignite it \n \n Left click to activate"
+"Merry can drop Fireworks \n on the ground and ignite it \n Left click to activate"
 End
 CONTROLBAR:FireWorks2
 "Fireworks / Ignite [&B]"
 END
 CONTROLBAR:ToolTipFireWorks2
-"Fireworks damages units within large radius \n \n Left click to activate"
+"Fireworks damages units within large radius \n Left click to activate"
 End
 CONTROLBAR:FireWorksObj
 "FireWorks"
@@ -893,7 +901,7 @@ Map:mapSOsouthfarthing/Desc
 END
 //------------------------------------------------------------
 Map:mapETvalleysofrhun
-"Valleys of Rhün"
+"Valleys of RhÃ¼n"
 END
 Map:mapETvalleysofrhun/Desc
 //"A series of partially fertile valleys, feeded by water sinks from the nearby mountain chains at the far east of the Middle-Earth, around the Sea of Rhun. \n Map by Ecthelion."
@@ -917,10 +925,10 @@ Map:mapnewfordsofrohan/Desc
 END
 //------------------------------------------------------------
 Map:mapETerynrhun
-"Eryn Rhün" 
+"Eryn RhÃ¼n" 
 End
 Map:mapETerynrhun/Desc
-"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion"
+"Eryn RhÃ¼n means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of RhÃ¼n, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion"
 End
 //------------------------------------------------------------
 Map:mapETlebennin
@@ -1123,7 +1131,7 @@ END
 //	"Dwarrowdelf " // MAP REMOVED
 //	End
 //	Map:mapTESTdwarrowdelf/Desc
-//	"Khazad-dûm, also known as Hadhodrond, Casarrondo and Phurunargian, which translates to Dwarrowdelf, latterly known as Moria.\n Size: 600 x 500\n Lairs: 8x Goblin Lair, 4x Troll Lair\n Neutral Structures: 4x Outpost, 4x Inn, 2x Signal Fire. \n Map from RotWK"
+//	"Khazad-dÃ»m, also known as Hadhodrond, Casarrondo and Phurunargian, which translates to Dwarrowdelf, latterly known as Moria.\n Size: 600 x 500\n Lairs: 8x Goblin Lair, 4x Troll Lair\n Neutral Structures: 4x Outpost, 4x Inn, 2x Signal Fire. \n Map from RotWK"
 //	End
 //------------------------------------------------------------
 //	Map:maptestdungeonsoferebor
@@ -3283,7 +3291,7 @@ END
 
 GUI:EACopyright
 // context: Copyright notice. Please check with legal department for its correct translation.
-"© 2004 ELECTRONIC ARTS INC.   ALL RIGHTS RESERVED."
+"Â© 2004 ELECTRONIC ARTS INC.   ALL RIGHTS RESERVED."
 END
 
 GUI:DeleteBeacon
@@ -7763,7 +7771,7 @@ LAN:HostCanceledGame
 END
 
 LAN:NoMapSelected
-// context: User does not have a map selected and presses play game…
+// context: User does not have a map selected and presses play gameâ€¦
 "Unable to start game.  No map selected."
 END
 
@@ -9952,7 +9960,7 @@ CONTROLBAR:ToolTipSpecialAbilityManTheWalls
 END
 
 CONTROLBAR:SpecialAbilityRangerAmbush
-"Ambush Forma&tion"
+"Ambush For&mation"
 END
 CONTROLBAR:ToolTipSpecialAbilityRangerAmbush
 "+50% Damage \n -75% Armor"
@@ -16913,7 +16921,7 @@ CONTROLBAR:SummonTomBombadil
 END
 
 CONTROLBAR:TooltipSummonTomBombadil
-"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. \n It's told that he's the human personification of Eru, who created Ëa \n Left click icon then left click on pathable location"
+"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. \n It's told that he's the human personification of Eru, who created Ã‹a \n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:SummonHobbitAllies
@@ -16993,7 +17001,7 @@ CONTROLBAR:ConstructGondorShieldGuardHorde
 "Gondor &Tower Guards"
 END
 CONTROLBAR:ConstructGondorKnightHorde
-"&Gondor Knights"
+"Gondor &Knights"
 END
 CONTROLBAR:ConstructGondorTrebuchet
 "T&rebuchet"
@@ -17472,7 +17480,7 @@ END
 // \n The structure gain armor: \n +10% against heroes \n +20% against Pikes \n +25% against Cavalry"
 
 CONTROLBAR:ConstructWildSpiderlingHorde
-"Spiderlin&gs"
+"Spider&lings"
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderlingHorde
@@ -17492,7 +17500,7 @@ CONTROLBAR:ToolTipBuildWildMountainGiant
 END
 
 CONTROLBAR:ConstructWildMarauderHorde
-"Half-Troll &rMarauders"
+"Half-Troll &Marauders"
 END
 
 // MORDOR UNITS
@@ -17674,7 +17682,7 @@ CONTROLBAR:ConstructIsengardCrossbowmen
 "Uruk &Crossbowmen"
 END
 CONTROLBAR:ConstructIsengardPikemen
-"Uruk Pik&emen"
+"Uruk &Pikemen"
 END
 CONTROLBAR:ConstructIsengardWildmanHorde
 "&Wildmen of Dunland"
@@ -17968,7 +17976,7 @@ CONTROLBAR:ToolTipSpecialAbilityEntFindRock
 END
 
 CONTROLBAR:tooltipCommand_ToggleEntRockThrow
-"Toggle Rock-Throw Mode [&T]"
+"Toggle Rock-Throw Mode [&W]"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk
@@ -18115,7 +18123,7 @@ CONTROLBAR:ShieldWall
 END
 
 CONTROLBAR:ToolTipSpecialAbilityShieldWall
-"Shield &Wall formation"
+"Shield Wall formation"
 END
 
 CONTROLBAR:ToolTipDamrodLeadership
@@ -18247,7 +18255,7 @@ CONTROLBAR:ToolTipToggleHorseBow
 END
 
 CONTROLBAR:ToggleFormation
-"Change Forma&tion"
+"Change For&mation"
 END
 
 CONTROLBAR:ToggleSkirmishFormation
@@ -18259,23 +18267,23 @@ CONTROLBAR:ToolTipToggleSkirmishFormation
 END
 
 CONTROLBAR:ToggleHaradrimLineFormation
-"Line Forma&tion"
+"Line For&mation"
 END
    
 CONTROLBAR:ToolTipToggleHaradrimLineFormation
-"Haradrim Line Forma&tion"
+"Haradrim Line For&mation"
 END
 
 CONTROLBAR:ToggleAmbushFormation
-"Ambush Forma&tion"
+"Ambush For&mation"
 END
 
 CONTROLBAR:ToggleWedgeFormation
-"Wedge Forma&tion"
+"Wedge For&mation"
 END
 
 CONTROLBAR:ToggleLineFormation
-"Line Forma&tion"
+"Line For&mation"
 END
 
 CONTROLBAR:ToolTipToggleWedgeFormation
@@ -18283,11 +18291,11 @@ CONTROLBAR:ToolTipToggleWedgeFormation
 END
 
 CONTROLBAR:ToolTipToggleLineFormation
-"Default Line Forma&tion" //obsolete
+"Default Line For&mation" //obsolete
 END
 
 CONTROLBAR:TogglePorcupineFormation
-"Por&cupine Formation"
+"Porcupine For&mation"
 END
 
 CONTROLBAR:ToolTipTogglePorcupineFormation
@@ -18295,7 +18303,7 @@ CONTROLBAR:ToolTipTogglePorcupineFormation
 END
 
 CONTROLBAR:ToggleBlockFormation
-"Shield &Wall Formation"
+"Shield Wall For&mation"
 END
 
 CONTROLBAR:ToolTipToggleBlockFormation
@@ -18358,7 +18366,7 @@ CONTROLBAR:ToolTipMount
 END
 
 CONTROLBAR:UseSword
-"Use Swo&rd"
+"Use Sword (&W)"
 END
 
 CONTROLBAR:ToolTipUseSword
@@ -18366,7 +18374,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Phial of Galadriel (&T)"
+"Phial of Galadriel (&V)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -18458,7 +18466,7 @@ CONTROLBAR:ToolTipDamrodKnightRanger
 END
 
 CONTROLBAR:ToggleShieldWallFormation
-"Shield &Wall Formation"
+"Shield Wall For&mation"
 END
 
 CONTROLBAR:ToolTipToggleShieldWallFormation
@@ -18466,7 +18474,7 @@ CONTROLBAR:ToolTipToggleShieldWallFormation
 END
 
 CONTROLBAR:ToggleLooseFormation
-"Loose Forma&tion"
+"Loose For&mation"
 END
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
 "-30% Speed \n +20% Armor \n +25% arrow resistance"
@@ -21191,7 +21199,7 @@ APT:OpenPlayJoinGameTitle
 END
 
 APT:JoinPassword
-// Context – Title on enter a password when user joins a custom online game
+// Context â€“ Title on enter a password when user joins a custom online game
 // that has a password
 "Game Password"
 END
@@ -22801,7 +22809,7 @@ LWA:OathbreakersArmy
 "Oathbreakers Army"
 END
 LWA:EasterlingsArmy
-"Soldiers of Rhûn Army"
+"Soldiers of RhÃ»n Army"
 END
 LWA:HaradrimArmy
 "Haradrim Army"
@@ -22928,7 +22936,7 @@ WOTRTutorial:LW_InstructionText10
 End
 
 WOTRTutorial:LW_InstructionText11
-"In the Battle Phase, all conflicts between opposing players are fought.  A battle occurs when at least one of your armies and one of your enemy’s armies end up in the same territory after the planned moves are executed from the tactical phase."
+"In the Battle Phase, all conflicts between opposing players are fought.  A battle occurs when at least one of your armies and one of your enemyâ€™s armies end up in the same territory after the planned moves are executed from the tactical phase."
 End
 
 WOTRTutorial:LW_InstructionText12
@@ -22956,7 +22964,7 @@ WOTRTutorial:LW_InstructionText17
 End
 
 WOTRTutorial:LW_InstructionText18
-"All armies are allowed to move to only 1 adjacent territory from their current location per turn.  However, the choice of an army’s destination depends on the type of army that is being moved."
+"All armies are allowed to move to only 1 adjacent territory from their current location per turn.  However, the choice of an armyâ€™s destination depends on the type of army that is being moved."
 End
 
 WOTRTutorial:LW_InstructionText19
@@ -24489,7 +24497,7 @@ Map:MAPMPTournamentUdun/Desc
 END
 
 Map:MAPMPFordsofIsenII/Desc
-"The river Isen passes between Isengard and Helm’s Deep. Many travellers journeying to and from the Gap of Rohan cross the mighty river at this shallow point."
+"The river Isen passes between Isengard and Helmâ€™s Deep. Many travellers journeying to and from the Gap of Rohan cross the mighty river at this shallow point."
 END
 
 Map:MAPMPWeatherHills/Desc
@@ -24866,7 +24874,7 @@ Map:MAPWORShire/Desc
 END
 
 Map:MAPWORTowerHills/Desc
-"These hills are the home of the ancient Elven towers that held the Elendil Stone, the last of the Palantíri of the North."
+"These hills are the home of the ancient Elven towers that held the Elendil Stone, the last of the PalantÃ­ri of the North."
 END
 
 Map:MAPMPWeathertop/Desc
@@ -28364,7 +28372,7 @@ CONTROLBAR:ConstructDwarvenGuardianHorde
 END
 
 CONTROLBAR:ConstructDwarvenPhalanxHorde
-"Ph&alanxes"
+"&Phalanxes"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde
@@ -28412,7 +28420,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel3
 END
 
 CONTROLBAR:ConstructDwarvenMenOfDale
-"Men of &Dale"
+"Men of Da&le"
 END
 
 CONTROLBAR:ConstructDwarvenArcheryRangeLevel2Upgrade
@@ -28964,7 +28972,7 @@ CONTROLBAR:ConstructElvenMirkwoodArcherHorde
 END
 
 CONTROLBAR:ConstructElvenMithlondSentryHorde
-"Train Mi&thlond Sentries"
+"Train &Mithlond Sentries"
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
@@ -28972,7 +28980,7 @@ CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
 END
 
 CONTROLBAR:BuildElvenRivendellLancers
-"Train &Rivendell Lancers"
+"Train Rivende&ll Lancers"
 END
 
 CONTROLBAR:ConstructElvenPorter
@@ -31702,7 +31710,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressWizardsTower
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressWizardsTower
-"The Wizard’s Tower can shoot several bolts of lightning at an area surrounding the Fortess"
+"The Wizardâ€™s Tower can shoot several bolts of lightning at an area surrounding the Fortess"
 END
 
 CONTROLBAR:Command_IsengardWallUpgradeToHub
@@ -32358,7 +32366,7 @@ CONTROLBAR:IvoryTowerVision
 End
 
 CONTROLBAR:Knife
-"Knife [&T]"
+"Knife [&W]"
 End
 
 //	CONTROLBAR:LightBlast_Level1
@@ -32466,7 +32474,7 @@ End
 
 
 CONTROLBAR:SpecialAbilityOilBarrels
-"Oil Ba&rrels"
+"O&il Barrels"
 End
 
 
@@ -32490,7 +32498,7 @@ End
 
 
 CONTROLBAR:ThrowFireBombs
-"Firebombs [&T]"
+"Firebombs [&W]"
 End
 
 CONTROLBAR:ToggleDwarvenGuardianWeapons
@@ -35789,7 +35797,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerForgedBlades
 END
 
 CONTROLBAR:Trollfindgoblintothrow
-"P&ick up Goblin"
+"&Pick up Goblin"
 END
 
 CONTROLBAR:ToolTipTrollfindgoblintothrow
@@ -35998,7 +36006,7 @@ ToolTip:LackMorgulSorcery
 END
 
 ToolTip:LackIronPlating
-"Requires the Iron Plating upgrade \n The Wizard’s Tower can shoot several lightning bolts at an area surrounding the Fortress"
+"Requires the Iron Plating upgrade \n The Wizardâ€™s Tower can shoot several lightning bolts at an area surrounding the Fortress"
 END
 
 TOOLTIP:LackDragonNest
@@ -36425,11 +36433,11 @@ DIALOGEVENT:MGEtten_OffE004subtitle
 END
 
 DIALOGEVENT:MGEtten_GobK001subtitle
-"*I smell the flesh of the Eldar…"
+"*I smell the flesh of the Eldarâ€¦"
 END
 
 DIALOGEVENT:MGEtten_GobK002subtitle
-"*let us feast, my pets, my children…"
+"*let us feast, my pets, my childrenâ€¦"
 END
 
 DIALOGEVENT:MGEtten_GobK003subtitle
@@ -36457,11 +36465,11 @@ DIALOGEVENT:MGBlueM_Gloi002subtitle
 END
 
 DIALOGEVENT:MGBlueM_OffD003subtitle
-"*…and you bring elves? Well…I suppose we'll need whatever help we can afford. This isn't for the faint of heart you know."
+"*â€¦and you bring elves? Wellâ€¦I suppose we'll need whatever help we can afford. This isn't for the faint of heart you know."
 END
 
 DIALOGEVENT:MGBlueM_OffD004subtitle
-"*er…and you bring elves? This is a \"Dwarven mine\". No place for wood folk."
+"*erâ€¦and you bring elves? This is a \"Dwarven mine\". No place for wood folk."
 END
 
 DIALOGEVENT:MGBlueM_OffD005subtitle
@@ -36529,7 +36537,7 @@ DIALOGEVENT:MGBlueM_Dwar002subtitle
 END
 
 DIALOGEVENT:MGBlueM_Dwar003subtitle
-"*It’s the dragon! He's attacking our structures out here!"
+"*Itâ€™s the dragon! He's attacking our structures out here!"
 END
 
 DIALOGEVENT:MGBlueM_Dwar004subtitle
@@ -36545,7 +36553,7 @@ DIALOGEVENT:MGBlueM_OffD014subtitle
 END
 
 DIALOGEVENT:MGBlueM_OffD015subtitle
-"*We'll need more resources… use Dwarven Riches!"
+"*We'll need more resourcesâ€¦ use Dwarven Riches!"
 END
 
 DIALOGEVENT:MGBlueM_OffD016subtitle
@@ -36565,7 +36573,7 @@ DIALOGEVENT:MGBlueM_Dwar008subtitle
 END
 
 DIALOGEVENT:MGBlueM_Gloi007subtitle
-"*Ah… the ancient halls of my ancestors…"
+"*Ahâ€¦ the ancient halls of my ancestorsâ€¦"
 END
 
 DIALOGEVENT:MGBlueM_Gloi008subtitle
@@ -36681,7 +36689,7 @@ DIALOGEVENT:MGGreyH_Glor002subtitle
 END
 
 DIALOGEVENT:MGGreyH_Gloi002subtitle
-"*It’s a traaap! "
+"*Itâ€™s a traaap! "
 END
 
 DIALOGEVENT:MGGreyH_Glor003subtitle
@@ -36697,7 +36705,7 @@ DIALOGEVENT:MGGreyH_Gloi003subtitle
 END
 
 DIALOGEVENT:MGGreyH_OffD001subtitle
-"*Ay! We couldn’t let our friends have ALL the fun now!"
+"*Ay! We couldnâ€™t let our friends have ALL the fun now!"
 END
 
 DIALOGEVENT:MGGreyH_OffD002subtitle
@@ -36829,11 +36837,11 @@ DIALOGEVENT:MGCeldu_Dain004subtitle
 END
 
 DIALOGEVENT:MGCeldu_Dwar015subtitle
-"*We’ve set up a base here. Not much, but it’ll have to do."
+"*Weâ€™ve set up a base here. Not much, but itâ€™ll have to do."
 END
 
 DIALOGEVENT:MGCeldu_Dwar016subtitle
-"*I don’t trust these waters…."
+"*I donâ€™t trust these watersâ€¦."
 END
 
 DIALOGEVENT:MGCeldu_Dwar017subtitle
@@ -36889,7 +36897,7 @@ DIALOGEVENT:MGErebo_Dwar002subtitle
 END
 
 DIALOGEVENT:MGErebo_Mout001subtitle
-"*Now my dear King…you will die!"
+"*Now my dear Kingâ€¦you will die!"
 END
 
 DIALOGEVENT:MGErebo_Dwar003subtitle
@@ -36901,7 +36909,7 @@ DIALOGEVENT:MGErebo_Dwar004subtitle
 END
 
 DIALOGEVENT:MGErebo_Dwar005subtitle
-"*It’s the Elves!"
+"*Itâ€™s the Elves!"
 END
 
 DIALOGEVENT:MGErebo_Thra001subtitle
@@ -37273,7 +37281,7 @@ DIALOGEVENT:MEGreyH_Cors010subtitle
 END
 
 DIALOGEVENT:MEShire_GobK001subtitle
-"*Ahh….the Shire. This day has finally come!! Haehaha!!"
+"*Ahhâ€¦.the Shire. This day has finally come!! Haehaha!!"
 END
 
 DIALOGEVENT:MEShire_Hobb001subtitle
@@ -37285,11 +37293,11 @@ DIALOGEVENT:MEShire_Hobb002subtitle
 END
 
 DIALOGEVENT:MEShire_Hobb003subtitle
-"*No…no no no. Make it go away!"
+"*Noâ€¦no no no. Make it go away!"
 END
 
 DIALOGEVENT:MEShire_OffG001subtitle
-"*The hobbits cower in fear. Show them their new homes… in the pits!"
+"*The hobbits cower in fear. Show them their new homesâ€¦ in the pits!"
 END
 
 DIALOGEVENT:MEShire_GobK002subtitle
@@ -37309,7 +37317,7 @@ DIALOGEVENT:MEShire_Dune002subtitle
 END
 
 DIALOGEVENT:MEShire_GobK003subtitle
-"*Dunedain…here? Hmph! They can't save these little scrubs! "
+"*Dunedainâ€¦here? Hmph! They can't save these little scrubs! "
 END
 
 DIALOGEVENT:MEShire_Hobb004subtitle
@@ -37413,7 +37421,7 @@ DIALOGEVENT:MEShire_Hobb008subtitle
 END
 
 DIALOGEVENT:MEShire_Hobb009subtitle
-"*Perhaps they won't notice us…perhaps."
+"*Perhaps they won't notice usâ€¦perhaps."
 END
 
 DIALOGEVENT:MEShire_Hobb010subtitle
@@ -37425,7 +37433,7 @@ DIALOGEVENT:MEShire_Hobb011subtitle
 END
 
 DIALOGEVENT:MEShire_Hobb012subtitle
-"*We shall be saved yet…you shall see."
+"*We shall be saved yetâ€¦you shall see."
 END
 
 DIALOGEVENT:MEShire_Hobb013subtitle
@@ -37501,7 +37509,7 @@ DIALOGEVENT:MEForno_Gobl002subtitle
 END
 
 DIALOGEVENT:MEForno_Gobl003subtitle
-"*Wha…what is that thing?!"
+"*Whaâ€¦what is that thing?!"
 END
 
 DIALOGEVENT:MEForno_Gobl004subtitle
@@ -37849,7 +37857,7 @@ DIALOGEVENT:MEWithe_Orc006subtitle
 END
 
 DIALOGEVENT:MEWithe_Orc007subtitle
-"*We'll need more reinforcements, quick… Call the Horde!"
+"*We'll need more reinforcements, quickâ€¦ Call the Horde!"
 END
 
 DIALOGEVENT:MEWithe_OffM010subtitle
@@ -37885,7 +37893,7 @@ DIALOGEVENT:MEWithe_OffM013subtitle
 END
 
 DIALOGEVENT:MEWithe_Mout010subtitle
-"*The Dragon Lord at last! We have come to offer you Dwarven riches…"
+"*The Dragon Lord at last! We have come to offer you Dwarven richesâ€¦"
 END
 
 DIALOGEVENT:MEErebo_Mout001subtitle
@@ -38645,7 +38653,7 @@ DIALOGEVENT:MGBlueM_OffD019subtitle
 END
 
 DIALOGEVENT:MGBlueM_OffD020subtitle
-"*Our Fortress must be built inside the cave….only then shall we be safe from the dragon."
+"*Our Fortress must be built inside the caveâ€¦.only then shall we be safe from the dragon."
 END
 
 DIALOGEVENT:MGBlueM_OffD021subtitle
@@ -39069,11 +39077,11 @@ DIALOGEVENT:MELorie_OffG008subtitle
 END
 
 DIALOGEVENT:MELorie_OffG009subtitle
-"*Our tunnels will provide resources. With more of them, our riches will grow…."
+"*Our tunnels will provide resources. With more of them, our riches will growâ€¦."
 END
 
 DIALOGEVENT:MELorie_OffG010subtitle
-"*Build us a second tunnel so that we may conquer this land…"
+"*Build us a second tunnel so that we may conquer this landâ€¦"
 END
 
 DIALOGEVENT:MELorie_OffG011subtitle
@@ -39089,7 +39097,7 @@ DIALOGEVENT:MELorie_OffG013subtitle
 END
 
 DIALOGEVENT:MELorie_OffG014subtitle
-"*First, move our forces into the tunnel, then choose another tunnel from which they will emerge…"
+"*First, move our forces into the tunnel, then choose another tunnel from which they will emergeâ€¦"
 END
 
 DIALOGEVENT:MELorie_OffG015subtitle
@@ -39173,7 +39181,7 @@ DIALOGEVENT:MELorie_OffG034subtitle
 END
 
 DIALOGEVENT:MELorie_OffG035subtitle
-"*Where is our Lair?  We need the Spider Riders to trample the Elves and their city…."
+"*Where is our Lair?  We need the Spider Riders to trample the Elves and their cityâ€¦."
 END
 
 DIALOGEVENT:MELorie_OffG036subtitle
@@ -39209,7 +39217,7 @@ DIALOGEVENT:MELorie_OffG043subtitle
 END
 
 DIALOGEVENT:MELorie_OffG044subtitle
-"*Excellent.  Cross the river and the end of Lorien will begin…"
+"*Excellent.  Cross the river and the end of Lorien will beginâ€¦"
 END
 
 DIALOGEVENT:MELorie_OffG045subtitle
@@ -39217,7 +39225,7 @@ DIALOGEVENT:MELorie_OffG045subtitle
 END
 
 DIALOGEVENT:MELorie_Mout010subtitle
-"*Excellent…"
+"*Excellentâ€¦"
 END
 
 DIALOGEVENT:MELorie_Mout011subtitle
@@ -39269,7 +39277,7 @@ DIALOGEVENT:MELorie_OffG056subtitle
 END
 
 DIALOGEVENT:MELorie_OffG057subtitle
-"*There must be more Giants still held captive….keep searching!"
+"*There must be more Giants still held captiveâ€¦.keep searching!"
 END
 
 DIALOGEVENT:MELorie_OffG059subtitle
@@ -39325,7 +39333,7 @@ DIALOGEVENT:MELorie_OffG066subtitle
 END
 
 DIALOGEVENT:MELorie_Mout013subtitle
-"*Ahhhhh….the Elf-Witch graces us with her presence...her death will be most exquisite…."
+"*Ahhhhhâ€¦.the Elf-Witch graces us with her presence...her death will be most exquisiteâ€¦."
 END
 
 DIALOGEVENT:MELorie_Gala004subtitle
@@ -39341,7 +39349,7 @@ DIALOGEVENT:MELorie_Mout014subtitle
 END
 
 DIALOGEVENT:MELorie_Gala005subtitle
-"*So….the long defeat comes to this...bitterest of ends. Galadhrim - flee!"
+"*Soâ€¦.the long defeat comes to this...bitterest of ends. Galadhrim - flee!"
 END
 
 DIALOGEVENT:MELorie_Gala006subtitle
@@ -39353,7 +39361,7 @@ DIALOGEVENT:MELorie_Gala007subtitle
 END
 
 DIALOGEVENT:MELorie_Mout015subtitle
-"*<haughty laughter…..>….how tragic!"
+"*<haughty laughterâ€¦..>â€¦.how tragic!"
 END
 
 DIALOGEVENT:MELorie_Mout016subtitle
@@ -39513,7 +39521,7 @@ DIALOGEVENT:MEShire_OffG018subtitle
 END
 
 DIALOGEVENT:MEShire_OffG019subtitle
-"*That was the final seat of power…now the Hobbits will crumble before us."
+"*That was the final seat of powerâ€¦now the Hobbits will crumble before us."
 END
 
 DIALOGEVENT:MEShire_OffG020subtitle
@@ -39529,7 +39537,7 @@ DIALOGEVENT:MEShire_OffG022subtitle
 END
 
 DIALOGEVENT:MEShire_OffG023subtitle
-"*Dunedain tents…watch your backs."
+"*Dunedain tentsâ€¦watch your backs."
 END
 
 DIALOGEVENT:MEShire_OffG024subtitle
@@ -39537,7 +39545,7 @@ DIALOGEVENT:MEShire_OffG024subtitle
 END
 
 DIALOGEVENT:MEShire_OffG025subtitle
-"*Hmmm…Longbottom Farm. Their Pipeweed is of value. Save a space in your gunny sack."
+"*Hmmmâ€¦Longbottom Farm. Their Pipeweed is of value. Save a space in your gunny sack."
 END
 
 DIALOGEVENT:MEShire_Dune010subtitle
@@ -39733,7 +39741,7 @@ DIALOGEVENT:MEErebo_OffM033subtitle
 END
 
 DIALOGEVENT:MEErebo_OffM034subtitle
-"*Gloin has rallied the Blue Mountain dwarves…the genocide will be complete!"
+"*Gloin has rallied the Blue Mountain dwarvesâ€¦the genocide will be complete!"
 END
 
 DIALOGEVENT:MEErebo_OffM035subtitle
@@ -39769,11 +39777,11 @@ DIALOGEVENT:MERiven_OffG019subtitle
 END
 
 DIALOGEVENT:MERiven_OffG020subtitle
-"*Aragorn will pay for his attacks against Sauron, murder his true love…Arwen."
+"*Aragorn will pay for his attacks against Sauron, murder his true loveâ€¦Arwen."
 END
 
 DIALOGEVENT:MERiven_OffG021subtitle
-"*These Heroes bring hope to the people of Middle-earth…Annihilate them."
+"*These Heroes bring hope to the people of Middle-earthâ€¦Annihilate them."
 END
 
 DIALOGEVENT:MERiven_OffG022subtitle
@@ -39793,15 +39801,15 @@ DIALOGEVENT:MERiven_Elf1004subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT001subtitle
-"*Welcome m’lord to the White Mountains. We’ve long awaited your arrival."
+"*Welcome mâ€™lord to the White Mountains. Weâ€™ve long awaited your arrival."
 END
 
 DIALOGEVENT:MTrBas_OffT002subtitle
-"*This pass has long been forgotten and as a result Goblins from the Misty Mountains have ventured all the way south and infested this area. If we don’t do something about them quickly they may spread all the way to Minas Tirith"
+"*This pass has long been forgotten and as a result Goblins from the Misty Mountains have ventured all the way south and infested this area. If we donâ€™t do something about them quickly they may spread all the way to Minas Tirith"
 END
 
 DIALOGEVENT:MTrBas_OffT003subtitle
-"*But first, we’ll have to get you battle worthy for the task ahead"
+"*But first, weâ€™ll have to get you battle worthy for the task ahead"
 END
 
 DIALOGEVENT:MTrBas_OffT004subtitle
@@ -39817,7 +39825,7 @@ DIALOGEVENT:MTrBas_OffT006subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT007subtitle
-"*Excellent! I see you’ve brought some soldiers with you. Left click on them with your cursor."
+"*Excellent! I see youâ€™ve brought some soldiers with you. Left click on them with your cursor."
 END
 
 DIALOGEVENT:MTrBas_OffT008subtitle
@@ -39833,7 +39841,7 @@ DIALOGEVENT:MTrBas_OffT010subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT011subtitle
-"*Currently you know how to select one battalion of units, but you’ll need to know how to select an army."
+"*Currently you know how to select one battalion of units, but youâ€™ll need to know how to select an army."
 END
 
 DIALOGEVENT:MTrBas_OffT012subtitle
@@ -39853,15 +39861,15 @@ DIALOGEVENT:MTrBas_OffT016subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT017subtitle
-"*Now issue them an attack command by right clicking on those Goblins down there. You’ll notice that as you move your cursor over the Goblins, it changes to a Red Attack Cursor. This Red Attack cursor will indicate what is an enemy to you."
+"*Now issue them an attack command by right clicking on those Goblins down there. Youâ€™ll notice that as you move your cursor over the Goblins, it changes to a Red Attack Cursor. This Red Attack cursor will indicate what is an enemy to you."
 END
 
 DIALOGEVENT:MTrBas_OffT018subtitle
-"*Hurry, they’ve almost destroyed the camp down there! Issue your attack order by selecting your units and right clicking on those enemy Goblins!"
+"*Hurry, theyâ€™ve almost destroyed the camp down there! Issue your attack order by selecting your units and right clicking on those enemy Goblins!"
 END
 
 DIALOGEVENT:MTrBas_OffT019subtitle
-"*Congratulations, you’ve just won your first battle. Unfortunately, our celebration will have to wait. More reports are coming in that other camps are being attacked and need support."
+"*Congratulations, youâ€™ve just won your first battle. Unfortunately, our celebration will have to wait. More reports are coming in that other camps are being attacked and need support."
 END
 
 DIALOGEVENT:MTrBas_OffT020subtitle
@@ -39889,11 +39897,11 @@ DIALOGEVENT:MTrBas_OffT025subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT026subtitle
-"*Bonus Objectives appear in green text. You may choose to complete them, but they won’t count against you if you don’t."
+"*Bonus Objectives appear in green text. You may choose to complete them, but they wonâ€™t count against you if you donâ€™t."
 END
 
 DIALOGEVENT:MTrBas_OffT027subtitle
-"*And finally, any Objective with a check mark in its box is one that you’ve completed."
+"*And finally, any Objective with a check mark in its box is one that youâ€™ve completed."
 END
 
 DIALOGEVENT:MTrBas_OffT028subtitle
@@ -39913,7 +39921,7 @@ DIALOGEVENT:MTrBas_Sold002subtitle
 END
 
 DIALOGEVENT:MTrBas_Sold003subtitle
-"*You came just in time. We weren’t sure how much longer we could have held them off."
+"*You came just in time. We werenâ€™t sure how much longer we could have held them off."
 END
 
 DIALOGEVENT:MTrBas_OffT030subtitle
@@ -39921,11 +39929,11 @@ DIALOGEVENT:MTrBas_OffT030subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT031subtitle
-"*While our camps up here are sufficient to hold this road, it’s not strong enough to hold this mountain. We need to setup a larger camp, but we’ll need a great deal of land with which to do so."
+"*While our camps up here are sufficient to hold this road, itâ€™s not strong enough to hold this mountain. We need to setup a larger camp, but weâ€™ll need a great deal of land with which to do so."
 END
 
 DIALOGEVENT:MTrBas_OffT032subtitle
-"*Up ahead is just such an expanse of land, but it is held by Spider Lairs. These lairs are infested with creatures that have no allegiance to anyone save their own.  Fortunately the creatures won’t stray far from their lairs, so they only pose a threat in their immediate area."
+"*Up ahead is just such an expanse of land, but it is held by Spider Lairs. These lairs are infested with creatures that have no allegiance to anyone save their own.  Fortunately the creatures wonâ€™t stray far from their lairs, so they only pose a threat in their immediate area."
 END
 
 DIALOGEVENT:MTrBas_OffT033subtitle
@@ -39937,7 +39945,7 @@ DIALOGEVENT:MTrBas_OffT034subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT035subtitle
-"*After you destroy a lair, it will leave some money behind.  That’s the treasure that they’ve horded from killing wanderers who’ve ventured too close to them."
+"*After you destroy a lair, it will leave some money behind.  Thatâ€™s the treasure that theyâ€™ve horded from killing wanderers whoâ€™ve ventured too close to them."
 END
 
 DIALOGEVENT:MTrBas_OffT036subtitle
@@ -39961,11 +39969,11 @@ DIALOGEVENT:MTrBas_OffT040subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT041subtitle
-"*We sent a builder your way for constructing our new camp. Builders are what you use to construct all the buildings we’ll need in order to establish a camp."
+"*We sent a builder your way for constructing our new camp. Builders are what you use to construct all the buildings weâ€™ll need in order to establish a camp."
 END
 
 DIALOGEVENT:MTrBas_OffT042subtitle
-"*First and foremost we’ll need a Fortress."
+"*First and foremost weâ€™ll need a Fortress."
 END
 
 DIALOGEVENT:MTrBas_OffT043subtitle
@@ -39973,7 +39981,7 @@ DIALOGEVENT:MTrBas_OffT043subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT044subtitle
-"*In order to place down a building, left click anywhere on the land. For this base however, we’ll need you to place your fortress within the spotlighted area."
+"*In order to place down a building, left click anywhere on the land. For this base however, weâ€™ll need you to place your fortress within the spotlighted area."
 END
 
 DIALOGEVENT:MTrBas_OffT045subtitle
@@ -39981,11 +39989,11 @@ DIALOGEVENT:MTrBas_OffT045subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT046subtitle
-"*They also have many upgrades available to them, but we’ll get to that another time."
+"*They also have many upgrades available to them, but weâ€™ll get to that another time."
 END
 
 DIALOGEVENT:MTrBas_OffT047subtitle
-"*Now that we have a fortress built, we’ll need an economy to fund our defenses."
+"*Now that we have a fortress built, weâ€™ll need an economy to fund our defenses."
 END
 
 DIALOGEVENT:MTrBas_OffT048subtitle
@@ -40017,7 +40025,7 @@ DIALOGEVENT:MTrBas_OffT054subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT055subtitle
-"*The last thing we’ll need is an Archery Range. Build one of those on the other spotlight."
+"*The last thing weâ€™ll need is an Archery Range. Build one of those on the other spotlight."
 END
 
 DIALOGEVENT:MTrBas_OffT056subtitle
@@ -40029,7 +40037,7 @@ DIALOGEVENT:MTrBas_OffT057subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT058subtitle
-"*In order to fortify our base, we’ll need to setup wall spans. Wall spans begin with wall hubs, which can be built from either our fortress or from our Builders."
+"*In order to fortify our base, weâ€™ll need to setup wall spans. Wall spans begin with wall hubs, which can be built from either our fortress or from our Builders."
 END
 
 DIALOGEVENT:MTrBas_OffT059subtitle
@@ -40049,7 +40057,7 @@ DIALOGEVENT:MTrBas_OffT062subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT063subtitle
-"*Click that button and move your cursor to the Spotlight to the right. As you move your mouse you’ll see a see-through wall, this is how your wall will look when you’ve finished building it."
+"*Click that button and move your cursor to the Spotlight to the right. As you move your mouse youâ€™ll see a see-through wall, this is how your wall will look when youâ€™ve finished building it."
 END
 
 DIALOGEVENT:MTrBas_OffT064subtitle
@@ -40077,7 +40085,7 @@ DIALOGEVENT:MTrBas_OffT069subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT070subtitle
-"*Our base has begun. Now let’s build some units to defend it. Train 2 battalions of Gondor Soldiers from the Barracks now."
+"*Our base has begun. Now letâ€™s build some units to defend it. Train 2 battalions of Gondor Soldiers from the Barracks now."
 END
 
 DIALOGEVENT:MTrBas_OffT071subtitle
@@ -40085,7 +40093,7 @@ DIALOGEVENT:MTrBas_OffT071subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT072subtitle
-"*And lastly, we’ll need a Hero to lead our troops. Heroes can be purchased from the Fortress. And if your Hero should fall in battle, they can be revived from the fortress as well."
+"*And lastly, weâ€™ll need a Hero to lead our troops. Heroes can be purchased from the Fortress. And if your Hero should fall in battle, they can be revived from the fortress as well."
 END
 
 DIALOGEVENT:MTrBas_OffT074subtitle
@@ -40097,7 +40105,7 @@ DIALOGEVENT:MTrBas_OffT075subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT076subtitle
-"*You will find a Hero’s abilities on the Palantir. Some are Passive abilities which mean they’re always enabled such as Boromir’s Leadership ability. "
+"*You will find a Heroâ€™s abilities on the Palantir. Some are Passive abilities which mean theyâ€™re always enabled such as Boromirâ€™s Leadership ability. "
 END
 
 DIALOGEVENT:MTrBas_OffT077subtitle
@@ -40109,15 +40117,15 @@ DIALOGEVENT:MTrBas_OffT078subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT079subtitle
-"*Our army is built now and Gondor’s new castle is ready. Excellent work! You're now ready to command an army and defend these passes."
+"*Our army is built now and Gondorâ€™s new castle is ready. Excellent work! You're now ready to command an army and defend these passes."
 END
 
 DIALOGEVENT:MTrBas_Sold004subtitle
-"*The Goblins, they’re here! A large force has gathered and is marching towards this very spot."
+"*The Goblins, theyâ€™re here! A large force has gathered and is marching towards this very spot."
 END
 
 DIALOGEVENT:MTrBas_OffT080subtitle
-"*There is no time to waste.  M’lord, you will have to defend this base as you’ve done before with the camps."
+"*There is no time to waste.  Mâ€™lord, you will have to defend this base as youâ€™ve done before with the camps."
 END
 
 DIALOGEVENT:MTrBas_OffT081subtitle
@@ -40133,11 +40141,11 @@ DIALOGEVENT:MTrBas_OffT083subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT084subtitle
-"*Come back when you’re ready to finish them off by playing through the Advanced Tutorial."
+"*Come back when youâ€™re ready to finish them off by playing through the Advanced Tutorial."
 END
 
 DIALOGEVENT:MTrAdv_OffT001subtitle
-"*Welcome back M’lord! As you can see we’ve been very busy here, but the attacks have yet to stop."
+"*Welcome back Mâ€™lord! As you can see weâ€™ve been very busy here, but the attacks have yet to stop."
 END
 
 DIALOGEVENT:MTrAdv_OffT002subtitle
@@ -40157,15 +40165,15 @@ DIALOGEVENT:MTrAdv_OffT005subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT006subtitle
-"*The Aggressive Stance will increase a unit’s offensive capabilities while decreasing their defensive capabilities."
+"*The Aggressive Stance will increase a unitâ€™s offensive capabilities while decreasing their defensive capabilities."
 END
 
 DIALOGEVENT:MTrAdv_OffT007subtitle
-"*The Battle Stance is the default stance for all units and renders no bonuses or negatives to a unit’s abilities."
+"*The Battle Stance is the default stance for all units and renders no bonuses or negatives to a unitâ€™s abilities."
 END
 
 DIALOGEVENT:MTrAdv_OffT008subtitle
-"*And the Hold Ground Stance will greatly increase a unit’s defensive capabilities while decreasing their offensive capabilities."
+"*And the Hold Ground Stance will greatly increase a unitâ€™s defensive capabilities while decreasing their offensive capabilities."
 END
 
 DIALOGEVENT:MTrAdv_OffT009subtitle
@@ -40177,7 +40185,7 @@ DIALOGEVENT:MTrAdv_OffT010subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT012subtitle
-"*Now press and hold both the right and left mouse buttons and drag your mouse. You’ll notice that a Formation Preview will display on the ground. Once you release the mouse buttons,  your units will form up into this battle line."
+"*Now press and hold both the right and left mouse buttons and drag your mouse. Youâ€™ll notice that a Formation Preview will display on the ground. Once you release the mouse buttons,  your units will form up into this battle line."
 END
 
 DIALOGEVENT:MTrAdv_OffT013subtitle
@@ -40205,11 +40213,11 @@ DIALOGEVENT:MTrAdv_OffT018subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT019subtitle
-"*It appears as though Gondor has sent reinforcements to aid us in our reclaiming of this mountain. Let’s join up with them by building a transport of our own. Select the shipwright and click on the Transport button to begin building one."
+"*It appears as though Gondor has sent reinforcements to aid us in our reclaiming of this mountain. Letâ€™s join up with them by building a transport of our own. Select the shipwright and click on the Transport button to begin building one."
 END
 
 DIALOGEVENT:MTrAdv_OffT020subtitle
-"*Now select your battalion and right click on the Transport. You’ll notice that your cursor changes to a garrison icon. Other structures in Middle-earth can be garrisoned as well, so keep an eye out for that icon."
+"*Now select your battalion and right click on the Transport. Youâ€™ll notice that your cursor changes to a garrison icon. Other structures in Middle-earth can be garrisoned as well, so keep an eye out for that icon."
 END
 
 DIALOGEVENT:MTrAdv_OffT021subtitle
@@ -40229,11 +40237,11 @@ DIALOGEVENT:MTrAdv_OffT024subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT025subtitle
-"*You’ve made it across, M’Lord. Well done. In order to deploy your units from a transport, select the transport ship and give it a move order on land."
+"*Youâ€™ve made it across, Mâ€™Lord. Well done. In order to deploy your units from a transport, select the transport ship and give it a move order on land."
 END
 
 DIALOGEVENT:MTrAdv_OffT026subtitle
-"*There’s one of their camps up ahead. We’ll have to rush them before they have a chance to retreat and warn any others. Issue an \"Attack MOVE\" order and that should take care of them."
+"*Thereâ€™s one of their camps up ahead. Weâ€™ll have to rush them before they have a chance to retreat and warn any others. Issue an \"Attack MOVE\" order and that should take care of them."
 END
 
 DIALOGEVENT:MTrAdv_OffT027subtitle
@@ -40245,7 +40253,7 @@ DIALOGEVENT:MTrAdv_OffT029subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT030subtitle
-"*We’ll have to call in for greater powers to help us progress any farther."
+"*Weâ€™ll have to call in for greater powers to help us progress any farther."
 END
 
 DIALOGEVENT:MTrAdv_OffT035subtitle
@@ -40253,23 +40261,23 @@ DIALOGEVENT:MTrAdv_OffT035subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT041subtitle
-"*Now to get past this wall. Unfortunately the gate is in disrepair and cannot be opened, so we’ll have to destroy these walls."
+"*Now to get past this wall. Unfortunately the gate is in disrepair and cannot be opened, so weâ€™ll have to destroy these walls."
 END
 
 DIALOGEVENT:MTrAdv_OffT045subtitle
-"*Excellent! The Goblin’s main base is not much farther off. Continue north along the path and be wary of any more camps you encounter."
+"*Excellent! The Goblinâ€™s main base is not much farther off. Continue north along the path and be wary of any more camps you encounter."
 END
 
 DIALOGEVENT:MTrAdv_Sold001subtitle
-"*M’Lord, we are glad you have come. We’ve been keeping an eye on this Goblin camp and have setup a trap for them. All we need to do is set the forest ablaze around them and it should spread into their camp."
+"*Mâ€™Lord, we are glad you have come. Weâ€™ve been keeping an eye on this Goblin camp and have setup a trap for them. All we need to do is set the forest ablaze around them and it should spread into their camp."
 END
 
 DIALOGEVENT:MTrAdv_OffT046subtitle
-"*Fire, M’Lord, has become a valuable asset as of late. Unfortunately in our enemies hands it could also be a serious danger."
+"*Fire, Mâ€™Lord, has become a valuable asset as of late. Unfortunately in our enemies hands it could also be a serious danger."
 END
 
 DIALOGEVENT:MTrAdv_OffT047subtitle
-"*Select the Rangers who have joined you and have them volley their arrows into the spotlights. This will start a fire there and you’ll be able to watch it spread into the enemies base, setting it ablaze and destroying their structures."
+"*Select the Rangers who have joined you and have them volley their arrows into the spotlights. This will start a fire there and youâ€™ll be able to watch it spread into the enemies base, setting it ablaze and destroying their structures."
 END
 
 DIALOGEVENT:MTrAdv_OffT048subtitle
@@ -40297,7 +40305,7 @@ DIALOGEVENT:MTrAdv_OffT053subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT054subtitle
-"*You may also notice that those Goblins have their backs turned to you. This will result in the cavalry flanking those units. Any time a unit is flanked, it will receive more damage from it’s attackers."
+"*You may also notice that those Goblins have their backs turned to you. This will result in the cavalry flanking those units. Any time a unit is flanked, it will receive more damage from itâ€™s attackers."
 END
 
 DIALOGEVENT:MTrAdv_OffT055subtitle
@@ -40305,11 +40313,11 @@ DIALOGEVENT:MTrAdv_OffT055subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT056subtitle
-"*Last, I’d send the remaining forces you have into the heart of their base and kill every last one of them. Try splitting your forces amongst the different targets in their base."
+"*Last, Iâ€™d send the remaining forces you have into the heart of their base and kill every last one of them. Try splitting your forces amongst the different targets in their base."
 END
 
 DIALOGEVENT:MTrAdv_OffT057subtitle
-"*When you’re plan has been laid out, hit the execute button and your army will march forth with their orders."
+"*When youâ€™re plan has been laid out, hit the execute button and your army will march forth with their orders."
 END
 
 DIALOGEVENT:MTrAdv_OffT059subtitle
@@ -40317,7 +40325,7 @@ DIALOGEVENT:MTrAdv_OffT059subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT060subtitle
-"*And you, M’Lord are now ready to vanquish more evil from Middle-earth. Take with you all that you have learned and try a campaign, a skirmish versus the AI, or a multiplayer match online against your friends!"
+"*And you, Mâ€™Lord are now ready to vanquish more evil from Middle-earth. Take with you all that you have learned and try a campaign, a skirmish versus the AI, or a multiplayer match online against your friends!"
 END
 
 DIALOGEVENT:WOTR_Tutorial001subtitle
@@ -45755,7 +45763,7 @@ SCRIPT:HighPass_ExtraCampaignText
 END
 
 SCRIPT:Ettenmoors_ExtraCampaignText
-"In days of old, the Ettenmoors were home to the Witch King of Angmar.  Now the new Goblin Leader has taken these lands for his own. Goblin armies spread wildly through the mountains and will threaten Rivendell again if we don’t stop them here."
+"In days of old, the Ettenmoors were home to the Witch King of Angmar.  Now the new Goblin Leader has taken these lands for his own. Goblin armies spread wildly through the mountains and will threaten Rivendell again if we donâ€™t stop them here."
 END
 
 SCRIPT:Shire_ExtraCampaignText
@@ -45787,7 +45795,7 @@ SCRIPT:Erebor_ExtraCampaignText
 END
 
 SCRIPT:Rivendell_ExtraCampaignText
-"Frodo, the free people’s last hope, lies dead. Gorkil begins the siege of Rivendell while the Dark Lord makes his way west.  Crush the last haven for the Elves."
+"Frodo, the free peopleâ€™s last hope, lies dead. Gorkil begins the siege of Rivendell while the Dark Lord makes his way west.  Crush the last haven for the Elves."
 END
 
 
@@ -45880,11 +45888,11 @@ DIALOGEVENT:MGHighP_OffE022subtitle
 END
 
 DIALOGEVENT:MGHighP_OffE023subtitle
-"*The attack on Rivendell came from farther North – but before we can track the evil to its source, we must clear High Pass of the Goblin invaders."
+"*The attack on Rivendell came from farther North â€“ but before we can track the evil to its source, we must clear High Pass of the Goblin invaders."
 END
 
 DIALOGEVENT:MGEtten_OffE015subtitle
-"*In days of old, the Ettenmoors were held by the Witch King of Angmar.  Now the new Goblin Leader has taken these lands for his own. Goblin armies spread wildly through the mountains and will threaten Rivendell again if we don’t stop them here"
+"*In days of old, the Ettenmoors were held by the Witch King of Angmar.  Now the new Goblin Leader has taken these lands for his own. Goblin armies spread wildly through the mountains and will threaten Rivendell again if we donâ€™t stop them here"
 END
 
 DIALOGEVENT:MGEtten_OffE016subtitle
@@ -45896,7 +45904,7 @@ DIALOGEVENT:MGEtten_OffE017subtitle
 END
 
 DIALOGEVENT:MGEtten_OffE018subtitle
-"*Goblin armies spread wildly through the mountains and will threaten Rivendell again if we don’t stop them here"
+"*Goblin armies spread wildly through the mountains and will threaten Rivendell again if we donâ€™t stop them here"
 END
 
 DIALOGEVENT:MGBlueM_OffD024subtitle
@@ -46088,7 +46096,7 @@ DIALOGEVENT:MGErebo_OffD060subtitle
 END
 
 DIALOGEVENT:MGErebo_Dwar008subtitle
-"*<gasp> That’s a lot of trolls!"
+"*<gasp> Thatâ€™s a lot of trolls!"
 END
 
 DIALOGEVENT:MGErebo_Dwar009subtitle
@@ -46208,7 +46216,7 @@ DIALOGEVENT:MGDolGu_Elf1009subtitle
 END
 
 DIALOGEVENT:MGDolGu_OffE031subtitle
-"*The Eye of the Dark Lord wanders wide … even in Mordor our designs cannot escape his thought!  Ready our defenses, for the Enemy draws near!"
+"*The Eye of the Dark Lord wanders wide â€¦ even in Mordor our designs cannot escape his thought!  Ready our defenses, for the Enemy draws near!"
 END
 
 DIALOGEVENT:MGDolGu_OffE032subtitle
@@ -46328,7 +46336,7 @@ DIALOGEVENT:MERiven_OffG025subtitle
 END
 
 DIALOGEVENT:MERiven_OffG026subtitle
-"*Frodo, the free people’s last hope, lies dead. "
+"*Frodo, the free peopleâ€™s last hope, lies dead. "
 END
 
 DIALOGEVENT:MERiven_OffG027subtitle
@@ -46356,7 +46364,7 @@ DIALOGEVENT:MTrBas_OffT013subtitle
 END
 
 DIALOGEVENT:MTrBas_OffT073subtitle
-"*To summon a Hero, select your fortress and click on the Heroes button. This will bring up options of all the current Heroes you’re allowed to build. Right now Boromir is residing in our fortress."
+"*To summon a Hero, select your fortress and click on the Heroes button. This will bring up options of all the current Heroes youâ€™re allowed to build. Right now Boromir is residing in our fortress."
 END
 
 DIALOGEVENT:MTrAdv_OffT011subtitle
@@ -46388,7 +46396,7 @@ DIALOGEVENT:MTrAdv_OffT036subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT037subtitle
-"*Now back to the battle. First let’s take down those Goblins taunting us from the other side of the wall. Left click on the Arrow Volley power and move your cursor over the goblins. "
+"*Now back to the battle. First letâ€™s take down those Goblins taunting us from the other side of the wall. Left click on the Arrow Volley power and move your cursor over the goblins. "
 END
 
 DIALOGEVENT:MTrAdv_OffT038subtitle
@@ -46400,7 +46408,7 @@ DIALOGEVENT:MTrAdv_OffT039subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT040subtitle
-"*That got ‘em good! Keep in mind that certain powers such as Arrow Volley can only be cast in areas that are visible to you."
+"*That got â€˜em good! Keep in mind that certain powers such as Arrow Volley can only be cast in areas that are visible to you."
 END
 
 DIALOGEVENT:MTrAdv_OffT042subtitle
@@ -46416,7 +46424,7 @@ DIALOGEVENT:MTrAdv_OffT044subtitle
 END
 
 DIALOGEVENT:MTrAdv_OffT058subtitle
-"*We’re winning M’Lord, but their fortress is killing our army. Use your earthquake power again on their Fortress and it should take down their defenses!"
+"*Weâ€™re winning Mâ€™Lord, but their fortress is killing our army. Use your earthquake power again on their Fortress and it should take down their defenses!"
 END
 
 DIALOGEVENT:MTrAdv_OffT061subtitle
@@ -46843,7 +46851,7 @@ CREDITS:JackThanks4
 END
 
 CREDITS:GameSpyNotice
-"This product contains software technology licensed from\nGameSpy Industries, Inc. © 1999-2005  \nGameSpy Industries, Inc. GameSpy and the \n'Powered by GameSpy' design are trademarks \nof GameSpy Industries, Inc.  All rights reserved."
+"This product contains software technology licensed from\nGameSpy Industries, Inc. Â© 1999-2005  \nGameSpy Industries, Inc. GameSpy and the \n'Powered by GameSpy' design are trademarks \nof GameSpy Industries, Inc.  All rights reserved."
 END
 
 CREDITS:TeamThanks
@@ -46863,7 +46871,7 @@ CREDITS:AdditionalLocalization
 END
 
 CREDITS:Miles
-"Uses Miles Sound System. \n Copyright © 1991-2006 \n by RAD Game Tools, Inc."
+"Uses Miles Sound System. \n Copyright Â© 1991-2006 \n by RAD Game Tools, Inc."
 END
 
 
@@ -46883,7 +46891,7 @@ SUBTITLE:CS12_01
 END
 
 SUBTITLE:CS12_02
-"*As time is now running out, Elrond forms a plan to unite the Elves and Dwarves of the North against Sauron’s advancing armies."
+"*As time is now running out, Elrond forms a plan to unite the Elves and Dwarves of the North against Sauronâ€™s advancing armies."
 END
 
 SUBTITLE:CS12_03
@@ -46971,7 +46979,7 @@ SUBTITLE:CS31_01
 END
 
 SUBTITLE:CS31_02
-"*The Goblins have a new leader who carries out Sauron’s tyrannical will."
+"*The Goblins have a new leader who carries out Sauronâ€™s tyrannical will."
 END
 
 SUBTITLE:CS31_03
@@ -46979,7 +46987,7 @@ SUBTITLE:CS31_03
 END
 
 SUBTITLE:CS32_01
-"*In the battle’s aftermath, a lone dwarven prisoner is freed and desperately begs for Glorfindel and Gloin’s help."
+"*In the battleâ€™s aftermath, a lone dwarven prisoner is freed and desperately begs for Glorfindel and Gloinâ€™s help."
 END
 
 SUBTITLE:CS32_02
@@ -47047,7 +47055,7 @@ SUBTITLE:CS41_03
 END
 
 SUBTITLE:CS42_01
-"*Sauron’s dragon has been defeated and the Dwarven ring reclaimed."
+"*Sauronâ€™s dragon has been defeated and the Dwarven ring reclaimed."
 END
 
 SUBTITLE:CS42_02
@@ -47175,7 +47183,7 @@ SUBTITLE:CS56_06
 END
 
 SUBTITLE:CS61_01
-"*While the heroes wing their way East, Sauron’s armies march north from Dol Guldur and arrive at a human settlement on the river Celduin."
+"*While the heroes wing their way East, Sauronâ€™s armies march north from Dol Guldur and arrive at a human settlement on the river Celduin."
 END
 
 SUBTITLE:CS61_02
@@ -47211,7 +47219,7 @@ SUBTITLE:CS65_01
 END
 
 SUBTITLE:CS65_02
-"*Sauron’s leaders turn to them, seeking a possible ally in this brewing war against the Dwarves."
+"*Sauronâ€™s leaders turn to them, seeking a possible ally in this brewing war against the Dwarves."
 END
 
 SUBTITLE:CS66_01
@@ -47235,7 +47243,7 @@ SUBTITLE:CS71_02
 END
 
 SUBTITLE:CS71_03
-"*Sauron’s armies lay siege to Minas Tirith in the South."
+"*Sauronâ€™s armies lay siege to Minas Tirith in the South."
 END
 
 SUBTITLE:CS71_04
@@ -47287,7 +47295,7 @@ SUBTITLE:CS76_01
 END
 
 SUBTITLE:CS81_01
-"*…slay the Enemy to the last!"
+"*â€¦slay the Enemy to the last!"
 END
 
 SUBTITLE:CS81_02
@@ -47299,7 +47307,7 @@ SUBTITLE:CS81_03
 END
 
 SUBTITLE:CS82_01
-"*With Sauron’s forces defeated, Galadriel at last throws down the walls of Dol Guldur."
+"*With Sauronâ€™s forces defeated, Galadriel at last throws down the walls of Dol Guldur."
 END
 
 SUBTITLE:CS82_02
@@ -47323,7 +47331,7 @@ SUBTITLE:CS85_03
 END
 
 SUBTITLE:CS86_01
-"*Sauron’s reign over the Northern Lands is unopposed as the leaders of the Free People are no more."
+"*Sauronâ€™s reign over the Northern Lands is unopposed as the leaders of the Free People are no more."
 END
 
 SUBTITLE:CS86_02
@@ -47343,7 +47351,7 @@ SUBTITLE:CS99_03
 END
 
 SUBTITLE:CS99_04
-"*After the Fellowship is assembled and heads south to destroy the source of Sauron’s power, the remaining leaders prepare for the Dark Lord’s assault upon the northern lands."
+"*After the Fellowship is assembled and heads south to destroy the source of Sauronâ€™s power, the remaining leaders prepare for the Dark Lordâ€™s assault upon the northern lands."
 END
 
 SUBTITLE:CS99_05
@@ -47520,15 +47528,15 @@ CONTROLBAR:PurchaseUpgradeElvenForgedBlades
 END
 
 CONTROLBAR:PurchaseUpgradeGondorBasicTraining
-"Purchase Ba&nner Carrier"
+"Purchase Banner &Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardBasicTraining
-"Purchase Ba&nner Carrier"
+"Purchase Banner &Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorBasicTraining
-"Purchase Ba&nner Carrier"
+"Purchase Banner &Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorBasicTrainingForMumakil
@@ -47536,11 +47544,11 @@ CONTROLBAR:PurchaseUpgradeMordorBasicTrainingForMumakil
 END
 
 CONTROLBAR:PurchaseUpgradeWildBasicTraining
-"Purchase Ba&nner Carrier"
+"Purchase Banner &Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenBasicTraining
-"Purchase Ba&nner Carrier"
+"Purchase Banner &Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining
@@ -47560,7 +47568,7 @@ TOOLTIP:LackMordorBarbedArrow
 END
 
 CONTROLBAR:BarbedArrowUpgrade
-"Barbed Arrows"
+"Barbed Arro&ws"
 END
 
 // Power Spells
@@ -47667,7 +47675,7 @@ END
 // Theoden
 
 CONTROLBAR:TheodenMount
-"Mount / Dismount [&M]"
+"Mount / Dismount [&R]"
 END
 
 CONTROLBAR:KingsFavor 
@@ -47711,15 +47719,15 @@ END
 //Faramir
 
 CONTROLBAR:ToggleFaramirWeapons
-"Toggle Weapon [&T]"
+"Toggle Weapon [&R]"
 END
 
 CONTROLBAR:WoundingArrow
-"Wounding Arrow [&W]"
+"Wounding Arrow [&T]"
 END
 
 CONTROLBAR:FaramirKnightRanger
-"Knight/Ranger Toggle [&M]"
+"Knight/Ranger Toggle [&C]"
 END
 
 CONTROLBAR:CaptainofGondor
@@ -47748,11 +47756,11 @@ END
 //Aragorn
 
 CONTROLBAR:Athelas
-"Athelas [&T]"
+"Athelas [&R]"
 END
 
 CONTROLBAR:BladeMaster
-"Blade Master [&R]"
+"Blade Master [&T]"
 END
 
 CONTROLBAR:Elendil
@@ -47782,15 +47790,15 @@ CONTROLBAR:LightningSword
 END
 
 CONTROLBAR:GandalfMount
-"Mount / Dismount [&M]"
+"Mount / Dismount [&C]"
 END
 
 CONTROLBAR:IstariLight
-"Istari Light [&I]"
+"Istari Light [&V]"
 END
 
 CONTROLBAR:WordofPower
-"Word of Power [&P]"
+"Word of Power [&B]"
 END
 
 CONTROLBAR:ToolTipShadowfax
@@ -47879,7 +47887,7 @@ END
 //Haldir
 
 CONTROLBAR:ToggleElvenWarriorWeapons
-"Alternate Weapon [&T]"
+"Alternate Weapon [&R]"
 END
 
 CONTROLBAR:HaldirGoldenArrow
@@ -47929,7 +47937,7 @@ CONTROLBAR:ArrowWind
 END
 
 CONTROLBAR:ToolTipKnifeFighter
-"Requires Level 5 \n left click to activate \n Alternate melee attack \n +35% Armor"
+"Requires Level 5 \n Alternate melee attack \n Legolas gains +35% Armor \n Left click to activate"
 END
 
 
@@ -48196,11 +48204,11 @@ END
 // Lurtz
 
 CONTROLBAR:ToggleLurtzWeapon
-"Toggle Weapon [&T]"
+"Toggle Weapon [&R]"
 END
 
 CONTROLBAR:SpecialAbilityLurtzCarnage
-"Carnage [&R]"
+"Carnage [&T]"
 END
 
 CONTROLBAR:SpecialAbilityLurtzCripple
@@ -48221,19 +48229,19 @@ END
 // Wormtongue
 
 CONTROLBAR:VenomousWords
-"Venomous Words [&V]"
+"Venomous Words [&R]"
 END
 
 CONTROLBAR:Escape
-"Escape [&C]"
+"Escape [&T]"
 END
 
 CONTROLBAR:Backstab
-"Back Stab [&T]"
+"Back Stab [&C]"
 END
 
 CONTROLBAR:CorrodeAllegiance
-"Corrode Allegiance [&R]"
+"Corrode Allegiance [&V]"
 END
 
 CONTROLBAR:TooltipEscape
@@ -48260,7 +48268,7 @@ CONTROLBAR:Dominate
 END
 
 CONTROLBAR:ThunderBolt
-"Thunderbolt [&T]"
+"Thunderbolt [&B]"
 END
 
 //========================= MORDOR
@@ -48300,11 +48308,11 @@ End
 // Black Rider
 
 CONTROLBAR:BlackRiderMorgulBlade
-"Morgul Blade [&B]"
+"Morgul Blade [&C]"
 END
 
 CONTROLBAR:ScreechBlackRider
-"Screech [&C]"
+"Screech [&V]"
 END
 
 CONTROLBAR:ToolTipBuildMordorMumakil
@@ -48328,7 +48336,7 @@ END
 // Fellbeast
 
 CONTROLBAR:Screech
-"Screech [&C]"
+"Screech [&R]"
 END
 
 
@@ -48379,19 +48387,19 @@ END
 
 
 CONTROLBAR:GoblinKingSkullTotem
-"Skull Totem [&T]"
+"Skull Totem [&R]"
 END
 
 CONTROLBAR:GoblinKingMount
-"Mount / Dismount [&M]"
+"Mount / Dismount [&T]"
 End
 
 CONTROLBAR:GoblinKingPoisonedStinger
-"Poisoned Stinger [&R]"
+"Poisoned Stinger [&V]"
 END
 
 CONTROLBAR:GoblinKingSpawnFireDrakes
-"Call From the Deep [&C]"
+"Call From the Deep [&B]"
 END
 
 CONTROLBAR:ToolTipGoblinKingMount
@@ -48401,15 +48409,15 @@ END
 // Shelob
 
 CONTROLBAR:WildShelobInstillTerror
-"Instill Terror [&I]"
+"Instill Terror [&R]"
 END
 
 CONTROLBAR:WildShelobPoisonedStinger
-"Poisoned Stinger [&R]"
+"Poisoned Stinger [&T]"
 End
 
 CONTROLBAR:SpecialAbilityWildShelobTunnel
-"Tunnel [&T]"
+"Tunnel [&C]"
 END
 
 
@@ -48420,7 +48428,7 @@ CONTROLBAR:SpecialAbilityDrogothFireball
 END
 
 CONTROLBAR:SpecialAbilityWingBlast
-"Wing Blast [&W]"
+"Wing Blast [&T]"
 END
 
 CONTROLBAR:SpecialAbilityDrogothFireflight
@@ -48480,11 +48488,11 @@ CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
-"&Charge Attack"
+"Cha&rge Attack"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
-"Purchase Ba&nner Carrier"
+"Purchase Banner &Carrier"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
@@ -48500,11 +48508,11 @@ CONTROLBAR:ElvenCloak
 END
 
 CONTROLBAR:ChargeAttack
-"&Charge Attack"
+"Cha&rge Attack"
 END
 
 CONTROLBAR:ConstructRohanPeasant
-"P&easants"
+"&Peasants"
 END
 
 CONTROLBAR:DeadEye
@@ -48525,4 +48533,226 @@ END
 
 GUI:PleaseSelectBuddy
 "Chat message could not be sent.  One or more friends need to be selected."
+END
+
+
+//---------------------Misha edited hotkeys begin-------------------------//
+CONTROLBAR:ConstructGondorKnightHorde
+"&Gondor Knights"
+END
+
+CONTROLBAR:ConstructWildSpiderlingHorde
+"Spiderlin&gs"
+END
+
+CONTROLBAR:ConstructWildMarauderHorde
+"Half-Troll Maraude&rs"
+END
+
+CONTROLBAR:ConstructIsengardPikemen
+"Uruk Pik&emen"
+END
+
+CONTROLBAR:ToggleLineFormation
+"Line Forma&tion"
+END
+
+CONTROLBAR:TogglePorcupineFormation
+"Por&cupine Formation"
+END
+
+CONTROLBAR:ToggleBlockFormation
+"Shield &Wall Formation"
+END
+
+CONTROLBAR:ToggleShieldWallFormation
+"Shield &Wall Formation"
+END
+
+CONTROLBAR:ToggleLooseFormation
+"Loose Forma&tion"
+END
+
+CONTROLBAR:ConstructDwarvenPhalanxHorde
+"Ph&alanxes"
+END
+
+CONTROLBAR:ConstructDwarvenMenOfDale
+"Men of &Dale"
+END
+
+CONTROLBAR:ConstructElvenMithlondSentryHorde
+"Train Mi&thlond Sentries"
+END
+
+CONTROLBAR:BuildElvenRivendellLancers
+"Train &Rivendell Lancers"
+END
+
+CONTROLBAR:Knife
+"Knife [&T]"
+End
+
+CONTROLBAR:SpecialAbilityOilBarrels
+"Oil Ba&rrels"
+End
+
+CONTROLBAR:ThrowFireBombs
+"Firebombs [&T]"
+End
+
+CONTROLBAR:Trollfindgoblintothrow
+"P&ick up Goblin"
+END
+
+CONTROLBAR:PurchaseUpgradeGondorBasicTraining
+"Purchase Ba&nner Carrier"
+END
+
+CONTROLBAR:PurchaseUpgradeIsengardBasicTraining
+"Purchase Ba&nner Carrier"
+END
+
+CONTROLBAR:PurchaseUpgradeMordorBasicTraining
+"Purchase Ba&nner Carrier"
+END
+
+CONTROLBAR:PurchaseUpgradeMordorBasicTrainingForMumakil
+"Purchase Ba&nner Carrier"
+END
+
+CONTROLBAR:PurchaseUpgradeWildBasicTraining
+"Purchase Ba&nner Carrier"
+END
+
+CONTROLBAR:PurchaseUpgradeElvenBasicTraining
+"Purchase Ba&nner Carrier"
+END
+
+CONTROLBAR:TheodenMount
+"Mount / Dismount [&M]"
+END
+
+CONTROLBAR:ToggleFaramirWeapons
+"Toggle Weapon [&T]"
+END
+
+CONTROLBAR:WoundingArrow
+"Wounding Arrow [&W]"
+END
+
+CONTROLBAR:FaramirKnightRanger
+"Knight/Ranger Toggle [&M]"
+END
+
+CONTROLBAR:Athelas
+"Athelas [&T]"
+END
+
+CONTROLBAR:BladeMaster
+"Blade Master [&R]"
+END
+
+CONTROLBAR:GandalfMount
+"Mount / Dismount [&M]"
+END
+
+CONTROLBAR:IstariLight
+"Istari Light [&I]"
+END
+
+CONTROLBAR:WordofPower
+"Word of Power [&P]"
+END
+
+CONTROLBAR:ToggleElvenWarriorWeapons
+"Alternate Weapon [&T]"
+END
+
+CONTROLBAR:ToggleLurtzWeapon
+"Toggle Weapon [&T]"
+END
+
+CONTROLBAR:SpecialAbilityLurtzCarnage
+"Carnage [&R]"
+END
+
+CONTROLBAR:VenomousWords
+"Venomous Words [&V]"
+END
+
+CONTROLBAR:Escape
+"Escape [&C]"
+END
+
+CONTROLBAR:Backstab
+"Back Stab [&T]"
+END
+
+CONTROLBAR:CorrodeAllegiance
+"Corrode Allegiance [&R]"
+END
+
+CONTROLBAR:ThunderBolt
+"Thunderbolt [&T]"
+END
+
+CONTROLBAR:BlackRiderMorgulBlade
+"Morgul Blade [&B]"
+END
+
+CONTROLBAR:ScreechBlackRider
+"Screech [&C]"
+END
+
+CONTROLBAR:Screech
+"Screech [&C]"
+END
+
+CONTROLBAR:GoblinKingSkullTotem
+"Skull Totem [&T]"
+END
+
+CONTROLBAR:GoblinKingMount
+"Mount / Dismount [&M]"
+End
+
+CONTROLBAR:GoblinKingPoisonedStinger
+"Poisoned Stinger [&R]"
+END
+
+CONTROLBAR:GoblinKingSpawnFireDrakes
+"Call From the Deep [&C]"
+END
+
+CONTROLBAR:WildShelobInstillTerror
+"Instill Terror [&I]"
+END
+
+CONTROLBAR:WildShelobPoisonedStinger
+"Poisoned Stinger [&R]"
+End
+
+CONTROLBAR:SpecialAbilityWildShelobTunnel
+"Tunnel [&T]"
+END
+
+CONTROLBAR:SpecialAbilityWingBlast
+"Wing Blast [&W]"
+END
+
+CONTROLBAR:DwarvenGuardianChargeAttack
+"&Charge Attack"
+END
+
+CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
+"Purchase Ba&nner Carrier"
+END
+
+CONTROLBAR:ChargeAttack
+"&Charge Attack"
+END
+
+CONTROLBAR:ConstructRohanPeasant
+"P&easants"
 END

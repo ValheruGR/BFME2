@@ -4,7 +4,7 @@
 
 //------------------------------------------------------------
 
-// String lines for new Patch 1.09v2	-----	2019
+// String lines for new Patch 1.09v3	-----	2019
 
 //------------------------------------------------------------
 
@@ -17,12 +17,102 @@
 
 //------------------------------------------------------------
 CONTROLBAR:nothing09v2
-"nic"
+"nothing"
 END
 //------------------------------------------------------------
 CONTROLBAR:nothingDesc09v2
-"nic"
+"nothing"
 END
+//------------------------------------------------------------
+CONTROLBAR:GoblinKingBattleFrenzy09v3
+"Battle Frenzy"
+End
+CONTROLBAR:ToolTipFueltheFires09v3
+"Player Lumber Mills gain +65% Production, \n and +20% Armor. \n Allied Lumber Mills gain +65% production. \n Fortress must be present"
+End
+UPGRADE:BarbedArrowUpgrade09v3
+"Barbed Arrows"
+END
+CONTROLBAR:TooltipUndermine09v3
+"Places a Mine Shaft anywhere on the map \n Does not need shroud reveal but cannot be casted near any enemy fortress. \n Mine Shaft becomes immediately connected to tunnel network \n Deals high damage at spawn point and light damage in the perimeter\n Left click icon then left click on visible location"
+END
+CONTROLBAR:ToolTipPersonalFlood09v3
+"Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective against cavalry and Black Riders. \n Level 4 Arwen summons 3 Floodhorses.\n Level 7 Arwen summons 5 Floodhorses.  \n Level 10 Arwen summons 7 Floodhorses. \nLeft click icon then left click on target"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
+"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n If Eagle Nest upgrade is present, together can heal any allied Flying unit"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
+"Allows summoning of a Giant Eagle \n If Mystic Fountains upgrade is present, together can heal any allied Flying unit"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v3
+"Heals nearby Allies. \n Continuosly damages enemy units adjacent to the Fortress. \n If Dragon Nest upgrade is present, together can heal any allied Flying unit."
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
+"Allows summoning of a Fire Drake \n Reduces Drogoth revival time by 10% \n If Razor Spines upgrade is present, together can heal any allied Flying unit"
+END
+CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
+"Requires Level 6 \n Poisons the enemy causing damage during 30 seconds \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
+End
+CONTROLBAR:ToolTipGoblinKingPoisonedStinger09v3
+"Requires Level 6 \n Can only use when mounted \n Targeted enemy takes poison damage during 25 seconds. \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
+END
+TOOLTIP:ToolTipBoromir09v3
+"Boromir gains +7% speed at level 7"
+END
+CONTROLBAR:ToolTipBuildGoblinCaveTroll09v3
+"Strong vs. Swordsmen and Structures \n Cave Troll gains +4% speed at level 3, 6 and 9"
+END
+TOOLTIP:ToolTipBuildDwarvenCatapult09v3
+"Strong vs. Structures and Siege units \n The Catapult gains +7% speed at level 7"
+END
+CONTROLBAR:ToolTipBuildDwarvenCatapult09v3
+"Requires Level 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +7% speed at level 7"
+END
+CONTROLBAR:ToolTipBuildMordorMumakil09v3
+"Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
+END
+CONTROLBAR:TooltipDragonStrike09v3
+"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed. \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
+END
+TOOLTIP:ToolTipFellbeast09v3
+"Fellbeast attack radius against units is improved at level 6 and 10."
+END
+CONTROLBAR:ToolTipDominate09v3
+"Requires Level 8 \n Gain control of targeted enemies permanently. \n Left click icon then left click on target enemies"
+END
+CONTROLBAR:TooltipSummonTomBombadil09v3
+"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. It's told that he's the human personification of Eru, who created Ëa. \n Allies near Tom Bombadil gain +25% Armor and earn experience 25% faster. \n «Armor BUFF» \n Left click icon then left click on pathable location"
+END
+CONTROLBAR:Draft09v3
+"D&raft"
+End
+CONTROLBAR:ToolTipDraft09v3
+"Arms the peasants of this battalion. \n When equipped, increases the damage done by Melee Weapons \n and significantly reduces the amount of damage taken."
+END
+CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
+"Disguise (&V)"
+END
+CONTROLBAR:SummonWargAllies09v3
+"Summon Warg Allies (&V)"
+End
+CONTROLBAR:SummonWargAlliesDesc09v3
+"Requires Level 10 \n Summons a group of Warg Riders of Isengard to Sharku's side \n Left click icon then left click on pathable location"
+END
+//------------------------------------------------------------
+
+
+
+
+//------------------------------------------------------------
+
+// String lines for Patch 1.09v2
+
+//------------------------------------------------------------
+
+
+
+
 //------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
 "Kní¾e ithilienský [&B]"
@@ -35,7 +125,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
 "Zvy¹uje dohled pevnosti a odhaluje zamaskované jednotky. \n Odemyká pou¾ití pohledu Palantíru na hráèských jednotkách."
 END
 CONTROLBAR:TooltipIvoryTowerVision09v2
-"Odhalí celý opar neznáma. \n Hráèské jednotky na mapì získají +10 % k rychlosti. \n Typ modifikátoru: RESISTANT IvoryTowerBonus' \n Trvá 30 sekund."
+"Odhalí celý opar neznáma. \n Hráèské jednotky na mapì získají +10 % k rychlosti. \n «IvoryTower BUFF» \n Trvá 30 sekund."
 End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Vy¾aduje 3. úroveò. \n Vybaví tuto hordu jedovými váèky. \n Nepøátelé budou otráveni jedem, který jim bude prùbì¾nì udìlovat po¹kození."
@@ -134,7 +224,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Vy¾aduje 10. úroveò. \n Oznaèení hrdinové v oblasti úèinku budou mít své nabíjení speciálních schopností obnoveny na 80 % spotøeby. \n Nepøátel¹tí hrdinové okolo Èernoknì¾ného krále utrpí -25 % k útoku. \n Typ modifikátoru: 'STUN WitchKingCurse' \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Vy¾aduje 10. úroveò. \n Oznaèení hrdinové v oblasti úèinku budou mít své nabíjení speciálních schopností obnoveny na 80 % spotøeby. \n Nepøátel¹tí hrdinové okolo Èernoknì¾ného krále utrpí -25 % k útoku. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Pøísun surovin z dané budovy se doèasnì zvý¹í na 350%. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou budovu produkující suroviny."
@@ -146,22 +236,22 @@ CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
 "Vylep¹ené zacházení se ¹títem"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
-"Zakoupeno vylep¹ení vùdcovství pevnosti: \n Nedaleké jednotky získají +25 % k útoku \n a o +25 % rychlej¹í pøírùstek zku¹eností. \n Typ modifikátoru: RESISTANT 'Damage Inspiring'"
+"Zakoupeno vylep¹ení vùdcovství pevnosti: \n Nedaleké jednotky získají +25 % k útoku \n a o +25 % rychlej¹í pøírùstek zku¹eností. \n <Damage BUFF>"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Silní proti kopiníkùm.\n Bonus hordy: \n Skøetù musí být nejménì 100\n získají +33 % k útoku a +25 % k rychlosti. \n Typ modifikátoru: RESISTANT 'HordeBonus' "
+"Silní proti kopiníkùm.\n Bonus hordy: \n Skøetù musí být nejménì 100\n získají +33 % k útoku a +25 % k rychlosti. \n <HordeBonus BUFF> "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Silní proti luèi¹tníkùm a \n budovám produkujícím jednotky. \n Roklin¹tí kopiníci získají na 5. úrovni +7 % k rychlosti."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Vy¾aduje 7. úroveò. \n Théoden a blízká jízda získají +99 % k obranì, \n +25 % k útoku a stanou se imunní proti zpomalení po¹lapáním. \n Jízda také získá imunitu vùèi strachu. \n Typ modifikátoru: 'DEBUFF_PROOF GloriousCharge'. \n Aby Théoden mohl tuto schopnost pou¾ít, musí být v sedle. \n Aktivace se provádí levým tlaèítkem my¹i."
+"Vy¾aduje 7. úroveò. \n Théoden a blízká jízda získají +99 % k obranì, \n +25 % k útoku a stanou se imunní proti zpomalení po¹lapáním. \n Jízda také získá imunitu vùèi strachu. \n Aby Théoden mohl tuto schopnost pou¾ít, musí být v sedle. \n Aktivace se provádí levým tlaèítkem my¹i."
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Silní proti pìchotì.\nODOLNÍ vùèi zadupání.\n Bonus hordy: \n Skøetù musí být nejménì 100,\n získají +33 % k útoku +20 % k rychlosti. \n Typ modifikátoru: RESISTANT 'HordeBonus'  "
+"Silní proti pìchotì.\nODOLNÍ vùèi zadupání.\n Bonus hordy: \n Skøetù musí být nejménì 100,\n získají +33 % k útoku +20 % k rychlosti. \n <HordeBonus BUFF>  "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Silní proti pìchotì.\n Bonus hordy: \n Skøetù musí být nejménì 70.\n získají +33 % k útoku +15 % k rychlosti. \n Typ modifikátoru: RESISTANT 'HordeBonus'  "
+"Silní proti pìchotì.\n Bonus hordy: \n Skøetù musí být nejménì 70.\n získají +33 % k útoku +15 % k rychlosti. \n <HordeBonus BUFF>  "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -173,27 +263,27 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Vy¾aduje 7. úroveò. \n V¹echny blízké spojenecké jednotky získají odolnost vùèi strachu a chaosu. \n Typ modifikátoru: 'DEBUFF_PROOF StubbornPride' \n Dáin doká¾e odhalit zamaskované jednotky.\n Pasivní schopnost."
+"Vy¾aduje 7. úroveò. \n V¹echny blízké spojenecké jednotky získají odolnost vùèi strachu a chaosu. \n Dáin doká¾e odhalit zamaskované jednotky.\n Pasivní schopnost."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Spojeneètí enti poblí¾ Stromovouse získají \n +25 % k obranì, +10 % k rychlosti \n +20 % k dostøelu a +25 % ke zku¹enostem \n Typ modifikátoru: TreeBeard LEADERSHIP'\n Pasivní schopnost."
+"Spojeneètí enti poblí¾ Stromovouse získají \n +25 % k obranì, +10 % k rychlosti \n +20 % k dostøelu a +25 % ke zku¹enostem \n «TreeBeard LEADERSHIP» \n Pasivní schopnost."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Vy¾aduje 5. úroveò. \n Spojenecké jednotky poblí¾ Lurtze získají +50 % k útoku \n a o 25 % rychlej¹í pøírùstek zku¹eností. \n Typ modifikátoru: 'Damage LEADERSHIP' \n Pasivní schopnost."
+"Vy¾aduje 5. úroveò. \n Spojenecké jednotky poblí¾ Lurtze získají +50 % k útoku \n a o 25 % rychlej¹í pøírùstek zku¹eností. \n «Damage LEADERSHIP» \n Pasivní schopnost."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n Typ modifikátoru: RESISTANT PalantirBonus'. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n «Palantir BUFF». \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n hordes at its target area\n Typ modifikátoru: RESISTANT FarsightBonus'. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n hordes at its target area\n «Farsight BUFF». \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Typ modifikátoru: RESISTANT 'ElvenWood' \n Overrides LEADERSHIP effects from the allies. \n Enemy cavalry deceleration rate is raised by +250%. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Enemy cavalry deceleration rate is raised by +250%. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 CONTROLBAR:MenWood09v2
 "Lidský les"
@@ -204,31 +294,31 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Typ modifikátoru: RESISTANT 'Darkness' \n Trvá 180 sekund. \n Sílu aktivuje¹ levým tlaèítkem my¹i."
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n <Darkness BUFF> \n Trvá 180 sekund. \n Sílu aktivuje¹ levým tlaèítkem my¹i."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n Typ modifikátoru: 'DEBUFF' \n Neutralizes LEADERSHIP, BUFF and RESISTANT modifiers from the enemy. \n Trvá 150 sekund. \n Sílu aktivuje¹ levým tlaèítkem my¹i."
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP and BUFF»  \n Trvá 150 sekund. \n Sílu aktivuje¹ levým tlaèítkem my¹i."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Vy¾aduje 4. úroveò. \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Typ modifikátoru: 'DEBUFF_PROOF MightyRage' \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n Typ modifikátoru: 'DEBUFF' \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybrané jednotky."
+"Vy¾aduje 4. úroveò. \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n «DEBUFF» «Neutralizes LEADERSHIP» \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybrané jednotky."
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
-"Vy¾aduje 2. úroveò. \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n Typ modifikátoru: 'DEBUFF' \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Pasivní schopnost."
+"Vy¾aduje 2. úroveò. \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n «DEBUFF» «Neutralizes LEADERSHIP» \n Pasivní schopnost."
 End
 CONTROLBAR:TooltipCaveBats09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Typ modifikátoru: 'DEBUFF' \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 CONTROLBAR:TooltipCrebain09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Typ modifikátoru: 'DEBUFF' \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Vy¾aduje 3. úroveò. \n Nearby allied cavalry gain +25% Damage, +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n Typ modifikátoru: RESISTANT 'High-Tier Hero' \n Pasivní schopnost."
+"Vy¾aduje 3. úroveò. \n Nearby allied cavalry gain +25% Damage, +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n <HighTierHero BUFF> \n Pasivní schopnost."
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
-"Vy¾aduje 2. úroveò. \n Order Guardians to charge the enemy \n Guardians gain +25% Speed and +25% Armor. \n Causes meta impact \n Typ modifikátoru: 'Armor BUFF'  \n Levým tlaèítkem my¹i klikni na ikonu a poté na cíl."
+"Vy¾aduje 2. úroveò. \n Order Guardians to charge the enemy \n Guardians gain +25% Speed and +25% Armor. \n Causes meta impact \n <Armor LEADERSHIP>  \n Levým tlaèítkem my¹i klikni na ikonu a poté na cíl."
 END
 CONTROLBAR:ToolTipBarbedArrows09v2
 "Vy¾aduje 2. úroveò.\n Causes meta impact and increased damage \n Levým tlaèítkem my¹i klikni na ikonu a poté na cíl."
@@ -246,7 +336,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Typ modifikátoru: RESISTANT 'HordeBonus'  "
+"Strong vs. Resource Buildings\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n <HordeBonus BUFF>  "
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers"
@@ -261,126 +351,126 @@ CONTROLBAR:ToolTipElvenCloakThranduil09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Vy¾aduje 2. úroveò. \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Typ modifikátoru: 'Armor BUFF' \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Vy¾aduje 2. úroveò. \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n <Armor LEADERSHIP> \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Allies near the Drummer Troll gain +35% armor and +25% experience. \n Nearby trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Typ modifikátoru: 'Armor BUFF' \n Pasivní schopnost."
+"Allies near the Drummer Troll gain +35% armor and +25% experience. \n Nearby trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n <Armor LEADERSHIP> \n Pasivní schopnost."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Target allies gain +40% Damage, 50% experience & +10% speed. \n Typ modifikátoru: 'Damage LEADERSHIP' \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybrané jednotky."
+"Target allies gain +40% Damage, 50% experience & +10% speed. \n «Damage LEADERSHIP» \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybrané jednotky."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Targeted allies gain +50% Damage and +50% experience. \n Typ modifikátoru: 'Damage LEADERSHIP' \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybrané jednotky."
+"Targeted allies gain +50% Damage and +50% experience. \n «Damage LEADERSHIP» \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybrané jednotky."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Targeted allies gain +50% Damage and +25% experience. \n Typ modifikátoru: 'Damage LEADERSHIP' \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybrané jednotky."
+"Targeted allies gain +50% Damage and +25% experience. \n «Damage LEADERSHIP» \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybrané jednotky."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Taints an area of terrain \n Allied hordes gain +35% armor. \n Typ modifikátoru: 'Armor BUFF' \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Taints an area of terrain \n Allied hordes gain +35% armor. \n <Armor LEADERSHIP> \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 CONTROLBAR:ToolTipMenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor. \n Typ modifikátoru: 'Armor BUFF' \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Creates lush terrain. \n Allied units gain +35% armor. \n <Armor LEADERSHIP> \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster. \n Typ modifikátoru: RESISTANT 'Damage Inspiring' \n Allies gain terror and fear resistance. \n Typ modifikátoru: 'LEADERSHIP AntiFear'\n Increases command point limit by 10"
+"Allies near the Statue gain \n +25% Damage, \n and earn experience 25% faster. \n <Damage BUFF> \n Allies gain terror and fear resistance. \n «AntiFear LEADERSHIP» \n Increases command point limit by 10"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Spojenecké jednotky poblí¾ sochy získají \n +25 % k obranì \n a o 25 % rychlej¹í pøírùstek zku¹eností. \n Typ modifikátoru: RESISTANT 'Armor Inspiring' \nZvy¹uje limit velitelských bodù o 10."
+"Spojenecké jednotky poblí¾ sochy získají \n +25 % k obranì \n a o 25 % rychlej¹í pøírùstek zku¹eností. \n <Armor BUFF> \nZvy¹uje limit velitelských bodù o 10."
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Allies near the Statue gain 35% Armor. \n Typ modifikátoru: 'Armor BUFF' \n Allies gain terror and fear resistance. \n Typ modifikátoru: RESISTANT AntiFear'\n Increases command point limit by 10"
+"Allies near the Statue gain 35% Armor. \n <Armor LEADERSHIP> \n Allies gain terror and fear resistance. \n «AntiFear BUFF» \n Increases command point limit by 10"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Typ modifikátoru: RESISTANT 'Damage Inspiring'"
+"Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n <Damage BUFF>"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Provides 25% damage and 25% experience to nearby troops \n Typ modifikátoru: RESISTANT 'Damage Inspiring' \n Reduces hero cost by 10%  \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Provides 25% damage and 25% experience to nearby troops \n <Damage BUFF> \n Reduces hero cost by 10%  \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster. \n Typ modifikátoru: RESISTANT 'Damage Inspiring' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +25% Damage \n and earn experience 25% faster. \n <Damage BUFF> \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage and 25% experience \n Typ modifikátoru: RESISTANT 'Damage Inspiring' \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +25% Damage and 25% experience \n <Damage BUFF> \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n Typ modifikátoru: 'DEBUFF_PROOF WargHowl' \n Overrides LEADERSHIP effects from the wargs. \n Aktivace se provádí levým tlaèítkem my¹i."
+"Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage \n «Overrides Damage LEADERSHIP» \n Aktivace se provádí levým tlaèítkem my¹i."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Typ modifikátoru: RESISTANT 'High-Tier Hero' \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n <HighTierHero BUFF> \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Vy¾aduje 8. úroveò. \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Enemy units are scared while active. \n Typ modifikátoru: 'Armor BUFF' \n Aktivace se provádí levým tlaèítkem my¹i."
+"Vy¾aduje 8. úroveò. \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Enemy units are scared while active. \n <Armor LEADERSHIP> \n Aktivace se provádí levým tlaèítkem my¹i."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Allies near Gimli gain +35% armor. \n Typ modifikátoru: 'Armor BUFF' \n Pasivní schopnost."
+"Allies near Gimli gain +35% armor. \n <Armor LEADERSHIP> \n Pasivní schopnost."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Allies near King Dain gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Typ modifikátoru: RESISTANT 'High-Tier Hero' \n Pasivní schopnost."
+"Allies near King Dain gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n <HighTierHero BUFF> \n Pasivní schopnost."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Typ modifikátoru: RESISTANT 'Damage Inspiring' \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n <Damage BUFF> \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Vy¾aduje 4. úroveò. \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Nearby Trolls gain experience 25% faster and autoheal +50 health points. \n Typ modifikátoru: RESISTANT 'Armor Inspiring'\n Pasivní schopnost."
+"Vy¾aduje 4. úroveò. \n Allies near the Goblin King gain +25% Armor and earn experience 25% faster. \n Nearby Trolls gain experience 25% faster and autoheal +50 health points. \n <Armor BUFF>\n Pasivní schopnost."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Vy¾aduje 3. úroveò. \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Typ modifikátoru: RESISTANT 'High-Tier Hero' \n Pasivní schopnost."
+"Vy¾aduje 3. úroveò. \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n <HighTierHero BUFF> \n Pasivní schopnost."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Vy¾aduje 3. úroveò. \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n Typ modifikátoru: RESISTANT 'Armor Inspiring' \n Pasivní schopnost."
+"Vy¾aduje 3. úroveò. \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n <Armor BUFF> \n Pasivní schopnost."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Vy¾aduje 4. úroveò. \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster. \n Typ modifikátoru: 'Damage LEADERSHIP' \n Pasivní schopnost."
+"Vy¾aduje 4. úroveò. \n Allies near Haldir gain \n +50% Damage and earn experience +25% faster. \n «Damage LEADERSHIP» \n Pasivní schopnost."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster. \n Typ modifikátoru: RESISTANT 'Armor Inspiring' \n Pasivní schopnost."
+"Allies near Tom Bombadil gain \n +25% Armor, \n and earn experience +25% faster. \n <Armor BUFF> \n Pasivní schopnost."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Vy¾aduje 4. úroveò. \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Typ modifikátoru: RESISTANT 'High-Tier Hero' \n Pasivní schopnost."
+"Vy¾aduje 4. úroveò. \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n <HighTierHero BUFF> \n Pasivní schopnost."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Vy¾aduje 3. úroveò. \n Cavalry near Eomer gain 35% Armor. \n Typ modifikátoru: 'Armor BUFF' \n Pasivní schopnost."
+"Vy¾aduje 3. úroveò. \n Cavalry near Eomer gain 35% Armor. \n <Armor LEADERSHIP> \n Pasivní schopnost."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Vy¾aduje 7. úroveò. \n Allies near Faramir gain +35% Armor. \n Typ modifikátoru: 'Armor BUFF' \n Pasivní schopnost."
+"Vy¾aduje 7. úroveò. \n Allies near Faramir gain +35% Armor. \n <Armor LEADERSHIP> \n Pasivní schopnost."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Vy¾aduje 5. úroveò. \n Allies near Boromir gain +50% Damage \n and earn experience +25% faster. \n Typ modifikátoru: 'Damage LEADERSHIP' \n Pasivní schopnost."
+"Vy¾aduje 5. úroveò. \n Allies near Boromir gain +50% Damage \n and earn experience +25% faster. \n «Damage LEADERSHIP» \n Pasivní schopnost."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Vy¾aduje 2. úroveò. \n Allies near Theoden gain +25% Damage \n and earn experience +25% faster. \n Typ modifikátoru: RESISTANT 'Damage Inspiring' \n Pasivní schopnost."
+"Vy¾aduje 2. úroveò. \n Allies near Theoden gain +25% Damage \n and earn experience +25% faster. \n <Damage BUFF> \n Pasivní schopnost."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Allies near Saruman gain +25% Armor and earn experience 25% faster. \n Typ modifikátoru: RESISTANT 'Armor Inspiring' \n Pasivní schopnost."
+"Allies near Saruman gain +25% Armor and earn experience 25% faster. \n <Armor BUFF> \n Pasivní schopnost."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -396,15 +486,15 @@ CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"Enemy hordes and heroes in the target location suffer \n -40% speed and -50% rate of fire. \n Trvá 19 sekund. \n Typ modifikátoru: 'STUN' \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybrané jednotky."
+"Enemy hordes and heroes in the target location suffer \n -40% speed and -50% rate of fire. \n Trvá 19 sekund.  «Neutralizes LEADERSHIP» \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybrané jednotky."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Vy¾aduje 4. úroveò. \n Enemy hordes and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Trvá 30 sekund. \n Typ modifikátoru: 'DEBUFF' \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybrané jednotky."
+"Vy¾aduje 4. úroveò. \n Enemy hordes and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Trvá 30 sekund. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybrané jednotky."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters in the same area suffer \n -25% armor and -25% damage. \n Trvá 60 sekund. \n Typ modifikátoru: 'DEBUFF' \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n\n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters in the same area suffer \n -25% armor and -25% damage. \n Trvá 60 sekund. \n «DEBUFF» «Neutralizes LEADERSHIP» \n\n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
@@ -538,10 +628,10 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to experience gaining \n Provides resistance to fear and terror \n Typ modifikátoru: 'DEBUFF_PROOF ElvenGrace' \n Trvá 12 sekund. \n Aktivace se provádí levým tlaèítkem my¹i."
+"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to experience gaining \n Provides resistance to fear and terror \n Trvá 12 sekund. \n Aktivace se provádí levým tlaèítkem my¹i."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Reveals an area of the map \n Provides +27.5% vision reveal range to any allied unit for 25 second. \n Doesn't affect heroes. \n Typ modifikátoru: 'DEBUFF_PROOF ElrondFarseeing' \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Reveals an area of the map \n Provides +27.5% vision reveal range to any allied unit for 25 second. \n Doesn't affect heroes. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
@@ -582,7 +672,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Pøivolá okolo Sau&rona tøi Plameny záhuby."
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Vy¾aduje výzkum vylep¹ení v pevnosti. \n\n Nedalekým spojeneckým jednotkám poskytuje +25 % k útoku a o 25 % rychlej¹í pøírùstek zku¹eností. \n Typ modifikátoru: RESISTANT 'Damage Inspiring'"
+"Vy¾aduje výzkum vylep¹ení v pevnosti. \n\n Nedalekým spojeneckým jednotkám poskytuje +25 % k útoku a o 25 % rychlej¹í pøírùstek zku¹eností. \n <Damage BUFF>"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Vy¾aduje výzkum vylep¹ení v pevnosti. \n\n Léèí nedaleké spojenecké jednotky. \n Ka¾dých 10 sekund doplní jednu jednotku na hordu."
@@ -611,7 +701,7 @@ CONTROLBAR:Fire_pit
 "Plamenná jáma [&V]"
 END
 CONTROLBAR:TooltipFire_pit
-"Ohni¹tì, které léèí nedaleké spojenecké jednotky. \n Ka¾dých 5 sekund doplní jednu jednotku na hordu. \n Odhaluje zamaskované jednotky. \n Nedaleké spojenecké jednotky získají +5 % k obranì. \n Typ modifikátoru: RESISTANT 'HobbitCampfire'"
+"Ohni¹tì, které léèí nedaleké spojenecké jednotky. \n Ka¾dých 5 sekund doplní jednu jednotku na hordu. \n Odhaluje zamaskované jednotky. \n Nedaleké spojenecké jednotky získají +5 % k obranì. \n «Campfire BUFF»"
 END
 CONTROLBAR:FireWorks
 "Ohòostroj / Rozmístit [&V]"

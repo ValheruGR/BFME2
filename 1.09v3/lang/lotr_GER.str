@@ -60,10 +60,10 @@ CONTROLBAR:ToolTipBuildMordorMumakil09v3
 "Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
 END
 CONTROLBAR:TooltipDragonStrike09v3
-"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed. \n Modifier Type: «DragonStrike STUN» \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
+"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed.  \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
 END
 CONTROLBAR:ToolTipEyeofSauron09v3
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n «HighTierHero BUFF» \n Left click icon then left click on target area"
 END
 TOOLTIP:ToolTipFellbeast09v3
 "Fellbeast attack radius against units is improved at level 6 and 10."
@@ -72,7 +72,7 @@ CONTROLBAR:ToolTipDominate09v3
 "Requires Level 8 \n Gain control of targeted enemies permanently. \n Left click icon then left click on target enemies"
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
-"Rufe Tom Bombadil, einen mächtigen, alten Gesellen mit Hut und Vorliebe zu singen. Es wird erzählt, dass er die menschliche Verkörperung von Eru sei, welcher die Ëa erschuf. Bringt +25% Rüstung und +25% schnelleres sammeln von Erfahrung für Einheiten in der Nähe. \n Modifikatortyp: «Armor RESISTANT» \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet."
+"Rufe Tom Bombadil, einen mächtigen, alten Gesellen mit Hut und Vorliebe zu singen. Es wird erzählt, dass er die menschliche Verkörperung von Eru sei, welcher die Ëa erschuf. Bringt +25% Rüstung und +25% schnelleres sammeln von Erfahrung für Einheiten in der Nähe. \n «Armor BUFF» \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet."
 CONTROLBAR:Draft09v3
 "Heerschau (&R)"
 End
@@ -114,7 +114,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
 "Erhöht die Sichtweite der Festung und deckt getarnte Eineten aus. \n Schaltet die Verwendung der Palantirsicht bei Verbündeten frei."
 END
 CONTROLBAR:TooltipIvoryTowerVision09v2
-"Deckt die gesamte Karte auf \n Spielereinheiten auf der Karte gewinnen +10% an Geschwindigkeit \n Modifikatortyp: «RESISTANT IvoryTower» \n Hält 30 Sekunden an"
+"Deckt die gesamte Karte auf \n Spielereinheiten auf der Karte gewinnen +10% an Geschwindigkeit \n «IvoryTower BUFF» \n Hält 30 Sekunden an"
 End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Voraussetzung Stufe 3 \n Rüstet diese Horde mit Giftsäcken aus \n Fügt Gegnern Giftschaden zu und erzeugt Schaden über Zeit"
@@ -212,7 +212,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Voraussetzung: Stufe 10 \n Die Spezialfähigkeit-Timer der Helden im Umfeld des Effekts werden auf "80% verwendet" gesetzt. \n Feindliche Helden um den Hexenkönig erleiden -25 % Schaden. \n Modifikatortyp: «WitchKing STUN»  \n Linksklicke auf das Symbol und anschließend auf ein Gebiet"
+"Voraussetzung: Stufe 10 \n Die Spezialfähigkeit-Timer der Helden im Umfeld des Effekts werden auf "80% verwendet" gesetzt. \n Feindliche Helden um den Hexenkönig erleiden -25 % Schaden.   \n Linksklicke auf das Symbol und anschließend auf ein Gebiet"
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Die Ressourcenausgabe des ausgewählten Gebäudes wird vorübergehend auf 300 % erhöht. \n Linksklick auf das Symbol und dann Linksklick auf das Zielressourcengebäude "
@@ -224,22 +224,22 @@ CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
 "verbessertes Schildzerschmettern"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
-"Festungsführungs-Upgrade gekauft: \n Einheiten in der Nähe erhalten +25 % Schaden \n und sammeln +25 % schneller Erfahrung \n Modifikatortyp: «Damage RESISTANT»"
+"Festungsführungs-Upgrade gekauft: \n Einheiten in der Nähe erhalten +25 % Schaden \n und sammeln +25 % schneller Erfahrung \n «Damage BUFF»"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Stark gegen Pikeniere\n Hordenbonus: \n Gesammelte Goblins in einer Anzahl von mindestens 100\n erhalten +33 % Schaden +25 % Geschwindigkeit. \n Modifikatortyp: «RESISTANT HordeBonus»  "
+"Stark gegen Pikeniere\n Hordenbonus: \n Gesammelte Goblins in einer Anzahl von mindestens 100\n erhalten +33 % Schaden +25 % Geschwindigkeit. \n «HordeBonus BUFF»  "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Stark gegen Bogenschützen und \n Produktionsgebäude. \n Lanzenträger erhalten auf Stufe 5 +7 % Geschwindigkeit."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Voraussetzung Stufe 7 \n Theoden und Kavallerie in seiner Nähe erhalten +99 % Rüstung, \n +25 % Schaden und werden immun gegen Verlangsamung durch Trampeln \n Kavallerie wird für diese Dauer auch furchtlos . \n Modifikatortyp: «GloriousCharge». \n Theoden muss beritten sein, um diese Fähigkeit zu nutzen \n Linksklicken zum aktivieren"
+"Voraussetzung Stufe 7 \n Theoden und Kavallerie in seiner Nähe erhalten +99 % Rüstung, \n +25 % Schaden und werden immun gegen Verlangsamung durch Trampeln \n Kavallerie wird für diese Dauer auch furchtlos .  \n Theoden muss beritten sein, um diese Fähigkeit zu nutzen \n Linksklicken zum aktivieren"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Stark gegen Infanterie\n Immun gegen Trampeln\n Hordenbonus: \n Gesammelte Goblins in einer Anzahl von mindestens 100\n erhalten +33 % Schaden +20 % Geschwindigkeit. \n Modifikatortyp: «RESISTANT HordeBonus»"
+"Stark gegen Infanterie\n Immun gegen Trampeln\n Hordenbonus: \n Gesammelte Goblins in einer Anzahl von mindestens 100\n erhalten +33 % Schaden +20 % Geschwindigkeit. \n «HordeBonus BUFF»"
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Stark gegen Infanterie\n Hordenbonus: \n Gesammelte Orks in einer Anzahl von mindestens 70\n erhalten +33 % Schaden +15 % Geschwindigkeit. \n Modifikatortyp: «RESISTANT HordeBonus»"
+"Stark gegen Infanterie\n Hordenbonus: \n Gesammelte Orks in einer Anzahl von mindestens 70\n erhalten +33 % Schaden +15 % Geschwindigkeit. \n «HordeBonus BUFF»"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -251,27 +251,27 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Voraussetzung Stufe 7 \n Gewährt allen Verbündeten in der Nähe Widerstand gegen Angst und Terror \n Modifikatortyp: «StubbornPride» \n Dain kann Tarnung aufdecken.\n Passive Fähigkeit"
+"Voraussetzung Stufe 7 \n Gewährt allen Verbündeten in der Nähe Widerstand gegen Angst und Terror \n «StubbornPride» \n Dain kann Tarnung aufdecken.\n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Verbündete Ents in der Nähe von Baumbart erhalten \n +25 % Rüstung, +10 % Geschwindigkeit \n +20 % Reichweite und +25 % Erfahrung \n Modifikatortyp: «LEADERSHIP TreeBeard»\n \n Passive Fähigkeit"
+"Verbündete Ents in der Nähe von Baumbart erhalten \n +25 % Rüstung, +10 % Geschwindigkeit \n +20 % Reichweite und +25 % Erfahrung \n «TreeBeard LEADERSHIP» \n \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Voraussetzung Stufe 5 \n Verbündete in der Nähe von Lurtz erhalten \n +35 % Schaden \n und sammeln 25 % schneller Erfahrung. \n Modifikatortyp: «Damage LEADERSHIP» \n \n Passive Fähigkeit"
+"Voraussetzung Stufe 5 \n Verbündete in der Nähe von Lurtz erhalten \n +35 % Schaden \n und sammeln 25 % schneller Erfahrung. \n «Damage LEADERSHIP» \n \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spioniert feindlichen Truppen aus\n\n Gewährt \n Einheiten im Zielgebiet einen vorübergehenden Geschwindigkeitsbonus von +15%  \n Modifikatortyp: «RESISTANT Palantir». \n \n Linksklick-Symbol dann Linksklick auf Zielbereich"
+"Spioniert feindlichen Truppen aus\n\n Gewährt \n Einheiten im Zielgebiet einen vorübergehenden Geschwindigkeitsbonus von +15%  \n «Palantir BUFF». \n \n Linksklick-Symbol dann Linksklick auf Zielbereich"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spioniert feindlichen Truppen aus\n Gewährt \n Horden im Zielgebiet einen vorübergehenden Reichweitenbonus von +35 %\n Modifikatortyp: «RESISTANT Farsight». \n Linksklick-Symbol dann Linksklick auf Zielbereich"
+"Spioniert feindlichen Truppen aus\n Gewährt \n Horden im Zielgebiet einen vorübergehenden Reichweitenbonus von +35 %\n «Farsight BUFF». \n Linksklick-Symbol dann Linksklick auf Zielbereich"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Erschafft reichhaltiges Gelände. \n Verbündete Einheiten erhalten +35 % Rüstung, \n +25 % Schaden und sammeln 25 % schneller Erfahrung.  \n Die Verzögerungsrate der feindlichen Kavallerie wird um +250 % erhöht. \n Modifikatortyp: «RESISTANT ElvenWood» \n Überschreibt LEADERSHIP effekte der Verbündeten. \n Linksklick-Symbol, dann Linksklick auf Zielbereich" 
+"Erschafft reichhaltiges Gelände. \n Verbündete Einheiten erhalten +35 % Rüstung, \n +25 % Schaden und sammeln 25 % schneller Erfahrung.  \n Die Verzögerungsrate der feindlichen Kavallerie wird um +250 % erhöht. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Linksklick-Symbol, dann Linksklick auf Zielbereich" 
 END
 CONTROLBAR:MenWood09v2
 "Menschenwald"
@@ -282,31 +282,31 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Hebt die Heilung von Frostregen, Dunkelheit und Wolkebruch auf. \n Bedeckt vorübergehend die gesamte Karte mit Dunkelheit \n Verbündete Horden erhalten +50 % Schaden, +33 % Rüstung und sammeln 50-mal schneller Erfahrung \n Monster erhalten +25 % Schaden, +33 % Rüstung und +50 % Erfahrung \n  Modifikatortyp: «RESISTANT Darkness» \n Hält 180 Sekunden an. \n Linksklick zum Aktivieren" 
+"Hebt die Heilung von Frostregen, Dunkelheit und Wolkebruch auf. \n Bedeckt vorübergehend die gesamte Karte mit Dunkelheit \n Verbündete Horden erhalten +50 % Schaden, +33 % Rüstung und sammeln 50-mal schneller Erfahrung \n Monster erhalten +25 % Schaden, +33 % Rüstung und +50 % Erfahrung \n  «Darkness BUFF» \n Hält 180 Sekunden an. \n Linksklick zum Aktivieren" 
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Hebt die Heilung von Frostregen, Dunkelheit und Wolkebruch auf. \n Bedeckt die Karte vorübergehend mit Regen \n Alle feindlichen Horden und Monster auf der Karte leiden  \n -25% armor and -25% damage. \n Modifikatortyp: «DEBUFF neutralizer of LEADERSHIP, BUFF and RESISTANT» \n Dauert 150 Sekunden. \n Linksklick zum Aktivieren"
+"Hebt die Heilung von Frostregen, Dunkelheit und Wolkebruch auf. \n Bedeckt die Karte vorübergehend mit Regen \n Alle feindlichen Horden und Monster auf der Karte leiden  \n -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP and BUFF» \n Dauert 150 Sekunden. \n Linksklick zum Aktivieren"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Voraussetzung Stufe 4 \n Angezielte befreundete Einheiten erhalten \n+20% Geschwindigkeit, +25% Schaden und +25% erweiterte Sicht.  \n Modifikatortyp: «MightyRage» \n Feindliche Horden am selben Ort erleiden \n -25 % Rüstung und -25 % Schaden \n Modifikatortyp: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Linksklick-Symbol, dann Linksklick auf Zieleinheiten"
+"Voraussetzung Stufe 4 \n Angezielte befreundete Einheiten erhalten \n+20% Geschwindigkeit, +25% Schaden und +25% erweiterte Sicht.   \n Feindliche Horden am selben Ort erleiden \n -25 % Rüstung und -25 % Schaden \n «DEBUFF» «Neutralizes LEADERSHIP» \n Linksklick-Symbol, dann Linksklick auf Zieleinheiten"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
-"Voraussetzung Stufe 2 \n Gegnerische Horden in der Nähe erleiden -25 % Rüstung und -25 % Schaden.  \n Modifikatortyp: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Passive Fähigkeit"
+"Voraussetzung Stufe 2 \n Gegnerische Horden in der Nähe erleiden -25 % Rüstung und -25 % Schaden.  \n «DEBUFF» «Neutralizes LEADERSHIP» \n Passive Fähigkeit"
 End
 CONTROLBAR:TooltipCaveBats09v2
-"Enthüllt den Kartenschleier der Karte und erkennt getarnte Einheiten \n Feindliche Horden erleiden -25 % Rüstung und -25 % Schaden. \n Modifikatortyp: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Linksklick-Symbol, dann Linksklick auf Zielbereich"
+"Enthüllt den Kartenschleier der Karte und erkennt getarnte Einheiten \n Feindliche Horden erleiden -25 % Rüstung und -25 % Schaden. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Linksklick-Symbol, dann Linksklick auf Zielbereich"
 END
 CONTROLBAR:TooltipCrebain09v2
-"Enthüllt den Kartenschleier und deckt getarnte Einheiten auf \n Feindliche Horden erleiden -25 % Rüstung und -25 % Schaden. \n Modifikatortyp: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Linksklick-Symbol, dann Linksklick auf Zielbereich"
+"Enthüllt den Kartenschleier und deckt getarnte Einheiten auf \n Feindliche Horden erleiden -25 % Rüstung und -25 % Schaden. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Linksklick-Symbol, dann Linksklick auf Zielbereich"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Voraussetzung: Stufe 3 \n Verbündete Kavallerie-Einheiten in der Nähe verursachen +25% Schaden, erhalten +25% Rüstung und sammeln doppelt so schnell Erfahrung \n Zertrampeln-Abbremsung verbündeter Kavallerie-Einheiten halbiert \n Modifikatortyp: «RESISTANT High-Tier Hero» \n Passive Fähigkeit"
+"Voraussetzung: Stufe 3 \n Verbündete Kavallerie-Einheiten in der Nähe verursachen +25% Schaden, erhalten +25% Rüstung und sammeln doppelt so schnell Erfahrung \n Zertrampeln-Abbremsung verbündeter Kavallerie-Einheiten halbiert \n «HighTierHero BUFF» \n Passive Fähigkeit"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
-"Voraussetzung: Stufe 2 \n Hetze die Hüter auf den Feind \n Die Hüter sind +25% schneller, erhalten +25% Rüstung und werfen den Gegner zurück \n Modifikatortyp: «Armor BUFF»  \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Voraussetzung: Stufe 2 \n Hetze die Hüter auf den Feind \n Die Hüter sind +25% schneller, erhalten +25% Rüstung und werfen den Gegner zurück \n «Armor LEADERSHIP»  \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 CONTROLBAR:ToolTipBarbedArrows09v2
 "Voraussetzung Stufe 2\n Verursacht starkte Einschläge und erhöhten Schaden \n Linksklick auf das Symbol und dann Linksklick auf das Ziel "
@@ -324,7 +324,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Heilt Verbündete in der Nähe. \n Ergänze Einheiten von Horden alle 6,5 Sekunden. \n Reduziert die Kosten für die Wiederbelebung von Helden um 5% \n Verringert die Wiederbelebungszeit von Helden um 15% \n\n Ermöglicht das beschwören des Einsamen Turms"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Stark gegen Ressourcengebäude\n Horden Bonus: \n Versammelte Horden von mindestens 70 Orks \n +33 % Schaden +20 % Geschwindigkeit erhalten. \n Modifikatortyp: «RESISTANT HordeBonus»  "
+"Stark gegen Ressourcengebäude\n Horden Bonus: \n Versammelte Horden von mindestens 70 Orks \n +33 % Schaden +20 % Geschwindigkeit erhalten. \n «HordeBonus BUFF»  "
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Heilt Verbündete in der Nähe. \n Ergänze Einheiten von Horden alle 6,5 Sekunden. \n Reduziert die Wiederbelebungszeit von Helden um 25 % \n Fügt der Festung zusätzliche Trefferpunkte hinzu\n\n Ermöglicht das beschwören des Einsamen Turms"
@@ -338,125 +338,125 @@ CONTROLBAR:ToolTipElvenCloakThranduil09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Voraussetzung: Stufe 2 \n Platziert ein Schädeltotem, das bis zu seiner Zerstörung auf der Karte bleibt \n Lichtet den Nebel und verleiht Verbündeten in der Nähe +35% Rüstung und +25% Erfahrung \n Modifikatortyp: «Armor BUFF»\n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Voraussetzung: Stufe 2 \n Platziert ein Schädeltotem, das bis zu seiner Zerstörung auf der Karte bleibt \n Lichtet den Nebel und verleiht Verbündeten in der Nähe +35% Rüstung und +25% Erfahrung \n «Armor LEADERSHIP» \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Verbündete in der Nähe des Trommler-Trolls erhalten +35% Rüstung und +25% Erfahrung \n Trolle erhalten +15% Rüstung, +15% Erfahrung und heilen sich selbst schneller \n Modifikatortyp: «Armor BUFF» \n \n Passive Fähigkeit"
+"Verbündete in der Nähe des Trommler-Trolls erhalten +35% Rüstung und +25% Erfahrung \n Trolle erhalten +15% Rüstung, +15% Erfahrung und heilen sich selbst schneller \n «Armor LEADERSHIP» \n \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Die gewählten Verbündeten verursachen +40% Schaden, erhalten 50% Erfahrung und +10% Geschwindigkeit \n Modifikatortyp: «Damage LEADERSHIP» \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Die gewählten Verbündeten verursachen +40% Schaden, erhalten 50% Erfahrung und +10% Geschwindigkeit \n «Damage LEADERSHIP» \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 End
 CONTROLBAR:TooltipRallyingCall09v2
-"Die gewählten Verbündeten verursachen +50% Schaden und erhalten +50% Erfahrung\n Modifikatortyp: «Damage LEADERSHIP» \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Die gewählten Verbündeten verursachen +50% Schaden und erhalten +50% Erfahrung\n «Damage LEADERSHIP» \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Die gewählten Verbündeten verursachen +50% Schaden und erhalten +25% Erfahrung\n Modifikatortyp: «Damage LEADERSHIP» \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Die gewählten Verbündeten verursachen +50% Schaden und erhalten +25% Erfahrung\n «Damage LEADERSHIP» \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Verdirbt einen Landstrich \n Alle Verbündeten erhalten +35% Rüstung \n Modifikatortyp: «Armor BUFF» \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Verdirbt einen Landstrich \n Alle Verbündeten erhalten +35% Rüstung \n «Armor LEADERSHIP» \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMenWood09v2
-"Bringt die Umgebung zum Blühen \n Verbündeten Einheiten erhalten +35% Rüstung. \n Modifikatortyp: «Armor BUFF» \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Bringt die Umgebung zum Blühen \n Verbündeten Einheiten erhalten +35% Rüstung. \n «Armor LEADERSHIP» \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Verbündete in der Nähe der Statue \n verursachen +25% Schaden und \n sammeln 25% mehr Erfahrung  \n Modifikatortyp: «Damage RESISTANT» \n Allies gain terror and fear resistance. \n Modifikatortyp: «LEADERSHIP AntiFear»\n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n verursachen +25% Schaden und \n sammeln 25% mehr Erfahrung  \n «Damage BUFF» \n Allies gain terror and fear resistance. \n «AntiFear LEADERSHIP» \n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Verbündete in der Nähe der Statue \n erhalten +25% Rüstung und sammeln \n 25% schneller Erfahrung \n Modifikatortyp: «Armor RESISTANT» \n \nErhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n erhalten +25% Rüstung und sammeln \n 25% schneller Erfahrung \n «Armor BUFF» \n \nErhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Verbündete in der Nähe der Statue \n erhalten +35% Rüstung \n Modifikatortyp: «Armor BUFF» \n Allies gain terror and fear resistance. \n Modifikatortyp: «RESISTANT AntiFear»\n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n erhalten +35% Rüstung \n «Armor LEADERSHIP» \n Allies gain terror and fear resistance. \n «AntiFear BUFF» \n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Senkt die Nahkampf-Anfälligkeit der Festung \n Verbündete Einheiten in der näheren Umgebung erhalten: \n +25% mehr Schaden und +25% schneller Erfahrung\n Modifikatortyp: «Damage RESISTANT»"
+"Senkt die Nahkampf-Anfälligkeit der Festung \n Verbündete Einheiten in der näheren Umgebung erhalten: \n +25% mehr Schaden und +25% schneller Erfahrung\n «Damage BUFF»"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Verleiht Truppen in der näheren Umgebung +25% Schaden und +25% Erfahrung  \n Modifikatortyp: «Damage RESISTANT» \n Senkt Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden \n um 10% \n Senkt Kosten für Baumeister um 20%"
+"Verleiht Truppen in der näheren Umgebung +25% Schaden und +25% Erfahrung  \n «Damage BUFF» \n Senkt Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden \n um 10% \n Senkt Kosten für Baumeister um 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Verbündete in der Nähe der Festung \n erhalten +25% Schaden und +25% mehr Erfahrung \n Modifikatortyp: «Damage RESISTANT» \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
+"Verbündete in der Nähe der Festung \n erhalten +25% Schaden und +25% mehr Erfahrung \n «Damage BUFF» \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Verbündete in der Nähe der Festung erhalten \n +25% Schaden und +25% Erfahrung  \n Modifikatortyp: «Damage RESISTANT» \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung \n von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
+"Verbündete in der Nähe der Festung erhalten \n +25% Schaden und +25% Erfahrung  \n «Damage BUFF» \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung \n von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Warge verursachen +55% Schaden, aber \n verlieren -10% Rüstung gegen Lanzen und Gebäude \n Modifikatortyp: «Howl» \n Neutralisiert alle vorherigen LEADERSHIP-Bonus. \n Aktivieren mit Linksklick"
+"Warge verursachen +55% Schaden, aber \n verlieren -10% Rüstung gegen Lanzen und Gebäude. \n «Overrides Damage LEADERSHIP». \n Aktivieren mit Linksklick"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Beschwört Saurons Auge \n Enttarnt versteckte Feinde und deine Mutter \n Verbündete verursachen +25% Schaden, erhalten +25% Rüstung \n und sammeln Erfahrung 50% schneller. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifikatortyp: «RESISTANT High-Tier Hero» \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Beschwört Saurons Auge \n Enttarnt versteckte Feinde und deine Mutter \n Verbündete verursachen +25% Schaden, erhalten +25% Rüstung \n und sammeln Erfahrung 50% schneller. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n «HighTierHero BUFF» \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Voraussetzung Stufe 8 \n Verbündete Einheiten, Monster und Helden in einem großen Gebiet um Glorfindel werden während der Aktivität geheilt. \n Verbündete Horden füllen ihre Einheiten auf, während sie aktiv sind. \n Verbündete Einheiten erhalten +33 % Rüstung und +50 % Schaden, während sie aktiv sind. \n Feindliche Einheiten haben Angst, während sie aktiv sind. \n Modifikatortyp: «Armor BUFF» \n Linksklick zum Aktivieren"
+"Voraussetzung Stufe 8 \n Verbündete Einheiten, Monster und Helden in einem großen Gebiet um Glorfindel werden während der Aktivität geheilt. \n Verbündete Horden füllen ihre Einheiten auf, während sie aktiv sind. \n Verbündete Einheiten erhalten +33 % Rüstung und +50 % Schaden, während sie aktiv sind. \n Feindliche Einheiten haben Angst, während sie aktiv sind. \n «Armor LEADERSHIP» \n Linksklick zum Aktivieren"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Verbündete in Gimlis Nähe erhalten \n +35% Rüstung \n Modifikatortyp: «Armor BUFF» \n \n Passive Fähigkeit"
+"Verbündete in Gimlis Nähe erhalten \n +35% Rüstung \n «Armor LEADERSHIP» \n \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Verbündete in der Nähe von König Dain gewinnen \n +25% Schaden, +25% Rüstung, \n und 50 % schneller Erfahrung sammeln. \n Modifikatortyp: «RESISTANT High-Tier Hero» \n Passive Fähigkeit"
+"Verbündete in der Nähe von König Dain gewinnen \n +25% Schaden, +25% Rüstung, \n und 50 % schneller Erfahrung sammeln. \n «HighTierHero BUFF» \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Verbündete in der Nähe des Banners erhalten \n +25% Schaden \n und sammeln 25 % schneller Erfahrung. \n Modifikatortyp: «Damage RESISTANT» \n Heilt den Streitwagen langsam, wenn er nicht im Kampf ist. \n Fügt dem Streitwagen mehrere Phalanxen hinzu \n Deckt getarnte Einheiten auf"
+"Verbündete in der Nähe des Banners erhalten \n +25% Schaden \n und sammeln 25 % schneller Erfahrung. \n «Damage BUFF» \n Heilt den Streitwagen langsam, wenn er nicht im Kampf ist. \n Fügt dem Streitwagen mehrere Phalanxen hinzu \n Deckt getarnte Einheiten auf"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Voraussetzung: Stufe 4 \n Verbündete in der Nähe des Helden \n erhalten +25% Rüstung und \n 25% schneller Erfahrung \n Trolle in der Nähe sammeln 25 % schneller Erfahrung \n und heilen automatisch +50 Gesundheitspunkte. \n Modifikatortyp: «Armor RESISTANT» \n Passive Fähigkeit"
+"Voraussetzung: Stufe 4 \n Verbündete in der Nähe des Helden \n erhalten +25% Rüstung und \n 25% schneller Erfahrung \n Trolle in der Nähe sammeln 25 % schneller Erfahrung \n und heilen automatisch +50 Gesundheitspunkte. \n «Armor BUFF» \n Passive Fähigkeit"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Voraussetzung Stufe 3 \n Verbündete in der Nähe von Elrond gewinnen \n +25% Schaden, +25% Rüstung, \n und sammeln 50 % schneller Erfahrung. \n Modifikatortyp: «RESISTANT High-Tier Hero» \n Passive Fähigkeit"
+"Voraussetzung Stufe 3 \n Verbündete in der Nähe von Elrond gewinnen \n +25% Schaden, +25% Rüstung, \n und sammeln 50 % schneller Erfahrung. \n «HighTierHero BUFF» \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Voraussetzung Stufe 2 \n Kavallerie in der Nähe von Arwen erhält +25 % Rüstung und sammelt 25 % schneller Erfahrung. \n Modifikatortyp: «Armor RESISTANT» \n Passive Fähigkeit"
+"Voraussetzung Stufe 2 \n Kavallerie in der Nähe von Arwen erhält +25 % Rüstung und sammelt 25 % schneller Erfahrung. \n «Armor BUFF» \n Passive Fähigkeit"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Voraussetzung Stufe 4 \n Verbündete in der Nähe von Haldir gewinnen \n +35 % Schaden und sammeln 25 % schneller Erfahrung. \n Modifikatortyp: «Damage LEADERSHIP» \n Passive Fähigkeit"
+"Voraussetzung Stufe 4 \n Verbündete in der Nähe von Haldir gewinnen \n +35 % Schaden und sammeln 25 % schneller Erfahrung. \n «Damage LEADERSHIP» \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Verbündete in Tom Bombadils Nähe verursachen \n erhalten +25% Rüstung und \n sammeln Erfahrung +25% schneller \n Modifikatortyp: «Armor RESISTANT» \n \n Passive Fähigkeit"
+"Verbündete in Tom Bombadils Nähe verursachen \n erhalten +25% Rüstung und \n sammeln Erfahrung +25% schneller \n «Armor BUFF» \n \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Voraussetzung Stufe 4 \n Verbündete in der Nähe von Aragorn erhalten +25 % Schaden, +25 % Rüstung und sammlen 50 % schneller Erfahrung. \n Modifikatortyp: «RESISTANT High-Tier Hero» \n Passive Fähigkeit"
+"Voraussetzung Stufe 4 \n Verbündete in der Nähe von Aragorn erhalten +25 % Schaden, +25 % Rüstung und sammlen 50 % schneller Erfahrung. \n «HighTierHero BUFF» \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Voraussetzung Stufe 3 \n Kavallerie in der Nähe von Eomer erhält 35% Rüstung. \n Modifikatortyp: «Armor BUFF» \n Passive Fähigkeit"
+"Voraussetzung Stufe 3 \n Kavallerie in der Nähe von Eomer erhält 35% Rüstung. \n «Armor LEADERSHIP» \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Voraussetzung Stufe 7 \n Verbündete in der Nähe von Faramir erhalten \n +35 % Rüstung. \n Modifikatortyp: «Armor BUFF» \n Passive Fähigkeit"
+"Voraussetzung Stufe 7 \n Verbündete in der Nähe von Faramir erhalten \n +35 % Rüstung. \n «Armor LEADERSHIP» \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Voraussetzung Stufe 5 \n Verbündete in der Nähe von Boromir erhalten \n +35 % Schaden und sammeln 25 % schneller Erfahrung. \n Modifikatortyp: «Damage LEADERSHIP» \n Passive Fähigkeit"
+"Voraussetzung Stufe 5 \n Verbündete in der Nähe von Boromir erhalten \n +35 % Schaden und sammeln 25 % schneller Erfahrung. \n «Damage LEADERSHIP» \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Voraussetzung Stufe 2 \n Verbündete in der Nähe von Theoden erhalten \n +25 % Schaden und sammeln 25 % schneller Erfahrung. \n Modifikatortyp: «Damage RESISTANT» \n Passive Fähigkeit"
+"Voraussetzung Stufe 2 \n Verbündete in der Nähe von Theoden erhalten \n +25 % Schaden und sammeln 25 % schneller Erfahrung. \n «Damage BUFF» \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Verbündete in der Nähe von Saruman erhalten +25 % Rüstung und sammeln 25 % schneller Erfahrung. \n Modifikatortyp: «Armor RESISTANT» \n Passive Fähigkeit"
+"Verbündete in der Nähe von Saruman erhalten +25 % Rüstung und sammeln 25 % schneller Erfahrung. \n «Armor BUFF» \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -468,19 +468,19 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Voraussetzung Stufe 2 \n Befiehl dem Olifanten, deine Gegner niederzutrampeln .\n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Voraussetzung Stufe 2 \n Befiehl dem Olifanten, deine Gegner niederzutrampeln. \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"Feindliche Horden und Helden am Zielort erleiden \n -40% Geschwindigkeit und -50% Feuerrate. \n Für die Dauer von 19 Sekunden. \n Modifikatortyp: «Wormtongue STUN» \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Linksklick-Symbol, dann Linksklick auf Zieleinheiten"
+"Feindliche Horden und Helden am Zielort erleiden \n -40% Geschwindigkeit und -50% Feuerrate. \n Für die Dauer von 19 Sekunden.  «Neutralizes LEADERSHIP» \n Linksklick-Symbol, dann Linksklick auf Zieleinheiten"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Voraussetzung Stufe 4 \n Feindliche Horden und Helden am Zielort erleiden \n -25% Rüstung, -25% Schaden und -5% Geschwindigkeit. \n Für die Dauer von 30 Sekunden. \n Modifikatortyp: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Linksklick-Symbol, dann Linksklick auf Zieleinheiten"
+"Voraussetzung Stufe 4 \n Feindliche Horden und Helden am Zielort erleiden \n -25% Rüstung, -25% Schaden und -5% Geschwindigkeit. \n Für die Dauer von 30 Sekunden. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Linksklick-Symbol, dann Linksklick auf Zieleinheiten"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Verbündnete Einheiten im Nebel werden getarnt. \n Feindliche Horden, Helden und Monster im selben Gebiet erleiden \n -25% Rüstung und -25% Schaden. \n Für die Dauer von 60 Sekunden. \n Modifikatortyp: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n\n Linksklick-Symbol, dann Linksklick auf Zieleinheiten"
+"Verbündnete Einheiten im Nebel werden getarnt. \n Feindliche Horden, Helden und Monster im selben Gebiet erleiden \n -25% Rüstung und -25% Schaden. \n Für die Dauer von 60 Sekunden. \n «DEBUFF» «Neutralizes LEADERSHIP» \n\n Linksklick-Symbol, dann Linksklick auf Zieleinheiten"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
@@ -613,10 +613,10 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heilt 750 Gesundheitspunkte von Horden und Helden in der Nähe. \n Horden und Monster in der Nähe erhalten einen Zuwachs von \n +15% auf Lebenspunkte und +25% auf Erfahrungsgewinne \n Bietet Widerstand gegen Angst und Terror \n Modifikatortyp: «ElvenGrace»\n Für die Dauer von 12 Sekunden. \n Linksklick zum Aktivieren"
+"Heilt 750 Gesundheitspunkte von Horden und Helden in der Nähe. \n Horden und Monster in der Nähe erhalten einen Zuwachs von \n +15% auf Lebenspunkte und +25% auf Erfahrungsgewinne \n Bietet Widerstand gegen Angst und Terror  \n Für die Dauer von 12 Sekunden. \n Linksklick zum Aktivieren"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Denkt einen Teil der Karte auf \n Gewährt jeder verbündeten Einheit 25 Sekunden lang +27,5% Sichtweite. \n Hat keinen Einfluss auf Helden. \n Modifikatortyp: «ElrondFarseeing» \n Linksklick-Symbol dann Linksklick auf Zielbereich"
+"Denkt einen Teil der Karte auf \n Gewährt jeder verbündeten Einheit 25 Sekunden lang +27,5% Sichtweite. \n Hat keinen Einfluss auf Helden.  \n Linksklick-Symbol dann Linksklick auf Zielbereich"
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
@@ -657,7 +657,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Rufe drei Feuer des Untergangs um Sauron herum in einem &Kreis"
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Nahe Verbündete erhalten +25% Schaden und +25% Erfahrung \n Modifikatortyp: «Damage RESISTANT»"
+"Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Nahe Verbündete erhalten +25% Schaden und +25% Erfahrung \n «Damage BUFF»"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Setzt das Erforschen der Verbesserung in der Festung vorraus. \n\n Heilt nahe Verbündete. \n Stockt eine Einheit pro Horde alle 10 Sekunden auf"
@@ -686,7 +686,7 @@ CONTROLBAR:Fire_pit
 "Feuer Grube (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Lagerfeuer, welches nahe Verbündete heilt \n Stockt 1 Einheit pro Horde alle 5 Sekunden auf. \n Gibt +5% Rüstung \n Modifikatortyp: «RESISTANT HobbitCampfire» \n Deckt getarnte Einheiten auf"
+"Lagerfeuer, welches nahe Verbündete heilt \n Stockt 1 Einheit pro Horde alle 5 Sekunden auf. \n Gibt +5% Rüstung \n «Campfire BUFF» \n Deckt getarnte Einheiten auf"
 END
 CONTROLBAR:FireWorks
 "Feuerwerk / Anzünden [&V]"

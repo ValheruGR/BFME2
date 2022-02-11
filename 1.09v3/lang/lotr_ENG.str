@@ -73,7 +73,7 @@ CONTROLBAR:ToolTipBuildMordorMumakil09v3
 "Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
 END
 CONTROLBAR:TooltipDragonStrike09v3
-"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed. \n «DragonStrike STUN» \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
+"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed.  \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
 END
 TOOLTIP:ToolTipFellbeast09v3
 "Fellbeast attack radius against units is improved at level 6 and 10."
@@ -185,7 +185,6 @@ END
 UPGRADE:FarmLevel3Tooltip09v2
 "Level 3: +75 Command Points"
 END
-//------------------------------------------------------------
 CONTROLBAR:ThunderBolt09v2
 "Thunderbolt Storm [&B]"
 END
@@ -224,7 +223,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Requires Level 10 \n Target Heroes in an AOE have their special ability timers reset to 80% used. \n Enemy heroes around Witch King suffer -25% Damage. \n «WitchKing STUN» \n Left click icon then left click on area"
+"Requires Level 10 \n Target Heroes in an AOE have their special ability timers reset to 80% used. \n Enemy heroes around Witch King suffer -25% Damage. \n Left click icon then left click on area"
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Selected structure's resource output is temporarily raised to 300%. \n Left click icon then left click on target resource structure"
@@ -245,7 +244,7 @@ CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Requires Level 7 \n Theoden and nearby cavalry gain +99% Armor, \n +25% Damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n «GloriousCharge». \n Theoden must be mounted to use ability \n Left click to activate"
+"Requires Level 7 \n Theoden and nearby cavalry gain +99% Armor, \n +25% Damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration.  \n Theoden must be mounted to use ability \n Left click to activate"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
 "Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% Damage +20% speed. \n «HordeBonus BUFF» "
@@ -267,7 +266,7 @@ CONTROLBAR:ToolTipDainStubbornPride09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Allied Ents near Treebeard gain: \n +25% Armor, +10% Speed \n +20% Range and +25% Experience \n «LEADERSHIP TreeBeard»\n Passive ability"
+"Allied Ents near Treebeard gain: \n +25% Armor, +10% Speed \n +20% Range and +25% Experience \n «TreeBeard LEADERSHIP» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
@@ -283,7 +282,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% Armor, +25% Damage, \n and earn Experience 25% faster. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP.» \n Enemies suffer +200% Deceleration when crushing. \n Left click icon then left click on target area"
+"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% Armor, +25% Damage, \n and earn Experience 25% faster. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Enemies suffer +200% Deceleration when crushing. \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -302,7 +301,7 @@ CONTROLBAR:ToolTipFreezingRain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Requires Level 4 \n Targeted friendly units gain: \n +25% Damage, +20% Speed \n and +25% shroud revealing. \n «MightyRage» \n Enemy hordes in the same location suffer: \n -25% Armor and -25% Damage \n «DEBUFF» «Neutralizes LEADERSHIP» \n Left click icon then left click on target units"
+"Requires Level 4 \n Targeted friendly units gain: \n +25% Damage, +20% Speed \n and +25% shroud revealing.  \n Enemy hordes in the same location suffer: \n -25% Armor and -25% Damage \n «DEBUFF» «Neutralizes LEADERSHIP» \n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
 "Requires Level 2 \n Nearby enemy hordes suffer: \n -25% Armor and -25% Damage. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Passive ability"
@@ -378,7 +377,7 @@ CONTROLBAR:ToolTipMenWood09v2
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Allies near the Statue gain: \n +25% Damage, \n and earn Experience 25% faster. \n «Damage BUFF» \n Allies gain terror and fear resistance. \n «AntiFear LEADERSHIP»\n Increases command point limit by 10"
+"Allies near the Statue gain: \n +25% Damage, \n and earn Experience 25% faster. \n «Damage BUFF» \n Allies gain terror and fear resistance. \n «AntiFear LEADERSHIP» \n Increases command point limit by 10"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
@@ -386,7 +385,7 @@ OBJECT:HeroicStatueDescription09v2
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Allies near the Statue gain 35% Armor. \n «Armor LEADERSHIP» \n Allies gain terror and fear resistance. \n Increases command point limit by 10"
+"Allies near the Statue gain 35% Armor. \n «Armor LEADERSHIP» \n Allies gain terror and fear resistance. \n «AntiFear BUFF \n Increases command point limit by 10"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
@@ -406,7 +405,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Wargs gain +55% Damage but suffer -10% Armor against pikes and structural arrows. \n «Howl» «Overrides Damage LEADERSHIP.» \n Left click to activate"
+"Wargs gain +55% Damage but suffer -10% Armor against pikes and structural arrows. \n «Overrides Damage LEADERSHIP» \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
@@ -414,7 +413,7 @@ CONTROLBAR:ToolTipEyeofSauron09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Requires Level 8 \n Allied units, monsters and heroes are healed. \n Allied hordes gain +33% Armor, \n +50% Damage and replenish their units.\n «Armor LEADERSHIP»\n Causes fear in nearby enemies. \n The Starlight effect depends on Glorfindel continous summoning. \n Left click to activate"
+"Requires Level 8 \n Allied units, monsters and heroes are healed. \n Allied hordes gain +33% Armor, \n +50% Damage and replenish their units.\n «Armor LEADERSHIP» \n Causes fear in nearby enemies. \n The Starlight effect depends on Glorfindel continous summoning. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
@@ -701,7 +700,7 @@ CONTROLBAR:Fire_pit
 "Fire pit (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Detect stealth \n Nearby allies gain +5% Armor. \n «Campfire» BUFF"
+"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Detect stealth \n Nearby allies gain +5% Armor. \n «Campfire BUFF»"
 END
 CONTROLBAR:FireWorks
 "FireWorks / Deploy [&V]"
