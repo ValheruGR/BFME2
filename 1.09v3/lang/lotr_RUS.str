@@ -25,7 +25,7 @@ CONTROLBAR:nothingDesc09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
-"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n If Mystic Fountains upgrade is present, together can heal any allied Flying unit"
+"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n If Eagle Nest upgrade is present, together can heal any allied Flying unit"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
 "Allows summoning of a Giant Eagle \n If Mystic Fountains upgrade is present, together can heal any allied Flying unit"
@@ -60,10 +60,10 @@ CONTROLBAR:ToolTipBuildMordorMumakil09v3
 "Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
 END
 CONTROLBAR:TooltipDragonStrike09v3
-"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed. \n Modifier Type: «DragonStrike STUN» \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
+"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed.  \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
 END
 CONTROLBAR:ToolTipEyeofSauron09v3
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n «HighTierHero BUFF» \n Left click icon then left click on target area"
 END
 TOOLTIP:ToolTipFellbeast09v3
 "Fellbeast attack radius against units is improved at level 6 and 10."
@@ -72,7 +72,7 @@ CONTROLBAR:ToolTipDominate09v3
 "Requires Level 8 \n Gain control of targeted enemies permanently. \n Left click icon then left click on target enemies"
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
-"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. \n It's told that he's the human personification of Eru, who created Ea \n Provides +25% Armor and +25% fast earning Experience for nearby allies. \n Modifier Type: «Armor RESISTANT» \n Left click icon then left click on pathable location"
+"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. \n It's told that he's the human personification of Eru, who created Ea \n Provides +25% Armor and +25% fast earning Experience for nearby allies. \n «Armor BUFF» \n Left click icon then left click on pathable location"
 END
 CONTROLBAR:Draft09v3
 "D&raft"
@@ -115,7 +115,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
 "Увеличивает дальность обзора крепости и \n позволяет обнаружить невидимых врагов. \n Открывает карту союзным войскам."
 END
 CONTROLBAR:TooltipIvoryTowerVision09v2
-"Полностью открывает карту. \n Союзные войска получают +10% к скорости передвижения. \n Modifier Type: «RESISTANT IvoryTower» \n Длительность: 30 секунд. "
+"Полностью открывает карту. \n Союзные войска получают +10% к скорости передвижения. \n «IvoryTower BUFF» \n Длительность: 30 секунд. "
 End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Требуется уровень 3 \n Отряд получает возможность использовать яд. \n Яд некоторое время наносит дополнительный урон врагу."
@@ -213,7 +213,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Требуется уровень 10. \n Время действия способностей вражеских героев в радиусе действия перезаряжается на 80%. \n Enemy heroes around Witch King suffer -25% damage. \n Modifier Type: «WitchKing STUN» \n Щелкните на пиктограмме, затем - на цели."
+"Требуется уровень 10. \n Время действия способностей вражеских героев в радиусе действия перезаряжается на 80%. \n Enemy heroes around Witch King suffer -25% damage.  \n Щелкните на пиктограмме, затем - на цели."
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Selected structure's resource output is temporarily raised to 300%. \n Left click icon then left click on target resource structure"
@@ -225,22 +225,22 @@ CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
 "Improved Shield Crush"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
-"Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Modifier Type: «Damage RESISTANT»"
+"Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n «Damage BUFF»"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Modifier Type: «RESISTANT HordeBonus» "
+"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n «HordeBonus BUFF» "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Требуется уровень 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Modifier Type: ««GloriousCharge»». \n Theoden must be mounted to use ability \n Left click to activate"
+"Требуется уровень 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n ««GloriousCharge»». \n Theoden must be mounted to use ability \n Left click to activate"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Преимущество: пехота.\n Противостоит атаке конницы. \n Бонус орды: гоблины в количестве от 100 и больше получают: \n +33% к атаке и +20% к скорости. \n Modifier Type: «RESISTANT HordeBonus» "
+"Преимущество: пехота.\n Противостоит атаке конницы. \n Бонус орды: гоблины в количестве от 100 и больше получают: \n +33% к атаке и +20% к скорости. \n «HordeBonus BUFF» "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Преимущество: пехота." Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n Modifier Type: «RESISTANT HordeBonus» "
+"Преимущество: пехота." Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n «HordeBonus BUFF» "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -252,27 +252,27 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Требуется уровень 7 \n Grants all nearby allies resistance to fear and terror \n Modifier Type: «StubbornPride» \n Dain becomes able to reveal stealth.\n Passive ability"
+"Требуется уровень 7 \n Grants all nearby allies resistance to fear and terror. \n Dain becomes able to reveal stealth.\n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Modifier Type: «LEADERSHIP TreeBeard»\n \n Passive ability"
+"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n «TreeBeard LEADERSHIP» \n \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Требуется уровень 5 \n Allies near Lurtz gain \n +35% Damage \n and earn experience 25% faster. \n Modifier Type: «Damage LEADERSHIP» \n \n Passive ability"
+"Требуется уровень 5 \n Allies near Lurtz gain \n +35% Damage \n and earn experience 25% faster. \n «Damage LEADERSHIP» \n \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: «RESISTANT Palantir» \n \n Left click icon then left click on target area"
+"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area \n «Palantir BUFF» \n \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n hordes at its target area\n Modifier Type: «RESISTANT Farsight» \n Left click icon then left click on target area"
+"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n hordes at its target area\n «Farsight BUFF» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +250%. \n Modifier Type: «RESISTANT ElvenWood» \n Overrides LEADERSHIP effects from the allies.  \n Left click icon then left click on target area"
+"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +250%. \n «ElvenWood BUFF» \n «Overrides Damage LEADERSHIP»  \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -283,31 +283,31 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Modifier Type: «RESISTANT Darkness» \n Lasts 180 seconds. \n Left click to activate"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n «Darkness BUFF» \n Lasts 180 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP, BUFF and RESISTANT» \n Lasts 150 seconds. \n Left click to activate"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP and BUFF» \n Lasts 150 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Требуется уровень 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Modifier Type: «MightyRage» \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target units"
+"Требуется уровень 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing.  \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n «DEBUFF» «Neutralizes LEADERSHIP» \n Left click icon then left click on target units"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
-"Требуется уровень 2 \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Passive ability"
+"Требуется уровень 2 \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n «DEBUFF» «Neutralizes LEADERSHIP» \n Passive ability"
 End
 CONTROLBAR:TooltipCaveBats09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target area"
+"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Left click icon then left click on target area"
 END
 CONTROLBAR:TooltipCrebain09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Left click icon then left click on target area"
+"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Left click icon then left click on target area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Требуется уровень 3. \n Находящаяся рядом кавалерия наносит +25% урона, получает +25% брони и на 50% быстрее набирает опыт. \n Замедление союзной кавалерии при атаке противника уменьшено. \n Modifier Type: «RESISTANT High-Tier Hero» \n Пассивная способность."
+"Требуется уровень 3. \n Находящаяся рядом кавалерия наносит +25% урона, получает +25% брони и на 50% быстрее набирает опыт. \n Замедление союзной кавалерии при атаке противника уменьшено. \n «HighTierHero BUFF» \n Пассивная способность."
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
-"Требуется уровень 2. \n Стражники нападают на врага. \n Стражники наносят +25% урона и получают +25% брони.\n Modifier Type: «Armor BUFF»  \nНаносят огромный урон. \nЩелкните на пиктограмме, затем - на цели."
+"Требуется уровень 2. \n Стражники нападают на врага. \n Стражники наносят +25% урона и получают +25% брони.\n «Armor LEADERSHIP»  \nНаносят огромный урон. \nЩелкните на пиктограмме, затем - на цели."
 END
 CONTROLBAR:ToolTipBarbedArrows09v2
 "Требуется уровень 2. \n Атака, сбивающая противников с ног. Наносит увеличенный урон."
@@ -325,7 +325,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Исцеление находящихся рядом союзников. \n Воскрешение павших воинов в отряде каждые 6.5 секунд. \nСнижение стоимости воскрешения героя на 5%. %\n Снижение времени воскрешения героя на 15%. \n\n Улучшает призванные Одинокие Башни"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Преимущество: здания, производящие ресурсы. \n Орки, в количестве минимум 70 \n получают +33% атаки, +20% скорости. \n Modifier Type: «RESISTANT HordeBonus»"
+"Преимущество: здания, производящие ресурсы. \n Орки, в количестве минимум 70 \n получают +33% атаки, +20% скорости. \n «HordeBonus BUFF»"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Исцеление союзников в чертогах и неподалеку от крепости. \n Воскрешение павших воинов в отряде каждые 6.5 секунд. \n Уменьшение времени ожидания героя на 25%. \n Крепость получает дополнительный запас прочности. \n Улучшает призванные Одинокие Башни"
@@ -340,126 +340,126 @@ CONTROLBAR:ToolTipElvenCloakThranduil09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Требуется уровень 2. \n На карте появляется череп на шесте (его можно уничтожить). \n Вокруг тотема рассеивается туман войны, становятся видимыми скрывшиеся враги, а союзники получают 35% брони и +25% опыта. \n Modifier Type: «Armor BUFF» \n Щелкните на пиктограмме, затем - на участке местности."
+"Требуется уровень 2. \n На карте появляется череп на шесте (его можно уничтожить). \n Вокруг тотема рассеивается туман войны, становятся видимыми скрывшиеся враги, а союзники получают 35% брони и +25% опыта. \n «Armor LEADERSHIP» \n Щелкните на пиктограмме, затем - на участке местности."
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Союзники рядом с троллем-барабанщиком получают +35% брони и +25% опыта. \n Nearby Trolls gain +15% брони, +15% опыта и способность лечиться. \n Modifier Type: «Armor BUFF» \n Пассивная способность."
+"Союзники рядом с троллем-барабанщиком получают +35% брони и +25% опыта. \n Nearby Trolls gain +15% брони, +15% опыта и способность лечиться. \n «Armor LEADERSHIP» \n Пассивная способность."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Указанные союзники наносят +40% урона, получают +50% опыта в бою и +10% скорости.\n Modifier Type: «Damage LEADERSHIP» \n Щелкните на пиктограмме, затем - на нужных войсках."
+"Указанные союзники наносят +40% урона, получают +50% опыта в бою и +10% скорости.\n «Damage LEADERSHIP» \n Щелкните на пиктограмме, затем - на нужных войсках."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Союзники наносят на +50% урона и получают в бою дополнительные +50% опыта. \n Modifier Type: «Damage LEADERSHIP» \n Щелкните на пиктограмме, затем - на цели."
+"Союзники наносят на +50% урона и получают в бою дополнительные +50% опыта. \n «Damage LEADERSHIP» \n Щелкните на пиктограмме, затем - на цели."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Союзники наносят на +50% урона и получают в бою дополнительные +25% опыта. \n Modifier Type: «Damage LEADERSHIP» \n Щелкните на пиктограмме, затем - на цели."
+"Союзники наносят на +50% урона и получают в бою дополнительные +25% опыта. \n «Damage LEADERSHIP» \n Щелкните на пиктограмме, затем - на цели."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Создание участка оскверненной земли. \n Все союзники получают +35% брони. \n Modifier Type: «Armor BUFF» \n Щелкните на пиктограмме, затем - на участке местности."
+"Создание участка оскверненной земли. \n Все союзники получают +35% брони. \n «Armor LEADERSHIP» \n Щелкните на пиктограмме, затем - на участке местности."
 END
 CONTROLBAR:ToolTipMenWood09v2
-"Выбранный участок покрывается эльфийским лесом \n +35% к броне союзникам \n Modifier Type: «Armor BUFF» \n Активируется левой кнопкой мыши"
+"Выбранный участок покрывается эльфийским лесом \n +35% к броне союзникам \n «Armor LEADERSHIP» \n Активируется левой кнопкой мыши"
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Союзники рядом со статуей \n наносят +25% урона \n и набирают опыт на 25% быстрее. \n Modifier Type: «Damage RESISTANT» \n Allies gain terror and fear resistance. \n Modifier Type: «LEADERSHIP AntiFear»\nУвеличение лимита очков командования на 10."
+"Союзники рядом со статуей \n наносят +25% урона \n и набирают опыт на 25% быстрее. \n «Damage BUFF» \n Allies gain terror and fear resistance. \n «AntiFear LEADERSHIP» \nУвеличение лимита очков командования на 10."
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Союзники рядом со статуей \nполучают +25% брони,\nа их опыт растет на 25% быстрее. \n Modifier Type: «Armor RESISTANT» \nУвеличение лимита очков командования на 10."
+"Союзники рядом со статуей \nполучают +25% брони,\nа их опыт растет на 25% быстрее. \n «Armor BUFF» \nУвеличение лимита очков командования на 10."
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Союзники рядом со статуей \n получают +35% брони. \n Modifier Type: «Armor BUFF» \n Allies gain terror and fear resistance. \n Modifier Type: «RESISTANT AntiFear»\nУвеличение лимита очков командования на 10."
+"Союзники рядом со статуей \n получают +35% брони. \n «Armor LEADERSHIP» \n Allies gain terror and fear resistance. \n «AntiFear BUFF» \nУвеличение лимита очков командования на 10."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Уменьшение урона, наносимого крепости в ближнем бою. \n Союзники поблизости получают: \n +25% атаки и +25% опыта. \n Modifier Type: ««Damage RESISTANT»» "
+"Уменьшение урона, наносимого крепости в ближнем бою. \n Союзники поблизости получают: \n +25% атаки и +25% опыта. \n ««Damage BUFF»» "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Находящиеся рядом войска получают +25% брони и опыта. \n Modifier Type: «Damage RESISTANT» \n Сокращение стоимости призыва героя на 10%. \n Сокращение времени ожидания героя на 10%. \n Сокращение стоимости обучения строителей на 20%."
+"Находящиеся рядом войска получают +25% брони и опыта. \n «Damage BUFF» \n Сокращение стоимости призыва героя на 10%. \n Сокращение времени ожидания героя на 10%. \n Сокращение стоимости обучения строителей на 20%."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Союзники рядом с крепостью получают\n +25% брони,\nа их опыт растет на 25% быстрее. \n Modifier Type: «Damage RESISTANT» \n \n Снижение стоимости призыва героя на 10%. \n Снижение времени ожидания героя на 10%. \n Снижение стоимости обучения строителей на 20%.\n\n Улучшает призванные Одинокие Башни"
+"Союзники рядом с крепостью получают\n +25% брони,\nа их опыт растет на 25% быстрее. \n «Damage BUFF» \n \n Снижение стоимости призыва героя на 10%. \n Снижение времени ожидания героя на 10%. \n Снижение стоимости обучения строителей на 20%.\n\n Улучшает призванные Одинокие Башни"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Союзники рядом с крепостью получают +25% к атаке и +25% опыта. \n Modifier Type: «Damage RESISTANT» \n Снижение стоимости призыва героя на 10%. \n Уменьшение времени ожидания героя на 10%. \n Снижение стоимости подготовки строителей на 20%. \n\n Улучшает призванные Одинокие Башни."
+"Союзники рядом с крепостью получают +25% к атаке и +25% опыта. \n «Damage BUFF» \n Снижение стоимости призыва героя на 10%. \n Уменьшение времени ожидания героя на 10%. \n Снижение стоимости подготовки строителей на 20%. \n\n Улучшает призванные Одинокие Башни."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Варги наносят +55% урона, но теряют 10% брони против пикинеров и построек. \n Modifier Type: «Howl» \n Overrides LEADERSHIP effects from the wargs. \n ЛКМ - применение способности."
+"Варги наносят +55% урона, но теряют 10% брони против пикинеров и построек.  \n «Overrides Damage LEADERSHIP» \n ЛКМ - применение способности."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Появление Ока Саурона. \n Обнаружение скрытых врагов. \n Союзники получают +25% к атаке и +25% брони, \n а также +50% больще опыта. \n Modifier Type: «RESISTANT High-Tier Hero»\n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Щелкните на пиктограмме, затем - на участке местности."
+"Появление Ока Саурона. \n Обнаружение скрытых врагов. \n Союзники получают +25% к атаке и +25% брони, \n а также +50% больще опыта. \n «HighTierHero BUFF» \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n «HighTierHero BUFF» \n Щелкните на пиктограмме, затем - на участке местности."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Требуется уровень 8 \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Enemy units are scared while active. \n Modifier Type: «Armor BUFF» \n Left click to activate"
+"Требуется уровень 8 \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Enemy units are scared while active. \n «Armor LEADERSHIP» \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Союзники рядом с Гимли получают \n 35% брони. \n Modifier Type: «Armor BUFF» \n \n Пассивная способность."
+"Союзники рядом с Гимли получают \n 35% брони. \n «Armor LEADERSHIP» \n \n Пассивная способность."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Passive ability"
+"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Находящиеся рядом со знаменем союзники наносят \n +25% урона \n и набирают опыт на 25% быстрее. \n Modifier Type: «Damage RESISTANT» \nБоевая повозка вне боя постепенно ремонтируется. \n На боевой повозке размещается несколько фаланг."
+"Находящиеся рядом со знаменем союзники наносят \n +25% урона \n и набирают опыт на 25% быстрее. \n «Damage BUFF» \nБоевая повозка вне боя постепенно ремонтируется. \n На боевой повозке размещается несколько фаланг."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Требуется уровень 4. \n Союзники рядом с героем получают +25% брони и набирают опыт на 25% быстрее. \n Nearby Trolls gain experience 25% faster  \n and autoheal +50 health points.  \n Modifier Type: «Armor RESISTANT»\n Пассивная способность."
+"Требуется уровень 4. \n Союзники рядом с героем получают +25% брони и набирают опыт на 25% быстрее. \n Nearby Trolls gain experience 25% faster  \n and autoheal +50 health points.  \n «Armor BUFF» \n Пассивная способность."
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Требуется уровень 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Passive ability"
+"Требуется уровень 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Требуется уровень 2. \n Кавалерия рядом с Арвен Гейн +25% брони и набирают опыт на 25% быстрее. \n Modifier Type: «Armor RESISTANT» \n Пассивная способность."
+"Требуется уровень 2. \n Кавалерия рядом с Арвен Гейн +25% брони и набирают опыт на 25% быстрее. \n «Armor BUFF» \n Пассивная способность."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Требуется уровень 4 \n Allies near Haldir gain \n +35% Damage and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passive ability"
+"Требуется уровень 4 \n Allies near Haldir gain \n +35% Damage and earn experience +25% faster. \n «Damage LEADERSHIP» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Войска рядом с Бомбадилом получают \n +25% брони, \n и набирают опыт на 25% быстрее \n Modifier Type: «Armor RESISTANT» \n Пассивная способность"
+"Войска рядом с Бомбадилом получают \n +25% брони, \n и набирают опыт на 25% быстрее \n «Armor BUFF» \n Пассивная способность"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Требуется уровень 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Passive ability"
+"Требуется уровень 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Требуется уровень 3 \n Cavalry near Eomer gain 35% Armor. \n Modifier Type: «Armor BUFF» \n Passive ability"
+"Требуется уровень 3 \n Cavalry near Eomer gain 35% Armor. \n «Armor LEADERSHIP» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Требуется уровень 7 \n Allies near Faramir gain \n +35% Armor. \n Modifier Type: «Armor BUFF» \n Passive ability"
+"Требуется уровень 7 \n Allies near Faramir gain \n +35% Armor. \n «Armor LEADERSHIP» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Требуется уровень 5 \n Allies near Boromir gain \n +35% Damage and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passive ability"
+"Требуется уровень 5 \n Allies near Boromir gain \n +35% Damage and earn experience +25% faster. \n «Damage LEADERSHIP» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Требуется уровень 2 \n Allies near Theoden gain \n +25% damage and earn experience 25% faster. \n Modifier Type: «Damage RESISTANT» \n Passive ability"
+"Требуется уровень 2 \n Allies near Theoden gain \n +25% damage and earn experience 25% faster. \n «Damage BUFF» \n Passive ability"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Союзные войска рядом с Саруманом получают +25% брони и набирают опыт на 25% быстрее. \n Modifier Type: «Armor RESISTANT» \n Пассивная способность."
+"Союзные войска рядом с Саруманом получают +25% брони и набирают опыт на 25% быстрее. \n «Armor BUFF» \n Пассивная способность."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -471,19 +471,19 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Требуется уровень 2 \n Мумакил топчет противников .\n Щелкните на пиктограмме, затем - на цели."
+"Требуется уровень 2 \n Мумакил топчет противников. \n Щелкните на пиктограмме, затем - на цели."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"Enemy hordes and heroes in the target location suffer \n -40% скорости и -50% скорострельности. \n Lasts 19 seconds \n Не влияет на машины, боевые вагоны или монстров. \n Modifier Type: «Wormtongue STUN» \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Щелкните на пиктограмме, затем - на цели."
+"Enemy hordes and heroes in the target location suffer \n -40% скорости и -50% скорострельности. \n Lasts 19 seconds \n Не влияет на машины, боевые вагоны или монстров.  «Neutralizes LEADERSHIP» \n Щелкните на пиктограмме, затем - на цели."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Требуется уровень 4 \n Enemy hordes and heroes in the target location suffer \n -25% брони и -25% урона, в -5% скорости. \n Lasts 30 seconds. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Щелкните на пиктограмме, затем - на цели."
+"Требуется уровень 4 \n Enemy hordes and heroes in the target location suffer \n -25% брони и -25% урона, в -5% скорости. \n Lasts 30 seconds. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Щелкните на пиктограмме, затем - на цели."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Дружественные войска в тумане становятся невидимыми противнику. \n Enemy hordes, monsters and heroes in the same area suffer \n -25% брони в -25% урона. \n Lasts 60 seconds. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n\n Щелкните на пиктограмме, затем - на выбранной местности."
+"Дружественные войска в тумане становятся невидимыми противнику. \n Enemy hordes, monsters and heroes in the same area suffer \n -25% брони в -25% урона. \n Lasts 60 seconds. \n «DEBUFF» «Neutralizes LEADERSHIP» \n\n Щелкните на пиктограмме, затем - на выбранной местности."
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
@@ -615,10 +615,10 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Исцеляет 750 очков здоровья всем ближайшим войскам и героям. \n Ближайшие войска и монстры получают \n 15%-ую прибавку к запасу здоровья и +25% бонусного опыта. \n Союзные войска становятся неуязвимы к страху и ужасу. \n Modifier Type: «ElvenGrace» \n Длительность: 12 секунд. \n ЛКМ - применение способности."
+"Исцеляет 750 очков здоровья всем ближайшим войскам и героям. \n Ближайшие войска и монстры получают \n 15%-ую прибавку к запасу здоровья и +25% бонусного опыта. \n Союзные войска становятся неуязвимы к страху и ужасу.  \n Длительность: 12 секунд. \n ЛКМ - применение способности."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Указанный участок карты становится доступен для обзора. \n Даёт 27,5%-ый бонус к обзору всем союзным войскам на 25 секунд. \n Не влияет на героев. \n Modifier Type: ««ElrondFarseeing»» \n  Щелкните на пиктограмме, затем - на указанном участке местности."
+"Указанный участок карты становится доступен для обзора. \n Даёт 27,5%-ый бонус к обзору всем союзным войскам на 25 секунд. \n Не влияет на героев. \n  Щелкните на пиктограмме, затем - на указанном участке местности."
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
@@ -659,7 +659,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Призывает трёх Духов Огня рядом с Сауроном."
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Требуется соответствующее улучшение крепости. \n\n Союзники поблизости получают +25% к атаке и +25% к опыту. \n Modifier Type: «Damage RESISTANT»"
+"Требуется соответствующее улучшение крепости. \n\n Союзники поблизости получают +25% к атаке и +25% к опыту. \n «Damage BUFF»"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Требуется соответствующее улучшение крепости. \n\n Исцеляет союзников поблизости. \n Воскрешает одного убитого в отряде каждые 10 секунд."
@@ -688,7 +688,7 @@ CONTROLBAR:Fire_pit
 "Костер. (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Костер, исцеляющий	союзников поблизости. \n Воскрешает одного убитого в отряде каждые 5 секунд. \n Союзники получают +5% брони. \n Всегда накапливается. \n Modifier Type: «RESISTANT HobbitCampfire»\n Обнаруживает скрытых врагов."
+"Костер, исцеляющий	союзников поблизости. \n Воскрешает одного убитого в отряде каждые 5 секунд. \n Союзники получают +5% брони. \n Всегда накапливается. \n «Campfire BUFF» \n Обнаруживает скрытых врагов."
 END
 CONTROLBAR:FireWorks
 "Фейерверки / Поджечь. [&V]"

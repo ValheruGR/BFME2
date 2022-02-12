@@ -25,7 +25,7 @@ CONTROLBAR:nothingDesc09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
-"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n If Mystic Fountains upgrade is present, together can heal any allied Flying unit"
+"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n If Eagle Nest upgrade is present, together can heal any allied Flying unit"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
 "Allows summoning of a Giant Eagle \n If Mystic Fountains upgrade is present, together can heal any allied Flying unit"
@@ -60,10 +60,10 @@ CONTROLBAR:ToolTipBuildMordorMumakil09v3
 "Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
 END
 CONTROLBAR:TooltipDragonStrike09v3
-"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed. \n Modifier Type: «DragonStrike STUN» \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
+"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed.  \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
 END
 CONTROLBAR:ToolTipEyeofSauron09v3
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Left click icon then left click on target area"
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n «HighTierHero BUFF» \n Left click icon then left click on target area"
 END
 TOOLTIP:ToolTipFellbeast09v3
 "Fellbeast attack radius against units is improved at level 6 and 10."
@@ -72,7 +72,7 @@ CONTROLBAR:ToolTipDominate09v3
 "Requires Level 8 \n Gain control of targeted enemies permanently. \n Left click icon then left click on target enemies"
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
-"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. \n It's told that he's the human personification of Eru, who created Ëa \n Provides +25% Armor and +25% fast earning Experience for nearby allies. \n Modifier Type: «Armor RESISTANT» \n Left click icon then left click on pathable location"
+"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. \n It's told that he's the human personification of Eru, who created Ëa \n Provides +25% Armor and +25% fast earning Experience for nearby allies. \n «Armor BUFF» \n Left click icon then left click on pathable location"
 END
 CONTROLBAR:Draft09v3
 "D&raft"
@@ -115,7 +115,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
 "Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on player units"
 END
 CONTROLBAR:TooltipIvoryTowerVision09v2
-"Reveals the entire shroud \n Player units in the map gain +10% speed \n Modifier Type: «RESISTANT IvoryTower» \n Lasts 30 seconds"
+"Reveals the entire shroud \n Player units in the map gain +10% speed \n «IvoryTower BUFF» \n Lasts 30 seconds"
 End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Kräver grad 3 \n Uppgraderar denna hord med giftkörtlar \n Gör giftskada på fiender och gör fortlöpande skada"
@@ -213,7 +213,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Kräver grad 10 \nOffrets alla kraft-tidur töms \n Enemy heroes around Witch King suffer -25% damage. \n Modifier Type: «WitchKing STUN» \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
+"Kräver grad 10 \nOffrets alla kraft-tidur töms \n Enemy heroes around Witch King suffer -25% damage.  \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Selected structure's resource output is temporarily raised to 300%. \n Vänsterklicka på ikonen, vänsterklicka sedan på målet resource structure"
@@ -225,22 +225,22 @@ CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
 "Improved Shield Crush (&Y)"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
-"Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n Modifier Type: «Damage RESISTANT»"
+"Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n «Damage BUFF»"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n Modifier Type: «RESISTANT HordeBonus» "
+"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n «HordeBonus BUFF» "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Kräver grad 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration. \n Modifier Type: «GloriousCharge». \n Theoden must be mounted to use ability \n Left click to activate"
+"Kräver grad 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to desacelerate by trampling. \n Cavalry also become fearless for its duration.  \n Theoden must be mounted to use ability \n Left click to activate"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +20% speed. \n Modifier Type: «RESISTANT HordeBonus» "
+"Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +20% speed. \n «HordeBonus BUFF» "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n Modifier Type: «RESISTANT HordeBonus» "
+"Strong vs. Infantry\n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n «HordeBonus BUFF» "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -252,27 +252,27 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Kräver grad 7 \n Grants all nearby allies resistance to fear and terror \n Modifier Type: «StubbornPride» \n Dain becomes able to reveal stealth.\n Passiv förmåga"
+"Kräver grad 7 \n Grants all nearby allies resistance to fear and terror \n «StubbornPride» \n Dain becomes able to reveal stealth.\n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Modifier Type: «LEADERSHIP TreeBeard»\n \n Passiv förmåga"
+"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n «TreeBeard LEADERSHIP» \n \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Kräver grad 5 \n Allies near Lurtz gain \n +35% Damage \n and earn experience 25% faster. \n Modifier Type: «Damage LEADERSHIP» \n \n Passiv förmåga"
+"Kräver grad 5 \n Allies near Lurtz gain \n +35% Damage \n and earn experience 25% faster. \n «Damage LEADERSHIP» \n \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n Modifier Type: «RESISTANT Palantir» \n Vänsterklicka på ikonen, vänsterklicka sedan på målet area"
+"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n «Palantir BUFF» \n Vänsterklicka på ikonen, vänsterklicka sedan på målet area"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n hordes at its target area\n Modifier Type: «RESISTANT Farsight» \n Vänsterklicka på ikonen, vänsterklicka sedan på målet area"
+"Spy on the enemy forces\n Gives a temporary range bonus of +35% to \n hordes at its target area\n «Farsight BUFF» \n Vänsterklicka på ikonen, vänsterklicka sedan på målet area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Modifier Type: «RESISTANT ElvenWood» \n Overrides LEADERSHIP effects from the allies. \n Enemy cavalry deceleration rate is raised by +250%. \n Vänsterklicka på ikonen, vänsterklicka sedan på målet area"
+"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n «ElvenWood BUFF» \n «Overrides Damage LEADERSHIP» \n Enemy cavalry deceleration rate is raised by +250%. \n Vänsterklicka på ikonen, vänsterklicka sedan på målet area"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -283,31 +283,31 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n Modifier Type: «RESISTANT Darkness» \n Lasts 180 seconds. \n Left click to activate"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n «Darkness BUFF» \n Lasts 180 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP, BUFF and RESISTANT» \n Lasts 150 seconds. \n Left click to activate"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP and BUFF» \n Lasts 150 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Kräver grad 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Modifier Type: «MightyRage» \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Vänsterklicka på ikonen, vänsterklicka sedan på målet units"
+"Kräver grad 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing.  \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n «DEBUFF» «Neutralizes LEADERSHIP» \n Vänsterklicka på ikonen, vänsterklicka sedan på målet units"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
-"Kräver grad 2 \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Passiv förmåga"
+"Kräver grad 2 \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n «DEBUFF» «Neutralizes LEADERSHIP» \n Passiv förmåga"
 End
 CONTROLBAR:TooltipCaveBats09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Vänsterklicka på ikonen, vänsterklicka sedan på målet area"
+"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Vänsterklicka på ikonen, vänsterklicka sedan på målet area"
 END
 CONTROLBAR:TooltipCrebain09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Vänsterklicka på ikonen, vänsterklicka sedan på målet area"
+"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Vänsterklicka på ikonen, vänsterklicka sedan på målet area"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Kräver grad 3 \n Allierat kavalleri i närheten får +25% skadeverkan, +25% rustning och får erfarenhet 50% snabbare \n Allierat kavalleri som trampas ned bromsas mindre  \n Modifier Type: «RESISTANT High-Tier Hero» \n Passiv förmåga"
+"Kräver grad 3 \n Allierat kavalleri i närheten får +25% skadeverkan, +25% rustning och får erfarenhet 50% snabbare \n Allierat kavalleri som trampas ned bromsas mindre  \n «HighTierHero BUFF» \n Passiv förmåga"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
-"Kräver grad 2 \n Beordrar väktare att storma fienden \n väktare får +25% fart och +25% rustning \n Gör indirekt skada \n Modifier Type: «Armor BUFF»  \n Vänsterklicka på ikonen, vänsterklicka sedan på målet"
+"Kräver grad 2 \n Beordrar väktare att storma fienden \n väktare får +25% fart och +25% rustning \n Gör indirekt skada \n «Armor LEADERSHIP»  \n Vänsterklicka på ikonen, vänsterklicka sedan på målet"
 END
 CONTROLBAR:ToolTipBarbedArrows09v2
 "Kräver grad 2 \n Ger indirekt skada och större skadeverkan"
@@ -325,7 +325,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Helar allierade i närheten \n Sänker priset för återupplivning av hjältar med 5%. \n Förkortar återupplivningstiden med 15%. \n\n Upgrades summoned Lone Towers"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Stark mot resursbyggnader \n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Modifier Type: «RESISTANT HordeBonus» "
+"Stark mot resursbyggnader \n Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n «HordeBonus BUFF» "
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Helar garnisonsenheter och allierade i närheten av fästningen \nGer fästningen fler träffpoäng. \n\n Upgrades summoned Lone Towers."
@@ -339,127 +339,127 @@ CONTROLBAR:ToolTipElvenCloakThranduil09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Kräver grad 2 \n Vättekungen placerar ut nt dödskalletotem som står kvar tills det förstörs \n Lyfter kartslöjan i närheten, ser smygande enheter och ger allierade +35% rustning \n and +25% experience bonus to nearby allies.  \n Modifier Type: «Armor BUFF» \n Vänsterklicka på ikonen, vänsterklicka sedan på målområdet"
+"Kräver grad 2 \n Vättekungen placerar ut nt dödskalletotem som står kvar tills det förstörs \n Lyfter kartslöjan i närheten, ser smygande enheter och ger allierade +35% rustning \n and +25% experience bonus to nearby allies.  \n «Armor LEADERSHIP» \n Vänsterklicka på ikonen, vänsterklicka sedan på målområdet"
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Allies near the Drummer Troll gain +35% armor and +25% experience. \n Nearby trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Modifier Type: «Armor BUFF» \n Passiv förmåga"
+"Allies near the Drummer Troll gain +35% armor and +25% experience. \n Nearby trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n «Armor LEADERSHIP» \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Allierade målenheter får +40% skadeverkan \n , 50% experience & +10% speed. \n Modifier Type: «Damage LEADERSHIP» \n Vänsterklicka på ikonen, vänsterklicka sedan på målenheterna"
+"Allierade målenheter får +40% skadeverkan \n , 50% experience & +10% speed. \n «Damage LEADERSHIP» \n Vänsterklicka på ikonen, vänsterklicka sedan på målenheterna"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Allierade målenheter får +50% skadeverkan \n & 50% experience.. \n Modifier Type: «Damage LEADERSHIP» \n Vänsterklicka på ikonen, vänsterklicka sedan på målenheterna"
+"Allierade målenheter får +50% skadeverkan \n & 50% experience.. \n «Damage LEADERSHIP» \n Vänsterklicka på ikonen, vänsterklicka sedan på målenheterna"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Allierade målenheter får +50% skadeverkan \n & 25% experience.. \n Modifier Type: «Damage LEADERSHIP» \n Vänsterklicka på ikonen, vänsterklicka sedan på målenheterna"
+"Allierade målenheter får +50% skadeverkan \n & 25% experience.. \n «Damage LEADERSHIP» \n Vänsterklicka på ikonen, vänsterklicka sedan på målenheterna"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Besmittar ett område \n Alla bundsförvanter får 35% rustning \n Modifier Type: «Armor BUFF» \n Vänsterklicka på ikonen, vänsterklicka sedan på målområdet"
+"Besmittar ett område \n Alla bundsförvanter får 35% rustning \n «Armor LEADERSHIP» \n Vänsterklicka på ikonen, vänsterklicka sedan på målområdet"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMenWood09v2
-"Skapar grönskande terräng. \nAllierade enheter får +35% rustning \nPåverkar inte hjältar  \n Modifier Type: «Armor BUFF» \nVänsterklicka på ikonen, vänsterklicka sedan på målområdet"
+"Skapar grönskande terräng. \nAllierade enheter får +35% rustning \nPåverkar inte hjältar  \n «Armor LEADERSHIP» \nVänsterklicka på ikonen, vänsterklicka sedan på målområdet"
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Allierade nära statyn får \n +25% skadeverkan \n och får erfernhet 25% fortare \n Modifier Type: «Damage RESISTANT» \n Allies gain terror and fear resistance. \n Modifier Type: «LEADERSHIP AntiFear»\n \n Höjer kommandopoängstaket med 10"
+"Allierade nära statyn får \n +25% skadeverkan \n och får erfernhet 25% fortare \n «Damage BUFF» \n Allies gain terror and fear resistance. \n «AntiFear LEADERSHIP» \n \n Höjer kommandopoängstaket med 10"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Allierade nära statyn får \n +25% rustning \n och får erfarenhet 25% snabbare \n Modifier Type: «Armor RESISTANT» \n Höjer kommandopoängstaket med 10"
+"Allierade nära statyn får \n +25% rustning \n och får erfarenhet 25% snabbare \n «Armor BUFF» \n Höjer kommandopoängstaket med 10"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Allierade nära statyn får \n +35% rustning \n Modifier Type: «Armor BUFF» \n Allies gain terror and fear resistance.\n Modifier Type: «RESISTANT AntiFear» \n \n Höjer kommandopoängstaket med 10"
+"Allierade nära statyn får \n +35% rustning \n «Armor LEADERSHIP» \n Allies gain terror and fear resistance.\n «AntiFear BUFF» \n \n Höjer kommandopoängstaket med 10"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Gör fästningen tåligare mot närstridsattacker \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Modifier Type: «Damage RESISTANT»"
+"Gör fästningen tåligare mot närstridsattacker \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n «Damage BUFF»"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Provides 25% damage and 25% experience to nearby troops \n Modifier Type: «Damage RESISTANT» \nMinskar kostnaden för hjältar med 10% \nMinskar tiden för att rekrytera hjältar med 10%\nMinskar kostnaden för att rekrytera bönder 20%"
+"Provides 25% damage and 25% experience to nearby troops \n «Damage BUFF» \nMinskar kostnaden för hjältar med 10% \nMinskar tiden för att rekrytera hjältar med 10%\nMinskar kostnaden för att rekrytera bönder 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Allierade nära fästningen får \n +25% rustning \n och får erfarenhet 25% snabbare \n Modifier Type: «Damage RESISTANT» \n Sänker kostnaden för hjältar med 10% \n Förkortar rekryteringstiden för hjältar med 10%. \n Sänker priset på byggare med 20% \n\n Upgrades summoned Lone Towers"
+"Allierade nära fästningen får \n +25% rustning \n och får erfarenhet 25% snabbare \n «Damage BUFF» \n Sänker kostnaden för hjältar med 10% \n Förkortar rekryteringstiden för hjältar med 10%. \n Sänker priset på byggare med 20% \n\n Upgrades summoned Lone Towers"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage and 25% experience \n Modifier Type: «Damage RESISTANT» \n Sänker kostnaden för hjältar med 10% \n Förkortar rekryteringstiden för hjältar med 10% \n Sänker priset på byggare med 20% \n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +25% Damage and 25% experience \n «Damage BUFF» \n Sänker kostnaden för hjältar med 10% \n Förkortar rekryteringstiden för hjältar med 10% \n Sänker priset på byggare med 20% \n\n Upgrades summoned Lone Towers"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Ulvar gör +55% skadeverkan \n lose -15% armor against pike and structural damage \n Modifier Type: «Howl» \n Neutralizes previous any LEADERSHIP bonus. \n \nVänsterklicka för att aktivera"
+"Ulvar gör +55% skadeverkan \n lose -15% armor against pike and structural damage  \n «Overrides Damage LEADERSHIP» \n \nVänsterklicka för att aktivera"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Frammanar Saurons öga \n Avslöjar dolda fiender \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: «RESISTANT High-Tier Hero»\n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Vänsterklicka, och högerklicka sedan på målet"
+"Frammanar Saurons öga \n Avslöjar dolda fiender \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n «HighTierHero BUFF» \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n «HighTierHero BUFF» \n Vänsterklicka, och högerklicka sedan på målet"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Kräver grad 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Bundsförvanter i närheten helas och får \n +50% skadeverkan, +33% rustning \n Modifier Type: «Armor BUFF» \n Vänsterklicka för att aktivera"
+"Kräver grad 8 \n Allied hordes, monsters and heroes in a large area around Glorfindel are healed. \n Replaces 2 dead man per horde within its duration. \n Bundsförvanter i närheten helas och får \n +50% skadeverkan, +33% rustning \n «Armor LEADERSHIP» \n Vänsterklicka för att aktivera"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Allierade nära Gimli får \n +35% rustning \n Modifier Type: «Armor BUFF»\n \n Passiv förmåga"
+"Allierade nära Gimli får \n +35% rustning \n «Armor LEADERSHIP» \n \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Passiv förmåga"
+"Allies near King Dain gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n «HighTierHero BUFF» \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n Modifier Type: «Damage RESISTANT» \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
+"Allies near the banner gain \n +25% Damage \n and earn experience 25% faster. \n «Damage BUFF» \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Reveals stealthed enemies"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Kräver grad 4 \n Allierade nära vättekungen får \n +25% rustning och 25% mer erfarenhet \n Nearby Trolls gain experience 25% faster \n and autoheal +50 health points. \n Modifier Type: «Armor RESISTANT» \n \n Passiv förmåga"
+"Kräver grad 4 \n Allierade nära vättekungen får \n +25% rustning och 25% mer erfarenhet \n Nearby Trolls gain experience 25% faster \n and autoheal +50 health points. \n «Armor BUFF» \n \n Passiv förmåga"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Kräver grad 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Passiv förmåga"
+"Kräver grad 3 \n Allies near Elrond gain \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n «HighTierHero BUFF» \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Kräver grad 2 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n Modifier Type: «Armor RESISTANT» \n Passiv förmåga"
+"Kräver grad 2 \n Cavalry near Arwen gain +25% Armor and earn experience 25% faster. \n «Armor BUFF» \n Passiv förmåga"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Kräver grad 4 \n Allies near Haldir gain \n +35% Damage and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passiv förmåga"
+"Kräver grad 4 \n Allies near Haldir gain \n +35% Damage and earn experience +25% faster. \n «Damage LEADERSHIP» \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Allierade nära Tom Bombadil får \n+25% rustning \n and earn experience +25% faster.  \n Modifier Type: «Armor RESISTANT» \n \nPassiv förmåga"
+"Allierade nära Tom Bombadil får \n+25% rustning \n and earn experience +25% faster.  \n «Armor BUFF» \n \nPassiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Kräver grad 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n Modifier Type: «RESISTANT High-Tier Hero» \n Passiv förmåga"
+"Kräver grad 4 \n Allies near Aragorn gain +25% Damage, +25% Armor, and earn experience 50% faster. \n «HighTierHero BUFF» \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Kräver grad 3 \n Cavalry near Eomer gain 35% Armor. \n Modifier Type: «Armor BUFF» \n Passiv förmåga"
+"Kräver grad 3 \n Cavalry near Eomer gain 35% Armor. \n «Armor LEADERSHIP» \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Kräver grad 7 \n Allies near Faramir gain \n +35% Armor. \n Modifier Type: «Armor BUFF» \n Passiv förmåga"
+"Kräver grad 7 \n Allies near Faramir gain \n +35% Armor. \n «Armor LEADERSHIP» \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Kräver grad 5 \n Allies near Boromir gain \n +35% Damage and earn experience +25% faster. \n Modifier Type: «Damage LEADERSHIP» \n Passiv förmåga"
+"Kräver grad 5 \n Allies near Boromir gain \n +35% Damage and earn experience +25% faster. \n «Damage LEADERSHIP» \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Kräver grad 2 \n Allies near Theoden gain \n +25% damage and earn experience 25% faster. \n Modifier Type: «Damage RESISTANT» \n Passiv förmåga"
+"Kräver grad 2 \n Allies near Theoden gain \n +25% damage and earn experience 25% faster. \n «Damage BUFF» \n Passiv förmåga"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Allies near Saruman gain +25% Armor and earn experience 25% faster. \n Modifier Type: «Armor RESISTANT» \n Passiv förmåga"
+"Allies near Saruman gain +25% Armor and earn experience 25% faster. \n «Armor BUFF» \n Passiv förmåga"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -471,19 +471,19 @@ CONTROLBAR:ToolTipThornofVengeance09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
-"Kräver grad 2 \n Beordra mûmakil att trampa ner fienden .\nVänsterklicka på ikonen, vänsterklicka sedan på målet"
+"Kräver grad 2 \n Beordra mûmakil att trampa ner fienden. \nVänsterklicka på ikonen, vänsterklicka sedan på målet"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"Enemy hordes and heroes in the target location suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds. \n Modifier Type: «Wormtongue STUN» \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Vänsterklicka på ikonen, vänsterklicka sedan på målet units"
+"Enemy hordes and heroes in the target location suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds.  «Neutralizes LEADERSHIP» \n Vänsterklicka på ikonen, vänsterklicka sedan på målet units"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Kräver grad 4 \n Enemy hordes and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Lasts 30 seconds. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Vänsterklicka på ikonen, vänsterklicka sedan på målet units"
+"Kräver grad 4 \n Enemy hordes and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Lasts 30 seconds. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Vänsterklicka på ikonen, vänsterklicka sedan på målet units"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters in the same area suffer \n -25% armor and -25% damage. \n Lasts 60 seconds. \n Modifier Type: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n\n Vänsterklicka på ikonen, vänsterklicka sedan på målområdet"
+"Friendly units within the mist become stealthed. \n Enemy hordes, heroes and monsters in the same area suffer \n -25% armor and -25% damage. \n Lasts 60 seconds. \n «DEBUFF» «Neutralizes LEADERSHIP» \n\n Vänsterklicka på ikonen, vänsterklicka sedan på målområdet"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
@@ -616,10 +616,10 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to experience gaining \n Provides resistance to fear and terror \n Modifier Type: «ElvenGrace»\n Lasts 12 seconds \n Left click to activate"
+"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to experience gaining \n Provides resistance to fear and terror  \n Lasts 12 seconds \n Left click to activate"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Reveals an area of the map \n Provides +27.5% vision reveal range to any allied unit for 25 second. \n Doesn't affect heroes. \n Modifier Type: «ElrondFarseeing» \n Vänsterklicka på ikonen, vänsterklicka sedan på målet area"
+"Reveals an area of the map \n Provides +27.5% vision reveal range to any allied unit for 25 second. \n Doesn't affect heroes.  \n Vänsterklicka på ikonen, vänsterklicka sedan på målet area"
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
@@ -660,7 +660,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Summon Three Fi&res of Doom around Sauron in a circle"
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Requires researching the upgrade at fortress. \n\n Nearby allies gain +25% damage and earn experience 25% faster. \n Modifier Type: «Damage RESISTANT»"
+"Requires researching the upgrade at fortress. \n\n Nearby allies gain +25% damage and earn experience 25% faster. \n «Damage BUFF»"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Requires researching the upgrade at fortress. \n\n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
@@ -689,7 +689,7 @@ CONTROLBAR:Fire_pit
 "Fire pit (&V)"
 END
 CONTROLBAR:TooltipFire_pit
-"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Detect stealth \n Nearby allies gain +5% armor. \n Modifier Type: «RESISTANT HobbitCampfire»"
+"Campfire that heals nearby Allies \n Replenish 1 unit per horde each 5 seconds. \n Detect stealth \n Nearby allies gain +5% armor. \n «Campfire BUFF»"
 END
 CONTROLBAR:FireWorks
 "FireWorks / Ignite [&V]"
