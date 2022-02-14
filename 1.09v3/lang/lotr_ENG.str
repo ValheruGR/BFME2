@@ -94,7 +94,7 @@ CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
 "Disguise (&V)"
 END
 CONTROLBAR:SummonWargAllies09v3
-"Summon Warg Allies (&V)"
+"Summon Warg Allies (&C)"
 End
 CONTROLBAR:SummonWargAlliesDesc09v3
 "Requires Level 10 \n Summons a group of Warg Riders of Isengard to Sharku's side \n Left click icon then left click on pathable location"
@@ -115,7 +115,7 @@ END
 
 //------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
-"Prince of Ithilien [&B]"
+"Prince of Ithilien [&V]"
 END
 CONTROLBAR:PrinceofIthilienDesc09v2
 "Requires Level 5 \n Targeted archers gain experience \n Left click icon then left click on target archers"
