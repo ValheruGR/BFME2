@@ -1,0 +1,27 @@
+PlaceObjectFlags:
+HasCharacter		//bool
+HasClipActions		//bool
+HasClipDepth		//bool
+HasColorTransform	//bool
+HasMatrix		//bool
+HasName			//bool
+HasRatio		//bool
+Move			//bool
+
+ButtonFlags:
+ButtonStateUp 		//bool
+ButtonStateOver 	//bool
+ButtonStateDown 	//bool
+ButtonStateHitTest 	//bool
+
+ButtonActionFlags:
+CondOverDownToIdle 	//bool
+KeyPress 		//either an ASCII Character or something like escape etc. 
+CondIdleToOverUp 	//bool
+CondOverUpToIdle 	//bool
+CondOverUpToOverDown 	//bool
+CondOverDownToOverUp 	//bool
+CondOverDownToOutDown 	//bool
+CondOutDownToOverDown 	//bool
+CondOutDownToIdle 	//bool
+CondIdleToOverDown 	//bool

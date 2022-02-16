@@ -548,7 +548,7 @@ CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:Command_ConstructMordorCastleWallHub09v2
-"Centro amurallado (&D)"
+"Centro amurallado (&F)"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFlood09v2
@@ -595,7 +595,7 @@ UPGRADE:ElvenStructuralSilverthornArrows09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:PurchaseUpgradeElvenFortressSilverthorn09v2
-"Municiones Púa de Plata (&W)"
+"Municiones Púa de Plata (&B)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressSilverthorn09v2
 "Mejora con Puas de Plata las flechas de la fortaleza y todas las torres adicionales. \n Incrementa el daño causado por las flechas"
@@ -14307,7 +14307,7 @@ CONTROLBAR:TooltipOutpostUnpack
 END
 
 CONTROLBAR:ConstructMenWallHub
-"Centro amurallado (&D)"
+"Centro amurallado (&F)"
 END
 
 CONTROLBAR:ConstructMenFortress
@@ -14335,7 +14335,7 @@ CONTROLBAR:TooltipLumbermillUnpack
 END
 
 CONTROLBAR:UnpackLumbermill
-"Construir serrería (&A)"
+"Construir serrería"
 END
 
 CONTROLBAR:UnpackSlaughterhouse
@@ -14395,7 +14395,7 @@ CONTROLBAR:ToolTipConstructMenWorkshop
 END
 
 CONTROLBAR:ConstructMenSentryTower
-"Construir torreón (&R)"
+"Construir torreón (&D)"
 END
 
 CONTROLBAR:ToolTipConstructMenWallHub
@@ -14879,7 +14879,7 @@ CONTROLBAR:ConstructMordorSiegeWorks
 END
 
 CONTROLBAR:ConstructMordorHaradrimPalace
-"Construir palacio de los haradrim (&V)"
+"Construir palacio de los haradrim (&R)"
 END
 
 CONTROLBAR:ConstructMordorMumakilPen
@@ -14891,7 +14891,7 @@ CONTROLBAR:ConstructSlaughterHouse
 END
 
 CONTROLBAR:ConstructLumberMill
-"Construir serrería (&Y)"
+"Construir serrería (&B)"
 END
 
 CONTROLBAR:ConstructFurnace
@@ -14963,7 +14963,7 @@ CONTROLBAR:ConstructIsengardWargPit
 END
 
 CONTROLBAR:ConstructIsengardSiegeWorks
-"Construir fábrica de máquinas de asedio (&U)"
+"Constr&uir fábrica de máquinas de asedio"
 END
 
 CONTROLBAR:ConstructIsengardArmory
@@ -15035,7 +15035,7 @@ CONTROLBAR:ToolTipConstructWildGoblinFissure
 END
 
 CONTROLBAR:ConstructWildWildSpiderPit
-"Construir foso de arañas (&U)"
+"Construir foso de arañas (&D)"
 END
 
 CONTROLBAR:ToolTipConstructWildWildSpiderPit
@@ -15067,7 +15067,7 @@ CONTROLBAR:ToolTipConstructWildPorter
 END
 
 CONTROLBAR:ConstructEntMoot
-"Cons&truir Cámara de los Ents"
+"Constr&uir Cámara de los Ents"
 END
 
 CONTROLBAR:ToolTipEntMoot
@@ -15863,7 +15863,7 @@ CONTROLBAR:ToolTipGoblinCave
 END
 
 CONTROLBAR:ConstructGoblinCaveTroll
-"Troll de las cavernas (&R)"
+"Troll de las cave&rnas"
 END
 
 CONTROLBAR:ConstructGoblinFissure
@@ -15994,7 +15994,7 @@ END
 // \n La estructura gana armadura: \n +10% contra Heroes \n +20% contra Picas \n +25% contra Caballeria.
 
 CONTROLBAR:ConstructWildSpiderlingHorde
-"Arácnidos (&R)"
+"A&rácnidos"
 END
 
 CONTROLBAR:ToolTipBuildWildSpiderlingHorde
@@ -16002,7 +16002,7 @@ CONTROLBAR:ToolTipBuildWildSpiderlingHorde
 END
 
 CONTROLBAR:ConstructWildSpiderRiderHorde
-"Jinetes de arañas trasgo (&T)"
+"Jinetes de arañas &trasgo"
 END
 
 CONTROLBAR:ConstructWildMountainGiant
@@ -16058,11 +16058,11 @@ CONTROLBAR:ConstructMordorSiegeTower
 END
 
 CONTROLBAR:ConstructMordorCatapult
-"&Catapulta"
+"Catapul&ta"
 END
 
 CONTROLBAR:ConstructMordorGrond
-"Grond (&D)"
+"&Grond"
 END
 
 CONTROLBAR:ConstructMordorBannerOrc
@@ -16226,7 +16226,7 @@ CONTROLBAR:ConstructIsengardWildmanHorde
 END
 
 CONTROLBAR:ConstructIsengardWargRider
-"Jinetes de huargos (&R)"
+"Jinetes de hua&rgos"
 END
 
 CONTROLBAR:ConstructIsengardSiegeBallista
@@ -16862,7 +16862,7 @@ END
 //END
 
 CONTROLBAR:ToggleRohirrimWeapons
-"Arma alternativa (&R)"
+"Arma alte&rnativa"
 END
 
 CONTROLBAR:ToggleGondorRangerWeapons
@@ -25789,7 +25789,7 @@ CONTROLBAR:ToolTipConstructMenArrowTowerExpansion
 END
 
 CONTROLBAR:Command_ConstructMenWallHubExpansion
-"Expansión de centro amurallado (&D)"
+"Expansión de centro amurallado (&F)"
 END
 
 CONTROLBAR:ToolTipCommand_ConstructMenWallHubExpansion
@@ -25841,7 +25841,7 @@ CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
 END
 
 CONTROLBAR:Command_MenWallUpgradeToHub
-"Centro amurallado (&D)"
+"Centro amurallado (&F)"
 END
 
 CONTROLBAR:ToolTipCommand_MenWallUpgradeToHub
@@ -25925,7 +25925,7 @@ CONTROLBAR:ToolTipConstructDwarvenFortress
 END
 
 CONTROLBAR:ConstructDwarvenSentryTower
-"Construir torreón (&R)"
+"Construir torreón (&D)"
 END
 
 CONTROLBAR:ConstructDwarvenBarracks
@@ -25977,7 +25977,7 @@ CONTROLBAR:TooltipConstructDwarvenArcheryRange
 END
 
 CONTROLBAR:ConstructDwarvenWallHub
-"Construir centro amurallado (&D)"
+"Construir centro amurallado (&F)"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenWallHub
@@ -26017,7 +26017,7 @@ CONTROLBAR:ToolTipConstructDwarvenEreborTowerTowerExpansion
 END
 
 CONTROLBAR:Command_ConstructDwarvenWallHubExpansion
-"Expansión de centro amurallado (&D)"
+"Expansión de centro amurallado (&F)"
 END
 
 CONTROLBAR:TooltipCommand_ConstructDwarvenWallHubExpansion
@@ -26417,7 +26417,7 @@ CONTROLBAR:ToolTipPurchaseWildFireDrake
 END
 
 CONTROLBAR:ConstructWildSentryTower
-"Construir torre de vigilancia (&R)"
+"Construir torre de vigilancia (&D)"
 END
 
 OBJECT:WildMineShaft
@@ -26597,7 +26597,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEncasingVines
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressMysticFountains
-"Fuentes mís&ticas"
+"Fuentes místicas (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains
@@ -26613,7 +26613,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEnchantedAnvil
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressBlessedMist
-"Niebla bendecida(&T)"
+"Niebla bendecida (&T)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressBlessedMist
@@ -26621,7 +26621,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressBlessedMist
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressCrystalMoat
-"Foso de cristal (&B)"
+"Foso de cristal (&V)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat
@@ -26703,7 +26703,7 @@ CONTROLBAR:ConstructElvenStatue
 END
 
 CONTROLBAR:ConstructElvenBattleTower
-"Construir torreón (&R)"
+"Construir torreón (&D)"
 END
 
 CONTROLBAR:ConstructElvenMallornTree
@@ -26723,7 +26723,7 @@ CONTROLBAR:ToolTipEGaladrielsWell
 END
 
 CONTROLBAR:Command_ConstructElvenWallHubExpansion
-"Construir centro amurallado (&D)"
+"Construir centro amurallado (&F)"
 END
 
 CONTROLBAR:ToolTipCommand_ConstructElvenWallHubExpansion
@@ -26731,11 +26731,11 @@ CONTROLBAR:ToolTipCommand_ConstructElvenWallHubExpansion
 END
 
 CONTROLBAR:Command_ConstructElvenWallHubExpansionCastle
-"Expansión de centro amurallado (&D)"
+"Expansión de centro amurallado (&F)"
 END
 
 CONTROLBAR:Command_ElvenWallUpgradeToHub
-"Mejorar a &centro amurallado"
+"Mejorar a Centro amurallado (&F)"
 END
 
 CONTROLBAR:TooltipCommand_ElvenWallUpgradeToHub
@@ -29187,7 +29187,7 @@ CONTROLBAR:ToolTipConstructIsengardMineLauncherExpansion
 END
 
 CONTROLBAR:ConstructIsengardWallHubExpansion
-"Expansión de centro amurallado (&D)"
+"Expansión de centro amurallado (&F)"
 END
 
 CONTROLBAR:ToolTipConstructIsengardWallHubExpansion
@@ -29251,7 +29251,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressWizardsTower
 END
 
 CONTROLBAR:Command_IsengardWallUpgradeToHub
-"Mejorar a &centro amurallado"
+"Mejorar a Centro amurallado (&F)"
 END
 
 CONTROLBAR:TooltipCommand_IsengardWallUpgradeToHub
@@ -29275,7 +29275,7 @@ CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan
 END
 
 CONTROLBAR:Command_ConstructIsengardCastleWallHub
-"&Centro amurallado"
+"Centro amurallado (&F)"
 END
 
 CONTROLBAR:ToolTipCommand_ConstructIsengardCastleWallHub
@@ -29748,7 +29748,7 @@ CONTROLBAR:ConstructElvenHobbitShirrif
 END
 
 CONTROLBAR:ConstructElvenWallHub
-"Construir Centro amurallado (&D)"
+"Construir Centro amurallado (&F)"
 END
 
 CONTROLBAR:ConstructElvenWarriorHorde
@@ -29808,7 +29808,7 @@ CONTROLBAR:ConstructMordorAttackTroll
 END
 
 CONTROLBAR:ConstructMordorBattleTower
-"Construir to&rreón"
+"Construir torreón (&D)"
 END
 
 CONTROLBAR:ConstructMordorHaradrimArcherHorde
@@ -29852,7 +29852,7 @@ CONTROLBAR:GoblinKingBattleFrenzy
 END
 
 CONTROLBAR:GondorCastleWallHub
-"Construir centro amurallado (&D)"
+"Construir centro amurallado (&F)"
 END
 
 CONTROLBAR:IsengardWargSentryUnleash
@@ -38599,7 +38599,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMordorHeavyArmor
 END
 
 CONTROLBAR:PurchaseTechnologyDwarvenFlamingShot
-"Investigación: P&royectiles en llamas"
+"Investigación: Proyectiles en llamas (&W)"
 END
 
 CONTROLBAR:PurchaseTechnologyDwarvenSiegeHammer
@@ -38619,7 +38619,7 @@ CONTROLBAR:PurchaseTechnologyIsengardTorches
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot
-"Comprar proyectiles en llamas (&F)"
+"Comprar proyectiles en llamas (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeElderRacesMagicArrows
