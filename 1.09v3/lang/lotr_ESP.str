@@ -14891,7 +14891,7 @@ CONTROLBAR:ConstructSlaughterHouse
 END
 
 CONTROLBAR:ConstructLumberMill
-"Construir serrería (&B)"
+"Construir serrería (&Y)"
 END
 
 CONTROLBAR:ConstructFurnace
@@ -38603,7 +38603,7 @@ CONTROLBAR:PurchaseTechnologyDwarvenFlamingShot
 END
 
 CONTROLBAR:PurchaseTechnologyDwarvenSiegeHammer
-"Investigación: Martillos de asedio (&V)"
+"Investigación: Martillos de asedio (&D)"
 END
 
 CONTROLBAR:PurchaseTechnologyElderRacesMagicArrows
