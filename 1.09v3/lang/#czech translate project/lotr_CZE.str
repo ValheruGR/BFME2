@@ -522,7 +522,7 @@ END
 //	\n Cancels the disguise
 //------------------------------------------------------------
 CONTROLBAR:TooltipSunflare09v2
-"Calls a fiery beam of sunlight to scorch the battlefield and indiscriminately burn enemies and allies. \n Effective against weak heros \n Cancels Darkness & Frezzing Rain \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Calls a fiery beam of sunlight to scorch the battlefield and indiscriminately burn enemies and allies. \n Effective against weak Heroes \n Cancels Darkness & Frezzing Rain \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipCitadel09v2
@@ -530,7 +530,7 @@ CONTROLBAR:TooltipCitadel09v2
 END
 //------------------------------------------------------------
 OBJECT:SignalFireDescription09v2
-"Capture it to decrease recharge times for unused powers \n Heals nearby Heros and Flyers. \n\n 1 signal fire = -25% reduction of spellbook reload time \n 2 signal fires = -35% reduction \n 3 signal fires = -50% reduction"
+"Capture it to decrease recharge times for unused powers \n Heals nearby Heroes and Flyers. \n\n 1 signal fire = -25% reduction of spellbook reload time \n 2 signal fires = -35% reduction \n 3 signal fires = -50% reduction"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
@@ -872,7 +872,7 @@ Map:mapHAforlindon
 "The Cow Maze"
 End
 Map:mapHAforlindon/Desc
-"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heros trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\n Pùvodní mapa z BFME1 od u¾ivatele Haldir, upravena u¾ivatelem Ecthelion."
+"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heroes trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\n Pùvodní mapa z BFME1 od u¾ivatele Haldir, upravena u¾ivatelem Ecthelion."
 End
 //The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\nMapa z BFME1 od u¾ivatele Haldir, upravena u¾ivatelem Ecthelion."
 //------------------------------------------------------------
@@ -28796,7 +28796,7 @@ END
 CONTROLBAR:ToolTipBuildEregionForgeLevel2
 "Umo¾òuje výzkum kalených èepelí."
 END
-// \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
+// \n The structure gain armor: \n +10% against Heroes \n +25% against Pikes \n +33% against Cavalry
 
 CONTROLBAR:PurchaseUpgradeEregionForgeLevel3
 "Vylep¹it eregionskou kovárnu na 3. úroveò [&U]"
@@ -28805,7 +28805,7 @@ END
 CONTROLBAR:ToolTipBuildEregionForgeLevel3
 "Umo¾òuje výzkum støíbøitých ¹ípù."
 END
-// \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
+// \n The structure gain armor: \n +10% against Heroes \n +25% against Pikes \n +33% against Cavalry
 
 CONTROLBAR:ToolTipGreenPasture
 "Cvièí elfskou jízdu."
@@ -32522,12 +32522,12 @@ End
 CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade
 "Umo¾òuje výzkum tì¾kých zbrojí."
 End
-// \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
+// \n The structure gain armor: \n +10% against Heroes \n +25% against Pikes \n +33% against Cavalry
 
 CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade
 "Umo¾òuje výzkum ¾elezné rudy."
 End
-// \n The structure gain armor: \n +10% against Heros \n +25% against Pikes \n +33% against Cavalry
+// \n The structure gain armor: \n +10% against Heroes \n +25% against Pikes \n +33% against Cavalry
 
 CONTROLBAR:ToolTipBuildGoodBombardShip
 "Elfská loï vybavená dalekonosnou balistou. \n Silná proti budovám."
@@ -32548,12 +32548,12 @@ End
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel2
 "Umo¾òuje výzkum kalených èepelí a tì¾kých zbrojí."
 End
-// \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry
+// \n The structure gain armor: \n +10% against Heroes \n +20% against Pikes \n +25% against Cavalry
 
 CONTROLBAR:ToolTipBuildIsengardArmoryLevel3
 "Umo¾òuje výzkum zápalných ¹ípù."
 End
-// \n The structure gain armor: \n +10% against Heros \n +20% against Pikes \n +25% against Cavalry
+// \n The structure gain armor: \n +10% against Heroes \n +20% against Pikes \n +25% against Cavalry
 
 CONTROLBAR:ToolTipBuildMordorAttackTroll
 "Vy¾aduje 3. úroveò vìzení obrù. \n Silný proti ¹ermíøùm, jízdì a hrdinùm."
