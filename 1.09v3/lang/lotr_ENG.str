@@ -501,10 +501,12 @@ TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
+// Men
 "+25% Armor, -30% Speed and +33% extra arrow resistance. \n Loses -5% Damage."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
+// Isengard
 "+20% Armor, -30% Speed and +25% extra arrow resistance. \n Loses -5% Damage."
 END
 //------------------------------------------------------------
@@ -18374,7 +18376,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Phial of Galadriel (&V)"
+"Phial of Galadriel (&R)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -47568,7 +47570,7 @@ TOOLTIP:LackMordorBarbedArrow
 END
 
 CONTROLBAR:BarbedArrowUpgrade
-"Barbed Arro&ws"
+"Barbed Arrows (&T)"
 END
 
 // Power Spells

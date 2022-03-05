@@ -272,7 +272,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Fait pousser une forêt. \nCrée une zone de protection en son centre contre la forêt homme ou la terre soullié. \nLes unités alliées gagnent +35% d'armures, +25% de dégâts et gagnent +25% d'éxpériences plus rapidement. \nLa cavalerie ennemie ralentie 3,5 fois plus rapidement. \n «ElvenWood BUFF» \n «Overrides Damage LEADERSHIP» \nClic gauche sur l'icône puis clic gauche sur la zone cible"
+"Fait pousser une forêt. \nCrée une zone de protection en son centre contre la forêt homme ou la terre soullié. \nLes unités alliées gagnent +35% d'armures, +25% de dégâts et gagnent +25% d'éxpériences plus rapidement. \nLa cavalerie ennemie ralentie 200% fois plus rapidement. \n «ElvenWood BUFF» \n «Overrides Damage LEADERSHIP» \nClic gauche sur l'icône puis clic gauche sur la zone cible"
 END
 CONTROLBAR:MenWood09v2
 "Forêt Homme"
@@ -16914,7 +16914,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Fiole de Galadriel (&V)"
+"Fiole de Galadriel (&R)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -44524,7 +44524,7 @@ TOOLTIP:LackMordorBarbedArrow
 END
 
 CONTROLBAR:BarbedArrowUpgrade
-"Flèches hérissées"
+"Flèches hérissées (&T)"
 END
 
 CONTROLBAR:ToolTipHeal

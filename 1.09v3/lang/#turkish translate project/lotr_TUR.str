@@ -299,7 +299,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, +25% damage and %25 daha hýzlý tecrübe kazanýr. \n Niteliyici Türü: «RESISTANT ElvenWood» \n Overrides LEADERSHIP effects from the allies. \n Enemy cavalry deceleration rate is raised by +250%. \n Önce simgeye sonra hedefe týklayýn"
+"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, +25% damage and %25 daha hýzlý tecrübe kazanýr. \n Niteliyici Türü: «RESISTANT ElvenWood» \n Overrides LEADERSHIP effects from the allies. \n Enemy cavalry deceleration rate is raised by +200%. \n Önce simgeye sonra hedefe týklayýn"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -502,15 +502,15 @@ CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"Enemy hordes and heroes in the target location suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds. \n Niteliyici Türü: «Wormtongue STUN» \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Önce simgeye sonra hedefe týklayýn units"
+"Enemy hordes and heroes in the target location suffer \n -40% speed and -50% rate of fire. \n Lasts 19 seconds. \n «Neutralizes LEADERSHIP» \n Neutralizes LEADERSHIP and BUFF effects from the enemy. \n Önce simgeye sonra hedefe týklayýn units"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Gereken Seviye: 4 \n Enemy units and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Lasts 30 seconds. \n Niteliyici Türü: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Önce simgeye sonra hedefe týklayýn units"
+"Gereken Seviye: 4 \n Enemy units and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Lasts 30 seconds. \n Niteliyici Türü: «DEBUFF» «Neutralizes LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn units"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Allies within the mist become stealthed. \n Enemy units, heroes, and monsters within the mist \n suffer -25% armor and -25% damage. \n Lasts 60 seconds. \n Niteliyici Türü: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n\n Önce simgeye sonra hedef noktaya týklayýn"
+"Allies within the mist become stealthed. \n Enemy units, heroes, and monsters within the mist \n suffer -25% armor and -25% damage. \n Lasts 60 seconds. \n Niteliyici Türü: «DEBUFF» «Neutralizes LEADERSHIP» \n\n Önce simgeye sonra hedef noktaya týklayýn"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
@@ -18011,7 +18011,7 @@ CONTROLBAR:ToolTipSpecialAbilityEntFindRock
 END
 
 CONTROLBAR:tooltipCommand_ToggleEntRockThrow
-"Kaya Fýrlatma Modunu Aç/Kapa&t"
+"Kaya Fýrlatma Modunu Aç/Kapat (&W)"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk
@@ -18402,7 +18402,7 @@ CONTROLBAR:ToolTipMount
 END
 
 CONTROLBAR:UseSword
-"Kýlýcý Kullan [&R]"
+"Kýlýcý Kullan [&W]"
 END
 
 CONTROLBAR:ToolTipUseSword

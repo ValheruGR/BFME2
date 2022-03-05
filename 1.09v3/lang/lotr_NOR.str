@@ -272,7 +272,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +250%. \n «ElvenWood BUFF» \n «Overrides Damage LEADERSHIP»  \n Left click icon then left click on target area"
+"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +200%. \n «ElvenWood BUFF» \n «Overrides Damage LEADERSHIP»  \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -16917,7 +16917,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Galadriels flaske (&V)"
+"Galadriels flaske (&R)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -44529,7 +44529,7 @@ TOOLTIP:LackMordorBarbedArrow
 END
 
 CONTROLBAR:BarbedArrowUpgrade
-"Sylskarpe piler"
+"Sylskarpe piler (&T)"
 END
 
 CONTROLBAR:ToolTipHeal

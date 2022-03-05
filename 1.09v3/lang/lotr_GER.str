@@ -271,7 +271,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Erschafft reichhaltiges Gelände. \n Verbündete Einheiten erhalten +35 % Rüstung, \n +25 % Schaden und sammeln 25 % schneller Erfahrung.  \n Die Verzögerungsrate der feindlichen Kavallerie wird um +250 % erhöht. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Linksklick-Symbol, dann Linksklick auf Zielbereich" 
+"Erschafft reichhaltiges Gelände. \n Verbündete Einheiten erhalten +35 % Rüstung, \n +25 % Schaden und sammeln 25 % schneller Erfahrung.  \n Die Verzögerungsrate der feindlichen Kavallerie wird um +200 % erhöht. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Linksklick-Symbol, dann Linksklick auf Zielbereich" 
 END
 CONTROLBAR:MenWood09v2
 "Menschenwald"
@@ -484,15 +484,15 @@ CONTROLBAR:TooltipEnshroudingMist09v2
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
-"Erforsche Bannerträger-Upgrade in Kasernen, um diese Ausrüstung zu aktivieren. \n +25% Rüstung, -30% Geschwindigkeit und +33 % zusätzliche Resistenz gegen Pfeile"
+"Erforsche Bannerträger-Upgrade in Kasernen, um diese Ausrüstung zu aktivieren. \n +25% Rüstung, -30% Geschwindigkeit und +33 % zusätzliche Resistenz gegen Pfeile. \n Verliert -5% Schaden."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
-"+25% Rüstung, -30% Geschwindigkeit und +33 % zusätzliche Resistenz gegen Pfeile"
+"+25% Rüstung, -30% Geschwindigkeit und +33% zusätzliche Resistenz gegen Pfeile. \n Verliert -5% Schaden."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
-"+20% Rüstung, -30% Geschwindigkeit und +25% zusätzliche Resistenz gegen Pfeile. \n Verliert -7% Schaden."
+"+20% Rüstung, -30% Geschwindigkeit und +25% zusätzliche Resistenz gegen Pfeile. \n Verliert -5% Schaden."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
@@ -16909,7 +16909,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Galadriels Phiole (&V)"
+"Galadriels Phiole (&R)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -44527,7 +44527,7 @@ TOOLTIP:LackMordorBarbedArrow
 END
 
 CONTROLBAR:BarbedArrowUpgrade
-"Stachelpfeile"
+"Stachelpfeile (&T)"
 END
 
 CONTROLBAR:ToolTipHeal

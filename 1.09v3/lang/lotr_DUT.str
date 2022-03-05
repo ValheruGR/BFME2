@@ -281,7 +281,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creëert bosrijk terrein met mooie vogels, koeien, paarden, ... De koeien durven al wel eens kaka te doen dus je moet oppassen waar je loopt.\nAlle bevriende eenheden krijgen +35% pantser, \n +25% schade en verdienen ervaring 25% sneller \n Vijandige cavalerie vertraagd +250% sneller \n «ElvenWood BUFF» \n «Overrides Damage LEADERSHIP» \n Heeft geen effect op helden \n Klik met links op het icoontje en daarna met links op het doelgebied" 
+"Creëert bosrijk terrein met mooie vogels, koeien, paarden, ... De koeien durven al wel eens kaka te doen dus je moet oppassen waar je loopt.\nAlle bevriende eenheden krijgen +35% pantser, \n +25% schade en verdienen ervaring 25% sneller \n Vijandige cavalerie vertraagd +200% sneller \n «ElvenWood BUFF» \n «Overrides Damage LEADERSHIP» \n Heeft geen effect op helden \n Klik met links op het icoontje en daarna met links op het doelgebied" 
 END
 CONTROLBAR:MenWood09v2
 "Menselijk bos"
@@ -484,7 +484,7 @@ CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"Vijandige troepen en helden het doelgebied lijden \n -40% snelheid en -50% vuursnelheid \n Duurt 19 seconden.  \n Verwijderd LEADERSHIP en BUFF effecten van de vijand. \n Klik links op het icoontje daarna met links op het doelwit"
+"Vijandige troepen en helden het doelgebied lijden \n -40% snelheid en -50% vuursnelheid \n Duurt 19 seconden.  \n «Neutralizes LEADERSHIP» \n Klik links op het icoontje daarna met links op het doelwit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
@@ -16919,7 +16919,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Flesje van Galadriel (&V)"
+"Flesje van Galadriel (&R)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -44531,7 +44531,7 @@ TOOLTIP:LackMordorBarbedArrow
 END
 
 CONTROLBAR:BarbedArrowUpgrade
-"Getande pijlen"
+"Getande pijlen (&T)"
 END
 
 CONTROLBAR:ToolTipHeal

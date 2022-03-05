@@ -283,7 +283,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Enemy cavalry deceleration rate is raised by +250%. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Enemy cavalry deceleration rate is raised by +200%. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 CONTROLBAR:MenWood09v2
 "Lidský les"
@@ -486,7 +486,7 @@ CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"Enemy hordes and heroes in the target location suffer \n -40% speed and -50% rate of fire. \n Trvá 19 sekund.  «Neutralizes LEADERSHIP» \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybrané jednotky."
+"Enemy hordes and heroes in the target location suffer \n -40% speed and -50% rate of fire. \n Trvá 19 sekund. \n «Neutralizes LEADERSHIP» \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybrané jednotky."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
@@ -498,15 +498,15 @@ CONTROLBAR:TooltipEnshroudingMist09v2
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
-"Research Banner Carrier upgrade at Barracks to enable this equipment. \n +25% Armor, -30% Speed and +33% extra arrow resistance"
+"Research Banner Carrier upgrade at Barracks to enable this equipment. \n +25% Armor, -30% Speed and +33% extra arrow resistance. \n Loses -5% Damage."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
-"+25% Armor, -30% Speed and +33% extra arrow resistance"
+"+25% Armor, -30% Speed and +33% extra arrow resistance. \n Loses -5% Damage."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
-"+20% Armor, -30% Speed and +25% extra arrow resistance. \n Loses -7% damage."
+"+20% Armor, -30% Speed and +25% extra arrow resistance. \n Loses -5% damage."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
@@ -6908,17 +6908,17 @@ END
 
 Version:Format4
 // context: TRANSLATE ONLY THE WORD Build. DO NOT MODIFY THE VARIABLES  
-"1.09v2"
+"1.09v3"
 END
 
 Version:Format3
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"1.09v2"
+"1.09v3"
 END
 
 Version:Format2
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"1.09v2"
+"1.09v3"
 END
 
 Version:BuildTime
@@ -18326,7 +18326,7 @@ CONTROLBAR:ToolTipMount
 END
 
 CONTROLBAR:UseSword
-"Pou¾ít meè [&R]"
+"Pou¾ít meè [&W]"
 END
 
 CONTROLBAR:ToolTipUseSword
