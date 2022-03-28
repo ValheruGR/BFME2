@@ -125,3 +125,21 @@
   		;	End
         ;End
 	//-----------------------------------------------------------------------------
+	//Draw_ElrondElvenGraceBonusEffect
+   		Draw = W3DScriptedModelDraw Draw_ElrondElvenGraceBonusEffect
+			ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState = NONE
+				Model = None
+			End
+			AnimationState = USER_62 STUNNED_FLAILING
+  			End
+			AnimationState = USER_62 PASSENGER
+  			End
+			AnimationState = USER_62 DYING
+			End
+			AnimationState = USER_62 BURNINGDEATH
+			End
+			AnimationState = USER_62 // Draw_ElrondElvenGraceBonusEffect
+ 				ParticleSysBone		= NONE ElrondElvenGraceSparkleLeadershipMedium_NoSL FollowBone:Yes
+ 			End
+		End

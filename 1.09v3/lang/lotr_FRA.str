@@ -628,7 +628,7 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Soigne les unités et héros proches de 750 points de vie.\n Les hordes et monstres proches gagnent un bonus de +15% points de vie et +25% d'expériences.\n Donne un bonus de résistance à la peur et à la terreur. \nDure 12 secondes.\nClick droit pour activer."
+"Soigne les unités et héros proches de 750 points de vie.\n Les hordes et monstres proches gagnent \n+15% d'armures et +25% d'expériences.\n Donne un bonus de résistance à la peur et à la terreur. \nDure 12 secondes.\nClick droit pour activer."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
 "Révèle une zone de la carte.\nDonne un bonus de +27.5% de révélation de vision a toute les unités pendant 25 secondes.\nN'affecte pas les héros. \nClic gauche sur l'icône puis clic gauche sur la zone ciblée"

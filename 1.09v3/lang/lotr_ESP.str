@@ -627,7 +627,7 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Cura 750 puntos de salud de los heroes y hordas cercanas. \n Las hordas y monstruos cercanos reciben un incremento de \n +15% puntos de salud y ganan experience 25% más rapido. \n Proporciona inmunidad al miedo y al terror.  \n Dura 12 segundos \n Haz clic con el botón izquierdo para activar."
+"Cura 750 puntos de salud de los heroes y hordas cercanas. \n Las hordas y monstruos cercanos reciben \n +15% a la armadura y ganan experience 25% más rapido. \n Proporciona inmunidad al miedo y al terror.  \n Dura 12 segundos \n Haz clic con el botón izquierdo para activar."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
 "Revela un area del mapa \n Proporciona +27.5% rango de visión a cualquier unidad aliada por 25 segundos. \n No afecta heroes.  \n Haz clic con el botón izquierdo para activar."

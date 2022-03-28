@@ -624,11 +624,11 @@ CONTROLBAR:ToolTipRingOfPower09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAthelasAragorn09v2
-"Heal 1000 health points from nearby Heroes. \n Aktivace se provádí levým tlaèítkem my¹i."
+"Heals 1000 health points from nearby Heroes. \n Aktivace se provádí levým tlaèítkem my¹i."
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to experience gaining \n Provides resistance to fear and terror \n Trvá 12 sekund. \n Aktivace se provádí levým tlaèítkem my¹i."
+"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters gain +15% Armor and earn experience 25% faster. \n Provides resistance to fear and terror \n Trvá 12 sekund. \n Aktivace se provádí levým tlaèítkem my¹i."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
 "Reveals an area of the map \n Provides +27.5% vision reveal range to any allied unit for 25 second. \n Doesn't affect heroes. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."

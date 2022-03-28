@@ -613,7 +613,7 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heilt 750 Gesundheitspunkte von Horden und Helden in der Nähe. \n Horden und Monster in der Nähe erhalten einen Zuwachs von \n +15% auf Lebenspunkte und +25% auf Erfahrungsgewinne \n Bietet Widerstand gegen Angst und Terror  \n Für die Dauer von 12 Sekunden. \n Linksklick zum Aktivieren"
+"Heilt 750 Gesundheitspunkte von Horden und Helden in der Nähe. \n Horden und Monster in der Nähe erhalten \n +15 % Rüstung und +25% auf Erfahrungsgewinne \n Bietet Widerstand gegen Angst und Terror  \n Für die Dauer von 12 Sekunden. \n Linksklick zum Aktivieren"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
 "Denkt einen Teil der Karte auf \n Gewährt jeder verbündeten Einheit 25 Sekunden lang +27,5% Sichtweite. \n Hat keinen Einfluss auf Helden.  \n Linksklick-Symbol dann Linksklick auf Zielbereich"
