@@ -1,7 +1,6 @@
 
 	//-----------------------------------------------------------------------------
 		RemoveModule Draw_EvilHealEffect
-		
    		;;-;;	Draw = W3DScriptedModelDraw Draw_EvilHealEffect
 		;;-;;		ParticlesAttachedToAnimatedBones = yes
 		;;-;;		ModelConditionState = NONE
@@ -44,7 +43,6 @@
  		End
 	//-----------------------------------------------------------------------------
 		RemoveModule Draw_DevastationParalyzeEffect
-		
     	Draw = W3DScriptedModelDraw Draw_DevastationParalyzeEffect
 			ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState = NONE
@@ -64,7 +62,6 @@
 		End
 	//-----------------------------------------------------------------------------
 		RemoveModule Draw_DarknessEffect
-		
 		Draw = W3DScriptedModelDraw Draw_DarknessEffect
             ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState = NONE
@@ -84,7 +81,6 @@
         End
 	//-----------------------------------------------------------------------------
 		;RemoveModule Draw_ArmorStackLeadershipEffect
-		;
  		;Draw = W3DScriptedModelDraw Draw_ArmorStackLeadershipEffect
         ;    ParticlesAttachedToAnimatedBones = yes
 		;	ModelConditionState = NONE
@@ -105,7 +101,6 @@
         ;End
 	//-----------------------------------------------------------------------------
 		;RemoveModule Draw_DamageStackLeadershipEffect
-		;
 		;Draw = W3DScriptedModelDraw Draw_DamageStackLeadershipEffect
         ;    ParticlesAttachedToAnimatedBones = yes
 		;	ModelConditionState = NONE
@@ -125,7 +120,7 @@
   		;	End
         ;End
 	//-----------------------------------------------------------------------------
-	//Draw_ElrondElvenGraceBonusEffect
+		RemoveModule Draw_ElrondElvenGraceBonusEffect
    		Draw = W3DScriptedModelDraw Draw_ElrondElvenGraceBonusEffect
 			ParticlesAttachedToAnimatedBones = yes
 			ModelConditionState = NONE
