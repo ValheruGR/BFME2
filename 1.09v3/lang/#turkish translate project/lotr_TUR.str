@@ -1,27 +1,12 @@
 // String file for Lord of the Rings
 
-
 // comment: DO NOT TRANSLATE
 
-
 //------------------------------------------------------------
 
+// String lines for new Patch 1.09v3	-----	2019
 
-// String lines for new Patch 1.09v3        -----        2019
-
-
-
-
-// Ensure your notepad++ is codifying "Windows 1254 - Turk"
 //------------------------------------------------------------
-
-
-
-
-
-
-
-
 
 
 
@@ -39,6 +24,18 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:GoblinKingBattleFrenzy09v3
+"Battle Frenzy"
+End
+CONTROLBAR:ToolTipFueltheFires09v3
+"Player Lumber Mills gain +65% Production, \n and +20% Armor. \n Allied Lumber Mills gain +65% production. \n Fortress must be present"
+End
+UPGRADE:BarbedArrowUpgrade09v3
+"Barbed Arrows"
+END
+CONTROLBAR:TooltipUndermine09v3
+"Places a Mine Shaft anywhere on the map \n Does not need shroud reveal but cannot be casted near any enemy fortress. \n Mine Shaft becomes immediately connected to tunnel network \n Deals high damage at spawn point and light damage in the perimeter\n Left click icon then left click on visible location"
+END
 CONTROLBAR:ToolTipPersonalFlood09v3
 "Gereken Seviye: 4 \n Düþmanlara zarar veren ve yangýn söndüren bir sel çaðýrýr. \n Özellikle süvarilere ve Kara Süvari’lere karþý etkilidir. \n Seviye 4 Arwen 3 Sel Atý çaðýrýr.\n Seviye 7 Arwen 5 Sel Atý çaðýrýr.  \n Seviye 10 Arwen 7 Sel Atý çaðýrýr. \n Önce simgeye sonra hedefe týklayýn"
 END
