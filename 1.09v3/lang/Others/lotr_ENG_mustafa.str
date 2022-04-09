@@ -47510,7 +47510,7 @@ End
 //Upgrades - Generic ;bt
 
 CONTROLBAR:PurchaseUpgradeGondorForgedBlades
-"Purchase Forged &Blades"
+"Pu&rchase Forged Blades"
 END
 
 CONTROLBAR:PurchaseUpgradeRohanElvenWarriorForgedBlades
@@ -47518,27 +47518,27 @@ CONTROLBAR:PurchaseUpgradeRohanElvenWarriorForgedBlades
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardForgedBlades
-"Purchase Forged &Blades"
+"Pu&rchase Forged Blades"
 END
 
 CONTROLBAR:PurchaseUpgradeWildForgedBlade
-"Purchase Forged &Blades"
+"Pu&rchase Forged Blades"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenForgedBlades
-"Purchase Forged &Blades"
+"Pu&rchase Forged Blades"
 END
 
 CONTROLBAR:PurchaseUpgradeGondorBasicTraining
-"Purchase Banner &Carrier"
+"Purchase Ba&nner Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardBasicTraining
-"Purchase Banner &Carrier"
+"Purchase Ba&nner Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorBasicTraining
-"Purchase Banner &Carrier"
+"Purchase Ba&nner Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorBasicTrainingForMumakil
@@ -47546,7 +47546,7 @@ CONTROLBAR:PurchaseUpgradeMordorBasicTrainingForMumakil
 END
 
 CONTROLBAR:PurchaseUpgradeWildBasicTraining
-"Purchase Banner &Carrier"
+"Purchase Ba&nner Carrier"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenBasicTraining
@@ -47658,7 +47658,7 @@ END
 // Boromir
 
 CONTROLBAR:HornofGondor
-"Horn of Gondor [&R]"
+"Ho&rn of Gondor"
 END
 
 CONTROLBAR:ToolTipHornofGondor
@@ -47677,7 +47677,7 @@ END
 // Theoden
 
 CONTROLBAR:TheodenMount
-"Mount / Dismount [&R]"
+"&Mount / Dismount"
 END
 
 CONTROLBAR:KingsFavor 
@@ -47685,7 +47685,7 @@ CONTROLBAR:KingsFavor
 END
 
 CONTROLBAR:GloriousCharge
-"Glorious Charge [&V]"
+"&Glorious Charge"
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
@@ -47699,7 +47699,7 @@ END
 //Eowyin
 
 CONTROLBAR:Smite
-"Smite [&T]"
+"Smi&te"
 END
 
 CONTROLBAR:Disguise
@@ -47721,19 +47721,19 @@ END
 //Faramir
 
 CONTROLBAR:ToggleFaramirWeapons
-"Toggle Weapon [&R]"
+"&Toggle Weapon"
 END
 
 CONTROLBAR:WoundingArrow
-"Wounding Arrow [&T]"
+"&Wounding Arrow"
 END
 
 CONTROLBAR:FaramirKnightRanger
-"Knight/Ranger Toggle [&C]"
+"Knight/Ranger Toggle [&M]"
 END
 
 CONTROLBAR:CaptainofGondor
-"Captain of Gondor [&B]"
+"&Captain of Gondor"
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
@@ -47744,7 +47744,7 @@ END
 //Eomer
 
 CONTROLBAR:ThrowSpear
-"Spear Throw [&T]"
+"Spear &Throw"
 END
 
 CONTROLBAR:ToolTipEomerLeadership
@@ -47758,11 +47758,11 @@ END
 //Aragorn
 
 CONTROLBAR:Athelas
-"Athelas [&R]"
+"A&thelas"
 END
 
 CONTROLBAR:BladeMaster
-"Blade Master [&T]"
+"Blade Maste&r"
 END
 
 CONTROLBAR:Elendil
@@ -47770,7 +47770,7 @@ CONTROLBAR:Elendil
 END
 
 CONTROLBAR:Oathbreakers
-"Oathbreakers [&B]"
+"Oathbreakers [&W]"
 END
 
 CONTROLBAR:TooltipBladeMaster
@@ -47784,11 +47784,11 @@ END
 //Gandalf
 
 CONTROLBAR:WizardBlast
-"Wizard Blast [&R]"
+"&Wizard Blast"
 END
 
 CONTROLBAR:LightningSword
-"Lightning Sword [&T]"
+"Ligh&tning Sword"
 END
 
 CONTROLBAR:GandalfMount
@@ -47796,11 +47796,11 @@ CONTROLBAR:GandalfMount
 END
 
 CONTROLBAR:IstariLight
-"Istari Light [&V]"
+"Istari Light [&Y]"
 END
 
 CONTROLBAR:WordofPower
-"Word of Power [&B]"
+"Wo&rd of Power"
 END
 
 CONTROLBAR:ToolTipShadowfax
@@ -47889,11 +47889,11 @@ END
 //Haldir
 
 CONTROLBAR:ToggleElvenWarriorWeapons
-"Alternate Weapon [&R]"
+"Al&ternate Weapon"
 END
 
 CONTROLBAR:HaldirGoldenArrow
-"Golden Arrow [&C]"
+"Golden Arro&w"
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
@@ -47909,7 +47909,7 @@ END
 // Glorfindel
 
 CONTROLBAR:GlorfindelBladeOfPurity
-"Blade of Purity [&T]"
+"Blade of Pu&rity"
 END
 
 CONTROLBAR:GlorfindelWindRider
@@ -47917,17 +47917,17 @@ CONTROLBAR:GlorfindelWindRider
 END
 
 CONTROLBAR:GlorfindelStarlight
-"Starlight [&V]"
+"Starlight [&W]"
 END
 
 // Legolas
 
 CONTROLBAR:HawkStrike
-"Hawk Strike [&R]"
+"Hawk St&rike"
 END
 
 CONTROLBAR:TrainArchers
-"Train Archers [&T]"
+"&Train Archers"
 END
 
 CONTROLBAR:KnifeFighter
@@ -47935,7 +47935,7 @@ CONTROLBAR:KnifeFighter
 END
 
 CONTROLBAR:ArrowWind
-"Arrow Wind [&V]"
+"Arro&w Wind"
 END
 
 CONTROLBAR:ToolTipKnifeFighter
@@ -47950,14 +47950,14 @@ CONTROLBAR:ThranduilElvenCloak
 END
 
 CONTROLBAR:ThornofVengeance
-"Thorn of Vengeance [&B]"
+"Thorn of Vengeance [&W]"
 END
 
 
 // Elrond
 
 CONTROLBAR:ElrondFarsight
-"Farsigh&t"
+"Farsight [&C]"
 END
 
 CONTROLBAR:TooltipElrondLeadership
@@ -47969,7 +47969,7 @@ CONTROLBAR:ToolTipElrondFarsight
 END
 
 CONTROLBAR:ElrondRestoration
-"Restoration [&V]"
+"&Restoration"
 END
 
 CONTROLBAR:ToolTipElrondRestoration
@@ -47977,7 +47977,7 @@ CONTROLBAR:ToolTipElrondRestoration
 END
 
 CONTROLBAR:ElrondWhirlwind
-"Whirlwind [&B]"
+"&Whirlwind"
 End
 
 CONTROLBAR:TooltipElrondWhirlwind
@@ -48045,22 +48045,22 @@ END
 // Gloin
 
 CONTROLBAR:GloinSlam
-"Slam [&R]"
+"Slam [&W]"
 END
 
 CONTROLBAR:GloinShakeFoundation
-"Shake Foundation [&T]"
+"Shake Founda&tion"
 END
 
 CONTROLBAR:GloinSmash
-"Shatter Hammer [&C]"
+"Shatte&r Hammer"
 END
 
 
 // Dain
 
 CONTROLBAR:MightyRage
-"Mighty Rage [&T]"
+"Mighty &Rage"
 END
 
 CONTROLBAR:DainStubbornPride
@@ -48068,7 +48068,7 @@ CONTROLBAR:DainStubbornPride
 END
 
 CONTROLBAR:SummonRoyalGuard
-"Summon Royal Guard [&V]"
+"Summon Royal Guard [&W]"
 END
 
 CONTROLBAR:ToolTipDainLeadership
@@ -48082,15 +48082,15 @@ END
 // Gimli
 
 CONTROLBAR:AxeThrow
-"Axe Throw [&T]"
+"Axe &Throw"
 END
 
 CONTROLBAR:Leap
-"Leap Attack [&C]"
+"Leap Attack [&W]"
 END
 
 CONTROLBAR:Slayer
-"Slayer [&V]"
+"Slaye&r"
 END
 
 CONTROLBAR:ToolTipGimliLeadership
@@ -48206,44 +48206,44 @@ END
 // Lurtz
 
 CONTROLBAR:ToggleLurtzWeapon
-"Toggle Weapon [&R]"
+"&Toggle Weapon"
 END
 
 CONTROLBAR:SpecialAbilityLurtzCarnage
-"Carnage [&T]"
+"Ca&rnage"
 END
 
 CONTROLBAR:SpecialAbilityLurtzCripple
-"Cripple [&C]"
+"&Cripple"
 END
 
 // Sharku
 
 CONTROLBAR:TameTheBeast
-"Tame the Beast [&R]"
+"Tame the Beast [&C]"
 END
 
 CONTROLBAR:SharkuManEater
-"Man Eater [&C]"
+"Man Eater [&W]"
 END
 
 
 // Wormtongue
 
 CONTROLBAR:VenomousWords
-"Venomous Words [&R]"
+"Venomous Wo&rds"
 END
 
 CONTROLBAR:Escape
-"Escape [&T]"
+"&Escape"
 END
 
 CONTROLBAR:Backstab
-"Back Stab [&C]"
+"Ba&ck Stab"
 END
 
 CONTROLBAR:CorrodeAllegiance
-"Corrode Allegiance [&V]"
+"Corrode Allegiance [&W]"
 END
 
 CONTROLBAR:TooltipEscape
@@ -48258,11 +48258,11 @@ END
 // Saruman
 
 CONTROLBAR:SpecialAbilitySarumanFireball
-"Fireball [&T]"
+"Fi&reball"
 END
 
 CONTROLBAR:SpeechCraft
-"Speech Craft [&C]"
+"Spee&ch Craft"
 END
 
 CONTROLBAR:Dominate
@@ -48270,7 +48270,7 @@ CONTROLBAR:Dominate
 END
 
 CONTROLBAR:ThunderBolt
-"Thunderbolt [&B]"
+"&Thunderbolt"
 END
 
 //========================= MORDOR
@@ -48324,15 +48324,15 @@ END
 // Mouth of Sauron
 
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye
-"Evil Eye [&T]"
+"Evil E&ye"
 END
 
 CONTROLBAR:MouthOfSauronDoubt
-"Doubt [&C]"
+"Doub&t"
 END
 
 CONTROLBAR:MouthOfSauronDissent
-"Dissent [&V]"
+"D&issent"
 END
 
 // Fellbeast
@@ -48389,19 +48389,19 @@ END
 
 
 CONTROLBAR:GoblinKingSkullTotem
-"Skull Totem [&R]"
+"Skull &Totem"
 END
 
 CONTROLBAR:GoblinKingMount
-"Mount / Dismount [&T]"
+"&Mount / Dismount"
 End
 
 CONTROLBAR:GoblinKingPoisonedStinger
-"Poisoned Stinger [&V]"
+"Poisoned Stinge&r"
 END
 
 CONTROLBAR:GoblinKingSpawnFireDrakes
-"Call From the Deep [&B]"
+"&Call From the Deep"
 END
 
 CONTROLBAR:ToolTipGoblinKingMount
@@ -48411,11 +48411,11 @@ END
 // Shelob
 
 CONTROLBAR:WildShelobInstillTerror
-"Instill Terror [&R]"
+"Instill Terror [&C]"
 END
 
 CONTROLBAR:WildShelobPoisonedStinger
-"Poisoned Stinger [&T]"
+"Poisoned Stinge&r"
 End
 
 CONTROLBAR:SpecialAbilityWildShelobTunnel
@@ -48426,19 +48426,19 @@ END
 // Drogoth
 
 CONTROLBAR:SpecialAbilityDrogothFireball
-"Fireball [&R]"
+"Fi&reball"
 END
 
 CONTROLBAR:SpecialAbilityWingBlast
-"Wing Blast [&T]"
+"Wing Blast [&V]"
 END
 
 CONTROLBAR:SpecialAbilityDrogothFireflight
-"Fire Flight [&C]"
+"Fire Fligh&t"
 END
 
 CONTROLBAR:SpecialAbilityIncinerate
-"Incinerate [&V]"
+"Incinerate [&W]"
 END
 
 //======== Release Candidate 2 fixes
@@ -48486,15 +48486,15 @@ END
 //========== Release Candidate 4 fixes
 
 CONTROLBAR:PurchaseUpgradeDwarvenForgedBlades
-"Purchase Forged &Blades"
+"Pu&rchase Forged Blades"
 END
 
 CONTROLBAR:DwarvenGuardianChargeAttack
-"Cha&rge Attack"
+"Charge Attack [&W]"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
-"Purchase Banner &Carrier"
+"Purchase Ba&nner Carrier"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
@@ -48506,11 +48506,11 @@ CONTROLBAR:ToolTipOutlawLeadership
 END
 
 CONTROLBAR:ElvenCloak
-"Elven Cloak [&C]"
+"Elven &Cloak"
 END
 
 CONTROLBAR:ChargeAttack
-"Cha&rge Attack"
+"Charge Attack [&W]"
 END
 
 CONTROLBAR:ConstructRohanPeasant
@@ -48518,19 +48518,19 @@ CONTROLBAR:ConstructRohanPeasant
 END
 
 CONTROLBAR:DeadEye
-"Dead Eye [&T]"
+"Dead E&ye"
 END
 
 CONTROLBAR:MoveUnseen
-"Move Unseen [&V]"
+"Mo&ve Unseen"
 END
 
 CONTROLBAR:PersonalFlood
-"Flood [&T]"
+"Flood [&W]"
 END
 
 CONTROLBAR:ElvenGrace
-"Athelas [&R]"
+"A&thelas"
 END
 
 GUI:PleaseSelectBuddy

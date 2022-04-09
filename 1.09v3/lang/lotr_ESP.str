@@ -15839,7 +15839,7 @@ CONTROLBAR:RohanLegolasRevive
 END
 
 CONTROLBAR:RohanLegolasHotkey
-"L&egolas"
+"&Legolas"
 END
 
 CONTROLBAR:ConstructGoblinFighterHorde
@@ -30377,7 +30377,7 @@ CONTROLBAR:WildMountainGiantGrab
 END
 
 CONTROLBAR:WildMountainGiantStomp
-"Piso&tear"
+"Pisotear (&W)"
 END
 
 CONTROLBAR:WitchKingDismount
@@ -38603,7 +38603,7 @@ CONTROLBAR:PurchaseTechnologyDwarvenFlamingShot
 END
 
 CONTROLBAR:PurchaseTechnologyDwarvenSiegeHammer
-"Investigación: Martillos de asedio (&D)"
+"Investigación: Martillos de asedio (&V)"
 END
 
 CONTROLBAR:PurchaseTechnologyElderRacesMagicArrows
