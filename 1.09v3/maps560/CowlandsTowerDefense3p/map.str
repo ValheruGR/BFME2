@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 5.52 \n Made with a lot of love for patch 1.09. \n Developed during 2018-2022 by Ecthelion. \n ______________________________________ \n MULTIPLAYER: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n  ______________________________________ \n SINGLEPLAYER: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 5.61 \n Made with a lot of love for patch 1.09. \n Developed during 2018-2022 by Ecthelion. \n ______________________________________ \n MULTIPLAYER: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n  ______________________________________ \n SINGLEPLAYER: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -340,7 +340,7 @@ CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno_New
 END
 //--------------
 CONTROLBAR:GoblinKingSpawnFireDrakes_New
-"&Fire Drake Charge"
+"Fire Drake Charge (&C)"
 END
 CONTROLBAR:TooltipGoblinKingSpawnFireDrakes_New
 "Requires Level 8 \n Calls the blessings of her sister and delivers them to charge towards the enemy, while their mother hangs out with her friends at 5 am. \n Left click icon then left click on pathable location"
@@ -355,14 +355,14 @@ CONTROLBAR:FireDrakePassiveBoostDesc_New
 END
 //--------------
 CONTROLBAR:SarumanDragonStrike_New
-"Cold Dragon Strike (&V)"
+"Cold Dragon Strike (&B)"
 END
 CONTROLBAR:SarumanDragonStrikeDesc_New
 "Requires Level 10 \n Summons a cold fire breathing Dragon to fly-by, damage and slow down the enemies in the target location \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:SummonBalrogIce_New
-"Awake a Ice Demon (&V)"
+"Awake a Ice Demon (&B)"
 End
 CONTROLBAR:SummonBalrogIceDesc_New
 "Requires Level 10  \n Awakes a Ice Demon from the deeps of what's left on Angmar. \n Can only use when dismounted \n Left click icon then left click on pathable location"
@@ -396,13 +396,6 @@ UPGRADE:IsengardDunlandHallLevel2_New
 END
 UPGRADE:IsengardDunlandHallLevel3_New
 "Dunland Hall Level 3"
-END
-//---------------------------------------------------
-CONTROLBAR:GandalfMaiarLight_New
-"Light of Maiars (&C)"
-END
-CONTROLBAR:GandalfMaiarLightDesc_New
-"Requires Level 8 \n Calls down a barrage of magic projectiles onto your enemies \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityDrogothFireball_New
@@ -460,20 +453,20 @@ CONTROLBAR:ShelobPoisonedDartDesc_New
 "Requires Level 6 \n Shoots a dart with a highly concentrated amount of liquid on the target. \n Causes high damage in area and paralyzes the target for 6 seconds.\n Left click icon then left click on target"
 END
 CONTROLBAR:SpecialAbilityWildShelobTunnel_New
-"Tunnel [&B]"
+"Tunnel [&V]"
 END
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel_New
 "Requires Level 8 \n Allows Shelob to tunnel under the ground and emerge at any unshrouded location, causing damage and metaimpact. \n Left click icon then left click on target location"
 END
 CONTROLBAR:ShelobWebbing_New
-"Rain of spider-webs (&V)"
+"Rain of spider-webs (&B)"
 End
 CONTROLBAR:ToolTipShelobWebbing_New
 "Requires Level 10 \n Shelob fires a storm of spider-webs loaded with eggs. \n Enemy units are crippled and spider-eggs will be created on the bodies of the dead. \n Left click icon then left click on target area"
 End
 //---------------------------------------------------
 CONTROLBAR:BlackRiderMorgulBlade_New
-"Morgul Spell [&C]"
+"Morgul Dagger [&C]"
 END
 CONTROLBAR:ToolTipBlackRiderMorgulBlade_New
 "Requires Level 4 \n Targeted enemy becomes crippled and takes poison damage over time. \n Upon death turns into a Ring Wraith. \n Left click icon then left click on target"
@@ -485,13 +478,13 @@ CONTROLBAR:ToolTipDreadVisage09v2_New
 "Enemy units are reduced to \n 75% armor and 75% damage \n Category: 'DEBUFF' \n Wipes LEADERSHIP \n and BUFF effects from the enemy. \n Passive ability"
 End
 CONTROLBAR:ScreechBlackRider_New
-"Deafening Screech [&B]"
+"Deafening Screech [&V]"
 END
 CONTROLBAR:TooltipScreechBlackRider_New
 "Requires Level 7 \n Burst the eardrums of the enemy, causing high dosis of damage. \n Fear prevails over rationality and units temporaly lose their way. \n Left click to activate"
 END
 CONTROLBAR:CalltheHorde_New
-"Call the Hordes (&V)"
+"Call the Hordes (&B)"
 End
 CONTROLBAR:ToolTipCalltheHorde_New
 "Requires Level 10 \n Summons four hordes of mordor orcs \n to defend the road against your enemies. \n \n Summon troll system: \n Troll cage level 1 implies 1 Cave troll. \n Troll cage level 2 implies 1 Mountain Troll. \n Troll cage level 3 implies 1 Attack Troll. \n Left click icon then left click on pathable location"
@@ -515,8 +508,8 @@ CONTROLBAR:MenLongShotAbility_New
 "Longsho&t"
 End
 //---------------------------------------------------
-OBJECT:SignalFireDescription09v2
-"Capture it to decrease recharge times for unused spellbooks. \n Reduces special abilities reload time. \n Heals nearby Heros and Flyers. \n\n 1 signal fire = -20% reduction of spells and abilities"
+OBJECT:SignalFireDescription09v2_New
+"Capture it to decrease recharge times for \n unused spellbook powers and unused special abilities"
 End
 //---------------------------------------------------
 CONTROLBAR:GoblinKingBattleFrenzy_New
@@ -559,14 +552,14 @@ CONTROLBAR:GorkilPoisonedDartDesc_New
 END
 //---------------------
 CONTROLBAR:GorkilRoussingSpeech_New
-"Rousing Speech [&B]"
+"Rousing Speech [&V]"
 END
 CONTROLBAR:GorkilRoussingSpeechDesc_New
 "Requires Level 7 \n The Goblin King boosts nearby player goblins. \n Provides +999% armor, +50% damage, \n inmunity to deceleration when trampling, resistance to knockback \n and, finally, inmunity to any kind of fear. \n Category: 'Glorious_Charge' \n left click icon to activate"
 END
 //---------------------
 CONTROLBAR:GorkilSummonMarauders_New
-"Call from the Deeps [&V]"
+"Call from the Deeps [&B]"
 END
 CONTROLBAR:GorkilSummonMaraudersDesc_New
 "Requires Level 10 \n Gorkil awakes a bunch of monstrous marauders half-trolls from the deeps of the Middle-Earth where goblins manage to have sex with trolls. \n Opens a crack and deals damage in the holes."
@@ -585,6 +578,9 @@ CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades_New
 End
 CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades_New
 "Projectiles are empoison in order to slow down enemies and cause light damage over time. \n Left click to activate"
+End
+CONTROLBAR:SpiderPoisonArrowDesc_New
+"Requires Level 4 \n Projectiles are empoison in order to slow down enemies and cause light damage over time. \n Left click to activate"
 End
 //---------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenBattleWagon_New
@@ -659,14 +655,6 @@ CONTROLBAR:ToolTipFueltheFires_New
 "Once upon a time.... there was system called capitalism. He eventually figured out it was not just efficient, but also very practical to apply a wage salary system instead of the usual fixed salary. The outcome was ideal, the old fixed salary had dropped to ground the proletarian life quality and now the wage salary is incredibly allowing to reduce the minimal obligatory hours. \n "Why do we have to deal with communist effervescence?" -once a man thought-  "when we can simply keep a majority of workers happy, build certain consensus and only deal with a bunch of manageable syndicates?" Such syndicates, by the way, the only thing they can do is to exploit one of the laws of the political economy, such as creating a shortage of hand of work in order to raise the salaries of their members, vanishing any seek for revolution in general. I love you 19th century. \n Raises this Lumber Mill production by +40%."
 End
 //---------------------------------------------------
-GUI:STRUCTURE_WALL_DISCOUNT_New
-"Discount: \n Structures: %d%%"
-END
-//------------------------------------------------------------
-GUI:SpellBookRefreshReduction09v2
-"Powers and abilities: \n Reload bonus: %d%%"
-End
-//---------------------------------------------------
 OBJECT:ConstructFurnace_New
 "Guild smelters facility"
 END
@@ -695,11 +683,11 @@ CONTROLBAR:FalseEncouragement_New
 "False Encouragemen&t"
 END
 CONTROLBAR:FalseEncouragementDesc_New
-"Requires Level 3 \n Convinces enemies within a small radius to ignore their original orders, break formation and advance alone. \n Target units healthpoints are reduced to 35%, \n damage is reduced to 50%, but speed is increased to 180%. \n Affects allies. \n Lasts 45 seconds. \n Left click icon then left click on target units"
+"Requires Level 3 \n Convinces enemies within a small radius to ignore their original orders, break formation and advance alone. \n Target units healthpoints are reduced to 45%, \n damage is reduced to 50%, but speed is increased to 180%. \n Affects allies. \n Lasts 45 seconds. \n Left click icon then left click on target units"
 END
 //-----
 CONTROLBAR:IsengardTrainAllies_New
-"Train the army [&B]"
+"Train the army [&C]"
 END
 CONTROLBAR:IsengardTrainAlliesDesc_New
 //"Requires Level 5 \n Grima doesn't have a shit to do. \n The least thing he could do is to train the allied uruk-hais or the savage Dunland people as he learned in Rohan. \n Targeted units gain experience \n Left click icon then left click on target units"
@@ -715,14 +703,14 @@ CONTROLBAR:GrimaLandThingDesc_New
 END
 //-----
 CONTROLBAR:GrimaEconomyPower_New
-"Employer leadership (&B)"
+"Employer leadership (&V)"
 END
 CONTROLBAR:GrimaEconomyPowerDesc_New
 "Requires Level 8 \n Another of the things Grima learned in Rohan was about disguising one's self interests with the idea of common good. \n Grima encourages lumber jackers to raise the production with promises of better salaries and vacations as result of the economy growing. He convincingly explains that everyone can be easily benefited once the enterprise improve its profits. \n Lumber workers gain +50% speed and harvest +50% more resources"//BUNITO_ESSAY//
 END
 //-----
 CONTROLBAR:GrimaSummonMine_New
-"Deploy mines [&V]"
+"Deploy mines [&B]"
 END
 CONTROLBAR:GrimaSummonMineDesc_New
 "Requires Level 10 \n Grima setups three explosive mines on the selected area. \n Player decides how he is going to detonate them. \n Explosion doesn't discriminate allies from enemies. \n Left click icon then left click on target location"
@@ -1335,25 +1323,25 @@ CONTROLBAR:ToolTipSharkuManEater_New
 "Requires Level 3 \n Grabs a target enemy, eats what's tasty and throws the rest away. \n Sharku and his warg become euphoric. \n Restores Sharku's health and Sharku's warg temporaly becomes able to crush at lower speed and without deceleration\n Grants +100% Damage, +50% armor and +20% speed. \n Grabbed heroes suffer high damage and become crippled. \n Left click icon then left click on target enemy"
 END
 //-----
-CONTROLBAR:SharkuWargRiderHowl_New
-"Ho&wl"
-END
-CONTROLBAR:SharkuToolTipWargRiderHowl_New
-"Requires Level 5 \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant' \n Requires to be mounted. \n Left click icon to activate"
-END
-//-----
 CONTROLBAR:SharkuStealMoney_New
-"Steal &Resources"
+"Steal Resources (&C)"
 END
 CONTROLBAR:SharkuStealMoneyDesc_New
-"Requires Level 6 \n Blindsided by unpaid child support payments and the guilt of abandoning his 12 kids, Sharku becomes another statistic employing hit-and-run robberies to fund his future, gaining resources with each hit. \n Each attack steals 100$ and Sharku gains +50% speed. \n Lasts 25 seconds. \n Left click to activate"
+"Requires Level 4 \n Blindsided by unpaid child support payments and the guilt of abandoning his 12 kids, Sharku becomes another statistic employing hit-and-run robberies to fund his future, gaining resources with each hit. \n Each attack steals 100$ and Sharku gains +50% speed. \n Lasts 25 seconds. \n Left click to activate"
 //"Sharku steals resource every time he attacks a enemy. \n -And he's not precisely Robin Hood- \n Left click icon to activate"
 //"As the nigger hunts for his elusive crack rocks or food stamps, sharku also hunts for resources, gaining bank for each enemy hit"
 //"Sharku learns to loot resources from slain enemies, likewise as the nigger loots a 60 inch plasma screen tv during his civil rights protests."
 End
 //-----
+CONTROLBAR:SharkuWargRiderHowl_New
+"Howl (&V)"
+END
+CONTROLBAR:SharkuToolTipWargRiderHowl_New
+"Requires Level 6 \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant' \n Requires to be mounted. \n Left click icon to activate"
+END
+//-----
 CONTROLBAR:SummonWargAllies_New
-"Summon Warg Allies (&V)"
+"Summon Warg Allies (&B)"
 End
 CONTROLBAR:SummonWargAlliesDesc_New
 "Requires Level 8 \n Summons a group of Wargs \n Left click icon then left click on pathable location"
@@ -1404,13 +1392,13 @@ CONTROLBAR:RitualistSacrifice_New
 "Sac&rifice a Berserke"
 END
 CONTROLBAR:RitualistSacrificeDesc_New
-"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain \n +37% Damage, +37 speed & +75% range \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Left click icon, then left click on the target berserker"
+"Grima performs a ritual which involves the sacrifice of a healthy and strong berserker. \n Nearby player units gain \n +37% Damage, +37 speed & +75% range for 45 seconds. \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Left click icon, then left click on the target berserker"
 END
 CONTROLBAR:LurtzBoost_New
 "Locura"
 END
 CONTROLBAR:LurtzBoostDesc_New
-"Requires Level 3 \n Lurtz gains a permanent bonus of +250% rate of fire and +150 damage. \n Passive ability"
+"Requires Level 3 \n Lurtz gains a permanent bonus of 300% rate of fire and +150 damage. \n Passive ability"
 END
 CONTROLBAR:LurtzDeadEye_New
 "Dead Eye (&T)"
@@ -1430,8 +1418,14 @@ CONTROLBAR:ToolTipSpecialAbilityLurtzCripple_New
 //"Requires Level 7 \n brom can bluk blakridre, and THIS can bluk brom! \n also bluks mustrs includng truls \n and it have sblish \n btw isen archers do funy damg vs orc \n Left click icon then left click on target"
 "Requires Level 7 \n Pins enemy hero or monster in place. \n In level 10 Lurtz becomes able to shoot 2 cripple arrows at same time. \n Left click icon then left click on target"
 END
+CONTROLBAR:LurtzInspireTerror_New
+"Inspire Terror [&V]"
+END
+CONTROLBAR:LurtzInspireTerrorDesc_New
+"Requires Level 7 \n Causes enemy units to flee in terror, independently of fear inmunity. \n Enemy units are reduced to \n 75% speed, 75% armor and 75% damage \n Category: 'DEBUFF' \n Lasts 12 seconds. \n left click icon to activate"
+END
 CONTROLBAR:LurtzSummonUrukGuard_New
-"Summon Uruk Guard [&V]"
+"Summon Uruk Guard [&B]"
 END
 CONTROLBAR:LurtzSummonUrukGuardDesc_New
 "Requires Level 9 \n Summons two batallions of Uruk Pikemen \n Armory upgrades affect them. \n Left click icon then left click on pathable location"
@@ -1474,13 +1468,13 @@ CONTROLBAR:AzogGoblinChargeDesc_New
 "Requires Level 4 \n Calls a bunch of heavy armored goblins to charge against the enemy and poison them on their way. \n Summons more goblins at level 7 and even moar goblins at level 9. \n Left click icon then left click on target area"
 END
 CONTROLBAR:AzogsAzogTremor_New
-"Tremors (&B)"
+"Tremors (&V)"
 End
 CONTROLBAR:AzogsAzogTremorDesc_New
 "Requires Level 9 \n Causes a series of tremors on the selected area. \n Knocks down the enemies and \n slows them down. \n Left click icon then left click on target area"
 END
 CONTROLBAR:SummonBalrogFire_New
-"Awake a Fire Demon (&V)"
+"Awake a Fire Demon (&B)"
 End
 CONTROLBAR:SummonBalrogFireDesc_New
 "Requires Level 10 \n Awakes a Fire Demon from the deeps of Moria. \n Left click icon then left click on pathable location"
@@ -1494,10 +1488,6 @@ END
 //---------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership_New
 "Requires Level 3 \n Allied cavalry near Eomer gain 50% Armor and earn experience 25% faster.\n Category: 'TaintLand' \n Passive ability" // , \n +20% range and +20% vision. . iwanted to remind their current bonus on this ability, but they need it independently of eomer.
-END
-//---------------------------------------------------
-CONTROLBAR:ToolTipIstariLight_New
-"Requires Level 2 \n Beam of light that damages enemies. \n Bonus against Cavalry and Monsters. \n Left click icon then left click on target"
 END
 //-------------FortressHealingButton-----------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains_New
@@ -1601,13 +1591,6 @@ CONTROLBAR:GenericMountTooltip_New
 "Requires Level 2 \n Left click to switch between \n mounted and on foot"
 END
 //---------------------------------------------------
-CONTROLBAR:ElrondToggle_New
-"Toggle Weapon (&R)"
-END
-CONTROLBAR:ElrondToggleDesc_New
-"Requires Level 5 \n After four levels of experience, Elrond resigns himself. He grabs his fuckin bow from The Last Alliance and decides to help his men \n Click to switch between Bow and Melee"
-End
-//---------------------------------------------------
 CONTROLBAR:BlackRiderLeadership
 "Inspiring Presence"
 END
@@ -1635,7 +1618,7 @@ CONTROLBAR:ToolTipMouthOfSauronDoubt_New
 "Requires Level 4 \n Debuff enemy units for 30 seconds \n Targeted enemies lose -33% armor, -15% speed\n and all leadership and buff bonuses \n Left click icon then left click on target units \n Does not stack with another debuff"
 END
 CONTROLBAR:SunflareMoS_New
-"Ray of Barad-dur (&V)"
+"Ray of Barad-dur (&B)"
 END
 CONTROLBAR:SunflareMoSDesc_New
 "Requires Level 10 \n Calls a fiery beam of fire to scorch the battlefield \n Left click icon then left click on target area"
@@ -1673,26 +1656,43 @@ CONTROLBAR:ThranduilBoostDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:LegolasTrainArchers_New
-"Art of the &Bow"
+"Art of the Bow [&V]"
 END
 CONTROLBAR:LegolasTrainArchersDesc_New
 "Requires Level 7 \n Legolas decides to share his knowledge with player archer batallions. \n Targeted archer batallion learns to shoot arrows 50% faster permanently and earn experience. \n Left click icon then left click on target archers"
 END
 //---------------------------------------------------
 CONTROLBAR:MenWood_New
-"Fanatic pseudo-ecologist [&V]"
+"Fanatic pseudo-ecologist [&B]"
 END
 CONTROLBAR:MenWoodDesc_New
 "Requires Level 10 \n Faramir understands that replenish the forests of Ithilien is the next step after Sauron's defeat. He doesn't precisely care about the benefits that trees have against soil erosion, floods, ozone layer deterioration, etcetera. That Faramir became the Captain of Ithilien doesn't imply he stopped being an ideal ranger; the woods can keep acting like a useful barrier against Gondor enemies. \n But that's not the only reason either.\n Being a pragmatic clever boy with a strong future vision, he sees the monopoly of the Ithilien Forest resources can become a excelent business if we promote a holy crusade against those "Sea Terrorists" and "Sand Terrorists". \n Furthermore, who says Men of the West will never travel to Valinor to rape all those pussy elves that left the Middle-Earth? \n Creates lush terrain \n Enemies near the trees lose simple leadership and -25% armor/-25% damage.  \n Allied STRUCTURES health points are quadruplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area" //BUNITO_ESSAY//
 END
 //---------------------------------------------------
 CONTROLBAR:ElvenWood_New
-"Elven Wood [&B]"
+"Elven Wood [&V]"
 END
 CONTROLBAR:TooltipElvenWood_New
 "Requires Level 7 \n Creates lush terrain \n Enemy units lose simple leadership and 20% speed \n Allied STRUCTURES health points are quadruplicated whilst its during. \n Category: 'TaintLand' \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
+CONTROLBAR:ElrondFarsight_New
+"Fa&rsight"
+END
+CONTROLBAR:ElrondFarSightDesc_New
+"Spy on the enemy forces. \n Target archers gain +35% range. \n «Farsight BUFF» \n Left click icon then left click on target area"
+END
+//----------------------
+CONTROLBAR:ElrondToggle_New
+"Toggle Weapon (&C)"
+END
+CONTROLBAR:ElrondToggleDesc_New
+"Requires Level 5 \n After four levels of experience, Elrond resigns himself. He grabs his fuckin bow from The Last Alliance and decides to help his men \n Click to switch between Bow and Melee"
+End
+//---------------------------------------------------
+CONTROLBAR:HaldirGoldenArrow_New
+"Golden Arrow [&B]"
+END
 CONTROLBAR:ToolTipHaldirGoldenArrow_New
 "Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
 END
@@ -1797,21 +1797,21 @@ CONTROLBAR:ToolTipSummonElvenAllies_New
 END
 //---------------------------------------------------
 CONTROLBAR:WitchKingDarkness_New
-"Darkness (&B)"
+"Darkness (&V)"
 END
 CONTROLBAR:WitchKingDarknessDesc_New
 "Requires Level 6 \n Temporarily covers the entire map in darkness\n Self player units and heroes gain \n +50% Damage, +33% Armor and earn experience 50% faster \n Category: 'Darkness' \n left click icon to activate"
 END
 //---------------------------------------------------
 CONTROLBAR:MemoriesOfAngmar_New
-"Memories of Angmar (&B)"
+"Memories of Angmar (&V)"
 END
 CONTROLBAR:MemoriesOfAngmarDesc_New
 "Requires Level 8 \n The Witch King recalls the fun he used to have \n when he raped Arnor over and over. \n Use as closer possible to your enemies \n Curses the enemy; poisons them, slows them down \n and upon death they will turn into ring wraiths. \n The Witch King becomes euphoric, \n gaining +50% damage, +35% speed, +99% armor, \n and becoming resistant against knock-down. \n Requires to be dismounted \n Left click icon then left click on area"
 END
 //---------------------------------------------------
 CONTROLBAR:WitchKingRainsOfMorgul_New
-"Rains Of Morgul (&V)"
+"Rains Of Morgul (&B)"
 END
 CONTROLBAR:WitchKingRainsOfMorgulDesc_New
 "Requires Level 10 \n Calls down a barrage of rocks from Morgul onto your enemies \n left click icon to activate"
@@ -1825,28 +1825,28 @@ CONTROLBAR:ToolTipOutlawLeadership_New
 END
 //---------------------------------------------------
 CONTROLBAR:Blight_New
-"Rape the Land (&B)" // Blight
+"Rape the Land (&V)" // Blight
 End
 CONTROLBAR:BlightDesc_New
 "Requires Level 8 \n Enemy units in the affected area receive damage over time, \n get their speed reduced by -20%, \n and upon death, some of them, briefly become Wights under your control \n Allied STRUCTURES health points are quadruplicated whilst its during \n Category: 'TaintLand' \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:Sunflare_New
-"Moonlight Flare[&V]"
+"Moonlight Flare[&B]"
 END
 CONTROLBAR:TooltipSunflare_New
 "Requires Level 9 \n In honor to the Piano Sonata 4, a beam of canalized moonlight energy is summoned to scorch the cowlands \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:EnshroudingMist_New
-"Poisonous Mist (&V)"
+"Poisonous Mist (&B)"
 END
 CONTROLBAR:TooltipEnshroudingMist_New
 "Requires Level 10 \n Debuffs and damages anyone who enters into the fog \n Left click icon and left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:ArwenRestore_New
-"E&venstar Restoration"
+"Evenstar Restoration (&B)"
 END
 CONTROLBAR:ArwenRestoreDesc_New
 "Requires Level 10 \n Fully refreshes the special ability timers from nearby allies and heals 20% health points \n Left click icon and left click on target allies"
@@ -1899,8 +1899,15 @@ CONTROLBAR:ToolTipMightyRage_New
 "Requires Level 5 \n Targeted friendly units gain \n+25% Damage, +50 speed & +100% range \n Units also become immune to metaimpact. \n Category: 'MightyRage' \n Enemy units are debuffed \n \n If Dain is level 10, the targeted *player* units earn resources from kills, \n earning 65% of the bounty value instead of 33%.\n Left click icon then left click on target units"
 END
 //---------------------------------------------------
+CONTROLBAR:SummonRoyalGuard_New
+"Summon Royal Guard [&B]"
+END
+CONTROLBAR:ToolTipSummonRoyalGuard_New
+"Requires Level 10 \n Summons several battalions of dwarves to Dain's side \n Left click icon then left click on pathable location"
+END
+//-----------------
 CONTROLBAR:DwarvenRiches_New
-"Temporary Tax Exemption (&B)"
+"Temporary Tax Exemption (&V)"
 END
 CONTROLBAR:TooltipDwarvenRiches_New
 "Requires Level 8 \n Dain understands the positive effects the minery has in the unemployment rates. \n Targeted fortress will apply a tax exemption on the transnational mining companies, therefore they will raise its production +30%. \n The King mistakenly believes the capital benefits, based in concepts of efficiency, shall be reinverted in infraestructure and the precarious work conditions of the miners will vanish \n Dain also believes -without any doubt- the exploitation of the national soil in hands of foreigners will be responsable and environment caring\n Left click icon then left click in the fortress." //BUNITO_ESSAY//
@@ -1914,12 +1921,27 @@ CONTROLBAR:ToolTipSummonDunedainAllies_New
 //Calls a group of expert Dunedain Rangers \n Left click icon then left click on pathable location
 END
 //---------------------------------------------------
-//CONTROLBAR:LightningSword_New
+CONTROLBAR:IstariLight_New
+"Istari Light [&T]"
+END
+CONTROLBAR:ToolTipIstariLight_New
+"Requires Level 2 \n Beam of light that damages enemies. \n Bonus against Cavalry and Monsters. \n Left click icon then left click on target"
+END
+//--------------------
+CONTROLBAR:LightningSword_New
+"Lightning Sword (&C)"
 //"Shock of Lucidi&ty"
-//END
+END
 CONTROLBAR:ToolTipLightningSword_New
 //"Requires Level 4 \n Shoots out lightning shocks from Gandalf's sword\n in order to help your enemies releasing their true identity.... \n Left click icon then left click on target"
 "Requires Level 4 \n Shoots out lightning bolts from Gandalf's sword \n Left click icon then left click on target"
+END
+//------------------
+CONTROLBAR:GandalfMaiarLight_New
+"Light of Maiars (&V)"
+END
+CONTROLBAR:GandalfMaiarLightDesc_New
+"Requires Level 8 \n Calls down a barrage of magic projectiles onto your enemies \n Left click icon then left click on target area"
 END
 //---------------------------------------------------
 CONTROLBAR:Euthanasia_New
@@ -1929,6 +1951,9 @@ CONTROLBAR:EuthanasiaDesc_New
 "Requires a human playing God \n This cow is sick and needs to be put to sleep immediately."
 END
 //---------------------------------------------------
+CONTROLBAR:ElrondWhirlwind_New
+"Whirlwind [&B]"
+End
 CONTROLBAR:TooltipElrondWhirlwind_New
 "Requires Level 10 \n Summons a destructive whirlwind onto the battlefield \n Left click icon then left click on target area"
 End
@@ -1958,7 +1983,7 @@ CONTROLBAR:ToolTipBuilGenericLevel3Upgrade_New
 END
 //---------------------------------------------------
 CONTROLBAR:ThornofVengeance_New
-"Thorn of Vengeance [&B]"
+"Thorn of Vengeance [&V]"
 END
 CONTROLBAR:ToolTipThornofVengeance_New
 "Requires Level 7 \n Deals high amounts of damage and targeted enemies become crippled, taking poison damage over time \n Trees will grow up from it's corposes. \n Target cannot move\n Left click icon then left click on target" // \n Deals high amounts of damage and targeted enemies become crippled, taking poison damage over time \n Trees will grow up from it's corposes. \n Target cannot move
@@ -1998,7 +2023,7 @@ CONTROLBAR:Disguise_New
 "Inspiring Shield Maiden"
 END
 CONTROLBAR:ToolTipDisguise_New
-"Requires Level 5 \n The Lady of the Kitchen gets dressed to war, resulting into something inspiring for the men in the battlefield. \n All the special abilities from the player units recharge 20% faster \n Passive ability."
+"Requires Level 5 \n The Lady of the Kitchen gets dressed to war, resulting into something inspiring for the men in the battlefield. \n All the special abilities from the player units recharge 25% faster \n Passive ability."
 END
 //We forgive Eowyn for the taste of her shitty soup, yet we have decided to keep her where she belongs most. \n Men special abilities recharge 20% faster.
 //---------------------------------------------------
@@ -2104,7 +2129,7 @@ CONTROLBAR:SpecialAbilityCallTheLevasDesc_New
 END
 //---------------------------------------------------
 CONTROLBAR:SpecialAbilityOsgiliathVeterans_New
-"Call the Osgiliath Veterans (&B)"
+"Call the Osgiliath Veterans (&V)"
 END
 CONTROLBAR:ToolTipSpecialAbilityOsgiliathVeterans_New
 "Requires Level 8 \n Calls to the battle experienced soldiers from Osgiliath. \n Left click icon then left click on pathable location"
@@ -2114,6 +2139,9 @@ CONTROLBAR:ToolTipElvenGifts_New
 "Requires Level 4 \n Nearby heroes can enjoy this delicious "lembas" \n kind of bread, gaining +200 damage as long they stay near Arwen\n Passive power"
 END
 //---------------------------------------------------
+CONTROLBAR:PersonalFlood_New
+"Flood [&V]"
+END
 CONTROLBAR:ToolTipPersonalFlood_New
 "Requires Level 6 \n Summons flood horses that, coming from arwen, will damage and knock-back enemies. \n Specially effective to cavalry. \n Bonus against Black Riders \nLeft click icon to activate" 
 END
@@ -2168,14 +2196,14 @@ CONTROLBAR:GloinEarthquakeDesc_New
 END
 //------------
 CONTROLBAR:GloinSmash_New
-"Shatter Hammer [&V]"
+"Shatter Hammer [&B]"
 END
 CONTROLBAR:ToolTipGloinSmash_New
 "Requires Level 10 \n Causes a small earthquake around Gloin's location \n Left click icon then left click on target"
 END
 //------------
 CONTROLBAR:DwarvenCharge_New
-"Guardian Charge (&B)"
+"Guardian Charge (&V)"
 END
 CONTROLBAR:DwarvenChargeDesc_New
 "Requires Level 8 \n Calls a bunch of heavy armored guardians to charge against the enemy. \n Left click icon then left click on target area"
@@ -2212,6 +2240,9 @@ CONTROLBAR:HordeDunlandAxeThrowerDesc_New
 "Effective against pikemen, archers and weak heros" // Requires Level 2 \n //Requires Level 2 Dunland Hall \n 
 END
 //-------------------------------------------------
+CONTROLBAR:ArrowWind_New
+"Arrow Wind [&B]"
+END
 CONTROLBAR:ToolTipArrowWind_New
 "Requires Level 10 \n Launch a continuous volley of arrows with splash damage\n Left click icon then left click on target area"
 END
@@ -2263,13 +2294,13 @@ CONTROLBAR:BrandBoostDesc_New
 "Brand, as grandchild of Bard the Dragon Slayer, continues a lineage of excelent longbowmen. \n Brand has a improved archery skills and damage bonus against Dragons\n Passive ability"
 END
 CONTROLBAR:SpecialPowerDeadlySniper_New
-"&Black Sniper"
+"Black Sniper[&V]"
 END
 CONTROLBAR:TooltipSpecialPowerDeadlySniper_New
 "Requires Level 8 \n Temporarily grants an increase to damage and range. \n Left click to activate"
 END
 CONTROLBAR:DaleArcherAllies_New
-"Summon Dale Elite [&V]"
+"Summon Dale Elite [&B]"
 END
 CONTROLBAR:DaleArcherAlliesDesc_New
 "Requires Level 10 \n Summons two batallions of Elite Archers from Dale. \n Archers are equipped with Black Arrows. \n Left click icon then left click on pathable location"
@@ -2320,14 +2351,15 @@ CONTROLBAR:ToolTipFaramirLeadership_New
 "Requires Level 6 \n Allies near Faramir gain +50% Armor and earn experience 25% faster. \n Category: 'TaintLand' \n Passive ability"
 END
 //--------------------------------------------------//
-CONTROLBAR:WargRiderHowl_New
-"Ho&wl"
+CONTROLBAR:GothmogWargRiderHowl_New
+"Howl (&V)"
 END
-CONTROLBAR:ToolTipWargRiderHowl_New
+CONTROLBAR:GothmogWargRiderHowlDesc_New
 "Requires Level 6 \n Nearby units temporarily gain \n +80% damage and also 80% armor. \n Category: 'War_Chant' \n Requires to be mounted. \n left click icon to activate"
 END
+//------------------------
 CONTROLBAR:GothmogCorpseRain_New
-"Rain of Corpses (&V)"
+"Rain of Corpses (&B)"
 END
 CONTROLBAR:GothmogCorpseRainDesc_New
 "Requires Level 10 \n Calls down a barrage of corpses on the target area. \n Left click icon then left click on target location"
@@ -2337,7 +2369,7 @@ CONTROLBAR:GothmogLeadership_New
 END
 CONTROLBAR:ToolTipGothmogLeadership_New
 //"Requires Level 3 \n What does Nietzsche, Freud, Durkheim, Heidegger and Weber have in common? Yes, they all are occidental european thinkers. Therefore, beneath all their works there's a series of dichotomies and counter terms. Most of them have root in ancient greek philosophy, like the opposition between Body and Soul. This dualism has acted like the mother of conflict in any kind of human art, from here you have derivations, such as the opposition between the human Irrationality and the Rationality, Community and Society, Mecanic relationships and Organic relationships, Idealism and Pragmatism, Ritual and Technique, Tradition and Efficience, Epicureanism and Asceticism, Dionisio and Apollo, Communitarianism and Individualism, Popular knowledge and Scientific knowledge, Equality and Freedoom, etcetera. Nietzsche liked to idealize greek culture because he thought certain dualism, in first instance Dionisio and Apolo, lived in harmony together, while in modern society has rather prevailed Apollo as heritage of christianism. \n Modernity has became synonymous of pure and efficient rationality, and everyone is embracing this. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, body, beliefs, localisms. Killing humans (and things in general) is not just "spontaneous savage hate", it's a rational way of preserving a rich "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player units near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability" //BUNITO_ESSAY//
-"Requires Level 3 \n Modernity is the result of the pure efficient rationality, and everyone is embracing this while being embraced by it, aswell. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, myths, body and soul, ancient beliefs, localisms. Culture, in general. Gothmog is more human that the human. \n Killing humans (and things in general) is not just "spontaneous savage hate" as depicted by Tolkien, it's a rational way of preserving a rich but supposedly "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player units near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability" //BUNITO_ESSAY//
+"Requires Level 3 \n Modernity is the result of the pure efficient rationality, and everyone is embracing this while being embraced by it, aswell. But Gothmog is a illustrated orc; he's aware of the achievements of Rationality, yet he embraces community, tradition, history, soil, myths, body and soul, ancient beliefs, localisms. Culture, in general. Gothmog is more human than the humans. \n Killing humans (and things in general) is not just "spontaneous savage hate" as depicted by Tolkien, it's a rational way of preserving a rich but supposedly "irrational" culture in a fictional world where the haughtiness of Elves and the ego of the Men is taking the world. Gothmog could actually be agnostic about Sauron, but he understands that he's the only sort of God in whose sumision all the "evil" of the Middle-Earth could be unified to live a secular paradise together, avoiding the monopoly of the Truth and the naivety of fundamental apriorisms such as the existence of Goods and Evils. \n Player units near Gothmog gain \n +25% Damage, +25% Armor, and and earn experience 50% faster \n Type: 'High-Tier Hero' \n Passive ability" //BUNITO_ESSAY//
 END
 //--------------------------------------------------//
 CONTROLBAR:ToolTipWarChant_New
@@ -2541,7 +2573,7 @@ CONTROLBAR:ToolTipWizardBlast_New
 //"Requires Level 3 \n Me so horny. \n Fiften dorra? \n Me love you long time. \n Large range spell that suck enemy units monsters or heroes. \n Doubles magic damage at level 10. \n Left click icon then left click on target"
 END
 CONTROLBAR:TimeStop_New
-"Time Stop (&V)"
+"Time Stop (&B)"
 End
 CONTROLBAR:TimeStopDesc_New
 "Requires Level 10 \n Every kind of enemy unit in a large area around Saruman is continously paralyzed during the duration of the dance. \n Left click to activate"
@@ -2554,7 +2586,7 @@ CONTROLBAR:ToolTipSpecialAbilitySarumanFireball_New
 "Requires Level 3 \n Spells a bunch of fireballs towards the enemy. \n Targets become on fire and receive damage from fire for 20 seconds. \n Left click icon then left click on target enemies"
 END
 CONTROLBAR:RainOfFireSaruman_New
-"Black Magic Meteorite (&B)"
+"Black Magic Meteorite (&V)"
 END
 CONTROLBAR:RainOfFireDescSaruman_New
 "Requires Level 8 \n Calls down a corrupted meteorite that will cause magic and siege against enemies. \n The land becomes blighted after the initial corruption damage. \n The curse cause enemy infantry to turn into Uruk-Hais upon death. \n Left click icon then left click on target area"
@@ -2588,8 +2620,21 @@ TOOLTIP:ToolTipPurchasedUpgradeFortressHealing_New
 "Heal upgrade purchased: Nearby hordes replenish their units each 6.5 seconds. \n Nearby units gain experience 50% faster \n Category: 'Well'"
 END
 //--------------------------------------------------//
+OBJECT:RhunWindMill_New
+"Cowlands Wind mill"
+END
+OBJECT:RhunWindMillDesc_New
+"Capture if you want to want to know what it provides"
+END
+//--------------------------------------------------//
+GUI:STRUCTURE_WALL_DISCOUNT_New
+"Discount: \n Structures: %d%%"
+END
+GUI:SpellBookRefreshReduction09v2_New
+"Powers and abilities: \n Reload bonus: %d%%"
+End
 GUI:CuriousIdiotBonus_New
-"Curious idiot bonus: \n   -40%% Production\n  -20%% Experience"
+"Greedy-curious \n idiot-bonus: \n Production -%d%%"
 END
 GUI:UNITDiscount_New
 "Local units \n discount: -%d%%"
@@ -2643,17 +2688,26 @@ SCRIPT:BonusForWipingArmy300FINAL
 "Cows almost escaped. \n +300 to final score"
 End
 //--------------------------------------------------//
-SCRIPT:t_VictoryText00_A
-"Congratulations, you have won the cowmap without challenge. \n You are qualified to play the next level of difficulty."
-End
-SCRIPT:t_VictoryText00_B
-"Congratulations, you have won the cowmap fair and square. \n But you are not ready for the next level of difficulty."
-End
-SCRIPT:t_VictoryText00_C
-"Congratulations, you have won the cowmap. \n Your qualification was low but you can improve it"
-End
 SCRIPT:CowMapScore
 "CowMap score:"
+End
+SCRIPT:t_VictoryText00_A
+"Congratulations, you have won the cowmap without challenge."
+End
+SCRIPT:t_VictoryText00_A2
+"Qualification: *A* \n You are ready to play the next level of difficulty."
+End
+SCRIPT:t_VictoryText00_B
+"Congratulations, you have won the cowmap fair and square."
+End
+SCRIPT:t_VictoryText00_B2
+"Qualification: *B* \n You are not ready for the next level of difficulty."
+End
+SCRIPT:t_VictoryText00_C
+"Congratulations, you have luckily won the cowmap."
+End
+SCRIPT:t_VictoryText00_C2
+"Qualification: *C* \n You barely won by camping at top. You can still improve your strategy"
 End
 SCRIPT:t_VictoryText01
 "Special thanks to the beta-cow-players; \n Thorin, Arion, Guerrilla, FarmerLau, MusicDawn, \n Temptation, Fitton, Lovely, Gannicus, Sauron..."
@@ -2697,6 +2751,9 @@ SCRIPT:Hint04
 End
 SCRIPT:Hint05
 "Have you ever heard the legend of the Invisible Berserkers?"
+End
+SCRIPT:Hint05Dragons
+"If there are invisible Berserkers, why wouldn't there be invisible Dragons?"
 End
 SCRIPT:Hint06
 "If Isengard design has TWO dragons from a spellbook,\n you think dragons cannot be invisible?"
