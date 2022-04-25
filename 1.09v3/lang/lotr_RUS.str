@@ -24,18 +24,32 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:GoblinKingBattleFrenzy09v3
+"Battle Frenzy"
+End
+CONTROLBAR:ToolTipFueltheFires09v3
+"Player Lumber Mills gain +65% Production, \n and +20% Armor. \n Allied Lumber Mills gain +65% production. \n Fortress must be present"
+End
+UPGRADE:BarbedArrowUpgrade09v3
+"Barbed Arrows"
+END
+CONTROLBAR:TooltipUndermine09v3
+"Places a Mine Shaft anywhere on the map \n Does not need shroud reveal but cannot be casted near any enemy fortress. \n Mine Shaft becomes immediately connected to tunnel network \n Deals high damage at spawn point and light damage in the perimeter\n Left click icon then left click on visible location"
+END
+CONTROLBAR:ToolTipPersonalFlood09v3
+"Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective against cavalry and Black Riders. \n Level 4 Arwen summons 3 Floodhorses.\n Level 7 Arwen summons 5 Floodhorses.  \n Level 10 Arwen summons 7 Floodhorses. \nLeft click icon then left click on target"
+END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n If Eagle Nest upgrade is present, together can heal any allied Flying unit"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
-"Allows summoning of a Giant Eagle \n If Mystic Fountains upgrade is present, together can heal any allied Flying unit"
+"Allows summoning of a Giant Eagle \n Allows Mystics Fountains to heal flying units."
 END
-//------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v3
 "Heals nearby Allies. \n Continuosly damages enemy units adjacent to the Fortress. \n If Dragon Nest upgrade is present, together can heal any allied Flying unit."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
-"Allows summoning of a Fire Drake \n Reduces Drogoth revival time by 10% \n If Razor Spines upgrade is present, together can heal any allied Flying unit"
+"Allows summoning of a Fire Drake \n Reduces Drogoth revival time by 10% \n Allows Razor Spines to heal flying units."
 END
 //------------------------------
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
@@ -260,7 +274,7 @@ CONTROLBAR:ToolTipTreeBeardLeadership09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Требуется уровень 5 \n Allies near Lurtz gain \n +35% Damage \n and earn experience 25% faster. \n «Damage LEADERSHIP» \n \n Passive ability"
+"Требуется уровень 5 \n Allies near Lurtz gain \n +40% Damage \n and earn experience 20% faster. \n «Damage LEADERSHIP» \n \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
@@ -272,7 +286,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +250%. \n «ElvenWood BUFF» \n «Overrides Damage LEADERSHIP»  \n Left click icon then left click on target area"
+"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +200%. \n «ElvenWood BUFF» \n «Overrides Damage LEADERSHIP»  \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -475,7 +489,7 @@ CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipVenomousWords09v2
-"Enemy hordes and heroes in the target location suffer \n -40% скорости и -50% скорострельности. \n Lasts 19 seconds \n Не влияет на машины, боевые вагоны или монстров.  «Neutralizes LEADERSHIP» \n Щелкните на пиктограмме, затем - на цели."
+"Enemy hordes and heroes in the target location suffer \n -40% скорости и -50% скорострельности. \n Lasts 19 seconds \n «Neutralizes LEADERSHIP» \n Щелкните на пиктограмме, затем - на цели."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
@@ -615,7 +629,7 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Исцеляет 750 очков здоровья всем ближайшим войскам и героям. \n Ближайшие войска и монстры получают \n 15%-ую прибавку к запасу здоровья и +25% бонусного опыта. \n Союзные войска становятся неуязвимы к страху и ужасу.  \n Длительность: 12 секунд. \n ЛКМ - применение способности."
+"Исцеляет 750 очков здоровья всем ближайшим войскам и героям. \n Ближайшие войска и монстры получают \n +15% брони и +25% бонусного опыта. \n Союзные войска становятся неуязвимы к страху и ужасу.  \n Длительность: 12 секунд. \n ЛКМ - применение способности."
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
 "Указанный участок карты становится доступен для обзора. \n Даёт 27,5%-ый бонус к обзору всем союзным войскам на 25 секунд. \n Не влияет на героев. \n  Щелкните на пиктограмме, затем - на указанном участке местности."
@@ -735,6 +749,104 @@ END
 Map:mapmpnothing/Desc
 "nothing"
 END
+//----------------------------------
+Map:map_PK_amon_amarth_II
+"Amon Amarth II" 
+End
+Map:map_PK_amon_amarth_II/Desc
+"Amon Amarth, the mountain of fate, is located deep within Mordor. It is also known as Mount Doom. \n Map by Mako. \n Reworked by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_brandy_hills
+"Brandy Hills" 
+End
+Map:map_PK_brandy_hills/Desc
+"This is an area north of Buckland along the eastern shores of Brandywine River until the Brandywood. Girdley Island is the only named point of interest of these hills though they are dotted by small Arnorian ruins. \n Map by Powerkartoffel. \n Special thanks to Temptattion"
+End
+//------------------------------------------------------------
+Map:map_pk_dunland_ii
+"Dunland II" 
+End
+Map:map_pk_dunland_ii/Desc
+"The Eastern regions of the Enedwaith, home of the Wild Men, sworn enemies of Rohan. \n Map reworked by Powerkartoffel & Ecthelion"
+End
+//------------------------------------------------------------
+Map:map_pk_gardens_of_far_harad
+"Gardens of Far Harad" 
+End
+Map:map_pk_gardens_of_far_harad/Desc
+"The Gardens of Far Harad were described as a remarkable feat of engineering with an ascending series of tiered gardens containing a wide variety of trees, shrubs, and vines, resembling a large green mountain constructed of mud bricks. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_iron_mountains
+"Iron Mountains II" 
+End
+Map:map_PK_iron_mountains/Desc
+"The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs 2 Dragons 2 Goblins \n Capture: 2 Signal Fires \n Size: Large 1v1 \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------
+Map:map_PK_Last_Bridge
+"Last Bridge" 
+End
+Map:map_PK_Last_Bridge/Desc
+"The Last Bridge was an ancient stone bridge that carried the East Road over the River Hoarwell, about a hundred miles east of Weathertop and roughly the same distance west of Rivendell. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_pk_lonely_mountain
+"Slopes of the Lonely Mountain"
+End
+Map:map_pk_lonely_mountain/desc
+"The Battle of the five Armies took place in this valley, located between the Lonely Mountain and Dale. The five warring parties were the Goblins and the Wargs against Men, Elves, and Dwarves. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_mirkwood_ii
+"Mirkwood II" 
+End
+Map:map_PK_mirkwood_ii/Desc
+"Mirkwood is a large forest located in between the kingdom of Gondor and the Grey Mountains. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_mount_doom_II
+"Mount Doom II" 
+End
+Map:map_PK_mount_doom_II/Desc
+"Mount Doom, the mountain of fate, is located deep within Mordor. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:mapMXgundabaddeeps
+"Gundabad Deeps" 
+End
+Map:mapMXgundabaddeeps/Desc
+"Gundabad was once a dwarven settlement founded by Durin I in the First Age, but now, the Mount and it's underground are infested with orcs, goblins, and other merciless creatures. \n Map by Mex Flaxtz."
+End
+//------------------------------------------------------------
+Map:mapSOironhillsii
+"Iron Hills II"
+END
+Map:mapSOironhillsii/Desc
+"These hills, rich in iron, were long held by the Dwarves and Dain Ironfoot. \n Map from RotWK by Solas, edited by Ecthelion"
+END
+//------------------------------------------------------------
+Map:mapSOsorrowisles
+"Sorrow Isles" 
+End
+Map:mapSOsorrowisles/Desc
+"A group of lone Islands in the Sea of Belfalas. It is said to be the prison of two evil spirits who drive the island's unsuspecting visitors into madness. \n Map from RotWK, by Solas."
+End
+//------------------------------------------------------------
+Map:mapMAironhillsIV
+"Iron Hills IV"
+END
+Map:mapMAironhillsIV/Desc
+"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water. \n Map from RotWK, by Mako."
+END
+//------------------------------------------------------------
+Map:mapTTettenmoorsII
+"Ettenmoors II" 
+End
+Map:mapTTettenmoorsII/Desc
+"The Ettenmoors, also known as the Troll-fells, were a highland region of Eriador, which was west of the Misty Mountains. The land was wild, and many evil creatures dwelt there. \n Map by Temptation. \n Special thanks to Powerkartoffel and Ecthelion"
+End
 //------------------------------------------------------------
 Map:map_PK_bamfurlong
 "Bamfurlong" 
@@ -754,7 +866,7 @@ Map:mapETerechiii
 "Erech 4th Age" 
 End
 Map:mapETerechiii/Desc
-"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age.\nMap by Ecthelion."
+"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age.\n Map by Ecthelion. \n Special thanks to Powerkartoffel"
 End
 //------------------------------------------------------------
 Map:mapTTbaranduin
@@ -849,10 +961,10 @@ Map:mapTTsouthhollin/desc
 End
 //------------------------------------------------------------
 Map:mapTTfordofbruinen
-"Ford of Bruinen" 
+"Ford of Bruinen II"  
 End
 Map:mapTTfordofbruinen/Desc
-"The upland forests, mostly made up of beeches, lay to the West of Rivendell where the Bruinen river flows, a favorite hunting ground for trolls who descended from the mountains to attack travelers on the Great Western highway.\n Map by Temptation"
+"The upland forests, mostly made up of beeches, lay to the West of Rivendell where the Bruinen river flows, a favorite hunting ground for trolls who descended from the mountains to attack travelers on the Great Western highway.\n Map by Temptation. \n Special thanks to Powerkartoffel and Ecthelion."
 End
 //------------------------------------------------------------
 Map:mapTTosgiliathII
@@ -918,7 +1030,7 @@ Map:mapETerynrhun
 "Eryn Rhьn" 
 End
 Map:mapETerynrhun/Desc
-"Eryn Rhьn means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhьn, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion"
+"Eryn Rhun means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhun, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion. \n Special thanks to Powerkartoffel."
 End
 //------------------------------------------------------------
 Map:mapETlebennin
@@ -16912,7 +17024,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:PhialofGaladriel
-"Фиал Галадриэли (&V)"
+"Фиал Галадриэли (&R)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -44527,7 +44639,7 @@ TOOLTIP:LackMordorBarbedArrow
 END
 
 CONTROLBAR:BarbedArrowUpgrade
-"Зазубренные стрелы"
+"Зазубренные стрелы (&T)"
 END
 
 CONTROLBAR:ToolTipHeal

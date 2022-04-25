@@ -1,11 +1,4 @@
 //----------------------------------
-Map:map_pk_dunland_ii
-"Dunland II" 
-End
-Map:map_pk_dunland_ii/Desc
-"The Eastern regions of the Enedwaith, home of the Wild Men, sworn enemies of Rohan. \n Map reworked by Powerkartoffel & Ecthelion"
-End
-//----------------------------------
 OBJECT:DunlandHallTooltip_New
 "Dunland House"
 End

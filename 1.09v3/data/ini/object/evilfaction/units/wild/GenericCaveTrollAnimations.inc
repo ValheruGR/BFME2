@@ -598,6 +598,13 @@
 				AnimationMode = ONCE
 			End
 		End
+
+		AnimationState = PACKING_TYPE_2 ;;-;;
+			Animation
+				AnimationName = MuCavTroll_SKL.MUMntTroll_RCTA
+				AnimationMode = ONCE
+			End
+		End
 	    
 		AnimationState = USER_2 WEAPONSET_TOGGLE_1
  			Animation = ReactToTrollPoke ; The two comes from the special TrollBored weapon
