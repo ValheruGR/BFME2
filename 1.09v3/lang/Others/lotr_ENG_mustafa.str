@@ -43,13 +43,13 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n If Eagle Nest upgrade is present, together can heal any allied Flying unit"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
-"Allows summoning of a Giant Eagle \n If Mystic Fountains upgrade is present, together can heal any allied Flying unit"
+"Allows summoning of a Giant Eagle \n Allows Mystics Fountains to heal flying units."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v3
 "Heals nearby Allies. \n Continuosly damages enemy units adjacent to the Fortress. \n If Dragon Nest upgrade is present, together can heal any allied Flying unit."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
-"Allows summoning of a Fire Drake \n Reduces Drogoth revival time by 10% \n If Razor Spines upgrade is present, together can heal any allied Flying unit"
+"Allows summoning of a Fire Drake \n Reduces Drogoth revival time by 10% \n Allows Razor Spines to heal flying units."
 END
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
 "Requires Level 6 \n Poisons the enemy causing damage during 30 seconds \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
@@ -861,7 +861,7 @@ Map:mapTTsouthhollin/desc
 End
 //------------------------------------------------------------
 Map:mapTTfordofbruinen
-"Ford of Bruinen" 
+"Ford of Bruinen II"  
 End
 Map:mapTTfordofbruinen/Desc
 "The upland forests, mostly made up of beeches, lay to the West of Rivendell where the Bruinen river flows, a favorite hunting ground for trolls who descended from the mountains to attack travelers on the Great Western highway.\n Map by Temptation"

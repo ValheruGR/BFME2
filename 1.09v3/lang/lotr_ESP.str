@@ -25,52 +25,52 @@ CONTROLBAR:nothingDesc09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:GoblinKingBattleFrenzy09v3
-"Battle Frenzy"
+"Frenesí de batalla""
 End
 CONTROLBAR:ToolTipFueltheFires09v3
-"Player Lumber Mills gain +65% Production, \n and +20% Armor. \n Allied Lumber Mills gain +65% production. \n Fortress must be present"
+"Las serrerías del jugador producen +65% más recursos y ganan +20% armadura. \n Las serrerías de los aliados solamente producen +65% más recursos. \n Poder pasivo \n La fortaleza debe estar presente."
 End
 UPGRADE:BarbedArrowUpgrade09v3
-"Barbed Arrows"
+"Flechas con púas"
 END
 CONTROLBAR:TooltipUndermine09v3
-"Places a Mine Shaft anywhere on the map \n Does not need shroud reveal but cannot be casted near any enemy fortress. \n Mine Shaft becomes immediately connected to tunnel network \n Deals high damage at spawn point and light damage in the perimeter\n Left click icon then left click on visible location"
+"Crea un pozo de mina en cualquier lugar del mapa, \n que pasa a conectarse de manera automática con la red de túneles. \n Se puede convocar sobre la niebla de guerra, mientras que no haya una fortaleza enemiga cerca. \n Provoca graves daños en el centro del area, y daños leves en el perimetro \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre un sitio al que se pueda llegar."
 END
 CONTROLBAR:ToolTipPersonalFlood09v3
 "Requisito: Nivel 4. \n Convoca una inundación que daña a los enemigos y apaga los fuegos. \n Bonificación contra caballeria y Nazguls. \n Arwen Nivel 4: convoca 3 caballos de inundación. \n Arwen Nivel 7: convoca 5 caballos de inundación. \n Arwen Nivel 10: convoca 7 caballos de inundación. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
-"Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n If Eagle Nest upgrade is present, together can heal any allied Flying unit"
+"Cura las unidades cercanas \n Repone unidades de los batallones cada 6.5 segundos. \n Los héroes reviven un 20% más rápido en la fortaleza. \n Si la mejora Nido de Aguilas fue comprada, las Fuentes Místicas pueden curar cualquier unidad voladora"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
-"Allows summoning of a Giant Eagle \n If Mystic Fountains upgrade is present, together can heal any allied Flying unit"
+"Permite convocar un águila gigante. \n Permite que las Fuentes Místicas curen cualquier unidad voladora."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v3
-"Heals nearby Allies. \n Continuosly damages enemy units adjacent to the Fortress. \n If Dragon Nest upgrade is present, together can heal any allied Flying unit."
+"Daña a las unidades enemigas adyacentes a la fortaleza \n Las unidades aliadas cercanas serán lentamente curadas. \n Si la mejora Nido de Dragón fue comprada, las Espinas Afiladas pueden curar cualquier unidad voladora"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
-"Allows summoning of a Fire Drake \n Reduces Drogoth revival time by 10% \n If Razor Spines upgrade is present, together can heal any allied Flying unit"
+"Permite convocar un draco de fuego. \n Reduce el tiempo de revivir a Drogoth en un 10%. \n Permite que las Espinas Afiladas curen cualquier unidad voladora."
 END
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
-"Requires Level 6 \n Poisons the enemy causing damage during 30 seconds \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
+"Requisito: Nivel 6 \n Envenena al enemigo causando daños durante 30 segundos. \n Paraliza al heroe selecionado durante 6 segundos y reduce a la mitad su velocidad por otros 11 segundos más. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 End
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger09v3
-"Requires Level 6 \n Can only use when mounted \n Targeted enemy takes poison damage during 25 seconds. \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
+"Requisito: Nivel 6 \n Solo se puede usar cuando está montado. \n Los enemigos apuntados sufren daño por veneno durante 25 segundos. \n Paraliza el objetivo durante 6 segundos y reduce a la mitad su velocidad por otros 11 segundos más. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 TOOLTIP:ToolTipBoromir09v3
-"Boromir gains +7% speed at level 7"
+"Boromir gana +7% velocidad en el nivel 7."
 END
 CONTROLBAR:ToolTipBuildGoblinCaveTroll09v3
-"Strong vs. Swordsmen and Structures \n Cave Troll gains +4% speed at level 3, 6 and 9"
+"Fuerte contra espadachines y estructuras. \n El Troll de las cavernas gana +4% velocidad en los niveles 3, 6 y 9."
 END
 TOOLTIP:ToolTipBuildDwarvenCatapult09v3
-"Strong vs. Structures and Siege units \n The Catapult gains +7% speed at level 7"
+"Fuerte contra estructuras y unidades de asedio. \n La catapulta gana +7% velocidad en el nivel 7."
 END
 CONTROLBAR:ToolTipBuildDwarvenCatapult09v3
-"Requires Level 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +7% speed at level 7"
+"Requisito: Forja de nivel 2 \n Fuerte contra estructuras y unidades de asedio. \n Dispara dos veces simultáneamente. \n La catapulta gana +7% velocidad en el nivel 7."
 END
 CONTROLBAR:ToolTipBuildMordorMumakil09v3
-"Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
+"Fuerte contra estructuras y caballería. \n Viene montado por lanceros haradrim.\n30 puntos de mando adicionales. \n El mumakil gana +6% velocidad en el nivel 5 y 8."
 END
 CONTROLBAR:TooltipDragonStrike09v3
 "Convoca un dragón de aliento de fuego para sobrevolar y asolar el campo de batalla. \n Cualquier unidad debajo del Dragon sufrirá -15% velocidad.  \n *Extremadamente peligroso en los bordes del mapa* \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre la zona objetivo."
@@ -85,7 +85,7 @@ CONTROLBAR:TooltipSummonTomBombadil09v3
 "Convoca a Tom Bombadil, un poderoso gordito con sombrero que le gusta cantar. Se dice que es la personificación humana de Eru, creador del Ëa. \n Las unidades aliadas cercanas a Tom ganan +25% Armadura y consiguen experiencia 25% más rápido.  \n «Armor BUFF» \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el lugar donde quieras que aparezca."
 END
 CONTROLBAR:Draft09v3
-"Leva (&R)"
+"Levas (&R)"
 End
 CONTROLBAR:ToolTipDraft09v3
 "Arma los campesinos de este batallón para la guerra. \n Aumenta el daño causado por las armas y mejora significativamente sus armaduras"
@@ -746,6 +746,104 @@ END
 Map:mapmpnothing/Desc
 "nothing"
 END
+//----------------------------------
+Map:map_PK_amon_amarth_II
+"Amon Amarth II" 
+End
+Map:map_PK_amon_amarth_II/Desc
+"Amon Amarth, the mountain of fate, is located deep within Mordor. It is also known as Mount Doom. \n Map by Mako. \n Reworked by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_brandy_hills
+"Brandy Hills" 
+End
+Map:map_PK_brandy_hills/Desc
+"This is an area north of Buckland along the eastern shores of Brandywine River until the Brandywood. Girdley Island is the only named point of interest of these hills though they are dotted by small Arnorian ruins. \n Map by Powerkartoffel. \n Special thanks to Temptattion"
+End
+//------------------------------------------------------------
+Map:map_pk_dunland_ii
+"Dunland II" 
+End
+Map:map_pk_dunland_ii/Desc
+"The Eastern regions of the Enedwaith, home of the Wild Men, sworn enemies of Rohan. \n Map reworked by Powerkartoffel & Ecthelion"
+End
+//------------------------------------------------------------
+Map:map_pk_gardens_of_far_harad
+"Gardens of Far Harad" 
+End
+Map:map_pk_gardens_of_far_harad/Desc
+"The Gardens of Far Harad were described as a remarkable feat of engineering with an ascending series of tiered gardens containing a wide variety of trees, shrubs, and vines, resembling a large green mountain constructed of mud bricks. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_iron_mountains
+"Iron Mountains II" 
+End
+Map:map_PK_iron_mountains/Desc
+"The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs 2 Dragons 2 Goblins \n Capture: 2 Signal Fires \n Size: Large 1v1 \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------
+Map:map_PK_Last_Bridge
+"Last Bridge" 
+End
+Map:map_PK_Last_Bridge/Desc
+"The Last Bridge was an ancient stone bridge that carried the East Road over the River Hoarwell, about a hundred miles east of Weathertop and roughly the same distance west of Rivendell. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_pk_lonely_mountain
+"Slopes of the Lonely Mountain"
+End
+Map:map_pk_lonely_mountain/desc
+"The Battle of the five Armies took place in this valley, located between the Lonely Mountain and Dale. The five warring parties were the Goblins and the Wargs against Men, Elves, and Dwarves. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_mirkwood_ii
+"Mirkwood II" 
+End
+Map:map_PK_mirkwood_ii/Desc
+"Mirkwood is a large forest located in between the kingdom of Gondor and the Grey Mountains. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_mount_doom_II
+"Mount Doom II" 
+End
+Map:map_PK_mount_doom_II/Desc
+"Mount Doom, the mountain of fate, is located deep within Mordor. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:mapMXgundabaddeeps
+"Gundabad Deeps" 
+End
+Map:mapMXgundabaddeeps/Desc
+"Gundabad was once a dwarven settlement founded by Durin I in the First Age, but now, the Mount and it's underground are infested with orcs, goblins, and other merciless creatures. \n Map by Mex Flaxtz."
+End
+//------------------------------------------------------------
+Map:mapSOironhillsii
+"Iron Hills II"
+END
+Map:mapSOironhillsii/Desc
+"These hills, rich in iron, were long held by the Dwarves and Dain Ironfoot. \n Map from RotWK by Solas, edited by Ecthelion"
+END
+//------------------------------------------------------------
+Map:mapSOsorrowisles
+"Sorrow Isles" 
+End
+Map:mapSOsorrowisles/Desc
+"A group of lone Islands in the Sea of Belfalas. It is said to be the prison of two evil spirits who drive the island's unsuspecting visitors into madness. \n Map from RotWK, by Solas."
+End
+//------------------------------------------------------------
+Map:mapMAironhillsIV
+"Iron Hills IV"
+END
+Map:mapMAironhillsIV/Desc
+"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water. \n Map from RotWK, by Mako."
+END
+//------------------------------------------------------------
+Map:mapTTettenmoorsII
+"Ettenmoors II" 
+End
+Map:mapTTettenmoorsII/Desc
+"The Ettenmoors, also known as the Troll-fells, were a highland region of Eriador, which was west of the Misty Mountains. The land was wild, and many evil creatures dwelt there. \n Map by Temptation. \n Special thanks to Powerkartoffel and Ecthelion"
+End
 //------------------------------------------------------------
 Map:map_PK_bamfurlong
 "Bamfurlong" 
@@ -765,7 +863,7 @@ Map:mapETerechiii
 "Erech 4th Age" 
 End
 Map:mapETerechiii/Desc
-"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age.\nMap by Ecthelion."
+"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age.\n Map by Ecthelion. \n Special thanks to Powerkartoffel"
 End
 //------------------------------------------------------------
 Map:mapTTbaranduin
@@ -775,10 +873,10 @@ Map:mapTTbaranduin/Desc
 "The Baranduin River of Eriador is known by the Hobbits as the Brandywine River. It marks the the boundary between the known and the unknown. \n Map by Temptation."
 END
 //------------------------------------------------------------
-Map:map_PK_canyons_of_khand
+Map:map_pk_canyons_of_khand
 "Canyons of Khand" 
 End
-Map:map_PK_canyons_of_khand/Desc
+Map:map_pk_canyons_of_khand/Desc
 "Khand was the name of a land which lay to the south of Mordor and the east of Near Harad. Little is known about Khand or its people, but it was most likely a dry and barren land covered in desert. \n Map by Powerkartoffel."
 End
 //------------------------------------------------------------
@@ -860,10 +958,10 @@ Map:mapTTsouthhollin/desc
 End
 //------------------------------------------------------------
 Map:mapTTfordofbruinen
-"Ford of Bruinen" 
+"Ford of Bruinen II" 
 End
 Map:mapTTfordofbruinen/Desc
-"The upland forests, mostly made up of beeches, lay to the West of Rivendell where the Bruinen river flows, a favorite hunting ground for trolls who descended from the mountains to attack travelers on the Great Western highway.\n Map by Temptation"
+"The upland forests, mostly made up of beeches, lay to the West of Rivendell where the Bruinen river flows, a favorite hunting ground for trolls who descended from the mountains to attack travelers on the Great Western highway.\n Map by Temptation. \n Special thanks to Powerkartoffel and Ecthelion."
 End
 //------------------------------------------------------------
 Map:mapTTosgiliathII
@@ -929,7 +1027,7 @@ Map:mapETerynrhun
 "Eryn Rhün" 
 End
 Map:mapETerynrhun/Desc
-"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion"
+"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion. \n Special thanks to Powerkartoffel."
 End
 //------------------------------------------------------------
 Map:mapETlebennin
@@ -1013,7 +1111,7 @@ END
 //"Buckland III"
 //END
 //MAP:mapTESTBucklandIII/Desc
-//"The Eastern border of the Shire was the . \n Map from RotWK, by Mako."
+//"The Eastern border of the Shire was the home of Merry Brandybuck. \n Map from RotWK, by Mako."
 //END
 //------------------------------------------------------------
 Map:mapMAeastmarch
@@ -1027,7 +1125,7 @@ END
 //"Fords of Glanduin"
 //END
 //Map:mapTESTFordsOfGlanduin/Desc
-//"Beginning in the Hithaeglir south of Khazad-dum, the Glanduin formed Eregion's southern boundary to Dunland \n Map from RotWK, by Solas."
+//"Beginning in the Hithaeglir south of Khazad-dum, the Glanduin formed Eregion's southern boundary to Dunland. \n Map from RotWK, by Solas."
 //END
 //------------------------------------------------------------
 Map:mapSOgondoroutpost
@@ -1150,7 +1248,7 @@ END
 //End
 //------------------------------------------------------------
 //	Map:maptestbrownlands8p
-//	"Brown Lands (8p)" // MAP REMOVED
+//	"Brown Lands [8p]" // MAP REMOVED
 //	END
 //	Map:maptestbrownlands8p/Desc
 //	"Lands to the east of the River Anduin scorched by Sauron at the end of the Second Age. Once the lush home of the Entwives, this area has been desolate since the battles of the Last Alliance.\n Size: 500 x 500\n Lairs: 10x Goblin Lair. \n Map from RotWK"
@@ -1251,18 +1349,18 @@ Map:mapJKforlindonhills
 "Forlindon Hills"
 END
 Map:mapJKforlindonhills/Desc
-"The region of Forlindon was inhabited by Elves and were the chief part of Gil-galad's kingdom, surrounded by the Blue Mountains and the Great Sea.\n Map by Jokuc."
+"The region of Forlindon was inhabited by Elves and were the chief part of Gil-galad's kingdom, surrounded by the Blue Mountains and the Great Sea.\n Map by Jokuc`."
 END
 //------------------------------------------------------------
 Map:mapJKtowerhills
 "Tower Hills"
 END
 Map:mapJKtowerhills/Desc
-"With a layout similar to Fords of Isen and the skin of Tower Hills, this 1v1 map is made to provide a mix of fun elements and balanced gameplay. \n Turn off ring heroes for tournament mode. \n Map by Jokuc."
+"With a layout similar to Fords of Isen and the skin of Tower Hills, this 1v1 map is made to provide a mix of fun elements and balanced gameplay. \n Turn off ring heroes for tournament mode. \n Map by Jokuc`."
 END
 //------------------------------------------------------------
 Map:mapMAudunii
-"Udun (6p)"
+"Udun [6p]"
 END
 Map:mapMAudunii/Desc
 "The lands behind the Black Gate known as Udun take the name of the underworld due to the volcanic ash and noxious fumes that cover them.\n Map from RotWK, by Mako."
@@ -1524,7 +1622,7 @@ Map:mapmptyrngorthad
 "Tyrn Gorthad"
 END
 Map:mapmptyrngorthad/Desc
-"Better known as the Barrow-downs, the ancient burial grounds of the kings of Arnor were corrupted with evil spirits by the Witch-king. Map from RotWK, edited by Ecthelion"
+"Better known as the Barrow-downs, the ancient burial grounds of the kings of Arnor were corrupted with evil spirits by the Witch-king. \n Map from RotWK, edited by Ecthelion"
 END
 //------------------------------------------------------------
 Map:mapmptournamentudunII
