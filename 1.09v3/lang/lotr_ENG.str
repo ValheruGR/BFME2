@@ -747,12 +747,26 @@ END
 Map:mapmpnothing/Desc
 "nothing"
 END
-//----------------------------------
+//------------------------------------------------------------
+Map:map_PK_Forlond
+"Forlond" 
+End
+Map:map_PK_Forlond/Desc
+"Forlond was a harbour that lay on the northern shore of the Gulf of Lune, in the Elvish land of Forlindon. It had a counterpart on the southern shore: the Harlond. Forlond was located at the mouth of an unnamed river that traversed Forlindon, some two hundred miles to the northwest of the Grey Havens. \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------
+Map:map_PK_beleriand
+"Beleriand"
+End
+Map:map_PK_beleriand/Desc
+"At the end of the First Age of Middle-earth, Beleriand was broken in the War of Wrath by the the Maiar, against Morgoth . As the inhabitants fled much of Beleriand sank in the sea. The left behind souls still fight their battle for supremancy of the sunken lands. \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------
 Map:map_PK_amon_amarth_II
 "Amon Amarth II" 
 End
 Map:map_PK_amon_amarth_II/Desc
-"Amon Amarth, the mountain of fate, is located deep within Mordor. It is also known as Mount Doom. \n Map by Mako. \n Reworked by Powerkartoffel."
+"Amon Amarth, the mountain of fate, is located deep within Mordor. It is also known as Mount Doom. \n Map by Mako, edited by Powerkartoffel."
 End
 //------------------------------------------------------------
 Map:map_PK_brandy_hills
@@ -864,7 +878,7 @@ Map:mapETerechiii
 "Erech 4th Age" 
 End
 Map:mapETerechiii/Desc
-"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age.\n Map by Ecthelion. \n Special thanks to Powerkartoffel"
+"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age. \n Map by Ecthelion. Special thanks to Powerkartoffel"
 End
 //------------------------------------------------------------
 Map:mapTTbaranduin
@@ -1028,7 +1042,7 @@ Map:mapETerynrhun
 "Eryn Rhün" 
 End
 Map:mapETerynrhun/Desc
-"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion. \n Special thanks to Powerkartoffel."
+"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion. Special thanks to Powerkartoffel."
 End
 //------------------------------------------------------------
 Map:mapETlebennin

@@ -37,7 +37,7 @@ CONTROLBAR:TooltipUndermine09v3
 "Places a Mine Shaft anywhere on the map \n Does not need shroud reveal but cannot be casted near any enemy fortress. \n Mine Shaft becomes immediately connected to tunnel network \n Deals high damage at spawn point and light damage in the perimeter\n Left click icon then left click on visible location"
 END
 CONTROLBAR:ToolTipPersonalFlood09v3
-"Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective against cavalry and Black Riders. \n Level 4 Arwen summons 3 Floodhorses.\n Level 7 Arwen summons 5 Floodhorses.  \n Level 10 Arwen summons 7 Floodhorses. \nLeft click icon then left click on target"
+"Requiert : niveau 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective against cavalry and Black Riders. \n Level 4 Arwen summons 3 Floodhorses.\n Level 7 Arwen summons 5 Floodhorses.  \n Level 10 Arwen summons 7 Floodhorses. \nLeft click icon then left click on target"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n If Eagle Nest upgrade is present, together can heal any allied Flying unit"
@@ -52,10 +52,10 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
 "Allows summoning of a Fire Drake \n Reduces Drogoth revival time by 10% \n Allows Razor Spines to heal flying units."
 END
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
-"Requires Level 6 \n Poisons the enemy causing damage during 30 seconds \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
+"Requiert : niveau 6 \n Poisons the enemy causing damage during 30 seconds \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
 End
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger09v3
-"Requires Level 6 \n Can only use when mounted \n Targeted enemy takes poison damage during 25 seconds. \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
+"Requiert : niveau 6 \n Can only use when mounted \n Targeted enemy takes poison damage during 25 seconds. \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
 END
 TOOLTIP:ToolTipBoromir09v3
 "Boromir gains +7% speed at level 7"
@@ -67,7 +67,7 @@ TOOLTIP:ToolTipBuildDwarvenCatapult09v3
 "Strong vs. Structures and Siege units \n The Catapult gains +7% speed at level 7"
 END
 CONTROLBAR:ToolTipBuildDwarvenCatapult09v3
-"Requires Level 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +7% speed at level 7"
+"Requiert : niveau 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +7% speed at level 7"
 END
 CONTROLBAR:ToolTipBuildMordorMumakil09v3
 "Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
@@ -79,7 +79,7 @@ TOOLTIP:ToolTipFellbeast09v3
 "Fellbeast attack radius against units is improved at level 6 and 10."
 END
 CONTROLBAR:ToolTipDominate09v3
-"Requires Level 8 \n Gain control of targeted enemies permanently. \n Left click icon then left click on target enemies"
+"Requiert : niveau 8 \n Gain control of targeted enemies permanently. \n Left click icon then left click on target enemies"
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
 "Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. It's told that he's the human personification of Eru, who created Ëa. \n Allies near Tom Bombadil gain +25% Armor and earn experience 25% faster. \n «Armor BUFF» \n Left click icon then left click on pathable location"
@@ -115,10 +115,10 @@ END
 
 //------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
-"Prince of Ithilien [&B]"
+"Prince of Ithilien [&V]"
 END
 CONTROLBAR:PrinceofIthilienDesc09v2
-"Requires Level 5 \n Targeted archers gain experience \n Left click icon then left click on target archers"
+"Requiert : niveau 5 \n Targeted archers gain experience \n Left click icon then left click on target archers"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
@@ -165,7 +165,7 @@ CONTROLBAR:GenericMountTooltipDain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ShelobWebbing09v2
-"Toile d'Ungoliant"
+"Toile d'Ungoliant (&B)"
 End
 CONTROLBAR:ToolTipShelobWebbing09v2
 "Requiert : niveau 10 \nParalyse les unités ennemies dans une toile d'araigné pendant 4.5 secondes et drainent leurs points de vies.\nSoigne Arachne proportionnellement aux dégâts engendrés.\nClic gauche sur l'icône puis clic gauche sur la cible."
@@ -229,10 +229,10 @@ CONTROLBAR:TooltipDwarvenRiches09v2
 "La production de ressources de la structure sélectionnée augmente temporairement de 300% par rapport à la production actuelle. \nClic gauche sur l'icône puis clic gauche sur la structure de production de ressources."
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
-"Pénétration d'armure"
+"Pénétration d'armure (&Y)"
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
-"Pénétration d'armure améliorée"
+"Pénétration d'armure améliorée (&Y)"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Amélioration de commandement de la forteresse: \nLes unités proche gagnent +25% de dégâts et gagnent +25% d'éxpériences plus rapidement. \n «Damage BUFF»"
@@ -719,7 +719,7 @@ CONTROLBAR:FireWorksObj
 "Feux d'artifice"
 END
 CONTROLBAR:HobbitFireCracker
-"Pétards [&R]"
+"Péta&rds"
 END
 CONTROLBAR:ToolTipHobbitFireCracker
 "Notre héros lance un petit pétard \n Clic gauche pour activer puis clic gauche sur la cible"
@@ -864,7 +864,7 @@ Map:mapETerechiii
 "Erech 4th Age" 
 End
 Map:mapETerechiii/Desc
-"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age.\n Map by Ecthelion. \n Special thanks to Powerkartoffel"
+"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age.\n Map by Ecthelion. Special thanks to Powerkartoffel"
 End
 //------------------------------------------------------------
 Map:mapTTbaranduin
@@ -1028,7 +1028,7 @@ Map:mapETerynrhun
 "Eryn Rhün" 
 End
 Map:mapETerynrhun/Desc
-"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion. \n Special thanks to Powerkartoffel."
+"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion. Special thanks to Powerkartoffel."
 End
 //------------------------------------------------------------
 Map:mapETlebennin
