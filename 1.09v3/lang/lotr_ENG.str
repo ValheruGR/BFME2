@@ -11,7 +11,7 @@
 
 
 
-
+but immobile 
 
 
 
@@ -24,6 +24,9 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:TooltipElrondWhirlwind09v3
+"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield. \n Level 5 deals minimal damage but cannot move. \n Level 7 is a destructive and controllable tornado. \n Level 10 is a giant and mobile tornado with high damage. \n Left click icon then left click on target area"
+END
 CONTROLBAR:ToolTipElrondRestoration09v3
 "Requires Level 10 \n Heals 20% health points of nearby allies and fully refreshes their special ability timers. \n Replenish 1 dead man per battalion in the area. \n Left click to activate"
 END
