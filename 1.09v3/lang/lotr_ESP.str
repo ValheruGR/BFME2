@@ -24,6 +24,9 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipHaldirGoldenArrow09v3
+"Requires Level 7 \n A magic projectile that causes a highly concentrated amount of ranged-hero and pike types of damage. \n Level 7 causes metaimpact and average damage. \n Level 10 deals high damage in area and stun light sensitive enemy units in the area. \n Effective against cavalry and weak heroes. \n Can only use with bow equipped \n Left click icon then left click on target" 
+END
 CONTROLBAR:TooltipElrondWhirlwind09v3
 "Requires Level 5 \n Summons a destructive whirlwind onto the battlefield. \n Level 5 deals minimal damage but cannot move. \n Level 7 is a destructive and controllable tornado. \n Level 10 is a giant and mobile tornado with high damage. \n Left click icon then left click on target area"
 END
@@ -745,10 +748,9 @@ End
 
 
 
-// Maps.Strings	-----	2019
+// Maps.Strings	-----	2019-2020-2021
 
  
-
 
 
 //------------------------------------------------------------
@@ -758,6 +760,13 @@ END
 Map:mapmpnothing/Desc
 "nothing"
 END
+//------------------------------------------------------------/
+Map:map_pk_rhudel_steppe
+"Rhudel Steppe"
+End
+Map:map_pk_rhudel_steppe/Desc
+"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Original autor unknown."
+End
 //------------------------------------------------------------
 Map:map_PK_Forlond
 "Forlond" 

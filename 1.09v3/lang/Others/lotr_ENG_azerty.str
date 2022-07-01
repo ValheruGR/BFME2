@@ -24,6 +24,21 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipHaldirGoldenArrow09v3
+"Requires Level 7 \n A magic projectile that causes a highly concentrated amount of ranged-hero and pike types of damage. \n Level 7 causes metaimpact and average damage. \n Level 10 deals high damage in area and stun light sensitive enemy units in the area. \n Effective against cavalry and weak heroes. \n Can only use with bow equipped \n Left click icon then left click on target" 
+END
+CONTROLBAR:TooltipElrondWhirlwind09v3
+"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield. \n Level 5 deals minimal damage but cannot move. \n Level 7 is a destructive and controllable tornado. \n Level 10 is a giant and mobile tornado with high damage. \n Left click icon then left click on target area"
+END
+CONTROLBAR:ToolTipElrondRestoration09v3
+"Requires Level 10 \n Heals 20% health points of nearby allies and fully refreshes their special ability timers. \n Replenish 1 dead man per battalion in the area. \n Left click to activate"
+END
+CONTROLBAR:ArwenElvenGrace09v3
+"Athelas [&V]"
+END
+CONTROLBAR:ArwenElvenGraceDesc09v3
+"Requires Level 8 \n Arwen slowly restores 750 health-points in the location during two seconds. \n Left click icon then left click on target area"
+END
 CONTROLBAR:GoblinKingBattleFrenzy09v3
 "Battle Frenzy"
 End
@@ -754,8 +769,8 @@ End
 
 
 // Maps.Strings	-----	2019-2020-2021
- 
 
+ 
 
 
 //------------------------------------------------------------
@@ -765,6 +780,132 @@ END
 Map:mapmpnothing/Desc
 "nothing"
 END
+//------------------------------------------------------------/
+Map:map_pk_rhudel_steppe
+"Rhudel Steppe"
+End
+Map:map_pk_rhudel_steppe/Desc
+"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Original autor unknown."
+End
+//------------------------------------------------------------
+Map:map_PK_Forlond
+"Forlond" 
+End
+Map:map_PK_Forlond/Desc
+"Forlond was a harbour that lay on the northern shore of the Gulf of Lune, in the Elvish land of Forlindon. It had a counterpart on the southern shore: the Harlond. Forlond was located at the mouth of an unnamed river that traversed Forlindon, some two hundred miles to the northwest of the Grey Havens. \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------
+Map:map_PK_beleriand
+"Beleriand"
+End
+Map:map_PK_beleriand/Desc
+"At the end of the First Age of Middle-earth, Beleriand was broken in the War of Wrath by the the Maiar, against Morgoth . As the inhabitants fled much of Beleriand sank in the sea. The left behind souls still fight their battle for supremancy of the sunken lands. \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------
+Map:map_PK_amon_amarth_II
+"Amon Amarth II" 
+End
+Map:map_PK_amon_amarth_II/Desc
+"Amon Amarth, the mountain of fate, is located deep within Mordor. It is also known as Mount Doom. \n Map by Mako, edited by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_brandy_hills
+"Brandy Hills" 
+End
+Map:map_PK_brandy_hills/Desc
+"This is an area north of Buckland along the eastern shores of Brandywine River until the Brandywood. Girdley Island is the only named point of interest of these hills though they are dotted by small Arnorian ruins. \n Map by Powerkartoffel. \n Special thanks to Temptattion"
+End
+//------------------------------------------------------------
+Map:map_pk_dunland_ii
+"Dunland II" 
+End
+Map:map_pk_dunland_ii/Desc
+"The Eastern regions of the Enedwaith, home of the Wild Men, sworn enemies of Rohan. \n Map reworked by Powerkartoffel & Ecthelion"
+End
+//------------------------------------------------------------
+Map:map_pk_gardens_of_far_harad
+"Gardens of Far Harad" 
+End
+Map:map_pk_gardens_of_far_harad/Desc
+"The Gardens of Far Harad were described as a remarkable feat of engineering with an ascending series of tiered gardens containing a wide variety of trees, shrubs, and vines, resembling a large green mountain constructed of mud bricks. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_iron_mountains
+"Iron Mountains II" 
+End
+Map:map_PK_iron_mountains/Desc
+"The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs 2 Dragons 2 Goblins \n Capture: 2 Signal Fires \n Size: Large 1v1 \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------
+Map:map_PK_Last_Bridge
+"Last Bridge" 
+End
+Map:map_PK_Last_Bridge/Desc
+"The Last Bridge was an ancient stone bridge that carried the East Road over the River Hoarwell, about a hundred miles east of Weathertop and roughly the same distance west of Rivendell. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_pk_lonely_mountain
+"Slopes of the Lonely Mountain"
+End
+Map:map_pk_lonely_mountain/desc
+"The Battle of the five Armies took place in this valley, located between the Lonely Mountain and Dale. The five warring parties were the Goblins and the Wargs against Men, Elves, and Dwarves. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_mirkwood_ii
+"Mirkwood II" 
+End
+Map:map_PK_mirkwood_ii/Desc
+"Mirkwood is a large forest located in between the kingdom of Gondor and the Grey Mountains. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_mount_doom_II
+"Mount Doom II" 
+End
+Map:map_PK_mount_doom_II/Desc
+"Mount Doom, the mountain of fate, is located deep within Mordor. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:mapMXgundabaddeeps
+"Gundabad Deeps" 
+End
+Map:mapMXgundabaddeeps/Desc
+"Gundabad was once a dwarven settlement founded by Durin I in the First Age, but now, the Mount and it's underground are infested with orcs, goblins, and other merciless creatures. \n Map by Mex Flaxtz."
+End
+//------------------------------------------------------------
+Map:mapSOironhillsii
+"Iron Hills II"
+END
+Map:mapSOironhillsii/Desc
+"These hills, rich in iron, were long held by the Dwarves and Dain Ironfoot. \n Map from RotWK by Solas, edited by Ecthelion"
+END
+//------------------------------------------------------------
+Map:mapSOsorrowisles
+"Sorrow Isles" 
+End
+Map:mapSOsorrowisles/Desc
+"A group of lone Islands in the Sea of Belfalas. It is said to be the prison of two evil spirits who drive the island's unsuspecting visitors into madness. \n Map from RotWK, by Solas."
+End
+//------------------------------------------------------------
+Map:mapMAironhillsIV
+"Iron Hills IV"
+END
+Map:mapMAironhillsIV/Desc
+"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water. \n Map from RotWK, by Mako."
+END
+//------------------------------------------------------------
+Map:mapTTettenmoorsII
+"Ettenmoors II" 
+End
+Map:mapTTettenmoorsII/Desc
+"The Ettenmoors, also known as the Troll-fells, were a highland region of Eriador, which was west of the Misty Mountains. The land was wild, and many evil creatures dwelt there. \n Map by Temptation. \n Special thanks to Powerkartoffel and Ecthelion"
+End
+//------------------------------------------------------------
+Map:map_PK_bamfurlong
+"Bamfurlong" 
+End
+Map:map_PK_bamfurlong/Desc
+"Bamfurlong was a farm in the boggy region of the Marish in the eastern Shire. It was the home of Farmer Maggot, who lived above ground rather than in a traditional Hobbit-hole. \n Map by Powerkartoffel."
+End
 //------------------------------------------------------------
 Map:map_PK_bamfurlong
 "Bamfurlong" 
