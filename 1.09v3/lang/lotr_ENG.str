@@ -24,6 +24,9 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipElrondRestoration09v3
+"Requires Level 10 \n Heals 20% health points of nearby allies and fully refreshes their special ability timers. \n Replenish 1 dead man per battalion in the area. \n Left click to activate"
+END
 CONTROLBAR:ArwenElvenGrace09v3
 "Athelas [&V]"
 END
