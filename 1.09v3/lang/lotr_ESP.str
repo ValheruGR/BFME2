@@ -24,6 +24,12 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ArwenElvenGrace09v3
+"Athelas [&V]"
+END
+CONTROLBAR:ArwenElvenGraceDesc09v3
+"Requires Level 8 \n Arwen slowly restores 750 health-points in the location during two seconds. \n Left click icon then left click on target area"
+END
 CONTROLBAR:GoblinKingBattleFrenzy09v3
 "Frenesí de batalla""
 End
