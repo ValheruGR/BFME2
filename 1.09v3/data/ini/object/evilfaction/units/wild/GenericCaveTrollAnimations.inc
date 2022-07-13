@@ -264,7 +264,7 @@
 
 		AnimationState = MOVING WEAPONSTATE_ONE					; ATTACKING
 			Animation
-				AnimationName = MuCavTroll_SKL.MuCavTroll_RUNA  ; Running with club
+				AnimationName = MuCavTroll_SKL.MuCavTroll_RUNB ;;.;; MuCavTroll_RUNA  ; Running with club
 				AnimationMode = LOOP
 				;AnimationSpeedFactorRange = 0.77 0.77
 			End
