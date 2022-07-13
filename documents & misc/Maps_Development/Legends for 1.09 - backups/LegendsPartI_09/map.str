@@ -1,0 +1,1823 @@
+Map:LegendsPartI_09
+"Legends - Part I"
+End
+Map:LegendsPartI_09/Desc
+"Legends - Part I for BFME2 version 1.09\nBy Crusard (cristianbeltramo@hotmail.com)\nDownload Parts I & II from the3rdage.net\n\nTo prevent OUT-OF-SYNC errors, make sure everyone RESTARTS their game BEFORE playing the map. You may also need to restart after playing.\n\nIf playing online, make sure the player under the host is a Brutal CPU to avoid the map transfer bug.\n______________________________________\n\n*HOW TO PLAY*\nThis map can be played multiplayer (The 3 lower slots) or singleplayer (Use the slot in the lower-middle of the map (6 o'clock), and CPUs on the other two). \n\n- 3 Lower-left slots: Players (Team1)\n- Upper-Right Slot: CPU (Team 1 as well)\n\nIMPORTANT: The slot in the central-bottom slot (at 6 o'clock) MUST be a human player. If the other two player slots are CPUs they'll be transfered to that player (For singleplayer or 2 player play)\n______________________________________\n\n\nHINTS:\n- Play multiplayer! Some quest rewards and treasure are not available when playing singleplayer.\n - If playing with friends, teamwork is the key, you should ALWAYS stick together!\n - Use STANCES! Switch to Defensive if you're being hit, or use Aggressive when flanking a boss.\n- EXPLORE, there are sidequests and treasure that can be very useful as you advance\n- REST, recover your hitpoints and skills after each battle so you're ready for anything.\n - All skills have been improved and balanced, so make a mixed CaH party with different classes!\n\nRemember: To avoid Out-Of-Sync issues each player should RESTART their Bfme game so the INIs are refreshed before and after playing."
+End
+
+GlitchWarning
+"One or more players are using heroes with cheated stats.\nPlease use legit heroes for this map."
+END
+
+AlphaWarning
+"This is the end of the Alpha\nThank you for testing! And DO NOT distribute/play this map online!"
+END
+
+CONTROLBAR:GerardeBladerune
+"Gerarde's Blade Rune"
+END
+
+CONTROLBAR:TooltipGerardeBladerune
+"This rune is embeded into your weapon, making your attacks and spells 25% stronger\nPassive Effect"
+END
+
+CONTROLBAR:PoisonReagent
+"Poison Reagent"
+END
+
+CONTROLBAR:TooltipPoisonReagent
+"Powerful poison damage for melee weapons which increases base damage and adds poison damage-over-time to the attack\nPassive Effect"
+END
+
+CONTROLBAR:ImprovedArmorL1
+"Dwarven mithril chainmail"
+END
+
+CONTROLBAR:TooltipImprovedArmorL1
+"Damage resistance +5 & +6% more healthpoints.%\nPassive Effect"
+END
+
+CONTROLBAR:ImprovedArmorL2
+"Helm of Blaneford"
+END
+
+CONTROLBAR:TooltipImprovedArmorL2
+"Damage resistance +5% & +6% more healthpoints.\nPassive Effect"
+END
+
+CONTROLBAR:BootsOfSpeed
+"Boots of Striding"
+END
+
+CONTROLBAR:TooltipBootsOfSpeed
+"These magic boots improve the speed at which your Hero can move\nPassive Effect"
+END
+
+CONTROLBAR:HermitsStone
+"Stone of the Hermit"
+END
+
+CONTROLBAR:TooltipHermitsStone
+"Magical energies contained within these rare stones make your abilities and spells recharge 25% faster.\nPassive Effect"
+END
+
+
+CONTROLBAR:TalismanOfDeadlyRage
+"Talisman of Deadly Rage"
+END
+
+CONTROLBAR:TooltipTalismanOfDeadlyRage
+"This powerful talisman makes you hit 15% faster\nPassive Effect"
+END
+
+CONTROLBAR:BluemoonHeartstone
+"Bluemoon Heartstone"
+END
+
+CONTROLBAR:TooltipBluemoonHeartstone
+"The strong life force embeded into this amulet permanently increases your hitpoints by 20%\nPassive Effect"
+END
+
+CONTROLBAR:PotionOfHealing
+"Potion of Healing"
+END
+
+CONTROLBAR:ToolTipPotionOfHealing
+"Instantly recovers all your Hitpoints\nLeft click to activate\nOne time use"
+END
+
+CONTROLBAR:PotionOfInvulnerability
+"Potion of Lesser Invulnerability"
+END
+
+CONTROLBAR:ToolTipPotionOfInvulnerability
+"Useful to escape in dire situations or going through ranks of enemies.\nLeft click to activate\nLasts for 10 seconds. One time use"
+END
+
+CONTROLBAR:ScrollOfRecall
+"Scroll: Recall"
+END
+
+CONTROLBAR:TooltipScrollOfRecall
+"Summons your party members to your position.\nLeft click to activate\nOne time use"
+END
+
+
+
+
+
+
+
+
+CONTROLBAR:TooltipLegendsCrippleStrikeRanged_Level1
+"Deals moderate damage to enemy units and holds them in place\nLeft click icon then left click on enemy unit"
+END
+
+CONTROLBAR:TooltipLegendsCrippleStrikeMelee_Level2
+"Deals good damage to enemy units and holds them in place\nLeft click icon then left click on enemy unit"
+END
+
+CONTROLBAR:ToolTipLegendsCrippleStrikeMelee_Level1
+"Deals good damage to an enemy unit and roots them in place for a medium duration\nLeft click icon then left click on enemy unit"
+END
+
+CONTROLBAR:ToolTipLegendsCrippleStrikeMelee_Level2
+"Deals great damage to an enemy unit and roots them in place for a medium duration\nLeft click icon then left click on enemy unit"
+END
+
+CONTROLBAR:TooltipLegendsHowlOfRage
+"Heroes in target area gain a boost to their armor and damage\nLeft click icon then click on target area"
+END
+
+CONTROLBAR:ToolTipLegendsCAH_Coerce_Level1
+"Temporarily converts target enemy unit\nLeft click icon then left click on enemy unit"
+END
+
+CONTROLBAR:ToolTipLegendsCAH_Coerce_Level2
+"Temporarily converts units in selected area\nLeft click icon then left click on target area"
+END
+
+CONTROLBAR:ToolTipLegendsCAH_Coerce_Level3
+"Temporarily converts units in selected area\nLeft click icon then left click on target area"
+END
+
+CONTROLBAR:ToolTipLegendsCreateAHeroLeadership
+"Nearby Heroes gain additional experience and have slightly increased defense\nDoes not Stack    Passive ability"
+END
+
+CONTROLBAR:ToolTipLegendsCAH_Starlight
+"Call the heavens to regenerate the hitpoints of your party and paralyze nearby enemies\nLeft click icon to use"
+END
+
+CONTROLBAR:LegendsHealing
+"Elven Healing"
+END
+
+CONTROLBAR:LegendsTooltipHealing
+"Partially heals your party members\nThe caster must be standing still for the ability to make effect\nLeft click to activate"
+END
+
+CONTROLBAR:LegendsSummonLv1
+"Feral Spider\nLevel 1 Summon"
+END
+
+CONTROLBAR:TooltipLegendsSummonLv1
+"Invokes a spider under your control which has great attack power but little hitpoints\nAll experience gained is redirected to the caster\nLeft click icon then left click on target area"
+END
+
+CONTROLBAR:LegendsSummonLv2
+"Barrow Wight\nLevel 2 Summon"
+END
+
+CONTROLBAR:TooltipLegendsSummonLv2
+"Invoke a barrow wight which can regenerate as well as hit multiple enemies\nAll experience gained is redirected to the caster\nLeft click icon then left click on target area"
+END
+
+CONTROLBAR:LegendsSummonLv3
+"Cave Troll\nLevel 3 Summon"
+END
+
+CONTROLBAR:TooltipLegendsSummonLv3
+"Invoke a strong cavetroll which can take a lot of damage\nAll experience gained is redirected to the caster\nLeft click icon then left click on target area"
+END
+
+CONTROLBAR:LegendsSummonLv4
+"Firedrake\nLevel 4 Summon"
+END
+
+CONTROLBAR:TooltipLegendsSummonLv4
+"Invoke a powerful firedrake to kill the masses for you\nAll experience gained is redirected to the caster\nLeft click icon then left click on target area"
+END
+
+CONTROLBAR:SlowPace
+"Slow walk"
+END
+
+CONTROLBAR:ToolTipSlowPace
+"Slows doen enemies\nLeft click icon then left click target area"
+END
+
+
+
+
+
+Player1BotWarning
+"WARNING, the player on the lower-mid slot (6 o'clock) must be a Human for the map to work properly. Please restart!"
+END
+
+Player4AllyWarning
+"The upper-right slot must be a CPU on the same team as the players.\nPlease read the map description for instructions!"
+END
+
+TipsMen
+"Your hero is a Captain of Gondor. Your superior armor allows you to be the first in line and take a lot of damage. Athelas is a powerful spell to heal your allies, and Spearthrow is excellent against big targets and bosses."
+END
+
+TipsDwarf
+"Your hero is a dwarven warrior. He can withstand great amounts of damage and has powerful massive skills such as EarthShaker. Axethrow is as strong as Captain of Gondor's Spear Throw now, and Battle Rage is a must to empower your strength."
+END
+
+TipsElf
+"Your hero is an elven archer. Your bow's fast rate of fire is excellent for masses of weak enemies, and can be improved greatly with Arrow Specialization. It is also important to heal your team-mates, and Whirlwind is simply the best mass-killing skill available."
+END
+
+TipsEvilMen
+"Your hero is a man of the East. Their Assasin skill is definetely going to be useful to take down powerful bosses, and Coerce can temporarily convert most enemies."
+END
+
+TipsServantOfSauron
+"Your hero is a Servant of Sauron. Their good physical stats and revamped Berserker Rage make them great frontline warriors. Their inspire fear can save your party from more than one close-call, and just like berserker rage, their firebombs have been redesigned to reload much quickly."
+END
+
+TipsWizard
+"Your hero is a Wizard. They are physically weak so they should be protected by warriors. Their damage spells are very strong especially against masses of enemies. Their high-level spells have been improved to be the most destructive of all character skills."
+END
+
+1Intro
+" "
+END
+
+1IntroOld
+"Shadow has overtaken the light..."
+END
+
+1Introb
+" "
+END
+
+1IntrobOld
+"It must not be allowed to extinguish it."
+END
+
+1Intro2
+"The heroes must gather at the statue of Champions.\nOnly then their quest would begin."
+END
+
+HeroStartPickGold
+"Look around for extra gold, you will need it later!"
+END
+
+HeroStartDie
+"Hint: A Hero has died. He or she will be revived when you reach the statue of Champions."
+END
+
+HeroStartDieHint
+"When a Hero dies, he or she gets to keep it's current level, but all experience gained on that level will be lost.\n"
+END
+
+1HeroesTogether0
+"The spell of evil has reached these lands..."
+END
+
+1HeroesTogether1
+"The heroes have vanquished the first minion of their enemy, Raselas."
+END
+
+1HeroesTogether2
+"Before they can begin their hunt for the evil Shadowmage himself, they must find and release the three\nsacred temples, of which power has long been forgotten, and gather strength for their final encounter."
+END
+
+1HeroesTogether3
+"The first temple is not far from here..."
+END
+
+StancesHint
+"Use Defensive Stance if you are being attacked, you will gain +25% resistance to damage."
+END
+
+1GoblinPetQuestGiven
+"NEW QUEST: Inruk the Half-Troll\nDefeat Inruk's tribe leader"
+END
+
+1GoblinPetQuestCompleted
+"QUEST COMPLETED: Inruk the Half-Troll"
+END
+
+1GoblinPet1
+" \nINRUK THE HALF-TROLL:                                                                                                             \nAaaaaarghh!                                                                                     "
+END
+
+1GoblinPet2
+" \nINRUK THE HALF-TROLL:                                                                                                             \nI am Inruk, half-troll and half-goblin!                                            "
+END
+
+1GoblinPet2b
+" \nINRUK THE HALF-TROLL:                                                                                                             \nTribe thinks Inruk is too weak and cast Inruk out! Inruk hates them!                           "
+END
+
+1GoblinPet3
+" \nINRUK THE HALF-TROLL:                                                                                                             \nYou go kill ALL, and Inruk join you!                                                                        "
+END
+
+1GoblinPet4
+" \nINRUK THE HALF-TROLL:                                                                                                             \nTribe leader still alive! Go KILL ALL!                                                                 "
+END
+
+1GoblinPet5
+" \nINRUK THE HALF-TROLL:                                                                                                             \nGraaaaghh! Inruk happy! We smash heads together!                                                     "
+END
+
+PadsHint
+"You can interact with characters by standing on the floorpad near them"
+END
+
+HealingStoneHint
+"Use these Waters of Healing to fully recover your allies' Health."
+END
+
+HealingStoneHint2
+"Use them wisely though, they can only be used once."
+END
+
+Blacksmith1
+"\nGUARDS:                                                                                                                    \n Hold your fire! You down there, come up here, maybe we can help!             "
+END
+
+Blacksmith2
+"\nSMITHY:                                                                                                                              \n Welcome to the Shop! Armor, Potions, We have everything you need right here!                "
+END
+
+BlacksmithElf
+"\nSMITHY:                                                                                                                              \n Welcome to our shop! Now that the orcs are gone we are back in business!                            "
+END
+
+
+Blacksmith2Hint
+"Click on the smith to purchase items at his shop. If you want to buy items later, you are welcome to stop by!"
+END
+
+LakeLairsHint1
+"Hold it!"
+END
+
+LakeLairsHint2
+"It looks like the goblins have infested this valley..."
+END
+
+LakeLairsHint3
+"Once they have been alerted on our presence, they will surely summon their warriors to attack us"
+END
+
+LakeLairsHint4
+"We must destroy their Lairs as quickly as possible, or else we will be overwhelmed by their numbers"
+END
+
+LakeLairs1
+"GOBLIN: What are you looking at? Kill the intruders!"
+END
+
+LakeLairs2
+"Destroy the lairs quickly to stop more goblins from emerging!"
+END
+
+LakeLairs3
+"Once the goblins have seen you, they will call reinforcements from their caves.\nDestroy these lairs before fighting the goblins or more will emerge!"
+END
+
+Temple1Reach1
+"The Heroes have released the first ancient Temple."
+END
+
+Temple1Reach2
+"From here they would pursue the Shadowmage, Raselas."
+END
+
+TempleReviveHint
+"From now on, Heroes will be revived in this temple automatically in exchange for 1500 GOLD." 
+END
+
+TempleReviveHint2
+"Hint: You can give your allies Gold by using the Tribute button (flag icon)." 
+END
+
+Temple1Revive
+"A Hero has been brought back"
+END
+
+PreTempleRevive
+"A hero has been brought back at the statue"
+END
+
+Miriam1
+"\nMIRIAM:                                                                                                                                    \n*sobs*                                                                                                          "
+END
+
+Miriam2
+"\nMIRIAM:                                                                                                                                    \nPlease adventurers, lend me a hand!                                                                          "
+END
+
+Miriam3
+"\nMIRIAM:                                                                                                                                    \nMy brother Killiam went to the spider cave down the road to look for trapped travellers a few hours ago.         "
+END
+
+Miriam4
+"\nMIRIAM:                                                                                                                                    \nBut it's getting late now, and he hasn't returned. Killiam is a sneaky one, but keeps getting into trouble.      "
+END
+
+Miriam5
+"\nMIRIAM:                                                                                                                                    \nCan you please look for him when you are in the cave? I fear for his life...                                 "
+END
+
+QueensDessertQuestGiven
+"NEW QUEST: The Queen's Dessert\nRescue Killiam from the spider cave"
+END
+
+QueensDessertQuestCompleted
+"QUEST COMPLETED: The Queen's Dessert"
+END
+
+ChunkBattle1
+"\nSPIDER:                                                                                                                               \n SCREEEEEEEEEECH!                                                                   "
+END
+
+ChunkBattle2
+"You were trapped! Quickly destroy the spiderweb blocking the way before the spiders swarm you!"
+END
+
+ChunkBattle3
+"The spiders have stopped coming..."
+END
+
+TheQueen1
+"\nTHE QUEEN:                                                                                                                            \nWho aaaaaare you, creaturesss??                                                              "
+END
+
+TheQueen2
+"\nTHE QUEEN:                                                                                                                            \nHow daaaare you comeeee into my lair!                                                         "
+END
+
+TheQueen3
+"\nTHE QUEEN:                                                                                                                            \nPrepare to dieeeeeee...                                                                        "
+END
+
+TheQueen4
+"\nTHE QUEEN:                                                                                                                            \nHeeelllp me my childrennnnn!                                                                     "
+END
+
+TheQueen5
+"\nTHE QUEEN:                                                                                                                            \n DIEEE MAGGOTTSSSSS!                                                                             "
+END
+
+TheQueenWebbedManTip
+"There is someone trapped inside that cocoon..."
+END
+
+WebbedManInBattle
+"There's somebody trapped inside, but we need to kill The Queen first!"
+END
+
+WebbedMan1
+"\nCOCOON:                                                                                                                   \nHmmmph! Get me out? Hmmmph!                                                                     "
+END
+
+WebbedMan2
+"\nKILLIAM:                                                                                                                    \nThank you, I thought I'd be the Queen's dessert!                                          "
+END
+
+WebbedMan3
+"\nKILLIAM:                                                                                                                    \nI am Killiam, a from-now-on retired adventurer!                                            "
+END
+
+WebbedMan4
+"\nKILLIAM:                                                                                                                    \nI better get back to my sis, Miriam, she must be worried...                         "
+END
+
+WebbedMan5
+"\nKILLIAM:                                                                                                                    \nTake the treasure I found, as a gift for saving my life.                              "
+END
+
+WebbedMan6
+"\nKILLIAM:                                                                                                                    \nI'll find my way back to the camp on my own, thanks again adventurers!              "
+END
+
+RestoringStoneHint1
+"These powerful Waters of Restoration restore all of your HEALTH and SKILLS instantly. They can be used only once, like the Waters of Healing."
+END
+
+BerserkersHint
+"Watch out for Berserkers, they have a devastating sword attack. Kill them quickly when you see them!"
+END
+
+AmbushWarning
+"It's too quiet, no reinforcements? Something's not right..."
+END
+
+AmbushHint
+"It's an ambush!"
+END
+                        
+Temple2Reached1
+"You have reached the second temple"
+END
+
+RainStarts
+"It looks like it's going to rain soon..."
+END
+
+RangerMeet1
+"\nRANGER:                                                                                                                                      \nAdventurers, over here!                                                               "
+END
+
+RangerMeet2
+"\nRANGER:                                                                                                                            \n I'm a scout of Megbar, we've been holding off the forces of Raselas for the last couple of months   "
+END
+
+RangerMeet3
+"\nRANGER:                                                                                                                            \nI'm glad you're here, we need all the help we can get.                                               "
+END
+
+RangerMeet4
+"\nRANGER:                                                                                                                            \nCome, we'll meet back again at the castle.                                                              "
+END
+
+RangerMeet4New
+"\nRANGER:                                                                                                                                        \nPlease follow me into the fortress, we are in need of your help.                                                       "
+END
+
+CaptainBriefing1
+"\nCAPTAIN:                                                                                                                                    \nNoble warriors, allow me to introduce myself. I am Captain Gerarde, commanding officer of the Megbar troops."
+END
+
+CaptainBriefing2
+"\nGERARDE:                                                                                                                                    \nWe have seen how you fight, we are in need of your help.                                                    "
+END
+
+CaptainBriefing3
+"\nGERARDE:                                                                                                                                    \nOne of Raselas' greatest officers, Jared, has been laying a siege on this fortress for the last couple of weeks."
+END
+
+CaptainBriefing4
+"\nGERARDE:                                                                                                                                    \nWe cannot sustain this situation for much longer, so we came up with a plan.                                 "
+END
+
+CaptainBriefing5
+"\nGERARDE:                                                                                                                                    \nWe will attack them by surprise and destroy their siege equipment before they have a chance to use it against us."
+END
+
+CaptainBriefing6
+"\nGERARDE:                                                                                                                                    \nBut that won't be easy, and it's where you come in.                                                               "
+END
+
+CaptainBriefing7
+"\nGERARDE:                                                                                                                                    \nWe will create a distraction and hold off Jared's troops while you go for their catapults.              "
+END
+
+CaptainBriefing8
+"\nGERARDE:                                                                                                                                    \nWhen you are ready to start, stand in front of the northern gate.                                       "
+END
+
+FortressMissionHint
+"Keep away from the main battle! Attack only the orcs defending the catapults, try to slip in unnoticed!"
+END
+
+FortressQuestGive
+"NEW QUEST: Megbar's surprise"
+END
+
+FortressQuestComplete
+"QUEST COMPLETED: Megbar's surprise"
+END
+
+FortressCatapultsKilled
+"Now it's time to attack their main camp, and defeat Commander Jared and his bodyguards!"
+END
+
+JaredBodyguard
+"Defeat Jared and his bodyguards!"
+END
+
+Jared1
+"\nJARED:                                                                                                                          \nThere they are, get 'em!                                                                              "
+END
+
+Jared2
+"\nJARED:                                                                                                                          \nTime to get busy.                                                                                     "
+END
+
+CaptainReward1
+"\nGERARDE:                                                                                                                \nYou defeated Jared! I was hoping I'd be in time to help you fight him...                     "
+END
+
+CaptainReward2
+"\nGERARDE:                                                                                                                \nWe couldn't have done this without your help, there is something I want to give to you..."
+END
+
+CaptainReward3
+"\nGERARDE:                                                                                                                \nIt's a BladeRune. You will make good use of it I am sure.                                     "
+END
+
+CaptainReward4
+"\nGERARDE:                                                                                                                \nIt can be embedded into your weapon to make it much stronger.                             "
+END
+
+CaptainReward5
+"\nGERARDE:                                                                                                                \nDecide which of you is going to keep it, then talk to me again.                             "
+END
+
+CaptainReward6a
+"\nGERARDE:                                                                                                                \nVery well then, use this BladeRune to vanquish the evil on these lands.                        "
+END
+
+CaptainReward7a
+"\nGERARDE:                                                                                                                \nMy soldiers are weary from the battle, but when the time comes, we will be there with you.     "
+END
+
+CaptainReward8a
+"\nGERARDE:                                                                                                                \nFarewell, noble warriors.                                                                   "
+END
+
+CaptainReward6b
+"\nGERARDE:                                                                                                                \nOh, hold on a minute... it looks like I've lost the BladeRune!                            "
+END
+
+CaptainReward7b
+"\nGERARDE:                                                                                                                \nDarn! Oh well, my thanks will have to do for now.                                            "
+END
+
+CaptainReward8b
+"\nGERARDE:                                                                                                                \nFarewell, I apologize for my mistake.                                                              "
+END
+
+CaptainRewardSinglePlayerHint
+"This quest reward is only available when playing MULTIPLAYER!"
+END
+
+FleeingWargs
+"Those wargs were running away from something..."
+END
+
+RhakidQuestGive
+"NEW QUEST: Off Rhakid goes!"
+END
+
+RhakidQuestComplete
+"QUEST COMPLETED: Off Rhakid goes!"
+END
+
+Rhakid01
+"\nMYSTERIOUS ORC:                                                                                                         \nDon't ya make another step into that cave, ya filthy dogs!                                          "
+END
+
+Rhakid02
+"\nMYSTERIOUS ORC:                                                                                                                      \nI was here to take the treasure from those spiders of the cave, but heeeey, your purse will have to do!"
+END
+
+Rhakid03
+"\nRHAKID:                                                                                                                      \n*I* am RHAKID, master illusionist and mighty orc warrior!                              "
+END
+
+Rhakid04
+"\nRHAKID:                                                                                                                      \nBehold my mighty might!                                                                               "
+END
+
+Rhakid05
+"\nRHAKID:                                                                                                                      \nEughh, but Rhakid's the mightiest!                                                            "
+END
+
+Rhakid06
+"\nRHAKID:                                                                                                                      \nOff Rhakid goes!                                                                                         "
+END
+
+Rhakid07
+"(Rhakid fled!)"
+END
+
+Rhakid08
+"\nRHAKID:                                                                                                                      \nIt's you again!?                                                                       "
+END
+
+Rhakid09
+"\nRHAKID:                                                                                                                      \nI was just sneaking for Jared's personal loot... but ya totally ruined it!!            "
+END
+
+Rhakid10
+"\nRHAKID:                                                                                                                      \nDaaah, I'm more powerful now... Rhakid can take the loot from you!                   "
+END
+
+Rhakid11
+"\nRHAKID:                                                                                                                      \nHere we go again!                                                                                  "
+END
+
+Rhakid12
+"\nRHAKID:                                                                                                                      \nEwww, it looks like ya've become stronger yerself!                                               "
+END
+
+Rhakid13
+"\nRHAKID:                                                                                                                      \nMaybe Rhakid is not the mightiest... *sobs*                                                          "
+END
+
+Rhakid14
+"\nRHAKID:                                                                                                                      \nUntil next time, ya filthy scum!                                                                                  "
+END
+
+AegionQuestGive
+"NEW QUEST: Lone Ranger\nDestroy the Mud Guardians"
+END
+
+AegionQuestComplete
+"QUEST COMPLETED: Lone Ranger"
+END
+
+AegionMerchant1
+"\nTRADE MERCHANT:                                                                                                                               \nGreetings, travellers!                                                                                  "
+END
+
+AegionMerchant2
+"\nTRADE MERCHANT:                                                                                                                               \nThank god someone showed up, I need your aid!                                                      "
+END
+
+AegionMerchant3
+"\nTRADE MERCHANT:                                                                                                                               \nEarlier today, my bodyguard, Aegion, and I were travelling from the west side of the mountain.               "
+END
+
+AegionMerchant4
+"\nTRADE MERCHANT:                                                                                                                               \nWe were caught by Jared's patrols, and I was forced to escape, leaving Aegion behind.           "
+END
+
+AegionMerchant5
+"\nTRADE MERCHANT:                                                                                                                               \nI've sent my guards, but now that Raselas has summoned his Mud Guardians to hold the mountain top,\nmy men cannot go any further.                                                                                           "
+END
+
+AegionMerchant6
+"\nTRADE MERCHANT:                                                                                                                               \nPlease, destroy these Mud Guardians and find Aegion before it's too late for him...                                 "
+END
+
+AegionBattle1
+"\nAEGION:                                                                                                                              \nNeed a hand?                                                                                                 ."
+END
+
+AegionBattle2
+"\nAEGION:                                                                                                                                            \nUse magic! These Mud Guardians are weak to magical attacks!                             "
+END
+
+AegionIntro2
+"\nAEGION:                                                                                                                                            \nThank you for your assistance, adventurers, I couldn't have made it through without your help.           "
+END
+
+AegionIntro3
+"\nAEGION:                                                                                                                                            \nI am Aegion, former Ranger of the Mountains. Your presence is welcome here.                         "
+END
+
+AegionIntro4
+"\nAEGION:                                                                                                                                            \nI need to get back to the trading house, please come with me.                                                  "
+END
+
+AegionIntro5
+"\nTRADE MERCHANT:                                                                                                                                  \nAegion, you're back!                                                                                  "
+END
+
+AegionIntro6
+"\nAEGION:                                                                                                                                            \nI'm glad you are safe, sir.                                                                               "
+END
+
+AegionIntro7
+"\nTRADE MERCHANT:                                                                                                                                  \nYou've done well, Aegion.                                                                                  "
+END
+
+AegionIntro8
+"\nTRADE MERCHANT:                                                                                                                                  \nAnd you too, adventurers.                                                                                  "
+END
+
+AegionIntro9
+"\nTRADE MERCHANT:                                                                                                                                  \nI have a proposition for all of you...                                                                            "
+END
+
+AegionIntro10
+"\nTRADE MERCHANT:                                                                                                                                  \nRaselas cannot be allowed to rule... and you have the spirit of fighters, of heroes.                             "
+END
+
+AegionIntro11
+"\nTRADE MERCHANT:                                                                                                                                  \nYou should fight together!                                                                                 "
+END
+
+AegionIntro12
+"\nTRADE MERCHANT:                                                                                                                                  \nWhat do you say?                                                                                                      "
+END
+
+AegionIntro13
+"\nAEGION:                                                                                                                                              \nI cannot leave the caravans unprotected...                                                                                  "
+END
+
+AegionIntro14
+"\nTRADE MERCHANT:                                                                                                                                  \nWe'll be fine. With Jared defeated, we'll be able to bring supplies to the people more easily, at least for now.  "
+END
+
+AegionIntro15
+"\nAEGION:                                                                                                                                              \nIt's been a while since my adventuring days...                                                                   "
+END
+
+AegionIntro16
+"\nAEGION:                                                                                                                                              \nVery well, together we shall crush this... Shadowmage, once and for all!                                      "
+END
+
+AegionJoins
+"Aegion joined the party!"
+END
+
+SpikeHint
+"See that treasure chest over there?\nIt's out of reach. maybe Aegion can send Spike to fetch it for us..."
+END
+
+UrukCamp1
+"URUK SOLDIER:                                                                                                                                        \nDeath to the enemies of Raselas!                                                                                     "
+END
+
+Temple3a
+"\nAEGION:                                                                                                                                              \nWhat is this?                                                                                                      "
+END
+
+Temple3b
+"\nAEGION:                                                                                                                                              \nThe temple has been corrupted!                                                                                       "
+END
+
+Temple3c
+"\nAEGION:                                                                                                                                              \nWhat's happenning!                                                                                                      "
+END
+
+Temple3Win1
+"The third temple has been cleansed."
+END
+
+Temple3Win2
+"By releasing this ancient power, Raselas can now be defeated."
+END
+
+Temple3Win3
+"This gate leads to Raselas' fortress, to where the story comes to an end."
+END
+
+Temple3Win4
+"However, the time for battle is yet to come, as the heroes are to find new allies\nand strenght before they can face the dread Shadowmage."
+END
+
+Temple3Win5
+"To the East, swamps and marshes house the savage wildmen and water beasts..."
+END
+
+Temple3Win6
+"To the North, people have spoken of deadly creatures which now inhabbit the abandoned dwarven ruins..."
+END
+
+Temple3Win7
+"And finally, to the West lies the Necropolis, where vampires and the evil ghosts of the fallen have taken refuge..."
+END
+
+Temple3Win8
+"The final battle draws near..."
+END
+
+Temple3Win9
+"Explore the surrounding areas to gather power and items.\n\nYou can now cross the gate and fight Raselas anytime, but once you go through, there is no coming back.\n"
+END
+
+
+
+SwampsSecretDoorHint
+"There's a lever on the other side of this gate. It probably controls the opening mechanism."
+END
+
+
+Swamps1
+"WILDMAN:                                                                                                                                     \nYaaaah! Kill the outsiders!"
+END
+
+Swamps2
+"Shamans can buff nearby allies and call in Swamp Worms to attack from the depths.\nThey irradiate a special aura around them."
+END
+
+Swamps3
+"DWARVEN RAIDER:                                                                                                                                 \nWhat do we have here?                                                                                                              "
+END
+
+Swamps4
+"WIZARD RAIDER:                                                                                                                                  \nSurrender your weapons and gold and we might let you live another day!                                           "
+END
+
+Swamps5Rheia
+"RHEIA:                                                                                                                                           \nWhat are you saying? We are enemies of Raselas, can we not fight together?                                               "
+END
+
+Swamps5Aegion
+"AEGION:                                                                                                                                           \nRaiders. These men hold no allegiance to no one, be careful.                                                               "
+END
+
+Swamps6
+"RHAKID:                                                                                                                                           \nBoss, Rhakid knows these emptyheads! They're pretty strong...                                                              "
+END
+
+Swamps7
+"WIZARD RAIDER:                                                                                                                                       \nShut up...                                                                                                                               "
+END
+
+Swamps8
+"WIZARD RAIDER:                                                                                                                                       \nYou still owe me quite a lot of gold, and it's about time you got it for me, orc!                                         "
+END
+
+Swamps9
+"WIZARD RAIDER:                                                                                                                                       \nRaiders, kill them all.                                                                                                                      "
+END
+
+Swamps10
+"RHAKID:                                                                                                                                       \nArgh, Rhakid hates the raiders! I'll fight with you!                                                                        "
+END
+
+Swamps11
+"RHAKID:                                                                                                                                                   \nUm, sorry about that folks!                                                                                                     "
+END
+
+Swamps12
+"RHAKID:                                                                                                                                                   \nThat wizard was very strong, even for the mighty Rhakid!                                                               "
+END
+
+Swamps13
+"RHAKID:                                                                                                                                                   \nBut now that the raiders are gone thanks to you, I can do whatever I like!                                                 "
+END
+
+Swamps14
+"AEGION:                                                                                                                                              \nI wouldn't be so sure, orc!                                                                                            "
+END
+
+Swamps15
+"RHAKID:                                                                                                                                                 \nI know, I know.                                                                                                              "
+END
+
+Swamps16
+"RHAKID:                                                                                                                                       \nSorry for calling you emptyheads, and for trying to kill you and all...                                                        "
+END
+
+Swamps17
+"RHAKID:                                                                                                                                                \nBut you're really strong and determined, Rhakid bows before you...                                                        "
+END
+
+Swamps18
+"RHAKID:                                                                                                                                               \nLet me fight at your side!                                                                                          "
+END
+
+Swamps19Aegion
+"AEGION:                                                                                                                                           \nAnd how do you expect us to trust you?                                                                               "
+END
+
+Swamps19Rheia
+"RHEIA:                                                                                                                                           \nI like him, he's kinda funny!                                                                                     "
+END
+
+Swamps20
+"RHAKID:                                                                                                                                              \nI promise Rhakid will be good, and he will try to be very helpful!                                                   "
+END
+
+Swamps21
+"RHAKID:                                                                                                                                       \nRhakid still IS a mighty warrior and illusionist, after all!                                                            "
+END
+
+Swamps22
+"AEGION:                                                                                                                                           \nWhatever...                                                                                                          "
+END
+
+
+MineQuestGive
+"NEW QUEST: Essence of life"
+END
+
+MineQuestComplete
+"QUEST COMPLETE: Essence of life!"
+END
+
+GetRegenRing
+"Found the Ring of Regeneration"
+END
+
+
+DwarvesQuestGive
+"NEW QUEST: Scary usurpers"
+END
+
+DwarvesQuestComplete
+"QUEST COMPLETE: Scary usurpers"
+END
+
+DwarvesQuestGetKey
+"Found Great Hall Key"
+END
+
+Dwarves1
+"DWARF TEAM LEADER:                                                                                                                              \nAhhh, finally sombody shows up!                                                                                "
+END
+
+Dwarves2
+"DWARF TEAM LEADER:                                                                                                                              \nMy name is Ferglir, leader of this expedition, and we're in quite a need of your assistance!                               "
+END
+
+Dwarves3
+"FERGLIR:                                                                                                                                            \nYou see, years ago our brave warriors have managed to capture a just born dragon, who was             \n kept and raised in this very dungeon.                                                                                "
+END
+
+Dwarves4
+"FERGLIR:                                                                                                                                            \nAt first the beast seemed to behave well, but as smart as dragons can be, it eventually               \n killed its captives and took control inside our walls.                                                          "
+END
+
+Dwarves5
+"FERGLIR:                                                                                                                                            \nI have come with my men to reclaim this great fortress, now lost to the very creatures                     \nwe were meant to tame, but the creature has grown even stronger over the time.                           "
+END
+
+Dwarves6
+"FERGLIR:                                                                                                                                            \nSo what do you say, will you help us rid of this evil monster?                                                            "
+END
+
+Dwarves7
+"FERGLIR:                                                                                                                                            \nAs a reward, you can keep anything you find inside!                                                                       "
+END
+
+Dwarves7NotenoughA
+"FERGLIR:                                                                                                                                            \nHmmm, now that I see better, we may still be too few in number to go in.                                        "
+END
+
+Dwarves7NotenoughB
+"FERGLIR:                                                                                                                                            \nCome back when you have at least one more member in your party!                                                "
+END
+
+Dwarves7Enough
+"FERGLIR:                                                                                                                                            \nThis is more like it! It looks like we're ready to go now!                                                   "
+END
+
+Dwarves8
+"FERGLIR:                                                                                                                                            \nThe gate shall be opened for you, I'll be right behind you should you decide to go in."
+END
+
+
+Dwarves9
+"FERGLIR:                                                                                                                                            \nThe dragon has burned us off our own tunnels, and made this one here its lair!                        "
+END
+
+Dwarves9b
+"FERGLIR:                                                                                                                                            \nNow we will take back our home, and slay the fiend!                                                            "
+END
+
+Dwarves10
+"FERGLIR:                                                                                                                                            \nI believe it is still asleep, maybe we can find it before it awakens...                                 "
+END
+
+Dwarves11
+"FERGLIR:                                                                                                                                            \nThis fine door was meant to keep enemies out.                                                               "
+END
+
+Dwarves12
+"FERGLIR:                                                                                                                                            \nWe will need to find its key.                                                                                   "
+END
+
+Dwarves13RhakidA
+"RHAKID:                                                                                                                                            \nWatch out, a firedrake!                                                                                              "
+END
+
+Dwarves13
+"FERGLIR:                                                                                                                                            \nFiredrakes! They have filled our homes with dread!                                                            "
+END
+
+Dwarves13RhakidB
+"RHAKID:                                                                                                                                            \nThere's too many of them!                                                                                              "
+END
+
+Dwarves13RhakidC
+"RHAKID:                                                                                                                                            \nI can't see through all this smoke! Cahaaagh!                                                                                     "
+END
+
+Dwarves14
+"FERGLIR:                                                                                                                                            \nI think that's all of 'em.                                                                                            "
+END
+
+Dwarves15
+"FERGLIR:                                                                                                                                            \nI know that sound... it's the dragon, it must have awakened!                                                 "
+END
+
+Dwarves16
+"FERGLIR:                                                                                                                                            \nNot to worry, this is dwarven stonework. There'll be no collapsing here.                                 "
+END
+
+Dwarves16b
+"FERGLIR:                                                                                                                                            \nThe Dragon! He attacks!                                                                                             "
+END
+
+Dwarves17Rhakid
+"RHAKID:                                                                                                                                            \nYaaagh! We've upset the dragon!                                                                                    "
+END
+
+Dwarves18
+"FERGLIR:                                                                                                                                            \nDie, foul dragon!.                                                                                                  "
+END
+
+Dwarves19
+"FERGLIR:                                                                                                                                            \nNow it is finally over we can start rebuilding this place.                                                                "
+END
+
+Dwarves20
+"FERGLIR:                                                                                                                                            \nWe dwarves honor our deals, the dragon's treasure is all yours for the taking.                                             "
+END
+
+Dwarves21
+"FERGLIR:                                                                                                                                            \nFarewell, great warriors!                                                                                                    "
+END
+
+
+
+GhostsHint
+"The ghosts of the dead are very resistant to normal attacks. Use Magic, and magical abilities or attacks such as Aegion's Silverthorn arrows."
+END
+
+RheiaQuestGive
+"NEW QUEST: Who? What?"
+END
+
+RheiaQuestComplete
+"QUEST COMPLETE: Who? What?"
+END
+
+RheiaQuest1
+"FEMALE VOICE:                                                                                                                                             \nHello? Somebody there?                                                                                                        "
+END
+
+RheiaQuest1Aegion
+"AEGION:                                                                                                                                                   \nWorry not, we are warriors, enemies of Raselas.                                                                              "
+END
+
+RheiaQuest2
+"FEMALE VOICE:                                                                                                                                            \nAh, thank goodness you're not one of those horrible creatures!                                                             "
+END
+
+RheiaQuest3
+"FEMALE VOICE:                                                                                                                                            \nPlease, let me out of this cell... I think it can be unlocked from the outside.                                          "
+END
+
+RheiaQuestKey
+"Found Cell Key"
+END
+
+RheiaQuest4
+"FEMALE DRUID:                                                                                                                                             \nThank you for releasing me... I can't even remember for how long I've been here.                                      "
+END
+
+RheiaQuest4Aegion
+"AEGION:                                                                                                                                                     \nI am glad we got you out, what is your name?                                                                               "
+END
+
+RheiaQuest5
+"FEMALE DRUID:                                                                                                                                             \nI think they were trying to brainwash me, I can't remember anything...                                                     "
+END
+
+RheiaQuest6
+"FEMALE DRUID:                                                                                                                                             \nWait, I think my name is...                                                                                                "
+END
+
+RheiaQuest7
+"RHEIA:                                                                                                                                                       \nMy name is Rheia.                                                                                                          "
+END
+
+RheiaQuest7b
+"RHEIA:                                                                                                                                                       \nBut... I can't seem to remember anything else.                                                                           "
+END
+
+RheiaQuest8
+"RHEIA:                                                                                                                                                   \nI think I had a diary, or book... one of my captors must have taken it.                                                      "
+END
+
+RheiaQuest9
+"RHEIA:                                                                                                                                                   \nI need to find that book... please help me adventurers!                                                                    "
+END
+
+RheiaQuestOtherSideOfPond
+"RHEIA:                                                                                                                                                   \nI think my book is on the other side of this pond, we are going the wrong way!                                           "
+END
+
+RheiaQuest9Rhakid
+"RHAKID:                                                                                                                                                   \nRhakid and his friends are always happy to help a lady in distress.                                                   "
+END
+
+RheiaQuestVampireWaaah
+"VAMPIRE:                                                                                                                                                   \nToday we shall feast on your blood, mortals.                                                                                 "
+END
+
+RheiaQuestVampiresAegion
+"AEGION:                                                                                                                                                   \nVampires? I'd thought these creatures had been erradicated a long time ago,                                         \nis this another of Raselas' doings?                                                                                             "
+END
+
+RheiaQuestVampiresRhakid
+"RHAKID:                                                                                                                                                   \nVampires! Pathetic creatures who can't even stand the light of the day.                                                       "
+END
+
+RheiaQuest10
+"RHEIA:                                                                                                                                                   \nThis book... this is my spellbook!                                                                                           "
+END
+
+RheiaQuest11
+"RHEIA:                                                                                                                                                   \nI brought it with me... to bring peace to the dead that now haunt this place.                                             "
+END
+
+RheiaQuest12
+"RHEIA:                                                                                                                                                   \nSome things are finally coming back to me... I must keep going.                                                                  "
+END
+
+RheiaQuest13Aegion
+"AEGION:                                                                                                                                                       \nThe sanctity of this place has been fouled.                                                                                   "
+END
+
+RheiaQuest13
+"RHEIA:                                                                                                                                                       \nThis is the resting place of my ancestors... they were the keepers of the Three-wills.                                         "
+END
+
+RheiaQuest14
+"RHEIA:                                                                                                                                                        \nI... I must go inside the necropolis.                                                                                            "
+END
+
+RheiaQuestVagrantsAegion1
+"AEGION:                                                                                                                                                          \nBrave warriors and wise rulers of the past are being held in this necropolis.                                               "
+END
+
+RheiaQuestVagrantsAegion2
+"AEGION:                                                                                                                                                         \nThey are now mere vagrant souls under the shackles of Raselas.                                                                   "
+END
+
+RheiaQuest15b
+"VAMPIRE LORD:                                                                                                                                                   \nIt would appear our uninvited guests have joined us.                                                                                     "
+END
+
+RheiaQuest15
+"VAMPIRE LORD:                                                                                                                                            \nAnd my sweet lady Rheia, you are back as well.                                                                                             "
+END
+
+RheiaQuest16
+"RHEIA:                                                                                                                                                   \nI know you...                                                                                                                       "
+END
+
+RheiaQuest17
+"VAMPIRE LORD:                                                                                                                                           \nOf course you do, and you have returned just like *I* told you to.                                                       "
+END
+
+RheiaQuest18
+"VAMPIRE LORD:                                                                                                                                           \nYou are special, Rheia, that's why I didn't turn you like the rest.                                                      "
+END
+
+RheiaQuest18b
+"VAMPIRE LORD:                                                                                                                                           \nYour destiny is to serve Raselas by my side, that *is* what you really seek now.                                       "
+END
+
+RheiaQuest19
+"VAMPIRE LORD:                                                                                                                                           \nNow you must kill these... weaklings, kill them all for me.                                                                   "
+END
+
+RheiaQuest20
+"RHEIA:                                                                                                                                                   \nI... feel like I have to, but...                                                                                                             "
+END
+
+RheiaQuest20Rhakid
+"RHAKID:                                                                                                                                                   \nHey, you wouldn't want to hurt your buddy Rhakid would you?                                                            "
+END
+
+RheiaQuest21
+"RHEIA:                                                                                                                                                   \nNo, you do not have power over me, vampire, we shall vanquish you!                                                 "
+END
+
+RheiaQuest22
+"RHEIA:                                                                                                                                                   \nFriends, whatever you do, don't listen to this monster, his words are poisonous!                                       "
+END
+
+RheiaQuest22Aegion
+"AEGION:                                                                                                                                                   \nYou shall corrupt this place no longer!                                                                                   "
+END
+
+RheiaQuestLord1
+"VAMPIRE LORD:                                                                                                                                           \nCome, serve a greater purpose.                                                                                             "
+END
+
+
+RheiaQuest23
+"RHEIA:                                                                                                                                                   \nI remember now, everything.                                                                                                "
+END
+
+RheiaQuest24
+"RHEIA:                                                                                                                                                   \nHad you not rescued me in time, I cannot imagine the things I could have done.                                     "
+END
+
+RheiaQuest25
+"RHEIA:                                                                                                                                                   \nBut now I'm here for the same reason as you are... the Shadowmage must be stopped.                                        "
+END
+
+RheiaQuest26
+"RHEIA:                                                                                                                                                   \nI will fight with you, let my sword aid your quest.                                                                       "
+END
+
+
+
+
+RaselasGate1
+"All party members must be in front of this gate before you can advance."
+END
+
+RaselasGate2
+"Remember there is no way back once you go through the gate.\nSpend all your gold, you will not need it inside Raselas' Fortress."
+END
+
+
+Waves0
+"Survive the 5 waves of enemies!\nOne hero will be revived after each wave.\n"
+END
+
+Waves1
+"Wave 1:\nSpiders and Scorpions\n"
+END
+
+Waves2
+"Wave 2:\nHalf-Trolls and Wargs\n"
+END
+
+Waves3
+"Wave 3:\nOrcs and Wildmen\n"
+END
+
+Waves4
+"Wave 4:\nUruks\n"
+END
+
+Waves5
+"Wave 5:\nArcane Golems\n"
+END
+
+WaveClear
+"Wave cleared!\n"
+END
+
+WavesAllClear
+"All waves cleared!\n"
+END
+
+Waves7
+"Now fight your way to the top of the fortress!\n"
+END
+
+WavesAdvice
+"You should probably use Defensive Stance..."
+END
+
+WavesAdviceTarget
+"Attack your strongest opponents first (Wildmen, Uruks, etc) and leave the weak for the last (orcs)!"
+END
+
+RaselasKeep1
+""
+END
+
+RaselasKeep2
+"This is the end of the current version!\n The final battle totally blow your mind, don't miss the coming of the finished version in\nthe BFME2 Revora Forums!\nThanks for playing the Alpha!"
+END
+
+RaselasSay1
+"RASELAS:                                                                                                                                                   \nThe age of the Eldar has come to an end.                                                                             "
+END
+
+RaselasSay2
+"RASELAS:                                                                                                                                                   \nNow, you will die.                                                                                                       "
+END
+
+RaselasSay3
+"RASELAS:                                                                                                                                                   \nYour time is over.                                                                                                       "
+END
+
+RaselasQuestGive
+"Defeat Raselas, the Shadowmage"
+END
+
+RaselasBattleGerarde
+"GERARDE:                                                                                                                                                   \nWe are here to aid you, adventurers!"
+END
+
+RaselasBattleHeroComebackHint
+"The three wills shall bring back the fallen heroes."
+END
+
+RaselasBattleHeroComeback1
+"Hero will be revived in"
+END
+
+RaselasBattleHeroComeback2
+"Hero will be revived in"
+END
+
+RaselasBattleHeroComeback3
+"Hero will be revived in"
+END
+
+RaselasBattleHeroComeback4
+"Aegion will be revived in"
+END
+
+RaselasBattleHeroComeback5
+"Rheia will be revived in"
+END
+
+RaselasBattleHeroComeback6
+"Rhakid will be revived in"
+END
+
+RaselasDefeated1
+"The Shadowmage has been destroyed forever"
+END
+
+RaselasDefeated2
+"Peace will finally reign the land"
+END
+
+RaselasDefeated3
+"Brave warriors have slain the forces of evil."
+END
+
+RaselasDefeated4
+"The darkness has been chased from the lands of the innocent."
+END
+
+RaselasDefeated5
+"Valor and honor have taken this day."
+END
+
+RaselasDefeated6
+"This victory will long be remembered."
+END
+
+TheEnd
+"*THE END*"
+END
+
+Credits1
+"CREDITS"
+END
+
+Credits2
+"Map Direction\nCrusard"
+END
+
+Credits3
+"Oficial Betatesters:\nFox and Thalantyr"
+END
+
+Credits4
+"Special thanks to:\nMasterbadeend, Ridder Geel, Jus_Sauron, Rob38, Blatant"
+END
+
+Credits5
+"Visit BFME Heaven and The 3rd Age for great maps and mods!"
+END
+
+Credits6
+"Thanks a lot for playing!"
+END
+
+
+BonusObjective1
+"Goblins killed:"
+END
+
+BonusObjective2
+"Goblin kills to unlock bonus cinematic:"
+END
+
+BonusObjective3
+"Time remaining:"
+END
+
+BonusObjective4
+"Well done!"
+END
+
+Extra1
+"With Raselas destroyed, Megbar prospered."
+END
+
+Extra2
+"Aegion became Captain of the Guard, and sworn to protect the mountainlands."
+END
+
+Extra3
+"Rheia went on a quest to search for her family and roots."
+END
+
+Extra4
+"She promised Aegion to return to Megbar one day."
+END
+
+Extra5
+"Rhakid founded his very own mercenary guild, and finally became a very famous and respected warrior."
+END
+
+Extra6
+"As for the three great heroes... this was just the beginning of their journey."
+END
+
+Extra7
+"- LEGENDS -"
+END
+
+
+
+Part1Start
+"Part I - The Three"
+END
+
+Part1CompleteA
+"Congratulations! You've have reached the end of Part I"
+END
+
+Part1CompleteB
+"Play Part II - The battle of Megbar, to continue your adventure!"
+END
+
+Part2Start
+"Part II - The battle of Megbar"
+END
+
+Part2CompleteA
+"Congratulations! You've have reached the end of Part II"
+END
+
+Part2CompleteB
+"Play Part III - Crossroads, to continue your adventure!"
+END
+
+Part3Start
+"Part III - Crossroads"
+END
+
+RestartWarning
+"Please quit the game, and restart it before you play, to avoid bugs and Out-Of-Sync."
+END
+
+
+CustomCHARACTERSabilities
+"------------------------------------------------------"
+END
+
+CONTROLBAR:LegendsRockSmash
+"Rock Smash"
+END
+
+CONTROLBAR:TooltipLegendsRockSmash
+"The golem smashes the ground sending debris to hit surrounding enemies\nLeft click to activate"
+END
+
+CONTROLBAR:Ultima
+"Ultima"
+END
+
+CONTROLBAR:ToolTipUltima
+"A blinding burst of energy irradiates from the Golems core, causing devastating damage.\nLeft click to activate"
+END
+
+CONTROLBAR:LegendsTrollsMight
+"Troll's might (&R)"
+END
+
+CONTROLBAR:TooltipLegendsTrollsMight
+"Increases Inruk's attack power by 100% and decreases his defense by 25%\nCannot use if Goblin's Cunning is active\nLeft click to activate"
+END
+
+CONTROLBAR:LegendsOrcsCunning
+"Goblin's Cunning (&T)"
+END
+
+CONTROLBAR:TooltipLegendsOrcsCunning
+"Increases Inruk's defense by 100% and decreases his attack power by 25%\nCannot use if Troll's Might is active\nLeft click to activate"
+END
+
+CONTROLBAR:LegendsBigWham
+"Big Wham! (&C)"
+END
+
+CONTROLBAR:TooltipLegendsBigWham
+"Requires level 6\nInruk slams surrounding enemies with a powerful burst of strenght\nLeft click to activate"
+END
+
+CONTROLBAR:LegendsThornMetalArmor
+"Razorthorn Metal Armor"
+END
+
+CONTROLBAR:TooltipLegendsThornMetalArmor
+"Rhakid's heavy armor causes damage to any enemies attacking him if they are close enough\n\nPassive ability"
+END
+
+CONTROLBAR:LegendsMirrorImage
+"Mirror Image (&R)"
+END
+
+CONTROLBAR:TooltipLegendsMirrorImage
+"Several illusory duplicates of Rhakid pop into being, making it difficult for enemies to know which target to attack\nLeft click to activate"
+END
+
+CONTROLBAR:LegendsUncontrollableRage
+"Uncontrollable Rage(&B)"
+END
+
+CONTROLBAR:TooltipLegendsUncontrollableRage
+"Requires Level 10\nRhakid flies into a frenzy, striking twice as fast and dealing more damage. You lose control of Rhakid as long as this effect lasts\nLeft click to activate"
+END
+
+CONTROLBAR:LegendsEscape
+"Escape (&C)"
+END
+
+CONTROLBAR:TooltipLegendsEscape
+"Rhakid fades into his surroundings in time to get away from danger\nLeft click to activate"
+END
+
+CONTROLBAR:LegendsBlazingSweep
+"Blazing Sweep (&V)"
+END
+
+CONTROLBAR:TooltipLegendsBlazingSweep
+"Requires Level 9\nA powerful flaming arc sweep obliterates enemies in front of Rhakid\nLeft click icon then click enemy unit"
+END
+
+CONTROLBAR:LegendsColorSpray
+"Color Spray (&R)"
+END
+
+CONTROLBAR:TooltipLegendsColorSpray
+"Requires Level 2 \nA vivid cone of clashing colors springs forth from Rheia's hands, causing all nearby creatures to become blinded for a short time\nLeft click icon then left click on target"
+END
+
+CONTROLBAR:LegendsRegeneration
+"Regeneration (&T)"
+END
+
+CONTROLBAR:TooltipLegendsRegeneration
+"Requires Level 4 \nCalls an aura of healing around the caster for 20 seconds..\nLeft click to activate"
+END
+
+CONTROLBAR:LegendsNaturesFavour
+"Nature's Favour (&C)"
+END
+
+CONTROLBAR:TooltipLegendsNaturesFavour
+"Requires Level 5\nThe forces of nature are bound to protect nearby allies, temporarily raising their armor 20%.\nLeft click to activate"
+END
+
+CONTROLBAR:LegendsEntanglingVines
+"Entangling Vines(&V)"
+END
+
+CONTROLBAR:TooltipLegendsEntanglingVines
+"Requires Level 9 \n Grasses, weeds, bushes, and even trees wrap, twist, and entwine about creatures, holding them fast and causing them to become entangled. \n Enemies cannot move and lose 20% armor. \nLeft click icon then left click on target area"
+END
+
+CONTROLBAR:LegendsNaturesAlly
+"Nature's Ally (&B)"
+END
+
+CONTROLBAR:TooltipLegendsNaturesAlly
+"Requires Level 8\nRheia summons a powerful brown bear that can crush enemies\nLeft click icon then left click on target area"
+END
+
+CONTROLBAR:LifeLeech
+"Life Leech"
+END
+
+CONTROLBAR:TooltipLifeLeech
+"Sucks the life out of the vampire's opponent\nLeft click icon then click on enemy unit."
+END
+
+CONTROLBAR:LegendsSoulPurge
+"Soul Purge"
+END
+
+CONTROLBAR:TooltipLegendsSoulPurge
+"Dark energies are beckoned from the depths to obliterate all life around the caster.\nLeft click icon then click on enemy unit."
+END
+
+CONTROLBAR:LegendsSwiftTheHawk
+"Animal Companion\nSpike, the White Hawk (&R)"
+END
+
+CONTROLBAR:TooltipLegendsSwiftTheHawk
+"Requires Level 8 \n Call Spike, Aegion's trusted friend \n Left click icon then left click on target area"
+END
+
+CONTROLBAR:TooltipLegendsSwiftTheHawkNoLevel
+"\nCall Spike, Aegion's trusted friend\nRequires Level 8"
+END
+
+CONTROLBAR:LegendsExplosiveArrow
+"Explosive Arrow"
+END
+
+CONTROLBAR:TooltipLegendsExplosiveArrow
+"Requires Level 9\nLaunches a deadly explosive arrow which can damage several foes in a single shot\n\nLeft click icon then click on enemy unit"
+END
+
+CONTROLBAR:LegendsStoryTeller
+"Storyteller"
+END
+
+CONTROLBAR:ToolTipLegendsStoryTeller
+"Aegion grants additional experience to nearby heroes when fighting close enough\n\nPassive Ability"
+END
+
+CONTROLBAR:LegendsToggleArrows
+"&Toggle Arrows"
+END
+
+CONTROLBAR:ToolTipLegendsToggleArrows
+"Switches between Flaming arrows and Silverthorn arrows \n Left click to activate"
+END
+
+CONTROLBAR:LegendsAegionFlamingArrows
+"Flaming Arrows"
+END
+
+CONTROLBAR:ToolTipLegendsAegionFlamingArrows
+"Standard flaming arrows with a faster firerate, ideal for greater numbers of enemies"
+END
+
+CONTROLBAR:AegionSilverthornArrows
+"Silverthorn Arrows"
+END
+
+CONTROLBAR:ToolTipAegionSilverthornArrows
+"These elven arrows deal great damage to their targets. They are harder to aim, so they require more time between shots"
+END
+
+CONTROLBAR:LegendsRaselasBlastwave
+"Blastwave"
+END
+
+CONTROLBAR:TooltipLegendsRaselasBlastwave
+"Waves of energy blast away any matter around the Shadowmage\nLeft click Icon to cast"
+END
+
+CONTROLBAR:LegendsInvulnerabilityScreen
+"&Invulnerability Screen"
+END
+
+CONTROLBAR:TooltipLegendsInvulnerabilityScreen
+"Cast a magic barrier around the caster, making him invulnerable to all types of damage for 35 seconds.\nLeft click icon to use"
+END
+
+CONTROLBAR:LegendsRaselasTimestop
+"Timestop"
+END
+
+CONTROLBAR:TooltipLegendsRaselasTimestop
+"The power to stop the sands of time\nLeft click Icon to cast"
+END
+
+CONTROLBAR:LegendsRaselasMagicMissile
+"Magic Missile"
+END
+
+CONTROLBAR:TooltipLegendsRaselasMagicMissile
+"A missile of magical energy darts forth from Raselas' fingertips to strike his enemies\nLeft click icon then click target area"
+END
+
+CONTROLBAR:LegendsRaselasLightningStorm
+"Lightning storm"
+END
+
+CONTROLBAR:TooltipLegendsRaselasLightningStorm
+"Powerful electrical beams rain down from the sky to annihilate anything below\nLeft click icon then click target area"
+END
+
+CONTROLBAR:LegendsRaselasAcidFog
+"Acid Fog"
+END
+
+CONTROLBAR:TooltipLegendsRaselasAcidFog
+"A deadly venomous cloud that will corrode the skin of any creature inside it\nLeft click icon to cast"
+END
+
+CONTROLBAR:LegendsRaselasSummon
+"Greater Summon"
+END
+
+CONTROLBAR:TooltipLegendsRaselasSummon
+"Can summon Gold Dragons, Black Dragons, Nightmares, Pit Lords, Orc Hordes, and other creatures of the abyss"
+END
+
+CONTROLBAR:LegendsRaselasRiseHellknights
+"Rise Hell Knights"
+END
+
+CONTROLBAR:TooltipLegendsRaselasTeleport
+"Resurrects the fallen Hell knights to fight for Raselas once more\nLeft click to cast spell"
+END
+
+CONTROLBAR:RaselasBallLightning
+"&Ball Lightning"
+END
+
+CONTROLBAR:TooltipRaselasBallLightning
+"A devastating lightning emits from Raselas' staff, dealing great damage to a small area\nLeft click icon then left click target enemy unit"
+END
+
+CONTROLBAR:LegendsRaselasTeleport
+"&Teleport"
+END
+
+CONTROLBAR:TooltipLegendsRaselasRiseHellknights
+"Teleports Raselas to a new location\nLeft click icon, then click on target area to cast spell"
+END
+
+
+

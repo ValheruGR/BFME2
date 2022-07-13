@@ -24,6 +24,21 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipHaldirGoldenArrow09v3
+"Requires Level 7 \n A magic projectile that causes a highly concentrated amount of ranged-hero and pike types of damage. \n Level 7 causes metaimpact and average damage. \n Level 10 deals high damage in area and stun light sensitive enemy units in the area. \n Effective against cavalry and weak heroes. \n Can only use with bow equipped \n Left click icon then left click on target" 
+END
+CONTROLBAR:TooltipElrondWhirlwind09v3
+"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield. \n Level 5 deals minimal damage but cannot move. \n Level 7 is a destructive and controllable tornado. \n Level 10 is a giant and mobile tornado with high damage. \n Left click icon then left click on target area"
+END
+CONTROLBAR:ToolTipElrondRestoration09v3
+"Requires Level 10 \n Heals 20% health points of nearby allies and fully refreshes their special ability timers. \n Replenish 1 dead man per battalion in the area. \n Left click to activate"
+END
+CONTROLBAR:ArwenElvenGrace09v3
+"Athelas [&V]"
+END
+CONTROLBAR:ArwenElvenGraceDesc09v3
+"Requires Level 8 \n Arwen slowly restores 750 health-points in the location during two seconds. \n Left click icon then left click on target area"
+END
 CONTROLBAR:GoblinKingBattleFrenzy09v3
 "Battle Frenzy"
 End
@@ -37,7 +52,7 @@ CONTROLBAR:TooltipUndermine09v3
 "Places a Mine Shaft anywhere on the map \n Does not need shroud reveal but cannot be casted near any enemy fortress. \n Mine Shaft becomes immediately connected to tunnel network \n Deals high damage at spawn point and light damage in the perimeter\n Left click icon then left click on visible location"
 END
 CONTROLBAR:ToolTipPersonalFlood09v3
-"Requires Level 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective against cavalry and Black Riders. \n Level 4 Arwen summons 3 Floodhorses.\n Level 7 Arwen summons 5 Floodhorses.  \n Level 10 Arwen summons 7 Floodhorses. \nLeft click icon then left click on target"
+"Requiert : niveau 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective against cavalry and Black Riders. \n Level 4 Arwen summons 3 Floodhorses.\n Level 7 Arwen summons 5 Floodhorses.  \n Level 10 Arwen summons 7 Floodhorses. \nLeft click icon then left click on target"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds.\n Heroes revive 20% faster at this Fortress. \n If Eagle Nest upgrade is present, together can heal any allied Flying unit"
@@ -52,10 +67,10 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
 "Allows summoning of a Fire Drake \n Reduces Drogoth revival time by 10% \n Allows Razor Spines to heal flying units."
 END
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
-"Requires Level 6 \n Poisons the enemy causing damage during 30 seconds \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
+"Requiert : niveau 6 \n Poisons the enemy causing damage during 30 seconds \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
 End
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger09v3
-"Requires Level 6 \n Can only use when mounted \n Targeted enemy takes poison damage during 25 seconds. \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
+"Requiert : niveau 6 \n Can only use when mounted \n Targeted enemy takes poison damage during 25 seconds. \n Paralyzes targeted heroes during 6 seconds and reduces to half their speed for another 11 seconds. \n Left click icon then left click on target"
 END
 TOOLTIP:ToolTipBoromir09v3
 "Boromir gains +7% speed at level 7"
@@ -67,7 +82,7 @@ TOOLTIP:ToolTipBuildDwarvenCatapult09v3
 "Strong vs. Structures and Siege units \n The Catapult gains +7% speed at level 7"
 END
 CONTROLBAR:ToolTipBuildDwarvenCatapult09v3
-"Requires Level 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +7% speed at level 7"
+"Requiert : niveau 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +7% speed at level 7"
 END
 CONTROLBAR:ToolTipBuildMordorMumakil09v3
 "Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
@@ -79,7 +94,7 @@ TOOLTIP:ToolTipFellbeast09v3
 "Fellbeast attack radius against units is improved at level 6 and 10."
 END
 CONTROLBAR:ToolTipDominate09v3
-"Requires Level 8 \n Gain control of targeted enemies permanently. \n Left click icon then left click on target enemies"
+"Requiert : niveau 8 \n Gain control of targeted enemies permanently. \n Left click icon then left click on target enemies"
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
 "Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. It's told that he's the human personification of Eru, who created Ëa. \n Allies near Tom Bombadil gain +25% Armor and earn experience 25% faster. \n «Armor BUFF» \n Left click icon then left click on pathable location"
@@ -115,10 +130,10 @@ END
 
 //------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
-"Prince of Ithilien [&B]"
+"Prince of Ithilien [&V]"
 END
 CONTROLBAR:PrinceofIthilienDesc09v2
-"Requires Level 5 \n Targeted archers gain experience \n Left click icon then left click on target archers"
+"Requiert : niveau 5 \n Targeted archers gain experience \n Left click icon then left click on target archers"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
@@ -165,7 +180,7 @@ CONTROLBAR:GenericMountTooltipDain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ShelobWebbing09v2
-"Toile d'Ungoliant"
+"Toile d'Ungoliant (&B)"
 End
 CONTROLBAR:ToolTipShelobWebbing09v2
 "Requiert : niveau 10 \nParalyse les unités ennemies dans une toile d'araigné pendant 4.5 secondes et drainent leurs points de vies.\nSoigne Arachne proportionnellement aux dégâts engendrés.\nClic gauche sur l'icône puis clic gauche sur la cible."
@@ -229,10 +244,10 @@ CONTROLBAR:TooltipDwarvenRiches09v2
 "La production de ressources de la structure sélectionnée augmente temporairement de 300% par rapport à la production actuelle. \nClic gauche sur l'icône puis clic gauche sur la structure de production de ressources."
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
-"Pénétration d'armure"
+"Pénétration d'armure (&Y)"
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
-"Pénétration d'armure améliorée"
+"Pénétration d'armure améliorée (&Y)"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Amélioration de commandement de la forteresse: \nLes unités proche gagnent +25% de dégâts et gagnent +25% d'éxpériences plus rapidement. \n «Damage BUFF»"
@@ -719,7 +734,7 @@ CONTROLBAR:FireWorksObj
 "Feux d'artifice"
 END
 CONTROLBAR:HobbitFireCracker
-"Pétards [&R]"
+"Péta&rds"
 END
 CONTROLBAR:ToolTipHobbitFireCracker
 "Notre héros lance un petit pétard \n Clic gauche pour activer puis clic gauche sur la cible"
@@ -734,10 +749,9 @@ End
 
 
 
-// Maps.Strings	-----	2019
+// Maps.Strings	-----	2019-2020-2021
 
  
-
 
 
 //------------------------------------------------------------
@@ -747,12 +761,33 @@ END
 Map:mapmpnothing/Desc
 "nothing"
 END
-//----------------------------------
+//------------------------------------------------------------/
+Map:map_pk_rhudel_steppe
+"Rhudel Steppe"
+End
+Map:map_pk_rhudel_steppe/Desc
+"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Original autor unknown."
+End
+//------------------------------------------------------------
+Map:map_PK_Forlond
+"Forlond" 
+End
+Map:map_PK_Forlond/Desc
+"Forlond was a harbour that lay on the northern shore of the Gulf of Lune, in the Elvish land of Forlindon. It had a counterpart on the southern shore: the Harlond. Forlond was located at the mouth of an unnamed river that traversed Forlindon, some two hundred miles to the northwest of the Grey Havens. \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------
+Map:map_PK_beleriand
+"Beleriand"
+End
+Map:map_PK_beleriand/Desc
+"At the end of the First Age of Middle-earth, Beleriand was broken in the War of Wrath by the the Maiar, against Morgoth . As the inhabitants fled much of Beleriand sank in the sea. The left behind souls still fight their battle for supremancy of the sunken lands. \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------
 Map:map_PK_amon_amarth_II
 "Amon Amarth II" 
 End
 Map:map_PK_amon_amarth_II/Desc
-"Amon Amarth, the mountain of fate, is located deep within Mordor. It is also known as Mount Doom. \n Map by Mako. \n Reworked by Powerkartoffel."
+"Amon Amarth, the mountain of fate, is located deep within Mordor. It is also known as Mount Doom. \n Map by Mako, edited by Powerkartoffel."
 End
 //------------------------------------------------------------
 Map:map_PK_brandy_hills
@@ -864,7 +899,7 @@ Map:mapETerechiii
 "Erech 4th Age" 
 End
 Map:mapETerechiii/Desc
-"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age.\n Map by Ecthelion. \n Special thanks to Powerkartoffel"
+"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age.\n Map by Ecthelion. Special thanks to Powerkartoffel"
 End
 //------------------------------------------------------------
 Map:mapTTbaranduin
@@ -1028,7 +1063,7 @@ Map:mapETerynrhun
 "Eryn Rhün" 
 End
 Map:mapETerynrhun/Desc
-"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion. \n Special thanks to Powerkartoffel."
+"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion. Special thanks to Powerkartoffel."
 End
 //------------------------------------------------------------
 Map:mapETlebennin
