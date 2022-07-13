@@ -32,6 +32,11 @@
 			Flags						= RESTART_ANIM_WHEN_COMPLETE
 			BeginScript
 				CurDrawableHideSubObjectPermanently("ROCK")
+			;	CurDrawableHideSubObjectPermanently("Trunk01")	//Already hidden by w3d.
+				CurDrawableHideSubObjectPermanently("HATREE") ;;.;;
+				CurDrawableHideSubObjectPermanently("HATREE2") ;;.;;
+				CurDrawableHideSubObjectPermanently("HATREE3") ;;.;;
+				CurDrawableHideSubObjectPermanently("objCLUB01") ;;.;;
 			EndScript
 		End
 		
@@ -246,6 +251,10 @@
 			ParticleSysBone = None InfantryDustTrails
 			BeginScript ; Here since normal Packing state can be skipped with a fast click.
 				CurDrawableShowSubObjectPermanently("Trunk01")
+				CurDrawableShowSubObjectPermanently("HATREE") ;;.;;
+				CurDrawableShowSubObjectPermanently("HATREE2") ;;.;;
+				CurDrawableShowSubObjectPermanently("HATREE3") ;;.;;
+				CurDrawableShowSubObjectPermanently("objCLUB01") ;;.;;
 			EndScript
 		End
 
@@ -259,6 +268,10 @@
 			ParticleSysBone = None InfantryDustTrails
 			BeginScript ; Here since normal Packing state can be skipped with a fast click.
 				CurDrawableShowSubObjectPermanently("Trunk01")
+				CurDrawableShowSubObjectPermanently("HATREE") ;;.;;
+				CurDrawableShowSubObjectPermanently("HATREE2") ;;.;;
+				CurDrawableShowSubObjectPermanently("HATREE3") ;;.;;
+				CurDrawableShowSubObjectPermanently("objCLUB01") ;;.;;
 			EndScript
 		End
 
@@ -301,6 +314,10 @@
 		;
 		;	BeginScript ; Here since normal Packing state can be skipped with a fast click.
 		;		CurDrawableShowSubObjectPermanently("Trunk01")
+		;		CurDrawableShowSubObjectPermanently("HATREE") ;;.;;
+		;		CurDrawableShowSubObjectPermanently("HATREE2") ;;.;;
+		;		CurDrawableShowSubObjectPermanently("HATREE3") ;;.;;
+		;		CurDrawableShowSubObjectPermanently("objCLUB01") ;;.;;
 		;	EndScript
 		;End
 			
@@ -318,6 +335,10 @@
 			End
 			BeginScript 
 				CurDrawableShowSubObjectPermanently("Trunk01")
+				CurDrawableShowSubObjectPermanently("HATREE") ;;.;;
+				CurDrawableShowSubObjectPermanently("HATREE2") ;;.;;
+				CurDrawableShowSubObjectPermanently("HATREE3") ;;.;;
+				CurDrawableShowSubObjectPermanently("objCLUB01") ;;.;;
 			EndScript
 		End
 
@@ -393,6 +414,10 @@
 			Flags = RESTART_ANIM_WHEN_COMPLETE
 			BeginScript ; Here since normal Packing state can be skipped with a fast click.
 				CurDrawableShowSubObjectPermanently("Trunk01")
+				CurDrawableShowSubObjectPermanently("HATREE") ;;.;;
+				CurDrawableShowSubObjectPermanently("HATREE2") ;;.;;
+				CurDrawableShowSubObjectPermanently("HATREE3") ;;.;;
+				CurDrawableShowSubObjectPermanently("objCLUB01") ;;.;;
 			EndScript
 		End
 
