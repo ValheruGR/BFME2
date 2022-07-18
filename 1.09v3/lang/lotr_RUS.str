@@ -813,10 +813,10 @@ Map:map_pk_gardens_of_far_harad/Desc
 "The Gardens of Far Harad were described as a remarkable feat of engineering with an ascending series of tiered gardens containing a wide variety of trees, shrubs, and vines, resembling a large green mountain constructed of mud bricks. \n Map by Powerkartoffel."
 End
 //------------------------------------------------------------
-Map:map_PK_iron_mountains
+Map:map_PK_iron_mountains_ii
 "Iron Mountains II" 
 End
-Map:map_PK_iron_mountains/Desc
+Map:map_PK_iron_mountains_ii/Desc
 "The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs 2 Dragons 2 Goblins \n Capture: 2 Signal Fires \n Size: Large 1v1 \n Map by Powerkartoffel"
 End
 //------------------------------------------------------------

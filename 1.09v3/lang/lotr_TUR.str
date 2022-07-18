@@ -311,7 +311,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, +25% damage and %25 daha hýzlý tecrübe kazanýr. \n Niteliyici Türü: «RESISTANT ElvenWood» \n Overrides LEADERSHIP effects from the allies. \n Enemy cavalry deceleration rate is raised by +200%. \n Önce simgeye sonra hedefe týklayýn"
+"Creates lush terrain whose center creates a protective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, +25% damage and %25 daha hýzlý tecrübe kazanýr. \n Niteliyici Türü: «RESISTANT ElvenWood» \n Overrides LEADERSHIP effects from the allies. \n Enemy cavalry deceleration rate is raised by +200%. \n Önce simgeye sonra hedefe týklayýn"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -839,10 +839,10 @@ Map:map_pk_gardens_of_far_harad/Desc
 "The Gardens of Far Harad were described as a remarkable feat of engineering with an ascending series of tiered gardens containing a wide variety of trees, shrubs, and vines, resembling a large green mountain constructed of mud bricks. \n Map by Powerkartoffel."
 End
 //------------------------------------------------------------
-Map:map_PK_iron_mountains
+Map:map_PK_iron_mountains_ii
 "Iron Mountains II" 
 End
-Map:map_PK_iron_mountains/Desc
+Map:map_PK_iron_mountains_ii/Desc
 "The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs 2 Dragons 2 Goblins \n Capture: 2 Signal Fires \n Size: Large 1v1 \n Map by Powerkartoffel"
 End
 //------------------------------------------------------------
