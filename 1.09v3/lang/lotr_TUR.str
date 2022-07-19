@@ -90,9 +90,6 @@ END
 CONTROLBAR:TooltipDragonStrike09v3
 "Gökyüzünden savaþ alanýný yakmak için ateþ püskürten bir ejderha çaðýrýr. \n Ejderin altýndaki geniþ bir alanda her düþman birimi -%15 hýza maruz kalýr. \n Niteleyici Türü: «DragonStrike STUN» \n *Özellikle haritanýn kenarlarýnda tehlikeli.* \n Önce simgeye sonra hedefe týklayýn"
 END
-CONTROLBAR:ToolTipEyeofSauron09v3
-"Sauron’un Göz’ü nü çaðýrýr. \n Gizli düþmanlarý ortaya çýkarýr. \n Müttefikler +%25 hasar bonusu ve +%25 zýrh bonusu kazanýr  \n ve +%50 daha hýzlý tecrübe kazanýr. \n Troller +%7.5 hasar bonusu ve +%7.5 zýrh bonusu kazanýr  \n ve +%15 daha hýzlý tecrübe kazanýr. \n Niteliyici Türü: «RESISTANT High-Tier Hero» \n Önce simgeye sonra hedefe týklayýn."
-END
 TOOLTIP:ToolTipFellbeast09v3
 "Kanatlý Tayf'ýn saldýrý yarýçaðý seviye 6 ve 10'da geniþler."
 END
@@ -438,7 +435,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Summons the Eye of Sauron \n Görünmez birlikleri açýða çýkarýr \n Allies %25 hasar bonusu, +25% Armor, \n and earn experience 50% faster. \n Niteliyici Türü: «RESISTANT High-Tier Hero» \n Önce simgeye sonra hedefe týklayýn"
+"Sauron’un Göz’ü nü çaðýrýr. \n Gizli düþmanlarý ortaya çýkarýr. \n Müttefikler +%25 hasar bonusu ve +%25 zýrh bonusu kazanýr  \n ve +%50 daha hýzlý tecrübe kazanýr. \n Troller +%7.5 hasar bonusu ve +%7.5 zýrh bonusu kazanýr  \n ve +%15 daha hýzlý tecrübe kazanýr. \n Niteliyici Türü: «RESISTANT High-Tier Hero» \n Önce simgeye sonra hedefe týklayýn."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
