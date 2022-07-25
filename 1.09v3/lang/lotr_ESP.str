@@ -296,7 +296,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Crea una zona frondosa cuyo centro crea un escudo protector contra los conjuros Tierra Mancillada y Bosque Humano del enemigo. \n Las unidades aliadas reciben +35% a la armadura, +25% al daño, consiguen experiencia un 25% más rápido y ven incrementada su capacidad de desacelerar el pisoteo de la caballeria enemiga en un +200%. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
+"Crea una zona frondosa cuyo centro crea un escudo protector contra los conjuros Tierra Mancillada y Bosque Humano del enemigo. \n Las unidades aliadas reciben +35% a la armadura, +25% al daño, consiguen experiencia un 25% más rápido y ven incrementada su capacidad de desacelerar el pisoteo de la caballeria enemiga en un +200%. \n  «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
 END
 CONTROLBAR:MenWood09v2
 "Bosque humano"
@@ -419,7 +419,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Los huargos y sus jinetes ganan \n +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n «Overrides Damage LEADERSHIP» \n Para activarlo, haz clic con el botón izquierdo."
+"Los huargos y sus jinetes ganan \n +55% al daño.\n Pierde -15% armadura contra daño estructural y de picas. \n   «Overrides Damage LEADERSHIP» \n Para activarlo, haz clic con el botón izquierdo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2

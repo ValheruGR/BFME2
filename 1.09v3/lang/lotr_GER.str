@@ -297,7 +297,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Erschafft reichhaltiges Gelände. \n Verbündete Einheiten erhalten +35 % Rüstung, \n +25 % Schaden und sammeln 25 % schneller Erfahrung.  \n Die Verzögerungsrate der feindlichen Kavallerie wird um +200 % erhöht. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Linksklick-Symbol, dann Linksklick auf Zielbereich" 
+"Erschafft reichhaltiges Gelände. \n Verbündete Einheiten erhalten +35 % Rüstung, \n +25 % Schaden und sammeln 25 % schneller Erfahrung.  \n Die Verzögerungsrate der feindlichen Kavallerie wird um +200 % erhöht. \n  «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Linksklick-Symbol, dann Linksklick auf Zielbereich" 
 END
 CONTROLBAR:MenWood09v2
 "Menschenwald"
@@ -418,7 +418,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Warge verursachen +55% Schaden, aber \n verlieren -10% Rüstung gegen Lanzen und Gebäude. \n «Overrides Damage LEADERSHIP». \n Aktivieren mit Linksklick"
+"Warge verursachen +55% Schaden, aber \n verlieren -10% Rüstung gegen Lanzen und Gebäude. \n   «Overrides Damage LEADERSHIP». \n Aktivieren mit Linksklick"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2

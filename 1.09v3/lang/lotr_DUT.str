@@ -276,7 +276,7 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Nodig: niveau 7 \n "Nodig: niveau 7\nMaakt alle bondgenoten in de buurt bestand tegen angst \n «StubbornPride» \n Dain kan onzichtbaarheid onthullen. \nPassieve kracht"
+"Nodig: niveau 7 \n "Nodig: niveau 7\nMaakt alle bondgenoten in de buurt bestand tegen angst. \n Dain kan onzichtbaarheid onthullen. \nPassieve kracht"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
@@ -296,7 +296,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creëert bosrijk terrein met mooie vogels, koeien, paarden, ... De koeien durven al wel eens kaka te doen dus je moet oppassen waar je loopt.\nAlle bevriende eenheden krijgen +35% pantser, \n +25% schade en verdienen ervaring 25% sneller \n Vijandige cavalerie vertraagd +200% sneller \n «ElvenWood BUFF» \n «Overrides Damage LEADERSHIP» \n Heeft geen effect op helden \n Klik met links op het icoontje en daarna met links op het doelgebied" 
+"Creëert bosrijk terrein met mooie vogels, koeien, paarden, ... De koeien durven al wel eens kaka te doen dus je moet oppassen waar je loopt.\nAlle bevriende eenheden krijgen +35% pantser, \n +25% schade en verdienen ervaring 25% sneller \n Vijandige cavalerie vertraagd +200% sneller \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Heeft geen effect op helden \n Klik met links op het icoontje en daarna met links op het doelgebied" 
 END
 CONTROLBAR:MenWood09v2
 "Menselijk bos"
@@ -315,7 +315,7 @@ CONTROLBAR:ToolTipFreezingRain09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Nodig: niveau 4 \n Bevriende eenheden krijgen \n+20% snelheid, +25% schade en +25% onthulling.  \n Vijandige troepen in hetzelfde gebied lijden \n -25% pantser en -25% schade \n «DEBUFF» «Neutralizes LEADERSHIP»  \n Klik links op het icoontje daarna met links op het doelwit"
+"Nodig: niveau 4 \n Bevriende eenheden krijgen \n+20% snelheid, +25% schade en +25% onthulling.  \n «MightyRage» \n Vijandige troepen in hetzelfde gebied lijden \n -25% pantser en -25% schade \n «DEBUFF» «Neutralizes LEADERSHIP»  \n Klik links op het icoontje daarna met links op het doelwit"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
 "Nodig: niveau 2 \n Nabije vijandige troepen lijden -25% pantser en -25% schade.  \n «DEBUFF» «Neutralizes LEADERSHIP»  \n Passieve vaardigheid"
