@@ -29913,11 +29913,11 @@ CONTROLBAR:ConstructGondorForgeLevel3Upgrade
 END
 
 CONTROLBAR:ConstructGoodBombardShip
-"Nave de bombardeo elfa (&V)"
+"Nave de &bombardeo elfa"
 END
 
 CONTROLBAR:ConstructGoodFireShip
-"NaveTormenta elfa (&V)"
+"Nave Tormenta elfa (&V)"
 END
 
 CONTROLBAR:ConstructGoodShip
