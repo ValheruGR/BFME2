@@ -33,3 +33,21 @@
   				ParticleSysBone		= NONE ShakeFoundationParalyze09v3 FollowBone:Yes
  			End
         End
+	//-----------------------------------------------------------------------------
+		Draw = W3DScriptedModelDraw Draw_RebuildArmorBonusOnStructure09v3
+            ParticlesAttachedToAnimatedBones = yes
+			ModelConditionState = NONE
+				Model = None
+			End
+			AnimationState = USER_56 STUNNED_FLAILING
+  			End
+			AnimationState = USER_56 PASSENGER
+  			End
+			AnimationState = USER_56 DYING
+  			End
+ 			AnimationState = USER_56 BURNINGDEATH
+  			End
+			AnimationState = USER_56	// Draw_RebuildArmorBonusOnStructure09v3
+  				ParticleSysBone		= NONE SpellRebuildDotsModifier09v3 FollowBone:Yes ;;.;;
+ 			End
+        End
