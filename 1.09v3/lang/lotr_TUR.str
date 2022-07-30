@@ -90,9 +90,6 @@ END
 CONTROLBAR:TooltipDragonStrike09v3
 "Gökyüzünden savaþ alanýný yakmak için ateþ püskürten bir ejderha çaðýrýr. \n Ejderin altýndaki geniþ bir alanda her düþman birimi -%15 hýza maruz kalýr. \n Niteleyici Türü: «DragonStrike STUN» \n *Özellikle haritanýn kenarlarýnda tehlikeli.* \n Önce simgeye sonra hedefe týklayýn"
 END
-CONTROLBAR:ToolTipEyeofSauron09v3
-"Sauron’un Göz’ü nü çaðýrýr. \n Gizli düþmanlarý ortaya çýkarýr. \n Müttefikler +%25 hasar bonusu ve +%25 zýrh bonusu kazanýr  \n ve +%50 daha hýzlý tecrübe kazanýr. \n Troller +%7.5 hasar bonusu ve +%7.5 zýrh bonusu kazanýr  \n ve +%15 daha hýzlý tecrübe kazanýr. \n Niteliyici Türü: «RESISTANT High-Tier Hero» \n Önce simgeye sonra hedefe týklayýn."
-END
 TOOLTIP:ToolTipFellbeast09v3
 "Kanatlý Tayf'ýn saldýrý yarýçaðý seviye 6 ve 10'da geniþler."
 END
@@ -100,7 +97,7 @@ CONTROLBAR:ToolTipDominate09v3
 "Gereken Seviye: 8 \n Hedef birlikleri kalýcý olarak ele geçir. \n Sol týklama simgesi ve ardýndan hedef düþmanlara sol týklama"
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
-"Kudretli, þapkalý, þiþman, ihtiyar, þarký söylemeyi seven Tom Bombadil'i çaðýrýr. \n Eä'nýn yaratýcýsý Eru'nun insan görünümüne bürünmüþ hali olduðuna dair söylentiler vardýr. \n Önce simgeye sonra uygun yere sol týklayýn \n Yakýndaki müttefiklere +%25 zýrh bonusu ve +%25 daha hýzlý tecrübe kazandýrýr. \n Niteliyici Türü: «Armor RESISTANT» \n Önce simgeye sonra hedef düþmanlara týklayýn"
+"Kudretli, þapkalý, þiþman, ihtiyar, þarký söylemeyi seven Tom Bombadil'i çaðýrýr. \n Eä'nýn yaratýcýsý Eru'nun insan görünümüne bürünmüþ hali olduðuna dair söylentiler vardýr. \n Önce simgeye sonra uygun yere sol týklayýn \n Yakýndaki müttefiklere +%25 zýrh bonusu ve +%25 daha hýzlý tecrübe kazandýrýr. \n «Armor LEADERSHIP» \n Önce simgeye sonra hedef düþmanlara týklayýn"
 END
 CONTROLBAR:Draft09v3
 "Kuþanma(&R)"
@@ -153,7 +150,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
 "Kalenin görüþ mesafesini arttýrýr ve gizli birlikleri açýða çýkartýr. \n Palantir Görüþü'nün kilidini açar"
 END
 CONTROLBAR:TooltipIvoryTowerVision09v2
-"Tüm haritayý açýða çýkarýr \n Haritadaki tüm müttefikler +%10 hýz kazanýr. \n Niteliyici Türü: «RESISTANT IvoryTower» \n 30 saniye sürer."
+"Tüm haritayý açýða çýkarýr \n Haritadaki tüm müttefikler +%10 hýz kazanýr. \n «IvoryTower BUFF» \n 30 saniye sürer."
 End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
 "Gereken Seviye: 3 \n Bu birliði zehir kesesi ile yükseltir \n Düþmanlara zehir hasarý verir"
@@ -252,7 +249,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Gereken Seviye: 10 \n Hedef alandaki düþman kahramanlarýn özel yeteneklerini %80 kullanýlmýþ hale getirir. \n Cadý Kral'ýn yanýndaki düþman kahramanlarýn hasarý -%25 azalýr. \n Niteliyici Türü: «WitchKing STUN» \n Önce simgeye sonra hedef noktaya týklayýn"
+"Gereken Seviye: 10 \n Hedef alandaki düþman kahramanlarýn özel yeteneklerini %80 kullanýlmýþ hale getirir. \n Cadý Kral'ýn yanýndaki düþman kahramanlarýn hasarý -%25 azalýr. \n Önce simgeye sonra hedef noktaya týklayýn"
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Seçilen ekonomi binasý bir süreliðine +%300 kazanç saðlar. \n Önce simgeye sonra hedefe týklayýn resource structure"
@@ -264,22 +261,22 @@ CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
 "Geliþmiþ Kalkan Saldýrýsý (&Y)"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
-"Kale Liderlik yükseltmesi: \n Etraftaki birlikler +%25 hasar bonusu kazanýr ve +%25 daha hýzlý tecrübe kazanýr. \n Niteliyici Türü: «Damage RESISTANT»"
+"Kale Liderlik yükseltmesi: \n Etraftaki birlikler +%25 hasar bonusu kazanýr ve +%25 daha hýzlý tecrübe kazanýr. \n «Damage BUFF»"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Mýzraklýlara karþý güçlü\n Sürü Bonusu: \n 100 birimi aþan goblin topluluklarý +%33 hasar bonusu ve +%25 hýz bonusu kazanýr. \n Niteliyici Türü: «RESISTANT HordeBonus»"
+"Mýzraklýlara karþý güçlü\n Sürü Bonusu: \n 100 birimi aþan goblin topluluklarý +%33 hasar bonusu ve +%25 hýz bonusu kazanýr. \n«HordeBonus BUFF»"
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Okçulara ve Birim Üretim Binalarý'na karþý güçlü. \n Ayrýkvadi süvarileri seviye 5'te +%7 hýz kazanýr."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Gereken Seviye: 7 \n Theoden ve yakýndaki süvariler +%99 zýrh bonusu, +%25 hasar bonusu kazanýr ve birim ezerken yavaþlamaya karþý baðýþýklýk kazanýrlar.\n Ve ayný zamanda bu süre boyunca süvariler korkusuzluk kazanýrlar. \n Niteliyici Türü: «GloriousCharge». \n Theoden bu yeteneði kullanabilmek için binek üzerinde olmalýdýr. \n Etkinleþtirmek için sol týklayýn"
+"Gereken Seviye: 7 \n Theoden ve yakýndaki süvariler +%99 zýrh bonusu, +%25 hasar bonusu kazanýr ve birim ezerken yavaþlamaya karþý baðýþýklýk kazanýrlar.\n Ve ayný zamanda bu süre boyunca süvariler korkusuzluk kazanýrlar. \n Theoden bu yeteneði kullanabilmek için binek üzerinde olmalýdýr. \n Etkinleþtirmek için sol týklayýn"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Piyadelere karþý güçlü.\n Ezilmeye karþý dayanýklý\n Sürü Bonusu: \n 100 birimi aþan goblin topluluklarý +%33 hasar bonusu ve +%20 hýz bonusu kazanýr. \n Niteliyici Türü: «RESISTANT HordeBonus» "
+"Piyadelere karþý güçlü.\n Ezilmeye karþý dayanýklý\n Sürü Bonusu: \n 100 birimi aþan goblin topluluklarý +%33 hasar bonusu ve +%20 hýz bonusu kazanýr. \n«HordeBonus BUFF» "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Piyadelere karþý güçlü.\n Sürü Bonusu: \n 70 birimi aþan orc topluluklarý +%33 hasar bonusu ve +%15 hýz bonusu kazanýr. \n Niteliyici Türü: «RESISTANT HordeBonus» "
+"Piyadelere karþý güçlü.\n Sürü Bonusu: \n 70 birimi aþan orc topluluklarý +%33 hasar bonusu ve +%15 hýz bonusu kazanýr. \n«HordeBonus BUFF» "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
@@ -291,27 +288,27 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Gereken Seviye: 7 \n Grants all nearby allies resistance to fear and terror \n Niteliyici Türü: «StubbornPride» \n Dain becomes able to reveal stealth.\n Pasif Özellik"
+"Gereken Seviye: 7 \n Grants all nearby allies resistance to fear and terror \n Dain becomes able to reveal stealth.\n Pasif Özellik"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n Niteliyici Türü: «LEADERSHIP TreeBeard»\n Pasif Özellik"
+"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n «TreeBeard LEADERSHIP»\n Pasif Özellik"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Gereken Seviye: 5 \n Lurtz'un yanýndaki müttefikler \n +35% Hasar Verme ve +25% daha hýzlý tecrübe kazanýrlar  \n Niteliyici Türü: «Damage LEADERSHIP» \n Pasif Özellik"
+"Gereken Seviye: 5 \n Lurtz'un yanýndaki müttefikler \n +35% Hasar Verme ve +25% daha hýzlý tecrübe kazanýrlar  \n «Damage LEADERSHIP» \n Pasif Özellik"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n Niteliyici Türü: «RESISTANT Palantir» \n Önce simgeye sonra hedefe týklayýn"
+"Spy on the enemy forces\n Gives a temporary +15% speed bonus to \n units at its target area \n «Palantir BUFF» \n Önce simgeye sonra hedefe týklayýn"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spy on the enemy forces. \n Target archers gain +35% range. \n Niteliyici Türü: «RESISTANT Farsight» \n Önce simgeye sonra hedefe týklayýn"
+"Spy on the enemy forces. \n Target archers gain +35% range. \n «Farsight BUFF» \n Önce simgeye sonra hedefe týklayýn"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, +25% damage and %25 daha hýzlý tecrübe kazanýr. \n Niteliyici Türü: «RESISTANT ElvenWood» \n Overrides LEADERSHIP effects from the allies. \n Enemy cavalry deceleration rate is raised by +200%. \n Önce simgeye sonra hedefe týklayýn"
+"Creates lush terrain whose center creates a protective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, +25% damage and %25 daha hýzlý tecrübe kazanýr. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Enemy cavalry deceleration rate is raised by +200%. \n Önce simgeye sonra hedefe týklayýn"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -322,31 +319,31 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters %25 hasar bonusu, +33% Armor and +50% experience \n Niteliyici Türü: «RESISTANT Darkness» \n Lasts 180 seconds. \n Etkinleþtirmek için sol týklayýn"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters %25 hasar bonusu, +33% Armor and +50% experience \n «Darkness BUFF» \n Lasts 180 seconds. \n Etkinleþtirmek için sol týklayýn"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n Niteliyici Türü: «DEBUFF neutralizer of LEADERSHIP, BUFF and RESISTANT» \n Lasts 150 seconds. \n Etkinleþtirmek için sol týklayýn"
+"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP and BUFF» \n Duurt 150 seconden. \n Etkinleþtirmek için sol týklayýn"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Gereken Seviye: 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Niteliyici Türü: «MightyRage» \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n Niteliyici Türü: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Önce simgeye sonra hedefe týklayýn units"
+"Gereken Seviye: 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing. \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n «DEBUFF» «Neutralizes LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn units"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
-"Gereken Seviye: 2 \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n Niteliyici Türü: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Pasif Özellik"
+"Gereken Seviye: 2 \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n «DEBUFF» «Neutralizes LEADERSHIP» \n Pasif Özellik"
 End
 CONTROLBAR:TooltipCaveBats09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Niteliyici Türü: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Önce simgeye sonra hedefe týklayýn"
+"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn"
 END
 CONTROLBAR:TooltipCrebain09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n Niteliyici Türü: «DEBUFF neutralizer of LEADERSHIP and BUFF» \n Önce simgeye sonra hedefe týklayýn"
+"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
-"Gereken Seviye: 3 \n Nearby allied cavalry %25 hasar bonusu, +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n Niteliyici Türü: «RESISTANT High-Tier Hero» \n Pasif Özellik"
+"Gereken Seviye: 3 \n Nearby allied cavalry %25 hasar bonusu, +25% Armor and gain experience 50% faster\n Halves the deceleration rate of friendly cavalry \n  «HighTierHero BUFF» \n Pasif Özellik"
 END
 CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack09v2
-"Gereken Seviye: 2 \n Order Guardians to charge the enemy \n Guardians gain +25% Speed and +25% Armor. \n Causes meta impact \n Niteliyici Türü: «Armor BUFF»  \n Önce simgeye sonra hedefe týklayýn"
+"Gereken Seviye: 2 \n Order Guardians to charge the enemy \n Guardians gain +25% Speed and +25% Armor. \n Causes meta impact \n «Armor LEADERSHIP»  \n Önce simgeye sonra hedefe týklayýn"
 END
 CONTROLBAR:ToolTipBarbedArrows09v2
 "Gereken Seviye: 2\n Causes meta impact and increased damage \n Önce simgeye sonra hedefe týklayýn"
@@ -364,7 +361,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing09v2
 "Heals nearby allies. \n Replenish units from hordes each 6.5 seconds. \n Reduces hero revival cost by 5% \n Reduces hero revival time by 15% \n\n Upgrades summoned Lone Towers"
 END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
-"Strong vs. Resource Buildings\n Sürü Bonusu: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n Niteliyici Türü: «RESISTANT HordeBonus» "
+"Strong vs. Resource Buildings\n Sürü Bonusu: \n Gathered orcs in numbers of at least 70\n gain +33% damage +20% speed. \n«HordeBonus BUFF» "
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
 "Heals nearby Allies. \n Replenish units from hordes each 6.5 seconds. \nReduces hero revive time by 25% \n Adds additional hit points to the Fortress\n\n Upgrades summoned Lone Towers"
@@ -379,126 +376,126 @@ CONTROLBAR:ToolTipElvenCloakThranduil09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipGoblinKingSkullTotem09v2
-"Gereken Seviye: 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n Niteliyici Türü: «Armor BUFF» \n Önce simgeye sonra hedefe týklayýn"
+"Gereken Seviye: 2 \n Places a skull totem which will remain on the map until destroyed \n Reveals the nearby shroud, detects stealth, and provides +35% armor and +25% experience bonus to nearby allies. \n «Armor LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn"
 END
 //------------------------------------------------------------
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls09v2
-"Allies near the Drummer Troll gain +35% armor \n and earn experience +25% faster. \n Nearby trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n Niteliyici Türü: «Armor BUFF» \n Pasif Özellik"
+"Allies near the Drummer Troll gain +35% armor \n and earn experience +25% faster. \n Nearby trolls gain +15% Armor, 15% Experience & autoheal themselves faster. \n «Armor LEADERSHIP» \n Pasif Özellik"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipWarChant09v2
-"Target allies gain +40% Damage, +10% speed, \n and earn experience 50% faster. \n Niteliyici Türü: «Damage LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn units"
+"Target allies gain +40% Damage, +10% speed, \n and earn experience 50% faster. \n «Damage LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn units"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCall09v2
-"Target allies gain +50% Damage, \n and earn experience +50% faster. \n Niteliyici Türü: «Damage LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn units"
+"Target allies gain +50% Damage, \n and earn experience +50% faster. \n «Damage LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn units"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipRallyingCallDwarven09v2
-"Target allies gain +50% Damage, \n and earn experience +25% faster. \n Niteliyici Türü: «Damage LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn units"
+"Target allies gain +50% Damage, \n and earn experience +25% faster. \n «Damage LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn units"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTaint09v2
-"Taints an area of terrain \n Allied hordes gain +35% armor. \n Niteliyici Türü: «Armor BUFF» \n Önce simgeye sonra hedefe týklayýn"
+"Taints an area of terrain \n Allied hordes gain +35% armor. \n «Armor LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn"
 END
 CONTROLBAR:ToolTipMenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor. \n Niteliyici Türü: «Armor BUFF» \n Önce simgeye sonra hedefe týklayýn"
+"Creates lush terrain. \n Allied units gain +35% armor. \n «Armor LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn"
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Damage, \n and %25 daha hýzlý tecrübe kazanýr. \n Niteliyici Türü: «Damage RESISTANT» \n Allies gain terror and fear resistance. \n Niteliyici Türü: «LEADERSHIP AntiFear»\n Increases command point limit by 10"
+"Allies near the Statue gain \n +25% Damage, \n and %25 daha hýzlý tecrübe kazanýr. \n «Damage BUFF» \n Allies gain terror and fear resistance. \n «AntiFear LEADERSHIP»\n Increases command point limit by 10"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
-"Allies near the Statue gain \n +25% Armor, \n and %25 daha hýzlý tecrübe kazanýr. \n Niteliyici Türü: «Armor RESISTANT» \nIncreases command point limit by 10"
+"Allies near the Statue gain \n +25% Armor, \n and %25 daha hýzlý tecrübe kazanýr. \n  «Armor BUFF» \nIncreases command point limit by 10"
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Allies near the Statue gain 35% Armor. \n Niteliyici Türü: «Armor BUFF» \n Allies gain terror and fear resistance. \n Niteliyici Türü: «RESISTANT AntiFear»\n Increases command point limit by 10"
+"Allies near the Statue gain 35% Armor. \n «Armor LEADERSHIP» \n Allies gain terror and fear resistance. \n «AntiFear BUFF» \n Increases command point limit by 10"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n Niteliyici Türü: «Damage RESISTANT»"
+"Decreases the melee vulnerability of the Fortress \n Nearby allied units receive: \n +25% damage and gain experience +25% faster\n «Damage BUFF»"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
-"Provides 25% damage and 25% experience to nearby troops \n Niteliyici Türü: «Damage RESISTANT» \n Reduces hero cost by 10%  \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
+"Provides 25% damage and 25% experience to nearby troops \n «Damage BUFF» \n Reduces hero cost by 10%  \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage \n and %25 daha hýzlý tecrübe kazanýr. \n Niteliyici Türü: «Damage RESISTANT» \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +25% Damage \n and %25 daha hýzlý tecrübe kazanýr. \n «Damage BUFF» \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Allies near Fortress gain \n +25% Damage and 25% experience \n Niteliyici Türü: «Damage RESISTANT» \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
+"Allies near Fortress gain \n +25% Damage and 25% experience \n «Damage BUFF» \n Reduces hero cost by 10% \n Reduces hero recruit time by 10% \n Reduces the cost of builders by 20%\n\n Upgrades summoned Lone Towers"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n Niteliyici Türü: «Howl» \n Overrides LEADERSHIP effects from the wargs. \n Etkinleþtirmek için sol týklayýn"
+"Wargs gain +55% Damage but \n lose -10% armor against pike and structural damage\n  «Overrides Damage LEADERSHIP» \n Etkinleþtirmek için sol týklayýn"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Summons the Eye of Sauron \n Görünmez birlikleri açýða çýkarýr \n Allies %25 hasar bonusu, +25% Armor, \n and earn experience 50% faster. \n Niteliyici Türü: «RESISTANT High-Tier Hero» \n Önce simgeye sonra hedefe týklayýn"
+"Sauron’un Göz’ü nü çaðýrýr. \n Gizli düþmanlarý ortaya çýkarýr. \n Müttefikler +%25 hasar bonusu ve +%25 zýrh bonusu kazanýr  \n ve +%50 daha hýzlý tecrübe kazanýr. \n Troller +%7.5 hasar bonusu ve +%7.5 zýrh bonusu kazanýr  \n ve +%15 daha hýzlý tecrübe kazanýr. \n «HighTierHero BUFF» \n Önce simgeye sonra hedefe týklayýn."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
-"Gereken Seviye: 8 \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Enemy units are scared while active. \n Niteliyici Türü: «Armor BUFF» \n Etkinleþtirmek için sol týklayýn"
+"Gereken Seviye: 8 \n Allied units, monsters and heroes in a large area around Glorfindel are healed while active. \n Allied hordes replenish its units while active. \n Allied units gain +33% armor and +50% damage while active. \n Enemy units are scared while active. \n «Armor LEADERSHIP» \n Etkinleþtirmek için sol týklayýn"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGimliLeadership09v2
-"Allies near Gimli gain +35% armor. \n Niteliyici Türü: «Armor BUFF» \n Pasif Özellik"
+"Allies near Gimli gain +35% armor. \n «Armor LEADERSHIP» \n Pasif Özellik"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainLeadership09v2
-"Allies near King Dain %25 hasar bonusu, +25% Armor, \n and earn experience 50% faster. \n Niteliyici Türü: «RESISTANT High-Tier Hero» \n Pasif Özellik"
+"Allies near King Dain %25 hasar bonusu, +25% Armor, \n and earn experience 50% faster. \n «HighTierHero BUFF» \n Pasif Özellik"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier09v2
-"Allies near the banner gain \n +25% Damage \n and %25 daha hýzlý tecrübe kazanýr. \n Niteliyici Türü: «Damage RESISTANT» \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Görünmez birlikleri açýða çýkarýr"
+"Allies near the banner gain \n +25% Damage \n and %25 daha hýzlý tecrübe kazanýr. \n «Damage BUFF» \n Slowly heals the Battlewagon when not in combat \n Adds several Phalanxes to the Battlewagon \n Görünmez birlikleri açýða çýkarýr"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGoblinKingBattleFrenzy09v2
-"Gereken Seviye: 4 \n Allies near the Goblin King gain +25% Armor and %25 daha hýzlý tecrübe kazanýr. \n Nearby Trolls gain experience 25% faster and autoheal +50 health points. \n Niteliyici Türü: «Armor RESISTANT»\n Pasif Özellik"
+"Gereken Seviye: 4 \n Allies near the Goblin King gain +25% Armor and %25 daha hýzlý tecrübe kazanýr. \n Nearby Trolls gain experience 25% faster and autoheal +50 health points. \n «Armor BUFF» \n Pasif Özellik"
 End
 //------------------------------------------------------------
 CONTROLBAR:TooltipElrondLeadership09v2
-"Gereken Seviye: 3 \n Elrond'un yanýndaki müttefikler \n +25% Hasar Verme, +25% Zýrh ve \n 50% daha hýzlý tecrübe kazanýrlar \n Niteliyici Türü: «RESISTANT High-Tier Hero» \n Pasif Özellik"
+"Gereken Seviye: 3 \n Elrond'un yanýndaki müttefikler \n +25% Hasar Verme, +25% Zýrh ve \n 50% daha hýzlý tecrübe kazanýrlar \n «HighTierHero BUFF» \n Pasif Özellik"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipArwenLeadership09v2
-"Gereken Seviye: 2. \n Cavalry near Arwen gain +25% Armor and %25 daha hýzlý tecrübe kazanýr. \n Niteliyici Türü: «Armor RESISTANT» \n Pasif Özellik"
+"Gereken Seviye: 2. \n Cavalry near Arwen gain +25% Armor and %25 daha hýzlý tecrübe kazanýr. \n «Armor BUFF» \n Pasif Özellik"
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Gereken Seviye: 4 \n Allies near Haldir gain \n +40% Damage and earn experience +20% faster. \n Niteliyici Türü: «Damage LEADERSHIP» \n Pasif Özellik"
+"Gereken Seviye: 4 \n Allies near Haldir gain \n +40% Damage and earn experience +20% faster. \n «Damage LEADERSHIP» \n Pasif Özellik"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
-"Allies near Tom Bombadil gain \n +25% Armor and earn experience +25% faster. \n Niteliyici Türü: «Armor RESISTANT» \n Pasif Özellik"
+"Allies near Tom Bombadil gain \n +25% Armor and earn experience +25% faster. \n  «Armor BUFF» \n Pasif Özellik"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAragornLeadership09v2
-"Gereken Seviye: 4 \n Allies near Aragorn %25 hasar bonusu, +25% Armor, and earn experience 50% faster. \n Niteliyici Türü: «RESISTANT High-Tier Hero» \n Pasif Özellik"
+"Gereken Seviye: 4 \n Allies near Aragorn %25 hasar bonusu, +25% Armor, and earn experience 50% faster. \n «HighTierHero BUFF» \n Pasif Özellik"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEomerLeadership09v2
-"Gereken Seviye: 3 \n Cavalry near Eomer gain 35% Armor. \n Niteliyici Türü: «Armor BUFF» \n Pasif Özellik"
+"Gereken Seviye: 3 \n Cavalry near Eomer gain 35% Armor. \n «Armor LEADERSHIP» \n Pasif Özellik"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFaramirLeadership09v2
-"Gereken Seviye: 7 \n Allies near Faramir gain +35% Armor. \n Niteliyici Türü: «Armor BUFF» \n Pasif Özellik"
+"Gereken Seviye: 7 \n Allies near Faramir gain +35% Armor. \n «Armor LEADERSHIP» \n Pasif Özellik"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBoromirLeadership09v2
-"Gereken Seviye: 5 \n Allies near Boromir gain +35% Damage \n and earn experience +25% faster. \n Niteliyici Türü: «Damage LEADERSHIP» \n Pasif Özellik"
+"Gereken Seviye: 5 \n Allies near Boromir gain +35% Damage \n and earn experience +25% faster. \n «Damage LEADERSHIP» \n Pasif Özellik"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTheodenLeadership09v2
-"Gereken Seviye: 2 \n Allies near Theoden %25 hasar bonusu \n and earn experience +25% faster. \n Niteliyici Türü: «Damage RESISTANT» \n Pasif Özellik"
+"Gereken Seviye: 2 \n Allies near Theoden %25 hasar bonusu \n and earn experience +25% faster. \n «Damage BUFF» \n Pasif Özellik"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipSarumanLeadership09v2
-"Saruman'a yakyn müttefikler \n +25% Zyrh, \n ve deneyim kazan 25% daha hyzly. \n Niteliyici Türü: «Armor RESISTANT» \n Pasif Özellik"
+"Saruman'a yakyn müttefikler \n +25% Zyrh, \n ve deneyim kazan 25% daha hyzly. \n  «Armor BUFF» \n Pasif Özellik"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v2
@@ -518,11 +515,11 @@ CONTROLBAR:ToolTipVenomousWords09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMouthOfSauronDoubt09v2
-"Gereken Seviye: 4 \n Enemy units and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Lasts 30 seconds. \n Niteliyici Türü: «DEBUFF» «Neutralizes LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn units"
+"Gereken Seviye: 4 \n Enemy units and heroes in the target location suffer \n -25% armor, -25% damage and -5% speed. \n Lasts 30 seconds. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Önce simgeye sonra hedefe týklayýn units"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipEnshroudingMist09v2
-"Allies within the mist become stealthed. \n Enemy units, heroes, and monsters within the mist \n suffer -25% armor and -25% damage. \n Lasts 60 seconds. \n Niteliyici Türü: «DEBUFF» «Neutralizes LEADERSHIP» \n\n Önce simgeye sonra hedef noktaya týklayýn"
+"Allies within the mist become stealthed. \n Enemy units, heroes, and monsters within the mist \n suffer -25% armor and -25% damage. \n Lasts 60 seconds. \n «DEBUFF» «Neutralizes LEADERSHIP» \n\n Önce simgeye sonra hedef noktaya týklayýn"
 END
 //------------------------------------------------------------
 TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
@@ -659,7 +656,7 @@ CONTROLBAR:TooltipAthelasElrond09v2
 "Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters gain +15% Armor and earn experience 25% faster. \n Provides resistance to fear and terror. \n Lasts 12 seconds \n Etkinleþtirmek için sol týklayýn"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
-"Reveals an area of the map \n Provides +27.5% shroud reveal radius to any allied unit for 25 second. \n Doesn't affect heroes. \n Niteliyici Türü: «ElrondFarseeing» \n Önce simgeye sonra hedefe týklayýn"
+"Reveals an area of the map \n Provides +27.5% shroud reveal radius to any allied unit for 25 second. \n Doesn't affect heroes. \n Önce simgeye sonra hedefe týklayýn"
 END
 //------------------------------------------------------------
 CONTROLBAR:KingsFavorDain09v2
@@ -708,7 +705,7 @@ CONTROLBAR:SpecialAbilityFiresOfDoom2
 "Kýyametin Üç Ateþini Çaðý&r"
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
-"Kalede geliþtirmenin araþtýrýlmasý gerekir \n Yakýndaki müttefiklere +25% Hasar Verme ve +25% daha hýzlý tecrübe kazandýrýr \n Niteliyici Türü: «Damage RESISTANT»"
+"Kalede geliþtirmenin araþtýrýlmasý gerekir \n Yakýndaki müttefiklere +25% Hasar Verme ve +25% daha hýzlý tecrübe kazandýrýr \n «Damage BUFF»"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
 "Kalede geliþtirmenin araþtýrýlmasý gerekir \n Yakýndaki müttefikleri iyileþtirir \n Her 10 sn'de bir birimi diriltir"
@@ -741,7 +738,7 @@ CONTROLBAR:Fire_pit
 "Ateþ Çukuru [&V]"
 END
 CONTROLBAR:TooltipFire_pit
-"Yakýndaki müttefikleri iyileþtiren kamp ateþi \n Her 5 sn'de bir birimi diriltir \n +5% Zýrh yýðýlma bonusu verir \n Gizlenenleri ortaya çýkarýr"
+"Yakýndaki müttefikleri iyileþtiren kamp ateþi \n Her 5 sn'de bir birimi diriltir \n +5% Zýrh yýðýlma bonusu verir \n «Campfire BUFF» \n Gizlenenleri ortaya çýkarýr"
 END
 CONTROLBAR:FireWorks
 "Ha&vai Fiþeði Yak [&V]"
@@ -839,10 +836,10 @@ Map:map_pk_gardens_of_far_harad/Desc
 "The Gardens of Far Harad were described as a remarkable feat of engineering with an ascending series of tiered gardens containing a wide variety of trees, shrubs, and vines, resembling a large green mountain constructed of mud bricks. \n Map by Powerkartoffel."
 End
 //------------------------------------------------------------
-Map:map_PK_iron_mountains
+Map:map_PK_iron_mountains_ii
 "Iron Mountains II" 
 End
-Map:map_PK_iron_mountains/Desc
+Map:map_PK_iron_mountains_ii/Desc
 "The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs 2 Dragons 2 Goblins \n Capture: 2 Signal Fires \n Size: Large 1v1 \n Map by Powerkartoffel"
 End
 //------------------------------------------------------------
@@ -927,7 +924,7 @@ Map:mapSOironhillsii
 "Iron Hills II"
 END
 Map:mapSOironhillsii/Desc
-"These hills, rich in iron, were long held by the Dwarves and Dain Ironfoot. \n Map from RotWK, by Solas."
+"These hills, rich in iron, were long held by the Dwarves and Dain Ironfoot. \n Map from RotWK, by Solas. \n Reworked by Powerkartoffel & Ecthelion"
 END
 //----------------------------------
 Map:mapETerechiii

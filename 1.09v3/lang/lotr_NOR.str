@@ -91,9 +91,6 @@ END
 CONTROLBAR:TooltipDragonStrike09v3
 "Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed.  \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
 END
-CONTROLBAR:ToolTipEyeofSauron09v3
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n «HighTierHero BUFF» \n Left click icon then left click on target area"
-END
 TOOLTIP:ToolTipFellbeast09v3
 "Fellbeast attack radius against units is improved at level 6 and 10."
 END
@@ -301,7 +298,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +200%. \n «ElvenWood BUFF» \n «Overrides Damage LEADERSHIP»  \n Left click icon then left click on target area"
+"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +200%. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP»  \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -422,7 +419,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Ulver får +55 % skade \n lose -15% armor against pike and structural damage  \n «Overrides Damage LEADERSHIP» \nVenstreklikk for å aktivere"
+"Ulver får +55 % skade \n lose -15% armor against pike and structural damage  \n   «Overrides Damage LEADERSHIP» \nVenstreklikk for å aktivere"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
@@ -816,10 +813,10 @@ Map:map_pk_gardens_of_far_harad/Desc
 "The Gardens of Far Harad were described as a remarkable feat of engineering with an ascending series of tiered gardens containing a wide variety of trees, shrubs, and vines, resembling a large green mountain constructed of mud bricks. \n Map by Powerkartoffel."
 End
 //------------------------------------------------------------
-Map:map_PK_iron_mountains
+Map:map_PK_iron_mountains_ii
 "Iron Mountains II" 
 End
-Map:map_PK_iron_mountains/Desc
+Map:map_PK_iron_mountains_ii/Desc
 "The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs 2 Dragons 2 Goblins \n Capture: 2 Signal Fires \n Size: Large 1v1 \n Map by Powerkartoffel"
 End
 //------------------------------------------------------------
@@ -897,7 +894,7 @@ Map:mapSOironhillsii
 "Iron Hills II"
 END
 Map:mapSOironhillsii/Desc
-"These hills, rich in iron, were long held by the Dwarves and Dain Ironfoot. \n Map from RotWK, by Solas."
+"These hills, rich in iron, were long held by the Dwarves and Dain Ironfoot. \n Map from RotWK, by Solas. \n Reworked by Powerkartoffel & Ecthelion"
 END
 //----------------------------------
 Map:mapETerechiii

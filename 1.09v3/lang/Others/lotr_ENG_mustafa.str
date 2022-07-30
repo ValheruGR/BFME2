@@ -297,7 +297,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain whose center creates a propective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% Armor, +25% Damage, \n and earn Experience 25% faster. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Enemies suffer +200% Deceleration when crushing. \n Left click icon then left click on target area"
+"Creates lush terrain whose center creates a protective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% Armor, +25% Damage, \n and earn Experience 25% faster. \n  «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Enemies suffer +200% Deceleration when crushing. \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -420,7 +420,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
-"Wargs gain +55% Damage but suffer -10% Armor against pikes and structural arrows. \n «Overrides Damage LEADERSHIP» \n Left click to activate"
+"Wargs gain +55% Damage but suffer -10% Armor against pikes and structural arrows. \n   «Overrides Damage LEADERSHIP» \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
@@ -774,7 +774,7 @@ Map:mapSOironhillsii
 "Iron Hills II"
 END
 Map:mapSOironhillsii/Desc
-"These hills, rich in iron, were long held by the Dwarves and Dain Ironfoot. \n Map from RotWK, by Solas."
+"These hills, rich in iron, were long held by the Dwarves and Dain Ironfoot. \n Map from RotWK, by Solas. \n Reworked by Powerkartoffel & Ecthelion"
 END
 //----------------------------------
 Map:mapETerechiii
