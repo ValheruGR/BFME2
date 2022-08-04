@@ -758,6 +758,20 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------/
+Map:map_PK_numenors_downfall
+"Numenors Downfall" 
+End
+Map:map_PK_numenors_downfall/Desc
+"An old lady sat by the sea, and all her tired eyes could see were the remains of her home being swept out to sea. She reflected on the Fall of Numenor when Sauron sent his mighty host; his many white vans were ever watchful as they abducted the nation's youth. Offering free tattoos, gauges, and CDs, Sauron eroded the trust between father and son, replacing the once rich culture with Eru Iluvatar's homosexual fantasies. Slowly but surely, as they rebelled against their poor parents whose love was no match for Iluvatars corruption, the nation soon crumbled as his main forces raped the land in its state of weakness. The island nation had turned into a gray collection of ruins, dead hopes, and crushed dreams. The old woman takes a drag off her cigarette and sung a line from her favorite song from the Sauron Youth program, "there is no sunshine, just dark clouds with an endless rain of tears...  \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------/
+Map:map_PK_port_linhir
+"Markets of Linhir" 
+End
+Map:map_PK_port_linhir/Desc
+"Situated at the south of the Gondor, in the confluence of Gilrain and Serni rivers, Linhir is a port city known by its opulent market and services. During the War of the Ring a clash between Invasors of Umbar and Aragorn's Dead Army took place. In the 4th age a new oligarchy mix of a local gondorian lords and a new burguesy from harad is governing the city. \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------/
 Map:map_pk_rhudel_steppe
 "Rhudel Steppe"
 End
@@ -1044,7 +1058,7 @@ Map:mapHAforlindon
 "The Cow Maze"
 End
 Map:mapHAforlindon/Desc
-"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heroes trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\n Map originally from BFME1 by Haldir, edited by Ecthelion."
+"The tale of The Cow Maze:\nThe Bard has told us of the Great Cow Maze that once took place in this territory...\n Within it's great walls, many strong heroes from ancient ages, like the Mighty-Bunito and the Glute-Master have struggled with fire and siege, breaking through the walls of stone in a battle that lasted 109 days and 109 nights. The heroes trudged through cow shit but to no avail, as the mad Cow Lord stroked (or milked) his wet and voluptuous udders night and day, noone did survive. Milk and blood was splatered, but still, noone could stand against the wrath of the Mighty Cow. \nEven so, the Maze and it's stoned walls were destroyed due the violence from the Last Great Battle. Now only ruins remain to watch over the north-west of the middle-earth, and the Mighty Cow has became a God who people pray in times of war. \n The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\n\n Map originally from BFME1 by Haldir, edited by Ecthelion."
 End
 //The land of Forlindon lies north to the Gulf of Lhun and the Elven harbour of Forlond.\nMap from BFME1 by Haldir, edited by Ecthelion."
 //------------------------------------------------------------
@@ -1143,7 +1157,7 @@ END
 //"Buckland III"
 //END
 //MAP:mapTESTBucklandIII/Desc
-//"The Eastern border of the Shire was the . \n Map from RotWK, by Mako."
+//"The Eastern border of the Shire was the home of Merry Brandybuck. \n Map from RotWK, by Mako."
 //END
 //------------------------------------------------------------
 Map:mapMAeastmarch
@@ -1157,7 +1171,7 @@ END
 //"Fords of Glanduin"
 //END
 //Map:mapTESTFordsOfGlanduin/Desc
-//"Beginning in the Hithaeglir south of Khazad-dum, the Glanduin formed Eregion's southern boundary to Dunland \n Map from RotWK, by Solas."
+//"Beginning in the Hithaeglir south of Khazad-dum, the Glanduin formed Eregion's southern boundary to Dunland. \n Map from RotWK, by Solas."
 //END
 //------------------------------------------------------------
 Map:mapSOgondoroutpost
@@ -1276,7 +1290,7 @@ END
 //"Druwait Reef"
 //End
 //Map:maptestdruwaithreef/desc
-//" This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
+//" This coastal region, once inhabited by the Druedain, has been the site of sacrificial offerings to Ulmo in order to set the heavy floods at rest. Now only the ruins of this cult remain as the waters are still restless.\n Size: 410 x 350\n Lairs: 2x Spider Lair, 2x Troll Lair\n Neutral Structures: 2x Inn. \n Map from RotWK, by Solas."
 //End
 //------------------------------------------------------------
 //	Map:maptestbrownlands8p
@@ -1325,7 +1339,7 @@ END
 //"Anfalas II"
 //END
 //Map:mapNEWanfalasii/Desc
-//"The western coastal section of Gondor populated by small villages of herdsmen and fishermen.\n\n Size: 360 x 390\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Inn, 1x Signal Fire. \n Map from RotWK, by Mako."
+//"The western coastal section of Gondor populated by small villages of herdsmen and fishermen.\n Size: 360 x 390\n Lairs: 2x Troll Lair, 2x Barrow Wight Lair\n Neutral Structures: 1x Inn, 1x Signal Fire. \n Map from RotWK, by Mako."
 //END
 //------------------------------------------------------------
 Map:mapRAgreenleafforest
@@ -1360,7 +1374,7 @@ End
 //	"Desert Of Rhun" //removed
 //	End
 //	Map:mapNEWdesertofrhun/desc
-//	"A vast desert lying to the south-east of Rhun. Many unprepared travellers lose their way attempting to traverse this rugged region. \n\n Size: 550 x 550\n Lairs: 6x Goblin Lair\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
+//	"A vast desert lying to the south-east of Rhun. Many unprepared travellers lose their way attempting to traverse this rugged region. \n Size: 550 x 550\n Lairs: 6x Goblin Lair\n Neutral Structures: 2x Outpost, 2x Inn, 2x Signal Fire. \n Map from RotWK, by Solas."
 //	End
 //------------------------------------------------------------
 Map:mapMOamonhen
@@ -1381,14 +1395,14 @@ Map:mapJKforlindonhills
 "Forlindon Hills"
 END
 Map:mapJKforlindonhills/Desc
-"The region of Forlindon was inhabited by Elves and were the chief part of Gil-galad's kingdom, surrounded by the Blue Mountains and the Great Sea.\n Map by Jokuc."
+"The region of Forlindon was inhabited by Elves and were the chief part of Gil-galad's kingdom, surrounded by the Blue Mountains and the Great Sea.\n Map by Jokuc`."
 END
 //------------------------------------------------------------
 Map:mapJKtowerhills
 "Tower Hills"
 END
 Map:mapJKtowerhills/Desc
-"With a layout similar to Fords of Isen and the skin of Tower Hills, this 1v1 map is made to provide a mix of fun elements and balanced gameplay. \n Turn off ring heroes for tournament mode. \n Map by Jokuc."
+"With a layout similar to Fords of Isen and the skin of Tower Hills, this 1v1 map is made to provide a mix of fun elements and balanced gameplay. \n Turn off ring heroes for tournament mode. \n Map by Jokuc`."
 END
 //------------------------------------------------------------
 Map:mapMAudunii
@@ -1654,7 +1668,7 @@ Map:mapmptyrngorthad
 "Tyrn Gorthad"
 END
 Map:mapmptyrngorthad/Desc
-"Better known as the Barrow-downs, the ancient burial grounds of the kings of Arnor were corrupted with evil spirits by the Witch-king. Map from RotWK, edited by Ecthelion"
+"Better known as the Barrow-downs, the ancient burial grounds of the kings of Arnor were corrupted with evil spirits by the Witch-king. \n Map from RotWK, edited by Ecthelion"
 END
 //------------------------------------------------------------
 Map:mapmptournamentudunII
@@ -1766,7 +1780,7 @@ Map:mapmpmithrilhillsii
 "Mithril Hills" // aka Iron Hills II
 END
 Map:mapmpmithrilhillsii/Desc
-"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n\n Size: 600 x 535\n Lairs: 7x Spider Lair\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Fortress. \n Map from RotWK, by Solas."
+"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water.\n Size: 600 x 535\n Lairs: 7x Spider Lair\n Neutral Structures: 1x Outpost, 1x Inn, 1x Signal Fire, 2x Fortress. \n Map from RotWK, by Solas."
 END
 //------------------------------------------------------------
 Map:mapmplorienplateau
