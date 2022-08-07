@@ -781,126 +781,21 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------/
+Map:map_PK_numenors_downfall
+"Numenors Downfall" 
+End
+Map:map_PK_numenors_downfall/Desc
+"An old lady sat by the sea, and all her tired eyes could see were the remains of her home being swept out to sea. She reflected on the Fall of Numenor when Sauron sent his mighty host; his many white vans were ever watchful as they abducted the nation's youth. Offering free tattoos, gauges, and CDs, Sauron eroded the trust between father and son, replacing the once rich culture with Eru Iluvatar's homosexual fantasies. Slowly but surely, as they rebelled against their poor parents whose love was no match for Iluvatars corruption, the nation soon crumbled as his main forces raped the land in its state of weakness. The island nation had turned into a gray collection of ruins, dead hopes, and crushed dreams. The old woman takes a drag off her cigarette and sung a line from her favorite song from the Sauron Youth program, "there is no sunshine, just dark clouds with an endless rain of tears...  \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------/
+Map:map_PK_port_linhir
+"Markets of Linhir" 
+End
+Map:map_PK_port_linhir/Desc
+"Situated at the south of the Gondor, in the confluence of Gilrain and Serni rivers, Linhir is a port city known by its opulent market and services. During the War of the Ring a clash between Invasors of Umbar and Aragorn's Dead Army took place. In the 4th age a new oligarchy mix of a local gondorian lords and a new burguesy from harad is governing the city. \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------/
 Map:map_pk_rhudel_steppe
-"Rhudel Steppe"
-End
-Map:map_pk_rhudel_steppe/Desc
-"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Original autor unknown."
-End
-//------------------------------------------------------------
-Map:map_PK_Forlond
-"Forlond" 
-End
-Map:map_PK_Forlond/Desc
-"Forlond was a harbour that lay on the northern shore of the Gulf of Lune, in the Elvish land of Forlindon. It had a counterpart on the southern shore: the Harlond. Forlond was located at the mouth of an unnamed river that traversed Forlindon, some two hundred miles to the northwest of the Grey Havens. \n Map by Powerkartoffel"
-End
-//------------------------------------------------------------
-Map:map_PK_beleriand
-"Beleriand"
-End
-Map:map_PK_beleriand/Desc
-"At the end of the First Age of Middle-earth, Beleriand was broken in the War of Wrath by the the Maiar, against Morgoth . As the inhabitants fled much of Beleriand sank in the sea. The left behind souls still fight their battle for supremancy of the sunken lands. \n Map by Powerkartoffel"
-End
-//------------------------------------------------------------
-Map:map_PK_amon_amarth_II
-"Amon Amarth II" 
-End
-Map:map_PK_amon_amarth_II/Desc
-"Amon Amarth, the mountain of fate, is located deep within Mordor. It is also known as Mount Doom. \n Map by Mako, edited by Powerkartoffel."
-End
-//------------------------------------------------------------
-Map:map_PK_brandy_hills
-"Brandy Hills" 
-End
-Map:map_PK_brandy_hills/Desc
-"This is an area north of Buckland along the eastern shores of Brandywine River until the Brandywood. Girdley Island is the only named point of interest of these hills though they are dotted by small Arnorian ruins. \n Map by Powerkartoffel. \n Special thanks to Temptattion"
-End
-//------------------------------------------------------------
-Map:map_pk_dunland_ii
-"Dunland II" 
-End
-Map:map_pk_dunland_ii/Desc
-"The Eastern regions of the Enedwaith, home of the Wild Men, sworn enemies of Rohan. \n Map reworked by Powerkartoffel & Ecthelion"
-End
-//------------------------------------------------------------
-Map:map_pk_gardens_of_far_harad
-"Gardens of Far Harad" 
-End
-Map:map_pk_gardens_of_far_harad/Desc
-"The Gardens of Far Harad were described as a remarkable feat of engineering with an ascending series of tiered gardens containing a wide variety of trees, shrubs, and vines, resembling a large green mountain constructed of mud bricks. \n Map by Powerkartoffel."
-End
-//------------------------------------------------------------
-Map:map_PK_iron_mountains_ii
-"Iron Mountains II" 
-End
-Map:map_PK_iron_mountains_ii/Desc
-"The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs 2 Dragons 2 Goblins \n Capture: 2 Signal Fires \n Size: Large 1v1 \n Map by Powerkartoffel"
-End
-//------------------------------------------------------------
-Map:map_PK_Last_Bridge
-"Last Bridge" 
-End
-Map:map_PK_Last_Bridge/Desc
-"The Last Bridge was an ancient stone bridge that carried the East Road over the River Hoarwell, about a hundred miles east of Weathertop and roughly the same distance west of Rivendell. \n Map by Powerkartoffel."
-End
-//------------------------------------------------------------
-Map:map_pk_lonely_mountain
-"Slopes of the Lonely Mountain"
-End
-Map:map_pk_lonely_mountain/desc
-"The Battle of the five Armies took place in this valley, located between the Lonely Mountain and Dale. The five warring parties were the Goblins and the Wargs against Men, Elves, and Dwarves. \n Map by Powerkartoffel."
-End
-//------------------------------------------------------------
-Map:map_PK_mirkwood_ii
-"Mirkwood II" 
-End
-Map:map_PK_mirkwood_ii/Desc
-"Mirkwood is a large forest located in between the kingdom of Gondor and the Grey Mountains. \n Map by Powerkartoffel."
-End
-//------------------------------------------------------------
-Map:map_PK_mount_doom_II
-"Mount Doom II" 
-End
-Map:map_PK_mount_doom_II/Desc
-"Mount Doom, the mountain of fate, is located deep within Mordor. \n Map by Powerkartoffel."
-End
-//------------------------------------------------------------
-Map:mapMXgundabaddeeps
-"Gundabad Deeps" 
-End
-Map:mapMXgundabaddeeps/Desc
-"Gundabad was once a dwarven settlement founded by Durin I in the First Age, but now, the Mount and it's underground are infested with orcs, goblins, and other merciless creatures. \n Map by Mex Flaxtz."
-End
-//------------------------------------------------------------
-Map:mapSOironhillsii
-"Iron Hills II"
-END
-Map:mapSOironhillsii/Desc
-"These hills, rich in iron, were long held by the Dwarves and Dain Ironfoot. \n Map from RotWK by Solas, edited by Ecthelion"
-END
-//------------------------------------------------------------
-Map:mapSOsorrowisles
-"Sorrow Isles" 
-End
-Map:mapSOsorrowisles/Desc
-"A group of lone Islands in the Sea of Belfalas. It is said to be the prison of two evil spirits who drive the island's unsuspecting visitors into madness. \n Map from RotWK, by Solas."
-End
-//------------------------------------------------------------
-Map:mapMAironhillsIV
-"Iron Hills IV"
-END
-Map:mapMAironhillsIV/Desc
-"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water. \n Map from RotWK, by Mako."
-END
-//------------------------------------------------------------
-Map:mapTTettenmoorsII
-"Ettenmoors II" 
-End
-Map:mapTTettenmoorsII/Desc
-"The Ettenmoors, also known as the Troll-fells, were a highland region of Eriador, which was west of the Misty Mountains. The land was wild, and many evil creatures dwelt there. \n Map by Temptation. \n Special thanks to Powerkartoffel and Ecthelion"
-End
-//------------------------------------------------------------
-Map:map_PK_bamfurlong
 "Bamfurlong" 
 End
 Map:map_PK_bamfurlong/Desc
