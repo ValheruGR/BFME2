@@ -11,41 +11,6 @@
 
 
 
-
-
-
-
-//------------------------------------------------------------
-CONTROLBAR:nothing09v2
-"nothing"
-END
-//------------------------------------------------------------
-CONTROLBAR:nothingDesc09v2
-"nothing"
-END
-//------------------------------------------------------------
-CONTROLBAR:Draft09v3
-"D&raft"
-End
-CONTROLBAR:ToolTipDraft09v3
-"Arms the peasants of this battalion. \n When equipped, increases the damage done by Melee Weapons \n and significantly reduces the amount of damage taken."
-END
-//------------------------------------------------------------
-CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
-"Disguise (&V)"
-END
-//------------------------------------------------------------
-CONTROLBAR:SummonWargAllies09v3
-"Summon Warg Allies (&V)"
-End
-CONTROLBAR:SummonWargAlliesDesc09v3
-"Requires Level 10 \n Summons a group of Warg Riders of Isengard to Sharku's side \n Left click icon then left click on pathable location"
-END
-//------------------------------------------------------------
-
-
-
-
 //------------------------------------------------------------
 
 // String lines for Patch 1.09v2
@@ -57,7 +22,7 @@ END
 
 //------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
-"Prince of Ithilien [&B]"
+"Prince of Ithilien [&V]"
 END
 CONTROLBAR:PrinceofIthilienDesc09v2
 "Requires Level 5 \n Targeted archers gain experience \n Left click icon then left click on target archers"
