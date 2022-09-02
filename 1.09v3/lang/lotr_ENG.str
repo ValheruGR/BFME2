@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:Dernhelm09v3
+"Dernhelm (&C)"
+End
+//------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v3
 "Requires Level 7 \n A magic projectile that causes a highly concentrated amount of ranged-hero and pike types of damage. \n Level 7 causes metaimpact and average damage. \n Level 10 deals high damage in area and stun light sensitive enemy units in the area. \n Effective against cavalry and weak heroes. \n Can only use with bow equipped \n Left click icon then left click on target" 
 END
@@ -526,16 +530,14 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Requires Level 3 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn deals Damage in area \n Left click to activate"
+"Requires Level 3 \n Disguises as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn causes damage in area and +35% damage bonus against heroes. \n Lasts 30 seconds. \n Left click to activate"
 END
 CONTROLBAR:ToolTipSmite09v2
-"Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
+"Powerful ranged attack with damage in area. \n Area of damage is improved at level 4 and 7. \n Bonus against heroes. \n Specialy powerful against Fellbeasts. \n Bonuses against Heroes and Fellbeasts are improved at level 4 and 7. \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Requires Level 5 \n Eowyn gains 35% Armor \n Nearby Rohirrims gain: \n -50% Deceleration when crushing. \n Left click to activate"
+"Requires Level 5 \n Eowyn gains 35% Armor and -50% deceleration when crushing. \n Eowyn also gains another +35% armor bonus against HERO and HERO_RANGED damage.\n Nearby Rohirrims gain: \n -50% Deceleration when crushing.  \n Lasts 30 seconds. \n Left click to activate"
 END
-//	\n Cancels Shield Maiden bonus.
-//	\n Cancels the disguise
 //------------------------------------------------------------
 CONTROLBAR:TooltipSunflare09v2
 "Calls a fiery beam of sunlight to scorch the battlefield. \n Indiscriminately burn enemies and allies. \n Effective against weak heroes \n Cancels Freezing Rain, Darkness and CloudBreak healing. \n Enemy trolls are turn into stones for 20 seconds. \n Left click icon then left click on target area"
