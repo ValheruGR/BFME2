@@ -101,7 +101,7 @@ CONTROLBAR:ToolTipDominate09v3
 "Requires Level 8 \n Permanently gain control of targeted enemy troops. \n Left click icon, then left click on target units."
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
-"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. It's told that he's the human personification of Eru, who created Ëa. \n Allies near Tom Bombadil gain +25% Armor and earn experience 25% faster. \n «Armor LEADERSHIP» \n Left click icon then left click on pathable location"
+"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. It's told that he's the human personification of Eru, who created Ëa. \n Allies near Tom Bombadil gain +25% Armor and earn experience 25% faster. \n «Armor BUFF» \n Left click icon then left click on pathable location"
 END
 CONTROLBAR:Draft09v3
 "D&raft"
@@ -113,7 +113,7 @@ CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
 "Disguise (&V)"
 END
 CONTROLBAR:SummonWargAllies09v3
-"Summon Warg Allies (&V)"
+"Summon Warg Allies (&C)"
 End
 CONTROLBAR:SummonWargAlliesDesc09v3
 "Requires Level 10 \n Summons a group of Warg Riders to the battlefield. \n Left click icon, then left click on pathable location."
@@ -133,7 +133,7 @@ END
 
 //------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
-"Prince of Ithilien [&B]"
+"Prince of Ithilien [&V]"
 END
 CONTROLBAR:PrinceofIthilienDesc09v2
 "Requires Level 5 \n Targeted archers gain experience. \n Left click icon, then left click on target archers."
