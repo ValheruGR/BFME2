@@ -24,20 +24,24 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+TOOLTIP:GandalfTheWhite09v3
+"Gandalf the White: Spells reload 20% faster and gain +100% magical damage. \n Requires Level 5 \n Passive ability"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v3
-"Requires Level 7 \n A magic projectile that causes a highly concentrated amount of ranged-hero and pike types of damage. \n Level 7 causes metaimpact and average damage. \n Level 10 deals high damage in area and stun light sensitive enemy units in the area. \n Effective against cavalry and weak heroes. \n Can only use with bow equipped \n Left click icon then left click on target" 
+"Requires Level 7 \n A high-damaging magical projectile. \n Level 7: Causes meta impact and moderate damage. \n Level 10: Deals greater damage and stuns nearby light-sensitive units. \n Strong against cavalry and low-tier heroes. \n Can only use with bow equipped. \n Left click icon, then left click on target." 
 END
 CONTROLBAR:TooltipElrondWhirlwind09v3
-"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield. \n Level 5 deals minimal damage but cannot move. \n Level 7 is a destructive and controllable tornado. \n Level 10 is a giant and mobile tornado with high damage. \n Left click icon then left click on target area"
+"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield. \n Level 5: Deals minimal damage, sweeps low-tier heroes and lasts 16 seconds.. \n Level 7: Lasts 19 seconds. \n Level 10: Deals double damage, last 22 seconds and sweeps any heroe. \n Left click icon, then left click on pathable location."
 END
 CONTROLBAR:ToolTipElrondRestoration09v3
-"Requires Level 10 \n Heals 20% health points of nearby allies and fully refreshes their special ability timers. \n Replenish 1 dead man per battalion in the area. \n Left click to activate"
+"Requires Level 10 \n Elrond regenerates +20% of health-points to nearby allies and fully resets their special ability timers. \n Replenishes 1 fallen unit per battalion in the area of effect. \n Left click to activate."
 END
 CONTROLBAR:ArwenElvenGrace09v3
 "Athelas [&V]"
 END
 CONTROLBAR:ArwenElvenGraceDesc09v3
-"Requires Level 8 \n Arwen slowly restores 750 health-points in the location during two seconds. \n Left click icon then left click on target area"
+"Requires Level 8 \n Arwen regenerates 750 health-points to targeted allies over a 2-second duration. \n Left click icon, then left click on target units."
 END
 CONTROLBAR:GoblinKingBattleFrenzy09v3
 "Frenesí de batalla""
@@ -772,7 +776,7 @@ Map:map_PK_port_linhir
 "Markets of Linhir" 
 End
 Map:map_PK_port_linhir/Desc
-"Situated at the south of the Gondor, in the confluence of Gilrain and Serni rivers, Linhir is a port city known by its opulent market and services. During the War of the Ring a clash between Invasors of Umbar and Aragorn's Dead Army took place. In the 4th age a new oligarchy mix of a local gondorian lords and a new burguesy from harad is governing the city. \n Map by Powerkartoffel"
+"Situated at the south of the Gondor, in the confluence of Gilrain and Serni rivers, Linhir is a port city known by its opulent market and services. During the War of the Ring a clash between Invasors of Umbar and Aragorn's Dead Army took place. \n Map by Powerkartoffel"
 End
 //------------------------------------------------------------/
 Map:map_pk_rhudel_steppe
