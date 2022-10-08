@@ -178,27 +178,27 @@
 		;;-;;			ParticleSysBone = NONE HordeBonusExperiment09v2 FollowBone:Yes
  		;;-;;		End
 		;;-;;	End
- 		Draw = W3DScriptedModelDraw Draw_HordeBonusEffect
-			ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState = NONE
-				Model = None
-			End
-			ModelConditionState = USER_67 STUNNED_FLAILING
-				Model = None
-  			End
-			ModelConditionState = USER_67 PASSENGER
-				Model = None
-  			End
-			ModelConditionState = USER_67 DYING
-				Model = None
-			End
-			ModelConditionState = USER_67 BURNINGDEATH
-				Model = None
-			End
-			ModelConditionState = USER_67	// Draw_HordeBonusEffect
-				Model = exorcbonus
- 			End
-		End
+ 		;;.;;	Draw = W3DScriptedModelDraw Draw_HordeBonusEffectNugget
+		;;.;;		ParticlesAttachedToAnimatedBones = yes
+		;;.;;		ModelConditionState = NONE
+		;;.;;			Model = None
+		;;.;;		End
+		;;.;;		ModelConditionState = USER_67 STUNNED_FLAILING
+		;;.;;			Model = None
+  		;;.;;		End
+		;;.;;		ModelConditionState = USER_67 PASSENGER
+		;;.;;			Model = None
+  		;;.;;		End
+		;;.;;		ModelConditionState = USER_67 DYING
+		;;.;;			Model = None
+		;;.;;		End
+		;;.;;		ModelConditionState = USER_67 BURNINGDEATH
+		;;.;;			Model = None
+		;;.;;		End
+		;;.;;		ModelConditionState = USER_67	// Draw_HordeBonusEffectNugget
+		;;.;;			Model = exorcbonus
+ 		;;.;;		End
+		;;.;;	End
 	;;-;;	//-----------------------------------------------------------------------------
    	;;-;;	Draw = W3DScriptedModelDraw Draw_EvilHealEffect
 	;;-;;		ParticlesAttachedToAnimatedBones = yes
