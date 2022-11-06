@@ -44,62 +44,63 @@ CONTROLBAR:ArwenElvenGraceDesc09v3
 "Requires Level 8 \n Arwen regenerates 750 health-points to targeted allies over a 2-second duration. \n Left click icon, then left click on target units."
 END
 CONTROLBAR:GoblinKingBattleFrenzy09v3
-"Battle Frenzy"
+"Kriegsrausch"
 End
 CONTROLBAR:ToolTipFueltheFires09v3
 "Player Lumber Mills gain +65% Production \n and +20% Armor. \n Allied Lumber Mills gain +65% production. \n Passive power. \n Fortress must be present."
+//the original said this, but we need to distinguish the player bonus from allies bonus. (since allies dont get the armor bonus). "+65% Rohstoffe von Bäumen\n Sägewerke erhalten +20% Rüstung \n Wirkt auch bei Verbündeten \n Passive Fähigkeit \n Festung muss existieren"
 End
 UPGRADE:BarbedArrowUpgrade09v3
 "Barbed Arrows"
 END
 CONTROLBAR:TooltipUndermine09v3
-"Summons a Mine Shaft onto the battlefield. \n Cannot be cast within close proximity of an enemy fortress. \n Can be casted on the fog of war. \n The Mine Shaft is connected to tunnel network. \n Deals greater damage at spawn point and lesser damage in the perimeter. \n Left click icon, then left click on pathable location."
+"Platziert irgendwo auf der Karte einen Minenschacht \n Does not need shroud reveal but cannot be casted near any enemy fortress. \n Dieser wird sofort an das Gangsystem angeschlossen \n Verursacht hohen Schaden im Platzierungsbereich und geringen Schaden im Umkreis \n Linksklicke auf das Symbol und anschließend auf ein sichtbares Gebiet"
 END
 CONTROLBAR:ToolTipPersonalFlood09v3
-"Requires Level 4 \n Summons a flood that knocks back enemies and extinguishes fires. \n Strong vs. cavalry and Nazgul. \n Level 4: Arwen summons 3 Flood Horses. \n Level 7: Arwen summons 5 Flood Horses. \n Level 10: Arwen summons 7 Flood Horses. \n Left click icon, then left click on target."
+"Requires Level 4 \n Entfesselt eine Flut, die Gegner verletzt und Feuer löscht \n Besonders effektiv gegen Reiter \n Bonus gegen schwarze Reiter \n Level 4: Arwen summons 3 Flood Horses. \n Level 7: Arwen summons 5 Flood Horses. \n Level 10: Arwen summons 7 Flood Horses. \n Left click icon, then left click on target."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
-"Heals nearby Allies. \n Revives a fallen unit from each battalion every 6.5 seconds. \n Hero revival time reduced by -20%. \n Combined with Eagle Nest, can heal any allied flying unit"
+"Heilt Verbündete in der näheren Umgebung \n Stockt Horden alle 6.5 Sekunden mit Einheiten auf \n Helden werden in dieser Festung 20% schneller wiederbelebt. \n Combined with Eagle Nest, can heal any allied flying unit"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
-"Allows summoning of a Giant Eagle. \n Allows Mystics Fountains to heal flying units."
+"Ermöglicht die Beschwörung eines Riesenadlers \n Allows Mystics Fountains to heal flying units."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v3
-"Damages enemy units adjacent to the Fortress. \n Heals nearby Allies. \n Combined with Dragon Nest, can heal any allied flying unit."
+"Beschädigt feindliche Einheiten in unmittelbarer Umgebung der Festung fortlaufend \n Heilt Einheiten in näherer Umgebung. \n Combined with Dragon Nest, can heal any allied flying unit."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
-"Allows summoning of a Fire Drake. \n Drogoth revival time reduced by -10%. \n Allows Razor Spikes to heal flying units."
+"Ermöglicht die Beschwörung eines Feuerdrachen \n Allows Razor Spikes to heal flying units. \n Verringert die Zeit um Drogoth wiederzubeleben um 10%"
 END
 //------------------------------
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
-"Requires Level 6 \n Paralyzes enemy hero for 6 seconds. \n Reduces speed by -50% for a following 11 seconds. \n Inflicts poison damage for 30 seconds. \n Left click icon, then left click on target."
+"Voraussetzung: Stufe 6 \n Gewählte Helden sind für 6 Sekunden betäubt \n Reduces speed by -50% for a following 11 seconds. \n Der gewählte Gegner wird für 30 Sekunden vergiftet \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 End
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger09v3
-"Requires Level 6 \n Paralyzes enemy hero for 6 seconds. \n Reduces speed by -50% for a following 11 seconds. \n Inflicts poison damage for 25 seconds. \n Can only use when mounted. \n Left click icon, then left click on target."
+"Voraussetzung: Stufe 6 \n Gewählte Helden sind für 6 Sekunden betäubt \n Reduces speed by -50% for a following 11 seconds. \n Der gewählte Gegner wird für 25 Sekunden vergiftet  \n Nur für berittene Einheiten \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 TOOLTIP:ToolTipBoromir09v3
 "Boromir gains +7% speed at level 7"
 END
 CONTROLBAR:ToolTipBuildGoblinCaveTroll09v3
-"Strong vs. Swordsmen and Structures \n Cave Troll gains +4% speed at level 3, 6 and 9"
+"Stärken: Schwertkrieger, Gebäude \n Cave Troll gains +4% speed at level 3, 6 and 9"
 END
 TOOLTIP:ToolTipBuildDwarvenCatapult09v3
 "Strong vs. Structures and Siege units \n The Catapult gains +7% speed at level 7"
 END
 CONTROLBAR:ToolTipBuildDwarvenCatapult09v3
-"Requires Level 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +7% speed at level 7"
+"Voraussetzung: Schmiede Stufe 2 \n Stärken: Gebäude und Belagerungseinheiten \n Feuert zwei Schüsse gleichzeitig ab \n The Catapult gains +7% speed at level 7"
 END
 CONTROLBAR:ToolTipBuildMordorMumakil09v3
-"Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
+"Stärken: Gebäude, Kavallerie\n\nMit Haradrim-Lanzenträgern bestückt\n+30 Kommandeurspunkte \n Mumakils gain +6% speed at level 5 and 8."
 END
 CONTROLBAR:TooltipDragonStrike09v3
-"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed.  \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
+"Ruft den Feuer speienden Drachen auf das Schlachtfeld  \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed. \n *Extremely dangerous in the edges of the map.* \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 TOOLTIP:ToolTipFellbeast09v3
-"Fellbeast attack radius against units is improved at level 6 and 10."
+"Fellbeast attack radius against units is improved at level 6."
 END
 CONTROLBAR:ToolTipDominate09v3
-"Requires Level 8 \n Permanently gain control of targeted enemy troops. \n Left click icon, then left click on target units."
+"Voraussetzung: Stufe 8 \n Bringe die anvisierten Einheiten PERMANENTLY unter deine Kontrolle \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
 "Rufe Tom Bombadil, einen mächtigen, alten Gesellen mit Hut und Vorliebe zu singen. Es wird erzählt, dass er die menschliche Verkörperung von Eru sei, welcher die Ëa erschuf. Bringt +25% Rüstung und +25% schnelleres sammeln von Erfahrung für Einheiten in der Nähe. \n «Armor BUFF» \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet."
@@ -459,7 +460,7 @@ CONTROLBAR:ToolTipArwenLeadership09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirLeadership09v2
-"Voraussetzung Stufe 4 \n Verbündete in der Nähe von Haldir gewinnen \n +35 % Schaden und sammeln 25 % schneller Erfahrung. \n «Damage LEADERSHIP» \n Passive Fähigkeit"
+"Voraussetzung Stufe 4 \n Verbündete in der Nähe von Haldir gewinnen \n +40 % Schaden und sammeln 20 % schneller Erfahrung. \n «Damage LEADERSHIP» \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipInspiringPresence09v2
@@ -1009,7 +1010,7 @@ Map:mapTTsouthhollin/desc
 End
 //------------------------------------------------------------
 Map:mapTTfordofbruinen
-"Ford of Bruinen II"  
+"Furt of Bruinen" 
 End
 Map:mapTTfordofbruinen/Desc
 "The upland forests, mostly made up of beeches, lay to the West of Rivendell where the Bruinen river flows, a favorite hunting ground for trolls who descended from the mountains to attack travelers on the Great Western highway.\n Map by Temptation. \n Special thanks to Powerkartoffel and Ecthelion."
@@ -31338,7 +31339,7 @@ OBJECT:InnTavern
 END
 
 OBJECT:InnTavernDescription
-"Erobere die Taverne, um Spezialeinheiten zu rekrutieren"
+"Erobere das Gasthaus, um Spezialeinheiten zu rekrutieren"
 END
 
 OBJECT:IronHillsBridge01

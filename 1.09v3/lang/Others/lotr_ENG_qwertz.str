@@ -95,7 +95,7 @@ CONTROLBAR:TooltipDragonStrike09v3
 "Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed.  \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
 END
 TOOLTIP:ToolTipFellbeast09v3
-"Fellbeast attack radius against units is improved at level 6 and 10."
+"Fellbeast attack radius against units is improved at level 6."
 END
 CONTROLBAR:ToolTipDominate09v3
 "Requires Level 8 \n Permanently gain control of targeted enemy troops. \n Left click icon, then left click on target units."
