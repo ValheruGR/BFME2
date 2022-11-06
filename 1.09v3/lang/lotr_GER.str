@@ -85,10 +85,10 @@ CONTROLBAR:ToolTipBuildGoblinCaveTroll09v3
 "Stärken: Schwertkrieger, Gebäude \n Cave Troll gains +4% speed at level 3, 6 and 9"
 END
 TOOLTIP:ToolTipBuildDwarvenCatapult09v3
-"Strong vs. Structures and Siege units \n The Catapult gains +7% speed at level 7"
+"Strong vs. Structures and Siege units \n The Catapult gains +10% speed at level 5"
 END
 CONTROLBAR:ToolTipBuildDwarvenCatapult09v3
-"Voraussetzung: Schmiede Stufe 2 \n Stärken: Gebäude und Belagerungseinheiten \n Feuert zwei Schüsse gleichzeitig ab \n The Catapult gains +7% speed at level 7"
+"Voraussetzung: Schmiede Stufe 2 \n Stärken: Gebäude und Belagerungseinheiten \n Feuert zwei Schüsse gleichzeitig ab \n The Catapult gains +10% speed at level 5"
 END
 CONTROLBAR:ToolTipBuildMordorMumakil09v3
 "Stärken: Gebäude, Kavallerie\n\nMit Haradrim-Lanzenträgern bestückt\n+30 Kommandeurspunkte \n Mumakils gain +6% speed at level 5 and 8."

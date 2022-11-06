@@ -79,10 +79,10 @@ CONTROLBAR:ToolTipBuildGoblinCaveTroll09v3
 "Strong vs. Swordsmen and Structures \n Cave Troll gains +4% speed at level 3, 6 and 9"
 END
 TOOLTIP:ToolTipBuildDwarvenCatapult09v3
-"Strong vs. Structures and Siege units \n The Catapult gains +7% speed at level 7"
+"Strong vs. Structures and Siege units \n The Catapult gains +10% speed at level 5"
 END
 CONTROLBAR:ToolTipBuildDwarvenCatapult09v3
-"Requires Level 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +7% speed at level 7"
+"Requires Level 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +10% speed at level 5"
 END
 CONTROLBAR:ToolTipBuildMordorMumakil09v3
 "Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
