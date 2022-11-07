@@ -260,7 +260,7 @@ CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
 "Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% Damage +25% speed. \n «HordeBonus BUFF»"
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
-"Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
+"Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +4% speed at level 4 and level 7."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Requires Level 7 \n Theoden and nearby cavalry gain +99% Armor, \n +25% Damage and become immune to decelerate by trampling. \n Cavalry also become fearless for its duration.  \n Theoden must be mounted to use ability \n Left click to activate"

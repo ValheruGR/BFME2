@@ -29129,7 +29129,7 @@ CONTROLBAR:ConstructElvenMithlondSentryHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
-"Silná proti jízdì a \n budovám produkujícím jednotky. \n Poblí¾ stromù mù¾e být zamaskovaná."
+"Silná proti jízdì a \n budovám produkujícím jednotky. \n Poblí¾ stromù mù¾e být zamaskovaná. \n Gains +4% speed at level 4, 7 and 10."
 END
 
 CONTROLBAR:BuildElvenRivendellLancers

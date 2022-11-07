@@ -26913,7 +26913,7 @@ CONTROLBAR:ConstructElvenMithlondSentryHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
-"Forts contre cavalerie et \nBâtiments de production d'unités \n Deviennent furtifs près des arbres"
+"Forts contre cavalerie et \nBâtiments de production d'unités \n Deviennent furtifs près des arbres. \n Gains +4% speed at level 4, 7 and 10."
 END
 
 CONTROLBAR:BuildElvenRivendellLancers

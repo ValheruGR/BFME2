@@ -26919,7 +26919,7 @@ CONTROLBAR:ConstructElvenMithlondSentryHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
-"Stärken: Kavallerie und \n Einheiten-Produktionsgebäude \n Kann sich in der Nähe von Bäumen verstecken"
+"Stärken: Kavallerie und \n Einheiten-Produktionsgebäude \n Kann sich in der Nähe von Bäumen verstecken. \n Gains +4% speed at level 4, 7 and 10."
 END
 
 CONTROLBAR:BuildElvenRivendellLancers

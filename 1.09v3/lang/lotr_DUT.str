@@ -26914,7 +26914,7 @@ CONTROLBAR:ConstructElvenMithlondSentryHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
-"Sterk tegen cavalerie \n Kan zich verstoppen bij bomen"
+"Sterk tegen cavalerie \n Kan zich verstoppen bij bomen. \n Gains +4% speed at level 4, 7 and 10."
 END
 
 CONTROLBAR:BuildElvenRivendellLancers

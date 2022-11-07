@@ -29155,7 +29155,7 @@ CONTROLBAR:ConstructElvenMithlondSentryHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
-"Süvarilere ve Eðitim binalarýna karþý güçlü \n Aðaçlarýn arasýnda görünmez olurlar"
+"Süvarilere ve Eðitim binalarýna karþý güçlü \n Aðaçlarýn arasýnda görünmez olurlar. \n Gains +4% speed at level 4, 7 and 10."
 END
 
 CONTROLBAR:BuildElvenRivendellLancers
