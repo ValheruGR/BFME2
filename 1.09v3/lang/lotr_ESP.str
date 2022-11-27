@@ -32,7 +32,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow09v3
 "Requisito: Nivel 7. \n Una flecha mágica que causa gran daño. \n Nivel 7: Causa metaimpacto y daño moderado. \n Nivel 10: Causa daño mayor y aturde unidades enemigas sensibles a la luz. \n Efectiva contra caballería y heroes débiles. \n Solo se puede usar con el arco. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:TooltipElrondWhirlwind09v3
-"Requisito: Nivel 6 \n Convoca un remolino de destrucción de unidades. \n Nivel 5: Causa daño minimo, barre heroes básicos y dura 16 segundos. \n Nivel 7: Dura 19 segundos. \n Causa el doble de daño, barre cualquier heroe y dura 22 segundos. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Requisito: Nivel 5 \n Convoca un remolino de destrucción de unidades. \n Nivel 5: Causa daño minimo, barre heroes básicos y dura 16 segundos. \n Nivel 7: Dura 19 segundos. \n Nivel 10: Causa el doble de daño, barre cualquier heroe y dura 22 segundos. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 CONTROLBAR:ToolTipElrondRestoration09v3
 "Requisito: Nivel 10. \n Elrond regenera +20% puntos de salud sobre los aliados afectados  y rellena completamente los contadores de capacidades especiales. \n Reemplaza 1 muerto por batallón aliado en el area. \n Para activarlo, haz clic con el botón izquierdo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades aliados."
