@@ -25,23 +25,23 @@ CONTROLBAR:nothingDesc09v2
 END
 //------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
-"Gandalf the White: Spells reload 20% faster and gain +100% magical damage. \n Requires Level 5 \n Passive ability"
+"Gandalf el Blanco: \n Requisito: Nivel 5 \n Los hechizos de Gandalf ganan +100% al daño y se recargar un 20% más rápido. \n Habilidad pasiva."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v3
-"Requires Level 7 \n A high-damaging magical projectile. \n Level 7: Causes meta impact and moderate damage. \n Level 10: Deals greater damage and stuns nearby light-sensitive units. \n Strong against cavalry and low-tier heroes. \n Can only use with bow equipped. \n Left click icon, then left click on target." 
+"Requisito: Nivel 7. \n Una flecha mágica que causa gran daño. \n Nivel 7: Causa metaimpacto y daño moderado. \n Nivel 10: Causa daño mayor y aturde unidades enemigas sensibles a la luz. \n Efectiva contra caballería y heroes débiles. \n Solo se puede usar con el arco. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:TooltipElrondWhirlwind09v3
-"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield. \n Level 5: Deals minimal damage, sweeps low-tier heroes and lasts 16 seconds.. \n Level 7: Lasts 19 seconds. \n Level 10: Deals double damage, last 22 seconds and sweeps any heroe. \n Left click icon, then left click on pathable location."
+"Requisito: Nivel 5 \n Convoca un remolino de destrucción de unidades. \n Nivel 5: Causa daño minimo, barre heroes básicos y dura 16 segundos. \n Nivel 7: Dura 19 segundos. \n Nivel 10: Causa el doble de daño, barre cualquier heroe y dura 22 segundos. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 CONTROLBAR:ToolTipElrondRestoration09v3
-"Requires Level 10 \n Elrond regenerates +20% of health-points to nearby allies and fully resets their special ability timers. \n Replenishes 1 fallen unit per battalion in the area of effect. \n Left click to activate."
+"Requisito: Nivel 10. \n Elrond regenera +20% puntos de salud sobre los aliados afectados  y rellena completamente los contadores de capacidades especiales. \n Reemplaza 1 muerto por batallón aliado en el area. \n Para activarlo, haz clic con el botón izquierdo. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades aliados."
 END
 CONTROLBAR:ArwenElvenGrace09v3
 "Athelas [&V]"
 END
 CONTROLBAR:ArwenElvenGraceDesc09v3
-"Requires Level 8 \n Arwen regenerates 750 health-points to targeted allies over a 2-second duration. \n Left click icon, then left click on target units."
+"Requisito: Nivel 8 \n Arwen regenera 750 puntos de saludos sobre los heroes selecionados durante 2 segundos. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre las unidades aliados."
 END
 CONTROLBAR:GoblinKingBattleFrenzy09v3
 "Frenesí de batalla""
@@ -259,13 +259,13 @@ CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
 "Fuerte contra piqueros \n Bonificación por horda: \n Los trasgos agrupados en grupos de al menos 100\n ganan +33% al daño y +25% velocidad.\n «HordeBonus BUFF» "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
-"Fuerte contra arqueros y \n edificios de construcción de unidades. \n Los Lanceros de Rivendell ganan +7% velocidad en el nivel level 5."
+"Fuerte contra arqueros y \n edificios de construcción de unidades. \n Los Lanceros de Rivendell ganan +4% velocidad en el nivel level 4 y en nivel 7."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Requisito: Nivel 7 \n Théoden y las tropas de caballería cercanas reciben +99% armadura, +25% al daño y las vuelve inmune a la desaceleración por pisoteo. \n La caballería tambien se vuelve inmune al miedo.  \n Théoden debe estar montado para usar esta capacidad. \n Para activarlo, haz clic con el botón izquierdo."
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
-"Fuerte contra infantería\nResistant to trample\n Bonificación por horda: \n Los trasgos agrupados en grupos de al menos 100\n ganan +33% al daño y +20% velocidad. \n «HordeBonus BUFF» "
+"Fuerte contra infantería.\nResistente a pisotones \n Bonificación por horda: \n Los trasgos agrupados en grupos de al menos 100\n ganan +33% al daño y +20% velocidad. \n «HordeBonus BUFF» "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
 "Fuerte contra infantería\n Bonificación por horda: \n Los orcos agrupados en grupos de al menos 70\n ganan +33% al daño y +15% velocidad. \n «HordeBonus BUFF» "
@@ -26922,7 +26922,7 @@ CONTROLBAR:ConstructElvenMithlondSentryHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
-"Fuerte contra caballería y \n edificios de construcción de unidades. \n Se puede esconder cerca de los árboles."
+"Fuerte contra caballería y \n edificios de construcción de unidades. \n Se puede esconder cerca de los árboles. \n Los guardias de Mithlond ganan +4% velocidad en los niveles 4, 7 y 10."
 END
 
 CONTROLBAR:BuildElvenRivendellLancers

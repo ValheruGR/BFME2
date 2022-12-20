@@ -25,14 +25,14 @@ CONTROLBAR:nothingDesc09v2
 END
 //------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
-"Gandalf the White: Spells reload 20% faster and gain +100% magical damage. \n Requires Level 5 \n Passive ability"
+"Gandalf the White: \n Requires Level 5 \n Gandalf's abilities gain +100% damage and cooldowns are reduced by -20%. \n Passive ability."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v3
 "Requires Level 7 \n A high-damaging magical projectile. \n Level 7: Causes meta impact and moderate damage. \n Level 10: Deals greater damage and stuns nearby light-sensitive units. \n Strong against cavalry and low-tier heroes. \n Can only use with bow equipped. \n Left click icon, then left click on target." 
 END
 CONTROLBAR:TooltipElrondWhirlwind09v3
-"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield. \n Level 5: Deals minimal damage, sweeps low-tier heroes and lasts 16 seconds.. \n Level 7: Lasts 19 seconds. \n Level 10: Deals double damage, last 22 seconds and sweeps any heroe. \n Left click icon, then left click on pathable location."
+"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield. \n Level 5: Deals minimal damage, sweeps low-tier heroes only. Lasts 16 seconds. \n Level 7: Lasts 19 seconds. \n Level 10: Deals double damage, sweeps all heroes. Lasts 22 seconds. \n Left click icon, then left click on pathable location."
 END
 CONTROLBAR:ToolTipElrondRestoration09v3
 "Requires Level 10 \n Elrond regenerates +20% of health-points to nearby allies and fully resets their special ability timers. \n Replenishes 1 fallen unit per battalion in the area of effect. \n Left click to activate."
@@ -47,34 +47,34 @@ CONTROLBAR:GoblinKingBattleFrenzy09v3
 "Battle Frenzy"
 End
 CONTROLBAR:ToolTipFueltheFires09v3
-"Player Lumber Mills gain +65% Production, \n and +20% Armor. \n Allied Lumber Mills gain +65% production. \n Fortress must be present"
+"Player Lumber Mills gain +65% Production \n and +20% Armor. \n Allied Lumber Mills gain +65% production. \n Passive power. \n Fortress must be present."
 End
 UPGRADE:BarbedArrowUpgrade09v3
 "Barbed Arrows"
 END
 CONTROLBAR:TooltipUndermine09v3
-"Summons a Mine Shaft onto the battlefield. \n Cannot be cast within close proximity of an enemy fortress. \n Can be casted on the fog of war.\n The Mine Shaft is connected to tunnel network. \n Deals higher damage at spawn point and light damage in the perimeter\n Left click icon, then left click on pathable location."
+"Summons a Mine Shaft onto the battlefield. \n Cannot be cast within close proximity of an enemy fortress. \n Can be casted on the fog of war. \n The Mine Shaft is connected to tunnel network. \n Deals greater damage at spawn point and lesser damage in the perimeter. \n Left click icon, then left click on pathable location."
 END
 CONTROLBAR:ToolTipPersonalFlood09v3
-"Requires Level 4 \n Summons a flood that knocks back enemies and extinguishes fires. \n Strong against cavalry and Nazgul. \n Level 4: Arwen summons 3 Floodhorses. \n Level 7: Arwen summons 5 Floodhorses. \n Level 10: Arwen summons 7 Floodhorses. \n Left click icon, then left click on target."
+"Requires Level 4 \n Summons a flood that knocks back enemies and extinguishes fires. \n Strong vs. cavalry and Nazgul. \n Level 4: Arwen summons 3 Flood Horses. \n Level 7: Arwen summons 5 Flood Horses. \n Level 10: Arwen summons 7 Flood Horses. \n Left click icon, then left click on target."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
-"Heals nearby Allies. \n Revives a fallen unit from each battalion every 6.5 seconds. \n Hero revival time reduced by -20%. \n Combined with Eagle Nest, can heal any allied Flying unit"
+"Heals nearby Allies. \n Revives a fallen unit from each battalion every 6.5 seconds. \n Hero revival time reduced by -20%. \n Combined with Eagle Nest, can heal any allied flying unit"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
 "Allows summoning of a Giant Eagle. \n Allows Mystics Fountains to heal flying units."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v3
-"Damages enemy units adjacent to the Fortress. \n Heals nearby Allies. \n Combined with Dragon Nest, can heal any allied Flying unit."
+"Damages enemy units adjacent to the Fortress. \n Heals nearby Allies. \n Combined with Dragon Nest, can heal any allied flying unit."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
 "Allows summoning of a Fire Drake. \n Drogoth revival time reduced by -10%. \n Allows Razor Spikes to heal flying units."
 END
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
-"Requires Level 6 \n Paralyzes enemy hero in place for a 6-second duration. \n Reduces speed by -50% for a following 11-second duration. \n Inflicts poison damage for a 30-second duration. \n Left click icon, then left click on target."
+"Requires Level 6 \n Paralyzes enemy hero for 6 seconds. \n Reduces speed by -50% for a following 11 seconds. \n Inflicts poison damage for 30 seconds. \n Left click icon, then left click on target."
 End
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger09v3
-"Requires Level 6 \n Paralyzes enemy hero in place for a 6-second duration. \n Reduces speed by -50% for a following 11-second duration. \n Inflicts poison damage for a 25-second duration. \n Can only use when mounted. \n Left click icon, then left click on target."
+"Requires Level 6 \n Paralyzes enemy hero for 6 seconds. \n Reduces speed by -50% for a following 11 seconds. \n Inflicts poison damage for 25 seconds. \n Can only use when mounted. \n Left click icon, then left click on target."
 END
 TOOLTIP:ToolTipBoromir09v3
 "Boromir gains +7% speed at level 7"
@@ -83,10 +83,10 @@ CONTROLBAR:ToolTipBuildGoblinCaveTroll09v3
 "Strong vs. Swordsmen and Structures \n Cave Troll gains +4% speed at level 3, 6 and 9"
 END
 TOOLTIP:ToolTipBuildDwarvenCatapult09v3
-"Strong vs. Structures and Siege units \n The Catapult gains +7% speed at level 7"
+"Strong vs. Structures and Siege units \n The Catapult gains +10% speed at level 5"
 END
 CONTROLBAR:ToolTipBuildDwarvenCatapult09v3
-"Requires Level 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +7% speed at level 7"
+"Requires Level 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +10% speed at level 5"
 END
 CONTROLBAR:ToolTipBuildMordorMumakil09v3
 "Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
@@ -95,7 +95,7 @@ CONTROLBAR:TooltipDragonStrike09v3
 "Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed.  \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
 END
 TOOLTIP:ToolTipFellbeast09v3
-"Fellbeast attack radius against units is improved at level 6 and 10."
+"Fellbeast attack radius against units is improved at level 6."
 END
 CONTROLBAR:ToolTipDominate09v3
 "Requires Level 8 \n Permanently gain control of targeted enemy troops. \n Left click icon, then left click on target units."
@@ -113,7 +113,7 @@ CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
 "Disguise (&V)"
 END
 CONTROLBAR:SummonWargAllies09v3
-"Summon Warg Allies (&V)"
+"Summon Warg Allies (&C)"
 End
 CONTROLBAR:SummonWargAlliesDesc09v3
 "Requires Level 10 \n Summons a group of Warg Riders to the battlefield. \n Left click icon, then left click on pathable location."
@@ -134,7 +134,7 @@ END
 
 //------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
-"Prince of Ithilien [&B]"
+"Prince of Ithilien [&V]"
 END
 CONTROLBAR:PrinceofIthilienDesc09v2
 "Requires Level 5 \n Targeted archers gain experience. \n Left click icon, then left click on target archers."
@@ -260,7 +260,7 @@ CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
 "Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% Damage +25% speed. \n «HordeBonus BUFF»"
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
-"Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
+"Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +4% speed at level 4 and level 7."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Requires Level 7 \n Theoden and nearby cavalry gain +99% Armor, \n +25% Damage and become immune to decelerate by trampling. \n Cavalry also become fearless for its duration.  \n Theoden must be mounted to use ability \n Left click to activate"
@@ -281,7 +281,7 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Requires Level 7 \n Grants all nearby allies resistance to fear and terror \n «StubbornPride» \n Dain becomes able to reveal stealth.\n Passive ability"
+"Requires Level 7 \n Grants all nearby allies resistance to fear and terror. \n Dain becomes able to reveal stealth.\n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
@@ -520,24 +520,24 @@ TOOLTIP:ToolTipToggleGFighterLineToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation09v2
+// Men
 "+25% Armor, -30% Speed and +33% extra arrow resistance. \n Loses -5% Damage."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
+// Isengard
 "+20% Armor, -30% Speed and +25% extra arrow resistance. \n Loses -5% Damage."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Requires Level 3 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn deals Damage in area \n Left click to activate"
+"Requires Level 3 \n Disguises as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn causes damage in area and extra damage against heroes. \n Lasts 30 seconds. \n Left click to activate"
 END
 CONTROLBAR:ToolTipSmite09v2
-"Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Left click icon then left click on target"
+"Powerful ranged attack with damage in area. \n Area of damage is improved at level 4 and 7. \n Bonus against heroes. \n Specialy powerful against Fellbeasts. \n Bonuses against Heroes and Fellbeasts are improved at level 4 and 7. \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Requires Level 5 \n Eowyn gains 35% Armor \n Nearby Rohirrims gain: \n -50% Deceleration when crushing. \n Left click to activate"
+"Requires Level 5 \n Eowyn gains 35% Armor and -50% deceleration when crushing. \n Eowyn also gains another +35% armor bonus against the attacks from heroes. \n Nearby Rohirrims gain: \n -50% Deceleration when crushing.  \n Lasts 30 seconds. \n Left click to activate"
 END
-//	\n Cancels Shield Maiden bonus.
-//	\n Cancels the disguise
 //------------------------------------------------------------
 CONTROLBAR:TooltipSunflare09v2
 "Calls a fiery beam of sunlight to scorch the battlefield. \n Indiscriminately burn enemies and allies. \n Effective against weak heroes \n Cancels Freezing Rain, Darkness and CloudBreak healing. \n Enemy trolls are turn into stones for 20 seconds. \n Left click icon then left click on target area"
@@ -646,7 +646,7 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters receive a increment of \n +15% to Health Points and +25% to Experience gaining \n Provides resistance to fear and terror. \n Lasts 12 seconds \n Left click to activate"
+"Heals 750 health points from nearby Hordes and Heroes. \n Nearby Hordes and Monsters gain +15% Armor and earn experience 25% faster. \n Provides resistance to fear and terror. \n Lasts 12 seconds \n Left click to activate"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
 "Reveals an area of the map \n Provides +27.5% shroud reveal radius to any allied unit for 25 second. \n Doesn't affect heroes. \n Left click icon then left click on target area"
@@ -687,7 +687,7 @@ CONTROLBAR:TooltipLadyOfLight
 "Call down the Light of Valar onto your enemies. \n Deals massive damage in a large area"
 END
 CONTROLBAR:SpecialAbilityFiresOfDoom2
-"Summon Three Fi&res of Doom around Sauron in a circle"
+"Summon Three Fires of Doom around Sauron in a circle"
 END
 CONTROLBAR:LoneTowerLeadershipUpgradeIcon
 "Requires researching the upgrade at fortress. \n Nearby allies gain: \n +25% Damage, \n and earn Experience 25% faster. \n «Damage BUFF»"
@@ -780,6 +780,125 @@ Map:map_PK_port_linhir/Desc
 End
 //------------------------------------------------------------/
 Map:map_pk_rhudel_steppe
+"Rhudel Steppe"
+End
+Map:map_pk_rhudel_steppe/Desc
+"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Original autor unknown."
+End
+//------------------------------------------------------------
+Map:map_PK_Forlond
+"Forlond" 
+End
+Map:map_PK_Forlond/Desc
+"Forlond was a harbour that lay on the northern shore of the Gulf of Lune, in the Elvish land of Forlindon. It had a counterpart on the southern shore: the Harlond. Forlond was located at the mouth of an unnamed river that traversed Forlindon, some two hundred miles to the northwest of the Grey Havens. \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------
+Map:map_PK_beleriand
+"Beleriand"
+End
+Map:map_PK_beleriand/Desc
+"At the end of the First Age of Middle-earth, Beleriand was broken in the War of Wrath by the the Maiar, against Morgoth . As the inhabitants fled much of Beleriand sank in the sea. The left behind souls still fight their battle for supremancy of the sunken lands. \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------
+Map:map_PK_amon_amarth_II
+"Amon Amarth II" 
+End
+Map:map_PK_amon_amarth_II/Desc
+"Amon Amarth, the mountain of fate, is located deep within Mordor. It is also known as Mount Doom. \n Map by Mako, edited by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_brandy_hills
+"Brandy Hills" 
+End
+Map:map_PK_brandy_hills/Desc
+"This is an area north of Buckland along the eastern shores of Brandywine River until the Brandywood. Girdley Island is the only named point of interest of these hills though they are dotted by small Arnorian ruins. \n Map by Powerkartoffel. \n Special thanks to Temptattion"
+End
+//------------------------------------------------------------
+Map:map_pk_dunland_ii
+"Dunland II" 
+End
+Map:map_pk_dunland_ii/Desc
+"The Eastern regions of the Enedwaith, home of the Wild Men, sworn enemies of Rohan. \n Map reworked by Powerkartoffel & Ecthelion"
+End
+//------------------------------------------------------------
+Map:map_pk_gardens_of_far_harad
+"Gardens of Far Harad" 
+End
+Map:map_pk_gardens_of_far_harad/Desc
+"The Gardens of Far Harad were described as a remarkable feat of engineering with an ascending series of tiered gardens containing a wide variety of trees, shrubs, and vines, resembling a large green mountain constructed of mud bricks. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_iron_mountains_ii
+"Iron Mountains II" 
+End
+Map:map_PK_iron_mountains_ii/Desc
+"The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs 2 Dragons 2 Goblins \n Capture: 2 Signal Fires \n Size: Large 1v1 \n Map by Powerkartoffel"
+End
+//------------------------------------------------------------
+Map:map_PK_Last_Bridge
+"Last Bridge" 
+End
+Map:map_PK_Last_Bridge/Desc
+"The Last Bridge was an ancient stone bridge that carried the East Road over the River Hoarwell, about a hundred miles east of Weathertop and roughly the same distance west of Rivendell. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_pk_lonely_mountain
+"Slopes of the Lonely Mountain"
+End
+Map:map_pk_lonely_mountain/desc
+"The Battle of the five Armies took place in this valley, located between the Lonely Mountain and Dale. The five warring parties were the Goblins and the Wargs against Men, Elves, and Dwarves. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_mirkwood_ii
+"Mirkwood II" 
+End
+Map:map_PK_mirkwood_ii/Desc
+"Mirkwood is a large forest located in between the kingdom of Gondor and the Grey Mountains. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:map_PK_mount_doom_II
+"Mount Doom II" 
+End
+Map:map_PK_mount_doom_II/Desc
+"Mount Doom, the mountain of fate, is located deep within Mordor. \n Map by Powerkartoffel."
+End
+//------------------------------------------------------------
+Map:mapMXgundabaddeeps
+"Gundabad Deeps" 
+End
+Map:mapMXgundabaddeeps/Desc
+"Gundabad was once a dwarven settlement founded by Durin I in the First Age, but now, the Mount and it's underground are infested with orcs, goblins, and other merciless creatures. \n Map by Mex Flaxtz."
+End
+//------------------------------------------------------------
+Map:mapSOironhillsii
+"Iron Hills II"
+END
+Map:mapSOironhillsii/Desc
+"These hills, rich in iron, were long held by the Dwarves and Dain Ironfoot. \n Map from RotWK by Solas, edited by Ecthelion"
+END
+//------------------------------------------------------------
+Map:mapSOsorrowisles
+"Sorrow Isles" 
+End
+Map:mapSOsorrowisles/Desc
+"A group of lone Islands in the Sea of Belfalas. It is said to be the prison of two evil spirits who drive the island's unsuspecting visitors into madness. \n Map from RotWK, by Solas."
+End
+//------------------------------------------------------------
+Map:mapMAironhillsIV
+"Iron Hills IV"
+END
+Map:mapMAironhillsIV/Desc
+"A mineral rich region which is the source of the River Redwater, the name given to the river for the reddish iron particles found in its water. \n Map from RotWK, by Mako."
+END
+//------------------------------------------------------------
+Map:mapTTettenmoorsII
+"Ettenmoors II" 
+End
+Map:mapTTettenmoorsII/Desc
+"The Ettenmoors, also known as the Troll-fells, were a highland region of Eriador, which was west of the Misty Mountains. The land was wild, and many evil creatures dwelt there. \n Map by Temptation. \n Special thanks to Powerkartoffel and Ecthelion"
+End
+//------------------------------------------------------------
+Map:map_PK_bamfurlong
 "Bamfurlong" 
 End
 Map:map_PK_bamfurlong/Desc
@@ -797,7 +916,7 @@ Map:mapETerechiii
 "Erech 4th Age" 
 End
 Map:mapETerechiii/Desc
-"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age.\nMap by Ecthelion."
+"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age. \n Map by Ecthelion. Special thanks to Powerkartoffel"
 End
 //------------------------------------------------------------
 Map:mapTTbaranduin
@@ -807,10 +926,10 @@ Map:mapTTbaranduin/Desc
 "The Baranduin River of Eriador is known by the Hobbits as the Brandywine River. It marks the the boundary between the known and the unknown. \n Map by Temptation."
 END
 //------------------------------------------------------------
-Map:map_PK_canyons_of_khand
+Map:map_pk_canyons_of_khand
 "Canyons of Khand" 
 End
-Map:map_PK_canyons_of_khand/Desc
+Map:map_pk_canyons_of_khand/Desc
 "Khand was the name of a land which lay to the south of Mordor and the east of Near Harad. Little is known about Khand or its people, but it was most likely a dry and barren land covered in desert. \n Map by Powerkartoffel."
 End
 //------------------------------------------------------------
@@ -895,7 +1014,7 @@ Map:mapTTfordofbruinen
 "Ford of Bruinen II"  
 End
 Map:mapTTfordofbruinen/Desc
-"The upland forests, mostly made up of beeches, lay to the West of Rivendell where the Bruinen river flows, a favorite hunting ground for trolls who descended from the mountains to attack travelers on the Great Western highway.\n Map by Temptation"
+"The upland forests, mostly made up of beeches, lay to the West of Rivendell where the Bruinen river flows, a favorite hunting ground for trolls who descended from the mountains to attack travelers on the Great Western highway.\n Map by Temptation. \n Special thanks to Powerkartoffel and Ecthelion."
 End
 //------------------------------------------------------------
 Map:mapTTosgiliathII
@@ -961,7 +1080,7 @@ Map:mapETerynrhun
 "Eryn Rhün" 
 End
 Map:mapETerynrhun/Desc
-"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion"
+"Eryn Rhün means Eastern Forest, used as reference to the mysterious woody region at the east of the sea of Rhün, irrigated by the mouths of the rivers from the Red Mountains. \n Map by Ecthelion. Special thanks to Powerkartoffel."
 End
 //------------------------------------------------------------
 Map:mapETlebennin
@@ -16998,7 +17117,7 @@ CONTROLBAR:Undermine
 END
 
 CONTROLBAR:TooltipUndermine
-"Summons a Mine Shaft onto the battlefield. \n Cannot be cast within close proximity of an enemy fortress. \n Can be casted on the fog of war.\n The Mine Shaft is connected to tunnel network. \n Deals higher damage at spawn point and light damage in the perimeter\n Left click icon, then left click on pathable location."
+"Summons a Mine Shaft onto the battlefield. \n Cannot be cast within close proximity of an enemy fortress. \n Can be casted on the fog of war. \n The Mine Shaft is connected to tunnel network. \n Deals greater damage at spawn point and lesser damage in the perimeter. \n Left click icon, then left click on pathable location."
 END
 
 OBJECT:UndermineMineShaft
@@ -24590,7 +24709,7 @@ Map:MAPMPDagorlad/Desc
 END
 
 Map:MAPMPDeadMarshes/Desc
-"A haunted swampland, lying just outside Mordor. Gollum led Frodo and Sam through these lands on their way to Mount Doom."
+"A haunted swampland, lying just outside Mordor. Gollum led Frodo and Sam through these lands on their way to Mount Doom. \n Map from BfME1."
 END
 
 Map:MAPMPDruadanForest/Desc
@@ -29009,7 +29128,7 @@ CONTROLBAR:ConstructElvenMithlondSentryHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
-"Strong vs. Cavalry and \n Unit Production Buildings \n Can stealth near trees"
+"Strong vs. Cavalry and \n Unit Production Buildings \n Can stealth near trees. \n Gains +4% speed at level 4, 7 and 10."
 END
 
 CONTROLBAR:BuildElvenRivendellLancers

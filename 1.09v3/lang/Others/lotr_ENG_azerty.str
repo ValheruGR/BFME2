@@ -25,14 +25,14 @@ CONTROLBAR:nothingDesc09v2
 END
 //------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
-"Gandalf the White: Spells reload 20% faster and gain +100% magical damage. \n Requires Level 5 \n Passive ability"
+"Gandalf the White: \n Requires Level 5 \n Gandalf's abilities gain +100% damage and cooldowns are reduced by -20%. \n Passive ability."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v3
 "Requires Level 7 \n A high-damaging magical projectile. \n Level 7: Causes meta impact and moderate damage. \n Level 10: Deals greater damage and stuns nearby light-sensitive units. \n Strong against cavalry and low-tier heroes. \n Can only use with bow equipped. \n Left click icon, then left click on target." 
 END
 CONTROLBAR:TooltipElrondWhirlwind09v3
-"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield. \n Level 5: Deals minimal damage, sweeps low-tier heroes and lasts 16 seconds.. \n Level 7: Lasts 19 seconds. \n Level 10: Deals double damage, last 22 seconds and sweeps any heroe. \n Left click icon, then left click on pathable location."
+"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield. \n Level 5: Deals minimal damage, sweeps low-tier heroes only. Lasts 16 seconds. \n Level 7: Lasts 19 seconds. \n Level 10: Deals double damage, sweeps all heroes. Lasts 22 seconds. \n Left click icon, then left click on pathable location."
 END
 CONTROLBAR:ToolTipElrondRestoration09v3
 "Requires Level 10 \n Elrond regenerates +20% of health-points to nearby allies and fully resets their special ability timers. \n Replenishes 1 fallen unit per battalion in the area of effect. \n Left click to activate."
@@ -47,34 +47,34 @@ CONTROLBAR:GoblinKingBattleFrenzy09v3
 "Battle Frenzy"
 End
 CONTROLBAR:ToolTipFueltheFires09v3
-"Player Lumber Mills gain +65% Production, \n and +20% Armor. \n Allied Lumber Mills gain +65% production. \n Fortress must be present"
+"Player Lumber Mills gain +65% Production \n and +20% Armor. \n Allied Lumber Mills gain +65% production. \n Passive power. \n Fortress must be present."
 End
 UPGRADE:BarbedArrowUpgrade09v3
 "Barbed Arrows"
 END
 CONTROLBAR:TooltipUndermine09v3
-"Summons a Mine Shaft onto the battlefield. \n Cannot be cast within close proximity of an enemy fortress. \n Can be casted on the fog of war.\n The Mine Shaft is connected to tunnel network. \n Deals higher damage at spawn point and light damage in the perimeter\n Left click icon, then left click on pathable location."
+"Summons a Mine Shaft onto the battlefield. \n Cannot be cast within close proximity of an enemy fortress. \n Can be casted on the fog of war. \n The Mine Shaft is connected to tunnel network. \n Deals greater damage at spawn point and lesser damage in the perimeter. \n Left click icon, then left click on pathable location."
 END
 CONTROLBAR:ToolTipPersonalFlood09v3
-"Requires Level 4 \n Summons a flood that knocks back enemies and extinguishes fires. \n Strong against cavalry and Nazgul. \n Level 4: Arwen summons 3 Floodhorses. \n Level 7: Arwen summons 5 Floodhorses. \n Level 10: Arwen summons 7 Floodhorses. \n Left click icon, then left click on target."
+"Requires Level 4 \n Summons a flood that knocks back enemies and extinguishes fires. \n Strong vs. cavalry and Nazgul. \n Level 4: Arwen summons 3 Flood Horses. \n Level 7: Arwen summons 5 Flood Horses. \n Level 10: Arwen summons 7 Flood Horses. \n Left click icon, then left click on target."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
-"Heals nearby Allies. \n Revives a fallen unit from each battalion every 6.5 seconds. \n Hero revival time reduced by -20%. \n Combined with Eagle Nest, can heal any allied Flying unit"
+"Heals nearby Allies. \n Revives a fallen unit from each battalion every 6.5 seconds. \n Hero revival time reduced by -20%. \n Combined with Eagle Nest, can heal any allied flying unit"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
 "Allows summoning of a Giant Eagle. \n Allows Mystics Fountains to heal flying units."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v3
-"Damages enemy units adjacent to the Fortress. \n Heals nearby Allies. \n Combined with Dragon Nest, can heal any allied Flying unit."
+"Damages enemy units adjacent to the Fortress. \n Heals nearby Allies. \n Combined with Dragon Nest, can heal any allied flying unit."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
 "Allows summoning of a Fire Drake. \n Drogoth revival time reduced by -10%. \n Allows Razor Spikes to heal flying units."
 END
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
-"Requires Level 6 \n Paralyzes enemy hero in place for a 6-second duration. \n Reduces speed by -50% for a following 11-second duration. \n Inflicts poison damage for a 30-second duration. \n Left click icon, then left click on target."
+"Requires Level 6 \n Paralyzes enemy hero for 6 seconds. \n Reduces speed by -50% for a following 11 seconds. \n Inflicts poison damage for 30 seconds. \n Left click icon, then left click on target."
 End
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger09v3
-"Requires Level 6 \n Paralyzes enemy hero in place for a 6-second duration. \n Reduces speed by -50% for a following 11-second duration. \n Inflicts poison damage for a 25-second duration. \n Can only use when mounted. \n Left click icon, then left click on target."
+"Requires Level 6 \n Paralyzes enemy hero for 6 seconds. \n Reduces speed by -50% for a following 11 seconds. \n Inflicts poison damage for 25 seconds. \n Can only use when mounted. \n Left click icon, then left click on target."
 END
 TOOLTIP:ToolTipBoromir09v3
 "Boromir gains +7% speed at level 7"
@@ -83,10 +83,10 @@ CONTROLBAR:ToolTipBuildGoblinCaveTroll09v3
 "Strong vs. Swordsmen and Structures \n Cave Troll gains +4% speed at level 3, 6 and 9"
 END
 TOOLTIP:ToolTipBuildDwarvenCatapult09v3
-"Strong vs. Structures and Siege units \n The Catapult gains +7% speed at level 7"
+"Strong vs. Structures and Siege units \n The Catapult gains +10% speed at level 5"
 END
 CONTROLBAR:ToolTipBuildDwarvenCatapult09v3
-"Requires Level 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +7% speed at level 7"
+"Requires Level 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +10% speed at level 5"
 END
 CONTROLBAR:ToolTipBuildMordorMumakil09v3
 "Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
@@ -95,7 +95,7 @@ CONTROLBAR:TooltipDragonStrike09v3
 "Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed.  \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
 END
 TOOLTIP:ToolTipFellbeast09v3
-"Fellbeast attack radius against units is improved at level 6 and 10."
+"Fellbeast attack radius against units is improved at level 6."
 END
 CONTROLBAR:ToolTipDominate09v3
 "Requires Level 8 \n Permanently gain control of targeted enemy troops. \n Left click icon, then left click on target units."
@@ -260,7 +260,7 @@ CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
 "Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% Damage +25% speed. \n «HordeBonus BUFF»"
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
-"Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +7% speed at level 5."
+"Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +4% speed at level 4 and level 7."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Requires Level 7 \n Theoden and nearby cavalry gain +99% Armor, \n +25% Damage and become immune to decelerate by trampling. \n Cavalry also become fearless for its duration.  \n Theoden must be mounted to use ability \n Left click to activate"
@@ -17144,7 +17144,7 @@ CONTROLBAR:Undermine
 END
 
 CONTROLBAR:TooltipUndermine
-"Summons a Mine Shaft onto the battlefield. \n Cannot be cast within close proximity of an enemy fortress. \n Can be casted on the fog of war.\n The Mine Shaft is connected to tunnel network. \n Deals higher damage at spawn point and light damage in the perimeter\n Left click icon, then left click on pathable location."
+"Summons a Mine Shaft onto the battlefield. \n Cannot be cast within close proximity of an enemy fortress. \n Can be casted on the fog of war. \n The Mine Shaft is connected to tunnel network. \n Deals greater damage at spawn point and lesser damage in the perimeter. \n Left click icon, then left click on pathable location."
 END
 
 OBJECT:UndermineMineShaft
