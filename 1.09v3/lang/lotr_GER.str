@@ -303,7 +303,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Erschafft reichhaltiges Gelände. \n Verbündete Einheiten erhalten +35 % Rüstung, \n +25 % Schaden und sammeln 25 % schneller Erfahrung.  \n Die Verzögerungsrate der feindlichen Kavallerie wird um +200 % erhöht. \n  «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Linksklick-Symbol, dann Linksklick auf Zielbereich" 
+"Erschafft reichhaltiges Gelände. \n Verbündete Einheiten erhalten +35 % Rüstung, \n und sammeln 25 % schneller Erfahrung.  \n Die Verzögerungsrate der feindlichen Kavallerie wird um +200 % erhöht. \n  «ElvenWood BUFF» «Overrides Armor LEADERSHIP» \n Linksklick-Symbol, dann Linksklick auf Zielbereich" 
 END
 CONTROLBAR:MenWood09v2
 "Menschenwald"

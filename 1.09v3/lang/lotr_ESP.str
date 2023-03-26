@@ -300,7 +300,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Crea una zona frondosa cuyo centro crea un escudo protector contra los conjuros Tierra Mancillada y Bosque Humano del enemigo. \n Las unidades aliadas reciben +35% a la armadura, +25% al daño, consiguen experiencia un 25% más rápido y ven incrementada su capacidad de desacelerar el pisoteo de la caballeria enemiga en un +200%. \n  «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
+"Crea una zona frondosa cuyo centro crea un escudo protector contra los conjuros Tierra Mancillada y Bosque Humano del enemigo. \n Las unidades aliadas reciben +35% a la armadura, consiguen experiencia un 25% más rápido y ven incrementada su capacidad de desacelerar el pisoteo de la caballeria enemiga en un +200%. \n  «ElvenWood BUFF» «Overrides Armor LEADERSHIP» \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
 END
 CONTROLBAR:MenWood09v2
 "Bosque humano"
