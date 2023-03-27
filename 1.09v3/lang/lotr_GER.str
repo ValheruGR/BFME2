@@ -262,7 +262,7 @@ CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
 "Stark gegen Pikeniere\n Hordenbonus: \n Gesammelte Goblins in einer Anzahl von mindestens 100\n erhalten +33 % Schaden +25 % Geschwindigkeit. \n «HordeBonus BUFF»  "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
-"Stark gegen Bogenschützen und \n Produktionsgebäude. \n Lanzenträger erhalten auf Stufe 5 +7 % Geschwindigkeit."
+"Stark gegen Bogenschützen und \n Produktionsgebäude. \n Lanzenträger erhalten auf Stufe 4 & 7, +5 % Geschwindigkeit."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Voraussetzung Stufe 7 \n Theoden und Kavallerie in seiner Nähe erhalten +99 % Rüstung, \n +25 % Schaden und werden immun gegen Verlangsamung durch Trampeln \n Kavallerie wird für diese Dauer auch furchtlos .  \n Theoden muss beritten sein, um diese Fähigkeit zu nutzen \n Linksklicken zum aktivieren"

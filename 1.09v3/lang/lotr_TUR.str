@@ -271,7 +271,7 @@ CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
 "Mýzraklýlara karþý güçlü\n Sürü Bonusu: \n 100 birimi aþan goblin topluluklarý +%33 hasar bonusu ve +%25 hýz bonusu kazanýr. \n«HordeBonus BUFF»"
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
-"Okçulara ve Birim Üretim Binalarý'na karþý güçlü. \n Ayrýkvadi süvarileri seviye 5'te +%7 hýz kazanýr."
+"Okçulara ve Birim Üretim Binalarý'na karþý güçlü. \n Ayrýkvadi süvarileri seviye 4 & 7 'te +%4 hýz kazanýr."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Gereken Seviye: 7 \n Theoden ve yakýndaki süvariler +%99 zýrh bonusu, +%25 hasar bonusu kazanýr ve birim ezerken yavaþlamaya karþý baðýþýklýk kazanýrlar.\n Ve ayný zamanda bu süre boyunca süvariler korkusuzluk kazanýrlar. \n Theoden bu yeteneði kullanabilmek için binek üzerinde olmalýdýr. \n Etkinleþtirmek için sol týklayýn"

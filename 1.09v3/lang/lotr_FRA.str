@@ -260,7 +260,7 @@ CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
 "Fort contre piquiers \nBonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent \n +33% de dégâts et +25% de vitesse. \n «HordeBonus BUFF» "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
-"Forts contre la cavalerie,archers et bâtiments de production d'unités.\n Les lanciers Rivendell gagnent +7% de vitesse de déplacement au niveau 5."
+"Forts contre la cavalerie,archers et bâtiments de production d'unités.\n Les lanciers Rivendell gagnent +4% de vitesse de déplacement au niveau 4 et niveau 7"
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Requiert : niveau 7\nThéoden et les cavaliers proches gagnent 99% d'arumres, +25% de dégâts et sont immunisés au ralentissement lors d'une charge.\nLa cavalerie est immunisé à la peur pendant la durée de l'effet.\nThéoden ne peut utiliser sa capacité que sur sa monture.\n «GloriousCharge».\nClic gauche pour activer"
