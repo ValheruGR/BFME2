@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipEvilHeal09v3
+"Partially heals armies and monsters. \n Replaces 2 dead units per horde. \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
 "Gandalf el Blanco: \n Requisito: Nivel 5 \n Los hechizos de Gandalf ganan +100% al daño y se recargar un 20% más rápido. \n Habilidad pasiva."
 END
