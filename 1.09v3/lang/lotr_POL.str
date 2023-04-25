@@ -24,8 +24,12 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipEvilHeal09v3
+"Partially heals armies and monsters. \n Replaces 2 dead units per horde. \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
-"Gandalf the White: \n Requires Level 5 \n Gandalf's abilities gain +100% damage and cooldowns are reduced by -20%. \n Passive ability."
+"Gandalf the White: \n Requires Level 5 \n Gandalf's magic abilities deal 170% damage and cooldowns are reduced by -20%. \n Passive ability."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v3
@@ -302,7 +306,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n Enemy cavalry deceleration rate is raised by +200%. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP»  \n Left click icon then left click on target area"
+"Creates lush terrain whose center creates a protective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% Armor \n and earn Experience 25% faster. \n  «ElvenWood BUFF» «Overrides Armor LEADERSHIP» \n Enemies suffer +200% Deceleration when crushing. \n Left click icon then left click on target area"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -427,7 +431,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Przywoluje Oko Saurona \n Odkrywa niewidocznych wrogów \n Sojusznicy otrzymuja +25% do zadawanych obrazen, +25% do pancerza \n oraz 50% szybciej zdobywaja doswiadczenie \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n «HighTierHero BUFF» \n Kliknij lewym przyciskiem myszy na ikonie a nastepnie na wybranym obszarze"
+"Przywoluje Oko Saurona \n Odkrywa niewidocznych wrogów \n Sojusznicy otrzymuja +25% do zadawanych obrazen, +25% do pancerza \n oraz 50% szybciej zdobywaja doswiadczenie \n Trolls earn experience +25% faster. \n «HighTierHero BUFF» \n Kliknij lewym przyciskiem myszy na ikonie a nastepnie na wybranym obszarze"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2

@@ -24,8 +24,12 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipEvilHeal09v3
+"Partially heals armies and monsters. \n Replaces 2 dead units per horde. \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
-"Gandalf the White: \n Requires Level 5 \n Gandalf's abilities gain +100% damage and cooldowns are reduced by -20%. \n Passive ability."
+"Gandalf the White: \n Requires Level 5 \n Gandalf's magic abilities deal 170% damage and cooldowns are reduced by -20%. \n Passive ability."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v3
@@ -271,7 +275,7 @@ CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
 "Mýzraklýlara karþý güçlü\n Sürü Bonusu: \n 100 birimi aþan goblin topluluklarý +%33 hasar bonusu ve +%25 hýz bonusu kazanýr. \n«HordeBonus BUFF»"
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
-"Okçulara ve Birim Üretim Binalarý'na karþý güçlü. \n Ayrýkvadi süvarileri seviye 5'te +%7 hýz kazanýr."
+"Okçulara ve Birim Üretim Binalarý'na karþý güçlü. \n Ayrýkvadi süvarileri seviye 4 & 7 'te +%4 hýz kazanýr."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Gereken Seviye: 7 \n Theoden ve yakýndaki süvariler +%99 zýrh bonusu, +%25 hasar bonusu kazanýr ve birim ezerken yavaþlamaya karþý baðýþýklýk kazanýrlar.\n Ve ayný zamanda bu süre boyunca süvariler korkusuzluk kazanýrlar. \n Theoden bu yeteneði kullanabilmek için binek üzerinde olmalýdýr. \n Etkinleþtirmek için sol týklayýn"
@@ -439,7 +443,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Sauron’un Göz’ü nü çaðýrýr. \n Gizli düþmanlarý ortaya çýkarýr. \n Müttefikler +%25 hasar bonusu ve +%25 zýrh bonusu kazanýr  \n ve +%50 daha hýzlý tecrübe kazanýr. \n Troller +%7.5 hasar bonusu ve +%7.5 zýrh bonusu kazanýr  \n ve +%15 daha hýzlý tecrübe kazanýr. \n «HighTierHero BUFF» \n Önce simgeye sonra hedefe týklayýn."
+"Sauron’un Göz’ü nü çaðýrýr. \n Gizli düþmanlarý ortaya çýkarýr. \n Müttefikler +%25 hasar bonusu ve +%25 zýrh bonusu kazanýr  \n ve +%50 daha hýzlý tecrübe kazanýr. \n Troller ve +%25 daha hýzlý tecrübe kazanýr. \n «HighTierHero BUFF» \n Önce simgeye sonra hedefe týklayýn."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2

@@ -24,8 +24,12 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipEvilHeal09v3
+"Partially heals armies and monsters. \n Replaces 2 dead units per horde. \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
-"Gandalf the White: \n Requires Level 5 \n Gandalf's abilities gain +100% damage and cooldowns are reduced by -20%. \n Passive ability."
+"Gandalf the White: \n Requires Level 5 \n Gandalf's magic abilities deal 170% damage and cooldowns are reduced by -20%. \n Passive ability."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v3
@@ -260,7 +264,7 @@ CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
 "Silní proti kopiníkùm.\n Bonus hordy: \n Skøetù musí být nejménì 100\n získají +33 % k útoku a +25 % k rychlosti. \n <HordeBonus BUFF> "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
-"Silní proti luèi¹tníkùm a \n budovám produkujícím jednotky. \n Roklin¹tí kopiníci získají na 5. úrovni +7 % k rychlosti."
+"Silní proti luèi¹tníkùm a \n budovám produkujícím jednotky. \n Roklin¹tí kopiníci získají na 4/7. úrovni +4 % k rychlosti."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Vy¾aduje 7. úroveò. \n Théoden a blízká jízda získají +99 % k obranì, \n +25 % k útoku a stanou se imunní proti zpomalení po¹lapáním. \n Jízda také získá imunitu vùèi strachu. \n Aby Théoden mohl tuto schopnost pou¾ít, musí být v sedle. \n Aktivace se provádí levým tlaèítkem my¹i."
@@ -301,7 +305,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain whose center creates a protective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, \n +25% damage and earn experience 25% faster. \n  «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Enemy cavalry deceleration rate is raised by +200%. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Creates lush terrain whose center creates a protective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, \n and earn experience 25% faster. \n  «ElvenWood BUFF» «Overrides Armor LEADERSHIP» \n Enemy cavalry deceleration rate is raised by +200%. \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 CONTROLBAR:MenWood09v2
 "Lidský les"
@@ -428,7 +432,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster.  \n Trolls gain +7.5% Damage, +7.5% Armor, \n and earn Experience +15% faster.  \n <HighTierHero BUFF> \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
+"Summons the Eye of Sauron \n Reveals stealthed enemies \n Allies gain +25% Damage, +25% Armor, \n and earn experience 50% faster.  \n Trolls earn Experience +25% faster.  \n <HighTierHero BUFF> \n Levým tlaèítkem my¹i klikni na ikonu a poté na vybranou oblast."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2

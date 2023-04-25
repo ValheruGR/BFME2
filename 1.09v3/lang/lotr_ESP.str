@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipEvilHeal09v3
+"Partially heals armies and monsters. \n Replaces 2 dead units per horde. \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
 "Gandalf el Blanco: \n Requisito: Nivel 5 \n Los hechizos de Gandalf ganan +100% al daño y se recargar un 20% más rápido. \n Habilidad pasiva."
 END
@@ -300,7 +304,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Crea una zona frondosa cuyo centro crea un escudo protector contra los conjuros Tierra Mancillada y Bosque Humano del enemigo. \n Las unidades aliadas reciben +35% a la armadura, +25% al daño, consiguen experiencia un 25% más rápido y ven incrementada su capacidad de desacelerar el pisoteo de la caballeria enemiga en un +200%. \n  «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
+"Crea una zona frondosa cuyo centro crea un escudo protector contra los conjuros Tierra Mancillada y Bosque Humano del enemigo. \n Las unidades aliadas reciben +35% a la armadura, consiguen experiencia un 25% más rápido y ven incrementada su capacidad de desacelerar el pisoteo de la caballeria enemiga en un +200%. \n  «ElvenWood BUFF» «Overrides Armor LEADERSHIP» \nHaz clic con el botón izquierdo y clic con el botón izquierdo sobre el objetivo."
 END
 CONTROLBAR:MenWood09v2
 "Bosque humano"
@@ -427,7 +431,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido.  \n Los trolls ganan +7.5% al daño, +7.5% armadura, \n y consiguen experiencia un 15% más rápido.  \n «HighTierHero BUFF» \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Convoca el Ojo de Sauron. \n Revela unidades en sigilo. \n Los aliados ganan +25% al daño, +25% a la armadura \n y consiguen experiencia un 50% más rápido.  \n Los trolls consiguen experiencia un 25% más rápido.  \n «HighTierHero BUFF» \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2

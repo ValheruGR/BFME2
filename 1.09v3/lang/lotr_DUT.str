@@ -24,8 +24,12 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipEvilHeal09v3
+"Partially heals armies and monsters. \n Replaces 2 dead units per horde. \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
-"Gandalf the White: \n Requires Level 5 \n Gandalf's abilities gain +100% damage and cooldowns are reduced by -20%. \n Passive ability."
+"Gandalf the White: \n Requires Level 5 \n Gandalf's magic abilities deal 170% damage and cooldowns are reduced by -20%. \n Passive ability."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v3
@@ -259,7 +263,7 @@ CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
 "Sterk tegen speervechters\n Horde Bonus: \n Aardmannen in groep van minstens 100 \n krijgen +33% schade +25% snelheid. \n «HordeBonus BUFF» "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
-"Sterk tegen boogschutters en \n Gebouwen die troepen produceren. \n Rivendell Lancers krijgen +7% snelheid op level 5."
+"Sterk tegen boogschutters en \n Gebouwen die troepen produceren. \n Rivendell Lancers krijgen +4% snelheid op level 4/level 7."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Nodig: niveau 7 \n Théoden en cavalerie in de buurt krijgen +99% pantser, \n +25% schade en wordt immuun tegen vertraging door vertrappelen. \n Gedurende deze tijd wordt cavalerie ook imuun tegen angst \n Théoden moet te paard zijn om de kracht te gebruiken \n Klik met links om te activeren"
@@ -300,7 +304,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creëert bosrijk terrein met mooie vogels, koeien, paarden, ... De koeien durven al wel eens kaka te doen dus je moet oppassen waar je loopt.\nAlle bevriende eenheden krijgen +35% pantser, \n +25% schade en verdienen ervaring 25% sneller \n Vijandige cavalerie vertraagd +200% sneller \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Heeft geen effect op helden \n Klik met links op het icoontje en daarna met links op het doelgebied" 
+"Creëert bosrijk terrein met mooie vogels, koeien, paarden, ... De koeien durven al wel eens kaka te doen dus je moet oppassen waar je loopt.\nAlle bevriende eenheden krijgen +35% pantser, \n en verdienen ervaring 25% sneller \n Vijandige cavalerie vertraagd +200% sneller \n «ElvenWood BUFF» «Overrides Armor LEADERSHIP» \n Heeft geen effect op helden \n Klik met links op het icoontje en daarna met links op het doelgebied" 
 END
 CONTROLBAR:MenWood09v2
 "Menselijk bos"
@@ -427,7 +431,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Roept het Oog van Sauron op\nMaakt verscholen vijanden zichtbaar\n bondgenoten krijgen +25% schade, +25% pantser, \n en verdienen ervaring 50% sneller. \n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n «HighTierHero BUFF» \nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Roept het Oog van Sauron op\nMaakt verscholen vijanden zichtbaar\n bondgenoten krijgen +25% schade, +25% pantser, \n en verdienen ervaring 50% sneller. \n Trolls earn experience +25% faster. \n «HighTierHero BUFF» \nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2

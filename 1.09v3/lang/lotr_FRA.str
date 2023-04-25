@@ -24,8 +24,12 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipEvilHeal09v3
+"Partially heals armies and monsters. \n Replaces 2 dead units per horde. \n Left click icon then left click on target area"
+END
+//------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
-"Gandalf the White: \n Requires Level 5 \n Gandalf's abilities gain +100% damage and cooldowns are reduced by -20%. \n Passive ability."
+"Gandalf the White: \n Requires Level 5 \n Gandalf's magic abilities deal 170% damage and cooldowns are reduced by -20%. \n Passive ability."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v3
@@ -260,7 +264,7 @@ CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
 "Fort contre piquiers \nBonus de horde : \n Un rassemblement de gobelins supérieur ou égal à 100 gagnent \n +33% de dégâts et +25% de vitesse. \n «HordeBonus BUFF» "
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
-"Forts contre la cavalerie,archers et bâtiments de production d'unités.\n Les lanciers Rivendell gagnent +7% de vitesse de déplacement au niveau 5."
+"Forts contre la cavalerie,archers et bâtiments de production d'unités.\n Les lanciers Rivendell gagnent +4% de vitesse de déplacement au niveau 4 et niveau 7"
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
 "Requiert : niveau 7\nThéoden et les cavaliers proches gagnent 99% d'arumres, +25% de dégâts et sont immunisés au ralentissement lors d'une charge.\nLa cavalerie est immunisé à la peur pendant la durée de l'effet.\nThéoden ne peut utiliser sa capacité que sur sa monture.\n «GloriousCharge».\nClic gauche pour activer"
@@ -301,7 +305,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Fait pousser une forêt. \nCrée une zone de protection en son centre contre la forêt homme ou la terre soullié. \nLes unités alliées gagnent +35% d'armures, +25% de dégâts et gagnent +25% d'éxpériences plus rapidement. \nLa cavalerie ennemie ralentie 200% fois plus rapidement. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \nClic gauche sur l'icône puis clic gauche sur la zone cible"
+"Fait pousser une forêt. \nCrée une zone de protection en son centre contre la forêt homme ou la terre soullié. \nLes unités alliées gagnent +35% d'armures, \n et gagnent +25% d'éxpériences plus rapidement. \nLa cavalerie ennemie ralentie 200% fois plus rapidement. \n «ElvenWood BUFF» «Overrides Armor LEADERSHIP» \nClic gauche sur l'icône puis clic gauche sur la zone cible"
 END
 CONTROLBAR:MenWood09v2
 "Forêt Homme"
@@ -428,7 +432,7 @@ CONTROLBAR:TooltipWargRiderHowl09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEyeofSauron09v2
-"Invoque l'Oeil de Sauron \nRévèle les ennemis furtifs. \nLes alliés gagnent +25% de dégâts, +25% d'armures et +50% d'expériences.\n Trolls gain +7.5% Damage, +7.5% Armor \n and earn experience +15% faster. \n «HighTierHero BUFF» \nClic gauche sur l'icône puis clic gauche sur la zone cible."
+"Invoque l'Oeil de Sauron \nRévèle les ennemis furtifs. \nLes alliés gagnent +25% de dégâts, +25% d'armures et +50% d'expériences.\n Trolls earn experience +25% faster. \n «HighTierHero BUFF» \nClic gauche sur l'icône puis clic gauche sur la zone cible."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGlorfindelStarlight09v2
