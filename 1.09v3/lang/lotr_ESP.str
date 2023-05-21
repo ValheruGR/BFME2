@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde09v3
+"Strong vs. Cavalry and \n Unit Production Buildings \n Can stealth near trees. \n Gains +4% speed at level 4, 7 and 10."
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipEvilHeal09v3
 "Partially heals armies and monsters. \n Replaces 2 dead units per horde. \n Left click icon then left click on target area"
 END

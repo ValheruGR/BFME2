@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde09v3
+"Strong vs. Cavalry and \n Unit Production Buildings \n Can stealth near trees. \n Gains +4% speed at level 4, 7 and 10."
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipEvilHeal09v3
 "Partially heals armies and monsters. \n Replaces 2 dead units per horde. \n Left click icon then left click on target area"
 END
@@ -534,10 +538,10 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Requires Level 3 \n Disguises as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn causes damage in area and extra damage against heroes. \n Lasts 30 seconds. \n Left click to activate"
+"Requires Level 3 \n Disguises as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn causes damage in area and 135% damage against heroes. \n Lasts 30 seconds. \n Left click to activate"
 END
 CONTROLBAR:ToolTipSmite09v2
-"Powerful ranged attack with damage in area. \n Area of damage is improved at level 4 and 7. \n Bonus against heroes. \n Specialy powerful against Fellbeasts. \n Bonuses against Heroes and Fellbeasts are improved at level 4 and 7. \n Left click icon then left click on target"
+"Powerful ranged attack with damage in area. \n Level 1: Area of damage: 14, 390% against Fellbeasts, 135% bonus against heroes. \n Level 4: Area of damage: 16, 450% against Fellbeasts, 150% bonus against heroes and pins them for 1 second. \n Level 7: Area of damage: 18, 478% against Fellbeasts, 165% bonus against heroes and pins them for 2 seconds. \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
 "Requires Level 5 \n Eowyn gains 35% Armor and -50% deceleration when crushing. \n Eowyn also gains another +35% armor bonus against the attacks from heroes. \n Nearby Rohirrims gain: \n -50% Deceleration when crushing.  \n Lasts 30 seconds. \n Left click to activate"
