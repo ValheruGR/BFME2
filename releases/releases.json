@@ -1,4 +1,10 @@
 {
-  "patch_version": "1.09v3 b57",
-  "app_version": "3.94"
+  "patch_version": {
+    "version": "1.09v3 b57",
+    "download_link": "https://example.com/patch_download"
+  },
+  "app_version": {
+    "version": "3.94",
+    "download_link": "https://example.com/app_download"
+  }
 }
