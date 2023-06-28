@@ -773,12 +773,76 @@ END
 Map:mapmpnothing/Desc
 "nothing"
 END
-//------------------------------------------------------------/
+//------------------------------------------------------------
+Map:mapMOeastfoldII
+"Eastfold II"
+END
+Map:mapMOeastfoldII/Desc
+"The Eastfold is a region of Rohan bordering Westfold via the Snowbourn River. The whole area was traversed by the Great West Road. \n Map by Ecthelion and Powerkartoffel. \n Originally created by Motoma for RotWK."
+END
+//------------------------------------------------------------
+Map:map_PK_gladden_fields
+"Gladden Fields"
+END
+Map:map_PK_gladden_fields/Desc
+"The Gladden Fields were a marshland located in the vale of the Gladden river, and on the banks of the river Anduin. It was there that the One Ring was lost by Isildur, and found again centuries later by Deagol the Stoor. \n Map by Powerkartoffel and Ecthelion."
+END
+//------------------------------------------------------------
+Map:map_pk_enchanted_river
+"Enchanted River"
+END
+Map:map_pk_enchanted_river/Desc
+"The Enchanted River was a black river in Mirkwood that flowed north from its source in the Mountains of Mirkwood towards the Forest River. \n Map by Powerkartoffel"
+END
+//------------------------------------------------------------
+Map:map_so_rhudaur
+"Rhudaur"
+END
+Map:map_so_rhudaur/Desc
+"Rhudaur was the eastern Kingdom of Arnor and mostly populated by the native Hill-men. Under their leader Hwaldar they joined the Witch-king in his war against the Dunedain. \n Map from RotWK, by Solas."
+END
+//------------------------------------------------------------
+Map:mapETSouthRoad
+"South Road"
+End
+Map:mapETSouthRoad/Desc
+"The South Road connects Minas Tirith with the southern Gondor havens. This wide and well-paved road goes through the lands of Lossarnach and Lebennin, crosses the river Erui and reaches Pelargir. Map by Ecthelion."
+End
+//------------------------------------------------------------
+Map:map_pk_carnen_mire
+"Carnen Mire"
+END
+Map:map_pk_carnen_mire/Desc
+"The River Carnen originated in the Iron Hills and was east of the Lonely Mountain. It flowed southward before emptying into the River Running, which was about 250 Numenorean miles to the south. This river, in turn, flowed past the land of Dorwinion and into the Sea of Rhun. \n Map by Powerkartoffel."
+END
+//----------------------------------
+Map:map_pk_stockbrook
+"Stockbrook"
+END
+Map:map_pk_stockbrook/Desc
+"The Stockbrook was a stream located in the Eastfarthing of the Shire. It joined the Brandywine after passing its namesake, the village of Stock. It had steep banks lined with brambles that gradually become lower as it heads towards the river.\n Reskin of Fords of Isen II by Powerkartoffel"
+END
+//----------------------------------
+Map:map_PK_desert_of_khand
+"Desert temple of Khand"
+END
+Map:map_PK_desert_of_khand/Desc
+"Deep in The Dune Sea a strange temple construction can be found.\n Reskin of Udun by Powerkartoffel"
+END
+//----------------------------------
+Map:map_PK_Udun_Desert
+"Ruins of old Khand"
+END
+Map:map_PK_Udun_Desert/Desc
+"Foodprints of the lost civilisation of Khand.\n Reskin of Udun II by Powerkartoffel"
+END
+//------------------------------------------------------------
 Map:map_PK_numenors_downfall
 "Numenors Downfall" 
 End
 Map:map_PK_numenors_downfall/Desc
-"An old lady sat by the sea, and all her tired eyes could see were the remains of her home being swept out to sea. She reflected on the Fall of Numenor when Sauron sent his mighty host; his many white vans were ever watchful as they abducted the nation's youth. Offering free tattoos, gauges, and CDs, Sauron eroded the trust between father and son, replacing the once rich culture with Eru Iluvatar's homosexual fantasies. Slowly but surely, as they rebelled against their poor parents whose love was no match for Iluvatars corruption, the nation soon crumbled as his main forces raped the land in its state of weakness. The island nation had turned into a gray collection of ruins, dead hopes, and crushed dreams. The old woman takes a drag off her cigarette and sung a line from her favorite song from the Sauron Youth program, "there is no sunshine, just dark clouds with an endless rain of tears...  \n Map by Powerkartoffel"
+"'For Melkor's sake! Why won't this rain ever stop?' Cursed Kevin. Once again, he failed. His 5th attempt with the rotten wood to make his farewell-from this god-forsaken island. He was the prodigy of Numero's boatman's trade guild, designer of the "Azrubel", a ship with a wide hull and narrow waterline which made the journey to Belfast in 4 weeks. And now THIS... 'Stop swearing! I can't take this anymore; I'm going to gather wood with Johan.' Sarah van Botenbirken, the firstborn of her house, ran away from her father to marry Kevin and start a new life. This was in the Age of Enlightment before the Downfall. Now her father, who was obsessed with Iluvatar's false dogmas, is drowning in the depths of the Ocean. This woman, once with a will of iron and a cunning smile, is now broken by this bastard's illness with a voice of sadness and eyes filled with  tears. While Kevin blamed all his misfortunes on the child with the flaming red hair, Sarah lived every day in nostalgia of the days with her family. \n Map by Powerkartoffel"
+//An old lady sat by the sea, and all her tired eyes could see were the remains of her home being swept out to sea. She reflected on the Fall of Numenor when Sauron sent his mighty host; his many white vans were ever watchful as they abducted the nation's youth. Offering free tattoos, gauges, and CDs, Sauron eroded the trust between father and son, replacing the once rich culture with Eru Iluvatar's homosexual fantasies. Slowly but surely, as they rebelled against their poor parents whose love was no match for Iluvatars corruption, the nation soon crumbled as his main forces raped the land in its state of weakness. The island nation had turned into a gray collection of ruins, dead hopes, and crushed dreams. The old woman takes a drag off her cigarette and sung a line from her favorite song from the Sauron Youth program, "there is no sunshine, just dark clouds with an endless rain of tears...
 End
 //------------------------------------------------------------/
 Map:map_PK_port_linhir
@@ -837,11 +901,11 @@ Map:map_pk_gardens_of_far_harad/Desc
 "The Gardens of Far Harad were described as a remarkable feat of engineering with an ascending series of tiered gardens containing a wide variety of trees, shrubs, and vines, resembling a large green mountain constructed of mud bricks. \n Map by Powerkartoffel."
 End
 //------------------------------------------------------------
-Map:map_PK_iron_mountains_ii
+Map:map_PK_iron_mountains_II
 "Iron Mountains II" 
 End
-Map:map_PK_iron_mountains_ii/Desc
-"The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs 2 Dragons 2 Goblins \n Capture: 2 Signal Fires \n Size: Large 1v1 \n Map by Powerkartoffel"
+Map:map_PK_iron_mountains_II/Desc
+"The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs, 2 Trolls, 2 Dragons, 2 Goblins \n Capture: 2 Signal Fires, 2 Inns \n Size: Large 1v1 \n Map by Powerkartoffel"
 End
 //------------------------------------------------------------
 Map:map_PK_Last_Bridge
@@ -935,10 +999,10 @@ Map:mapTTbaranduin/Desc
 "The Baranduin River of Eriador is known by the Hobbits as the Brandywine River. It marks the the boundary between the known and the unknown. \n Map by Temptation."
 END
 //------------------------------------------------------------
-Map:map_PK_canyons_of_khand
+Map:map_pk_canyons_of_khand
 "Canyons of Khand" 
 End
-Map:map_PK_canyons_of_khand/Desc
+Map:map_pk_canyons_of_khand/Desc
 "Khand was the name of a land which lay to the south of Mordor and the east of Near Harad. Little is known about Khand or its people, but it was most likely a dry and barren land covered in desert. \n Map by Powerkartoffel."
 End
 //------------------------------------------------------------

@@ -52,7 +52,7 @@ Map:CowlandsTowerDefense3p
 	// Tower War: The Cow Lands [3p]
 End
 Map:CowlandsTowerDefense3p/Desc
-"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 5.66 \n Made with a lot of love for patch 1.09. \n Developed during 2018-2022 by Ecthelion. \n ______________________________________ \n MULTIPLAYER: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n  ______________________________________ \n SINGLEPLAYER: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
+"Do you want to chill and relax? Win the map with your friends? Play in one place while managing heroes? Do you want them to actually level up in time? Most important, do you want to have fun and be happy? Then this is not your kind of map. \n *This is Bos Primigenius Taurus: Build 5.71 \n Made with a lot of love for patch 1.09. \n Developed during 2018-2022 by Ecthelion. \n ______________________________________ \n MULTIPLAYER: \n a] 2p mode is setup automaticaly on any spot. \n b] HardMode can be setup by ticking RingHeroes or in game, placing a beacon on the biggest cow of bottom right. \n c] EasyMode is enabled ingame, placing a beacon on the small cow of bottom right. \n d] If you forget to team up, other players will be allied but kill-counters won't work. \n  ______________________________________ \n SINGLEPLAYER: \n a] 1p mode is setup automaticaly spotting on the left side without ticking RingHeroes. \n b] HardMode is enabled ingame, scrolling down the camera over the biggest cow of bottom right. \n c] EasyMode is enabled ingame, scrolling down the camera over the small cow of bottom right."
 	// \n Thorin sucks
 	// \n*Ring heroes enables COW aspirants friendly mode* 
 	// \n Factions available are Dwarf, Men, Elves & Mordor, yet you can go random. \n Isengard & Goblins coming soon.
@@ -146,6 +146,13 @@ END
 //UPGRADE:SmaugDesc_New
 //"Why is ecth so pro?"
 //End
+//------------------------------------------------------------
+CONTROLBAR:ConstructRohanRohirrimHorde_New
+"&Rohirrim Archer"
+END
+CONTROLBAR:ToolTipBuildRohanRohirrimHorde_New
+"Requires Level 2 Stables \n Strong vs. Cavalry and Archers"
+END
 //------------------------------------------------------------
 UPGRADE:RohanMirkRider_New
 "Research MirkRider Ability (&T)"
@@ -621,18 +628,21 @@ END
 OBJECT:BalrogBlue_New
 "Ice Demon"
 END
+
 CONTROLBAR:SpecialAbilityIgniteBlue_New
 "Ancient demon mode (&R)"
 END
 CONTROLBAR:ToolTipSpecialAbilityIgniteBlue_New
 "The demon gains +100% damage, \n +50% armor and +15% speed. \n Left click to activate"
 END
+
 CONTROLBAR:SpecialAbilityFireWhipBlue_New
 "Freezeing Whip (&T)"
 END
 CONTROLBAR:ToolTipSpecialAbilityFireWhipBlue_New
 "Attacks with a freezeing whip. \n Paralyzes the targets. \n Left click icon then left click on target"
 END
+
 CONTROLBAR:SpecialAbilityBalrogBreathBlue_New
 "Cold Breathe (&V)"
 END
@@ -641,11 +651,23 @@ CONTROLBAR:ToolTipSpecialAbilityBalrogBreathBlue_New
 ///Requires Level 5 \n 
 END
 //------------------------RedBalrog-----------------------
+CONTROLBAR:SpecialAbilityFireWhip_New
+"Fire Whip (&T)"
+END
+
 CONTROLBAR:SpecialAbilityIgniteRed_New
-"&Ignite"
+"Ignite (&R)"
 END
 CONTROLBAR:ToolTipSpecialAbilityIgniteRed_New
 "The Balrog gains +100% damage, +50% armor and +15% speed. \n Left click to activate"
+END
+
+CONTROLBAR:SpecialAbilityBalrogScream_New
+"Scream (&C)"
+END
+
+CONTROLBAR:SpecialAbilityBalrogBreath_New
+"Breathe Fire (&V)"
 END
 //---------------------------------------------------
 CONTROLBAR:FueltheFires_New
@@ -683,7 +705,7 @@ CONTROLBAR:FalseEncouragement_New
 "False Encouragemen&t"
 END
 CONTROLBAR:FalseEncouragementDesc_New
-"Requires Level 3 \n Convinces enemies within a small radius to ignore their original orders, break formation and advance alone. \n Target units healthpoints are reduced to 45%, \n damage is reduced to 50%, but speed is increased to 180%. \n Affects allies. \n Lasts 45 seconds. \n Left click icon then left click on target units"
+"Requires Level 3 \n Convinces enemies within a small radius to ignore their original orders, break formation and advance alone. \n Target units healthpoints are reduced to 60%, \n damage is reduced to 50%, but speed is increased to 180%. \n Affects allies. \n Lasts 45 seconds. \n Left click icon then left click on target units"
 END
 //-----
 CONTROLBAR:IsengardTrainAllies_New
@@ -1694,7 +1716,7 @@ CONTROLBAR:HaldirGoldenArrow_New
 "Golden Arrow [&B]"
 END
 CONTROLBAR:ToolTipHaldirGoldenArrow_New
-"Requires Level 10 \n A high damage attack that causes metaimpact \n Stuns enemy units. \n Effective against mounted heros.\n Can only use with bow equipped \n Left click icon then left click on target" 
+"Requires Level 10 \n A high damage attack that causes metaimpact, inflicts siege damage. \n Creates a beam of light that stuns sensitive units in a large radius for 10 seconds. \n The beam of light also stuns any other normal infantry unit in a small radius and during the half of duration. \n Can only use with bow equipped \n Left click icon then left click on target" 
 END
 //---------------------------------------------------
 CONTROLBAR:GloriousCharge_New
@@ -2214,8 +2236,8 @@ CONTROLBAR:MordorFreeTrade_New
 "Free Trade"
 End
 CONTROLBAR:MordorFreeTradeDesc_New
-//BUNITO_ESSAY//"Behind the romantizacion of the economic freedoom, the oligarchy of Harad has made a deal with the foreign capital, mostly with Mordor but also Gondor. \n Harad will become a enclave dedicated to cattle raising and monoculture. \n The lords of the land will have deals with the goverment, unless this oligarchy is already in charge of the state obviously. \n Increases the fortress and slaughter house incomes by 100%"//BUNITO_ESSAY//
-"Raises the Fortress and Slaughter House incomes by +60% \n Left click icon then left click on the Fortress to activate"
+"Behind the romantizacion of the economic freedoom, the oligarchy of Harad has made a deal with the foreign capital, mostly with Mordor but also Gondor. \n Harad will become a enclave dedicated to cattle raising and monoculture. \n The lords of the land will have deals with the goverment, unless this oligarchy is already in charge of the state obviously. \n Increases the fortress and slaughter house incomes by 100%"//BUNITO_ESSAY//
+//BUNITO_ESSAY//"Raises the Fortress and Slaughter House incomes by +60% \n Left click icon then left click on the Fortress to activate"
 End
 //-------------------------------------------------
 CONTROLBAR:ConstructSoyTaxesUpgrade
@@ -2621,10 +2643,10 @@ TOOLTIP:ToolTipPurchasedUpgradeFortressHealing_New
 END
 //--------------------------------------------------//
 OBJECT:RhunWindMill_New
-"Cowlands Wind mill"
+"Cowlands Wind Mill"
 END
 OBJECT:RhunWindMillDesc_New
-"Capture if you want to want to know what it provides"
+"Capture it to enable a special game mode."
 END
 //--------------------------------------------------//
 GUI:STRUCTURE_WALL_DISCOUNT_New
@@ -2634,7 +2656,7 @@ GUI:SpellBookRefreshReduction09v2_New
 "Powers and abilities: \n Reload bonus: %d%%"
 End
 GUI:CuriousIdiotBonus_New
-"Greedy-curious \n idiot-bonus: \n Production -%d%%"
+"Special Mode: \n Creeps health \n and speed get \n reduced -%d%% but \n gain knockback \n immunity."
 END
 GUI:UNITDiscount_New
 "Local units \n discount: -%d%%"
@@ -2689,7 +2711,7 @@ SCRIPT:BonusForWipingArmy300FINAL
 End
 //--------------------------------------------------//
 SCRIPT:CowMapScore
-"CowMap score:"
+"Team score:"
 End
 SCRIPT:t_VictoryText00_A
 "Congratulations, you have won the cowmap without challenge."
@@ -2697,12 +2719,23 @@ End
 SCRIPT:t_VictoryText00_A2
 "Qualification: *A* \n You are ready to play the next level of difficulty."
 End
+
+
+
+
+
+
 SCRIPT:t_VictoryText00_B
 "Congratulations, you have won the cowmap fair and square."
 End
 SCRIPT:t_VictoryText00_B2
 "Qualification: *B* \n You are not ready for the next level of difficulty."
 End
+
+
+
+
+
 SCRIPT:t_VictoryText00_C
 "Congratulations, you have luckily won the cowmap."
 End
