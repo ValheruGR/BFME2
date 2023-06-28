@@ -536,13 +536,13 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Voraussetzung Level 3 \n Verkleide dich als normaler Rohirrim, trage seine Rüstung und kämpfe wie einer von ihnen. \n Eowyn verursacht Schaden im Bereich \n Linksklick zum Aktivieren"
+"Voraussetzung Level 3 \n Verkleide dich als normaler Rohirrim, trage seine Rüstung und kämpfe wie einer von ihnen. \n Eowyn verursacht Schaden im Bereich and deals +25% damage against heroes \n Linksklick zum Aktivieren"
 END
 CONTROLBAR:ToolTipSmite09v2
-"Mächtiger Fernkampfangriff \n Bonus gegen Helden \n Besonders mächtig gegen Fellbestien \n Linksklick-Symbol, dann Linksklick auf das Ziel"
+"Powerful ranged attack with damage in area. \n Level 1: Tiny damage in area. 400% damage against fellbeasts, 130% against heroes. \n Level 4: Improved damage in area. 430% damage against fellbeasts, 145% against heroes and pins them for 1 second.  \n Level 7: Wide damage in area. 460% damage against fellbeasts, 160% against heroes and pins them for 2 seconds. \n Linksklick-Symbol, dann Linksklick auf das Ziel"
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Voraussetzung Stufe 5 \n Eowyn erhält 35 % Rüstung \n Halbiert die Verzögerungsrate befreundeter Rohirrim beim Überreiten \n Linksklick zum Aktivieren"
+"Requires Level 5 \n Eowyn gains 35% Armor and -50% deceleration when crushing. \n Eowyn also gains another +35% armor bonus against the attacks from heroes. \n Nearby Rohirrims gain: \n -50% Deceleration when crushing.  \n Lasts 30 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipSunflare09v2

@@ -320,7 +320,7 @@ CONTROLBAR:TooltipFarSight09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain whose center creates a protective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% armor, +25% damage and %25 daha hýzlý tecrübe kazanýr. \n «ElvenWood BUFF» «Overrides Damage LEADERSHIP» \n Enemy cavalry deceleration rate is raised by +200%. \n Önce simgeye sonra hedefe týklayýn"
+"Creates lush terrain whose center creates a protective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% Armor \n and earn Experience 25% faster. \n  «ElvenWood BUFF» «Overrides Armor LEADERSHIP» \n Enemies suffer +200% Deceleration when crushing. \n Önce simgeye sonra hedefe týklayýn"
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -547,13 +547,13 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Gereken Seviye: 3 \n Disguise as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn deals damage in area \n Etkinleþtirmek için sol týklayýn"
+"Requires Level 3 \n Disguises as a normal Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn causes damage in area and +25% damage against heroes. \n Lasts 30 seconds. \n Etkinleþtirmek için sol týklayýn"
 END
 CONTROLBAR:ToolTipSmite09v2
-"Powerful ranged attack \n Bonus against heroes \n Specialy powerful vs Fellbeasts \n Önce simgeye sonra hedefe týklayýn"
+"Powerful ranged attack with damage in area. \n Level 1: Tiny damage in area. 400% damage against fellbeasts, 130% against heroes. \n Level 4: Improved damage in area. 430% damage against fellbeasts, 145% against heroes and pins them for 1 second.  \n Level 7: Wide damage in area. 460% damage against fellbeasts, 160% against heroes and pins them for 2 seconds. \n Önce simgeye sonra hedefe týklayýn"
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Gereken Seviye: 5 \n Eowyn gains 35% Armor \n Halves the deceleration rate of friendly Rohirrim when trampling \n Etkinleþtirmek için sol týklayýn"
+"Requires Level 5 \n Eowyn gains 35% Armor and -50% deceleration when crushing. \n Eowyn also gains another +35% armor bonus against the attacks from heroes. \n Nearby Rohirrims gain: \n -50% Deceleration when crushing.  \n Lasts 30 seconds. \n Left click to activate"
 END
 //        \n Cancels Shield Maiden bonus.
 //        \n Cancels the disguise

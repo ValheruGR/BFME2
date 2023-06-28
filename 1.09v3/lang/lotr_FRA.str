@@ -536,13 +536,13 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Requiert : niveau 3\nSe déguise comme un Rohirrim, portant leur armement et se battant comme l'un d'entre eux.\nLes attaques d'Eowyn font des dégâts de zone.\nle bonus Clic gauche pour activer."
+"Requiert : niveau 3\nSe déguise comme un Rohirrim, portant leur armement et se battant comme l'un d'entre eux.\nLes attaques d'Eowyn font des dégâts de zone and deal +25% damage against heroes.\nle bonus Clic gauche pour activer."
 END
 CONTROLBAR:ToolTipSmite09v2
-"Puissante attaque à distance.\nBonus contre les héros.\nParticulièrement puissante contre les monstres volants.\nClic gauche sur l'icône puis clic gauche sur la cible."
+"Puissante attaque à distance with damage in area. \n Level 1: Tiny damage in area. 400% damage against fellbeasts, 130% against heroes. \n Level 4: Improved damage in area. 430% damage against fellbeasts, 145% against heroes and pins them for 1 second.  \n Level 7: Wide damage in area. 460% damage against fellbeasts, 160% against heroes and pins them for 2 seconds. \nClic gauche sur l'icône puis clic gauche sur la cible."
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Requiert : niveau 5\nEowyn gagne +35% d'armure.\nReduit de moitié le ralentissement des rohirrim lors d'une charge.\nClic gauche pour activer."
+"Requires Level 5 \n Eowyn gains 35% Armor and -50% deceleration when crushing. \n Eowyn also gains another +35% armor bonus against the attacks from heroes. \n Nearby Rohirrims gain: \n -50% Deceleration when crushing.  \n Lasts 30 seconds. \n Left click to activate"
 END
 //	\nAnnule le bonnus de porteuse de bouclier
 //	\nAnnule le déguisement.

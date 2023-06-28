@@ -535,13 +535,13 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Nodig: niveau 3 \n Vermommen als een normale Rohirrim. \n Eowyn doet schade in een gebied \n Klik met links om te activeren"
+"Nodig: niveau 3 \n Vermommen als een normale Rohirrim, wearing it's armament and fighting like one of them. \n Eowyn doet schade in een gebied and +25% damage against heroes. \n Lasts 30 seconds. \n Klik met links om te activeren"
 END
 CONTROLBAR:ToolTipSmite09v2
-"Krachtige afstandsaanval op één enkel doelwit \n Effectief tegen helden \n Vooral effectief tegen vliegende monsters\n\nKlik met links op het icoontje en daarna met links op het doelwit"
+"Powerful ranged attack with damage in area. \n Level 1: Tiny damage in area. 400% damage against fellbeasts, 130% against heroes. \n Level 4: Improved damage in area. 430% damage against fellbeasts, 145% against heroes and pins them for 1 second.  \n Level 7: Wide damage in area. 460% damage against fellbeasts, 160% against heroes and pins them for 2 seconds. \n Vooral effectief tegen vliegende monsters\n\nKlik met links op het icoontje en daarna met links op het doelwit"
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Nodig: niveau 5 \n Eowyn krijgens 35% pantser \n Halveert de vertraging van bevriende Rohirrim bij vertrappelen \n Klik met links om te activeren"
+"Requires Level 5 \n Eowyn gains 35% Armor and -50% deceleration when crushing. \n Eowyn also gains another +35% armor bonus against the attacks from heroes. \n Nearby Rohirrims gain: \n -50% Deceleration when crushing.  \n Lasts 30 seconds. \n Left click to activate"
 END
 //	\n Verwijderd Schildmaagd bonus.
 //------------------------------------------------------------
