@@ -1,12 +1,12 @@
 {
   "patch_version": {
     "version_name": "1.09v3 ß60",
-    "file_name": "LATEST_109v3_BETA.7z",
-    "link": "https://github.com/ValheruGR/BFME2/raw/master/releases/109v3/LATEST_109v3_BETA.7z"
+    "file_name": "LATEST_109v3_BETA_60.7z",
+    "link": "https://github.com/ValheruGR/BFME2/raw/master/releases/109v3/LATEST_109v3_BETA_60.7z"
   },
   "app_version": {
-    "version_name": "3.94",
-    "file_name": "BFME2 Pendogolphs 03 Updater.exe",
-    "link": "https://example.com/app_download"
+    "version_name": "4.08",
+    "file_name": "SWITCHER_UPDATE_408.exe",
+    "link": "https://github.com/ValheruGR/BFME2/raw/master/releases/Switcher/SWITCHER_UPDATE_408.exe"
   }
 }
