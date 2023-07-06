@@ -774,6 +774,13 @@ Map:mapmpnothing/Desc
 "nothing"
 END
 //------------------------------------------------------------
+Map:map_pk_carrock
+"Carrock"
+END
+Map:map_pk_carrock/Desc
+"The Carrock was a stony eyot in the upper reaches of the River Anduin, to the north of the Old Ford. The river looped around the rock although there was a ford of stones to the eastern bank, while there was a swirling channel under its western cliff. At the base was a little cave with adjacent steps that led to a flat space upon the top. \n Map by Powerkartoffel."
+END
+//------------------------------------------------------------
 Map:mapMOeastfoldII
 "Eastfold II"
 END
