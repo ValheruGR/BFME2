@@ -252,7 +252,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Voraussetzung: Stufe 10 \n Die Spezialfähigkeit-Timer der Helden im Umfeld des Effekts werden auf "80% verwendet" gesetzt. \n Feindliche Helden um den Hexenkönig erleiden -25 % Schaden.   \n Linksklicke auf das Symbol und anschließend auf ein Gebiet"
+"Voraussetzung: Stufe 8 \n Die Spezialfähigkeit-Timer der Helden im Umfeld des Effekts werden auf "80% verwendet" gesetzt. \n Feindliche Helden um den Hexenkönig erleiden -25 % Schaden.   \n Linksklicke auf das Symbol und anschließend auf ein Gebiet"
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Die Ressourcenausgabe des ausgewählten Gebäudes wird vorübergehend auf 300 % erhöht. \n Linksklick auf das Symbol und dann Linksklick auf das Zielressourcengebäude "

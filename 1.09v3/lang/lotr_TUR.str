@@ -261,7 +261,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Gereken Seviye: 10 \n Hedef alandaki düþman kahramanlarýn özel yeteneklerini %80 kullanýlmýþ hale getirir. \n Cadý Kral'ýn yanýndaki düþman kahramanlarýn hasarý -%25 azalýr. \n Önce simgeye sonra hedef noktaya týklayýn"
+"Gereken Seviye: 8 \n Hedef alandaki düþman kahramanlarýn özel yeteneklerini %80 kullanýlmýþ hale getirir. \n Cadý Kral'ýn yanýndaki düþman kahramanlarýn hasarý -%25 azalýr. \n Önce simgeye sonra hedef noktaya týklayýn"
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Seçilen ekonomi binasý bir süreliðine +%300 kazanç saðlar. \n Önce simgeye sonra hedefe týklayýn resource structure"

@@ -251,7 +251,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Wymaga 10 poziomu \n Liczniki specjalnych zdolnosci u wskazanego bohatera przeciwnika zostaja zresetowany do 80% zuzycia.  \n Enemy heroes around Witch King suffer -25% damage.  \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
+"Wymaga 8 poziomu \n Liczniki specjalnych zdolnosci u wskazanego bohatera przeciwnika zostaja zresetowany do 80% zuzycia.  \n Enemy heroes around Witch King suffer -25% damage.  \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "Selected structure's resource output is temporarily raised to 300%. \n Left click icon then left click on target resource structure"

@@ -250,7 +250,7 @@ UPGRADE:AutohealUpgradeBasic09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHourOfTheWitchKing09v2
-"Requiert : niveau 10 \n Réinitialise dans la zone d'effet, les compteurs de compétences spéciales des héros ennemis de 80%. \n Les héros autour du Roi Sorcier souffre d'un malus de -25% de dégat.  \nClic gauche sur l'icône puis clic gauche sur la zone ciblée."
+"Requiert : niveau 8 \n Réinitialise dans la zone d'effet, les compteurs de compétences spéciales des héros ennemis de 80%. \n Les héros autour du Roi Sorcier souffre d'un malus de -25% de dégat.  \nClic gauche sur l'icône puis clic gauche sur la zone ciblée."
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
 "La production de ressources de la structure sélectionnée augmente temporairement de 300% par rapport à la production actuelle. \nClic gauche sur l'icône puis clic gauche sur la structure de production de ressources."
