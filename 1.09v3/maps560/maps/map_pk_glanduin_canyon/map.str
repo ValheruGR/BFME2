@@ -2,11 +2,17 @@
 Map:map_pk_glanduin_canyon
 "Glanduin Canyon"
 END
-
 Map:map_pk_glanduin_canyon/Desc
 "The Glanduin was a river in the region of Eriador in Middle-earth and an eastern arm of the Gwathlo. \n Map by Powerkartoffel."
 END
-
+//----------------------------------
 OBJECT:MercenaryCamp_New
 "Mercenary Camp"
 END
+OBJECT:DunlandHallTooltip_New
+"Dunland House"
+End
+TOOLTIP:DunlandHallDesc_New
+"Allows training of Dunland Men"
+End
+//----------------------------------
