@@ -3,3 +3,1848 @@
 ## Changelog
 
 ### Regards, Ecthelion
+
+//---------------------------------------------------------------------------------------------------------------;;
+;;--------------------------------------BFME2 1.09v3 Changelog per BUILD-----------------------------------------;;
+;;------------------------------------------------ok. Index.log--------------------------------------------------;;
+;;---------------------------------------------------Title.log---------------------------------------------------;;
+//---------------------------------------------------------------------------------------------------------------;;
+	
+	
+//...............................................................................................................//
+//...............................................................................................................//
+//...............................................................................................................//
+//...............................................................................................................//
+//............................................          ....  ...................................................//
+//...............................         ..',,;;:;;;:::ccc:;;;,''..................................Index-log....//
+//..........................',,;;;,,;;:::ccoxkkkkkkkkkkkxkkxxkxxxddc;'...........................................//
+//........................,coddoooooddxxxxkOkkOOkkxxxxxxxxxxxxxxxxkxxdl,.............................Motw-log....//
+//...................';:ldxddoooooddxdxxdxOOkkOOOkxxxxxkxxxxxdoddxxxxxxxoc:'........................Elves-log....//
+//................;cdxkkxxxxxddddddxxxxxkOOOkOOkkOOkkkOkkkkkkdoddxxkkkkkkkxo:'.''.................Dwarves-log....//
+//.............,lxOkkkxxxkkOOkxxxxxxxxkkkkOOOOOOOOOOkOOkkkkOOkxxkkkOOkkkO000Oxccodo;. .............Mordor-log....//
+//............,xOOOkkkkkkkOOkkkkkkOOkkkOOkkkkkkkkkOOOkkkOOOOOOOOkO000OkOKNNNNXKxlldxc............Isengard-log....//
+//............lOOOOOOkkOOO00OOOOOOOkkkOkkkkOOkkkkOOOOOkO000OO0OO00000OO0XNWWWNNXOdooc''...........Goblins-log....//
+//...........;k0000OOOOO000KKK00OOkkkkxkkkOOOkkOOOOOOOOO0000000000000O00XNWWWNNX0kkxd:...........................//
+//..........,xO0000000O0000KKKK00OOkkkkOOOOOOOOOO0000000000000000K00000KXNWWWNXK0000Od'.........SpellBook-log....//
+//.........;ocoO0000000000KKKKK00000OOOOOOO0000KKK000000K0000KKKKK0000KKKXNNXKK00KK00o'............Global-log....//
+//...... .lo. ,k0000000KKKKKXXKK000000000000KKKKXKKK000KKK00KKKKKK00000KKKKXXXKKKKK00o'..............Maps-log....//
+//...    ,x:. .d00000KKKKXXXXXXKKKKKKKKKKKKKKKKXKKKKKKKKXXKKKKKXXKK00000KKKXXXXKKK0OOx,..........LogNotes-log....//
+//..  .;:dk:'..oOO00KKKKXXXXXKKKK0000KKKKKKKKKKXKKKKKKKKXXXXXXXXXKK0OOOO0KKXXK0OkkOOkx:..........BetaBoys-log....//
+//.. .:dool:;..lO00KKKKXXXXK00O0000000000KKKKKXXKKKKKKXXXXXXXXXXKK0OxdxO00KKKK0Okxkkkxo'.........................//
+//..   .';clc..lO0KKKKXXXKKOOxdddkOOOkkkOO00KKKKKKXXXXXXXXXXXXXXK0OkolxOkxxO0KK00Okxxxxo;........................//
+//..    .:cc;,ck00KKXXXK0kxkxdddddolloodxkO000K000KXXXXXXXXXXXXXXKkdlcdOOkkk0KKK0kkxxxxxdc'......................//
+//........'':k0000KKXOo;'.;OOkO00Oc..,,,,;;;;;;;,,:x0KXXXXXXXXXXXXKOdlldOKKKKKK0OOOkxxkkxxl'.....................//
+//..........o00000Odc'. ..dXKKKKOc.  ... ..   .....';oKXXXXXXKKK0Okxdollok0XXKKKOOO0OkxxkOOl.....................//
+//.........'d000x:'......'kXXKX0;..................  'dKXKKXOllOK0OOo'...';oOKXKK00K0kkkOOOx,....................//
+//.........cO0Oc......... .d0KKd.................... .'dKKKXd. .lOXXKc. .. .,ldxxkOOkOO00kdo:....................//
+//....... 'xKOc............'d0Kk;..................... 'x00Kl    'xKXx'...........''';cdxool,'...................//
+//........:O0d'.............'oO0k;.....................'oO00;     ,OXO,........  ....  .',,'.....................//
+//........l0k;................:xOk:.....................;OKO;     :OK0;..........................................//
+//........ckk,.................,:dkdc'.'................,k00o.   .o0Kx' .........................................//
+//.........lxc''.................':loc,'.................lkOOc.  'lll,...........................................//
+//.........,,'......................'................. ..':odol,.,'..............................................//
+//.....................................................  ....''','...............................................//
+//...............................................................................................................//
+
+
+
+
+ //AndyAutistRequests//
+
+
+
+//-------------------------------------------------------------------------------;;
+;;---------------------BFME2 Patch 1.09v3 Changelog per Build--------------------;;
+ ;;------------------------------------------------------------------------------;;
+//-------------------------------------------------------------------------------;;
+Pendogolph Switcher:
+	-Fixed out of memory crashes for v2 and v3.
+	-Fixed autodefeat for all versions.
+	-Added 450 zoomout for 1.00/1.06.
+	-
+	-Beta58: included 4gb fixer for 1.09v3 in Pendogolphs switcher
+	
+	
+	
+	
+	
+	
+Beta60 2.0
+	-Beta60.1: Maps: Updated Glanduin Canyon to v8 from v7.
+	-Beta60.1: Maps: Added Mering Stream II by Potato. v6.
+	-Beta60.1: readded grey color for retards.
+	-Beta60.1: MordorWitchKing Hour of the WitchKing set to level 8 from level 10.
+	-Beta60.1: ElvenArwen athelas set to level 6 from 8.
+	-Beta60.1: Glorfindel starlight now only provides 35% damage but cannot be debuffed. 
+	-Beta60.1: ElrondElvenGrace reload time now 100 seconds from 90. (just like boromir, which was also changed from 90 to 100 few years ago)
+	-Beta60.1: MordorMouthOfSauron mounted speed now 95 from 90. (Just like gandalf, which was also changed 95 from 90 few years ago)
+	-Beta60.1: FixedErebor without actually deleting the intended clouds. (previosuly fixed by removing them entirely)
+	
+	
+	
+	
+	-Beta60.1: MordorMumakil damage against fortress now 92.5% from 85%. (Originally 100%). //Compensation now that fortress have easy access to fire and even dwarf fortress can hold itself better against mumakils.
+
+
+	-Beta60.1: GondorBattleTower buildcost 450 from 350.
+	-Beta60.1: GoblinSpiderLing buildtime restored to 30 from 28.
+	-Beta60.1: DwarvenAxeThrower total damage in level 10 now x2.625, from x2.71. //Played with x2.95
+	-Beta60.1: ElvenLorienArcher total damage in level 10 now x2.525, from x2.55. //Played with x2.65
+	-Beta60.1: MenOfDale armor damage taken by SLASH now 135%/75% from 150%/75%.
+	-Beta60.1: MenOfDale armor damage taken by URUK now 90%/50% from 100%/50%.
+	-Beta60.1: MenOfDale damage gains are no longer considered Elite (whose damage gains were reduced in this patch). (Hence they are improved in b60.1 from b60)
+
+	
+Beta60 1.0
+	-Beta60.1: Maps: Potatoes: Added Glanduin Canyon v7
+	-Beta60.1: Maps: Potatoes: Updated Carnen Mire to v15(minimap)
+	-Beta60.1: Maps: Potatoes: Updated carrock to v9(broken water color fix)
+	-Beta60.1: Maps: Potatoes: Added Moria v5.
+	-Beta60.1: Maps: Potatoes: re-Added numenordownfalls. (v12 but less autistic description.)
+
+
+
+	-Beta60.1: MordorWorkers from lumbermill can now display damage.
+	-Beta60.1: -DwarvenPhalanxPike attackrange now 32 from 30. (Towerguard/IsenPikeman are 35)
+	-Beta60.1: -ElvenMithlondSentry attackrange now 33 from 30. (Towerguard/IsenPikeman are 35)
+	-Beta60.1: -MordorEasterling attackrange now 33 from 30. (Towerguard/IsenPikeman are 35)
+	-Beta60.1: GoblinSpiderling armor against pierce now 80% from 69%. //played with 73% (Originally 100%)
+	-Beta60.1: GondorArcher damage against GoblinSpiderling 115% from 125%. (Basicaly we keeping beta60 relationship for Men)
+	-Beta60.1: GondorRanger damage against spiderling 110%/100% from 121%/117%. (Basicaly we keeping beta60 relationship for Men)
+	-Beta60.1: ElvenLorienArcher damage against IsengardWargRider restored to 100%, from 110%. (Added in v2, unneeded this days)
+	-Beta60.1: ElvenLorienArcher damage against GoblinSpiderling restored to 100% from 95%. (Penalties started in 109v1 and 109v2. Obsolete with fixed spiderling attack behavior)
+	-Beta60.1: Eagles -10% penanalty against general structures removed, but it keeps affecting economical structures. (This means eagles are now better against barracks)
+	
+	
+Beta60	//Logged
+	-Beta60: GondorArcherEarlyBuffLateNerf. GondorArcher experience required for level 2 now 45 from 50 (Originally 50, was 30 in bt2dc, 35 in 1.09v1)
+	-Beta60: GondorArcherEarlyBuffLateNerf. GondorArcher experience required for level 5 now 225 from 170. (Basic infantry is 250)
+	-Beta60: GondorArcherEarlyBuffLateNerf. GondorArcher experience required for level 10 now 495 from 470. (Basic infantry is 550
+	-Beta60: GondorArcherEarlyBuffLateNerf. GondorArcher damage gains at even/uneven ranks now +3/+7 instead of +7/+3. (Total dmg in lvl10 now 73 from 75. //played with 77)
+	-Beta60: RohanEowyn disguised damage gainst heroes now 125% from 135%.
+	-Beta60: RohanEowyn smite damage against fellbeasts at level 1/4/7 now 400%/430%/460% from 391%/435%/470% respectively.
+	-Beta60: RohanEowyn smite damage against heroes at level 1/4/7 now 130%/145%/160% from 135%/150%/165% respectively.
+	-Beta60: RohanEowyn dismounted armor reverted to HeroArmor. 
+	
+	
+	-Beta60: DwarvenMenOfDale summon sound from the Hobbit horn sound is now combined with original one.
+	-Beta60: Dwarven RoyalGuard hordes experience level reverted to level 5, instead of level 10. (Intended to be level 5 in earlier betas but i forgot to remove the actual modifiers, so had no effect)
+	-Beta60: DwarvenRebuild icon now blueish background, differencing from RC and matching more with the actual FX.
+	-Beta60: DwarvenBattleWagon MenOfDale damage against flyers 75% from 100%. (Since they do shot properly now, they pwn.)
+	-Beta60: DwarvenGuardian damage against MordorWarrior now deals 100% from 90%. //Played with 95%
+	-Beta60: NonFlamingFortressBonusVsMonster. DwarvenFortress ForgedBlades now deals 550%, 400% and 240% against MordorMumakil, Ents, and Giants, from 100%/100%/100%, respectively. (To compensate the fact all other factions are 20 times better due the FLAME countering damage)
+	
+
+	-Beta60: ElvenLegolas arrow storm reload time now 145 from 105. 
+	-Beta60: RohanPeasant draft upgrade apply time now 5 seconds instead of 10. //10 is usually default
+	-Beta60: FlyersCanNowAttackWalls: ElvenEagles can now attack walls. Damage set to 400, taperoff of 15%, radius 75.
+	-Beta60: NonFlamingFortressBonusVsMonster. ElvenFortress SilverThorn now deals 550%, 400% and 240% against MordorMumakil, Ents, and Giants, from 100%/100%/100%, respectively. (To compensate the fact all other factions are 20 times better due the FLAME countering damage)
+	-Beta60: ElvenFortress SilverThorn munitions now cost 1350 from 1500.
+	
+	
+	-Beta60: IsengardWargRider crush now deals 95% from 100% against GondorFighter. (Note in v2 soldier armor was improved by 10% against crush. Now it's reverted, so this is average between v2 and v1.)
+	-Beta60: IsengardWormtongue poisonous words icon now purpleish, matching it's actual FX.
+	
+	
+	-Beta60: FlyersCanNowAttackWalls: MordorFellBeast can now attack walls. Damage set to 350, taperoff of 15%, radius 75.
+	-Beta60: Reverted MordorBlackRider MorgulBlade multi-execute command. (It's annoying when you have 3 nazguls and you waste the 3 stuns at once.)
+	-Beta60: MordorHeavyArmor icon reverted.
+	-Beta60: MordorMouthOfSauron damage against trolls, mounted/dismounted now 87%/100%, from 75%75%. Originally 100%/100%.
+	-Beta60: MordorMouthOfSauron Dissent icon now green, matching it's actual FX.
+	-Beta60: MordorMouthOfSauron dismounted armor now HeroArmor from LightHeroArmor. 
+	-Beta60: MordorWitchKingOnFellbeast armor now takes 60% SLASH, from 50%.
+	-Beta60: FlyersCanNowAttackWalls: MordorWitchKingOnFellbeast can now attack walls. Damage set to 400, taperoff of 15%, radius 75.
+	
+	
+	-Beta60: GoblinTreasureTrove rubbles keeping players alive, fixed. //PotatoAutism//
+	-Beta60: GoblinDrogoth claw damage now 550 from 500. //Played with 600 since beta41.
+	-Beta60: GoblinDrogoth armor against Cavalry_Ranged now 50% from 40%.
+	-Beta60: FlyersCanNowAttackWalls: GoblinDrogoth can now attack walls. Damage set to 500, taperoff of 15%, radius 75.
+	-Beta60: GoblinFireDrake attack weapon completly reworked.
+	-Beta60: GoblinFireDrake Fire fx is completly syncronized to weapon, from looping while drake is attacking.
+	-Beta60: GoblinFireDrake No more overlaping fire or fire not matching damage.
+	-Beta60: GoblinFireDrake Can now chase units.
+	-Beta60: GoblinFireDrake Flame damage can be dodged (which means dwarf heroes receive less damage from it while moving(being chased)
+		
+	
+	-Beta60: DwarvenHobbits rocks now cause a tiny knockback upon infantry death. (like Thranduil DeadEye but smaller)
+	-Beta60: Wyrm spawn damage/knockback radius now 65 from 75.
+	-Beta60: Wyrm spawn/reposition damage now deals 50% against BannerCarriers.
+	-Beta60: Balrog spawn "do-not-randomize-delay" statment removed, as it's not compatible with singleplayer game.dat.
+	-Beta60: Balrog whip not being casted exactly where it was casted, fixed.
+	
+	
+	-Beta60: Maps: Deleted Numenor Downfalls.
+	-Beta60: Maps: Deleted Gundabad Deeps.
+	-Beta60: Maps: Cowmap to 571.
+	-Beta60: Maps: Updated ironmountains to v14.
+	-Beta60: Maps: Updated carrock to v8.
+	-Beta60: Maps: Added desert temple of khand v3.
+	-Beta60: Maps: Added udun 6p x3.
+	-Beta60: Maps: Updated Stockbrows to v2.
+	-Beta60: Maps: Updated CarnenMire to v12.
+	
+Beta59	//Logged
+	-Beta59: RohanElvenWarriorFromInn can now bombard like any other archer on the game.
+	-Beta59: GondorBoromir delay between shots restored to 1100 from 933. (Originally 1100 but was able to be glitched to 766. In v2 i decided to take an average between the glitch and the slowest attack. Now im directly giving the slowest attack and no glitch.)
+	-Beta59: //Removed this because it does nothing. Magic weapons are not affected by multiplicative damage. //-Beta50: ArmyOfDead is now affected by RallyingCall, only RallyingCall.	//GuerrillaAutism// // Because: spell book is sacred, the magical properties of rallying call makes the ghosts glow with an aura, so mysterious, so magical, so magnificent...spell book enhance the supernatural ghosts with magic
+	
+	
+
+	-Beta59: ElvenSunflare now also deals an extra of +4000 max dmg/+400 min damage against Machines(not wagons) and Structures. (Means if properly placed, can one hit a weak farm or halve the hp of a level1 barrack., one hit machines in the center.)
+	-ElvenHaldir damage revised:
+	-Beta59: ElvenHaldir damage against structures now 60% from 37%. (time to destroy a slaugerhouse in level1/level10: 213/129, from 353/206. Originally 213/73)
+	-Beta59: ElvenHaldir damage against heroes now 100% from 75%. (time to destroy a lurtz in level1/level10: 318/195, from 410/244. Originally 261/132) //played with 85%
+	-Beta59: ElvenHaldir damage against monsters now 100% from 75%. (time to destroy a ent in level1/level10: 87/60, from 115/74. Originally 59/39)
+	-Beta59: ElvenArwen damage (level1/level10) set to 180/304 HERO damage (75% scalar on FORTRESS, 125% on CAVALRY), from 180/280 HERO damage (70% scalar on STRUCTURES, 125% on CAVALRY) and 20/70 SLASH damage, 
+		-Means that hits in lvl1/lvl10 to destroy a slaufghtherhouse: 18/11, from 21/11. (Originally 21/8)
+		-Means that hits in lvl1/lvl10 to destroy a farm: 18/11 from 21/11.  (Originally 19/8)
+		-Means that hits in lvl1/lvl10 to destroy a furnace: 12/8 from 14/7.  (Originally 14/6)
+	-Beta59: ElvenThranduil deadeye now deals 70% against Balrog, from 100%.
+	-Beta59: ElvenGlorfindel sword now deals 200% against Balrog, from 100%.	//A bit of lore always comes good for the soul.
+	-Beta59: ElvenGlorfindel BladeOfPurity now also provides knockback immunity whilst the ability duration. (Like DwarvenGimli Slayer or GondorGandalf ShieldBubble)
+	-Beta59: ElvenEnt getting stuck when crushing fixd. Now causes knockback.
+	-Beta59: ElvenEnt crush damage now 250 siege, from 195 crush. (Originally 600 siege, capable of onehit anything)
+	-Beta59: ElvenEnt crush minum crush speed restored to 0, from 57. 
+	-Beta59: ElvenEnt crush-revenge damage taken now 44.4% from 66.6%.
+		//These changes mean: 
+			//ElvenEnt crush can kill infantry, even pikes. 3 shot a phalanx from no dmg at all. But not many pikes will die before ent themselves die.
+			//Ent never stop crushing, even when ultra decelerated. 
+			
+		
+	-Beta59: Fixed DwarvenSummonedCitadel respawning in 15 seconds like it was an outpost.
+	-Beta59: DwarvenDemolisher crush damage now 450 from 700. (Played with 500)
+
+	-Beta59: IsengardSaruman fireball damage bonus against machines no longer includes battlewagons. (Specially now that they were nerfed to fire & magic without heavy armor)
+	
+	-Beta59: MordorMouthOfSauron EvilEye not gaining magic damage per level, fixed. (Interesting discovery by Miraak actually, no magic damage is ever affected by multiplicative damage... ever...)
+	-Beta59: MordorMouthOfSauron dismount time now 1500 from 2000.
+	-Beta59: MordorMouthOfSauron Doubt radius now 140 from 110. //played with 120.
+	-Beta59: MordorDrummerTroll getting stuck when crushing fixd. Now causes knockback.
+	-Beta59: MordorAttackTroll damage against structures now 225 from 200. (Originally 400). //AndyAutistRequests//
+	-Beta59: MordorAttackTroll damage against fortress now 73%, from 81%. (Same as mountain/cave trolls, but consider the now higher damage) //Still equals to v2 damage basicaly. //AndyAutistRequests//
+	-Beta59: //RemovedThis// -Beta53: MordorAttackTroll now deals 120% more damage against Barraacks, not farms or fortress.//AndyAutistRequests//
+	-Beta59: EyeOfSauron now provides +25% experience for any kind of affected Trolls. (From 7.5 dmg, 7.5 armor, 15 exp since beta28.)
+	; -Beta59: //RevertedThis// Beta28: EyeOfSauron now provides +7.5% Damage, +7.5% Armor and +15% experience for any kind of affected Trolls.
+	-Beta59: EyeOfSauron fx on trolls is now bigger and more noticeable. 
+	
+			
+			
+	-Beta59: GoblinFireDrake inferno damage now deals 200% against machines and structures.
+	-Beta59: GoblinFireDrake armor against SLASH now 40% from 50%. (Originally 100%)
+	-Beta59: GoblinFireDrake armor against HERO_RANGED now 90% from 100%. (Originally 100%)
+	-Beta59: GoblinFireDrake inferno damage arc set to 90º from 60º. Logical fire radius reduced to 110 from 210. Fire effects now actually match and kinda respect the cast button.
+	-Beta59: GoblinFireDrake getting stuck when crushing fixd. Now causes knockback.
+	-Beta59: GoblinMountainGiant crush damage now 250 siege, from 195 crush. (Originally 600 siege, capable of onehit anything)
+	-Beta59: GoblinMountainGiant crush minum crush speed restored to 28, from 57. 
+	-Beta59: GoblinMountainGiant crush-revenge damage taken now 44.4% from 66.6%.
+	-Beta59: GoblinMountainGiant getting stuck when crushing fixd. Now causes knockback.
+	-Beta59: GoblinKing attack speed slightly increased to values between 1.09v1 and 1.09v2. (Now destroys a SlaughterHouse in 81 frames, from 91 frames. [In 1.06 destroys it 78 frames, in BTP in 85])
+	
+	
+
+	
+	
+	
+			
+	-Beta59: NeutralGollum health reduced from 12000 to 9000.
+	-Beta59: Xelenos suck my dick. Parser this shit idiot.
+	-Beta59: Tooltips: EvilHeal now indicates it also heals monsters and now replaces two dead units per horde.
+	-Beta59: GlobalStructureFlameMagicArmorRevision: BarracksArmor FLAME/MAGIC damage taken now 40%/60% from 50%/50%.  //Formula needs to be: flame 2/3 of total magic.	//played with 33/50
+	-Beta59: -Balrog attack vs buildings not properly following ALT attack paths, fixed.
+	-Beta59: -Balrog spawn weapon delay time reverted to vanilla (pre 1.09v2), but added a do-not-randomize statment that avoids him appaering either earlier or later than expected.
+	-Beta59: //RevertedThis//-Beta56: -Balrog firebreath damage against structures now 85% from 70%. (Originally 100%). // note it also has taperoff, so it's not gonna destroy 3 buildings at once.
+	-Beta59: Wyrm not properly following alt attack paths, fixed.
+	
+	; Reverted following changes because it's no longer necesary with the new GlobalStructureFlameMagicArmorRevision.
+	-Beta59: SummonedDragon not properly following alt attack paths, fixed.
+	-Beta59: //RevertedThis//-Beta01: SummonedDragon lifetime now 80 secs from 85.
+	-Beta59: //RevertedThis//-Beta01: SummonedDragon melee behavior. Now it will start the fire-breath against the select target if he can from its current position, instead of approaching crushing.
+	-Beta59: //RevertedThis//-Beta01: SummonedDragon FireBreath damage taperoff now 50%, from 45%.
+	-Beta59: //RevertedThis//-Beta01: SummonedDragon FireBreath : now 1/3 of it's damage has 45 radius on 180º arc, instead of 140 radius on 125º arc. (This improves the meele behavior, when Heroes are stuck beneath the dragon sometimes they would not get any damage at all due the arc)
+			
+			
+			
+	-Beta59: Maps: updated carnen mire to v10 from v9
+	
+	
+	
+Beta58	//Logged
+	-Beta58: BountyValues: RohanEomer Outlau leadership bounty values set to 85%, from 100%. (Consider bounty values are usually 25% for level 1 units, and 50% for level10 units)
+	-Beta58: RohanEowyn unpack disguise time now 750 ms from 1250 ms.
+	-Beta58: RohanTheoden experience required for level 1 now 40 from 50. (Same than nazgul, hence 2 wargs give u lvl2.)
+	-Beta58: RohanTheoden experience required for level 7, 8, 9, 10 reduced from 200/250/250/250 to 150/200/200/200. (total exp for lvl10 now 1300 from 1500)
+	-Beta58: RohanEowyn buildtime 40 from 45.
+	-Beta58: GondorGandalf TheWhite bonus magic damage now 170% from 200%.	//Need tooltip update if this is staying.
+	
+	
+	-Beta58: ElvenSunflare now creates a burned ground decall in the damaged area.	//Mister kangarofuqer could add a original texture for this.
+	-Beta58: ElvenRivendellLancer damage increased by 3. Unupgraded/upgraded respectively, now 60/93 from 57/90.
+	-Beta58: ElvenWood no longer provides 25% damage.
+	-Beta58: ElvenWood no longer overrides player damage leadership (Haldir, RC), now overrides armor leadership (allied Gimli)
+	-Beta58: ElvenArwen lancer leadership range now 225 from 200.
+	-Beta58: Fixed bumbis error; HaldirGolden arrow instant the first time he reachs to level10. (Althouht it's a cool feature considering it's a different but improved ability)
+	
+
+	-Beta58: DwarveBarracks: Reduced volume of 3 sound variations by 10%.
+	
+	
+	
+	-Beta58: BountyValues: IsengardLurtz Pillage leadership bounty values set to 85%, from 100%. (Consider bounty values are usually 25% for level 1 units, and 50% for level10 units)
+	-Beta58: Isengard. Fixed kangarofuqer error: isen forgedblade icon.
+
+	
+	-Beta58: Mordor: Fixed bumbis error; orc banner carriers using harad flag.
+	-Beta58: Fixed bumbis error; MordorMumakil charge not having a speed bonus. (Was consecuence of fixing permanent speedbonus when terrorized)
+	-Beta58: MordorMumakil affected by terror no longer run away, instead become scared without moving from its position for 2 seconds. (Better than no effect at all, which was the case for 1.09.)
+	-Beta58: updated orcarcher bonus vs soldiers to also affect bombard and firearrows)
+	
+	
+	
+	-Beta58: BountyValues: Goblin Scavenger bounty values set to 85%, from 100%. (Consider bounty values are usually 25% for level 1 units, and 50% for level10 units)
+	
+	
+	-Beta58: BalrogSwordSwipe now has a taperoff of 66%. Damage against structures 70% from 80%. Fortress 6% from 8%. //Note this is indirect damage.
+	
+	
+	-Beta58: Maps: numenor downfall v12 from v9.
+	-Beta58: Maps: carnen mire v9 from v8.
+	-Beta58: Maps: fixed fucking erech again set to v29 from v30(30 is wip).
+	
+	
+	
+	
+	
+	
+	
+Beta57	//Logged
+	
+	-Beta57: Maps: Added Powerkartoffels Carnen Mire (v8)
+	-Beta57: Maps: Tempt's ettenmoors ii updated to v14 from v12. (some potato fixesd of something)
+
+	-Beta57: ElvenMithlondSentry now deals 75% against structures, from 65%. (Originally 50%)
+	-Beta57: ElvenMithlondSentry now deals 90% against DwarvenMineShaft, from 80%. (Originally 50%)
+	-Beta57: ElvenRivendellLancer damage against DwarvenMineShaft now 120% from 110%. //played 115%, not enough.
+	
+	
+	
+	
+  	-Beta57: ElvenHaldir bow damage now 135/228, from 115/194. Originally 100/200. 
+	-Beta57: ElvenEagleNest buildcost 1500 from 2000.
+	-Beta57: ElvenFortressEagle buildcost 1500 from 1200. (Originally 1000)
+	-Beta57: ElvenFortressEagle buildtime 83 from 95. (Originally 60) //samebuildtime than FB.
+	
+	
+	-Beta57: MordorAttackTroll buildtime 37 from 40. //played with 38
+	-Beta57: MordorDrummerTroll crush revenge damage taken now 10% from 15%.
+	-Beta57: MordorTrollCage buildtime 48 from 52. 1.09v1 was 45. //played with 49
+  	-Beta57: MordorArcher now deals 125% against GondorFighter, from 115%. //Compensation for fixed meleeability//
+  	-Beta57: MordorArcher now deals 110% against ElvenWarrior, from 100%. //Compensation for fixed meleeability//
+	-Beta57: Fixed MordorWarrior bloodthirst not properly leveling up everyone inside battalion. (Part of my fixing code was disabled i dont know why. Enabling it back fixes it)
+	
+	-Beta57: //RevertedThis// -Beta01: GoblinShelob now takes 47% SPECIALIST from 50% (09v1 was 45%.). //no longer needed with locomotorfix
+	
+	
+	-Beta57: Fixed IsengardFighter bloodthirst not properly leveling up everyone inside battalion. (Part of my fixing code was disabled i dont know why. Enabling it back fixes it)
+	
+	
+	-Beta57: EvilHeal now replenish 2 units per battalion, instead of 1.
+	-Beta57: Balrog spawn delay now 4500 from 5000, Originally 4000.
+	-Beta57: Global: FXs: slightly reduced the performance impact of unit respawining fx.
+	-Beta57: At last!!! Fixed level-up treasure-chests not working all the time for hordes. Now you can trust it will level up ur hordes.
+	
+Beta56	//Logged
+	; -((CanceledThis)); -Beta56: GondorStable now cost 580 from 550. (in v1 was 500, originally was 600)
+	-Beta56: GondorSoldier flankability reworked: Standard formation remains 4000 but shield mode flankability is 2500. //Played with Flankability of 3000/4000.
+	-Beta56://RemovedThis//Beta46: GondorSoldier flankability reduced. (flanking duration 3000 from 4000)
+	-Beta56: RohanEowyn smite damage radius at lvl1/4/7 now 14/16/18 from 12/15/18. (less shitty at lvl1)
+	-Beta56: Men heroes no longer share their experience gains with each other. (they still absorv experience from units)
+	-Beta56: ExpansionsMinimumAttackRange: MenFortress TrebuchetExpansion min range 100 from 250. 
+	-Beta56: ArtilleryMinimumAttackRange: GondorTrebuchet rock throw min range now 250 from 300.
+	-Beta56: Tooltips: GondorForge level 2 upgrade tooltip fixed: now indicates it unblocks blades, not armor. 
+	-Beta56: GondorBoromir level 7 speed bonus now +7% from +9%. (makes his speed 53.5 instead of 54.5. Aragorn lvl5 is also 53.5. Faramir is 55) 
+	-Beta56: AntiWallStuff: MenFortressTrebuchet +20% damage bonus against fortress expansions removed.
+	-Beta56: ActiveWallArtillery: GondorWallArtillery health 1800 from 1500.
+	-Beta56: ActiveWallPosternGates: GondorWallPosternGates health 1500 from 1500.
+	-Beta56: ActiveWallTower: GondorWallTower health 1500 from 1500.
+	-Beta56: ActiveWallGates: GondorWallGate health 2000 from 2200.
+	-Beta56: ActiveWallSegments: GondorWallSegment health 2000 from 3500.
+	-Beta56: ActiveWallHub_2022: GondorWallHub health 2500 from 3500.
+	-Beta56: ActiveWallHubOuter: GondorWallHubOuter health 3500 from 3000.
+	
+	
+	-Beta56: ElvenStatue build cost 300 from 350.
+	-Beta56: ElvenMithlondSentry now gains +4% speed at level 4, 7 and 10. (lvl10 speed 56 instead of 50. archers and warriors are 60)
+	-Beta56: ElvenRivendellLancer now gains +4% speed at level 4 and 7, from gaining 7% at level 5.
+	-Beta56: ElvenGlorfindel starlight heal fx no longer creates the laggy blue heal FX that doesn't let you see what is going on, now creates a optimized smaller gold fx.
+	-Beta56: ElvenLegolas casting Hawkstrike, target getting out of range, not shoting and cooldown starting; fixed. Now Hawkstrike reload time will only begin if it was succesfuly shoted.
+	-Beta56: ElvenLegolas Hawkstrike max range restored to 485 from 530. Since it can no longer bug. (It had been increased in patch in 1.07 to compensate the mentioned bug)
+	-Beta56: //Reverted// -Beta01: ElvenRivendellLancer lance now deals 100%, from 112% to MordorSlaughterHouse.	//Sincerely i don't know why this was made. But most likely it was before mordor farm was buffed vs cavalry.
+	-Beta56: Elven heroes no longer share their experience gains with each other. (they still absorv experience from units)
+	-Beta56: ActiveWallGates: ElvenWallGate health 2500 from 1500. 
+	-Beta56: ActiveWallHub_2022: ElvenWallHub health 3000 from 1500. 
+	-Beta56: ActiveWallHubOuter: ElvenWallHubOuter health 4000 from 3000. 
+	-Beta56: ActiveWallSegments: ElvenWallSegment health 2500 from 1500. 
+	-Beta56: ElvenRivendellLancer now deals +12% against MenFarm.
+	-Beta56: //Reverted// -Beta01: ElvenGlorfindel Starlight reload time restored to 120 seconds from 160. (It is not op, if he can't do anything while casting it)
+	-Beta56: //Reverted// -Beta01: ElvenHaldir GoldenArrow reload time now 160 from 200. (Originally 90)	
+	-Beta56: AntiWallStuff: ElvenFortressEntVigilant +20% damage bonus against fortress expansions removed. Fixed it not auto aiming structures.
+	-Beta56: ArtilleryMinimumAttackRange: ElvenEnt and ElvenTreebeard rock throw min range now 80 from 0.
+	-Beta56: ExpansionsMinimumAttackRange: ElvenFortress EntExpansion min range 100 from 200. Max range 585 from 600. Damage 400 from 500. Cost reduced to 750 from 900. (damage was reduced in a earlier beta)
+	
+	
+	
+	
+	-Beta56: Dwarven SummonDaleAllies spawn sound now plays the Esgaroth horn from the hobbit movies.
+	-Beta56: DwarvenMightyCatapult causing more damage to allied fortress than enemy fortress, fixed. (Fixes beta51 when it started to affect allied buildings)
+	-Beta56: DwarvenGimli casting AxeThrown, target getting out of range, not shoting and cooldown starting; fixed. Now AxeThrown reload time will only begin if it was succesfuly shoted.
+	-Beta56: GlobalFireArrowSystem: DwarvenMenOfDale fire arrows: FLAME damage per horde restored to v2 values (520 from 570).
+	-Beta56: ExpansionsMinimumAttackRange: DwarvenFortress CatapultExpansion min range 100 from 150. Fixed dwarf CatapultExpansion not attacking for 5 seconds after build.
+	-Beta56: ArtilleryMinimumAttackRange: DwarvenCatapult rock throw min range now 200 from 150.
+	-Beta56: ActiveWallPosternGates: DwarvenWallPosternGates health 1500 from 1000.
+	-Beta56: ActiveWallTower: DwarvenWallTower health 1500 from 3000.
+	-Beta56: ActiveWallArtillery: DwarvenWallArtillery health 1800 from 2000.
+	-Beta56: ActiveWallGates: DwarvenWallGate health 2000 from 2000.
+	-Beta56: ActiveWallSegments: DwarvenWallSegment health 2000 from 3000.
+	-Beta56: ActiveWallHub_2022: DwarvenWallHub health 2500 from 3000.
+	-Beta56: ActiveWallHubOuter: DwarvenWallHubOuter health 3500 from 4000.
+	-Beta56: DwarvenCatapult speed bonus tooltips fixed. it's actually 10% at 5 not 7% at 7%.
+	-Beta56: DwarvenBattleWagon phalanx max/min damage now 80/65 from 90/75. //played for a long time with 85/75
+	-Beta56: AntiWallStuff: DwarvenCatapult antiwall radius now 85 from 100. //Played with 70%.
+	-Beta56: AntiWallStuff: DwarvenFortressCatapult +20% damage bonus against fortress expansions removed.
+	
+	
+	
+	
+	-Beta56: IsengardSharku casting ManEater, target getting out of range, not shoting and cooldown starting; fixed with the new Beta56 method, it had been fixed in v2 by giving it 800 range instead of 25.
+	-Beta56: IsengardLurtz casting CrippleStrike, target getting out of range, not shoting and cooldown starting; fixed. Now CrippleStrike reload time will only begin if it was succesfuly shoted.
+	-Beta56: IsengardLurtz CrippleStrike max range restored to 350 from 400. Since it can no longer bug. (It had been increased in patch in 1.09v1 to compensate the mentioned bug)
+	-Beta56: ActiveWallGates: IsengardWallGate health 2500 from 1500. 
+	-Beta56: ActiveWallSegments: IsengardWallSegment health 2500 from 2500. 
+	-Beta56: ActiveWallHub_2022: IsengardWallHub health 3000 from 1500. 
+	-Beta56: ActiveWallHubOuter: IsengardWallHubOuter health 4000 from 3000. 
+	-Beta56: AntiWallStuff: IsengardBalista anti wall dmg now 0.75 from 1.00 and radius now 70 from 50.
+	-Beta56: AntiWallStuff: IsengardFortressBalista anti wall dmg 0.75 from 1.00. IsengardBalista antiwall radius now 75 from 50.
+	-Beta56: IsengardCrossbow bombarded fire not having the penalties of normal shot, fixed.
+	-Beta56: //RevertedThis// Beta49: IsengardFurnace health now 1200 from 1080.
+	-Beta56: AntiWallStuff: DragonStrike can now destroy walls. Damage now 120% from 40%.
+	-Beta56: ExpansionsMinimumAttackRange: IsengardFortress BallistaGiantExpansion min range 100 from 80. (previously 40)
+	-Beta56: IsengardBerserker: dodgerate reduced by 20% (dodges 64% instead 80%). Damage taken by arrows reduced by 20% aswell. (PIERCE, STRUCTURAL, CAVALRY_RANGED, HERO_RANGED). //This means Berserker is now stronger against arrows WHILE FIGHTING, but identically strong against arrows while MOVING.
+	
+	
+	
+	-Beta56: MordorWarrior build cost reverted to v1: 55 from 60. (Originally 50) (Ideally i would like to make them 30CP but i would require to steal a rotwk code or change their horde size)
+	-Beta56: MordorGorgorothSpire causing more damage to allied fortress than enemy fortress, fixed. (Fixes beta51 when it started to affect allied buildings)
+	-Beta56: MordorMouthOfSauron damage taperoff 0.7 from 0.6.
+	-Beta56: Mordor: Created a new Hordebonus effect. Pretty optimized and completly attached to the orc/goblin. Has chances to occur per unit so not everyone have it at same time.
+	-Beta56: GlobalFireArrowSystem: MordorArcher fire arrows: FLAME damage per horde now 500, from 600. //MordorHaradrimArcher deal 500, but ofc, fast and long range.
+	-Beta56: MordorWarrior now deals 180% from 170% against GondorBarrack, GondorArcheryRange, GondorStable. (Vanilla values)
+	-Beta56: AntiWallStuff: MordorCatapult antiwall radius now 85 from 100. //Played with 70%.
+	-Beta56: AntiWallStuff: MordorFortressCatapult +20% damage bonus against fortress expansions removed. Fixed it not being able to damage ships.
+	-Beta56: ActiveWallTower: MordorWallTower health 1500 from 3000.
+	-Beta56: ActiveWallGates: MordorWallGate health 2000 from 1500.
+	-Beta56: ActiveWallSegments: MordorWallSegment health 2000 from 1500.
+	-Beta56: ActiveWallHub_2022: MordorWallHub health 2500 from 1500.
+	-Beta56: ActiveWallHubOuter: MordorWallHubOuter health 3500 from 3000.
+	-Beta56: ActiveWallArtillery: MordorWallArtillery health 1800 from 2000.
+	
+	
+	
+	-Beta56: GoblinSpiderling turns to build in WarOfTheRing now 1 from 2. 
+	-Beta56: GoblinCaveTroll turns to build in WarOfTheRing now 2 from 1.
+	-Beta56: GoblinSpiderling armor damage taken by PIERCE now 73% from 69%. (Originally 110%)
+	-Beta56: Goblins: Created a new Hordebonus effect. Pretty optimized and completly attached to the orc/goblin. Has chances to occur per unit so not everyone have it at same time.
+	-Beta56: //Reverted// -Beta01: GoblinSpiderling now deals 123%, from 115% against MordorCorsair & MordorWarrior.
+	-Beta56: ExpansionsMinimumAttackRange: GoblinFortress MountainGiantExpansion min range 100 from 0.
+	-Beta56: ArtilleryMinimumAttackRange: GoblinMountainGiant rock throw min range now 150 from 200.
+	-Beta56: AntiWallStuff: GoblinMountainGiant anti wall dmg now 0.75 from 1.00.
+	-Beta56: AntiWallStuff: MountainGiantExpansion anti wall dmg 0.75 from 1.00. +20% damage bonus against fortress expansions removed.
+	
+	
+	
+	
+	-Beta56: -Balrog firebreath damage against structures now 85% from 70%. (Originally 100%). // note it also has taperoff, so it's not gonna destroy 3 buildings at once.
+	
+	-Beta56: AntiWallStuff: All Walls now take 5% flame from 1%. (Originally 0%)
+	-Beta56: AntiWallStuff: All Walls now take 7.5% magic from 0%.
+	
+	
+	-Beta56: GlobalStructureFlameMagicArmorRevision: FortressExpansion FLAME/MAGIC damage taken now 50%/75% from 60%/50%. //Formula needs to be: flame 2/3 of total magic.
+	; -Beta56: GlobalStructureFlameMagicArmorRevision: BarracksArmor FLAME/MAGIC damage taken now 33%/50% from 50%/50%.  //Formula needs to be: flame 2/3 of total magic.
+	-Beta56: GlobalStructureFlameMagicArmorRevision: ForgeArmor FLAME/MAGIC damage taken now 33%/50% from 50%/50%. //Formula needs to be: flame 2/3 of total magic.
+	-Beta56: GlobalStructureFlameMagicArmorRevision: TowerStructure FLAME/MAGIC damage taken now 40%/60% from 50%/50%.  //Formula needs to be: flame 2/3 of total magic.
+	-Beta56: GlobalStructureFlameMagicArmorRevision: ElvenMallorn lvl1 FLAME/MAGIC damage taken now 33%/50% from 50%/50%. (Like any other farm)  //Formula needs to be: flame 2/3 of total magic.
+	
+	
+	-Beta56: Maps: Updated Fords of Bruinen (v23 from v22). (AI issue)
+	-Beta56: Maps: Updated Ettenmoors (v13 from v12). (AI issue)
+	-Beta56: Maps: Updated Numenor_Downfall (v9 from v8). (no fog)
+	-Beta56: Maps: Updated Forlond (v5 from v4).
+	-Beta56: Maps: Updated Eastfold_II to v21 from v20. Central cliffs partially wasted by a swamp and a graveyard.
+	-Beta56: Maps: Reverted Erech to v29 insted of v30.
+	-Beta56: Maps: Updated Gladden Fields (v8 from v5).
+	-Beta56: Maps: Updated Carrock (v7 from v5) ;;
+	-Beta56: Maps: Updated MirkwoodII to v28 from v27. (water fix)
+	-Beta56: Maps: Updated South Road (v92 from v91).
+	-Beta56: Maps: Updated Solas Rhudaur. Removed signal fires.
+	-Beta56: Maps: Updated LastBridge (v19 from v17)
+	-Beta56: Maps: Updated IronMountains_II (v32 from v30)
+	-Beta56: Maps: Updated Gardens_of_far_Harad (v21 from v20)
+	-Beta56: Maps: Updated Eryn Rhun to v66 from v58. (This was done way earlier but i wanted to log it)
+	-Beta56: Maps: Added Powerkartoffels Carnen Mire (v3)
+	-Beta56: Maps: Added enchanted river (v8)
+	-Beta56: ForMappers: Damrod, Gamling, Galadriel, Gothmog, RingWraith damage gains are multiplicative.
+	
+
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+	
+Beta55	//Logged
+	-Beta55: RohanEowyn damage 165 from 180. She pwning.
+	-Beta55: RohanElvenWarriorFromInn CP now 70 from 60. (Same as rangers)
+	-Beta55: Tooltips: GondorGandalf portrait now indicates GondorGandalf the White bonus.
+	
+	
+	-Beta55: ElvenThranduil mounted model buging under IA control, fixed. (Added the missing model conditions for Elk)
+	-Beta55: ElvenThranduil MoveUnseen cast now requires a object filter, so you won't waste the power if u r trying to cast it on something that died, or in something that doesn't even pass the filter. Cast range now 350 from 200.
+	-Beta55: ElvenThranduil MoveUnseen casting now has a inversed FX matching the radius. (starts outside ends in center)
+	-Beta55: ElvenThranduil MoveUnseen affected units detection range now 33 from 100. Means u can remain invisible closer to ur enemy.
+	-Beta55: ElvenThranduil MoveUnseen duration now 60 seconds, from 30.
+	-Beta55: ElvenThranduil MoveUnseen reload time now 145 seconds, from 60.
+	-Beta55: ElvenThranduil MoveUnseen no longer affects himself. 
+	-Beta55: ElvenThranduil MoveUnseen now plays the ElvenCloack Fx on the casted units.
+	-Beta55: ElvenThranduil MoveUnseen can now be used while Mounted.
+	-Beta55: ElvenThranduil WildWalk can now be used while Mounted. 
+	-Beta55: ElvenThranduil WildWalk is no longer completly canceled when revealed. But it will still not work while using deadeye.
+	-Beta55: ElvenThranduil WildWalk duration now 25 seconds, from 80.
+	-Beta55: ElvenThranduil WildWalk reload time now 75 seconds, from 150.
+	-Beta55: ElvenThranduil DeadEye no longer blocks the use of MoveUnseen and WildWalk. 
+	-Beta55: ElvenThranduil DeadEye now properly cancels every type of Thrandui stealth/camouflage.
+	-Beta55: ElvenThranduil MountElk unpack time now 2.5 sec from 2.0 sec. (same as DwarvenDain)
+	;;irrelevantformainlog;;-Beta55: ElvenElrond Whirlwind reworked again in order to make level 5 one less shit, and lvl10 less op. 
+	-Beta55: ElvenElrond Whirlwind damage against structures now 100 from 35. Against Fortress 50 from 35. (Note it's still garbage damage, can barley hurt a farm)
+	-Beta55: ElvenElrond Whirlwind now have chances to fail sweep a heroe. 
+	-Beta55: ElvenElrond Whirlwind Lvl5/lvl7/lvl10 respectively: lifetimes 16s/19s/22s, from 8s/19s/25s
+	-Beta55: ElvenElrond Whirlwind Lvl5/lvl7/lvl10 respectively: damage 12/12/24, from 12/12/63
+	-Beta55: ElvenElrond Whirlwind Lvl5/lvl7/lvl10 respectively: speed 47/47/47, from 0/47/47
+	-Beta55: ElvenElrond Whirlwind Lvl5/lvl7/lvl10 respectively: sweep 1k hero/sweep 1k hero/sweep all heros.
+	-Beta55: ElvenElrond Whirlwind now display their skill as a hero rank. Tornado lvl 5, tornado lvl 7, tornado lvl 10. Selection now shows a decal of different size. Galadriel tornado too.
+	-Beta55: ElvenElrond Whirlwind can now be casted anywhere, and ElvenElrond will simply move his ass to perform the spell. From having to move him first, cast after.
+	
+	
+	-Beta55: DwarvenBattleWagon randomly deciding to not fight in melee while receiving damage, fixed. Attack range now 25 from 0.
+	-Beta55: DwarvenBattleWagon spawn passenger FX being played multiple times and causing lag, fixed.
+	-Beta55: DwarvenBattleWagon BannerCarrier now display a little fx similar to statues. Fx shows only in low or above levels of detail. And it's pretty optimized to don't lag.
+	-Beta55: DwarvenBattleWagon Hearth now display a little fx similar to statues. Fx shows only in low or above levels of detail. And it's pretty optimized to don't lag.
+	-Beta55: DwarvenBattleWagon Hearth radius 130 from 160. (v1 was 100)
+	-Beta55: DwarvenHobbits commandpoints on ToolTip/actual expent are now 45, from 40 in ToolTip but expending 36.
+	-Beta55: DwarvenMenOfDale horde no longer uses amoeba thing.
+	-Beta55: //Reverted/(/ -DwarvenMenOfDale Summoned now come with BlackArrows. (Can use it only once with the reloadtime nerf)
+	-Beta55: DwarvenMenOfDale BlackArrows now behave like poison arrows: targets can't escape from it and projectiles will chase it. (LeechRangeWeapon could also be added for Hawkstrike and CrippleStrike if ever required)
+	
+	
+	
+	-Beta55: IsengardWormtongue escape reload time now 120 seconds, from 150.
+	-Beta55: IsengardBerserker armor to crush now 225 from 200. //played with 250%.
+	-Beta55: IsengardWizardTower tower damage logical damage halved (consider the double shots)
+	-Beta55: IsengardWizardTower tower damage against Heroes/structures 50%, from 75%. (damage against Eagles and GoblinDrogoth 65 instead of 50)(equals to v2 considering it double-shots now)
+	
+	
+	
+	-Beta55: MordorRainOfFire having no detonate FX's when casted in the water, fixed.
+	-Beta55: MordorWitchKing armor now takes 33% CAVALRY, from 29%. // played with 31%. //now same than GoblinShelob.
+	
+	
+	
+	-Beta55: Wildman commandpoints now 60 from 48.
+	-Beta55: GoblinShelob armor against cavalry now 33%, from 37%. 
+	
+	
+	
+	-Beta55: Maps: "Gladden Fields", by Powerkartoffel & Ecthelion.
+	-Beta55: Maps: "Carrock", by Powerkartoffel.
+	-Beta55: Maps: "South Road", by Ecthelion
+	
+	
+	
+	-Beta55: HobbitsSummon: Sam, Merry & Pippin sword now deal 40 hero damage, from 60 cavalry damage. (For comparison; Frodo is 60 hero damage & Hobbit hordemember is 35 cavalry damage)
+	-Beta55: HobbitsSummon: Frodo & Sam rocks hero_ranged damage now 60 from 35. (For comparison; Hobbit hordemember is 35 hero_ranged & MerrySam is 100 hero_ranged damage).
+	-Beta55: HobbitsSummon: Frodo sting now turns blue also near any type of troll and spiders. And now deals 300% damage against any type of spider. (in agresive stance can 2-shoot a summoned spider). damage is still insignificant vs GoblinShelob.
+	-Beta55: DwarvenHobbits: All hobbit rocks now deal 75% damage against Heroes and infantry, from 50%. Monsters and archers are not included and they still 50%. (Originally 25%). 
+	-Beta55: ResilientHeroArmorMounted to take 60% structural from 50%. (normal mounted hero armors take 100%).
+	-Beta55: ResilientHeroArmorMounted to take 23% cavalry ranged from 20%. (normal mounted hero armors take 100%).
+	
+	
+	
+	
+Beta54	//Logged
+	-Beta54: GondorSoldier with HeavyArmor damage taken from HERO_RANGED when standard/shieldblock now 90%/76.5%, from 75%/67.5%.
+	-Beta54: GondorSoldier with HeavyArmor damage taken from PIERCE when standard/shieldblock now 36%/24%, from 24%/19.2%.  (Times it gets better: HeavyArmor line formation now 5, from 6.25. HeavyArmor block formation now 6.25, from 7.81)
+	-Beta54: GondorFaramir WoundArrow can now terrorize ElvenEnt and Mumakils, without permanently buging them.
+	-Beta54: RohanEowyn Disguise: No longer penalties her against Heroes and Structures. Now actually provides a +35% bonus against Heroes, altogether with the rohirrim splash damage. Set a duration of 30 seconds. Effect is no longer canceled by stealth detectors. Disguise can now be used on foot. Reload time set to 80 seconds, from 10.
+	-Beta54: RohanEowyn Smite: Now stuns Heroes for 1 second at level 4, and 2 seconds at level 7. Existing bonuses against Heroes and monsters are now 10% weaker between level 1-4, but 10% stronger between levels 7-10. Radius is also 20% smaller at levels 1-4, but 20% bigger at levels 7-10. Set a taperoff of 65%. Reload time set to 100 seconds, from 135.
+	-Beta54: RohanEowyn ShieldMaiden: Now provides another +35% extra armor against HERO and HERO_RANGED damage types. Also provides 50% less deceleration when trampling. Reload time remains being 120 seconds.
+	
+	
+	-Beta54: ElvenEnt on terror no longer becomes x2 faster, nor gains a flexible locomotor. (Played with x1.25 faster)
+	-Beta54: ElvenEnt on terror now shows a FX indicator.
+	-Beta54: ElvenGlorfindel damage against structures when dismounted/mounted respectively, reduced to 270%/90%, from 306.67%/102.2%.
+	-Beta54: ElvenTreebeard: recruit no longer shows a "1" on his icon, because of //GuerrillaAutism//.  "ofc u dont have 1 showing on icon when u build hero senor, you cannot make "2" treebeards now can you senor..."now 50 from 45. 
+	-Beta54: ElvenThranduil build time now 50 from 55. Respawn timers formula based on 60 second, from 65.
+	-Beta54: ElvenMithlondSentry health now 140 from 125.  //AndyAutistRequests//
+	-Beta54: ElvenHeavyArmor now costs 300 from 350.
+	-Beta54: ElvenFarsight reload time now 97 from 105. (v1 was 90, 1.06 was 180)
+	-Beta54: ElvenRivendellLancer now pays BasicTraining for 200, instead of 250.
+	
+
+	-Beta54: DwarvenUndermine bonus against Orcs to not include orcarcher.
+	-Beta54: DwarvenMenOfDale BlackArrows can now terrorize ElvenEnt and Mumakils, without permanently buging them.
+	-Beta54: DwarvenGimli build time now 50 from 45. Respawn timers formula based on 55 second, from 60.
+	-Beta54: DwarvenBattleWagon Hearth can no longer heal while taking damage. (hypotetically)
+	-Beta54: DwarvenBattleWagon Hearth heal FX is now a basic nugget, instead of particles + nugget.
+	-Beta54: DwarvenMenOfDale now pays HeavyArmor for 200, instead of 250. (Originally 300)
+	-Beta54: DwarvenMenOfDale BlackArrows affecting MordorMumakil fixed. (not meant to cause terror as it bugs mumakils making them permanently mad, which makes them walk faster. Note it affected muma because it was affecting the contained haradrims.)
+	-Beta54: DwarvenMenOfDale BlackArrows damage against Heroes can now be increased leveling up. (A LVL10 DwarvenMenOfDale would have 165 damage instead of 100)
+	-Beta54: DwarvenMenOfDale BlackArrows damage against all flyers, except ElvenEagles, now 60%, from 50%.  //AndyAutistRequests//
+	-Beta54: DwarvenMenOfDale damage now 57 from 52. (Average between vanilla DwarvenMenOfDale and haradrim archer).  //AndyAutistRequests//
+	
+	
+	
+	-Beta54: MordorWarrior now pays 75 for BasicTraining, instead of 150. (played with 85, and 60)
+	-Beta54: MordorWitchKing Screech can now terrorize ElvenEnt and Mumakils, without permanently buging them.
+	-Beta54: MordorMumakil on terror no longer becomes 1.50 faster, nor gains a flexible locomotor.
+	-Beta54: MordorMumakil on terror now shows a FX indicator.
+	
+	
+	
+	-Beta54: GoblinSpiderling armor against poison now 90%, from 80. (v1 was 100%)
+	-Beta54: GoblinFighter with HeavyArmor vs pierce now 20%, from 10%. (originally 30%)  (makes it 6.25 better, from 12.5)
+	
+	
+	
+	-Beta54: Fixed Heroes dismount having no dismount voice. (Val fault. fk u pitch)
+	-Beta54: Added generic mount/dismount sounds for DwarvenDain Pig and ElvenThranduil Elk.
+	-Beta54: Wyrm lifetime 66 from 60. (played with 70, 67, and now 66.)
+
+
+	
+	
+	
+	
+Beta53	//Logged
+	
+	
+	-Beta53: ElvenMithlondSentry to take 1% crush insted of 0.7%
+	-Beta53: ElvenGlorfindel HERO damage now 150 from 130. (originally 100). //AndyAutistRequests//
+    -Beta53: ElvenGlorfindel SIEGE damage now 0 from 100. (originally 100). (only applied on buildings)
+	-Beta53: ElvenGlorfindel HERO damage now deals against Structures and Fortress the same damage he would do with his old SIEGE damage.
+	-Beta53: ElvenGlorfindel damage against fortress now 70%, from 49.92%. //AndyAutistRequests//
+	-Beta53: ElvenGlorfindel mounted now uses exactly the same weapon, but he's 3 times weaker vs structures and fortress. (From being 6,8249 times worse vs fortress when mounted) //AndyAutistRequests//
+	-Beta53: ElvenSunflare now deals 50% damage to allies, from 100%: (Originally 0%). //AndyAutistRequests//
+	-Beta53: ElvenLorienArcher now pays 200 for HeavyArmor, instead of 300. 
+	-Beta53: ElvenLorienArcher SilverThorn magic damage against structures now 35%, from 25%. //AndyAutistRequests////Consider magic damage was reduced, so this equsl to v2.
+	-Beta53: ElvenMirkwoodArcher SilverThorn magic damage against structures now 35%, from 25%. //AndyAutistRequests////Consider magic damage was reduced, so this equsl to v2.
+
+
+
+
+
+	-Beta53: GoblinShelob now takes 25%, from 17% FLAME.//AndyAutistRequests//  //Just design change, people want to see fire killing GoblinShelob.
+	-Beta53: GoblinSpiderling now deals 107% against cavalry, from 115%. (Compensation for its fixed melee behavior) 
+	-Beta53: GoblinFighter now pays 90 for BasicTraining, instead of 150. //played with 75.
+	-Beta53: GoblinFighter now pays 200 for HeavyArmor, instead of 250.
+	-Beta53: GoblinArcher now pays 200 for HeavyArmor, instead of 250.
+	-Beta53: GoblinCaveTroll HeavyArmor cost set to 300. //played with 200, 250, 300.
+	-Beta53: GoblinScavenger Fuel the Fires working when player is defeated and player of different faction inherit his fortress, fixed.
+
+
+	-Beta53: IsengardCrossbow now pays 200 for HeavyArmor, instead of 300.
+	-Beta53: FuelTheFires working when player is defeated and player of different faction inherit his fortress, fixed.
+	
+
+
+
+	-Beta53: DwarvenBattleWagon pike armor 220%, from 200%. (Note, 236% would be exact number we would need to have 1.06 CRUSH_REVENGE, in combination with current 53.5% CRUSH_REVENGE damage taken)
+	-Beta53: DwarvenBattleWagon to take 220% structural from 200%.
+	-Beta53: DwarvenBattleWagon Armor reworked, now with a beautiful Excel table.
+	-Beta53: DwarvenBattleWagon armor damage taken by CRUSH 60%, from 50%.
+	-Beta53: DwarvenBattleWagon armor damage taken by PIERCE 18%, from 15%.
+	-Beta53: DwarvenBattleWagon armor damage taken by MAGIC 90%, from 75%.
+	-Beta53: DwarvenBattleWagon armor damage taken by FLAME 90%, from 75%.
+	-Beta53: DwarvenBattleWagon armor damage taken by STRUCTURAL 220%, from 190%.
+	-Beta53: DwarvenBattleWagon armor damage taken by SPECIALIST 220%, from 200%.
+	-Beta53: DwarvenBattleWagon armor damage taken by LOGICAL_FIRE 40%, from 10%.
+	-Beta53: DwarvenBattleWagon HeavyArmor will provide exact the same multipliers than WargRider HeavyArmor, but improvements will be 30% weaker. (Means HeavyArmor is generally 35% stronger)
+	-Beta53: ;Reverted; -DwarvenMenOfDale summoned BlackArrows not shooting, fixed.
+	-Beta53: DwarvenDain RoyalGaurd reload time now 240sec from 200sec. (Originally 180) //AndyAutistRequests//
+	-Beta53: DwarvenGloin ShatterHammer reload time now 200sec from 180sec. (Originally 120) //AndyAutistRequests//
+
+	-Beta53: MordorEasterling not being upgradeable with forgedblades via worldbuilder, fixed.
+	;;irrelevantforlog -Beta53: MordorArcher paying 300 for fire, and MordorHaradrimArcher 200, instead. (meant to be oposite)
+	-Beta53: MordorAttackTroll now deals 120% more damage against Barraacks, not farms or fortress.//AndyAutistRequests//
+	-Beta53: MordorRainOfFire now deals 50% damage to allies, from 100%: (Originally 0%).
+	
+	-Beta53: IsengardLumberMill creating new lumber works not having a voice for Isengard perspective, fixed.
+	-Beta53: 109v3FireArrowDesign: Archers gain +35% pierce when purchase their upgrades, from 15%. Originally 0%: But remember since 1.09v2 they also get a -13% penalty against Cavalry, or pikes in the case of Rohirrim/SpiderRiderbows.
+	-Beta53: Archer Fire arrow FLAME damage now deals 50.0% against infantry and nonflying Heroes, from 25%.
+	-Beta53: Archer Fire arrow FLAME damage now deals 37.5% against pikemen, 25%.
+	-Beta53: Archer Fire arrow FLAME damage still deals 25% against cavalry, 25%.
+	-Beta53: Mounted Fire arrow FLAME damage now deals 50.0% against cavalry and nonflying Heroes, from 25%.
+	-Beta53: Mounted Fire arrow FLAME damage now deals 37.5% against infantry, 25%.
+	-Beta53: Mounted Fire arrow FLAME damage still deals 25% against pikemen, 25%.
+
+	
+	
+Beta52	//Logged
+	-Beta52: GondorForge build time now 55 from 63. //Others are 60, 50 or 45. //AndyAutistRequests//
+	
+	-Beta52: MordorAttackTroll HeavyArmor cost set to 350. Played with 200, 250.
+	
+	-Beta52: Pikemen: Fixed porcupine units following enemies for all over the map. Now it's like they are on defensive stance. -85% vision.
+	-Beta52: Pikemen: fixed pikes on defensive stance now responding to attacks. vision -85%, from -90%.
+	
+	-Beta52: ElvenFortress dodging projectiles fixed. (ElvenFortress unpacker geometry majorradius reduced from 85 to 65)
+	
+	-Beta52: GoblinDrogoth FireFlight damage now has a taperoff of 60%. //AndyAutistRequests//
+	-Beta52: GoblinCaveTroll HeavyArmor to cost 300 instead of 250. Played with 200, 250.
+	
+	-Beta52: DwarvenCatapult health restored to 2000 from 2200. (Now it's worth its prize wtih good barrels)
+	-Beta52: DwarvenBattleWagon HeavyArmor to cost 275 instead of 250. 
+	
+	-Beta52: Maps: Eastfold edited. Now it's a Eastfold II.
+	-Beta52: Maps: MapAdded: "Iron Hills 2" from RotWK, by Solas. Reworked by Ecthelion & Powerkartoffel.
+	-Beta52: Maps: west emnet fixed broken textures
+	-Beta52: Maps: potatos mirkwood fixed invisible objects.
+	
+	
+	
+Beta51	//Logged
+	-Beta51: DwarvenFortress OilCasks individual explosion is now linked to it's ground cracks FX.
+	-Beta51: DwarvenFortress OilCasks individual explosion maxdamage/mindamage/radius now 320/120/80 from 240/240/36 respectively.	
+	-Beta51: DwarvenBattleWagon model and passengers get a HeavyArmor model.
+	-Beta51: DwarvenBarrage rocks are now blue from red. (only the fx was blue)
+	-Beta51: DwarvenDain royal guard now are lvl5 units form lvl10.
+	-Beta51: DwarvenGimli axe thrower taperoff now 140 from 170. (max lvl1 damage 170)
+	-Beta51: DwarvenMightyCatapult now deals 80% Against ElvenEnt, ElvenTreebeard and MountainGiants.
+	-Beta51: DwarvenMightyCatapult now deals 50% against allied structures, from 0%.
+	-Beta51: DwarvenMightyCatapult (from fortress) scatter radius restored to 100 from 50.
+	-Beta51: DwarvenMightyCatapult radius of damage per rock restored to 100 from 135. 
+	-Beta51: DwarvenMightyCatapult now have a taperoff of 65%.
+	-Beta51: DwarvenUndermine spawn shockwave-allies radius 95 from 190. //played with 75.
+	-Beta51: DwarvenLoneTower spawn shockwave-allies radius 40 from 0. //played with 20.
+	-Beta51: DwarvenSummonedCitadel spawn shockwave-allies radius to 120 from 225. //previous beta was 100
+	-Beta51: DwarvenLoneTower now has a lifetime. Set to x4.8 than reload time. (DwarvenSummonedCitadel is 2.4 and undermine is 1.2)
+	-Beta51: DwarvenSummonedCitadel health now 7500 from 8000. Same as Fortress.
+	-Beta51: DwarvenSummonedCitadel spawn shockwave-enemies radius restored to 225 from 225. //previous beta was 250
+	-Beta51: DwarvenMightyCatapult for Fortress reload time now 390 sec from 360.
+	-Beta51: DwarvenMightyCatapult from DwarvenSummonedCitadel reload time now 450 sec from 420.
+	-Beta51: DwarvenMightyCatapult from DwarvenSummonedCitadel max range now 1500 from 2000.
+	-Beta51: DwarvenMightyCatapult rock shockwave radius set to only 75% of damage radius.
+	-Beta51: DwarvenMightyCatapult rock damage against Fortress now 35%, from 25%.
+	-Beta51: DwarvenMightyCatapult rock damage against Defenses now 65%, from 100%. //Same as MordorGorgorothSpire.
+	
+	
+	-Beta51: MordorGorgorothSpire rock max/min damage now 2000/660 from 1000/600.
+	-Beta51: MordorGorgorothSpire rock shockwave amount now 100 from 50. (Can now knockback 3k Heroes)
+	-Beta51: MordorGorgorothSpire rock shockwave radius set to only 75% of damage radius.
+	-Beta51: MordorGorgorothSpire rock damage now deals 50% against allied structures, from 0%:
+	-Beta51: MordorGorgorothSpire now deals 80% Against ElvenEnt, ElvenTreebeard and MountainGiants.
+	
+	
+	-Beta51: IsengardWizardTower buildcost/buildtime now 1500/25s from 1200/30s.
+	-Beta51: IsengardWizardTower spread range now 120 from 20. 
+	-Beta51: IsengardWizardTower num of shots now 32 from 16.
+	-Beta51: IsengardWizardTower shots per burst now 2 from 1.
+	-Beta51: IsengardWizardTower damage against Heroes reduced 25%. (consider the double amount of strikes)
+	-Beta51: IsengardWizardTower damage against structures reduced 25%. (consider the double amount of strikes)
+	-Beta51: IsengardWizardTower reload time now 360 from 300.
+	-Beta51: IsengardWizardTower no longer one-hits machines, but it depends on damage of each hit. (It still rapes them)
+	
+	
+	-Beta51: BatteringRam armor now takes 40% pike from 25%. (Same change done to catapult years ago)
+	-Beta51: BatteringRam armor to siege now 60%, from 30%.
+	-Beta51: Creeps: GoblinFireDrake now takes 33.3% damage from trampling pikes, from 66.6%.
+	-Beta51: StandardArtilleryArmor: GondorTrebuchet now takes 100% URUK from 65%.//matches SLASH
+	-Beta51: StandardArtilleryArmor: DwarvenCatapult now takes 100% URUK from 65%.//matches SLASH
+	-Beta51: StandardArtilleryArmor: IsengardBalista now takes 100% URUK from 65%.//matches SLASH
+	-Beta51: StandardArtilleryArmor: MordorCatapult now takes 100% URUK from 65%.//matches SLASH
+	-Beta51: OilFireDecail: Men MenFortress BoilingOil now create a black decal to indicate radius of damage, which dissaspaers in 15 seconds. Video on discord.
+	-Beta51: OilFireDecail: Men DwarvenFortress OilCasks now create a black decal to indicate radius of damage, which dissaspaers in 15 seconds. Video on discord.
+	-Beta51: OilFireDecail: Men MordorFortress MagmaCaldruns now create a black decal to indicate radius of damage, which dissaspaers in 15 seconds. Video on discord.
+	
+	-Beta51: MenFortress MenIvoryTower reveal and speed bonus effect duration now 35 seconds from 30.
+	-Beta51: GondorBoromir sword knockback vs DwarvenGloin now 0.825 from 0.80. //played with 0.85. The higher it is, the worse for boromir.
+	
+	
+	-Beta51: ElvenRivendellLancer lance now deals 115% against DwarvenMineShaft, from 100%. //played with 110%.
+	-Beta51: ElvenRivendellLancer lance now deals 110% against DwarvenBattleWagon, from 100%.
+	
+	
+Beta50	//Logged
+	-Beta50: MordorAttackTroll HeavyArmor
+	-Beta50: MordorAttackTroll new troll loyalty icon
+	-Beta50: MordorEasterling HeavyArmor texture differences.
+	-Beta50: MordorGrond armor takes 80% FLAME from 65%.
+	-Beta50: MordorGorgorothSpire build time 25 from 30.
+	-Beta50: MordorGorgorothSpire cast radius now matches with actual weapon. Weapon radius now 160 from 150. (cast cursor was 200)
+	-Beta50: MordorGorgorothSpire damage taperoff now 60%, from 65%.
+	-Beta50: MordorGorgorothSpire damage against MACHINES now deals 185%, from 100%. (can one hit central ones)
+	-Beta50: MordorGorgorothSpire damage against ElvenEnt now deals 65%, from 100%. (can't one hit but passive fire does the job)
+	-Beta50: MordorGorgorothSpire damage against Giants now deals 130%, from 100%. (still can't one hit
+	-Beta50: MordorGorgorothSpire damage against MordorGrond now deals 200%, from 100%. (still minimal but it helps)
+	-Beta50: MordorGorgorothSpire now deals 200% to machines, from 100%. Can now one hit machines in the epicenter.
+
+
+
+	-Beta50: IsengardWizardTower damage against MordorGrond now deals 300%, from 100%. (still minimal but it helps)
+
+
+
+	Beta50: //Reverted// Beta01: GoblinSpiderling now deal 89%, from 83 against Dwarven barracks.. //played with 91%
+	Beta50: //Reverted// Beta01: GoblinSpiderling now deal 55%, from 50 against GoblinTunnel.
+	Beta50: //Reverted// Beta01: GoblinSpiderling now deal 60%, from 55 against IsengardFurnace.
+	Beta50: //Reverted// Beta01: GoblinSpiderling now deal 85%, from 80 against GondorFarm.
+	 Beta50: GoblinSpiderling now deal 89%, from 85% against DwarvenMineShaft. //played with 93%.
+	 Beta50: GoblinSpiderling now deal 75%, from 80% against ElvenMallorn. 
+	-Beta50: Fixed fortress GoblinFireDrake health gains typo.
+
+
+
+	-Beta50: DwarvenRebuild armor bonus is now linked to a blue star rain FX similar to cast FX.
+	-Beta50: DwarvenFortress: Mighty catapult extra vision range no longer varies depending on map height. Bonus vision of fortress set to 112%, from 120%. (Crows/Ravens bonus is 117%, IvoryTower 155%)
+	-Beta50: Fixed DwarvenBattleWagon animations order.
+
+
+
+	-Beta50: IsengardWargSentry selection decal is now more acurate.
+
+
+
+	-Beta50: ElvenGlorfindel Starlight healing not stacking with units with autoheal, Fixed.
+
+
+
+	-Beta50: CloudBreak healing not stacking with units with autoheal, fixed.
+	-Beta50: ArmyOfDead is now affected by RallyingCall, only RallyingCall.	//GuerrillaAutism// // Because: spell book is sacred, the magical properties of rallying call makes the ghosts glow with an aura, so mysterious, so magical, so magnificent...spell book enhance the supernatural ghosts with magic
+	-Beta50: LoneTower is now castable on hordes, causing also a little metaimpact cappable of knockback a GoblinCaveTroll or a 1k heroe, althought you cannot directly cast on them. Spawn damage and radius is minimal. 
+	
+	-Beta50: FortressSelectionDecals: MenFortress selected now displays the leadership range of the FortressBanner upgrade.
+	-Beta50: FortressSelectionDecals: ElvenFortress selected now displays the leadership range of the CrystalMoat upgrade.
+	-Beta50: FortressSelectionDecals: DwarvenFortress selected now displays the leadership range of the FortressBanner upgrade.
+	-Beta50: FortressSelectionDecals: IsengardFortress selected now displays the healing range of the Excavations upgrade.
+	-Beta50: FortressSelectionDecals: MordorFortress selected now displays the leadership range of the DoomPyres upgrade.
+	-Beta50: FortressSelectionDecals: GoblinFortress selected now displays the healing range of the RazorSpines upgrade.
+	
+	
+	-Beta50: FortressSelectionDecals: All Fortress now display the leadership range.
+	-Beta50: FortressSelectionDecals: All Fortress now display the leadership range.
+	-Beta50: FortressSelectionDecals: All Fortress now display the leadership range.
+	-Beta50: FortressSelectionDecals: All Fortress now display the leadership range.
+	-Beta50: FortressSelectionDecals: All Fortress now display the leadership range.
+	
+	-Beta50: LoneTower selected now display the leadership range.
+	-Beta50: LoneTower leadership range 250 from 200. //Heal range still being 150.
+	-Beta50: GenericShip: total exp required for level 10 now 1750 from 1500. (redistributed in order that all levels need 150 exp except lvl5)
+	-Beta50: GenericShip: total experience awards for level 10 now 65 from 83. (redistributed to be +5 exp award for level, instead of 7)
+	-Beta50: GenericShip: armor upgrades and Pirate Flag now use the research sound FX from HeavyArmor/fire arrows.
+	-Beta50: GenericShip: Ships now gain 50hp per level.
+	-Beta50: GenericShip: Ships stance template is now set to Artillery, from archer, since the contained archers damage is not affected by stances, but armor yes. So using agressive stance was a serious scam.
+	-Beta50: GenericShip: Ships are now affected by modifiers: leadership, rallying call, WarChant, venomous words, doubt, dissent, dragonstrike debuff, mist debuff, mist stealth, freezing rain, normal debuff auras, mighgtyrage buff & debuff, darkness, farsight range bonus, ivorytower speed bonus, palantir speed bonus.
+	-Beta50: GenericShip: Fixed all ships bounty values: now properly 25% of their cost, instead of 275 for battle ships and 0 from transport.
+	-Beta50: TransportShip: buildcost 200 from 100
+	-Beta50: TransportShip: buildtime 12 from 15
+	-Beta50: TransportShip: health now 600 from 416. //technically 600 from 250 but armor now takes 100% damage instead of 60%; so health points are representative and comparable with other ships.
+	-Beta50: TransportShip: aceleration/braking in deep waters now 3000/3000, from 1750/6000. (originally 6000/6000) //For comparison, all other ships are 1000/1000.
+	-Beta50: TransportShip: aceleration/braking in shores now 3000/3000, from 1750/6000. (originally 6000/6000) //For comparison, all other ships are 1000/1000.
+	-Beta50: BattleShip: fixed EvilCorsairBattleShip pirate flag not providing anything. N grants +50% damage, from nothing. (Code was meant to give +100% but wasnt working
+	-Beta50: BattleShip: BattleShips now display damage.
+	-Beta50: SuicideShip: buildtime 35 from 45
+	-Beta50: SuicideShip: buildcost 800 from 1000
+	-Beta50: SuicideShip: commandpoints 35 from 50.
+	-Beta50: BombardShip: buildcost 1400 from 1500
+	-Beta50: BombardShip: health 1500 from 1000.
+	-Beta50: BombardShip: damage 400 from 500. (matches with ElvenTreebeard rock)
+	-Beta50: BombardShip: damage against fortress now 85%, from 100%. (same scalar as ElvenTreebeard)
+	-Beta50: BombardShip: speed 85 from 80. (battleship is 100 and transport 90)
+	
+
+	
+	
+
+
+
+	
+Beta49	//logged
+
+	-Beta49: RohanRohirrim armor against FLAME now takes 100%/60%, from 100%/50%. (Originally 140%/120%, yeah, 1.6 had this nonsense values.)
+	-Beta49: RohanRohirrim armor against MAGIC now takes 100%/60%, from 100%/50%. (Originally 100%/90%, yeah, 1.6 had this nonsense values.)
+	-Beta49: SummonDunedains now also plays the Ranger Birds call sounds. //GuerrillaAutism//
+	-Beta49: GondorFarm health now 1900 from 2000.
+	-Beta49: RohanEowyn shieldmaiden sound now only plays when properly executed.
+
+
+
+	-Beta49: ElvenGlorfindel windrider sound now only plays when properly executed.
+	-Beta49: ElvenMallorn health now 1200 from 1040.
+
+
+	-Beta49: DwarvenSummonedCitadel can now be casted on enemy monsters and machines. Can also be casted closer to enemy fortress. (Sadly on hordes it won't be possible, or it would cause the build plots to not spawn)
+	-Beta49: DwarvenSummonedCitadel SpawningWeapon reworked: Machines will only be one-shoted if casted under the cast cursor, this means under 120 range instead of 225. Machines will also be subtlely knockbacked, like a tremor.
+	-Beta49: DwarvenSummonedCitadel SpawningWeapon reworked: Allied units will be pushed-off from a 100 radius, while enemies will be pushed-off from a 250 radius. (From everyone being pushed off from 225 radius).  //This means that "Operation rescue my Heroes" is no longer counterproductive. 
+	-Beta49: DwarvenBattleWagon now take 40% LOGICAL_FIRE from 10%. Played with 10%.
+	-Beta49: DwarvenBattleWagon HeavyArmor now 30%, from 25%.
+	-Beta49: DwarvenBattleWagon HeavyArmor now proivdes 35% armor from 25%.
+	-Beta49: DwarvenBattleWagon animations improved. (		-flying		-fear		-idles states.		-hit reactions		-level up		-raising flag		-selected)
+
+
+
+
+
+	-Beta49: IsengardFurnace health now 1200 from 1080.
+
+
+	-Beta49: MordorTrollCage level 3 buid cost 900 from 1000. Previously 850.
+	;nolongervingent; -Beta49: MordorAttackTroll HeavyArmor provides 35% armor from 25%. HeavyArmored troll uses CE model.
+	;nolongervingent; -Beta49: MordorAttackTroll HeavyArmor cost 250 from 200.
+	-Beta49: Fixed MordorFellBeast dealing double damage DwarvenBattleWagon. (beta typo)
+	-Beta49: MordorAttackTroll now take 30% LOGICAL_FIRE from 25%:
+	-Beta49: MordorMumakil charge now be multiexecuted.
+	-Beta49: EyeOfSauron select sound now plays the voice of sauron, instead of using the same voice as move command.
+
+
+	; /Beta49: /Reverted//-GoblinHeavyArmor technology buildcost now 20 secs from 30.
+	-Beta49: GoblinCaveTroll HeavyArmor cost 250 from 200.
+	 
+
+
+	-Beta49: StandardArtilleryArmor: GondorTrebuchet now takes 50% FLAME from 30%.
+	-Beta49: StandardArtilleryArmor: DwarvenCatapult now takes 50% FLAME from 30%.
+	-Beta49: StandardArtilleryArmor: IsengardBalista now takes 50% FLAME from 30%.
+	-Beta49: StandardArtilleryArmor: MordorCatapult now takes 50% FLAME from 30%.
+	;;nolongervigentÇ;;-Beta49: DwarvenBattleWagon HeavyArmor now make them 35% stronger. But its counters multiply by 1.2 or 0.8, like other HeavyArmor do. They become extra 20% stronger against Structural. and 70% extra against LOGICAL_FIRE.
+	-Beta49: MordorAttackTroll HeavyArmor now make them 35% stronger. But its counters multiply by 1.2 or 0.8, like other HeavyArmor do. They become extra 20% stronger against Structural. and 70% extra against LOGICAL_FIRE.
+	-Beta49: GoblinCaveTroll HeavyArmor now make them 35% stronger. But its counters multiply by 1.2 or 0.8, like other HeavyArmor do. They become extra 20% stronger against Structural. and 70% extra against LOGICAL_FIRE.
+
+
+
+	-Beta49: Maps: Dunland I Reverted from map list, but still playable on WarOfTheRing.
+	
+	
+	
+	
+	
+	
+	
+Beta48	//logged
+	-Beta48: Fixed LastBridge obstacles near inns.
+
+	-Beta48: ResilientHeroArmor (GondorGandalf mounted, MordorMouthOfSauron mounted, IsengardSharku, RohanEowyn mounted, DwarvenDain pig, ElvenThranduil elk) will now be specialized as a cavalry type of armor. Which is going to take:
+	
+	-Beta48: ResilientHeroArmor damage taken by SPECIALIST now 65%, from55%. (Average between MountedHeroArmor, ToughHeroArmor and ResilientHeroArmor)
+	-Beta48: ResilientHeroArmor damage taken by Cavalry: 33%, from 28%. (Several armors might get cavalry nerf.)
+	-Beta48: ResilientHeroArmor damage taken by Crush: 40%, from 33%. (Average between MountedHeroArmor, ToughHeroArmor and ResilientHeroArmor)
+	-Beta48: ResilientHeroArmor damage taken by Flame: 25%, from20%. (Average between MountedHeroArmor, ToughHeroArmor and ResilientHeroArmor)
+	-Beta48: ResilientHeroArmor damage taken by Magic: 28%, from 17%. (Average between MountedHeroArmor, ToughHeroArmor and ResilientHeroArmor)
+			
+	-Beta48: ElvenThranduil (f), from using ResilientHeroArmor, will now use "ResilientHeroArmorOnFoot", currently used by DwarvenDain. This implies this changes for ElvenThranduil:
+	-Beta48: Via the armor armor, Thranduil now takes 25% uruk from 33%.
+	-Beta48: Via the armor armor, Thranduil now takes 40% pike from 60%.
+	-Beta48: Via the armor armor, Thranduil now takes 33% cavalry from 28%.
+	-Beta48: Via the armor armor, Thranduil now takes 50% crush from 33%.
+	-Beta48: Via the armor armor, Thranduil no longer has a flanked penalty.
+		
+	-Beta48: RohanEowyn mounted will now use ResilientHeroArmor, from MountedHeroArmor. Which makes her armor against pikes superior.
+	-Beta48: RohanEowyn on foot will now use LightHeroArmor, from HeroArmor. Which makes her armor against units superior, but weaker against Heroes.
+	-Beta48: VolleyArrow now deals 100% against ElvenRivendellLancer, from 125%. //GuerrillaAutism//
+	-Beta48: GondorRanger LongShot now deals 100% against ElvenRivendellLancer, from 125%. //GuerrillaAutism//
+	-Beta48: TaintedLand/ElvenWood/HumanWood visual color is now 5% smaller to fit with the actual range. //GuerrillaAutism//
+	-Beta48: ;;Reverted;;Beta01: ElvenRivendellLancer damage against structures now 90%/175%, from 100%/175%. (unupgraded/upgraded respectively) //Does not include GondorFarm & DwarvenGoblinTunnel.
+	-Beta48: ;;Reverted;;Beta01: ElvenRivendellLancer damage against fortress now 90%/150%, from 100%/150%. (unupgraded/upgraded respectively)
+	-Beta48: ElvenRivendellLancer lance now deals 100% to GoblinTunnel, from 105%. //Played with 94.5%.
+	-Beta48: ElvenRivendellLancer lance now deals 110% to DwarvenMineShaft, from 100%. 
+	-Beta48: GoblinFireDrake health now 3600 from 4800. //played with 4000
+	-Beta48: ElvenElrond Athelas heal radius now 230 from 250. Now matching with the antifear bonus radius.
+	-Beta48: ElvenElrond Athelas heal radius is now distributed in two ranges. First range of 130; heals 750 healthpoints. Second range of 230; heals only 450 healthpoints. From healing 750 healthpoints in 250 area. //This means your Heroes need to be closer for a efficient heal 
+	-Beta48: DwarvenDain MightyRage unpack time now 800 ms from 1150. Animation speeded up 20%.
+	-Beta48: DwarvenDain level 10 experience required for level 10 reduced 1/3. (Total experience 1380 from 1530)
+	-Beta48: Fixed wagons being knobkacbkable while spawning. (they are meant to be completly invulnerable)
+	-Beta48: DwarvenUndermine SpawningWeapon reworked: Machines will only be one-shoted if casted under the cast cursor, this means under 95 range instead of 200. Machines will also be subtlely knockbacked, like a tremor.
+	-Beta48: DwarvenUndermine SpawningWeapon reworked: Allied units will be pushed off from a 75 radius, while enemies will remain be pushed off from a 200 radius. (From everyone being pushed off from 190 radius).  //This means that "Operation rescue my Heroes" is no longer counterproductive. 
+	-Beta48: DwarvenUndermine reworked: Geometry is now properly representative of the Undermine model. No more attacking the air. Model is also 10% bigger to compensate. Castability is also improved as you can cast it closer to cliffs or structures.
+	-Beta48: Added CavetrollArmor models.
+	-Beta48: GoblinMountainGiant shroud reveal 650 from 600. //matches with ElvenEnt.
+	; -Beta48: //Reverted// -Beta46: GoblinGorkil now takes 100%, from 77.77% CRUSH_REVENGE. (now he can dismount and escape)
+	-Beta48: ;; Reverted;; Beta43: GoblinGorkil on scorpion now uses ResilientHeroArmor instead of MoutnedArmor. (same as MoS/IsengardSharku/GondorGandalf
+	-Beta48: IsengardBalista shroud reveal 700 from 370. as intended in v2.
+	-Beta48: MordorCatapult shroud reveal 700 from 360. as intended in v2.
+	-Beta48: MordorArcher shroud reveal 400 from 300.
+	-Beta48: MordorGrond shroud reveal 350 from 250. 
+	-Beta48: RohanPeasantFromInn shroud reveal 100 from 50.
+	-Beta48: DwarvenAxeThrower vision/shroud range 370/400 from 250/350 respectively.
+	
+	
+Beta47	//logged
+	-Beta47: Experimental: Camera Depth of Field set to x1.25x, from x1.00. But it can no longer be overriden by players via "!RemoveZoomLimits", which makes it x100. Observers still can do it. //For comparison, RotWK 2.02 team made it x0.83 from x1.00. //For more information and screenshots: check https://www.gamereplays.org/community/index.php?showtopic=1063291		// AndyAutistRequests //GeylenosRequest
+	-Beta47: MordorArcher now pays 200 for FireArrows, instead of 250.
+	-Beta47: GoblinArcher now pays 200 for FireArrows, instead of 250.
+	-Beta47: DwarvenMenOfDale damage gains reduced: total damage gains at level 10 are now +100%, from +120.
+	-Beta47: RohanElvenWarriorFromInn damage gains reduced: total damage gains at level 10 are now x2%, from x2.3.
+	-Beta47: GondorRanger damage gains reduced: total damage gains at level 10 are now +80%, from +100.
+	-Beta47: GondorRanger now deals 100%, from 121% to Flyers. 
+	-Beta47: GondorRanger no longer deals more damage to flyers without fire than with)
+	-Beta47: GondorRanger bonus against monsters reworked: unupgraded is now +35% bonus to monsters, +21% to monstruous Heroes, no bonus to flyers. Upgraded is now the same but bonus is -13% weaker. (Originally in 1.60 was +35% bonus unupgraded and +0% bonus upgraded).
+	-Beta47: All Towers display damage.
+	-Beta47: 109v3FireArrowDesign: all fire upgrades improve PIERCE by +35%, from +15% (in 1.06 was +0% improvement). Consider the existance of -13% penalty against Cavalry for archers, and -13% against Pikes, from Rohirrim/SpiderRider.
+	-Beta47: GoblinArcher PIERCE gains +35%, from +15%. (Originally +0%)
+	-Beta47: GondorArcher PIERCE gains +35%, from +15%. (Originally +0%)
+	-Beta47: GondorRanger PIERCE gains +35%, from +15%. (Originally +39%)
+	-Beta47: DwarvenMenOfDale PIERCE gains +35%, from +15%. (Originally +0%)
+	-Beta47: MordorArcher PIERCE gains +35%, from +15%. (Originally +0%)
+	-Beta47: MordorHaradrim PIERCE gains +35%, from +15%. (Originally +0%)
+	-Beta47: IsengardCrossbow PIERCE gains +35%, from +15%. (Originally +0%)
+	-Beta47: RohanRohirrim FireArrows CAVALRY_RANGED gains +35%, from +15%. (Originally +0%)
+	-Beta47: GoblinSpiderRider FireArrows CAVALRY_RANGED gains +35%, from +15%. (Originally +0%)
+	-Beta47: Added to the 109v3FireArrowDesign: RohanElvenWarriorFromInn PIERCE gains +35%, from +0%. (Added penalty against cavalry)
+	-Beta47: Added to the 109v3FireArrowDesign: ElvenLorienArcher PIERCE gains +35%, from +0%. (Added penalty against cavalry)
+	-Beta47: Added to the 109v3FireArrowDesign: ElvenMirkwoodArcher SilverThornUpgrade PIERCE gains +35%, from +0%. (Added penalty against cavalry)
+	-Beta47: ElvenLorienArcher SilverThorn upgrade magic damage set to 16 from 20.
+	-Beta47: ElvenMirkwoodArcher SilverThorn upgrade magic damage set to 24 from 30.
+	-Beta47: ElvenLorienArcher & ElvenMirkwoodArcher now display ranged damage, including upgrades.
+	-Beta47: ElvenMallorn(level1) now takes 55%, from 60% cavalry. //Remember at level 2 it gets a generic farm armor.
+	-Beta47: ElvenMirkwoodArcher damage gains reduced: total damage gains at level 10 are now +80%, from +86.
+	-Beta47: ElvenElrond no longer shares the experience from his kills with ElvenArwen Haldir and ElvenGlorfindel.
+	-Beta47: ElvenGlorfindel respawn time 60 from 70.
+	-Beta47: ElvenMithlondSentry cost 325 from 350. //AndyAutistRequests//
+	-Beta47: ElvenMithlondSentry buildtime 36 from 38. (originalyl 42)  //AndyAutistRequests//
+	-Beta47: Maps: Updated ironmountains.
+	-Beta47: Maps: Deleted: Dunharrow
+	; -Beta47: ;;Reverted;; -DwarvenBattleWagon MenOfDalePassenger 400 from 450.
+	
+	
+Beta46	//logged
+	-Beta46: MordorOrcPit health now 1800 from 1650. 
+	-Beta46: MordorWarrior now deals 180% from 170% to GondorFarm. (Same as 1.06 and BT2DC)
+	-Beta46: MordorTavern lvl3 20 from 25.
+	-Beta46: GondorKnight now deals 95% to barracks.
+	-Beta46: GondorSoldier damage taken by CRUSH restored to 125%, from 113%. (Was buffed to 113% in 1.09v1)
+	;;NoLongervigent;;-Beta46: GondorSoldier flankability reduced. (flanking duration 3000 from 4000)
+	-Beta46: GondorSoldier sword damage against MordorSlaughterHouse now 72.5%, from 76.5%.
+	; -Beta46: GoblinGorkil now takes 100%, from 77.77% CRUSH_REVENGE. (now he can dismount and escape)
+	-Beta46: GoblinGorkil on scorpion existing 87% penalty vs buildings now also affects fortress.
+	-Beta46: GoblinTreasureTrove level 3 upgrade 20 from 25 lvl3.
+	-Beta46: DwarvenMenOfDale range slightly increased to 390, from 380. range. (same as haradrim archer) //AndyAutistRequests//
+	-Beta46: ElvenEregionForge lvl 3 upgrade 20 from 30. /added 25 before
+	-Beta46: IsengardArmory lvl 3 upgrade buildtime 20s from 25s.
+	-Beta46: Builders now take 10%, from 1% FLAME. (tested with 5%.)
+	-Beta46: ElvenHaldir GoldenArrow reworked: now changes at level 7 and 10.
+	-Beta46: ElvenHaldir GoldenArrow level 7: 30% less damage, no stun, less radius
+	-Beta46: ElvenHaldir GoldenArrow level 10: can now knockback any heroe, instead of 1k ones.
+	-Beta46: ElvenElrond Farsight shroud-reveal bonus now also affects Heroes and ships.
+	-Beta46: ElvenElrond Whirlwind reworked: now changes at level 5, 7 and 10, from being a weak but good looking tornado in level 6.
+	;nolongervi; -Beta46: ElvenElrond Whirlwind lvl5 cannot be controlled and lasts few seconds.
+	;nolongervi; -Beta46: ElvenElrond Whirlwind lvl7 can be controlled but it's not so effective. (it's the one we know from 1.09v2)
+	;nolongervi; -Beta46: ElvenElrond Whirlwind lvl10 finaly becomes a big tornado with lightning FXs and improved stats.
+	-Beta46: ElvenElrond Restoration now also replenish 1 unit per battalion.
+	-Beta46: ElvenArwen Elven Grace readded: but now the heal is fired 3 times, which means player will be forced to wait she completes the animation for a full heal. (otherwise it would be a 1/3 of heal).
+	-Beta46: ElvenArwen Elven Grace heal amount set to 750 and heal radius to 150. Originally, 1.06 ElvenArwen Elven Grace was 2000/300 respectively. (Aragorn is 1000/200, ElvenElrond is 750/250)
+	-Beta46: ElvenArwen Elven Grace set to affect any kind of infantry or cavalry unit. (not monsters)
+	-Beta46: ElvenArwen Elven Grace is castable, not one click.
+	-Beta46: ElvenArwen flood not changing at lvl 4/7/10 as intended in this new patch. (Beta46)
+	-Beta46: ElvenLorienWarrior flanked duration reduced to 2500 from 4000. (Means slightly less chance of lossing the entire horde on a flanking)
+	-Beta46: ElvenEregionForge forge lvl 3 upgrade time now 25 sec from 30 sec. (matches TreasureTrove, IsenArmory)
+	-Beta46: DwarvenGloin One-hitting lvl 3 furnaces Fixed. (he's intended to leave them 1 hit left to destroy)
+	-Beta46: DwarvenMenOfDale now pays BasicTraining for 150, instead of 200. (Originally 250.
+	-Beta46: DwarvenMenOfDale BlackArrows reload 90 sec from 60sec.
+	-Beta46: ;;Reverted;-DwarvenMenOfDale Summoned now come with BlackArrows. (Can use it only once with the reloadtime nerf)
+	-Beta46: StandarizingWellArmor: GondorWell reveal shroud range now 250 from 160.
+	-Beta46: StandarizingWellArmor: DwarvenHearth reveal shroud range now 250 from 300.
+	-Beta46: StandarizingWellArmor: ElvenGaladrielMirror reveal shroud range now 250 from 400.
+	-Beta46: MordorCorsair: Fixed the full of the corsair horde not throwing firebombs, when horde repositiond in a bad range. (now individuals will always shoot after horde repositioned)
+	-Beta46: GoblinFireDrake damage gains are now multiplicative. Means Inferno ability is better at lvl 10.
+	-Beta46: GoblinFireDrake from Fortress health now 5200 from 4800. (Originally 4000)
+	-Beta46: Creeps: GoblinFireDrake health now 4000 from 4800. (Originally 4000)
+	-Beta46: GoblinFireDrake now take 60%, from 45% SPECIALIST damage. (Tested with 90% on 4800hp drakes.)
+	-Beta46: GoblinFireDrake damage now has a taperoff of 66.6%.
+	-Beta46: ;;//Reverted// -GoblinCreeps: GoblinFireDrake now take 90%, from 45% SPECIALIST damage.
+	-Beta46: Maps: Deleted: Morthond Valley. (gameplay sucks but i used to like it back then because it was the only map with amonhen texturing, but now there are way superior maps)
+	-Beta46: Maps: Deleted: tower hills of jokuc. (nobody play it, distances between player look boring. map looked good when we didnt have so many maps
+	-Beta46: Maps: Deleted: tournament snow from Collector Edition pack. ( i used to keep it cuz it was part of the Collector Editions pack, but its garbage)
+	-Beta46: Maps: Deleted: eregion
+	-Beta46: Maps: Deleted: brandybuck
+	-Beta46: Maps: Deleted: trollshaws
+	-Beta46: Maps: Deleted: GoldenGrove
+	-Beta46: Maps: MapAdded: Rhudel Steppe
+	
+Beta45a1	//Logged
+	-Beta45a1: GondorFaramir WoundArrow now deals 110%, from 120% to DwarvenBattleWagon. (100% in v1)
+	-Beta45a1: GondorSoldier sword damage against DwarvenMineShaft now 77.5%, from 82.5%. (72.5% in v1) //played with 80%(109v1 was 72.5%, 1.08 was 82.5%. 1.06 was 100%)
+	-Beta45a1: GondorKnight 105%, from 100% to DwarvenMineShaft. (it's slightly more than 1.6 relationships)
+	-Beta45a1: GondorAragorn no longer shares his exp with GondorBoromir nor GondorFaramir.
+	-Beta45a1: Maps: Fixed ForsakenInn keeping players alive and having wrong description.
+	-Beta45a1: Maps: MapAdded: "Forlond" by Powerkartoffel.
+	-Beta45a1: Maps: MapAdded: "Beleriand" by Powerkartoffel.
+	-Beta45a1: Maps: MapAdded: Reworked "Gardens_of_far_Harad". by Powerkartoffel.
+	-Beta45a1: Maps: MapAdded: Reworked "Canyions_of_Khand" by Powerkartoffel.
+		
+Beta45	//Logged
+	-Beta45: Maps: MapAdded: "Gardens_of_far_Harad". by Powerkartoffel.
+	-Beta45: DwarvenDemolisher damage now 800 from 700. Damage against fortress 75%, from 87%. (600 from 609). Damage can now be compared with batering ram in portrait, as both share scalars.
+	-Beta45: GoblinCaveTroll GrabGoblin now have a reload time of 30 seconds. It starts reloading when goblin is on your hands, ideally would be to start reloading after you throw it. But it's not possible.
+	-Beta45: GoblinSpiderSummon reload time 240 seconds from 210. (Nerf because this powerpoint path is no longer garbage. Wyrm is great)
+	
+	-Beta45: FarmArmorStuff: Standarized all faction armor against LOGICAL_FIRE. Set to 4%, from 5% in evil ones. ElvenMallorn, Farm and DwarvenMineShaft were taking 0.75%, 6% and 6% respectively. //Note farms had different logical_fire values due the Flammability behavior, which were Reverted during BTP.
+	-Beta45: FarmArmorStuff: Good faction farms take the same amount of CAVALRY_RANGED than evil ones. Now take 2%, from 1% respectively. //Dumb change but that's the value Evil farms had.
+	
+	-Beta45: FarmGeometryStuff: ElvenMallorn cylindrical terrainbounds/phisical 50/45, from 80/40. //1.06 created this geometry to force all farms to occupy the same terrain, despite the actual size of geometry of the structure.
+	-Beta45: FarmGeometryStuff: DwarvenMineShaft cylindrical terrainbounds 45 from 80. //1.06 created this geometry to force all farms to occupy the same terrain, despite the actual size of geometry of the structure.
+	-Beta45: FarmGeometryStuff: GoblinTunnel cylindrical terrainbounds 45 from 80. //1.06 created this geometry to force all farms to occupy the same terrain, despite the actual size of geometry of the structure.
+	-Beta45: FarmGeometryStuff: MordorSlaughterHouse cylindrical terrainbounds 55 from 80. //1.06 created this geometry to force all farms to occupy the same terrain, despite the actual size of geometry of the structure.
+	-Beta45: FarmGeometryStuff: Isengardfurnace cylindrical terrainbounds 45 from 80. Special and unique work made to Isengard Furnace geometry. which is now even better than pre 1.06 furnaces. Players can now build in the sides and block it.  //1.06 created this geometry to force all farms to occupy the same terrain, despite the actual size of geometry of the structure. (TestMe)
+	-Beta45: FarmGeometryStuff: Lumbermill cylindrical terrainbounds 55 from 80. //1.06 created this geometry to force all farms to occupy the same terrain, despite the actual size of geometry of the structure.
+		
+	-Beta45: AntiWallStuff: GondorTrebuchet antiwall radius now 70 from 100.
+	-Beta45: AntiWallStuff: MordorCatapult antiwall radius now 70 from 100.
+	-Beta45: AntiWallStuff: MordorMountainTroll Shoulder attack now has an antiwall weapon of 50 radius.
+	-Beta45: AntiWallStuff: GoblinCaveTroll Shoulder attack now has an antiwall weapon of 50 radius.
+	-Beta45: AntiWallStuff: BatteringRam attack now has an antiwall weapon of 50 radius.
+	-Beta45: AntiWallStuff: GoblinCaveTroll RockThrow antiwall radius now 50 from 75. Damage reduced against walls.
+	-Beta45: AntiWallStuff: GoblinCaveTroll GoblinThrow attack now has an antiwall weapon of 50 radius.
+	-Beta45: AntiWallStuff: GoblinMountainGiant Punch attack now has an antiwall weapon of 50 radius.
+	-Beta45: AntiWallStuff: ElvenEnt Punch attack now has an antiwall weapon of 50 radius.
+	-Beta45: AntiWallStuff: ElvenEnt (including EntVigilant) RockThrow antiwall radius now 70 from 110.
+	-Beta45: AntiWallStuff: ElvenTreebeard RockThrow antiwall radius now 70 from 100.
+	-Beta45: AntiWallStuff: ElvenTreebeard Punch attack now has an antiwall weapon of 50 radius.
+	-Beta45: AntiWallStuff: DwarvenGloin ShakeFoundatios now has an antiwall weapon of 65 radius.
+	-Beta45: AntiWallStuff: DwarvenCatapult antiwall radius now 70 from 100.
+	-Beta45: AntiWallStuff: DwarvenDemolisher attack now has an antiwall weapon of 50 radius.
+	-Beta45: AntiWallStuff: MordorGrond now has an antiwall weapon of 85 radius.
+	
+	
+	
+	-Beta45: Artillery_AntiWallStuff: GondorTrebuchet long range bombard antiwall extra damage reduced to 0%, from 50%. (Was 1.00% in 1.09v1 and before)
+	-Beta45: Artillery_AntiWallStuff: ElvenEnt/ElvenTreebeard long range bombard antiwall extra damage reduced to 0%, from 50%. (Was 1.00% in 1.09v1 and before)
+	-Beta45: Artillery_AntiWallStuff: DwarvenCatapult long range bombard antiwall extra damage reduced to 0%, from 50%. (Was 1.00% in 1.09v1 and before)
+	-Beta45: Artillery_AntiWallStuff: IsengardBalista long range bombard antiwall extra damage reduced to 0%, from 50%. (Was 1.00% in 1.09v1 and before)
+	-Beta45: Artillery_AntiWallStuff: MordorCatapult long range bombard antiwall extra damage reduced to 0%, from 50%. (Was 1.00% in 1.09v1 and before)
+	-Beta45: Artillery_AntiWallStuff: GoblinMountainGiant long range bombard antiwall extra damage reduced to 0%, from 50%. (Was 1.00% in 1.09v1 and before)
+	
+	
+	
+	
+	
+	
+	
+	-Beta45: AntiWallStuff: MordorMumakil minimal damage against machines reduced to 133%, from 200%.
+	-Beta45: AntiWallStuff: MordorMumakil minimal damage against walls and expansions reduced to 67%, from 100%.
+		
+	-Beta45: Bugfixes: Fixed MordorMumakil having literaly moving sounds while attacking units, now properly play the attack sounds EA made. (originalyl the sound is only added in one of the 4 attack animations)
+	-Beta45: Bugfixes: Fixed GoblinMountainGiant having literaly moving sounds while attacking units, now properly play the attack sounds EA made (similar to atack vs buildings)
+	-Beta45: Bugfixes: ElvenElrond athelas no longer provides +15% health point, instead, +15% armor. Athelas FX on monsters is now bigger.
+	-Beta45: Bugfixes: Fixed SignalFire displaying 0% when captured. (bonus always worked tho)
+	-Beta45: ElvenFortress EntVigilant damage now 400 from 500. (note ElvenTreebeard rock is 400)
+	-Beta45: ElvenFortress FloodGates buildtime 22 from 25
+	-Beta45: IsengardFortress MineLauncher buildtime 22 from 25
+	-Beta45: MenFortress Dormitory buildtime 22 from 25
+	-Beta45: MordorFortress GateWatcher buildtime 22 from 25.
+
+	
+Beta44	//Logged
+	-Beta44: GondorGandalf crush weapon using rohirrim crush instead of hero, fixed. (160 crush damage instead of 50) (now accepts damage gains(
+	
+	-Beta44: MordorDrummertroll crush deceleration and minimun crush velocity set as DwarvenBattleWagon or ent or giants. 
+	-Beta44: MordorDrummertroll crush radius now 5 from 10.
+	-Beta44: MordorMountainTroll hp gains 975 from 1000. reworked the way its gained. )formula aplied everywhere)
+	-Beta44: MordorDrummertroll hp gains 975 from 1000. reworked the way its gained.)formula aplied everywhere)
+	-Beta44: MordorAttackTroll hp gains 1300 from 1500. reworked the way its gained.)formula aplied everywhere)
+	
+	-Beta44: GoblinCaveTroll now deals 90%, from 99% against isengardpikeman.
+	-Beta44: IsengardBalista crush no longer accept damage gains.
+	-Beta44: GoblinFireDrake crush no longer accept damage gains.
+	-Beta44: GoblinCave select sound added minimun volume of 88%. Reduced slightly the max volume of 2 of the 3 variations, anonying ones.
+	-Beta44: GoblinFissure select sound added minimun volume of 88%. 
+	-Beta44: GoblinGorkil scorpion crushing deceleration now 10%, from 15%. Same as Mouth of Sauron. 
+
+	-Beta44: DwarvenGloin shake foundations production debuff blue FX is now properly linked to its duration and dissapaers if building is destroyed.
+	-Beta44: DwarvenDemolisher crush no longer accept damage gains.
+	-Beta44: DwarvenMenOfDale from DwarvenBattleWagon fixed when i fixed phalanx attacking in GoblinTunnel.
+
+	-Beta44: Fixed IsengardSharku crush weapon using DwarvenBattleWagon crush instead of hero. (160 crush damage instead of 195)) (now accepts damage gains(
+	-Beta44: IsengardBalista and  crush no longer accept damage gains.
+	lobal
+	-Beta44: Fixed single mounted BannerCarriers not having deceleration/min crush settings.
+	-Beta44: CreteAHero rain of arrows have old icon.
+	;;irrelevantforlog;;-Beta44: Wyrm Autoreposition via player command max range 1000 from 2000. same than automatic.
+	
+Beta43	// logged
+	-Beta43: DwarvenBattleWagon can now purchase HeavyArmor when player researches the forgeworks technology.
+	;nolongervigent-Beta43: DwarvenBattleWagon HeavyArmor reduces damage taken by 25% for all damage types except MAGIC and FLAME which are reduced by 50% less.
+	-Beta43: MordorAttackTroll can now purchase HeavyArmor, if player has researched the technology in the Tavern.
+	-Beta43: GoblinGorkil on scorpion now uses ResilientHeroArmor instead of MoutnedArmor. (same as MoS/IsengardSharku/GondorGandalf
+	-Beta43: Maps: firien forest: fixed crash in rotwk and fixed signalfire not recognised by scripts (ringHeroes spawn it)
+
+Beta42	// logged
+	-Beta42: GoblinArcher having GondorArcher terrorized voices, fixed. //FiguredByZeldrake//
+	-Beta42: GoblinScavenger not working in WarOfTheRing mode, fixed. (also not working for AI in general) //FiguredByZeldrake//
+	-Beta42: GoblinFireDrake build cost now 1500, from 2000.
+	-Beta42: GoblinCaveTroll can now purchase HeavyArmor once player has researched the technology in the TreasureTrove.
+	;;Nolongervigent;-Beta42: GoblinCaveTroll HeavyArmor reduces damage taken by 25%. 
+	-Beta42: GoblinCaveTroll health gains reduced to +975, from +1255. (health base 2000)
+	-Beta42: GoblinCaveTroll damage taken by MAGIC 90%, from 80%.
+	-Beta42: GoblinCaveTroll damage taken by HERO 135%, from 127%.
+	;nolongervig -Beta42: ;Reverted; -DwarvenBattleWagon now receive Mithril Mail when player researches the forgeworks technology. Reduces damage taken by 25% for all damage types except MAGIC and FLAME which are reduced by 50% less.
+	-Beta42: DwarvenBattleWagon health gains reduced to +1300 from +1500. (health base 3000)
+	-Beta42: DwarvenBattleWagon armor damage taken by CRUSH 60%, from 50%
+	-Beta42: DwarvenBattleWagon armor damage taken by STRUCTURAL 200%, from 190%
+	-Beta42: DwarvenBattleWagon armor damage taken by MAGIC 90%, from 75%
+	-Beta42: DwarvenBattleWagon armor damage taken by FLAME 90%, from 75%
+	-Beta42: DwarvenBattleWagon armor damage taken by LOGICAL_FIRE 20%, from 10%.
+	-Beta42: EXPERIMENT: DwarvenMineShaft entry offset experiment:now 15 from 26.6 (originally 0)	;;played with 26.6; was gud but looks like shit.
+	-Beta42: DwarvenGuardian siege hammer weapon typo, fixed.
+	-Beta42: MordorDrummertroll becoming permanently inmortal after burning death, when controlled by AI, chances reduced.  (not a real fix but at least i wasn't able to replicate it after i reduced the burningdeath duration)
+	-Beta42: GondorArcher now pays HeavyArmor for 200, instead of 300.
+	-Beta42: GondorArcher now pays FireArrows for 200, instead of 300.
+	
+	
+Beta41	// logged
+	-Beta41: MultiplayerBeacon no longer blocks buildings. (Credits to RotWK 2.02 team)
+	-Beta41: Stances: Heroes in defensive now lose -85% vision instead of -97%. (85% is enough to dont ignore units attacking it) //GuerrillaAutism//
+	-Beta41: Stances: Archers In defensive now lose -85% vision instead of -97%. (85% is enough to dont ignore units attacking it) //GuerrillaAutism//
+	-Beta41: GoblinDrogoth claw damage now 600 from 500. (same as MordorWitchKing)
+	-Beta41: ElvenBarrack level 2 upgrade now cost 750 from 850.
+	-Beta41: ElvenWood decelerate debuff to +200 from +250%
+	-Beta41: ElvenMallorn armor now changes to a generic armor in level2 //Dwarves and Men already do this--, instead of gaining +12% armor against URUK CAVALRY HERO and +12% armor against FLAME.
+	-Beta41: ElvenHaldir GoldenArrow shot sound desynchronization, fixed. 
+	-Beta41: ElvenHaldir GoldenArrow not coming off from the bow, fixed. 
+	-Beta41: ElvenGlorfindel attack moving animation to use better one.
+	-Beta41: Boromir/ElvenHaldir/IsengardLurtz leadership effect reduced: now 40%damage/20%exp from 50%damage/25% exp. //played with 35% 25%
+	-Beta41: Tooltips: RESISTANT leadership names are now called "inspiring presence) (theoden, ElvenArwen, DwarvenDain, ElvenElrond, aragorn) 
+	-Beta41: Tooltips: GoblinGorkil leadership is now called battle frency as intended by ea code. //GuerrillaAutism//
+	-Beta41: IsengardSharku being affected by RohanEomer leadership, fixed.
+	-Beta41: GondorFaramir train allies ability playing when dead or paralyzed, fixed.
+	-Beta41: Maps: Added DunlandII by Potato. Replacing dunland.
+		
+Beta40 - Addon2	// logged
+	-Beta40a2: DwarvenGloin now have higher chances of using Slam while crippled. Minimum attack range set to 21 from 10. //played with 15.//IsengardLurtz carnage melee range is 20.
+	-Beta40a2: DwarvenBarrage now falls 1 second earlier.
+	-Beta40a2: DwarvenGuardian with forged blades / or siege hammers no longer change command set. Can now be upgraded at same time. Whatever appaers on the icon it will work without any bug, scam or abuse. If forged blade purchased, hammer turns grey. If hammer purchased, blades grey. But icon still appaers for multiselection.
+	-Beta40a2: DwarvenBattleWagon upgraded no longer change command set. Can now be upgraded at same time. Whatever appaers on the icon it will work without any bug, scam or abuse. The purchased upgrade remains colored with the description about what it does and the others turn grey.
+	-Beta40a2: ElvenGaladriel now has a experience level.
+	-Beta40a2: IsengardSaruman WizardBlast knockback heroe chances now 15%/25%/35% at level 1, 4, 8. (From 25% being the best improvement)
+	; -Beta40a2: ;;Reverted;;-IsengardSaruman knockback heroe chances now 25%/35%/45% at level 1, 4, 7. (From 25% in all levels)
+	-Beta40a2: GoblinCaveTroll GoblinThrow radisu now 15 from 18.
+	
+	
+	
+	
+	
+Beta40 - Addon1	// logged
+	-Beta40a1: ElvenArwen cavalry leadership moved to level 2, from level 3.
+	-Beta40a1: ElvenArwen SummonFlood moved to level 4, from level 5.
+	-Beta40a1: ElvenArwen SummonFlood in level4 now calls 3 horses covering 80 radius, from 3 horses covering 100 radius.
+	-Beta40a1: ElvenArwen SummonFlood in level7 now calls 5 horses of 40 damage, instead of 3. 
+	-Beta40a1: ElvenArwen SummonFlood in level10 now calls 7 horses of 40 damage, instead of 3 fat horses of double damage.
+	-Beta40a1: ElvenArwen FloodHorse damage againts units, except cavalry and archer, doubled to 40, from 20. (Scalars against Balrog or Nazguls kept not affected.) //played with 30 against all units.
+	-Beta40a1: ElvenArwen FloodHorse now deals 100% agains Structures, from 10%.
+	-Beta40a1: ElvenArwen FloodHorse now deals 75% agains Barracks, from 10%.
+	-Beta40a1: ElvenArwen FloodHorse now deals 200%, from 100% against GoblinFighter and MordorWarrior. (equals to 400% compared to v2)
+	-Beta40a1: DwarvenBattleWagon BannerCarrier 350 from 300
+	; -Beta40a1: ;Reverted;;-DwarvenBattleWagon MenOfDalePassenger 400 from 450.
+	-Beta40a1: DwarvenGimli Leap max/min damage in level 1 now 180/80 from 120/120
+	-Beta40a1: DwarvenGimli Leap max/min damage in level 4 now 210/80 from 150/120
+	-Beta40a1: DwarvenGimli Leap max/min damage in level 7 now 240/80 from 180/120
+	-Beta40a1: GoblinGorkil experience for level 2 3 4 reduced. Experience required for level 5 6 increased.
+	-Beta40a1: GoblinFortress DragonNest makes GoblinDrogoth Purchase/Revive 15% faster, from 10%/0% respectively.
+	-Beta40a1: MordorDrummertroll now takes 50% poison from 25%: (all other trolls take 100%)
+	-Beta40a1: Maps: MapAdded: "Mount doom by" Powerkartoffel
+	-Beta40a1: Maps: High Pass: fixed black camera when staring at hill peaks.
+	-Beta40a1: Maps: Slopes of Lonely Mountain: fixed black camera when staring at hill peaks.
+	-Beta40a1: Experimental: camera scroll speed increased
+	
+	
+	
+Beta40	// logged
+	-Beta40: GondorGandalf blast arcs 25º 50º 75º 100º 125º from 40º 75º 120º 127º 135º
+	-Beta40: GondorGandalf IstariLight 135%, from 300% against ElvenLegolas. //played with 200%: vs legolas. survives 5% healthbar. with knifefighter like 35%
+	-Beta40: Maps: MapAdded: "amon amarth II" by Powerkartoffel
+
+
+Beta39 + Addon2			// logged
+	-Beta39a2: TaintedLand duration 210 from 240.
+	-Beta39a2: TaintedLand reload 240 from 270.
+	-Beta39a2: WarChant radius now 135 from 125.
+	-Beta39a2: WarChant reload time now 135 seconds from 120. (same as rallyingcall)
+	;;nolongevigent;;-Beta39a2: ElvenArwen FloodHorse damage against units(not cavalry) now 30 from 20.
+	-Beta39a2: SarumanFireblal LOGICAL_FIRE readded partially. Saruman fireball in level 5 now looks like 1.06: double fireball, double LOGICAL_FIRE. (not so op)
+	-Beta39a2: New fortress healing system. All fortress can heal monsters, but only 0.05%, fromthe usual 2% or 3%. (via HouseOfHealing, SiegeKegs, MysticFountains, RazorSpines, LavaMoat, Excavations)
+	-Beta39a2: Fixed ShipWright not healing ships as intended (it only heals them when they are attacking, because their own autoheals have prioritty. now both stack)
+	-Beta39a2: ShipWright healing radius now 250 from 300.
+	-Beta39a2: ShipWright healing rate now 2%, from 3%.
+	-Beta39a2: Fixed SignalFire not healing Heroes as intended (it only heals them when they are attacking, because their own autoheals have prioritty. now both stack)
+	-Beta39a2: SignalFire healing radius now 250 from 300.
+	-Beta39a2: SignalFire healing rate now 1%, from 3%.
+	
+	
+Beta39 + Addon1	// logged
+	-Beta39a1: EyeOfSauron reload time now 150 sec from 135. (For comparison, debuff is 165, WarChant is 120, RallyingCall is 135)
+	-Beta39a1: ToolTip: Fixed EyeOfSauron ToolTip and damage typo.
+	-Beta39a1: MordorCorsair now deals 69%/63% against ElvenMallorn, from 77%/70%.
+	-Beta39a1: Wyrm now deals 50% vs MordorMumakil, from 100%.
+	-Beta39a1: GoblinThrow terror no longer affects level5/10 units.
+	-Beta39a1: RohanPeasantFromInn now pays 100 for BasicTraining, instead of 250.
+
+
+Beta39	// logged
+	-Beta39: Experimental 64bits fix: Added a edited game.dat that possibly fixes the "out_of_memory" crashes, generaly when playing long games in high level of detail.
+	-Beta39: ElvenTreebeard bounty value now 250 from 375.
+	-Beta39: ElvenHaldir buildtime set to 50 from 64. //played with 55 and 60 too. //(to compensate leadership 35%)
+	;;NoLongerVigent;;-Beta39: Boromir/ElvenHaldir/IsengardLurtz leadership effect reduced: now 35%damage/25%exp from 50%damage/25% exp. 
+	-Beta39: Reverted this change from v2. "-DwarvenGuardian now deals 95%, from 100% against GondorSoldier, Gondor GondorTowerGuard, MordorCorsair, MordorEasterling."
+	-Beta39: DwarvenAxeThrower now deals 120% against GondorSoldier, from 100%. (v2 added 20% bonus vs other swormdne)
+	;;NoLongerVigent;-Beta39: Reverted this change from v2. "-GondorBoromir sword chances to knockback DwarvenGloin now 20%, from 15%. (Originally 25%) //For comparison, note that since patch 1.08 GondorBoromir chances against IsengardLurtz were restored to 25%."
+	-Beta39: GondorSoldier sword damage against DwarvenMineShaft now 80%, from 82.5%. (109v1 was 72.5%, 1.08 was 82.5%. 1.06 was 100%)
+	-Beta39: GondorSoldier sword damage against GoblinTunnel now 76.5%, from 78%. (Same penalty than vs MordorSlaughterHouse) (109v1 was 82.5%)
+	
+	
+Beta38	- 	// logged
+	-Beta38: Experimental_Pathfinding: All hordes of the game are now Cilinders instead of Boxes. Which means they surround enemy hordes better. Easier to surround an enemy horde attacking your farm in order to flank it. Instead of getting stuck and taking 2 hours to surround them, they do it inmediatly passing thru them. // 2022CylindricalPathFinding
+	-Beta38: MenFortress MenBoilingOil reload time now 45 from 60.
+	-Beta38: MenFortress MenBoilingOil cost 1200 from 1350.
+	-Beta38: MenFortress MenBoilingOil damage max/min now 1200/450, from 900/450. //played with 900/585
+	-Beta38: MenFortress MenBoilingOil build up animation speeded up to 5 seconds, from 8. Now when it's ready to use, plays a sound. (Currently using Dwarf one, men has no MenBoilingOil ready sound)
+	-Beta38: ElvenFortress can now heal flyers: Via EagleNest + MysticFountains. Health percent set to 1%, fromthe usual 2% or 3%. Stacks with normal autoheal.
+	-Beta38: Experiment: DwarvenMineShaft entry offset experiment:now 15 from 26.6 (originally 0)	;;played with 26.6; was gud but looks like shit.
+	-Beta38: DwarvenArcheryRange range level 2 buildcost/buildtime now 350/30sec from 500/20sec. 
+	-Beta38: DwarvenGimli AxeThrown now deals 10% less against against GoblinDrogoth. (Deals 585%, from 650%)
+	-Beta38: DwarvenFortress DwarvenOilCasks reload time now 45 from 35.
+	-Beta38: DwarvenFortress DwarvenOilCasks cost 1200 from 1350.
+	-Beta38: DwarvenFortress DwarvenOilCasks build up animation speeded up to 5 seconds, from 8. Upgrade sound now plays when it's ready to use, instead of playing before available.
+	-Beta38: DwarvenFortress upgrade sounds being overriden by the generic FX's, fixed. (the glowing thing overriding sounds)
+	-Beta38: MordorMouthOfSauron EvilEye now deals 115% against Heroes, from 100%.
+	-Beta38: MordorMouthOfSauron EvilEye now deals 130% against Aragorn DwarvenGimli ElvenElrond, from 115%.
+	-Beta38: MordorDrummerTroll CRUSH_REVENGE damage tkaen now 15%, from 25%. (Previously 35%)
+	-Beta38: MordorDrummerTroll walk animation speeded up 35%. Trying to match the 1.09v2 speed buffs.
+	-Beta38: MordorDrummerTroll terror range now 140 from 100. (GoblinShelob, Nazguls, MordorBlackRiders are 180)
+	-Beta38: MordorWitchKingOnFellbeast is no longer inmune to poison.  GoblinShelob/GoblinGorkil stinger not so strong tho.
+	-Beta38: MordorBlackRider now deals 110% against GondorKnight, from 100%. (they also deal 90% vs ElvenRivendellLancer)
+	-Beta38: MordorFortress MagmaCaldrons cost 1200 from 1350.
+	-Beta38: MordorFortress MagmaCaldrons damage max/min now 1200/450, from 900/450. //played with 900/585
+	-Beta38: MordorFortress DoomPyres sound being overriden by val's fx, fixed.
+	-Beta38: MordorFortress MagmaCaldrons build up animation speeded up to 5 seconds, from 6.
+	-Beta38: ;Reverted; GoblinFortress DragonNest now reduces GoblinDrogoth Buildtime by 20%, from 10%. (Originally nothing) 
+	-Beta38: GoblinFortress can now heal flyers: Via DragonNest + RazorSpines. Health percent set to 1%, from the usual 2% or 3%. Stacks with normal autoheal.
+	-Beta38: GoblinFortress DragonNest not healing GoblinDrogoth, fixed (Was because GoblinDrogoth autoheal had priority). Now both stack. A GoblinDrogoth healing in a dragonnest is x2 faster than a normal GoblinDrogoth. (Health % per second now 1%, from 3%)
+	-Beta38: Creeps: GoblinArcher will no longer attack structures.
+	-Beta38: GoblinGorkil Mount/dismount time now 2.4 seconds from 3.5. (originally 4). //For comparison, all Heroes are 4 sec, 1.6 ElvenGlorfindel was 2.4, MordorBlackRiders were 1.5)
+	-Beta38: MenFortress HouseOfHealing can heal monsters, but only 0.10%, instead of the usual 2% or 3
+	-Beta38: ElvenFortress MysticFountains  can heal monsters, but only 0.10%, instead of the usual 2% or 3
+	-Beta38: DwarvenFortress SiegeKegs can heal monsters, but only 0.10%, instead of the usual 2% or 3
+	-Beta38: IsengardFortress Excavations can heal monsters, but only 0.05% (FoD), instead of the usual 2% or 3%.
+	-Beta38: MordorFortress LavaMoat can heal monsters, but only 0.05% (FoD), instead of the usual 2% or 3%.
+	-Beta38: GoblinFortress RazorSpines can heal monsters, but only 0.05% (FoD), instead of the usual 2% or 3%.
+	-Beta38: Maps: blue mountains towerwar updated to 1v2.
+	-Beta38: Maps: cowmap to latest.
+	-Beta38: Maps: fixed 31 maps with gollum scripts not working or not added at all.
+	-Beta38: Maps: fixed several maps having typo on gollums cripts hence not working
+	
+	
+	
+	
+	
+Beta37	- december 27 2021	// logged
+	-Beta37: MordorWitchKingOnFellbeast chances to knockback a heroe now 75%, from 65%. (Fellbeast is 65%, eagles are 35%, GoblinDrogoth is 65%)
+	-Beta37: MordorEasterling damage now 50/90 from 50/80. (Regular/ForgedBlade)	//Hilarious note, having so low forged blade damage while having the global -25% forged blade penalty vs Heroes means upgraded they deal 54 damage vs Heroes, while unupgraded deals 50 damage. //SCAMM!!!!!!!!!!
+	-Beta37: MordorMumakil attack weapons are now separated in two. If muma attacks buildings, units receive indirectly only 20% damage and no knockback. If muma attack units, buildings indirectly receive only 20% damage. 
+	-Beta37: GondorRanger pierce when upgraded now deals 87% against cavalry, like all the other archers in the game.
+	-Beta37: GondorRanger pierce improvement by FireArrows now +18 from +12. (originally +25, but used to lose the bonus against monsters.)
+	-Beta37: ElvenMithlondSentry damage now 55/95 from 55/85. (Regular/ForgedBlade)	//Hilarious note, having so low forged blade damage while having the global -25% forged blade penalty vs Heroes means upgraded they deal 57 damage vs Heroes, while unupgraded deals 55 damage. //SCAMM!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	-Beta37: DwarvenMenOfDale FireArrows upgrade cost 200 from 300. //plyed with 250
+	-Beta37: ForMappers: ElvenGlorfindel cavalry exp level. (useful for map.ini)
+	-Beta37: ForMappers: Projectiles from elven ships are now separated from mirkwood SilverThorn. (useful for map.ini)
+	-Beta37: ForMappers: gondorIsildur has now exp levels. . (useful for map.ini)
+	-Beta37: ForMappers: 4 more placeholders. . (useful for map.ini)
+	-Beta37: ForMappers: 7 men MordorBlackRiders chidlobjects with experience level. . (useful for map.ini)
+	-Beta37: ForMappers: ExpLevel placeholders now appaer in worldbuilder (useful for map.ini)
+	-Beta37: ForMappers: Enabled SpiderRider poisoned arrows for SpiderRiders. (For custom maps)
+
+
+
+Beta36	- november 24 2021	// logged
+	-Beta36: ExperienceLevels: Reworked the way units gain damage and health. Now set to 5 10 5 10 5 10 5 10 5 instead of 10 10 10 10 5 5 5 5 5. //-This will imply a nerf for these who get level 5 archers without much effort and will imply a motivation to be in level 6-10. Formula is global so everyone is affected, even orcs (which now will fit with the new accesible BasicTraining/horde bonus system)
+	-Beta36: ExperienceLevels: Mumakils speed gains now 6% at level5 and level8 (from 6% at level5 and 7% at level7) //Matches texture upgrades//
+	-Beta36: ExperienceLevels: GoblinCaveTroll speed gains now 4% at level3, level6 and level9 (from 2% at level2, 4% at level5, and 6% at level7)
+	; -Beta36: //Reverted//-Mordor BasicTraining technology is now available in level 1 orcpit.
+	; -Beta36: //Reverted//-Mordor BasicTraining technology upgrade cost 400 from 300.
+	-Beta36: MordorOrcPit level 2 upgrade buildcost/buildtime now 100/20 from 150/25.
+	-Beta36: MordorMouthOfSauron Doubt radius 120 from 110.
+	-Beta36: FX: +1 rumble sound for saruman thunderstorm
+	-Beta36: ToolTip: MordorMumakil ToolTip about speed bonuses.
+	-Beta36: ToolTip: GoblinShelob/GoblinGorkil stinger ToolTip about speed debufs.
+	-Beta36: ToolTip: boromir ToolTip to mention speed bonus on portrait.
+	-Beta36: ToolTip: dwarvencatapult tooltipt o mention speed.  (but wont update with firestone)
+	-Beta36: ToolTip: cavetrool ToolTip to mention speed 
+
+Beta35	- november 18 2021	// logged
+	-Beta35: Earthquake reworked. Damage slightly increased against units and buildings.
+	-Beta35: dunedain lifetime 100 from 90. (originally 120)
+	-Beta35: //Reverted// -SummonRohirrims now creates 6 hordes from 5. 
+	-Beta35: DwarvenMenOfDale can now be flanked. Duration set to 1 sec instead of the usual 4 sec.
+	-Beta35: DwarvenHobbits can now be flanked. Duration set to 1 sec instead of the usual 4 sec.
+	-Beta35: DwarvenMenOfDale FireArrows equip now cost 250 from 300.
+	-Beta35: DragonStrike damage vs fort 113%, from 84%. 
+	-Beta35: DragonStrike debuff speed reducer is now considered a Stun like Grima poisonous words, therefore looking blue instead of purple. Duration of this stun is now 6 seconds instead of 12.
+	; -Beta35: ;;Reverted;-IsengardSaruman knockback heroe chances now 25%/35%/45% at level 1, 4, 7. (From 25% in all levels)
+	-Beta35: RainOfFire max/min damage back to 7250/1450 from 7250/1750
+	-Beta35: ;;Reverted;; -MordorRainOfFire 15% bonus vs buildings. ;;.;; tested wioth 20% equals to eq pretty much.
+	-Beta35: The tripple MordorRainOfFire wont randomize. will be like volleyarrow.
+	-Beta35: The tripple MordorRainOfFire time randomize now 300min 3500max, from 300min 1500max.
+	;Reverted;; -Beta35: Mordor BasicTraining technology upgrade cost 400 from 300.
+	-Beta35: MordorWarrior now pays BasicTraining for 85, instead of 150. //played with 75, 65, 60
+
+
+Beta34	- november 11 2021	// logged
+	-Beta34: Maps: Added added ironhills IV (8player map) by Mako.
+	-Beta34: Added LastBridge (21) / MirkwoodII (25) / Ettenmoors (6) / Erech4th 22
+	; NolongerVigent;;-Beta34: Wyrm lifetime 70. from 60 67
+	-Beta34: Wyrm damage reduced to 5000, from 6000.
+	-Beta34: Wyrm Autoreposition minimun/maximun range now 200/1000 from 115/800. //played with 125/800, still jumps on things she can already attack.
+	;;nolongervigent;;-Beta34: Wyrm human rep max 2000 min 0
+	-Beta34: MordorMumakil attack weapons are now separated in two. If muma attacks buildings, units don't receive damage. If muma attack units, buildings indirectly receive only half damage.
+	-Beta34: MordorFellbeast splash damage is now improved at level 6. (matches with the texture change) (lvl1 30 radius, lvl 6 35)
+	-Beta34: Fixed Isengard BasicTraining not being discounted by fortress upgrade.
+	-Beta34: IsengardFighter now pays BasicTraining for 150, instead of 200.
+	-Beta34: IsengardSaruman lvl10 ability is now amazing.
+	-Beta34: IsengardSharku SummonWargs ability reload time set to 220. //played with 300, consider DwarvenDain royal guard is 200 and can take your base or onehit your Heroes.
+	-Beta34: GoblinGorkil dismounted shock standing up animation being larger than duration fixed.
+	-Beta34: GoblinGorkil shock standing time now 3383 ms from 4500 ms. (Mounted animation speeded up and dismounted animation slowed down so now both match. Dismounted one had like two seconds of no animation while paralyzed.)
+	-Beta34: ElvenMirkwoodBannerCarrier health now 300 from 200. (guardian BannerCarrier is 400)
+	-Beta34: Fixed GoblinFireDrake becoming invisible if ever debuffed by a 0% speed modifier such as IsengardLurtz CrippleStrike/MorgulBlade.
+	-Beta34: Fixed SummonedDragon becoming invisible if ever debuffed by a 0% speed modifier such as IsengardLurtz CrippleStrike/MorgulBlade.
+	-Beta34: Builders becoming invisible if ever debuffed by a 0% speed modifier such as IsengardLurtz CrippleStrike/MorgulBlade, fixed.
+	-Beta34: Sounds:BalrogSummonMusic min volume reduced to 60%, from 100%.
+	-Beta34: Sounds:HobbitSummonMusic min volume reduced to 50%, from 100%.
+	-Beta34: ElvenEntSummon Music min volume reduced to 80%, from 100%.
+	
+Beta33	- november 4 2021	// logged
+	-Beta33: ;;Canceledinbeta34;;-Sounds:DragonSummon, ElvenEntSummon, HobbitSummon minimun volume reduced by 30% so it doesn't so loud when you are in the other side of the map.
+	-Beta33: Sounds:HobbitSummon music is now considered as music by game options, so players don't hear it if toggled off. (And you youtube/twitch videos don't mute pieces of video due copyrights even when you mute games music)
+	-Beta33: ElvenEntSummon music is are now considered as music by game options, so players don't hear it if toggled off. (And you youtube/twitch videos don't mute pieces of video due copyrights even when you mute games music)
+	-Beta33: RohanPeasantFromInn can now be flanked. Flanking duration set to 1 second, instead of the default 4 seconds like any other horde in the game. 
+	-Beta33: MordorCorsair can now be flanked. Flanking duration set to 1 second, instead of the default 4 seconds like any other horde in the game. 
+	-Beta33: MordorLancer can now be flanked. Flanking duration set to 1 second, instead of the default 4 seconds like any other horde in the game. 
+	-Beta33: Wildman can now be flanked. Flanking duration set to 1 second, instead of the default 4 seconds like any other horde in the game. 
+	-Beta33: RohanElvenWarriorFromInn can now be flanked. Flanking duration set to 1 second, instead of the default 4 seconds like any other horde in the game. 
+
+	
+Beta32	- november 1 2021	// logged
+	-Beta32: Regarding Bloodthirst scam-fix; consider		//	lvl 1 ORC awards 20 exp. health/damage 125/20.		//	lvl 10 ORC awards 100 exp. health/damage 255/47.		//	lvl 1 URUK awards 45 exp. health/damage 300/80.		//	lvl 10 URUK awards 80 exp. health/damage 440/115.
+	-Beta32: MordorWarrior Bloodthirst scam fixed: now you gain the respective rank armor/health bonuses, BUT, experience awards are not increased. Therefore a "canibal" level 10 horde is more efficient than a "experienced" level 10 horde. 
+	-Beta32: MordorWarrior Bloodthirst experience multiplier set to 3.87 from 5.16 (09v1 was 3.5 and 1.06 was 2.5). Now you get level 10 by eating 4 hordes, from 3 without an actual positive effect. //Note that level10 damage/health are very significant compared to IsengardFighter.
+	-Beta32: IsengardFighter shieldblock damage penalty now -5%, from -7%.
+	-Beta32: IsengardSharku experience required level 9, 10 increased 10%. 
+	-Beta32: IsengardSharku ManEater now heals 80% health bar from 100%. 
+	-Beta32: IsengardFighter Bloodthirst scam fixed: now you gain the respective rank armor/health bonuses, BUT, experience awards are not increased. Therefore a "canibal" level 10 horde is more efficient than a "experienced" level 10 horde. 
+	-Beta32: IsengardFighter Bloodthirst experience earned doubled. Now you get level 10 by eating 2 IsengardFighter, from 4 without an actual positive effect. //Note that level10 damage/health are insignificant compared to orcs) 
+	-Beta32: ElvenWood now creates 8 trees from 13. (Originally 6, just like HumanWood).
+	-Beta32: ElvenWood radius now 260 from 275. (Originally 250, just like HumanWood)
+	-Beta32: GondorSoldier shieldblock damage penalty now -5%, from none.
+	;longervigent;-Beta32: Wyrm lifetime 67 from 60.
+	-Beta32: Wyrm reload time set to basic tier 3. (540 from 420 secs)
+	-Beta32: GoblinDrogoth plow delay between shots 3.5secs from 4.0.
+	-Beta32: ElvenArwen mounted attack moving anim: disabled the broken one. 
+	-Beta32: DwarvenSummonedCitadel discounts now -30%, from -33%. (upgrades now cost 280 455 840 from 268 435 804).	//GuerrillaAutism//
+	-Beta32: DwarvenDain stealth detector range now 200 from 350
+	-Beta32: ;;Reverted-MordorRainOfFire 15% bonus vs buildings. ;;.;; tested wioth 20% equals to eq pretty much.
+	-Beta32: MordorRainOfFire reload time set to basic tier 4.
+	-Beta32: MordorVolleyArrow reload time now matches GoodVolleyArrow. Now 180 secs from 150 secs.
+	-Beta32: MordorWitchKing dismounted vision range now 400 from 600. (normal Heroes are 300)
+	-Beta32: MordorWitchKingOnFellbeast plow delay between shots 3.5secs from 4.0.
+	-Beta32: MordorWitchKingOnFellbeast Plow against units attack glitch fixed.
+	-Beta32: MordorFellBeast experience required for level 5 to 10 reduced by 20%. 
+	-Beta32: MordorFellBeast damage gains are now multiplicate. set to +42% damage in level 10.  (gains +4% per rank). //Means worse plow, same grab, better claw.
+	-Beta32: MordorFellBeast plow delay between shots 3.5secs from 4.0.
+	-Beta32: MordorFellBeast Plow against units attack glitch fixed.
+	
+Beta31	- octover 4 2021	// logged
+	-Beta31: MordorArcher damage increased against IsengardFighter (Now 115%, from 110%) 	(Consider MordorArcher deals 115% to general infantry)
+	;nolongerivent;-Beta31: Wyrm armor against STRUCTURAL improved; now takes 50% damage from 65%.
+	-Beta31: IsengardWargRider summoned from IsengardSharku now come equiped with HeavyArmor.
+	-Beta31: DwarvenGuardian damage against MordorOrc increased. Now 95 from 90%.
+	;;nolongervigent;;-Beta31: Dwarven RoyalGuard experience awards increased (considering they are level 10 units, awards were calculated asuming they were level 5)
+	-Beta31: GoblinHeavyArmor personal upgrade cost reduced. Now 200 from 250.
+	-Beta31: FixedGoblinWildmanFromInn leveling up faster than intended. (actually not sure it occured but hordeobject was in the wrong experience level)
+	-Beta31: GoblinSpiderRider crush knockback increased. Now 45 from 40. //played and tested with 50. not worth risking to crush pikes,. locomotor already fixed.
+	-Beta31: ;;NoLongerVigent_in_b32;;-MordorArcher base damage increased to 23 from 20.
+	-Beta31: ;;NoLongerVigent_in_b32;;-Evil weak archers (MordorArcher & GoblinArcher) damage gains now 32 from 35.
+	-Beta31: ;;NoLongerVigent_in_b32;;-MordorArcher damage increased against ElvenLorienWarrior (Now 105%, from 100%) 	(Consider MordorArcher deals 115% to general infantry)
+	-Beta31: ;;NoLongerVigent_in_b32;;-MordorArcher damage reduced against DwarvenGuardian (Now 120%, from 140%) (Does not represent a change considering the damage increment)
+	-Beta31: ;;NoLongerVigent_in_b32;;-MordorArcher damage reduced against DwarvenPhalanx (Now 110%, from 130%) (Does not represent a change considering the damage increment)
+	
+Beta30	- 09 aug 2021	// logged
+	-Beta30: ResilientHeroArmor now takes 50% CRUSH from 33%. 
+	-Beta30: GandalfMountedArmor now takes 50% CRUSH from 33%. //CRUSH damage scalars updated to this value (MordorMumakil)
+	-Beta30: GandalfMountedArmor has been separated from ResilientHeroArmor.
+	-Beta30: GandalfMountedArmor now takes 30% CAVALRY from 28%. (dismounted takes 30%)
+	-Beta30: GandalfMountedArmor now takes 33% FLAME, from 20%. (dismounted takes 25%) //FLAME damage scalars updated to this value (BalrogFireBreath, 
+	-Beta30: GandalfMountedArmor now takes 25% MAGIC from 17%. (dismounted takes 20%)	(Scalars of magic damage updated accordingly)
+	
+	
+	-Beta30: MordorWitchking armor now takes 33% FLAME, from 22% (originally 17%). //FLAME damage scalars updated to this value (Sunflare, LightningSword, Sunflare)
+	-Beta30: MordorWitchking armor now takes 25% MAGIC, from 17% (originally 17%). //MAGIC damage scalars updated to this value (IstariLight, LightningSword, EvilEye, Sunflare)
+	-Beta30: MordorWitchKing armor now takes 50% CRUSH, from 35%. 
+	
+	-Beta30: GoblinTunnel armor against CAVALRY now 47 from 50. (Originally 45%) //(Spiderling scalar against GoblinTunnel updated proportionally)
+	-Beta30: MordorSlaughterHouse armor against CAVALRY now 47 from 50. (Originally 45%) // (Spiderling scalar against MordorSlaughterHouse updated proportionally)
+	
+	
+	-Beta30: GondorKnight damage vs MordorSlaughterHouse 95 from 100. //played with 90.//note i just changed the MordorSlaughterHouse armor so this is proportional.
+	
+	-Beta30: Train allies fx now shows up in all level of details. (Legolas, Theoden, Boromir, Faramir, Saruman)
+	-Beta30: Fixed map cliffs on Static Medium level of detail having broken shadows.
+	-Beta30: GoblinFighter now pays ForgedBlades for 200, instead of 250.
+	-Beta30: Goblin BasicTraining purchase for GoblinSpiderLing now cost 100 from 150.
+	-Beta30: TomBombadil punch now deals +50% against machines.
+	-Beta30: Maps: Lebenin IV extended and reworked the east flank.
+	-Beta30: Maps: Lebennin 4p: changed lighting to bfme1 version.
+	-Beta30: Sounds: GondorBarrack minimun volume reduced 10% (it's reduced when you move camera away in a 600 radius)
+	-Beta30: Sounds: DwarvenBarrack minimun volume reduced 10% (it's reduced when you move camera away in a 600 radius)
+	-Beta30: Sounds: ElvenBarrack minimun volume reduced 10% (it's reduced when you move camera away in a 600 radius)
+	-Beta30: Sounds: MenStable minimun volume reduced 7%.
+	-Beta30: Sounds: ElvenGreenPasture minimun volume reduced 7%.
+	-Beta30: Sounds: ElvenMallorn minimun volume reduced 7%.
+
+	
+Beta29	- 18 july 2021	// logged
+	-Beta29: Fixed MordorMumakil, ElvenEnt, Eagles & MordorFellBeast not displaying damage FX's, such as poison or magic.
+	-Beta29: ;;Reverted;;	-Saruman experience required to level 8 now equals to the required for level 10.
+	-Beta29: ;;Reverted;;	-Saruman experience for lvl 7 slighhlt increased.
+	-Beta29: ;;Reverted;;	-Saruman experience required for level 9 10 increased significally.
+	-Beta29: ;;Reverted;;	-IsengardSaruman Dominate ability moved to level 10, from 8.
+	-Beta29: IsengardSaruman Dominate radius of effect now 60 from 90.
+	-Beta29: MordorFellbeast build time now 83 from 90.
+	-Beta29: MordorGrond can no longer move backwards (causing a infinite crush for the players that are aware of it)
+	-Beta29: GoblinArcher from gob lairs will no longer target structures.
+	-Beta29: Fixed GondorAragorn Athelas sound not playing.
+	-Beta29: MordorCorsair sword now deals 115%/160%, from 100%/200% against IsengardBerserker.  (Note berserker used to take 100% slash, then 85% and now 80%)
+	-Beta29: MordorWarrior now deals 115%, from 100% against GondorSoldier. (Note MordorWarrior also has a 15% bonus vs Guardians since 1.08)
+	-Beta29: GoblinMaruader no longer deals +5% vs MordorMountainTroll
+	-Beta29: Maps: Bamfurlong updated.
+
+	
+Beta28	- 09 july 2021	// logged
+	-Beta28: EyeOfSauron now provides +7.5% Damage, +7.5% Armor and +15% experience for any kind of affected Trolls.
+	-Beta28: MordorTrollCage buildtime 49 from 52. (Previously 45)
+	-Beta28: MordorTrollCage health per level now 3500/4500/6500, from 3500/5000/6500.
+	-Beta28: Fixed the new MordorRainOfFire not spawning if casted on water.
+	-Beta28: GondorKnight now deal 90% vs MordorSlaughterHouse from 100%.
+	-Beta28: DwarvenGloin Slam now deals 200%, from 100% to MordorMumakil. 
+	-Beta28: MordorMumakil crush now deals 38% against DwarvenGloin, from 48%. //Note muma crush deal 60% vs normal Heroes, 48% vs DwarvenDain. But DwarvenGloin type of armor takes 50% crush instead of 33% or 35% like DwarvenDain or DwarvenGimli. IsengardLurtz also have this armor, but he can easily escape from a muma. DwarvenGloin cannot.
+	-Beta28: SummonedDragon FireBreath now deals 67% magic damage against Balrog, from 50%.
+	-Beta28: Maps: MapAdded: "Bamfurlong" by Powerkartoffel.
+	-Beta28: Maps: MapAdded: "Lonely Mountain Slopes" by Powerkartoffel.
+	-Beta28: Maps: Lossarnach lighting edited for low level of detail.
+	-Beta28: Maps: Lebennin 4p lighting edited for low level of detail.
+	-Beta28: Maps: Erech IV age edited: goblins instead of spiderlings.
+	-Beta28: Maps: South Hollin beauty improved: added sounds, rocks, shrubs, improved roads, added animals, birds fishes mamars everything, fixed passable cliffs, fixed top left water, improved water in all map, added rocks. Bob Ross would be proud.
+
+	
+Beta27	- 28 juny 2021	// logged
+	-Beta27: GoblinShelob Locomotor improved. (Credits to rotwk 2.02, i stole their settings. i like it)
+	-Beta27: RohanRohirrim armor against HERO now takes 190%/95%, from 180%/90%.  (Originally 200%/120%)
+	-Beta27: RohanRohirrim armor against HERO_RANGED now takes 190%/95%, from 180%/90%.  (Originally 200%/120%)
+	-Beta27: IsengardBerserker armor now takes 80% SLASH damage, from 85%.
+	-Beta27: Wyrm completly reworked. Read WyrmLog
+	-Beta27: SummonedDragon completly reworked. Read SummonedDragonLog
+	-Beta27: DragonStrike armor against FLAME now 5%, from 0%.
+	-Beta27: RohanPeasantFromInn health and damage reduced by -40 and -25 respectively. 
+	-Beta27: RohanPeasantFromInn can now purchase Drafted as a upgrade, which provides +40 health and 25 health. Cost set to 50.
+	-Beta27: DwarvenBattleWagon Phalanx attacking inside GoblinTunnel, fixed..	//New type of bugfix for all axethrowers & DwarvenMenOfDale.
+	-Beta27: DwarvenBattleWagon AxeThrowers not properly shooting while moving, fixed.
+	-Beta27: DwarvenBattleWagon Archers not properly shooting while moving, fixed.
+	-Beta27: MordorMountainTroll orceating command can be multiexcuted.
+	-Beta27: MordorDrummertroll leadership icon now visible on multiselection.
+	-Beta27: MordorBlackRider screech command can now be multiexecuted.
+	-Beta27: MordorFellbeast screech command can now be multiexecuted.
+	-Beta27: MordorDrummertroll roar screech command can now be multiexcuted.
+	-Beta27: DwarvenGuardian charge can now be applied in multiple selected hordes at same time.
+	;;nolongervigent;;-Beta27: Mordor BasicTraining technology is now available in level 1 orcpit.
+	-Beta27: MordorBlackRider morgulblade command can now be multiexecuted.
+	-Beta27: MordorGrond healing amount 165 from 250.
+	-Beta27: GoblinCaveTroll commandpoints now 45 from 35. //played with 40 (originally 25)
+	-Beta27: IsengardWargSentry buildtime now 45 from 50. (2.06 patch was 35)
+	-Beta27: DwarvenGimli experience required for level 4 now 200 from 130.
+	
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+		                
+
+		;;-------Title.Log--(10)----------------------------------------------;;
+		;;----------------------------LogNotes.Log----------------------------;;
+		;;--------------------------------------------------------------------;;
+
+
+
+
+
+
+
+
+	*"from" means from 1.09. "Originally" or "restored" means/implies BFME2's 1.06/bt2dc's 2.06.
+	*SLASH means sword damage.
+	*PIERCE means arrow damage
+	*URUK means damage dealt by Isengard Warriors and MordorWarrior Warriors.
+	*SIEGE means damage from trolls, artillery, machines, ElvenGlorfindel anti-structure damage.
+	*CAVALRY means cavalry melee damage.
+	*SPECIALIST means damage dealt by pikemen and ElvenHaldir GoldenArrow.
+	*CRUSH means cavalry trample damage.
+	*STRUCTURAL means arrows from fortresses, towers.
+	*CAVALRY_RANGED is the damage dealt by Cavalry units bow, including DwarvenMenOfDale from DwarvenBattleWagon. Also includes the damage from SpellbookVolleyArrow. URUK means mordor and isengard swordsmen damage. 
+	*HERO_RANGED as name implies it, it's the damage dealt by Heroes in bow-mode.
+	*STRUCTURAL is the damage dealt by arrows/axes from LoneTower, barricades, towers, fortress etc.
+	*MAGIC is the damage dealt by most of the spells. Also mixed with PIERCE for SilverThorne arrows. 
+	*FLY_INTO is one of the damage kinds dealt by Flyers.
+	*FLAME is used by FireArrows and certain spells. Most of the times mixed with MAGIC. (Fireballs, FireBreath). Also mixed with PIERCE for FireArrows.
+	*FlankedPenalty is the armor penalty applied when a unit gets flanked.
+	*Cooldown means reload time, obviously.
+	*"Experience levels" changes means Exp required, Exp awards, Attributes gained per rank, like armor, damage, health, etc.
+	*Indirect attack = Damage dealt by Mordor Flyers and ElvenEagles when they are attacking a different kind of target (Usually Monsters & Structures)
+	*Direct attack = Any Flyer attacking a target on purpose, either automatically or targeted by the player.
+	*One-Hit = Instant kill.
+	*Bars: explain sometimes i use "X%/Y%" to refer to unupgraded/upgraded. Either for damage, for armor, or whatever i specify.
+	*Bars: explain sometimes i use "D1%/D2%" in "R1%/R2%" to refer to damage in the respective area. Which means, D1 damage in R1 radius, d2 in r2.
+	*DamageTaperOff: means the minimal damage dealed. (considering damage will automatically vary depending on the distance from the shooter). As higher the damageTaperOff is, less damage lost by the distance.
+
+
+
+
+
+;--------------------------------------------------------------------------;
+
+
+
+		;;-------Title.Log--(11)----------------------------------------------;;
+		;;------------------Patch 1.09 Version 2.0 Credits--------------------;;
+		;;-----------------------------Betaboys.Log---------------------------;;
+
+
+
+
+
+
+
+
+	-These who have been playing beta
+				glute							krueger
+				silverbane                      ninkazy
+				daryl                           archangel
+				arion                           fitton
+				picaboo		                     tyrion
+				JABER                           imperialist
+				buk                             temptation
+				crow                            menji
+				hitmachine                      sauron
+				stormCrow                       mustafa
+				ahweahawe.                      otto
+				xelenos.                        halet
+				roxas			                ninka
+  				kumail							morris
+				king							thorin
+				ahwe							scarecrow
+				maka							sk8ter
+				casper							vito
+				radegast						elrohir.
+				pantera leo						mr tci
+				jean martin						shinoda.
+				feanor
+											
+
+
+;--------------------------------------------------------------------------;
+
+
+;---------------------------DamageDisplay.log------------
+	-The following units now display damage.
+	Men
+		; -GondorSoldier
+		; -GondorTowerGuard
+		; -GondorArcher
+		; -GondorKnight
+		; -RohanRohirrim	PARCIAL. DOESNT SHOW UP FORGEDBLADE/FireArrows.
+		; -GondorTrebuchet
+		; -GondorBoromir
+		; -GondorFaramir
+		; -RohanEomer
+		; -RohanEowyn
+		; -GondorAragorn
+		; -RohanFrodo
+		; -RohanPippin
+		-GondorGandalf	//He cannot have this as he has different damage when mounted/dismounted.
+		-TomBombadil //He cannot have this as he has half MAGIC and half CRUSH damage.
+		; -RohanElvenWarriorFromInn // PARCIAL. DOESNT SHOW UP FORGEDBLADE/FireArrows.
+		-RohanTheoden	//He cannot have this as he has different damage when mounted/dismounted.
+		; -GondorRanger
+		; -CreteAHero
+		; -RohanSam
+		; -RohanMerry
+		; -GondorLoneTower
+		; -Gondorbattletower
+
+	Elves
+		; -RohanEnt
+		; -RohanTreebeard
+		; -RohanPeasantFromInn
+		; -ElvenHaldir
+		; -ElvenLegolas
+		; -ElvenGlorfindel
+		; -ElvenElrond
+		; -ElvenThranduil
+		; -ElvenArwen		//beta59: Has it now.
+		; -ElvenLorienWarrior
+		; -ElvenLorienArcher	//Full
+		; -ElvenMithlondSentry
+		; -ElvenMirkwoodArcher	//Full
+		; -ElvenRivendellLancer
+		; -Eagles		//PARCIAL. damage gains are different per weapon. It's only useful to compare with fellbast/MordorWitchKing.
+		-ElvenShip
+		; -ElvenBattleTower
+	
+	Dwarves
+		; -DwarvenGuardian
+		; -DwarvenPhalanx
+		; -DwarvenAxeThrower
+		; -DwarvenBattleWagon
+		; -DwarvenCatapult
+		; -DwarvenDemolisher
+		; -DwarvenGloin
+		; -DwarvenDain
+		; -DwarvenGimli
+		; -RohanHobbit
+		;-DwarvenMenOfDale
+		; -DwarvenLoneTower
+		; -DwarvenBattletower
+	
+	Isengard
+		; -IsengardFighter
+		; -IsengardBerserker
+		; -IsengardBalista
+		; -IsengardLurtz
+		; -IsengardSharku
+		; -IsengardWormtongue
+		; -IsengardSaruman
+		; -IsengardPikemen
+		; -IsengardWargRider
+		; -Watcher	//Pretty useless as you only care about Summoning damage.
+		; -DragonStrike
+		; -IsengardCrossbow
+		; -BatteringRam
+		; -IsengardExplosivemine
+		; -IsengardBattleTower
+		; -Lumbermillworker
+	
+	Goblins
+		; -GoblinFighter
+		; -GoblinArcher
+		; -GoblinSpiderRider	PARCIAL. DOESNT SHOW UP FORGEDBLADE/FireArrows.
+		; -GoblinCaveTroll
+		; -GoblinGiant
+		; -Wyrm
+		; -SummonedDragon	(consider it's 2/3 FLAME 1/3 magic)
+		; -GoblinGorkil
+		; -GoblinShelob
+		; -WildMarauder
+		; -GoblinSpiderling
+		; -GoblinFireDrake
+		; -Wildman
+		; -MinorSpider
+		; -GoblinDrogoth		//HE CANNOT HAVE IT, unless we give him multiplicative damage.
+		; -WildBattleTower
+		; -Lumbermillworker
+		
+		
+	Mordor
+		; -MordorWarrior
+		; -MordorArcher	
+		; -MordorHaradrimArcher	
+		; -MordorMountainTroll
+		; -MordorDrummertroll
+		; -MordorAttackTroll
+		; -MordorMumakil
+		; -MordorCatapult
+		; -Balrog	(Displays Chop [(Consider it's half siege half FLAME)] and Whip damage) [(Consider it's half siege half FLAME)]
+		; -MordorBlackRider
+		; -MordorMouthOfSauron
+		; -MordorFellbeast			COMPLETE. damage gains are multiplicative, so you can tell how much the other weapons are improved.
+		; -MordorWitchKing on fellbeast		//PARCIAL. damage gains are different per weapon.
+		; -MordorWitchKing
+		; -MordorEasterling
+		; -MordorCorsair	PARCIAL. Doesn't show fire bomb damages. (as they dont gain damage adds, plus bombard and regular has slightly different damage)
+		; -MordorGrond	//It's kinda stupid because it only deals only 20% against Fortress. So you can't compare wtih rams/demolishers
+		; -MordorHaradrimLancer
+		; -MordorHaradrimLancerOnMumakil
+		; - -MordorBarricade
+		; mordorBattletower
+		; -Lumbermillworker
+		-UmbarShip
+
+
+
+			«Damage BUFF»
+				; RESISTANT 'Damage Inspiring'
+			«Armor BUFF»
+				; RESISTANT 'Armor Inspiring'
+			«HighTierHero BUFF»
+				; «RESISTANT High-Tier Hero»
+				; RESISTANT 'High-Tier Hero'
+			«AntiFear BUFF»
+				; RESISTANT AntiFear'
+			«Darkness BUFF»
+				; RESISTANT 'Darkness'
+			«IvoryTower BUFF»
+				; RESISTANT IvoryTowerBonus'
+			«HordeBonus BUFF»
+				; RESISTANT 'HordeBonus'
+			«Farsight BUFF»
+				; RESISTANT FarsightBonus'
+			«Palantir BUFF»
+				; RESISTANT PalantirBonus'
+			«Campfire BUFF»
+				; RESISTANT 'HobbitCampfire'
+			«ElvenWood BUFF» «Overrides Damage LEADERSHIP»
+				; RESISTANT 'ElvenWood'
+			«Overrides Damage LEADERSHIP»
+
+
+			«Damage LEADERSHIP»
+				; 'Damage LEADERSHIP'
+			«ElvenTreebeard LEADERSHIP»
+				; ElvenTreebeard LEADERSHIP'
+			«AntiFear LEADERSHIP»
+				; 'LEADERSHIP AntiFear'
+			«Armor LEADERSHIP»
+				; 'Armor BUFF'
+				
+			«DEBUFF» «Neutralizes LEADERSHIP»
+				; 'DEBUFF'
+				; «DEBUFF neutralizer of LEADERSHIP and BUFF»
+			«DEBUFF» «Neutralizes LEADERSHIP and BUFF» 
+				 ; 'DEBUFF'
