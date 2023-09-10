@@ -106,7 +106,7 @@ TOOLTIP:ToolTipFellbeast09v3
 "Fellbeast attack radius against units is improved at level 6."
 END
 CONTROLBAR:ToolTipDominate09v3
-"Requires Level 8 \n Permanently gain control of targeted enemy troops. \n Left click icon, then left click on target units."
+"Requires Level 10 \n Permanently gain control of targeted enemy troops. \n Left click icon, then left click on target units."
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
 "Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. It's told that he's the human personification of Eru, who created Ëa. \n Allies near Tom Bombadil gain +25% Armor and earn experience 25% faster. \n «Armor BUFF» \n Left click icon then left click on pathable location"
@@ -216,7 +216,7 @@ CONTROLBAR:ThunderBolt09v2
 "Thunderbolt Storm [&B]"
 END
 CONTROLBAR:ToolTipThunderBolt09v2
-"Requires Level 10 \n Saruman summons a storm that strikes powerful lightning bolts over target location. \n Left click icon, then left click on target area."
+"Requires Level 8 \n Saruman summons a storm that strikes powerful lightning bolts over target location. \n Left click icon, then left click on target area."
 END
 CONTROLBAR:ToolTipPersonalFlood09v2
 "Requires Level 5 \n Summons a flood that will damage enemies and put out fires. \n Specially effective to cavalry. \n Bonus against Black Riders. \n The flood horses are improved at level 10. \n\nLeft click icon then left click on target"

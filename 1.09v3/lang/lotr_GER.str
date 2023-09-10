@@ -108,7 +108,7 @@ TOOLTIP:ToolTipFellbeast09v3
 "Fellbeast attack radius against units is improved at level 6."
 END
 CONTROLBAR:ToolTipDominate09v3
-"Voraussetzung: Stufe 8 \n Bringe die anvisierten Einheiten PERMANENTLY unter deine Kontrolle \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Voraussetzung: Stufe 10 \n Bringe die anvisierten Einheiten PERMANENTLY unter deine Kontrolle \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
 "Rufe Tom Bombadil, einen mächtigen, alten Gesellen mit Hut und Vorliebe zu singen. Es wird erzählt, dass er die menschliche Verkörperung von Eru sei, welcher die Ëa erschuf. Bringt +25% Rüstung und +25% schnelleres sammeln von Erfahrung für Einheiten in der Nähe. \n «Armor BUFF» \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet."
@@ -218,7 +218,7 @@ CONTROLBAR:ThunderBolt09v2
 "Sturmblitze [&B]"
 END
 CONTROLBAR:ToolTipThunderBolt09v2
-"Voraussetzung Stufe 10 \n Saruman erzeugt eine Reihe von Wolken, die starke Blitze gegen die Zielposition schlagen. \n Linksklick auf das Symbol und dann Linksklick auf den Standort"
+"Voraussetzung Stufe 8 \n Saruman erzeugt eine Reihe von Wolken, die starke Blitze gegen die Zielposition schlagen. \n Linksklick auf das Symbol und dann Linksklick auf den Standort"
 END
 CONTROLBAR:ToolTipPersonalFlood09v2
 "Voraussetzung: Stufe 5 \n Entfesselt eine Flut, die Gegner verletzt und Feuer löscht \n Besonders effektiv gegen Reiter \n Bonus gegen schwarze Reiter \n Die Flutpferde werden auf Stufe 10 verbessert.\n\n Linksklicke auf das Symbol und anschließend auf das Ziel"

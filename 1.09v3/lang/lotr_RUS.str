@@ -107,7 +107,7 @@ TOOLTIP:ToolTipFellbeast09v3
 "Fellbeast attack radius against units is improved at level 6."
 END
 CONTROLBAR:ToolTipDominate09v3
-"Requires Level 8 \n Permanently gain control of targeted enemy troops. \n Left click icon, then left click on target units."
+"Requires Level 10 \n Permanently gain control of targeted enemy troops. \n Left click icon, then left click on target units."
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
 "Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. \n It's told that he's the human personification of Eru, who created Ea \n Provides +25% Armor and +25% fast earning Experience for nearby allies. \n «Armor BUFF» \n Left click icon then left click on pathable location"
@@ -217,7 +217,7 @@ CONTROLBAR:ThunderBolt09v2
 "Thunderbolt Storm [&B]"
 END
 CONTROLBAR:ToolTipThunderBolt09v2
-"Требуется уровень 10 \n Саруман создаёт грозовое облако, поражающее противников серией молний в указанном месте. \n Щелкните на пиктограмме, затем - на участке местности."
+"Требуется уровень 8 \n Саруман создаёт грозовое облако, поражающее противников серией молний в указанном месте. \n Щелкните на пиктограмме, затем - на участке местности."
 END
 CONTROLBAR:ToolTipPersonalFlood09v2
 "Требуется уровень 5. \n Громадная волна наносит урон врагам и тушит пожары. \n Особенно эффективна против Назгулов. \n Способность улучшается на 10 уровне.\n Щелкните на пиктограмме, затем - на цели."

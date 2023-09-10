@@ -106,7 +106,7 @@ TOOLTIP:ToolTipFellbeast09v3
 "El daño en area del Nazgul es mejorado en nivel 6"
 END
 CONTROLBAR:ToolTipDominate09v3
-"Requisito: Nivel 8. \n Toma control temporal de los enemigos apuntados de forma permanent. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre los enemigos apuntados."
+"Requisito: Nivel 10. \n Toma control temporal de los enemigos apuntados de forma permanent. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre los enemigos apuntados."
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
 "Convoca a Tom Bombadil, un poderoso gordito con sombrero que le gusta cantar. Se dice que es la personificación humana de Eru, creador del Ëa. \n Las unidades aliadas cercanas a Tom ganan +25% Armadura y consiguen experiencia 25% más rápido.  \n «Armor BUFF» \n Haz clic con el botón izquierdo y, a continuación, clic con el botón izquierdo sobre el lugar donde quieras que aparezca."
@@ -215,7 +215,7 @@ CONTROLBAR:ThunderBolt09v2
 "Tormenta de Rayos (&B)"
 END
 CONTROLBAR:ToolTipThunderBolt09v2
-"Requisito: Nivel 10 \n Saruman conjura una nube que lanza poderosos relámpagos contra los enemigos en la zona seleccionada. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Requisito: Nivel 8 \n Saruman conjura una nube que lanza poderosos relámpagos contra los enemigos en la zona seleccionada. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 CONTROLBAR:ToolTipPersonalFlood09v2
 "Requisito: Nivel 5. \n Convoca una inundación que daña a los enemigos y apaga los fuegos. \n Bonificación contra Nazguls. \n Los caballos de la inundación son mejorados en el nivel 10.\n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."

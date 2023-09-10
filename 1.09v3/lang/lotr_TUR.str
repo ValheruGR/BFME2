@@ -106,7 +106,7 @@ TOOLTIP:ToolTipFellbeast09v3
 "Kanatlý Tayf'ýn saldýrý yarýçaðý seviye 6 ve 10'da geniþler."
 END
 CONTROLBAR:ToolTipDominate09v3
-"Gereken Seviye: 8 \n Hedef birlikleri kalýcý olarak ele geçir. \n Sol týklama simgesi ve ardýndan hedef düþmanlara sol týklama"
+"Gereken Seviye: 10 \n Hedef birlikleri kalýcý olarak ele geçir. \n Sol týklama simgesi ve ardýndan hedef düþmanlara sol týklama"
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
 "Kudretli, þapkalý, þiþman, ihtiyar, þarký söylemeyi seven Tom Bombadil'i çaðýrýr. \n Eä'nýn yaratýcýsý Eru'nun insan görünümüne bürünmüþ hali olduðuna dair söylentiler vardýr. \n Önce simgeye sonra uygun yere sol týklayýn \n Yakýndaki müttefiklere +%25 zýrh bonusu ve +%25 daha hýzlý tecrübe kazandýrýr. \n «Armor LEADERSHIP» \n Önce simgeye sonra hedef düþmanlara týklayýn"
@@ -227,7 +227,7 @@ CONTROLBAR:ThunderBolt09v2
 "Yýldýrým Fýrtýnasý[&B]"
 END
 CONTROLBAR:ToolTipThunderBolt09v2
-"Gereken Seviye: 10 \n Saruman, hedeflenen konuma güçlü þimþekler yaðdýran bir dizi bulut oluþturur. \n Önce simgeye sonra hedef noktaya týklayýn"
+"Gereken Seviye: 8 \n Saruman, hedeflenen konuma güçlü þimþekler yaðdýran bir dizi bulut oluþturur. \n Önce simgeye sonra hedef noktaya týklayýn"
 END
 CONTROLBAR:ToolTipPersonalFlood09v2
 "Gereken Seviye: 5 \n Düþmanlara hasar vericek sel atlarý çaðýrýr. Bu sel atlarý ayný zamanda yangýnlarý da söndürür. \n Özellikle süvarilere karþý etkilidir. \n Kara Süvariler'e karþý fazladan hasar verir. \n Sel Atlarý seviye 10'da güçlenir. \n\nÖnce simgeye sonra hedefe týklayýn"
