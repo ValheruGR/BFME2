@@ -304,7 +304,7 @@ CONTROLBAR:TooltipPalantirVision09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spioneer vjiandige troepen\n Geeft een tijdelijke bonus: +35% aan het aanvalsbereik \n van troepen in het doelgebied\n «Farsight BUFF» \n Klik met links op het icoontje en daarna met links op het doelwit"
+"Spioneer vjiandige troepen\n Doelboogschutters krijgen +35% bereik en verdienen 25% sneller ervaring \n «Farsight BUFF» \n Klik met links op het icoontje en daarna met links op het doelwit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
@@ -829,7 +829,7 @@ Map:map_pk_stockbrook/Desc
 END
 //----------------------------------
 Map:map_PK_desert_of_khand
-"Desert temple of Khand"
+"Desert Temple of Khand"
 END
 Map:map_PK_desert_of_khand/Desc
 "Deep in The Dune Sea a strange temple construction can be found.\n Reskin of Udun by Powerkartoffel"

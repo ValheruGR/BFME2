@@ -304,7 +304,7 @@ CONTROLBAR:TooltipPalantirVision09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Espía a las fuerzas enemigas. \n Proporciona una bonificación de alcance de +35% a las hordas aliadas en su área de efecto.\n «Farsight BUFF» \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
+"Espía a las fuerzas enemigas. \n Los arqueros apuntados ganan +35% alcance \n y consiguen experiencia un 25% más rápido. \n «Farsight BUFF» \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el area objetivo."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
@@ -830,7 +830,7 @@ Map:map_pk_stockbrook/Desc
 END
 //----------------------------------
 Map:map_PK_desert_of_khand
-"Desert temple of Khand"
+"Desert Temple of Khand"
 END
 Map:map_PK_desert_of_khand/Desc
 "Deep in The Dune Sea a strange temple construction can be found.\n Reskin of Udun by Powerkartoffel"
