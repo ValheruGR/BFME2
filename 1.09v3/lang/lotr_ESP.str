@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:WildWalk09v3
+"Caminata salvaje"
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipThranduilDescription09v3
 "King of Mirkwood: \n Nearby Mirkwood archers gain: \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n «HighTierHero BUFF» \n Passive abilities"
 END
