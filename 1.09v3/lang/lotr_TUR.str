@@ -24,6 +24,14 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //------------------------------------------------------------
+CONTROLBAR:ToolTipThranduilDescription09v3
+"King of Mirkwood: \n Nearby Mirkwood archers gain: \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n «HighTierHero BUFF» \n Passive abilities"
+END
+//------------------------------------------------------------
+CONTROLBAR:ToolTipThranduilWildWalk09v3
+"Requires Level 6 \nAllows Thranduil to move while stealthed \n Passive ability."
+END
+//------------------------------------------------------------
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde09v3
 "Strong vs. Cavalry and \n Unit Production Buildings \n Can stealth near trees. \n Gains +4% speed at level 4, 7 and 10."
 END
