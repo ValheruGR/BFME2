@@ -516,7 +516,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Voraussetzung Stufe 9 \n Ein extrem mächtiger Einzelschussangriff, der 15 Sekunden lang Schaden verursacht. \n Das Ziel wird auf nur 70 % Geschwindigkeit reduziert. \n Wirksam gegen starke Helden. \n Linksklick-Symbol, dann Linksklick auf das Ziel"
+"Voraussetzung Stufe 10 \n Ein extrem mächtiger Einzelschussangriff, der 15 Sekunden lang Schaden verursacht. \n Das Ziel wird auf nur 70 % Geschwindigkeit reduziert. \n Wirksam gegen starke Helden. \n Linksklick-Symbol, dann Linksklick auf das Ziel"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
@@ -45450,11 +45450,11 @@ CONTROLBAR:Screech
 END
 
 CONTROLBAR:ScreechWitchKing
-"Kreischen [&C]"
+"Kreischen [&V]"
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Stunde des Hexenkönigs [&V]"
+"Stunde des Hexenkönigs [&B]"
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde

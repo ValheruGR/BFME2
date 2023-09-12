@@ -527,7 +527,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Gereken Seviye: 9 \n An extremely powerful single shot attack that causes damage for 15 seconds. \n The target is reduced to only 70% speed. \n Effective against strong heroes. \n Önce simgeye sonra hedefe týklayýn"
+"Gereken Seviye: 10 \n An extremely powerful single shot attack that causes damage for 15 seconds. \n The target is reduced to only 70% speed. \n Effective against strong heroes. \n Önce simgeye sonra hedefe týklayýn"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
@@ -48640,11 +48640,11 @@ END
 // Witchking
 
 CONTROLBAR:ScreechWitchKing 
-"Çýðlýk [&C]"
+"Çýðlýk [&V]"
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Cad-Kral'ýn Saati [&V]"
+"Cad-Kral'ýn Saati [&B]"
 END
 
 //========================= GOBLINS

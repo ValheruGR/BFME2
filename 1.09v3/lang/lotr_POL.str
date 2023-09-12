@@ -520,7 +520,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Potrzeba poziomu 9 \n An extremely powerful single shot attack that causes damage for 15 seconds. \n The target is reduced to only 70% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
+"Potrzeba poziomu 10 \n An extremely powerful single shot attack that causes damage for 15 seconds. \n The target is reduced to only 70% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
@@ -45444,11 +45444,11 @@ CONTROLBAR:Screech
 END
 
 CONTROLBAR:ScreechWitchKing
-"Pisk (&C)"
+"Pisk (&V)"
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Godzina Czarnoksieznika (&V)"
+"Godzina Czarnoksieznika (&B)"
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde

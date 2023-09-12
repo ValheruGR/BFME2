@@ -517,7 +517,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Требуется уровень 9 \n Чрезвычайно мощная атака дальнего боя, наносящая урон в течении некоторого времени. \n Скорость цели снижается на -30%. \n Poison effect lasts 15 seconds. \n Эффективна против сильных героев. \n Щелкните на пиктограмме, затем - на цели."
+"Требуется уровень 10 \n Чрезвычайно мощная атака дальнего боя, наносящая урон в течении некоторого времени. \n Скорость цели снижается на -30%. \n Poison effect lasts 15 seconds. \n Эффективна против сильных героев. \n Щелкните на пиктограмме, затем - на цели."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
@@ -45448,11 +45448,11 @@ CONTROLBAR:Screech
 END
 
 CONTROLBAR:ScreechWitchKing
-"Вопль Назгула (&C)"
+"Вопль Назгула (&V)"
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Власть Короля-чародея (&V)"
+"Власть Короля-чародея (&B)"
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde

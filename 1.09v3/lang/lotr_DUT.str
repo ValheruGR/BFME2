@@ -515,7 +515,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Nodig: niveau 9 \n Een extreem sterk schot dat schade aanricht voor 15 seconden. \n Het doelwit is vertraagd tot 70% snelheid. \n Effectief tegen sterke helden. \n Klik links op het icoontje en daarna links op het doelwit"
+"Nodig: niveau 10 \n Een extreem sterk schot dat schade aanricht voor 15 seconden. \n Het doelwit is vertraagd tot 70% snelheid. \n Effectief tegen sterke helden. \n Klik links op het icoontje en daarna links op het doelwit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
@@ -45440,11 +45440,11 @@ CONTROLBAR:Screech
 END
 
 CONTROLBAR:ScreechWitchKing
-"Krijsen (&C)"
+"Krijsen (&V)"
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Uur van de Tovenaar-Koning (&V)"
+"Uur van de Tovenaar-Koning (&B)"
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde

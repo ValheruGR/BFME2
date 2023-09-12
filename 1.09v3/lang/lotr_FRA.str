@@ -516,7 +516,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Requiert : niveau  \nAttaque unique extrêmement puissante causant des dégâts pendant 15 secondes.\nLa cible voit ca vitesse de déplacement réduite à 70%.\nEfficace contre les héros.\n Clic gauche sur l'icône puis clic gauche sur la cible."
+"Requiert : niveau 10 \nAttaque unique extrêmement puissante causant des dégâts pendant 15 secondes.\nLa cible voit ca vitesse de déplacement réduite à 70%.\nEfficace contre les héros.\n Clic gauche sur l'icône puis clic gauche sur la cible."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
@@ -45444,11 +45444,11 @@ CONTROLBAR:Screech
 END
 
 CONTROLBAR:ScreechWitchKing
-"Cri [&C]"
+"Cri [&V]"
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Heure du Roi-Sorcier [&V]"
+"Heure du Roi-Sorcier [&B]"
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde

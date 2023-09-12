@@ -520,7 +520,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Richiede Livello 9 \n An extremely powerful single shot attack that causes damage for 15 seconds. \n The target is reduced to only 70% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
+"Richiede Livello 10 \n An extremely powerful single shot attack that causes damage for 15 seconds. \n The target is reduced to only 70% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
@@ -45453,11 +45453,11 @@ CONTROLBAR:Screech
 END
 
 CONTROLBAR:ScreechWitchKing
-"Urlo (&C)"
+"Urlo (&V)"
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Ora del Re Stregone (&V)"
+"Ora del Re Stregone (&B)"
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde

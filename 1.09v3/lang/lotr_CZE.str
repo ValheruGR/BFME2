@@ -516,7 +516,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Vy¾aduje 9. úroveò. \n An extremely powerful single shot attack that causes damage for 15 seconds. \n The target is reduced to only 70% speed. \n Effective against strong heroes. \n Levým tlaèítkem my¹i klikni na ikonu a poté na cíl."
+"Vy¾aduje 10. úroveò. \n An extremely powerful single shot attack that causes damage for 15 seconds. \n The target is reduced to only 70% speed. \n Effective against strong heroes. \n Levým tlaèítkem my¹i klikni na ikonu a poté na cíl."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
@@ -48616,11 +48616,11 @@ END
 // Witchking
 
 CONTROLBAR:ScreechWitchKing 
-"Vøískot [&C]"
+"Vøískot [&V]"
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Hodina Èernoknì¾ného krále [&V]"
+"Hodina Èernoknì¾ného krále [&B]"
 END
 
 //========================= GOBLINS

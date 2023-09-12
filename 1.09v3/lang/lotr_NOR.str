@@ -520,7 +520,7 @@ CONTROLBAR:ToolTipHaldirGoldenArrow09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThornofVengeance09v2
-"Krever: Nivå 9 \n An extremely powerful single shot attack that causes damage for 15 seconds. \n The target is reduced to only 70% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
+"Krever: Nivå 10 \n An extremely powerful single shot attack that causes damage for 15 seconds. \n The target is reduced to only 70% speed. \n Effective against strong heroes. \n Left click icon then left click on target"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityChargeAttack09v2
@@ -45452,7 +45452,7 @@ CONTROLBAR:ScreechWitchKing
 END
 
 CONTROLBAR:HourOfTheWitchKing
-"Heksekongens &time"
+"Heksekongens time (&B)""
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde
