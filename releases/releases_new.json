@@ -1,0 +1,118 @@
+{
+  "patches": [
+    {
+      "version_name": "1.09v3",
+      "file_name": "109v3_FINAL.7z",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/109v3_FINAL.7z",
+	  "released": false,
+      "betas": [
+        {
+          "version_name": "1.09v3 ß60",
+          "file_name": "109v3_BETA_60.7z",
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.7z",
+          "addons": [
+            {
+              "version_name": "1.09v3 ß60.3",
+              "file_name": "109v3_BETA_60.3.7z",
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.3.7z"
+            },
+            {
+              "version_name": "1.09v3 ß60.2",
+              "file_name": "109v3_BETA_60.2.7z",
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.2.7z"
+            },
+            {
+              "version_name": "1.09v3 ß60.1",
+              "file_name": "109v3_BETA_60.1.7z",
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.1.7z"
+            }
+          ]
+        },
+        {
+          "version_name": "1.09v3 ß59",
+          "file_name": "109v3_BETA_59.7z",
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss59.7z"
+        },
+        {
+          "version_name": "1.09v3 ß58",
+          "file_name": "109v3_BETA_58.7z",
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss58.7z"
+        },
+        {
+          "version_name": "1.09v3 ß57",
+          "file_name": "109v3_BETA_57.7z",
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss57.7z"
+        },
+        {
+          "version_name": "1.09v3 ß56",
+          "file_name": "109v3_BETA_56.7z",
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss56.7z"
+        },
+        {
+          "version_name": "1.09v3 ß55",
+          "file_name": "109v3_BETA_55.7z",
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss55.7z"
+        },
+        {
+          "version_name": "1.09v3 ß54",
+          "file_name": "109v3_BETA_54.7z",
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss54.7z"
+        }
+      ]
+    }
+  ],
+  "old_patches": {
+    "bt2dc": {
+      "version_name": "BT2DC",
+      "file_name": "BT2DC.7z",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/BT2DC.7z"
+    },
+    "other_old_stuff": {
+      "version_name": "oldstuff",
+      "file_name": "oldstuff.7z",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/oldstuff.7z"
+    }
+  },
+  "switcher": [
+    {
+      "version_name": "4.97",
+      "file_name": "SWITCHER_UPDATE_497.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_497.exe"
+    },
+    {
+      "version_name": "4.96",
+      "file_name": "SWITCHER_UPDATE_496.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_496.exe"
+    },
+    {
+      "version_name": "4.92",
+      "file_name": "SWITCHER_UPDATE_492.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_492.exe"
+    },
+    {
+      "version_name": "4.75",
+      "file_name": "SWITCHER_UPDATE_475.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_475.exe"
+    },
+    {
+      "version_name": "4.72",
+      "file_name": "SWITCHER_UPDATE_472.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_472.exe"
+    },
+    {
+      "version_name": "4.61",
+      "file_name": "SWITCHER_UPDATE_461.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_461.exe"
+    },
+    {
+      "version_name": "4.60",
+      "file_name": "SWITCHER_UPDATE_460.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_460.exe"
+    },
+    {
+      "version_name": "4.58",
+      "file_name": "SWITCHER_UPDATE_458.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_458.exe"
+    }
+  ]
+}
