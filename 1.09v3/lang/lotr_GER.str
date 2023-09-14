@@ -4,7 +4,7 @@
 
 //------------------------------------------------------------
 
-// String lines for new Patch 1.09v3	-----	2021
+// String lines for new Patch 1.09v3	-----	2023
 
 //------------------------------------------------------------
 
@@ -37,59 +37,59 @@ CONTROLBAR:ToolTipThranduilWildWalk09v3
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde09v3
-"Strong vs. Cavalry and \n Unit Production Buildings \n Can stealth near trees. \n Gains +4% speed at level 4, 7 and 10."
+"Stark gegen Kavallerie und \n Einheitenproduktionsgebäude \n Kann sich in der Nähe von Bäumen verstecken. \n Erhält +4 % Geschwindigkeit auf Stufe 4, 7 und 10."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEvilHeal09v3
-"Partially heals armies and monsters. \n Replaces 2 dead units per horde. \n Left click icon then left click on target area"
+"Heilt teilweise Armeen und Monster. \n Ersetzt 2 tote Einheiten pro Horde. \n Klicken Sie mit der linken Maustaste auf das Symbol und dann mit der linken Maustaste auf den Zielbereich."
 END
 //------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
-"Gandalf the White: \n Requires Level 5 \n Gandalf's magic abilities deal 170% damage and cooldowns are reduced by -20%. \n Passive ability."
+"Gandalf der Weiße: \n Erfordert Stufe 5 \n Gandalfs magische Fähigkeiten verursachen 170 % Schaden und die Abklingzeiten werden um -20 % reduziert. \n Passive Fähigkeit."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v3
-"Requires Level 7 \n A high-damaging magical projectile. \n Level 7: Causes meta impact and moderate damage. \n Level 10: Deals greater damage and stuns nearby light-sensitive units. \n Strong against cavalry and low-tier heroes. \n Can only use with bow equipped. \n Left click icon, then left click on target." 
+"Erfordert Stufe 7 \n Ein magisches Projektil mit hohem Schaden. \n Stufe 7: Verursacht Meta-Auswirkungen und mäßigen Schaden. \n Stufe 10: Verursacht größeren Schaden und betäubt lichtempfindliche Einheiten in der Nähe. \n Stark gegen Kavallerie und Helden niedriger Stufen. \n Kann nur mit gezogenem Bogen verwendet werden. \n Links klicken, dann auf gewählte Einheit klicken." 
 END
 CONTROLBAR:TooltipElrondWhirlwind09v3
-"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield. \n Level 5: Deals minimal damage, sweeps low-tier heroes only. Lasts 16 seconds. \n Level 7: Lasts 19 seconds. \n Level 10: Deals double damage, sweeps all heroes. Lasts 22 seconds. \n Left click icon, then left click on pathable location."
+"Erfordert Stufe 5 \n Beschwört einen zerstörerischen Wirbelsturm auf das Schlachtfeld. \n Stufe 5: Verursacht minimalen Schaden, fegt nur Helden niedriger Stufe weg. Dauer 16 Sekunden. \n Stufe 7: Hält 19 Sekunden an. \n Stufe 10: Verursacht doppelten Schaden und fegt alle Helden hinweg. Dauert 22 Sekunden. \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet."
 END
 CONTROLBAR:ToolTipElrondRestoration09v3
-"Requires Level 10 \n Elrond regenerates +20% of health-points to nearby allies and fully resets their special ability timers. \n Replenishes 1 fallen unit per battalion in the area of effect. \n Left click to activate."
+"Erfordert Stufe 10 \n Elrond regeneriert +20 % der Gesundheitspunkte bei Verbündeten in der Nähe und setzt deren Timer für Spezialfähigkeiten vollständig zurück. \n Stellt im Wirkungsberich 1 gefallene Einheit pro Bataillon wieder her. \n Links klicken zum aktivieren."
 END
 CONTROLBAR:ArwenElvenGrace09v3
 "Athelas [&V]"
 END
 CONTROLBAR:ArwenElvenGraceDesc09v3
-"Requires Level 6 \n Arwen regenerates 750 health-points to targeted allies over a 2-second duration. \n Left click icon, then left click on target units."
+"Erfordert Stufe 6 \n Arwen regeneriert über einen Zeitraum von 2 Sekunden 750 Gesundheitspunkte für anvisierte Verbündete. \n Links klicken, dann auf gewählte Einheit klicken."
 END
 CONTROLBAR:GoblinKingBattleFrenzy09v3
 "Kriegsrausch"
 End
 CONTROLBAR:ToolTipFueltheFires09v3
-"Player Lumber Mills gain +65% Production \n and +20% Armor. \n Allied Lumber Mills gain +65% production. \n Passive power. \n Fortress must be present."
+"Spieler-Holzmühlen erhalten +65 % Produktion \n und +20 % Rüstung. \n Alliierte Holzmühlen steigern ihre Produktion um 65 %. \n Passive Fähigkeit. \n Festung muss vorhanden sein."
 //the original said this, but we need to distinguish the player bonus from allies bonus. (since allies dont get the armor bonus). "+65% Rohstoffe von Bäumen\n Sägewerke erhalten +20% Rüstung \n Wirkt auch bei Verbündeten \n Passive Fähigkeit \n Festung muss existieren"
 End
 UPGRADE:BarbedArrowUpgrade09v3
-"Barbed Arrows"
+"Stachelpfeile"
 END
 CONTROLBAR:TooltipUndermine09v3
-"Platziert irgendwo auf der Karte einen Minenschacht \n Does not need shroud reveal but cannot be casted near any enemy fortress. \n Dieser wird sofort an das Gangsystem angeschlossen \n Verursacht hohen Schaden im Platzierungsbereich und geringen Schaden im Umkreis \n Linksklicke auf das Symbol und anschließend auf ein sichtbares Gebiet"
+"Platziert irgendwo auf der Karte einen Minenschacht \n Kann im Nebel des Krieges plaziert werden, allerdings nicht in der Nähe einer feindlichen Festung. \n Dieser wird sofort an das Gangsystem angeschlossen \n Verursacht hohen Schaden im Platzierungsbereich und geringen Schaden im Umkreis \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
 END
 CONTROLBAR:ToolTipPersonalFlood09v3
-"Requires Level 4 \n Entfesselt eine Flut, die Gegner verletzt und Feuer löscht \n Besonders effektiv gegen Reiter \n Bonus gegen schwarze Reiter \n Level 4: Arwen summons 3 Flood Horses. \n Level 7: Arwen summons 5 Flood Horses. \n Level 10: Arwen summons 7 Flood Horses. \n Left click icon, then left click on target."
+"Requires Stufe 4 \n Entfesselt eine Flut, die Gegner verletzt und Feuer löscht \n Besonders effektiv gegen Reiter \n Bonus gegen schwarze Reiter \n Stufe 4: Arwen beschwört 3 Flutpferde. \n Stufe 7: Arwen beschwört 5 Flutpferde. \n Stufe 10: Arwen beschwört 7 Flutpferde. \n Linksklicke auf das Symbol und anschließend auf ein sichtbares Gebiet"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
-"Heilt Verbündete in der näheren Umgebung \n Stockt Horden alle 6.5 Sekunden mit Einheiten auf \n Helden werden in dieser Festung 20% schneller wiederbelebt. \n Combined with Eagle Nest, can heal any allied flying unit"
+"Heilt Verbündete in der näheren Umgebung \n Stockt Horden alle 6.5 Sekunden mit Einheiten auf \n Helden werden in dieser Festung 20% schneller wiederbelebt. \n Kann in Kombination mit Adlernest jede verbündete fliegende Einheit heilen"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
-"Ermöglicht die Beschwörung eines Riesenadlers \n Allows Mystics Fountains to heal flying units."
+"Ermöglicht die Beschwörung eines Riesenadlers \n Brunnen können fliegende Einheiten zu heilen."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v3
-"Beschädigt feindliche Einheiten in unmittelbarer Umgebung der Festung fortlaufend \n Heilt Einheiten in näherer Umgebung. \n Combined with Dragon Nest, can heal any allied flying unit."
+"Beschädigt feindliche Einheiten in unmittelbarer Umgebung der Festung fortlaufend \n Heilt Einheiten in näherer Umgebung. \n Kann in Kombination mit Drachennest jede verbündete fliegende Einheit heilen."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
-"Ermöglicht die Beschwörung eines Feuerdrachen \n Allows Razor Spikes to heal flying units. \n Verringert die Zeit um Drogoth wiederzubeleben um 10%"
+"Ermöglicht die Beschwörung eines Feuerdrachen \n Spitzen können fliegende Einheiten heilen. \n Verringert die Zeit um Drogoth wiederzubeleben um 10%"
 END
 //------------------------------
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
@@ -99,34 +99,34 @@ CONTROLBAR:ToolTipGoblinKingPoisonedStinger09v3
 "Voraussetzung: Stufe 6 \n Gewählte Helden sind für 6 Sekunden betäubt \n Reduces speed by -50% for a following 11 seconds. \n Der gewählte Gegner wird für 25 Sekunden vergiftet  \n Nur für berittene Einheiten \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 TOOLTIP:ToolTipBoromir09v3
-"Boromir gains +7% speed at level 7"
+"Boromir gains +7% speed at Stufe 7"
 END
 CONTROLBAR:ToolTipBuildGoblinCaveTroll09v3
-"Stärken: Schwertkrieger, Gebäude \n Cave Troll gains +4% speed at level 3, 6 and 9"
+"Stärken: Schwertkrieger, Gebäude \n Höhlentroll erhält +4 % Geschwindigkeit auf Stufe 3, 6 und 9"
 END
 TOOLTIP:ToolTipBuildDwarvenCatapult09v3
-"Strong vs. Structures and Siege units \n The Catapult gains +10% speed at level 5"
+"Stark gegen Gebäude und Belagerungseinheiten \n Das Katapult erhält +10 % Geschwindigkeit auf Stufe 5"
 END
 CONTROLBAR:ToolTipBuildDwarvenCatapult09v3
-"Voraussetzung: Schmiede Stufe 2 \n Stärken: Gebäude und Belagerungseinheiten \n Feuert zwei Schüsse gleichzeitig ab \n The Catapult gains +10% speed at level 5"
+"Voraussetzung: Schmiede Stufe 2 \n Stärken: Gebäude und Belagerungseinheiten \n Feuert zwei Schüsse gleichzeitig ab \n Das Katapult erhält +10% Geschwindigkeit ab Stufe 5"
 END
 CONTROLBAR:ToolTipBuildMordorMumakil09v3
-"Stärken: Gebäude, Kavallerie\n\nMit Haradrim-Lanzenträgern bestückt\n+30 Kommandeurspunkte \n Mumakils gain +6% speed at level 5 and 8."
+"Stärken: Gebäude, Kavallerie\n\nMit Haradrim-Lanzenträgern bestückt\n +30 Kommandeurspunkte \n Mumakils erhalten +6% Geschwindigkeit auf Stufe 5 und 8."
 END
 CONTROLBAR:TooltipDragonStrike09v3
-"Ruft den Feuer speienden Drachen auf das Schlachtfeld  \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed. \n *Extremely dangerous in the edges of the map.* \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Ruft den Feuer speienden Drachen auf das Schlachtfeld  \n Jede Art von feindlicher Einheit in einem großen Bereich unter dem Drachen erleidet -15 % Geschwindigkeit. \n *Extrem gefährlich an den Rändern der Karte.* \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 TOOLTIP:ToolTipFellbeast09v3
-"Fellbeast attack radius against units is improved at level 6."
+"Der Angriffsradius von Fellbestien gegen Einheiten wird auf Stufe 6 verbessert."
 END
 CONTROLBAR:ToolTipDominate09v3
-"Voraussetzung: Stufe 10 \n Bringe die anvisierten Einheiten PERMANENTLY unter deine Kontrolle \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
+"Voraussetzung: Stufe 10 \n Bringe die anvisierten Einheiten dauerhaft unter deine Kontrolle \n Linksklicke auf das Symbol und anschließend auf die gewünschten Einheiten"
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
 "Rufe Tom Bombadil, einen mächtigen, alten Gesellen mit Hut und Vorliebe zu singen. Es wird erzählt, dass er die menschliche Verkörperung von Eru sei, welcher die Ëa erschuf. Bringt +25% Rüstung und +25% schnelleres sammeln von Erfahrung für Einheiten in der Nähe. \n «Armor BUFF» \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet."
 END
 CONTROLBAR:Draft09v3
-"Heerschau (&R)"
+"Hee&rschau"
 End
 CONTROLBAR:ToolTipDraft09v3
 "Bewaffnet die Bauern dieses Bataillons. \n Erhöht bei Ausrüstung den Schaden von Nahkampfwaffen \n und verringert den erlittenen Schaden erheblich"
@@ -138,7 +138,7 @@ CONTROLBAR:SummonWargAllies09v3
 "Verbündete Warg rufen (&V)"
 End
 CONTROLBAR:SummonWargAlliesDesc09v3
-"Benötigt Level 10 \n Beschwört eine Gruppe Wargreiter von Isengart zu Sharkus Seite \n Linksklick auf das Symbol und dann Linksklick auf einen Ort" "
+"Benötigt Stufe 10 \n Beschwört eine Gruppe Wargreiter von Isengart zu Sharkus Seite \n Linksklick auf das Symbol und dann Linksklick auf einen Ort" "
 END
 //------------------------------------------------------------
 
@@ -156,10 +156,10 @@ END
 
 //------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
-"Prinz von Ithilien [&B]"
+"Prinz von Ithilien [&V]"
 END
 CONTROLBAR:PrinceofIthilienDesc09v2
-"Benötigt Level 5 \n Ausgewählte Bogenschützen sammeln Erfahrung \n Linksklick-Symbol und dann Linksklick auf gewünschte Bogenschützen"
+"Benötigt Stufe 5 \n Ausgewählte Bogenschützen sammeln Erfahrung \n Linksklick-Symbol und dann Linksklick auf gewünschte Bogenschützen"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
@@ -192,7 +192,7 @@ Color:Grey
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAxeThrow09v2
-"Effektiver Fernangriff mit Flächenschaden \n Besonders effektiv gegen Kavallerie und Lufteinheiten \n Fähigkeitsschaden wird auf Level 4 und 7 verbessert  \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Effektiver Fernangriff mit Flächenschaden \n Besonders effektiv gegen Kavallerie und Lufteinheiten \n Fähigkeitsschaden wird auf Stufe 4 und 7 verbessert  \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 CONTROLBAR:ToolTipLeap09v2
 "Voraussetzung: Stufe 2 \n Gimli springt zu einer Position und verursacht dadurch Umgebungsschaden \n Der Wirkungsradius der Fähigkeit wird auf Stufe 4 und 7 verbessert  \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
@@ -221,10 +221,10 @@ CONTROLBAR:SummonEagleAlliesGaladriel09v2
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
-"Level 2: +50 Kommandeurspunkte"
+"Stufe 2: +50 Kommandeurspunkte"
 END
 UPGRADE:FarmLevel3Tooltip09v2
-"Level 3: +75 Kommandeurspunkte""
+"Stufe 3: +75 Kommandeurspunkte""
 END
 CONTROLBAR:ThunderBolt09v2
 "Sturmblitze [&B]"
@@ -295,7 +295,7 @@ CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
-"Verleiht der Zitadelle, ihren Erweiterungen und den umgebenden Mauern zusätzliche Rüstung. \n\n Upgrades erstellt Einsame Turm"
+"Verleiht der Zitadelle, ihren Erweiterungen und den umgebenden Mauern zusätzliche Rüstung. \n\n Rüstet gerufenen einsamen Turm mit Zwergenmauernupgrade aus"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMordorTavern09v2
@@ -303,7 +303,7 @@ CONTROLBAR:ToolTipMordorTavern09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Voraussetzung Stufe 7 \n Gewährt allen Verbündeten in der Nähe Widerstand gegen Angst und Terror \n «StubbornPride» \n Dain kann Tarnung aufdecken.\n Passive Fähigkeit"
+"Voraussetzung Stufe 7 \n Gewährt allen Verbündeten in der Nähe \n Widerstand gegen Angst und Furcht \n «StubbornPride» \n Dain deckt getarnte Einheiten auf.\n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
@@ -330,19 +330,19 @@ CONTROLBAR:MenWood09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipCloudBreak09v2
-"Hebt die Heilung von Frostregen, Dunkelheit und Wolkebruch auf. \n Betäubt feindliche Einheiten 10 Sekunden lang \n Heilt und belebt verbündete Einheiten 15 Sekunden lang \n Linksklick zum Aktivieren"
+"Hebt die Heilung von Frostregen, Dunkelheit und Wolkenbruch auf. \n Betäubt feindliche Einheiten 10 Sekunden lang \n Heilt und belebt verbündete Einheiten 15 Sekunden lang \n Linksklick zum Aktivieren"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Hebt die Heilung von Frostregen, Dunkelheit und Wolkebruch auf. \n Bedeckt vorübergehend die gesamte Karte mit Dunkelheit \n Verbündete Horden erhalten +50 % Schaden, +33 % Rüstung und sammeln 50-mal schneller Erfahrung \n Monster erhalten +25 % Schaden, +33 % Rüstung und +50 % Erfahrung \n  «Darkness BUFF» \n Hält 180 Sekunden an. \n Linksklick zum Aktivieren" 
+"Hebt die Heilung von Frostregen, Dunkelheit und Wolkenbruch auf. \n Bedeckt vorübergehend die gesamte Karte mit Dunkelheit \n Verbündete Horden erhalten +50 % Schaden, +33 % Rüstung und sammeln 50-mal schneller Erfahrung \n Monster erhalten +25 % Schaden, +33 % Rüstung und +50 % Erfahrung \n  «Darkness BUFF» \n Hält 180 Sekunden an. \n Linksklick zum Aktivieren" 
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Hebt die Heilung von Frostregen, Dunkelheit und Wolkebruch auf. \n Bedeckt die Karte vorübergehend mit Regen \n Alle feindlichen Horden und Monster auf der Karte leiden  \n -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP and BUFF» \n Dauert 150 Sekunden. \n Linksklick zum Aktivieren"
+"Hebt die Heilung von Frostregen, Dunkelheit und Wolkenbruch auf. \n Bedeckt die Karte vorübergehend mit Regen \n Alle feindlichen Horden und Monster auf der Karte leiden  \n -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP and BUFF» \n Dauert 150 Sekunden. \n Linksklick zum Aktivieren"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Voraussetzung Stufe 4 \n Angezielte befreundete Einheiten erhalten \n+20% Geschwindigkeit, +25% Schaden und +25% erweiterte Sicht.   \n Feindliche Horden am selben Ort erleiden \n -25 % Rüstung und -25 % Schaden \n «DEBUFF» «Neutralizes LEADERSHIP» \n Linksklick-Symbol, dann Linksklick auf Zieleinheiten"
+"Voraussetzung Stufe 4 \n Angezielte verbündete Einheiten erhalten \n+20% Geschwindigkeit, +25% Schaden und \n +25% erweiterte Sicht.   \n Gegner am selben Ort erleiden \n -25 % Rüstung und -25 % Schaden \n «DEBUFF» «Neutralizes LEADERSHIP» \n Linksklick-Symbol, dann Linksklick auf Zieleinheiten"
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
 "Voraussetzung Stufe 2 \n Gegnerische Horden in der Nähe erleiden -25 % Rüstung und -25 % Schaden.  \n «DEBUFF» «Neutralizes LEADERSHIP» \n Passive Fähigkeit"
@@ -379,10 +379,10 @@ CONTROLBAR:ToolTipBuildMordorOrcFighterHorde09v2
 "Stark gegen Ressourcengebäude\n Horden Bonus: \n Versammelte Horden von mindestens 70 Orks \n +33 % Schaden +20 % Geschwindigkeit erhalten. \n «HordeBonus BUFF»  "
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs09v2
-"Heilt Verbündete in der Nähe. \n Ergänze Einheiten von Horden alle 6,5 Sekunden. \n Reduziert die Wiederbelebungszeit von Helden um 25 % \n Fügt der Festung zusätzliche Trefferpunkte hinzu\n\n Ermöglicht das beschwören des Einsamen Turms"
+"Heilt Verbündete in der Nähe. \n Ergänze Einheiten von Horden alle 6,5 Sekunden. \n Reduziert die Wiederbelebungszeit von Helden um 25 % \n Fügt der Festung zusätzliche Trefferpunkte hinzu\n\n Rüstet gerufenen einsamen Turm mit Belagerungsfässerupgrade aus"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework09v2
-"Erhöht den Rüstungswert der Festung und der Mauern \n Voraussetzung für Mächtiges Katapult \n\n Verstärkt gerufene einsame Türme"
+"Erhöht den Rüstungswert der Festung und der Mauern \n Voraussetzung für Mächtiges Katapult \n\n Rüstet gerufenen einsamen Turm mit Zwergenmauernupgrade aus"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenCloakThranduil09v2
@@ -416,7 +416,7 @@ CONTROLBAR:ToolTipMenWood09v2
 END
 //------------------------------------------------------------
 OBJECT:ElvenHeroicStatueDescription09v2
-"Verbündete in der Nähe der Statue \n verursachen +25% Schaden und \n sammeln 25% mehr Erfahrung  \n «Damage BUFF» \n Allies gain terror and fear resistance. \n «AntiFear LEADERSHIP» \n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n verursachen +25% Schaden und \n sammeln 25% mehr Erfahrung  \n «Damage BUFF» \n Verbündete erhalten Furchtresistenz. \n «AntiFear LEADERSHIP» \n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 OBJECT:HeroicStatueDescription09v2
@@ -424,7 +424,7 @@ OBJECT:HeroicStatueDescription09v2
 END
 //------------------------------------------------------------
 OBJECT:DwarvenHeroicStatueDescription09v2
-"Verbündete in der Nähe der Statue \n erhalten +35% Rüstung \n «Armor LEADERSHIP» \n Allies gain terror and fear resistance. \n «AntiFear BUFF» \n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
+"Verbündete in der Nähe der Statue \n erhalten +35% Rüstung \n «Armor LEADERSHIP» \n Verbündete sind resistent gegen Angst und Furcht. \n «AntiFear BUFF» \n \n Erhöht Kommandeurspunkte-Limit um 10 Punkte"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
@@ -436,11 +436,11 @@ CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners09v2
-"Verbündete in der Nähe der Festung \n erhalten +25% Schaden und +25% mehr Erfahrung \n «Damage BUFF» \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
+"Verbündete in der Nähe der Festung \n erhalten +25% Schaden und +25% mehr Erfahrung \n «Damage BUFF» \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Rüstet gerufenen Turm mit diesem Upgrade aus"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners09v2
-"Verbündete in der Nähe der Festung erhalten \n +25% Schaden und +25% Erfahrung  \n «Damage BUFF» \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung \n von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
+"Verbündete in der Nähe der Festung erhalten \n +25% Schaden und +25% Erfahrung  \n «Damage BUFF» \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung \n von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Rüstet gerufenen einsamen Turm mit Bannernupgrade aus"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipWargRiderHowl09v2
@@ -548,13 +548,13 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Voraussetzung Level 3 \n Verkleide dich als normaler Rohirrim, trage seine Rüstung und kämpfe wie einer von ihnen. \n Eowyn verursacht Schaden im Bereich and deals +25% damage against heroes \n Linksklick zum Aktivieren"
+"Voraussetzung Stufe 3 \n Verkleide dich als normaler Rohirrim, trage seine Rüstung und kämpfe wie einer von ihnen. \n Eowyn verursacht Schaden im Bereich and deals +25% damage against heroes \n Linksklick zum Aktivieren"
 END
 CONTROLBAR:ToolTipSmite09v2
-"Powerful ranged attack with damage in area. \n Level 1: Tiny damage in area. 400% damage against fellbeasts, 130% against heroes. \n Level 4: Improved damage in area. 430% damage against fellbeasts, 145% against heroes and pins them for 1 second.  \n Level 7: Wide damage in area. 460% damage against fellbeasts, 160% against heroes and pins them for 2 seconds. \n Linksklick-Symbol, dann Linksklick auf das Ziel"
+"Powerful ranged attack with damage in area. \n Stufe 1: Tiny damage in area. 400% damage against fellbeasts, 130% against heroes. \n Stufe 4: Improved damage in area. 430% damage against fellbeasts, 145% against heroes and pins them for 1 second.  \n Stufe 7: Wide damage in area. 460% damage against fellbeasts, 160% against heroes and pins them for 2 seconds. \n Linksklick-Symbol, dann Linksklick auf das Ziel"
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Requires Level 5 \n Eowyn gains 35% Armor and -50% deceleration when crushing. \n Eowyn also gains another +35% armor bonus against the attacks from heroes. \n Nearby Rohirrims gain: \n -50% Deceleration when crushing.  \n Lasts 30 seconds. \n Left click to activate"
+"Requires Stufe 5 \n Eowyn gains 35% Armor and -50% deceleration when crushing. \n Eowyn also gains another +35% armor bonus against the attacks from heroes. \n Nearby Rohirrims gain: \n -50% Deceleration when crushing.  \n Lasts 30 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipSunflare09v2
@@ -562,7 +562,7 @@ CONTROLBAR:TooltipSunflare09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipCitadel09v2
-"Platziert eine Zitadellenfestung irgendwo auf dem Schlachtfeld \n Verbunden mit dem Tunnelnetz \n Stellt Ressourcen im Laufe der Zeit bereit \n Klicken Sie mit der linken Maustaste auf das Symbol und dann mit der linken Maustaste auf den gewünschten Ort"
+"Platziert eine Zitadellenfestung auf dem sichtbaren Schlachtfeld \n Verbunden mit dem Tunnelnetz \n Stellt Ressourcen im Laufe der Zeit bereit \n Klicken Sie mit der linken Maustaste auf das Symbol und dann mit der linken Maustaste auf den passierbaren Ort"
 END
 //------------------------------------------------------------
 OBJECT:SignalFireDescription09v2
@@ -570,7 +570,7 @@ OBJECT:SignalFireDescription09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
-"Stark gegen Kavallerie und \n Einheiten-Produktionsgebäude \n Turmwächter erhalten +5% an Geschwindigkeit auf Level 3, 5 und 7."
+"Stark gegen Kavallerie und \n Einheiten-Produktionsgebäude \n Turmwächter erhalten +5% an Geschwindigkeit auf Stufe 3, 5 und 7."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
@@ -578,7 +578,7 @@ CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
-"Voraussetzung Stufe 10 \n KVerursacht ein großes Erdbeben um Gloins Standort \n Kann die Armee der Toten 5 Sekunden lang betäuben, aber nicht töten \n Linksklick-Symbol, dann Linksklick auf das Ziel"
+"Voraussetzung Stufe 10 \n Verursacht ein großes Erdbeben um Gloins Standort \n Kann die Armee der Toten 5 Sekunden lang betäuben, aber nicht töten \n Linksklick-Symbol, dann Linksklick auf das Ziel"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipSpecialAbilityFiresOfDoom09v2
@@ -665,7 +665,7 @@ CONTROLBAR:ToolTipAthelasAragorn09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipAthelasElrond09v2
-"Heilt 750 Gesundheitspunkte von Horden und Helden in der Nähe. \n Horden und Monster in der Nähe erhalten \n +15 % Rüstung und +25% auf Erfahrungsgewinne \n Bietet Widerstand gegen Angst und Terror  \n Für die Dauer von 12 Sekunden. \n Linksklick zum Aktivieren"
+"Heilt 750 Gesundheitspunkte von Horden und Helden in der Nähe. \n Horden und Monster in der Nähe erhalten \n +15 % Rüstung und +25% auf Erfahrungsgewinne \n Bietet Widerstand gegen Angst und Furcht  \n Für die Dauer von 12 Sekunden. \n Linksklick zum Aktivieren"
 END
 CONTROLBAR:ToolTipElrondFarsight09v2
 "Denkt einen Teil der Karte auf \n Gewährt jeder verbündeten Einheit 25 Sekunden lang +27,5% Sichtweite. \n Hat keinen Einfluss auf Helden.  \n Linksklick-Symbol dann Linksklick auf Zielbereich"
@@ -917,11 +917,11 @@ Map:map_pk_gardens_of_far_harad/Desc
 "The Gardens of Far Harad were described as a remarkable feat of engineering with an ascending series of tiered gardens containing a wide variety of trees, shrubs, and vines, resembling a large green mountain constructed of mud bricks. \n Map by Powerkartoffel."
 End
 //------------------------------------------------------------
-Map:map_PK_iron_mountains_ii
+Map:map_PK_iron_mountains_II
 "Iron Mountains II" 
 End
-Map:map_PK_iron_mountains_ii/Desc
-"The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs 2 Dragons 2 Goblins \n Capture: 2 Signal Fires \n Size: Large 1v1 \n Map by Powerkartoffel"
+Map:map_PK_iron_mountains_II/Desc
+"The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs, 2 Trolls, 2 Dragons, 2 Goblins \n Capture: 2 Signal Fires, 2 Inns \n Size: Large 1v1 \n Map by Powerkartoffel"
 End
 //------------------------------------------------------------
 Map:map_PK_Last_Bridge
@@ -1005,7 +1005,7 @@ Map:mapETerechiii
 "Erech 4th Age" 
 End
 Map:mapETerechiii/Desc
-"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age.\n Map by Ecthelion. Special thanks to Powerkartoffel"
+"This hill is known by a famous black, spherical stone, where the King of Dead had once sworn allegiance to Isildur's cause. Because he failed to fulfill his oath, the Oathbreakers haunted the hills until Elessar released them at the end of the 3rd age. \n Map by Ecthelion. Special thanks to Powerkartoffel"
 End
 //------------------------------------------------------------
 Map:mapTTbaranduin
@@ -1015,10 +1015,10 @@ Map:mapTTbaranduin/Desc
 "The Baranduin River of Eriador is known by the Hobbits as the Brandywine River. It marks the the boundary between the known and the unknown. \n Map by Temptation."
 END
 //------------------------------------------------------------
-Map:map_PK_canyons_of_khand
+Map:map_pk_canyons_of_khand
 "Canyons of Khand" 
 End
-Map:map_PK_canyons_of_khand/Desc
+Map:map_pk_canyons_of_khand/Desc
 "Khand was the name of a land which lay to the south of Mordor and the east of Near Harad. Little is known about Khand or its people, but it was most likely a dry and barren land covered in desert. \n Map by Powerkartoffel."
 End
 //------------------------------------------------------------
@@ -1039,7 +1039,7 @@ END
 Map:mapETdruadanforestIII
 "Druadan Forest III"
 End
-Map:mapetdruadanforestIII/Desc
+Map:mapETdruadanforestIII/Desc
 "Ein alter Wald am Fuße der Weißen Berge, nordwestlich von Minas Tirith. \n Map from BFME1, remade by Ecthelion."
 End
 //------------------------------------------------------------
@@ -1100,7 +1100,7 @@ Map:mapTTsouthhollin/desc
 End
 //------------------------------------------------------------
 Map:mapTTfordofbruinen
-"Furt of Bruinen" 
+"Ford of Bruinen II" 
 End
 Map:mapTTfordofbruinen/Desc
 "The upland forests, mostly made up of beeches, lay to the West of Rivendell where the Bruinen river flows, a favorite hunting ground for trolls who descended from the mountains to attack travelers on the Great Western highway.\n Map by Temptation. \n Special thanks to Powerkartoffel and Ecthelion."
@@ -1533,7 +1533,7 @@ Map:mapNEWriverlangwell
 "River Langwell"
 END
 Map:mapNEWriverlangwell/Desc
-"The Langwell was one of the rivers of Rhovanion that flowed east from the Misty Mountains into the Anduin. The height of the river depends on the season of the year. Over time the water level rises and falls. \n Map from RotWK, by lrdkcki, edited by Mako."
+"The Langwell was one of the rivers of Rhovanion that flowed east from the Misty Mountains into the Anduin. The height of the river depends on the season of the year. Over time the water Stufe rises and falls. \n Map from RotWK, by lrdkcki, edited by Mako."
 END
 //------------------------------------------------------------
 Map:MapSBBrithombar
@@ -4445,7 +4445,7 @@ TOOLTIP:NonAsianText
 END
 
 TOOLTIP:ExperienceToLevel
-"Erfahrung bis zum nächsten Level"
+"Erfahrung bis zum nächsten Stufe"
 END
 
 KEYBOARD:Shift+
@@ -15609,7 +15609,7 @@ CONTROLBAR:LoneTower
 END
 
 CONTROLBAR:TooltipLoneTower
-"Errichtet einen Defensivturm \n Verbündete Einheiten erhalten Führerschaft, Heilung und werden wiederbelebt \n Kann mit Mauerwerk verbessert werden \n\n Benötigt entsprechendes Festungsupgrade \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
+"Errichtet einen Defensivturm \n Einsamer Turm wird jeweils mit Upgrade Banner, Belagerungsfässer bzw. Zwergenmauern ausgestattet, wenn in Festung erforscht \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
 END
 
 CONTROLBAR:ArrowVolley
@@ -15633,7 +15633,7 @@ CONTROLBAR:Undermine
 END
 
 CONTROLBAR:TooltipUndermine
-"Platziert irgendwo auf der Karte einen Minenschacht \n Does not need shroud reveal but cannot be casted near any enemy fortress. \n Dieser wird sofort an das Gangsystem angeschlossen \n Verursacht hohen Schaden im Platzierungsbereich und geringen Schaden im Umkreis \n Linksklicke auf das Symbol und anschließend auf ein sichtbares Gebiet"
+"Platziert irgendwo auf der Karte einen Minenschacht \n Does not need shroud reveal but cannot be casted near any enemy fortress. \n Dieser wird sofort an das Gangsystem angeschlossen \n Verursacht hohen Schaden im Platzierungsbereich und geringen Schaden im Umkreis \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
 END
 
 OBJECT:UndermineMineShaft
@@ -26179,7 +26179,7 @@ CONTROLBAR:ConstructDwarvenHearth
 END
 
 CONTROLBAR:ToolTipConstructDwarvenHearth
-"Verbündete in der Nähe der Esse verursachen \n +50% Schaden und erhalten +50% Rüstung \n Wird nicht addiert \n Ortet getarnte Einheiten in der Nähe \n Senkt die Kosten für Maschinen"
+"Verbündete in der Nähe der Esse verursachen \n +50% Schaden und erhalten +50% Rüstung \n Wird nicht addiert \n Deckt getarnte Einheiten in der Nähe auf \n Senkt die Kosten für Maschinen"
 END
 
 CONTROLBAR:ConstructDwarvenForgeWorks
@@ -26267,7 +26267,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStonework
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
-"Erhöht den Rüstungswert der Festung und der Mauern \n Voraussetzung für Mächtiges Katapult \n\n Verstärkt gerufene einsame Türme"
+"Erhöht den Rüstungswert der Festung und der Mauern \n Voraussetzung für Mächtiges Katapult \n\n Rüstet gerufenen einsamen Turm mit Zwergenmauernupgrade aus"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions
@@ -26283,7 +26283,7 @@ CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
-"Heilt Verbündete in der Nähe \n Alle 6.5 Sekunden werden Horden mit Einheiten aufgestockt \n Verringert die Zeit um Helden wiederzubeleben um 25% \n Erhöht die Trefferpunkte der Festung \n\n Verstärkt gerufene einsame Türme"
+"Heilt Verbündete in der Nähe \n Alle 6.5 Sekunden werden Horden mit Einheiten aufgestockt \n Verringert die Zeit um Helden wiederzubeleben um 25% \n Erhöht die Trefferpunkte der Festung \n\n Rüstet gerufenen einsamen Turm mit Belagerungsfässerupgrade aus"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
@@ -26523,7 +26523,7 @@ TOOLTIP:LackLevel3ForgeWorks
 END
 
 TOOLTIP:LackLevel3ArcheryRange
-"Voraussetzung: Schmiede Eregions Stufe 3"
+"Voraussetzung: Schmiede Stufe 3"
 END
 
 TOOLTIP:LackLevel3HallOfWarrriors
@@ -26957,7 +26957,7 @@ CONTROLBAR:ConstructGaladrielsWell
 END
 
 CONTROLBAR:ToolTipEGaladrielsWell
-"Heilt Truppen in der Nähe \n Ortet getarnte Truppen in der Nähe \n Senkt die Kosten für Helden: \n 3 Spiegel = 10% billiger \n 5 Spiegel = 20% billiger \n 7 Spiegel = 30% billiger \n 10 Spiegel = 40% billiger"
+"Heilt Truppen in der Nähe \n Deckt getarnte Einheiten in der Nähe auf \n Senkt die Kosten für Helden: \n 3 Spiegel = 10% billiger \n 5 Spiegel = 20% billiger \n 7 Spiegel = 30% billiger \n 10 Spiegel = 40% billiger"
 END
 
 CONTROLBAR:Command_ConstructElvenWallHubExpansion
@@ -27049,7 +27049,7 @@ OBJECT:ElvenMirrorofGaladriel
 END
 
 OBJECT:ElvenWellDescription
-"Heilt Truppen in der Nähe \n Ortet getarnte Truppen in der Nähe \n Senkt die Kosten für Helden: \n 3 Spiegel = 10% billiger \n 5 Spiegel = 20% billiger \n 7 Spiegel = 30% billiger \n 10 Spiegel = 40% billiger"
+"Heilt Truppen in der Nähe \n Deckt getarnte Einheiten in der Nähe auf \n Senkt die Kosten für Helden: \n 3 Spiegel = 10% billiger \n 5 Spiegel = 20% billiger \n 7 Spiegel = 30% billiger \n 10 Spiegel = 40% billiger"
 END
 
 OBJECT:ErgionForge
@@ -29469,7 +29469,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressMurderOfCrows
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressMurderOfCrows
-"Erhöht die Sichtweite der Festung und ortet getarnte Einheiten"
+"Erhöht die Sichtweite der Festung und deckt getarnte Einheiten auf"
 END
 
 CONTROLBAR:SpecialAbilityMurderOfCrows
@@ -29477,7 +29477,7 @@ CONTROLBAR:SpecialAbilityMurderOfCrows
 END
 
 CONTROLBAR:ToolTipSpecialAbilityMurderOfCrows
-"Erhöht die Sichtweite der Festung und ortet getarnte Einheiten"
+"Erhöht die Sichtweite der Festung und deckt getarnte Einheiten auf"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressWizardsTower
@@ -29717,7 +29717,7 @@ CONTROLBAR:Citadel
 END
 
 CONTROLBAR:TooltipCitadel
-"Errichte irgendwo auf dem Schlachtfeld eine Zitadelle \n Mit dem Tunnelnetzwerk verbunden \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
+"Errichte auf dem sichtbaren Schlachtfeld eine Zitadelle \n Mit dem Tunnelnetzwerk verbunden \n Linksklicke auf das Symbol und anschließend auf ein passierbares Gebiet"
 END
 
 CONTROLBAR:SonicSong
@@ -29781,7 +29781,7 @@ CONTROLBAR:ToolTipThornofVengeance
 END
 
 CONTROLBAR:ToolTipDainStubbornPride
-"Voraussetzung: Stufe 7 \n Gewährt allen Verbündeten in der Nähe Resistenz gegen Furcht und Angst \n Zusatz: Kann nicht entfernt werden und wird immer addiert \n Dain ist in der Lage Unsichtbarkeit aufzudecken \n Passive Fähigkeit"
+"Voraussetzung: Stufe 7 \n Gewährt allen Verbündeten in der Nähe Resistenz gegen Furcht und Angst \n Zusatz: Kann nicht entfernt werden und wird immer addiert \n Dain deckt getarnte Einheiten auf \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
@@ -30377,7 +30377,7 @@ CONTROLBAR:ToolTipShelobWebbing
 END
 
 CONTROLBAR:ToolTipSpecialAbilityBatCloud
-"Verursacht geringen Schaden und ortet getarnte Einheiten"
+"Verursacht geringen Schaden und deckt getarnte Einheiten auf"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades
@@ -30929,7 +30929,7 @@ OBJECT:DwarvenLoneTower
 END
 
 OBJECT:DwarvenLoneTowerDescription
-"Feuert auf Schiffe in der Umgebung \n Deckt unsichtbare Einheiten auf \n Kann von der Festung verschiedene Erweiterungen erhalten."
+"Feuert auf Schiffe in der Umgebung \n Deckt getarnte Einheiten auf \n Kann von der Festung verschiedene Erweiterungen erhalten."
 END
 
 OBJECT:DwarvenMagicDoor
@@ -43057,7 +43057,7 @@ OBJECT:ArgonathStatues
 END
 
 OBJECT:HearthWellDescription
-"Heilt Verbündete in näherer Umgebung \n Stockt Horden alle 10 Sekunden mit Einheiten auf \n Deckt Unsichtbarkeit auf"
+"Heilt Verbündete in näherer Umgebung \n Stockt Horden alle 10 Sekunden mit Einheiten auf \n Deckt getarnte Einheiten auf"
 END
 
 CONTROLBAR:FireWeaponMightyCatapult
@@ -44813,11 +44813,11 @@ CONTROLBAR:ToolTipGandalfLeadership
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
-"Verbündete in der Nähe der Festung \n erhalten +25% Schaden und +25% mehr Erfahrung \n Wird immer addiert \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
+"Verbündete in der Nähe der Festung \n erhalten +25% Schaden und +25% mehr Erfahrung \n Wird immer addiert \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Rüstet gerufenen Turm mit diesem Upgrade aus"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
-"Heilt Verbündete in der Nähe \n Stockt Horden alle 6.5 Sekunden mit Einheiten auf \n Verringert Kosten um Helden zu rekrutieren um 5% \n Verringert die Zeit um Helden wiederzubeleben um 15% \n\n Verbessert gerufene einsame Türme"
+"Heilt Verbündete in der Nähe \n Stockt Horden alle 6.5 Sekunden mit Einheiten auf \n Verringert Kosten um Helden zu rekrutieren um 5% \n Verringert die Zeit um Helden wiederzubeleben um 15% \n\n Rüstet gerufenen Turm mit diesem Upgrade aus"
 END
 // \n Verringert Kosten um Helden wiederzubeleben um 5%
 
@@ -45154,7 +45154,7 @@ OBJECT:DwarvenStatueDescription
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners
-"Verbündete in der Nähe der Festung erhalten \n +25% Schaden und +25% Erfahrung \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung \n von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n Verstärkt gerufene einsame Türme"
+"Verbündete in der Nähe der Festung erhalten \n +25% Schaden und +25% Erfahrung \n Senkt die Kosten für Helden um 10% \n Beschleunigt die Rekrutierung \n von Helden um 10% \n Senkt die Kosten für Baumeister um 20% \n\n  Rüstet gerufenen einsamen Turm mit Bannerupgrade aus"
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2
@@ -45254,11 +45254,11 @@ CONTROLBAR:ToolTipBuildDwarvenBattleWagon
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier
-"Verbündete in der Nähe des Banners verursachen +25% Schaden und sammeln 25% mehr Erfahrung \n Wird immer addiert \n Repariert den Streitwagen, wenn dieser nicht eingesetzt wird \n Erweitert den Streitwagen um mehrere Phalangen \n Deckt getarnte Einheiten auf"
+"Verbündete in der Nähe des Banners verursachen \n +25% Schaden und sammeln 25% mehr Erfahrung \n Wird immer addiert \n Repariert den Streitwagen, wenn dieser nicht eingesetzt wird \n Erweitert den Streitwagen um mehrere Phalangen \n Deckt getarnte Einheiten auf"
 END
 
 CONTROLBAR:ToolTipBattleWagonUpgradeHearth
-"Alle Verbündeten in der Nähe werden geheilt, wenn sie nicht attackiert werden \n Ortet getarnte Einheiten"
+"Alle Verbündeten in der Nähe werden geheilt, wenn sie nicht attackiert werden \n Deckt getarnte Einheiten auf"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenDemolisher
