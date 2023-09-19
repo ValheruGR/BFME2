@@ -48,7 +48,7 @@ Yep, an issue that has plagued BFME2 for over a decade is finally gone for good.
 
 ![Image 14](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-## <center>  **New Maps & Reskins**
+## <center>  **New Maps & Reskins**<center>
 
 ![Image 15](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
@@ -58,7 +58,7 @@ As with every large update, a plethora of new maps are now available for all tea
 
 ![Image 17](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-## <center> **New Special Effects**
+## <center> **New Special Effects**<center>
 
 ![Image 18](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
@@ -70,21 +70,21 @@ Version 2.0 comes with hundreds of new special effects in addition to those foun
 
 ![Image 19](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-## <center> **New Models and Animations**
+## <center> **New Models and Animations**<center>
 
 ![Image 20](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-Many models from HD Edition are now integrated into the patch, as well as a number of other new models developed in-house, oh and a pig...
+<center> Many models from HD Edition are now integrated into the patch, as well as a number of other new models developed in-house, oh and a pig... </center>
 
 ![Image 21](https://www.gamereplays.org/community/uploads/post-50947-1610024354.png)
 
-Legolas also now has a new model, cape and a plethora of new animations
+<center> Legolas also now has a new model, cape and a plethora of new animations </center>
 
 ![Image 22](https://www.gamereplays.org/community/uploads/post-50947-1610356080.png)
 
 ![Image 23](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-## <center> **New Friends for Treebeard**
+## <center> **New Friends for Treebeard**<center>
 
 ![Image 24](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
@@ -92,29 +92,29 @@ Legolas also now has a new model, cape and a plethora of new animations
 
 ![Image 26](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-## <center> **Random and Upgrade Textures**
+## <center> **Random and Upgrade Textures**<center>
 
 ![Image 27](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-In addition to all of those seen in Version 1.0, more have been added such as level upgrades for wargs
+<center> In addition to all of those seen in Version 1.0, more have been added such as level upgrades for wargs </center>
 
 ![Image 28](https://www.gamereplays.org/community/uploads/post-50947-1610027051.png)
 
 ![Image 29](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-## <center> **New Sounds**
+## <center> **New Sounds**<center>
 
 ![Image 30](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-Version 2.0 adds around 100 more sounds to the game, both for units and buildings
+<center> Version 2.0 adds around 100 more sounds to the game, both for units and buildings </center>
 
 ![Image 31](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-## <center> **New Leadership Stacking System**
+## <center> **New Leadership Stacking System**<center>
 
 ![Image 32](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-In comparison to Version 1.0, 2.0 has added new cast effects for spells such as rallycall, warchant, mighty rage and more. Also, there is now a revamped leadership system which allows certain damage and armor leaderships to stack that previously didn't (and some that are now immune to debuff). One such example would be Theoden and Rallycall (or Boromir), shown below as solo visual, and then stacked visual. This enables more interesting early game mechanics and player choices. You can see in-game tooltips for more information and we will likely publish a guide to it in the near future.
+<center> In comparison to Version 1.0, 2.0 has added new cast effects for spells such as rallycall, warchant, mighty rage and more. Also, there is now a revamped leadership system which allows certain damage and armor leaderships to stack that previously didn't (and some that are now immune to debuff). One such example would be Theoden and Rallycall (or Boromir), shown below as solo visual, and then stacked visual. This enables more interesting early game mechanics and player choices. You can see in-game tooltips for more information and we will likely publish a guide to it in the near future. </center>
 
 ![Image 33](https://www.gamereplays.org/community/uploads/post-50947-1610285843.png)
 
@@ -122,11 +122,11 @@ In comparison to Version 1.0, 2.0 has added new cast effects for spells such as 
 
 ![Image 35](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-## <center> **New Buff and Leadership Cast Effects**
+## <center> **New Buff and Leadership Cast Effects**<center>
 
 ![Image 36](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-Beautiful remakes of RallyCall, Warchant, and even cast effects for spells which never had any, such as MightyRage. Dwarven RallyCall now shows as gold to differentiate it from Men and Elves, given its different bonus.
+<center>Beautiful remakes of RallyCall, Warchant, and even cast effects for spells which never had any, such as MightyRage. Dwarven RallyCall now shows as gold to differentiate it from Men and Elves, given its different bonus.</center>
 
 ![Image 37](https://www.gamereplays.org/community/uploads/post-50947-1610286294.png)
 
@@ -136,7 +136,7 @@ Beautiful remakes of RallyCall, Warchant, and even cast effects for spells which
 
 ![Image 40](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-## <center> **Spawn Effects**
+## <center> **Spawn Effects**</center>
 
 ![Image 41](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
@@ -148,7 +148,7 @@ Remade the Morgul Beacon for Witchking, also added spawns for Drogoth and Elrond
 
 ![Image 44](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-## <center> **Animations for Every Spell**
+## <center> **Animations for Every Spell**</center>
 
 ![Image 45](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
@@ -158,7 +158,7 @@ Version 2.0 has animations for all spells, one such example is Dissent which als
 
 ![Image 47](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-## <center> **Balrog with Real Flames of Udun**
+## <center> **Balrog with Real Flames of Udun**</center>
 
 ![Image 48](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
@@ -166,7 +166,7 @@ Version 2.0 has animations for all spells, one such example is Dissent which als
 
 ![Image 50](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-## <center> **Tower Wars designed for V2.0**
+## <center> **Tower Wars designed for V2.0**</center>
 
 ![Image 51](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
@@ -174,7 +174,7 @@ Version 2.0 has animations for all spells, one such example is Dissent which als
 
 ![Image 53](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-### <center> **Update: 1.09v2 Hotkeys!**
+### <center> **Update: 1.09v2 Hotkeys!**</center>
 
 ![Image 54](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
@@ -184,7 +184,7 @@ Version 2.0 has animations for all spells, one such example is Dissent which als
 
 ![Image 56](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-### <center> **Colors**
+### <center> **Colors**</center>
 
 ![Image 57](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
@@ -192,14 +192,13 @@ Version 2.0 has animations for all spells, one such example is Dissent which als
 
 ![Image 59](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-### <center> **Summary of changes**
+### <center> **Summary of changes**</center>
 
 Changelog is attached. Slaughtered 350 bugs. Also the general approach with this patch was to make units and monsters better and lessen the impact of heroes. This beta lasted for several years and the log is enormous. The changelog for Patch 1.09 Version 2.0 is also included in the installation.
 
-<center>
-    [Attachment](attachmentid=860537)
-</center>
+[Summary of Changes](https://raw.githubusercontent.com/ValheruGR/BFME2/master/1.09v3/Patch%201.09v3%20Notes/release_summary.txt)
 
+[Complete 1.09v2 to 1.09v3 Changelog](https://raw.githubusercontent.com/ValheruGR/BFME2/master/1.09v3/Patch%201.09v3%20Notes/release_summary.txt)
 ![Image 60](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
 ### <center> **Special Thanks** </center>
