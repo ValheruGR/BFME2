@@ -1,18 +1,17 @@
 ![Image 1](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
-# <center> Battle For Middle Earth II Patch 1.09 V2.0 is Now Live </center>
+# <center> Battle For Middle Earth II Patch 1.09 V3.0 is Now Live </center>
 ![Image 1](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
 ![Image 2](https://www.gamereplays.org/community/uploads/post-50947-1610356545.png)
 
 ![Image 3](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-<center>Hi All, Patch 1.09 Version 2.0 is finally here for download. For years later and here we are with another enormous patch filled with goodies, cows, and even a pig for Dwarves. A huge thanks to everyone involved but particularly Ech my right hand man & Ridder Geel for his work on the launcher. It is a privileged and a blessing to be able to present to you this gift to the community. We hope that you enjoy it as much as we do, happy new years to everyone!</center>
+<center>  After an arduous journey of approximately 65 beta iterations, we are thrilled to present to you the long-awaited Patch 1.09 Version 3.0 Final, available for download now. This monumental release has been shaped by the collective expertise of some of the finest players in the game, making it a true testament to the dedication of our community.</center>
 
-A note about version naming - as of this release and in the future, we will be using similar naming conventions to 2.02. 1.09 Version 2.0, 3.0 and so forth. So get used to it :)
 
 ![Image 4](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-### <center>[Download Patch 1.09 Version 2.0](https://www.mediafire.com/file/pdkpsk3yfzscand/PatchSwitcherInstaller(4).rar/file)</center>
+### <center>[Download Patch 1.09 Version 3.0](LINK)</center>
 
 ![Image 5](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
@@ -24,7 +23,7 @@ A note about version naming - as of this release and in the future, we will be u
 
 ![Image 7](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
-The launcher now comes with auto update features, links to Discord/GR/Facebook groups, and the choice of map height between two different zoom levels. Future releases can now be quickly integrated in a manner of minutes and so the days of new launchers holding up releases are gone for good
+The launcher has been completly remade
 
 ![Image 8](https://www.gamereplays.org/community/uploads/post-50947-1489933995.png)
 
