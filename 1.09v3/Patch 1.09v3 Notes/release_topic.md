@@ -126,6 +126,16 @@ Version 3.0 took the liberty to add a bunch of non conservative features to aggi
 		- It still has a badass special effect like 1.09v2 one, but instead of being a Word of Power like ability, it is now a ranged ability with highly concentrated damage capable of destroy heavy armored units from the distance.
 	- **Arwen heal is back** 
 	- **Eowyn is now designed as an anti-heroes type of unit.** 
+	
+		-Level 1: Smite with bonus vs Heroes. Radius 14. Damage x1.3 against heroes, x4 against Fellbeasts. No stun
+		
+		-Level 3: Disguise for 30 seconds. Splash damage plus +25% damage against Heroes. 
+		
+		-Level 4: Smite with bonus vs Heroes. Radius 16. Damage x1.45 against heroes, x4.35 against Fellbeasts. 1 sec stun.
+		
+		-Level 5: ShieldMaiden. Armor +35% % Armor against Heroes 35%. 
+		
+		-Level 7: Smite with bonus vs Heroes. Radius 18. Damage x1.60 against heroes, x4.70 against Fellbeasts. 2 sec stun.
 
 [Youtube Video 1](S4TVNHAzzBQ)
 
@@ -159,7 +169,9 @@ Version 3.0 took the liberty to add a bunch of non conservative features to aggi
 		- *DragonNest healing Drogoth is now fixed, but is also heals any kind of flyer now. However, you need Razors for it to work. EagleNest and MysticFountains do the same.*
 		
 4. ### Match up frustrations revised
-	``* Mumakil no longer causes area damage against units while it is attacking a structure.`` 
+
+	- **Mumakil no longer causes area damage against units while it is attacking a structure.**
+	
 		This allows units and heroes to defend structures without dying by indirect damage. Now you can evacuate dwarven mines without dying on the way.*
 
 
