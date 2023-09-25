@@ -74,62 +74,52 @@ class Changelog:
 		log_name = f"{log_name}.md"
 		with open(log_name, 'w') as pretty_log:
 			pretty_log.write(log_content)
-	
-	def __write_faction_logs(self, faction, query):
-		faction_logs = f"\n\n## {faction}"
-		for entry in query:
-			faction_logs += f"\n\n### {entry.objects.full}"
-			faction_logs += f"\n\n- {entry.predicado}"
-		return faction_logs
-	
-	def get_beta_log(self, beta_n, write=False):
-		filtered_entries = self.filter(beta=beta_n)
-		log_content = f"# {beta_n}"
-		for entry in filtered_entries:
-			log_content += self.__write_faction_logs(entry.faction, filtered_entries)
-
-		if write:
-			self.__write_log(beta_n, log_content)
-			print(f"{beta_n}.md was successfully written")
-		else:
-			print(log_content)
 			
-	def get_beta_log(self, beta_n, write=False):
-		log_name = beta_n
-		
-		# Create a dictionary to group entries by faction within each beta
+	def get_beta_log(self, beta=False, faction=False, write=False):
+			
+		filtered_entries = self.filter(beta=beta, faction=faction)
+		log_name = beta
+
 		beta_entries = {}
-		
-		# Filter entries for the specified beta
-		filtered_entries = self.filter(beta=beta_n)
-		
-		# Group entries by faction within the specified beta
 		for entry in filtered_entries:
 			if entry.faction not in beta_entries:
-				beta_entries[entry.faction] = []
-			beta_entries[entry.faction].append(entry)
-		
+				beta_entries[entry.faction] = {}
+			if entry.objects.type not in beta_entries[entry.faction]:
+				beta_entries[entry.faction][entry.objects.type] = {}
+			full_tuple = tuple(entry.objects.full)
+			if full_tuple not in beta_entries[entry.faction][entry.objects.type]:
+				beta_entries[entry.faction][entry.objects.type][full_tuple] = []
+			beta_entries[entry.faction][entry.objects.type][full_tuple].append(entry)
+
 		log_content = f"# {log_name}"
-		
-		# Iterate through betas and factions to generate the log content
+
 		for faction, faction_entries in beta_entries.items():
 			log_content += f"\n\n## {faction}"
-			
-			for entry in faction_entries:
-				log_content += f"\n\n### {entry.objects.full}"
-				log_content += f"\n\n- {entry.predicado}"
-		
+			for obj_type, obj_entries in faction_entries.items():
+				log_content += f"\n\n### {obj_type}"
+				for full_tuple, entries in obj_entries.items():
+					log_content += f"\n\n#### {' > '.join(full_tuple)}"
+					for entry in entries:
+						log_content += f"\n\n- {entry.predicado}"
+
 		if write:
 			self.__write_log(log_name, log_content)
 			print(f"{log_name}.md was successfully written")
 		else:
 			print(log_content)
 
+
+
 		
 changelog_path = Path.cwd() / "Patch 1.09v3_Changes from 1.09v2.ini"
 log = Changelog(changelog_path)
 
-log.get_beta_log("Beta60",write=True)
+# log.get_beta_log("Beta60.3",write=False)
+# log.get_beta_log("Beta60.3",write=True)
+log.get_beta_log(
+				# beta="Beta60.3",
+				faction="Elves",
+				write=True)
 
 	
 # for a in log.instances:
