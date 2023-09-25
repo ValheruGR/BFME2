@@ -52,8 +52,6 @@ class LogEntry:
 
 class Changelog:
 	def __init__(self, changelog_path):
-		self.dict_beta = {}	#beta: object
-		self.dict_faction = {}	#faction: object
 		self.instances = []
 		
 		with open(changelog_path, 'r') as raw_log:
@@ -62,8 +60,6 @@ class Changelog:
 				if line.startswith("-Beta"):
 					entry = LogEntry(line)
 					self.instances.append(entry)
-					self.dict_beta[entry.beta] = entry
-					self.dict_faction[entry.faction] = entry
 		print(f"Changelog parsered: {len(self)} log entries were created ")
 		
 	def filter(self, beta=False, faction=False, query=False):
@@ -87,17 +83,48 @@ class Changelog:
 		return faction_logs
 	
 	def get_beta_log(self, beta_n, write=False):
+		filtered_entries = self.filter(beta=beta_n)
 		log_content = f"# {beta_n}"
-		for entry in self.filter(beta=beta_n):
-			log_content += self.__write_faction_logs(faction)
-		
+		for entry in filtered_entries:
+			log_content += self.__write_faction_logs(entry.faction, filtered_entries)
+
 		if write:
 			self.__write_log(beta_n, log_content)
-			print(f"{beta_n}.md was succesfully written")
+			print(f"{beta_n}.md was successfully written")
 		else:
 			print(log_content)
-		
 			
+	def get_beta_log(self, beta_n, write=False):
+		log_name = beta_n
+		
+		# Create a dictionary to group entries by faction within each beta
+		beta_entries = {}
+		
+		# Filter entries for the specified beta
+		filtered_entries = self.filter(beta=beta_n)
+		
+		# Group entries by faction within the specified beta
+		for entry in filtered_entries:
+			if entry.faction not in beta_entries:
+				beta_entries[entry.faction] = []
+			beta_entries[entry.faction].append(entry)
+		
+		log_content = f"# {log_name}"
+		
+		# Iterate through betas and factions to generate the log content
+		for faction, faction_entries in beta_entries.items():
+			log_content += f"\n\n## {faction}"
+			
+			for entry in faction_entries:
+				log_content += f"\n\n### {entry.objects.full}"
+				log_content += f"\n\n- {entry.predicado}"
+		
+		if write:
+			self.__write_log(log_name, log_content)
+			print(f"{log_name}.md was successfully written")
+		else:
+			print(log_content)
+
 		
 changelog_path = Path.cwd() / "Patch 1.09v3_Changes from 1.09v2.ini"
 log = Changelog(changelog_path)
