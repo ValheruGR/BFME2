@@ -3,6 +3,10 @@ from pprint import pprint
 
 CONTADOR = set()
 
+
+MAX_OBJECT_LENGTH = 0 
+
+
 class LogEntry:
 	FACTIONS = {"MenOfTheWest", "Elves", "Dwarves", "Isengard", "Mordor", "Goblins", "Global", "Neutral", "Creeps"}
 	
@@ -16,6 +20,7 @@ class LogEntry:
 		self.faction = self.segments[1]
 		self.predicado = self.segments[3]
 		self.objects = LogEntry.ObjectClass(self, self.segments[2])
+		
 		
 		self.__validate_faction()
 		
@@ -36,20 +41,22 @@ class LogEntry:
 
 
 	class ObjectClass:
-		OBJECT_TYPE = {"Structures", "Heroes", "Upgrades", "Units", "Ships", "SpellBook", "Maps", "Misc", "ForMappers", "Artillery", "Monsters"}
+		OBJECT_TYPE = {"Structures", "Heroes", "Units", "Ships", "SpellBook", "Maps", "Misc", "ForMappers", "Artillery", "Monsters"}
 		
 		def __init__(self, master, text):
 			self.master = master
 			self.full = list(map(lambda s: s.strip(), text.split(".")))
 			self.type = self.full[0]
 			self.__validate()
-			self.__validate_length()
+			# self.__validate_length()
 			
 		def __validate_length(self):
-			for subtype in self.full:
-				CONTADOR.add(subtype)
-			# if len(self.full) == 3:
-				# print(self.master.segments)
+			# for subtype in self.full:
+				# CONTADOR.add(subtype)
+			my_length = len(self.full)
+			global MAX_OBJECT_LENGTH
+			if my_length > MAX_OBJECT_LENGTH:
+				MAX_OBJECT_LENGTH = my_length
 				# raise Exception(f"Parser error: The following segments are not 2: \n {self.master.segments}")
 			# CONTADOR.add(len(self.full))				
 		def __validate(self):
@@ -65,18 +72,31 @@ class LogEntry:
 
 class Changelog:
 	
-	def __init__(self, changelog_path):
+	def __init__(self, path):
 		self.instances = []
-		
-		with open(changelog_path, 'r') as raw_log:
+		self.read(path)
+		self.fix_shits()
+		print(f"Changelog parsered: {len(self)} log entries were created ")
+		self.factions = sorted({a.faction for a in self.instances})
+		self.patches = sorted({a.beta for a in self.instances})
+		self.types = sorted({a.objects.full[0] for a in self.instances})
+		self.types_2 = sorted({a.objects.full[1] for a in self.instances})
+
+	def fix_shits(self):
+		global MAX_OBJECT_LENGTH
+		for instance in self.instances:
+			print(len(instance.objects.full))
+			while len(instance.objects.full) < MAX_OBJECT_LENGTH:
+				instance.objects.full.append(None)
+			print(len(instance.objects.full))
+			
+	def read(self, path):
+		with open(path, 'r') as raw_log:
 			for line in raw_log:
 				line = line.strip()
 				if line.startswith("-Beta"):
 					entry = LogEntry(line)
 					self.instances.append(entry)
-		print(f"Changelog parsered: {len(self)} log entries were created ")
-		self.patches = sorted({a.beta for a in self.instances})
-			
 		
 	def filter(self, beta=False, faction=False, query=False):
 		if not query:
@@ -102,6 +122,13 @@ class Changelog:
 							faction="*",
 							write=write,
 							)
+							
+	def get_full_log(self, write=False):
+		self.get_beta_log(
+						beta="*",
+						faction="*",
+						write=write,
+						)
 			
 	def get_beta_log(self, beta=False, faction=False, write=False):
 			
@@ -145,15 +172,26 @@ class Changelog:
 		
 changelog_path = Path.cwd() / "Patch 1.09v3_Changes from 1.09v2.ini"
 log = Changelog(changelog_path)
+
+
+log.get_beta_log(
+				beta="*",
+				faction="*",
+				write=write,
+				)
+# for count, a in enumerate(log.factions, start=1):
+	# print(count, a)
+# for count, a in enumerate(log.types_2, start=1):
+	# print(count, a)
+	
+	
 # log.print_all_logs(write=True)
 
 # log.get_beta_log("Beta60.3",write=False)
 # log.get_beta_log("Beta60.3",write=True)
-log.get_beta_log(
-				beta="*",
-				faction="*",
-				write=True,
-				)
+
+# log.get_full_log(write=True)
+	
 	
 	
 # for a in log.instances:
@@ -163,4 +201,4 @@ log.get_beta_log(
 	# self.objects
 	# self.objects.type
 	# self.objects.full
-pprint(CONTADOR)
+# pprint(CONTADOR)
