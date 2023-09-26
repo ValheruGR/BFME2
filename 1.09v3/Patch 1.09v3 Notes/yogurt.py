@@ -1,6 +1,8 @@
 from pathlib import Path
 from pprint import pprint
 
+CONTADOR = set()
+
 class LogEntry:
 	FACTIONS = {"MenOfTheWest", "Elves", "Dwarves", "Isengard", "Mordor", "Goblins", "Global", "Neutral", "Creeps"}
 	
@@ -8,13 +10,15 @@ class LogEntry:
 		self.segments = list(map(lambda s: s.strip(), line.split(":")))
 		
 		self.__length = len(self.segments)
+		self.__validate_length()
+		
 		self.beta = self.segments[0].replace("-", "")
 		self.faction = self.segments[1]
 		self.predicado = self.segments[3]
-		self.objects = LogEntry.ObjectClass(self.segments[2])
+		self.objects = LogEntry.ObjectClass(self, self.segments[2])
 		
-		self.__validate_length()
 		self.__validate_faction()
+		
 		
 	def __repr__(self):
 		return f"|LogEntry|{self.beta}|{self.faction}|{self.objects.type}|"
@@ -34,11 +38,20 @@ class LogEntry:
 	class ObjectClass:
 		OBJECT_TYPE = {"Structures", "Heroes", "Upgrades", "Units", "Ships", "SpellBook", "Maps", "Misc", "ForMappers", "Artillery", "Monsters"}
 		
-		def __init__(self, text):
+		def __init__(self, master, text):
+			self.master = master
 			self.full = list(map(lambda s: s.strip(), text.split(".")))
 			self.type = self.full[0]
 			self.__validate()
-				
+			self.__validate_length()
+			
+		def __validate_length(self):
+			for subtype in self.full:
+				CONTADOR.add(subtype)
+			# if len(self.full) == 3:
+				# print(self.master.segments)
+				# raise Exception(f"Parser error: The following segments are not 2: \n {self.master.segments}")
+			# CONTADOR.add(len(self.full))				
 		def __validate(self):
 			if self.type not in LogEntry.ObjectClass.OBJECT_TYPE:
 				raise Exception(f"This type of this object is not defined: {self.type}")
@@ -51,6 +64,7 @@ class LogEntry:
 
 
 class Changelog:
+	
 	def __init__(self, changelog_path):
 		self.instances = []
 		
@@ -61,25 +75,43 @@ class Changelog:
 					entry = LogEntry(line)
 					self.instances.append(entry)
 		print(f"Changelog parsered: {len(self)} log entries were created ")
+		self.patches = sorted({a.beta for a in self.instances})
+			
 		
 	def filter(self, beta=False, faction=False, query=False):
 		if not query:
 			query = self.instances
+		if beta == "*":
+			beta = False
+		if faction == "*":
+			faction = False
 		return [entry for entry in query if (not beta or entry.beta == beta) and (not faction or entry.faction == faction)]
 
 	def __len__(self):
 		return len(self.instances)
 		
 	def __write_log(self, log_name, log_content):
-		log_name = f"{log_name}.md"
+		log_name = Path.cwd() / "patches" / f"{log_name}.md"
 		with open(log_name, 'w') as pretty_log:
 			pretty_log.write(log_content)
+			
+	def print_all_logs(self, write=False):		
+		for patch in log.patches:
+			log.get_beta_log(
+							beta=patch,
+							faction="*",
+							write=write,
+							)
 			
 	def get_beta_log(self, beta=False, faction=False, write=False):
 			
 		filtered_entries = self.filter(beta=beta, faction=faction)
+		if beta == "*":
+			beta = "AllBetas"
+		if faction == "*":
+			faction = "AllFaction"
+			
 		log_name = beta
-
 		beta_entries = {}
 		for entry in filtered_entries:
 			if entry.faction not in beta_entries:
@@ -113,14 +145,16 @@ class Changelog:
 		
 changelog_path = Path.cwd() / "Patch 1.09v3_Changes from 1.09v2.ini"
 log = Changelog(changelog_path)
+# log.print_all_logs(write=True)
 
 # log.get_beta_log("Beta60.3",write=False)
 # log.get_beta_log("Beta60.3",write=True)
 log.get_beta_log(
-				# beta="Beta60.3",
-				faction="Elves",
-				write=True)
-
+				beta="*",
+				faction="*",
+				write=True,
+				)
+	
 	
 # for a in log.instances:
 	# self.beta
@@ -129,3 +163,4 @@ log.get_beta_log(
 	# self.objects
 	# self.objects.type
 	# self.objects.full
+pprint(CONTADOR)
