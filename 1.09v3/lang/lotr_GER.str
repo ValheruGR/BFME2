@@ -45,7 +45,7 @@ CONTROLBAR:ToolTipEvilHeal09v3
 END
 //------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
-"Gandalf der Weiﬂe: \n Erfordert Stufe 5 \n Gandalfs magische F‰higkeiten verursachen 170 % Schaden und die Abklingzeiten werden um -20 % reduziert. \n Passive F‰higkeit."
+"Gandalf der Weiﬂe: \n Erfordert Stufe 5 \n Gandalfs magische F‰higkeiten verursachen +70 % Schaden und die Abklingzeiten werden um -20 % reduziert. \n Passive F‰higkeit."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v3
