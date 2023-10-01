@@ -81,31 +81,31 @@ class Changelog:
 		
 	
 		
-	def where(self, fromlist=False, beta=False, faction=False, objects=None, ):
+	def where(self, fromlist=False, beta=False, faction=False, objectquery=None):
 		if not fromlist:
 			fromlist = self.instances
 		if beta == "*":
 			beta = False
 		if faction == "*":
 			faction = False
-		if objects == "*":
-			objects = False
+		if objectquery == "*":
+			objectquery = False
 			
 			
-		return [entry for entry in fromlist 
+		filtered = [entry for entry in fromlist 
 					if (not beta or entry.beta == beta) 
 					and (not faction or entry.faction == faction) 
 				]
-				
-	def filter_subtype(self, object_index, query, fromlist=False):
-		if query == "None":
-			query = None
-		if object_index == "*" or query == "*":
-			return fromlist
-			
-		return [entry for entry in fromlist 
-					if (entry.objects.full.get(object_index) == query) 
-				]
+		if not objectquery:
+			return filtered
+		else:
+			return [entry for entry in filtered 
+					if any(value == objectquery 
+					for value in entry.objects.full.values())
+					]
+
+
+
 
 	def __len__(self):
 		return len(self.instances)
@@ -144,15 +144,26 @@ class Changelog:
 		
 		
 		log_content = f"# {beta}\n"
-		for faction in sorted({a.faction for a in filtered_entries}):
+		for faction in sorted({entry.faction for entry in filtered_entries}):
 			log_content += f"## {faction}\n"
-			faction_entries = self.where(faction=faction, fromlist=filtered_entries)
-			faction_entries_subtypes = sorted({entry.objects.full[0] for entry in faction_entries})
-			for subtype0 in faction_entries_subtypes:
-				log_content += f"### {subtype0}\n"
-				subtype_entries = self.filter_subtype(0, subtype0, faction_entries)
-				for entry in subtype_entries:
-					log_content += f"###### - {entry.predicado}\n"
+			filtered_entries = self.where(faction=faction, fromlist=filtered_entries)
+			object_index = 0
+			for object in sorted({entry.objects.full[object_index] for entry in filtered_entries}):
+				log_content += f"### {object}\n"
+				# filtered_entries = self.where(object_query=object, fromlist=filtered_entries)
+				object_index += 1
+				
+				for object in {entry.objects.full.get(object_index) for entry in filtered_entries}:
+					if not object:
+						continue
+					log_content += f"#### {object}\n"
+					# filtered_entries = self.where_subtype(object_index=object_index, query=object, fromlist=filtered_entries)
+					object_index += 1
+				
+				
+				
+				# for entry in sorted({entry.faction for entry in filtered_entries}):
+					# log_content += f"###### - {entry.predicado}\n"
 			
 				
 			
@@ -241,7 +252,7 @@ class Changelog:
 				query = input("Ingrese que subitmes desea ver: ")
 				if query == "*" or query == "None":
 					break
-			filtered_entries = self.filter_subtype(fromlist=filtered_entries, object_index=IDNEX, query=query)
+			filtered_entries = self.where(fromlist=filtered_entries, objectquery=query)
 			
 			print(f"You choiced {query} and u got {len(filtered_entries)} items")
 			IDNEX += 1
@@ -259,17 +270,20 @@ changelog_path = Path.cwd() / "Patch 1.09v3_Changes from 1.09v2.ini"
 log = Changelog(changelog_path)
 # log.initiate_log_gui()
 
+instances = log.where(beta="*", faction="Elves", objectquery = "Arwen")
+for instance in instances:
+	print("- ", instance.predicado)
 
 
 # log.print_all_logs(write=True)
 
 # log.get_beta_log("Beta60.3",write=False)
 # log.get_beta_log("Beta60.3",write=True)
-log.get_beta_log(
-				beta="*",
-				faction="*",
-				write=True,
-				)
+# log.get_beta_log(
+				# beta="*",
+				# faction="*",
+				# write=True,
+				# )
 # log.get_beta_log_new(
 				# beta="*",
 				# faction="MenOfTheWest",
