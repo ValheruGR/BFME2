@@ -75,20 +75,13 @@ class Changelog:
 		self.patches = sorted({a.beta for a in self.instances})
 		self.factions = sorted({a.faction for a in self.instances})
 		self.types = sorted({a.objects.type for a in self.instances})
-		# self.subtype1 = sorted({a.objects.full.get(1) for a in self.instances})
-		# self.subtype2 = sorted({a.objects.full.get(2) for a in self.instances})
-		# self.subtype3 = sorted({a.objects.full.get(3) for a in self.instances})
-		# self.subtype4 = sorted({a.objects.full.get(4) for a in self.instances})
-		# self.subtype5 = sorted({a.objects.full.get(5) for a in self.instances})
-		# self.subtype6 = sorted({a.objects.full.get(6) for a in self.instances})
-		# self.subtype7 = sorted({a.objects.full.get(7) for a in self.instances})
 			
 	def get_subtype(self, fromlist, index):
 		return {a.objects.full.get(index) for a in fromlist}
 		
 	
 		
-	def filter(self, fromlist=False, beta=False, faction=False, objects=None, ):
+	def where(self, fromlist=False, beta=False, faction=False, objects=None, ):
 		if not fromlist:
 			fromlist = self.instances
 		if beta == "*":
@@ -130,69 +123,77 @@ class Changelog:
 							write=write,
 							)
 			
-	def get_beta_log_new(self, beta=False, faction=False, write=False):
-		filtered_entries = self.filter(beta=beta, faction=faction)
-		if beta == "*":
-			beta = "AllBetas"
-		if faction == "*":
-			faction = "AllFaction"
+		
+		
+		
+		
 			
-		filename = f"{beta} {faction}.md"
-		beta_entries = {}
-		for entry in filtered_entries:
-			print(entry)
-			
-			
-			
-			
-		# log_content = f"# {beta}"
-
-
-
-		# if write:
-			# self.__write_log(filename, log_content)
-			# print(f"{filename} was successfully written")
-		# else:
-			# print(log_content)
 			
 			
 			
 	def get_beta_log(self, beta=False, faction=False, write=False):
 			
-		filtered_entries = self.filter(beta=beta, faction=faction)
+		filtered_entries = self.where(beta=beta, faction=faction)
 		if beta == "*":
 			beta = "AllBetas"
 		if faction == "*":
 			faction = "AllFaction"
-			
 		filename = f"{beta} {faction}.md"
-		beta_entries = {}
-		for entry in filtered_entries:
-			if entry.faction not in beta_entries:
-				beta_entries[entry.faction] = {}
-			if entry.objects.type not in beta_entries[entry.faction]:
-				beta_entries[entry.faction][entry.objects.type] = {}
-			full_tuple = tuple(entry.objects.full)
-			if full_tuple not in beta_entries[entry.faction][entry.objects.type]:
-				beta_entries[entry.faction][entry.objects.type][full_tuple] = []
-			beta_entries[entry.faction][entry.objects.type][full_tuple].append(entry)
+		
+		
+		
+		
+		log_content = f"# {beta}\n"
+		for faction in sorted({a.faction for a in filtered_entries}):
+			log_content += f"## {faction}\n"
+			faction_entries = self.where(faction=faction, fromlist=filtered_entries)
+			faction_entries_subtypes = sorted({entry.objects.full[0] for entry in faction_entries})
+			for subtype0 in faction_entries_subtypes:
+				log_content += f"### {subtype0}\n"
+				subtype_entries = self.filter_subtype(0, subtype0, faction_entries)
+				for entry in subtype_entries:
+					log_content += f"###### - {entry.predicado}\n"
+			
+				
+			
+		
+		# dictionaryio = {
+			# "men": {
+					# "units":	{subtype1:	{}},
+					# "structures":	{item for item in item for item in item},
+					# "other":	{item for item in item for item in item},
+					# }
+		
+		# }
+		
+		
+		# beta_entries = {}
+		# for entry in filtered_entries:
+			# if entry.faction not in beta_entries:
+				# beta_entries[entry.faction] = {}
+			# if entry.objects.full[0] not in beta_entries[entry.faction]:
+				# beta_entries[entry.faction][entry.objects.full[0]] = {}
+				
+			# if entry.objects.full.get(1):
+				# if entry.objects.full[1] not in beta_entries[entry.faction][entry.objects.full[0]]:
+					# beta_entries[entry.faction][entry.objects.full[0]][entry.objects.full[1]] = {}
+			
+			# if entry.objects.full.get(2):
+				# if entry.objects.full[2] not in beta_entries[entry.faction][entry.objects.full[0]][entry.objects.full[1]]:
+					# beta_entries[entry.faction][entry.objects.full[0]][entry.objects.full[1]][entry.objects.full[2]] = {}
+					
+			# if entry.predicado not in beta_entries[entry.faction][entry.objects.full[0]][entry.objects.full[1]][entry.objects.full[2]]:
+				# beta_entries[entry.faction][entry.objects.full[0]][entry.objects.full[1]][entry.objects.full[2]][entry.predicado] = entry.predicado
+		# log_content = f"# {beta}"
 
-		log_content = f"# {beta}"
-
-		for faction, faction_entries in beta_entries.items():
-			log_content += f"\n\n## {faction}"
-			for obj_type, obj_entries in faction_entries.items():
-				log_content += f"\n\n### {obj_type}"
-				for full_tuple, entries in obj_entries.items():
-					log_content += f"\n\n#### {' > '.join(full_tuple)}"
-					for entry in entries:
-						log_content += f"\n\n- {entry.predicado}"
+		# pprint(beta_entries)
 
 		if write:
 			self.__write_log(filename, log_content)
 			print(f"{filename} was successfully written")
 		else:
 			print(log_content)
+
 
 
 	def initiate_log_gui(self):
@@ -209,7 +210,7 @@ class Changelog:
 			query = input("Ingrese que parches desea ver: ")
 			if query == "*":
 				break
-		filtered_entries = self.filter(beta=query, fromlist=filtered_entries)
+		filtered_entries = self.where(beta=query, fromlist=filtered_entries)
 		print(f"You choiced {query} and u got {len(filtered_entries)} items")
 		
 		
@@ -221,7 +222,7 @@ class Changelog:
 			query = input("Ingrese que parches desea ver: ")
 			if query == "*":
 				break
-		filtered_entries = self.filter(faction=query, fromlist=filtered_entries)
+		filtered_entries = self.where(faction=query, fromlist=filtered_entries)
 		print(f"You choiced {query} and u got {len(filtered_entries)} items")
 		
 		
@@ -256,7 +257,7 @@ class Changelog:
 		
 changelog_path = Path.cwd() / "Patch 1.09v3_Changes from 1.09v2.ini"
 log = Changelog(changelog_path)
-log.initiate_log_gui()
+# log.initiate_log_gui()
 
 
 
@@ -264,11 +265,11 @@ log.initiate_log_gui()
 
 # log.get_beta_log("Beta60.3",write=False)
 # log.get_beta_log("Beta60.3",write=True)
-# log.get_beta_log(
-				# beta="*",
-				# faction="MenOfTheWest",
-				# write=True,
-				# )
+log.get_beta_log(
+				beta="*",
+				faction="*",
+				write=True,
+				)
 # log.get_beta_log_new(
 				# beta="*",
 				# faction="MenOfTheWest",
