@@ -110,61 +110,66 @@ class Changelog:
 			beta = "AllBetas"
 		if faction == "*":
 			faction = "AllFaction"
-		filename = f"{beta} {faction}.md"
+		file_title = f"{beta} {faction}"
+		filename_ext = f"{beta} {faction}.md"
 		
-		log_content = f"# {beta}\n"
+
 		
-		betas = {entry.beta for entry in fromlist}
-		# factions = 
-		# titulos_h3 = self.get_object_names(fromlist, 0)
-		titulos_h4 = self.get_object_names(fromlist, 1)
-		titulos_h5 = self.get_object_names(fromlist, 2)
-		titulos_h6 = self.get_object_names(fromlist, 3)
+		def html_center(string, hn=1):
+			if hn > 3:
+				alignation = 'left'
+			else:
+				alignation = 'center'
+			return f"<div align={alignation}> <h{hn}>{string}</h{hn}> </div>"		
 		
-		faction_all_entries = self.where(faction=faction)
 		
+		
+		log_content = f"{html_center(file_title, hn=1)}\n"
 		titulos = sorted(list({entry.faction for entry in fromlist}))
-		for faction in titulos:
-			log_content += f"\n## {faction}"
+		for subtitulo in titulos:
+			log_content += f"\n{html_center(subtitulo, hn=2)}\n"
 			
-			faction_entries = self.where(fromlist, faction=faction)
+			faction_entries = self.where(fromlist, faction=subtitulo)
 			titulos = self.get_object_names(faction_entries, 0)
 			for subtitulo in titulos:
 				if subtitulo is not None:
-					log_content += f"\n#### {subtitulo}"
+					log_content += f"\n{html_center(subtitulo, hn=3)}\n"
 				
 				
 				subobject1_entries = self.where(faction_entries, objectquery=subtitulo)
 				titulos = self.get_object_names(subobject1_entries, 1)
 				for subtitulo in titulos:
 					if subtitulo is not None:
-						log_content += f"\n#### {subtitulo}"
+						# log_content += f"\n{subtitulo}\n"
+						log_content += f"\n{html_center(subtitulo, hn=4)}\n"
 					
 					subobject2_entries = self.where(subobject1_entries, objectquery=subtitulo)
 					titulos = self.get_object_names(subobject2_entries, 2)
 					for subtitulo in titulos:
 						if subtitulo is not None:
-							log_content += f"\n#### {subtitulo}"
+							# log_content += f"\n{subtitulo}\n"
+							log_content += f"\n{html_center(subtitulo, hn=5)}\n"
 						
 						
 						subobject3_entries = self.where(subobject2_entries, objectquery=subtitulo)
 						titulos = sorted(list({entry.beta for entry in subobject3_entries}))
 						for subtitulo in titulos:
-							log_content += f"\n###### {subtitulo}"
+							# log_content += f"\n{subtitulo}\n"
+							log_content += f"\n{html_center(subtitulo, hn=6)}\n"
 								
 							subobject4_entries = self.where(subobject3_entries, beta=subtitulo)
 							# print(subobject4_entries)
 							# return
 							for entry in subobject4_entries:
 								predicado = entry.predicado.capitalize()
-								log_content += f"\n-{predicado}"
+								log_content += f"\n-{predicado}\n"
 				
 
 	
 
 		if write:
-			self.__write_log(filename, log_content)
-			print(f"{filename} was successfully written")
+			self.__write_log(filename_ext, log_content)
+			print(f"{filename_ext} was successfully written")
 		else:
 			print(log_content)
 
@@ -268,5 +273,5 @@ log.get_beta_log(
 
 
 
-# asd = log.get_object_names(log.instances, 3)
-# print(asd)
+asd = log.get_object_names(log.instances, 3)
+print(asd)
