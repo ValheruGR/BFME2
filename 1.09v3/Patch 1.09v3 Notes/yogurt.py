@@ -2,33 +2,9 @@ from pathlib import Path
 from pprint import pprint
 
 
-#Estructura: 
-	# {self.beta} {self.faction} {self.objects(N)} {self.predicado}
-	# -Beta01: Global: SpellBook.SummonedDragon: SummonedDragon summoning damage max/min damage now 1000/400, from 600/360 respectively.
-
-class ObjectClass:
-	OBJECT_TYPE = {"Structures", "Heroes", "Upgrades", "Units", "Ships", "SpellBook", "Maps", "Misc", "ForMappers", "Artillery", "Monsters"}
-	
-	def __init__(self, master, text):
-		self.master = master
-		self.full = {}
-		subtitles_list = list(map(lambda s: s.strip(), text.split(".")))
-		for index, subtitle in enumerate(subtitles_list):
-			self.full[index] = subtitle
-		self.type = self.full[0]
-		self.__validate()
-			
-	def __validate(self):
-		if self.type not in ObjectClass.OBJECT_TYPE:
-			raise Exception(f"This type of this object is not defined: {self.type}")
-			
-	def __str__(self):
-		return self.type
-	def __eq__(self, compare):
-		return self.type == compare
-
 class LogEntry:
 	FACTIONS = {"MenOfTheWest", "Elves", "Dwarves", "Isengard", "Mordor", "Goblins", "Global", "Neutral", "Creeps"}
+	OBJECT_TYPE = {"Structures", "Heroes", "Upgrades", "Units", "Ships", "SpellBook", "Maps", "Misc", "ForMappers", "Artillery", "Monsters"}
 	
 	def __init__(self, line):
 		self.segments = list(map(lambda s: s.strip(), line.split(":")))
@@ -36,16 +12,18 @@ class LogEntry:
 		self.__length = len(self.segments)
 		self.__validate_length()
 		
+		
 		self.beta = self.segments[0].replace("-", "")
 		self.faction = self.segments[1]
+		self.objects = list(map(lambda s: s.strip(), self.segments[2].split(".")))
 		self.predicado = self.segments[3]
-		self.objects = ObjectClass(self, self.segments[2])
+		
 		
 		self.__validate_faction()
 		
 		
 	def __repr__(self):
-		return f"|LogEntry|{self.beta}|{self.faction}|{self.objects.type}|"
+		return f"|LogEntry|{self.beta}|{self.faction}|{self.objects}|"
 		
 	def __str__(self):
 		return f"Beta: {self.beta}\n\tFaction: {self.faction}\n\tObjectType: {self.objects.full} \n\tPredicado: {self.predicado}\n\tObjectLen: {self.__length}"
@@ -74,13 +52,22 @@ class Changelog:
 		print(f"Changelog parsered: {len(self)} log entries were created ")
 		self.patches = sorted({a.beta for a in self.instances})
 		self.factions = sorted({a.faction for a in self.instances})
-		self.types = sorted({a.objects.type for a in self.instances})
+
+	def __len__(self):
+		return len(self.instances)
+		
+	def __write_log(self, filename, log_content):
+		filepath = Path.cwd() / "patches" / filename
+		with open(filepath, 'w') as pretty_log:
+			pretty_log.write(log_content)
 			
-	def get_subtype(self, fromlist, index):
-		return {a.objects.full.get(index) for a in fromlist}
-		
-	
-		
+	def print_all_logs(self, write=False):		
+		for patch in log.patches:
+			log.get_beta_log(
+							beta=patch,
+							faction="*",
+							write=write,
+							)
 	def where(self, fromlist=False, beta=False, faction=False, objectquery=None):
 		if not fromlist:
 			fromlist = self.instances
@@ -99,105 +86,73 @@ class Changelog:
 		if not objectquery:
 			return filtered
 		else:
-			return [entry for entry in filtered 
-					if any(value == objectquery 
-					for value in entry.objects.full.values())
-					]
+			return [entry for entry in filtered if objectquery in entry.objects]
 
 
-
-
-	def __len__(self):
-		return len(self.instances)
+					
+	def get_object_names(self, fromlist, index):
+		# if of_beta or of_faction:
+			# fromlist = self.where(fromlist=fromlist, beta=of_beta, faction=of_faction)
 		
-	def __write_log(self, filename, log_content):
-		filepath = Path.cwd() / "patches" / filename
-		with open(filepath, 'w') as pretty_log:
-			pretty_log.write(log_content)
-			
-	def print_all_logs(self, write=False):		
-		for patch in log.patches:
-			log.get_beta_log(
-							beta=patch,
-							faction="*",
-							write=write,
-							)
+		# return {a.objects[index] if index < len(a.objects) else None for a in fromlist}
+		return list({a.objects[index] if index < len(a.objects) else None for a in fromlist})
+		
+	def get_faction_names(self, fromlist, sorted=True):
+		if sorted:
+			return sorted(list({entry.faction for entry in fromlist}))
+		else:
+			return {entry.faction for entry in fromlist}
 			
 		
-		
-		
-		
-			
-			
-			
-			
 	def get_beta_log(self, beta=False, faction=False, write=False):
-			
-		filtered_entries = self.where(beta=beta, faction=faction)
+		fromlist = self.where(beta=beta, faction=faction)
 		if beta == "*":
 			beta = "AllBetas"
 		if faction == "*":
 			faction = "AllFaction"
 		filename = f"{beta} {faction}.md"
 		
-		
-		
-		
 		log_content = f"# {beta}\n"
-		for faction in sorted({entry.faction for entry in filtered_entries}):
-			log_content += f"## {faction}\n"
-			filtered_entries = self.where(faction=faction, fromlist=filtered_entries)
-			object_index = 0
-			for object in sorted({entry.objects.full[object_index] for entry in filtered_entries}):
-				log_content += f"### {object}\n"
-				# filtered_entries = self.where(object_query=object, fromlist=filtered_entries)
-				object_index += 1
-				
-				for object in {entry.objects.full.get(object_index) for entry in filtered_entries}:
-					if not object:
-						continue
-					log_content += f"#### {object}\n"
-					# filtered_entries = self.where_subtype(object_index=object_index, query=object, fromlist=filtered_entries)
-					object_index += 1
-				
-				
-				
-				# for entry in sorted({entry.faction for entry in filtered_entries}):
-					# log_content += f"###### - {entry.predicado}\n"
+		
+		betas = {entry.beta for entry in fromlist}
+		# factions = 
+		# titulos_h3 = self.get_object_names(fromlist, 0)
+		titulos_h4 = self.get_object_names(fromlist, 1)
+		titulos_h5 = self.get_object_names(fromlist, 2)
+		titulos_h6 = self.get_object_names(fromlist, 3)
+		
+		faction_all_entries = self.where(faction=faction)
+		
+		titulos = sorted(list({entry.faction for entry in fromlist}))
+		for faction in titulos:
+			log_content += f"\n## {faction}"
 			
+			faction_entries = self.where(fromlist, faction=faction)
+			titulos = self.get_object_names(faction_entries, 0)
+			for subtitulo in titulos:
+				if subtitulo is not None:
+					log_content += f"\n#### {subtitulo}"
 				
-			
-		
-		# dictionaryio = {
-			# "men": {
-					# "units":	{subtype1:	{}},
-					# "structures":	{item for item in item for item in item},
-					# "other":	{item for item in item for item in item},
-					# }
-		
-		# }
-		
-		
-		# beta_entries = {}
-		# for entry in filtered_entries:
-			# if entry.faction not in beta_entries:
-				# beta_entries[entry.faction] = {}
-			# if entry.objects.full[0] not in beta_entries[entry.faction]:
-				# beta_entries[entry.faction][entry.objects.full[0]] = {}
 				
-			# if entry.objects.full.get(1):
-				# if entry.objects.full[1] not in beta_entries[entry.faction][entry.objects.full[0]]:
-					# beta_entries[entry.faction][entry.objects.full[0]][entry.objects.full[1]] = {}
-			
-			# if entry.objects.full.get(2):
-				# if entry.objects.full[2] not in beta_entries[entry.faction][entry.objects.full[0]][entry.objects.full[1]]:
-					# beta_entries[entry.faction][entry.objects.full[0]][entry.objects.full[1]][entry.objects.full[2]] = {}
+				subobject1_entries = self.where(faction_entries, objectquery=subtitulo)
+				titulos = self.get_object_names(subobject1_entries, 1)
+				for subtitulo in titulos:
+					if subtitulo is not None:
+						log_content += f"\n#### {subtitulo}"
 					
-			# if entry.predicado not in beta_entries[entry.faction][entry.objects.full[0]][entry.objects.full[1]][entry.objects.full[2]]:
-				# beta_entries[entry.faction][entry.objects.full[0]][entry.objects.full[1]][entry.objects.full[2]][entry.predicado] = entry.predicado
-		# log_content = f"# {beta}"
+					subobject2_entries = self.where(subobject1_entries, objectquery=subtitulo)
+					titulos = self.get_object_names(subobject2_entries, 2)
+					for subtitulo in titulos:
+						if subtitulo is not None:
+							log_content += f"\n#### {subtitulo}"
+						
+						subobject3_entries = self.where(subobject2_entries, objectquery=subtitulo)
+						for entry in subobject3_entries:
+							predicado = entry.predicado.capitalize()
+							log_content += f"\n###### -{predicado}"
+				
 
-		# pprint(beta_entries)
+	
 
 		if write:
 			self.__write_log(filename, log_content)
@@ -209,8 +164,8 @@ class Changelog:
 
 	def initiate_log_gui(self):
 		print(f"\n\n--------------01 FULL-------------------")
-		filtered_entries = self.instances
-		print(f"Nothing was choices. But u have u got {len(filtered_entries)} items")
+		fromlist = self.instances
+		print(f"Nothing was choices. But u have u got {len(fromlist)} items")
 		
 		
 		
@@ -221,8 +176,8 @@ class Changelog:
 			query = input("Ingrese que parches desea ver: ")
 			if query == "*":
 				break
-		filtered_entries = self.where(beta=query, fromlist=filtered_entries)
-		print(f"You choiced {query} and u got {len(filtered_entries)} items")
+		fromlist = self.where(beta=query, fromlist=fromlist)
+		print(f"You choiced {query} and u got {len(fromlist)} items")
 		
 		
 		
@@ -233,8 +188,8 @@ class Changelog:
 			query = input("Ingrese que parches desea ver: ")
 			if query == "*":
 				break
-		filtered_entries = self.where(faction=query, fromlist=filtered_entries)
-		print(f"You choiced {query} and u got {len(filtered_entries)} items")
+		fromlist = self.where(faction=query, fromlist=fromlist)
+		print(f"You choiced {query} and u got {len(fromlist)} items")
 		
 		
 		
@@ -243,7 +198,7 @@ class Changelog:
 		IDNEX = 0
 		while True:
 			query = ""
-			subtype = log.get_subtype(filtered_entries, IDNEX)
+			subtype = log.get_object_names(fromlist, IDNEX)
 			if len(subtype) <= 1:
 				break
 			
@@ -252,38 +207,41 @@ class Changelog:
 				query = input("Ingrese que subitmes desea ver: ")
 				if query == "*" or query == "None":
 					break
-			filtered_entries = self.where(fromlist=filtered_entries, objectquery=query)
+			fromlist = self.where(fromlist=fromlist, objectquery=query)
 			
-			print(f"You choiced {query} and u got {len(filtered_entries)} items")
+			print(f"You choiced {query} and u got {len(fromlist)} items")
 			IDNEX += 1
 			
 		
 		
-		for item in filtered_entries:
+		for item in fromlist:
 			print(item)
 		
-		##we need to ask the same based in the length of ObjectClass.full 
 		
 		
 		
 changelog_path = Path.cwd() / "Patch 1.09v3_Changes from 1.09v2.ini"
 log = Changelog(changelog_path)
+
+
+
+
 # log.initiate_log_gui()
 
-instances = log.where(beta="*", faction="Elves", objectquery = "Arwen")
-for instance in instances:
-	print("- ", instance.predicado)
+# instances = log.where(beta="*", faction="Elves", objectquery = "Arwen")
+# for instance in instances:
+	# print("- ", instance.predicado)
 
 
 # log.print_all_logs(write=True)
 
 # log.get_beta_log("Beta60.3",write=False)
 # log.get_beta_log("Beta60.3",write=True)
-# log.get_beta_log(
-				# beta="*",
-				# faction="*",
-				# write=True,
-				# )
+log.get_beta_log(
+				beta="*",
+				faction="*",
+				write=True,
+				)
 # log.get_beta_log_new(
 				# beta="*",
 				# faction="MenOfTheWest",
@@ -293,14 +251,14 @@ for instance in instances:
 	
 # for item in log.instances:
 	# print(item)
-	# print(item.objects.full)
 	# break
 	# self.beta
 	# self.faction
 	# self.predicado
 	# self.objects
-	# self.objects.type
-	# self.objects.full
 # pprint(CONTADOR)
 
 
+
+# asd = log.get_object_names(log.instances, 3)
+# print(asd)
