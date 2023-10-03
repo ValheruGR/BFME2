@@ -146,10 +146,18 @@ class Changelog:
 						if subtitulo is not None:
 							log_content += f"\n#### {subtitulo}"
 						
+						
 						subobject3_entries = self.where(subobject2_entries, objectquery=subtitulo)
-						for entry in subobject3_entries:
-							predicado = entry.predicado.capitalize()
-							log_content += f"\n###### -{predicado}"
+						titulos = sorted(list({entry.beta for entry in subobject3_entries}))
+						for subtitulo in titulos:
+							log_content += f"\n###### {subtitulo}"
+								
+							subobject4_entries = self.where(subobject3_entries, beta=subtitulo)
+							# print(subobject4_entries)
+							# return
+							for entry in subobject4_entries:
+								predicado = entry.predicado.capitalize()
+								log_content += f"\n-{predicado}"
 				
 
 	
