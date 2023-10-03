@@ -75,15 +75,13 @@ class Changelog:
 			beta = False
 		if faction == "*":
 			faction = False
-		if objectquery == "*":
-			objectquery = False
 			
 			
 		filtered = [entry for entry in fromlist 
 					if (not beta or entry.beta == beta) 
 					and (not faction or entry.faction == faction) 
 				]
-		if not objectquery:
+		if objectquery == "*" or not objectquery:
 			return filtered
 		else:
 			return [entry for entry in filtered if objectquery in entry.objects]
@@ -105,14 +103,20 @@ class Changelog:
 			
 		
 		
-	def html_center(self, string, hn=1):
-		if hn > 3:
+	def html_center(self, string, header=1):
+		if header > 3:
 			alignation = 'left'
 		else:
 			alignation = 'center'
-		return f"<div align={alignation}> <h{hn}>{string}</h{hn}> </div>"		
+		return f"<div align={alignation}> <h{header}>{string}</h{header}> </div>"		
 			
 			
+			
+			
+			
+			
+		
+					
 	def get_beta_log(self, beta=False, faction=False, write=False):
 		file_title = ""
 		if beta == "*":
@@ -120,44 +124,55 @@ class Changelog:
 		if faction == "*":
 			file_title += "AllFactions"
 			
-		log_content = f"{self.html_center(file_title, hn=1)}\n"
+		log_content = f"{self.html_center(file_title, header=1)}\n"
 		
+			
+		def generate_log_content(log_content, entries, subtitulo, index=1, header=3):
+			while True:
+				entries = self.where(entries, objectquery=subtitulo)
+				titulos = self.get_object_names(entries, index)
+				
+				# Check if there are no subtitles or only None in titulos
+				if all(subtitulo is None for subtitulo in titulos):
+					return log_content, entries, subtitulo, index, header
+
+				for subtitulo in titulos:
+					if subtitulo is not None:
+						print(subtitulo)
+						log_content += f"\n{self.html_center(subtitulo, header=header)}\n"
+				index += 1        
+				header += 1
+
+				
+				
+			
+			
 		
 		entries = self.where(beta=beta, faction=faction)
 		titulos = sorted(list({entry.faction for entry in entries}))
 		for subtitulo in titulos:
-			log_content += f"\n{self.html_center(subtitulo, hn=2)}\n"
+			log_content += f"\n{self.html_center(subtitulo, header=2)}\n"
 			
 			entries = self.where(entries, faction=subtitulo)
 			titulos = self.get_object_names(entries, 0)
 			for subtitulo in titulos:
 				if subtitulo is not None:
-					log_content += f"\n{self.html_center(subtitulo, hn=3)}\n"
+					log_content += f"\n{self.html_center(subtitulo, header=3)}\n"
+				
+				log_content, entries, subtitulo, index, header = generate_log_content(log_content, entries, subtitulo)
 				
 				entries = self.where(entries, objectquery=subtitulo)
-				titulos = self.get_object_names(entries, 1)
+				titulos = sorted(list({entry.beta for entry in entries}))
 				for subtitulo in titulos:
-					if subtitulo is not None:
-						log_content += f"\n{self.html_center(subtitulo, hn=4)}\n"
-					
-					entries = self.where(entries, objectquery=subtitulo)
-					titulos = self.get_object_names(entries, 2)
-					for subtitulo in titulos:
-						if subtitulo is not None:
-							log_content += f"\n{self.html_center(subtitulo, hn=5)}\n"
+					header += 1
+					log_content += f"\n{self.html_center(subtitulo, header=header)}\n"
 						
 						
-						entries = self.where(entries, objectquery=subtitulo)
-						titulos = sorted(list({entry.beta for entry in entries}))
-						for subtitulo in titulos:
-							log_content += f"\n{self.html_center(subtitulo, hn=6)}\n"
-								
-							entries = self.where(entries, beta=subtitulo)
-							for entry in entries:
-								predicado = entry.predicado.capitalize()
-								log_content += f"\n-{predicado}\n"
-				
-
+					entries = self.where(entries, beta=subtitulo)
+					for entry in entries:
+						predicado = entry.predicado.capitalize()
+						log_content += f"\n-{predicado}\n"
+						
 		if write:
 			filename_ext = f"{file_title}.md"
 			self.__write_log(filename_ext, log_content)
@@ -265,5 +280,7 @@ log.get_beta_log(
 
 
 
-asd = log.get_object_names(log.instances, 3)
-print(asd)
+# asd = log.get_object_names(log.instances, 1)
+# print(asd)
+# for a in asd:
+	# print(a)
