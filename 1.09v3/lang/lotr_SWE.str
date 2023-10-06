@@ -29,7 +29,7 @@ CONTROLBAR:WildWalk09v3
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThranduilDescription09v3
-"King of Mirkwood: \n Nearby Mirkwood archers gain: \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n «HighTierHero BUFF» \n Passive abilities"
+"King of Mirkwood: \n Nearby Mirkwood archers gain: \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThranduilWildWalk09v3
@@ -842,17 +842,17 @@ Map:map_pk_stockbrook/Desc
 END
 //----------------------------------
 Map:map_PK_desert_of_khand
-"Desert Temple of Khand"
+"Udun II - Desert Temple of Khand"
 END
 Map:map_PK_desert_of_khand/Desc
 "Deep in The Dune Sea a strange temple construction can be found.\n Reskin of Udun by Powerkartoffel"
 END
 //----------------------------------
 Map:map_PK_Udun_Desert
-"Ruins of old Khand"
+"Udun II - Ruins of Old Khand"
 END
 Map:map_PK_Udun_Desert/Desc
-"Foodprints of the lost civilisation of Khand.\n Reskin of Udun II by Powerkartoffel"
+"Footprints of the lost civilisation of Khand.\n Reskin of Udun [6p] by Powerkartoffel"
 END
 //------------------------------------------------------------
 Map:map_PK_numenors_downfall
@@ -1503,7 +1503,7 @@ Map:mapJKtowerhills/Desc
 END
 //------------------------------------------------------------
 Map:mapMAudunii
-"Udun [6p]"
+"Udun"
 END
 Map:mapMAudunii/Desc
 "The lands behind the Black Gate known as Udun take the name of the underworld due to the volcanic ash and noxious fumes that cover them.\n Map from RotWK, by Mako."
