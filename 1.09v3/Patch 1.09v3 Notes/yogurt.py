@@ -26,7 +26,7 @@ class LogEntry:
 		return f"|LogEntry|{self.beta}|{self.faction}|{self.objects}|"
 		
 	def __str__(self):
-		return f"Beta: {self.beta}\n\tFaction: {self.faction}\n\tObjectType: {self.objects.full} \n\tPredicado: {self.predicado}\n\tObjectLen: {self.__length}"
+		return f"Beta: {self.beta}\n\tFaction: {self.faction}\n\tObjectType: {self.objects} \n\tPredicado: {self.predicado}\n\tObjectLen: {self.__length}"
 		
 	def __validate_length(self):
 		if self.__length != 4:
@@ -75,18 +75,17 @@ class Changelog:
 			beta = False
 		if faction == "*":
 			faction = False
-		if objectquery == "*":
-			objectquery = False
 			
 			
 		filtered = [entry for entry in fromlist 
 					if (not beta or entry.beta == beta) 
 					and (not faction or entry.faction == faction) 
 				]
-		if not objectquery:
+		if not objectquery or objectquery == "*":
 			return filtered
 		else:
-			return [entry for entry in filtered if objectquery in entry.objects]
+			# return [entry for entry in filtered if entry.objects[objectquery[0]] == objectquery[1]]
+			return [entry for entry in filtered if len(entry.objects) > objectquery[0] and entry.objects[objectquery[0]] == objectquery[1]]
 
 
 					
@@ -124,57 +123,79 @@ class Changelog:
 
 		log_content = f"{html_center(file_title, hn=1)}\n"
 		titulos = sorted(list({entry.faction for entry in entries}))
+		# print(len(titulos))
+		print(contador,titulos)
 		for subtitulo in titulos:
 			log_content += f"\n{html_center(subtitulo, hn=2)}\n"
 
 			entries_faction = self.where(entries, faction=subtitulo)
 			titulos = self.get_object_names(entries_faction, 0)
+			# print(len(entries_faction))
+			print(contador,titulos,len(entries_faction))
 			for subtitulo in titulos:
 				# if True:  # 
 				if subtitulo is not None:
 					log_content += f"\n{html_center(subtitulo, hn=3)}\n"
 
-				entries_object = self.where(entries_faction, objectquery=subtitulo)
+				entries_object = self.where(entries_faction, objectquery=(0, subtitulo))
 				titulos = self.get_object_names(entries_object, 1)
+				# print(len(entries_object))
+				print("for-01", contador,titulos,len(entries_object))
 				for subtitulo in titulos:
 					# if True:  # 
 					if subtitulo is not None:
 						log_content += f"\n{html_center(subtitulo, hn=4)}\n"
 
-					entries_object_2 = self.where(entries_object, objectquery=subtitulo)
-					titulos = self.get_object_names(entries_object_2, 2)
+					entries_object_2 = self.where(entries_object, objectquery=(1, subtitulo))
+					next_titulo = self.get_object_names(entries_object_2, 2)
+					titulos = next_titulo if next_titulo else titulos
+					# print(len(entries_object))
+					print("for-02", contador,titulos,len(entries_object))
 					for subtitulo in titulos:
 						# if True:  # 
 						if subtitulo is not None:
 							log_content += f"\n{html_center(subtitulo, hn=5)}\n"
 
-						entries_object_3 = self.where(entries_object_2, objectquery=subtitulo)
-						titulos = self.get_object_names(entries_object_3, 3)
+						entries_object_3 = self.where(entries_object_2, objectquery=(2, subtitulo))
+						next_titulo = self.get_object_names(entries_object_3, 3)
+						titulos = next_titulo if next_titulo else titulos
+						# print(len(entries_object_3))
+						print("for-03", contador,titulos,len(entries_object_3))
 						for subtitulo in titulos:
 							# if True:  # 
 							if subtitulo is not None:
 								log_content += f"\n{html_center(subtitulo, hn=6)}\n"
 
-							entries_object_4 = self.where(entries_object_3, objectquery=subtitulo)
-							titulos = self.get_object_names(entries_object_4, 4)
+							entries_object_4 = self.where(entries_object_3, objectquery=(3, subtitulo))
+							next_titulo = self.get_object_names(entries_object_4, 4)
+							titulos = next_titulo if next_titulo else titulos
+							# print(len(entries_object_4))
+							print("for-04", contador,titulos,len(entries_object_4))
 							for subtitulo in titulos:
 								# if True:  
 								if subtitulo is not None:
 									log_content += f"\n{html_center(subtitulo, hn=7)}\n"
 
-								entries_beta = self.where(entries_object_4, objectquery=subtitulo)
-								titulos = sorted(list({entry.beta for entry in entries_beta}))
+	
+								entries_beta = self.where(entries_object_4, objectquery=(4, subtitulo))
+								next_titulo = sorted(list({entry.beta for entry in entries_beta}))
+								titulos = next_titulo if next_titulo else titulos
+								# print(len(entries_beta))
+								print("for-05", contador,titulos,len(entries_beta))
 								for subtitulo in titulos:
 									# if True:  # 
 									if subtitulo is not None:
 										log_content += f"\n{html_center(subtitulo, hn=8)}\n"
 
 									entries_final = self.where(entries_beta, beta=subtitulo)
+									# print(len(entries_final))
+									print("for-06", contador,titulos,len(entries_final),"MIERDA")
 									for entry in entries_final:
 										# predicado = entry.predicado.capitalize()
 										predicado = entry.predicado
-										log_content += f"\n-{predicado}\n"
 										contador += 1
+										log_content += f"\n-{contador}: {predicado}\n"
+										# print(contador, predicado)
 
 		print(contador)
 
@@ -247,7 +268,14 @@ class Changelog:
 changelog_path = Path.cwd() / "Patch 1.09v3_Changes from 1.09v2.ini"
 log = Changelog(changelog_path)
 
-
+# for a in log.where(objectquery=(0, "Units")):
+# for a in log.where(objectquery=(1, "FireDrake")):
+# for a in log.where(objectquery=(2, "AntiWallStuff")):
+# for a in log.where(objectquery=(3, "FarmArmorStandarization")):
+# for a in log.instances:
+	# if len(a.objects) == 4:
+		# print(a)
+	# print(a)
 
 
 # log.initiate_log_gui()
@@ -283,5 +311,5 @@ log.get_beta_log(
 # pprint(CONTADOR)
 
 
-for num in range(9):
-	print(num, len(log.get_object_names(log.instances, num)))
+# for num in range(9):
+	# print(num, len(log.get_object_names(log.instances, num)))
