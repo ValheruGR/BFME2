@@ -23,6 +23,28 @@ END
 CONTROLBAR:nothingDesc09v2
 "nothing"
 END
+//----------------------------------
+OBJECT:HaradCamp_New
+"Haradrim tent"
+End
+OBJECT:HaradCampDesc_New
+"Allows training of Haradrim warriors"
+End
+OBJECT:LF_New
+"Secret Entrance"
+End
+OBJECT:LF_Disc_New
+"Capture it to decrease recharge times for unused powers \n Heals nearby Heros and Flyers. \n\n -25% reduction of spellbook reload time"
+End
+OBJECT:MercenaryCamp_New
+"Mercenary Camp"
+END
+OBJECT:DunlandHallTooltip_New
+"Dunland House"
+End
+TOOLTIP:DunlandHallDesc_New
+"Allows training of Dunland Men"
+End
 //------------------------------------------------------------
 CONTROLBAR:WildWalk09v3
 "Wild Walk"
@@ -112,7 +134,7 @@ CONTROLBAR:ToolTipBuildMordorMumakil09v3
 "Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
 END
 CONTROLBAR:TooltipDragonStrike09v3
-"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed.  \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
+"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed. \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
 END
 TOOLTIP:ToolTipFellbeast09v3
 "Fellbeast attack radius against units is improved at level 6."
@@ -783,6 +805,27 @@ Map:mapmpnothing
 END
 Map:mapmpnothing/Desc
 "nothing"
+END
+//----------------------------------
+Map:map_pk_glanduin_canyon
+"Glanduin Canyon"
+END
+Map:map_pk_glanduin_canyon/Desc
+"The Glanduin was a river in the region of Eriador in Middle-earth and an eastern arm of the Gwathlo. \n Map by Powerkartoffel."
+END
+//----------------------------------
+Map:map_PK_Moria
+"Moria"
+END
+Map:map_PK_Moria/Desc
+"Moria, was the grandest and most famous of the mansions of the Dwarves. There, for many thousands of years, a thriving Dwarvish community created the greatest city ever known. Map by Powerkartoffel"
+END
+//------------------------------------------------------------
+Map:map_pk_mering_stream_II
+"Mering Stream 2"
+END
+Map:map_pk_mering_stream_II/Desc
+"The Great West Road crosses the Mering Stream, a border river that separates Rohan and Gondor.  \n Map by Powerkartoffel."
 END
 //------------------------------------------------------------
 Map:map_pk_carrock
