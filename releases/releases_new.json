@@ -7,6 +7,12 @@
 	  "released": false,
       "betas": [
         {
+          "version_name": "1.09v3 ß61",
+          "file_name": "109v3_BETA_61.7z",
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss61.7z",
+          "addons": []
+        },
+        {
           "version_name": "1.09v3 ß60",
           "file_name": "109v3_BETA_60.7z",
           "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.7z",
@@ -99,6 +105,16 @@
     }
   },
   "switcher": [
+    {
+      "version_name": "5.01",
+      "file_name": "SWITCHER_UPDATE_501.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_501.exe"
+    },
+    {
+      "version_name": "5.00",
+      "file_name": "SWITCHER_UPDATE_500.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_500.exe"
+    },
     {
       "version_name": "4.97",
       "file_name": "SWITCHER_UPDATE_497.exe",
