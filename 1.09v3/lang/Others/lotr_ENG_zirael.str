@@ -536,7 +536,7 @@ CONTROLBAR:ToolTipSmite09v2
 "Powerful ranged attack with damage in area. \n Area of damage is improved at level 4 and 7. \n Bonus against heroes. \n Specialy powerful against Fellbeasts. \n Bonuses against Heroes and Fellbeasts are improved at level 4 and 7. \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Requires Level 5 \n Eowyn gains 35% Armor and -50% deceleration when crushing. \n Eowyn also gains another +35% armor bonus against the attacks from heroes. \n Nearby Rohirrims gain: \n -50% Deceleration when crushing.  \n Lasts 30 seconds. \n Left click to activate"
+"Requires Level 5 \n Eowyn gains 35% Armor and nearby Rohirrims gain: \n -50% Deceleration when crushing. \n Level 7: Eowyn also gains another +35% armor bonus against the attacks from heroes. \n Lasts 30 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipSunflare09v2

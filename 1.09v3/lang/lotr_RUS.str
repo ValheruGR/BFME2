@@ -571,13 +571,13 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"“ребуетс€ уровень 3 \n Ёовин маскируетс€ под р€дового всадника –охиррим. \n Ёовин атакует наносит урон по области\n and deals +25% damage against heroes. \n ўелкните на пиктограмме, чтобы активировать."
+"“ребуетс€ уровень 3 \n Ёовин маскируетс€ под р€дового всадника –охиррим. \n Ёовин атакует наносит урон по области, causes +25% damage against heroes and trample deceleration rate is halved. \n ўелкните на пиктограмме, чтобы активировать."
 END
 CONTROLBAR:ToolTipSmite09v2
 "Powerful ranged attack with damage in area. \n Level 1: Tiny damage in area. 400% damage against fellbeasts, 130% against heroes. \n Level 4: Improved damage in area. 430% damage against fellbeasts, 145% against heroes and pins them for 1 second.  \n Level 7: Wide damage in area. 460% damage against fellbeasts, 160% against heroes and pins them for 2 seconds. \n Left click icon then left click on target"
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Requires Level 5 \n Eowyn gains 35% Armor and -50% deceleration when crushing. \n Eowyn also gains another +35% armor bonus against the attacks from heroes. \n Nearby Rohirrims gain: \n -50% Deceleration when crushing.  \n Lasts 30 seconds. \n Left click to activate"
+"Requires Level 5 \n Eowyn gains 35% Armor and nearby Rohirrims gain: \n -50% Deceleration when crushing. \n Level 7: Eowyn also gains another +35% armor bonus against the attacks from heroes. \n Lasts 30 seconds. \n Left click to activate"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipSunflare09v2

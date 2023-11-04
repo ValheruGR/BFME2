@@ -569,13 +569,13 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDisguise09v2
-"Requisito: Nivel 3 \n Eowyn se disfraza como un rohirrim normal, usando sus armas y luchando como una de ellos. \n Eowyn causa daño en area y +25% daño contra heroes. \n Dura 30 segundos. \n Haz clic con el botón izquierdo para activarlo."
+"Requisito: Nivel 3 \n Eowyn se disfraza como un rohirrim normal, usando sus armas y luchando como una de ellos. \n Eowyn causa daño en area, +25% daño contra heroes y la desminución de velocidad por pisoteo se reducida por la mitad. \n Dura 30 segundos. \n Haz clic con el botón izquierdo para activarlo."
 END
 CONTROLBAR:ToolTipSmite09v2
 "Poderoso ataque a distancia con daño en area. \n Nivel 1: Daño en area pequeño. 400% daño contra bestias voladoras, 130% daño contra heroes. \n Nivel 4: Daño en area mejorado. 430% daño contra bestias voladoras, 145% daño contra heroes y los inmoviliza por 1 segundo. \n Nivel 7: Daño en area superior. 460% daño contra bestias voladoras, 160% contra heroes y los inmoviliza por 2 segundos. \nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:ToolTipShieldMaiden09v2
-"Requisito: Nivel 5 \n Eowyn recibe +35% a la armadura y reduce su desaceleración por pisoteo. \n Eowyn además gana otra bonificación de +35% armadura contra los ataques de heroes.\n Reduce la disminución de velocidad por pisoteo de Rohirrim amigos. \n Dura 30 segundos. \n Para activarlo, haz clic con el botón izquierdo."
+"Requisito: Nivel 5 \n Eowyn recibe +35% a la armadura y reduce la disminución de velocidad por pisoteo de Rohirrim amigos. \n Nivel 7: Eowyn gana otra bonificación de +35% armadura contra los ataques de heroes. \n Dura 30 segundos. \n Para activarlo, haz clic con el botón izquierdo."
 END
 //	\n Cancela el bonus Doncella Guerrera.
 //	\n Cancela el Disfraz.
