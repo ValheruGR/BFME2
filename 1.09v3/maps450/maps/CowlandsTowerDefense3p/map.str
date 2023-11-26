@@ -299,10 +299,10 @@ CONTROLBAR:TrollCageIcon01Desc_New
 "Requires Level 1 Troll Cages \n Blackriders becomes able to also summon 1 Cave Troll"
 End
 CONTROLBAR:TrollCageIcon02Desc_New
-"Requires Level 2 Troll Cages \n Blackriders becomes able to also summon 1 Mountain Trolls \n capable of gain experience untill they convert into Attack Trolls."
+"Requires Level 2 Troll Cages \n Blackriders becomes able to also summon 1 Thorin-Troll level 3 \n capable of gain experience untill they convert into Attack Trolls in level 7.."
 End
 CONTROLBAR:TrollCageIcon03Desc_New
-"Requires Level 3 Troll Cages \n Blackriders becomes able to summon 1 Attack Troll level 5."
+"Requires Level 3 Troll Cages \n Blackriders becomes able to summon 1 Thorin-Troll level 7."
 End
 //---------------------------------------------------
 CONTROLBAR:FortressEagleHotkey_New
@@ -1235,11 +1235,11 @@ OBJECT:EliteDaleArchers_New
 END
 //---------------------------------------------------
 OBJECT:MordorTroll_New
-"Thorin The Cheap Troll"
+"Thorin the Czech-troll"
 END
 //---------------------------------------------------
 TOOLTIP:MordorTroll_New
-"Only thing he can do is to hit things with a tree, shittalk and tell bad jokes. \n Effective against inferior things. \n Slowly EVOLVES into a stronger & smarter troll."
+"Can hit things with a stick, shittalk and tell bad jokes. \n Effective against average players. \n Level 1: 300 damage, 55 radius. \n Level 3: 600 damage, 60 radius. \n Level 7: 900 damage, 70 radius. "
 END
 //---------------------------------------------------
 CONTROLBAR:GarrisonTower_New
