@@ -112,11 +112,12 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
 "Permite convocar un draco de fuego. \n Reduce el tiempo de revivir a Drogoth en un 10%. \n Permite que las Espinas Afiladas curen cualquier unidad voladora."
 END
+//------------------------------
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
-"Requisito: Nivel 6 \n Envenena al enemigo causando daños durante 30 segundos. \n Paraliza al heroe selecionado durante 6 segundos y reduce a la mitad su velocidad por otros 11 segundos más. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 6 \n Envenena al enemigo causando daños durante 30 segundos, \n reduce en un -50% su velocidad durante 15 segundos, \n y lo paraliza durante 6 segundos. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 End
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger09v3
-"Requisito: Nivel 6 \n Solo se puede usar cuando está montado. \n Los enemigos apuntados sufren daño por veneno durante 25 segundos. \n Paraliza el objetivo durante 6 segundos y reduce a la mitad su velocidad por otros 11 segundos más. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 6 \n Solo se puede usar cuando está montado. \n Envenena al enemigo causando daños durante 25 segundos, \n reduce en un -50% su velocidad durante 12 segundos, \n y lo paraliza durante 5 segundos. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 TOOLTIP:ToolTipBoromir09v3
 "Boromir gana +7% velocidad en el nivel 7."

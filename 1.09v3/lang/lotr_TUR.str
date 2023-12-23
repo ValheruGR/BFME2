@@ -112,11 +112,12 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
 "Ateþ Ejderi’nin çaðrýlmasýna olanak saðlar. \n Drogoth’un doðma süresini %10 kýsaltýr. \n Eðer Jilet Dikenler yükseltmesi de aktifse, herhangi bir müttefik uçan birimi burada iyileþtirilebilir"
 END
+//------------------------------
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
-"Gereken Seviye: 6 \n Düþmaný zehirler ve 30 saniye boyunca hasar verir. \n Hedef kahramanlarý 6 saniyeliðine felç eder ve 11 saniyeliðine de hýzlarýný yarýya düþürür. \n Önce simgeye sonra hedefe týklayýn."
+"Requires Level 6 \n Inflicts poison damage on the target enemy for 30 seconds, \n reduces it's speed by -50% during 15 seconds, \n and paralyzes it for 6 seconds. \n Left click icon, then left click on target."
 End
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger09v3
-"Gereken Seviye: 6 \n Sadece binek üzerinde kullanýlabilir. \n Hedef düþman 25 saniyeliðine zehir hasarý alýr. \n Hedef kahramanlarý 6 saniyeliðine felç eder ve 11 saniyeliðine de hýzlarýný yarýya düþürür. \n Önce simgeye sonra hedefe týklayýn"
+"Requires Level 6 \n Can only use when mounted \n Inflicts poison damage on the target enemy for 25 seconds, \n reduces it's speed by -50% during 12 seconds, \n and paralyzes it for 5 seconds. \n Left click icon, then left click on target."
 END
 TOOLTIP:ToolTipBoromir09v3
 "Boromir seviye 7’de +%7 hýz kazanýr."

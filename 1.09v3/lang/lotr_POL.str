@@ -114,10 +114,10 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
 END
 //------------------------------
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
-"Requires Level 6 \n Paralyzes enemy hero for 6 seconds. \n Reduces speed by -50% for a following 11 seconds. \n Inflicts poison damage for 30 seconds. \n Left click icon, then left click on target."
+"Requires Level 6 \n Inflicts poison damage on the target enemy for 30 seconds, \n reduces it's speed by -50% during 15 seconds, \n and paralyzes it for 6 seconds. \n Left click icon, then left click on target."
 End
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger09v3
-"Requires Level 6 \n Paralyzes enemy hero for 6 seconds. \n Reduces speed by -50% for a following 11 seconds. \n Inflicts poison damage for 25 seconds. \n Can only use when mounted. \n Left click icon, then left click on target."
+"Requires Level 6 \n Can only use when mounted \n Inflicts poison damage on the target enemy for 25 seconds, \n reduces it's speed by -50% during 12 seconds, \n and paralyzes it for 5 seconds. \n Left click icon, then left click on target."
 END
 TOOLTIP:ToolTipBoromir09v3
 "Boromir gains +7% speed at level 7"
