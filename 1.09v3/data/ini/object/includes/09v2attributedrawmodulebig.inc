@@ -39,7 +39,8 @@
 			End
 			ModelConditionState = USER_66
 				Model = exmordorhealcav
-				ParticleSysBone		= NONE SpellHealMordorBig FollowBone:Yes
+				;;ParticleSysBone		= NONE SpellHealMordorBig FollowBone:Yes }
+				ParticleSysBone		= NONE SpellHealMordorBigMorgul09v3 FollowBone:Yes
 			End
  		End
 	//-----------------------------------------------------------------------------

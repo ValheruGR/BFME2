@@ -260,7 +260,8 @@
 			End
 			ModelConditionState = USER_66 //Draw_EvilHealEffect
 				Model = exmordorheal
-				ParticleSysBone		= NONE SpellHealMordorSmall FollowBone:Yes
+				;;ParticleSysBone		= NONE SpellHealMordorSmall FollowBone:Yes }
+				ParticleSysBone		= NONE SpellHealMordorSmallMorgul09v3 FollowBone:Yes
 			End
 		End
 	//-----------------------------------------------------------------------------
