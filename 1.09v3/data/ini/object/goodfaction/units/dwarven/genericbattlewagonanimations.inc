@@ -65,6 +65,7 @@
 				AnimationName		= DUBtlWagon_BLDA
 				AnimationMode		= ONCE
 				AnimationBlendTime = 0		; Can't blend here, as this anim is offset from the object position.
+				AnimationSpeedFactorRange	= 1.5 1.5 ;;-;;
 			End
 		End
 

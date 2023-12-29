@@ -897,6 +897,20 @@ Map:mapETSouthRoad/Desc
 "The South Road connects Minas Tirith with the southern Gondor havens. This wide and well-paved road goes through the lands of Lossarnach and Lebennin, crosses the river Erui and reaches Pelargir. Map by Ecthelion."
 End
 //------------------------------------------------------------
+Map:mapCAPUtumladenII
+"Valley of Tumladen"
+END
+Map:mapCAPUtumladenII/Desc
+"Tumladen is a deep valley between the rivers Celos and Sirith. It was the refuge of many civilians from Minas Tirith during the War of the Ring. \n Rework by Capuchino, original map by SilverBane`"
+END
+//------------------------------------------------------------
+Map:map_pk_harrowdale
+"Harrowdale"
+END
+Map:map_pk_harrowdale/Desc
+"Harrowdale was a deep, north-south valley cut out of the White Mountains by the Snowbourn river in Rohan. \n At its southern end, between the mountains known as the Starkhorn and Irensaga, stood Dunharrow, a great clifftop refuge of the Rohirrim.\n Reskin of Fords of Isen II by Powerkartoffel"
+END
+//------------------------------------------------------------
 Map:map_pk_carnen_mire
 "Carnen Mire"
 END
