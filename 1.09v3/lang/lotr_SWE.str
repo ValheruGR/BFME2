@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //----------------------------------
+CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
+"Morgul Blade [&V]"
+END
+//----------------------------------
 OBJECT:HaradCamp_New
 "Haradrim tent"
 End
@@ -156,7 +160,7 @@ CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
 "Disguise (&V)"
 END
 CONTROLBAR:SummonWargAllies09v3
-"Summon Warg Allies (&V)"
+"Summon Warg Allies (&C)"
 End
 CONTROLBAR:SummonWargAlliesDesc09v3
 "Requires Level 10 \n Summons a group of Warg Riders of Isengard to Sharku's side \n Vänsterklicka på ikonen, vänsterklicka sedan på en tillgänglig plats"

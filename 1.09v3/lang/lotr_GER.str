@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //----------------------------------
+CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
+"Morgul Blade [&V]"
+END
+//----------------------------------
 OBJECT:HaradCamp_New
 "Haradrim tent"
 End
@@ -157,7 +161,7 @@ CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
 "Verkleiden (&V)"
 END
 CONTROLBAR:SummonWargAllies09v3
-"Verbündete Warg rufen (&V)"
+"Verbündete Warg rufen (&C)"
 End
 CONTROLBAR:SummonWargAlliesDesc09v3
 "Benötigt Stufe 10 \n Beschwört eine Gruppe Wargreiter von Isengart zu Sharkus Seite \n Linksklick auf das Symbol und dann Linksklick auf einen Ort" "

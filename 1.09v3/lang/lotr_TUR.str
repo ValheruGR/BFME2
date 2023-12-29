@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //----------------------------------
+CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
+"Morgul Blade [&V]"
+END
+//----------------------------------
 OBJECT:HaradCamp_New
 "Haradrim tent"
 End
@@ -156,7 +160,7 @@ CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
 "Kýlýk Deðiþtir (&V)"
 END
 CONTROLBAR:SummonWargAllies09v3
-"Warg müttefiklerini çaðýr. (&V)"
+"Warg müttefiklerini çaðýr. (&C)"
 End
 CONTROLBAR:SummonWargAlliesDesc09v3
 "Gereken Seviye: 10 \n Sharku'nun yanýna 3 birlik zýrhlý kurt binicisi çaðýrýr. \n Önce simgeye sonra hedef düþmanlara týklayýn"

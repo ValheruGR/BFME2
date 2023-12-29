@@ -24,6 +24,10 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //----------------------------------
+CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
+"Morgul Blade [&V]"
+END
+//----------------------------------
 OBJECT:HaradCamp_New
 "Haradrim tent"
 End
