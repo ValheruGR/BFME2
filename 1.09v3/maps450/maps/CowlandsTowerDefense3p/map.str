@@ -1139,7 +1139,7 @@ CONTROLBAR:PurchaseUpgradeSentryTowerPoisonArrows_New
 "Poison Arrows (&B)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerPoisonArrows_New
-"Upgrades this Tower with Poison Arrows \n Increases damage done by arrows and inflicts poison damage on the enemy, causing damage over time and slow them down"
+"Upgrades this Tower with Poison Arrows \n Increases damage done by arrows and inflicts poison damage on the enemy, causing damage over time and slow them down \n Once upgradded with poison, tower can only fire at a 20° angle. Rotate the tower so that its stairs are pointing towards the target."
 END
 //---------------------------------------------------
 TOOLTIP:LackWildEliteTraining_New
