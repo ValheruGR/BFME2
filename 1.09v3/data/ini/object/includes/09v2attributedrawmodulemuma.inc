@@ -39,7 +39,8 @@
 			End
 			ModelConditionState = USER_66
 				Model = exmordorhealmum
-				;;ParticleSysBone		= NONE SpellHealMordorHuge FollowBone:Yes }
+				; Texture = exhealmordor.tga exheal_green.tga ;;.;;
+				; Texture = exhealmordor.tga exheal_orang.tga ;;.;;
 				ParticleSysBone		= NONE SpellHealMordorHugeMorgul09v3 FollowBone:Yes
  			End
  		End

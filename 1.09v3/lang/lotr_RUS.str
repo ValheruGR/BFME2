@@ -181,7 +181,7 @@ END
 
 //------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
-"Принц Итилиена [&B]"
+"Принц Итилиена [&V]"
 END
 CONTROLBAR:PrinceofIthilienDesc09v2
 "Требуется уровень 5 \n Выбранные стрелки получают опыт. \n Щелкни левой кнопкой мыши по иконке, затем по выбранным лучникам."
@@ -295,10 +295,10 @@ CONTROLBAR:TooltipDwarvenRiches09v2
 "Selected structure's resource output is temporarily raised to 300%. \n Left click icon then left click on target resource structure"
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
-"Shield Crush"
+"Shield Crush (&Y)"
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
-"Improved Shield Crush"
+"Improved Shield Crush (&Y)"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
 "Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n «Damage BUFF»"
@@ -982,7 +982,7 @@ Map:map_PK_iron_mountains_ii
 "Iron Mountains II" 
 End
 Map:map_PK_iron_mountains_ii/Desc
-"The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs 2 Dragons 2 Goblins \n Capture: 2 Signal Fires \n Size: Large 1v1 \n Map by Powerkartoffel"
+"The Iron Mountains, also known as Ered Engrin and the Mountains of Iron, were an immense mountain range in the northern part of Middle-earth. \n Creeps: 4 Wargs, 2 Trolls, 2 Dragons, 2 Goblins \n Capture: 2 Signal Fires, 2 Inns \n Size: Large 1v1 \n Map by Powerkartoffel"
 End
 //------------------------------------------------------------
 Map:map_PK_Last_Bridge
@@ -45409,7 +45409,7 @@ CONTROLBAR:TameTheBeast
 END
 
 CONTROLBAR:SharkuManEater
-"Пожиратель силы (&C)"
+"Пожиратель силы (&T)"
 END
 
 CONTROLBAR:VenomousWords
