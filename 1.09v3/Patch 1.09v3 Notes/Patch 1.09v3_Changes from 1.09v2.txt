@@ -201,7 +201,6 @@
 	-Beta01: Global: SpellBook.Earthquake: Earthquake damage against Fortress increased slightly, enough to force a damaged model condition. (Now deals 41%, from 36%, originally 50%)
 	-Beta01: Global: SpellBook.Earthquake: Earthquake not castable in areas with deep water, fixed.
 	;---------------Balrog.Log-------;
-	; -Beta59: //RevertedThis// -Beta56: Global: SpellBook.Balrog: Balrog firebreath damage against structures now 85% from 70%. (Originally 100%). // note it also has taperoff, so it's not gonna destroy 3 buildings at once.
 	-Beta60: Global: SpellBook.Balrog: spawn "do-not-randomize-delay" statment removed, as it's not compatible with singleplayer game.dat.
 	-Beta60: Global: SpellBook.Balrog: whip not being casted exactly where it was casted, fixed.
 	-Beta59: Global: SpellBook.Balrog: attack vs buildings not properly following ALT attack paths, fixed.
@@ -227,10 +226,6 @@
 	-Beta01: Global: SpellBook.SummonedDragon.Armor: FLAME damage taken now 5% from 0%. (So it's not entirely immune to dragons, balrogs, or upgraded towers)
 	-Beta01: Global: SpellBook.SummonedDragon: SummonedDragon FireBreath now deals 55% magic damage against fortress, from 50%.
 	
-	; -Beta59: //RevertedThis// -Beta01: Global: SpellBook.SummonedDragon: SummonedDragon lifetime now 80 secs from 85.
-	; -Beta59: //RevertedThis// -Beta01: Global: SpellBook.SummonedDragon: SummonedDragon melee behavior. Now it will start the fire-breath against the select target if he can from its current position, instead of approaching crushing.
-	; -Beta59: //RevertedThis// -Beta01: Global: SpellBook.SummonedDragon: SummonedDragon FireBreath damage taperoff now 50%, from 45%.
-	; -Beta59: //RevertedThis// -Beta01: Global: SpellBook.SummonedDragon: SummonedDragon FireBreath : now 1/3 of it's damage has 45 radius on 180º arc, instead of 140 radius on 125º arc. (This improves the meele behavior, when Heroes are stuck beneath the dragon sometimes they would not get any damage at all due the arc)
 
 
 
@@ -526,7 +521,6 @@
 	-Beta60.1: MenOfTheWest: Structures.Defensive.BattleTower: buildcost 450 from 350.
 	-Beta01: MenOfTheWest: Structures.Defensive.BattleTower: FireArrows upgrade having evil faction icon, fixed. //GuerrillaAutism//
 	-Beta01: MenOfTheWest: Structures.Defensive.Statue: having no gold FX fixed.
-	; -Beta60.5: //RevertedThis// -Beta46: MenOfTheWest: Structures.Defensive.Wells: GondorWell shroud reveal range now 250 from 160.
 	-Beta52: MenOfTheWest: Structures.Forges.Forge: build time now 55 from 63. //Others are 60, 50 or 45. //AndyAutistRequests//
 	-Beta56: MenOfTheWest: Structures.Forges.Forge.Tooltips: level 2 upgrade tooltip fixed; now indicates it unblocks blades, not Armor.
 	-Beta01: MenOfTheWest: Structures.Farms.MarketPlace: SiegeMaterials now apply on player fortress and gondorwell.
@@ -536,7 +530,6 @@
 	-Beta61.2: MenOfTheWest: Structures.Farm: fixed gondorfarm redbug in old models. (new one was already fine)
 	-Beta01: MenOfTheWest: Structures.Farms.Farm.Armor.FarmArmorStandarization: CAVALRY_RANGED damage taken now 2% from 1%. //Matches evil faction farms.
 	-Beta01: MenOfTheWest: Structures.Farms.Farm.Armor.FarmArmorStandarization: LOGICAL_FIRE damage taken now 4%, from 6%. //Note this farm originally had a Flammability behavior, which were Reverted during BTP.
-	; -Beta60.9: //RevertedThis// -Beta49: MenOfTheWest: Structures.Farms.Farm: health now 1900 from 2000.
 	;-------------------------GondorBarrack.Log------------------------;
 	-Beta01: MenOfTheWest: Structures.Barracks.Barrack: added another selection sound
 	-Beta01: MenOfTheWest: Structures.Barracks.Barrack: BasicTraining technology buildcost now 10 secs from 5. (others are 10)
@@ -592,11 +585,8 @@
 	
 	-Beta60.5: MenOfTheWest: Units.Soldier.Armor: CRUSH damage taken now 119% from 113% (Originally 125%) //Played with 125% since Beta46
 	-Beta60.5: MenOfTheWest: Units.Soldier: Now pays BannerCarrier for 150 instead of 200. //played with 175.
-	; -Beta60.5: //RevertedThis// -Beta46: MenOfTheWest: Units.Soldier: sword damage against MordorSlaughterHouse now 72.5%, from 76.5%.
-	; -Beta60.5: //RevertedThis//-Beta39: MenOfTheWest: Units.Soldier: sword damage against GoblinTunnel now 76.5%, from 78%. (Same penalty than vs MordorSlaughterHouse) (109v1 was 82.5%)
 	
 	
-	; -Beta56://RevertedThis// -Beta46: MenOfTheWest: Units.Soldier: Soldier flankability reduced. (flanking duration 3000 from 4000)
 	-Beta01: MenOfTheWest: Units.Soldier: sword now deals 100%/160%, from 100%/200% against Berserker. 
 	-Beta56: MenOfTheWest: Units.Soldier: flankability reworked; Standard formation remains 4000 but shield mode flankability is 2500. //Played with Flankability of 3000/4000.
 	-Beta54: MenOfTheWest: Units.Soldier.Armor: with HeavyArmor damage taken from HERO_RANGED when standard/shieldblock now 90%/76.5%, from 75%/67.5%.
@@ -616,12 +606,8 @@
 	-Beta01: MenOfTheWest: Units.Ranger: pierce when upgraded with FireArrows now deals 87% against cavalry, like all the other archers in the game since 1.09 FireArrows system.
 	;----------------------GondorKnight.Log------------------
 	-Beta45a1: MenOfTheWest: Units.Knight: now deals 105%, from 100% to DwarvenMineShaft. (it's slightly more than 1.6 relationships)
-	-Beta60.9: //RevertedThis// -Beta30: MenOfTheWest: Units.Knight: now deals 95%, from 100% to MordorSlaughterHouse. //played with 90.//note i just changed the MordorSlaughterHouse armor so this is proportional.
-	-Beta60.9: //RevertedThis// -Beta30: MenOfTheWest: Units.Knight: now deals 95%, from 100% to WildMineShaft. //played with 90.//note i just changed the MordorSlaughterHouse armor so this is proportional.
 	-Beta01: MenOfTheWest: Units.Knight: health gains now 130 from 130. (formula of 10 & 20 damage gains)
 	-Beta01: MenOfTheWest: Units.Knight: damage gains now 52 from 50. (formula of 4 & 8 damage gains)
-	-Beta60.9: //RevertedThis// -Beta01: MenOfTheWest: Units.Knight: now pays BasicTraining for 225, instead of 200.
-	-Beta60.9: //RevertedThis// -Beta46: MenOfTheWest: Units.Knight: now deals 95% to barracks.
 	-Beta01: MenOfTheWest: Units.Knight.BannerCarrier: health now 240 from 200. 
 	;----------------------RohanRohirrim.Log------------------
 	-Beta61.2: MenOfTheWest: Units.Rohirrim: Damage gains are now multiplicative. Set to +6% per level (which means 169% dmg in level 10).  Min/Max pierce damage now 35/59 from 29/85. Min/Max flame now 20/31 from 25/25. Min/Max cavalry melee now 80/135 from 80/136). Crush damage is not affected, consistently with normal cavalry, thanks a creative code i sorted out.
@@ -630,7 +616,6 @@
 	-Beta60.9: MenOfTheWest: Units.Rohirrim: now pays BasicTraining for 225, instead of 200. //Played with 250 since beta01
 	-Beta01: MenOfTheWest: Units.Rohirrim: damage gains now 52 from 67. (formula of 5 & 10 damage gains)
 	-Beta01: MenOfTheWest: Units.Rohirrim: health gains now 143 from 180. (formula of 11 & 22 damage gains)
-	-Beta60.9: //RevertedThis// -Beta01: MenOfTheWest: Units.Rohirrim: now pays BasicTraining for 250, instead of 200.
 	-Beta47: MenOfTheWest: Units.Rohirrim: FireArrows CAVALRY_RANGED gains +35%, from +15%. (Originally +0%)
 	-Beta01: MenOfTheWest: Units.Rohirrim: Visuals. Shields are now brown underneath, not black	
 	-Beta01: MenOfTheWest: Units.Rohirrim: splash damage set a taperoff of 65%.
@@ -687,7 +672,6 @@
 	-Beta54: MenOfTheWest: Heroes.Eowyn.ShieldMaiden: ShieldMaiden mow provides another +35% extra armor against HERO and HERO_RANGED damage types. Also provides 50% less deceleration when trampling. Reload time remains being 120 seconds.
 	;----------------------GondorBoromir.Log------------------
 	-Beta56: MenOfTheWest: Heroes.Boromir: level 7 speed bonus now +7% from +9%. (makes his speed 53.5 instead of 54.5. Aragorn lvl5 is also 53.5. Faramir is 55) 
-	-Beta60.9: //RevertedThis// -Beta59: MenOfTheWest: Heroes.Boromir: delay between shots restored to 1100 from 933. (Originally 1100 but was able to be glitched to 766. In v2 i decided to take an average between the glitch and the slowest attack. Now im directly giving the slowest attack and no glitch.)
 	-Beta01: MenOfTheWest: Heroes.Boromir.Tooltips: portrait ToolTip now mentions the speed gains.
 	-Beta51: MenOfTheWest: Heroes.Boromir: sword knockback vs Gloin now 0.825 from 0.80. //played with 0.85. The higher it is, the worse for boromir.
 	-Beta01: MenOfTheWest: Heroes.Boromir: Fixed horn not stunning spiderlings in level 1 (thought actually stunning them in level 2) (lol)
@@ -724,7 +708,6 @@
 	-Beta01: MenOfTheWest: SpellBook.SummonArmyOfDead: SummonArmyOfDead not castable in areas with deep water, fixed.
 	;----------------------SummonRohirrims.Log------------------;
 	-Beta01: MenOfTheWest: SpellBook.SummonRohirrims: SummonRohirrims fixed formation, horses no longer touch each other nor spawn in the same place. The new position also allows clicking selecting 3 groups for more efficient micro.
-	; -Beta35: //RevertedThis// -Beta27: MenOfTheWest: SpellBook.SummonRohirrims: SummonRohirrims now creates 6 hordes from 5. 
 	
 		
 
@@ -771,7 +754,6 @@
 	-Beta01: Elves: Structures.Farms.Mallorn: Fixed kindof, no longer recognised as a unit productor kind of building. (gob GoblinTunnel was fixed in v2 already). //Implies scalars from the new 25pp will be more acurate. For example flood in v2 is meant to always destroy farms but not barracks. This KindOf error meant Mallorn would get less damage.
 	;-------------------------ElvenEregionForge.Log----------------------------;
 	-Beta54: Elves: Structures.Forges.EregionForge: ElvenHeavyArmor now costs 300 from 350.
-	; -Beta60.7: //RevertedThis// -Beta01: Elves: Structures.Forges.EregionForge: Elven BasicTraining technology build time now 10 secs from 15.
 	-Beta46: Elves: Structures.Forges.EregionForge: forge lvl 3 upgrade time now 25 sec from 30 sec. (matches TreasureTrove, IsenArmory)
 	-Beta46: Elves: Structures.Forges.EregionForge: lvl 3 upgrade 20 from 30. /added 25 before
 	;-------------------------ElvenWalls.Log----------------------------;
@@ -859,7 +841,6 @@
 	-Beta44: Elves: Units.RivendellLancer: It no longer gains forged blade damage. (as they can't have the FX)
 
 
-	; -Beta56: //RevertedThis// -Beta01: Elves: Units.RivendellLancer: Lancer lance now deals 100%, from 112% to MordorSlaughterHouse.	//Sincerely i don't know why this was made. But most likely it was before mordor farm was buffed vs cavalry.
 
 ;-------------------------ElvenArtillery.Log------------------
 	;-------------------------ElvenEnts.Log------------------
@@ -916,7 +897,6 @@
 	-Beta39: Elves: Heroes.Haldir: buildtime set to 50 from 64. //played with 55 and 60 too. //(to compensate leadership 35%)	//Note it no longer one hits Heroes.
 	-Beta01: Elves: Heroes.Haldir: sword now deals 66% to BattleWagon from 50%.
 	-Beta01: Elves: Heroes.Haldir: sword now deals 85% vs hero from 75%.
-	; -Beta56: //RevertedThis// -Beta01: Elves: Heroes.Haldir: GoldenArrow reload time now 160 from 200. (Originally 90)	
 	;---------------------------ElvenLegolas.Log------------------
 	-Beta60.8: Elves: Heroes.Legolas: Buildtime now 50 from 45.
 	-Beta60.8: Elves: Heroes.Legolas: Arrow storm reload time 160 sec from 145 sec.
@@ -943,7 +923,6 @@
 	-Beta01: Elves: Heroes.Glorfindel: Starlight sound playing before it's really activated, fixed.
 	-Beta01: Elves: Heroes.Glorfindel: can now use Starlight during BladeOfPurity or WindRider.
 	-Beta01: Elves: Heroes.Glorfindel: dismounted crushable level now 2 from 0, fixes ElvenGlorfindel on foots being inmune to Mumakil crush. //FiguredByAxl//
-	; -Beta56: //RevertedThis// -Beta01: Elves: Heroes.Glorfindel: ElvenGlorfindel Starlight reload time restored to 120 seconds from 160. (It is not op, if he can't do anything while casting it)
 	
 	
 	;---------------------------ElvenElrond.Log------------------
@@ -1175,10 +1154,7 @@
 	-Beta53: Dwarves: Units.BattleWagon: HeavyArmor will provide exact the same multipliers than WargRider HeavyArmor, but improvements will be 30% weaker. (Means HeavyArmor is generally 35% stronger)
 	-Beta52: Dwarves: Units.BattleWagon: HeavyArmor cost set to 275. //played with 250 and 300to cost 275 instead of 250. 
 	
-	; -Beta53: //RevertedThis// -Beta43: Dwarves: Units.BattleWagon: HeavyArmor now make them 35% stronger. But its counters multiply by 1.2 or 0.8, like other HeavyArmor do. They become extra 20% stronger against Structural. and 70% extra against LOGICAL_FIRE.
 	
-	; -Beta53: //RevertedThis// -Beta43: Dwarves: Units.BattleWagon: HeavyArmor reduces damage taken by 25% for all damage types except MAGIC and FLAME which are reduced by 50% less.
-	; -Beta42: //RevertedThis// -Beta01: Dwarves: Units.BattleWagon: now receive Mithril Mail when player researches the forgeworks technology. Reduces damage taken by 25% for all damage types except MAGIC and FLAME which are reduced by 50% less.
 	
 	-Beta61.4: Dwarves: Units.BattleWagon.Armor: LOGICAL_FIRE damage taken now 30%, from 10%. //played with 40%.//played with 20%.
 	-Beta51: Dwarves: Units.BattleWagon: model and passengers get a HeavyArmor model.
@@ -1246,7 +1222,6 @@
 	-Beta32: Dwarves: Heroes.Dain: stealth detector range now 200 from 350
 	-Beta48: Dwarves: Heroes.Dain: mounted now uses the new ResilientHeroArmorMounted armor, which is generaly weaker against fire, magic, pikes, structural even cavalry. (More info in Heroes.Log)
 	-Beta60: Dwarves: Heroes.Dain: RoyalGuard hordes experience level reverted to level 5, instead of level 10. (Intended to be level 5 in earlier betas but i forgot to remove the actual modifiers, so had no effect)
-	; -Beta60: //RemovedThis// -Beta31:Dwarves: Heroes.Dain: RoyalGuard experience awards increased (considering they are level 10 units, awards were calculated asuming they were level 5)
 	;----------------------Gloin.Log------------------
 	-Beta60.3: Dwarves: Heroes.Gloin: paralyze army of dead radius now matches knockback radius. (400 from 250)
 	-Beta53: Dwarves: Heroes.Gloin: ShatterHammer reload time now 200sec from 180sec. (Originally 120) //AndyAutistRequests//
@@ -1274,7 +1249,6 @@
 	-Beta56: Dwarves: SpellBook.SummonDaleAllies: spawn sound now plays the Esgaroth horn from the hobbit movies.
 	-Beta01: Dwarves: SpellBook.SummonDaleAllies: Fixed AI's casting  inside enemy units.
 	-Beta60: Dwarves: SpellBook.SummonDaleAllies: Sound from the Hobbit horn sound is now combined with original one.
-	; -Beta55: //RevertedThis// -Beta46: Dwarves: SpellBook.SummonDaleAllies: Now now come with BlackArrows. (Can use it only once with the reloadtime nerf)
 	;----------------------DwarvenUndermine.Log------------------
 	-Beta48: Dwarves: SpellBook.Undermine: SpawningWeapon reworked; Machines will only be one-shoted if casted under the cast cursor, this means under 95 range instead of 200. Machines will also be subtlely knockbacked, like a tremor.
 	-Beta48: Dwarves: SpellBook.Undermine: SpawningWeapon reworked; Allied units will be pushed off from a 75 radius, while enemies will remain be pushed off from a 200 radius. (From everyone being pushed off from 190 radius).  //This means that "Operation rescue my Heroes" is no longer counterproductive. 
@@ -1334,7 +1308,6 @@
 
 ;-------------------------IsengardStructures.Log------------------------;
 	;-------------------------IsengardFurnace.Log----------------------------;
-	; -Beta56: //RevertedThis// Beta49: Isengard: Structures.Farms.Furnace: Furnace health now 1200 from 1080.
 	-Beta01: Isengard: Structures.Farms.Furnace.Armor.FarmArmorStandarization: LOGICAL_FIRE damage taken now 4%, from 5%.
 	-Beta45: Isengard: Structures.Farms.Furnace: FarmGeometryStuff. Furnace cylindrical terrainbounds 45 from 80. Special and unique work made to Isengard Furnace geometry. which is now even better than pre 1.06 furnaces. Players can now build in the sides and block it.  //1.06 created this geometry to force all farms to occupy the same terrain, despite the actual size of geometry of the structure. (TestMe)
 	;-------------------------IsengardLumberMill.Log----------------------------;
@@ -1342,7 +1315,6 @@
 	-Beta45: Isengard: Structures.Farms.LumberMill: FarmGeometryStuff. Lumbermill cylindrical terrainbounds 55 from 80. //1.06 created this geometry to force all farms to occupy the same terrain, despite the actual size of geometry of the structure.
 	;-------------------------IsengardArmory.Log----------------------------;
 	-Beta46: Isengard: Structures.Forges: Armory lvl 3 upgrade buildtime 20s from 25s.
-	; -Beta60.7: //RevertedThis// -Beta01: Isengard: Structures.Forges: Armory BasicTraining technology build time now 10 secs from 15.
 	-Beta01: Isengard: Structures.Forges: Armory BasicTraining global personal upgrade not being discounted by fortress upgrade, fixed.
 	;----------------------IsengardWargSentry.Log-----------------------;
 	-Beta50: Isengard: Structures.Defensive: WargSentry selection decal is now more acurate.
@@ -1454,7 +1426,6 @@
 	;-----------------------Saruman.Log-----------------------;
 	-Beta39a2: Isengard: Heroes.Saruman: Fireball LOGICAL_FIRE damage now has a taper off of 66%.
 	-Beta60.9: Isengard: Heroes.Saruman: Experience required for level 9 and 10 increased (from 1650/2100, to 1900/2400) (originally 2660/3210).
-	; -Beta40.2: //RevertedThis// -Beta35: Isengard: Heroes.Saruman: knockback heroe chances now 25%/35%/45% at level 1, 4, 7. (From 25% in all levels)
 	-Beta60.3: Isengard: Heroes.Saruman: lvl8 and lvl10 abilities swaped.
 	-Beta40.2: Isengard: Heroes.Saruman: WizardBlast knockback heroe chances now 15%/25%/35% at level 1, 4, 8. (From 25% being the best improvement)
 	-Beta39a2: Isengard: Heroes.Saruman: Fireball LOGICAL_FIRE readded partially. Saruman fireball in level 5 now looks like 1.06; double fireball, double LOGICAL_FIRE. (not so op)
@@ -1469,10 +1440,6 @@
 	-Beta01: Isengard: Heroes.Saruman: WizardBlast Max/Min damage in level 7 now 700/400 from 650/520. (Originally 500/500)
 	-Beta01: Isengard: Heroes.Saruman: WordofPower ability replaced by a ThunderBoltStorm, which is a ranged ability instead of AoE.
 	-Beta01: Isengard: Heroes.Saruman: ThunderboltStorm each individual hit can freeze Balrog (and other SpellBook monsters like Dragon) for 500 milliseconds, causing the electrified animation from BFME1 Moria Mission.
-	; -Beta29: //RevertedThis// -Beta01: Isengard: Heroes.Saruman: experience required to level 8 now equals to the required for level 10.
-	; -Beta29: //RevertedThis// -Beta01: Isengard: Heroes.Saruman: experience for lvl 7 slighhlt increased.
-	; -Beta29: //RevertedThis// -Beta01: Isengard: Heroes.Saruman: experience required for level 9 10 increased significally.
-	; -Beta29: //RevertedThis// -Beta01: Isengard: Heroes.Saruman: Dominate ability moved to level 10, from 8.
 
 
 
@@ -1537,8 +1504,6 @@
 	-Beta46: Mordor: Structures.Barracks: MordorOrcPit health now 1800 from 1650. 
 	-Beta36: Mordor: Structures.Barracks: MordorOrcPit level 2 upgrade buildcost/buildtime now 100/20 from 150/25.
 	-Beta01: Mordor: Structures.Barracks: BasicTraining technology buildtime now 10 secs from 20.
-	; -Beta36: //RevertedThis// -Beta27: Mordor: Structures.Barracks: BasicTraining technology is now available in level 1 orcpit.
-	; -Beta36: //RevertedThis// -Beta35: Mordor: Structures.Barracks: BasicTraining technology upgrade cost 400 from 300.
 ;----------------------MordorTavern.Log------------------
 	-Beta01: Mordor: Structures.Barracks: MordorTavern lvl3 buidtime now 20 from 25.
 	-Beta01: Mordor: Structures.Barracks: MordorHeavyArmor technology buildtime now 20 secs from 30.
@@ -1582,7 +1547,6 @@
 	;----------------------MordorWorker.Log------------------
 	-Beta60.1: Mordor: Units.LumberWorker: MordorWorker from lumbermill can now display damage.
 	;----------------------MordorOrcWarrior.Log------------------
-	; -Beta60.5: //RevertedThis//-Beta56: Mordor: Units.OrcWarrior: build cost reverted to v1; 55 from 60. (Originally 50) (Ideally i would like to make them 30CP but i would require to steal a rotwk code or change their horde size)
 	
 	
 	
@@ -1670,8 +1634,6 @@
 	-Beta61.1: Mordor: Monsters.AttackTroll: damage against structures now 250 from 200. //Played with 225. //Originally 400
 	-Beta61.1: Mordor: Monsters.AttackTroll: can now autoheal at level 1 but very slowly. 10hp per second and only after 15 seconds of idle. (Normal autoheal is at level 3, which heals 50hp after 10 sec of idle)
 	-Beta60.5: Mordor: Monsters.AttackTroll: Fixed troll trampling while not moving. (and receiving crush revenge)
-	; -Beta59: //RevertedThis// -Beta53: Mordor: Monsters.AttackTroll: AttackTroll now deals 120% more damage against Barraacks, not farms or fortress. //AndyAutistRequests//
-	; -Beta49: //RevertedThis// -Beta43: Mordor: Monsters.AttackTroll: HeavyArmor provides 35% armor from 25%. HeavyArmored troll uses CE model.
 	-Beta57: Mordor: Monsters.AttackTroll: Buildtime 37 from 40. //played with 38
 	-Beta59: Mordor: Monsters.AttackTroll: Damage against structures now 225 from 200. (Originally 400). //AndyAutistRequests//
 	-Beta59: Mordor: Monsters.AttackTroll: Damage against fortress now 73%, from 81%. (Same as mountain/cave trolls, but consider the now higher damage) //Still equals to v2 damage basicaly. //AndyAutistRequests//
@@ -1726,7 +1688,6 @@
 	-Beta38: Mordor: Heroes.BlackRider: now deals 110% against GondorKnight, from 100%. (they also deal 90% vs RivendellLancer)
 	-Beta01: Mordor: Heroes.BlackRider: screech command can now be multiexecuted.
 	-Beta01: Mordor: Heroes.BlackRider: MordorBarrowWight now have 65% taperoff.
-	; -Beta60: //RevertedThis// -Beta27: Mordor: Heroes.BlackRider: Morgulblade command can now be multiexecuted. (It's annoying when you have 3 nazguls and you waste the 3 stuns at once.)
 	;----------------------MouthOfSauron.Log-------MoS.Log-----------
 	-Beta60.9: Mordor: Heroes.MouthOfSauron: Now takes 77.7% crush revenge, from 100%. (Same than Sharku)
 	-Beta60.1: Mordor: Heroes.MouthOfSauron: mounted speed now 95 from 90. (Just like gandalf, which was also changed 95 from 90 few years ago)
@@ -1785,7 +1746,6 @@
 
 ;----------------------SpellBook.MordorSpellBook.Log------------------
 	;----------------------EyeOfSauron.Log------------------
-	; -Beta59: //RevertedThis// -Beta28: Mordor: SpellBook.EyeOfSauron: EyeOfSauron now provides +7.5% Damage, +7.5% Armor and +15% experience for any kind of affected Trolls.
 	-Beta39a1: Mordor: SpellBook.EyeOfSauron: Reload time now 150 sec from 135. (For comparison, debuff is 165, WarChant is 120, RallyingCall is 135)
 	-Beta49: Mordor: SpellBook.EyeOfSauron: Select sound now plays the voice of sauron, instead of using the same voice as move command.
 	-Beta59: Mordor: SpellBook.EyeOfSauron: Fx on trolls is now bigger and more noticeable. 
@@ -1808,7 +1768,6 @@
 	-Beta01: Mordor: SpellBook.RainOfFire: Not castable in areas with deep water, fixed.
 	-Beta53: Mordor: SpellBook.RainOfFire: Now deals 50% damage to allies, from 100%. (Originally 0%).
 	-Beta55: Mordor: SpellBook.RainOfFire: Having no detonate FX's when casted in the water, fixed.
-	; -Beta35: //RevertedThis// Beta32: Mordor: SpellBook.RainOfFire: Now get a +15% bonus vs buildings. ;;.;; tested wioth 20% equals to eq pretty much.
 		
 
 
@@ -1846,7 +1805,6 @@
 	;-----------------------GoblinTreasureTrove.Log-----------------------;
 	-Beta60: Goblins: Structures.Forges: TreasureTrove rubbles keeping players alive, fixed. //PotatoAutism//
 	-Beta46: Goblins: Structures.Forges: TreasureTrove level 3 upgrade 20 from 25 lvl3.
-	; -Beta60.7: //RevertedThis// -Beta01: Goblins: Structures.Forges: TreasureTrove BasicTraining technology build time now 10 secs from 15.
 	;----------------------GoblinFortress.Log---------------------;
 	-Beta61.2: Goblins: Structures.Fortress.RazorSpines: Razors now also provide -15% speed debuff for 4.5 seconds for the hordes meleeing the fortress. (Harder to escape)
 	-Beta60.8: Goblins: Structures.Fortress.RazorSpines: No longer deals twice damage twice. (the weapon was firing twice). 
@@ -1881,11 +1839,6 @@
 	-Beta01: Goblins: Units.Archer: HeavyArmor house color, fixed.
 	-Beta01: Goblins: Units.Archer: Experimental_Pathfinding. Horde GeometryRadius now 20/45 from 40/50. (can now be chased by spiderlings)
  ;-----------------------GoblinSpiderling.Log-----------------------;
-	; -Beta50: //RevertedThis// -Beta01: Goblins: Units.Spiderling: Spiderling now deal 89%, from 83 against Dwarven barracks.. //played with 91%
-	; -Beta50: //RevertedThis// -Beta01: Goblins: Units.Spiderling: Spiderling now deal 55%, from 50 against GoblinTunnel.
-	; -Beta50: //RevertedThis// -Beta01: Goblins: Units.Spiderling: Spiderling now deal 60%, from 55 against Furnace.
-	; -Beta50: //RevertedThis// -Beta01: Goblins: Units.Spiderling: Spiderling now deal 85%, from 80 against GondorFarm.
-	; -Beta56: //RevertedThis// -Beta01: Goblins: Units.Spiderling: Spiderling now deals 123%, from 115% against MordorCorsair & MordorWarrior.
 	-Beta60.3: Goblins: Units.Spiderling: damage against DwarvenGuardian now 108% from 112%.
 	-Beta60.1: Goblins: Units.Spiderling: buildtime restored to 30 from 28.
 	-Beta60.1: Goblins: Units.Spiderling: armor against pierce now 80% from 69%. //played with 73% (Originally 100%)
@@ -1917,7 +1870,6 @@
 	-Beta61.1: Goblins: Units.SpiderRider.BannerCarrier: banner carrier having different locomotor than a normal lancer, fixed. (Was allowing banners to climb walls while the other horde members can't)  //MiraakOCD//
  ;-----------------------GoblinMarauder.Log-----------------------;
 	-Beta01: Goblins: Units.Marauder.BannerCarrier: health now 240 from 120. Fixed it having no terror/fear/uncontrollablefear/celebrating animations.
-	-Beta60.9: //RevertedThis// -Beta01: Goblins: Units.Marauder: no longer deals +5% vs MordorMountainTroll
 	-Beta01: Goblins: Units.Marauder: damage against WargRider now 80%/55%, from 75%/50%. (Non splash hit, splash damage respectively)
 	-Beta01: Goblins: Units.Marauder: health gains per level improved by 50%. (+195 health points from +130) Consider base is 600.
  ;-----------------------Wildman.Log-----------------------;
@@ -2018,10 +1970,8 @@
 	-Beta44: Goblins: Heroes.Gorkil: Gorkil scorpion crushing deceleration now 10%, from 15%. Same as Mouth of Sauron. 
 	-Beta46: Goblins: Heroes.Gorkil: Gorkil on scorpion existing 87% penalty vs buildings now also affects fortress.
 	-Beta40.1: Goblins: Heroes.Gorkil: Gorkil experience for level 2 3 4 reduced. Experience required for level 5 6 increased.
-	; -Beta48: //RevertedThis// -Beta46: Goblins: Heroes.Gorkil: Gorkil now takes 100%, from 77.77% CRUSH_REVENGE. (now he can dismount and escape)
 	
 	;-----------------------GoblinShelob.Log-----------
-	; -Beta57: //RevertedThis// -Beta01: Goblins: Heroes.Shelob: GoblinShelob now takes 47% SPECIALIST from 50% (09v1 was 45%.). //no longer needed with locomotorfix
 	-Beta55: Goblins: Heroes.Shelob: GoblinShelob armor against cavalry now 33%, from 37%. 
 	-Beta53: Goblins: Heroes.Shelob: GoblinShelob now takes 25%, from 17% FLAME.//AndyAutistRequests//  //Just design change, people want to see fire killing GoblinShelob.
 	-Beta01: Goblins: Heroes.Shelob.Tooltips: GoblinShelob stinger ToolTip now mentions the speed debuffs.
