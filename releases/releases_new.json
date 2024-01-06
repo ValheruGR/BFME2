@@ -133,6 +133,21 @@
   },
   "switcher": [
     {
+      "version_name": "5.26",
+      "file_name": "SWITCHER_UPDATE_526.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_526.exe"
+    },
+    {
+      "version_name": "5.25",
+      "file_name": "SWITCHER_UPDATE_525.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_525.exe"
+    },
+    {
+      "version_name": "5.24",
+      "file_name": "SWITCHER_UPDATE_524.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_524.exe"
+    },
+    {
       "version_name": "5.23",
       "file_name": "SWITCHER_UPDATE_523.exe",
       "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_523.exe"
