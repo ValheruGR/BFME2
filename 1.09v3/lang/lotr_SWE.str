@@ -38,7 +38,7 @@ OBJECT:LF_New
 "Secret Entrance"
 End
 OBJECT:LF_Disc_New
-"Capture it to decrease recharge times for unused powers \n Heals nearby Heros and Flyers. \n\n -25% reduction of spellbook reload time"
+"Capture it to decrease recharge times for unused powers \n Heals nearby heroes and Flyers. \n\n -25% reduction of spellbook reload time"
 End
 OBJECT:MercenaryCamp_New
 "Mercenary Camp"

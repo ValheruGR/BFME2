@@ -38,7 +38,7 @@ OBJECT:LF_New
 "Secret Entrance"
 End
 OBJECT:LF_Disc_New
-"Capture it to decrease recharge times for unused powers \n Heals nearby Heros and Flyers. \n\n -25% reduction of spellbook reload time"
+"Einnehmen, um die Aufladezeiten für ungenutzte Fähigkeiten zu verkürzen \n Heilt Helden und fliegende Einheiten in der Nähe. \n\n 1 Leuchtfeuer = -25%"
 End
 OBJECT:MercenaryCamp_New
 "Mercenary Camp"
@@ -51,7 +51,7 @@ TOOLTIP:DunlandHallDesc_New
 End
 //------------------------------------------------------------
 CONTROLBAR:WildWalk09v3
-"Wild Walk"
+"Wilder Gang"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThranduilDescription09v3
