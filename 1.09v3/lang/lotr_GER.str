@@ -25,29 +25,29 @@ CONTROLBAR:nothingDesc09v2
 END
 //----------------------------------
 CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
-"Morgul Blade [&V]"
+"Morgul Klinge [&V]"
 END
 //----------------------------------
 OBJECT:HaradCamp_New
-"Haradrim tent"
+"Haradrim-Zelt"
 End
 OBJECT:HaradCampDesc_New
-"Allows training of Haradrim warriors"
+"Ermöglicht die Ausbildung von Haradrim-Kriegern"
 End
 OBJECT:LF_New
-"Secret Entrance"
+"Geheimer Eingang"
 End
 OBJECT:LF_Disc_New
 "Einnehmen, um die Aufladezeiten für ungenutzte Fähigkeiten zu verkürzen \n Heilt Helden und fliegende Einheiten in der Nähe. \n\n 1 Leuchtfeuer = -25%"
 End
 OBJECT:MercenaryCamp_New
-"Mercenary Camp"
+"Söldnerlager"
 END
 OBJECT:DunlandHallTooltip_New
-"Dunland House"
+"Haus der Dunländer"
 End
 TOOLTIP:DunlandHallDesc_New
-"Allows training of Dunland Men"
+"Ermöglicht die Ausbildung von Dunländern"
 End
 //------------------------------------------------------------
 CONTROLBAR:WildWalk09v3
@@ -55,11 +55,11 @@ CONTROLBAR:WildWalk09v3
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThranduilDescription09v3
-"King of Mirkwood: \n Nearby Mirkwood archers gain: \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
+"König des Düsterwalds: \n Düsterwald-Bogenschützen in der Nähe erhalten: \n +25 % Schaden, +25 % Rüstung, \n und sammeln 50 % schneller Erfahrung. \n «HighTierHero BUFF» \n Passive Fähigkeit"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThranduilWildWalk09v3
-"Requires Level 6 \nAllows Thranduil to move while stealthed \n Passive ability."
+"Erfordert Stufe 6. \n Ermöglicht Thranduil, sich getarnt zu bewegen.\n Passive Fähigkeit."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde09v3

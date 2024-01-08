@@ -1,4 +1,46 @@
 {
+  "switcher": [
+    {
+      "version_name": "5.30",
+      "file_name": "SWITCHER_UPDATE_530.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_530.exe"
+    },
+    {
+      "version_name": "5.29",
+      "file_name": "SWITCHER_UPDATE_529.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_529.exe"
+    },
+    {
+      "version_name": "5.25",
+      "file_name": "SWITCHER_UPDATE_525.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_525.exe"
+    },
+    {
+      "version_name": "5.24",
+      "file_name": "SWITCHER_UPDATE_524.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_524.exe"
+    },
+    {
+      "version_name": "5.23",
+      "file_name": "SWITCHER_UPDATE_523.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_523.exe"
+    },
+    {
+      "version_name": "5.22",
+      "file_name": "SWITCHER_UPDATE_522.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_522.exe"
+    },
+    {
+      "version_name": "5.21",
+      "file_name": "SWITCHER_UPDATE_521.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_521.exe"
+    },
+    {
+      "version_name": "5.20",
+      "file_name": "SWITCHER_UPDATE_520.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_520.exe"
+    }
+  ],
   "patches": [
     {
       "version_name": "1.09v3",
@@ -130,92 +172,5 @@
       "file_name": "oldstuff.7z",
       "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/oldstuff.7z"
     }
-  },
-  "switcher": [
-    {
-      "version_name": "5.26",
-      "file_name": "SWITCHER_UPDATE_526.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_526.exe"
-    },
-    {
-      "version_name": "5.25",
-      "file_name": "SWITCHER_UPDATE_525.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_525.exe"
-    },
-    {
-      "version_name": "5.24",
-      "file_name": "SWITCHER_UPDATE_524.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_524.exe"
-    },
-    {
-      "version_name": "5.23",
-      "file_name": "SWITCHER_UPDATE_523.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_523.exe"
-    },
-    {
-      "version_name": "5.22",
-      "file_name": "SWITCHER_UPDATE_522.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_522.exe"
-    },
-    {
-      "version_name": "5.21",
-      "file_name": "SWITCHER_UPDATE_521.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_521.exe"
-    },
-    {
-      "version_name": "5.20",
-      "file_name": "SWITCHER_UPDATE_520.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_520.exe"
-    },
-    {
-      "version_name": "5.17",
-      "file_name": "SWITCHER_UPDATE_517.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_517.exe"
-    },
-    {
-      "version_name": "5.14",
-      "file_name": "SWITCHER_UPDATE_514.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_514.exe"
-    },
-    {
-      "version_name": "5.06",
-      "file_name": "SWITCHER_UPDATE_506.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_506.exe"
-    },
-    {
-      "version_name": "5.02",
-      "file_name": "SWITCHER_UPDATE_502.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_502.exe"
-    },
-    {
-      "version_name": "5.01",
-      "file_name": "SWITCHER_UPDATE_501.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_501.exe"
-    },
-    {
-      "version_name": "5.00",
-      "file_name": "SWITCHER_UPDATE_500.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_500.exe"
-    },
-    {
-      "version_name": "4.97",
-      "file_name": "SWITCHER_UPDATE_497.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_497.exe"
-    },
-    {
-      "version_name": "4.96",
-      "file_name": "SWITCHER_UPDATE_496.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_496.exe"
-    },
-    {
-      "version_name": "4.92",
-      "file_name": "SWITCHER_UPDATE_492.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_492.exe"
-    },
-    {
-      "version_name": "4.75",
-      "file_name": "SWITCHER_UPDATE_475.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_475.exe"
-    }
-  ]
+  }
 }
