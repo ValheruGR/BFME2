@@ -43,120 +43,119 @@
   ],
   "patches": [
     {
-      "version_name": "1.09v3",
-      "file_name": "109v3_FINAL.7z",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/109v3_FINAL.7z",
-	  "released": false,
+      "version_name": "1.09v3.0",
+      "file_name": "109v3_RELEASE.7z",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/109v3_RELEASE.7z",
+	  "released": true,
       "betas": [
-        {
-          "version_name": "1.09v3.0",
-          "file_name": "109v3_RELEASE.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/109v3_RELEASE.7z",
-          "addons": []
-        },
         {
           "version_name": "1.09v3 ß61",
           "file_name": "109v3_BETA_61.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss61.7z",
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss61.7z",
           "addons": [
             {
               "version_name": "1.09v3 ß61.35",
               "file_name": "109v3_BETA_61.35.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss61.35.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss61.35.7z"
             },
             {
               "version_name": "1.09v3 ß61.3",
               "file_name": "109v3_BETA_61.3.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss61.3.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss61.3.7z"
             },
             {
               "version_name": "1.09v3 ß61.2",
               "file_name": "109v3_BETA_61.2.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss61.2.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss61.2.7z"
             },
             {
               "version_name": "1.09v3 ß61.1",
               "file_name": "109v3_BETA_61.1.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss61.1.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss61.1.7z"
             }
           ]
         },
         {
           "version_name": "1.09v3 ß60",
           "file_name": "109v3_BETA_60.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.7z",
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.7z",
           "addons": [
             {
               "version_name": "1.09v3 ß60.9",
               "file_name": "109v3_BETA_60.9.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.9.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.9.7z"
             },
             {
               "version_name": "1.09v3 ß60.8",
               "file_name": "109v3_BETA_60.8.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.8.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.8.7z"
             },
             {
               "version_name": "1.09v3 ß60.7",
               "file_name": "109v3_BETA_60.7.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.7.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.7.7z"
             },
             {
               "version_name": "1.09v3 ß60.5",
               "file_name": "109v3_BETA_60.5.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.5.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.5.7z"
             },
             {
               "version_name": "1.09v3 ß60.4",
               "file_name": "109v3_BETA_60.4.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.4.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.4.7z"
             },
             {
               "version_name": "1.09v3 ß60.3",
               "file_name": "109v3_BETA_60.3.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.3.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.3.7z"
             },
             {
               "version_name": "1.09v3 ß60.2",
               "file_name": "109v3_BETA_60.2.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.2.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.2.7z"
             },
             {
               "version_name": "1.09v3 ß60.1",
               "file_name": "109v3_BETA_60.1.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.1.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.1.7z"
             }
           ]
         },
         {
           "version_name": "1.09v3 ß59",
           "file_name": "109v3_BETA_59.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss59.7z"
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss59.7z"
         },
         {
           "version_name": "1.09v3 ß58",
           "file_name": "109v3_BETA_58.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss58.7z"
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss58.7z"
         },
         {
           "version_name": "1.09v3 ß57",
           "file_name": "109v3_BETA_57.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss57.7z"
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss57.7z"
         },
         {
           "version_name": "1.09v3 ß56",
           "file_name": "109v3_BETA_56.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss56.7z"
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss56.7z"
         },
         {
           "version_name": "1.09v3 ß55",
           "file_name": "109v3_BETA_55.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss55.7z"
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss55.7z"
         },
         {
           "version_name": "1.09v3 ß54",
           "file_name": "109v3_BETA_54.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss54.7z"
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss54.7z"
+        },
+        {
+          "version_name": "1.09v3 ß53",
+          "file_name": "109v3_BETA_53.7z",
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss53.7z"
         }
       ]
     }
