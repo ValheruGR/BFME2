@@ -1,9 +1,14 @@
 {
   "switcher": [
     {
-      "version_name": "5.40",
-      "file_name": "SWITCHER_UPDATE_540.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_540.exe"
+      "version_name": "5.43",
+      "file_name": "SWITCHER_UPDATE_543.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_543.exe"
+    },
+    {
+      "version_name": "5.41",
+      "file_name": "SWITCHER_UPDATE_541.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_541.exe"
     },
     {
       "version_name": "5.38",
