@@ -1,29 +1,66 @@
 {
   "switcher": [
     {
+      "version_name": "5.49",
+      "file_name": "SWITCHER_UPDATE_549.exe",
+      "date": "2024-03-31",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_549.exe",
+	  "info": "\n* Switcher will now automatically check for updates once a week. \n* BFME Launcher auto-generated language files will be removed by the green flag actions without asking confirmation."
+    },
+    {
+      "version_name": "5.48",
+      "file_name": "SWITCHER_UPDATE_548.exe",
+      "date": "2024-03-17",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_548.exe",
+	  "info": "\n* Added delay fixer toggle option. \n* Added the following command-line arguments: -switch -1.00, -switch -1.06, -switch -latest. \n* Added the possibility to define a customized BFME2 installation folder by creating a .ini file called 'custom_bfme2_path.ini' in the 'PlayerCustomFiles' dir. Its content has to be the full path to any BFME2 custom installation.\n* Added further support for Linux: disabled utilities that depend on Windows DLLs."
+    },
+    {
       "version_name": "5.44",
       "file_name": "SWITCHER_UPDATE_544.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_544.exe"
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_544.exe",
+      "info": "Fixed cache typo."
     },
     {
       "version_name": "5.43",
       "file_name": "SWITCHER_UPDATE_543.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_543.exe"
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_543.exe",
+      "info": "Added a virus-free certified on the .exe. Updated hotkeys and loading screens for all languages."
     },
     {
-      "version_name": "5.41",
-      "file_name": "SWITCHER_UPDATE_541.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_541.exe"
+      "version_name": "5.40",
+      "file_name": "SWITCHER_UPDATE_540.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_540.exe",
+      "info": "Version indicated from a external .txt file."
+    },
+    {
+      "version_name": "5.39",
+      "file_name": "SWITCHER_UPDATE_539.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_539.exe",
+      "info": "Fixed englishsplash.jpg not being autocreated."
     },
     {
       "version_name": "5.38",
       "file_name": "SWITCHER_UPDATE_538.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_538.exe"
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_538.exe",
+      "info": "Compatibility with AllInOne launcher."
+    },
+    {
+      "version_name": "5.37",
+      "file_name": "SWITCHER_UPDATE_537.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_537.exe",
+      "info": "Fixed the messages for when a new version available."
+    },
+    {
+      "version_name": "5.36",
+      "file_name": "SWITCHER_UPDATE_536.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_536.exe",
+      "info": "Compatibility with old betas."
     },
     {
       "version_name": "5.30",
       "file_name": "SWITCHER_UPDATE_530.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_530.exe"
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_530.exe",
+      "info": "Compatibility with AllInOne launcher: ignore eauninstall.exe and backup of 1.09 files through cache system."
     },
     {
       "version_name": "5.29",
@@ -31,14 +68,28 @@
       "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_529.exe"
     },
     {
+      "version_name": "5.27",
+      "file_name": "SWITCHER_UPDATE_527.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_527.exe",
+      "info": "Singleplayer 1.09v3 to have the 4gb fix flag."
+    },
+    {
+      "version_name": "5.26",
+      "file_name": "SWITCHER_UPDATE_526.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_526.exe",
+      "info": "French translate typo fix."
+    },
+    {
       "version_name": "5.25",
       "file_name": "SWITCHER_UPDATE_525.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_525.exe"
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_525.exe",
+      "info": "Launcher and support folders to be ignored as they are not priorioty."
     },
     {
       "version_name": "5.24",
       "file_name": "SWITCHER_UPDATE_524.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_524.exe"
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_524.exe",
+      "info": "Conditional 1.09v3.00 instancing. Fixes red flag error for old beta players."
     },
     {
       "version_name": "5.23",
@@ -48,7 +99,8 @@
     {
       "version_name": "5.22",
       "file_name": "SWITCHER_UPDATE_522.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_522.exe"
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_522.exe",
+      "info": "Added the 1.09v3 singleplayer game.dat. Had forgot it."
     },
     {
       "version_name": "5.21",
@@ -58,7 +110,8 @@
     {
       "version_name": "5.20",
       "file_name": "SWITCHER_UPDATE_520.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_520.exe"
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_520.exe",
+      "info": "Player custom files for 1.09v3.00 and also any of its betas."
     }
   ],
   "patches": [
