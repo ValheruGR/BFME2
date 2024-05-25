@@ -1,6 +1,20 @@
 {
   "switcher": [
     {
+      "version_name": "5.51",
+      "file_name": "SWITCHER_UPDATE_551.exe",
+      "date": "2024-05-25",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_551.exe",
+	  "info": "Fixed Switcher Version Flag. Added 11 new maps from AndyBrandy & PowerKartoffel"
+    },
+    {
+      "version_name": "5.50",
+      "file_name": "SWITCHER_UPDATE_550.exe",
+      "date": "2024-04-18",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_550.exe",
+	  "info": "Fixed EnglishAudio.big not being recognised as the audio for translations versions without doubling, like Polish one."
+    },
+    {
       "version_name": "5.49",
       "file_name": "SWITCHER_UPDATE_549.exe",
       "date": "2024-03-31",
