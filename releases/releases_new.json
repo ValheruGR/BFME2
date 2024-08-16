@@ -1,6 +1,13 @@
 {
   "switcher": [
     {
+      "version_name": "5.56",
+      "file_name": "SWITCHER_UPDATE_556.exe",
+      "date": "2024-08-16",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_556.exe",
+	  "info": "Fixed compatibility with Linux & Mac (through emulators or similar)\nEnsured references to art folders work on UNIX paths.\nAutoupdate now checks every 21 days and no messages popups when there are no updates"
+    },
+    {
       "version_name": "5.52",
       "file_name": "SWITCHER_UPDATE_551.exe",
       "date": "2024-05-25",
