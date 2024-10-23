@@ -1,6 +1,13 @@
 {
   "switcher": [
     {
+      "version_name": "5.59",
+      "file_name": "SWITCHER_UPDATE_559.exe",
+      "date": "2024-10-23",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_558.exe",
+	  "info": "Added Ahwehawe map. Fixed Ford of BrandyWine map height. Added a fixer to play through Radmin after players used the Online-Arena."
+    },
+    {
       "version_name": "5.58",
       "file_name": "SWITCHER_UPDATE_558.exe",
       "date": "2024-08-19",
