@@ -1,0 +1,32 @@
+;////////////////////////////////////////////////////////////////////////////////
+;//																																						 //
+;//  (c) 2001-2003 Electronic Arts Inc.																				 //
+;//																																						 //
+;////////////////////////////////////////////////////////////////////////////////
+
+; Terrain pixel shader
+; Created:   John Ahlquist Nov 2003
+
+; Declare pixel shader version 1.1
+ps.1.1
+
+tex t0	; get texture 0
+tex t1  ; get texture 1.
+;dp3  r1, c1, t0
+;add	r0,r1,-c2
+;mul r0,r0,c3
+;mov r0,t0				;do nothing
+
+dp3 r1, t0, c0			;black & white conversion
+lrp r1, c3, t0, r1
+mul	r1, r1, c1			;modulate by filter color
+
+
+lrp r0, t1, r1, t0	;blend modified image into original image so smooth fade in/out
+
+mul_sat r0.rgb, r0, c2  ; normal
+;mov r0.rgb, t1      ; blend tex
+;mul r0.rgb, t0, c2
++mov r0.a, v0.a      ; Pass in vertex alpha.
+
+

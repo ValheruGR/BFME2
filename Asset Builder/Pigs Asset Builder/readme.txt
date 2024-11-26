@@ -1,0 +1,1 @@
+First grab your textures and models drag them in the same folder as AssetCacheBuilder and run AssetCacheBuilder, then asset.dat will appear.
