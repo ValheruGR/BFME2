@@ -2,13 +2,35 @@
 
 
 //--- Long Shot ----------------------------------------------------------------------------
-		AnimationState			= FIRING_E			
-			Animation
-				AnimationName	= GURanger_BMB2
-				AnimationMode   = LOOP								// loop it, because this looks better than just stopping immediately after.
-				AnimationSpeedFactorRange	= 2.0 2.5
+
+		;New style firing
+		AnimationState						= PREATTACK_E
+			StateName						= STATE_Firing
+			Animation						= ReadyToDrawn
+				AnimationName				= GURanger_BMB1
+				AnimationMode				= ONCE
+				AnimationSpeedFactorRange	= 0.6 0.6 ;;,;;
+				AnimationBlendTime = 30		
+			End
+			BeginScript
+				CurDrawableShowSubObject("arrow")
+				CurDrawableShowSubObject("arrownock")
+			EndScript
+		End
+
+
+		AnimationState						= FIRING_OR_RELOADING_E ;;,;; FIRING_E
+			StateName						= STATE_Firing ;;,;;
+			Animation						= OneFrameOfShooting
+				AnimationName				= GURanger_BMB2
+				AnimationMode				= LOOP
+				AnimationSpeedFactorRange	= 2.2 2.7 ;;,;; 2.0 2.5
 				AnimationBlendTime = 30
 			End
+			BeginScript ;;,;;
+				CurDrawableShowSubObject("arrow")
+				CurDrawableShowSubObject("arrownock")
+			EndScript
 		End
 //----------- Flying through air -------
 		
