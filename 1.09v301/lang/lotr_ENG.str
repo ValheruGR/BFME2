@@ -455,7 +455,7 @@ OBJECT:DwarvenHeroicStatueDescription09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Decreases the melee vulnerability of the Fortress \n Allies near Fortress gain: +25% Damage, \n and earn Experience +25% faster. \n «Damage BUFF»"
+"Decreases the melee vulnerability of the Fortress \n Allies near Fortress gain: +25% Damage, \n and earn Experience +25% faster. \n Provides an aditional source of unit respawning: 1 unit each 7.5 seconds. \n «Damage BUFF»"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2

@@ -13,8 +13,8 @@ repoPath = Path(r"D:\_")
 
 destPath = Path.cwd()
 # input(destPath.exists())
-refresh = destPath / "###__BT2DC-v1.09v3.01.big"
-refresh.open('w').close()
+# refresh = destPath / "###__BT2DC-v1.09v3.01.big"
+# refresh.open('w').close()
 
 # Ensure the destination directory exists
 destPath.mkdir(parents=True, exist_ok=True)
