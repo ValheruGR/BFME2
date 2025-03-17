@@ -1,0 +1,44 @@
+*.db
+*.md
+*.pdf
+*.html
+
+/bfme1_106
+/bfme1_109
+/rotwk201
+/rotwk202
+/rotwk202beta17
+/rotwk202beta18
+/rotwk202beta18
+/rotwk202beta19
+/rotwk202v9.0
+/vBTP_0.g
+/vBTP_1.00
+/vBTP_2.02
+/vBTP_2.03
+/vBTP_2.04
+/vBTP_2.05
+/vBTP_2.06
+/vBTP_3.00
+/vBTP_3.01
+/vBTP_3.02
+/vBTP_3.03
+/1.09v301/art
+/1.09v301/data
+/1.09v301/maps
+/1.09v301/maps450
+/1.09v301/maps560
+/1.09v301/*.rar
+/1.09v301/*.7z
+/1.09v301/*.lnk
+
+/releases/BT2DC
+/releases/1.09v3.0 - beta versions
+/releases/1.09v2.0 - beta versions
+/releases/SWITCHER_UPDATE backups
+/releases/1.065 old BT2DC
+/releases/*.exe
+/releases/*.7z
+/releases/*.txt
+/releases/*.big
+/releases/*.lnk
