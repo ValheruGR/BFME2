@@ -1,0 +1,59 @@
+; t0 = scene rendered to texture.
+; t1 = perturbation map.
+; t2 = perturbation map2.
+; t3 = blurred scene rendered to texture
+; t4 = blurred scene rendered to texture.
+; c0 = ntsc to monochrome consts for dp3.
+; c1 = base texture color multiplier.
+; c2 = smeared texture color multiplier.
+; c3 = saturation lrp for smeared texture.
+; c4 = adjust to t1 values.
+; c5 = blend amount  to use of perturbed values.
+; c6 = saturation lrp value for scene texture
+; c7 = shift offset for perturbed values 2.
+
+ps.1.4
+texld r2, t2          ; vapor offset texture. r2
+texld r1, t1          ; Other vapor texture for alpha. 
+texcrd r0.xyz, t0     ; r0 is base scene uv coordinates.
+texcrd r5.xyz, t3     ; r5 is some wind offset values.
+
+; r2 is now the uv offset values.
+mov r4, r2
+
+sub r2.x, r5, r1  ; -r5
++mov r0.a, c5.a
+
+mad r3, r2, c4, r0
+
+; r1 is a second uv offset value.
+sub r1.x, r5, r4   ; -r5
+mul_x2 r1, r1, c7
+mad r4, r1, c4, r0
+
+phase
+
+;texld r1, t1
+texld r3, r3
+texld r4, r4
+
+dp3 r2, r3, c0
+
+lrp r3.rgb, c3, r3, r2
+mul_x2 r3, r3, c2
+
+dp3 r5, r4, c0 
+lrp r4.rgb, c3, r4, r5
++add r0.a, r2, r5
+mul_x2 r4.rgb, r4, c2
++sub_x4_sat r0.a, r0.a, c7
+
+;mov r3.r, c4
+;mov r4.g, c4
+;mov r0.rgb, r3
+add r0.rgb, r3, r4
+mul r0.rgb, r0, c5
+;mul_x2 r0.rgb, r0, r1
+;mul r0.a, r1, c5
+;mov r0.a, c5
+;mov r0, r4
