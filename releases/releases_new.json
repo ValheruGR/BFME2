@@ -1,11 +1,11 @@
 {
   "switcher": [
     {
-      "version_name": "6.01",
-      "file_name": "SWITCHER_UPDATE_601.exe",
+      "version_name": "6.02",
+      "file_name": "SWITCHER_UPDATE_602.exe",
       "date": "2025-03-17",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_601.exe",
-	  "info": "Added a lot of new maps and prepared compatibility with next patch betas."
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_602.exe",
+	  "info": "Added a lot of new maps and prepared compatibility with next patch betas. Deleted lorien plateu, ithilien hills, dagorlad 8p, mount gram, dead marshes ii, western gondor, westmarch, agarnaith, mering stream I"
     },
     {
       "version_name": "5.73",
