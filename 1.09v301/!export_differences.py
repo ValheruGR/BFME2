@@ -53,4 +53,4 @@ for file in modified_files:
 	# Copy file
 	shutil.copy2(sourceFile, targetFile)
 
-input(f"Files copied successfully to {destPath}")
+print(f"Files copied successfully to {destPath}")
