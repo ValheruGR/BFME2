@@ -1,125 +1,299 @@
 {
+  "switcher": [
+    {
+      "version_name": "6.02",
+      "file_name": "SWITCHER_UPDATE_602.exe",
+      "date": "2025-03-17",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_602.exe",
+	  "info": "Added a lot of new maps and prepared compatibility with next patch betas. Deleted lorien plateu, ithilien hills, dagorlad 8p, mount gram, dead marshes ii, western gondor, westmarch, agarnaith, mering stream I"
+    },
+    {
+      "version_name": "5.73",
+      "file_name": "SWITCHER_UPDATE_573.exe",
+      "date": "2024-10-23",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_573.exe",
+	  "info": "Added Ahwehawe map. Fixed Ford of BrandyWine map height. Added a fixer to play through Radmin after players used the Online-Arena. Improved the switcher file scanner efficiency."
+    },
+    {
+      "version_name": "5.58",
+      "file_name": "SWITCHER_UPDATE_558.exe",
+      "date": "2024-08-19",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_558.exe",
+	  "info": "Fixed fonts not being read. Was a extra backlash typo."
+    },
+    {
+      "version_name": "5.57",
+      "file_name": "SWITCHER_UPDATE_557.exe",
+      "date": "2024-08-18",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_557.exe",
+	  "info": "Updated AndyBrandy maps. Rotated South Road and Ford of Brandywine."
+    },
+    {
+      "version_name": "5.56",
+      "file_name": "SWITCHER_UPDATE_556.exe",
+      "date": "2024-08-16",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_556.exe",
+	  "info": "Fixed compatibility with Linux & Mac (through emulators or similar)\nEnsured references to art folders work on UNIX paths.\nAutoupdate now checks every 21 days and no messages popups when there are no updates"
+    },
+    {
+      "version_name": "5.52",
+      "file_name": "SWITCHER_UPDATE_551.exe",
+      "date": "2024-05-25",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_552.exe",
+	  "info": "Fixed Switcher Version Flag. Added 11 new maps from AndyBrandy & PowerKartoffel"
+    },
+    {
+      "version_name": "5.50",
+      "file_name": "SWITCHER_UPDATE_550.exe",
+      "date": "2024-04-18",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_550.exe",
+	  "info": "Fixed EnglishAudio.big not being recognised as the audio for translations versions without doubling, like Polish one."
+    },
+    {
+      "version_name": "5.49",
+      "file_name": "SWITCHER_UPDATE_549.exe",
+      "date": "2024-03-31",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_549.exe",
+	  "info": "\n* Switcher will now automatically check for updates once a week. \n* BFME Launcher auto-generated language files will be removed by the green flag actions without asking confirmation."
+    },
+    {
+      "version_name": "5.48",
+      "file_name": "SWITCHER_UPDATE_548.exe",
+      "date": "2024-03-17",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_548.exe",
+	  "info": "\n* Added delay fixer toggle option. \n* Added the following command-line arguments: -switch -1.00, -switch -1.06, -switch -latest. \n* Added the possibility to define a customized BFME2 installation folder by creating a .ini file called 'custom_bfme2_path.ini' in the 'PlayerCustomFiles' dir. Its content has to be the full path to any BFME2 custom installation.\n* Added further support for Linux: disabled utilities that depend on Windows DLLs."
+    },
+    {
+      "version_name": "5.44",
+      "file_name": "SWITCHER_UPDATE_544.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_544.exe",
+      "info": "Fixed cache typo."
+    },
+    {
+      "version_name": "5.43",
+      "file_name": "SWITCHER_UPDATE_543.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_543.exe",
+      "info": "Added a virus-free certified on the .exe. Updated hotkeys and loading screens for all languages."
+    },
+    {
+      "version_name": "5.40",
+      "file_name": "SWITCHER_UPDATE_540.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_540.exe",
+      "info": "Version indicated from a external .txt file."
+    },
+    {
+      "version_name": "5.39",
+      "file_name": "SWITCHER_UPDATE_539.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_539.exe",
+      "info": "Fixed englishsplash.jpg not being autocreated."
+    },
+    {
+      "version_name": "5.38",
+      "file_name": "SWITCHER_UPDATE_538.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_538.exe",
+      "info": "Compatibility with AllInOne launcher."
+    },
+    {
+      "version_name": "5.37",
+      "file_name": "SWITCHER_UPDATE_537.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_537.exe",
+      "info": "Fixed the messages for when a new version available."
+    },
+    {
+      "version_name": "5.36",
+      "file_name": "SWITCHER_UPDATE_536.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_536.exe",
+      "info": "Compatibility with old betas."
+    },
+    {
+      "version_name": "5.30",
+      "file_name": "SWITCHER_UPDATE_530.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_530.exe",
+      "info": "Compatibility with AllInOne launcher: ignore eauninstall.exe and backup of 1.09 files through cache system."
+    },
+    {
+      "version_name": "5.29",
+      "file_name": "SWITCHER_UPDATE_529.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_529.exe"
+    },
+    {
+      "version_name": "5.27",
+      "file_name": "SWITCHER_UPDATE_527.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_527.exe",
+      "info": "Singleplayer 1.09v3 to have the 4gb fix flag."
+    },
+    {
+      "version_name": "5.26",
+      "file_name": "SWITCHER_UPDATE_526.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_526.exe",
+      "info": "French translate typo fix."
+    },
+    {
+      "version_name": "5.25",
+      "file_name": "SWITCHER_UPDATE_525.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_525.exe",
+      "info": "Launcher and support folders to be ignored as they are not priorioty."
+    },
+    {
+      "version_name": "5.24",
+      "file_name": "SWITCHER_UPDATE_524.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_524.exe",
+      "info": "Conditional 1.09v3.00 instancing. Fixes red flag error for old beta players."
+    },
+    {
+      "version_name": "5.23",
+      "file_name": "SWITCHER_UPDATE_523.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_523.exe"
+    },
+    {
+      "version_name": "5.22",
+      "file_name": "SWITCHER_UPDATE_522.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_522.exe",
+      "info": "Added the 1.09v3 singleplayer game.dat. Had forgot it."
+    },
+    {
+      "version_name": "5.21",
+      "file_name": "SWITCHER_UPDATE_521.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_521.exe"
+    },
+    {
+      "version_name": "5.20",
+      "file_name": "SWITCHER_UPDATE_520.exe",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_520.exe",
+      "info": "Player custom files for 1.09v3.00 and also any of its betas."
+    }
+  ],
   "patches": [
     {
-      "version_name": "1.09v3",
-      "file_name": "109v3_FINAL.7z",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/109v3_FINAL.7z",
-	  "released": false,
+      "version_name": "1.09v3.0",
+      "file_name": "109v3_RELEASE.7z",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/109v3_RELEASE.7z",
+	  "released": true,
       "betas": [
-        {
-          "version_name": "1.09v3",
-          "file_name": "109v3_RELEASE.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/109v3_RELEASE.7z",
-          "addons": []
-        },
         {
           "version_name": "1.09v3 ß61",
           "file_name": "109v3_BETA_61.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss61.7z",
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss61.7z",
           "addons": [
+			{
+			  "version_name": "1.09v3.0",
+			  "file_name": "109v3_RELEASE.7z",
+			  "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/109v3_RELEASE.7z",
+			  "addons": []
+			},
             {
               "version_name": "1.09v3 ß61.35",
               "file_name": "109v3_BETA_61.35.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss61.35.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss61.35.7z"
             },
             {
               "version_name": "1.09v3 ß61.3",
               "file_name": "109v3_BETA_61.3.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss61.3.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss61.3.7z"
             },
             {
               "version_name": "1.09v3 ß61.2",
               "file_name": "109v3_BETA_61.2.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss61.2.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss61.2.7z"
             },
             {
               "version_name": "1.09v3 ß61.1",
               "file_name": "109v3_BETA_61.1.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss61.1.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss61.1.7z"
             }
           ]
         },
         {
           "version_name": "1.09v3 ß60",
           "file_name": "109v3_BETA_60.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.7z",
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.7z",
           "addons": [
             {
               "version_name": "1.09v3 ß60.9",
               "file_name": "109v3_BETA_60.9.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.9.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.9.7z"
             },
             {
               "version_name": "1.09v3 ß60.8",
               "file_name": "109v3_BETA_60.8.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.8.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.8.7z"
             },
             {
               "version_name": "1.09v3 ß60.7",
               "file_name": "109v3_BETA_60.7.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.7.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.7.7z"
             },
             {
               "version_name": "1.09v3 ß60.5",
               "file_name": "109v3_BETA_60.5.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.5.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.5.7z"
             },
             {
               "version_name": "1.09v3 ß60.4",
               "file_name": "109v3_BETA_60.4.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.4.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.4.7z"
             },
             {
               "version_name": "1.09v3 ß60.3",
               "file_name": "109v3_BETA_60.3.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.3.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.3.7z"
             },
             {
               "version_name": "1.09v3 ß60.2",
               "file_name": "109v3_BETA_60.2.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.2.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.2.7z"
             },
             {
               "version_name": "1.09v3 ß60.1",
               "file_name": "109v3_BETA_60.1.7z",
-              "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss60.1.7z"
+              "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss60.1.7z"
             }
           ]
         },
         {
           "version_name": "1.09v3 ß59",
           "file_name": "109v3_BETA_59.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss59.7z"
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss59.7z"
         },
         {
           "version_name": "1.09v3 ß58",
           "file_name": "109v3_BETA_58.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss58.7z"
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss58.7z"
         },
         {
           "version_name": "1.09v3 ß57",
           "file_name": "109v3_BETA_57.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss57.7z"
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss57.7z"
         },
         {
           "version_name": "1.09v3 ß56",
           "file_name": "109v3_BETA_56.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss56.7z"
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss56.7z"
         },
         {
           "version_name": "1.09v3 ß55",
           "file_name": "109v3_BETA_55.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss55.7z"
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss55.7z"
         },
         {
           "version_name": "1.09v3 ß54",
           "file_name": "109v3_BETA_54.7z",
-          "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/ss54.7z"
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss54.7z"
+        },
+        {
+          "version_name": "1.09v3 ß53",
+          "file_name": "109v3_BETA_53.7z",
+          "link": "https://github.com/ValheruGR/BFME2/releases/download/1.09v3betas/ss53.7z"
         }
       ]
     }
   ],
   "old_patches": {
+    "bt2dc_new": {
+      "version_name": "BT2DC",
+      "file_name": "BT2DC_New.7z",
+      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/BT2DC_New.7z"
+    },
     "bt2dc": {
       "version_name": "BT2DC",
       "file_name": "BT2DC.7z",
@@ -130,67 +304,5 @@
       "file_name": "oldstuff.7z",
       "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/oldstuff.7z"
     }
-  },
-  "switcher": [
-    {
-      "version_name": "5.21",
-      "file_name": "SWITCHER_UPDATE_521.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_521.exe"
-    },
-    {
-      "version_name": "5.20",
-      "file_name": "SWITCHER_UPDATE_520.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_520.exe"
-    },
-    {
-      "version_name": "5.17",
-      "file_name": "SWITCHER_UPDATE_517.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_517.exe"
-    },
-    {
-      "version_name": "5.14",
-      "file_name": "SWITCHER_UPDATE_514.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_514.exe"
-    },
-    {
-      "version_name": "5.06",
-      "file_name": "SWITCHER_UPDATE_506.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_506.exe"
-    },
-    {
-      "version_name": "5.02",
-      "file_name": "SWITCHER_UPDATE_502.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_502.exe"
-    },
-    {
-      "version_name": "5.01",
-      "file_name": "SWITCHER_UPDATE_501.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_501.exe"
-    },
-    {
-      "version_name": "5.00",
-      "file_name": "SWITCHER_UPDATE_500.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_500.exe"
-    },
-    {
-      "version_name": "4.97",
-      "file_name": "SWITCHER_UPDATE_497.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_497.exe"
-    },
-    {
-      "version_name": "4.96",
-      "file_name": "SWITCHER_UPDATE_496.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_496.exe"
-    },
-    {
-      "version_name": "4.92",
-      "file_name": "SWITCHER_UPDATE_492.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_492.exe"
-    },
-    {
-      "version_name": "4.75",
-      "file_name": "SWITCHER_UPDATE_475.exe",
-      "link": "https://github.com/ValheruGR/BFME2/releases/download/109v3Releases/SWITCHER_UPDATE_475.exe"
-    }
-  ]
+  }
 }

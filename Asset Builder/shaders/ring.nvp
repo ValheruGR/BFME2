@@ -1,0 +1,60 @@
+; t0 = scene rendered to texture.
+; t1 = perturbation map.
+; t2 = alpha texture.
+; c0 = ntsc to monochrome consts for dp3.
+; c1 = base texture color multiplier.
+; c2 = smeared texture color multiplier.
+; c3 = saturation lrp for smeared texture.
+; c4 = adjust to t1 values.
+; c5 = blend amount  to use of perturbed values.
+; c6 = saturaton lrp value for scene texture
+
+ps.1.4
+texld r2, t2          ; vapor offset texture. r2
+texld r1, t1          ; Other vapor texture for alpha. 
+texcrd r0.xyz, t0     ; r0 is base scene uv coordinates.
+
+
+; mov r4, r1    ; full alpha.
+mul r4, c5, r2  ; scaled alpha
+;mov r4, c5      ; flat alpha
+
+; r2 is now the uv offset values.
+
+mov r2.x, -r2
+mov r0.a, c5.a
+mad r2, r2, c4, r0
+
+; r1 is a second uv offset value.
+mov r1.x, -r1
+mul_x2 r1, r1, c7
+mad r1, r1, c4, r0
+
+phase
+
+;texld r0, r0
+texld r3, r2
+texld r4, r1
+texld r1, t1
+texld r2, t2
+
+;dp3 r5, r3, c0
+;lrp r3, c3, r3, r5
+;mul_x2 r3, r3, c2
+
+;dp3 r5, r4, c0
+;lrp r4, c3, r4, r5
+;mul_x2 r4, r4, c2
+
+;dp3 r5, r0, c0          ; r5 = monochrome
+;lrp r0, c6, r0, r5      ; interpolate between color & monochrome image.
+;mul_x2 r0, r0, c1
+
+;mad r0, c5, r3, r0    ; additive blend
+;mad r0, c5, r4, r0    ; additive blend
+
+mul r0, r1, r3
+mad r0, r1, r4, r0
+mul_x2 r0, c2, r0
+
+;mov r0, r4 ; debug to dump "alpha" blend value.

@@ -1,0 +1,280 @@
+Map:map_pk_mines_of_moria
+"Colony in Moria"
+END
+
+Map:map_pk_mines_of_moria/Desc
+"1-4 Player Hero Defense: Defend the Throne of Moria against endless waves of goblins and monsters. Capture the flags to improve your chances of survival. \nMap by Powerkartoffel."
+END
+
+OBJECT:Ori
+"Ori"
+END
+
+SCRIPT:TimerOri
+"Ori revives in: "
+END
+
+SCRIPT:RespawnOri
+"Ori respawned."
+END
+
+CONTROLBAR:Ori
+"Dwarven Hero Ori"
+END
+
+CONTROLBAR:TooltipOriLeadership
+"Requires Level 3 \n Allies near Ori gain: \n +25% Damage, \n and earn experience 25% faster. \n «Damage BUFF» \n Passive ability."
+END
+
+OBJECT:Tror
+"Tror"
+END
+
+SCRIPT:TimerTror
+"Tror revives in: "
+END
+
+SCRIPT:RespawnTror
+"Tror respawned."
+END
+
+CONTROLBAR:Tror
+"Dwarven Hero Tror"
+END
+
+CONTROLBAR:Balin
+"Dwarven Hero Balin"
+END
+
+SCRIPT:TimerBalin
+"Balin revives in: "
+END
+
+SCRIPT:RespawnBalin
+"Balin respawned."
+END
+
+OBJECT:Balin
+"Balin"
+END
+
+CONTROLBAR:Floi
+"Dwarven Hero Floi"
+END
+
+SCRIPT:TimerFloi
+"Floi revives in: "
+END
+
+SCRIPT:RespawnFloi
+"Floi respawned."
+END
+
+OBJECT:Floi
+"Floi"
+END
+
+SCRIPT:NextWaveStarts
+"Next wave starts in: "
+END
+
+SCRIPT:CounterWave
+"Wave "
+END
+
+OBJECT:Frar
+"Frar"
+END
+
+SCRIPT:TimerFrar
+"Frar revives in: "
+END
+
+SCRIPT:RespawnFrar
+"Frar respawned."
+END
+
+CONTROLBAR:Frar
+"Dwarven Hero Frar"
+END
+
+OBJECT:Nali
+"Nali"
+END
+
+CONTROLBAR:SignalFireDescription09v2_Map
+"Capture it to decrease recharge times for powers. \n Generates resources. \n  \n 1 Barrel = -30% reduction of spellbook recharge time \n 2 Barrels = -40% reduction \n 3 Barrels = -50% reduction \n 4 Barrels = -57% reduction \n 5 Barrels = -63% reduction."
+END
+
+OBJECT:SignalFire_Map
+"Barrels"
+END
+
+SCRIPT:TimerNali
+"Nali revives in: "
+END
+
+SCRIPT:RespawnNali
+"Nali respawned."
+END
+
+CONTROLBAR:Nali
+"Dwarven Hero Nali"
+END
+
+OBJECT:Oin
+"Oin"
+END
+
+SCRIPT:TimerOin
+"Oin revives in: "
+END
+
+SCRIPT:RespawnOin
+"Oin respawned."
+END
+
+CONTROLBAR:Oin
+"Dwarven Hero Oin"
+END
+
+OBJECT:Loni
+"Loni"
+END
+
+SCRIPT:TimerLoni
+"Loni revives in: "
+END
+
+SCRIPT:RespawnLoni
+"Loni respawned."
+END
+
+CONTROLBAR:Loni
+"Dwarven Hero Loni"
+END
+
+CONTROLBAR:TextDwarvenCrebain
+"Ravens of Erebor"
+END
+
+CONTROLBAR:DwarvenCrebain
+"Debuff: -25% Defense, -25% Attack"
+END
+
+CONTROLBAR:Guardian
+"Call the Guardians"
+END
+
+CONTROLBAR:TextGuardian
+"Summon one battalion of Guardians."
+END
+
+SCRIPT:Obj_Throne
+"Hold the Throne of Moria as long as you can!"
+END
+
+CONTROLBAR:TextAxeThrower
+"Call the Axe Throwers"
+END
+
+CONTROLBAR:AxeThrower
+"Summon one battalion of Axe Throwers."
+END
+
+CONTROLBAR:Phalanx
+"Call the Phalanx"
+END
+
+CONTROLBAR:TextPhalanx
+"Summon one battalion of Phalanx."
+END
+
+CONTROLBAR:TextCB
+"Moria's special mirrors are in use."
+END
+
+CONTROLBAR:CB
+"Light of Moria"
+END
+
+CONTROLBAR:BW
+"Call the Battle Wagon"
+END
+
+SCRIPT:TunnelDetect
+"We found a goblin tunnel. Destroy it!"
+END
+
+SCRIPT:TunnelUnitHint
+"This mass of units is coming from a goblin tunnel! Find and destroy it to avoid being overrun!"
+END
+
+SCRIPT:CaptureFlag
+"A new flag is available. \n Capturing these flags increases your chances of survival. You gain more command points, money, and can cast spells faster. Upgrade them to heal and buff your units. \n  \n Flags can only be captured by Heroes and Battle Wagons."
+END
+
+SCRIPT:IntroColonyMoria
+"48 years after the Battle of the Five Armies, Balin, along with Floi, Oin, Ori, Frar, Loni, Nali, and a large colony of dwarves, embarked from the Lonely Mountain to the Misty Mountains to reclaim the lost dwarven city of Moria."
+END
+
+CONTROLBAR:TextBW
+"Summon one Battle Wagon."
+END
+
+CONTROLBAR:TextBomb
+"Release boulders from the ceiling."
+END
+
+CONTROLBAR:Bomb
+"Stone Trap"
+END
+
+CONTROLBAR:TextWeaponUP
+"Unlock weapon upgrades. \n Reduce the cost of weapons, Battle Wagon passengers, and Barrel upgrades."
+END
+
+CONTROLBAR:WeaponUP
+"Weapon factory"
+END
+
+CONTROLBAR:TextShieldUP
+"Unlock armor upgrades. \n Increase resource production."
+END
+
+CONTROLBAR:ShieldUP
+"Armor factory"
+END
+
+CONTROLBAR:PurchaseUpgradeWine
+"Wine"
+END
+
+CONTROLBAR:Wine
+"Get wine to heal wounds. \n Replenish units from hordes every 6.5 seconds."
+END
+
+Upgrade:Wine
+"Wine"
+END
+
+CONTROLBAR:PurchaseUpgradeBeer
+"Beer"
+END
+
+CONTROLBAR:Beer
+
+"Get beer to increase damage. \n Nearby units gain +25% Damage, \n and earn experience 25% faster. \n Damage BUFF"
+END
+
+Upgrade:Beer
+"Beer"
+END
+
+OBJECT:SignalFire_Map
+"Barrels"
+END
+
+OBJECT:SignalFireDescription09v2_Map
+"Gain more command points, produce resources, and reduce spell recharge time. \n Fill the barrels with beer and wine."
+END

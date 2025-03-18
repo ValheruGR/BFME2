@@ -25,145 +25,145 @@ CONTROLBAR:nothingDesc09v2
 END
 //----------------------------------
 CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
-"Morgul Blade [&V]"
+"Lame de Morgul (&V)"
 END
 //----------------------------------
 OBJECT:HaradCamp_New
-"Haradrim tent"
+"Tente haradrim"
 End
 OBJECT:HaradCampDesc_New
-"Allows training of Haradrim warriors"
+"Permet l'entraînement des guerriers haradrims"
 End
 OBJECT:LF_New
-"Secret Entrance"
+"Entrée secrète"
 End
 OBJECT:LF_Disc_New
-"Capture it to decrease recharge times for unused powers \n Heals nearby Heros and Flyers. \n\n -25% reduction of spellbook reload time"
+"Capturez-le pour réduire les temps de recharge des pouvoirs inutilisés \n Soigne les héros et les volants à proximité. \n\n Réduction de -25% du temps de recharge du grimoire"
 End
 OBJECT:MercenaryCamp_New
-"Mercenary Camp"
+"Camp de mercenaires"
 END
 OBJECT:DunlandHallTooltip_New
-"Dunland House"
+"Maison de Dunland"
 End
 TOOLTIP:DunlandHallDesc_New
-"Allows training of Dunland Men"
+"Permet l'entraînement des hommes de Dunland"
 End
 //------------------------------------------------------------
 CONTROLBAR:WildWalk09v3
-"Wild Walk"
+"Marche Sauvage"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThranduilDescription09v3
-"King of Mirkwood: \n Nearby Mirkwood archers gain: \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
+"Roi de la Forêt Noire : \n Les archers de la Forêt Noire à proximité gagnent : \n +25% de dégâts, +25% d'armure, \n et gagnent de l'expérience 50% plus rapidement. \n «HighTierHero BUFF» \n Capacité passive"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThranduilWildWalk09v3
-"Requires Level 6 \nAllows Thranduil to move while stealthed \n Passive ability."
+"Requiert le niveau 6 \n Permet à Thranduil de se déplacer tout en étant furtif \n Capacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde09v3
-"Strong vs. Cavalry and \n Unit Production Buildings \n Can stealth near trees. \n Gains +4% speed at level 4, 7 and 10."
+"Fort contre la cavalerie et \n les bâtiments de production d'unités \n Peut se camoufler près des arbres. \n Gagne +4% de vitesse aux niveaux 4, 7 et 10."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEvilHeal09v3
-"Partially heals armies and monsters. \n Replaces 2 dead units per horde. \n Left click icon then left click on target area"
+"Soigne partiellement les armées et les monstres. \n Remplace 2 unités mortes par horde. \n Cliquez gauche sur l'icône, puis cliquez gauche sur la zone cible"
 END
 //------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
-"Gandalf the White: \n Requires Level 5 \n Gandalf's magic abilities deal +70% damage and cooldowns are reduced by -20%. \n Passive ability."
+"Gandalf le Blanc : \n Requiert le niveau 5 \n Les capacités magiques de Gandalf infligent +70% de dégâts et les temps de recharge sont réduits de -20%. \n Capacité passive."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v3
-"Requires Level 7 \n A high-damaging magical projectile. \n Level 7: Causes meta impact and moderate damage. \n Level 10: Deals greater damage and stuns nearby light-sensitive units. \n Strong against cavalry and low-tier heroes. \n Can only use with bow equipped. \n Left click icon, then left click on target." 
+"Requiert le niveau 7 \n Un projectile magique à haut dégât. \n Niveau 7 : Cause un impact métaphysique et des dégâts modérés. \n Niveau 10 : Inflige des dégâts supérieurs et étourdit les unités sensibles à la lumière à proximité. \n Fort contre la cavalerie et les héros de bas niveau. \n Peut seulement être utilisé avec un arc équipé. \n Cliquez gauche sur l'icône, puis cliquez gauche sur la cible."
 END
 CONTROLBAR:TooltipElrondWhirlwind09v3
-"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield. \n Level 5: Deals minimal damage, sweeps low-tier heroes only. Lasts 16 seconds. \n Level 7: Lasts 19 seconds. \n Level 10: Deals double damage, sweeps all heroes. Lasts 22 seconds. \n Left click icon, then left click on pathable location."
+"Requiert le niveau 5 \n Invoque un tourbillon destructeur sur le champ de bataille. \n Niveau 5 : Inflige des dégâts minimes, balaye seulement les héros de bas niveau. Dure 16 secondes. \n Niveau 7 : Dure 19 secondes. \n Niveau 10 : Inflige le double de dégâts, balaye tous les héros. Dure 22 secondes. \n Cliquez gauche sur l'icône, puis cliquez gauche sur un emplacement praticable."
 END
 CONTROLBAR:ToolTipElrondRestoration09v3
-"Requires Level 10 \n Elrond regenerates +20% of health-points to nearby allies and fully resets their special ability timers. \n Replenishes 1 fallen unit per battalion in the area of effect. \n Left click to activate."
+"Requiert le niveau 10 \n Elrond régénère +20% des points de vie aux alliés à proximité et réinitialise complètement leurs chronomètres de compétences spéciales. \n Reconstitue 1 unité tombée par bataillon dans la zone d'effet. \n Cliquez pour activer."
 END
 CONTROLBAR:ArwenElvenGrace09v3
-"Athelas [&V]"
+"Athelas (&V)"
 END
 CONTROLBAR:ArwenElvenGraceDesc09v3
-"Requires Level 6 \n Arwen regenerates 750 health-points to targeted allies over a 2-second duration. \n Left click icon, then left click on target units."
+"Requiert le niveau 6 \n Arwen régénère 750 points de vie aux alliés ciblés sur une durée de 2 secondes. \n Cliquez gauche sur l'icône, puis cliquez gauche sur les unités ciblées."
 END
 CONTROLBAR:GoblinKingBattleFrenzy09v3
-"Battle Frenzy"
+"Furie de Combat"
 End
 CONTROLBAR:ToolTipFueltheFires09v3
-"Player Lumber Mills gain +65% Production \n and +20% Armor. \n Allied Lumber Mills gain +65% production. \n Passive power. \n Fortress must be present."
+"Les scieries du joueur gagnent +65% de production \n et +20% d'armure. \n Les scieries alliées gagnent +65% de production. \n Pouvoir passif. \n La forteresse doit être présente."
 End
 UPGRADE:BarbedArrowUpgrade09v3
-"Barbed Arrows"
+"Flèches Barbelées"
 END
 CONTROLBAR:TooltipUndermine09v3
-"Summons a Mine Shaft onto the battlefield. \n Cannot be cast within close proximity of an enemy fortress. \n Can be casted on the fog of war. \n The Mine Shaft is connected to tunnel network. \n Deals greater damage at spawn point and lesser damage in the perimeter. \n Left click icon, then left click on pathable location."
+"Invoque un Puits de Mine sur le champ de bataille. \n Ne peut pas être lancé à proximité immédiate d'une forteresse ennemie. \n Peut être lancé dans le brouillard de guerre. \n Le Puits de Mine est connecté au réseau de tunnels. \n Inflige plus de dégâts au point d'apparition et moins de dégâts en périphérie. \n Cliquez gauche sur l'icône, puis cliquez gauche sur un emplacement praticable."
 END
 CONTROLBAR:ToolTipPersonalFlood09v3
-"Requiert : niveau 4 \n Summons a flood that will damage enemies and put out fires. \n Specially effective against cavalry and Black Riders. \n Level 4 Arwen summons 3 Floodhorses.\n Level 7 Arwen summons 5 Floodhorses.  \n Level 10 Arwen summons 7 Floodhorses. \nLeft click icon then left click on target"
+"Requiert : niveau 4 \n Invoque une inondation qui endommagera les ennemis et éteindra les feux. \n Particulièrement efficace contre la cavalerie et les Cavaliers Noirs. \n Arwen de niveau 4 invoque 3 Chevaux d'Inondation. \n Arwen de niveau 7 invoque 5 Chevaux d'Inondation. \n Arwen de niveau 10 invoque 7 Chevaux d'Inondation. \nCliquez gauche sur l'icône puis cliquez gauche sur la cible."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
-"Heals nearby Allies. \n Revives a fallen unit from each battalion every 6.5 seconds. \n Hero revival time reduced by -20%. \n Combined with Eagle Nest, can heal any allied flying unit"
+"Soigne les alliés à proximité. \n Ravive une unité tombée de chaque bataillon toutes les 6,5 secondes. \n Le temps de renaissance des héros est réduit de -20%. \n Associé au Nid d'Aigles, peut soigner n'importe quelle unité volante alliée."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
-"Allows summoning of a Giant Eagle. \n Allows Mystics Fountains to heal flying units."
+"Permet l'invocation d'un Aigle Géant. \n Permet aux Fontaines Mystiques de soigner les unités volantes."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v3
-"Damages enemy units adjacent to the Fortress. \n Heals nearby Allies. \n Combined with Dragon Nest, can heal any allied flying unit."
+"Inflige des dégâts aux unités ennemies adjacentes à la forteresse. \n Soigne les alliés à proximité. \n Associé au Nid de Dragon, peut soigner n'importe quelle unité aérienne alliée."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
-"Allows summoning of a Fire Drake. \n Drogoth revival time reduced by -10%. \n Allows Razor Spikes to heal flying units."
+"Permet l'invocation d'un Drake de Feu. \n Le temps de résurection de Drogoth est réduit de -10%. \n Permet aux Pointes de Rasoir de soigner les unités volantes."
 END
 //------------------------------
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
-"Requires Level 6 \n Inflicts poison damage on the target enemy for 30 seconds, \n reduces it's speed by -50% during 15 seconds, \n and paralyzes it for 6 seconds. \n Left click icon, then left click on target."
+"Requiert le niveau 6 \n Inflige des dégâts empoisonnés à l'ennemi ciblé pendant 30 secondes, \n réduit sa vitesse de -50% pendant 15 secondes, \n et le paralyse pendant 6 secondes. \n Cliquez gauche sur l'icône, puis cliquez gauche sur la cible."
 End
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger09v3
-"Requires Level 6 \n Can only use when mounted \n Inflicts poison damage on the target enemy for 25 seconds, \n reduces it's speed by -50% during 12 seconds, \n and paralyzes it for 5 seconds. \n Left click icon, then left click on target."
+"Requiert le niveau 6 \n Peut seulement être utilisé lorsque monté \n Inflige des dégâts empoisonnés à l'ennemi ciblé pendant 25 secondes, \n réduit sa vitesse de -50% pendant 12 secondes, \n et le paralyse pendant 5 secondes. \n Cliquez gauche sur l'icône, puis cliquez gauche sur la cible."
 END
 TOOLTIP:ToolTipBoromir09v3
-"Boromir gains +7% speed at level 7"
+"Boromir gagne +7% de vitesse au niveau 7"
 END
 CONTROLBAR:ToolTipBuildGoblinCaveTroll09v3
-"Strong vs. Swordsmen and Structures \n Cave Troll gains +4% speed at level 3, 6 and 9"
+"Fort contre les épéistes et les structures \n Le Troll des Cavernes gagne +4% de vitesse aux niveaux 3, 6 et 9"
 END
 TOOLTIP:ToolTipBuildDwarvenCatapult09v3
-"Strong vs. Structures and Siege units \n The Catapult gains +10% speed at level 5"
+"Fort contre les structures et les unités de siège \n La Catapulte gagne +10% de vitesse au niveau 5"
 END
 CONTROLBAR:ToolTipBuildDwarvenCatapult09v3
-"Requiert : niveau 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +10% speed at level 5"
+"Requiert : niveau 2 Atelier de siège \n Fort contre les structures et les unités de siège \n Tire deux projectiles à la fois \n La Catapulte gagne +10% de vitesse au niveau 5"
 END
 CONTROLBAR:ToolTipBuildMordorMumakil09v3
-"Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
+"Fort contre les structures et la cavalerie \n Est monté par des Lanciers Haradrim \n 30 points de commandement supplémentaires \n Les Mumakils gagnent +6% de vitesse aux niveaux 5 et 8."
 END
 CONTROLBAR:TooltipDragonStrike09v3
-"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed.  \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
+"Invoque un Dragon cracheur de feu pour survoler et brûler le champ de bataille. \n Tous types d'unités ennemies dans une grande zone sous le Dragon subiront -15% de vitesse. \n Extrêmement dangereux sur les bords de la carte. \n Cliquez gauche sur l'icône puis cliquez gauche sur la zone cible"
 END
 TOOLTIP:ToolTipFellbeast09v3
-"Fellbeast attack radius against units is improved at level 6."
+"Le rayon d'attaque du Fellbeast contre les unités est amélioré au niveau 6."
 END
 CONTROLBAR:ToolTipDominate09v3
-"Requiert : niveau 10 \n Gain control of targeted enemies permanently. \n Left click icon then left click on target enemies"
+"Requiert : niveau 10 \n Prend le contrôle des ennemis ciblés de manière permanente. \n Cliquez gauche sur l'icône puis cliquez gauche sur les ennemis ciblés"
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
-"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. It's told that he's the human personification of Eru, who created Ëa. \n Allies near Tom Bombadil gain +25% Armor and earn experience 25% faster. \n «Armor BUFF» \n Left click icon then left click on pathable location"
+"Invoque Tom Bombadil, un puissant vieux bonhomme avec un chapeau, qui aime chanter. On dit qu'il est la personnification humaine d'Eru, qui a créé Ëa. \n Les alliés près de Tom Bombadil gagnent +25% d'armure et gagnent de l'expérience 25% plus rapidement. \n « BUFF d'armure » \n Cliquez gauche sur l'icône puis cliquez gauche sur un emplacement praticable"
 END
 CONTROLBAR:Draft09v3
 "&Résister"
 End
 CONTROLBAR:ToolTipDraft09v3
-"Arms this battalion of peasants. \n When equipped, increases the damage done by Melee Weapons \n and reduces the amount of damage taken."
+"Arme ce bataillon de paysans. \n Lorsqu'équipé, augmente les dégâts infligés par les armes de mêlée \n et réduit la quantité de dégâts subis."
 END
 CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
 "Camouflage (&V)"
 END
 CONTROLBAR:SummonWargAllies09v3
-"Summon Warg Allies (&C)"
-End
+"Appel des Alliés Wargs (&C)"
+END
 CONTROLBAR:SummonWargAlliesDesc09v3
-"Requiert : niveau 10 \n Summons a group of Warg Riders of Isengard to Sharku's side \n Clic gauche sur l'icône puis clic gauche sur une zone praticable"
+"Requiert : niveau 10 \n Invoque un groupe de Cavaliers Wargs d'Isengard aux côtés de Sharku \n Clic gauche sur l'icône puis clic gauche sur une zone praticable"
 END
 //------------------------------------------------------------
 
