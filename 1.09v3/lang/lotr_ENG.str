@@ -111,7 +111,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
 "Allows summoning of a Giant Eagle. \n Allows Mystics Fountains to heal flying units."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v3
-"Damages enemy units adjacent to the Fortress. \n Heals nearby Allies. \n Combined with Dragon Nest, can heal any allied flying unit."
+"Poisons the enemy units attacking the Fortress and reduce their total speed to 85%. \n Heals nearby Allies. \n Combined with Dragon Nest, can heal any allied flying unit."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
 "Allows summoning of a Fire Drake. \n Drogoth revival time reduced by -10%. \n Allows Razor Spikes to heal flying units."
@@ -310,7 +310,7 @@ CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
 "Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +4% speed at level 4 and level 7."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Requires Level 5 \n Theoden and nearby cavalry gain +60% Armor and become immune to decelerate by trampling. \n Level 8: Theoden and nearby cavalry gain +99% armor, +25% damage, immunity to deceleration by trample and immunity to fear and terror. \n Theoden must be mounted to use ability \n Lasts 20 seconds. \n Left click to activate"
+"Requires Level 5 \n Theoden and nearby cavalry gain +60% Armor and become immune to decelerate by trampling. \n Level 8: Theoden and nearby cavalry gain +99% armor, +35% damage, immunity to deceleration by trample and immunity to fear and terror. \n Theoden must be mounted to use ability \n Lasts 20 seconds. \n Left click to activate"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
 "Strong vs. Infantry\nResistant to trample\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% Damage +20% speed. \n «HordeBonus BUFF» "
@@ -455,7 +455,7 @@ OBJECT:DwarvenHeroicStatueDescription09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v2
-"Decreases the melee vulnerability of the Fortress \n Allies near Fortress gain: +25% Damage, \n and earn Experience +25% faster. \n Provides an aditional source of unit respawning: 1 unit each 7.5 seconds. \n «Damage BUFF»"
+"Decreases the melee vulnerability of the Fortress \n Replenish one unit from the closest horde each 7.5 seconds. \n Reduces the cost of Ents \n 1 Fortress with Moat = 10% cheaper \n 2 Fortresses: 15% cheaper \n 3 Fortresses: 20% cheaper \n 4 Fortresses: 25% cheaper \n 5 Fortresses: 30% cheaper"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres09v2
@@ -740,7 +740,7 @@ CONTROLBAR:LoneTowerLeadershipUpgradeIcon
 "Requires researching the upgrade at fortress. \n Nearby allies gain: \n +25% Damage, \n and earn Experience 25% faster. \n «Damage BUFF»"
 END
 CONTROLBAR:LoneTowerHealingUpgradeIcon
-"Requires researching the upgrade at fortress. \n Heals nearby allies. \n Replenish one unit per horde each 10 seconds"
+"Requires researching the upgrade at fortress. \n Heals nearby allies. \n Replenish one unit from the closest horde each 10 seconds."
 END
 CONTROLBAR:LoneTowerArmorUpgradeIcon
 "Requires researching the upgrade at fortress. \n Significantly reduces the amount of damage taken."
@@ -31992,7 +31992,7 @@ CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations
-"Heals nearby Allies. \n Replenish units from hordes each 10 seconds.\n Reduces the cost of Isengard structures and walls \n 1 Fortress with Excavations = 7.5% cheaper \n 2 Fortresses with Excavations = 15% cheaper \n 3 Fortresses with Excavations = 20% cheaper \n 4 Fortresses with Excavations = 25% cheaper \n 5 Fortresses with Excavations = 33% cheaper"
+"Heals nearby Allies. \n Replenish one unit from the closest horde each 5 seconds. \n Reduces the cost of Isengard structures and walls \n 1 Fortress with Excavations = 7.5% cheaper \n 2 Fortresses with Excavations = 15% cheaper \n 3 Fortresses with Excavations = 20% cheaper \n 4 Fortresses with Excavations = 25% cheaper \n 5 Fortresses with Excavations = 33% cheaper"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressMurderOfCrows
@@ -32149,7 +32149,7 @@ CONTROLBAR:PurchaseUpgradeMordorFortressLavaMoat
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat
-"Decreases melee vulnerability of the Fortress \n Heals Nearby Units"
+"Decreases melee vulnerability of the Fortress \n Heals Nearby Units \n Reduces the cost of Mordor structures and walls \n 1 Fortress with Lava Moat = 15% cheaper \n 2 Fortresses: 20% cheaper \n 3 Fortresses: 25% cheaper \n 4 Fortresses: 30% cheaper \n 5 Fortresses: 35% cheaper"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressGorgorothSpire
