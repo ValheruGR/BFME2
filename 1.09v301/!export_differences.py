@@ -36,7 +36,7 @@ if result.returncode != 0:
 # Filter files that contain '1.09v3' in their path
 modified_files = [line for line in result.stdout.splitlines() if "1.09v3/data" in line]
 # ic(modified_files)
-input("all gud")
+# input("all gud")
 # Copy modified files to the destination path
 for file in modified_files:
 	sourceFile = repoPath / file
