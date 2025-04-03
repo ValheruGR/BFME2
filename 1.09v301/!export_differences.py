@@ -11,7 +11,7 @@ from icecream import ic
 repoPath = Path(r"D:\_")
 # input(repoPath.exists())
 
-destPath = Path.cwd()
+destPath = Path(r"D:\_\1.09v301")
 # input(destPath.exists())
 # refresh = destPath / "###__BT2DC-v1.09v3.01.big"
 # refresh.open('w').close()
@@ -34,15 +34,16 @@ if result.returncode != 0:
 # ic(result.stdout.splitlines())
 
 # Filter files that contain '1.09v3' in their path
-modified_files = [line for line in result.stdout.splitlines() if "1.09v3/" in line]
-ic(modified_files)
-
+modified_files = [line for line in result.stdout.splitlines() if "1.09v3/data" in line]
+# ic(modified_files)
+input("all gud")
 # Copy modified files to the destination path
 for file in modified_files:
 	sourceFile = repoPath / file
 	
 	print(f"{sourceFile=} exists: {sourceFile.exists()}")
 	
+	# input("wait")
 	# ic(sourceFilesourceFile.exists(), )
 	# ic(sourceFile)
 	targetFile = destPath / (file.replace("1.09v3/",""))
@@ -54,3 +55,4 @@ for file in modified_files:
 	shutil.copy2(sourceFile, targetFile)
 
 print(f"Files copied successfully to {destPath}")
+# input("done")
