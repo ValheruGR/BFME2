@@ -34,7 +34,7 @@ if result.returncode != 0:
 # ic(result.stdout.splitlines())
 
 # Filter files that contain '1.09v3' in their path
-modified_files = [line for line in result.stdout.splitlines() if "1.09v3/data" in line]
+modified_files = [line for line in result.stdout.splitlines() if ("1.09v3/data" in line) or ("1.09v3/maps450" in line)]
 # ic(modified_files)
 # input("all gud")
 # Copy modified files to the destination path
