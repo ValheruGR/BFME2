@@ -24,6 +24,13 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //----------------------------------
+CONTROLBAR:SpecialAbilityHumanHeads09v301
+"Human Heads [&C]"
+End
+CONTROLBAR:SpecialAbilityHumanHeadsDesc09v301
+"Launches human heads to scare off enemies. \n Left click icon then left click on target area"
+End
+//----------------------------------
 CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
 "Morgul Blade [&V]"
 END
@@ -32780,7 +32787,7 @@ End
 
 
 CONTROLBAR:SpecialAbilityOilBarrels
-"O&il Barrels"
+"Oil Barrels [&C]"
 End
 
 
