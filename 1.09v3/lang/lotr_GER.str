@@ -25,35 +25,35 @@ CONTROLBAR:nothingDesc09v2
 END
 //----------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v301
-"Decreases the melee vulnerability of the Fortress \n Replenish one unit from the closest horde each 7.5 seconds. \n Water discount: reduces the cost of Ents. \n 1 Fortress with Moat = Ents 12.5% cheaper \n 2 Fortresses: 25% cheaper \n 3 Fortresses: 37.5% cheaper \n 4 Fortresses: 50% cheaper \n 5 Fortresses: 62.5% cheaper"
+"Verringert die Nahkampfanfälligkeit der Festung\nStellt alle 7,5 Sekunden eine Einheit aus der nächsten Horde wieder her.\nWasserbonus: Verringert die Kosten für Ents.\n1 Festung mit Wassergraben = Ents 12,5 % günstiger\n2 Festungen: 25 % günstiger\n3 Festungen: 37,5 % günstiger\n4 Festungen: 50 % günstiger\n5 Festungen: 62,5 % günstiger"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v301
-"Poisons the enemy units attacking the Fortress and reduce their total speed to 85%. \n Heals nearby Allies. \n Combined with Dragon Nest, can heal any allied flying unit."
+"Vergiftet feindliche Einheiten, die die Festung angreifen, und reduziert ihre Gesamttempo auf 85 %.\nHeilt nahe Verbündete.\nIn Kombination mit dem Drachennest können auch fliegende Verbündete geheilt werden."
 END
 CONTROLBAR:ToolTipGloriousCharge09v3
-"Requires Level 5 \n Theoden and nearby cavalry gain +60% Armor and become immune to decelerate by trampling. \n Level 8: Glorious charge gains another +40% armor, +35% damage and immunity to fear and terror. \n Theoden must be mounted to use this ability \n Lasts 20 seconds. \n Left click to activate"
+"Erfordert Stufe 5\nTheoden und nahe Kavallerie erhalten +60 % Rüstung und werden immun gegen Verlangsamung durch Niedermähen.\nStufe 8: Glorreicher Ansturm erhält zusätzlich +40 % Rüstung, +35 % Schaden sowie Immunität gegen Angst und Schrecken.\nTheoden muss beritten sein, um diese Fähigkeit zu verwenden\nDauer: 20 Sekunden.\nLinksklick zum Aktivieren"
 END
 CONTROLBAR:EvacuateHobbits09v301
-"Evacua&te Merry & Pippin"
+"Evakui&ere Merry & Pippin"
 End
 CONTROLBAR:EvacuateHobbitsDesc09v301
-"Order Merry & Pippin to dismount Treebeard"
+"Befiehlt Merry & Pippin, von Baumbart abzusteigen"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations09v301
-"Heals nearby Allies. \n Replenish one unit from the closest horde each 5 seconds. \n Reduces the cost of Isengard structures and walls \n 1 Fortress with Excavations = 7.5% cheaper \n 2 Fortresses with Excavations = 15% cheaper \n 3 Fortresses with Excavations = 20% cheaper \n 4 Fortresses with Excavations = 25% cheaper \n 5 Fortresses with Excavations = 33% cheaper"
+"Heilt nahe Verbündete.\nStellt alle 5 Sekunden eine Einheit aus der nächsten Horde wieder her.\nVerringert die Kosten für Isengard-Gebäude und -Mauern\n1 Festung mit Ausgrabung = 7,5 % günstiger\n2 Festungen mit Ausgrabung = 15 % günstiger\n3 Festungen mit Ausgrabung = 20 % günstiger\n4 Festungen mit Ausgrabung = 25 % günstiger\n5 Festungen mit Ausgrabung = 33 % günstiger"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat09v301
-"Decreases melee vulnerability of the Fortress \n Heals Nearby Units \n Reduces the cost of Mordor upgrades \n 1 Fortress with Lava Moat = 10% cheaper \n 2 Fortresses: 20% cheaper \n 3 Fortresses: 30% cheaper \n 4 Fortresses: 40% cheaper \n 5 Fortresses: 50% cheaper"
+"Verringert die Nahkampfanfälligkeit der Festung\nHeilt nahe Einheiten\nVerringert die Kosten für Mordor-Upgrades\n1 Festung mit Lavagraben = 10 % günstiger\n2 Festungen: 20 % günstiger\n3 Festungen: 30 % günstiger\n4 Festungen: 40 % günstiger\n5 Festungen: 50 % günstiger"
 END
 CONTROLBAR:ToolTipDwarvenGloinShakeFoundation09v301
-"Requires Level 4 \n Disables target building. \n Reducing the structure's production to 10% for 10 seconds. \n Automatically opens targeted gate \n Left click icon then left click on target"
+"Erfordert Stufe 4\nDeaktiviert das Zielgebäude.\nReduziert die Produktion des Gebäudes für 10 Sekunden auf 10 %.\nÖffnet automatisch ein anvisiertes Tor\nLinksklick auf das Symbol, dann Linksklick auf das Ziel"
 END
 //----------------------------------
 CONTROLBAR:SpecialAbilityHumanHeads09v301
-"Human Heads [&C]"
+"Menschliche Köpfe [&C]"
 End
 CONTROLBAR:SpecialAbilityHumanHeadsDesc09v301
-"Launches human heads to scare off enemies. \n Left click icon then left click on target area"
+"Wirft menschliche Köpfe, um Feinde in die Flucht zu schlagen.\nLinksklick auf das Symbol, dann Linksklick auf das Zielgebiet"
 End
 //----------------------------------
 CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3

@@ -25,35 +25,35 @@ CONTROLBAR:nothingDesc09v2
 END
 //----------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v301
-"Decreases the melee vulnerability of the Fortress \n Replenish one unit from the closest horde each 7.5 seconds. \n Water discount: reduces the cost of Ents. \n 1 Fortress with Moat = Ents 12.5% cheaper \n 2 Fortresses: 25% cheaper \n 3 Fortresses: 37.5% cheaper \n 4 Fortresses: 50% cheaper \n 5 Fortresses: 62.5% cheaper"
+"Снижает уязвимость крепости в ближнем бою\nВосстанавливает одного бойца из ближайшего отряда каждые 7,5 секунды\nСкидка за воду: снижает стоимость энтов\n1 крепость с рвом = энты на 12,5 % дешевле\n2 крепости: на 25 % дешевле\n3 крепости: на 37,5 % дешевле\n4 крепости: на 50 % дешевле\n5 крепостей: на 62,5 % дешевле"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v301
-"Poisons the enemy units attacking the Fortress and reduce their total speed to 85%. \n Heals nearby Allies. \n Combined with Dragon Nest, can heal any allied flying unit."
+"Отравляет вражеские войска, атакующие крепость, и снижает их скорость до 85 %.\nЛечит союзников поблизости.\nВ сочетании с Гнездом дракона может лечить любые летающие союзные юниты."
 END
 CONTROLBAR:ToolTipGloriousCharge09v3
-"Requires Level 5 \n Theoden and nearby cavalry gain +60% Armor and become immune to decelerate by trampling. \n Level 8: Glorious charge gains another +40% armor, +35% damage and immunity to fear and terror. \n Theoden must be mounted to use this ability \n Lasts 20 seconds. \n Left click to activate"
+"Требуется 5 уровень\nТеоден и ближайшая кавалерия получают +60 % брони и иммунитет к замедлению от натиска.\n8 уровень: Славная атака получает дополнительно +40 % брони, +35 % урона и иммунитет к страху и ужасу.\nТеоден должен быть верхом, чтобы использовать эту способность\nДлится 20 секунд.\nЩелкните левой кнопкой, чтобы активировать"
 END
 CONTROLBAR:EvacuateHobbits09v301
-"Evacua&te Merry & Pippin"
+"Эвакуируй&те Мерри и Пиппина"
 End
 CONTROLBAR:EvacuateHobbitsDesc09v301
-"Order Merry & Pippin to dismount Treebeard"
+"Прикажите Мерри и Пиппину слезть с Древобородa"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations09v301
-"Heals nearby Allies. \n Replenish one unit from the closest horde each 5 seconds. \n Reduces the cost of Isengard structures and walls \n 1 Fortress with Excavations = 7.5% cheaper \n 2 Fortresses with Excavations = 15% cheaper \n 3 Fortresses with Excavations = 20% cheaper \n 4 Fortresses with Excavations = 25% cheaper \n 5 Fortresses with Excavations = 33% cheaper"
+"Лечит союзников поблизости.\nВосстанавливает одного бойца из ближайшего отряда каждые 5 секунд.\nСнижает стоимость построек и стен Изенгарда\n1 крепость с раскопками = на 7,5 % дешевле\n2 крепости = на 15 % дешевле\n3 крепости = на 20 % дешевле\n4 крепости = на 25 % дешевле\n5 крепостей = на 33 % дешевле"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat09v301
-"Decreases melee vulnerability of the Fortress \n Heals Nearby Units \n Reduces the cost of Mordor upgrades \n 1 Fortress with Lava Moat = 10% cheaper \n 2 Fortresses: 20% cheaper \n 3 Fortresses: 30% cheaper \n 4 Fortresses: 40% cheaper \n 5 Fortresses: 50% cheaper"
+"Снижает уязвимость крепости в ближнем бою\nЛечит ближайшие войска\nСнижает стоимость улучшений Мордора\n1 крепость с лавовым рвом = на 10 % дешевле\n2 крепости: на 20 % дешевле\n3 крепости: на 30 % дешевле\n4 крепости: на 40 % дешевле\n5 крепостей: на 50 % дешевле"
 END
 CONTROLBAR:ToolTipDwarvenGloinShakeFoundation09v301
-"Requires Level 4 \n Disables target building. \n Reducing the structure's production to 10% for 10 seconds. \n Automatically opens targeted gate \n Left click icon then left click on target"
+"Требуется 4 уровень\nОтключает выбранное здание.\nСнижает его производство до 10 % на 10 секунд.\nАвтоматически открывает выбранные ворота\nЩелкните по иконке, затем по цели"
 END
 //----------------------------------
 CONTROLBAR:SpecialAbilityHumanHeads09v301
-"Human Heads [&C]"
+"Человеческие головы [&C]"
 End
 CONTROLBAR:SpecialAbilityHumanHeadsDesc09v301
-"Launches human heads to scare off enemies. \n Left click icon then left click on target area"
+"Запускает человеческие головы, чтобы напугать врагов.\nЩелкните по иконке, затем по целевой области"
 End
 //----------------------------------
 CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
@@ -71,7 +71,6 @@ OBJECT:LF_New
 End
 OBJECT:LF_Disc_New
 «Захватите его, чтобы сократить время перезарядки неиспользованных способностей. \n Исцеляет ближайших героев и летунов. \n\n Сокращение времени перезарядки книги заклинаний на 25%».
-
 End
 OBJECT:MercenaryCamp_New
 «Лагерь наемников»

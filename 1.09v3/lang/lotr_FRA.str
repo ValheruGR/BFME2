@@ -25,35 +25,35 @@ CONTROLBAR:nothingDesc09v2
 END
 //----------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v301
-"Decreases the melee vulnerability of the Fortress \n Replenish one unit from the closest horde each 7.5 seconds. \n Water discount: reduces the cost of Ents. \n 1 Fortress with Moat = Ents 12.5% cheaper \n 2 Fortresses: 25% cheaper \n 3 Fortresses: 37.5% cheaper \n 4 Fortresses: 50% cheaper \n 5 Fortresses: 62.5% cheaper"
+"Réduit la vulnérabilité de la forteresse au corps-à-corps\nRestaure une unité de la horde la plus proche toutes les 7,5 secondes.\nRéduction aquatique : diminue le coût des Ents.\n1 forteresse avec douve = Ents 12,5 % moins chers\n2 forteresses : 25 % moins chers\n3 forteresses : 37,5 % moins chers\n4 forteresses : 50 % moins chers\n5 forteresses : 62,5 % moins chers"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v301
-"Poisons the enemy units attacking the Fortress and reduce their total speed to 85%. \n Heals nearby Allies. \n Combined with Dragon Nest, can heal any allied flying unit."
+"Empoisonne les unités ennemies attaquant la forteresse et réduit leur vitesse totale à 85 %.\nSoigne les alliés à proximité.\nCombiné au Nid de dragon, peut soigner toute unité volante alliée."
 END
 CONTROLBAR:ToolTipGloriousCharge09v3
-"Requires Level 5 \n Theoden and nearby cavalry gain +60% Armor and become immune to decelerate by trampling. \n Level 8: Glorious charge gains another +40% armor, +35% damage and immunity to fear and terror. \n Theoden must be mounted to use this ability \n Lasts 20 seconds. \n Left click to activate"
+"Nécessite le niveau 5\nThéoden et la cavalerie proche gagnent +60 % d’armure et deviennent immunisés au ralentissement par piétinement.\nNiveau 8 : Charge glorieuse gagne +40 % d’armure supplémentaires, +35 % de dégâts et une immunité à la peur et à la terreur.\nThéoden doit être à cheval pour utiliser cette capacité\nDure 20 secondes.\nClic gauche pour activer"
 END
 CONTROLBAR:EvacuateHobbits09v301
-"Evacua&te Merry & Pippin"
+"Éva&cuez Merry & Pippin"
 End
 CONTROLBAR:EvacuateHobbitsDesc09v301
-"Order Merry & Pippin to dismount Treebeard"
+"Ordonnez à Merry & Pippin de descendre de Sylvebarbe"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations09v301
-"Heals nearby Allies. \n Replenish one unit from the closest horde each 5 seconds. \n Reduces the cost of Isengard structures and walls \n 1 Fortress with Excavations = 7.5% cheaper \n 2 Fortresses with Excavations = 15% cheaper \n 3 Fortresses with Excavations = 20% cheaper \n 4 Fortresses with Excavations = 25% cheaper \n 5 Fortresses with Excavations = 33% cheaper"
+"Soigne les alliés à proximité.\nRestaure une unité de la horde la plus proche toutes les 5 secondes.\nRéduit le coût des structures et murs d’Isengard\n1 forteresse avec excavation = 7,5 % moins cher\n2 forteresses avec excavation = 15 % moins cher\n3 forteresses avec excavation = 20 % moins cher\n4 forteresses avec excavation = 25 % moins cher\n5 forteresses avec excavation = 33 % moins cher"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat09v301
-"Decreases melee vulnerability of the Fortress \n Heals Nearby Units \n Reduces the cost of Mordor upgrades \n 1 Fortress with Lava Moat = 10% cheaper \n 2 Fortresses: 20% cheaper \n 3 Fortresses: 30% cheaper \n 4 Fortresses: 40% cheaper \n 5 Fortresses: 50% cheaper"
+"Réduit la vulnérabilité de la forteresse au corps-à-corps\nSoigne les unités proches\nRéduit le coût des améliorations du Mordor\n1 forteresse avec douve de lave = 10 % moins cher\n2 forteresses : 20 % moins cher\n3 forteresses : 30 % moins cher\n4 forteresses : 40 % moins cher\n5 forteresses : 50 % moins cher"
 END
 CONTROLBAR:ToolTipDwarvenGloinShakeFoundation09v301
-"Requires Level 4 \n Disables target building. \n Reducing the structure's production to 10% for 10 seconds. \n Automatically opens targeted gate \n Left click icon then left click on target"
+"Nécessite le niveau 4\nDésactive le bâtiment ciblé.\nRéduit sa production à 10 % pendant 10 secondes.\nOuvre automatiquement la porte ciblée\nClic gauche sur l’icône, puis clic gauche sur la cible"
 END
 //----------------------------------
 CONTROLBAR:SpecialAbilityHumanHeads09v301
-"Human Heads [&C]"
+"Têtes humaines [&C]"
 End
 CONTROLBAR:SpecialAbilityHumanHeadsDesc09v301
-"Launches human heads to scare off enemies. \n Left click icon then left click on target area"
+"Lance des têtes humaines pour faire fuir les ennemis.\nClic gauche sur l’icône, puis clic gauche sur la zone ciblée"
 End
 //----------------------------------
 CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
@@ -213,20 +213,20 @@ END
 
 //------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
-"Prince of Ithilien [&V]"
+"Prince d’Ithilien [&V]"
 END
 CONTROLBAR:PrinceofIthilienDesc09v2
-"Requiert : niveau 5 \n Targeted archers gain experience. \n Left click icon, then left click on target archers."
+"Requiert : niveau 5\nLes archers ciblés gagnent de l’expérience.\nClic gauche sur l’icône, puis clic gauche sur les archers ciblés."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
-"Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on allies"
+"Augmente la portée de vision de la forteresse et permet la détection des unités furtives.\nDébloque l’utilisation de la Vision du Palantír sur les alliés"
 END
 CONTROLBAR:TooltipIvoryTowerVision09v2
-"Reveals the entire shroud \n Player units on the map gain +10% speed \n «IvoryTower BUFF» \n Lasts 30 seconds"
+"Révèle tout le brouillard de guerre\nLes unités du joueur gagnent +10 % de vitesse\n« IvoryTower BUFF »\nDure 30 secondes"
 End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
-"Requiert : niveau 3 \n Améliore cette horde avec les poches à venin \nEmpoisonne les ennemis et inflige des dégâts progressivement"
+"Requiert : niveau 3\nAméliore cette horde avec des poches à venin\nEmpoisonne les ennemis et inflige des dégâts progressifs"
 END
 //------------------------------------------------------------
 Color:Cyan09v2
