@@ -24,6 +24,29 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //----------------------------------
+CONTROLBAR:EvacuateHobbits09v301
+"Evacua&te Merry & Pippin"
+End
+CONTROLBAR:EvacuateHobbitsDesc09v301
+"Order Merry & Pippin to dismount Treebeard"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations09v301
+"Heals nearby Allies. \n Replenish one unit from the closest horde each 5 seconds. \n Reduces the cost of Isengard structures and walls \n 1 Fortress with Excavations = 7.5% cheaper \n 2 Fortresses with Excavations = 15% cheaper \n 3 Fortresses with Excavations = 20% cheaper \n 4 Fortresses with Excavations = 25% cheaper \n 5 Fortresses with Excavations = 33% cheaper"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat09v301
+"Decreases melee vulnerability of the Fortress \n Heals Nearby Units \n Reduces the cost of Mordor upgrades \n 1 Fortress with Lava Moat = 10% cheaper \n 2 Fortresses: 20% cheaper \n 3 Fortresses: 30% cheaper \n 4 Fortresses: 40% cheaper \n 5 Fortresses: 50% cheaper"
+END
+CONTROLBAR:ToolTipDwarvenGloinShakeFoundation09v301
+"Requires Level 4 \n Disables target building. \n Reducing the structure's production to 10% for 10 seconds. \n Automatically opens targeted gate \n Left click icon then left click on target"
+END
+//----------------------------------
+CONTROLBAR:SpecialAbilityHumanHeads09v301
+"Human Heads [&C]"
+End
+CONTROLBAR:SpecialAbilityHumanHeadsDesc09v301
+"Launches human heads to scare off enemies. \n Left click icon then left click on target area"
+End
+//----------------------------------
 CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
 "Morgul Blade [&V]"
 END
@@ -613,7 +636,7 @@ CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
 "Strong vs. Cavalry and \n Unit Production Buildings \n Tower Guards gain +5% speed at level 3, 5 and 7."
 END
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
-"Mýzraklýlara karþý güçlü\n and Resource Buildings \n Guardians gain +5% speed at level 3, 5, 7 and 10."
+"Mýzraklýlara karþý güçlü\n and Resource Buildings \n Guardians gain +5% speed at level 5, 7 and 10."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
@@ -32814,7 +32837,7 @@ End
 
 
 CONTROLBAR:SpecialAbilityOilBarrels
-"Yað Fýçýlarý [&I]"
+"Yað Fýçýlarý [&C]"
 End
 
 

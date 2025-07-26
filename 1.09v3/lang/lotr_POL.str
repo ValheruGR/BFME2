@@ -24,6 +24,38 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //----------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v301
+"Decreases the melee vulnerability of the Fortress \n Replenish one unit from the closest horde each 7.5 seconds. \n Water discount: reduces the cost of Ents. \n 1 Fortress with Moat = Ents 12.5% cheaper \n 2 Fortresses: 25% cheaper \n 3 Fortresses: 37.5% cheaper \n 4 Fortresses: 50% cheaper \n 5 Fortresses: 62.5% cheaper"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v301
+"Poisons the enemy units attacking the Fortress and reduce their total speed to 85%. \n Heals nearby Allies. \n Combined with Dragon Nest, can heal any allied flying unit."
+END
+CONTROLBAR:ToolTipGloriousCharge09v3
+"Requires Level 5 \n Theoden and nearby cavalry gain +60% Armor and become immune to decelerate by trampling. \n Level 8: Glorious charge gains another +40% armor, +35% damage and immunity to fear and terror. \n Theoden must be mounted to use this ability \n Lasts 20 seconds. \n Left click to activate"
+END
+CONTROLBAR:EvacuateHobbits09v301
+"Evacua&te Merry & Pippin"
+End
+CONTROLBAR:EvacuateHobbitsDesc09v301
+"Order Merry & Pippin to dismount Treebeard"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations09v301
+"Heals nearby Allies. \n Replenish one unit from the closest horde each 5 seconds. \n Reduces the cost of Isengard structures and walls \n 1 Fortress with Excavations = 7.5% cheaper \n 2 Fortresses with Excavations = 15% cheaper \n 3 Fortresses with Excavations = 20% cheaper \n 4 Fortresses with Excavations = 25% cheaper \n 5 Fortresses with Excavations = 33% cheaper"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat09v301
+"Decreases melee vulnerability of the Fortress \n Heals Nearby Units \n Reduces the cost of Mordor upgrades \n 1 Fortress with Lava Moat = 10% cheaper \n 2 Fortresses: 20% cheaper \n 3 Fortresses: 30% cheaper \n 4 Fortresses: 40% cheaper \n 5 Fortresses: 50% cheaper"
+END
+CONTROLBAR:ToolTipDwarvenGloinShakeFoundation09v301
+"Requires Level 4 \n Disables target building. \n Reducing the structure's production to 10% for 10 seconds. \n Automatically opens targeted gate \n Left click icon then left click on target"
+END
+//----------------------------------
+CONTROLBAR:SpecialAbilityHumanHeads09v301
+"Human Heads [&C]"
+End
+CONTROLBAR:SpecialAbilityHumanHeadsDesc09v301
+"Launches human heads to scare off enemies. \n Left click icon then left click on target area"
+End
+//----------------------------------
 CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
 "Morgul Blade [&V]"
 END
@@ -217,10 +249,10 @@ Color:Grey
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAxeThrow09v2
-"Potezny atak dystansowy zadajacy obrazenia obszarowe \n Szczególnie skuteczny w walce z kawaleria \n Ability damage is improved at level 4 and 7. \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
+"Potezny atak dystansowy zadajacy obrazenia obszarowe \n Szczególnie skuteczny w walce z kawaleria \n Ability damage is improved at level 4 and 8. \n Kliknij lewym przyciskiem na ikonie, a nastepnie na celu"
 END
 CONTROLBAR:ToolTipLeap09v2
-"Wymaga 2 poziomu \n Gimli skacze w wybrane miejsce powodujac zniszczenie obszarowe \n Ability radius of effect is improved at level 4 and 7. \n Kliknij lewym przyciskiem na ikonie, a nastepnie wybranym obszarze"
+"Wymaga 2 poziomu \n Gimli skacze w wybrane miejsce powodujac zniszczenie obszarowe \n Ability radius of effect is improved at level 4 and 8. \n Kliknij lewym przyciskiem na ikonie, a nastepnie wybranym obszarze"
 END
 TOOLTIP:ToolTipWitchKing09v2
 "Mace attack radius of effect is improved at level 5 and 8."
@@ -600,11 +632,11 @@ OBJECT:SignalFireDescription09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
-"Strong vs. Cavalry and \n Unit Production Buildings \n Tower Guards gain +5% speed at level 3, 5 and 7."
+"Strong vs. Cavalry and \n Unit Production Buildings \n Tower Guards gain +5% speed at level 5 and 8."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
-"Strong vs. Pikemen\n and Resource Buildings \n Guardians gain +5% speed at level 3, 5, 7 and 10."
+"Strong vs. Pikemen\n and Resource Buildings \n Guardians gain +5% speed at level 5, 7 and 10."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
@@ -30249,7 +30281,7 @@ CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades
 END
 
 CONTROLBAR:SpecialAbilityOilBarrels
-"Beczki oleju (&i)"
+"Beczki oleju (&C)"
 END
 
 CONTROLBAR:SpecialAbilitySummonedDragonReposition
