@@ -3,56 +3,48 @@ from pathlib import Path
 import shutil
 from icecream import ic
 
+class ToMoveFile:
+	SRC: Path
+	DST: Path
+	def __init__(self, raw:str):
+		self.raw = raw
+		self.src = ToMoveFile.SRC / raw
+		if "1.09v3/lang/" in raw:
+			self.dst = ToMoveFile.SRC / raw.replace("1.09v3/", "1.09v301/").replace("patch109v3.big", "patch109v301.big")
+		else:
+			self.dst = ToMoveFile.SRC / raw.replace("1.09v3/", "1.09v301/")
 
-
-
-
-# Define paths
-repoPath = Path(r"D:\_")
-# input(repoPath.exists())
-
-destPath = Path(r"D:\_\1.09v301")
-# input(destPath.exists())
-# refresh = destPath / "###__BT2DC-v1.09v3.01.big"
-# refresh.open('w').close()
-
-# Ensure the destination directory exists
-destPath.mkdir(parents=True, exist_ok=True)
-
-# Get list of modified files in the 1.09v3\ directory compared to master
-result = subprocess.run(
-	["git", "-C", str(repoPath), "diff", "--name-only", "master"],
-	capture_output=True,
-	text=True
-)
-
-# Check for errors in the git command
-if result.returncode != 0:
-	input("Error running git command:", result.stderr)
-	exit(1)
+	@staticmethod
+	def filter_condition(x: str) -> bool:
+		if x.startswith("1.09v3/lang") and x.endswith("patch109v3.big"):
+			return True
+		
+		for to_include in {"1.09v3/maps450/", "1.09v3/maps560/", "1.09v3/art/", "1.09v3/data/"}:
+			if x.startswith(to_include):
+				return True
 	
-# ic(result.stdout.splitlines())
-
-# Filter files that contain '1.09v3' in their path
-modified_files = [line for line in result.stdout.splitlines() if ("1.09v3/data" in line) or ("1.09v3/maps450" in line) or ("1.09v3/art" in line)]
-# ic(modified_files)
-# input("all gud")
-# Copy modified files to the destination path
-for file in modified_files:
-	sourceFile = repoPath / file
+	def apply(self):
+		self.dst.parent.mkdir(parents=True, exist_ok=True)
+		shutil.copy2(self.src, self.dst)
+		print(f"Successfully built {self.dst.relative_to(ToMoveFile.SRC)}")
+		
+	def __repr__(self):
+		return f"|Src: {self.src}|Dst: {self.dst}"
+		
+if __name__ == "__main__":
+	ToMoveFile.SRC = Path(r"D:\_")
+	ToMoveFile.DST = Path(r"D:\_\1.09v301")
 	
-	print(f"{sourceFile=} exists: {sourceFile.exists()}")
-	
-	# input("wait")
-	# ic(sourceFilesourceFile.exists(), )
-	# ic(sourceFile)
-	targetFile = destPath / (file.replace("1.09v3/",""))
-	# ic(sourceFile, targetFile)
-	# Create target directory if it doesn't exist
-	targetFile.parent.mkdir(parents=True, exist_ok=True)
+	result = subprocess.run(
+		["git", "-C", str(ToMoveFile.SRC), "diff", "--name-only", "master"],
+		capture_output=True,
+		text=True
+	)
 
-	# Copy file
-	shutil.copy2(sourceFile, targetFile)
-
-print(f"Files copied successfully to {destPath}")
-# input("done")
+	if result.returncode != 0:
+		input("Error running git command:", result.stderr)
+		exit(1)
+	else:
+		files = [ToMoveFile(file) for file in result.stdout.splitlines() if ToMoveFile.filter_condition(file)]
+		for file in files:
+			file.apply()
