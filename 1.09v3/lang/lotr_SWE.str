@@ -278,10 +278,10 @@ CONTROLBAR:SummonEagleAlliesGaladriel09v2
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
-"Level 2: +50 Command Points"
+"Level 2: 100 Command Points"
 END
 UPGRADE:FarmLevel3Tooltip09v2
-"Level 3: +75 Command Points"
+"Level 3: 150 Command Points"
 END
 CONTROLBAR:ThunderBolt09v2
 "Thunderbolt Storm [&B]"

@@ -279,10 +279,10 @@ CONTROLBAR:SummonEagleAlliesGaladriel09v2
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
-"Stufe 2: +50 Kommandeurspunkte"
+"Stufe 2: 100 Kommandeurspunkte"
 END
 UPGRADE:FarmLevel3Tooltip09v2
-"Stufe 3: +75 Kommandeurspunkte""
+"Stufe 3: 150 Kommandeurspunkte""
 END
 CONTROLBAR:ThunderBolt09v2
 "Sturmblitze [&B]"

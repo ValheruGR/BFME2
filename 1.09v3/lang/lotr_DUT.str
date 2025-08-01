@@ -277,10 +277,10 @@ CONTROLBAR:SummonEagleAlliesGaladriel09v2
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
-"Level 2: +50 Commandopunten"
+"Level 2: 100 Commandopunten"
 END
 UPGRADE:FarmLevel3Tooltip09v2
-"Level 3: +75 Commandopunten"
+"Level 3: 150 Commandopunten"
 END
 CONTROLBAR:ThunderBolt09v2
 "Storm van bliksemschichten [&B]"

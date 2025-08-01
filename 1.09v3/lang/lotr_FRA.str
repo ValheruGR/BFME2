@@ -278,10 +278,10 @@ CONTROLBAR:SummonEagleAlliesGaladriel09v2
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
-"Niveau 2: +50 Points de commandement."
+"Niveau 2: 100 Points de commandement."
 END
 UPGRADE:FarmLevel3Tooltip09v2
-"Niveau 3: +75 Points de commandement."
+"Niveau 3: 150 Points de commandement."
 END
 CONTROLBAR:ThunderBolt09v2
 "Coup de tonnerre [&B]"

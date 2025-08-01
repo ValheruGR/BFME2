@@ -278,10 +278,10 @@ CONTROLBAR:SummonEagleAlliesGaladriel09v2
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
-"Уровень 2: +50 Очков командования"
+"Уровень 2: 100 Очков командования"
 END
 UPGRADE:FarmLevel3Tooltip09v2
-"Уровень 3: +75 Очков командования"
+"Уровень 3: 150 Очков командования"
 END
 CONTROLBAR:ThunderBolt09v2
 "Thunderbolt Storm [&B]"

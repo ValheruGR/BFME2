@@ -277,10 +277,10 @@ CONTROLBAR:SummonEagleAlliesGaladriel09v2
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
-"Nivel 2: +50 Puntos de mando"
+"Nivel 2: 100 Puntos de mando"
 END
 UPGRADE:FarmLevel3Tooltip09v2
-"Nivel 3: +75 Puntos de mando"
+"Nivel 3: 150 Puntos de mando"
 END
 CONTROLBAR:ThunderBolt09v2
 "Tormenta de Rayos (&B)"
