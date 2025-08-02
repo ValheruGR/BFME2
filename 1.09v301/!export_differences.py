@@ -47,8 +47,11 @@ class MyStuff:
 		def set_readonly_windows(path: Path):
 			FILE_ATTRIBUTE_READONLY = 0x01
 			ctypes.windll.kernel32.SetFileAttributesW(str(path), FILE_ATTRIBUTE_READONLY)
-		path.write_bytes(b'')
-		set_readonly_windows(path)
+		try:
+			path.write_bytes(b'')
+			set_readonly_windows(path)
+		except:
+			pass
 		
 	@staticmethod
 	def clean_empty_dirs(path: Path) -> bool:
