@@ -3,6 +3,7 @@ from pathlib import Path
 import shutil
 from icecream import ic
 import ctypes
+from pyBIG import Archive, LargeArchive
 
 	
 class ToMoveFile:
@@ -39,7 +40,42 @@ class ToMoveFile:
 	def __repr__(self):
 		return f"|Src: {self.src}|Dst: {self.dst}"
 
-		
+
+
+
+def build_large_big():
+	root = Path(__file__).parent
+	folders = ['art', 'maps']
+	out_name = "###__BT2DC-v1.09v3.01.big"
+	out_file = root / out_name
+
+	# Initialize an empty or existing big archive
+	archive = LargeArchive(str(out_file)) if out_file.exists() else LargeArchive(None)
+
+	for folder in folders:
+		base = root / folder
+		if not base.exists():
+			print(f"⚠️ Missing folder: {folder}, skipping...")
+			continue
+
+		for file in base.rglob('*'):
+			if not file.is_file():
+				continue
+			rel = file.relative_to(root).as_posix()  # e.g. 'art/model/foo.msh'
+			with file.open('rb') as f:
+				data = f.read()
+			archive.add_file(rel, data)
+			print(f"Added: {rel} ({file.stat().st_size} bytes)")
+
+	print("Repacking archive... (may take a while)")
+	archive.repack()
+	archive.save(str(out_file))
+	print(f"✅ Saved BIG: {out_file}")
+
+
+
+
+
 		
 class MyStuff:
 	@staticmethod
@@ -144,3 +180,4 @@ if __name__ == "__main__":
 			file.apply()
 		MyStuff.clean_empty_dirs(Path(r"D:\_\1.09v301\maps560"))
 		MyStuff.flatten_maps_folder()
+		# build_large_big()
