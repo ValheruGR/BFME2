@@ -6,6 +6,17 @@ from functools import wraps, cached_property
 
 @dataclass
 class MapCache:
+	_REPLACEMENTS = {
+		"_00": "",
+		"_24": " ",
+		"_3A": " ",
+		"_5C": "\\",
+		"_20": " ",
+		"_2E": ".",
+		"_5F": "_",
+	}
+
+
 	key: str
 	displayName: Optional[str] = None
 	description: Optional[str] = None
@@ -13,17 +24,20 @@ class MapCache:
 	raw_lines: List[str] = field(default_factory=list)  # Opcional: por si querés guardar el bloque crudo
 
 	def __str__(self):
-		# return f"{self.key} - {self.displayName} ({len(self.player_starts)} players)"
-		# return self.displayNamePretty()
 		return f"{self.path}: Exists: {self.path.exists()}"
 
-	@cached_property
-	def path(self):
-		return Path(self.key.replace("_00","").replace("_24","").replace("3A"," ").replace("_5C","\\").replace("_20"," ").replace("_2E",".").replace("_5F","_"))
-		
+	@staticmethod
+	def _decode_string(s: str) -> str:
+		for old, new in MapCache._REPLACEMENTS.items():
+			s = s.replace(old, new)
+		return s
 
-	def displayNamePretty(self):
-		return self.displayName.replace("_00","").replace("_24"," ").replace("3A"," ")
+	@cached_property
+	def path(self) -> Path:
+		return Path(MapCache._decode_string(self.key))
+
+	def displayNamePretty(self) -> str:
+		return MapCache._decode_string(self.displayName)
 
 def parse_mapcache_ini(path: str) -> List[MapCache]:
 	result = []
@@ -64,13 +78,35 @@ def parse_mapcache_ini(path: str) -> List[MapCache]:
 	return result
 
 
+
+def real_path(path: Path):
+	if path.absolute().exists():
+		# print("Se encontro la version de v3")
+		return path
+		
+	v2version = Path(str(path.absolute()).replace("1.09v3", "1.09v2"))
+	if v2version.exists():
+		# print("Se encontro la version de v2")
+		return v2version
+		
+	v1version = Path(str(path.absolute()).replace("1.09v3", "1.09v1"))
+	if v1version.exists():
+		# print("Se encontro la version de v1")
+		return v1version
+		
+	v106version = Path(str(path.absolute()).replace("1.09v3", "1.06").replace("maps450","maps300"))
+	if v106version.exists():
+		# print("Se encontro la version de 106")
+		return v1version
+		
+	print(f"No se encontro este mapa: {path}")
+	
+
 if __name__ == "__main__":
 	mapcachesList: list[MapCache] = parse_mapcache_ini("maps/MapCache.ini")
 	print(f"Se leyeron {len(mapcachesList)} mapas.")
-	# print(files)
 	for mc in mapcachesList:
-		if not mc.path.exists():
-			print(f"\tProblema. Real map doesn't exist for {mc.path}")
+		realpath = real_path(mc.path)
 			
 			
 	LEGAL_MAPS = {map.path.name.lower() for map in mapcachesList}
