@@ -12,14 +12,16 @@ class ToMoveFile:
 	def __init__(self, raw:str):
 		self.raw = raw
 		self.src = ToMoveFile.SRC / raw
-		self.dst = ToMoveFile.SRC / raw.replace("1.09v3/", "1.09v301/")
-		# if "1.09v3/lang/" in raw:
-			# self.dst = ToMoveFile.SRC / raw.replace("1.09v3/", "1.09v301/").replace("patch109v3.big", "patch109v301.big")
-		# else:
-			# self.dst = ToMoveFile.SRC / raw.replace("1.09v3/", "1.09v301/")
+		if "1.09v3/lang/" in raw:
+			self.dst = ToMoveFile.SRC / raw.replace("1.09v3/", "1.09v301/").replace("patch109v3.big", "patch109v301.big")
+		else:
+			self.dst = ToMoveFile.SRC / raw.replace("1.09v3/", "1.09v301/")
 
 	@staticmethod
 	def filter_condition(x: str) -> bool:
+		if x.endswith("game.dat"):
+			return True
+		
 		if x.startswith("1.09v3/lang") and x.endswith("patch109v3.big"):
 			return True
 		
