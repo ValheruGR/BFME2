@@ -25,7 +25,7 @@ CONTROLBAR:nothingDesc09v2
 END
 //----------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v301
-"Disminuye la vulnerabilidad cuerpo a cuerpo de la fortaleza. \n Repone una unidad del batallón mas cercano cada 7.5 segundos. \n Descuento por Agua: reduce el coste de los Ents y Bárbol: \n 1 fortaleza con foso de cristal = 12.5% más baratos \n 2 fortalezas 25% más baratas \n 3 fortalezas = 37.5% más baratas \n 4 fortalezas con excavaciones = 50% más baratas \n 5 fortalezas = 62.5% más baratas"
+"Disminuye la vulnerabilidad cuerpo a cuerpo de la fortaleza. \n Repone una unidad del batallón mas cercano cada 7.5 segundos. \n Descuento por Agua: reduce el coste de los Ents y Bárbol: \n 1 fortaleza con foso de cristal = 12.5% más baratos \n 2 fortalezas 25% más baratas \n 3 fortalezas = 37.5% más baratas \n 4 fortalezas = 50% más baratas \n 5 fortalezas = 62.5% más baratas"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v301
 "Envenena a las unidades enemigas que se encuentren atacando la fortaleza y les reduce su velocidad en un -15%. \n Las unidades aliadas cercanas serán lentamente curadas. \n Si la mejora Nido de Dragón fue comprada, las Espinas Afiladas pueden curar cualquier unidad voladora"
@@ -43,10 +43,10 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations09v301
 "Cura las unidades cercanas \n Repone una unidad de la horda mas cercana cada 10 segundos. \n Reduce el coste de las estructuras y murallas de Isengard: \n 1 fortaleza con excavaciones = 7.5% más baratas \n 2 fortalezas = 15% más baratas \n 3 fortalezas = 20% más baratas \n 4 fortalezas = 25% más baratas \n 5 fortalezas = 33% más baratas"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat09v301
-"Disminuye la vulnerabilidad cuerpo a cuerpo de la fortaleza \n Cura unidades aliadas \n Reduce el coste de las mejoras de Mordor: \n 1 fortaleza con Foso de Magma = 10% más baratas \n 2 fortalezas = 20% más baratas \n 3 fortalezas = 30% más baratas \n 4 fortalezas = 40% más baratas \n 5 fortalezas = 50% más baratas"
+"Disminuye la vulnerabilidad cuerpo a cuerpo de la fortaleza \n Cura unidades aliadas \n Reduce el coste de las mejoras de Mordor: \n 1 fortaleza con foso de magma = 10% más baratas \n 2 fortalezas = 20% más baratas \n 3 fortalezas = 30% más baratas \n 4 fortalezas = 40% más baratas \n 5 fortalezas = 50% más baratas"
 END
 CONTROLBAR:ToolTipDwarvenGloinShakeFoundation09v301
-"Requisito: Nivel 4 \n Neutraliza el edificio enemigo. \n Reduce la producción del edificio en un -90% durante 10 segundos. \n Abre automáticamente la puerta apuntada. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Requisito: Nivel 4 \n Neutraliza el edificio enemigo. \n Reduce la producción del edificio en un -90% durante 10 segundos. \n Abre automáticamente la puerta apuntada. \n Nivel 4: 2000 daño. \n Nivel 6: 2400 daño. \n Nivel 8: 2800 daño. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //----------------------------------
 CONTROLBAR:SpecialAbilityHumanHeads09v301

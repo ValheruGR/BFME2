@@ -46,7 +46,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat09v301
 "Verringert die Nahkampfanfälligkeit der Festung\nHeilt nahe Einheiten\nVerringert die Kosten für Mordor-Upgrades\n1 Festung mit Lavagraben = 10 % günstiger\n2 Festungen: 20 % günstiger\n3 Festungen: 30 % günstiger\n4 Festungen: 40 % günstiger\n5 Festungen: 50 % günstiger"
 END
 CONTROLBAR:ToolTipDwarvenGloinShakeFoundation09v301
-"Erfordert Stufe 4\nDeaktiviert das Zielgebäude.\nReduziert die Produktion des Gebäudes für 10 Sekunden auf 10 %.\nÖffnet automatisch ein anvisiertes Tor\nLinksklick auf das Symbol, dann Linksklick auf das Ziel"
+"Erfordert Stufe 4\nDeaktiviert das Zielgebäude.\nReduziert die Produktion des Gebäudes für 10 Sekunden auf 10 %.\nÖffnet automatisch ein anvisiertes Tor\n Level 4: 2000 damage. \n Level 6: 2400 damage. \n Level 8: 2800 damage. \nLinksklick auf das Symbol, dann Linksklick auf das Ziel"
 END
 //----------------------------------
 CONTROLBAR:SpecialAbilityHumanHeads09v301

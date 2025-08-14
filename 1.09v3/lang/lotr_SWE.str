@@ -46,7 +46,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat09v301
 "Decreases melee vulnerability of the Fortress \n Heals Nearby Units \n Reduces the cost of Mordor upgrades \n 1 Fortress with Lava Moat = 10% cheaper \n 2 Fortresses: 20% cheaper \n 3 Fortresses: 30% cheaper \n 4 Fortresses: 40% cheaper \n 5 Fortresses: 50% cheaper"
 END
 CONTROLBAR:ToolTipDwarvenGloinShakeFoundation09v301
-"Requires Level 4 \n Disables target building. \n Reducing the structure's production to 10% for 10 seconds. \n Automatically opens targeted gate \n Left click icon then left click on target"
+"Requires Level 4 \n Disables target building. \n Reducing the structure's production to 10% for 10 seconds. \n Automatically opens targeted gate \n Level 4: 2000 damage. \n Level 6: 2400 damage. \n Level 8: 2800 damage. \n Left click icon then left click on target"
 END
 //----------------------------------
 CONTROLBAR:SpecialAbilityHumanHeads09v301

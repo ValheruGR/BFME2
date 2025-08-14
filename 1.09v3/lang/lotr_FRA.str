@@ -46,7 +46,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat09v301
 "Réduit la vulnérabilité de la forteresse au corps-à-corps\nSoigne les unités proches\nRéduit le coût des améliorations du Mordor\n1 forteresse avec douve de lave = 10 % moins cher\n2 forteresses : 20 % moins cher\n3 forteresses : 30 % moins cher\n4 forteresses : 40 % moins cher\n5 forteresses : 50 % moins cher"
 END
 CONTROLBAR:ToolTipDwarvenGloinShakeFoundation09v301
-"Nécessite le niveau 4\nDésactive le bâtiment ciblé.\nRéduit sa production à 10 % pendant 10 secondes.\nOuvre automatiquement la porte ciblée\nClic gauche sur l’icône, puis clic gauche sur la cible"
+"Nécessite le niveau 4\nDésactive le bâtiment ciblé.\nRéduit sa production à 10 % pendant 10 secondes.\nOuvre automatiquement la porte ciblée\n Level 4: 2000 damage. \n Level 6: 2400 damage. \n Level 8: 2800 damage. \nClic gauche sur l’icône, puis clic gauche sur la cible"
 END
 //----------------------------------
 CONTROLBAR:SpecialAbilityHumanHeads09v301

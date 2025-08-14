@@ -12,10 +12,11 @@ class ToMoveFile:
 	def __init__(self, raw:str):
 		self.raw = raw
 		self.src = ToMoveFile.SRC / raw
-		if "1.09v3/lang/" in raw:
-			self.dst = ToMoveFile.SRC / raw.replace("1.09v3/", "1.09v301/").replace("patch109v3.big", "patch109v301.big")
-		else:
-			self.dst = ToMoveFile.SRC / raw.replace("1.09v3/", "1.09v301/")
+		self.dst = ToMoveFile.SRC / raw.replace("1.09v3/", "1.09v301/")
+		# if "1.09v3/lang/" in raw:
+			# self.dst = ToMoveFile.SRC / raw.replace("1.09v3/", "1.09v301/").replace("patch109v3.big", "patch109v301.big")
+		# else:
+			# self.dst = ToMoveFile.SRC / raw.replace("1.09v3/", "1.09v301/")
 
 	@staticmethod
 	def filter_condition(x: str) -> bool:
