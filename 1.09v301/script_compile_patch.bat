@@ -1,4 +1,4 @@
 @echo off
 setlocal
 
-python !export_differences.py
+python !!compile_full_109v301.py
