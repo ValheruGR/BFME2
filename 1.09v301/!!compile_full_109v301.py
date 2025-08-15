@@ -107,38 +107,32 @@ if __name__ == "__main__":
 	iniList: list[IniToBigFile] = []
 	datList: list[str] = []
 
+
 	REPOROOT = Path.cwd().parent
 	DESTINO_ROOT = Path(r"C:\Program Files (x86)\BFME2 Ecth's Patch Switcher\109v301\ßdev") ## Path.cwd() / "ßdev"
 	
 	for file_str in result.stdout.splitlines():
-		file_path = REPOROOT / file_str
-		rel_path = file_path.relative_to(REPOROOT)
-
-		# LANG FILES
-		if file_str.startswith("1.09v3/lang") and file_path.suffix == ".str":
-			langList.append(file_path)
-
-		# MAPS 450 (specific extensions)
-		elif file_str.startswith("1.09v3/maps450") and file_path.suffix.lower() in {".ini", ".map", ".tga", ".str"}:
+		if file_str.startswith(r"1.09v3/lang") and file_str.endswith(".str"):
+			langList.append(REPOROOT / file_str)
+			
+		elif file_str.startswith(r"1.09v3/maps450") and (REPOROOT/file_str).suffix in {".ini", ".map", ".tga", ".str"}: ##Note it's intentionally ignoring 560 folder
 			iniList.append(IniToBigFile(
-				source=file_path,
-				destino=str(rel_path).replace("1.09v3/maps450/", "").replace("/", "\\")
+				source = REPOROOT/file_str,
+				destino = file_str.replace("1.09v3/maps450/","").replace("/","\\")
 			))
-
-		# DATA / ART
-		elif file_str.startswith(("1.09v3/data", "1.09v3/art")):
+			
+		elif file_str.startswith(r"1.09v3/data") or file_str.startswith(r"1.09v3/art") or file_str.startswith(r"1.09v3/art"):
 			iniList.append(IniToBigFile(
-				source=file_path,
-				destino=str(rel_path).replace("1.09v3/", "").replace("/", "\\")
+				source = REPOROOT/file_str,
+				destino = file_str.replace("1.09v3/", "").replace("/","\\")
 			))
-
-		# DAT / JPG
-		elif file_path.suffix.lower() in {".dat", ".jpg"}:
+				
+		elif file_str.endswith(".dat") or file_str.endswith(".jpg"):
 			datList.append(file_str)
 		
 		else:
 			print(f"{file_str} skipped")
-
+		
 	process_langList(langList, DESTINO_ROOT)
 	process_iniList(iniList, DESTINO_ROOT)
 	process_datList(datList, REPOROOT, DESTINO_ROOT)
