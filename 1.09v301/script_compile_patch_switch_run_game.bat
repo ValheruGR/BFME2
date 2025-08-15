@@ -10,6 +10,6 @@ BFME2Switcher.exe -switch -latest
 popd
 
 REM Switch to the game directory and run it
-pushd "C:\Program Files (x86)\Electronic Arts\The Battle for Middle-earth (tm) II"
-lotrbfme2.exe
-popd
+REM pushd "C:\Program Files (x86)\Electronic Arts\The Battle for Middle-earth (tm) II"
+REM lotrbfme2.exe
+REM popd
