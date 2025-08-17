@@ -41153,7 +41153,7 @@ CONTROLBAR:ToolTipCAHAthelas
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership
-"Gli alleati vicini all'Eroe ottengono\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\nAbilità passiva. Non cumulabile."
+"Allies near the Hero gain: \n +25% Damage, +25% Armor, \n and earn Experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1
@@ -41713,7 +41713,7 @@ CONTROLBAR:ToolTipCAH_Elendil_Palantir
 END
 
 CONTROLBAR:ToolTipCAH_BladeMaster_Palantir
-"L'Eroe ottiene temporaneamente +100% al danno e alla corazza.\nClicca con il pulsante sinistro per attivare."
+"L'Eroe ottiene temporaneamente +50% al danno e alla corazza.\nClicca con il pulsante sinistro per attivare."
 END
 
 CONTROLBAR:ToolTipCAHAthelas_Palantir
@@ -41721,7 +41721,7 @@ CONTROLBAR:ToolTipCAHAthelas_Palantir
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership_Palantir
-"Gli alleati vicini all'Eroe ottengono\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\nAbilità passiva. Non cumulabile."
+"Allies near the Hero gain: \n +25% Damage, +25% Armor, \n and earn Experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1_Palantir

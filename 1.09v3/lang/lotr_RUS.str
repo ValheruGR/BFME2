@@ -41147,7 +41147,7 @@ CONTROLBAR:ToolTipCAHAthelas
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership
-"Союзные войска рядом с героем \n наносят +50% урона, получают +50% брони, \n вдвое быстрее набирают опыт. \n \n Пассивная способность. Эффект не накапливается."
+"Allies near the Hero gain: \n +25% Damage, +25% Armor, \n and earn Experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1
@@ -41707,7 +41707,7 @@ CONTROLBAR:ToolTipCAH_Elendil_Palantir
 END
 
 CONTROLBAR:ToolTipCAH_BladeMaster_Palantir
-"Герой временно наносит +100% урона и получает +100% брони. \n ЛКМ - применение способности."
+"Герой временно наносит +50% урона и получает +50% брони. \n ЛКМ - применение способности."
 END
 
 CONTROLBAR:ToolTipCAHAthelas_Palantir
@@ -41715,7 +41715,7 @@ CONTROLBAR:ToolTipCAHAthelas_Palantir
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership_Palantir
-"Союзные войска рядом с героем \n наносят +50% урона, получают +50% брони, \n вдвое быстрее набирают опыт. \n \n Пассивная способность. Эффект не накапливается."
+"Allies near the Hero gain: \n +25% Damage, +25% Armor, \n and earn Experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1_Palantir

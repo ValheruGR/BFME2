@@ -41157,7 +41157,7 @@ CONTROLBAR:ToolTipCAHAthelas
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership
-"Los aliados cercanos al héroe ganan \n +50% al daño, +50% a la armadura. \n y consiguen experiencia el doble de rápido. \n \n Capacidad pasiva. \n \n No se acumula."
+"Los aliados cercanos al héroe ganan \n +25% al daño, +25% a la armadura. \n y consiguen experiencia 50% más rápido. \n «HighTierHero BUFF» \n Capacidad pasiva."
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1
@@ -41717,7 +41717,7 @@ CONTROLBAR:ToolTipCAH_Elendil_Palantir
 END
 
 CONTROLBAR:ToolTipCAH_BladeMaster_Palantir
-"El héroe gana temporalmente +100% al daño y +100% a la armadura. \n Para activarlo, haz clic con el botón izquierdo."
+"El héroe gana temporalmente +50% al daño y +50% a la armadura. \n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:ToolTipCAHAthelas_Palantir
@@ -41725,7 +41725,7 @@ CONTROLBAR:ToolTipCAHAthelas_Palantir
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership_Palantir
-"Los aliados cercanos al héroe ganan \n +50% al daño, +50% a la armadura \n y consiguen experiencia el doble de rápido. \n \n Capacidad pasiva \n \n No se acumula."
+"Los aliados cercanos al héroe ganan \n +25% al daño, +25% a la armadura. \n y consiguen experiencia 50% más rápido. \n «HighTierHero BUFF» \n Capacidad pasiva."
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1_Palantir

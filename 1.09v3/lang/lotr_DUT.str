@@ -41142,7 +41142,7 @@ CONTROLBAR:ToolTipCAHAthelas
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership
-"Bondgenoten in de buurt van de held krijgen\n+50% schade en +50% pantser,\nen verdienen twee keer zo snel ervaring\n\nPassieve kracht Maximaal 1 per keer"
+"Allies near the Hero gain: \n +25% Damage, +25% Armor, \n and earn Experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1
@@ -41702,7 +41702,7 @@ CONTROLBAR:ToolTipCAH_Elendil_Palantir
 END
 
 CONTROLBAR:ToolTipCAH_BladeMaster_Palantir
-"Held krijgt tijdelijk +100% schade en +100% pantser\nKlik met links om te activeren"
+"Held krijgt tijdelijk +50% schade en +50% pantser\nKlik met links om te activeren"
 END
 
 CONTROLBAR:ToolTipCAHAthelas_Palantir
@@ -41710,7 +41710,7 @@ CONTROLBAR:ToolTipCAHAthelas_Palantir
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership_Palantir
-"Bondgenoten in de buurt van de held krijgen\n+50% schade en +50% pantser,\nen verdienen twee keer zo snel ervaring\n\nPassieve kracht Maximaal 1 per keer"
+"Allies near the Hero gain: \n +25% Damage, +25% Armor, \n and earn Experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1_Palantir
