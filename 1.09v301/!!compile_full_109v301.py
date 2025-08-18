@@ -29,7 +29,20 @@ def createBigFile(name_of_the_file: Path) -> "pyBIG.Archive":
 	with open(name_of_the_file, "rb") as f:
 		return pyBIG.Archive(f.read())
 
+APPENDTHISONESTOLAND = {
+	"titlescreenuserinterface.jpg": None,
+	"load_w_ea.jpg": None,
+}
 
+def process_to_big(path: Path) -> str:
+	relative_to = "art"
+	s = str(path)
+	idx = s.lower().find(relative_to.lower())  # case-insensitive search
+	if idx == -1:
+		raise ValueError(f"'{relative_to}' not found in {path}")
+	subpath = s[idx:]
+	return subpath.replace("/", "\\")
+	
 def process_langList(langList: list[Path], destino_root):
 	# ic(langList)
 	# input()
@@ -41,18 +54,29 @@ def process_langList(langList: list[Path], destino_root):
 		"lotr_GER.str": "germanpatch109v301.big",
 		"lotr_ITA.str": "italianpatch109v301.big",
 		"lotr_NOR.str": "norwegianpatch109v301.big",
-		"lotr_POL.str": "spanishpatch109v301.big",
+		"lotr_POL.str": "polishpatch109v301.big",
 		"lotr_SWE.str": "swedishpatch109v301.big",
+		# "lotr_RUS.csf": "russianpatch109v301.big",
 	}
 	langfolder = destino_root / "lang"
 	langfolder.mkdir(parents=True, exist_ok=True)
+	
+	
+	
+	
 	for fileSTR in langList:
 		if langbig := lang_dict.get(fileSTR.name):
 			languageBig = langfolder/langbig
 			langfile = createBigFile(languageBig)
 			langfile.add_file(r"data\lotr.str", fileSTR.read_bytes())
+			for name, source in APPENDTHISONESTOLAND.items():
+				langfile.add_file(
+					process_to_big(source), 
+					source.read_bytes()
+				)
 			langfile.repack()
 			langfile.save(str(languageBig))
+
 
 
 def process_iniList(iniList: list[IniToBigFile], destino_root):
@@ -69,6 +93,8 @@ def process_iniList(iniList: list[IniToBigFile], destino_root):
 				# print(f"Success adding {file.source}")
 			else:
 				print(f"Skipped {file.source}")
+		if file.source.name in APPENDTHISONESTOLAND:
+			APPENDTHISONESTOLAND[file.source.name] = file.source
 	archive.repack()
 	archive.save(str(out_file))
 	print(f"Success building {out_file}")
@@ -133,9 +159,9 @@ if __name__ == "__main__":
 		else:
 			print(f"{file_str} skipped")
 		
-	process_langList(langList, DESTINO_ROOT)
 	process_iniList(iniList, DESTINO_ROOT)
 	process_datList(datList, REPOROOT, DESTINO_ROOT)
+	process_langList(langList, DESTINO_ROOT)
 	
 	
 	
