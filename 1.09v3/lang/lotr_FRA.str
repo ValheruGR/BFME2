@@ -24,6 +24,38 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //----------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v301
+"Réduit la vulnérabilité de la forteresse au corps-à-corps\nRestaure une unité de la horde la plus proche toutes les 7,5 secondes.\nRéduction aquatique : diminue le coût des Ents.\n1 forteresse avec douve = Ents 12,5 % moins chers\n2 forteresses : 25 % moins chers\n3 forteresses : 37,5 % moins chers\n4 forteresses : 50 % moins chers\n5 forteresses : 62,5 % moins chers"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v301
+"Empoisonne les unités ennemies attaquant la forteresse et réduit leur vitesse totale à 85 %.\nSoigne les alliés à proximité.\nCombiné au Nid de dragon, peut soigner toute unité volante alliée."
+END
+CONTROLBAR:ToolTipGloriousCharge09v3
+"Nécessite le niveau 5\nThéoden et la cavalerie proche gagnent +60 % d’armure et deviennent immunisés au ralentissement par piétinement.\nNiveau 8 : Charge glorieuse gagne +40 % d’armure supplémentaires, +35 % de dégâts et une immunité à la peur et à la terreur.\nThéoden doit être à cheval pour utiliser cette capacité\nDure 20 secondes.\nClic gauche pour activer"
+END
+CONTROLBAR:EvacuateHobbits09v301
+"Éva&cuez Merry & Pippin"
+End
+CONTROLBAR:EvacuateHobbitsDesc09v301
+"Ordonnez à Merry & Pippin de descendre de Sylvebarbe"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations09v301
+"Soigne les alliés à proximité.\nRestaure une unité de la horde la plus proche toutes les 5 secondes.\nRéduit le coût des structures et murs d’Isengard\n1 forteresse avec excavation = 7,5 % moins cher\n2 forteresses avec excavation = 15 % moins cher\n3 forteresses avec excavation = 20 % moins cher\n4 forteresses avec excavation = 25 % moins cher\n5 forteresses avec excavation = 33 % moins cher"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat09v301
+"Réduit la vulnérabilité de la forteresse au corps-à-corps\nSoigne les unités proches\nRéduit le coût des améliorations du Mordor\n1 forteresse avec douve de lave = 10 % moins cher\n2 forteresses : 20 % moins cher\n3 forteresses : 30 % moins cher\n4 forteresses : 40 % moins cher\n5 forteresses : 50 % moins cher"
+END
+CONTROLBAR:ToolTipDwarvenGloinShakeFoundation09v301
+"Nécessite le niveau 4\nDésactive le bâtiment ciblé.\nRéduit sa production à 10 % pendant 10 secondes.\nOuvre automatiquement la porte ciblée\n Level 4: 2000 damage. \n Level 6: 2400 damage. \n Level 8: 2800 damage. \nClic gauche sur l’icône, puis clic gauche sur la cible"
+END
+//----------------------------------
+CONTROLBAR:SpecialAbilityHumanHeads09v301
+"Têtes humaines [&C]"
+End
+CONTROLBAR:SpecialAbilityHumanHeadsDesc09v301
+"Lance des têtes humaines pour faire fuir les ennemis.\nClic gauche sur l’icône, puis clic gauche sur la zone ciblée"
+End
+//----------------------------------
 CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
 "Lame de Morgul (&V)"
 END
@@ -181,20 +213,20 @@ END
 
 //------------------------------------------------------------
 CONTROLBAR:PrinceofIthilien09v2
-"Prince of Ithilien [&V]"
+"Prince d’Ithilien [&V]"
 END
 CONTROLBAR:PrinceofIthilienDesc09v2
-"Requiert : niveau 5 \n Targeted archers gain experience. \n Left click icon, then left click on target archers."
+"Requiert : niveau 5\nLes archers ciblés gagnent de l’expérience.\nClic gauche sur l’icône, puis clic gauche sur les archers ciblés."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower09v2
-"Increases the vision range of the Fortress and provides stealth detection. \n Unlocks the use of Palantir Vision on allies"
+"Augmente la portée de vision de la forteresse et permet la détection des unités furtives.\nDébloque l’utilisation de la Vision du Palantír sur les alliés"
 END
 CONTROLBAR:TooltipIvoryTowerVision09v2
-"Reveals the entire shroud \n Player units on the map gain +10% speed \n «IvoryTower BUFF» \n Lasts 30 seconds"
+"Révèle tout le brouillard de guerre\nLes unités du joueur gagnent +10 % de vitesse\n« IvoryTower BUFF »\nDure 30 secondes"
 End
 CONTROLBAR:ToolTipGainSpiderVenomSacks09v2
-"Requiert : niveau 3 \n Améliore cette horde avec les poches à venin \nEmpoisonne les ennemis et inflige des dégâts progressivement"
+"Requiert : niveau 3\nAméliore cette horde avec des poches à venin\nEmpoisonne les ennemis et inflige des dégâts progressifs"
 END
 //------------------------------------------------------------
 Color:Cyan09v2
@@ -217,10 +249,10 @@ Color:Grey
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAxeThrow09v2
-"Puissante attaque de jet avec dégâts de zone\nParticulièrement efficace contre la cavalerie et les unités volantes\nClic gauche sur l'icône puis clic gauche sur la cible"
+"Puissante attaque à distance avec dégâts de zone.\nParticulièrement efficace contre la cavalerie et les unités volantes.\nLa hache de jet est améliorée aux niveaux 4 et 8.\nClic gauche sur l’icône, puis clic gauche sur la cible."
 END
 CONTROLBAR:ToolTipLeap09v2
-"Requiert : niveau 2\nGimli saute vers un endroit et inflige des dégâts de zone \n Zone de dégat amélioré aux niveaux 4 et 7 \nClic gauche sur l'icône puis clic gauche sur la cible"
+"Requiert : niveau 2\nGimli saute vers un endroit et inflige des dégâts de zone \n Zone de dégat amélioré aux niveaux 4 et 8 \nClic gauche sur l'icône puis clic gauche sur la cible"
 END
 TOOLTIP:ToolTipWitchKing09v2
 "La zone de dégat de la mace est amélioré aux niveaux 5 et 8."
@@ -246,10 +278,10 @@ CONTROLBAR:SummonEagleAlliesGaladriel09v2
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
-"Niveau 2: +50 Points de commandement."
+"Niveau 2: 100 Points de commandement."
 END
 UPGRADE:FarmLevel3Tooltip09v2
-"Niveau 3: +75 Points de commandement."
+"Niveau 3: 150 Points de commandement."
 END
 CONTROLBAR:ThunderBolt09v2
 "Coup de tonnerre [&B]"
@@ -600,10 +632,10 @@ OBJECT:SignalFireDescription09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
-"Fort contre cavalerie et bâtiments de production d'unités.\nLes gardes de la tour gagnent +5% de vitesse au niveau 3, 5 et 7."
+"Fort contre cavalerie et bâtiments de production d'unités.\nLes gardes de la tour gagnent +5% de vitesse au niveau 5 et 8."
 END
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
-"Fort contre piquier et bâtiments de production de ressource.\nLes gardiens gagnent +5% de vitesse au niveau 3, 5, 7 et 10."
+"Fort contre piquier et bâtiments de production de ressource.\nLes gardiens gagnent +5% de vitesse au niveau 5, 7 et 10."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
@@ -936,7 +968,7 @@ Map:map_pk_rhudel_steppe
 "Rhudel Steppe"
 End
 Map:map_pk_rhudel_steppe/Desc
-"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Original autor unknown."
+"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Map by Gnomi."
 End
 //------------------------------------------------------------
 Map:map_PK_Forlond
@@ -1730,14 +1762,14 @@ Map:GreenfrogPass
 "Greenfrog Pass"
 END
 Map:GreenfrogPass/Desc
-"A green lushful land divided by a central river."
+"A green lushful land divided by a central river. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 Map:Himling
 "Himling"
 END
 Map:Himling/Desc
-"An icy land with a central mountain."
+"An icy land with a central mountain. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 //	Map:LanthirLamath
@@ -1786,7 +1818,7 @@ Map:TheIvyBush
 "The Ivy Bush"
 END
 Map:TheIvyBush/Desc
-"Map named in honor of The Ivy Bush. A small inn on the Bywater road in the Shire. Here Gaffer Gamgee recounted to the visitors his stories about Bilbo and Frodo Baggins."
+"Map named in honor of The Ivy Bush. A small inn on the Bywater road in the Shire. Here Gaffer Gamgee recounted to the visitors his stories about Bilbo and Frodo Baggins. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 Map:RohanII
@@ -6241,15 +6273,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:Format3
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:Format2
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:BuildTime
@@ -30245,7 +30277,7 @@ CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades
 END
 
 CONTROLBAR:SpecialAbilityOilBarrels
-"Tonneau&x d'huile"
+"Tonneaux d'huile (&C)"
 END
 
 CONTROLBAR:SpecialAbilitySummonedDragonReposition
@@ -41113,7 +41145,7 @@ CONTROLBAR:ToolTipCAHAthelas
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership
-"Les alliés proches du héros gagnent \n+50% armure, +50% dégâts, \nexpérience gagnée deux fois plus rapidement \n \n Capacité passive Ne peut pas s'utiliser avec d'autres bonus"
+"Les alliés proches du héros gagnent \n+25% d'armures, +25% de dégâts et gagnent +50% d'expériences plus rapidement.\n «HighTierHero BUFF» \nCapacité passive."
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1
@@ -41673,7 +41705,7 @@ CONTROLBAR:ToolTipCAH_Elendil_Palantir
 END
 
 CONTROLBAR:ToolTipCAH_BladeMaster_Palantir
-"Le héros gagne temporairement +100% dégâts et +100% armure \n Clic gauche pour activer"
+"Le héros gagne temporairement +50% dégâts et +50% armure \n Clic gauche pour activer"
 END
 
 CONTROLBAR:ToolTipCAHAthelas_Palantir
@@ -41681,7 +41713,7 @@ CONTROLBAR:ToolTipCAHAthelas_Palantir
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership_Palantir
-"Les alliés proches du héros gagnent \n+50% armure, +50% dégâts, \n et gagnent de l'expérience deux fois plus rapidement \n \n Capacité passive Ne peut pas s'utiliser avec d'autres bonus"
+"Les alliés proches du héros gagnent \n+25% d'armures, +25% de dégâts et gagnent +50% d'expériences plus rapidement.\n «HighTierHero BUFF» \nCapacité passive."
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1_Palantir

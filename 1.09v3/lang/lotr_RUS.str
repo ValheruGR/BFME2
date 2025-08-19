@@ -24,146 +24,178 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //----------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v301
+"Снижает уязвимость крепости в ближнем бою\nВосстанавливает одного бойца из ближайшего отряда каждые 7,5 секунды\nСкидка за воду: снижает стоимость энтов\n1 крепость с рвом = энты на 12,5 % дешевле\n2 крепости: на 25 % дешевле\n3 крепости: на 37,5 % дешевле\n4 крепости: на 50 % дешевле\n5 крепостей: на 62,5 % дешевле"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v301
+"Отравляет вражеские войска, атакующие крепость, и снижает их скорость до 85 %.\nЛечит союзников поблизости.\nВ сочетании с Гнездом дракона может лечить любые летающие союзные юниты."
+END
+CONTROLBAR:ToolTipGloriousCharge09v3
+"Требуется 5 уровень\nТеоден и ближайшая кавалерия получают +60 % брони и иммунитет к замедлению от натиска.\n8 уровень: Славная атака получает дополнительно +40 % брони, +35 % урона и иммунитет к страху и ужасу.\nТеоден должен быть верхом, чтобы использовать эту способность\nДлится 20 секунд.\nЩелкните левой кнопкой, чтобы активировать"
+END
+CONTROLBAR:EvacuateHobbits09v301
+"Эвакуируй&те Мерри и Пиппина"
+End
+CONTROLBAR:EvacuateHobbitsDesc09v301
+"Прикажите Мерри и Пиппину слезть с Древобородa"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations09v301
+"Лечит союзников поблизости.\nВосстанавливает одного бойца из ближайшего отряда каждые 5 секунд.\nСнижает стоимость построек и стен Изенгарда\n1 крепость с раскопками = на 7,5 % дешевле\n2 крепости = на 15 % дешевле\n3 крепости = на 20 % дешевле\n4 крепости = на 25 % дешевле\n5 крепостей = на 33 % дешевле"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat09v301
+"Снижает уязвимость крепости в ближнем бою\nЛечит ближайшие войска\nСнижает стоимость улучшений Мордора\n1 крепость с лавовым рвом = на 10 % дешевле\n2 крепости: на 20 % дешевле\n3 крепости: на 30 % дешевле\n4 крепости: на 40 % дешевле\n5 крепостей: на 50 % дешевле"
+END
+CONTROLBAR:ToolTipDwarvenGloinShakeFoundation09v301
+"Требуется 4 уровень\nОтключает выбранное здание.\nСнижает его производство до 10 % на 10 секунд.\nАвтоматически открывает выбранные ворота\n Level 4: 2000 damage. \n Level 6: 2400 damage. \n Level 8: 2800 damage. \nЩелкните по иконке, затем по цели"
+END
+//----------------------------------
+CONTROLBAR:SpecialAbilityHumanHeads09v301
+"Человеческие головы [&C]"
+End
+CONTROLBAR:SpecialAbilityHumanHeadsDesc09v301
+"Запускает человеческие головы, чтобы напугать врагов.\nЩелкните по иконке, затем по целевой области"
+End
+//----------------------------------
 CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
-"Morgul Blade [&V]"
+"Моргульский Клинок [&V]"
 END
 //----------------------------------
 OBJECT:HaradCamp_New
-"Haradrim tent"
+"Шатер харадримов"
 End
 OBJECT:HaradCampDesc_New
-"Allows training of Haradrim warriors"
+"Позволяет тренировать воинов-харадримов"
 End
 OBJECT:LF_New
 "Secret Entrance"
 End
 OBJECT:LF_Disc_New
-"Capture it to decrease recharge times for unused powers \n Heals nearby heroes and Flyers. \n\n -25% reduction of spellbook reload time"
+"Захватите его, чтобы сократить время перезарядки неиспользованных способностей. \n Исцеляет ближайших героев и летунов. \n\n Сокращение времени перезарядки книги заклинаний на 25%."
 End
 OBJECT:MercenaryCamp_New
-"Mercenary Camp"
+"Лагерь наемников"
 END
 OBJECT:DunlandHallTooltip_New
-"Dunland House"
+"Дом Дунланда"
 End
 TOOLTIP:DunlandHallDesc_New
-"Allows training of Dunland Men"
+"Позволяет обучать дунландцев"
 End
 //------------------------------------------------------------
 CONTROLBAR:WildWalk09v3
-"Wild Walk"
+"Тень мстителя"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThranduilDescription09v3
-"King of Mirkwood: \n Nearby Mirkwood archers gain: \n +25% Damage, +25% Armor, \n and earn experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
+"Король Лихолесья: \n Ближайшие лучники Лихолесья получают: \n +25% к урону, +25% к броне, \n и опыт на 50% быстрее. \n "Усиление героя высокого уровня» \n Пассивная способность"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipThranduilWildWalk09v3
-"Requires Level 6 \nAllows Thranduil to move while stealthed \n Passive ability."
+"Требуется уровень 6. \nПозволяет Трандуилу двигаться в состоянии скрытности. \nПассивная способность".
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde09v3
-"Strong vs. Cavalry and \n Unit Production Buildings \n Can stealth near trees. \n Gains +4% speed at level 4, 7 and 10."
+"Сильный против кавалерии и\n зданий по производству юнитов\nМожет скрываться рядом с деревьями.\nУвеличивает скорость на +4% на уровнях 4, 7 и 10".
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEvilHeal09v3
-"Partially heals armies and monsters. \n Replaces 2 dead units per horde. \n Left click icon then left click on target area"
+"Частично лечит армии и монстров. \n Заменяет 2 погибших отряда в каждой орде. \n Щёлкните левой кнопкой мыши по значку, затем левой кнопкой мыши по выбранной области".
 END
 //------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
-"Gandalf the White: \n Requires Level 5 \n Gandalf's magic abilities deal +70% damage and cooldowns are reduced by -20%. \n Passive ability."
+"Гэндальф Белый: \n Требуется 5 уровень \n Магические способности Гэндальфа наносят +70% урона, а время восстановления сокращается на -20%. \n Пассивная способность".
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipHaldirGoldenArrow09v3
-"Requires Level 7 \n A high-damaging magical projectile. \n Level 7: Causes meta impact and moderate damage. \n Level 10: Deals greater damage and stuns nearby light-sensitive units. \n Strong against cavalry and low-tier heroes. \n Can only use with bow equipped. \n Left click icon, then left click on target." 
+"Требуется уровень 7. \n Магический снаряд с высокой степенью урона. \n Уровень 7: Наносит метаудар и средний урон. \n Уровень 10: Наносит повышенный урон и оглушает близлежащие светочувствительные отряды. \n Эффективен против кавалерии и героев низкого уровня. \n Можно использовать только с луком. \n Щёлкните левой кнопкой мыши по значку, затем левой кнопкой мыши по цели."
 END
 CONTROLBAR:TooltipElrondWhirlwind09v3
-"Requires Level 5 \n Summons a destructive whirlwind onto the battlefield. \n Level 5: Deals minimal damage, sweeps low-tier heroes only. Lasts 16 seconds. \n Level 7: Lasts 19 seconds. \n Level 10: Deals double damage, sweeps all heroes. Lasts 22 seconds. \n Left click icon, then left click on pathable location."
+"Требуется 5 уровень. \n Призывает на поле боя разрушительный вихрь. \n Уровень 5: Наносит минимальный урон, сметает только героев низкого уровня. Действует 16 секунд. \n Уровень 7: Действует 19 секунд. \n Уровень 10: Наносит двойной урон, сметает всех героев. Действует 22 секунды. \n Щёлкните левой кнопкой мыши по значку, затем левой кнопкой мыши по доступной точке."
 END
 CONTROLBAR:ToolTipElrondRestoration09v3
-"Requires Level 10 \n Elrond regenerates +20% of health-points to nearby allies and fully resets their special ability timers. \n Replenishes 1 fallen unit per battalion in the area of effect. \n Left click to activate."
+"Требуется 10 уровень. \n Элронд восстанавливает +20% здоровья ближайшим союзникам и полностью сбрасывает таймеры их особых способностей. \n Восполняет 1 павший отряд за каждый батальон в области действия. \n Щелкните левой кнопкой мыши для активации."
 END
 CONTROLBAR:ArwenElvenGrace09v3
-"Athelas [&V]"
+"Ацелас [&V]"
 END
 CONTROLBAR:ArwenElvenGraceDesc09v3
-"Requires Level 6 \n Arwen regenerates 750 health-points to targeted allies over a 2-second duration. \n Left click icon, then left click on target units."
+"Требуется уровень 6 \n Арвен восстанавливает 750 очков здоровья выбранным союзникам в течение 2 секунд. \n Щелкните левой кнопкой мыши по значку, затем щелкните левой кнопкой мыши по выбранным юнитам."
 END
 CONTROLBAR:GoblinKingBattleFrenzy09v3
-"Battle Frenzy"
+"Бешенство"
 End
 CONTROLBAR:ToolTipFueltheFires09v3
-"Player Lumber Mills gain +65% Production \n and +20% Armor. \n Allied Lumber Mills gain +65% production. \n Passive power. \n Fortress must be present."
+"Лесопилки игроков получают +65% к производству и +20% к броне. Лесопилки союзников получают +65% к производству. Пассивная сила. Крепость должна присутствовать."
 End
 UPGRADE:BarbedArrowUpgrade09v3
-"Barbed Arrows"
+"Зазубренные стрелы"
 END
 CONTROLBAR:TooltipUndermine09v3
-"Summons a Mine Shaft onto the battlefield. \n Cannot be cast within close proximity of an enemy fortress. \n Can be casted on the fog of war. \n The Mine Shaft is connected to tunnel network. \n Deals greater damage at spawn point and lesser damage in the perimeter. \n Left click icon, then left click on pathable location."
+"Призывает шахту на поле боя. \n Нельзя применить в непосредственной близости от вражеской крепости. \n Можно применить в тумане войны. \n Шахта подключена к сети туннелей. \n Наносит больший урон в точке появления и меньший урон по периметру. \n Щёлкните левой кнопкой мыши по значку, затем щёлкните левой кнопкой мыши по доступной точке»."
 END
 CONTROLBAR:ToolTipPersonalFlood09v3
-"Requires Level 4 \n Summons a flood that knocks back enemies and extinguishes fires. \n Strong vs. cavalry and Nazgul. \n Level 4: Arwen summons 3 Flood Horses. \n Level 7: Arwen summons 5 Flood Horses. \n Level 10: Arwen summons 7 Flood Horses. \n Left click icon, then left click on target."
+"Требуется уровень 4. Вызывает наводнение, отбрасывающее врагов и тушащее пожары. Силён против кавалерии и назгулов. Уровень 4: Арвен призывает 3 коней наводнения. Уровень 7: Арвен призывает 5 коней наводнения. Уровень 10: Арвен призывает 7 коней наводнения. Щёлкните левой кнопкой мыши по значку, затем левой кнопкой мыши по цели."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains09v3
-"Heals nearby Allies. \n Revives a fallen unit from each battalion every 6.5 seconds. \n Hero revival time reduced by -20%. \n Combined with Eagle Nest, can heal any allied flying unit"
+"Исцеляет ближайших союзников. \n Воскрешает павшего юнита каждого батальона каждые 6,5 секунд. \n Время возрождения героя сокращается на 20%. \n В сочетании с "Орлиным гнездом» может исцелить любой союзный летающий юнит."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEaglesNest09v3
-"Allows summoning of a Giant Eagle. \n Allows Mystics Fountains to heal flying units."
+"Позволяет призвать гигантского орла. Позволяет мистическим фонтанам исцелять летающие отряды."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v3
-"Damages enemy units adjacent to the Fortress. \n Heals nearby Allies. \n Combined with Dragon Nest, can heal any allied flying unit."
+"Наносит урон вражеским отрядам, находящимся рядом с крепостью. \n Лечит ближайших союзников. \n В сочетании с "Гнездом дракона» может исцелить любой союзный летающий отряд."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDragonNest09v3
-"Allows summoning of a Fire Drake. \n Drogoth revival time reduced by -10%. \n Allows Razor Spikes to heal flying units."
+"Позволяет призвать Огненного Дракона. \n Время возрождения Дрогота сокращается на 10%. \n Позволяет Бритвенно-Острым Шипам лечить летающих существ."
 END
 //------------------------------
 CONTROLBAR:ToolTipWildShelobPoisonedStinger09v3
-"Requires Level 6 \n Inflicts poison damage on the target enemy for 30 seconds, \n reduces it's speed by -50% during 15 seconds, \n and paralyzes it for 6 seconds. \n Left click icon, then left click on target."
+"Требуется уровень 6 \n Наносит урон ядом выбранному врагу в течение 30 секунд, \n снижает его скорость на 50% в течение 15 секунд и парализует его на 6 секунд. \n Щелкните левой кнопкой мыши по значку, затем щелкните левой кнопкой мыши по цели."
 End
 CONTROLBAR:ToolTipGoblinKingPoisonedStinger09v3
-"Requires Level 6 \n Can only use when mounted \n Inflicts poison damage on the target enemy for 25 seconds, \n reduces it's speed by -50% during 12 seconds, \n and paralyzes it for 5 seconds. \n Left click icon, then left click on target."
+"Требуется 6 уровень \n Можно использовать только верхом \n Наносит урон ядом выбранному врагу в течение 25 секунд, \n снижает его скорость на 50% в течение 12 секунд, \n парализует его на 5 секунд. \n Щелкните левой кнопкой мыши по значку, затем щелкните левой кнопкой мыши по цели."
 END
 TOOLTIP:ToolTipBoromir09v3
-"Boromir gains +7% speed at level 7"
+"Боромир получает +7% скорости на уровне 7"
 END
 CONTROLBAR:ToolTipBuildGoblinCaveTroll09v3
-"Strong vs. Swordsmen and Structures \n Cave Troll gains +4% speed at level 3, 6 and 9"
+"Сильный против мечников и строений. Пещерный тролль получает +4% скорости на уровнях 3, 6 и 9."
 END
 TOOLTIP:ToolTipBuildDwarvenCatapult09v3
-"Strong vs. Structures and Siege units \n The Catapult gains +10% speed at level 5"
+"Сильный против построек и осадных юнитов. Катапульта получает +10% скорости на 5 уровне."
 END
 CONTROLBAR:ToolTipBuildDwarvenCatapult09v3
-"Requires Level 2 Forge Works \n Strong vs. Structures and Siege units \n Fires two shots at once \n The Catapult gains +10% speed at level 5"
+"Требуется кузница 2-го уровня. Силён против построек и осадных юнитов. Производит два выстрела одновременно. Катапульта получает +10% скорости на 5-м уровне."
 END
 CONTROLBAR:ToolTipBuildMordorMumakil09v3
-"Strong vs. Structures and Cavalry \n Comes mounted by Haradrim Lancers \n Additional 30 commandpoints \n Mumakils gain +6% speed at level 5 and 8."
+"Сильный против строений и кавалерии \n Поставляется с харадримскими копейщиками \n Дополнительные 30 командных очков \n Мумакилы получают +6% к скорости на 5 и 8 уровнях."
 END
 CONTROLBAR:TooltipDragonStrike09v3
-"Summons a fire breathing Dragon to fly-by and scorch the battlefield. \n Any type of enemy unit in a large area beneath the Dragon will suffer -15% speed.  \n *Extremely dangerous in the edges of the map.* \n Left click icon then left click on target area"
+"Призывает огнедышащего дракона, который пролетает мимо и сжигает поле боя. \n Любой тип вражеского отряда в большой области под драконом теряет 15% скорости. \n *Чрезвычайно опасен на краях карты.* \n Щёлкните левой кнопкой мыши по значку, затем левой кнопкой мыши по выбранной области."
 END
 TOOLTIP:ToolTipFellbeast09v3
-"Fellbeast attack radius against units is improved at level 6."
+"Радиус атаки летучего Назгула по юнитам увеличивается на уровне 6."
 END
 CONTROLBAR:ToolTipDominate09v3
-"Requires Level 10 \n Permanently gain control of targeted enemy troops. \n Left click icon, then left click on target units."
+"Требуется 10 уровень. \n Получите постоянный контроль над выбранными войсками противника. \n Щелкните левой кнопкой мыши по значку, затем щелкните левой кнопкой мыши по целевым подразделениям."
 END
 CONTROLBAR:TooltipSummonTomBombadil09v3
-"Summons Tom Bombadil, a mighty fat oldfella with a hat, who likes singing. \n It's told that he's the human personification of Eru, who created Ea \n Provides +25% Armor and +25% fast earning Experience for nearby allies. \n «Armor BUFF» \n Left click icon then left click on pathable location"
+"Призывает Тома Бомбадила, могучего толстого старика в шляпе, который любит петь. \n Говорят, что он — человеческое воплощение Эру, создателя Эа. \n Даёт +25% к броне и +25% к быстрому получению опыта ближайшим союзникам. \n «УСИЛЕНИЕ брони». \n Щёлкните левой кнопкой мыши по значку, а затем левой кнопкой мыши по движению."
 END
 CONTROLBAR:Draft09v3
-"D&raft"
+"Ополчение (&R)"
 End
 CONTROLBAR:ToolTipDraft09v3
-"Arms this battalion of peasants. \n When equipped, increases the damage done by Melee Weapons \n and reduces the amount of damage taken."
+"Вооружает этот батальон крестьян. \n При экипировке увеличивает урон от холодного оружия \n и уменьшает получаемый урон."
 END
 CONTROLBAR:Command_CreateAHero_SpecialAbilityDisguise_Name
-"Disguise (&V)"
+"Маскировка (&V)"
 END
 CONTROLBAR:SummonWargAllies09v3
-"Summon Warg Allies (&C)"
+"Призыв союзников-варгов (&C)"
 End
 CONTROLBAR:SummonWargAlliesDesc09v3
-"Requires Level 10 \n Summons a group of Warg Riders to the battlefield. \n Left click icon, then left click on pathable location."
+"Требуется 10 уровень. \n Призывает группу всадников на варгах на поле боя. \n Щелкните левой кнопкой мыши по значку, затем щелкните левой кнопкой мыши по доступному месту."
 END
 //------------------------------------------------------------
 
@@ -217,10 +249,10 @@ Color:Grey
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAxeThrow09v2
-"Атака в дальнем бою, наносящая большой урон нескольким целям. \nНаиболее эффективна против кавалерии и летающих противников. \n Ability damage is improved at level 4 and 7. \nЩелкните на пиктограмме, затем - на цели."
+"Атака в дальнем бою, наносящая большой урон нескольким целям. \nНаиболее эффективна против кавалерии и летающих противников. \n Ability damage is improved at level 4 and 8. \nЩелкните на пиктограмме, затем - на цели."
 END
 CONTROLBAR:ToolTipLeap09v2
-"Требуется уровень 2. \n Гимли совершает прыжок, нанося урон оказавшимся рядом врагам. \n Ability radius of effect is improved at level 4 and 7. \n Щелкните на пиктограмме, затем - на участке местности."
+"Требуется уровень 2. \n Гимли совершает прыжок, нанося урон оказавшимся рядом врагам. \n Ability radius of effect is improved at level 4 and 8. \n Щелкните на пиктограмме, затем - на участке местности."
 END
 TOOLTIP:ToolTipWitchKing09v2
 "Радиус нанесения урона  повышается на 5-ом и 8-ом уровнях."
@@ -246,10 +278,10 @@ CONTROLBAR:SummonEagleAlliesGaladriel09v2
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
-"Уровень 2: +50 Очков командования"
+"Уровень 2: 100 Очков командования"
 END
 UPGRADE:FarmLevel3Tooltip09v2
-"Уровень 3: +75 Очков командования"
+"Уровень 3: 150 Очков командования"
 END
 CONTROLBAR:ThunderBolt09v2
 "Thunderbolt Storm [&B]"
@@ -292,7 +324,7 @@ CONTROLBAR:ToolTipHourOfTheWitchKing09v2
 "Требуется уровень 8. \n Время действия способностей вражеских героев в радиусе действия перезаряжается на 80%. \n Enemy heroes around Witch King suffer -25% damage.  \n Щелкните на пиктограмме, затем - на цели."
 END
 CONTROLBAR:TooltipDwarvenRiches09v2
-"Selected structure's resource output is temporarily raised to 300%. \n Left click icon then left click on target resource structure"
+"Производительность ресурсов выбранной структуры временно увеличивается до 300%. \n Щёлкните левой кнопкой мыши по значку, а затем щёлкните левой кнопкой мыши по целевой структуре ресурсов."
 END
 CONTROLBAR:Command_CreateAHero_ShieldCrush_Level1_Name
 "Shield Crush (&Y)"
@@ -301,54 +333,54 @@ CONTROLBAR:Command_CreateAHero_ShieldCrush_Level3_Name
 "Improved Shield Crush (&Y)"
 END
 TOOLTIP:ToolTipPurchasedUpgradeFortressBanners09v2
-"Fortress leadership upgrade purchased: \n Nearby units gain +25% Damage \n and gain experience +25% faster \n «Damage BUFF»"
+"Приобретено улучшение лидерства крепости: \n Ближайшие отряды получают +25% урона \n и опыт на 25% быстрее \n «Усиление урона»"
 END
 CONTROLBAR:ToolTipBuildGoblinFighterHorde09v2
-"Strong vs. Pikemen\n Horde Bonus: \n Gathered goblins in numbers of at least 100\n gain +33% damage +25% speed. \n «HordeBonus BUFF» "
+"Сильный против пикинеров\n Бонус Орды:\n Собравшиеся гоблины в количестве не менее 100\n получают +33% урона и +25% скорости.\n «УСИЛЕНИЕ Бонуса Орды»"
 END
 CONTROLBAR:ToolTipBuildElvenRivendellLancers09v2
-"Strong vs. Archers and \n Unit Production Buildings. \n Rivendell Lancers gain +4% speed at level 4 and level 7."
+"Сильны против лучников и зданий, производящих юниты. Всадники Ривенделла получают +4% к скорости на 4-м и 7-м уровнях»."
 END
 CONTROLBAR:ToolTipGloriousCharge09v2
-"Требуется уровень 7 \n Theoden and nearby cavalry gain +99% armor, \n +25% damage and become immune to decelerate by trampling. \n Cavalry also become fearless for its duration. \n ««GloriousCharge»». \n Theoden must be mounted to use ability \n Left click to activate"
+"Требуется уровень 7 \n Теоден и ближайшая кавалерия получают +99% брони, \n +25% урона и становятся невосприимчивы к замедлению от растаптывания. \n Кавалерия также становится бесстрашной на время действия умения. \n ««GloriousCharge»». \n Теоден должен быть верхом, чтобы использовать умение \n Щелкните левой кнопкой мыши для активации"
 END
 CONTROLBAR:ToolTipBuildGoblinArcherHorde09v2
 "Преимущество: пехота.\n Противостоит атаке конницы. \n Бонус орды: гоблины в количестве от 100 и больше получают: \n +33% к атаке и +20% к скорости. \n «HordeBonus BUFF» "
 END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde09v2
-"Преимущество: пехота." Horde Bonus: \n Gathered orcs in numbers of at least 70\n gain +33% damage +15% speed. \n «HordeBonus BUFF» "
+"Преимущество: пехота». Бонус Орды: \n Собравшиеся орки в количестве не менее 70 человек\n получают +33% урона +15% скорости. \n «HordeBonus BUFF» "
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenCitadelDwarvenStonework09v2
-"Provides additional armor to the Citadel, its expansions and surrounding walls. \n\n Upgrades summoned Lone Towers"
+"Обеспечивает дополнительную броню Цитадели, её расширениям и окружающим стенам. \n\n Улучшения, призывающие Одинокие Башни"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMordorTavern09v2
-"Trains Corsairs of Umbar \n Allows research of Mordor unit upgrades. \n Tavern bonus: \n 2 tavern = corsairs 10% cheaper \n 3 tavern = 15% cheaper \n 4 taverns = 20% cheaper"
+"Обучает пиратов Умбара. \n Позволяет исследовать улучшения отрядов Мордора. \n Бонус таверны: \n 2 таверны = пираты на 10% дешевле. \n 3 таверны = на 15% дешевле. \n 4 таверны = на 20% дешевле."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDainStubbornPride09v2
-"Требуется уровень 7 \n Grants all nearby allies resistance to fear and terror. \n Dain becomes able to reveal stealth.\n Passive ability"
+"Требуется уровень 7 \n Даёт всем союзникам поблизости сопротивление страху и ужасу. \n Даин получает возможность раскрыть скрытность.\n Пассивная способность."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipTreeBeardLeadership09v2
-"Allied Ents near Treebeard gain \n +25% Armor, +10% Speed \n +20% Range and +25% experience \n «TreeBeard LEADERSHIP» \n \n Passive ability"
+"Союзные энты рядом с Древобородом получают \n +25% брони, +10% скорости \n +20% дальности и +25% опыта \n "ЛИДЕРСТВО Древоборода» \n \n Пассивная способность"
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipLurtzLeadership09v2
-"Требуется уровень 5 \n Allies near Lurtz gain \n +40% Damage \n and earn experience 20% faster. \n «Damage LEADERSHIP» \n \n Passive ability"
+"Требуется уровень 5 \n Союзники рядом с Лурцем получают \n +40% урона \n и опыт на 20% быстрее. \n "Урон ЛИДЕРСТВУ» \n \n Пассивная способность"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipPalantirVision09v2
-"Spy on the enemy forces\n\n Gives a temporary +15% speed bonus to \n units at its target area \n «Palantir BUFF» \n \n Left click icon then left click on target area"
+"Шпионить за вражескими войсками\n\n Даёт временный бонус к скорости +15% \n юнитам в целевой области \n «УСИЛЕНИЕ Палантира» \n \n Щёлкните левой кнопкой мыши по значку, а затем левой кнопкой мыши по целевой области"
 END
 //------------------------------------------------------------
 CONTROLBAR:TooltipFarSight09v2
-"Spy on the enemy forces. \n Target archers gain +35% range \n and earn experience 25% faster. \n «Farsight BUFF» \n Left click icon then left click on target area"
+"Шпионьте за вражескими войсками. \n Лучники получают +35% дальности стрельбы \n и опыт на 25% быстрее. \n «УСИЛЕНИЕ Дальнозоркости» \n Щелкните левой кнопкой мыши по значку, а затем левой кнопкой мыши по целевой области".
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipElvenWood09v2
-"Creates lush terrain whose center creates a protective shield against Taint Land or Human Wood from the enemy. \n Allied units gain +35% Armor \n and earn Experience 25% faster. \n  «ElvenWood BUFF» «Overrides Armor LEADERSHIP» \n Enemies suffer +200% Deceleration when crushing. \n Left click icon then left click on target area"
+"Создаёт пышную местность, центр которой создаёт защитный щит от вражеских «Земли Заражённости» или «Человеческого леса». Союзные отряды получают +35% брони и опыт на 25% быстрее. «УСИЛЕНИЕ Эльфийского Леса» «Перекрывает ЛИДЕРСТВО по броне» Враги получают +200% замедления при столкновении. Щёлкните левой кнопкой мыши по значку, затем левой кнопкой мыши по целевой области."
 END
 CONTROLBAR:MenWood09v2
 "Human Wood"
@@ -359,24 +391,24 @@ CONTROLBAR:ToolTipCloudBreak09v2
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipDarkness09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the entire map in darkness\n Allied hordes gain +50% Damage, +33% Armor and earn experience 50% times faster \n Monsters gain +25% Damage, +33% Armor and +50% experience \n «Darkness BUFF» \n Lasts 180 seconds. \n Left click to activate"
+"Отменяет лечение «Ледяным дождём», «Тьмой» и «Прорывом облаков». \n Временно покрывает всю карту тьмой. \n Орды союзников получают +50% к урону, +33% к броне и опыт на 50% быстрее. \n Монстры получают +25% к урону, +33% к броне и +50% к опыту. \n «Усиление тьмы». \n Действует 180 секунд. \n Щелкните левой кнопкой мыши для активации."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipFreezingRain09v2
-"Cancels Freezing Rain, Darkness and CloudBreak healing. \n Temporarily covers the map in rain \n All enemy hordes and monsters in the map suffer \n -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP and BUFF» \n Lasts 150 seconds. \n Left click to activate"
+"Отменяет лечение «Ледяным дождём», «Тьмой» и «Прорывом облаков». \n Временно покрывает карту дождём. \n Все вражеские орды и монстры на карте получают \n -25% брони и -25% урона. \n «ДЕБАФФ» «Нейтрализует ЛИДЕРСТВО и УСИЛИЕ». \n Действует 150 секунд. \n Щёлкните левой кнопкой мыши для активации."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipMightyRage09v2
-"Требуется уровень 4 \n Targeted friendly units gain \n+20% Speed, +25% Damage and +25% shroud revealing.  \n Enemy hordes in the same location suffer \n -25% armor and -25% damage \n «DEBUFF» «Neutralizes LEADERSHIP» \n Left click icon then left click on target units"
+"Требуется уровень 4 \n Выбранные дружественные отряды получают \n+20% скорости, +25% урона и +25% раскрытия завесы. \n Вражеские орды в той же локации получают \n-25% брони и -25% урона \n «ДЕБАФФ» «Нейтрализует ЛИДЕРСТВО» \n Щёлкните левой кнопкой мыши по значку, затем щёлкните левой кнопкой мыши по выбранным отрядам."
 END
 CONTROLBAR:ToolTipMordorDreadVisage09v2
-"Требуется уровень 2 \n Nearby enemy hordes suffer -25% armor and -25% damage.  \n «DEBUFF» «Neutralizes LEADERSHIP» \n Passive ability"
+"Требуется уровень 2 \n Близлежащие вражеские орды получают -25% брони и -25% урона. \n «ДЕБАФФ» «Нейтрализует ЛИДЕРСТВО» \n Пассивная способность"
 End
 CONTROLBAR:TooltipCaveBats09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Left click icon then left click on target area"
+"Раскрывает завесу и обнаруживает скрытые отряды. \n Вражеские орды получают -25% брони и -25% урона. \n «ДЕБАФФ» «Нейтрализует ЛИДЕРСТВО». \n Щелкните левой кнопкой мыши по значку, затем левой кнопкой мыши по выбранной области."
 END
 CONTROLBAR:TooltipCrebain09v2
-"Reveals the shroud and detects stealthed units \n Enemy hordes suffer -25% armor and -25% damage. \n «DEBUFF» «Neutralizes LEADERSHIP» \n Left click icon then left click on target area"
+"Раскрывает завесу и обнаруживает скрытые отряды. \n Вражеские орды получают -25% брони и -25% урона. \n «ДЕБАФФ» «Нейтрализует ЛИДЕРСТВО». \n Щелкните левой кнопкой мыши по значку, затем левой кнопкой мыши по выбранной области."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGBloodHunt09v2
@@ -597,10 +629,10 @@ OBJECT:SignalFireDescription09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
-"Преимущество: кавалерия и \n постройки типа "казарма. \n Tower Guards gain +5% speed at level 3, 5 and 7."
+"Преимущество: кавалерия и \n постройки типа "казарма. \n Tower Guards gain +5% speed at level 5 and 8."
 END
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
-"Сильны против копейщиков \n и зданий, производящих ресурсы. \n Стражи получают + 5% скорости на уровнях 3, 5, 7 и 10."
+"Сильны против копейщиков \n и зданий, производящих ресурсы. \n Стражи получают + 5% скорости на уровнях 5, 7 и 10."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
@@ -933,7 +965,7 @@ Map:map_pk_rhudel_steppe
 "Rhudel Steppe"
 End
 Map:map_pk_rhudel_steppe/Desc
-"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Original autor unknown."
+"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Map by Gnomi."
 End
 //------------------------------------------------------------
 Map:map_PK_Forlond
@@ -1727,14 +1759,14 @@ Map:GreenfrogPass
 "Greenfrog Pass"
 END
 Map:GreenfrogPass/Desc
-"A green lushful land divided by a central river."
+"A green lushful land divided by a central river. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 Map:Himling
 "Himling"
 END
 Map:Himling/Desc
-"An icy land with a central mountain."
+"An icy land with a central mountain. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 //	Map:LanthirLamath
@@ -1783,7 +1815,7 @@ Map:TheIvyBush
 "The Ivy Bush"
 END
 Map:TheIvyBush/Desc
-"Map named in honor of The Ivy Bush. A small inn on the Bywater road in the Shire. Here Gaffer Gamgee recounted to the visitors his stories about Bilbo and Frodo Baggins."
+"Map named in honor of The Ivy Bush. A small inn on the Bywater road in the Shire. Here Gaffer Gamgee recounted to the visitors his stories about Bilbo and Frodo Baggins. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 Map:RohanII
@@ -6238,17 +6270,17 @@ END
 
 Version:Format4
 // context: TRANSLATE ONLY THE WORD Build. DO NOT MODIFY THE VARIABLES  
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:Format3
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:Format2
 // context: TRANSLATE ONLY THE WORD Version. DO NOT MODIFY THE VARIABLES  
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:BuildTime
@@ -30251,7 +30283,7 @@ CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades
 END
 
 CONTROLBAR:SpecialAbilityOilBarrels
-"Бочонки с маслом (&I)"
+"Бочонки с маслом (&C)"
 END
 
 CONTROLBAR:SpecialAbilitySummonedDragonReposition
@@ -41115,7 +41147,7 @@ CONTROLBAR:ToolTipCAHAthelas
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership
-"Союзные войска рядом с героем \n наносят +50% урона, получают +50% брони, \n вдвое быстрее набирают опыт. \n \n Пассивная способность. Эффект не накапливается."
+"Allies near the Hero gain: \n +25% Damage, +25% Armor, \n and earn Experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1
@@ -41675,7 +41707,7 @@ CONTROLBAR:ToolTipCAH_Elendil_Palantir
 END
 
 CONTROLBAR:ToolTipCAH_BladeMaster_Palantir
-"Герой временно наносит +100% урона и получает +100% брони. \n ЛКМ - применение способности."
+"Герой временно наносит +50% урона и получает +50% брони. \n ЛКМ - применение способности."
 END
 
 CONTROLBAR:ToolTipCAHAthelas_Palantir
@@ -41683,7 +41715,7 @@ CONTROLBAR:ToolTipCAHAthelas_Palantir
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership_Palantir
-"Союзные войска рядом с героем \n наносят +50% урона, получают +50% брони, \n вдвое быстрее набирают опыт. \n \n Пассивная способность. Эффект не накапливается."
+"Allies near the Hero gain: \n +25% Damage, +25% Armor, \n and earn Experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1_Palantir

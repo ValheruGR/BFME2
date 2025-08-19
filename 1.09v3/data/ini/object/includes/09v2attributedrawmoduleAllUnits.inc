@@ -22,7 +22,7 @@
 			//USER_68	// Draw_GloriousChargeEffect
 			//USER_67	// Draw_HordeBonusEffect
 			//USER_66	// Draw_EvilHealEffect
-			//USER_65	// Draw_ElrondElvenGraceHealEffect
+			//USER_65	// NotUsed;;
 			//USER_64	// Draw_DevastationParalyzeEffect
 			//USER_63	// Draw_ElrondFarsightEffect ;;NotUsed;;
 			//USER_62	// Draw_ElrondElvenGraceBonusEffect
@@ -262,27 +262,29 @@
 				Model = exmordorheal
 				; Texture = exhealmordor.tga exheal_green.tga ;;.;;
 				; Texture = exhealmordor.tga exheal_orang.tga ;;.;;
-				ParticleSysBone		= NONE SpellHealMordorSmallMorgul09v3 FollowBone:Yes
+				ParticleSysBone		= NONE SpellHealMordorSmall FollowBone:Yes
 			End
 		End
 	//-----------------------------------------------------------------------------
-   		Draw = W3DScriptedModelDraw Draw_ElrondElvenGraceHealEffect
-			ParticlesAttachedToAnimatedBones = yes
-			ModelConditionState = NONE
-				Model = None
-			End
-			AnimationState = USER_65 STUNNED_FLAILING
-  			End
-			AnimationState = USER_65 PASSENGER
-  			End
-			AnimationState = USER_65 DYING
-			End
-			AnimationState = USER_65 BURNINGDEATH
-			End
-			AnimationState = USER_65 // Draw_ElrondElvenGraceHealEffect
- 				EnteringStateFX = FX_ElrondElvenGrace09v2
-			End
-		End
+   	//	Draw = W3DScriptedModelDraw Draw_ElrondElvenGraceHealEffect
+	//		ParticlesAttachedToAnimatedBones = yes
+	//		ModelConditionState = NONE
+	//			Model = None
+	//		End
+	//		AnimationState = USER_65 STUNNED_FLAILING
+  	//		End
+	//		AnimationState = USER_65 PASSENGER
+  	//		End
+	//		AnimationState = USER_65 DYING
+	//		End
+	//		AnimationState = USER_65 BURNINGDEATH
+	//		End
+	//		AnimationState = USER_65 // Draw_ElrondElvenGraceHealEffect
+ 	//			ParticleSysBone		= NONE ElrondElvenGrace01 FollowBone:Yes	// USER_65
+ 	//			ParticleSysBone		= NONE ElrondElvenGrace02 FollowBone:Yes	// USER_65
+ 	//			ParticleSysBone		= NONE ElrondElvenGrace03 FollowBone:Yes	// USER_65
+	//		End
+	//	End
 	//-----------------------------------------------------------------------------
    		Draw = W3DScriptedModelDraw Draw_ElrondElvenGraceBonusEffect
 			ParticlesAttachedToAnimatedBones = yes

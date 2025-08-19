@@ -24,6 +24,38 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //----------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v301
+"Decreases the melee vulnerability of the Fortress \n Replenish one unit from the closest horde each 7.5 seconds. \n Water discount: reduces the cost of Ents. \n 1 Fortress with Moat = Ents 12.5% cheaper \n 2 Fortresses: 25% cheaper \n 3 Fortresses: 37.5% cheaper \n 4 Fortresses: 50% cheaper \n 5 Fortresses: 62.5% cheaper"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v301
+"Poisons the enemy units attacking the Fortress and reduce their total speed to 85%. \n Heals nearby Allies. \n Combined with Dragon Nest, can heal any allied flying unit."
+END
+CONTROLBAR:ToolTipGloriousCharge09v3
+"Requires Level 5 \n Theoden and nearby cavalry gain +60% Armor and become immune to decelerate by trampling. \n Level 8: Glorious charge gains another +40% armor, +35% damage and immunity to fear and terror. \n Theoden must be mounted to use this ability \n Lasts 20 seconds. \n Left click to activate"
+END
+CONTROLBAR:EvacuateHobbits09v301
+"Evacua&te Merry & Pippin"
+End
+CONTROLBAR:EvacuateHobbitsDesc09v301
+"Order Merry & Pippin to dismount Treebeard"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations09v301
+"Heals nearby Allies. \n Replenish one unit from the closest horde each 5 seconds. \n Reduces the cost of Isengard structures and walls \n 1 Fortress with Excavations = 7.5% cheaper \n 2 Fortresses with Excavations = 15% cheaper \n 3 Fortresses with Excavations = 20% cheaper \n 4 Fortresses with Excavations = 25% cheaper \n 5 Fortresses with Excavations = 33% cheaper"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat09v301
+"Decreases melee vulnerability of the Fortress \n Heals Nearby Units \n Reduces the cost of Mordor upgrades \n 1 Fortress with Lava Moat = 10% cheaper \n 2 Fortresses: 20% cheaper \n 3 Fortresses: 30% cheaper \n 4 Fortresses: 40% cheaper \n 5 Fortresses: 50% cheaper"
+END
+CONTROLBAR:ToolTipDwarvenGloinShakeFoundation09v301
+"Requires Level 4 \n Disables target building. \n Reducing the structure's production to 10% for 10 seconds. \n Automatically opens targeted gate \n Level 4: 2000 damage. \n Level 6: 2400 damage. \n Level 8: 2800 damage. \n Left click icon then left click on target"
+END
+//----------------------------------
+CONTROLBAR:SpecialAbilityHumanHeads09v301
+"Human Heads [&C]"
+End
+CONTROLBAR:SpecialAbilityHumanHeadsDesc09v301
+"Launches human heads to scare off enemies. \n Left click icon then left click on target area"
+End
+//----------------------------------
 CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
 "Morgul Blade [&V]"
 END
@@ -216,10 +248,10 @@ Color:Grey
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAxeThrow09v2
-"Krachtige afstandsaanval met schade in een doelgebied\nZeer effectief tegen cavalerie \n Ability damage is improved at level 4 and 7. \nKlik met links op het icoontje en daarna met links op het doelwit"
+"Krachtige afstandsaanval met schade in een doelgebied\nZeer effectief tegen cavalerie \n Ability damage is improved at level 4 and 8. \nKlik met links op het icoontje en daarna met links op het doelwit"
 END
 CONTROLBAR:ToolTipLeap09v2
-"Nodig: niveau 2\nGimli springt naar een locatie en brengt schade toe aan de omgeving \n Ability radius of effect is improved at level 4 and 7. \nKlik met links op het icoontje en daarna met links op het doelgebied"
+"Nodig: niveau 2\nGimli springt naar een locatie en brengt schade toe aan de omgeving \n Ability radius of effect is improved at level 4 and 8. \nKlik met links op het icoontje en daarna met links op het doelgebied"
 END
 TOOLTIP:ToolTipWitchKing09v2
 "Mace attack radius of effect is improved at level 5 and 8."
@@ -245,10 +277,10 @@ CONTROLBAR:SummonEagleAlliesGaladriel09v2
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
-"Level 2: +50 Commandopunten"
+"Level 2: 100 Commandopunten"
 END
 UPGRADE:FarmLevel3Tooltip09v2
-"Level 3: +75 Commandopunten"
+"Level 3: 150 Commandopunten"
 END
 CONTROLBAR:ThunderBolt09v2
 "Storm van bliksemschichten [&B]"
@@ -597,11 +629,11 @@ OBJECT:SignalFireDescription09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
-"Sterk tegen cavalerie en \n Productiegebouwen voor eenheden \n Tower Guards krijgen +5% snelheid op level 3, 5 en 7."
+"Sterk tegen cavalerie en \n Productiegebouwen voor eenheden \n Tower Guards krijgen +5% snelheid op level 5 en 8."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
-"Sterk tegen speervechters\n en gebouwen die grondstoffen genereren \n Berschermers krijgen +5% snelheid op level 3, 5, 7 en 10."
+"Sterk tegen speervechters\n en gebouwen die grondstoffen genereren \n Berschermers krijgen +5% snelheid op level 5, 7 en 10."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
@@ -934,7 +966,7 @@ Map:map_pk_rhudel_steppe
 "Rhudel Steppe"
 End
 Map:map_pk_rhudel_steppe/Desc
-"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Original autor unknown."
+"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Map by Gnomi."
 End
 //------------------------------------------------------------
 Map:map_PK_Forlond
@@ -1728,14 +1760,14 @@ Map:GreenfrogPass
 "Greenfrog Pass"
 END
 Map:GreenfrogPass/Desc
-"A green lushful land divided by a central river."
+"A green lushful land divided by a central river. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 Map:Himling
 "Himling"
 END
 Map:Himling/Desc
-"An icy land with a central mountain."
+"An icy land with a central mountain. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 //	Map:LanthirLamath
@@ -1784,7 +1816,7 @@ Map:TheIvyBush
 "The Ivy Bush"
 END
 Map:TheIvyBush/Desc
-"Map named in honor of The Ivy Bush. A small inn on the Bywater road in the Shire. Here Gaffer Gamgee recounted to the visitors his stories about Bilbo and Frodo Baggins."
+"Map named in honor of The Ivy Bush. A small inn on the Bywater road in the Shire. Here Gaffer Gamgee recounted to the visitors his stories about Bilbo and Frodo Baggins. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 Map:RohanII
@@ -6238,15 +6270,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:Format3
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:Format2
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:BuildTime
@@ -30246,7 +30278,7 @@ CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades
 END
 
 CONTROLBAR:SpecialAbilityOilBarrels
-"Ol&ievaten"
+"Olievaten [&C]"
 END
 
 CONTROLBAR:SpecialAbilitySummonedDragonReposition
@@ -41110,7 +41142,7 @@ CONTROLBAR:ToolTipCAHAthelas
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership
-"Bondgenoten in de buurt van de held krijgen\n+50% schade en +50% pantser,\nen verdienen twee keer zo snel ervaring\n\nPassieve kracht Maximaal 1 per keer"
+"Allies near the Hero gain: \n +25% Damage, +25% Armor, \n and earn Experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1
@@ -41670,7 +41702,7 @@ CONTROLBAR:ToolTipCAH_Elendil_Palantir
 END
 
 CONTROLBAR:ToolTipCAH_BladeMaster_Palantir
-"Held krijgt tijdelijk +100% schade en +100% pantser\nKlik met links om te activeren"
+"Held krijgt tijdelijk +50% schade en +50% pantser\nKlik met links om te activeren"
 END
 
 CONTROLBAR:ToolTipCAHAthelas_Palantir
@@ -41678,7 +41710,7 @@ CONTROLBAR:ToolTipCAHAthelas_Palantir
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership_Palantir
-"Bondgenoten in de buurt van de held krijgen\n+50% schade en +50% pantser,\nen verdienen twee keer zo snel ervaring\n\nPassieve kracht Maximaal 1 per keer"
+"Allies near the Hero gain: \n +25% Damage, +25% Armor, \n and earn Experience 50% faster. \n «HighTierHero BUFF» \n Passive ability"
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1_Palantir

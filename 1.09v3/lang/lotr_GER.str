@@ -24,6 +24,38 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //----------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v301
+"Verringert die Nahkampfanfälligkeit der Festung\nStellt alle 7,5 Sekunden eine Einheit aus der nächsten Horde wieder her.\nWasserbonus: Verringert die Kosten für Ents.\n1 Festung mit Wassergraben = Ents 12,5 % günstiger\n2 Festungen: 25 % günstiger\n3 Festungen: 37,5 % günstiger\n4 Festungen: 50 % günstiger\n5 Festungen: 62,5 % günstiger"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v301
+"Vergiftet feindliche Einheiten, die die Festung angreifen, und reduziert ihre Gesamttempo auf 85 %.\nHeilt nahe Verbündete.\nIn Kombination mit dem Drachennest können auch fliegende Verbündete geheilt werden."
+END
+CONTROLBAR:ToolTipGloriousCharge09v3
+"Erfordert Stufe 5\nTheoden und nahe Kavallerie erhalten +60 % Rüstung und werden immun gegen Verlangsamung durch Niedermähen.\nStufe 8: Glorreicher Ansturm erhält zusätzlich +40 % Rüstung, +35 % Schaden sowie Immunität gegen Angst und Schrecken.\nTheoden muss beritten sein, um diese Fähigkeit zu verwenden\nDauer: 20 Sekunden.\nLinksklick zum Aktivieren"
+END
+CONTROLBAR:EvacuateHobbits09v301
+"Evakui&ere Merry & Pippin"
+End
+CONTROLBAR:EvacuateHobbitsDesc09v301
+"Befiehlt Merry & Pippin, von Baumbart abzusteigen"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations09v301
+"Heilt nahe Verbündete.\nStellt alle 5 Sekunden eine Einheit aus der nächsten Horde wieder her.\nVerringert die Kosten für Isengard-Gebäude und -Mauern\n1 Festung mit Ausgrabung = 7,5 % günstiger\n2 Festungen mit Ausgrabung = 15 % günstiger\n3 Festungen mit Ausgrabung = 20 % günstiger\n4 Festungen mit Ausgrabung = 25 % günstiger\n5 Festungen mit Ausgrabung = 33 % günstiger"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat09v301
+"Verringert die Nahkampfanfälligkeit der Festung\nHeilt nahe Einheiten\nVerringert die Kosten für Mordor-Upgrades\n1 Festung mit Lavagraben = 10 % günstiger\n2 Festungen: 20 % günstiger\n3 Festungen: 30 % günstiger\n4 Festungen: 40 % günstiger\n5 Festungen: 50 % günstiger"
+END
+CONTROLBAR:ToolTipDwarvenGloinShakeFoundation09v301
+"Erfordert Stufe 4\nDeaktiviert das Zielgebäude.\nReduziert die Produktion des Gebäudes für 10 Sekunden auf 10 %.\nÖffnet automatisch ein anvisiertes Tor\n Level 4: 2000 damage. \n Level 6: 2400 damage. \n Level 8: 2800 damage. \nLinksklick auf das Symbol, dann Linksklick auf das Ziel"
+END
+//----------------------------------
+CONTROLBAR:SpecialAbilityHumanHeads09v301
+"Menschliche Köpfe [&C]"
+End
+CONTROLBAR:SpecialAbilityHumanHeadsDesc09v301
+"Wirft menschliche Köpfe, um Feinde in die Flucht zu schlagen.\nLinksklick auf das Symbol, dann Linksklick auf das Zielgebiet"
+End
+//----------------------------------
 CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
 "Morgul Klinge [&V]"
 END
@@ -218,10 +250,10 @@ Color:Grey
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAxeThrow09v2
-"Effektiver Fernangriff mit Flächenschaden \n Besonders effektiv gegen Kavallerie und Lufteinheiten \n Fähigkeitsschaden wird auf Stufe 4 und 7 verbessert  \n Linksklicke auf das Symbol und anschließend auf das Ziel"
+"Effektiver Fernangriff mit Flächenschaden \n Besonders effektiv gegen Kavallerie und Lufteinheiten \n Fähigkeitsschaden wird auf Stufe 4 und 8 verbessert  \n Linksklicke auf das Symbol und anschließend auf das Ziel"
 END
 CONTROLBAR:ToolTipLeap09v2
-"Voraussetzung: Stufe 2 \n Gimli springt zu einer Position und verursacht dadurch Umgebungsschaden \n Der Wirkungsradius der Fähigkeit wird auf Stufe 4 und 7 verbessert  \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
+"Voraussetzung: Stufe 2 \n Gimli springt zu einer Position und verursacht dadurch Umgebungsschaden \n Der Wirkungsradius der Fähigkeit wird auf Stufe 4 und 8 verbessert  \n Linksklicke auf das Symbol und anschließend auf das Zielgebiet"
 END
 TOOLTIP:ToolTipWitchKing09v2
 "Der Wirkungsradius des Streitkolben-Angriffs wurde verbessert, wurde auf Stufe 5 und 8 verbessert "
@@ -247,10 +279,10 @@ CONTROLBAR:SummonEagleAlliesGaladriel09v2
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
-"Stufe 2: +50 Kommandeurspunkte"
+"Stufe 2: 100 Kommandeurspunkte"
 END
 UPGRADE:FarmLevel3Tooltip09v2
-"Stufe 3: +75 Kommandeurspunkte""
+"Stufe 3: 150 Kommandeurspunkte""
 END
 CONTROLBAR:ThunderBolt09v2
 "Sturmblitze [&B]"
@@ -596,11 +628,11 @@ OBJECT:SignalFireDescription09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
-"Stark gegen Kavallerie und \n Einheiten-Produktionsgebäude \n Turmwächter erhalten +5% an Geschwindigkeit auf Stufe 3, 5 und 7."
+"Stark gegen Kavallerie und \n Einheiten-Produktionsgebäude \n Turmwächter erhalten +5% an Geschwindigkeit auf Stufe 5 und 8."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
-"Stark gegen Piken\n und Ressourcengebäuden \n Wächter erhalten +5% Geschwindigkeit auf Stufe 3, 5, 7 und 10."
+"Stark gegen Piken\n und Ressourcengebäuden \n Wächter erhalten +5% Geschwindigkeit auf Stufe 5, 7 und 10."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
@@ -933,7 +965,7 @@ Map:map_pk_rhudel_steppe
 "Rhudel Steppe"
 End
 Map:map_pk_rhudel_steppe/Desc
-"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Original autor unknown."
+"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Map by Gnomi."
 End
 //------------------------------------------------------------
 Map:map_PK_Forlond
@@ -1727,14 +1759,14 @@ Map:GreenfrogPass
 "Greenfrog Pass"
 END
 Map:GreenfrogPass/Desc
-"A green lushful land divided by a central river."
+"A green lushful land divided by a central river. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 Map:Himling
 "Himling"
 END
 Map:Himling/Desc
-"An icy land with a central mountain."
+"An icy land with a central mountain. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 //	Map:LanthirLamath
@@ -1783,7 +1815,7 @@ Map:TheIvyBush
 "The Ivy Bush"
 END
 Map:TheIvyBush/Desc
-"Map named in honor of The Ivy Bush. A small inn on the Bywater road in the Shire. Here Gaffer Gamgee recounted to the visitors his stories about Bilbo and Frodo Baggins."
+"Map named in honor of The Ivy Bush. A small inn on the Bywater road in the Shire. Here Gaffer Gamgee recounted to the visitors his stories about Bilbo and Frodo Baggins. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 Map:RohanII
@@ -6238,15 +6270,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:Format3
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:Format2
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:BuildTime
@@ -30250,7 +30282,7 @@ CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades
 END
 
 CONTROLBAR:SpecialAbilityOilBarrels
-"Ölfässer (&I)"
+"Ölfässer (&C)"
 END
 
 CONTROLBAR:SpecialAbilitySummonedDragonReposition
@@ -41118,7 +41150,7 @@ CONTROLBAR:ToolTipCAHAthelas
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership
-"Verbündete in der Nähe des Helden \n verursachen +50% Schaden, erhalten \n +50% Rüstung und sammeln doppelt so schnell Erfahrung \n \n Passive Fähigkeit - Wird nicht addiert"
+"Verbündete in der Nähe des Helden \n erhalten +25 % Schaden, +25 % Rüstung und sammlen 50 % schneller Erfahrung. \n «HighTierHero BUFF» \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1
@@ -41678,7 +41710,7 @@ CONTROLBAR:ToolTipCAH_Elendil_Palantir
 END
 
 CONTROLBAR:ToolTipCAH_BladeMaster_Palantir
-"Der Held verursacht vorübergehend +100% Schaden und erhält +100% Rüstung \n Aktivieren mit Linksklick"
+"Der Held verursacht vorübergehend +50% Schaden und erhält +50% Rüstung \n Aktivieren mit Linksklick"
 END
 
 CONTROLBAR:ToolTipCAHAthelas_Palantir
@@ -41686,7 +41718,7 @@ CONTROLBAR:ToolTipCAHAthelas_Palantir
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership_Palantir
-"Verbündete in der Nähe des Helden \n verursachen +50% Schaden, erhalten \n +50% Rüstung und sammeln doppelt so schnell Erfahrung \n \n Passive Fähigkeit - Wird nicht addiert"
+"Verbündete in der Nähe des Helden \n erhalten +25 % Schaden, +25 % Rüstung und sammlen 50 % schneller Erfahrung. \n «HighTierHero BUFF» \n Passive Fähigkeit"
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1_Palantir

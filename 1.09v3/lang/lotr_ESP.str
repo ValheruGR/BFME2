@@ -24,30 +24,62 @@ CONTROLBAR:nothingDesc09v2
 "nothing"
 END
 //----------------------------------
+CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat09v301
+"Disminuye la vulnerabilidad cuerpo a cuerpo de la fortaleza. \n Repone una unidad del batallón mas cercano cada 7.5 segundos. \n Descuento por Agua: reduce el coste de los Ents y Bárbol: \n 1 fortaleza con foso de cristal = 12.5% más baratos \n 2 fortalezas 25% más baratas \n 3 fortalezas = 37.5% más baratas \n 4 fortalezas = 50% más baratas \n 5 fortalezas = 62.5% más baratas"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines09v301
+"Envenena a las unidades enemigas que se encuentren atacando la fortaleza y les reduce su velocidad en un -15%. \n Las unidades aliadas cercanas serán lentamente curadas. \n Si la mejora Nido de Dragón fue comprada, las Espinas Afiladas pueden curar cualquier unidad voladora"
+END
+CONTROLBAR:ToolTipGloriousCharge09v3
+"Requisito: Nivel 5 \n Théoden y las tropas de caballería cercanas reciben +60% armadura y se vuelven inmune a la desaceleración por pisoteo. \n Requisito: Nivel 8 \n Carga Gloriosa provee +40% mas armadura, +35% mejora al daño e inmunidad al miedo y el terror \n Théoden debe estar montado para usar esta capacidad. \n Para activarlo, haz clic con el botón izquierdo."
+END
+CONTROLBAR:EvacuateHobbits09v301
+"Evacuar a Merry y Pippin [&T]"
+End
+CONTROLBAR:EvacuateHobbitsDesc09v301
+"Ordena a Merry y Pippin bajarse de Bárbol"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations09v301
+"Cura las unidades cercanas \n Repone una unidad de la horda mas cercana cada 10 segundos. \n Reduce el coste de las estructuras y murallas de Isengard: \n 1 fortaleza con excavaciones = 7.5% más baratas \n 2 fortalezas = 15% más baratas \n 3 fortalezas = 20% más baratas \n 4 fortalezas = 25% más baratas \n 5 fortalezas = 33% más baratas"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat09v301
+"Disminuye la vulnerabilidad cuerpo a cuerpo de la fortaleza \n Cura unidades aliadas \n Reduce el coste de las mejoras de Mordor: \n 1 fortaleza con foso de magma = 10% más baratas \n 2 fortalezas = 20% más baratas \n 3 fortalezas = 30% más baratas \n 4 fortalezas = 40% más baratas \n 5 fortalezas = 50% más baratas"
+END
+CONTROLBAR:ToolTipDwarvenGloinShakeFoundation09v301
+"Requisito: Nivel 4 \n Neutraliza el edificio enemigo. \n Reduce la producción del edificio en un -90% durante 10 segundos. \n Abre automáticamente la puerta apuntada. \n Nivel 4: 2000 daño. \n Nivel 6: 2400 daño. \n Nivel 8: 2800 daño. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+END
+//----------------------------------
+CONTROLBAR:SpecialAbilityHumanHeads09v301
+"Cabezas humanas [&C]"
+End
+CONTROLBAR:SpecialAbilityHumanHeadsDesc09v301
+"Arroja cabezas humanas para asustar a los enemigos. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo"
+End
+//----------------------------------
 CONTROLBAR:WitchKingBlackRiderMorgulBlade09v3
-"Morgul Blade [&V]"
+"Acero de Morgul [&V]"
 END
 //----------------------------------
 OBJECT:HaradCamp_New
-"Haradrim tent"
+"Tienda haradrim"
 End
 OBJECT:HaradCampDesc_New
-"Allows training of Haradrim warriors"
+"Permite reclutar Guerreros Haradrim"
 End
 OBJECT:LF_New
-"Secret Entrance"
+"Entrada secreta"
 End
 OBJECT:LF_Disc_New
-"Capture it to decrease recharge times for unused powers \n Heals nearby heroes and Flyers. \n\n -25% reduction of spellbook reload time"
+"Captúrala para reducir el tiempo de recarga de los poderes que no se acaban de usar \n Cura cualquier clase de héroe, incluso aereos.\n 1 almenara = -25% reducción de recargas de poderes del palantir"
 End
 OBJECT:MercenaryCamp_New
-"Mercenary Camp"
+"Campamento de mercenarios"
 END
 OBJECT:DunlandHallTooltip_New
-"Dunland House"
+"Casa de Dunland"
 End
 TOOLTIP:DunlandHallDesc_New
-"Allows training of Dunland Men"
+"Permite reclutar batidores dunlendinos"
 End
 //------------------------------------------------------------
 CONTROLBAR:WildWalk09v3
@@ -63,11 +95,11 @@ CONTROLBAR:ToolTipThranduilWildWalk09v3
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde09v3
-"Strong vs. Cavalry and \n Unit Production Buildings \n Can stealth near trees. \n Gains +4% speed at level 4, 7 and 10."
+"Fuerte contra caballería y \n edificios de construcción de unidades. \n Se puede esconder cerca de los árboles. \n Los guardias de Mithlond ganan +4% velocidad en los niveles 4, 7 y 10."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipEvilHeal09v3
-"Partially heals armies and monsters. \n Replaces 2 dead units per horde. \n Left click icon then left click on target area"
+"Cura parcialmente a unidades y monstruos,\n reemplaza 2 muertos por batallón. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 //------------------------------------------------------------
 TOOLTIP:GandalfTheWhite09v3
@@ -216,10 +248,10 @@ Color:Grey
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipAxeThrow09v2
-"Ataque a distancia que causa daño con área de efecto. \n Especialmente efectivo contra caballería y unidades aereas. \n El daño causado por el proyectil aumenta en los niveles 4 y 7. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
+"Ataque a distancia que causa daño con área de efecto. \n Especialmente efectivo contra caballería y unidades aereas. \n El daño causado por el proyectil aumenta en los niveles 4 y 8. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo."
 END
 CONTROLBAR:ToolTipLeap09v2
-"Requisito: Nivel 2 \n Gimli salta causando daño en una zona. \n El daño en area de la habilidad es mejorado en los niveles 4 y 7. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
+"Requisito: Nivel 2 \n Gimli salta causando daño en una zona. \n El daño en area de la habilidad es mejorado en los niveles 4 y 8. \n Haz clic con el botón izquierdo sobre el icono y, a continuación, sobre la zona objetivo."
 END
 TOOLTIP:ToolTipWitchKing09v2
 "El daño en area causado por la maza del Rey Brujo es mejorado en los niveles 5 y 8."
@@ -245,10 +277,10 @@ CONTROLBAR:SummonEagleAlliesGaladriel09v2
 End
 //------------------------------------------------------------
 UPGRADE:FarmLevel2Tooltip09v2
-"Nivel 2: +50 Puntos de mando"
+"Nivel 2: 100 Puntos de mando"
 END
 UPGRADE:FarmLevel3Tooltip09v2
-"Nivel 3: +75 Puntos de mando"
+"Nivel 3: 150 Puntos de mando"
 END
 CONTROLBAR:ThunderBolt09v2
 "Tormenta de Rayos (&B)"
@@ -598,11 +630,11 @@ OBJECT:SignalFireDescription09v2
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde09v2
-"Fuerte contra caballería y \n edificios de construcción de unidades. \n Los Guardias de la Torre ganan +5% velocidad en los niveles 3, 5 y 7."
+"Fuerte contra caballería y \n edificios de construcción de unidades. \n Los Guardias de la Torre ganan +5% velocidad en los niveles 5 y 8."
 END
 //------------------------------------------------------------
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde09v2
-"Fuerte contra piqueros y edificios generadores de recursos. \n Los Guardianes ganan +5% velocidad en los niveles 3, 5, 7 y 10."
+"Fuerte contra piqueros y edificios generadores de recursos. \n Los Guardianes ganan +5% velocidad en los niveles 5, 7 y 10."
 End
 //------------------------------------------------------------
 CONTROLBAR:ToolTipGloinSmash09v2
@@ -935,7 +967,7 @@ Map:map_pk_rhudel_steppe
 "Rhudel Steppe"
 End
 Map:map_pk_rhudel_steppe/Desc
-"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Original autor unknown."
+"Rhudel is a plain land beyond the sea of Rhun, whose name implies horror in the east, possibly due the existance of dragons. Despite not being fertile enough to support permanent habitation, there is a significant amount of ruins of unknown origin. \n Map remade by Powerkartoffel. \n Map by Gnomi."
 End
 //------------------------------------------------------------
 Map:map_PK_Forlond
@@ -1729,14 +1761,14 @@ Map:GreenfrogPass
 "Greenfrog Pass"
 END
 Map:GreenfrogPass/Desc
-"A green lushful land divided by a central river."
+"A green lushful land divided by a central river. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 Map:Himling
 "Himling"
 END
 Map:Himling/Desc
-"An icy land with a central mountain."
+"An icy land with a central mountain. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 //	Map:LanthirLamath
@@ -1785,7 +1817,7 @@ Map:TheIvyBush
 "The Ivy Bush"
 END
 Map:TheIvyBush/Desc
-"Map named in honor of The Ivy Bush. A small inn on the Bywater road in the Shire. Here Gaffer Gamgee recounted to the visitors his stories about Bilbo and Frodo Baggins."
+"Map named in honor of The Ivy Bush. A small inn on the Bywater road in the Shire. Here Gaffer Gamgee recounted to the visitors his stories about Bilbo and Frodo Baggins. \n Map by Gnomi."
 END
 //------------------------------------------------------------
 Map:RohanII
@@ -6242,15 +6274,15 @@ QM:TimeoutOtherPlayer
 END
 
 Version:Format4
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:Format3
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:Format2
-"1.09v3"
+"1.09v3.1"
 END
 
 Version:BuildTime
@@ -30257,7 +30289,6 @@ END
 CONTROLBAR:SpecialAbilityOilBarrels
 "Ba&rriles de aceite"
 END
-// (&R)
 
 CONTROLBAR:SpecialAbilitySummonedDragonReposition
 "Cambia&r de posición"
@@ -41126,7 +41157,7 @@ CONTROLBAR:ToolTipCAHAthelas
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership
-"Los aliados cercanos al héroe ganan \n +50% al daño, +50% a la armadura. \n y consiguen experiencia el doble de rápido. \n \n Capacidad pasiva. \n \n No se acumula."
+"Los aliados cercanos al héroe ganan \n +25% al daño, +25% a la armadura. \n y consiguen experiencia 50% más rápido. \n «HighTierHero BUFF» \n Capacidad pasiva."
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1
@@ -41686,7 +41717,7 @@ CONTROLBAR:ToolTipCAH_Elendil_Palantir
 END
 
 CONTROLBAR:ToolTipCAH_BladeMaster_Palantir
-"El héroe gana temporalmente +100% al daño y +100% a la armadura. \n Para activarlo, haz clic con el botón izquierdo."
+"El héroe gana temporalmente +50% al daño y +50% a la armadura. \n Para activarlo, haz clic con el botón izquierdo."
 END
 
 CONTROLBAR:ToolTipCAHAthelas_Palantir
@@ -41694,7 +41725,7 @@ CONTROLBAR:ToolTipCAHAthelas_Palantir
 END
 
 CONTROLBAR:ToolTipCreateAHeroLeadership_Palantir
-"Los aliados cercanos al héroe ganan \n +50% al daño, +50% a la armadura \n y consiguen experiencia el doble de rápido. \n \n Capacidad pasiva \n \n No se acumula."
+"Los aliados cercanos al héroe ganan \n +25% al daño, +25% a la armadura. \n y consiguen experiencia 50% más rápido. \n «HighTierHero BUFF» \n Capacidad pasiva."
 END
 
 CONTROLBAR:ToolTipInvulnerability_Level1_Palantir

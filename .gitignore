@@ -25,12 +25,16 @@
 /vBTP_3.03
 /1.09v301/art
 /1.09v301/data
+/Asset Builder/data/audio
+/1.09v301/lang
 /1.09v301/maps
 /1.09v301/maps450
 /1.09v301/maps560
 /1.09v301/*.rar
 /1.09v301/*.7z
-/1.09v301/*.lnk
+/1.09v301/*.dat
+/1.09v301/delayfixer/*.dat
+/1.09v301/singleplayer/*.dat
 
 /releases/BT2DC
 /releases/1.09v3.0 - beta versions

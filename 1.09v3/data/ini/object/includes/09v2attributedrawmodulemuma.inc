@@ -41,7 +41,7 @@
 				Model = exmordorhealmum
 				; Texture = exhealmordor.tga exheal_green.tga ;;.;;
 				; Texture = exhealmordor.tga exheal_orang.tga ;;.;;
-				ParticleSysBone		= NONE SpellHealMordorHugeMorgul09v3 FollowBone:Yes
+				ParticleSysBone		= NONE SpellHealMordorHuge FollowBone:Yes
  			End
  		End
 	//-----------------------------------------------------------------------------
