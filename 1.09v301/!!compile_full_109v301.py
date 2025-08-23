@@ -56,6 +56,7 @@ def process_langList(lang_list: list[Path], destino_root: Path):
 		"lotr_NOR.str": "norwegianpatch109v301.big",
 		"lotr_POL.str": "polishpatch109v301.big",
 		"lotr_SWE.str": "swedishpatch109v301.big",
+		#"lotr_TUR.str": "turkishpatch109v301.big",
 		"lotr_RUS.csf": "russianpatch109v301.big",
 	}
 	langfolder = destino_root / "lang"
@@ -118,7 +119,8 @@ if __name__ == "__main__":
 			"diff",
 			"--diff-filter=AM",                  # only added/modified
 			"--name-only",
-			"master",
+			# "master",
+			"1.09v3.0",
 			"--", "1.09v3/"                      # folder filter
 		],
 		capture_output=True,
