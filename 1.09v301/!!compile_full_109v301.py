@@ -85,7 +85,7 @@ class Patch:
 					destino = file_str.replace("1.09v3/", "").replace("/","\\")
 				))
 					
-			elif file_str.endswith(".dat") or file_str.endswith(".jpg"):
+			elif file_str.endswith(".dat") or file_str.endswith("plash.jpg"):
 				datList.append(file_str)
 			
 			else:
@@ -142,7 +142,7 @@ class Patch:
 			"lotr_NOR.str": "norwegianpatch109v301.big",
 			"lotr_POL.str": "polishpatch109v301.big",
 			"lotr_SWE.str": "swedishpatch109v301.big",
-			#"lotr_TUR.str": "turkishpatch109v301.big",
+			# "lotr_TUR.str": "turkishpatch109v301.big",
 			"lotr_RUS.csf": "russianpatch109v301.big",
 		}
 		langfolder = self.output_to / "lang"
@@ -158,6 +158,8 @@ class Patch:
 					langfile.add_file(r"data\lotr.str", b"")
 				else:
 					langfile.add_file(r"data\lotr.str", lang_file.read_bytes())
+					
+					
 				for name, source in APPENDTHISONESTOLAND.items():
 					langfile.add_file(
 						self.process_to_big(source), 
@@ -172,20 +174,27 @@ class Patch:
 
 if __name__ == "__main__":
 	REPOSITORY_ROOT = Path(r"D:\_")
+	
+	# patch_v301 = Patch(
+		# from_branch = "1.09v3.0",
+		# to_branch = "1.09v3.1release",
+		# output_to = Path(r"C:\Program Files (x86)\BFME2 Ecth's Patch Switcher\109v301\ßdev"),
+		# output_big_name = "###__BT2DC-v1.09v3.01.big",
+	# ).compile()
+	# patch_v301_01= Patch(
+		# from_branch = "1.09v3.1release",
+		# to_branch = "master",
+		# output_to = Path(r"C:\Program Files (x86)\BFME2 Ecth's Patch Switcher\109v301\ßdev"),
+		# output_big_name = "###__!BT2DC-v1.09v3.01_Addon.big", #"###__!bt2dc-v1.09v3.01_arenamapsfix.big"
+	# ).compile()
+
+
+
+
+
 	patch_v301 = Patch(
-		from_branch = "1.09v3.00-released",
+		from_branch = "1.09v3.0",
 		to_branch = "master",
 		output_to = Path(r"C:\Program Files (x86)\BFME2 Ecth's Patch Switcher\109v301\ßdev"),
 		output_big_name = "###__BT2DC-v1.09v3.01.big",
-	)
-	patch_v301_01= Patch(
-		from_branch = "1.09v3.1release",
-		to_branch = "master",
-		# output_to = Path(r"D:\_\1.09v301"),
-		output_to = Path(r"C:\Program Files (x86)\BFME2 Ecth's Patch Switcher\109v301\ßdev"),
-		output_big_name = "###__!bt2dc-v1.09v3.01_arenamapsfix.big",
-	)
-	
-	
-	patch_v301_01.compile()
-	# patch_v301.compile()
+	).compile()
